@@ -69,11 +69,14 @@ for c in chars:
 
 depth = 1
 
-while depth < 8:
+while True:
     deps[depth + 1] = set()
     for c in chars:
         if c["degs"] == depth:
             deps[depth + 1].update(c["uses"])
+    
+    if len(deps[depth + 1]) == 0:
+        break
 
     for c in chars:
         if not c["degs"]:
