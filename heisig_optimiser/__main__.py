@@ -67,83 +67,20 @@ for c in chars:
             if name in deps[1]:
                 c["degs"] = 1
 
-deps[2] = set()
-for c in chars:
-    if c["degs"] == 1:
-        deps[2].update(c["uses"])
+depth = 1
 
-for c in chars:
-    if not c["degs"]:
-        for name in [c["keyword"]] + c["aka"]:
-            if name in deps[2]:
-                c["degs"] = 2
+while depth < 8:
+    deps[depth + 1] = set()
+    for c in chars:
+        if c["degs"] == depth:
+            deps[depth + 1].update(c["uses"])
 
-deps[3] = set()
-for c in chars:
-    if c["degs"] == 2:
-        deps[3].update(c["uses"])
-
-for c in chars:
-    if not c["degs"]:
-        for name in [c["keyword"]] + c["aka"]:
-            if name in deps[3]:
-                c["degs"] = 3
-
-
-deps[4] = set()
-for c in chars:
-    if c["degs"] == 3:
-        deps[4].update(c["uses"])
-
-for c in chars:
-    if not c["degs"]:
-        for name in [c["keyword"]] + c["aka"]:
-            if name in deps[4]:
-                c["degs"] = 4
-
-deps[5] = set()
-for c in chars:
-    if c["degs"] == 4:
-        deps[5].update(c["uses"])
-
-for c in chars:
-    if not c["degs"]:
-        for name in [c["keyword"]] + c["aka"]:
-            if name in deps[5]:
-                c["degs"] = 5
-
-deps[6] = set()
-for c in chars:
-    if c["degs"] == 5:
-        deps[6].update(c["uses"])
-
-for c in chars:
-    if not c["degs"]:
-        for name in [c["keyword"]] + c["aka"]:
-            if name in deps[6]:
-                c["degs"] = 6
-
-deps[7] = set()
-for c in chars:
-    if c["degs"] == 6:
-        deps[7].update(c["uses"])
-
-for c in chars:
-    if not c["degs"]:
-        for name in [c["keyword"]] + c["aka"]:
-            if name in deps[7]:
-                c["degs"] = 7
-
-deps[8] = set()
-for c in chars:
-    if c["degs"] == 7:
-        deps[8].update(c["uses"])
-
-for c in chars:
-    if not c["degs"]:
-        for name in [c["keyword"]] + c["aka"]:
-            if name in deps[8]:
-                c["degs"] = 8
+    for c in chars:
+        if not c["degs"]:
+            for name in [c["keyword"]] + c["aka"]:
+                if name in deps[depth + 1]:
+                    c["degs"] = depth + 1
+    depth += 1
 
 filtered_rows = []
 for c in chars:
