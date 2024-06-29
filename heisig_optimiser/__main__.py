@@ -54,40 +54,39 @@ for frame in root.iter("frame"):
 
 deps = {}
 
+depth = 0
+
+# Go through the elementary characters and get their deps
 deps[1] = set()
 for c in chars:
-    c["degs"] = None
+    c["required"] = None
     if c["level"] == "Elementary":
-        c["degs"] = 0
+        c["required"] = f"Elementary ({depth})"
         deps[1].update(c["uses"])
 
+# Find the dependencies, mark them as requires, and get their subdependencies
+deps[2] = set()
 for c in chars:
-    if c["level"] != "Elementary":
+     if not c["required"]:
         for name in [c["keyword"]] + c["aka"]:
             if name in deps[1]:
-                c["degs"] = 1
+                c["required"] = f"Elementary ({depth + 1})"
+                deps[2].update(c["uses"])
 
-depth = 1
 
-while True:
-    deps[depth + 1] = set()
+while len(deps[depth + 1]):
+    depth += 1
+    deps[depth + 2] = set()
     for c in chars:
-        if c["degs"] == depth:
-            deps[depth + 1].update(c["uses"])
-    
-    if len(deps[depth + 1]) == 0:
-        break
-
-    for c in chars:
-        if not c["degs"]:
+        if not c["required"]:
             for name in [c["keyword"]] + c["aka"]:
                 if name in deps[depth + 1]:
-                    c["degs"] = depth + 1
-    depth += 1
+                    c["required"] = f"Elementary ({depth + 1})"
+                    deps[depth + 2].update(c["uses"])
 
 filtered_rows = []
 for c in chars:
-    if c["degs"] is not None and c["number"]:
+    if c["required"] is not None and c["number"]:
         number = int(c["number"])
         if number > START and number < END:
             filtered_rows.append(c)
