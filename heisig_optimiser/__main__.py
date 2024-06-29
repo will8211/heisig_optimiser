@@ -26,28 +26,28 @@ for level in levels:
 
 for frame in root.iter("frame"):
     char = {}
-    char["number"] = frame.attrib.get("number")
-    char["character"] = frame.attrib.get("character")
-    char["type"] = frame.attrib.get("{http://www.w3.org/2001/XMLSchema-instance}type")
+    char["No."] = frame.attrib.get("number")
+    char["Char."] = frame.attrib.get("character")
+    char["Type"] = frame.attrib.get("{http://www.w3.org/2001/XMLSchema-instance}type")
 
-    char["level"] = None
+    char["Level"] = None
     for level in levels:
-        if char["character"] in hsk[level]:
-            char["level"] = level
+        if char["Char."] in hsk[level]:
+            char["Level"] = level
             break
 
-    char["keyword"] = frame.attrib.get("keyword")
+    char["Keyword"] = frame.attrib.get("keyword")
 
     pself_elems = frame.findall(".//pself")
-    char["aka"] = []
+    char["A.K.A."] = []
     for e in pself_elems:
-        if e.text != char["keyword"]:
-            char["aka"].append(e.text)
+        if e.text != char["Keyword"]:
+            char["A.K.A."].append(e.text)
 
     cite_elems = frame.findall(".//cite")
-    char["uses"] = []
+    char["Requires"] = []
     for e in cite_elems:
-        char["uses"].append(e.text)
+        char["Requires"].append(e.text)
 
     chars.append(char)
 
@@ -60,34 +60,34 @@ deps[depth] = set()
 
 # Go through the elementary characters and get their deps
 for c in chars:
-    c["required"] = None
-    if c["level"] == "Elementary":
-        c["required"] = f"Elementary ({depth})"
-        deps[depth].update(c["uses"])
+    c["Required for"] = None
+    if c["Level"] == "Elementary":
+        c["Required for"] = f"Elementary ({depth})"
+        deps[depth].update(c["Requires"])
 
 # Increment depth to start processing subdependencies
 depth += 1
 
 # Loop through the dependencies and mark them as required, get their subdependencies
-while deps[depth - 1]:  # Ensure there are dependencies to process
-    deps[depth] = set()  # Initialize the next level of dependencies
+while deps[depth - 1]:
+    deps[depth] = set()
     for c in chars:
-        if not c["required"]:
-            for name in [c["keyword"]] + c["aka"]:
+        if not c["Required for"]:
+            for name in [c["Keyword"]] + c["A.K.A."]:
                 if name in deps[depth - 1]:
-                    c["required"] = f"Elementary ({depth})"
-                    deps[depth].update(c["uses"])
+                    c["Required for"] = f"Elementary ({depth})"
+                    deps[depth].update(c["Requires"])
     depth += 1
 
 
 filtered_rows = []
 for c in chars:
-    if c["required"] is not None and c["number"]:
-        number = int(c["number"])
+    if c["Required for"] is not None and c["No."]:
+        number = int(c["No."])
         if number > START and number < END:
             filtered_rows.append(c)
 
-csv = tabulate(filtered_rows, headers="keys", tablefmt="tsv", showindex="always")
+csv = tabulate(filtered_rows, headers="keys", tablefmt="tsv")
 csv = "\n".join([line.replace("[", "").replace("]", "") for line in csv.split("\n")])
 
 with open("out/out.csv", "w") as f:
