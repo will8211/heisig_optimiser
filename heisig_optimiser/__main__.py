@@ -1,4 +1,5 @@
 import xml.etree.ElementTree as ET
+from typing import Dict, Set
 
 from tabulate import tabulate
 
@@ -51,30 +52,32 @@ for frame in root.iter("frame"):
     chars.append(char)
 
 
-deps = {}
-
+deps: Dict[int, Set[str]] = {}
 depth = 0
 
 # Initialize the first level of dependencies
-deps[depth + 1] = set()
+deps[depth] = set()
 
 # Go through the elementary characters and get their deps
 for c in chars:
     c["required"] = None
     if c["level"] == "Elementary":
         c["required"] = f"Elementary ({depth})"
-        deps[depth + 1].update(c["uses"])
+        deps[depth].update(c["uses"])
+
+# Increment depth to start processing subdependencies
+depth += 1
 
 # Loop through the dependencies and mark them as required, get their subdependencies
-while deps.get(depth + 1):
-    depth += 1
-    deps[depth + 1] = set() 
+while deps[depth - 1]:  # Ensure there are dependencies to process
+    deps[depth] = set()  # Initialize the next level of dependencies
     for c in chars:
         if not c["required"]:
             for name in [c["keyword"]] + c["aka"]:
-                if name in deps[depth]:
+                if name in deps[depth - 1]:
                     c["required"] = f"Elementary ({depth})"
-                    deps[depth + 1].update(c["uses"])
+                    deps[depth].update(c["uses"])
+    depth += 1
 
 
 filtered_rows = []
