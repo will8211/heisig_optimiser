@@ -1,4 +1,3 @@
-from ast import keyword
 import xml.etree.ElementTree as ET
 
 from tabulate import tabulate
@@ -56,33 +55,27 @@ deps = {}
 
 depth = 0
 
+# Initialize the first level of dependencies
+deps[depth + 1] = set()
+
 # Go through the elementary characters and get their deps
-deps[1] = set()
 for c in chars:
     c["required"] = None
     if c["level"] == "Elementary":
         c["required"] = f"Elementary ({depth})"
-        deps[1].update(c["uses"])
+        deps[depth + 1].update(c["uses"])
 
-# Find the dependencies, mark them as requires, and get their subdependencies
-deps[2] = set()
-for c in chars:
-     if not c["required"]:
-        for name in [c["keyword"]] + c["aka"]:
-            if name in deps[depth + 1]:
-                c["required"] = f"Elementary ({depth + 1})"
-                deps[depth + 2].update(c["uses"])
-
-
-while len(deps[depth + 1]):
+# Loop through the dependencies and mark them as required, get their subdependencies
+while deps.get(depth + 1):
     depth += 1
-    deps[depth + 2] = set()
+    deps[depth + 1] = set() 
     for c in chars:
         if not c["required"]:
             for name in [c["keyword"]] + c["aka"]:
-                if name in deps[depth + 1]:
-                    c["required"] = f"Elementary ({depth + 1})"
-                    deps[depth + 2].update(c["uses"])
+                if name in deps[depth]:
+                    c["required"] = f"Elementary ({depth})"
+                    deps[depth + 1].update(c["uses"])
+
 
 filtered_rows = []
 for c in chars:
