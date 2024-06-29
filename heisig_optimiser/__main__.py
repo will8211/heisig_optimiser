@@ -51,95 +51,98 @@ for frame in root.iter("frame"):
 
     chars.append(char)
 
-deps_1 = set()
+
+deps = {}
+
+deps['1'] = set()
 for c in chars:
     c["degs"] = None
     if c["level"] == "Elementary":
         c["degs"] = 0
-        deps_1.update(c["uses"])
+        deps['1'].update(c["uses"])
 
 for c in chars:
     if c["level"] != "Elementary":
         for name in [c["keyword"]] + c["aka"]:
-            if name in deps_1:
+            if name in deps['1']:
                 c["degs"] = 1
 
-deps_2 = set()
+deps['2'] = set()
 for c in chars:
     if c["degs"] == 1:
-        deps_2.update(c["uses"])
+        deps['2'].update(c["uses"])
 
 for c in chars:
     if not c["degs"]:
         for name in [c["keyword"]] + c["aka"]:
-            if name in deps_2:
+            if name in deps['2']:
                 c["degs"] = 2
 
-deps_3 = set()
+deps['3'] = set()
 for c in chars:
     if c["degs"] == 2:
-        deps_3.update(c["uses"])
+        deps['3'].update(c["uses"])
 
 for c in chars:
     if not c["degs"]:
         for name in [c["keyword"]] + c["aka"]:
-            if name in deps_3:
+            if name in deps['3']:
                 c["degs"] = 3
 
 
-deps_4 = set()
+deps['4'] = set()
 for c in chars:
     if c["degs"] == 3:
-        deps_4.update(c["uses"])
+        deps['4'].update(c["uses"])
 
 for c in chars:
     if not c["degs"]:
         for name in [c["keyword"]] + c["aka"]:
-            if name in deps_4:
+            if name in deps['4']:
                 c["degs"] = 4
 
-deps_5 = set()
+deps['5'] = set()
 for c in chars:
     if c["degs"] == 4:
-        deps_5.update(c["uses"])
+        deps['5'].update(c["uses"])
 
 for c in chars:
     if not c["degs"]:
         for name in [c["keyword"]] + c["aka"]:
-            if name in deps_5:
+            if name in deps['5']:
                 c["degs"] = 5
 
-deps_6 = set()
+deps['6'] = set()
 for c in chars:
     if c["degs"] == 5:
-        deps_6.update(c["uses"])
+        deps['6'].update(c["uses"])
 
 for c in chars:
     if not c["degs"]:
         for name in [c["keyword"]] + c["aka"]:
-            if name in deps_6:
+            if name in deps['6']:
                 c["degs"] = 6
 
-deps_7 = set()
+deps['7'] = set()
 for c in chars:
     if c["degs"] == 6:
-        deps_7.update(c["uses"])
+        deps['7'].update(c["uses"])
 
 for c in chars:
     if not c["degs"]:
         for name in [c["keyword"]] + c["aka"]:
-            if name in deps_7:
+            if name in deps['7']:
                 c["degs"] = 7
 
-deps_8 = set()
+deps['8'] = set()
 for c in chars:
     if c["degs"] == 7:
-        deps_8.update(c["uses"])
+        deps['8'].update(c["uses"])
 
 for c in chars:
     if not c["degs"]:
         for name in [c["keyword"]] + c["aka"]:
-            if name in deps_8:
+            if name in deps['8']:
                 c["degs"] = 8
 
 filtered_rows = []
