@@ -69,9 +69,9 @@ deps[2] = set()
 for c in chars:
      if not c["required"]:
         for name in [c["keyword"]] + c["aka"]:
-            if name in deps[1]:
+            if name in deps[depth + 1]:
                 c["required"] = f"Elementary ({depth + 1})"
-                deps[2].update(c["uses"])
+                deps[depth + 2].update(c["uses"])
 
 
 while len(deps[depth + 1]):
