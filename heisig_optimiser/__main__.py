@@ -4,7 +4,7 @@ from typing import Dict, Set
 from tabulate import tabulate
 
 START = 0
-END = 3000
+END = 500001
 BOOK_ONE_ONLY = False
 
 tree = ET.parse("data/rsh.xml")
@@ -26,13 +26,14 @@ for level in levels:
 
 for frame in root.iter("frame"):
     char = {}
-    char["No."] = frame.attrib.get("number")
-    char["Char."] = frame.attrib.get("character")
+    number = frame.attrib.get("number")
+    char["No."] = int(number) if number else None
+    char["Character"] = frame.attrib.get("character")
     char["Type"] = frame.attrib.get("{http://www.w3.org/2001/XMLSchema-instance}type")
 
     char["Level"] = None
     for level in levels:
-        if char["Char."] in hsk[level]:
+        if char["Character"] in hsk[level]:
             char["Level"] = level
             break
 
@@ -52,42 +53,58 @@ for frame in root.iter("frame"):
     chars.append(char)
 
 
-deps: Dict[int, Set[str]] = {}
+requirements: Dict[int, Set[str]] = {}
 depth = 0
 
 # Initialize the first level of dependencies
-deps[depth] = set()
+requirements[depth] = set()
 
 # Go through the elementary characters and get their deps
 for c in chars:
     c["Required for"] = None
     if c["Level"] == "Elementary":
-        c["Required for"] = f"Elementary ({depth})"
-        deps[depth].update(c["Requires"])
+        c["Required for"] = f"Elementary"
+        requirements[depth].update(c["Requires"])
 
 # Increment depth to start processing subdependencies
 depth += 1
 
 # Loop through the dependencies and mark them as required, get their subdependencies
-while deps[depth - 1]:
-    deps[depth] = set()
+while requirements[depth - 1]:
+    requirements[depth] = set()
     for c in chars:
         if not c["Required for"]:
             for name in [c["Keyword"]] + c["A.K.A."]:
-                if name in deps[depth - 1]:
+                if name in requirements[depth - 1]:
                     c["Required for"] = f"Elementary ({depth})"
-                    deps[depth].update(c["Requires"])
+                    requirements[depth].update(c["Requires"])
     depth += 1
 
-
+add_to_filtered = False
 filtered_rows = []
 for c in chars:
-    if c["Required for"] is not None and c["No."]:
-        number = int(c["No."])
-        if number > START and number < END:
-            filtered_rows.append(c)
+    number = c["No."]
+    if number and number > END:
+        add_to_filtered = False
+    elif number and number >= START:
+        add_to_filtered = True
+    if add_to_filtered:
+        filtered_rows.append(c)
 
-csv = tabulate(filtered_rows, headers="keys", tablefmt="tsv")
+headers = [
+    "No.",
+    "Character",
+    "Type",
+    "Level",
+    "Required for",
+    "Keyword",
+    "A.K.A.",
+    "Requires",
+]
+
+ordered_data = [[row[header] for header in headers] for row in filtered_rows]
+
+csv = tabulate(ordered_data, headers=headers, tablefmt="tsv")
 csv = "\n".join([line.replace("[", "").replace("]", "") for line in csv.split("\n")])
 
 with open("out/out.csv", "w") as f:
