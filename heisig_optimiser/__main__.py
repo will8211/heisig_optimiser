@@ -3,9 +3,19 @@ import xml.etree.ElementTree as ET
 
 from tabulate import tabulate
 
+START = 0
+END = 3000
+BOOK_ONE_ONLY = False
+
 tree = ET.parse("data/rsh.xml")
 root = tree.getroot()
-# book = root.findall("book")[0]
+
+
+if BOOK_ONE_ONLY:
+    scope = root.findall("book")[0]
+else:
+    scope = root
+
 chars = []
 
 levels = ["Elementary", "Medium", "Advanced"]
@@ -132,11 +142,15 @@ for c in chars:
             if name in deps_8:
                 c["degs"] = 8
 
-parsed = []
+filtered_rows = []
 for c in chars:
     if c["degs"] is not None and c["number"]:
         number = int(c["number"])
-        if number > 504 and number < 1501:
-            parsed.append(c)
+        if number > START and number < END:
+            filtered_rows.append(c)
 
-print(tabulate(parsed, headers="keys", tablefmt="github", showindex="always"))
+csv = tabulate(filtered_rows, headers="keys", tablefmt="tsv", showindex="always")
+csv = "\n".join([line.replace("[", "").replace("]", "") for line in csv.split("\n")])
+
+with open("out/out.csv", "w") as f:
+    f.write(csv)

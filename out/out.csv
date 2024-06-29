@@ -1,0 +1,474 @@
+   	  number	character  	type     	level     	keyword            	aka                                               	uses                                                     	  degs
+  0	       1	一         	character	Elementary	one                	'floor', 'ceiling'                              	                                                       	     2
+  1	       2	二         	character	Elementary	two                	                                                	'one'                                                  	     2
+  2	       3	三         	character	Elementary	three              	                                                	'one', 'two'                                           	     0
+  3	       4	四         	character	Elementary	four               	                                                	'mouth', 'human legs'                                  	     0
+  4	       5	五         	character	Elementary	five               	                                                	                                                       	     2
+  5	       6	六         	character	Elementary	six                	                                                	'top hat', 'animal legs'                               	     2
+  6	       7	七         	character	Elementary	seven              	'diced'                                         	                                                       	     0
+  7	       8	八         	character	Elementary	eight              	                                                	                                                       	     2
+  8	       9	九         	character	Elementary	nine               	'baseball', 'baseball team'                     	                                                       	     3
+  9	      10	十         	character	Elementary	ten                	'needle'                                        	                                                       	     2
+ 10	      11	口         	character	Elementary	mouth              	                                                	                                                       	     2
+ 11	      12	日         	character	Elementary	day                	'sun', 'tongue wagging in the mouth'            	                                                       	     2
+ 12	      13	月         	character	Elementary	month              	'moon', 'flesh', 'part of the body'             	                                                       	     2
+ 13	      14	田         	character	Medium    	rice field         	'brains'                                        	                                                       	     1
+ 14	      15	目         	character	Medium    	eye                	'eyeball', 'net'                                	                                                       	     1
+ 15	      16	古         	character	Medium    	ancient            	                                                	'ten', 'mouth'                                         	     2
+ 16	      19	吾         	character	          	I (literary)       	                                                	'five', 'mouth'                                        	     1
+ 17	      20	朋         	character	Elementary	companion          	                                                	'flesh'                                                	     0
+ 18	      21	明         	character	Elementary	bright             	                                                	'sun', 'moon'                                          	     0
+ 19	      22	唱         	character	Elementary	sing               	                                                	'mouth', 'tongue wagging in the mouth'                 	     0
+ 20	      26	早         	character	Elementary	early              	'sunflower'                                     	'sun', 'needle'                                        	     0
+ 21	      30	旦         	character	Medium    	daybreak           	                                                	'sun', 'floor'                                         	     1
+ 22	      33	自         	character	Medium    	oneself            	'nose', 'nostrils'                              	'a drop of', 'eye'                                     	     1
+ 23	      34	白         	character	Elementary	white              	'white bird', 'dove'                            	'sun', 'a drop of'                                     	     0
+ 24	      35	百         	character	Elementary	hundred            	                                                	'white', 'one'                                         	     0
+ 25	      38	中         	character	Elementary	middle             	                                                	'walking stick', 'mouth'                               	     2
+ 26	      39	千         	character	Medium    	thousand           	                                                	'eyedropper', 'ten'                                    	     2
+ 27	      40	舌         	character	Medium    	tongue             	                                                	'mouth', 'thousand'                                    	     1
+ 28	      42	丸         	character	          	pill               	'bottle of pills'                               	'baseball'                                             	     2
+ 29	      43	卜         	character	          	divination         	'magic wand', 'divining rod'                    	'walking stick', 'a drop of'                           	     1
+ 30	      44	占         	character	Medium    	tell fortunes      	                                                	'divining rod', 'mouth'                                	     1
+ 31	      45	上         	character	Elementary	above              	                                                	'magic wand', 'floor'                                  	     0
+ 32	      46	下         	character	Elementary	below              	                                                	'magic wand', 'ceiling'                                	     0
+ 33	      51	只         	character	Medium    	only               	                                                	'mouth', 'animal legs'                                 	     1
+ 34	      52	贝         	character	Medium    	shellfish          	'shells', 'oyster', 'clam'                      	'eye', 'animal legs'                                   	     1
+ 35	      56	儿         	character	Elementary	youngster          	'human legs'                                    	                                                       	     2
+ 36	      57	几         	character	Elementary	how many?          	'wind', 'small table'                           	                                                       	     2
+ 37	      58	见         	character	Elementary	see                	                                                	'eye', 'human legs'                                    	     0
+ 38	      59	元         	character	Medium    	beginning          	                                                	'two', 'human legs'                                    	     1
+ 39	      63	肌         	character	          	muscle             	                                                	'small table', 'part of the body'                      	     1
+ 40	      69	勺         	character	Medium    	ladle              	                                                	'bound up', 'a drop of'                                	     1
+ 41	      70	的         	character	Elementary	bull’s eye         	                                                	'white bird', 'ladle'                                  	     0
+ 42	      71	首         	character	Advanced  	heads              	                                                	'horns', 'nose'                                        	     1
+ 43	      74	具         	character	Advanced  	tool               	                                                	'eye'                                                  	     1
+ 44	      75	真         	character	Elementary	true               	                                                	'ten', 'tool'                                          	     0
+ 45	      76	工         	character	Elementary	work               	'I-beam'                                        	                                                       	     2
+ 46	      79	有         	character	Elementary	possess            	                                                	'flesh', 'by one’s side'                               	     0
+ 47	      83	刀         	character	Medium    	sword              	'dagger', 'saber'                               	                                                       	     1
+ 48	      86	召         	character	Advanced  	summon             	                                                	'sword', 'dagger', 'mouth'                             	     1
+ 49	      90	丁         	character	          	fourth             	'nail', 'spike', 'thumbtack'                    	                                                       	     1
+ 50	      92	可         	character	Elementary	can                	                                                	'spike', 'mouth'                                       	     0
+ 51	      93	哥         	character	Elementary	older brother      	                                                	'can'                                                  	     0
+ 52	      95	乙         	character	Medium    	second             	'hook', 'fishhook'                              	                                                       	     1
+ 53	      96	飞         	character	Elementary	fly                	                                                	'fishhook', 'a drop of'                                	     0
+ 54	      97	子         	character	Elementary	child              	                                                	                                                       	     2
+ 55	     101	了         	character	Elementary	-ed                	                                                	'child'                                                	     0
+ 56	     102	女         	character	Elementary	woman              	                                                	                                                       	     2
+ 57	     103	好         	character	Elementary	good               	                                                	'woman', 'child'                                       	     0
+ 58	     105	母         	character	Advanced  	mother             	'breasts'                                       	'woman'                                                	     1
+ 59	     107	兄         	character	Medium    	elder brother      	'teenager'                                      	'mouth', 'human legs'                                  	     2
+ 60	     109	小         	character	Elementary	small              	                                                	'a drop of'                                            	     2
+ 61	     110	少         	character	Elementary	few                	                                                	'a drop of', 'small'                                   	     0
+ 62	     113	大         	character	Elementary	large              	'large dog', 'St. Bernard dog'                  	                                                       	     2
+ 63	     115	夕         	character	Advanced  	evening            	                                                	'moon'                                                 	     1
+ 64	     116	多         	character	Elementary	many               	                                                	'moon'                                                 	     0
+ 65	     118	外         	character	Elementary	outside            	                                                	'evening', 'magic wand'                                	     0
+ 66	     119	名         	character	Elementary	name               	                                                	'evening', 'mouth'                                     	     0
+ 67	     121	厂         	character	Medium    	factory            	'cliff'                                         	                                                       	     2
+ 68	     125	石         	character	Advanced  	stone              	'pebbles', 'rocks'                              	'mouth', 'cliff'                                       	     3
+ 69	     131	太         	character	Elementary	overly             	                                                	'St. Bernard dog', 'a drop of'                         	     0
+ 70	     137	水         	character	Elementary	water              	'snowflake'                                     	'walking stick', 'a drop of'                           	     2
+ 71	     140	求         	character	Medium    	request            	                                                	'snowflake', 'a drop of', 'one'                        	     1
+ 72	     158	土         	character	Medium    	soil               	'ground', 'dirt', 'land'                        	                                                       	     1
+ 73	     166	寸         	character	Advanced  	Chinese inch       	'glue', 'glued to'                              	'a drop of', 'ten'                                     	     1
+ 74	     168	时         	character	Elementary	time               	                                                	'sun', 'glued to'                                      	     0
+ 75	     169	寺         	character	Advanced  	Buddhist temple    	                                                	'land', 'glue'                                         	     1
+ 76	     170	火         	character	Elementary	fire               	'flames', 'fireplace', 'cooking fire'           	                                                       	     2
+ 77	     172	灰         	character	          	ashes              	                                                	'fire', 'fireplace', 'by one’s side'                   	     2
+ 78	     177	点         	character	Elementary	spot               	                                                	'cooking fire', 'tell fortunes'                        	     0
+ 79	     179	里         	character	Elementary	li                 	'computer'                                      	'rice field', 'land', 'brains'                         	     0
+ 80	     182	黑         	character	Elementary	black              	                                                	'computer', 'brains', 'animal horns', 'horns', 'flames'	     0
+ 81	     185	同         	character	Elementary	same               	'monks'                                         	'one', 'mouth', 'hood', 'cowl'                         	     2
+ 82	     186	洞         	character	          	cave               	                                                	'monks', 'water'                                       	     1
+ 83	     188	向         	character	Elementary	orientation        	                                                	'a drop of', 'helmet', 'mouth'                         	     2
+ 84	     191	字         	character	Elementary	character          	                                                	'child', 'house'                                       	     0
+ 85	     193	完         	character	Elementary	finish             	                                                	'house', 'beginning'                                   	     0
+ 86	     202	木         	character	Elementary	tree               	'wood', 'pole', 'wooden pole'                   	                                                       	     2
+ 87	     206	机         	character	Elementary	machine            	                                                	'tree', 'small table'                                  	     0
+ 88	     212	相         	character	Medium    	one another        	                                                	'tree', 'eye'                                          	     1
+ 89	     213	本         	character	Elementary	notebook           	                                                	'tree'                                                 	     0
+ 90	     224	桌         	character	Medium    	table              	                                                	'tree', 'sun', 'magic wand'                            	     2
+ 91	     239	犬         	character	          	pooch              	'chihuahua', 'pack of wild dogs'                	'large', 'St. Bernard dog', 'a drop of'                	     1
+ 92	     240	尤         	character	Advanced  	remarkable         	'Frankenpooch'                                  	'pooch', 'human legs'                                  	     1
+ 93	     247	然         	character	Elementary	sort of thing      	                                                	'flesh', 'chihuahua', 'cooking fire'                   	     0
+ 94	     252	牛         	character	Elementary	cow                	                                                	                                                       	     2
+ 95	     254	告         	character	Elementary	declare            	                                                	'cow', 'mouth'                                         	     0
+ 96	     256	先         	character	Elementary	before             	                                                	'cow', 'human legs'                                    	     0
+ 97	     257	洗         	character	Elementary	wash               	                                                	'water', 'before'                                      	     0
+ 98	     258	个         	character	Elementary	individual         	                                                	'umbrella', 'walking stick'                            	     0
+ 99	     259	介         	character	Elementary	introduce          	                                                	'umbrella', 'crutches'                                 	     0
+100	     261	茶         	character	Elementary	tea                	                                                	'flower', 'wooden pole', 'umbrella'                    	     0
+101	     262	合         	character	Medium    	fit                	                                                	'meeting', 'mouth'                                     	     1
+102	     265	王         	character	Medium    	king               	'scepter'                                       	'I-beam'                                               	     2
+103	     266	玉         	character	Medium    	jade               	'jewel', 'ball'                                 	'scepter', 'a drop of'                                 	     1
+104	     268	球         	character	Elementary	ball               	                                                	'ball', 'request'                                      	     0
+105	     269	现         	character	Elementary	present            	                                                	'ball', 'see'                                          	     0
+106	     270	玩         	character	Elementary	play               	                                                	'beginning', 'ball'                                    	     0
+107	     277	主         	character	Medium    	lord               	'candlestick'                                   	'a drop of', 'king', 'jade'                            	     1
+108	     279	金         	character	Advanced  	gold               	'metal'                                         	'umbrella', 'scepter', 'a drop of'                     	     1
+109	     283	针         	character	          	needle             	                                                	'needle', 'metal'                                      	     1
+110	     284	钉         	character	          	nail               	                                                	'gold'                                                 	     2
+111	     287	道         	character	Elementary	way                	                                                	'heads', 'road'                                        	     0
+112	     289	远         	character	Elementary	distant            	                                                	'road', 'beginning'                                    	     0
+113	     291	过         	character	Elementary	cross              	                                                	'road', 'glued to'                                     	     0
+114	     300	车         	character	Elementary	car                	'cart', 'wagon', 'vehicle'                      	                                                       	     0
+115	     303	前         	character	Elementary	in front           	'butcher shop'                                  	'horns', 'butcher'                                     	     3
+116	     309	各         	character	Medium    	each               	                                                	'mouth', 'walking legs'                                	     1
+117	     317	备         	character	Elementary	prepare            	                                                	'walking legs', 'rice field'                           	     0
+118	     322	冠         	character	          	crown              	                                                	'crown', 'glued to', 'beginning'                       	     1
+119	     323	坑         	character	          	pit                	                                                	'whirlwind', 'soil'                                    	     5
+120	     325	高         	character	Elementary	tall               	'tiara'                                         	'orientation', 'mouth', 'helmet', 'top hat'            	     2
+121	     330	京         	character	Medium    	capital            	'capitol building'                              	'tall', 'small'                                        	     1
+122	     332	就         	character	Elementary	at once            	                                                	'Frankenpooch', 'capitol building'                     	     0
+123	     334	士         	character	Advanced  	soldier            	                                                	                                                       	     2
+124	     337	学         	character	Elementary	study              	                                                	'child', 'schoolhouse'                                 	     0
+125	     338	觉         	character	Elementary	senses             	                                                	'schoolhouse', 'see'                                   	     0
+126	     342	故         	character	Medium    	deliberately       	                                                	'ancient', 'taskmaster'                                	     1
+127	     346	言         	character	Medium    	say                	'words'                                         	'two', 'mouth', 'top hat'                              	     1
+128	     349	让         	character	Elementary	yield              	                                                	'above', 'words'                                       	     0
+129	     353	识         	character	Elementary	knowledge          	                                                	'only', 'word'                                         	     0
+130	     354	话         	character	Elementary	talk               	                                                	'words', 'tongue'                                      	     0
+131	     356	语         	character	Elementary	language           	                                                	'I (literary)', 'words'                                	     0
+132	     359	式         	character	Advanced  	style              	                                                	'arrow', 'work'                                        	     1
+133	     360	试         	character	Elementary	test               	                                                	'style', 'say'                                         	     0
+134	     361	戈         	character	          	halberd            	'fiesta'                                        	'arrow'                                                	     1
+135	     373	钱         	character	Elementary	coin               	                                                	'gold', 'float'                                        	     0
+136	     379	止         	character	Medium    	stop               	'footprint', 'trail of footprints'              	                                                       	     1
+137	     387	正         	character	Elementary	correct            	                                                	'one', 'footprint'                                     	     2
+138	     391	走         	character	Elementary	walk               	                                                	'mending', 'soil'                                      	     0
+139	     394	是         	character	Elementary	be                 	                                                	'mending', 'tongue wagging in the mouth'               	     2
+140	     400	衣         	character	Elementary	clothing           	'cloak', 'scarf', 'bandana', 'top hat and scarf'	'top hat'                                              	     0
+141	     410	巾         	character	Advanced  	towel              	                                                	                                                       	     1
+142	     411	帅         	character	Advanced  	commander          	                                                	'saber', 'towel'                                       	     1
+143	     412	师         	character	Elementary	teacher            	                                                	'commander', 'ceiling'                                 	     0
+144	     425	雨         	character	Elementary	rain               	'weather'                                       	                                                       	     0
+145	     428	云         	character	Medium    	cloud              	'rising cloud'                                  	                                                       	     1
+146	     430	冰         	character	Medium    	ice                	                                                	'water', 'ice'                                         	     1
+147	     436	天         	character	Elementary	heavens            	                                                	'ceiling', 'St. Bernard dog'                           	     2
+148	     440	夭         	character	          	die young          	                                                	'St. Bernard dog', 'a drop of'                         	     1
+149	     444	立         	character	Advanced  	standing up        	'vase'                                          	                                                       	     1
+150	     446	站         	character	Elementary	station            	                                                	'tell fortunes', 'vase'                                	     0
+151	     453	匕         	character	          	ancient spoon      	'spoon', 'someone sitting on the ground'        	                                                       	     1
+152	     454	北         	character	Elementary	north              	                                                	'someone sitting on the ground'                        	     0
+153	     456	比         	character	Elementary	compare            	                                                	'spoon'                                                	     0
+154	     460	此         	character	Advanced  	this (literary)    	                                                	'trail of footprints', 'spoon'                         	     1
+155	     461	些         	character	Elementary	somewhat           	                                                	'this (literary)', 'two'                               	     0
+156	     467	每         	character	Elementary	every              	                                                	'lying (down)', 'mother'                               	     0
+157	     470	乞         	character	          	beg                	                                                	'lying (down)', 'hook'                                 	     1
+158	     471	吃         	character	Elementary	eat                	                                                	'mouth', 'beg'                                         	     0
+159	     474	欠         	character	Medium    	lack               	'yawn'                                          	                                                       	     1
+160	     476	歌         	character	Elementary	song               	                                                	'can', 'yawn'                                          	     0
+161	     478	次         	character	Elementary	next               	'secondary'                                     	'lack', 'ice'                                          	     0
+162	     484	音         	character	Medium    	sound              	                                                	'standing up', 'tongue wagging in the mouth'           	     1
+163	     490	亡         	character	Advanced  	deceased           	'perish'                                        	'top hat', 'hook'                                      	     1
+164	     494	方         	character	Elementary	direction          	'compass'                                       	'dagger', 'top hat'                                    	     4
+165	     496	放         	character	Elementary	release            	                                                	'taskmaster', 'compass'                                	     0
+166	     498	旁         	character	Elementary	side               	                                                	'standing up', 'crown', 'compass'                      	     0
+167	     499	兑         	character	          	convert            	'devil'                                         	'teenager', 'horns'                                    	     1
+168	     501	说         	character	Elementary	speak              	                                                	'words', 'devil'                                       	     0
+169	     505	也         	character	Elementary	also               	'scorpion'                                      	'fishhook'                                             	     2
+170	     506	她         	character	Elementary	she                	                                                	'woman', 'scorpion'                                    	     0
+171	     507	地         	character	Elementary	ground             	                                                	'soil', 'scorpion'                                     	     0
+172	     509	虫         	character	Medium    	insect             	                                                	                                                       	     1
+173	     514	蛋         	character	Elementary	egg                	                                                	'zoo', 'insect'                                        	     0
+174	     515	己         	character	Medium    	self               	'snake'                                         	                                                       	     1
+175	     516	起         	character	Elementary	begin              	                                                	'walk', 'snake'                                        	     0
+176	     518	记         	character	Elementary	remember           	                                                	'words', 'snake'                                       	     0
+177	     519	已         	character	Medium    	already            	'snakeskin'                                     	'snake'                                                	     1
+178	     520	包         	character	Elementary	wrap               	                                                	'bound up', 'snakeskin'                                	     0
+179	     525	家         	character	Elementary	house              	                                                	'house', 'sow'                                         	     2
+180	     526	场         	character	Elementary	site               	                                                	'soil', 'piglets'                                      	     0
+181	     528	羊         	character	Medium    	sheep              	                                                	'horns'                                                	     1
+182	     532	样         	character	Elementary	appearance         	                                                	'tree', 'sheep'                                        	     0
+183	     535	差         	character	Elementary	fall short of      	                                                	'wool', 'I-beam'                                       	     0
+184	     536	着         	character	Elementary	-ing               	                                                	'wool', 'eye'                                          	     0
+185	     539	准         	character	Elementary	standard           	                                                	'ice', 'turkey'                                        	     0
+186	     540	谁         	character	Elementary	who?               	                                                	'words', 'turkey'                                      	     0
+187	     542	午         	character	Elementary	noon               	'stick horse'                                   	                                                       	     0
+188	     544	羽         	character	          	feathers           	'wings'                                         	                                                       	     1
+189	     545	习         	character	Elementary	learn              	                                                	'wings'                                                	     0
+190	     549	国         	character	Elementary	country            	                                                	'pent in', 'jade'                                      	     0
+191	     551	因         	character	Elementary	cause              	                                                	'pent in', 'St. Bernard dog'                           	     0
+192	     554	回         	character	Elementary	return             	                                                	'pent in', 'mouth'                                     	     2
+193	     556	广         	character	Medium    	extensive          	'cave'                                          	'cliff', 'house'                                       	     1
+194	     557	店         	character	Elementary	store              	                                                	'cave', 'tell fortunes'                                	     0
+195	     563	心         	character	Medium    	heart              	'state of mind', 'valentine'                    	                                                       	     1
+196	     564	忘         	character	Elementary	forget             	                                                	'perish', 'heart'                                      	     0
+197	     572	意         	character	Elementary	idea               	                                                	'sound', 'heart'                                       	     0
+198	     573	想         	character	Elementary	think              	                                                	'one another', 'heart'                                 	     0
+199	     574	息         	character	Elementary	breath             	                                                	'nose', 'heart'                                        	     0
+200	     580	怕         	character	Elementary	dread              	                                                	'state of mind', 'dove'                                	     0
+201	     581	忙         	character	Elementary	busy               	                                                	'state of mind', 'perish'                              	     0
+202	     584	手         	character	Elementary	hand               	                                                	                                                       	     3
+203	     585	看         	character	Elementary	look at            	                                                	'hand', 'eye'                                          	     0
+204	     587	拿         	character	Elementary	hold               	                                                	'fit', 'hand'                                          	     0
+205	     588	我         	character	Elementary	I                  	                                                	'hand', 'fiesta'                                       	     2
+206	     593	打         	character	Elementary	strike             	                                                	'fingers', 'spike'                                     	     0
+207	     602	执         	character	          	clench             	                                                	'fingers', 'bottle of pills'                           	     1
+208	     603	热         	character	Elementary	heat               	                                                	'clench', 'cooking fire'                               	     0
+209	     610	找         	character	Elementary	look for           	                                                	'fingers', 'fiesta'                                    	     0
+210	     613	开         	character	Elementary	open               	'two hands'                                     	'two'                                                  	     2
+211	     617	鼻         	character	Advanced  	nose               	                                                	'two hands', 'nostrils', 'brain'                       	     1
+212	     620	才         	character	Elementary	genius             	'genie', 'genie in the bottle'                  	                                                       	     0
+213	     624	在         	character	Elementary	at                 	                                                	'genie in the bottle', 'soil'                          	     0
+214	     625	乃         	character	          	only then          	'fist'                                          	                                                       	     1
+215	     626	奶         	character	Elementary	milk               	                                                	'woman', 'fist'                                        	     0
+216	     631	更         	character	Elementary	even more          	                                                	'ceiling', 'sun', 'tucked under the arm'               	     0
+217	     633	又         	character	Elementary	again              	'right hand', 'crotch'                          	                                                       	     2
+218	     635	友         	character	Elementary	friend             	                                                	'by one’s side', 'crotch'                              	     0
+219	     637	汉         	character	Elementary	Han                	                                                	'water', 'right hand'                                  	     0
+220	     640	欢         	character	Elementary	joyous             	                                                	'crotch', 'yawn'                                       	     0
+221	     642	对         	character	Elementary	that’s right       	                                                	'crotch', 'glue'                                       	     0
+222	     643	树         	character	Elementary	timber             	                                                	'tree', 'that’s right'                                 	     0
+223	     644	难         	character	Elementary	difficult          	                                                	'crotch', 'turkey'                                     	     0
+224	     647	没         	character	Elementary	not have           	                                                	'water', 'missile'                                     	     0
+225	     650	支         	character	Medium    	offshoot           	'branch'                                        	'needle', 'crotch'                                     	     2
+226	     652	枝         	character	          	branch             	                                                	'tree', 'branch'                                       	     2
+227	     656	反         	character	Medium    	against            	                                                	'drag', 'crotch'                                       	     1
+228	     659	后         	character	Elementary	behind             	                                                	'drag', 'ceiling', 'mouth'                             	     0
+229	     663	爪         	character	          	claw               	'vulture'                                       	'drag'                                                 	     2
+230	     665	采         	character	Advanced  	pick               	                                                	'vulture', 'tree'                                      	     1
+231	     666	菜         	character	Elementary	vegetable          	                                                	'flower', 'pick'                                       	     0
+232	     669	爱         	character	Elementary	love               	                                                	'birdhouse', 'friend'                                  	     0
+233	     670	么         	character	Elementary	(suffix)           	                                                	'a drop of', 'elbow'                                   	     0
+234	     675	去         	character	Elementary	go                 	                                                	'soil', 'elbow'                                        	     0
+235	     677	会         	character	Elementary	meeting            	                                                	'meeting', 'wall'                                      	     2
+236	     678	至         	character	Advanced  	until              	                                                	'wall', 'soil'                                         	     1
+237	     680	到         	character	Elementary	arrive             	                                                	'until', 'saber'                                       	     0
+238	     688	山         	character	Elementary	mountain           	                                                	                                                       	     3
+239	     689	出         	character	Elementary	exit               	                                                	'mountain'                                             	     0
+240	     691	岁         	character	Elementary	years of age       	                                                	'mountain', 'evening'                                  	     0
+241	     694	分         	character	Elementary	part               	                                                	'eight', 'dagger'                                      	     0
+242	     705	常         	character	Elementary	often              	                                                	'outhouse', 'towel'                                    	     0
+243	     732	力         	character	Medium    	power              	'muscle'                                        	                                                       	     1
+244	     733	边         	character	Elementary	border             	                                                	'power', 'road'                                        	     0
+245	     735	动         	character	Elementary	move               	                                                	'rising cloud', 'muscle'                               	     0
+246	     738	另         	character	Medium    	another            	                                                	'mouth', 'muscle'                                      	     1
+247	     739	别         	character	Elementary	don’t              	                                                	'another', 'sword'                                     	     0
+248	     741	男         	character	Elementary	male               	                                                	'rice field', 'power'                                  	     0
+249	     746	为         	character	Elementary	act                	                                                	'a drop of', 'muscle'                                  	     0
+250	     754	行         	character	Elementary	line of business   	'queue', 'boulevard'                            	                                                       	     0
+251	     756	得         	character	Elementary	must               	                                                	'queue', 'daybreak', 'glue'                            	     0
+252	     762	禾         	character	          	standing grain     	'wild rice'                                     	                                                       	     1
+253	     764	和         	character	Elementary	harmony            	                                                	'wild rice', 'mouth'                                   	     0
+254	     771	利         	character	Medium    	profit             	                                                	'wild rice', 'saber'                                   	     2
+255	     778	米         	character	Medium    	rice               	                                                	                                                       	     1
+256	     783	来         	character	Elementary	come               	                                                	'one', 'rice'                                          	     0
+257	     785	楼         	character	Elementary	multistory building	                                                	'tree', 'bride'                                        	     0
+258	     786	竹         	character	Advanced  	bamboo             	                                                	'nail'                                                 	     1
+259	     787	笑         	character	Elementary	laugh              	                                                	'bamboo', 'die young'                                  	     0
+260	     788	箱         	character	          	box                	                                                	'bamboo', 'one another'                                	     1
+261	     789	等         	character	Elementary	etc.               	                                                	'bamboo', 'Buddhist temple'                            	     0
+262	     791	答         	character	Elementary	answer             	                                                	'bamboo', 'fit'                                        	     0
+263	     793	人         	character	Elementary	person             	                                                	                                                       	     2
+264	     794	认         	character	Elementary	recognize          	                                                	'words', 'person'                                      	     0
+265	     798	尔         	character	          	you (literary)     	'hiccup'                                        	'small'                                                	     1
+266	     799	你         	character	Elementary	you                	                                                	'person', 'hiccup'                                     	     0
+267	     800	您         	character	Elementary	you (respectful)   	                                                	'person', 'heart'                                      	     0
+268	     802	什         	character	Elementary	what?              	                                                	'person', 'needle'                                     	     0
+269	     804	做         	character	Elementary	make               	                                                	'person', 'deliberately'                               	     0
+270	     805	但         	character	Elementary	however            	                                                	'person', 'daybreak'                                   	     0
+271	     806	住         	character	Elementary	dwell              	                                                	'person', 'candlestick'                                	     0
+272	     810	他         	character	Elementary	he                 	                                                	'person', 'scorpion'                                   	     0
+273	     812	休         	character	Elementary	rest               	                                                	'person', 'tree'                                       	     0
+274	     813	体         	character	Elementary	body               	                                                	'person', 'notebook'                                   	     0
+275	     830	化         	character	Medium    	transform          	                                                	'person', 'spoon'                                      	     1
+276	     833	花         	character	Elementary	flower             	                                                	'flower', 'transform'                                  	     3
+277	     840	内         	character	Advanced  	internal           	                                                	'belt', 'person'                                       	     2
+278	     842	丙         	character	          	third              	                                                	'ceiling', 'internal'                                  	     1
+279	     844	肉         	character	Elementary	meat               	                                                	'flesh', 'person'                                      	     0
+280	     846	从         	character	Elementary	follow             	'assembly line'                                 	'person'                                               	     0
+281	     848	坐         	character	Elementary	sit                	                                                	'assembly line', 'soil'                                	     0
+282	     851	喝         	character	Elementary	drink              	                                                	'mouth', 'siesta'                                      	     0
+283	     852	渴         	character	Elementary	thirsty            	                                                	'water', 'siesta'                                      	     0
+284	     856	头         	character	Medium    	head               	'bust'                                          	'St. Bernard dog', 'ice'                               	     1
+285	     858	买         	character	Elementary	buy                	                                                	'beret', 'bust'                                        	     0
+286	     861	以         	character	Elementary	by means of        	                                                	'person', 'plow', 'a drop of'                          	     0
+287	     871	年         	character	Elementary	year               	'monocle'                                       	'stick horse'                                          	     0
+288	     882	尸         	character	          	corpse             	'flag'                                          	                                                       	     2
+289	     883	尼         	character	          	nun                	                                                	'flag', 'spoon'                                        	     1
+290	     884	呢         	character	Elementary	woolen cloth       	                                                	'mouth', 'nun'                                         	     0
+291	     888	居         	character	Advanced  	reside             	                                                	'flag', 'ancient'                                      	     2
+292	     889	锯         	character	          	saw                	                                                	'metal', 'reside'                                      	     1
+293	     896	户         	character	Advanced  	door               	                                                	'a drop of', 'flag'                                    	     1
+294	     897	房         	character	Elementary	domicile           	                                                	'door', 'compass'                                      	     0
+295	     900	示         	character	Medium    	show               	'altar'                                         	                                                       	     1
+296	     903	视         	character	Elementary	inspect            	                                                	'altar', 'see'                                         	     0
+297	     913	由         	character	Medium    	wherefore          	'shoot', 'sprout'                               	'rice field'                                           	     1
+298	     921	果         	character	Elementary	fruit              	                                                	'tree', 'brains'                                       	     0
+299	     922	课         	character	Elementary	lesson             	                                                	'words', 'fruit'                                       	     0
+300	     924	斤         	character	Medium    	catty              	'tomahawk'                                      	                                                       	     1
+301	     925	听         	character	Elementary	listen             	                                                	'mouth', 'tomahawk'                                    	     0
+302	     926	所         	character	Elementary	place              	                                                	'door', 'tomahawk'                                     	     0
+303	     935	斥         	character	          	reprimand          	                                                	'tomahawk', 'a drop of'                                	     1
+304	     936	诉         	character	Elementary	accuse             	                                                	'words', 'reprimand'                                   	     0
+305	     937	乍         	character	          	for the first time 	'saw'                                           	                                                       	     1
+306	     938	怎         	character	Elementary	how?               	                                                	'saw', 'heart'                                         	     0
+307	     939	昨         	character	Elementary	yesterday          	                                                	'day', 'saw'                                           	     0
+308	     940	作         	character	Elementary	do                 	                                                	'person', 'saw'                                        	     0
+309	     947	当         	character	Elementary	work as            	                                                	'small', 'broom'                                       	     0
+310	     951	争         	character	Advanced  	contend            	                                                	'bound up', 'rake'                                     	     1
+311	     952	净         	character	Elementary	clean              	                                                	'ice', 'contend'                                       	     0
+312	     953	事         	character	Elementary	matter             	                                                	'one', 'mouth', 'rake'                                 	     0
+313	     962	而         	character	Elementary	and                	'comb'                                          	                                                       	     0
+314	     971	昔         	character	          	times past         	                                                	'salad', 'day'                                         	     1
+315	     972	借         	character	Elementary	borrow             	                                                	'person', 'times past'                                 	     0
+316	     973	错         	character	Elementary	mistaken           	                                                	'metal', 'times past'                                  	     0
+317	     980	半         	character	Elementary	half               	                                                	                                                       	     0
+318	     991	不         	character	Elementary	no                 	'no symbol'                                     	'ceiling', 'person', 'a drop of'                       	     0
+319	     993	坏         	character	Elementary	bad                	                                                	'soil', 'no symbol'                                    	     0
+320	     996	还         	character	Elementary	give back          	                                                	'no symbol', 'road'                                    	     0
+321	     998	矢         	character	          	dart               	                                                	'heavens', 'a drop of'                                 	     1
+322	    1000	知         	character	Elementary	know               	                                                	'dart', 'mouth'                                        	     0
+323	    1002	矛         	character	          	spear              	                                                	                                                       	     2
+324	    1013	弓         	character	          	bow                	                                                	                                                       	     2
+325	    1023	第         	character	Elementary	No.                	                                                	'bamboo', 'dollar sign'                                	     0
+326	    1025	号         	character	Elementary	appellation        	                                                	'mouth', 'snare'                                       	     0
+327	    1026	身         	character	Elementary	somebody           	                                                	'nose'                                                 	     2
+328	    1027	射         	character	          	shoot              	                                                	'glued to', 'somebody'                                 	     1
+329	    1028	谢         	character	Elementary	thank              	                                                	'words', 'shoot'                                       	     0
+330	    1029	老         	character	Elementary	old man            	'Santa Claus'                                   	'soil', 'walking stick', 'spoon'                       	     2
+331	    1030	考         	character	Elementary	take an exam       	                                                	'Santa Claus', 'slingshot'                             	     0
+332	    1032	与         	character	Medium    	offer              	                                                	'pointed tail', 'slingshot'                            	     1
+333	    1033	写         	character	Elementary	write              	                                                	'crown', 'offer'                                       	     0
+334	    1035	孝         	character	          	filial piety       	                                                	'Santa Claus', 'child'                                 	     1
+335	    1036	教         	character	Elementary	teach              	                                                	'filial piety', 'taskmaster'                           	     0
+336	    1037	者         	character	Medium    	someone            	'puppet'                                        	'Santa Claus', 'tongue wagging in the mouth'           	     1
+337	    1043	父         	character	Medium    	father             	                                                	'a drop of'                                            	     1
+338	    1048	足         	character	Medium    	lower leg          	'wooden leg'                                    	'mouth', 'trail of footprints'                         	     1
+339	    1049	跑         	character	Elementary	run                	                                                	'wooden leg', 'wrap'                                   	     0
+340	    1051	路         	character	Elementary	path               	                                                	'wooden leg', 'each'                                   	     0
+341	    1065	院         	character	Elementary	Inst.              	                                                	'pinnacle', 'finish'                                   	     0
+342	    1070	穴         	character	          	hole               	                                                	'house', 'eight', 'animal legs'                        	     1
+343	    1084	给         	character	Elementary	give               	                                                	'thread', 'fit'                                        	     0
+344	    1099	系         	character	Elementary	lineage            	                                                	'a drop of', 'floss'                                   	     0
+345	    1103	服         	character	Elementary	apparel            	                                                	'flesh', 'stamp', 'crotch'                             	     0
+346	    1113	令         	character	Medium    	orders             	                                                	'meeting', 'chop'                                      	     1
+347	    1114	冷         	character	Elementary	cold               	                                                	'ice', 'orders'                                        	     0
+348	    1115	零         	character	Elementary	zero               	                                                	'rain', 'orders'                                       	     0
+349	    1126	酒         	character	Elementary	liquor             	                                                	'water', 'whiskey bottle'                              	     0
+350	    1131	豆         	character	Advanced  	beans              	'table'                                         	                                                       	     2
+351	    1134	鼓         	character	          	drum               	                                                	'branch', 'drum'                                       	     1
+352	    1135	喜         	character	Elementary	joyful             	                                                	'drum', 'mouth'                                        	     0
+353	    1142	银         	character	Medium    	silver             	                                                	'metal', 'silver'                                      	     1
+354	    1143	跟         	character	Elementary	heel               	                                                	'wooden leg', 'silver'                                 	     0
+355	    1144	很         	character	Elementary	very               	                                                	'queue', 'silver'                                      	     0
+356	    1151	良         	character	Advanced  	high-quality       	'halo'                                          	'a drop of', 'silver'                                  	     2
+357	    1154	食         	character	Medium    	food               	                                                	'halo', 'umbrella'                                     	     1
+358	    1155	饭         	character	Elementary	meal               	                                                	'food', 'against'                                      	     0
+359	    1168	风         	character	Medium    	wind               	'windstorm'                                     	'wind', 'sheaf'                                        	     2
+360	    1172	网         	character	Elementary	net                	                                                	'glass cover', 'sheaf'                                 	     0
+361	    1174	凶         	character	Advanced  	cruel              	                                                	'sheaf', 'pit'                                         	     4
+362	    1176	脑         	character	Medium    	brain              	                                                	'flesh', 'Fagin'                                       	     2
+363	    1183	辛         	character	Advanced  	peppery            	'chili pepper'                                  	'standing up', 'needle'                                	     2
+364	    1188	亲         	character	Advanced  	relatives          	                                                	'chili pepper', 'small'                                	     1
+365	    1189	新         	character	Elementary	new                	                                                	'relatives', 'tomahawk'                                	     0
+366	    1191	幸         	character	Advanced  	good fortune       	                                                	'peppery'                                              	     1
+367	    1192	叫         	character	Elementary	call               	                                                	'mouth', 'cornucopia'                                  	     0
+368	    1194	亥         	character	          	sign of the pig    	'acorn'                                         	'top hat', 'elbow', 'person'                           	     1
+369	    1196	孩         	character	Elementary	tot                	                                                	'child', 'acorn'                                       	     0
+370	    1198	该         	character	Elementary	should             	                                                	'words', 'acorn'                                       	     0
+371	    1208	青         	character	Medium    	blue or green      	'telescope'                                     	'grow up', 'moon'                                      	     1
+372	    1210	请         	character	Elementary	invite             	                                                	'words', 'telescope'                                   	     0
+373	    1212	睛         	character	Medium    	eyeball            	                                                	'eye', 'telescope'                                     	     1
+374	    1218	生         	character	Elementary	life               	'cell'                                          	'a drop of', 'grow up'                                 	     0
+375	    1219	星         	character	Elementary	star               	                                                	'sun', 'cell'                                          	     0
+376	    1223	丰         	character	Advanced  	plentiful          	'bushes'                                        	                                                       	     1
+377	    1234	击         	character	          	beat               	                                                	'cornstalk', 'mountain'                                	     2
+378	    1235	陆         	character	Advanced  	land               	                                                	'pinnacle', 'beat'                                     	     1
+379	    1241	垂         	character	          	droop              	                                                	'porter', 'silage'                                     	     1
+380	    1243	睡         	character	Elementary	sleep              	                                                	'eye', 'droop'                                         	     0
+381	    1244	今         	character	Elementary	now                	'clock'                                         	'meeting'                                              	     0
+382	    1247	东         	character	Elementary	east               	'rickshaw', 'covered rickshaw'                  	'car', 'a drop of'                                     	     0
+383	    1253	西         	character	Elementary	west               	'Old West'                                      	'four', 'one', 'human legs', 'mouth'                   	     0
+384	    1254	要         	character	Elementary	want               	                                                	'Old West', 'woman'                                    	     0
+385	    1256	票         	character	Elementary	ticket             	                                                	'Old West', 'altar'                                    	     0
+386	    1259	南         	character	Elementary	south              	                                                	'belt', 'good fortune'                                 	     0
+387	    1260	门         	character	Elementary	gate               	                                                	                                                       	     0
+388	    1261	们         	character	Elementary	(plural)           	                                                	'person', 'gate'                                       	     0
+389	    1263	问         	character	Elementary	ask                	                                                	'gate', 'mouth'                                        	     0
+390	    1264	间         	character	Elementary	interval           	                                                	'gate', 'sun'                                          	     0
+391	    1267	非         	character	Elementary	non-               	'jail cell'                                     	                                                       	     0
+392	    1271	侯         	character	          	marquis            	                                                	'person', 'key', 'dart'                                	     1
+393	    1272	候         	character	Elementary	wait               	                                                	'marquis', 'walking stick'                             	     0
+394	    1274	快         	character	Elementary	fast               	                                                	'state of mind', 'guillotine'                          	     0
+395	    1275	块         	character	Elementary	lump               	                                                	'soil', 'guillotine'                                   	     0
+396	    1277	干         	character	Elementary	dry                	'clothesline'                                   	                                                       	     0
+397	    1292	病         	character	Elementary	illness            	                                                	'sickness', 'third'                                    	     0
+398	    1298	医         	character	Elementary	physician          	                                                	'box', 'dart'                                          	     0
+399	    1315	文         	character	Elementary	literature         	'Highlander'                                    	'top hat', 'sheaf'                                     	     0
+400	    1317	这         	character	Elementary	this               	                                                	'Highlander', 'road'                                   	     0
+401	    1326	巴         	character	Medium    	crust              	'mosaic'                                        	                                                       	     1
+402	    1327	把         	character	Elementary	grasp              	                                                	'fingers', 'mosaic'                                    	     0
+403	    1328	爸         	character	Elementary	papa               	                                                	'father', 'mosaic'                                     	     0
+404	    1329	吧         	character	Elementary	bar                	                                                	'mouth', 'mosaic'                                      	     0
+405	    1333	甘         	character	          	sweet              	'wicker basket'                                 	                                                       	     2
+406	    1335	其         	character	Medium    	his-hers-its-theirs	'hamper'                                        	'wicker basket', 'animal legs'                         	     1
+407	    1336	期         	character	Elementary	period of time     	                                                	'hamper', 'month'                                      	     0
+408	    1340	贵         	character	Elementary	expensive          	                                                	'purse', 'shells'                                      	     0
+409	    1343	且         	character	Medium    	moreover           	'shelves'                                       	                                                       	     1
+410	    1344	姐         	character	Elementary	older sister       	                                                	'woman', 'shelves'                                     	     0
+411	    1347	助         	character	Elementary	assist             	                                                	'shelves', 'power'                                     	     0
+412	    1354	共         	character	Medium    	together           	                                                	'salad', 'animal legs'                                 	     2
+413	    1358	井         	character	          	well               	                                                	                                                       	     1
+414	    1360	进         	character	Elementary	advance            	                                                	'well', 'road'                                         	     0
+415	    1361	用         	character	Elementary	utilize            	'rack'                                          	                                                       	     0
+416	    1366	再         	character	Elementary	once more          	                                                	'ceiling', 'glass cover', 'soil'                       	     0
+417	    1383	都         	character	Elementary	metropolis         	                                                	'puppet', 'city walls'                                 	     0
+418	    1386	帮         	character	Elementary	help               	                                                	'bushes', 'city walls', 'towel'                        	     0
+419	    1391	司         	character	Medium    	take charge of     	                                                	'clothes hanger', 'one', 'mouth'                       	     2
+420	    1392	词         	character	Medium    	word               	                                                	'say', 'take charge of'                                	     1
+421	    1393	书         	character	Elementary	book               	                                                	'key', 'clothes hanger', 'walking stick', 'a drop of'  	     0
+422	    1402	假         	character	Elementary	vacation           	                                                	'person', 'braces'                                     	     0
+423	    1404	气         	character	Elementary	air                	                                                	'reclining', 'floor', 'fishhook'                       	     0
+424	    1405	汽         	character	Elementary	vapor              	                                                	'air', 'water'                                         	     0
+425	    1406	面         	character	Elementary	face-to-face       	                                                	'hundred', 'eyeball'                                   	     0
+426	    1414	牙         	character	Medium    	tooth              	'tusk'                                          	'box', 'spear'                                         	     1
+427	    1415	穿         	character	Elementary	pass through       	                                                	'hole', 'tusk'                                         	     0
+428	    1428	长         	character	Elementary	long               	                                                	'plow', 'floor', 'animal horns', 'animal legs'         	     0
+429	    1432	应         	character	Elementary	ought to           	                                                	'cave', 'owl', 'floor'                                 	     0
+430	    1433	兴         	character	Elementary	excitement         	                                                	'owl', 'floor', 'animal legs'                          	     0
+431	    1438	鸟         	character	Medium    	bird               	                                                	'orientation', 'a drop of', 'pointed tail'             	     1
+432	    1439	鸡         	character	Elementary	chicken            	                                                	'crotch', 'bird'                                       	     0
+433	    1447	兔         	character	          	rabbit             	                                                	'bound up', 'mouth', 'human legs', 'a drop of'         	     2
+434	    1449	免         	character	Advanced  	avoid              	'hare'                                          	'rabbit'                                               	     1
+435	    1450	晚         	character	Elementary	nightfall          	                                                	'sun', 'hare'                                          	     0
+436	    1453	马         	character	Elementary	horse              	                                                	'pointed tail'                                         	     0
+437	    1454	妈         	character	Elementary	mama               	                                                	'woman', 'horse'                                       	     0
+438	    1455	吗         	character	Elementary	yes or no          	                                                	'mouth', 'horse'                                       	     0
+439	    1463	熊         	character	          	bear               	                                                	'elbow', 'flesh', 'spoon', 'cooking fire'              	     1
+440	    1464	能         	character	Elementary	ability            	                                                	'bear', 'cooking fire'                                 	     0
+441	    1469	关         	character	Elementary	shut               	'golden calf'                                   	'animal horns', 'heavens'                              	     0
+442	    1470	送         	character	Elementary	deliver            	                                                	'golden calf', 'road'                                  	     0
+443	    1476	那         	character	Elementary	that               	'Alcatraz'                                      	'razor wire', 'pinnacle'                               	     0
+444	    1477	哪         	character	Elementary	which?             	                                                	'mouth', 'Alcatraz'                                    	     0
+445	    1478	两         	character	Elementary	dos                	'yoke'                                          	'person', 'belt'                                       	     0
+446	    1484	电         	character	Elementary	electricity        	                                                	                                                       	     0
+447	    1543	肘         	character	          	elbow              	                                                	'flesh', 'glue'                                        	     1
+448	    1598	伞         	character	Medium    	umbrella           	                                                	'umbrella', 'animal horns', 'needle'                   	     1
+449	    1611	钥         	character	          	key                	                                                	'metal', 'moon'                                        	     1
+450	    1663	栽         	character	          	sow                	                                                	'Thanksgiving', 'tree'                                 	     1
+451	    1693	坛         	character	          	altar              	                                                	'soil', 'rising cloud'                                 	     1
+452	    1704	匙         	character	          	spoon              	                                                	'be', 'ancient spoon'                                  	     1
+453	    1716	砍         	character	          	chop               	                                                	'stone', 'yawn'                                        	     2
+454	    1743	茧         	character	          	cocoon             	                                                	'flower', 'insect'                                     	     2
+455	    1781	墙         	character	Advanced  	wall               	                                                	'soil', 'animal horns', 'return'                       	     1
+456	    1859	拖         	character	          	drag               	                                                	'fingers', 'reclining', 'scorpion'                     	     1
+457	    1925	钩         	character	          	hook               	                                                	'metal', 'cast'                                        	     2
+458	    1930	崖         	character	          	cliff              	                                                	'mountain', 'cliff', 'bricks'                          	     2
+459	    2021	犁         	character	          	plow               	                                                	'profit', 'cow'                                        	     1
+460	    2030	粘         	character	          	glue               	                                                	'rice', 'tell fortunes'                                	     1
+461	    2051	箭         	character	          	arrow              	                                                	'bamboo', 'in front'                                   	     2
+462	    2374	绍         	character	Elementary	acquaint           	                                                	'thread', 'summon'                                     	     0
+463	    2418	累         	character	Elementary	tired              	                                                	'rice field', 'floss'                                  	     0
+464	    2431	浮         	character	          	float              	                                                	'water', 'fledglings'                                  	     1
+465	    2488	盔         	character	          	helmet             	                                                	'ashes', 'dish'                                        	     1
+466	    2526	饿         	character	Elementary	hungry             	                                                	'food', 'miser'                                        	     0
+467	    2553	宰         	character	          	butcher            	                                                	'house', 'chili pepper'                                	     1
+468	    2575	寿         	character	Advanced  	longevity          	'long, gray, beard'                             	'bushes', 'glue'                                       	     4
+469	    2578	铸         	character	          	cast               	                                                	'metal', 'long, gray, beard'                           	     3
+470	    2737	旗         	character	          	flag               	                                                	'banner', 'hamper'                                     	     2
+471	    2766	翼         	character	          	wings              	                                                	'wings', 'brains', 'together'                          	     1
+472	    2858	剑         	character	          	saber              	                                                	'hootenanny', 'saber'                                  	     1
