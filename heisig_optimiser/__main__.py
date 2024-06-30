@@ -16,13 +16,14 @@ if BOOK_ONE_ONLY:
 else:
     scope = root
 
-chars = []
-
-levels = ["Elementary", "Medium", "Advanced"]
 hsk = {}
+levels = ["Elementary", "Medium", "Advanced"]
+
 for level in levels:
     with open(f"data/{level}.txt", "r") as file:
         hsk[level] = [line.strip() for line in file.readlines()]
+
+chars = []
 
 for frame in root.iter("frame"):
     char = {}
