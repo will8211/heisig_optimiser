@@ -14,7 +14,7 @@ def load_hsk_characters(levels: List[Level]) -> Dict[Level, List[str]]:
     return hsk
 
 
-def load_heisig_data():
+def load_heisig_data() -> Dict[Level, List[str]]:
     tree = ET.parse("data/rsh.xml")
     root = tree.getroot()
     chars: List[Dict[str, any]] = []
