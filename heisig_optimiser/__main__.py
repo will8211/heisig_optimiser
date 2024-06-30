@@ -1,4 +1,5 @@
 import xml.etree.ElementTree as ET
+from collections import defaultdict
 from typing import Dict, List, Literal, Set
 
 from tabulate import tabulate
@@ -21,12 +22,16 @@ def load_hsk_characters() -> Dict[Level, List[str]]:
     hsk: Dict[Level, List[str]] = {}
     levels: List[Level] = ["Elementary", "Medium", "Advanced"]
     for level in levels:
-        with open(f"data/{level}.txt", "r") as file:
-            hsk[level] = [line.strip() for line in file.readlines()]
+        try:
+            with open(f"data/{level}.txt", "r") as file:
+                hsk[level] = [line.strip() for line in file.readlines()]
+        except FileNotFoundError:
+            print(f"Warning: {level}.txt not found.")
+            hsk[level] = []
     return hsk
 
 
-def load_heisig_data() -> Dict[Level, List[str]]:
+def load_heisig_data() -> List[Dict[str, any]]:
     """
     Read in the Heisig data from the .xml file
     """
@@ -34,7 +39,7 @@ def load_heisig_data() -> Dict[Level, List[str]]:
     root = tree.getroot()
     chars: List[Dict[str, any]] = []
     for frame in root.iter("frame"):
-        char = {}
+        char = defaultdict(lambda: None)
         number = frame.attrib.get("number")
         char["No."] = int(number) if number else None
         char["Character"] = frame.attrib.get("character")
@@ -43,8 +48,8 @@ def load_heisig_data() -> Dict[Level, List[str]]:
         )
         char["Keywords"] = [frame.attrib.get("keyword")]
 
-        alternate_keywoords = frame.findall(".//pself")
-        for e in alternate_keywoords:
+        alternate_keywords = frame.findall(".//pself")
+        for e in alternate_keywords:
             if e.text not in char["Keywords"]:
                 char["Keywords"].append(e.text)
 
@@ -60,22 +65,20 @@ def load_heisig_data() -> Dict[Level, List[str]]:
 
 def add_hsk_levels_to_data(
     chars: List[Dict[str, any]], hsk: Dict[Level, List[str]]
-) -> Dict[Level, List[str]]:
+) -> List[Dict[str, any]]:
     """
     Add a HSK level of each Heisig character to the data
     """
     for char in chars:
         char["Level"] = None
-        for level in hsk.keys():
-            if char["Character"] in hsk[level]:
+        for level, characters in hsk.items():
+            if char["Character"] in characters:
                 char["Level"] = level
                 break
     return chars
 
 
-def calculate_required_characters(
-    chars: List[Dict[str, any]]
-) -> Dict[Level, List[str]]:
+def calculate_required_characters(chars: List[Dict[str, any]]) -> List[Dict[str, any]]:
     """
     Add the 'Required for' column to the Heisig characters to indicate
     the lowest level for which the character is required as a dependency
@@ -86,18 +89,18 @@ def calculate_required_characters(
     # Initialize the first level of dependencies
     requirements[depth] = set()
 
-    # Go through the elementary characters and get their dependiencies
+    # Go through the elementary characters and get their dependencies
     for c in chars:
         c["Required for"] = None
         if c["Level"] == "Elementary":
-            c["Required for"] = f"Elementary"
+            c["Required for"] = "Elementary"
             requirements[depth].update(c["Requires"])
 
     # Increment depth to start processing subdependencies
     depth += 1
 
     # Loop through the dependencies and mark them as required, get their subdependencies
-    while requirements[depth - 1]:
+    while requirements.get(depth - 1):
         requirements[depth] = set()
         for c in chars:
             if not c["Required for"]:
