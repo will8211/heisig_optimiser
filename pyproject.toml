@@ -4,7 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["will8211 <wmannard@gmail.com>"]
 readme = "README.md"
-packages = [{include = "heisig_optimiser"}]
+packages = [{ include = "heisig_optimiser" }]
 
 [tool.poetry.dependencies]
 python = "^3.11"
@@ -13,7 +13,7 @@ isort = "^5.13.2"
 tabulate = { version = "*", extras = ["widechars"] }
 
 [tool.poetry.group.dev.dependencies]
-black = {version = "^24.4.2", allow-prereleases = true}
+black = { version = "^24.4.2", allow-prereleases = true }
 
 [build-system]
 requires = ["poetry-core"]
