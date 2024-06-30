@@ -37,13 +37,12 @@ for frame in root.iter("frame"):
             char["Level"] = level
             break
 
-    char["Keyword"] = frame.attrib.get("keyword")
+    char["Keywords"] = [frame.attrib.get("keyword")]
 
     pself_elems = frame.findall(".//pself")
-    char["A.K.A."] = []
     for e in pself_elems:
-        if e.text != char["Keyword"]:
-            char["A.K.A."].append(e.text)
+        if e.text not in char["Keywords"]:
+            char["Keywords"].append(e.text)
 
     cite_elems = frame.findall(".//cite")
     char["Requires"] = []
@@ -74,7 +73,7 @@ while requirements[depth - 1]:
     requirements[depth] = set()
     for c in chars:
         if not c["Required for"]:
-            for name in [c["Keyword"]] + c["A.K.A."]:
+            for name in c["Keywords"]:
                 if name in requirements[depth - 1]:
                     c["Required for"] = f"Elementary ({depth})"
                     requirements[depth].update(c["Requires"])
@@ -97,8 +96,7 @@ headers = [
     "Type",
     "Level",
     "Required for",
-    "Keyword",
-    "A.K.A.",
+    "Keywords",
     "Requires",
 ]
 
