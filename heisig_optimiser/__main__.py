@@ -1,8 +1,8 @@
+import csv
+import json
 import xml.etree.ElementTree as ET
 from collections import defaultdict
 from typing import Dict, List, Literal, Set
-
-from tabulate import tabulate
 
 HskLevel = Literal["Elementary", "Medium", "Advanced"]
 
@@ -11,9 +11,10 @@ def main():
     hsk: Dict[HskLevel, List[str]] = load_hsk_characters()
     chars: List[Dict[str, any]] = load_heisig_data()
     chars = add_hsk_levels_to_data(chars, hsk)
-    chars = calculate_required_characters(chars, 'Elementary')
-    chars = calculate_required_characters(chars, 'Medium')
-    chars = calculate_required_characters(chars, 'Advanced')
+    chars = calculate_required_characters(chars, "Elementary")
+    chars = calculate_required_characters(chars, "Medium")
+    chars = calculate_required_characters(chars, "Advanced")
+    output_to_json(chars)
     output_to_csv(chars)
 
 
@@ -80,7 +81,9 @@ def add_hsk_levels_to_data(
     return chars
 
 
-def calculate_required_characters(chars: List[Dict[str, any]], hsk_level: HskLevel) -> List[Dict[str, any]]:
+def calculate_required_characters(
+    chars: List[Dict[str, any]], hsk_level: HskLevel
+) -> List[Dict[str, any]]:
     """
     Add the 'Required for' column to the Heisig characters to indicate
     the lowest level for which the character is required as a dependency
@@ -107,10 +110,24 @@ def calculate_required_characters(chars: List[Dict[str, any]], hsk_level: HskLev
             if not c["Required for"]:
                 for name in c["Keywords"]:
                     if name in requirements[depth - 1]:
-                        c["Required for"] = f"{hsk_level} ({depth})"
+                        c["Required for"] = f"{hsk_level}"
                         requirements[depth].update(c["Requires"])
         depth += 1
     return chars
+
+
+def format_cell(cell):
+    """
+    Convert lists to strings without square brackets
+    """
+    if isinstance(cell, list):
+        return "'" + "', '".join(cell) + "'" if cell else None
+    return cell
+
+
+def output_to_json(chars: List[Dict[str, any]]):
+    with open("out/out.json", "w", newline="", encoding="utf-8") as f:
+        json.dump(chars, f, indent=2, ensure_ascii=False)
 
 
 def output_to_csv(chars: List[Dict[str, any]]):
@@ -126,13 +143,15 @@ def output_to_csv(chars: List[Dict[str, any]]):
         "Keywords",
         "Requires",
     ]
-    ordered_data = [[row[header] for header in headers] for row in chars]
-    csv = tabulate(ordered_data, headers=headers, tablefmt="tsv")
-    csv = "\n".join(
-        [line.replace("[", "").replace("]", "") for line in csv.split("\n")]
-    )
-    with open("out/out.csv", "w") as f:
-        f.write(csv)
+
+    formatted_data = [
+        [format_cell(row.get(header)) for header in headers] for row in chars
+    ]
+
+    with open("out/out.csv", "w", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f)
+        writer.writerow(headers)
+        writer.writerows(formatted_data)
 
 
 main()
