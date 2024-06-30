@@ -3,45 +3,27 @@ from typing import Dict, Set
 
 from tabulate import tabulate
 
-START = 0
-END = 500001
-BOOK_ONE_ONLY = False
-
-tree = ET.parse("data/rsh.xml")
-root = tree.getroot()
-
-
-if BOOK_ONE_ONLY:
-    scope = root.findall("book")[0]
-else:
-    scope = root
-
+## Load HSK characters
 hsk = {}
 levels = ["Elementary", "Medium", "Advanced"]
-
 for level in levels:
     with open(f"data/{level}.txt", "r") as file:
         hsk[level] = [line.strip() for line in file.readlines()]
 
+## Loag Heisig data
 chars = []
-
+tree = ET.parse("data/rsh.xml")
+root = tree.getroot()
 for frame in root.iter("frame"):
     char = {}
     number = frame.attrib.get("number")
     char["No."] = int(number) if number else None
     char["Character"] = frame.attrib.get("character")
     char["Type"] = frame.attrib.get("{http://www.w3.org/2001/XMLSchema-instance}type")
-
-    char["Level"] = None
-    for level in levels:
-        if char["Character"] in hsk[level]:
-            char["Level"] = level
-            break
-
     char["Keywords"] = [frame.attrib.get("keyword")]
 
-    pself_elems = frame.findall(".//pself")
-    for e in pself_elems:
+    alternate_keywoords = frame.findall(".//pself")
+    for e in alternate_keywoords:
         if e.text not in char["Keywords"]:
             char["Keywords"].append(e.text)
 
@@ -52,14 +34,22 @@ for frame in root.iter("frame"):
 
     chars.append(char)
 
+## Add HSK levels to characters
+for char in chars:
+    char["Level"] = None
+    for level in levels:
+        if char["Character"] in hsk[level]:
+            char["Level"] = level
+            break
 
+## Mark characters needed at an earlier level:
 requirements: Dict[int, Set[str]] = {}
 depth = 0
 
 # Initialize the first level of dependencies
 requirements[depth] = set()
 
-# Go through the elementary characters and get their deps
+# Go through the elementary characters and get their dependiencies
 for c in chars:
     c["Required for"] = None
     if c["Level"] == "Elementary":
@@ -80,17 +70,7 @@ while requirements[depth - 1]:
                     requirements[depth].update(c["Requires"])
     depth += 1
 
-add_to_filtered = False
-filtered_rows = []
-for c in chars:
-    number = c["No."]
-    if number and number > END:
-        add_to_filtered = False
-    elif number and number >= START:
-        add_to_filtered = True
-    if add_to_filtered:
-        filtered_rows.append(c)
-
+## Prepare csv output
 headers = [
     "No.",
     "Character",
@@ -101,8 +81,7 @@ headers = [
     "Requires",
 ]
 
-ordered_data = [[row[header] for header in headers] for row in filtered_rows]
-
+ordered_data = [[row[header] for header in headers] for row in chars]
 csv = tabulate(ordered_data, headers=headers, tablefmt="tsv")
 csv = "\n".join([line.replace("[", "").replace("]", "") for line in csv.split("\n")])
 
