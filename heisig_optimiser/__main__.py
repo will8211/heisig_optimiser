@@ -15,6 +15,9 @@ def main():
 
 
 def load_hsk_characters() -> Dict[Level, List[str]]:
+    """
+    Read in the lists HSK characters for the three levels from disk
+    """
     hsk: Dict[Level, List[str]] = {}
     levels: List[Level] = ["Elementary", "Medium", "Advanced"]
     for level in levels:
@@ -24,6 +27,9 @@ def load_hsk_characters() -> Dict[Level, List[str]]:
 
 
 def load_heisig_data() -> Dict[Level, List[str]]:
+    """
+    Read in the Heisig data from the .xml file
+    """
     tree = ET.parse("data/rsh.xml")
     root = tree.getroot()
     chars: List[Dict[str, any]] = []
@@ -55,6 +61,9 @@ def load_heisig_data() -> Dict[Level, List[str]]:
 def add_hsk_levels_to_data(
     chars: List[Dict[str, any]], hsk: Dict[Level, List[str]]
 ) -> Dict[Level, List[str]]:
+    """
+    Add a HSK level of each Heisig character to the data
+    """
     for char in chars:
         char["Level"] = None
         for level in hsk.keys():
@@ -64,7 +73,13 @@ def add_hsk_levels_to_data(
     return chars
 
 
-def calculate_required_characters(chars: List[Dict[str, any]]) -> Dict[Level, List[str]]:
+def calculate_required_characters(
+    chars: List[Dict[str, any]]
+) -> Dict[Level, List[str]]:
+    """
+    Add the 'Required for' column to the Heisig characters to indicate
+    the lowest level for which the character is required as a dependency
+    """
     requirements: Dict[int, Set[str]] = {}
     depth = 0
 
@@ -95,6 +110,9 @@ def calculate_required_characters(chars: List[Dict[str, any]]) -> Dict[Level, Li
 
 
 def output_to_csv(chars: List[Dict[str, any]]):
+    """
+    Write out the enriched Heisig data to a .csv file
+    """
     headers = [
         "No.",
         "Character",
