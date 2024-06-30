@@ -29,7 +29,7 @@ def load_hsk_characters() -> Dict[HskLevel, List[str]]:
             with open(f"data/{level}.txt", "r") as file:
                 hsk[level] = [line.strip() for line in file.readlines()]
         except FileNotFoundError:
-            print(f"Warning: {level}.txt not found.")
+            print(f"Warning: {level}.txt not found. Did you run `./data/populate.sh`?")
             hsk[level] = []
     return hsk
 
@@ -134,6 +134,9 @@ def format_cell(cell):
 
 
 def output_to_json(chars: List[Dict[str, any]]):
+    """
+    Write the data out to a json file
+    """
     with open("out/out.json", "w", newline="", encoding="utf-8") as f:
         json.dump(chars, f, indent=2, ensure_ascii=False)
 
