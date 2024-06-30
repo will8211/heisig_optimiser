@@ -1,11 +1,13 @@
 import xml.etree.ElementTree as ET
-from typing import Dict, List, Set
+from typing import Dict, List, Literal, Set
 
 from tabulate import tabulate
 
+Level = Literal["Elementary", "Medium", "Advanced"]
 
-def load_hsk_characters(levels):
-    hsk = {}
+
+def load_hsk_characters(levels: List[Level]) -> Dict[Level, List[str]]:
+    hsk: Dict[Level, List[str]] = {}
     for level in levels:
         with open(f"data/{level}.txt", "r") as file:
             hsk[level] = [line.strip() for line in file.readlines()]
@@ -13,8 +15,8 @@ def load_hsk_characters(levels):
 
 
 ## Load HSK characters
-levels = ["Elementary", "Medium", "Advanced"]
-hsk: Dict[str, List[str]] = load_hsk_characters(levels)
+levels: List[Level] = ["Elementary", "Medium", "Advanced"]
+hsk: Dict[Level, List[str]] = load_hsk_characters(levels)
 
 ## Loag Heisig data
 chars = []
