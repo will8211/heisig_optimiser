@@ -14,41 +14,52 @@ def load_hsk_characters(levels: List[Level]) -> Dict[Level, List[str]]:
     return hsk
 
 
-## Load HSK characters
+def load_heisig_data():
+    tree = ET.parse("data/rsh.xml")
+    root = tree.getroot()
+    chars: List[Dict[str, any]] = []
+    for frame in root.iter("frame"):
+        char = {}
+        number = frame.attrib.get("number")
+        char["No."] = int(number) if number else None
+        char["Character"] = frame.attrib.get("character")
+        char["Type"] = frame.attrib.get(
+            "{http://www.w3.org/2001/XMLSchema-instance}type"
+        )
+        char["Keywords"] = [frame.attrib.get("keyword")]
+
+        alternate_keywoords = frame.findall(".//pself")
+        for e in alternate_keywoords:
+            if e.text not in char["Keywords"]:
+                char["Keywords"].append(e.text)
+
+        cite_elems = frame.findall(".//cite")
+        char["Requires"] = []
+        for e in cite_elems:
+            char["Requires"].append(e.text)
+
+        chars.append(char)
+
+    return chars
+
+
+def add_hsk_levels_to_data(
+    chars: List[Dict[str, any]], hsk: Dict[Level, List[str]]
+) -> Dict[Level, List[str]]:
+    for char in chars:
+        char["Level"] = None
+        for level in levels:
+            if char["Character"] in hsk[level]:
+                char["Level"] = level
+                break
+    return chars
+
+
 levels: List[Level] = ["Elementary", "Medium", "Advanced"]
 hsk: Dict[Level, List[str]] = load_hsk_characters(levels)
+chars: List[Dict[str, any]] = load_heisig_data()
+chars = add_hsk_levels_to_data(chars, hsk)
 
-## Loag Heisig data
-chars = []
-tree = ET.parse("data/rsh.xml")
-root = tree.getroot()
-for frame in root.iter("frame"):
-    char = {}
-    number = frame.attrib.get("number")
-    char["No."] = int(number) if number else None
-    char["Character"] = frame.attrib.get("character")
-    char["Type"] = frame.attrib.get("{http://www.w3.org/2001/XMLSchema-instance}type")
-    char["Keywords"] = [frame.attrib.get("keyword")]
-
-    alternate_keywoords = frame.findall(".//pself")
-    for e in alternate_keywoords:
-        if e.text not in char["Keywords"]:
-            char["Keywords"].append(e.text)
-
-    cite_elems = frame.findall(".//cite")
-    char["Requires"] = []
-    for e in cite_elems:
-        char["Requires"].append(e.text)
-
-    chars.append(char)
-
-## Add HSK levels to characters
-for char in chars:
-    char["Level"] = None
-    for level in levels:
-        if char["Character"] in hsk[level]:
-            char["Level"] = level
-            break
 
 ## Mark characters needed at an earlier level:
 requirements: Dict[int, Set[str]] = {}
