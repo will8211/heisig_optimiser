@@ -6,8 +6,17 @@ from tabulate import tabulate
 Level = Literal["Elementary", "Medium", "Advanced"]
 
 
-def load_hsk_characters(levels: List[Level]) -> Dict[Level, List[str]]:
+def main():
+    hsk: Dict[Level, List[str]] = load_hsk_characters()
+    chars: List[Dict[str, any]] = load_heisig_data()
+    chars = add_hsk_levels_to_data(chars, hsk)
+    chars = calculate_required_characters(chars)
+    output_to_csv(chars)
+
+
+def load_hsk_characters() -> Dict[Level, List[str]]:
     hsk: Dict[Level, List[str]] = {}
+    levels: List[Level] = ["Elementary", "Medium", "Advanced"]
     for level in levels:
         with open(f"data/{level}.txt", "r") as file:
             hsk[level] = [line.strip() for line in file.readlines()]
@@ -48,61 +57,60 @@ def add_hsk_levels_to_data(
 ) -> Dict[Level, List[str]]:
     for char in chars:
         char["Level"] = None
-        for level in levels:
+        for level in hsk.keys():
             if char["Character"] in hsk[level]:
                 char["Level"] = level
                 break
     return chars
 
 
-levels: List[Level] = ["Elementary", "Medium", "Advanced"]
-hsk: Dict[Level, List[str]] = load_hsk_characters(levels)
-chars: List[Dict[str, any]] = load_heisig_data()
-chars = add_hsk_levels_to_data(chars, hsk)
+def calculate_required_characters(chars: List[Dict[str, any]]) -> Dict[Level, List[str]]:
+    requirements: Dict[int, Set[str]] = {}
+    depth = 0
 
-
-## Mark characters needed at an earlier level:
-requirements: Dict[int, Set[str]] = {}
-depth = 0
-
-# Initialize the first level of dependencies
-requirements[depth] = set()
-
-# Go through the elementary characters and get their dependiencies
-for c in chars:
-    c["Required for"] = None
-    if c["Level"] == "Elementary":
-        c["Required for"] = f"Elementary"
-        requirements[depth].update(c["Requires"])
-
-# Increment depth to start processing subdependencies
-depth += 1
-
-# Loop through the dependencies and mark them as required, get their subdependencies
-while requirements[depth - 1]:
+    # Initialize the first level of dependencies
     requirements[depth] = set()
+
+    # Go through the elementary characters and get their dependiencies
     for c in chars:
-        if not c["Required for"]:
-            for name in c["Keywords"]:
-                if name in requirements[depth - 1]:
-                    c["Required for"] = f"Elementary ({depth})"
-                    requirements[depth].update(c["Requires"])
+        c["Required for"] = None
+        if c["Level"] == "Elementary":
+            c["Required for"] = f"Elementary"
+            requirements[depth].update(c["Requires"])
+
+    # Increment depth to start processing subdependencies
     depth += 1
 
-## Prepare csv output
-headers = [
-    "No.",
-    "Character",
-    "Type",
-    "Level",
-    "Required for",
-    "Keywords",
-    "Requires",
-]
+    # Loop through the dependencies and mark them as required, get their subdependencies
+    while requirements[depth - 1]:
+        requirements[depth] = set()
+        for c in chars:
+            if not c["Required for"]:
+                for name in c["Keywords"]:
+                    if name in requirements[depth - 1]:
+                        c["Required for"] = f"Elementary ({depth})"
+                        requirements[depth].update(c["Requires"])
+        depth += 1
+    return chars
 
-ordered_data = [[row[header] for header in headers] for row in chars]
-csv = tabulate(ordered_data, headers=headers, tablefmt="tsv")
-csv = "\n".join([line.replace("[", "").replace("]", "") for line in csv.split("\n")])
 
-with open("out/out.csv", "w") as f:
-    f.write(csv)
+def output_to_csv(chars: List[Dict[str, any]]):
+    headers = [
+        "No.",
+        "Character",
+        "Type",
+        "Level",
+        "Required for",
+        "Keywords",
+        "Requires",
+    ]
+    ordered_data = [[row[header] for header in headers] for row in chars]
+    csv = tabulate(ordered_data, headers=headers, tablefmt="tsv")
+    csv = "\n".join(
+        [line.replace("[", "").replace("]", "") for line in csv.split("\n")]
+    )
+    with open("out/out.csv", "w") as f:
+        f.write(csv)
+
+
+main()
