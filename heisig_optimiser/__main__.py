@@ -4,23 +4,25 @@ from typing import Dict, List, Literal, Set
 
 from tabulate import tabulate
 
-Level = Literal["Elementary", "Medium", "Advanced"]
+HskLevel = Literal["Elementary", "Medium", "Advanced"]
 
 
 def main():
-    hsk: Dict[Level, List[str]] = load_hsk_characters()
+    hsk: Dict[HskLevel, List[str]] = load_hsk_characters()
     chars: List[Dict[str, any]] = load_heisig_data()
     chars = add_hsk_levels_to_data(chars, hsk)
-    chars = calculate_required_characters(chars)
+    chars = calculate_required_characters(chars, 'Elementary')
+    chars = calculate_required_characters(chars, 'Medium')
+    chars = calculate_required_characters(chars, 'Advanced')
     output_to_csv(chars)
 
 
-def load_hsk_characters() -> Dict[Level, List[str]]:
+def load_hsk_characters() -> Dict[HskLevel, List[str]]:
     """
     Read in the lists HSK characters for the three levels from disk
     """
-    hsk: Dict[Level, List[str]] = {}
-    levels: List[Level] = ["Elementary", "Medium", "Advanced"]
+    hsk: Dict[HskLevel, List[str]] = {}
+    levels: List[HskLevel] = ["Elementary", "Medium", "Advanced"]
     for level in levels:
         try:
             with open(f"data/{level}.txt", "r") as file:
@@ -64,7 +66,7 @@ def load_heisig_data() -> List[Dict[str, any]]:
 
 
 def add_hsk_levels_to_data(
-    chars: List[Dict[str, any]], hsk: Dict[Level, List[str]]
+    chars: List[Dict[str, any]], hsk: Dict[HskLevel, List[str]]
 ) -> List[Dict[str, any]]:
     """
     Add a HSK level of each Heisig character to the data
@@ -78,7 +80,7 @@ def add_hsk_levels_to_data(
     return chars
 
 
-def calculate_required_characters(chars: List[Dict[str, any]]) -> List[Dict[str, any]]:
+def calculate_required_characters(chars: List[Dict[str, any]], hsk_level: HskLevel) -> List[Dict[str, any]]:
     """
     Add the 'Required for' column to the Heisig characters to indicate
     the lowest level for which the character is required as a dependency
@@ -89,11 +91,10 @@ def calculate_required_characters(chars: List[Dict[str, any]]) -> List[Dict[str,
     # Initialize the first level of dependencies
     requirements[depth] = set()
 
-    # Go through the elementary characters and get their dependencies
+    # Go through the characters of this HSK level and get their dependencies
     for c in chars:
-        c["Required for"] = None
-        if c["Level"] == "Elementary":
-            c["Required for"] = "Elementary"
+        if not c["Required for"] and c["Level"] == hsk_level:
+            c["Required for"] = hsk_level
             requirements[depth].update(c["Requires"])
 
     # Increment depth to start processing subdependencies
@@ -106,7 +107,7 @@ def calculate_required_characters(chars: List[Dict[str, any]]) -> List[Dict[str,
             if not c["Required for"]:
                 for name in c["Keywords"]:
                     if name in requirements[depth - 1]:
-                        c["Required for"] = f"Elementary ({depth})"
+                        c["Required for"] = f"{hsk_level} ({depth})"
                         requirements[depth].update(c["Requires"])
         depth += 1
     return chars
