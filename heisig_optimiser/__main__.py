@@ -41,27 +41,35 @@ def load_heisig_data() -> List[Dict[str, any]]:
     tree = ET.parse("data/rsh.xml")
     root = tree.getroot()
     chars: List[Dict[str, any]] = []
-    for frame in root.iter("frame"):
-        char = defaultdict(lambda: None)
-        number = frame.attrib.get("number")
-        char["No."] = int(number) if number else None
-        char["Character"] = frame.attrib.get("character")
-        char["Type"] = frame.attrib.get(
-            "{http://www.w3.org/2001/XMLSchema-instance}type"
-        )
-        char["Keywords"] = [frame.attrib.get("keyword")]
+    for book in root.iter("book"):
+        chapter_tags = ["lesson", "compounds", "postscript"]
+        chapters = [elem for tag in chapter_tags for elem in book.iter(tag)]
+        for chapter in chapters:
+            for frame in chapter.iter("frame"):
+                char = defaultdict(lambda: None)
+                number = frame.attrib.get("number")
+                char["Book"] = book.attrib.get("number")
+                char["Lesson"] = (
+                    chapter.attrib.get("number") if chapter.tag == "lesson" else ""
+                )
+                char["Number"] = int(number) if number else None
+                char["Character"] = frame.attrib.get("character")
+                char["Type"] = frame.attrib.get(
+                    "{http://www.w3.org/2001/XMLSchema-instance}type"
+                )
+                char["Keywords"] = [frame.attrib.get("keyword")]
 
-        alternate_keywords = frame.findall(".//pself")
-        for e in alternate_keywords:
-            if e.text not in char["Keywords"]:
-                char["Keywords"].append(e.text)
+                alternate_keywords = frame.findall(".//pself")
+                for e in alternate_keywords:
+                    if e.text not in char["Keywords"]:
+                        char["Keywords"].append(e.text)
 
-        cite_elems = frame.findall(".//cite")
-        char["Requires"] = []
-        for e in cite_elems:
-            char["Requires"].append(e.text)
+                cite_elems = frame.findall(".//cite")
+                char["Requires"] = []
+                for e in cite_elems:
+                    char["Requires"].append(e.text)
 
-        chars.append(char)
+                chars.append(char)
 
     return chars
 
@@ -121,7 +129,7 @@ def format_cell(cell):
     Convert lists to strings without square brackets
     """
     if isinstance(cell, list):
-        return "'" + "', '".join(cell) + "'" if cell else None
+        return '"' + '", "'.join(cell) + '"' if cell else None
     return cell
 
 
@@ -135,7 +143,9 @@ def output_to_csv(chars: List[Dict[str, any]]):
     Write out the enriched Heisig data to a .csv file
     """
     headers = [
-        "No.",
+        "Book",
+        "Lesson",
+        "Number",
         "Character",
         "Type",
         "Level",
