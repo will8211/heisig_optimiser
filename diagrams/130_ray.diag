@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  光 [label = "光\n130 ray"];
-  小 [label = "小\n109 small"];
-  丶 [label = "丶\n* a drop of"];
-  儿 [label = "儿\n56 youngster"];
+  E [label = "光\nray (130)"];
+  C [label = "小\nsmall (109)"];
+  B [label = "丶\na drop of (*)"];
+  D [label = "儿\nyoungster (56)"];
 
-  小 -> 光 [thick];
-  丶 -> 小 [thick];
-  儿 -> 光 [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
 }

@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  焰 [label = "焰\n2969 flame"];
-  火 [label = "火\n170 fire"];
-  臽 [label = "臽\n* pothole"];
-  臼 [label = "臼\n* mortar"];
-  勹 [label = "勹\n* bound up"];
+  F [label = "焰\nflame (2969)"];
+  B [label = "火\nfire (170)"];
+  E [label = "臽\npothole (*)"];
+  C [label = "臼\nmortar (*)"];
+  D [label = "勹\nbound up (*)"];
 
-  火 -> 焰 [thick];
-  臽 -> 焰 [thick];
-  臼 -> 臽 [thick];
-  勹 -> 臽 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

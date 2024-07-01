@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  盾 [label = "盾\n1896 shield"];
-  "𠂆" [label = "𠂆\n* drag"];
-  十 [label = "十\n10 ten"];
-  目 [label = "目\n15 eye"];
+  E [label = "盾\nshield (1896)"];
+  B [label = "𠂆\ndrag (*)"];
+  C [label = "十\nten (10)"];
+  D [label = "目\neye (15)"];
 
-  "𠂆" -> 盾 [thick];
-  十 -> 盾 [thick];
-  目 -> 盾 [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

@@ -5,19 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  挖 [label = "挖\n2354 dig"];
-  扌 [label = "扌\n* fingers"];
-  穴 [label = "穴\n1070 hole"];
-  宀 [label = "宀\n* house"];
-  八 [label = "八\n8 eight"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  乙 [label = "乙\n95 second"];
+  I [label = "挖\ndig (2354)"];
+  B [label = "扌\nfingers (*)"];
+  G [label = "穴\nhole (1070)"];
+  C [label = "宀\nhouse (*)"];
+  D [label = "八\neight (8)"];
+  F [label = "囧只－口\nanimal legs (*)"];
+  E [label = "八\neight (8)"];
+  H [label = "乙\nsecond (95)"];
 
-  扌 -> 挖 [thick];
-  穴 -> 挖 [thick];
-  宀 -> 穴 [thick];
-  八 -> 穴 [thick];
-  囧只－口 -> 穴 [thick];
-  八 -> 囧只－口 [thick];
-  乙 -> 挖 [thick];
+  B -> I [thick];
+  G -> I [thick];
+  C -> G [thick];
+  D -> G [thick];
+  F -> G [thick];
+  E -> F [thick];
+  H -> I [thick];
 }

@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  崩 [label = "崩\n1926 crumble"];
-  山 [label = "山\n688 mountain"];
-  朋 [label = "朋\n20 companion"];
-  月 [label = "月\n13 month"];
+  E [label = "崩\ncrumble (1926)"];
+  B [label = "山\nmountain (688)"];
+  D [label = "朋\ncompanion (20)"];
+  C [label = "月\nmonth (13)"];
 
-  山 -> 崩 [thick];
-  朋 -> 崩 [thick];
-  月 -> 朋 [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

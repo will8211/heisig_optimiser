@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  卉 [label = "卉\n* haystack"];
-  开 [label = "开\n613 open"];
-  二 [label = "二\n2 two"];
-  一 [label = "一\n1 one"];
-  十 [label = "十\n10 ten"];
+  F [label = "卉\nhaystack (*)"];
+  D [label = "开\nopen (613)"];
+  C [label = "二\ntwo (2)"];
+  B [label = "一\none (1)"];
+  E [label = "十\nten (10)"];
 
-  开 -> 卉 [thick];
-  二 -> 开 [thick];
-  一 -> 二 [thick];
-  十 -> 卉 [thick];
+  D -> F [thick];
+  C -> D [thick];
+  B -> C [thick];
+  E -> F [thick];
 }

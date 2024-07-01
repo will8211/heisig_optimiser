@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  唤 [label = "唤\n1324 call out"];
-  口 [label = "口\n11 mouth"];
-  奂 [label = "奂\n* Victorian lady"];
-  勹 [label = "勹\n* bound up"];
-  央 [label = "央\n1322 center"];
-  大 [label = "大\n113 large"];
+  G [label = "唤\ncall out (1324)"];
+  B [label = "口\nmouth (11)"];
+  F [label = "奂\nVictorian lady (*)"];
+  C [label = "勹\nbound up (*)"];
+  E [label = "央\ncenter (1322)"];
+  D [label = "大\nlarge (113)"];
 
-  口 -> 唤 [thick];
-  奂 -> 唤 [thick];
-  勹 -> 奂 [thick];
-  央 -> 奂 [thick];
-  大 -> 央 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
 }

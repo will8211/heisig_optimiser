@@ -5,32 +5,34 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  茫 [label = "茫\n1727 boundless"];
-  芒 [label = "芒\n1724 mango"];
-  艹 [label = "艹\n* flower"];
-  亡 [label = "亡\n490 deceased"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  乙 [label = "乙\n95 second"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
+  P [label = "茫\nboundless (1727)"];
+  K [label = "芒\nmango (1724)"];
+  B [label = "艹\nflower (*)"];
+  J [label = "亡\ndeceased (490)"];
+  H [label = "亠\ntop hat (*)"];
+  E [label = "六\nsix (6)"];
+  D [label = "囧只－口\nanimal legs (*)"];
+  C [label = "八\neight (8)"];
+  G [label = "囧只－口\nanimal legs (*)"];
+  F [label = "八\neight (8)"];
+  I [label = "乙\nsecond (95)"];
+  O [label = "水\nwater (137)"];
+  M [label = "丨\nwalking stick (*)"];
+  L [label = "一\none (1)"];
+  N [label = "丶\na drop of (*)"];
 
-  芒 -> 茫 [thick];
-  艹 -> 芒 [thick];
-  亡 -> 芒 [thick];
-  亠 -> 亡 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
-  乙 -> 亡 [thick];
-  水 -> 茫 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
+  K -> P [thick];
+  B -> K [thick];
+  J -> K [thick];
+  H -> J [thick];
+  E -> H [thick];
+  D -> E [thick];
+  C -> D [thick];
+  G -> H [thick];
+  F -> G [thick];
+  I -> J [thick];
+  O -> P [thick];
+  M -> O [thick];
+  L -> M [thick];
+  N -> O [thick];
 }

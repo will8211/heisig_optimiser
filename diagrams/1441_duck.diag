@@ -5,25 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  鸭 [label = "鸭\n1441 duck"];
-  甲 [label = "甲\n916 first"];
-  田 [label = "田\n14 rice field"];
-  鸟 [label = "鸟\n1438 bird"];
-  向 [label = "向\n188 orientation"];
-  丶 [label = "丶\n* a drop of"];
-  冂 [label = "冂\n* hood"];
-  几 [label = "几\n57 how many?"];
-  口 [label = "口\n11 mouth"];
-  囧与－丨一 [label = "囧与－丨一\n* pointed tail"];
+  L [label = "鸭\nduck (1441)"];
+  C [label = "甲\nfirst (916)"];
+  B [label = "田\nrice field (14)"];
+  K [label = "鸟\nbird (1438)"];
+  H [label = "向\norientation (188)"];
+  D [label = "丶\na drop of (*)"];
+  F [label = "冂\nhood (*)"];
+  E [label = "几\nhow many? (57)"];
+  G [label = "口\nmouth (11)"];
+  I [label = "丶\na drop of (*)"];
+  J [label = "囧与－丨一\npointed tail (*)"];
 
-  甲 -> 鸭 [thick];
-  田 -> 甲 [thick];
-  鸟 -> 鸭 [thick];
-  向 -> 鸟 [thick];
-  丶 -> 向 [thick];
-  冂 -> 向 [thick];
-  几 -> 冂 [thick];
-  口 -> 向 [thick];
-  丶 -> 鸟 [thick];
-  囧与－丨一 -> 鸟 [thick];
+  C -> L [thick];
+  B -> C [thick];
+  K -> L [thick];
+  H -> K [thick];
+  D -> H [thick];
+  F -> H [thick];
+  E -> F [thick];
+  G -> H [thick];
+  I -> K [thick];
+  J -> K [thick];
 }

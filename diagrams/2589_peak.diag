@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  峰 [label = "峰\n2589 peak"];
-  山 [label = "山\n688 mountain"];
-  夆 [label = "夆\n* briar"];
-  丰 [label = "丰\n1223 plentiful"];
-  夂 [label = "夂\n* walking legs"];
+  F [label = "峰\npeak (2589)"];
+  B [label = "山\nmountain (688)"];
+  E [label = "夆\nbriar (*)"];
+  C [label = "丰\nplentiful (1223)"];
+  D [label = "夂\nwalking legs (*)"];
 
-  山 -> 峰 [thick];
-  夆 -> 峰 [thick];
-  丰 -> 夆 [thick];
-  夂 -> 夆 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

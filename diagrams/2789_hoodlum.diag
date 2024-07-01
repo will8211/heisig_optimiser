@@ -5,33 +5,36 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  氓 [label = "氓\n2789 hoodlum"];
-  亡 [label = "亡\n490 deceased"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  乙 [label = "乙\n95 second"];
-  民 [label = "民\n1377 people"];
-  氏 [label = "氏\n1371 family name"];
-  丶 [label = "丶\n* a drop of"];
-  囧以－丶人 [label = "囧以－丶人\n* plow"];
-  一 [label = "一\n1 one"];
-  口 [label = "口\n11 mouth"];
+  Q [label = "氓\nhoodlum (2789)"];
+  I [label = "亡\ndeceased (490)"];
+  G [label = "亠\ntop hat (*)"];
+  D [label = "六\nsix (6)"];
+  C [label = "囧只－口\nanimal legs (*)"];
+  B [label = "八\neight (8)"];
+  F [label = "囧只－口\nanimal legs (*)"];
+  E [label = "八\neight (8)"];
+  H [label = "乙\nsecond (95)"];
+  P [label = "民\npeople (1377)"];
+  N [label = "氏\nfamily name (1371)"];
+  J [label = "丶\na drop of (*)"];
+  K [label = "囧以－丶人\nplow (*)"];
+  L [label = "一\none (1)"];
+  M [label = "乙\nsecond (95)"];
+  O [label = "口\nmouth (11)"];
 
-  亡 -> 氓 [thick];
-  亠 -> 亡 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
-  乙 -> 亡 [thick];
-  民 -> 氓 [thick];
-  氏 -> 民 [thick];
-  丶 -> 氏 [thick];
-  囧以－丶人 -> 氏 [thick];
-  一 -> 氏 [thick];
-  乙 -> 氏 [thick];
-  口 -> 民 [thick];
+  I -> Q [thick];
+  G -> I [thick];
+  D -> G [thick];
+  C -> D [thick];
+  B -> C [thick];
+  F -> G [thick];
+  E -> F [thick];
+  H -> I [thick];
+  P -> Q [thick];
+  N -> P [thick];
+  J -> N [thick];
+  K -> N [thick];
+  L -> N [thick];
+  M -> N [thick];
+  O -> P [thick];
 }

@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  辫 [label = "辫\n2555 braid"];
-  辛 [label = "辛\n1183 peppery"];
-  立 [label = "立\n444 standing up"];
-  十 [label = "十\n10 ten"];
-  纟 [label = "纟\n* thread"];
-  厶 [label = "厶\n* elbow"];
+  G [label = "辫\nbraid (2555)"];
+  D [label = "辛\npeppery (1183)"];
+  B [label = "立\nstanding up (444)"];
+  C [label = "十\nten (10)"];
+  F [label = "纟\nthread (*)"];
+  E [label = "厶\nelbow (*)"];
 
-  辛 -> 辫 [thick];
-  立 -> 辛 [thick];
-  十 -> 辛 [thick];
-  纟 -> 辫 [thick];
-  厶 -> 纟 [thick];
+  D -> G [thick];
+  B -> D [thick];
+  C -> D [thick];
+  F -> G [thick];
+  E -> F [thick];
 }

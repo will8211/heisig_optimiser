@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  眠 [label = "眠\n1378 slumber"];
-  目 [label = "目\n15 eye"];
-  民 [label = "民\n1377 people"];
-  氏 [label = "氏\n1371 family name"];
-  丶 [label = "丶\n* a drop of"];
-  囧以－丶人 [label = "囧以－丶人\n* plow"];
-  一 [label = "一\n1 one"];
-  乙 [label = "乙\n95 second"];
-  口 [label = "口\n11 mouth"];
+  J [label = "眠\nslumber (1378)"];
+  B [label = "目\neye (15)"];
+  I [label = "民\npeople (1377)"];
+  G [label = "氏\nfamily name (1371)"];
+  C [label = "丶\na drop of (*)"];
+  D [label = "囧以－丶人\nplow (*)"];
+  E [label = "一\none (1)"];
+  F [label = "乙\nsecond (95)"];
+  H [label = "口\nmouth (11)"];
 
-  目 -> 眠 [thick];
-  民 -> 眠 [thick];
-  氏 -> 民 [thick];
-  丶 -> 氏 [thick];
-  囧以－丶人 -> 氏 [thick];
-  一 -> 氏 [thick];
-  乙 -> 氏 [thick];
-  口 -> 民 [thick];
+  B -> J [thick];
+  I -> J [thick];
+  G -> I [thick];
+  C -> G [thick];
+  D -> G [thick];
+  E -> G [thick];
+  F -> G [thick];
+  H -> I [thick];
 }

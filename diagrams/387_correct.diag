@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  正 [label = "正\n387 correct"];
-  一 [label = "一\n1 one"];
-  止 [label = "止\n379 stop"];
+  D [label = "正\ncorrect (387)"];
+  B [label = "一\none (1)"];
+  C [label = "止\nstop (379)"];
 
-  一 -> 正 [thick];
-  止 -> 正 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

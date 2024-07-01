@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  睬 [label = "睬\n1904 notice"];
-  目 [label = "目\n15 eye"];
-  采 [label = "采\n665 pick"];
-  爪 [label = "爪\n663 claw"];
-  "𠂆" [label = "𠂆\n* drag"];
-  木 [label = "木\n202 tree"];
+  G [label = "睬\nnotice (1904)"];
+  B [label = "目\neye (15)"];
+  F [label = "采\npick (665)"];
+  D [label = "爪\nclaw (663)"];
+  C [label = "𠂆\ndrag (*)"];
+  E [label = "木\ntree (202)"];
 
-  目 -> 睬 [thick];
-  采 -> 睬 [thick];
-  爪 -> 采 [thick];
-  "𠂆" -> 爪 [thick];
-  木 -> 采 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

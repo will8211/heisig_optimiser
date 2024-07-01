@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  经 [label = "经\n1094 scripture"];
-  纟 [label = "纟\n* thread"];
-  厶 [label = "厶\n* elbow"];
-  "𢀖" [label = "𢀖\n* spool"];
-  工 [label = "工\n76 work"];
-  人 [label = "人\n793 person"];
+  G [label = "经\nscripture (1094)"];
+  C [label = "纟\nthread (*)"];
+  B [label = "厶\nelbow (*)"];
+  F [label = "𢀖\nspool (*)"];
+  D [label = "工\nwork (76)"];
+  E [label = "人\nperson (793)"];
 
-  纟 -> 经 [thick];
-  厶 -> 纟 [thick];
-  "𢀖" -> 经 [thick];
-  工 -> "𢀖" [thick];
-  人 -> "𢀖" [thick];
+  C -> G [thick];
+  B -> C [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

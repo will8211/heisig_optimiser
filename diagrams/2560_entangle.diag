@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  纠 [label = "纠\n2560 entangle"];
-  纟 [label = "纟\n* thread"];
-  厶 [label = "厶\n* elbow"];
-  丩 [label = "丩\n* cornucopia"];
+  E [label = "纠\nentangle (2560)"];
+  C [label = "纟\nthread (*)"];
+  B [label = "厶\nelbow (*)"];
+  D [label = "丩\ncornucopia (*)"];
 
-  纟 -> 纠 [thick];
-  厶 -> 纟 [thick];
-  丩 -> 纠 [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
 }

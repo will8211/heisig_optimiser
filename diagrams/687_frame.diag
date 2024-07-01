@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  构 [label = "构\n687 frame"];
-  木 [label = "木\n202 tree"];
-  囧勾 [label = "囧勾\n* cast"];
-  勹 [label = "勹\n* bound up"];
-  厶 [label = "厶\n* elbow"];
+  F [label = "构\nframe (687)"];
+  B [label = "木\ntree (202)"];
+  E [label = "囧勾\ncast (*)"];
+  C [label = "勹\nbound up (*)"];
+  D [label = "厶\nelbow (*)"];
 
-  木 -> 构 [thick];
-  囧勾 -> 构 [thick];
-  勹 -> 囧勾 [thick];
-  厶 -> 囧勾 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

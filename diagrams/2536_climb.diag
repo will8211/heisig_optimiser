@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  攀 [label = "攀\n2536 climb"];
-  林 [label = "林\n203 woods"];
-  木 [label = "木\n202 tree"];
-  "㐅" [label = "㐅\n* sheaf"];
-  大 [label = "大\n113 large"];
-  手 [label = "手\n584 hand"];
+  G [label = "攀\nclimb (2536)"];
+  C [label = "林\nwoods (203)"];
+  B [label = "木\ntree (202)"];
+  D [label = "㐅\nsheaf (*)"];
+  E [label = "大\nlarge (113)"];
+  F [label = "手\nhand (584)"];
 
-  林 -> 攀 [thick];
-  木 -> 林 [thick];
-  "㐅" -> 攀 [thick];
-  大 -> 攀 [thick];
-  手 -> 攀 [thick];
+  C -> G [thick];
+  B -> C [thick];
+  D -> G [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  还 [label = "还\n996 give back"];
-  不 [label = "不\n991 no"];
-  一 [label = "一\n1 one"];
-  人 [label = "人\n793 person"];
-  丶 [label = "丶\n* a drop of"];
-  辶 [label = "辶\n* road"];
+  G [label = "还\ngive back (996)"];
+  E [label = "不\nno (991)"];
+  B [label = "一\none (1)"];
+  C [label = "人\nperson (793)"];
+  D [label = "丶\na drop of (*)"];
+  F [label = "辶\nroad (*)"];
 
-  不 -> 还 [thick];
-  一 -> 不 [thick];
-  人 -> 不 [thick];
-  丶 -> 不 [thick];
-  辶 -> 还 [thick];
+  E -> G [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

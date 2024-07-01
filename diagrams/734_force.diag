@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  势 [label = "势\n734 force"];
-  执 [label = "执\n602 clench"];
-  扌 [label = "扌\n* fingers"];
-  丸 [label = "丸\n42 pill"];
-  九 [label = "九\n9 nine"];
-  肌 [label = "肌\n63 muscle"];
-  几 [label = "几\n57 how many?"];
-  月 [label = "月\n13 month"];
+  I [label = "势\nforce (734)"];
+  E [label = "执\nclench (602)"];
+  B [label = "扌\nfingers (*)"];
+  D [label = "丸\npill (42)"];
+  C [label = "九\nnine (9)"];
+  H [label = "肌\nmuscle (63)"];
+  F [label = "几\nhow many? (57)"];
+  G [label = "月\nmonth (13)"];
 
-  执 -> 势 [thick];
-  扌 -> 执 [thick];
-  丸 -> 执 [thick];
-  九 -> 丸 [thick];
-  肌 -> 势 [thick];
-  几 -> 肌 [thick];
-  月 -> 肌 [thick];
+  E -> I [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
+  H -> I [thick];
+  F -> H [thick];
+  G -> H [thick];
 }

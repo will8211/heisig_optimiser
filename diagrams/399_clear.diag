@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  楚 [label = "楚\n399 clear"];
-  疋 [label = "疋\n* zoo"];
-  囧走－十 [label = "囧走－十\n* mending"];
-  正 [label = "正\n387 correct"];
-  一 [label = "一\n1 one"];
-  止 [label = "止\n379 stop"];
-  林 [label = "林\n203 woods"];
-  木 [label = "木\n202 tree"];
+  I [label = "楚\nclear (399)"];
+  F [label = "疋\nzoo (*)"];
+  E [label = "囧走－十\nmending (*)"];
+  D [label = "正\ncorrect (387)"];
+  B [label = "一\none (1)"];
+  C [label = "止\nstop (379)"];
+  H [label = "林\nwoods (203)"];
+  G [label = "木\ntree (202)"];
 
-  疋 -> 楚 [thick];
-  囧走－十 -> 疋 [thick];
-  正 -> 囧走－十 [thick];
-  一 -> 正 [thick];
-  止 -> 正 [thick];
-  林 -> 楚 [thick];
-  木 -> 林 [thick];
+  F -> I [thick];
+  E -> F [thick];
+  D -> E [thick];
+  B -> D [thick];
+  C -> D [thick];
+  H -> I [thick];
+  G -> H [thick];
 }

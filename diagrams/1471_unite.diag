@@ -5,19 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  联 [label = "联\n1471 unite"];
-  耳 [label = "耳\n717 ear"];
-  关 [label = "关\n1469 shut"];
-  丷 [label = "丷\n* horns"];
-  一 [label = "一\n1 one"];
-  天 [label = "天\n436 heavens"];
-  大 [label = "大\n113 large"];
+  I [label = "联\nunite (1471)"];
+  B [label = "耳\near (717)"];
+  H [label = "关\nshut (1469)"];
+  D [label = "丷\nhorns (*)"];
+  C [label = "一\none (1)"];
+  G [label = "天\nheavens (436)"];
+  E [label = "一\none (1)"];
+  F [label = "大\nlarge (113)"];
 
-  耳 -> 联 [thick];
-  关 -> 联 [thick];
-  丷 -> 关 [thick];
-  一 -> 丷 [thick];
-  天 -> 关 [thick];
-  一 -> 天 [thick];
-  大 -> 天 [thick];
+  B -> I [thick];
+  H -> I [thick];
+  D -> H [thick];
+  C -> D [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

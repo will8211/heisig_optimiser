@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  忠 [label = "忠\n1790 loyal"];
-  中 [label = "中\n38 middle"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  口 [label = "口\n11 mouth"];
-  心 [label = "心\n563 heart"];
+  G [label = "忠\nloyal (1790)"];
+  E [label = "中\nmiddle (38)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "口\nmouth (11)"];
+  F [label = "心\nheart (563)"];
 
-  中 -> 忠 [thick];
-  丨 -> 中 [thick];
-  一 -> 丨 [thick];
-  口 -> 中 [thick];
-  心 -> 忠 [thick];
+  E -> G [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

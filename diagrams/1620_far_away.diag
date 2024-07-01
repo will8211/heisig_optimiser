@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  辽 [label = "辽\n1620 far away"];
-  了 [label = "了\n101 -ed"];
-  子 [label = "子\n97 child"];
-  辶 [label = "辶\n* road"];
+  E [label = "辽\nfar away (1620)"];
+  C [label = "了\n-ed (101)"];
+  B [label = "子\nchild (97)"];
+  D [label = "辶\nroad (*)"];
 
-  了 -> 辽 [thick];
-  子 -> 了 [thick];
-  辶 -> 辽 [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
 }

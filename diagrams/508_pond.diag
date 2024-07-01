@@ -5,19 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  池 [label = "池\n508 pond"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  也 [label = "也\n505 also"];
-  乙 [label = "乙\n95 second"];
+  I [label = "池\npond (508)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  G [label = "也\nalso (505)"];
+  F [label = "乙\nsecond (95)"];
+  H [label = "丶\na drop of (*)"];
 
-  水 -> 池 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  也 -> 池 [thick];
-  乙 -> 也 [thick];
-  丶 -> 池 [thick];
+  E -> I [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  G -> I [thick];
+  F -> G [thick];
+  H -> I [thick];
 }

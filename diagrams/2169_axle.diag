@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  轴 [label = "轴\n2169 axle"];
-  车 [label = "车\n300 car"];
-  由 [label = "由\n913 wherefore"];
-  田 [label = "田\n14 rice field"];
+  E [label = "轴\naxle (2169)"];
+  B [label = "车\ncar (300)"];
+  D [label = "由\nwherefore (913)"];
+  C [label = "田\nrice field (14)"];
 
-  车 -> 轴 [thick];
-  由 -> 轴 [thick];
-  田 -> 由 [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

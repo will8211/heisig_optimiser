@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  帝 [label = "帝\n449 sovereign"];
-  立 [label = "立\n444 standing up"];
-  "囧冖＋巾" [label = "囧冖＋巾\n* apron"];
-  巾 [label = "巾\n410 towel"];
-  冖 [label = "冖\n* crown"];
+  F [label = "帝\nsovereign (449)"];
+  B [label = "立\nstanding up (444)"];
+  E [label = "囧冖＋巾\napron (*)"];
+  C [label = "巾\ntowel (410)"];
+  D [label = "冖\ncrown (*)"];
 
-  立 -> 帝 [thick];
-  "囧冖＋巾" -> 帝 [thick];
-  巾 -> "囧冖＋巾" [thick];
-  冖 -> "囧冖＋巾" [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

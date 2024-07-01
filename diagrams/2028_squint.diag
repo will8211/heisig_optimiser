@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  眯 [label = "眯\n2028 squint"];
-  目 [label = "目\n15 eye"];
-  米 [label = "米\n778 rice"];
+  D [label = "眯\nsquint (2028)"];
+  B [label = "目\neye (15)"];
+  C [label = "米\nrice (778)"];
 
-  目 -> 眯 [thick];
-  米 -> 眯 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

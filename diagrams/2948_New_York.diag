@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  纽 [label = "纽\n2948 New York"];
-  纟 [label = "纟\n* thread"];
-  厶 [label = "厶\n* elbow"];
-  丑 [label = "丑\n1486 clown"];
-  十 [label = "十\n10 ten"];
-  囧侯－亻－矢 [label = "囧侯－亻－矢\n* key"];
+  G [label = "纽\nNew York (2948)"];
+  C [label = "纟\nthread (*)"];
+  B [label = "厶\nelbow (*)"];
+  F [label = "丑\nclown (1486)"];
+  D [label = "十\nten (10)"];
+  E [label = "囧侯－亻－矢\nkey (*)"];
 
-  纟 -> 纽 [thick];
-  厶 -> 纟 [thick];
-  丑 -> 纽 [thick];
-  十 -> 丑 [thick];
-  囧侯－亻－矢 -> 丑 [thick];
+  C -> G [thick];
+  B -> C [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

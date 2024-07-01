@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  辰 [label = "辰\n1467 sign of the dragon"];
-  厂 [label = "厂\n121 factory"];
-  二 [label = "二\n2 two"];
-  一 [label = "一\n1 one"];
-  囧丧－十－丷 [label = "囧丧－十－丷\n* barrette"];
+  F [label = "辰\nsign of the dragon (1467)"];
+  B [label = "厂\nfactory (121)"];
+  D [label = "二\ntwo (2)"];
+  C [label = "一\none (1)"];
+  E [label = "囧丧－十－丷\nbarrette (*)"];
 
-  厂 -> 辰 [thick];
-  二 -> 辰 [thick];
-  一 -> 二 [thick];
-  囧丧－十－丷 -> 辰 [thick];
+  B -> F [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

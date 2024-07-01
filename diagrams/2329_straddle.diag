@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  跨 [label = "跨\n2329 straddle"];
-  足 [label = "足\n1048 lower leg"];
-  口 [label = "口\n11 mouth"];
-  止 [label = "止\n379 stop"];
-  夸 [label = "夸\n2288 brag"];
-  大 [label = "大\n113 large"];
-  亏 [label = "亏\n2286 loss"];
-  丂 [label = "丂\n* snare"];
+  I [label = "跨\nstraddle (2329)"];
+  D [label = "足\nlower leg (1048)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "止\nstop (379)"];
+  H [label = "夸\nbrag (2288)"];
+  E [label = "大\nlarge (113)"];
+  G [label = "亏\nloss (2286)"];
+  F [label = "丂\nsnare (*)"];
 
-  足 -> 跨 [thick];
-  口 -> 足 [thick];
-  止 -> 足 [thick];
-  夸 -> 跨 [thick];
-  大 -> 夸 [thick];
-  亏 -> 夸 [thick];
-  丂 -> 亏 [thick];
+  D -> I [thick];
+  B -> D [thick];
+  C -> D [thick];
+  H -> I [thick];
+  E -> H [thick];
+  G -> H [thick];
+  F -> G [thick];
 }

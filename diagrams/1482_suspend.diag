@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  悬 [label = "悬\n1482 suspend"];
-  县 [label = "县\n1481 county"];
-  目 [label = "目\n15 eye"];
-  囧会－亼 [label = "囧会－亼\n* wall"];
-  厶 [label = "厶\n* elbow"];
-  一 [label = "一\n1 one"];
-  心 [label = "心\n563 heart"];
+  H [label = "悬\nsuspend (1482)"];
+  F [label = "县\ncounty (1481)"];
+  B [label = "目\neye (15)"];
+  E [label = "囧会－亼\nwall (*)"];
+  C [label = "厶\nelbow (*)"];
+  D [label = "一\none (1)"];
+  G [label = "心\nheart (563)"];
 
-  县 -> 悬 [thick];
-  目 -> 县 [thick];
-  囧会－亼 -> 县 [thick];
-  厶 -> 囧会－亼 [thick];
-  一 -> 囧会－亼 [thick];
-  心 -> 悬 [thick];
+  F -> H [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
+  G -> H [thick];
 }

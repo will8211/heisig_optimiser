@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  隐 [label = "隐\n2345 hidden"];
-  阝 [label = "阝\n* pinnacle"];
-  急 [label = "急\n946 anxious"];
-  勹 [label = "勹\n* bound up"];
-  彐 [label = "彐\n* broom"];
-  心 [label = "心\n563 heart"];
+  G [label = "隐\nhidden (2345)"];
+  B [label = "阝\npinnacle (*)"];
+  F [label = "急\nanxious (946)"];
+  C [label = "勹\nbound up (*)"];
+  D [label = "彐\nbroom (*)"];
+  E [label = "心\nheart (563)"];
 
-  阝 -> 隐 [thick];
-  急 -> 隐 [thick];
-  勹 -> 急 [thick];
-  彐 -> 急 [thick];
-  心 -> 急 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

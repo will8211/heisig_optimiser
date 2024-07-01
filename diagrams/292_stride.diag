@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  迈 [label = "迈\n292 stride"];
-  辶 [label = "辶\n* road"];
-  万 [label = "万\n65 ten thousand"];
-  勹 [label = "勹\n* bound up"];
-  一 [label = "一\n1 one"];
+  F [label = "迈\nstride (292)"];
+  B [label = "辶\nroad (*)"];
+  E [label = "万\nten thousand (65)"];
+  C [label = "勹\nbound up (*)"];
+  D [label = "一\none (1)"];
 
-  辶 -> 迈 [thick];
-  万 -> 迈 [thick];
-  勹 -> 万 [thick];
-  一 -> 万 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

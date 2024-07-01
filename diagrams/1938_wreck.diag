@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  摧 [label = "摧\n1938 wreck"];
-  指 [label = "指\n594 finger"];
-  扌 [label = "扌\n* fingers"];
-  旨 [label = "旨\n463 purpose"];
-  匕 [label = "匕\n453 ancient spoon"];
-  日 [label = "日\n12 day"];
-  崔 [label = "崔\n1937 Cui"];
-  山 [label = "山\n688 mountain"];
-  隹 [label = "隹\n* turkey"];
+  J [label = "摧\nwreck (1938)"];
+  F [label = "指\nfinger (594)"];
+  B [label = "扌\nfingers (*)"];
+  E [label = "旨\npurpose (463)"];
+  C [label = "匕\nancient spoon (453)"];
+  D [label = "日\nday (12)"];
+  I [label = "崔\nCui (1937)"];
+  G [label = "山\nmountain (688)"];
+  H [label = "隹\nturkey (*)"];
 
-  指 -> 摧 [thick];
-  扌 -> 指 [thick];
-  旨 -> 指 [thick];
-  匕 -> 旨 [thick];
-  日 -> 旨 [thick];
-  崔 -> 摧 [thick];
-  山 -> 崔 [thick];
-  隹 -> 崔 [thick];
+  F -> J [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
+  I -> J [thick];
+  G -> I [thick];
+  H -> I [thick];
 }

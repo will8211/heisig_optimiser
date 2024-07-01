@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  侠 [label = "侠\n2096 chivalrous person"];
-  人 [label = "人\n793 person"];
-  夹 [label = "夹\n1523 press from both sides"];
-  夫 [label = "夫\n726 husband"];
-  大 [label = "大\n113 large"];
-  丷 [label = "丷\n* horns"];
-  一 [label = "一\n1 one"];
+  H [label = "侠\nchivalrous person (2096)"];
+  B [label = "人\nperson (793)"];
+  G [label = "夹\npress from both sides (1523)"];
+  D [label = "夫\nhusband (726)"];
+  C [label = "大\nlarge (113)"];
+  F [label = "丷\nhorns (*)"];
+  E [label = "一\none (1)"];
 
-  人 -> 侠 [thick];
-  夹 -> 侠 [thick];
-  夫 -> 夹 [thick];
-  大 -> 夫 [thick];
-  丷 -> 夹 [thick];
-  一 -> 丷 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  D -> G [thick];
+  C -> D [thick];
+  F -> G [thick];
+  E -> F [thick];
 }

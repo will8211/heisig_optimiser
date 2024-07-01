@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  瞄 [label = "瞄\n236 aim"];
-  目 [label = "目\n15 eye"];
-  苗 [label = "苗\n235 seedling"];
-  田 [label = "田\n14 rice field"];
-  艹 [label = "艹\n* flower"];
+  F [label = "瞄\naim (236)"];
+  B [label = "目\neye (15)"];
+  E [label = "苗\nseedling (235)"];
+  C [label = "田\nrice field (14)"];
+  D [label = "艹\nflower (*)"];
 
-  目 -> 瞄 [thick];
-  苗 -> 瞄 [thick];
-  田 -> 苗 [thick];
-  艹 -> 苗 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

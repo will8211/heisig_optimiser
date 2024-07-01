@@ -5,25 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  琐 [label = "琐\n1604 trivial"];
-  玉 [label = "玉\n266 jade"];
-  王 [label = "王\n265 king"];
-  工 [label = "工\n76 work"];
-  丶 [label = "丶\n* a drop of"];
-  小 [label = "小\n109 small"];
-  贝 [label = "贝\n52 shellfish"];
-  目 [label = "目\n15 eye"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
+  L [label = "琐\ntrivial (1604)"];
+  E [label = "玉\njade (266)"];
+  C [label = "王\nking (265)"];
+  B [label = "工\nwork (76)"];
+  D [label = "丶\na drop of (*)"];
+  G [label = "小\nsmall (109)"];
+  F [label = "丶\na drop of (*)"];
+  K [label = "贝\nshellfish (52)"];
+  H [label = "目\neye (15)"];
+  J [label = "囧只－口\nanimal legs (*)"];
+  I [label = "八\neight (8)"];
 
-  玉 -> 琐 [thick];
-  王 -> 玉 [thick];
-  工 -> 王 [thick];
-  丶 -> 玉 [thick];
-  小 -> 琐 [thick];
-  丶 -> 小 [thick];
-  贝 -> 琐 [thick];
-  目 -> 贝 [thick];
-  囧只－口 -> 贝 [thick];
-  八 -> 囧只－口 [thick];
+  E -> L [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  G -> L [thick];
+  F -> G [thick];
+  K -> L [thick];
+  H -> K [thick];
+  J -> K [thick];
+  I -> J [thick];
 }

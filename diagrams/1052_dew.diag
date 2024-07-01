@@ -5,21 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  露 [label = "露\n1052 dew"];
-  雨 [label = "雨\n425 rain"];
-  路 [label = "路\n1051 path"];
-  足 [label = "足\n1048 lower leg"];
-  口 [label = "口\n11 mouth"];
-  止 [label = "止\n379 stop"];
-  各 [label = "各\n309 each"];
-  夂 [label = "夂\n* walking legs"];
+  J [label = "露\ndew (1052)"];
+  B [label = "雨\nrain (425)"];
+  I [label = "路\npath (1051)"];
+  E [label = "足\nlower leg (1048)"];
+  C [label = "口\nmouth (11)"];
+  D [label = "止\nstop (379)"];
+  H [label = "各\neach (309)"];
+  F [label = "口\nmouth (11)"];
+  G [label = "夂\nwalking legs (*)"];
 
-  雨 -> 露 [thick];
-  路 -> 露 [thick];
-  足 -> 路 [thick];
-  口 -> 足 [thick];
-  止 -> 足 [thick];
-  各 -> 路 [thick];
-  口 -> 各 [thick];
-  夂 -> 各 [thick];
+  B -> J [thick];
+  I -> J [thick];
+  E -> I [thick];
+  C -> E [thick];
+  D -> E [thick];
+  H -> I [thick];
+  F -> H [thick];
+  G -> H [thick];
 }

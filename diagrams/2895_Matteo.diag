@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  玛 [label = "玛\n2895 Matteo"];
-  玉 [label = "玉\n266 jade"];
-  王 [label = "王\n265 king"];
-  工 [label = "工\n76 work"];
-  丶 [label = "丶\n* a drop of"];
-  马 [label = "马\n1453 horse"];
-  囧与－丨一 [label = "囧与－丨一\n* pointed tail"];
+  H [label = "玛\nMatteo (2895)"];
+  E [label = "玉\njade (266)"];
+  C [label = "王\nking (265)"];
+  B [label = "工\nwork (76)"];
+  D [label = "丶\na drop of (*)"];
+  G [label = "马\nhorse (1453)"];
+  F [label = "囧与－丨一\npointed tail (*)"];
 
-  玉 -> 玛 [thick];
-  王 -> 玉 [thick];
-  工 -> 王 [thick];
-  丶 -> 玉 [thick];
-  马 -> 玛 [thick];
-  囧与－丨一 -> 马 [thick];
+  E -> H [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  G -> H [thick];
+  F -> G [thick];
 }

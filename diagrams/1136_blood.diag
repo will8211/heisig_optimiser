@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  血 [label = "血\n1136 blood"];
-  丶 [label = "丶\n* a drop of"];
-  皿 [label = "皿\n* dish"];
+  D [label = "血\nblood (1136)"];
+  B [label = "丶\na drop of (*)"];
+  C [label = "皿\ndish (*)"];
 
-  丶 -> 血 [thick];
-  皿 -> 血 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

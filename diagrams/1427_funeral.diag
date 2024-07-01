@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  丧 [label = "丧\n1427 funeral"];
-  土 [label = "土\n158 soil"];
-  丷 [label = "丷\n* horns"];
-  一 [label = "一\n1 one"];
-  囧丧－十－丷 [label = "囧丧－十－丷\n* barrette"];
+  F [label = "丧\nfuneral (1427)"];
+  B [label = "土\nsoil (158)"];
+  D [label = "丷\nhorns (*)"];
+  C [label = "一\none (1)"];
+  E [label = "囧丧－十－丷\nbarrette (*)"];
 
-  土 -> 丧 [thick];
-  丷 -> 丧 [thick];
-  一 -> 丷 [thick];
-  囧丧－十－丷 -> 丧 [thick];
+  B -> F [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

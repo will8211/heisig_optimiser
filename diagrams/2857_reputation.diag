@@ -5,31 +5,36 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  誉 [label = "誉\n2857 reputation"];
-  兴 [label = "兴\n1433 excitement"];
-  囧应－广 [label = "囧应－广\n* owl"];
-  一 [label = "一\n1 one"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  言 [label = "言\n346 say"];
-  二 [label = "二\n2 two"];
-  口 [label = "口\n11 mouth"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
+  Q [label = "誉\nreputation (2857)"];
+  F [label = "兴\nexcitement (1433)"];
+  B [label = "囧应－广\nowl (*)"];
+  C [label = "一\none (1)"];
+  E [label = "囧只－口\nanimal legs (*)"];
+  D [label = "八\neight (8)"];
+  P [label = "言\nsay (346)"];
+  H [label = "二\ntwo (2)"];
+  G [label = "一\none (1)"];
+  I [label = "口\nmouth (11)"];
+  O [label = "亠\ntop hat (*)"];
+  L [label = "六\nsix (6)"];
+  K [label = "囧只－口\nanimal legs (*)"];
+  J [label = "八\neight (8)"];
+  N [label = "囧只－口\nanimal legs (*)"];
+  M [label = "八\neight (8)"];
 
-  兴 -> 誉 [thick];
-  囧应－广 -> 兴 [thick];
-  一 -> 兴 [thick];
-  囧只－口 -> 兴 [thick];
-  八 -> 囧只－口 [thick];
-  言 -> 誉 [thick];
-  二 -> 言 [thick];
-  一 -> 二 [thick];
-  口 -> 言 [thick];
-  亠 -> 言 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
+  F -> Q [thick];
+  B -> F [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
+  P -> Q [thick];
+  H -> P [thick];
+  G -> H [thick];
+  I -> P [thick];
+  O -> P [thick];
+  L -> O [thick];
+  K -> L [thick];
+  J -> K [thick];
+  N -> O [thick];
+  M -> N [thick];
 }

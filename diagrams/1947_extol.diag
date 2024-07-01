@@ -5,25 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  颂 [label = "颂\n1947 extol"];
-  公 [label = "公\n696 public"];
-  八 [label = "八\n8 eight"];
-  厶 [label = "厶\n* elbow"];
-  页 [label = "页\n60 page"];
-  贝 [label = "贝\n52 shellfish"];
-  目 [label = "目\n15 eye"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
+  L [label = "颂\nextol (1947)"];
+  D [label = "公\npublic (696)"];
+  B [label = "八\neight (8)"];
+  C [label = "厶\nelbow (*)"];
+  K [label = "页\npage (60)"];
+  H [label = "贝\nshellfish (52)"];
+  E [label = "目\neye (15)"];
+  G [label = "囧只－口\nanimal legs (*)"];
+  F [label = "八\neight (8)"];
+  I [label = "一\none (1)"];
+  J [label = "丶\na drop of (*)"];
 
-  公 -> 颂 [thick];
-  八 -> 公 [thick];
-  厶 -> 公 [thick];
-  页 -> 颂 [thick];
-  贝 -> 页 [thick];
-  目 -> 贝 [thick];
-  囧只－口 -> 贝 [thick];
-  八 -> 囧只－口 [thick];
-  一 -> 页 [thick];
-  丶 -> 页 [thick];
+  D -> L [thick];
+  B -> D [thick];
+  C -> D [thick];
+  K -> L [thick];
+  H -> K [thick];
+  E -> H [thick];
+  G -> H [thick];
+  F -> G [thick];
+  I -> K [thick];
+  J -> K [thick];
 }

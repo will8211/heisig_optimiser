@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  罐 [label = "罐\n2881 jar"];
-  缶 [label = "缶\n* tin can"];
-  午 [label = "午\n542 noon"];
-  山 [label = "山\n688 mountain"];
-  雚 [label = "雚\n* stork"];
-  隹 [label = "隹\n* turkey"];
-  吅 [label = "吅\n* chatterbox"];
-  口 [label = "口\n11 mouth"];
-  艹 [label = "艹\n* flower"];
+  J [label = "罐\njar (2881)"];
+  D [label = "缶\ntin can (*)"];
+  B [label = "午\nnoon (542)"];
+  C [label = "山\nmountain (688)"];
+  I [label = "雚\nstork (*)"];
+  E [label = "隹\nturkey (*)"];
+  G [label = "吅\nchatterbox (*)"];
+  F [label = "口\nmouth (11)"];
+  H [label = "艹\nflower (*)"];
 
-  缶 -> 罐 [thick];
-  午 -> 缶 [thick];
-  山 -> 缶 [thick];
-  雚 -> 罐 [thick];
-  隹 -> 雚 [thick];
-  吅 -> 雚 [thick];
-  口 -> 吅 [thick];
-  艹 -> 雚 [thick];
+  D -> J [thick];
+  B -> D [thick];
+  C -> D [thick];
+  I -> J [thick];
+  E -> I [thick];
+  G -> I [thick];
+  F -> G [thick];
+  H -> I [thick];
 }

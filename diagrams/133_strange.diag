@@ -5,16 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  奇 [label = "奇\n133 strange"];
-  大 [label = "大\n113 large"];
-  可 [label = "可\n92 can"];
-  丁 [label = "丁\n90 fourth"];
-  口 [label = "口\n11 mouth"];
+  H [label = "奇\nstrange (133)"];
+  B [label = "大\nlarge (113)"];
+  E [label = "可\ncan (92)"];
+  C [label = "丁\nfourth (90)"];
+  D [label = "口\nmouth (11)"];
+  F [label = "口\nmouth (11)"];
+  G [label = "丁\nfourth (90)"];
 
-  大 -> 奇 [thick];
-  可 -> 奇 [thick];
-  丁 -> 可 [thick];
-  口 -> 可 [thick];
-  口 -> 奇 [thick];
-  丁 -> 奇 [thick];
+  B -> H [thick];
+  E -> H [thick];
+  C -> E [thick];
+  D -> E [thick];
+  F -> H [thick];
+  G -> H [thick];
 }

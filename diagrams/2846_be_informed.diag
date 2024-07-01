@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  悉 [label = "悉\n2846 be informed"];
-  釆 [label = "釆\n* droppings"];
-  丶 [label = "丶\n* a drop of"];
-  米 [label = "米\n778 rice"];
-  心 [label = "心\n563 heart"];
+  F [label = "悉\nbe informed (2846)"];
+  D [label = "釆\ndroppings (*)"];
+  B [label = "丶\na drop of (*)"];
+  C [label = "米\nrice (778)"];
+  E [label = "心\nheart (563)"];
 
-  釆 -> 悉 [thick];
-  丶 -> 釆 [thick];
-  米 -> 釆 [thick];
-  心 -> 悉 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  惑 [label = "惑\n1792 be bewildered"];
-  或 [label = "或\n364 or"];
-  口 [label = "口\n11 mouth"];
-  一 [label = "一\n1 one"];
-  戈 [label = "戈\n361 halberd"];
-  弋 [label = "弋\n* arrow"];
-  心 [label = "心\n563 heart"];
+  H [label = "惑\nbe bewildered (1792)"];
+  F [label = "或\nor (364)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "一\none (1)"];
+  E [label = "戈\nhalberd (361)"];
+  D [label = "弋\narrow (*)"];
+  G [label = "心\nheart (563)"];
 
-  或 -> 惑 [thick];
-  口 -> 或 [thick];
-  一 -> 或 [thick];
-  戈 -> 或 [thick];
-  弋 -> 戈 [thick];
-  心 -> 惑 [thick];
+  F -> H [thick];
+  B -> F [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
+  G -> H [thick];
 }

@@ -5,13 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  奉 [label = "奉\n1232 proffer"];
-  "𡗗" [label = "𡗗\n* bonsai"];
-  丰 [label = "丰\n1223 plentiful"];
-  "囧奉－𡗗" [label = "囧奉－𡗗\n* cornstalk"];
+  F [label = "奉\nproffer (1232)"];
+  C [label = "𡗗\nbonsai (*)"];
+  B [label = "丰\nplentiful (1223)"];
+  E [label = "囧奉－𡗗\ncornstalk (*)"];
+  D [label = "丰\nplentiful (1223)"];
 
-  "𡗗" -> 奉 [thick];
-  丰 -> "𡗗" [thick];
-  "囧奉－𡗗" -> 奉 [thick];
-  丰 -> "囧奉－𡗗" [thick];
+  C -> F [thick];
+  B -> C [thick];
+  E -> F [thick];
+  D -> E [thick];
 }

@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  祟 [label = "祟\n2161 evil spirit"];
-  出 [label = "出\n689 exit"];
-  山 [label = "山\n688 mountain"];
-  示 [label = "示\n900 show"];
+  E [label = "祟\nevil spirit (2161)"];
+  C [label = "出\nexit (689)"];
+  B [label = "山\nmountain (688)"];
+  D [label = "示\nshow (900)"];
 
-  出 -> 祟 [thick];
-  山 -> 出 [thick];
-  示 -> 祟 [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
 }

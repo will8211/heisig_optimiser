@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  粮 [label = "粮\n2515 provisions"];
-  米 [label = "米\n778 rice"];
-  良 [label = "良\n1151 high-quality"];
-  丶 [label = "丶\n* a drop of"];
-  艮 [label = "艮\n* silver"];
+  F [label = "粮\nprovisions (2515)"];
+  B [label = "米\nrice (778)"];
+  E [label = "良\nhigh-quality (1151)"];
+  C [label = "丶\na drop of (*)"];
+  D [label = "艮\nsilver (*)"];
 
-  米 -> 粮 [thick];
-  良 -> 粮 [thick];
-  丶 -> 良 [thick];
-  艮 -> 良 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

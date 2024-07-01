@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  冷 [label = "冷\n1114 cold"];
-  冫 [label = "冫\n* ice"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  令 [label = "令\n1113 orders"];
-  亼 [label = "亼\n* meeting"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  囧节－艹 [label = "囧节－艹\n* chop"];
+  K [label = "冷\ncold (1114)"];
+  F [label = "冫\nice (*)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  J [label = "令\norders (1113)"];
+  H [label = "亼\nmeeting (*)"];
+  G [label = "𠆢\numbrella (*)"];
+  I [label = "囧节－艹\nchop (*)"];
 
-  冫 -> 冷 [thick];
-  水 -> 冫 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  令 -> 冷 [thick];
-  亼 -> 令 [thick];
-  "𠆢" -> 亼 [thick];
-  囧节－艹 -> 令 [thick];
+  F -> K [thick];
+  E -> F [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  J -> K [thick];
+  H -> J [thick];
+  G -> H [thick];
+  I -> J [thick];
 }

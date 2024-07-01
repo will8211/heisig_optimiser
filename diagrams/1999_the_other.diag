@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  彼 [label = "彼\n1999 the other"];
-  行 [label = "行\n754 line of business"];
-  皮 [label = "皮\n707 covering"];
-  支 [label = "支\n650 offshoot"];
-  十 [label = "十\n10 ten"];
-  又 [label = "又\n633 again"];
+  G [label = "彼\nthe other (1999)"];
+  B [label = "行\nline of business (754)"];
+  F [label = "皮\ncovering (707)"];
+  E [label = "支\noffshoot (650)"];
+  C [label = "十\nten (10)"];
+  D [label = "又\nagain (633)"];
 
-  行 -> 彼 [thick];
-  皮 -> 彼 [thick];
-  支 -> 皮 [thick];
-  十 -> 支 [thick];
-  又 -> 支 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

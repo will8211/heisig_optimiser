@@ -5,17 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  路 [label = "路\n1051 path"];
-  足 [label = "足\n1048 lower leg"];
-  口 [label = "口\n11 mouth"];
-  止 [label = "止\n379 stop"];
-  各 [label = "各\n309 each"];
-  夂 [label = "夂\n* walking legs"];
+  H [label = "路\npath (1051)"];
+  D [label = "足\nlower leg (1048)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "止\nstop (379)"];
+  G [label = "各\neach (309)"];
+  E [label = "口\nmouth (11)"];
+  F [label = "夂\nwalking legs (*)"];
 
-  足 -> 路 [thick];
-  口 -> 足 [thick];
-  止 -> 足 [thick];
-  各 -> 路 [thick];
-  口 -> 各 [thick];
-  夂 -> 各 [thick];
+  D -> H [thick];
+  B -> D [thick];
+  C -> D [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

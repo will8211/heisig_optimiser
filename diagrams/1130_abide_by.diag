@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  遵 [label = "遵\n1130 abide by"];
-  尊 [label = "尊\n1129 venerate"];
-  酋 [label = "酋\n1128 chieftain"];
-  丷 [label = "丷\n* horns"];
-  一 [label = "一\n1 one"];
-  酉 [label = "酉\n* whiskey bottle"];
-  寸 [label = "寸\n166 Chinese inch"];
-  丶 [label = "丶\n* a drop of"];
-  十 [label = "十\n10 ten"];
-  辶 [label = "辶\n* road"];
+  K [label = "遵\nabide by (1130)"];
+  I [label = "尊\nvenerate (1129)"];
+  E [label = "酋\nchieftain (1128)"];
+  C [label = "丷\nhorns (*)"];
+  B [label = "一\none (1)"];
+  D [label = "酉\nwhiskey bottle (*)"];
+  H [label = "寸\nChinese inch (166)"];
+  F [label = "丶\na drop of (*)"];
+  G [label = "十\nten (10)"];
+  J [label = "辶\nroad (*)"];
 
-  尊 -> 遵 [thick];
-  酋 -> 尊 [thick];
-  丷 -> 酋 [thick];
-  一 -> 丷 [thick];
-  酉 -> 酋 [thick];
-  寸 -> 尊 [thick];
-  丶 -> 寸 [thick];
-  十 -> 寸 [thick];
-  辶 -> 遵 [thick];
+  I -> K [thick];
+  E -> I [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  H -> I [thick];
+  F -> H [thick];
+  G -> H [thick];
+  J -> K [thick];
 }

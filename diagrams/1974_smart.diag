@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  聪 [label = "聪\n1974 smart"];
-  耳 [label = "耳\n717 ear"];
-  总 [label = "总\n566 general"];
-  丷 [label = "丷\n* horns"];
-  一 [label = "一\n1 one"];
-  口 [label = "口\n11 mouth"];
-  心 [label = "心\n563 heart"];
+  H [label = "聪\nsmart (1974)"];
+  B [label = "耳\near (717)"];
+  G [label = "总\ngeneral (566)"];
+  D [label = "丷\nhorns (*)"];
+  C [label = "一\none (1)"];
+  E [label = "口\nmouth (11)"];
+  F [label = "心\nheart (563)"];
 
-  耳 -> 聪 [thick];
-  总 -> 聪 [thick];
-  丷 -> 总 [thick];
-  一 -> 丷 [thick];
-  口 -> 总 [thick];
-  心 -> 总 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  D -> G [thick];
+  C -> D [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

@@ -5,8 +5,8 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  具 [label = "具\n74 tool"];
-  目 [label = "目\n15 eye"];
+  C [label = "具\ntool (74)"];
+  B [label = "目\neye (15)"];
 
-  目 -> 具 [thick];
+  B -> C [thick];
 }

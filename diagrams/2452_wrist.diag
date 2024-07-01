@@ -5,19 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  腕 [label = "腕\n2452 wrist"];
-  月 [label = "月\n13 month"];
-  宛 [label = "宛\n2451 winding"];
-  宀 [label = "宀\n* house"];
-  夗 [label = "夗\n* nameplate"];
-  夕 [label = "夕\n115 evening"];
-  "㔾" [label = "㔾\n* fingerprint"];
+  I [label = "腕\nwrist (2452)"];
+  B [label = "月\nmonth (13)"];
+  H [label = "宛\nwinding (2451)"];
+  C [label = "宀\nhouse (*)"];
+  G [label = "夗\nnameplate (*)"];
+  E [label = "夕\nevening (115)"];
+  D [label = "月\nmonth (13)"];
+  F [label = "㔾\nfingerprint (*)"];
 
-  月 -> 腕 [thick];
-  宛 -> 腕 [thick];
-  宀 -> 宛 [thick];
-  夗 -> 宛 [thick];
-  夕 -> 夗 [thick];
-  月 -> 夕 [thick];
-  "㔾" -> 夗 [thick];
+  B -> I [thick];
+  H -> I [thick];
+  C -> H [thick];
+  G -> H [thick];
+  E -> G [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

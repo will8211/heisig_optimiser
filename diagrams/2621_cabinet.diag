@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  阁 [label = "阁\n2621 cabinet"];
-  门 [label = "门\n1260 gate"];
-  各 [label = "各\n309 each"];
-  口 [label = "口\n11 mouth"];
-  夂 [label = "夂\n* walking legs"];
+  F [label = "阁\ncabinet (2621)"];
+  B [label = "门\ngate (1260)"];
+  E [label = "各\neach (309)"];
+  C [label = "口\nmouth (11)"];
+  D [label = "夂\nwalking legs (*)"];
 
-  门 -> 阁 [thick];
-  各 -> 阁 [thick];
-  口 -> 各 [thick];
-  夂 -> 各 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

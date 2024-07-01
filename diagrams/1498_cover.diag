@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  套 [label = "套\n1498 cover"];
-  大 [label = "大\n113 large"];
-  囧印－卩 [label = "囧印－卩\n* staples"];
-  囧会－亼 [label = "囧会－亼\n* wall"];
-  厶 [label = "厶\n* elbow"];
-  一 [label = "一\n1 one"];
+  G [label = "套\ncover (1498)"];
+  B [label = "大\nlarge (113)"];
+  C [label = "囧印－卩\nstaples (*)"];
+  F [label = "囧会－亼\nwall (*)"];
+  D [label = "厶\nelbow (*)"];
+  E [label = "一\none (1)"];
 
-  大 -> 套 [thick];
-  囧印－卩 -> 套 [thick];
-  囧会－亼 -> 套 [thick];
-  厶 -> 囧会－亼 [thick];
-  一 -> 囧会－亼 [thick];
+  B -> G [thick];
+  C -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

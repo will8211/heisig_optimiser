@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  毕 [label = "毕\n1708 complete"];
-  比 [label = "比\n456 compare"];
-  匕 [label = "匕\n453 ancient spoon"];
-  十 [label = "十\n10 ten"];
+  E [label = "毕\ncomplete (1708)"];
+  C [label = "比\ncompare (456)"];
+  B [label = "匕\nancient spoon (453)"];
+  D [label = "十\nten (10)"];
 
-  比 -> 毕 [thick];
-  匕 -> 比 [thick];
-  十 -> 毕 [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
 }

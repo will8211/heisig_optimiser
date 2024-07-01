@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  狐 [label = "狐\n2828 fox"];
-  犬 [label = "犬\n239 pooch"];
-  大 [label = "大\n113 large"];
-  丶 [label = "丶\n* a drop of"];
-  瓜 [label = "瓜\n1399 melon"];
-  爪 [label = "爪\n663 claw"];
-  "𠂆" [label = "𠂆\n* drag"];
+  H [label = "狐\nfox (2828)"];
+  D [label = "犬\npooch (239)"];
+  B [label = "大\nlarge (113)"];
+  C [label = "丶\na drop of (*)"];
+  G [label = "瓜\nmelon (1399)"];
+  F [label = "爪\nclaw (663)"];
+  E [label = "𠂆\ndrag (*)"];
 
-  犬 -> 狐 [thick];
-  大 -> 犬 [thick];
-  丶 -> 犬 [thick];
-  瓜 -> 狐 [thick];
-  爪 -> 瓜 [thick];
-  "𠂆" -> 爪 [thick];
+  D -> H [thick];
+  B -> D [thick];
+  C -> D [thick];
+  G -> H [thick];
+  F -> G [thick];
+  E -> F [thick];
 }

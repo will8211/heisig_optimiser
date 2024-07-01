@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  案 [label = "案\n214 case"];
-  安 [label = "安\n197 peaceful"];
-  女 [label = "女\n102 woman"];
-  宀 [label = "宀\n* house"];
-  木 [label = "木\n202 tree"];
+  F [label = "案\ncase (214)"];
+  D [label = "安\npeaceful (197)"];
+  B [label = "女\nwoman (102)"];
+  C [label = "宀\nhouse (*)"];
+  E [label = "木\ntree (202)"];
 
-  安 -> 案 [thick];
-  女 -> 安 [thick];
-  宀 -> 安 [thick];
-  木 -> 案 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

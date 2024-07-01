@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  骄 [label = "骄\n2897 arrogant"];
-  马 [label = "马\n1453 horse"];
-  囧与－丨一 [label = "囧与－丨一\n* pointed tail"];
-  乔 [label = "乔\n441 pretend"];
-  "囧介－𠆢" [label = "囧介－𠆢\n* crutches"];
-  夭 [label = "夭\n440 die young"];
-  大 [label = "大\n113 large"];
-  丶 [label = "丶\n* a drop of"];
+  I [label = "骄\narrogant (2897)"];
+  C [label = "马\nhorse (1453)"];
+  B [label = "囧与－丨一\npointed tail (*)"];
+  H [label = "乔\npretend (441)"];
+  D [label = "囧介－𠆢\ncrutches (*)"];
+  G [label = "夭\ndie young (440)"];
+  E [label = "大\nlarge (113)"];
+  F [label = "丶\na drop of (*)"];
 
-  马 -> 骄 [thick];
-  囧与－丨一 -> 马 [thick];
-  乔 -> 骄 [thick];
-  "囧介－𠆢" -> 乔 [thick];
-  夭 -> 乔 [thick];
-  大 -> 夭 [thick];
-  丶 -> 夭 [thick];
+  C -> I [thick];
+  B -> C [thick];
+  H -> I [thick];
+  D -> H [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

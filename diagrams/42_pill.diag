@@ -5,8 +5,8 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  丸 [label = "丸\n42 pill"];
-  九 [label = "九\n9 nine"];
+  C [label = "丸\npill (42)"];
+  B [label = "九\nnine (9)"];
 
-  九 -> 丸 [thick];
+  B -> C [thick];
 }

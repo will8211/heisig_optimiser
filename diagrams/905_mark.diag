@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  标 [label = "标\n905 mark"];
-  木 [label = "木\n202 tree"];
-  示 [label = "示\n900 show"];
+  D [label = "标\nmark (905)"];
+  B [label = "木\ntree (202)"];
+  C [label = "示\nshow (900)"];
 
-  木 -> 标 [thick];
-  示 -> 标 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

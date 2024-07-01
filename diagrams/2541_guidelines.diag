@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  纲 [label = "纲\n2541 guidelines"];
-  纟 [label = "纟\n* thread"];
-  厶 [label = "厶\n* elbow"];
-  冈 [label = "冈\n1170 ridge of a hill"];
-  冂 [label = "冂\n* hood"];
-  几 [label = "几\n57 how many?"];
-  "㐅" [label = "㐅\n* sheaf"];
+  H [label = "纲\nguidelines (2541)"];
+  C [label = "纟\nthread (*)"];
+  B [label = "厶\nelbow (*)"];
+  G [label = "冈\nridge of a hill (1170)"];
+  E [label = "冂\nhood (*)"];
+  D [label = "几\nhow many? (57)"];
+  F [label = "㐅\nsheaf (*)"];
 
-  纟 -> 纲 [thick];
-  厶 -> 纟 [thick];
-  冈 -> 纲 [thick];
-  冂 -> 冈 [thick];
-  几 -> 冂 [thick];
-  "㐅" -> 冈 [thick];
+  C -> H [thick];
+  B -> C [thick];
+  G -> H [thick];
+  E -> G [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

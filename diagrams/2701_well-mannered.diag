@@ -5,13 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  彬 [label = "彬\n2701 well-mannered"];
-  木 [label = "木\n202 tree"];
-  杉 [label = "杉\n2700 fir tree"];
-  彡 [label = "彡\n* rooster tail"];
+  F [label = "彬\nwell-mannered (2701)"];
+  B [label = "木\ntree (202)"];
+  E [label = "杉\nfir tree (2700)"];
+  C [label = "木\ntree (202)"];
+  D [label = "彡\nrooster tail (*)"];
 
-  木 -> 彬 [thick];
-  杉 -> 彬 [thick];
-  木 -> 杉 [thick];
-  彡 -> 杉 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

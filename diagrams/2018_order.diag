@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  秩 [label = "秩\n2018 order"];
-  禾 [label = "禾\n762 standing grain"];
-  失 [label = "失\n729 lose"];
-  夫 [label = "夫\n726 husband"];
-  大 [label = "大\n113 large"];
-  丶 [label = "丶\n* a drop of"];
+  G [label = "秩\norder (2018)"];
+  B [label = "禾\nstanding grain (762)"];
+  F [label = "失\nlose (729)"];
+  D [label = "夫\nhusband (726)"];
+  C [label = "大\nlarge (113)"];
+  E [label = "丶\na drop of (*)"];
 
-  禾 -> 秩 [thick];
-  失 -> 秩 [thick];
-  夫 -> 失 [thick];
-  大 -> 夫 [thick];
-  丶 -> 失 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

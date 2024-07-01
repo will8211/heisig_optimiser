@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  汤 [label = "汤\n527 soup"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  "𠃓" [label = "𠃓\n* piglets"];
-  豕 [label = "豕\n* sow"];
+  H [label = "汤\nsoup (527)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  G [label = "𠃓\npiglets (*)"];
+  F [label = "豕\nsow (*)"];
 
-  水 -> 汤 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  "𠃓" -> 汤 [thick];
-  豕 -> "𠃓" [thick];
+  E -> H [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  G -> H [thick];
+  F -> G [thick];
 }

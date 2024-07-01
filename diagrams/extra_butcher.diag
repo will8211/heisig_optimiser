@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  刖 [label = "刖\n* butcher"];
-  月 [label = "月\n13 month"];
-  刀 [label = "刀\n83 sword"];
+  D [label = "刖\nbutcher (*)"];
+  B [label = "月\nmonth (13)"];
+  C [label = "刀\nsword (83)"];
 
-  月 -> 刖 [thick];
-  刀 -> 刖 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

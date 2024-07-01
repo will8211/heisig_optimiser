@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  酌 [label = "酌\n2460 pour wine"];
-  酉 [label = "酉\n* whiskey bottle"];
-  勺 [label = "勺\n69 ladle"];
-  勹 [label = "勹\n* bound up"];
-  丶 [label = "丶\n* a drop of"];
+  F [label = "酌\npour wine (2460)"];
+  B [label = "酉\nwhiskey bottle (*)"];
+  E [label = "勺\nladle (69)"];
+  C [label = "勹\nbound up (*)"];
+  D [label = "丶\na drop of (*)"];
 
-  酉 -> 酌 [thick];
-  勺 -> 酌 [thick];
-  勹 -> 勺 [thick];
-  丶 -> 勺 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

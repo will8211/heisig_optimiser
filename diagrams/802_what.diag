@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  什 [label = "什\n802 what?"];
-  人 [label = "人\n793 person"];
-  十 [label = "十\n10 ten"];
+  D [label = "什\nwhat? (802)"];
+  B [label = "人\nperson (793)"];
+  C [label = "十\nten (10)"];
 
-  人 -> 什 [thick];
-  十 -> 什 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

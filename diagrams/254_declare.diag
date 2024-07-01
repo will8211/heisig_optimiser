@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  告 [label = "告\n254 declare"];
-  牛 [label = "牛\n252 cow"];
-  口 [label = "口\n11 mouth"];
+  D [label = "告\ndeclare (254)"];
+  B [label = "牛\ncow (252)"];
+  C [label = "口\nmouth (11)"];
 
-  牛 -> 告 [thick];
-  口 -> 告 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

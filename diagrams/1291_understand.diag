@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  懂 [label = "懂\n1291 understand"];
-  心 [label = "心\n563 heart"];
-  艹 [label = "艹\n* flower"];
-  重 [label = "重\n1290 heavy"];
-  千 [label = "千\n39 thousand"];
-  丶 [label = "丶\n* a drop of"];
-  十 [label = "十\n10 ten"];
-  里 [label = "里\n179 li"];
-  田 [label = "田\n14 rice field"];
-  土 [label = "土\n158 soil"];
+  K [label = "懂\nunderstand (1291)"];
+  B [label = "心\nheart (563)"];
+  C [label = "艹\nflower (*)"];
+  J [label = "重\nheavy (1290)"];
+  F [label = "千\nthousand (39)"];
+  D [label = "丶\na drop of (*)"];
+  E [label = "十\nten (10)"];
+  I [label = "里\nli (179)"];
+  G [label = "田\nrice field (14)"];
+  H [label = "土\nsoil (158)"];
 
-  心 -> 懂 [thick];
-  艹 -> 懂 [thick];
-  重 -> 懂 [thick];
-  千 -> 重 [thick];
-  丶 -> 千 [thick];
-  十 -> 千 [thick];
-  里 -> 重 [thick];
-  田 -> 里 [thick];
-  土 -> 里 [thick];
+  B -> K [thick];
+  C -> K [thick];
+  J -> K [thick];
+  F -> J [thick];
+  D -> F [thick];
+  E -> F [thick];
+  I -> J [thick];
+  G -> I [thick];
+  H -> I [thick];
 }

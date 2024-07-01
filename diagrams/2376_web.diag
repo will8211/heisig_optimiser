@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  络 [label = "络\n2376 web"];
-  纟 [label = "纟\n* thread"];
-  厶 [label = "厶\n* elbow"];
-  各 [label = "各\n309 each"];
-  口 [label = "口\n11 mouth"];
-  夂 [label = "夂\n* walking legs"];
+  G [label = "络\nweb (2376)"];
+  C [label = "纟\nthread (*)"];
+  B [label = "厶\nelbow (*)"];
+  F [label = "各\neach (309)"];
+  D [label = "口\nmouth (11)"];
+  E [label = "夂\nwalking legs (*)"];
 
-  纟 -> 络 [thick];
-  厶 -> 纟 [thick];
-  各 -> 络 [thick];
-  口 -> 各 [thick];
-  夂 -> 各 [thick];
+  C -> G [thick];
+  B -> C [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

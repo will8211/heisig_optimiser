@@ -5,29 +5,34 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  隙 [label = "隙\n2339 rift"];
-  阝 [label = "阝\n* pinnacle"];
-  小 [label = "小\n109 small"];
-  丶 [label = "丶\n* a drop of"];
-  泉 [label = "泉\n141 spring"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  白 [label = "白\n34 white"];
-  日 [label = "日\n12 day"];
+  P [label = "隙\nrift (2339)"];
+  B [label = "阝\npinnacle (*)"];
+  D [label = "小\nsmall (109)"];
+  C [label = "丶\na drop of (*)"];
+  O [label = "泉\nspring (141)"];
+  H [label = "水\nwater (137)"];
+  F [label = "丨\nwalking stick (*)"];
+  E [label = "一\none (1)"];
+  G [label = "丶\na drop of (*)"];
+  K [label = "白\nwhite (34)"];
+  I [label = "日\nday (12)"];
+  J [label = "丶\na drop of (*)"];
+  L [label = "丶\na drop of (*)"];
+  N [label = "小\nsmall (109)"];
+  M [label = "丶\na drop of (*)"];
 
-  阝 -> 隙 [thick];
-  小 -> 隙 [thick];
-  丶 -> 小 [thick];
-  泉 -> 隙 [thick];
-  水 -> 泉 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  白 -> 泉 [thick];
-  日 -> 白 [thick];
-  丶 -> 白 [thick];
-  丶 -> 泉 [thick];
-  小 -> 泉 [thick];
-  丶 -> 小 [thick];
+  B -> P [thick];
+  D -> P [thick];
+  C -> D [thick];
+  O -> P [thick];
+  H -> O [thick];
+  F -> H [thick];
+  E -> F [thick];
+  G -> H [thick];
+  K -> O [thick];
+  I -> K [thick];
+  J -> K [thick];
+  L -> O [thick];
+  N -> O [thick];
+  M -> N [thick];
 }

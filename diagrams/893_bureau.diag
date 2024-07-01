@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  局 [label = "局\n893 bureau"];
-  尸 [label = "尸\n882 corpse"];
-  句 [label = "句\n67 sentence"];
-  勹 [label = "勹\n* bound up"];
-  口 [label = "口\n11 mouth"];
+  F [label = "局\nbureau (893)"];
+  B [label = "尸\ncorpse (882)"];
+  E [label = "句\nsentence (67)"];
+  C [label = "勹\nbound up (*)"];
+  D [label = "口\nmouth (11)"];
 
-  尸 -> 局 [thick];
-  句 -> 局 [thick];
-  勹 -> 句 [thick];
-  口 -> 句 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

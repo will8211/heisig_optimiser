@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  拱 [label = "拱\n2768 arch"];
-  扌 [label = "扌\n* fingers"];
-  共 [label = "共\n1354 together"];
-  囧昔－日 [label = "囧昔－日\n* salad"];
-  艹 [label = "艹\n* flower"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
+  H [label = "拱\narch (2768)"];
+  B [label = "扌\nfingers (*)"];
+  G [label = "共\ntogether (1354)"];
+  D [label = "囧昔－日\nsalad (*)"];
+  C [label = "艹\nflower (*)"];
+  F [label = "囧只－口\nanimal legs (*)"];
+  E [label = "八\neight (8)"];
 
-  扌 -> 拱 [thick];
-  共 -> 拱 [thick];
-  囧昔－日 -> 共 [thick];
-  艹 -> 囧昔－日 [thick];
-  囧只－口 -> 共 [thick];
-  八 -> 囧只－口 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  D -> G [thick];
+  C -> D [thick];
+  F -> G [thick];
+  E -> F [thick];
 }

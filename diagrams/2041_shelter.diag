@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  蔽 [label = "蔽\n2041 shelter"];
-  艹 [label = "艹\n* flower"];
-  敝 [label = "敝\n* shredder"];
-  冂 [label = "冂\n* hood"];
-  几 [label = "几\n57 how many?"];
-  米 [label = "米\n778 rice"];
-  攵 [label = "攵\n* taskmaster"];
+  H [label = "蔽\nshelter (2041)"];
+  B [label = "艹\nflower (*)"];
+  G [label = "敝\nshredder (*)"];
+  D [label = "冂\nhood (*)"];
+  C [label = "几\nhow many? (57)"];
+  E [label = "米\nrice (778)"];
+  F [label = "攵\ntaskmaster (*)"];
 
-  艹 -> 蔽 [thick];
-  敝 -> 蔽 [thick];
-  冂 -> 敝 [thick];
-  几 -> 冂 [thick];
-  米 -> 敝 [thick];
-  攵 -> 敝 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  D -> G [thick];
+  C -> D [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

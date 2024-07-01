@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  舅 [label = "舅\n2961 mother’s brother"];
-  臼 [label = "臼\n* mortar"];
-  男 [label = "男\n741 male"];
-  田 [label = "田\n14 rice field"];
-  力 [label = "力\n732 power"];
+  F [label = "舅\nmother’s brother (2961)"];
+  B [label = "臼\nmortar (*)"];
+  E [label = "男\nmale (741)"];
+  C [label = "田\nrice field (14)"];
+  D [label = "力\npower (732)"];
 
-  臼 -> 舅 [thick];
-  男 -> 舅 [thick];
-  田 -> 男 [thick];
-  力 -> 男 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

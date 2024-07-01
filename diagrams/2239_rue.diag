@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  惜 [label = "惜\n2239 rue"];
-  心 [label = "心\n563 heart"];
-  昔 [label = "昔\n971 times past"];
-  囧昔－日 [label = "囧昔－日\n* salad"];
-  艹 [label = "艹\n* flower"];
-  日 [label = "日\n12 day"];
+  G [label = "惜\nrue (2239)"];
+  B [label = "心\nheart (563)"];
+  F [label = "昔\ntimes past (971)"];
+  D [label = "囧昔－日\nsalad (*)"];
+  C [label = "艹\nflower (*)"];
+  E [label = "日\nday (12)"];
 
-  心 -> 惜 [thick];
-  昔 -> 惜 [thick];
-  囧昔－日 -> 昔 [thick];
-  艹 -> 囧昔－日 [thick];
-  日 -> 昔 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

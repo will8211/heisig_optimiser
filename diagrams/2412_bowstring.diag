@@ -5,22 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  弦 [label = "弦\n2412 bowstring"];
-  玄 [label = "玄\n2411 mysterious"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  幺 [label = "幺\n* cocoon"];
-  弓 [label = "弓\n1013 bow"];
+  K [label = "弦\nbowstring (2412)"];
+  I [label = "玄\nmysterious (2411)"];
+  G [label = "亠\ntop hat (*)"];
+  D [label = "六\nsix (6)"];
+  C [label = "囧只－口\nanimal legs (*)"];
+  B [label = "八\neight (8)"];
+  F [label = "囧只－口\nanimal legs (*)"];
+  E [label = "八\neight (8)"];
+  H [label = "幺\ncocoon (*)"];
+  J [label = "弓\nbow (1013)"];
 
-  玄 -> 弦 [thick];
-  亠 -> 玄 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
-  幺 -> 玄 [thick];
-  弓 -> 弦 [thick];
+  I -> K [thick];
+  G -> I [thick];
+  D -> G [thick];
+  C -> D [thick];
+  B -> C [thick];
+  F -> G [thick];
+  E -> F [thick];
+  H -> I [thick];
+  J -> K [thick];
 }

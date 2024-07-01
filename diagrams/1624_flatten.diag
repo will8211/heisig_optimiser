@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  轧 [label = "轧\n1624 flatten"];
-  车 [label = "车\n300 car"];
-  乙 [label = "乙\n95 second"];
+  D [label = "轧\nflatten (1624)"];
+  B [label = "车\ncar (300)"];
+  C [label = "乙\nsecond (95)"];
 
-  车 -> 轧 [thick];
-  乙 -> 轧 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

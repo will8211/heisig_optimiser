@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  以 [label = "以\n861 by means of"];
-  人 [label = "人\n793 person"];
-  囧以－丶人 [label = "囧以－丶人\n* plow"];
-  丶 [label = "丶\n* a drop of"];
+  E [label = "以\nby means of (861)"];
+  B [label = "人\nperson (793)"];
+  C [label = "囧以－丶人\nplow (*)"];
+  D [label = "丶\na drop of (*)"];
 
-  人 -> 以 [thick];
-  囧以－丶人 -> 以 [thick];
-  丶 -> 以 [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

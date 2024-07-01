@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  邦 [label = "邦\n2808 nation"];
-  丰 [label = "丰\n1223 plentiful"];
-  囧阝 [label = "囧阝\n* city walls"];
-  阝 [label = "阝\n* pinnacle"];
+  E [label = "邦\nnation (2808)"];
+  B [label = "丰\nplentiful (1223)"];
+  D [label = "囧阝\ncity walls (*)"];
+  C [label = "阝\npinnacle (*)"];
 
-  丰 -> 邦 [thick];
-  囧阝 -> 邦 [thick];
-  阝 -> 囧阝 [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  瞎 [label = "瞎\n2590 visionless"];
-  目 [label = "目\n15 eye"];
-  害 [label = "害\n1224 harm"];
-  宀 [label = "宀\n* house"];
-  丰 [label = "丰\n1223 plentiful"];
-  口 [label = "口\n11 mouth"];
+  G [label = "瞎\nvisionless (2590)"];
+  B [label = "目\neye (15)"];
+  F [label = "害\nharm (1224)"];
+  C [label = "宀\nhouse (*)"];
+  D [label = "丰\nplentiful (1223)"];
+  E [label = "口\nmouth (11)"];
 
-  目 -> 瞎 [thick];
-  害 -> 瞎 [thick];
-  宀 -> 害 [thick];
-  丰 -> 害 [thick];
-  口 -> 害 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

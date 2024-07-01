@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  踏 [label = "踏\n2320 trample"];
-  足 [label = "足\n1048 lower leg"];
-  口 [label = "口\n11 mouth"];
-  止 [label = "止\n379 stop"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  日 [label = "日\n12 day"];
+  J [label = "踏\ntrample (2320)"];
+  D [label = "足\nlower leg (1048)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "止\nstop (379)"];
+  H [label = "水\nwater (137)"];
+  F [label = "丨\nwalking stick (*)"];
+  E [label = "一\none (1)"];
+  G [label = "丶\na drop of (*)"];
+  I [label = "日\nday (12)"];
 
-  足 -> 踏 [thick];
-  口 -> 足 [thick];
-  止 -> 足 [thick];
-  水 -> 踏 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  日 -> 踏 [thick];
+  D -> J [thick];
+  B -> D [thick];
+  C -> D [thick];
+  H -> J [thick];
+  F -> H [thick];
+  E -> F [thick];
+  G -> H [thick];
+  I -> J [thick];
 }

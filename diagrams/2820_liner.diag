@@ -5,19 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  舶 [label = "舶\n2820 liner"];
-  舟 [label = "舟\n1394 boat"];
-  丶 [label = "丶\n* a drop of"];
-  冂 [label = "冂\n* hood"];
-  几 [label = "几\n57 how many?"];
-  白 [label = "白\n34 white"];
-  日 [label = "日\n12 day"];
+  I [label = "舶\nliner (2820)"];
+  E [label = "舟\nboat (1394)"];
+  B [label = "丶\na drop of (*)"];
+  D [label = "冂\nhood (*)"];
+  C [label = "几\nhow many? (57)"];
+  H [label = "白\nwhite (34)"];
+  F [label = "日\nday (12)"];
+  G [label = "丶\na drop of (*)"];
 
-  舟 -> 舶 [thick];
-  丶 -> 舟 [thick];
-  冂 -> 舟 [thick];
-  几 -> 冂 [thick];
-  白 -> 舶 [thick];
-  日 -> 白 [thick];
-  丶 -> 白 [thick];
+  E -> I [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
+  H -> I [thick];
+  F -> H [thick];
+  G -> H [thick];
 }

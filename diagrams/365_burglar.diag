@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  贼 [label = "贼\n365 burglar"];
-  戈 [label = "戈\n361 halberd"];
-  弋 [label = "弋\n* arrow"];
-  十 [label = "十\n10 ten"];
-  贝 [label = "贝\n52 shellfish"];
-  目 [label = "目\n15 eye"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
+  I [label = "贼\nburglar (365)"];
+  C [label = "戈\nhalberd (361)"];
+  B [label = "弋\narrow (*)"];
+  D [label = "十\nten (10)"];
+  H [label = "贝\nshellfish (52)"];
+  E [label = "目\neye (15)"];
+  G [label = "囧只－口\nanimal legs (*)"];
+  F [label = "八\neight (8)"];
 
-  戈 -> 贼 [thick];
-  弋 -> 戈 [thick];
-  十 -> 贼 [thick];
-  贝 -> 贼 [thick];
-  目 -> 贝 [thick];
-  囧只－口 -> 贝 [thick];
-  八 -> 囧只－口 [thick];
+  C -> I [thick];
+  B -> C [thick];
+  D -> I [thick];
+  H -> I [thick];
+  E -> H [thick];
+  G -> H [thick];
+  F -> G [thick];
 }

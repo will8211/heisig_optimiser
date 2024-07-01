@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  胎 [label = "胎\n1908 fetus"];
-  月 [label = "月\n13 month"];
-  台 [label = "台\n672 platform"];
-  厶 [label = "厶\n* elbow"];
-  口 [label = "口\n11 mouth"];
+  F [label = "胎\nfetus (1908)"];
+  B [label = "月\nmonth (13)"];
+  E [label = "台\nplatform (672)"];
+  C [label = "厶\nelbow (*)"];
+  D [label = "口\nmouth (11)"];
 
-  月 -> 胎 [thick];
-  台 -> 胎 [thick];
-  厶 -> 台 [thick];
-  口 -> 台 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

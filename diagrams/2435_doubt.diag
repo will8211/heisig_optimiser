@@ -5,29 +5,30 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  疑 [label = "疑\n2435 doubt"];
-  匕 [label = "匕\n453 ancient spoon"];
-  疋 [label = "疋\n* zoo"];
-  囧走－十 [label = "囧走－十\n* mending"];
-  正 [label = "正\n387 correct"];
-  一 [label = "一\n1 one"];
-  止 [label = "止\n379 stop"];
-  矢 [label = "矢\n998 dart"];
-  天 [label = "天\n436 heavens"];
-  大 [label = "大\n113 large"];
-  丶 [label = "丶\n* a drop of"];
-  囧节－艹 [label = "囧节－艹\n* chop"];
+  N [label = "疑\ndoubt (2435)"];
+  B [label = "匕\nancient spoon (453)"];
+  G [label = "疋\nzoo (*)"];
+  F [label = "囧走－十\nmending (*)"];
+  E [label = "正\ncorrect (387)"];
+  C [label = "一\none (1)"];
+  D [label = "止\nstop (379)"];
+  L [label = "矢\ndart (998)"];
+  J [label = "天\nheavens (436)"];
+  H [label = "一\none (1)"];
+  I [label = "大\nlarge (113)"];
+  K [label = "丶\na drop of (*)"];
+  M [label = "囧节－艹\nchop (*)"];
 
-  匕 -> 疑 [thick];
-  疋 -> 疑 [thick];
-  囧走－十 -> 疋 [thick];
-  正 -> 囧走－十 [thick];
-  一 -> 正 [thick];
-  止 -> 正 [thick];
-  矢 -> 疑 [thick];
-  天 -> 矢 [thick];
-  一 -> 天 [thick];
-  大 -> 天 [thick];
-  丶 -> 矢 [thick];
-  囧节－艹 -> 疑 [thick];
+  B -> N [thick];
+  G -> N [thick];
+  F -> G [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
+  L -> N [thick];
+  J -> L [thick];
+  H -> J [thick];
+  I -> J [thick];
+  K -> L [thick];
+  M -> N [thick];
 }

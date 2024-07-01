@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  驯 [label = "驯\n2894 tame"];
-  马 [label = "马\n1453 horse"];
-  囧与－丨一 [label = "囧与－丨一\n* pointed tail"];
-  川 [label = "川\n134 stream"];
+  E [label = "驯\ntame (2894)"];
+  C [label = "马\nhorse (1453)"];
+  B [label = "囧与－丨一\npointed tail (*)"];
+  D [label = "川\nstream (134)"];
 
-  马 -> 驯 [thick];
-  囧与－丨一 -> 马 [thick];
-  川 -> 驯 [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
 }

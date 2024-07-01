@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  位 [label = "位\n807 position"];
-  人 [label = "人\n793 person"];
-  立 [label = "立\n444 standing up"];
+  D [label = "位\nposition (807)"];
+  B [label = "人\nperson (793)"];
+  C [label = "立\nstanding up (444)"];
 
-  人 -> 位 [thick];
-  立 -> 位 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

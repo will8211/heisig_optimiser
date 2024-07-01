@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  呐 [label = "呐\n841 holler"];
-  口 [label = "口\n11 mouth"];
-  内 [label = "内\n840 internal"];
-  囧冂 [label = "囧冂\n* belt"];
-  巾 [label = "巾\n410 towel"];
-  人 [label = "人\n793 person"];
+  G [label = "呐\nholler (841)"];
+  B [label = "口\nmouth (11)"];
+  F [label = "内\ninternal (840)"];
+  D [label = "囧冂\nbelt (*)"];
+  C [label = "巾\ntowel (410)"];
+  E [label = "人\nperson (793)"];
 
-  口 -> 呐 [thick];
-  内 -> 呐 [thick];
-  囧冂 -> 内 [thick];
-  巾 -> 囧冂 [thick];
-  人 -> 内 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  垄 [label = "垄\n2932 raised path between fields"];
-  土 [label = "土\n158 soil"];
-  龙 [label = "龙\n1474 dragon"];
-  犬 [label = "犬\n239 pooch"];
-  大 [label = "大\n113 large"];
-  丶 [label = "丶\n* a drop of"];
-  匕 [label = "匕\n453 ancient spoon"];
+  H [label = "垄\nraised path between fields (2932)"];
+  B [label = "土\nsoil (158)"];
+  G [label = "龙\ndragon (1474)"];
+  E [label = "犬\npooch (239)"];
+  C [label = "大\nlarge (113)"];
+  D [label = "丶\na drop of (*)"];
+  F [label = "匕\nancient spoon (453)"];
 
-  土 -> 垄 [thick];
-  龙 -> 垄 [thick];
-  犬 -> 龙 [thick];
-  大 -> 犬 [thick];
-  丶 -> 犬 [thick];
-  匕 -> 龙 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  E -> G [thick];
+  C -> E [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

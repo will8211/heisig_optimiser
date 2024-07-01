@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  州 [label = "州\n135 state"];
-  丶 [label = "丶\n* a drop of"];
-  川 [label = "川\n134 stream"];
+  D [label = "州\nstate (135)"];
+  B [label = "丶\na drop of (*)"];
+  C [label = "川\nstream (134)"];
 
-  丶 -> 州 [thick];
-  川 -> 州 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

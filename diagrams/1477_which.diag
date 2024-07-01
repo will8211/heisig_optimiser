@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  哪 [label = "哪\n1477 which?"];
-  口 [label = "口\n11 mouth"];
-  那 [label = "那\n1476 that"];
-  囧那－阝 [label = "囧那－阝\n* razor wire"];
-  刀 [label = "刀\n83 sword"];
-  阝 [label = "阝\n* pinnacle"];
+  G [label = "哪\nwhich? (1477)"];
+  B [label = "口\nmouth (11)"];
+  F [label = "那\nthat (1476)"];
+  D [label = "囧那－阝\nrazor wire (*)"];
+  C [label = "刀\nsword (83)"];
+  E [label = "阝\npinnacle (*)"];
 
-  口 -> 哪 [thick];
-  那 -> 哪 [thick];
-  囧那－阝 -> 那 [thick];
-  刀 -> 囧那－阝 [thick];
-  阝 -> 那 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

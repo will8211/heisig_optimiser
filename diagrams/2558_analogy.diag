@@ -5,35 +5,38 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  譬 [label = "譬\n2558 analogy"];
-  辟 [label = "辟\n1185 repudiate"];
-  尸 [label = "尸\n882 corpse"];
-  口 [label = "口\n11 mouth"];
-  辛 [label = "辛\n1183 peppery"];
-  立 [label = "立\n444 standing up"];
-  十 [label = "十\n10 ten"];
-  言 [label = "言\n346 say"];
-  二 [label = "二\n2 two"];
-  一 [label = "一\n1 one"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
+  R [label = "譬\nanalogy (2558)"];
+  G [label = "辟\nrepudiate (1185)"];
+  B [label = "尸\ncorpse (882)"];
+  C [label = "口\nmouth (11)"];
+  F [label = "辛\npeppery (1183)"];
+  D [label = "立\nstanding up (444)"];
+  E [label = "十\nten (10)"];
+  Q [label = "言\nsay (346)"];
+  I [label = "二\ntwo (2)"];
+  H [label = "一\none (1)"];
+  J [label = "口\nmouth (11)"];
+  P [label = "亠\ntop hat (*)"];
+  M [label = "六\nsix (6)"];
+  L [label = "囧只－口\nanimal legs (*)"];
+  K [label = "八\neight (8)"];
+  O [label = "囧只－口\nanimal legs (*)"];
+  N [label = "八\neight (8)"];
 
-  辟 -> 譬 [thick];
-  尸 -> 辟 [thick];
-  口 -> 辟 [thick];
-  辛 -> 辟 [thick];
-  立 -> 辛 [thick];
-  十 -> 辛 [thick];
-  言 -> 譬 [thick];
-  二 -> 言 [thick];
-  一 -> 二 [thick];
-  口 -> 言 [thick];
-  亠 -> 言 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
+  G -> R [thick];
+  B -> G [thick];
+  C -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
+  Q -> R [thick];
+  I -> Q [thick];
+  H -> I [thick];
+  J -> Q [thick];
+  P -> Q [thick];
+  M -> P [thick];
+  L -> M [thick];
+  K -> L [thick];
+  O -> P [thick];
+  N -> O [thick];
 }

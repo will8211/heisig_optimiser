@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  乳 [label = "乳\n2430 breast"];
-  孚 [label = "孚\n* fledglings"];
-  爪 [label = "爪\n663 claw"];
-  "𠂆" [label = "𠂆\n* drag"];
-  子 [label = "子\n97 child"];
-  乙 [label = "乙\n95 second"];
+  G [label = "乳\nbreast (2430)"];
+  E [label = "孚\nfledglings (*)"];
+  C [label = "爪\nclaw (663)"];
+  B [label = "𠂆\ndrag (*)"];
+  D [label = "子\nchild (97)"];
+  F [label = "乙\nsecond (95)"];
 
-  孚 -> 乳 [thick];
-  爪 -> 孚 [thick];
-  "𠂆" -> 爪 [thick];
-  子 -> 孚 [thick];
-  乙 -> 乳 [thick];
+  E -> G [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

@@ -5,27 +5,30 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  航 [label = "航\n2822 navigate"];
-  舟 [label = "舟\n1394 boat"];
-  丶 [label = "丶\n* a drop of"];
-  冂 [label = "冂\n* hood"];
-  几 [label = "几\n57 how many?"];
-  亢 [label = "亢\n* whirlwind"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
+  N [label = "航\nnavigate (2822)"];
+  E [label = "舟\nboat (1394)"];
+  B [label = "丶\na drop of (*)"];
+  D [label = "冂\nhood (*)"];
+  C [label = "几\nhow many? (57)"];
+  M [label = "亢\nwhirlwind (*)"];
+  K [label = "亠\ntop hat (*)"];
+  H [label = "六\nsix (6)"];
+  G [label = "囧只－口\nanimal legs (*)"];
+  F [label = "八\neight (8)"];
+  J [label = "囧只－口\nanimal legs (*)"];
+  I [label = "八\neight (8)"];
+  L [label = "几\nhow many? (57)"];
 
-  舟 -> 航 [thick];
-  丶 -> 舟 [thick];
-  冂 -> 舟 [thick];
-  几 -> 冂 [thick];
-  亢 -> 航 [thick];
-  亠 -> 亢 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
-  几 -> 亢 [thick];
+  E -> N [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
+  M -> N [thick];
+  K -> M [thick];
+  H -> K [thick];
+  G -> H [thick];
+  F -> G [thick];
+  J -> K [thick];
+  I -> J [thick];
+  L -> M [thick];
 }

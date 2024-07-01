@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  衅 [label = "衅\n2504 quarrel"];
-  血 [label = "血\n1136 blood"];
-  丶 [label = "丶\n* a drop of"];
-  皿 [label = "皿\n* dish"];
-  半 [label = "半\n980 half"];
+  F [label = "衅\nquarrel (2504)"];
+  D [label = "血\nblood (1136)"];
+  B [label = "丶\na drop of (*)"];
+  C [label = "皿\ndish (*)"];
+  E [label = "半\nhalf (980)"];
 
-  血 -> 衅 [thick];
-  丶 -> 血 [thick];
-  皿 -> 血 [thick];
-  半 -> 衅 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  肾 [label = "肾\n2267 kidneys"];
-  坚 [label = "坚\n1011 firm"];
-  囧坚－圣 [label = "囧坚－圣\n* fencing foil"];
-  又 [label = "又\n633 again"];
-  土 [label = "土\n158 soil"];
-  月 [label = "月\n13 month"];
+  G [label = "肾\nkidneys (2267)"];
+  E [label = "坚\nfirm (1011)"];
+  B [label = "囧坚－圣\nfencing foil (*)"];
+  C [label = "又\nagain (633)"];
+  D [label = "土\nsoil (158)"];
+  F [label = "月\nmonth (13)"];
 
-  坚 -> 肾 [thick];
-  囧坚－圣 -> 坚 [thick];
-  又 -> 坚 [thick];
-  土 -> 坚 [thick];
-  月 -> 肾 [thick];
+  E -> G [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

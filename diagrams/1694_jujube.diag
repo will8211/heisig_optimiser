@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  枣 [label = "枣\n1694 jujube"];
-  朿 [label = "朿\n* thorn"];
-  囧冂 [label = "囧冂\n* belt"];
-  巾 [label = "巾\n410 towel"];
-  木 [label = "木\n202 tree"];
-  冫 [label = "冫\n* ice"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
+  K [label = "枣\njujube (1694)"];
+  E [label = "朿\nthorn (*)"];
+  C [label = "囧冂\nbelt (*)"];
+  B [label = "巾\ntowel (410)"];
+  D [label = "木\ntree (202)"];
+  J [label = "冫\nice (*)"];
+  I [label = "水\nwater (137)"];
+  G [label = "丨\nwalking stick (*)"];
+  F [label = "一\none (1)"];
+  H [label = "丶\na drop of (*)"];
 
-  朿 -> 枣 [thick];
-  囧冂 -> 朿 [thick];
-  巾 -> 囧冂 [thick];
-  木 -> 朿 [thick];
-  冫 -> 枣 [thick];
-  水 -> 冫 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
+  E -> K [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  J -> K [thick];
+  I -> J [thick];
+  G -> I [thick];
+  F -> G [thick];
+  H -> I [thick];
 }

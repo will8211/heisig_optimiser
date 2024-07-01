@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  间 [label = "间\n1264 interval"];
-  门 [label = "门\n1260 gate"];
-  日 [label = "日\n12 day"];
+  D [label = "间\ninterval (1264)"];
+  B [label = "门\ngate (1260)"];
+  C [label = "日\nday (12)"];
 
-  门 -> 间 [thick];
-  日 -> 间 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

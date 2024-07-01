@@ -5,32 +5,32 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  匿 [label = "匿\n2679 keep out of sight"];
-  箱 [label = "箱\n788 box"];
-  竹 [label = "竹\n786 bamboo"];
-  丁 [label = "丁\n90 fourth"];
-  相 [label = "相\n212 one another"];
-  木 [label = "木\n202 tree"];
-  目 [label = "目\n15 eye"];
-  囧若 [label = "囧若\n* Disneyland"];
-  若 [label = "若\n226 as if"];
-  艹 [label = "艹\n* flower"];
-  右 [label = "右\n78 right"];
-  口 [label = "口\n11 mouth"];
-  "𠂇" [label = "𠂇\n* by one’s side"];
-  十 [label = "十\n10 ten"];
+  O [label = "匿\nkeep out of sight (2679)"];
+  G [label = "箱\nbox (788)"];
+  C [label = "竹\nbamboo (786)"];
+  B [label = "丁\nfourth (90)"];
+  F [label = "相\none another (212)"];
+  D [label = "木\ntree (202)"];
+  E [label = "目\neye (15)"];
+  N [label = "囧若\nDisneyland (*)"];
+  M [label = "若\nas if (226)"];
+  H [label = "艹\nflower (*)"];
+  L [label = "右\nright (78)"];
+  I [label = "口\nmouth (11)"];
+  K [label = "𠂇\nby one’s side (*)"];
+  J [label = "十\nten (10)"];
 
-  箱 -> 匿 [thick];
-  竹 -> 箱 [thick];
-  丁 -> 竹 [thick];
-  相 -> 箱 [thick];
-  木 -> 相 [thick];
-  目 -> 相 [thick];
-  囧若 -> 匿 [thick];
-  若 -> 囧若 [thick];
-  艹 -> 若 [thick];
-  右 -> 若 [thick];
-  口 -> 右 [thick];
-  "𠂇" -> 右 [thick];
-  十 -> "𠂇" [thick];
+  G -> O [thick];
+  C -> G [thick];
+  B -> C [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
+  N -> O [thick];
+  M -> N [thick];
+  H -> M [thick];
+  L -> M [thick];
+  I -> L [thick];
+  K -> L [thick];
+  J -> K [thick];
 }

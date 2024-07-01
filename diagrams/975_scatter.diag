@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  撒 [label = "撒\n975 scatter"];
-  扌 [label = "扌\n* fingers"];
-  散 [label = "散\n974 scattered"];
-  囧昔－日 [label = "囧昔－日\n* salad"];
-  艹 [label = "艹\n* flower"];
-  月 [label = "月\n13 month"];
-  攵 [label = "攵\n* taskmaster"];
+  H [label = "撒\nscatter (975)"];
+  B [label = "扌\nfingers (*)"];
+  G [label = "散\nscattered (974)"];
+  D [label = "囧昔－日\nsalad (*)"];
+  C [label = "艹\nflower (*)"];
+  E [label = "月\nmonth (13)"];
+  F [label = "攵\ntaskmaster (*)"];
 
-  扌 -> 撒 [thick];
-  散 -> 撒 [thick];
-  囧昔－日 -> 散 [thick];
-  艹 -> 囧昔－日 [thick];
-  月 -> 散 [thick];
-  攵 -> 散 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  D -> G [thick];
+  C -> D [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

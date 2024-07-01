@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  会 [label = "会\n677 meeting"];
-  亼 [label = "亼\n* meeting"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  囧会－亼 [label = "囧会－亼\n* wall"];
-  厶 [label = "厶\n* elbow"];
-  一 [label = "一\n1 one"];
+  G [label = "会\nmeeting (677)"];
+  C [label = "亼\nmeeting (*)"];
+  B [label = "𠆢\numbrella (*)"];
+  F [label = "囧会－亼\nwall (*)"];
+  D [label = "厶\nelbow (*)"];
+  E [label = "一\none (1)"];
 
-  亼 -> 会 [thick];
-  "𠆢" -> 亼 [thick];
-  囧会－亼 -> 会 [thick];
-  厶 -> 囧会－亼 [thick];
-  一 -> 囧会－亼 [thick];
+  C -> G [thick];
+  B -> C [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

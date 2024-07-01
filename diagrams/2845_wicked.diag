@@ -5,26 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  邪 [label = "邪\n2845 wicked"];
-  牙 [label = "牙\n1414 tooth"];
-  箱 [label = "箱\n788 box"];
-  竹 [label = "竹\n786 bamboo"];
-  丁 [label = "丁\n90 fourth"];
-  相 [label = "相\n212 one another"];
-  木 [label = "木\n202 tree"];
-  目 [label = "目\n15 eye"];
-  矛 [label = "矛\n1002 spear"];
-  囧阝 [label = "囧阝\n* city walls"];
-  阝 [label = "阝\n* pinnacle"];
+  L [label = "邪\nwicked (2845)"];
+  I [label = "牙\ntooth (1414)"];
+  G [label = "箱\nbox (788)"];
+  C [label = "竹\nbamboo (786)"];
+  B [label = "丁\nfourth (90)"];
+  F [label = "相\none another (212)"];
+  D [label = "木\ntree (202)"];
+  E [label = "目\neye (15)"];
+  H [label = "矛\nspear (1002)"];
+  K [label = "囧阝\ncity walls (*)"];
+  J [label = "阝\npinnacle (*)"];
 
-  牙 -> 邪 [thick];
-  箱 -> 牙 [thick];
-  竹 -> 箱 [thick];
-  丁 -> 竹 [thick];
-  相 -> 箱 [thick];
-  木 -> 相 [thick];
-  目 -> 相 [thick];
-  矛 -> 牙 [thick];
-  囧阝 -> 邪 [thick];
-  阝 -> 囧阝 [thick];
+  I -> L [thick];
+  G -> I [thick];
+  C -> G [thick];
+  B -> C [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
+  H -> I [thick];
+  K -> L [thick];
+  J -> K [thick];
 }

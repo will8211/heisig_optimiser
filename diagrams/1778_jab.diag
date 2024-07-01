@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  戳 [label = "戳\n1778 jab"];
-  翟 [label = "翟\n* headdress"];
-  羽 [label = "羽\n544 feathers"];
-  隹 [label = "隹\n* turkey"];
-  戈 [label = "戈\n361 halberd"];
-  弋 [label = "弋\n* arrow"];
+  G [label = "戳\njab (1778)"];
+  D [label = "翟\nheaddress (*)"];
+  B [label = "羽\nfeathers (544)"];
+  C [label = "隹\nturkey (*)"];
+  F [label = "戈\nhalberd (361)"];
+  E [label = "弋\narrow (*)"];
 
-  翟 -> 戳 [thick];
-  羽 -> 翟 [thick];
-  隹 -> 翟 [thick];
-  戈 -> 戳 [thick];
-  弋 -> 戈 [thick];
+  D -> G [thick];
+  B -> D [thick];
+  C -> D [thick];
+  F -> G [thick];
+  E -> F [thick];
 }

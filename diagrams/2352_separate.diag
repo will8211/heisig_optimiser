@@ -5,23 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  隔 [label = "隔\n2352 separate"];
-  阝 [label = "阝\n* pinnacle"];
-  鬲 [label = "鬲\n* cauldron"];
-  丁 [label = "丁\n90 fourth"];
-  丷 [label = "丷\n* horns"];
-  一 [label = "一\n1 one"];
-  冂 [label = "冂\n* hood"];
-  几 [label = "几\n57 how many?"];
-  口 [label = "口\n11 mouth"];
+  K [label = "隔\nseparate (2352)"];
+  B [label = "阝\npinnacle (*)"];
+  J [label = "鬲\ncauldron (*)"];
+  C [label = "丁\nfourth (90)"];
+  E [label = "丷\nhorns (*)"];
+  D [label = "一\none (1)"];
+  G [label = "冂\nhood (*)"];
+  F [label = "几\nhow many? (57)"];
+  H [label = "一\none (1)"];
+  I [label = "口\nmouth (11)"];
 
-  阝 -> 隔 [thick];
-  鬲 -> 隔 [thick];
-  丁 -> 鬲 [thick];
-  丷 -> 鬲 [thick];
-  一 -> 丷 [thick];
-  冂 -> 鬲 [thick];
-  几 -> 冂 [thick];
-  一 -> 鬲 [thick];
-  口 -> 鬲 [thick];
+  B -> K [thick];
+  J -> K [thick];
+  C -> J [thick];
+  E -> J [thick];
+  D -> E [thick];
+  G -> J [thick];
+  F -> G [thick];
+  H -> J [thick];
+  I -> J [thick];
 }

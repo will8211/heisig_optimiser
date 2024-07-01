@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  域 [label = "域\n1662 domain"];
-  土 [label = "土\n158 soil"];
-  或 [label = "或\n364 or"];
-  口 [label = "口\n11 mouth"];
-  一 [label = "一\n1 one"];
-  戈 [label = "戈\n361 halberd"];
-  弋 [label = "弋\n* arrow"];
+  H [label = "域\ndomain (1662)"];
+  B [label = "土\nsoil (158)"];
+  G [label = "或\nor (364)"];
+  C [label = "口\nmouth (11)"];
+  D [label = "一\none (1)"];
+  F [label = "戈\nhalberd (361)"];
+  E [label = "弋\narrow (*)"];
 
-  土 -> 域 [thick];
-  或 -> 域 [thick];
-  口 -> 或 [thick];
-  一 -> 或 [thick];
-  戈 -> 或 [thick];
-  弋 -> 戈 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  C -> G [thick];
+  D -> G [thick];
+  F -> G [thick];
+  E -> F [thick];
 }

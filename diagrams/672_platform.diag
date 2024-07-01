@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  台 [label = "台\n672 platform"];
-  厶 [label = "厶\n* elbow"];
-  口 [label = "口\n11 mouth"];
+  D [label = "台\nplatform (672)"];
+  B [label = "厶\nelbow (*)"];
+  C [label = "口\nmouth (11)"];
 
-  厶 -> 台 [thick];
-  口 -> 台 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

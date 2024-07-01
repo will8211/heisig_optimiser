@@ -5,28 +5,30 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  施 [label = "施\n875 execute"];
-  囧施－也 [label = "囧施－也\n* banner"];
-  方 [label = "方\n494 direction"];
-  刀 [label = "刀\n83 sword"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  "𠂉" [label = "𠂉\n* reclining"];
-  也 [label = "也\n505 also"];
-  乙 [label = "乙\n95 second"];
+  N [label = "施\nexecute (875)"];
+  K [label = "囧施－也\nbanner (*)"];
+  I [label = "方\ndirection (494)"];
+  B [label = "刀\nsword (83)"];
+  H [label = "亠\ntop hat (*)"];
+  E [label = "六\nsix (6)"];
+  D [label = "囧只－口\nanimal legs (*)"];
+  C [label = "八\neight (8)"];
+  G [label = "囧只－口\nanimal legs (*)"];
+  F [label = "八\neight (8)"];
+  J [label = "𠂉\nreclining (*)"];
+  M [label = "也\nalso (505)"];
+  L [label = "乙\nsecond (95)"];
 
-  囧施－也 -> 施 [thick];
-  方 -> 囧施－也 [thick];
-  刀 -> 方 [thick];
-  亠 -> 方 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
-  "𠂉" -> 囧施－也 [thick];
-  也 -> 施 [thick];
-  乙 -> 也 [thick];
+  K -> N [thick];
+  I -> K [thick];
+  B -> I [thick];
+  H -> I [thick];
+  E -> H [thick];
+  D -> E [thick];
+  C -> D [thick];
+  G -> H [thick];
+  F -> G [thick];
+  J -> K [thick];
+  M -> N [thick];
+  L -> M [thick];
 }

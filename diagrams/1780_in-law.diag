@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  姻 [label = "姻\n1780 in-law"];
-  女 [label = "女\n102 woman"];
-  囧因 [label = "囧因\n* dog kennel"];
-  囗 [label = "囗\n* pent in"];
-  大 [label = "大\n113 large"];
+  F [label = "姻\nin-law (1780)"];
+  B [label = "女\nwoman (102)"];
+  E [label = "囧因\ndog kennel (*)"];
+  C [label = "囗\npent in (*)"];
+  D [label = "大\nlarge (113)"];
 
-  女 -> 姻 [thick];
-  囧因 -> 姻 [thick];
-  囗 -> 囧因 [thick];
-  大 -> 囧因 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

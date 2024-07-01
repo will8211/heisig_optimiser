@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  雅 [label = "雅\n2844 polished"];
-  牙 [label = "牙\n1414 tooth"];
-  箱 [label = "箱\n788 box"];
-  竹 [label = "竹\n786 bamboo"];
-  丁 [label = "丁\n90 fourth"];
-  相 [label = "相\n212 one another"];
-  木 [label = "木\n202 tree"];
-  目 [label = "目\n15 eye"];
-  矛 [label = "矛\n1002 spear"];
-  隹 [label = "隹\n* turkey"];
+  K [label = "雅\npolished (2844)"];
+  I [label = "牙\ntooth (1414)"];
+  G [label = "箱\nbox (788)"];
+  C [label = "竹\nbamboo (786)"];
+  B [label = "丁\nfourth (90)"];
+  F [label = "相\none another (212)"];
+  D [label = "木\ntree (202)"];
+  E [label = "目\neye (15)"];
+  H [label = "矛\nspear (1002)"];
+  J [label = "隹\nturkey (*)"];
 
-  牙 -> 雅 [thick];
-  箱 -> 牙 [thick];
-  竹 -> 箱 [thick];
-  丁 -> 竹 [thick];
-  相 -> 箱 [thick];
-  木 -> 相 [thick];
-  目 -> 相 [thick];
-  矛 -> 牙 [thick];
-  隹 -> 雅 [thick];
+  I -> K [thick];
+  G -> I [thick];
+  C -> G [thick];
+  B -> C [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
+  H -> I [thick];
+  J -> K [thick];
 }

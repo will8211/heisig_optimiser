@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  灼 [label = "灼\n1546 scorch"];
-  火 [label = "火\n170 fire"];
-  勺 [label = "勺\n69 ladle"];
-  勹 [label = "勹\n* bound up"];
-  丶 [label = "丶\n* a drop of"];
+  F [label = "灼\nscorch (1546)"];
+  B [label = "火\nfire (170)"];
+  E [label = "勺\nladle (69)"];
+  C [label = "勹\nbound up (*)"];
+  D [label = "丶\na drop of (*)"];
 
-  火 -> 灼 [thick];
-  勺 -> 灼 [thick];
-  勹 -> 勺 [thick];
-  丶 -> 勺 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

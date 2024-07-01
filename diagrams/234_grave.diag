@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  墓 [label = "墓\n234 grave"];
-  土 [label = "土\n158 soil"];
-  莫 [label = "莫\n231 nobody"];
-  艹 [label = "艹\n* flower"];
-  日 [label = "日\n12 day"];
-  大 [label = "大\n113 large"];
+  G [label = "墓\ngrave (234)"];
+  B [label = "土\nsoil (158)"];
+  F [label = "莫\nnobody (231)"];
+  C [label = "艹\nflower (*)"];
+  D [label = "日\nday (12)"];
+  E [label = "大\nlarge (113)"];
 
-  土 -> 墓 [thick];
-  莫 -> 墓 [thick];
-  艹 -> 莫 [thick];
-  日 -> 莫 [thick];
-  大 -> 莫 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

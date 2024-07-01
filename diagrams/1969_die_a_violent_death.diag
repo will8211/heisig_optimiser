@@ -5,15 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  毙 [label = "毙\n1969 die a violent death"];
-  比 [label = "比\n456 compare"];
-  匕 [label = "匕\n453 ancient spoon"];
-  死 [label = "死\n715 death"];
-  歹 [label = "歹\n712 malicious"];
+  G [label = "毙\ndie a violent death (1969)"];
+  C [label = "比\ncompare (456)"];
+  B [label = "匕\nancient spoon (453)"];
+  F [label = "死\ndeath (715)"];
+  D [label = "歹\nmalicious (712)"];
+  E [label = "匕\nancient spoon (453)"];
 
-  比 -> 毙 [thick];
-  匕 -> 比 [thick];
-  死 -> 毙 [thick];
-  歹 -> 死 [thick];
-  匕 -> 死 [thick];
+  C -> G [thick];
+  B -> C [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

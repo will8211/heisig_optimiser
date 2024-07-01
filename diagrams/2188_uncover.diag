@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  掀 [label = "掀\n2188 uncover"];
-  扌 [label = "扌\n* fingers"];
-  欣 [label = "欣\n2187 elated"];
-  斤 [label = "斤\n924 catty"];
-  欠 [label = "欠\n474 lack"];
+  F [label = "掀\nuncover (2188)"];
+  B [label = "扌\nfingers (*)"];
+  E [label = "欣\nelated (2187)"];
+  C [label = "斤\ncatty (924)"];
+  D [label = "欠\nlack (474)"];
 
-  扌 -> 掀 [thick];
-  欣 -> 掀 [thick];
-  斤 -> 欣 [thick];
-  欠 -> 欣 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

@@ -5,34 +5,36 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  旋 [label = "旋\n2128 whirl"];
-  囧施－也 [label = "囧施－也\n* banner"];
-  方 [label = "方\n494 direction"];
-  刀 [label = "刀\n83 sword"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  "𠂉" [label = "𠂉\n* reclining"];
-  疋 [label = "疋\n* zoo"];
-  囧走－十 [label = "囧走－十\n* mending"];
-  正 [label = "正\n387 correct"];
-  一 [label = "一\n1 one"];
-  止 [label = "止\n379 stop"];
+  Q [label = "旋\nwhirl (2128)"];
+  K [label = "囧施－也\nbanner (*)"];
+  I [label = "方\ndirection (494)"];
+  B [label = "刀\nsword (83)"];
+  H [label = "亠\ntop hat (*)"];
+  E [label = "六\nsix (6)"];
+  D [label = "囧只－口\nanimal legs (*)"];
+  C [label = "八\neight (8)"];
+  G [label = "囧只－口\nanimal legs (*)"];
+  F [label = "八\neight (8)"];
+  J [label = "𠂉\nreclining (*)"];
+  P [label = "疋\nzoo (*)"];
+  O [label = "囧走－十\nmending (*)"];
+  N [label = "正\ncorrect (387)"];
+  L [label = "一\none (1)"];
+  M [label = "止\nstop (379)"];
 
-  囧施－也 -> 旋 [thick];
-  方 -> 囧施－也 [thick];
-  刀 -> 方 [thick];
-  亠 -> 方 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
-  "𠂉" -> 囧施－也 [thick];
-  疋 -> 旋 [thick];
-  囧走－十 -> 疋 [thick];
-  正 -> 囧走－十 [thick];
-  一 -> 正 [thick];
-  止 -> 正 [thick];
+  K -> Q [thick];
+  I -> K [thick];
+  B -> I [thick];
+  H -> I [thick];
+  E -> H [thick];
+  D -> E [thick];
+  C -> D [thick];
+  G -> H [thick];
+  F -> G [thick];
+  J -> K [thick];
+  P -> Q [thick];
+  O -> P [thick];
+  N -> O [thick];
+  L -> N [thick];
+  M -> N [thick];
 }

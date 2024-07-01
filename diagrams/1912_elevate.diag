@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  抬 [label = "抬\n1912 elevate"];
-  扌 [label = "扌\n* fingers"];
-  台 [label = "台\n672 platform"];
-  厶 [label = "厶\n* elbow"];
-  口 [label = "口\n11 mouth"];
+  F [label = "抬\nelevate (1912)"];
+  B [label = "扌\nfingers (*)"];
+  E [label = "台\nplatform (672)"];
+  C [label = "厶\nelbow (*)"];
+  D [label = "口\nmouth (11)"];
 
-  扌 -> 抬 [thick];
-  台 -> 抬 [thick];
-  厶 -> 台 [thick];
-  口 -> 台 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

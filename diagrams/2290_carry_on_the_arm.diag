@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  挎 [label = "挎\n2290 carry on the arm"];
-  扌 [label = "扌\n* fingers"];
-  夸 [label = "夸\n2288 brag"];
-  大 [label = "大\n113 large"];
-  亏 [label = "亏\n2286 loss"];
-  丂 [label = "丂\n* snare"];
+  G [label = "挎\ncarry on the arm (2290)"];
+  B [label = "扌\nfingers (*)"];
+  F [label = "夸\nbrag (2288)"];
+  C [label = "大\nlarge (113)"];
+  E [label = "亏\nloss (2286)"];
+  D [label = "丂\nsnare (*)"];
 
-  扌 -> 挎 [thick];
-  夸 -> 挎 [thick];
-  大 -> 夸 [thick];
-  亏 -> 夸 [thick];
-  丂 -> 亏 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
 }

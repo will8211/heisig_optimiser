@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  争 [label = "争\n951 contend"];
-  勹 [label = "勹\n* bound up"];
-  肀 [label = "肀\n* rake"];
-  彐 [label = "彐\n* broom"];
+  E [label = "争\ncontend (951)"];
+  B [label = "勹\nbound up (*)"];
+  D [label = "肀\nrake (*)"];
+  C [label = "彐\nbroom (*)"];
 
-  勹 -> 争 [thick];
-  肀 -> 争 [thick];
-  彐 -> 肀 [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

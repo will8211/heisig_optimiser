@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  捉 [label = "捉\n2317 catch"];
-  扌 [label = "扌\n* fingers"];
-  足 [label = "足\n1048 lower leg"];
-  口 [label = "口\n11 mouth"];
-  止 [label = "止\n379 stop"];
+  F [label = "捉\ncatch (2317)"];
+  B [label = "扌\nfingers (*)"];
+  E [label = "足\nlower leg (1048)"];
+  C [label = "口\nmouth (11)"];
+  D [label = "止\nstop (379)"];
 
-  扌 -> 捉 [thick];
-  足 -> 捉 [thick];
-  口 -> 足 [thick];
-  止 -> 足 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

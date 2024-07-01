@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  板 [label = "板\n657 plank"];
-  木 [label = "木\n202 tree"];
-  反 [label = "反\n656 against"];
-  "𠂆" [label = "𠂆\n* drag"];
-  又 [label = "又\n633 again"];
+  F [label = "板\nplank (657)"];
+  B [label = "木\ntree (202)"];
+  E [label = "反\nagainst (656)"];
+  C [label = "𠂆\ndrag (*)"];
+  D [label = "又\nagain (633)"];
 
-  木 -> 板 [thick];
-  反 -> 板 [thick];
-  "𠂆" -> 反 [thick];
-  又 -> 反 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

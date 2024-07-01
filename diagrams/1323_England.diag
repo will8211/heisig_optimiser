@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  英 [label = "英\n1323 England"];
-  艹 [label = "艹\n* flower"];
-  央 [label = "央\n1322 center"];
-  大 [label = "大\n113 large"];
+  E [label = "英\nEngland (1323)"];
+  B [label = "艹\nflower (*)"];
+  D [label = "央\ncenter (1322)"];
+  C [label = "大\nlarge (113)"];
 
-  艹 -> 英 [thick];
-  央 -> 英 [thick];
-  大 -> 央 [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

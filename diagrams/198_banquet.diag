@@ -5,16 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  宴 [label = "宴\n198 banquet"];
-  日 [label = "日\n12 day"];
-  女 [label = "女\n102 woman"];
-  宀 [label = "宀\n* house"];
-  安 [label = "安\n197 peaceful"];
+  H [label = "宴\nbanquet (198)"];
+  B [label = "日\nday (12)"];
+  C [label = "女\nwoman (102)"];
+  D [label = "宀\nhouse (*)"];
+  G [label = "安\npeaceful (197)"];
+  E [label = "女\nwoman (102)"];
+  F [label = "宀\nhouse (*)"];
 
-  日 -> 宴 [thick];
-  女 -> 宴 [thick];
-  宀 -> 宴 [thick];
-  安 -> 宴 [thick];
-  女 -> 安 [thick];
-  宀 -> 安 [thick];
+  B -> H [thick];
+  C -> H [thick];
+  D -> H [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

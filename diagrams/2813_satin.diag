@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  缎 [label = "缎\n2813 satin"];
-  纟 [label = "纟\n* thread"];
-  厶 [label = "厶\n* elbow"];
-  段 [label = "段\n1388 section"];
-  囧印－卩 [label = "囧印－卩\n* staples"];
-  殳 [label = "殳\n* missile"];
-  几 [label = "几\n57 how many?"];
-  又 [label = "又\n633 again"];
+  I [label = "缎\nsatin (2813)"];
+  C [label = "纟\nthread (*)"];
+  B [label = "厶\nelbow (*)"];
+  H [label = "段\nsection (1388)"];
+  D [label = "囧印－卩\nstaples (*)"];
+  G [label = "殳\nmissile (*)"];
+  E [label = "几\nhow many? (57)"];
+  F [label = "又\nagain (633)"];
 
-  纟 -> 缎 [thick];
-  厶 -> 纟 [thick];
-  段 -> 缎 [thick];
-  囧印－卩 -> 段 [thick];
-  殳 -> 段 [thick];
-  几 -> 殳 [thick];
-  又 -> 殳 [thick];
+  C -> I [thick];
+  B -> C [thick];
+  H -> I [thick];
+  D -> H [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

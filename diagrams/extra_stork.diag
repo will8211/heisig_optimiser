@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  雚 [label = "雚\n* stork"];
-  隹 [label = "隹\n* turkey"];
-  吅 [label = "吅\n* chatterbox"];
-  口 [label = "口\n11 mouth"];
-  艹 [label = "艹\n* flower"];
+  F [label = "雚\nstork (*)"];
+  B [label = "隹\nturkey (*)"];
+  D [label = "吅\nchatterbox (*)"];
+  C [label = "口\nmouth (11)"];
+  E [label = "艹\nflower (*)"];
 
-  隹 -> 雚 [thick];
-  吅 -> 雚 [thick];
-  口 -> 吅 [thick];
-  艹 -> 雚 [thick];
+  B -> F [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

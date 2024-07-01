@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  描 [label = "描\n1846 describe"];
-  扌 [label = "扌\n* fingers"];
-  苗 [label = "苗\n235 seedling"];
-  田 [label = "田\n14 rice field"];
-  艹 [label = "艹\n* flower"];
+  F [label = "描\ndescribe (1846)"];
+  B [label = "扌\nfingers (*)"];
+  E [label = "苗\nseedling (235)"];
+  C [label = "田\nrice field (14)"];
+  D [label = "艹\nflower (*)"];
 
-  扌 -> 描 [thick];
-  苗 -> 描 [thick];
-  田 -> 苗 [thick];
-  艹 -> 苗 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  缕 [label = "缕\n2388 in detail"];
-  纟 [label = "纟\n* thread"];
-  厶 [label = "厶\n* elbow"];
-  娄 [label = "娄\n* bride"];
-  女 [label = "女\n102 woman"];
-  米 [label = "米\n778 rice"];
+  G [label = "缕\nin detail (2388)"];
+  C [label = "纟\nthread (*)"];
+  B [label = "厶\nelbow (*)"];
+  F [label = "娄\nbride (*)"];
+  D [label = "女\nwoman (102)"];
+  E [label = "米\nrice (778)"];
 
-  纟 -> 缕 [thick];
-  厶 -> 纟 [thick];
-  娄 -> 缕 [thick];
-  女 -> 娄 [thick];
-  米 -> 娄 [thick];
+  C -> G [thick];
+  B -> C [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

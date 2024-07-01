@@ -5,26 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  郊 [label = "郊\n2810 outskirts"];
-  交 [label = "交\n1044 mingle"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  父 [label = "父\n1043 father"];
-  丶 [label = "丶\n* a drop of"];
-  囧阝 [label = "囧阝\n* city walls"];
-  阝 [label = "阝\n* pinnacle"];
+  M [label = "郊\noutskirts (2810)"];
+  J [label = "交\nmingle (1044)"];
+  G [label = "亠\ntop hat (*)"];
+  D [label = "六\nsix (6)"];
+  C [label = "囧只－口\nanimal legs (*)"];
+  B [label = "八\neight (8)"];
+  F [label = "囧只－口\nanimal legs (*)"];
+  E [label = "八\neight (8)"];
+  I [label = "父\nfather (1043)"];
+  H [label = "丶\na drop of (*)"];
+  L [label = "囧阝\ncity walls (*)"];
+  K [label = "阝\npinnacle (*)"];
 
-  交 -> 郊 [thick];
-  亠 -> 交 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
-  父 -> 交 [thick];
-  丶 -> 父 [thick];
-  囧阝 -> 郊 [thick];
-  阝 -> 囧阝 [thick];
+  J -> M [thick];
+  G -> J [thick];
+  D -> G [thick];
+  C -> D [thick];
+  B -> C [thick];
+  F -> G [thick];
+  E -> F [thick];
+  I -> J [thick];
+  H -> I [thick];
+  L -> M [thick];
+  K -> L [thick];
 }

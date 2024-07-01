@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  徊 [label = "徊\n1996 undecided"];
-  行 [label = "行\n754 line of business"];
-  回 [label = "回\n554 return"];
-  囗 [label = "囗\n* pent in"];
-  口 [label = "口\n11 mouth"];
+  F [label = "徊\nundecided (1996)"];
+  B [label = "行\nline of business (754)"];
+  E [label = "回\nreturn (554)"];
+  C [label = "囗\npent in (*)"];
+  D [label = "口\nmouth (11)"];
 
-  行 -> 徊 [thick];
-  回 -> 徊 [thick];
-  囗 -> 回 [thick];
-  口 -> 回 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

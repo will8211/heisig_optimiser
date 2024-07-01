@@ -5,25 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  球 [label = "球\n268 ball"];
-  玉 [label = "玉\n266 jade"];
-  王 [label = "王\n265 king"];
-  工 [label = "工\n76 work"];
-  丶 [label = "丶\n* a drop of"];
-  求 [label = "求\n140 request"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
+  M [label = "球\nball (268)"];
+  E [label = "玉\njade (266)"];
+  C [label = "王\nking (265)"];
+  B [label = "工\nwork (76)"];
+  D [label = "丶\na drop of (*)"];
+  L [label = "求\nrequest (140)"];
+  I [label = "水\nwater (137)"];
+  G [label = "丨\nwalking stick (*)"];
+  F [label = "一\none (1)"];
+  H [label = "丶\na drop of (*)"];
+  J [label = "丶\na drop of (*)"];
+  K [label = "一\none (1)"];
 
-  玉 -> 球 [thick];
-  王 -> 玉 [thick];
-  工 -> 王 [thick];
-  丶 -> 玉 [thick];
-  求 -> 球 [thick];
-  水 -> 求 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  丶 -> 求 [thick];
-  一 -> 求 [thick];
+  E -> M [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  L -> M [thick];
+  I -> L [thick];
+  G -> I [thick];
+  F -> G [thick];
+  H -> I [thick];
+  J -> L [thick];
+  K -> L [thick];
 }

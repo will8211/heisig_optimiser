@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  石 [label = "石\n125 stone"];
-  口 [label = "口\n11 mouth"];
-  厂 [label = "厂\n121 factory"];
+  D [label = "石\nstone (125)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "厂\nfactory (121)"];
 
-  口 -> 石 [thick];
-  厂 -> 石 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

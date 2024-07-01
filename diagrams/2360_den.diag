@@ -5,23 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  窟 [label = "窟\n2360 den"];
-  穴 [label = "穴\n1070 hole"];
-  宀 [label = "宀\n* house"];
-  八 [label = "八\n8 eight"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  屈 [label = "屈\n2143 knuckle under"];
-  尸 [label = "尸\n882 corpse"];
-  出 [label = "出\n689 exit"];
-  山 [label = "山\n688 mountain"];
+  K [label = "窟\nden (2360)"];
+  F [label = "穴\nhole (1070)"];
+  B [label = "宀\nhouse (*)"];
+  C [label = "八\neight (8)"];
+  E [label = "囧只－口\nanimal legs (*)"];
+  D [label = "八\neight (8)"];
+  J [label = "屈\nknuckle under (2143)"];
+  G [label = "尸\ncorpse (882)"];
+  I [label = "出\nexit (689)"];
+  H [label = "山\nmountain (688)"];
 
-  穴 -> 窟 [thick];
-  宀 -> 穴 [thick];
-  八 -> 穴 [thick];
-  囧只－口 -> 穴 [thick];
-  八 -> 囧只－口 [thick];
-  屈 -> 窟 [thick];
-  尸 -> 屈 [thick];
-  出 -> 屈 [thick];
-  山 -> 出 [thick];
+  F -> K [thick];
+  B -> F [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
+  J -> K [thick];
+  G -> J [thick];
+  I -> J [thick];
+  H -> I [thick];
 }

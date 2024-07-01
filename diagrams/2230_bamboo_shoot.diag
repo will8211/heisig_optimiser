@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  笋 [label = "笋\n2230 bamboo shoot"];
-  竹 [label = "竹\n786 bamboo"];
-  丁 [label = "丁\n90 fourth"];
-  尹 [label = "尹\n957 overseer"];
+  E [label = "笋\nbamboo shoot (2230)"];
+  C [label = "竹\nbamboo (786)"];
+  B [label = "丁\nfourth (90)"];
+  D [label = "尹\noverseer (957)"];
 
-  竹 -> 笋 [thick];
-  丁 -> 竹 [thick];
-  尹 -> 笋 [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
 }

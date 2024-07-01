@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  膛 [label = "膛\n1958 chest"];
-  月 [label = "月\n13 month"];
-  堂 [label = "堂\n706 main room"];
-  囧赏－贝 [label = "囧赏－贝\n* outhouse"];
-  小 [label = "小\n109 small"];
-  丶 [label = "丶\n* a drop of"];
-  口 [label = "口\n11 mouth"];
-  土 [label = "土\n158 soil"];
+  I [label = "膛\nchest (1958)"];
+  B [label = "月\nmonth (13)"];
+  H [label = "堂\nmain room (706)"];
+  F [label = "囧赏－贝\nouthouse (*)"];
+  D [label = "小\nsmall (109)"];
+  C [label = "丶\na drop of (*)"];
+  E [label = "口\nmouth (11)"];
+  G [label = "土\nsoil (158)"];
 
-  月 -> 膛 [thick];
-  堂 -> 膛 [thick];
-  囧赏－贝 -> 堂 [thick];
-  小 -> 囧赏－贝 [thick];
-  丶 -> 小 [thick];
-  口 -> 囧赏－贝 [thick];
-  土 -> 堂 [thick];
+  B -> I [thick];
+  H -> I [thick];
+  F -> H [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
+  G -> H [thick];
 }

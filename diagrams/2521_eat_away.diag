@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  蚀 [label = "蚀\n2521 eat away"];
-  食 [label = "食\n1154 food"];
-  良 [label = "良\n1151 high-quality"];
-  丶 [label = "丶\n* a drop of"];
-  艮 [label = "艮\n* silver"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  虫 [label = "虫\n509 insect"];
+  H [label = "蚀\neat away (2521)"];
+  F [label = "食\nfood (1154)"];
+  D [label = "良\nhigh-quality (1151)"];
+  B [label = "丶\na drop of (*)"];
+  C [label = "艮\nsilver (*)"];
+  E [label = "𠆢\numbrella (*)"];
+  G [label = "虫\ninsect (509)"];
 
-  食 -> 蚀 [thick];
-  良 -> 食 [thick];
-  丶 -> 良 [thick];
-  艮 -> 良 [thick];
-  "𠆢" -> 食 [thick];
-  虫 -> 蚀 [thick];
+  F -> H [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
+  G -> H [thick];
 }

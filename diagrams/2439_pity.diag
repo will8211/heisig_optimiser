@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  怜 [label = "怜\n2439 pity"];
-  心 [label = "心\n563 heart"];
-  令 [label = "令\n1113 orders"];
-  亼 [label = "亼\n* meeting"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  囧节－艹 [label = "囧节－艹\n* chop"];
+  G [label = "怜\npity (2439)"];
+  B [label = "心\nheart (563)"];
+  F [label = "令\norders (1113)"];
+  D [label = "亼\nmeeting (*)"];
+  C [label = "𠆢\numbrella (*)"];
+  E [label = "囧节－艹\nchop (*)"];
 
-  心 -> 怜 [thick];
-  令 -> 怜 [thick];
-  亼 -> 令 [thick];
-  "𠆢" -> 亼 [thick];
-  囧节－艹 -> 令 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

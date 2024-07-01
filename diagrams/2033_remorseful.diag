@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  懊 [label = "懊\n2033 remorseful"];
-  心 [label = "心\n563 heart"];
-  奥 [label = "奥\n2031 of great depth"];
-  丶 [label = "丶\n* a drop of"];
-  冂 [label = "冂\n* hood"];
-  几 [label = "几\n57 how many?"];
-  米 [label = "米\n778 rice"];
-  大 [label = "大\n113 large"];
+  I [label = "懊\nremorseful (2033)"];
+  B [label = "心\nheart (563)"];
+  H [label = "奥\nof great depth (2031)"];
+  C [label = "丶\na drop of (*)"];
+  E [label = "冂\nhood (*)"];
+  D [label = "几\nhow many? (57)"];
+  F [label = "米\nrice (778)"];
+  G [label = "大\nlarge (113)"];
 
-  心 -> 懊 [thick];
-  奥 -> 懊 [thick];
-  丶 -> 奥 [thick];
-  冂 -> 奥 [thick];
-  几 -> 冂 [thick];
-  米 -> 奥 [thick];
-  大 -> 奥 [thick];
+  B -> I [thick];
+  H -> I [thick];
+  C -> H [thick];
+  E -> H [thick];
+  D -> E [thick];
+  F -> H [thick];
+  G -> H [thick];
 }

@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  端 [label = "端\n966 upright"];
-  立 [label = "立\n444 standing up"];
-  耑 [label = "耑\n* prospector"];
+  D [label = "端\nupright (966)"];
+  B [label = "立\nstanding up (444)"];
+  C [label = "耑\nprospector (*)"];
 
-  立 -> 端 [thick];
-  耑 -> 端 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

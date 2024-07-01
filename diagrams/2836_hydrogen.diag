@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  氢 [label = "氢\n2836 hydrogen"];
-  气 [label = "气\n1404 air"];
-  "𠂉" [label = "𠂉\n* reclining"];
-  一 [label = "一\n1 one"];
-  乙 [label = "乙\n95 second"];
-  "𢀖" [label = "𢀖\n* spool"];
-  工 [label = "工\n76 work"];
-  人 [label = "人\n793 person"];
+  I [label = "氢\nhydrogen (2836)"];
+  E [label = "气\nair (1404)"];
+  B [label = "𠂉\nreclining (*)"];
+  C [label = "一\none (1)"];
+  D [label = "乙\nsecond (95)"];
+  H [label = "𢀖\nspool (*)"];
+  F [label = "工\nwork (76)"];
+  G [label = "人\nperson (793)"];
 
-  气 -> 氢 [thick];
-  "𠂉" -> 气 [thick];
-  一 -> 气 [thick];
-  乙 -> 气 [thick];
-  "𢀖" -> 氢 [thick];
-  工 -> "𢀖" [thick];
-  人 -> "𢀖" [thick];
+  E -> I [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
+  H -> I [thick];
+  F -> H [thick];
+  G -> H [thick];
 }

@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  晚 [label = "晚\n1450 nightfall"];
-  日 [label = "日\n12 day"];
-  免 [label = "免\n1449 avoid"];
-  兔 [label = "兔\n1447 rabbit"];
-  勹 [label = "勹\n* bound up"];
-  口 [label = "口\n11 mouth"];
-  儿 [label = "儿\n56 youngster"];
-  丶 [label = "丶\n* a drop of"];
+  I [label = "晚\nnightfall (1450)"];
+  B [label = "日\nday (12)"];
+  H [label = "免\navoid (1449)"];
+  G [label = "兔\nrabbit (1447)"];
+  C [label = "勹\nbound up (*)"];
+  D [label = "口\nmouth (11)"];
+  E [label = "儿\nyoungster (56)"];
+  F [label = "丶\na drop of (*)"];
 
-  日 -> 晚 [thick];
-  免 -> 晚 [thick];
-  兔 -> 免 [thick];
-  勹 -> 兔 [thick];
-  口 -> 兔 [thick];
-  儿 -> 兔 [thick];
-  丶 -> 兔 [thick];
+  B -> I [thick];
+  H -> I [thick];
+  G -> H [thick];
+  C -> G [thick];
+  D -> G [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

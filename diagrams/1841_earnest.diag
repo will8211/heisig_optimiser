@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  挚 [label = "挚\n1841 earnest"];
-  执 [label = "执\n602 clench"];
-  扌 [label = "扌\n* fingers"];
-  丸 [label = "丸\n42 pill"];
-  九 [label = "九\n9 nine"];
-  手 [label = "手\n584 hand"];
+  G [label = "挚\nearnest (1841)"];
+  E [label = "执\nclench (602)"];
+  B [label = "扌\nfingers (*)"];
+  D [label = "丸\npill (42)"];
+  C [label = "九\nnine (9)"];
+  F [label = "手\nhand (584)"];
 
-  执 -> 挚 [thick];
-  扌 -> 执 [thick];
-  丸 -> 执 [thick];
-  九 -> 丸 [thick];
-  手 -> 挚 [thick];
+  E -> G [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
+  F -> G [thick];
 }

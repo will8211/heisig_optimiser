@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  划 [label = "划\n363 scratch"];
-  戈 [label = "戈\n361 halberd"];
-  弋 [label = "弋\n* arrow"];
-  刀 [label = "刀\n83 sword"];
+  E [label = "划\nscratch (363)"];
+  C [label = "戈\nhalberd (361)"];
+  B [label = "弋\narrow (*)"];
+  D [label = "刀\nsword (83)"];
 
-  戈 -> 划 [thick];
-  弋 -> 戈 [thick];
-  刀 -> 划 [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
 }

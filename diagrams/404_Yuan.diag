@@ -5,24 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  袁 [label = "袁\n404 Yuan"];
-  囧周－冂 [label = "囧周－冂\n* lidded crock"];
-  土 [label = "土\n158 soil"];
-  口 [label = "口\n11 mouth"];
-  衣 [label = "衣\n400 clothing"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
+  L [label = "袁\nYuan (404)"];
+  D [label = "囧周－冂\nlidded crock (*)"];
+  B [label = "土\nsoil (158)"];
+  C [label = "口\nmouth (11)"];
+  K [label = "衣\nclothing (400)"];
+  J [label = "亠\ntop hat (*)"];
+  G [label = "六\nsix (6)"];
+  F [label = "囧只－口\nanimal legs (*)"];
+  E [label = "八\neight (8)"];
+  I [label = "囧只－口\nanimal legs (*)"];
+  H [label = "八\neight (8)"];
 
-  囧周－冂 -> 袁 [thick];
-  土 -> 囧周－冂 [thick];
-  口 -> 囧周－冂 [thick];
-  衣 -> 袁 [thick];
-  亠 -> 衣 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
+  D -> L [thick];
+  B -> D [thick];
+  C -> D [thick];
+  K -> L [thick];
+  J -> K [thick];
+  G -> J [thick];
+  F -> G [thick];
+  E -> F [thick];
+  I -> J [thick];
+  H -> I [thick];
 }

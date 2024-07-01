@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  雄 [label = "雄\n671 grand"];
-  "𠂇" [label = "𠂇\n* by one’s side"];
-  十 [label = "十\n10 ten"];
-  厶 [label = "厶\n* elbow"];
-  隹 [label = "隹\n* turkey"];
+  F [label = "雄\ngrand (671)"];
+  C [label = "𠂇\nby one’s side (*)"];
+  B [label = "十\nten (10)"];
+  D [label = "厶\nelbow (*)"];
+  E [label = "隹\nturkey (*)"];
 
-  "𠂇" -> 雄 [thick];
-  十 -> "𠂇" [thick];
-  厶 -> 雄 [thick];
-  隹 -> 雄 [thick];
+  C -> F [thick];
+  B -> C [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

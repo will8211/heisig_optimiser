@@ -5,26 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  摔 [label = "摔\n1321 tumble"];
-  扌 [label = "扌\n* fingers"];
-  率 [label = "率\n1320 rate"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  幺 [label = "幺\n* cocoon"];
-  囧率－玄－十 [label = "囧率－玄－十\n* sparkler"];
-  十 [label = "十\n10 ten"];
+  M [label = "摔\ntumble (1321)"];
+  B [label = "扌\nfingers (*)"];
+  L [label = "率\nrate (1320)"];
+  H [label = "亠\ntop hat (*)"];
+  E [label = "六\nsix (6)"];
+  D [label = "囧只－口\nanimal legs (*)"];
+  C [label = "八\neight (8)"];
+  G [label = "囧只－口\nanimal legs (*)"];
+  F [label = "八\neight (8)"];
+  I [label = "幺\ncocoon (*)"];
+  J [label = "囧率－玄－十\nsparkler (*)"];
+  K [label = "十\nten (10)"];
 
-  扌 -> 摔 [thick];
-  率 -> 摔 [thick];
-  亠 -> 率 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
-  幺 -> 率 [thick];
-  囧率－玄－十 -> 率 [thick];
-  十 -> 率 [thick];
+  B -> M [thick];
+  L -> M [thick];
+  H -> L [thick];
+  E -> H [thick];
+  D -> E [thick];
+  C -> D [thick];
+  G -> H [thick];
+  F -> G [thick];
+  I -> L [thick];
+  J -> L [thick];
+  K -> L [thick];
 }

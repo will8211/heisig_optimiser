@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  浆 [label = "浆\n2467 thick liquid"];
-  囧酱－酉 [label = "囧酱－酉\n* chocolate turtle"];
-  兆 [label = "兆\n237 portent"];
-  夕 [label = "夕\n115 evening"];
-  月 [label = "月\n13 month"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
+  J [label = "浆\nthick liquid (2467)"];
+  E [label = "囧酱－酉\nchocolate turtle (*)"];
+  B [label = "兆\nportent (237)"];
+  D [label = "夕\nevening (115)"];
+  C [label = "月\nmonth (13)"];
+  I [label = "水\nwater (137)"];
+  G [label = "丨\nwalking stick (*)"];
+  F [label = "一\none (1)"];
+  H [label = "丶\na drop of (*)"];
 
-  囧酱－酉 -> 浆 [thick];
-  兆 -> 囧酱－酉 [thick];
-  夕 -> 囧酱－酉 [thick];
-  月 -> 夕 [thick];
-  水 -> 浆 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
+  E -> J [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
+  I -> J [thick];
+  G -> I [thick];
+  F -> G [thick];
+  H -> I [thick];
 }

@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  掘 [label = "掘\n2144 excavate"];
-  扌 [label = "扌\n* fingers"];
-  屈 [label = "屈\n2143 knuckle under"];
-  尸 [label = "尸\n882 corpse"];
-  出 [label = "出\n689 exit"];
-  山 [label = "山\n688 mountain"];
+  G [label = "掘\nexcavate (2144)"];
+  B [label = "扌\nfingers (*)"];
+  F [label = "屈\nknuckle under (2143)"];
+  C [label = "尸\ncorpse (882)"];
+  E [label = "出\nexit (689)"];
+  D [label = "山\nmountain (688)"];
 
-  扌 -> 掘 [thick];
-  屈 -> 掘 [thick];
-  尸 -> 屈 [thick];
-  出 -> 屈 [thick];
-  山 -> 出 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
 }

@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  俗 [label = "俗\n2095 custom"];
-  人 [label = "人\n793 person"];
-  谷 [label = "谷\n698 valley"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  口 [label = "口\n11 mouth"];
+  H [label = "俗\ncustom (2095)"];
+  B [label = "人\nperson (793)"];
+  G [label = "谷\nvalley (698)"];
+  D [label = "囧只－口\nanimal legs (*)"];
+  C [label = "八\neight (8)"];
+  E [label = "𠆢\numbrella (*)"];
+  F [label = "口\nmouth (11)"];
 
-  人 -> 俗 [thick];
-  谷 -> 俗 [thick];
-  囧只－口 -> 谷 [thick];
-  八 -> 囧只－口 [thick];
-  "𠆢" -> 谷 [thick];
-  口 -> 谷 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  D -> G [thick];
+  C -> D [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

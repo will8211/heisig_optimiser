@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  否 [label = "否\n992 negate"];
-  不 [label = "不\n991 no"];
-  一 [label = "一\n1 one"];
-  人 [label = "人\n793 person"];
-  丶 [label = "丶\n* a drop of"];
-  口 [label = "口\n11 mouth"];
+  G [label = "否\nnegate (992)"];
+  E [label = "不\nno (991)"];
+  B [label = "一\none (1)"];
+  C [label = "人\nperson (793)"];
+  D [label = "丶\na drop of (*)"];
+  F [label = "口\nmouth (11)"];
 
-  不 -> 否 [thick];
-  一 -> 不 [thick];
-  人 -> 不 [thick];
-  丶 -> 不 [thick];
-  口 -> 否 [thick];
+  E -> G [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

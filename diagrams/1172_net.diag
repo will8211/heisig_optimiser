@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  网 [label = "网\n1172 net"];
-  冂 [label = "冂\n* hood"];
-  几 [label = "几\n57 how many?"];
-  "㐅" [label = "㐅\n* sheaf"];
+  E [label = "网\nnet (1172)"];
+  C [label = "冂\nhood (*)"];
+  B [label = "几\nhow many? (57)"];
+  D [label = "㐅\nsheaf (*)"];
 
-  冂 -> 网 [thick];
-  几 -> 冂 [thick];
-  "㐅" -> 网 [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
 }

@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  明 [label = "明\n21 bright"];
-  日 [label = "日\n12 day"];
-  月 [label = "月\n13 month"];
+  D [label = "明\nbright (21)"];
+  B [label = "日\nday (12)"];
+  C [label = "月\nmonth (13)"];
 
-  日 -> 明 [thick];
-  月 -> 明 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

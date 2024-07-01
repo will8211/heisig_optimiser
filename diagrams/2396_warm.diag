@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  暖 [label = "暖\n2396 warm"];
-  日 [label = "日\n12 day"];
-  爰 [label = "爰\n* migrating ducks"];
-  爪 [label = "爪\n663 claw"];
-  "𠂆" [label = "𠂆\n* drag"];
-  友 [label = "友\n635 friend"];
-  "𠂇" [label = "𠂇\n* by one’s side"];
-  十 [label = "十\n10 ten"];
-  又 [label = "又\n633 again"];
+  J [label = "暖\nwarm (2396)"];
+  B [label = "日\nday (12)"];
+  I [label = "爰\nmigrating ducks (*)"];
+  D [label = "爪\nclaw (663)"];
+  C [label = "𠂆\ndrag (*)"];
+  H [label = "友\nfriend (635)"];
+  F [label = "𠂇\nby one’s side (*)"];
+  E [label = "十\nten (10)"];
+  G [label = "又\nagain (633)"];
 
-  日 -> 暖 [thick];
-  爰 -> 暖 [thick];
-  爪 -> 爰 [thick];
-  "𠂆" -> 爪 [thick];
-  友 -> 爰 [thick];
-  "𠂇" -> 友 [thick];
-  十 -> "𠂇" [thick];
-  又 -> 友 [thick];
+  B -> J [thick];
+  I -> J [thick];
+  D -> I [thick];
+  C -> D [thick];
+  H -> I [thick];
+  F -> H [thick];
+  E -> F [thick];
+  G -> H [thick];
 }

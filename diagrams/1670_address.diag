@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  址 [label = "址\n1670 address"];
-  土 [label = "土\n158 soil"];
-  止 [label = "止\n379 stop"];
+  D [label = "址\naddress (1670)"];
+  B [label = "土\nsoil (158)"];
+  C [label = "止\nstop (379)"];
 
-  土 -> 址 [thick];
-  止 -> 址 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

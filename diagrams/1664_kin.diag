@@ -5,26 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  戚 [label = "戚\n1664 kin"];
-  戊 [label = "戊\n* parade"];
-  戈 [label = "戈\n361 halberd"];
-  弋 [label = "弋\n* arrow"];
-  上 [label = "上\n45 above"];
-  卜 [label = "卜\n43 divination"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  小 [label = "小\n109 small"];
+  M [label = "戚\nkin (1664)"];
+  D [label = "戊\nparade (*)"];
+  C [label = "戈\nhalberd (361)"];
+  B [label = "弋\narrow (*)"];
+  J [label = "上\nabove (45)"];
+  H [label = "卜\ndivination (43)"];
+  F [label = "丨\nwalking stick (*)"];
+  E [label = "一\none (1)"];
+  G [label = "丶\na drop of (*)"];
+  I [label = "一\none (1)"];
+  L [label = "小\nsmall (109)"];
+  K [label = "丶\na drop of (*)"];
 
-  戊 -> 戚 [thick];
-  戈 -> 戊 [thick];
-  弋 -> 戈 [thick];
-  上 -> 戚 [thick];
-  卜 -> 上 [thick];
-  丨 -> 卜 [thick];
-  一 -> 丨 [thick];
-  丶 -> 卜 [thick];
-  一 -> 上 [thick];
-  小 -> 戚 [thick];
-  丶 -> 小 [thick];
+  D -> M [thick];
+  C -> D [thick];
+  B -> C [thick];
+  J -> M [thick];
+  H -> J [thick];
+  F -> H [thick];
+  E -> F [thick];
+  G -> H [thick];
+  I -> J [thick];
+  L -> M [thick];
+  K -> L [thick];
 }

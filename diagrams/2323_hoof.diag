@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  蹄 [label = "蹄\n2323 hoof"];
-  足 [label = "足\n1048 lower leg"];
-  口 [label = "口\n11 mouth"];
-  止 [label = "止\n379 stop"];
-  帝 [label = "帝\n449 sovereign"];
-  立 [label = "立\n444 standing up"];
-  "囧冖＋巾" [label = "囧冖＋巾\n* apron"];
-  巾 [label = "巾\n410 towel"];
-  冖 [label = "冖\n* crown"];
+  J [label = "蹄\nhoof (2323)"];
+  D [label = "足\nlower leg (1048)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "止\nstop (379)"];
+  I [label = "帝\nsovereign (449)"];
+  E [label = "立\nstanding up (444)"];
+  H [label = "囧冖＋巾\napron (*)"];
+  F [label = "巾\ntowel (410)"];
+  G [label = "冖\ncrown (*)"];
 
-  足 -> 蹄 [thick];
-  口 -> 足 [thick];
-  止 -> 足 [thick];
-  帝 -> 蹄 [thick];
-  立 -> 帝 [thick];
-  "囧冖＋巾" -> 帝 [thick];
-  巾 -> "囧冖＋巾" [thick];
-  冖 -> "囧冖＋巾" [thick];
+  D -> J [thick];
+  B -> D [thick];
+  C -> D [thick];
+  I -> J [thick];
+  E -> I [thick];
+  H -> I [thick];
+  F -> H [thick];
+  G -> H [thick];
 }

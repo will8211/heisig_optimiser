@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  逊 [label = "逊\n298 modest"];
-  孙 [label = "孙\n112 grandchild"];
-  子 [label = "子\n97 child"];
-  小 [label = "小\n109 small"];
-  丶 [label = "丶\n* a drop of"];
-  辶 [label = "辶\n* road"];
+  G [label = "逊\nmodest (298)"];
+  E [label = "孙\ngrandchild (112)"];
+  B [label = "子\nchild (97)"];
+  D [label = "小\nsmall (109)"];
+  C [label = "丶\na drop of (*)"];
+  F [label = "辶\nroad (*)"];
 
-  孙 -> 逊 [thick];
-  子 -> 孙 [thick];
-  小 -> 孙 [thick];
-  丶 -> 小 [thick];
-  辶 -> 逊 [thick];
+  E -> G [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
+  F -> G [thick];
 }

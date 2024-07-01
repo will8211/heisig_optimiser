@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  舍 [label = "舍\n1599 abode"];
-  亼 [label = "亼\n* meeting"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  古 [label = "古\n16 ancient"];
-  十 [label = "十\n10 ten"];
-  口 [label = "口\n11 mouth"];
+  G [label = "舍\nabode (1599)"];
+  C [label = "亼\nmeeting (*)"];
+  B [label = "𠆢\numbrella (*)"];
+  F [label = "古\nancient (16)"];
+  D [label = "十\nten (10)"];
+  E [label = "口\nmouth (11)"];
 
-  亼 -> 舍 [thick];
-  "𠆢" -> 亼 [thick];
-  古 -> 舍 [thick];
-  十 -> 古 [thick];
-  口 -> 古 [thick];
+  C -> G [thick];
+  B -> C [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

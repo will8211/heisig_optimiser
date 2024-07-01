@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  民 [label = "民\n1377 people"];
-  氏 [label = "氏\n1371 family name"];
-  丶 [label = "丶\n* a drop of"];
-  囧以－丶人 [label = "囧以－丶人\n* plow"];
-  一 [label = "一\n1 one"];
-  乙 [label = "乙\n95 second"];
-  口 [label = "口\n11 mouth"];
+  H [label = "民\npeople (1377)"];
+  F [label = "氏\nfamily name (1371)"];
+  B [label = "丶\na drop of (*)"];
+  C [label = "囧以－丶人\nplow (*)"];
+  D [label = "一\none (1)"];
+  E [label = "乙\nsecond (95)"];
+  G [label = "口\nmouth (11)"];
 
-  氏 -> 民 [thick];
-  丶 -> 氏 [thick];
-  囧以－丶人 -> 氏 [thick];
-  一 -> 氏 [thick];
-  乙 -> 氏 [thick];
-  口 -> 民 [thick];
+  F -> H [thick];
+  B -> F [thick];
+  C -> F [thick];
+  D -> F [thick];
+  E -> F [thick];
+  G -> H [thick];
 }

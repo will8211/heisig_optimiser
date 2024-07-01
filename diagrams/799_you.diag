@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  你 [label = "你\n799 you"];
-  人 [label = "人\n793 person"];
-  尔 [label = "尔\n798 you (literary)"];
-  小 [label = "小\n109 small"];
-  丶 [label = "丶\n* a drop of"];
+  F [label = "你\nyou (799)"];
+  B [label = "人\nperson (793)"];
+  E [label = "尔\nyou (literary) (798)"];
+  D [label = "小\nsmall (109)"];
+  C [label = "丶\na drop of (*)"];
 
-  人 -> 你 [thick];
-  尔 -> 你 [thick];
-  小 -> 尔 [thick];
-  丶 -> 小 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

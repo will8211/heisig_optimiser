@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  灶 [label = "灶\n1548 cooking stove"];
-  火 [label = "火\n170 fire"];
-  土 [label = "土\n158 soil"];
+  D [label = "灶\ncooking stove (1548)"];
+  B [label = "火\nfire (170)"];
+  C [label = "土\nsoil (158)"];
 
-  火 -> 灶 [thick];
-  土 -> 灶 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

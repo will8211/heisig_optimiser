@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  坎 [label = "坎\n1717 hump"];
-  土 [label = "土\n158 soil"];
-  欠 [label = "欠\n474 lack"];
+  D [label = "坎\nhump (1717)"];
+  B [label = "土\nsoil (158)"];
+  C [label = "欠\nlack (474)"];
 
-  土 -> 坎 [thick];
-  欠 -> 坎 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

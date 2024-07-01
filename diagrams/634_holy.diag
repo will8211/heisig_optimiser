@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  圣 [label = "圣\n634 holy"];
-  又 [label = "又\n633 again"];
-  土 [label = "土\n158 soil"];
+  D [label = "圣\nholy (634)"];
+  B [label = "又\nagain (633)"];
+  C [label = "土\nsoil (158)"];
 
-  又 -> 圣 [thick];
-  土 -> 圣 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

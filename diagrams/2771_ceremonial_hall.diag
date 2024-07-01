@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  殿 [label = "殿\n2771 ceremonial hall"];
-  尸 [label = "尸\n882 corpse"];
-  共 [label = "共\n1354 together"];
-  囧昔－日 [label = "囧昔－日\n* salad"];
-  艹 [label = "艹\n* flower"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  殳 [label = "殳\n* missile"];
-  几 [label = "几\n57 how many?"];
-  又 [label = "又\n633 again"];
+  K [label = "殿\nceremonial hall (2771)"];
+  B [label = "尸\ncorpse (882)"];
+  G [label = "共\ntogether (1354)"];
+  D [label = "囧昔－日\nsalad (*)"];
+  C [label = "艹\nflower (*)"];
+  F [label = "囧只－口\nanimal legs (*)"];
+  E [label = "八\neight (8)"];
+  J [label = "殳\nmissile (*)"];
+  H [label = "几\nhow many? (57)"];
+  I [label = "又\nagain (633)"];
 
-  尸 -> 殿 [thick];
-  共 -> 殿 [thick];
-  囧昔－日 -> 共 [thick];
-  艹 -> 囧昔－日 [thick];
-  囧只－口 -> 共 [thick];
-  八 -> 囧只－口 [thick];
-  殳 -> 殿 [thick];
-  几 -> 殳 [thick];
-  又 -> 殳 [thick];
+  B -> K [thick];
+  G -> K [thick];
+  D -> G [thick];
+  C -> D [thick];
+  F -> G [thick];
+  E -> F [thick];
+  J -> K [thick];
+  H -> J [thick];
+  I -> J [thick];
 }

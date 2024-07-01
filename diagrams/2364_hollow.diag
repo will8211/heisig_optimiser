@@ -5,27 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  窝 [label = "窝\n2364 hollow"];
-  穴 [label = "穴\n1070 hole"];
-  宀 [label = "宀\n* house"];
-  八 [label = "八\n8 eight"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  呙 [label = "呙\n* esophagus"];
-  口 [label = "口\n11 mouth"];
-  内 [label = "内\n840 internal"];
-  囧冂 [label = "囧冂\n* belt"];
-  巾 [label = "巾\n410 towel"];
-  人 [label = "人\n793 person"];
+  M [label = "窝\nhollow (2364)"];
+  F [label = "穴\nhole (1070)"];
+  B [label = "宀\nhouse (*)"];
+  C [label = "八\neight (8)"];
+  E [label = "囧只－口\nanimal legs (*)"];
+  D [label = "八\neight (8)"];
+  L [label = "呙\nesophagus (*)"];
+  G [label = "口\nmouth (11)"];
+  K [label = "内\ninternal (840)"];
+  I [label = "囧冂\nbelt (*)"];
+  H [label = "巾\ntowel (410)"];
+  J [label = "人\nperson (793)"];
 
-  穴 -> 窝 [thick];
-  宀 -> 穴 [thick];
-  八 -> 穴 [thick];
-  囧只－口 -> 穴 [thick];
-  八 -> 囧只－口 [thick];
-  呙 -> 窝 [thick];
-  口 -> 呙 [thick];
-  内 -> 呙 [thick];
-  囧冂 -> 内 [thick];
-  巾 -> 囧冂 [thick];
-  人 -> 内 [thick];
+  F -> M [thick];
+  B -> F [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
+  L -> M [thick];
+  G -> L [thick];
+  K -> L [thick];
+  I -> K [thick];
+  H -> I [thick];
+  J -> K [thick];
 }

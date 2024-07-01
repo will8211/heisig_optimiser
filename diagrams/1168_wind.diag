@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  风 [label = "风\n1168 wind"];
-  几 [label = "几\n57 how many?"];
-  "㐅" [label = "㐅\n* sheaf"];
+  D [label = "风\nwind (1168)"];
+  B [label = "几\nhow many? (57)"];
+  C [label = "㐅\nsheaf (*)"];
 
-  几 -> 风 [thick];
-  "㐅" -> 风 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

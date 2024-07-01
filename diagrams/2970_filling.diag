@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  馅 [label = "馅\n2970 filling"];
-  食 [label = "食\n1154 food"];
-  良 [label = "良\n1151 high-quality"];
-  丶 [label = "丶\n* a drop of"];
-  艮 [label = "艮\n* silver"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  臽 [label = "臽\n* pothole"];
-  臼 [label = "臼\n* mortar"];
-  勹 [label = "勹\n* bound up"];
+  J [label = "馅\nfilling (2970)"];
+  F [label = "食\nfood (1154)"];
+  D [label = "良\nhigh-quality (1151)"];
+  B [label = "丶\na drop of (*)"];
+  C [label = "艮\nsilver (*)"];
+  E [label = "𠆢\numbrella (*)"];
+  I [label = "臽\npothole (*)"];
+  G [label = "臼\nmortar (*)"];
+  H [label = "勹\nbound up (*)"];
 
-  食 -> 馅 [thick];
-  良 -> 食 [thick];
-  丶 -> 良 [thick];
-  艮 -> 良 [thick];
-  "𠆢" -> 食 [thick];
-  臽 -> 馅 [thick];
-  臼 -> 臽 [thick];
-  勹 -> 臽 [thick];
+  F -> J [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
+  I -> J [thick];
+  G -> I [thick];
+  H -> I [thick];
 }

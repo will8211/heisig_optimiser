@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  唱 [label = "唱\n22 sing"];
-  口 [label = "口\n11 mouth"];
-  日 [label = "日\n12 day"];
+  D [label = "唱\nsing (22)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "日\nday (12)"];
 
-  口 -> 唱 [thick];
-  日 -> 唱 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

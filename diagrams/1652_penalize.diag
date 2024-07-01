@@ -5,28 +5,30 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  罚 [label = "罚\n1652 penalize"];
-  目 [label = "目\n15 eye"];
-  言 [label = "言\n346 say"];
-  二 [label = "二\n2 two"];
-  一 [label = "一\n1 one"];
-  口 [label = "口\n11 mouth"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  刀 [label = "刀\n83 sword"];
+  N [label = "罚\npenalize (1652)"];
+  B [label = "目\neye (15)"];
+  L [label = "言\nsay (346)"];
+  D [label = "二\ntwo (2)"];
+  C [label = "一\none (1)"];
+  E [label = "口\nmouth (11)"];
+  K [label = "亠\ntop hat (*)"];
+  H [label = "六\nsix (6)"];
+  G [label = "囧只－口\nanimal legs (*)"];
+  F [label = "八\neight (8)"];
+  J [label = "囧只－口\nanimal legs (*)"];
+  I [label = "八\neight (8)"];
+  M [label = "刀\nsword (83)"];
 
-  目 -> 罚 [thick];
-  言 -> 罚 [thick];
-  二 -> 言 [thick];
-  一 -> 二 [thick];
-  口 -> 言 [thick];
-  亠 -> 言 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
-  刀 -> 罚 [thick];
+  B -> N [thick];
+  L -> N [thick];
+  D -> L [thick];
+  C -> D [thick];
+  E -> L [thick];
+  K -> L [thick];
+  H -> K [thick];
+  G -> H [thick];
+  F -> G [thick];
+  J -> K [thick];
+  I -> J [thick];
+  M -> N [thick];
 }

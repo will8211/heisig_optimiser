@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  甬 [label = "甬\n* chop-rack"];
-  月 [label = "月\n13 month"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  囧节－艹 [label = "囧节－艹\n* chop"];
+  F [label = "甬\nchop-rack (*)"];
+  B [label = "月\nmonth (13)"];
+  D [label = "丨\nwalking stick (*)"];
+  C [label = "一\none (1)"];
+  E [label = "囧节－艹\nchop (*)"];
 
-  月 -> 甬 [thick];
-  丨 -> 甬 [thick];
-  一 -> 丨 [thick];
-  囧节－艹 -> 甬 [thick];
+  B -> F [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

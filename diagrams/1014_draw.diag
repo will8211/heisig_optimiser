@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  引 [label = "引\n1014 draw"];
-  弓 [label = "弓\n1013 bow"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
+  E [label = "引\ndraw (1014)"];
+  B [label = "弓\nbow (1013)"];
+  D [label = "丨\nwalking stick (*)"];
+  C [label = "一\none (1)"];
 
-  弓 -> 引 [thick];
-  丨 -> 引 [thick];
-  一 -> 丨 [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

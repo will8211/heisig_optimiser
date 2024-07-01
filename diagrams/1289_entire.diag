@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  整 [label = "整\n1289 entire"];
-  束 [label = "束\n1286 bundle up"];
-  木 [label = "木\n202 tree"];
-  口 [label = "口\n11 mouth"];
-  攵 [label = "攵\n* taskmaster"];
-  正 [label = "正\n387 correct"];
-  一 [label = "一\n1 one"];
-  止 [label = "止\n379 stop"];
+  I [label = "整\nentire (1289)"];
+  D [label = "束\nbundle up (1286)"];
+  B [label = "木\ntree (202)"];
+  C [label = "口\nmouth (11)"];
+  E [label = "攵\ntaskmaster (*)"];
+  H [label = "正\ncorrect (387)"];
+  F [label = "一\none (1)"];
+  G [label = "止\nstop (379)"];
 
-  束 -> 整 [thick];
-  木 -> 束 [thick];
-  口 -> 束 [thick];
-  攵 -> 整 [thick];
-  正 -> 整 [thick];
-  一 -> 正 [thick];
-  止 -> 正 [thick];
+  D -> I [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> I [thick];
+  H -> I [thick];
+  F -> H [thick];
+  G -> H [thick];
 }

@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  丢 [label = "丢\n1915 mislay"];
-  千 [label = "千\n39 thousand"];
-  丶 [label = "丶\n* a drop of"];
-  十 [label = "十\n10 ten"];
-  囧会－亼 [label = "囧会－亼\n* wall"];
-  厶 [label = "厶\n* elbow"];
-  一 [label = "一\n1 one"];
+  H [label = "丢\nmislay (1915)"];
+  D [label = "千\nthousand (39)"];
+  B [label = "丶\na drop of (*)"];
+  C [label = "十\nten (10)"];
+  G [label = "囧会－亼\nwall (*)"];
+  E [label = "厶\nelbow (*)"];
+  F [label = "一\none (1)"];
 
-  千 -> 丢 [thick];
-  丶 -> 千 [thick];
-  十 -> 千 [thick];
-  囧会－亼 -> 丢 [thick];
-  厶 -> 囧会－亼 [thick];
-  一 -> 囧会－亼 [thick];
+  D -> H [thick];
+  B -> D [thick];
+  C -> D [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  牧 [label = "牧\n1644 herd"];
-  牛 [label = "牛\n252 cow"];
-  攵 [label = "攵\n* taskmaster"];
+  D [label = "牧\nherd (1644)"];
+  B [label = "牛\ncow (252)"];
+  C [label = "攵\ntaskmaster (*)"];
 
-  牛 -> 牧 [thick];
-  攵 -> 牧 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

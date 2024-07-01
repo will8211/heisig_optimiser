@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  阻 [label = "阻\n2750 block"];
-  阝 [label = "阝\n* pinnacle"];
-  且 [label = "且\n1343 moreover"];
+  D [label = "阻\nblock (2750)"];
+  B [label = "阝\npinnacle (*)"];
+  C [label = "且\nmoreover (1343)"];
 
-  阝 -> 阻 [thick];
-  且 -> 阻 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

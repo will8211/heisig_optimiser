@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  委 [label = "委\n774 committee"];
-  禾 [label = "禾\n762 standing grain"];
-  女 [label = "女\n102 woman"];
+  D [label = "委\ncommittee (774)"];
+  B [label = "禾\nstanding grain (762)"];
+  C [label = "女\nwoman (102)"];
 
-  禾 -> 委 [thick];
-  女 -> 委 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

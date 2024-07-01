@@ -5,24 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  弯 [label = "弯\n1492 curved"];
-  亦 [label = "亦\n1491 likewise"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  刀 [label = "刀\n83 sword"];
-  弓 [label = "弓\n1013 bow"];
+  M [label = "弯\ncurved (1492)"];
+  K [label = "亦\nlikewise (1491)"];
+  G [label = "亠\ntop hat (*)"];
+  D [label = "六\nsix (6)"];
+  C [label = "囧只－口\nanimal legs (*)"];
+  B [label = "八\neight (8)"];
+  F [label = "囧只－口\nanimal legs (*)"];
+  E [label = "八\neight (8)"];
+  I [label = "囧只－口\nanimal legs (*)"];
+  H [label = "八\neight (8)"];
+  J [label = "刀\nsword (83)"];
+  L [label = "弓\nbow (1013)"];
 
-  亦 -> 弯 [thick];
-  亠 -> 亦 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亦 [thick];
-  八 -> 囧只－口 [thick];
-  刀 -> 亦 [thick];
-  弓 -> 弯 [thick];
+  K -> M [thick];
+  G -> K [thick];
+  D -> G [thick];
+  C -> D [thick];
+  B -> C [thick];
+  F -> G [thick];
+  E -> F [thick];
+  I -> K [thick];
+  H -> I [thick];
+  J -> K [thick];
+  L -> M [thick];
 }

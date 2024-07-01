@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  雪 [label = "雪\n941 snow"];
-  雨 [label = "雨\n425 rain"];
-  彐 [label = "彐\n* broom"];
+  D [label = "雪\nsnow (941)"];
+  B [label = "雨\nrain (425)"];
+  C [label = "彐\nbroom (*)"];
 
-  雨 -> 雪 [thick];
-  彐 -> 雪 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

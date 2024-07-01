@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  凭 [label = "凭\n2114 proof"];
-  任 [label = "任\n853 appoint"];
-  人 [label = "人\n793 person"];
-  壬 [label = "壬\n* porter"];
-  士 [label = "士\n334 soldier"];
-  几 [label = "几\n57 how many?"];
+  G [label = "凭\nproof (2114)"];
+  E [label = "任\nappoint (853)"];
+  B [label = "人\nperson (793)"];
+  D [label = "壬\nporter (*)"];
+  C [label = "士\nsoldier (334)"];
+  F [label = "几\nhow many? (57)"];
 
-  任 -> 凭 [thick];
-  人 -> 任 [thick];
-  壬 -> 任 [thick];
-  士 -> 壬 [thick];
-  几 -> 凭 [thick];
+  E -> G [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
+  F -> G [thick];
 }

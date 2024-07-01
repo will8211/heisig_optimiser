@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  摊 [label = "摊\n645 vendor’s stand"];
-  扌 [label = "扌\n* fingers"];
-  难 [label = "难\n644 difficult"];
-  又 [label = "又\n633 again"];
-  隹 [label = "隹\n* turkey"];
+  F [label = "摊\nvendor’s stand (645)"];
+  B [label = "扌\nfingers (*)"];
+  E [label = "难\ndifficult (644)"];
+  C [label = "又\nagain (633)"];
+  D [label = "隹\nturkey (*)"];
 
-  扌 -> 摊 [thick];
-  难 -> 摊 [thick];
-  又 -> 难 [thick];
-  隹 -> 难 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

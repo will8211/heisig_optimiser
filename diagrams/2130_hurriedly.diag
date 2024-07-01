@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  匆 [label = "匆\n2130 hurriedly"];
-  勿 [label = "勿\n877 not"];
-  "𠃓" [label = "𠃓\n* piglets"];
-  豕 [label = "豕\n* sow"];
-  丶 [label = "丶\n* a drop of"];
+  F [label = "匆\nhurriedly (2130)"];
+  D [label = "勿\nnot (877)"];
+  C [label = "𠃓\npiglets (*)"];
+  B [label = "豕\nsow (*)"];
+  E [label = "丶\na drop of (*)"];
 
-  勿 -> 匆 [thick];
-  "𠃓" -> 勿 [thick];
-  豕 -> "𠃓" [thick];
-  丶 -> 匆 [thick];
+  D -> F [thick];
+  C -> D [thick];
+  B -> C [thick];
+  E -> F [thick];
 }

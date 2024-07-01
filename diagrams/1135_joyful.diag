@@ -5,26 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  喜 [label = "喜\n1135 joyful"];
-  壴 [label = "壴\n* drum"];
-  士 [label = "士\n334 soldier"];
-  桌 [label = "桌\n224 table"];
-  木 [label = "木\n202 tree"];
-  日 [label = "日\n12 day"];
-  卜 [label = "卜\n43 divination"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  口 [label = "口\n11 mouth"];
+  L [label = "喜\njoyful (1135)"];
+  J [label = "壴\ndrum (*)"];
+  B [label = "士\nsoldier (334)"];
+  I [label = "桌\ntable (224)"];
+  C [label = "木\ntree (202)"];
+  D [label = "日\nday (12)"];
+  H [label = "卜\ndivination (43)"];
+  F [label = "丨\nwalking stick (*)"];
+  E [label = "一\none (1)"];
+  G [label = "丶\na drop of (*)"];
+  K [label = "口\nmouth (11)"];
 
-  壴 -> 喜 [thick];
-  士 -> 壴 [thick];
-  桌 -> 壴 [thick];
-  木 -> 桌 [thick];
-  日 -> 桌 [thick];
-  卜 -> 桌 [thick];
-  丨 -> 卜 [thick];
-  一 -> 丨 [thick];
-  丶 -> 卜 [thick];
-  口 -> 喜 [thick];
+  J -> L [thick];
+  B -> J [thick];
+  I -> J [thick];
+  C -> I [thick];
+  D -> I [thick];
+  H -> I [thick];
+  F -> H [thick];
+  E -> F [thick];
+  G -> H [thick];
+  K -> L [thick];
 }

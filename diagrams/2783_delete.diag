@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  删 [label = "删\n2783 delete"];
-  册 [label = "册\n2782 Vol."];
-  刀 [label = "刀\n83 sword"];
+  D [label = "删\ndelete (2783)"];
+  B [label = "册\nVol. (2782)"];
+  C [label = "刀\nsword (83)"];
 
-  册 -> 删 [thick];
-  刀 -> 删 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

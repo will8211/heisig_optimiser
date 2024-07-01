@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  闯 [label = "闯\n2907 rush"];
-  门 [label = "门\n1260 gate"];
-  马 [label = "马\n1453 horse"];
-  囧与－丨一 [label = "囧与－丨一\n* pointed tail"];
+  E [label = "闯\nrush (2907)"];
+  B [label = "门\ngate (1260)"];
+  D [label = "马\nhorse (1453)"];
+  C [label = "囧与－丨一\npointed tail (*)"];
 
-  门 -> 闯 [thick];
-  马 -> 闯 [thick];
-  囧与－丨一 -> 马 [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

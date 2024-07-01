@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  畔 [label = "畔\n2246 littoral"];
-  田 [label = "田\n14 rice field"];
-  半 [label = "半\n980 half"];
+  D [label = "畔\nlittoral (2246)"];
+  B [label = "田\nrice field (14)"];
+  C [label = "半\nhalf (980)"];
 
-  田 -> 畔 [thick];
-  半 -> 畔 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

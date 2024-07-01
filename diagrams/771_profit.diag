@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  利 [label = "利\n771 profit"];
-  禾 [label = "禾\n762 standing grain"];
-  刀 [label = "刀\n83 sword"];
+  D [label = "利\nprofit (771)"];
+  B [label = "禾\nstanding grain (762)"];
+  C [label = "刀\nsword (83)"];
 
-  禾 -> 利 [thick];
-  刀 -> 利 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

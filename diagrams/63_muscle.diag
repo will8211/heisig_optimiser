@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  肌 [label = "肌\n63 muscle"];
-  几 [label = "几\n57 how many?"];
-  月 [label = "月\n13 month"];
+  D [label = "肌\nmuscle (63)"];
+  B [label = "几\nhow many? (57)"];
+  C [label = "月\nmonth (13)"];
 
-  几 -> 肌 [thick];
-  月 -> 肌 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

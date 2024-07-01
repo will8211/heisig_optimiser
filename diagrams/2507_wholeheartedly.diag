@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  恳 [label = "恳\n2507 wholeheartedly"];
-  艮 [label = "艮\n* silver"];
-  心 [label = "心\n563 heart"];
+  D [label = "恳\nwholeheartedly (2507)"];
+  B [label = "艮\nsilver (*)"];
+  C [label = "心\nheart (563)"];
 
-  艮 -> 恳 [thick];
-  心 -> 恳 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

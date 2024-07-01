@@ -5,17 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  的 [label = "的\n70 bull’s eye"];
-  白 [label = "白\n34 white"];
-  日 [label = "日\n12 day"];
-  丶 [label = "丶\n* a drop of"];
-  勺 [label = "勺\n69 ladle"];
-  勹 [label = "勹\n* bound up"];
+  H [label = "的\nbull’s eye (70)"];
+  D [label = "白\nwhite (34)"];
+  B [label = "日\nday (12)"];
+  C [label = "丶\na drop of (*)"];
+  G [label = "勺\nladle (69)"];
+  E [label = "勹\nbound up (*)"];
+  F [label = "丶\na drop of (*)"];
 
-  白 -> 的 [thick];
-  日 -> 白 [thick];
-  丶 -> 白 [thick];
-  勺 -> 的 [thick];
-  勹 -> 勺 [thick];
-  丶 -> 勺 [thick];
+  D -> H [thick];
+  B -> D [thick];
+  C -> D [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

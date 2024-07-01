@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  触 [label = "触\n2779 touch"];
-  角 [label = "角\n1362 angle"];
-  勹 [label = "勹\n* bound up"];
-  用 [label = "用\n1361 utilize"];
-  虫 [label = "虫\n509 insect"];
+  F [label = "触\ntouch (2779)"];
+  D [label = "角\nangle (1362)"];
+  B [label = "勹\nbound up (*)"];
+  C [label = "用\nutilize (1361)"];
+  E [label = "虫\ninsect (509)"];
 
-  角 -> 触 [thick];
-  勹 -> 角 [thick];
-  用 -> 角 [thick];
-  虫 -> 触 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

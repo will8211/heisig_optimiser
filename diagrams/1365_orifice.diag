@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  嘴 [label = "嘴\n1365 orifice"];
-  口 [label = "口\n11 mouth"];
-  此 [label = "此\n460 this (literary)"];
-  止 [label = "止\n379 stop"];
-  匕 [label = "匕\n453 ancient spoon"];
-  角 [label = "角\n1362 angle"];
-  勹 [label = "勹\n* bound up"];
-  用 [label = "用\n1361 utilize"];
+  I [label = "嘴\norifice (1365)"];
+  B [label = "口\nmouth (11)"];
+  E [label = "此\nthis (literary) (460)"];
+  C [label = "止\nstop (379)"];
+  D [label = "匕\nancient spoon (453)"];
+  H [label = "角\nangle (1362)"];
+  F [label = "勹\nbound up (*)"];
+  G [label = "用\nutilize (1361)"];
 
-  口 -> 嘴 [thick];
-  此 -> 嘴 [thick];
-  止 -> 此 [thick];
-  匕 -> 此 [thick];
-  角 -> 嘴 [thick];
-  勹 -> 角 [thick];
-  用 -> 角 [thick];
+  B -> I [thick];
+  E -> I [thick];
+  C -> E [thick];
+  D -> E [thick];
+  H -> I [thick];
+  F -> H [thick];
+  G -> H [thick];
 }

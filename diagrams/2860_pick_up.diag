@@ -5,27 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  捡 [label = "捡\n2860 pick up"];
-  扌 [label = "扌\n* fingers"];
-  佥 [label = "佥\n* hootenanny"];
-  亼 [label = "亼\n* meeting"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  囧应－广 [label = "囧应－广\n* owl"];
-  一 [label = "一\n1 one"];
-  指 [label = "指\n594 finger"];
-  旨 [label = "旨\n463 purpose"];
-  匕 [label = "匕\n453 ancient spoon"];
-  日 [label = "日\n12 day"];
+  M [label = "捡\npick up (2860)"];
+  B [label = "扌\nfingers (*)"];
+  G [label = "佥\nhootenanny (*)"];
+  D [label = "亼\nmeeting (*)"];
+  C [label = "𠆢\numbrella (*)"];
+  E [label = "囧应－广\nowl (*)"];
+  F [label = "一\none (1)"];
+  L [label = "指\nfinger (594)"];
+  H [label = "扌\nfingers (*)"];
+  K [label = "旨\npurpose (463)"];
+  I [label = "匕\nancient spoon (453)"];
+  J [label = "日\nday (12)"];
 
-  扌 -> 捡 [thick];
-  佥 -> 捡 [thick];
-  亼 -> 佥 [thick];
-  "𠆢" -> 亼 [thick];
-  囧应－广 -> 佥 [thick];
-  一 -> 佥 [thick];
-  指 -> 捡 [thick];
-  扌 -> 指 [thick];
-  旨 -> 指 [thick];
-  匕 -> 旨 [thick];
-  日 -> 旨 [thick];
+  B -> M [thick];
+  G -> M [thick];
+  D -> G [thick];
+  C -> D [thick];
+  E -> G [thick];
+  F -> G [thick];
+  L -> M [thick];
+  H -> L [thick];
+  K -> L [thick];
+  I -> K [thick];
+  J -> K [thick];
 }

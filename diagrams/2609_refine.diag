@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  炼 [label = "炼\n2609 refine"];
-  火 [label = "火\n170 fire"];
-  东 [label = "东\n1247 east"];
-  车 [label = "车\n300 car"];
-  丶 [label = "丶\n* a drop of"];
+  F [label = "炼\nrefine (2609)"];
+  B [label = "火\nfire (170)"];
+  E [label = "东\neast (1247)"];
+  C [label = "车\ncar (300)"];
+  D [label = "丶\na drop of (*)"];
 
-  火 -> 炼 [thick];
-  东 -> 炼 [thick];
-  车 -> 东 [thick];
-  丶 -> 东 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

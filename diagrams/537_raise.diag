@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  养 [label = "养\n537 raise"];
-  囧差－工 [label = "囧差－工\n* wool"];
-  羊 [label = "羊\n528 sheep"];
-  丷 [label = "丷\n* horns"];
-  一 [label = "一\n1 one"];
-  介 [label = "介\n259 introduce"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  "囧介－𠆢" [label = "囧介－𠆢\n* crutches"];
+  I [label = "养\nraise (537)"];
+  E [label = "囧差－工\nwool (*)"];
+  D [label = "羊\nsheep (528)"];
+  C [label = "丷\nhorns (*)"];
+  B [label = "一\none (1)"];
+  H [label = "介\nintroduce (259)"];
+  F [label = "𠆢\numbrella (*)"];
+  G [label = "囧介－𠆢\ncrutches (*)"];
 
-  囧差－工 -> 养 [thick];
-  羊 -> 囧差－工 [thick];
-  丷 -> 羊 [thick];
-  一 -> 丷 [thick];
-  介 -> 养 [thick];
-  "𠆢" -> 介 [thick];
-  "囧介－𠆢" -> 介 [thick];
+  E -> I [thick];
+  D -> E [thick];
+  C -> D [thick];
+  B -> C [thick];
+  H -> I [thick];
+  F -> H [thick];
+  G -> H [thick];
 }

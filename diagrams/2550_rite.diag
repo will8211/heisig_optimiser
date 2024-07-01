@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  仪 [label = "仪\n2550 rite"];
-  人 [label = "人\n793 person"];
-  义 [label = "义\n1180 righteousness"];
-  "㐅" [label = "㐅\n* sheaf"];
-  丶 [label = "丶\n* a drop of"];
+  F [label = "仪\nrite (2550)"];
+  B [label = "人\nperson (793)"];
+  E [label = "义\nrighteousness (1180)"];
+  C [label = "㐅\nsheaf (*)"];
+  D [label = "丶\na drop of (*)"];
 
-  人 -> 仪 [thick];
-  义 -> 仪 [thick];
-  "㐅" -> 义 [thick];
-  丶 -> 义 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

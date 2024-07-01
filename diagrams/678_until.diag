@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  至 [label = "至\n678 until"];
-  囧会－亼 [label = "囧会－亼\n* wall"];
-  厶 [label = "厶\n* elbow"];
-  一 [label = "一\n1 one"];
-  土 [label = "土\n158 soil"];
+  F [label = "至\nuntil (678)"];
+  D [label = "囧会－亼\nwall (*)"];
+  B [label = "厶\nelbow (*)"];
+  C [label = "一\none (1)"];
+  E [label = "土\nsoil (158)"];
 
-  囧会－亼 -> 至 [thick];
-  厶 -> 囧会－亼 [thick];
-  一 -> 囧会－亼 [thick];
-  土 -> 至 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  婶 [label = "婶\n2177 auntie"];
-  女 [label = "女\n102 woman"];
-  审 [label = "审\n2176 painstaking"];
-  宀 [label = "宀\n* house"];
-  申 [label = "申\n918 express"];
-  日 [label = "日\n12 day"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
+  I [label = "婶\nauntie (2177)"];
+  B [label = "女\nwoman (102)"];
+  H [label = "审\npainstaking (2176)"];
+  C [label = "宀\nhouse (*)"];
+  G [label = "申\nexpress (918)"];
+  D [label = "日\nday (12)"];
+  F [label = "丨\nwalking stick (*)"];
+  E [label = "一\none (1)"];
 
-  女 -> 婶 [thick];
-  审 -> 婶 [thick];
-  宀 -> 审 [thick];
-  申 -> 审 [thick];
-  日 -> 申 [thick];
-  丨 -> 申 [thick];
-  一 -> 丨 [thick];
+  B -> I [thick];
+  H -> I [thick];
+  C -> H [thick];
+  G -> H [thick];
+  D -> G [thick];
+  F -> G [thick];
+  E -> F [thick];
 }

@@ -5,8 +5,8 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  囧眷－目 [label = "囧眷－目\n* quarter"];
-  半 [label = "半\n980 half"];
+  C [label = "囧眷－目\nquarter (*)"];
+  B [label = "半\nhalf (980)"];
 
-  半 -> 囧眷－目 [thick];
+  B -> C [thick];
 }

@@ -5,26 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  流 [label = "流\n684 flow"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  "㐬" [label = "㐬\n* baby Moses"];
-  囧充－儿 [label = "囧充－儿\n* infant"];
-  囧会－亼 [label = "囧会－亼\n* wall"];
-  厶 [label = "厶\n* elbow"];
-  川 [label = "川\n134 stream"];
+  M [label = "流\nflow (684)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  L [label = "㐬\nbaby Moses (*)"];
+  J [label = "囧充－儿\ninfant (*)"];
+  H [label = "囧会－亼\nwall (*)"];
+  F [label = "厶\nelbow (*)"];
+  G [label = "一\none (1)"];
+  I [label = "丶\na drop of (*)"];
+  K [label = "川\nstream (134)"];
 
-  水 -> 流 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  "㐬" -> 流 [thick];
-  囧充－儿 -> "㐬" [thick];
-  囧会－亼 -> 囧充－儿 [thick];
-  厶 -> 囧会－亼 [thick];
-  一 -> 囧会－亼 [thick];
-  丶 -> 囧充－儿 [thick];
-  川 -> "㐬" [thick];
+  E -> M [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  L -> M [thick];
+  J -> L [thick];
+  H -> J [thick];
+  F -> H [thick];
+  G -> H [thick];
+  I -> J [thick];
+  K -> L [thick];
 }

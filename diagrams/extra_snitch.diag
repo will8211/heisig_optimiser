@@ -5,30 +5,34 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  詹 [label = "詹\n* snitch"];
-  勹 [label = "勹\n* bound up"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  厂 [label = "厂\n121 factory"];
-  言 [label = "言\n346 say"];
-  二 [label = "二\n2 two"];
-  一 [label = "一\n1 one"];
-  口 [label = "口\n11 mouth"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
+  P [label = "詹\nsnitch (*)"];
+  B [label = "勹\nbound up (*)"];
+  D [label = "囧只－口\nanimal legs (*)"];
+  C [label = "八\neight (8)"];
+  E [label = "厂\nfactory (121)"];
+  O [label = "言\nsay (346)"];
+  G [label = "二\ntwo (2)"];
+  F [label = "一\none (1)"];
+  H [label = "口\nmouth (11)"];
+  N [label = "亠\ntop hat (*)"];
+  K [label = "六\nsix (6)"];
+  J [label = "囧只－口\nanimal legs (*)"];
+  I [label = "八\neight (8)"];
+  M [label = "囧只－口\nanimal legs (*)"];
+  L [label = "八\neight (8)"];
 
-  勹 -> 詹 [thick];
-  囧只－口 -> 詹 [thick];
-  八 -> 囧只－口 [thick];
-  厂 -> 詹 [thick];
-  言 -> 詹 [thick];
-  二 -> 言 [thick];
-  一 -> 二 [thick];
-  口 -> 言 [thick];
-  亠 -> 言 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
+  B -> P [thick];
+  D -> P [thick];
+  C -> D [thick];
+  E -> P [thick];
+  O -> P [thick];
+  G -> O [thick];
+  F -> G [thick];
+  H -> O [thick];
+  N -> O [thick];
+  K -> N [thick];
+  J -> K [thick];
+  I -> J [thick];
+  M -> N [thick];
+  L -> M [thick];
 }

@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  舛 [label = "舛\n* sunglasses"];
-  夕 [label = "夕\n115 evening"];
-  月 [label = "月\n13 month"];
-  年 [label = "年\n871 year"];
-  午 [label = "午\n542 noon"];
+  F [label = "舛\nsunglasses (*)"];
+  C [label = "夕\nevening (115)"];
+  B [label = "月\nmonth (13)"];
+  E [label = "年\nyear (871)"];
+  D [label = "午\nnoon (542)"];
 
-  夕 -> 舛 [thick];
-  月 -> 夕 [thick];
-  年 -> 舛 [thick];
-  午 -> 年 [thick];
+  C -> F [thick];
+  B -> C [thick];
+  E -> F [thick];
+  D -> E [thick];
 }

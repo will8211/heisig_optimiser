@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  拇 [label = "拇\n1837 thumb"];
-  扌 [label = "扌\n* fingers"];
-  母 [label = "母\n105 mother"];
-  女 [label = "女\n102 woman"];
+  E [label = "拇\nthumb (1837)"];
+  B [label = "扌\nfingers (*)"];
+  D [label = "母\nmother (105)"];
+  C [label = "女\nwoman (102)"];
 
-  扌 -> 拇 [thick];
-  母 -> 拇 [thick];
-  女 -> 母 [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

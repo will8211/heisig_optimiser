@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  姑 [label = "姑\n1518 father’s sister"];
-  女 [label = "女\n102 woman"];
-  古 [label = "古\n16 ancient"];
-  十 [label = "十\n10 ten"];
-  口 [label = "口\n11 mouth"];
+  F [label = "姑\nfather’s sister (1518)"];
+  B [label = "女\nwoman (102)"];
+  E [label = "古\nancient (16)"];
+  C [label = "十\nten (10)"];
+  D [label = "口\nmouth (11)"];
 
-  女 -> 姑 [thick];
-  古 -> 姑 [thick];
-  十 -> 古 [thick];
-  口 -> 古 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  攻 [label = "攻\n339 attack"];
-  攵 [label = "攵\n* taskmaster"];
-  工 [label = "工\n76 work"];
+  D [label = "攻\nattack (339)"];
+  B [label = "攵\ntaskmaster (*)"];
+  C [label = "工\nwork (76)"];
 
-  攵 -> 攻 [thick];
-  工 -> 攻 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

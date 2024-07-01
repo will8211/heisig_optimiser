@@ -5,30 +5,32 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  碎 [label = "碎\n2471 shattered"];
-  石 [label = "石\n125 stone"];
-  口 [label = "口\n11 mouth"];
-  厂 [label = "厂\n121 factory"];
-  卒 [label = "卒\n* foot soldiers"];
-  从 [label = "从\n846 follow"];
-  人 [label = "人\n793 person"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  十 [label = "十\n10 ten"];
+  O [label = "碎\nshattered (2471)"];
+  D [label = "石\nstone (125)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "厂\nfactory (121)"];
+  N [label = "卒\nfoot soldiers (*)"];
+  F [label = "从\nfollow (846)"];
+  E [label = "人\nperson (793)"];
+  L [label = "亠\ntop hat (*)"];
+  I [label = "六\nsix (6)"];
+  H [label = "囧只－口\nanimal legs (*)"];
+  G [label = "八\neight (8)"];
+  K [label = "囧只－口\nanimal legs (*)"];
+  J [label = "八\neight (8)"];
+  M [label = "十\nten (10)"];
 
-  石 -> 碎 [thick];
-  口 -> 石 [thick];
-  厂 -> 石 [thick];
-  卒 -> 碎 [thick];
-  从 -> 卒 [thick];
-  人 -> 从 [thick];
-  亠 -> 卒 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
-  十 -> 卒 [thick];
+  D -> O [thick];
+  B -> D [thick];
+  C -> D [thick];
+  N -> O [thick];
+  F -> N [thick];
+  E -> F [thick];
+  L -> N [thick];
+  I -> L [thick];
+  H -> I [thick];
+  G -> H [thick];
+  K -> L [thick];
+  J -> K [thick];
+  M -> N [thick];
 }

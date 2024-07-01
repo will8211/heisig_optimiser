@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  找 [label = "找\n610 look for"];
-  扌 [label = "扌\n* fingers"];
-  戈 [label = "戈\n361 halberd"];
-  弋 [label = "弋\n* arrow"];
+  E [label = "找\nlook for (610)"];
+  B [label = "扌\nfingers (*)"];
+  D [label = "戈\nhalberd (361)"];
+  C [label = "弋\narrow (*)"];
 
-  扌 -> 找 [thick];
-  戈 -> 找 [thick];
-  弋 -> 戈 [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

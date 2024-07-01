@@ -5,17 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  胁 [label = "胁\n1989 threaten"];
-  月 [label = "月\n13 month"];
-  办 [label = "办\n743 manage"];
-  肌 [label = "肌\n63 muscle"];
-  几 [label = "几\n57 how many?"];
-  丶 [label = "丶\n* a drop of"];
+  H [label = "胁\nthreaten (1989)"];
+  B [label = "月\nmonth (13)"];
+  G [label = "办\nmanage (743)"];
+  E [label = "肌\nmuscle (63)"];
+  C [label = "几\nhow many? (57)"];
+  D [label = "月\nmonth (13)"];
+  F [label = "丶\na drop of (*)"];
 
-  月 -> 胁 [thick];
-  办 -> 胁 [thick];
-  肌 -> 办 [thick];
-  几 -> 肌 [thick];
-  月 -> 肌 [thick];
-  丶 -> 办 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  E -> G [thick];
+  C -> E [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

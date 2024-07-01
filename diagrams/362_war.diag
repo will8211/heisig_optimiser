@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  战 [label = "战\n362 war"];
-  占 [label = "占\n44 tell fortunes"];
-  卜 [label = "卜\n43 divination"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  口 [label = "口\n11 mouth"];
-  戈 [label = "戈\n361 halberd"];
-  弋 [label = "弋\n* arrow"];
+  J [label = "战\nwar (362)"];
+  G [label = "占\ntell fortunes (44)"];
+  E [label = "卜\ndivination (43)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  F [label = "口\nmouth (11)"];
+  I [label = "戈\nhalberd (361)"];
+  H [label = "弋\narrow (*)"];
 
-  占 -> 战 [thick];
-  卜 -> 占 [thick];
-  丨 -> 卜 [thick];
-  一 -> 丨 [thick];
-  丶 -> 卜 [thick];
-  口 -> 占 [thick];
-  戈 -> 战 [thick];
-  弋 -> 戈 [thick];
+  G -> J [thick];
+  E -> G [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  F -> G [thick];
+  I -> J [thick];
+  H -> I [thick];
 }

@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  祸 [label = "祸\n2367 misfortune"];
-  示 [label = "示\n900 show"];
-  呙 [label = "呙\n* esophagus"];
-  口 [label = "口\n11 mouth"];
-  内 [label = "内\n840 internal"];
-  囧冂 [label = "囧冂\n* belt"];
-  巾 [label = "巾\n410 towel"];
-  人 [label = "人\n793 person"];
+  I [label = "祸\nmisfortune (2367)"];
+  B [label = "示\nshow (900)"];
+  H [label = "呙\nesophagus (*)"];
+  C [label = "口\nmouth (11)"];
+  G [label = "内\ninternal (840)"];
+  E [label = "囧冂\nbelt (*)"];
+  D [label = "巾\ntowel (410)"];
+  F [label = "人\nperson (793)"];
 
-  示 -> 祸 [thick];
-  呙 -> 祸 [thick];
-  口 -> 呙 [thick];
-  内 -> 呙 [thick];
-  囧冂 -> 内 [thick];
-  巾 -> 囧冂 [thick];
-  人 -> 内 [thick];
+  B -> I [thick];
+  H -> I [thick];
+  C -> H [thick];
+  G -> H [thick];
+  E -> G [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

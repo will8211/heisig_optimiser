@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  拜 [label = "拜\n2582 adore"];
-  手 [label = "手\n584 hand"];
-  一 [label = "一\n1 one"];
-  丰 [label = "丰\n1223 plentiful"];
+  E [label = "拜\nadore (2582)"];
+  B [label = "手\nhand (584)"];
+  C [label = "一\none (1)"];
+  D [label = "丰\nplentiful (1223)"];
 
-  手 -> 拜 [thick];
-  一 -> 拜 [thick];
-  丰 -> 拜 [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

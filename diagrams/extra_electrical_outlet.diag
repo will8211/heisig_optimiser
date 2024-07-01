@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  黾 [label = "黾\n* electrical outlet"];
-  口 [label = "口\n11 mouth"];
-  电 [label = "电\n1484 electricity"];
+  D [label = "黾\nelectrical outlet (*)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "电\nelectricity (1484)"];
 
-  口 -> 黾 [thick];
-  电 -> 黾 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

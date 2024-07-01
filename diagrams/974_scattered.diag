@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  散 [label = "散\n974 scattered"];
-  囧昔－日 [label = "囧昔－日\n* salad"];
-  艹 [label = "艹\n* flower"];
-  月 [label = "月\n13 month"];
-  攵 [label = "攵\n* taskmaster"];
+  F [label = "散\nscattered (974)"];
+  C [label = "囧昔－日\nsalad (*)"];
+  B [label = "艹\nflower (*)"];
+  D [label = "月\nmonth (13)"];
+  E [label = "攵\ntaskmaster (*)"];
 
-  囧昔－日 -> 散 [thick];
-  艹 -> 囧昔－日 [thick];
-  月 -> 散 [thick];
-  攵 -> 散 [thick];
+  C -> F [thick];
+  B -> C [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

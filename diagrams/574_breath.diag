@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  息 [label = "息\n574 breath"];
-  自 [label = "自\n33 oneself"];
-  丶 [label = "丶\n* a drop of"];
-  目 [label = "目\n15 eye"];
-  心 [label = "心\n563 heart"];
+  F [label = "息\nbreath (574)"];
+  D [label = "自\noneself (33)"];
+  B [label = "丶\na drop of (*)"];
+  C [label = "目\neye (15)"];
+  E [label = "心\nheart (563)"];
 
-  自 -> 息 [thick];
-  丶 -> 自 [thick];
-  目 -> 自 [thick];
-  心 -> 息 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

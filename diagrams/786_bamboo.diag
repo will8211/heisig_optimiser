@@ -5,8 +5,8 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  竹 [label = "竹\n786 bamboo"];
-  丁 [label = "丁\n90 fourth"];
+  C [label = "竹\nbamboo (786)"];
+  B [label = "丁\nfourth (90)"];
 
-  丁 -> 竹 [thick];
+  B -> C [thick];
 }

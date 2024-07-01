@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  阅 [label = "阅\n2624 peruse"];
-  门 [label = "门\n1260 gate"];
-  兑 [label = "兑\n499 convert"];
-  兄 [label = "兄\n107 elder brother"];
-  口 [label = "口\n11 mouth"];
-  儿 [label = "儿\n56 youngster"];
-  丷 [label = "丷\n* horns"];
-  一 [label = "一\n1 one"];
+  I [label = "阅\nperuse (2624)"];
+  B [label = "门\ngate (1260)"];
+  H [label = "兑\nconvert (499)"];
+  E [label = "兄\nelder brother (107)"];
+  C [label = "口\nmouth (11)"];
+  D [label = "儿\nyoungster (56)"];
+  G [label = "丷\nhorns (*)"];
+  F [label = "一\none (1)"];
 
-  门 -> 阅 [thick];
-  兑 -> 阅 [thick];
-  兄 -> 兑 [thick];
-  口 -> 兄 [thick];
-  儿 -> 兄 [thick];
-  丷 -> 兑 [thick];
-  一 -> 丷 [thick];
+  B -> I [thick];
+  H -> I [thick];
+  E -> H [thick];
+  C -> E [thick];
+  D -> E [thick];
+  G -> H [thick];
+  F -> G [thick];
 }

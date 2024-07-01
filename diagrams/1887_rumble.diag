@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  轰 [label = "轰\n1887 rumble"];
-  车 [label = "车\n300 car"];
-  双 [label = "双\n636 pair"];
-  又 [label = "又\n633 again"];
+  E [label = "轰\nrumble (1887)"];
+  B [label = "车\ncar (300)"];
+  D [label = "双\npair (636)"];
+  C [label = "又\nagain (633)"];
 
-  车 -> 轰 [thick];
-  双 -> 轰 [thick];
-  又 -> 双 [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

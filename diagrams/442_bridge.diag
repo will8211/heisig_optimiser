@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  桥 [label = "桥\n442 bridge"];
-  木 [label = "木\n202 tree"];
-  乔 [label = "乔\n441 pretend"];
-  "囧介－𠆢" [label = "囧介－𠆢\n* crutches"];
-  夭 [label = "夭\n440 die young"];
-  大 [label = "大\n113 large"];
-  丶 [label = "丶\n* a drop of"];
+  H [label = "桥\nbridge (442)"];
+  B [label = "木\ntree (202)"];
+  G [label = "乔\npretend (441)"];
+  C [label = "囧介－𠆢\ncrutches (*)"];
+  F [label = "夭\ndie young (440)"];
+  D [label = "大\nlarge (113)"];
+  E [label = "丶\na drop of (*)"];
 
-  木 -> 桥 [thick];
-  乔 -> 桥 [thick];
-  "囧介－𠆢" -> 乔 [thick];
-  夭 -> 乔 [thick];
-  大 -> 夭 [thick];
-  丶 -> 夭 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  C -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

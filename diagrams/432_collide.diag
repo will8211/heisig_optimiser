@@ -5,22 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  冲 [label = "冲\n432 collide"];
-  中 [label = "中\n38 middle"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  口 [label = "口\n11 mouth"];
-  冫 [label = "冫\n* ice"];
-  水 [label = "水\n137 water"];
-  丶 [label = "丶\n* a drop of"];
+  K [label = "冲\ncollide (432)"];
+  E [label = "中\nmiddle (38)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "口\nmouth (11)"];
+  J [label = "冫\nice (*)"];
+  I [label = "水\nwater (137)"];
+  G [label = "丨\nwalking stick (*)"];
+  F [label = "一\none (1)"];
+  H [label = "丶\na drop of (*)"];
 
-  中 -> 冲 [thick];
-  丨 -> 中 [thick];
-  一 -> 丨 [thick];
-  口 -> 中 [thick];
-  冫 -> 冲 [thick];
-  水 -> 冫 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
+  E -> K [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  J -> K [thick];
+  I -> J [thick];
+  G -> I [thick];
+  F -> G [thick];
+  H -> I [thick];
 }

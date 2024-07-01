@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  轮 [label = "轮\n466 wheel"];
-  仑 [label = "仑\n* lifeguard"];
-  匕 [label = "匕\n453 ancient spoon"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  车 [label = "车\n300 car"];
+  F [label = "轮\nwheel (466)"];
+  D [label = "仑\nlifeguard (*)"];
+  B [label = "匕\nancient spoon (453)"];
+  C [label = "𠆢\numbrella (*)"];
+  E [label = "车\ncar (300)"];
 
-  仑 -> 轮 [thick];
-  匕 -> 仑 [thick];
-  "𠆢" -> 仑 [thick];
-  车 -> 轮 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

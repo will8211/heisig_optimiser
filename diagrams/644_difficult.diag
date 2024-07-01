@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  难 [label = "难\n644 difficult"];
-  又 [label = "又\n633 again"];
-  隹 [label = "隹\n* turkey"];
+  D [label = "难\ndifficult (644)"];
+  B [label = "又\nagain (633)"];
+  C [label = "隹\nturkey (*)"];
 
-  又 -> 难 [thick];
-  隹 -> 难 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  切 [label = "切\n85 cut"];
-  刀 [label = "刀\n83 sword"];
-  七 [label = "七\n7 seven"];
+  D [label = "切\ncut (85)"];
+  B [label = "刀\nsword (83)"];
+  C [label = "七\nseven (7)"];
 
-  刀 -> 切 [thick];
-  七 -> 切 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

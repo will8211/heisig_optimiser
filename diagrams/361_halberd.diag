@@ -5,8 +5,8 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  戈 [label = "戈\n361 halberd"];
-  弋 [label = "弋\n* arrow"];
+  C [label = "戈\nhalberd (361)"];
+  B [label = "弋\narrow (*)"];
 
-  弋 -> 戈 [thick];
+  B -> C [thick];
 }

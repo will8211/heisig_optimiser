@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  名 [label = "名\n119 name"];
-  夕 [label = "夕\n115 evening"];
-  月 [label = "月\n13 month"];
-  口 [label = "口\n11 mouth"];
+  E [label = "名\nname (119)"];
+  C [label = "夕\nevening (115)"];
+  B [label = "月\nmonth (13)"];
+  D [label = "口\nmouth (11)"];
 
-  夕 -> 名 [thick];
-  月 -> 夕 [thick];
-  口 -> 名 [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
 }

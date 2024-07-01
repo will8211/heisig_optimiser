@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  灯 [label = "灯\n176 lamp"];
-  火 [label = "火\n170 fire"];
-  丁 [label = "丁\n90 fourth"];
+  D [label = "灯\nlamp (176)"];
+  B [label = "火\nfire (170)"];
+  C [label = "丁\nfourth (90)"];
 
-  火 -> 灯 [thick];
-  丁 -> 灯 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

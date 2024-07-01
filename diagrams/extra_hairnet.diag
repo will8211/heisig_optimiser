@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  刍 [label = "刍\n* hairnet"];
-  勹 [label = "勹\n* bound up"];
-  彐 [label = "彐\n* broom"];
+  D [label = "刍\nhairnet (*)"];
+  B [label = "勹\nbound up (*)"];
+  C [label = "彐\nbroom (*)"];
 
-  勹 -> 刍 [thick];
-  彐 -> 刍 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

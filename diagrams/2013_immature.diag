@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  稚 [label = "稚\n2013 immature"];
-  禾 [label = "禾\n762 standing grain"];
-  隹 [label = "隹\n* turkey"];
+  D [label = "稚\nimmature (2013)"];
+  B [label = "禾\nstanding grain (762)"];
+  C [label = "隹\nturkey (*)"];
 
-  禾 -> 稚 [thick];
-  隹 -> 稚 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  菱 [label = "菱\n2349 water caltrop"];
-  艹 [label = "艹\n* flower"];
-  夌 [label = "夌\n* Minuteclods"];
-  土 [label = "土\n158 soil"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  夂 [label = "夂\n* walking legs"];
+  H [label = "菱\nwater caltrop (2349)"];
+  B [label = "艹\nflower (*)"];
+  G [label = "夌\nMinuteclods (*)"];
+  C [label = "土\nsoil (158)"];
+  E [label = "囧只－口\nanimal legs (*)"];
+  D [label = "八\neight (8)"];
+  F [label = "夂\nwalking legs (*)"];
 
-  艹 -> 菱 [thick];
-  夌 -> 菱 [thick];
-  土 -> 夌 [thick];
-  囧只－口 -> 夌 [thick];
-  八 -> 囧只－口 [thick];
-  夂 -> 夌 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  C -> G [thick];
+  E -> G [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

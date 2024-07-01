@@ -5,22 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  盲 [label = "盲\n491 blind"];
-  目 [label = "目\n15 eye"];
-  亡 [label = "亡\n490 deceased"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  乙 [label = "乙\n95 second"];
+  K [label = "盲\nblind (491)"];
+  B [label = "目\neye (15)"];
+  J [label = "亡\ndeceased (490)"];
+  H [label = "亠\ntop hat (*)"];
+  E [label = "六\nsix (6)"];
+  D [label = "囧只－口\nanimal legs (*)"];
+  C [label = "八\neight (8)"];
+  G [label = "囧只－口\nanimal legs (*)"];
+  F [label = "八\neight (8)"];
+  I [label = "乙\nsecond (95)"];
 
-  目 -> 盲 [thick];
-  亡 -> 盲 [thick];
-  亠 -> 亡 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
-  乙 -> 亡 [thick];
+  B -> K [thick];
+  J -> K [thick];
+  H -> J [thick];
+  E -> H [thick];
+  D -> E [thick];
+  C -> D [thick];
+  G -> H [thick];
+  F -> G [thick];
+  I -> J [thick];
 }

@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  姿 [label = "姿\n480 looks"];
-  女 [label = "女\n102 woman"];
-  次 [label = "次\n478 next"];
-  欠 [label = "欠\n474 lack"];
-  冫 [label = "冫\n* ice"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
+  J [label = "姿\nlooks (480)"];
+  B [label = "女\nwoman (102)"];
+  I [label = "次\nnext (478)"];
+  C [label = "欠\nlack (474)"];
+  H [label = "冫\nice (*)"];
+  G [label = "水\nwater (137)"];
+  E [label = "丨\nwalking stick (*)"];
+  D [label = "一\none (1)"];
+  F [label = "丶\na drop of (*)"];
 
-  女 -> 姿 [thick];
-  次 -> 姿 [thick];
-  欠 -> 次 [thick];
-  冫 -> 次 [thick];
-  水 -> 冫 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
+  B -> J [thick];
+  I -> J [thick];
+  C -> I [thick];
+  H -> I [thick];
+  G -> H [thick];
+  E -> G [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

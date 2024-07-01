@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  吴 [label = "吴\n437 Wu"];
-  天 [label = "天\n436 heavens"];
-  一 [label = "一\n1 one"];
-  大 [label = "大\n113 large"];
-  口 [label = "口\n11 mouth"];
+  F [label = "吴\nWu (437)"];
+  D [label = "天\nheavens (436)"];
+  B [label = "一\none (1)"];
+  C [label = "大\nlarge (113)"];
+  E [label = "口\nmouth (11)"];
 
-  天 -> 吴 [thick];
-  一 -> 天 [thick];
-  大 -> 天 [thick];
-  口 -> 吴 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

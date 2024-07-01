@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  塔 [label = "塔\n264 pagoda"];
-  土 [label = "土\n158 soil"];
-  艹 [label = "艹\n* flower"];
-  合 [label = "合\n262 fit"];
-  亼 [label = "亼\n* meeting"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  口 [label = "口\n11 mouth"];
+  H [label = "塔\npagoda (264)"];
+  B [label = "土\nsoil (158)"];
+  C [label = "艹\nflower (*)"];
+  G [label = "合\nfit (262)"];
+  E [label = "亼\nmeeting (*)"];
+  D [label = "𠆢\numbrella (*)"];
+  F [label = "口\nmouth (11)"];
 
-  土 -> 塔 [thick];
-  艹 -> 塔 [thick];
-  合 -> 塔 [thick];
-  亼 -> 合 [thick];
-  "𠆢" -> 亼 [thick];
-  口 -> 合 [thick];
+  B -> H [thick];
+  C -> H [thick];
+  G -> H [thick];
+  E -> G [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

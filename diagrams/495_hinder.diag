@@ -5,22 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  妨 [label = "妨\n495 hinder"];
-  方 [label = "方\n494 direction"];
-  刀 [label = "刀\n83 sword"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  女 [label = "女\n102 woman"];
+  K [label = "妨\nhinder (495)"];
+  I [label = "方\ndirection (494)"];
+  B [label = "刀\nsword (83)"];
+  H [label = "亠\ntop hat (*)"];
+  E [label = "六\nsix (6)"];
+  D [label = "囧只－口\nanimal legs (*)"];
+  C [label = "八\neight (8)"];
+  G [label = "囧只－口\nanimal legs (*)"];
+  F [label = "八\neight (8)"];
+  J [label = "女\nwoman (102)"];
 
-  方 -> 妨 [thick];
-  刀 -> 方 [thick];
-  亠 -> 方 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
-  女 -> 妨 [thick];
+  I -> K [thick];
+  B -> I [thick];
+  H -> I [thick];
+  E -> H [thick];
+  D -> E [thick];
+  C -> D [thick];
+  G -> H [thick];
+  F -> G [thick];
+  J -> K [thick];
 }

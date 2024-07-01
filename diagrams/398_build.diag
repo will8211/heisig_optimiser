@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  建 [label = "建\n398 build"];
-  聿 [label = "聿\n* brush"];
-  廴 [label = "廴\n* stretch"];
+  D [label = "建\nbuild (398)"];
+  B [label = "聿\nbrush (*)"];
+  C [label = "廴\nstretch (*)"];
 
-  聿 -> 建 [thick];
-  廴 -> 建 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

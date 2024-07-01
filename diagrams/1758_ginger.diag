@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  姜 [label = "姜\n1758 ginger"];
-  羊 [label = "羊\n528 sheep"];
-  丷 [label = "丷\n* horns"];
-  一 [label = "一\n1 one"];
-  女 [label = "女\n102 woman"];
+  F [label = "姜\nginger (1758)"];
+  D [label = "羊\nsheep (528)"];
+  C [label = "丷\nhorns (*)"];
+  B [label = "一\none (1)"];
+  E [label = "女\nwoman (102)"];
 
-  羊 -> 姜 [thick];
-  丷 -> 羊 [thick];
-  一 -> 丷 [thick];
-  女 -> 姜 [thick];
+  D -> F [thick];
+  C -> D [thick];
+  B -> C [thick];
+  E -> F [thick];
 }

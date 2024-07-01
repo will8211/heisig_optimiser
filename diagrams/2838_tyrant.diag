@@ -5,19 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  霸 [label = "霸\n2838 tyrant"];
-  雨 [label = "雨\n425 rain"];
-  革 [label = "革\n1407 leather"];
-  廿 [label = "廿\n976 twenty"];
-  十 [label = "十\n10 ten"];
-  口 [label = "口\n11 mouth"];
-  月 [label = "月\n13 month"];
+  I [label = "霸\ntyrant (2838)"];
+  B [label = "雨\nrain (425)"];
+  G [label = "革\nleather (1407)"];
+  D [label = "廿\ntwenty (976)"];
+  C [label = "十\nten (10)"];
+  E [label = "口\nmouth (11)"];
+  F [label = "十\nten (10)"];
+  H [label = "月\nmonth (13)"];
 
-  雨 -> 霸 [thick];
-  革 -> 霸 [thick];
-  廿 -> 革 [thick];
-  十 -> 廿 [thick];
-  口 -> 革 [thick];
-  十 -> 革 [thick];
-  月 -> 霸 [thick];
+  B -> I [thick];
+  G -> I [thick];
+  D -> G [thick];
+  C -> D [thick];
+  E -> G [thick];
+  F -> G [thick];
+  H -> I [thick];
 }

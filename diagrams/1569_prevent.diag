@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  杜 [label = "杜\n1569 prevent"];
-  木 [label = "木\n202 tree"];
-  土 [label = "土\n158 soil"];
+  D [label = "杜\nprevent (1569)"];
+  B [label = "木\ntree (202)"];
+  C [label = "土\nsoil (158)"];
 
-  木 -> 杜 [thick];
-  土 -> 杜 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

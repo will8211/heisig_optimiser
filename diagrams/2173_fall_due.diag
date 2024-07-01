@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  届 [label = "届\n2173 fall due"];
-  尸 [label = "尸\n882 corpse"];
-  由 [label = "由\n913 wherefore"];
-  田 [label = "田\n14 rice field"];
+  E [label = "届\nfall due (2173)"];
+  B [label = "尸\ncorpse (882)"];
+  D [label = "由\nwherefore (913)"];
+  C [label = "田\nrice field (14)"];
 
-  尸 -> 届 [thick];
-  由 -> 届 [thick];
-  田 -> 由 [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

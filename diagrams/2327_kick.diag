@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  踢 [label = "踢\n2327 kick"];
-  足 [label = "足\n1048 lower leg"];
-  口 [label = "口\n11 mouth"];
-  止 [label = "止\n379 stop"];
-  易 [label = "易\n880 easy"];
-  日 [label = "日\n12 day"];
-  勿 [label = "勿\n877 not"];
-  "𠃓" [label = "𠃓\n* piglets"];
-  豕 [label = "豕\n* sow"];
+  J [label = "踢\nkick (2327)"];
+  D [label = "足\nlower leg (1048)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "止\nstop (379)"];
+  I [label = "易\neasy (880)"];
+  E [label = "日\nday (12)"];
+  H [label = "勿\nnot (877)"];
+  G [label = "𠃓\npiglets (*)"];
+  F [label = "豕\nsow (*)"];
 
-  足 -> 踢 [thick];
-  口 -> 足 [thick];
-  止 -> 足 [thick];
-  易 -> 踢 [thick];
-  日 -> 易 [thick];
-  勿 -> 易 [thick];
-  "𠃓" -> 勿 [thick];
-  豕 -> "𠃓" [thick];
+  D -> J [thick];
+  B -> D [thick];
+  C -> D [thick];
+  I -> J [thick];
+  E -> I [thick];
+  H -> I [thick];
+  G -> H [thick];
+  F -> G [thick];
 }

@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  灿 [label = "灿\n1931 brilliant"];
-  火 [label = "火\n170 fire"];
-  山 [label = "山\n688 mountain"];
+  D [label = "灿\nbrilliant (1931)"];
+  B [label = "火\nfire (170)"];
+  C [label = "山\nmountain (688)"];
 
-  火 -> 灿 [thick];
-  山 -> 灿 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  贪 [label = "贪\n2607 greedy"];
-  今 [label = "今\n1244 now"];
-  亼 [label = "亼\n* meeting"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  贝 [label = "贝\n52 shellfish"];
-  目 [label = "目\n15 eye"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
+  I [label = "贪\ngreedy (2607)"];
+  D [label = "今\nnow (1244)"];
+  C [label = "亼\nmeeting (*)"];
+  B [label = "𠆢\numbrella (*)"];
+  H [label = "贝\nshellfish (52)"];
+  E [label = "目\neye (15)"];
+  G [label = "囧只－口\nanimal legs (*)"];
+  F [label = "八\neight (8)"];
 
-  今 -> 贪 [thick];
-  亼 -> 今 [thick];
-  "𠆢" -> 亼 [thick];
-  贝 -> 贪 [thick];
-  目 -> 贝 [thick];
-  囧只－口 -> 贝 [thick];
-  八 -> 囧只－口 [thick];
+  D -> I [thick];
+  C -> D [thick];
+  B -> C [thick];
+  H -> I [thick];
+  E -> H [thick];
+  G -> H [thick];
+  F -> G [thick];
 }

@@ -5,8 +5,8 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  "𠃓" [label = "𠃓\n* piglets"];
-  豕 [label = "豕\n* sow"];
+  C [label = "𠃓\npiglets (*)"];
+  B [label = "豕\nsow (*)"];
 
-  豕 -> "𠃓" [thick];
+  B -> C [thick];
 }

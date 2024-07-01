@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  肆 [label = "肆\n2957 IV"];
-  聿 [label = "聿\n* brush"];
-  厶 [label = "厶\n* elbow"];
+  D [label = "肆\nIV (2957)"];
+  B [label = "聿\nbrush (*)"];
+  C [label = "厶\nelbow (*)"];
 
-  聿 -> 肆 [thick];
-  厶 -> 肆 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

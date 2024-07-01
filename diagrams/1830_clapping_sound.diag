@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  啪 [label = "啪\n1830 clapping sound"];
-  口 [label = "口\n11 mouth"];
-  拍 [label = "拍\n1829 racquet"];
-  扌 [label = "扌\n* fingers"];
-  白 [label = "白\n34 white"];
-  日 [label = "日\n12 day"];
-  丶 [label = "丶\n* a drop of"];
+  H [label = "啪\nclapping sound (1830)"];
+  B [label = "口\nmouth (11)"];
+  G [label = "拍\nracquet (1829)"];
+  C [label = "扌\nfingers (*)"];
+  F [label = "白\nwhite (34)"];
+  D [label = "日\nday (12)"];
+  E [label = "丶\na drop of (*)"];
 
-  口 -> 啪 [thick];
-  拍 -> 啪 [thick];
-  扌 -> 拍 [thick];
-  白 -> 拍 [thick];
-  日 -> 白 [thick];
-  丶 -> 白 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  C -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

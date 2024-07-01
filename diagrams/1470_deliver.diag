@@ -5,19 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  送 [label = "送\n1470 deliver"];
-  关 [label = "关\n1469 shut"];
-  丷 [label = "丷\n* horns"];
-  一 [label = "一\n1 one"];
-  天 [label = "天\n436 heavens"];
-  大 [label = "大\n113 large"];
-  辶 [label = "辶\n* road"];
+  I [label = "送\ndeliver (1470)"];
+  G [label = "关\nshut (1469)"];
+  C [label = "丷\nhorns (*)"];
+  B [label = "一\none (1)"];
+  F [label = "天\nheavens (436)"];
+  D [label = "一\none (1)"];
+  E [label = "大\nlarge (113)"];
+  H [label = "辶\nroad (*)"];
 
-  关 -> 送 [thick];
-  丷 -> 关 [thick];
-  一 -> 丷 [thick];
-  天 -> 关 [thick];
-  一 -> 天 [thick];
-  大 -> 天 [thick];
-  辶 -> 送 [thick];
+  G -> I [thick];
+  C -> G [thick];
+  B -> C [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
+  H -> I [thick];
 }

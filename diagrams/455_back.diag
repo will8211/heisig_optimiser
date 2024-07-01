@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  背 [label = "背\n455 back"];
-  月 [label = "月\n13 month"];
-  北 [label = "北\n454 north"];
-  匕 [label = "匕\n453 ancient spoon"];
+  E [label = "背\nback (455)"];
+  B [label = "月\nmonth (13)"];
+  D [label = "北\nnorth (454)"];
+  C [label = "匕\nancient spoon (453)"];
 
-  月 -> 背 [thick];
-  北 -> 背 [thick];
-  匕 -> 北 [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

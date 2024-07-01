@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  解 [label = "解\n1364 untie"];
-  角 [label = "角\n1362 angle"];
-  勹 [label = "勹\n* bound up"];
-  用 [label = "用\n1361 utilize"];
-  刀 [label = "刀\n83 sword"];
-  牛 [label = "牛\n252 cow"];
+  G [label = "解\nuntie (1364)"];
+  D [label = "角\nangle (1362)"];
+  B [label = "勹\nbound up (*)"];
+  C [label = "用\nutilize (1361)"];
+  E [label = "刀\nsword (83)"];
+  F [label = "牛\ncow (252)"];
 
-  角 -> 解 [thick];
-  勹 -> 角 [thick];
-  用 -> 角 [thick];
-  刀 -> 解 [thick];
-  牛 -> 解 [thick];
+  D -> G [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

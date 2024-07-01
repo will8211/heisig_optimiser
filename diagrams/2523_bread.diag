@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  馒 [label = "馒\n2523 bread"];
-  食 [label = "食\n1154 food"];
-  良 [label = "良\n1151 high-quality"];
-  丶 [label = "丶\n* a drop of"];
-  艮 [label = "艮\n* silver"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  曼 [label = "曼\n723 drawn out"];
-  日 [label = "日\n12 day"];
-  目 [label = "目\n15 eye"];
-  又 [label = "又\n633 again"];
+  K [label = "馒\nbread (2523)"];
+  F [label = "食\nfood (1154)"];
+  D [label = "良\nhigh-quality (1151)"];
+  B [label = "丶\na drop of (*)"];
+  C [label = "艮\nsilver (*)"];
+  E [label = "𠆢\numbrella (*)"];
+  J [label = "曼\ndrawn out (723)"];
+  G [label = "日\nday (12)"];
+  H [label = "目\neye (15)"];
+  I [label = "又\nagain (633)"];
 
-  食 -> 馒 [thick];
-  良 -> 食 [thick];
-  丶 -> 良 [thick];
-  艮 -> 良 [thick];
-  "𠆢" -> 食 [thick];
-  曼 -> 馒 [thick];
-  日 -> 曼 [thick];
-  目 -> 曼 [thick];
-  又 -> 曼 [thick];
+  F -> K [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
+  J -> K [thick];
+  G -> J [thick];
+  H -> J [thick];
+  I -> J [thick];
 }

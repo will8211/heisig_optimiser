@@ -5,19 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  鞠 [label = "鞠\n2841 bow respectfully"];
-  革 [label = "革\n1407 leather"];
-  廿 [label = "廿\n976 twenty"];
-  十 [label = "十\n10 ten"];
-  口 [label = "口\n11 mouth"];
-  勹 [label = "勹\n* bound up"];
-  米 [label = "米\n778 rice"];
+  I [label = "鞠\nbow respectfully (2841)"];
+  F [label = "革\nleather (1407)"];
+  C [label = "廿\ntwenty (976)"];
+  B [label = "十\nten (10)"];
+  D [label = "口\nmouth (11)"];
+  E [label = "十\nten (10)"];
+  G [label = "勹\nbound up (*)"];
+  H [label = "米\nrice (778)"];
 
-  革 -> 鞠 [thick];
-  廿 -> 革 [thick];
-  十 -> 廿 [thick];
-  口 -> 革 [thick];
-  十 -> 革 [thick];
-  勹 -> 鞠 [thick];
-  米 -> 鞠 [thick];
+  F -> I [thick];
+  C -> F [thick];
+  B -> C [thick];
+  D -> F [thick];
+  E -> F [thick];
+  G -> I [thick];
+  H -> I [thick];
 }

@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  戒 [label = "戒\n1868 take precautions against"];
-  开 [label = "开\n613 open"];
-  二 [label = "二\n2 two"];
-  一 [label = "一\n1 one"];
-  戈 [label = "戈\n361 halberd"];
-  弋 [label = "弋\n* arrow"];
+  G [label = "戒\ntake precautions against (1868)"];
+  D [label = "开\nopen (613)"];
+  C [label = "二\ntwo (2)"];
+  B [label = "一\none (1)"];
+  F [label = "戈\nhalberd (361)"];
+  E [label = "弋\narrow (*)"];
 
-  开 -> 戒 [thick];
-  二 -> 开 [thick];
-  一 -> 二 [thick];
-  戈 -> 戒 [thick];
-  弋 -> 戈 [thick];
+  D -> G [thick];
+  C -> D [thick];
+  B -> C [thick];
+  F -> G [thick];
+  E -> F [thick];
 }

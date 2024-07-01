@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  趁 [label = "趁\n2707 take advantage of"];
-  "㐱" [label = "㐱\n* cocktail"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  彡 [label = "彡\n* rooster tail"];
-  走 [label = "走\n391 walk"];
-  囧走－十 [label = "囧走－十\n* mending"];
-  正 [label = "正\n387 correct"];
-  一 [label = "一\n1 one"];
-  止 [label = "止\n379 stop"];
-  土 [label = "土\n158 soil"];
+  K [label = "趁\ntake advantage of (2707)"];
+  D [label = "㐱\ncocktail (*)"];
+  B [label = "𠆢\numbrella (*)"];
+  C [label = "彡\nrooster tail (*)"];
+  J [label = "走\nwalk (391)"];
+  H [label = "囧走－十\nmending (*)"];
+  G [label = "正\ncorrect (387)"];
+  E [label = "一\none (1)"];
+  F [label = "止\nstop (379)"];
+  I [label = "土\nsoil (158)"];
 
-  "㐱" -> 趁 [thick];
-  "𠆢" -> "㐱" [thick];
-  彡 -> "㐱" [thick];
-  走 -> 趁 [thick];
-  囧走－十 -> 走 [thick];
-  正 -> 囧走－十 [thick];
-  一 -> 正 [thick];
-  止 -> 正 [thick];
-  土 -> 走 [thick];
+  D -> K [thick];
+  B -> D [thick];
+  C -> D [thick];
+  J -> K [thick];
+  H -> J [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
+  I -> J [thick];
 }

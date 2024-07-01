@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  当 [label = "当\n947 work as"];
-  小 [label = "小\n109 small"];
-  丶 [label = "丶\n* a drop of"];
-  彐 [label = "彐\n* broom"];
+  E [label = "当\nwork as (947)"];
+  C [label = "小\nsmall (109)"];
+  B [label = "丶\na drop of (*)"];
+  D [label = "彐\nbroom (*)"];
 
-  小 -> 当 [thick];
-  丶 -> 小 [thick];
-  彐 -> 当 [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
 }

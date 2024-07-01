@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  酿 [label = "酿\n2516 brew"];
-  酉 [label = "酉\n* whiskey bottle"];
-  良 [label = "良\n1151 high-quality"];
-  丶 [label = "丶\n* a drop of"];
-  艮 [label = "艮\n* silver"];
+  F [label = "酿\nbrew (2516)"];
+  B [label = "酉\nwhiskey bottle (*)"];
+  E [label = "良\nhigh-quality (1151)"];
+  C [label = "丶\na drop of (*)"];
+  D [label = "艮\nsilver (*)"];
 
-  酉 -> 酿 [thick];
-  良 -> 酿 [thick];
-  丶 -> 良 [thick];
-  艮 -> 良 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

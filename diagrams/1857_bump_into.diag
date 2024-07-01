@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  撞 [label = "撞\n1857 bump into"];
-  童 [label = "童\n450 juvenile"];
-  立 [label = "立\n444 standing up"];
-  里 [label = "里\n179 li"];
-  田 [label = "田\n14 rice field"];
-  土 [label = "土\n158 soil"];
-  扌 [label = "扌\n* fingers"];
+  H [label = "撞\nbump into (1857)"];
+  F [label = "童\njuvenile (450)"];
+  B [label = "立\nstanding up (444)"];
+  E [label = "里\nli (179)"];
+  C [label = "田\nrice field (14)"];
+  D [label = "土\nsoil (158)"];
+  G [label = "扌\nfingers (*)"];
 
-  童 -> 撞 [thick];
-  立 -> 童 [thick];
-  里 -> 童 [thick];
-  田 -> 里 [thick];
-  土 -> 里 [thick];
-  扌 -> 撞 [thick];
+  F -> H [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
+  G -> H [thick];
 }

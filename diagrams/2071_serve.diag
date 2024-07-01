@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  侍 [label = "侍\n2071 serve"];
-  人 [label = "人\n793 person"];
-  寺 [label = "寺\n169 Buddhist temple"];
-  土 [label = "土\n158 soil"];
-  寸 [label = "寸\n166 Chinese inch"];
-  丶 [label = "丶\n* a drop of"];
-  十 [label = "十\n10 ten"];
+  H [label = "侍\nserve (2071)"];
+  B [label = "人\nperson (793)"];
+  G [label = "寺\nBuddhist temple (169)"];
+  C [label = "土\nsoil (158)"];
+  F [label = "寸\nChinese inch (166)"];
+  D [label = "丶\na drop of (*)"];
+  E [label = "十\nten (10)"];
 
-  人 -> 侍 [thick];
-  寺 -> 侍 [thick];
-  土 -> 寺 [thick];
-  寸 -> 寺 [thick];
-  丶 -> 寸 [thick];
-  十 -> 寸 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  C -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

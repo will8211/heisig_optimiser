@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  慧 [label = "慧\n1226 intelligent"];
-  丰 [label = "丰\n1223 plentiful"];
-  彐 [label = "彐\n* broom"];
-  心 [label = "心\n563 heart"];
+  E [label = "慧\nintelligent (1226)"];
+  B [label = "丰\nplentiful (1223)"];
+  C [label = "彐\nbroom (*)"];
+  D [label = "心\nheart (563)"];
 
-  丰 -> 慧 [thick];
-  彐 -> 慧 [thick];
-  心 -> 慧 [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

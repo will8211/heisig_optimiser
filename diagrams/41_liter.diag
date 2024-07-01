@@ -5,13 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  升 [label = "升\n41 liter"];
-  千 [label = "千\n39 thousand"];
-  丶 [label = "丶\n* a drop of"];
-  十 [label = "十\n10 ten"];
+  F [label = "升\nliter (41)"];
+  D [label = "千\nthousand (39)"];
+  B [label = "丶\na drop of (*)"];
+  C [label = "十\nten (10)"];
+  E [label = "十\nten (10)"];
 
-  千 -> 升 [thick];
-  丶 -> 千 [thick];
-  十 -> 千 [thick];
-  十 -> 升 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

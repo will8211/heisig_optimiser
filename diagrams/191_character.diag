@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  字 [label = "字\n191 character"];
-  子 [label = "子\n97 child"];
-  宀 [label = "宀\n* house"];
+  D [label = "字\ncharacter (191)"];
+  B [label = "子\nchild (97)"];
+  C [label = "宀\nhouse (*)"];
 
-  子 -> 字 [thick];
-  宀 -> 字 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

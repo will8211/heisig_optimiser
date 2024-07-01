@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  击 [label = "击\n1234 beat"];
-  "囧奉－𡗗" [label = "囧奉－𡗗\n* cornstalk"];
-  丰 [label = "丰\n1223 plentiful"];
-  山 [label = "山\n688 mountain"];
+  E [label = "击\nbeat (1234)"];
+  C [label = "囧奉－𡗗\ncornstalk (*)"];
+  B [label = "丰\nplentiful (1223)"];
+  D [label = "山\nmountain (688)"];
 
-  "囧奉－𡗗" -> 击 [thick];
-  丰 -> "囧奉－𡗗" [thick];
-  山 -> 击 [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
 }

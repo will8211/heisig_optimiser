@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  久 [label = "久\n839 long time"];
-  勹 [label = "勹\n* bound up"];
-  人 [label = "人\n793 person"];
+  D [label = "久\nlong time (839)"];
+  B [label = "勹\nbound up (*)"];
+  C [label = "人\nperson (793)"];
 
-  勹 -> 久 [thick];
-  人 -> 久 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

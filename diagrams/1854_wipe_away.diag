@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  拭 [label = "拭\n1854 wipe away"];
-  扌 [label = "扌\n* fingers"];
-  式 [label = "式\n359 style"];
-  弋 [label = "弋\n* arrow"];
-  工 [label = "工\n76 work"];
+  F [label = "拭\nwipe away (1854)"];
+  B [label = "扌\nfingers (*)"];
+  E [label = "式\nstyle (359)"];
+  C [label = "弋\narrow (*)"];
+  D [label = "工\nwork (76)"];
 
-  扌 -> 拭 [thick];
-  式 -> 拭 [thick];
-  弋 -> 式 [thick];
-  工 -> 式 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

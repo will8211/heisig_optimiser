@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  蜓 [label = "蜓\n2982 dragonfly (back end)"];
-  虫 [label = "虫\n509 insect"];
-  廷 [label = "廷\n854 royal court"];
-  壬 [label = "壬\n* porter"];
-  士 [label = "士\n334 soldier"];
-  廴 [label = "廴\n* stretch"];
+  G [label = "蜓\ndragonfly (back end) (2982)"];
+  B [label = "虫\ninsect (509)"];
+  F [label = "廷\nroyal court (854)"];
+  D [label = "壬\nporter (*)"];
+  C [label = "士\nsoldier (334)"];
+  E [label = "廴\nstretch (*)"];
 
-  虫 -> 蜓 [thick];
-  廷 -> 蜓 [thick];
-  壬 -> 廷 [thick];
-  士 -> 壬 [thick];
-  廴 -> 廷 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

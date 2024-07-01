@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  瞒 [label = "瞒\n2940 dissemble"];
-  目 [label = "目\n15 eye"];
-  艹 [label = "艹\n* flower"];
-  两 [label = "两\n1478 dos"];
-  人 [label = "人\n793 person"];
-  囧冂 [label = "囧冂\n* belt"];
-  巾 [label = "巾\n410 towel"];
+  H [label = "瞒\ndissemble (2940)"];
+  B [label = "目\neye (15)"];
+  C [label = "艹\nflower (*)"];
+  G [label = "两\ndos (1478)"];
+  D [label = "人\nperson (793)"];
+  F [label = "囧冂\nbelt (*)"];
+  E [label = "巾\ntowel (410)"];
 
-  目 -> 瞒 [thick];
-  艹 -> 瞒 [thick];
-  两 -> 瞒 [thick];
-  人 -> 两 [thick];
-  囧冂 -> 两 [thick];
-  巾 -> 囧冂 [thick];
+  B -> H [thick];
+  C -> H [thick];
+  G -> H [thick];
+  D -> G [thick];
+  F -> G [thick];
+  E -> F [thick];
 }

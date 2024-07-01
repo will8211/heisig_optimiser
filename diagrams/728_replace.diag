@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  替 [label = "替\n728 replace"];
-  夫 [label = "夫\n726 husband"];
-  大 [label = "大\n113 large"];
-  日 [label = "日\n12 day"];
+  E [label = "替\nreplace (728)"];
+  C [label = "夫\nhusband (726)"];
+  B [label = "大\nlarge (113)"];
+  D [label = "日\nday (12)"];
 
-  夫 -> 替 [thick];
-  大 -> 夫 [thick];
-  日 -> 替 [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
 }

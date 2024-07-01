@@ -5,23 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  统 [label = "统\n1083 continuum"];
-  纟 [label = "纟\n* thread"];
-  厶 [label = "厶\n* elbow"];
-  充 [label = "充\n682 sufficient"];
-  囧充－儿 [label = "囧充－儿\n* infant"];
-  囧会－亼 [label = "囧会－亼\n* wall"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  儿 [label = "儿\n56 youngster"];
+  K [label = "统\ncontinuum (1083)"];
+  C [label = "纟\nthread (*)"];
+  B [label = "厶\nelbow (*)"];
+  J [label = "充\nsufficient (682)"];
+  H [label = "囧充－儿\ninfant (*)"];
+  F [label = "囧会－亼\nwall (*)"];
+  D [label = "厶\nelbow (*)"];
+  E [label = "一\none (1)"];
+  G [label = "丶\na drop of (*)"];
+  I [label = "儿\nyoungster (56)"];
 
-  纟 -> 统 [thick];
-  厶 -> 纟 [thick];
-  充 -> 统 [thick];
-  囧充－儿 -> 充 [thick];
-  囧会－亼 -> 囧充－儿 [thick];
-  厶 -> 囧会－亼 [thick];
-  一 -> 囧会－亼 [thick];
-  丶 -> 囧充－儿 [thick];
-  儿 -> 充 [thick];
+  C -> K [thick];
+  B -> C [thick];
+  J -> K [thick];
+  H -> J [thick];
+  F -> H [thick];
+  D -> F [thick];
+  E -> F [thick];
+  G -> H [thick];
+  I -> J [thick];
 }

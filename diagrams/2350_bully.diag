@@ -5,26 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  凌 [label = "凌\n2350 bully"];
-  冫 [label = "冫\n* ice"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  夌 [label = "夌\n* Minuteclods"];
-  土 [label = "土\n158 soil"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  夂 [label = "夂\n* walking legs"];
+  L [label = "凌\nbully (2350)"];
+  F [label = "冫\nice (*)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  K [label = "夌\nMinuteclods (*)"];
+  G [label = "土\nsoil (158)"];
+  I [label = "囧只－口\nanimal legs (*)"];
+  H [label = "八\neight (8)"];
+  J [label = "夂\nwalking legs (*)"];
 
-  冫 -> 凌 [thick];
-  水 -> 冫 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  夌 -> 凌 [thick];
-  土 -> 夌 [thick];
-  囧只－口 -> 夌 [thick];
-  八 -> 囧只－口 [thick];
-  夂 -> 夌 [thick];
+  F -> L [thick];
+  E -> F [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  K -> L [thick];
+  G -> K [thick];
+  I -> K [thick];
+  H -> I [thick];
+  J -> K [thick];
 }

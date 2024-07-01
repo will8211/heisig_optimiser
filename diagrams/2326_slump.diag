@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  跌 [label = "跌\n2326 slump"];
-  足 [label = "足\n1048 lower leg"];
-  口 [label = "口\n11 mouth"];
-  止 [label = "止\n379 stop"];
-  失 [label = "失\n729 lose"];
-  夫 [label = "夫\n726 husband"];
-  大 [label = "大\n113 large"];
-  丶 [label = "丶\n* a drop of"];
+  I [label = "跌\nslump (2326)"];
+  D [label = "足\nlower leg (1048)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "止\nstop (379)"];
+  H [label = "失\nlose (729)"];
+  F [label = "夫\nhusband (726)"];
+  E [label = "大\nlarge (113)"];
+  G [label = "丶\na drop of (*)"];
 
-  足 -> 跌 [thick];
-  口 -> 足 [thick];
-  止 -> 足 [thick];
-  失 -> 跌 [thick];
-  夫 -> 失 [thick];
-  大 -> 夫 [thick];
-  丶 -> 失 [thick];
+  D -> I [thick];
+  B -> D [thick];
+  C -> D [thick];
+  H -> I [thick];
+  F -> H [thick];
+  E -> F [thick];
+  G -> H [thick];
 }

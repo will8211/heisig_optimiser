@@ -5,15 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  兽 [label = "兽\n1509 beast"];
-  丷 [label = "丷\n* horns"];
-  一 [label = "一\n1 one"];
-  田 [label = "田\n14 rice field"];
-  口 [label = "口\n11 mouth"];
+  G [label = "兽\nbeast (1509)"];
+  C [label = "丷\nhorns (*)"];
+  B [label = "一\none (1)"];
+  D [label = "田\nrice field (14)"];
+  E [label = "一\none (1)"];
+  F [label = "口\nmouth (11)"];
 
-  丷 -> 兽 [thick];
-  一 -> 丷 [thick];
-  田 -> 兽 [thick];
-  一 -> 兽 [thick];
-  口 -> 兽 [thick];
+  C -> G [thick];
+  B -> C [thick];
+  D -> G [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

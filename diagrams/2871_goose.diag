@@ -5,31 +5,32 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  鹅 [label = "鹅\n2871 goose"];
-  囧我 [label = "囧我\n* miser"];
-  我 [label = "我\n588 I"];
-  手 [label = "手\n584 hand"];
-  戈 [label = "戈\n361 halberd"];
-  弋 [label = "弋\n* arrow"];
-  鸟 [label = "鸟\n1438 bird"];
-  向 [label = "向\n188 orientation"];
-  丶 [label = "丶\n* a drop of"];
-  冂 [label = "冂\n* hood"];
-  几 [label = "几\n57 how many?"];
-  口 [label = "口\n11 mouth"];
-  囧与－丨一 [label = "囧与－丨一\n* pointed tail"];
+  O [label = "鹅\ngoose (2871)"];
+  F [label = "囧我\nmiser (*)"];
+  E [label = "我\nI (588)"];
+  B [label = "手\nhand (584)"];
+  D [label = "戈\nhalberd (361)"];
+  C [label = "弋\narrow (*)"];
+  N [label = "鸟\nbird (1438)"];
+  K [label = "向\norientation (188)"];
+  G [label = "丶\na drop of (*)"];
+  I [label = "冂\nhood (*)"];
+  H [label = "几\nhow many? (57)"];
+  J [label = "口\nmouth (11)"];
+  L [label = "丶\na drop of (*)"];
+  M [label = "囧与－丨一\npointed tail (*)"];
 
-  囧我 -> 鹅 [thick];
-  我 -> 囧我 [thick];
-  手 -> 我 [thick];
-  戈 -> 我 [thick];
-  弋 -> 戈 [thick];
-  鸟 -> 鹅 [thick];
-  向 -> 鸟 [thick];
-  丶 -> 向 [thick];
-  冂 -> 向 [thick];
-  几 -> 冂 [thick];
-  口 -> 向 [thick];
-  丶 -> 鸟 [thick];
-  囧与－丨一 -> 鸟 [thick];
+  F -> O [thick];
+  E -> F [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
+  N -> O [thick];
+  K -> N [thick];
+  G -> K [thick];
+  I -> K [thick];
+  H -> I [thick];
+  J -> K [thick];
+  L -> N [thick];
+  M -> N [thick];
 }

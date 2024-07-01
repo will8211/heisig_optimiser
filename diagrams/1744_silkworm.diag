@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  蚕 [label = "蚕\n1744 silkworm"];
-  天 [label = "天\n436 heavens"];
-  一 [label = "一\n1 one"];
-  大 [label = "大\n113 large"];
-  虫 [label = "虫\n509 insect"];
+  F [label = "蚕\nsilkworm (1744)"];
+  D [label = "天\nheavens (436)"];
+  B [label = "一\none (1)"];
+  C [label = "大\nlarge (113)"];
+  E [label = "虫\ninsect (509)"];
 
-  天 -> 蚕 [thick];
-  一 -> 天 [thick];
-  大 -> 天 [thick];
-  虫 -> 蚕 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

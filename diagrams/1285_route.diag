@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  途 [label = "途\n1285 route"];
-  余 [label = "余\n1283 excess"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  于 [label = "于\n1281 Yu"];
-  干 [label = "干\n1277 dry"];
-  小 [label = "小\n109 small"];
-  丶 [label = "丶\n* a drop of"];
-  辶 [label = "辶\n* road"];
+  I [label = "途\nroute (1285)"];
+  G [label = "余\nexcess (1283)"];
+  B [label = "𠆢\numbrella (*)"];
+  D [label = "于\nYu (1281)"];
+  C [label = "干\ndry (1277)"];
+  F [label = "小\nsmall (109)"];
+  E [label = "丶\na drop of (*)"];
+  H [label = "辶\nroad (*)"];
 
-  余 -> 途 [thick];
-  "𠆢" -> 余 [thick];
-  于 -> 余 [thick];
-  干 -> 于 [thick];
-  小 -> 余 [thick];
-  丶 -> 小 [thick];
-  辶 -> 途 [thick];
+  G -> I [thick];
+  B -> G [thick];
+  D -> G [thick];
+  C -> D [thick];
+  F -> G [thick];
+  E -> F [thick];
+  H -> I [thick];
 }

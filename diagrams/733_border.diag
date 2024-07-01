@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  边 [label = "边\n733 border"];
-  力 [label = "力\n732 power"];
-  辶 [label = "辶\n* road"];
+  D [label = "边\nborder (733)"];
+  B [label = "力\npower (732)"];
+  C [label = "辶\nroad (*)"];
 
-  力 -> 边 [thick];
-  辶 -> 边 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

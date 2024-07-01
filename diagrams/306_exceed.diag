@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  逾 [label = "逾\n306 exceed"];
-  辶 [label = "辶\n* road"];
-  俞 [label = "俞\n* slaughterhouse"];
-  亼 [label = "亼\n* meeting"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  刖 [label = "刖\n* butcher"];
-  月 [label = "月\n13 month"];
-  刀 [label = "刀\n83 sword"];
+  I [label = "逾\nexceed (306)"];
+  B [label = "辶\nroad (*)"];
+  H [label = "俞\nslaughterhouse (*)"];
+  D [label = "亼\nmeeting (*)"];
+  C [label = "𠆢\numbrella (*)"];
+  G [label = "刖\nbutcher (*)"];
+  E [label = "月\nmonth (13)"];
+  F [label = "刀\nsword (83)"];
 
-  辶 -> 逾 [thick];
-  俞 -> 逾 [thick];
-  亼 -> 俞 [thick];
-  "𠆢" -> 亼 [thick];
-  刖 -> 俞 [thick];
-  月 -> 刖 [thick];
-  刀 -> 刖 [thick];
+  B -> I [thick];
+  H -> I [thick];
+  D -> H [thick];
+  C -> D [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

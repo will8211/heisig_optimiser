@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  冠 [label = "冠\n322 crown"];
-  冖 [label = "冖\n* crown"];
-  寸 [label = "寸\n166 Chinese inch"];
-  丶 [label = "丶\n* a drop of"];
-  十 [label = "十\n10 ten"];
-  元 [label = "元\n59 beginning"];
-  二 [label = "二\n2 two"];
-  一 [label = "一\n1 one"];
-  儿 [label = "儿\n56 youngster"];
+  J [label = "冠\ncrown (322)"];
+  B [label = "冖\ncrown (*)"];
+  E [label = "寸\nChinese inch (166)"];
+  C [label = "丶\na drop of (*)"];
+  D [label = "十\nten (10)"];
+  I [label = "元\nbeginning (59)"];
+  G [label = "二\ntwo (2)"];
+  F [label = "一\none (1)"];
+  H [label = "儿\nyoungster (56)"];
 
-  冖 -> 冠 [thick];
-  寸 -> 冠 [thick];
-  丶 -> 寸 [thick];
-  十 -> 寸 [thick];
-  元 -> 冠 [thick];
-  二 -> 元 [thick];
-  一 -> 二 [thick];
-  儿 -> 元 [thick];
+  B -> J [thick];
+  E -> J [thick];
+  C -> E [thick];
+  D -> E [thick];
+  I -> J [thick];
+  G -> I [thick];
+  F -> G [thick];
+  H -> I [thick];
 }

@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  潜 [label = "潜\n1979 submerge"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  替 [label = "替\n728 replace"];
-  夫 [label = "夫\n726 husband"];
-  大 [label = "大\n113 large"];
-  日 [label = "日\n12 day"];
+  J [label = "潜\nsubmerge (1979)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  I [label = "替\nreplace (728)"];
+  G [label = "夫\nhusband (726)"];
+  F [label = "大\nlarge (113)"];
+  H [label = "日\nday (12)"];
 
-  水 -> 潜 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  替 -> 潜 [thick];
-  夫 -> 替 [thick];
-  大 -> 夫 [thick];
-  日 -> 替 [thick];
+  E -> J [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  I -> J [thick];
+  G -> I [thick];
+  F -> G [thick];
+  H -> I [thick];
 }

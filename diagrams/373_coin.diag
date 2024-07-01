@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  钱 [label = "钱\n373 coin"];
-  金 [label = "金\n279 gold"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  王 [label = "王\n265 king"];
-  工 [label = "工\n76 work"];
-  丶 [label = "丶\n* a drop of"];
-  戋 [label = "戋\n* float"];
-  戈 [label = "戈\n361 halberd"];
-  弋 [label = "弋\n* arrow"];
+  J [label = "钱\ncoin (373)"];
+  F [label = "金\ngold (279)"];
+  B [label = "𠆢\numbrella (*)"];
+  D [label = "王\nking (265)"];
+  C [label = "工\nwork (76)"];
+  E [label = "丶\na drop of (*)"];
+  I [label = "戋\nfloat (*)"];
+  H [label = "戈\nhalberd (361)"];
+  G [label = "弋\narrow (*)"];
 
-  金 -> 钱 [thick];
-  "𠆢" -> 金 [thick];
-  王 -> 金 [thick];
-  工 -> 王 [thick];
-  丶 -> 金 [thick];
-  戋 -> 钱 [thick];
-  戈 -> 戋 [thick];
-  弋 -> 戈 [thick];
+  F -> J [thick];
+  B -> F [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
+  I -> J [thick];
+  H -> I [thick];
+  G -> H [thick];
 }

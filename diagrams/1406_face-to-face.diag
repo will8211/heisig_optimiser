@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  面 [label = "面\n1406 face-to-face"];
-  百 [label = "百\n35 hundred"];
-  白 [label = "白\n34 white"];
-  日 [label = "日\n12 day"];
-  丶 [label = "丶\n* a drop of"];
-  一 [label = "一\n1 one"];
-  目 [label = "目\n15 eye"];
+  H [label = "面\nface-to-face (1406)"];
+  F [label = "百\nhundred (35)"];
+  D [label = "白\nwhite (34)"];
+  B [label = "日\nday (12)"];
+  C [label = "丶\na drop of (*)"];
+  E [label = "一\none (1)"];
+  G [label = "目\neye (15)"];
 
-  百 -> 面 [thick];
-  白 -> 百 [thick];
-  日 -> 白 [thick];
-  丶 -> 白 [thick];
-  一 -> 百 [thick];
-  目 -> 面 [thick];
+  F -> H [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
+  G -> H [thick];
 }

@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  介 [label = "介\n259 introduce"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  "囧介－𠆢" [label = "囧介－𠆢\n* crutches"];
+  D [label = "介\nintroduce (259)"];
+  B [label = "𠆢\numbrella (*)"];
+  C [label = "囧介－𠆢\ncrutches (*)"];
 
-  "𠆢" -> 介 [thick];
-  "囧介－𠆢" -> 介 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

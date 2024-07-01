@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  菲 [label = "菲\n2632 humble"];
-  艹 [label = "艹\n* flower"];
-  非 [label = "非\n1267 non-"];
+  D [label = "菲\nhumble (2632)"];
+  B [label = "艹\nflower (*)"];
+  C [label = "非\nnon- (1267)"];
 
-  艹 -> 菲 [thick];
-  非 -> 菲 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

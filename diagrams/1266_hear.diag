@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  闻 [label = "闻\n1266 hear"];
-  门 [label = "门\n1260 gate"];
-  耳 [label = "耳\n717 ear"];
+  D [label = "闻\nhear (1266)"];
+  B [label = "门\ngate (1260)"];
+  C [label = "耳\near (717)"];
 
-  门 -> 闻 [thick];
-  耳 -> 闻 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

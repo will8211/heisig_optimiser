@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  励 [label = "励\n736 encourage"];
-  厂 [label = "厂\n121 factory"];
-  万 [label = "万\n65 ten thousand"];
-  勹 [label = "勹\n* bound up"];
-  一 [label = "一\n1 one"];
-  肌 [label = "肌\n63 muscle"];
-  几 [label = "几\n57 how many?"];
-  月 [label = "月\n13 month"];
+  I [label = "励\nencourage (736)"];
+  B [label = "厂\nfactory (121)"];
+  E [label = "万\nten thousand (65)"];
+  C [label = "勹\nbound up (*)"];
+  D [label = "一\none (1)"];
+  H [label = "肌\nmuscle (63)"];
+  F [label = "几\nhow many? (57)"];
+  G [label = "月\nmonth (13)"];
 
-  厂 -> 励 [thick];
-  万 -> 励 [thick];
-  勹 -> 万 [thick];
-  一 -> 万 [thick];
-  肌 -> 励 [thick];
-  几 -> 肌 [thick];
-  月 -> 肌 [thick];
+  B -> I [thick];
+  E -> I [thick];
+  C -> E [thick];
+  D -> E [thick];
+  H -> I [thick];
+  F -> H [thick];
+  G -> H [thick];
 }

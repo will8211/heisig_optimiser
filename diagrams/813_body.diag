@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  体 [label = "体\n813 body"];
-  人 [label = "人\n793 person"];
-  本 [label = "本\n213 notebook"];
-  木 [label = "木\n202 tree"];
+  E [label = "体\nbody (813)"];
+  B [label = "人\nperson (793)"];
+  D [label = "本\nnotebook (213)"];
+  C [label = "木\ntree (202)"];
 
-  人 -> 体 [thick];
-  本 -> 体 [thick];
-  木 -> 本 [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

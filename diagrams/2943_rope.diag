@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  绳 [label = "绳\n2943 rope"];
-  纟 [label = "纟\n* thread"];
-  厶 [label = "厶\n* elbow"];
-  黾 [label = "黾\n* electrical outlet"];
-  口 [label = "口\n11 mouth"];
-  电 [label = "电\n1484 electricity"];
+  G [label = "绳\nrope (2943)"];
+  C [label = "纟\nthread (*)"];
+  B [label = "厶\nelbow (*)"];
+  F [label = "黾\nelectrical outlet (*)"];
+  D [label = "口\nmouth (11)"];
+  E [label = "电\nelectricity (1484)"];
 
-  纟 -> 绳 [thick];
-  厶 -> 纟 [thick];
-  黾 -> 绳 [thick];
-  口 -> 黾 [thick];
-  电 -> 黾 [thick];
+  C -> G [thick];
+  B -> C [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

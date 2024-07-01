@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  堤 [label = "堤\n1673 dike"];
-  土 [label = "土\n158 soil"];
-  是 [label = "是\n394 be"];
-  囧走－十 [label = "囧走－十\n* mending"];
-  正 [label = "正\n387 correct"];
-  一 [label = "一\n1 one"];
-  止 [label = "止\n379 stop"];
-  日 [label = "日\n12 day"];
+  I [label = "堤\ndike (1673)"];
+  B [label = "土\nsoil (158)"];
+  H [label = "是\nbe (394)"];
+  F [label = "囧走－十\nmending (*)"];
+  E [label = "正\ncorrect (387)"];
+  C [label = "一\none (1)"];
+  D [label = "止\nstop (379)"];
+  G [label = "日\nday (12)"];
 
-  土 -> 堤 [thick];
-  是 -> 堤 [thick];
-  囧走－十 -> 是 [thick];
-  正 -> 囧走－十 [thick];
-  一 -> 正 [thick];
-  止 -> 正 [thick];
-  日 -> 是 [thick];
+  B -> I [thick];
+  H -> I [thick];
+  F -> H [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
+  G -> H [thick];
 }

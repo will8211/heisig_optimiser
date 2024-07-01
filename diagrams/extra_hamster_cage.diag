@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  囧赛－贝 [label = "囧赛－贝\n* hamster cage"];
-  宀 [label = "宀\n* house"];
-  "𠀎" [label = "𠀎\n* wire mesh"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
+  F [label = "囧赛－贝\nhamster cage (*)"];
+  B [label = "宀\nhouse (*)"];
+  C [label = "𠀎\nwire mesh (*)"];
+  E [label = "囧只－口\nanimal legs (*)"];
+  D [label = "八\neight (8)"];
 
-  宀 -> 囧赛－贝 [thick];
-  "𠀎" -> 囧赛－贝 [thick];
-  囧只－口 -> 囧赛－贝 [thick];
-  八 -> 囧只－口 [thick];
+  B -> F [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
 }

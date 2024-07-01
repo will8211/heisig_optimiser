@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  循 [label = "循\n1998 comply with"];
-  行 [label = "行\n754 line of business"];
-  盾 [label = "盾\n1896 shield"];
-  "𠂆" [label = "𠂆\n* drag"];
-  十 [label = "十\n10 ten"];
-  目 [label = "目\n15 eye"];
+  G [label = "循\ncomply with (1998)"];
+  B [label = "行\nline of business (754)"];
+  F [label = "盾\nshield (1896)"];
+  C [label = "𠂆\ndrag (*)"];
+  D [label = "十\nten (10)"];
+  E [label = "目\neye (15)"];
 
-  行 -> 循 [thick];
-  盾 -> 循 [thick];
-  "𠂆" -> 盾 [thick];
-  十 -> 盾 [thick];
-  目 -> 盾 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

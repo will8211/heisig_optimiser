@@ -5,28 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  遗 [label = "遗\n1341 bequeath"];
-  贵 [label = "贵\n1340 expensive"];
-  "𠀐" [label = "𠀐\n* purse"];
-  中 [label = "中\n38 middle"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  口 [label = "口\n11 mouth"];
-  贝 [label = "贝\n52 shellfish"];
-  目 [label = "目\n15 eye"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  辶 [label = "辶\n* road"];
+  M [label = "遗\nbequeath (1341)"];
+  K [label = "贵\nexpensive (1340)"];
+  F [label = "𠀐\npurse (*)"];
+  E [label = "中\nmiddle (38)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "口\nmouth (11)"];
+  J [label = "贝\nshellfish (52)"];
+  G [label = "目\neye (15)"];
+  I [label = "囧只－口\nanimal legs (*)"];
+  H [label = "八\neight (8)"];
+  L [label = "辶\nroad (*)"];
 
-  贵 -> 遗 [thick];
-  "𠀐" -> 贵 [thick];
-  中 -> "𠀐" [thick];
-  丨 -> 中 [thick];
-  一 -> 丨 [thick];
-  口 -> 中 [thick];
-  贝 -> 贵 [thick];
-  目 -> 贝 [thick];
-  囧只－口 -> 贝 [thick];
-  八 -> 囧只－口 [thick];
-  辶 -> 遗 [thick];
+  K -> M [thick];
+  F -> K [thick];
+  E -> F [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  J -> K [thick];
+  G -> J [thick];
+  I -> J [thick];
+  H -> I [thick];
+  L -> M [thick];
 }

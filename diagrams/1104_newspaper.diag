@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  报 [label = "报\n1104 newspaper"];
-  扌 [label = "扌\n* fingers"];
-  卩 [label = "卩\n* stamp"];
-  又 [label = "又\n633 again"];
+  E [label = "报\nnewspaper (1104)"];
+  B [label = "扌\nfingers (*)"];
+  C [label = "卩\nstamp (*)"];
+  D [label = "又\nagain (633)"];
 
-  扌 -> 报 [thick];
-  卩 -> 报 [thick];
-  又 -> 报 [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

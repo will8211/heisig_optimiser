@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  珍 [label = "珍\n1311 rare"];
-  玉 [label = "玉\n266 jade"];
-  王 [label = "王\n265 king"];
-  工 [label = "工\n76 work"];
-  丶 [label = "丶\n* a drop of"];
-  "㐱" [label = "㐱\n* cocktail"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  彡 [label = "彡\n* rooster tail"];
+  I [label = "珍\nrare (1311)"];
+  E [label = "玉\njade (266)"];
+  C [label = "王\nking (265)"];
+  B [label = "工\nwork (76)"];
+  D [label = "丶\na drop of (*)"];
+  H [label = "㐱\ncocktail (*)"];
+  F [label = "𠆢\numbrella (*)"];
+  G [label = "彡\nrooster tail (*)"];
 
-  玉 -> 珍 [thick];
-  王 -> 玉 [thick];
-  工 -> 王 [thick];
-  丶 -> 玉 [thick];
-  "㐱" -> 珍 [thick];
-  "𠆢" -> "㐱" [thick];
-  彡 -> "㐱" [thick];
+  E -> I [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  H -> I [thick];
+  F -> H [thick];
+  G -> H [thick];
 }

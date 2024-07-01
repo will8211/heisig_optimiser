@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  缘 [label = "缘\n2204 reason"];
-  纟 [label = "纟\n* thread"];
-  厶 [label = "厶\n* elbow"];
-  彑 [label = "彑\n* whisk broom"];
-  豕 [label = "豕\n* sow"];
+  F [label = "缘\nreason (2204)"];
+  C [label = "纟\nthread (*)"];
+  B [label = "厶\nelbow (*)"];
+  D [label = "彑\nwhisk broom (*)"];
+  E [label = "豕\nsow (*)"];
 
-  纟 -> 缘 [thick];
-  厶 -> 纟 [thick];
-  彑 -> 缘 [thick];
-  豕 -> 缘 [thick];
+  C -> F [thick];
+  B -> C [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  更 [label = "更\n631 even more"];
-  一 [label = "一\n1 one"];
-  日 [label = "日\n12 day"];
-  囧史－口 [label = "囧史－口\n* tucked under the arm"];
+  E [label = "更\neven more (631)"];
+  B [label = "一\none (1)"];
+  C [label = "日\nday (12)"];
+  D [label = "囧史－口\ntucked under the arm (*)"];
 
-  一 -> 更 [thick];
-  日 -> 更 [thick];
-  囧史－口 -> 更 [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

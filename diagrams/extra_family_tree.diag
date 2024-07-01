@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  枼 [label = "枼\n* family tree"];
-  世 [label = "世\n28 generation"];
-  十 [label = "十\n10 ten"];
-  木 [label = "木\n202 tree"];
+  E [label = "枼\nfamily tree (*)"];
+  C [label = "世\ngeneration (28)"];
+  B [label = "十\nten (10)"];
+  D [label = "木\ntree (202)"];
 
-  世 -> 枼 [thick];
-  十 -> 世 [thick];
-  木 -> 枼 [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
 }

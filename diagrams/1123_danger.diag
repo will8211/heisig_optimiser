@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  危 [label = "危\n1123 danger"];
-  勹 [label = "勹\n* bound up"];
-  厂 [label = "厂\n121 factory"];
-  "㔾" [label = "㔾\n* fingerprint"];
+  E [label = "危\ndanger (1123)"];
+  B [label = "勹\nbound up (*)"];
+  C [label = "厂\nfactory (121)"];
+  D [label = "㔾\nfingerprint (*)"];
 
-  勹 -> 危 [thick];
-  厂 -> 危 [thick];
-  "㔾" -> 危 [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

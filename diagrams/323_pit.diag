@@ -5,22 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  坑 [label = "坑\n323 pit"];
-  亢 [label = "亢\n* whirlwind"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  几 [label = "几\n57 how many?"];
-  土 [label = "土\n158 soil"];
+  K [label = "坑\npit (323)"];
+  I [label = "亢\nwhirlwind (*)"];
+  G [label = "亠\ntop hat (*)"];
+  D [label = "六\nsix (6)"];
+  C [label = "囧只－口\nanimal legs (*)"];
+  B [label = "八\neight (8)"];
+  F [label = "囧只－口\nanimal legs (*)"];
+  E [label = "八\neight (8)"];
+  H [label = "几\nhow many? (57)"];
+  J [label = "土\nsoil (158)"];
 
-  亢 -> 坑 [thick];
-  亠 -> 亢 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
-  几 -> 亢 [thick];
-  土 -> 坑 [thick];
+  I -> K [thick];
+  G -> I [thick];
+  D -> G [thick];
+  C -> D [thick];
+  B -> C [thick];
+  F -> G [thick];
+  E -> F [thick];
+  H -> I [thick];
+  J -> K [thick];
 }

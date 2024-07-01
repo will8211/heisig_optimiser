@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  超 [label = "超\n392 transcend"];
-  召 [label = "召\n86 summon"];
-  刀 [label = "刀\n83 sword"];
-  口 [label = "口\n11 mouth"];
-  走 [label = "走\n391 walk"];
-  囧走－十 [label = "囧走－十\n* mending"];
-  正 [label = "正\n387 correct"];
-  一 [label = "一\n1 one"];
-  止 [label = "止\n379 stop"];
-  土 [label = "土\n158 soil"];
+  K [label = "超\ntranscend (392)"];
+  D [label = "召\nsummon (86)"];
+  B [label = "刀\nsword (83)"];
+  C [label = "口\nmouth (11)"];
+  J [label = "走\nwalk (391)"];
+  H [label = "囧走－十\nmending (*)"];
+  G [label = "正\ncorrect (387)"];
+  E [label = "一\none (1)"];
+  F [label = "止\nstop (379)"];
+  I [label = "土\nsoil (158)"];
 
-  召 -> 超 [thick];
-  刀 -> 召 [thick];
-  口 -> 召 [thick];
-  走 -> 超 [thick];
-  囧走－十 -> 走 [thick];
-  正 -> 囧走－十 [thick];
-  一 -> 正 [thick];
-  止 -> 正 [thick];
-  土 -> 走 [thick];
+  D -> K [thick];
+  B -> D [thick];
+  C -> D [thick];
+  J -> K [thick];
+  H -> J [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
+  I -> J [thick];
 }

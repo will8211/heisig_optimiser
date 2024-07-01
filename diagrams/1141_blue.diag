@@ -5,36 +5,36 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  蓝 [label = "蓝\n1141 blue"];
-  艹 [label = "艹\n* flower"];
-  监 [label = "监\n1139 supervise"];
-  囧坚－圣 [label = "囧坚－圣\n* fencing foil"];
-  "𠂉" [label = "𠂉\n* reclining"];
-  掉 [label = "掉\n607 drop"];
-  扌 [label = "扌\n* fingers"];
-  卓 [label = "卓\n48 eminent"];
-  卜 [label = "卜\n43 divination"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  早 [label = "早\n26 early"];
-  日 [label = "日\n12 day"];
-  十 [label = "十\n10 ten"];
-  皿 [label = "皿\n* dish"];
+  Q [label = "蓝\nblue (1141)"];
+  B [label = "艹\nflower (*)"];
+  P [label = "监\nsupervise (1139)"];
+  C [label = "囧坚－圣\nfencing foil (*)"];
+  D [label = "𠂉\nreclining (*)"];
+  N [label = "掉\ndrop (607)"];
+  E [label = "扌\nfingers (*)"];
+  M [label = "卓\neminent (48)"];
+  I [label = "卜\ndivination (43)"];
+  G [label = "丨\nwalking stick (*)"];
+  F [label = "一\none (1)"];
+  H [label = "丶\na drop of (*)"];
+  L [label = "早\nearly (26)"];
+  J [label = "日\nday (12)"];
+  K [label = "十\nten (10)"];
+  O [label = "皿\ndish (*)"];
 
-  艹 -> 蓝 [thick];
-  监 -> 蓝 [thick];
-  囧坚－圣 -> 监 [thick];
-  "𠂉" -> 监 [thick];
-  掉 -> 监 [thick];
-  扌 -> 掉 [thick];
-  卓 -> 掉 [thick];
-  卜 -> 卓 [thick];
-  丨 -> 卜 [thick];
-  一 -> 丨 [thick];
-  丶 -> 卜 [thick];
-  早 -> 卓 [thick];
-  日 -> 早 [thick];
-  十 -> 早 [thick];
-  皿 -> 监 [thick];
+  B -> Q [thick];
+  P -> Q [thick];
+  C -> P [thick];
+  D -> P [thick];
+  N -> P [thick];
+  E -> N [thick];
+  M -> N [thick];
+  I -> M [thick];
+  G -> I [thick];
+  F -> G [thick];
+  H -> I [thick];
+  L -> M [thick];
+  J -> L [thick];
+  K -> L [thick];
+  O -> P [thick];
 }

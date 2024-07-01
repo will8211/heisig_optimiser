@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  健 [label = "健\n817 healthy"];
-  人 [label = "人\n793 person"];
-  建 [label = "建\n398 build"];
-  聿 [label = "聿\n* brush"];
-  廴 [label = "廴\n* stretch"];
+  F [label = "健\nhealthy (817)"];
+  B [label = "人\nperson (793)"];
+  E [label = "建\nbuild (398)"];
+  C [label = "聿\nbrush (*)"];
+  D [label = "廴\nstretch (*)"];
 
-  人 -> 健 [thick];
-  建 -> 健 [thick];
-  聿 -> 建 [thick];
-  廴 -> 建 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

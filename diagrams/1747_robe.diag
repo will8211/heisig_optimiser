@@ -5,26 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  袍 [label = "袍\n1747 robe"];
-  衣 [label = "衣\n400 clothing"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  包 [label = "包\n520 wrap"];
-  勹 [label = "勹\n* bound up"];
-  已 [label = "已\n519 already"];
-  己 [label = "己\n515 self"];
+  M [label = "袍\nrobe (1747)"];
+  H [label = "衣\nclothing (400)"];
+  G [label = "亠\ntop hat (*)"];
+  D [label = "六\nsix (6)"];
+  C [label = "囧只－口\nanimal legs (*)"];
+  B [label = "八\neight (8)"];
+  F [label = "囧只－口\nanimal legs (*)"];
+  E [label = "八\neight (8)"];
+  L [label = "包\nwrap (520)"];
+  I [label = "勹\nbound up (*)"];
+  K [label = "已\nalready (519)"];
+  J [label = "己\nself (515)"];
 
-  衣 -> 袍 [thick];
-  亠 -> 衣 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
-  包 -> 袍 [thick];
-  勹 -> 包 [thick];
-  已 -> 包 [thick];
-  己 -> 已 [thick];
+  H -> M [thick];
+  G -> H [thick];
+  D -> G [thick];
+  C -> D [thick];
+  B -> C [thick];
+  F -> G [thick];
+  E -> F [thick];
+  L -> M [thick];
+  I -> L [thick];
+  K -> L [thick];
+  J -> K [thick];
 }

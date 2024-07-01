@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  御 [label = "御\n2427 withstand"];
-  行 [label = "行\n754 line of business"];
-  卸 [label = "卸\n2426 unload"];
-  午 [label = "午\n542 noon"];
-  止 [label = "止\n379 stop"];
-  卩 [label = "卩\n* stamp"];
+  G [label = "御\nwithstand (2427)"];
+  B [label = "行\nline of business (754)"];
+  F [label = "卸\nunload (2426)"];
+  C [label = "午\nnoon (542)"];
+  D [label = "止\nstop (379)"];
+  E [label = "卩\nstamp (*)"];
 
-  行 -> 御 [thick];
-  卸 -> 御 [thick];
-  午 -> 卸 [thick];
-  止 -> 卸 [thick];
-  卩 -> 卸 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

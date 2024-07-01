@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  线 [label = "线\n1081 line"];
-  纟 [label = "纟\n* thread"];
-  厶 [label = "厶\n* elbow"];
-  戋 [label = "戋\n* float"];
-  戈 [label = "戈\n361 halberd"];
-  弋 [label = "弋\n* arrow"];
+  G [label = "线\nline (1081)"];
+  C [label = "纟\nthread (*)"];
+  B [label = "厶\nelbow (*)"];
+  F [label = "戋\nfloat (*)"];
+  E [label = "戈\nhalberd (361)"];
+  D [label = "弋\narrow (*)"];
 
-  纟 -> 线 [thick];
-  厶 -> 纟 [thick];
-  戋 -> 线 [thick];
-  戈 -> 戋 [thick];
-  弋 -> 戈 [thick];
+  C -> G [thick];
+  B -> C [thick];
+  F -> G [thick];
+  E -> F [thick];
+  D -> E [thick];
 }

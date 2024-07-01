@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  柳 [label = "柳\n1110 willow"];
-  木 [label = "木\n202 tree"];
-  囧贸－贝 [label = "囧贸－贝\n* letter opener"];
-  卩 [label = "卩\n* stamp"];
-  刀 [label = "刀\n83 sword"];
+  F [label = "柳\nwillow (1110)"];
+  B [label = "木\ntree (202)"];
+  E [label = "囧贸－贝\nletter opener (*)"];
+  C [label = "卩\nstamp (*)"];
+  D [label = "刀\nsword (83)"];
 
-  木 -> 柳 [thick];
-  囧贸－贝 -> 柳 [thick];
-  卩 -> 囧贸－贝 [thick];
-  刀 -> 囧贸－贝 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

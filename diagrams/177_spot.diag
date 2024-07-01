@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  点 [label = "点\n177 spot"];
-  火 [label = "火\n170 fire"];
-  占 [label = "占\n44 tell fortunes"];
-  卜 [label = "卜\n43 divination"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  口 [label = "口\n11 mouth"];
+  I [label = "点\nspot (177)"];
+  B [label = "火\nfire (170)"];
+  H [label = "占\ntell fortunes (44)"];
+  F [label = "卜\ndivination (43)"];
+  D [label = "丨\nwalking stick (*)"];
+  C [label = "一\none (1)"];
+  E [label = "丶\na drop of (*)"];
+  G [label = "口\nmouth (11)"];
 
-  火 -> 点 [thick];
-  占 -> 点 [thick];
-  卜 -> 占 [thick];
-  丨 -> 卜 [thick];
-  一 -> 丨 [thick];
-  丶 -> 卜 [thick];
-  口 -> 占 [thick];
+  B -> I [thick];
+  H -> I [thick];
+  F -> H [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
+  G -> H [thick];
 }

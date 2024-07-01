@@ -5,34 +5,34 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  续 [label = "续\n1096 continue"];
-  纟 [label = "纟\n* thread"];
-  厶 [label = "厶\n* elbow"];
-  卖 [label = "卖\n859 sell"];
-  十 [label = "十\n10 ten"];
-  买 [label = "买\n858 buy"];
-  乛 [label = "乛\n* beret"];
-  冖 [label = "冖\n* crown"];
-  头 [label = "头\n856 head"];
-  大 [label = "大\n113 large"];
-  冫 [label = "冫\n* ice"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
+  P [label = "续\ncontinue (1096)"];
+  C [label = "纟\nthread (*)"];
+  B [label = "厶\nelbow (*)"];
+  O [label = "卖\nsell (859)"];
+  D [label = "十\nten (10)"];
+  N [label = "买\nbuy (858)"];
+  F [label = "乛\nberet (*)"];
+  E [label = "冖\ncrown (*)"];
+  M [label = "头\nhead (856)"];
+  G [label = "大\nlarge (113)"];
+  L [label = "冫\nice (*)"];
+  K [label = "水\nwater (137)"];
+  I [label = "丨\nwalking stick (*)"];
+  H [label = "一\none (1)"];
+  J [label = "丶\na drop of (*)"];
 
-  纟 -> 续 [thick];
-  厶 -> 纟 [thick];
-  卖 -> 续 [thick];
-  十 -> 卖 [thick];
-  买 -> 卖 [thick];
-  乛 -> 买 [thick];
-  冖 -> 乛 [thick];
-  头 -> 买 [thick];
-  大 -> 头 [thick];
-  冫 -> 头 [thick];
-  水 -> 冫 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
+  C -> P [thick];
+  B -> C [thick];
+  O -> P [thick];
+  D -> O [thick];
+  N -> O [thick];
+  F -> N [thick];
+  E -> F [thick];
+  M -> N [thick];
+  G -> M [thick];
+  L -> M [thick];
+  K -> L [thick];
+  I -> K [thick];
+  H -> I [thick];
+  J -> K [thick];
 }

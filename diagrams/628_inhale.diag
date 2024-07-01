@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  吸 [label = "吸\n628 inhale"];
-  口 [label = "口\n11 mouth"];
-  及 [label = "及\n627 catch up with"];
-  乃 [label = "乃\n625 only then"];
+  E [label = "吸\ninhale (628)"];
+  B [label = "口\nmouth (11)"];
+  D [label = "及\ncatch up with (627)"];
+  C [label = "乃\nonly then (625)"];
 
-  口 -> 吸 [thick];
-  及 -> 吸 [thick];
-  乃 -> 及 [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  刚 [label = "刚\n1171 just now"];
-  冈 [label = "冈\n1170 ridge of a hill"];
-  冂 [label = "冂\n* hood"];
-  几 [label = "几\n57 how many?"];
-  "㐅" [label = "㐅\n* sheaf"];
-  刀 [label = "刀\n83 sword"];
+  G [label = "刚\njust now (1171)"];
+  E [label = "冈\nridge of a hill (1170)"];
+  C [label = "冂\nhood (*)"];
+  B [label = "几\nhow many? (57)"];
+  D [label = "㐅\nsheaf (*)"];
+  F [label = "刀\nsword (83)"];
 
-  冈 -> 刚 [thick];
-  冂 -> 冈 [thick];
-  几 -> 冂 [thick];
-  "㐅" -> 冈 [thick];
-  刀 -> 刚 [thick];
+  E -> G [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

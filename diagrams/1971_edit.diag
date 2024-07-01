@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  辑 [label = "辑\n1971 edit"];
-  车 [label = "车\n300 car"];
-  口 [label = "口\n11 mouth"];
-  耳 [label = "耳\n717 ear"];
+  E [label = "辑\nedit (1971)"];
+  B [label = "车\ncar (300)"];
+  C [label = "口\nmouth (11)"];
+  D [label = "耳\near (717)"];
 
-  车 -> 辑 [thick];
-  口 -> 辑 [thick];
-  耳 -> 辑 [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

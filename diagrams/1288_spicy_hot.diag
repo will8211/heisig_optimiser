@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  辣 [label = "辣\n1288 spicy hot"];
-  辛 [label = "辛\n1183 peppery"];
-  立 [label = "立\n444 standing up"];
-  十 [label = "十\n10 ten"];
-  束 [label = "束\n1286 bundle up"];
-  木 [label = "木\n202 tree"];
-  口 [label = "口\n11 mouth"];
+  H [label = "辣\nspicy hot (1288)"];
+  D [label = "辛\npeppery (1183)"];
+  B [label = "立\nstanding up (444)"];
+  C [label = "十\nten (10)"];
+  G [label = "束\nbundle up (1286)"];
+  E [label = "木\ntree (202)"];
+  F [label = "口\nmouth (11)"];
 
-  辛 -> 辣 [thick];
-  立 -> 辛 [thick];
-  十 -> 辛 [thick];
-  束 -> 辣 [thick];
-  木 -> 束 [thick];
-  口 -> 束 [thick];
+  D -> H [thick];
+  B -> D [thick];
+  C -> D [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

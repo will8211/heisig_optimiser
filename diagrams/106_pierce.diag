@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  贯 [label = "贯\n106 pierce"];
-  母 [label = "母\n105 mother"];
-  女 [label = "女\n102 woman"];
-  贝 [label = "贝\n52 shellfish"];
-  目 [label = "目\n15 eye"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
+  H [label = "贯\npierce (106)"];
+  C [label = "母\nmother (105)"];
+  B [label = "女\nwoman (102)"];
+  G [label = "贝\nshellfish (52)"];
+  D [label = "目\neye (15)"];
+  F [label = "囧只－口\nanimal legs (*)"];
+  E [label = "八\neight (8)"];
 
-  母 -> 贯 [thick];
-  女 -> 母 [thick];
-  贝 -> 贯 [thick];
-  目 -> 贝 [thick];
-  囧只－口 -> 贝 [thick];
-  八 -> 囧只－口 [thick];
+  C -> H [thick];
+  B -> C [thick];
+  G -> H [thick];
+  D -> G [thick];
+  F -> G [thick];
+  E -> F [thick];
 }

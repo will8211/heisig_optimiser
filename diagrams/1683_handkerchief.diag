@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  帕 [label = "帕\n1683 handkerchief"];
-  巾 [label = "巾\n410 towel"];
-  白 [label = "白\n34 white"];
-  日 [label = "日\n12 day"];
-  丶 [label = "丶\n* a drop of"];
+  F [label = "帕\nhandkerchief (1683)"];
+  B [label = "巾\ntowel (410)"];
+  E [label = "白\nwhite (34)"];
+  C [label = "日\nday (12)"];
+  D [label = "丶\na drop of (*)"];
 
-  巾 -> 帕 [thick];
-  白 -> 帕 [thick];
-  日 -> 白 [thick];
-  丶 -> 白 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

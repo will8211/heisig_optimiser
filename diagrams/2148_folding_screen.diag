@@ -5,19 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  屏 [label = "屏\n2148 folding screen"];
-  尸 [label = "尸\n882 corpse"];
-  并 [label = "并\n863 combine"];
-  丷 [label = "丷\n* horns"];
-  一 [label = "一\n1 one"];
-  开 [label = "开\n613 open"];
-  二 [label = "二\n2 two"];
+  I [label = "屏\nfolding screen (2148)"];
+  B [label = "尸\ncorpse (882)"];
+  H [label = "并\ncombine (863)"];
+  D [label = "丷\nhorns (*)"];
+  C [label = "一\none (1)"];
+  G [label = "开\nopen (613)"];
+  F [label = "二\ntwo (2)"];
+  E [label = "一\none (1)"];
 
-  尸 -> 屏 [thick];
-  并 -> 屏 [thick];
-  丷 -> 并 [thick];
-  一 -> 丷 [thick];
-  开 -> 并 [thick];
-  二 -> 开 [thick];
-  一 -> 二 [thick];
+  B -> I [thick];
+  H -> I [thick];
+  D -> H [thick];
+  C -> D [thick];
+  G -> H [thick];
+  F -> G [thick];
+  E -> F [thick];
 }

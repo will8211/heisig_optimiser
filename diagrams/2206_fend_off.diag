@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  挡 [label = "挡\n2206 fend off"];
-  扌 [label = "扌\n* fingers"];
-  当 [label = "当\n947 work as"];
-  小 [label = "小\n109 small"];
-  丶 [label = "丶\n* a drop of"];
-  彐 [label = "彐\n* broom"];
+  G [label = "挡\nfend off (2206)"];
+  B [label = "扌\nfingers (*)"];
+  F [label = "当\nwork as (947)"];
+  D [label = "小\nsmall (109)"];
+  C [label = "丶\na drop of (*)"];
+  E [label = "彐\nbroom (*)"];
 
-  扌 -> 挡 [thick];
-  当 -> 挡 [thick];
-  小 -> 当 [thick];
-  丶 -> 小 [thick];
-  彐 -> 当 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

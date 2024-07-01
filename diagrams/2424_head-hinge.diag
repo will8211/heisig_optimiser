@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  脖 [label = "脖\n2424 head-hinge"];
-  月 [label = "月\n13 month"];
-  孛 [label = "孛\n* Sunday school"];
-  囧索－糸 [label = "囧索－糸\n* chapel"];
-  宀 [label = "宀\n* house"];
-  子 [label = "子\n97 child"];
+  G [label = "脖\nhead-hinge (2424)"];
+  B [label = "月\nmonth (13)"];
+  F [label = "孛\nSunday school (*)"];
+  D [label = "囧索－糸\nchapel (*)"];
+  C [label = "宀\nhouse (*)"];
+  E [label = "子\nchild (97)"];
 
-  月 -> 脖 [thick];
-  孛 -> 脖 [thick];
-  囧索－糸 -> 孛 [thick];
-  宀 -> 囧索－糸 [thick];
-  子 -> 孛 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

@@ -5,27 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  莺 [label = "莺\n2866 oriole"];
-  囧荣－木 [label = "囧荣－木\n* greenhouse"];
-  宀 [label = "宀\n* house"];
-  艹 [label = "艹\n* flower"];
-  鸟 [label = "鸟\n1438 bird"];
-  向 [label = "向\n188 orientation"];
-  丶 [label = "丶\n* a drop of"];
-  冂 [label = "冂\n* hood"];
-  几 [label = "几\n57 how many?"];
-  口 [label = "口\n11 mouth"];
-  囧与－丨一 [label = "囧与－丨一\n* pointed tail"];
+  M [label = "莺\noriole (2866)"];
+  D [label = "囧荣－木\ngreenhouse (*)"];
+  B [label = "宀\nhouse (*)"];
+  C [label = "艹\nflower (*)"];
+  L [label = "鸟\nbird (1438)"];
+  I [label = "向\norientation (188)"];
+  E [label = "丶\na drop of (*)"];
+  G [label = "冂\nhood (*)"];
+  F [label = "几\nhow many? (57)"];
+  H [label = "口\nmouth (11)"];
+  J [label = "丶\na drop of (*)"];
+  K [label = "囧与－丨一\npointed tail (*)"];
 
-  囧荣－木 -> 莺 [thick];
-  宀 -> 囧荣－木 [thick];
-  艹 -> 囧荣－木 [thick];
-  鸟 -> 莺 [thick];
-  向 -> 鸟 [thick];
-  丶 -> 向 [thick];
-  冂 -> 向 [thick];
-  几 -> 冂 [thick];
-  口 -> 向 [thick];
-  丶 -> 鸟 [thick];
-  囧与－丨一 -> 鸟 [thick];
+  D -> M [thick];
+  B -> D [thick];
+  C -> D [thick];
+  L -> M [thick];
+  I -> L [thick];
+  E -> I [thick];
+  G -> I [thick];
+  F -> G [thick];
+  H -> I [thick];
+  J -> L [thick];
+  K -> L [thick];
 }

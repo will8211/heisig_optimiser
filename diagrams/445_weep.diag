@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  泣 [label = "泣\n445 weep"];
-  立 [label = "立\n444 standing up"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
+  G [label = "泣\nweep (445)"];
+  B [label = "立\nstanding up (444)"];
+  F [label = "水\nwater (137)"];
+  D [label = "丨\nwalking stick (*)"];
+  C [label = "一\none (1)"];
+  E [label = "丶\na drop of (*)"];
 
-  立 -> 泣 [thick];
-  水 -> 泣 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

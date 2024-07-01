@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  馨 [label = "馨\n1410 fragrant"];
-  殸 [label = "殸\n* civil war"];
-  士 [label = "士\n334 soldier"];
-  尸 [label = "尸\n882 corpse"];
-  殳 [label = "殳\n* missile"];
-  几 [label = "几\n57 how many?"];
-  又 [label = "又\n633 again"];
-  香 [label = "香\n772 perfume"];
-  禾 [label = "禾\n762 standing grain"];
-  日 [label = "日\n12 day"];
+  K [label = "馨\nfragrant (1410)"];
+  G [label = "殸\ncivil war (*)"];
+  B [label = "士\nsoldier (334)"];
+  C [label = "尸\ncorpse (882)"];
+  F [label = "殳\nmissile (*)"];
+  D [label = "几\nhow many? (57)"];
+  E [label = "又\nagain (633)"];
+  J [label = "香\nperfume (772)"];
+  H [label = "禾\nstanding grain (762)"];
+  I [label = "日\nday (12)"];
 
-  殸 -> 馨 [thick];
-  士 -> 殸 [thick];
-  尸 -> 殸 [thick];
-  殳 -> 殸 [thick];
-  几 -> 殳 [thick];
-  又 -> 殳 [thick];
-  香 -> 馨 [thick];
-  禾 -> 香 [thick];
-  日 -> 香 [thick];
+  G -> K [thick];
+  B -> G [thick];
+  C -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
+  J -> K [thick];
+  H -> J [thick];
+  I -> J [thick];
 }

@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  伊 [label = "伊\n958 Queen Elizabeth"];
-  人 [label = "人\n793 person"];
-  尹 [label = "尹\n957 overseer"];
+  D [label = "伊\nQueen Elizabeth (958)"];
+  B [label = "人\nperson (793)"];
+  C [label = "尹\noverseer (957)"];
 
-  人 -> 伊 [thick];
-  尹 -> 伊 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

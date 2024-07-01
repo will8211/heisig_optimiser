@@ -5,25 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  氯 [label = "氯\n2837 chlorine"];
-  气 [label = "气\n1404 air"];
-  "𠂉" [label = "𠂉\n* reclining"];
-  一 [label = "一\n1 one"];
-  乙 [label = "乙\n95 second"];
-  录 [label = "录\n949 record"];
-  彐 [label = "彐\n* broom"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  丶 [label = "丶\n* a drop of"];
+  L [label = "氯\nchlorine (2837)"];
+  E [label = "气\nair (1404)"];
+  B [label = "𠂉\nreclining (*)"];
+  C [label = "一\none (1)"];
+  D [label = "乙\nsecond (95)"];
+  K [label = "录\nrecord (949)"];
+  F [label = "彐\nbroom (*)"];
+  J [label = "水\nwater (137)"];
+  H [label = "丨\nwalking stick (*)"];
+  G [label = "一\none (1)"];
+  I [label = "丶\na drop of (*)"];
 
-  气 -> 氯 [thick];
-  "𠂉" -> 气 [thick];
-  一 -> 气 [thick];
-  乙 -> 气 [thick];
-  录 -> 氯 [thick];
-  彐 -> 录 [thick];
-  水 -> 录 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
+  E -> L [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
+  K -> L [thick];
+  F -> K [thick];
+  J -> K [thick];
+  H -> J [thick];
+  G -> H [thick];
+  I -> J [thick];
 }

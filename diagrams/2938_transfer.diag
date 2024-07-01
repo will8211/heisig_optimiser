@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  挪 [label = "挪\n2938 transfer"];
-  那 [label = "那\n1476 that"];
-  囧那－阝 [label = "囧那－阝\n* razor wire"];
-  刀 [label = "刀\n83 sword"];
-  阝 [label = "阝\n* pinnacle"];
-  扌 [label = "扌\n* fingers"];
+  G [label = "挪\ntransfer (2938)"];
+  E [label = "那\nthat (1476)"];
+  C [label = "囧那－阝\nrazor wire (*)"];
+  B [label = "刀\nsword (83)"];
+  D [label = "阝\npinnacle (*)"];
+  F [label = "扌\nfingers (*)"];
 
-  那 -> 挪 [thick];
-  囧那－阝 -> 那 [thick];
-  刀 -> 囧那－阝 [thick];
-  阝 -> 那 [thick];
-  扌 -> 挪 [thick];
+  E -> G [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  社 [label = "社\n901 society"];
-  示 [label = "示\n900 show"];
-  土 [label = "土\n158 soil"];
+  D [label = "社\nsociety (901)"];
+  B [label = "示\nshow (900)"];
+  C [label = "土\nsoil (158)"];
 
-  示 -> 社 [thick];
-  土 -> 社 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

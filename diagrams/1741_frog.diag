@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  蛙 [label = "蛙\n1741 frog"];
-  虫 [label = "虫\n509 insect"];
-  圭 [label = "圭\n* bricks"];
-  土 [label = "土\n158 soil"];
+  E [label = "蛙\nfrog (1741)"];
+  B [label = "虫\ninsect (509)"];
+  D [label = "圭\nbricks (*)"];
+  C [label = "土\nsoil (158)"];
 
-  虫 -> 蛙 [thick];
-  圭 -> 蛙 [thick];
-  土 -> 圭 [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

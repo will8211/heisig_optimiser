@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  僵 [label = "僵\n2273 stiff"];
-  人 [label = "人\n793 person"];
-  畺 [label = "畺\n* family feud"];
-  田 [label = "田\n14 rice field"];
-  一 [label = "一\n1 one"];
+  F [label = "僵\nstiff (2273)"];
+  B [label = "人\nperson (793)"];
+  E [label = "畺\nfamily feud (*)"];
+  C [label = "田\nrice field (14)"];
+  D [label = "一\none (1)"];
 
-  人 -> 僵 [thick];
-  畺 -> 僵 [thick];
-  田 -> 畺 [thick];
-  一 -> 畺 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

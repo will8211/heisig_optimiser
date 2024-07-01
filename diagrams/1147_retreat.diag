@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  退 [label = "退\n1147 retreat"];
-  艮 [label = "艮\n* silver"];
-  辶 [label = "辶\n* road"];
+  D [label = "退\nretreat (1147)"];
+  B [label = "艮\nsilver (*)"];
+  C [label = "辶\nroad (*)"];
 
-  艮 -> 退 [thick];
-  辶 -> 退 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

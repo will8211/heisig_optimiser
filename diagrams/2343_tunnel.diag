@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  隧 [label = "隧\n2343 tunnel"];
-  阝 [label = "阝\n* pinnacle"];
-  遂 [label = "遂\n1752 satisfy"];
-  丷 [label = "丷\n* horns"];
-  一 [label = "一\n1 one"];
-  豕 [label = "豕\n* sow"];
-  辶 [label = "辶\n* road"];
+  H [label = "隧\ntunnel (2343)"];
+  B [label = "阝\npinnacle (*)"];
+  G [label = "遂\nsatisfy (1752)"];
+  D [label = "丷\nhorns (*)"];
+  C [label = "一\none (1)"];
+  E [label = "豕\nsow (*)"];
+  F [label = "辶\nroad (*)"];
 
-  阝 -> 隧 [thick];
-  遂 -> 隧 [thick];
-  丷 -> 遂 [thick];
-  一 -> 丷 [thick];
-  豕 -> 遂 [thick];
-  辶 -> 遂 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  D -> G [thick];
+  C -> D [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

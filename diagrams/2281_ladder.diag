@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  梯 [label = "梯\n2281 ladder"];
-  木 [label = "木\n202 tree"];
-  弟 [label = "弟\n1022 younger brother"];
-  丷 [label = "丷\n* horns"];
-  一 [label = "一\n1 one"];
-  弗 [label = "弗\n* dollar sign"];
-  "囧介－𠆢" [label = "囧介－𠆢\n* crutches"];
-  弓 [label = "弓\n1013 bow"];
+  I [label = "梯\nladder (2281)"];
+  B [label = "木\ntree (202)"];
+  H [label = "弟\nyounger brother (1022)"];
+  D [label = "丷\nhorns (*)"];
+  C [label = "一\none (1)"];
+  G [label = "弗\ndollar sign (*)"];
+  E [label = "囧介－𠆢\ncrutches (*)"];
+  F [label = "弓\nbow (1013)"];
 
-  木 -> 梯 [thick];
-  弟 -> 梯 [thick];
-  丷 -> 弟 [thick];
-  一 -> 丷 [thick];
-  弗 -> 弟 [thick];
-  "囧介－𠆢" -> 弗 [thick];
-  弓 -> 弗 [thick];
+  B -> I [thick];
+  H -> I [thick];
+  D -> H [thick];
+  C -> D [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

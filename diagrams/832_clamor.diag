@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  哗 [label = "哗\n832 clamor"];
-  口 [label = "口\n11 mouth"];
-  华 [label = "华\n831 splendor"];
-  化 [label = "化\n830 transform"];
-  人 [label = "人\n793 person"];
-  匕 [label = "匕\n453 ancient spoon"];
-  十 [label = "十\n10 ten"];
+  H [label = "哗\nclamor (832)"];
+  B [label = "口\nmouth (11)"];
+  G [label = "华\nsplendor (831)"];
+  E [label = "化\ntransform (830)"];
+  C [label = "人\nperson (793)"];
+  D [label = "匕\nancient spoon (453)"];
+  F [label = "十\nten (10)"];
 
-  口 -> 哗 [thick];
-  华 -> 哗 [thick];
-  化 -> 华 [thick];
-  人 -> 化 [thick];
-  匕 -> 化 [thick];
-  十 -> 华 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  E -> G [thick];
+  C -> E [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

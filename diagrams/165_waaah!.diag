@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  哇 [label = "哇\n165 waaah!"];
-  口 [label = "口\n11 mouth"];
-  圭 [label = "圭\n* bricks"];
-  土 [label = "土\n158 soil"];
+  E [label = "哇\nwaaah! (165)"];
+  B [label = "口\nmouth (11)"];
+  D [label = "圭\nbricks (*)"];
+  C [label = "土\nsoil (158)"];
 
-  口 -> 哇 [thick];
-  圭 -> 哇 [thick];
-  土 -> 圭 [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

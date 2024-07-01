@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  传 [label = "传\n1237 spread"];
-  人 [label = "人\n793 person"];
-  专 [label = "专\n1236 specialty"];
-  "囧奉－𡗗" [label = "囧奉－𡗗\n* cornstalk"];
-  丰 [label = "丰\n1223 plentiful"];
-  囧节－艹 [label = "囧节－艹\n* chop"];
+  G [label = "传\nspread (1237)"];
+  B [label = "人\nperson (793)"];
+  F [label = "专\nspecialty (1236)"];
+  D [label = "囧奉－𡗗\ncornstalk (*)"];
+  C [label = "丰\nplentiful (1223)"];
+  E [label = "囧节－艹\nchop (*)"];
 
-  人 -> 传 [thick];
-  专 -> 传 [thick];
-  "囧奉－𡗗" -> 专 [thick];
-  丰 -> "囧奉－𡗗" [thick];
-  囧节－艹 -> 专 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

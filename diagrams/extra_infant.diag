@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  囧充－儿 [label = "囧充－儿\n* infant"];
-  囧会－亼 [label = "囧会－亼\n* wall"];
-  厶 [label = "厶\n* elbow"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
+  F [label = "囧充－儿\ninfant (*)"];
+  D [label = "囧会－亼\nwall (*)"];
+  B [label = "厶\nelbow (*)"];
+  C [label = "一\none (1)"];
+  E [label = "丶\na drop of (*)"];
 
-  囧会－亼 -> 囧充－儿 [thick];
-  厶 -> 囧会－亼 [thick];
-  一 -> 囧会－亼 [thick];
-  丶 -> 囧充－儿 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

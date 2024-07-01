@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  德 [label = "德\n761 morality"];
-  行 [label = "行\n754 line of business"];
-  "𢛳" [label = "𢛳\n* 10 commandments"];
-  十 [label = "十\n10 ten"];
-  目 [label = "目\n15 eye"];
-  一 [label = "一\n1 one"];
-  心 [label = "心\n563 heart"];
+  H [label = "德\nmorality (761)"];
+  B [label = "行\nline of business (754)"];
+  G [label = "𢛳\n10 commandments (*)"];
+  C [label = "十\nten (10)"];
+  D [label = "目\neye (15)"];
+  E [label = "一\none (1)"];
+  F [label = "心\nheart (563)"];
 
-  行 -> 德 [thick];
-  "𢛳" -> 德 [thick];
-  十 -> "𢛳" [thick];
-  目 -> "𢛳" [thick];
-  一 -> "𢛳" [thick];
-  心 -> "𢛳" [thick];
+  B -> H [thick];
+  G -> H [thick];
+  C -> G [thick];
+  D -> G [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

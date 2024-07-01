@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  幅 [label = "幅\n1686 width of cloth"];
-  巾 [label = "巾\n410 towel"];
-  畐 [label = "畐\n* wealth"];
-  一 [label = "一\n1 one"];
-  口 [label = "口\n11 mouth"];
-  田 [label = "田\n14 rice field"];
+  G [label = "幅\nwidth of cloth (1686)"];
+  B [label = "巾\ntowel (410)"];
+  F [label = "畐\nwealth (*)"];
+  C [label = "一\none (1)"];
+  D [label = "口\nmouth (11)"];
+  E [label = "田\nrice field (14)"];
 
-  巾 -> 幅 [thick];
-  畐 -> 幅 [thick];
-  一 -> 畐 [thick];
-  口 -> 畐 [thick];
-  田 -> 畐 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

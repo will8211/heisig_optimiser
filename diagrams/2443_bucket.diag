@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  桶 [label = "桶\n2443 bucket"];
-  木 [label = "木\n202 tree"];
-  甬 [label = "甬\n* chop-rack"];
-  月 [label = "月\n13 month"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  囧节－艹 [label = "囧节－艹\n* chop"];
+  H [label = "桶\nbucket (2443)"];
+  B [label = "木\ntree (202)"];
+  G [label = "甬\nchop-rack (*)"];
+  C [label = "月\nmonth (13)"];
+  E [label = "丨\nwalking stick (*)"];
+  D [label = "一\none (1)"];
+  F [label = "囧节－艹\nchop (*)"];
 
-  木 -> 桶 [thick];
-  甬 -> 桶 [thick];
-  月 -> 甬 [thick];
-  丨 -> 甬 [thick];
-  一 -> 丨 [thick];
-  囧节－艹 -> 甬 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  C -> G [thick];
+  E -> G [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

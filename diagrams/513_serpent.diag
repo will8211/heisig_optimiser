@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  蛇 [label = "蛇\n513 serpent"];
-  虫 [label = "虫\n509 insect"];
-  它 [label = "它\n462 it"];
-  宀 [label = "宀\n* house"];
-  匕 [label = "匕\n453 ancient spoon"];
+  F [label = "蛇\nserpent (513)"];
+  B [label = "虫\ninsect (509)"];
+  E [label = "它\nit (462)"];
+  C [label = "宀\nhouse (*)"];
+  D [label = "匕\nancient spoon (453)"];
 
-  虫 -> 蛇 [thick];
-  它 -> 蛇 [thick];
-  宀 -> 它 [thick];
-  匕 -> 它 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

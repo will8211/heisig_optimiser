@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  幻 [label = "幻\n1390 unreal"];
-  幺 [label = "幺\n* cocoon"];
-  "𠃌" [label = "𠃌\n* clothes hanger"];
+  D [label = "幻\nunreal (1390)"];
+  B [label = "幺\ncocoon (*)"];
+  C [label = "𠃌\nclothes hanger (*)"];
 
-  幺 -> 幻 [thick];
-  "𠃌" -> 幻 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

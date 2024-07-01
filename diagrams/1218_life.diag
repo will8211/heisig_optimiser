@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  生 [label = "生\n1218 life"];
-  丶 [label = "丶\n* a drop of"];
-  囧毒－母 [label = "囧毒－母\n* grow up"];
+  D [label = "生\nlife (1218)"];
+  B [label = "丶\na drop of (*)"];
+  C [label = "囧毒－母\ngrow up (*)"];
 
-  丶 -> 生 [thick];
-  囧毒－母 -> 生 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  细 [label = "细\n1091 fine"];
-  纟 [label = "纟\n* thread"];
-  厶 [label = "厶\n* elbow"];
-  田 [label = "田\n14 rice field"];
+  E [label = "细\nfine (1091)"];
+  C [label = "纟\nthread (*)"];
+  B [label = "厶\nelbow (*)"];
+  D [label = "田\nrice field (14)"];
 
-  纟 -> 细 [thick];
-  厶 -> 纟 [thick];
-  田 -> 细 [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
 }

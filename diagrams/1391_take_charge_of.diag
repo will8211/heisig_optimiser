@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  司 [label = "司\n1391 take charge of"];
-  "𠃌" [label = "𠃌\n* clothes hanger"];
-  一 [label = "一\n1 one"];
-  口 [label = "口\n11 mouth"];
+  E [label = "司\ntake charge of (1391)"];
+  B [label = "𠃌\nclothes hanger (*)"];
+  C [label = "一\none (1)"];
+  D [label = "口\nmouth (11)"];
 
-  "𠃌" -> 司 [thick];
-  一 -> 司 [thick];
-  口 -> 司 [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

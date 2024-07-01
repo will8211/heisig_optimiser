@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  性 [label = "性\n1221 sex"];
-  心 [label = "心\n563 heart"];
-  生 [label = "生\n1218 life"];
-  丶 [label = "丶\n* a drop of"];
-  囧毒－母 [label = "囧毒－母\n* grow up"];
+  F [label = "性\nsex (1221)"];
+  B [label = "心\nheart (563)"];
+  E [label = "生\nlife (1218)"];
+  C [label = "丶\na drop of (*)"];
+  D [label = "囧毒－母\ngrow up (*)"];
 
-  心 -> 性 [thick];
-  生 -> 性 [thick];
-  丶 -> 生 [thick];
-  囧毒－母 -> 生 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

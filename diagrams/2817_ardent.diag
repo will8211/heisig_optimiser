@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  殷 [label = "殷\n2817 ardent"];
-  "𠂆" [label = "𠂆\n* drag"];
-  白 [label = "白\n34 white"];
-  日 [label = "日\n12 day"];
-  丶 [label = "丶\n* a drop of"];
-  "𠃌" [label = "𠃌\n* clothes hanger"];
-  殳 [label = "殳\n* missile"];
-  几 [label = "几\n57 how many?"];
-  又 [label = "又\n633 again"];
+  J [label = "殷\nardent (2817)"];
+  B [label = "𠂆\ndrag (*)"];
+  E [label = "白\nwhite (34)"];
+  C [label = "日\nday (12)"];
+  D [label = "丶\na drop of (*)"];
+  F [label = "𠃌\nclothes hanger (*)"];
+  I [label = "殳\nmissile (*)"];
+  G [label = "几\nhow many? (57)"];
+  H [label = "又\nagain (633)"];
 
-  "𠂆" -> 殷 [thick];
-  白 -> 殷 [thick];
-  日 -> 白 [thick];
-  丶 -> 白 [thick];
-  "𠃌" -> 殷 [thick];
-  殳 -> 殷 [thick];
-  几 -> 殳 [thick];
-  又 -> 殳 [thick];
+  B -> J [thick];
+  E -> J [thick];
+  C -> E [thick];
+  D -> E [thick];
+  F -> J [thick];
+  I -> J [thick];
+  G -> I [thick];
+  H -> I [thick];
 }

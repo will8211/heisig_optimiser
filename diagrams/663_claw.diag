@@ -5,8 +5,8 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  爪 [label = "爪\n663 claw"];
-  "𠂆" [label = "𠂆\n* drag"];
+  C [label = "爪\nclaw (663)"];
+  B [label = "𠂆\ndrag (*)"];
 
-  "𠂆" -> 爪 [thick];
+  B -> C [thick];
 }

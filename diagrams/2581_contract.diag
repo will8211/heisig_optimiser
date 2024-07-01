@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  契 [label = "契\n2581 contract"];
-  丰 [label = "丰\n1223 plentiful"];
-  刀 [label = "刀\n83 sword"];
-  大 [label = "大\n113 large"];
+  E [label = "契\ncontract (2581)"];
+  B [label = "丰\nplentiful (1223)"];
+  C [label = "刀\nsword (83)"];
+  D [label = "大\nlarge (113)"];
 
-  丰 -> 契 [thick];
-  刀 -> 契 [thick];
-  大 -> 契 [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

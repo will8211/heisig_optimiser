@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  困 [label = "困\n547 trapped"];
-  囗 [label = "囗\n* pent in"];
-  木 [label = "木\n202 tree"];
+  D [label = "困\ntrapped (547)"];
+  B [label = "囗\npent in (*)"];
+  C [label = "木\ntree (202)"];
 
-  囗 -> 困 [thick];
-  木 -> 困 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

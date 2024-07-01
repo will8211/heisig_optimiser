@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  聊 [label = "聊\n1109 chat"];
-  耳 [label = "耳\n717 ear"];
-  囧贸－贝 [label = "囧贸－贝\n* letter opener"];
-  卩 [label = "卩\n* stamp"];
-  刀 [label = "刀\n83 sword"];
+  F [label = "聊\nchat (1109)"];
+  B [label = "耳\near (717)"];
+  E [label = "囧贸－贝\nletter opener (*)"];
+  C [label = "卩\nstamp (*)"];
+  D [label = "刀\nsword (83)"];
 
-  耳 -> 聊 [thick];
-  囧贸－贝 -> 聊 [thick];
-  卩 -> 囧贸－贝 [thick];
-  刀 -> 囧贸－贝 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

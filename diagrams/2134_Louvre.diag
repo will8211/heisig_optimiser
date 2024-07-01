@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  卢 [label = "卢\n2134 Louvre"];
-  卜 [label = "卜\n43 divination"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  尸 [label = "尸\n882 corpse"];
+  G [label = "卢\nLouvre (2134)"];
+  E [label = "卜\ndivination (43)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  F [label = "尸\ncorpse (882)"];
 
-  卜 -> 卢 [thick];
-  丨 -> 卜 [thick];
-  一 -> 丨 [thick];
-  丶 -> 卜 [thick];
-  尸 -> 卢 [thick];
+  E -> G [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

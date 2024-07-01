@@ -5,21 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  探 [label = "探\n1076 spy"];
-  扌 [label = "扌\n* fingers"];
-  "㓁" [label = "㓁\n* paper punch"];
-  穴 [label = "穴\n1070 hole"];
-  宀 [label = "宀\n* house"];
-  八 [label = "八\n8 eight"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  木 [label = "木\n202 tree"];
+  J [label = "探\nspy (1076)"];
+  B [label = "扌\nfingers (*)"];
+  H [label = "㓁\npaper punch (*)"];
+  G [label = "穴\nhole (1070)"];
+  C [label = "宀\nhouse (*)"];
+  D [label = "八\neight (8)"];
+  F [label = "囧只－口\nanimal legs (*)"];
+  E [label = "八\neight (8)"];
+  I [label = "木\ntree (202)"];
 
-  扌 -> 探 [thick];
-  "㓁" -> 探 [thick];
-  穴 -> "㓁" [thick];
-  宀 -> 穴 [thick];
-  八 -> 穴 [thick];
-  囧只－口 -> 穴 [thick];
-  八 -> 囧只－口 [thick];
-  木 -> 探 [thick];
+  B -> J [thick];
+  H -> J [thick];
+  G -> H [thick];
+  C -> G [thick];
+  D -> G [thick];
+  F -> G [thick];
+  E -> F [thick];
+  I -> J [thick];
 }

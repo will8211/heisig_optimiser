@@ -5,8 +5,8 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  也 [label = "也\n505 also"];
-  乙 [label = "乙\n95 second"];
+  C [label = "也\nalso (505)"];
+  B [label = "乙\nsecond (95)"];
 
-  乙 -> 也 [thick];
+  B -> C [thick];
 }

@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  悄 [label = "悄\n1807 noiseless"];
-  心 [label = "心\n563 heart"];
-  肖 [label = "肖\n128 resemble"];
-  小 [label = "小\n109 small"];
-  丶 [label = "丶\n* a drop of"];
-  月 [label = "月\n13 month"];
+  G [label = "悄\nnoiseless (1807)"];
+  B [label = "心\nheart (563)"];
+  F [label = "肖\nresemble (128)"];
+  D [label = "小\nsmall (109)"];
+  C [label = "丶\na drop of (*)"];
+  E [label = "月\nmonth (13)"];
 
-  心 -> 悄 [thick];
-  肖 -> 悄 [thick];
-  小 -> 肖 [thick];
-  丶 -> 小 [thick];
-  月 -> 肖 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

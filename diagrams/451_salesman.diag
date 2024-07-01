@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  商 [label = "商\n451 salesman"];
-  立 [label = "立\n444 standing up"];
-  冂 [label = "冂\n* hood"];
-  几 [label = "几\n57 how many?"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  口 [label = "口\n11 mouth"];
+  H [label = "商\nsalesman (451)"];
+  B [label = "立\nstanding up (444)"];
+  D [label = "冂\nhood (*)"];
+  C [label = "几\nhow many? (57)"];
+  F [label = "囧只－口\nanimal legs (*)"];
+  E [label = "八\neight (8)"];
+  G [label = "口\nmouth (11)"];
 
-  立 -> 商 [thick];
-  冂 -> 商 [thick];
-  几 -> 冂 [thick];
-  囧只－口 -> 商 [thick];
-  八 -> 囧只－口 [thick];
-  口 -> 商 [thick];
+  B -> H [thick];
+  D -> H [thick];
+  C -> D [thick];
+  F -> H [thick];
+  E -> F [thick];
+  G -> H [thick];
 }

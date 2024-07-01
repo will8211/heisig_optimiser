@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  策 [label = "策\n792 strategy"];
-  竹 [label = "竹\n786 bamboo"];
-  丁 [label = "丁\n90 fourth"];
-  朿 [label = "朿\n* thorn"];
-  囧冂 [label = "囧冂\n* belt"];
-  巾 [label = "巾\n410 towel"];
-  木 [label = "木\n202 tree"];
+  H [label = "策\nstrategy (792)"];
+  C [label = "竹\nbamboo (786)"];
+  B [label = "丁\nfourth (90)"];
+  G [label = "朿\nthorn (*)"];
+  E [label = "囧冂\nbelt (*)"];
+  D [label = "巾\ntowel (410)"];
+  F [label = "木\ntree (202)"];
 
-  竹 -> 策 [thick];
-  丁 -> 竹 [thick];
-  朿 -> 策 [thick];
-  囧冂 -> 朿 [thick];
-  巾 -> 囧冂 [thick];
-  木 -> 朿 [thick];
+  C -> H [thick];
+  B -> C [thick];
+  G -> H [thick];
+  E -> G [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

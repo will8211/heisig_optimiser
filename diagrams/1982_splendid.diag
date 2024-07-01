@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  熙 [label = "熙\n1982 splendid"];
-  臣 [label = "臣\n731 feudal official"];
-  口 [label = "口\n11 mouth"];
-  已 [label = "已\n519 already"];
-  己 [label = "己\n515 self"];
-  火 [label = "火\n170 fire"];
+  G [label = "熙\nsplendid (1982)"];
+  B [label = "臣\nfeudal official (731)"];
+  C [label = "口\nmouth (11)"];
+  E [label = "已\nalready (519)"];
+  D [label = "己\nself (515)"];
+  F [label = "火\nfire (170)"];
 
-  臣 -> 熙 [thick];
-  口 -> 熙 [thick];
-  已 -> 熙 [thick];
-  己 -> 已 [thick];
-  火 -> 熙 [thick];
+  B -> G [thick];
+  C -> G [thick];
+  E -> G [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

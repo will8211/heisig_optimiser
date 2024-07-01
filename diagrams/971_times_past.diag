@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  昔 [label = "昔\n971 times past"];
-  囧昔－日 [label = "囧昔－日\n* salad"];
-  艹 [label = "艹\n* flower"];
-  日 [label = "日\n12 day"];
+  E [label = "昔\ntimes past (971)"];
+  C [label = "囧昔－日\nsalad (*)"];
+  B [label = "艹\nflower (*)"];
+  D [label = "日\nday (12)"];
 
-  囧昔－日 -> 昔 [thick];
-  艹 -> 囧昔－日 [thick];
-  日 -> 昔 [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
 }

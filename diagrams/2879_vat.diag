@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  缸 [label = "缸\n2879 vat"];
-  缶 [label = "缶\n* tin can"];
-  午 [label = "午\n542 noon"];
-  山 [label = "山\n688 mountain"];
-  工 [label = "工\n76 work"];
+  F [label = "缸\nvat (2879)"];
+  D [label = "缶\ntin can (*)"];
+  B [label = "午\nnoon (542)"];
+  C [label = "山\nmountain (688)"];
+  E [label = "工\nwork (76)"];
 
-  缶 -> 缸 [thick];
-  午 -> 缶 [thick];
-  山 -> 缶 [thick];
-  工 -> 缸 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

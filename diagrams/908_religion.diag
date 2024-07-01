@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  宗 [label = "宗\n908 religion"];
-  宀 [label = "宀\n* house"];
-  示 [label = "示\n900 show"];
+  D [label = "宗\nreligion (908)"];
+  B [label = "宀\nhouse (*)"];
+  C [label = "示\nshow (900)"];
 
-  宀 -> 宗 [thick];
-  示 -> 宗 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

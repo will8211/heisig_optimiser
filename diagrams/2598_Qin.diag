@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  秦 [label = "秦\n2598 Qin"];
-  "𡗗" [label = "𡗗\n* bonsai"];
-  丰 [label = "丰\n1223 plentiful"];
-  禾 [label = "禾\n762 standing grain"];
+  E [label = "秦\nQin (2598)"];
+  C [label = "𡗗\nbonsai (*)"];
+  B [label = "丰\nplentiful (1223)"];
+  D [label = "禾\nstanding grain (762)"];
 
-  "𡗗" -> 秦 [thick];
-  丰 -> "𡗗" [thick];
-  禾 -> 秦 [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
 }

@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  远 [label = "远\n289 distant"];
-  辶 [label = "辶\n* road"];
-  元 [label = "元\n59 beginning"];
-  二 [label = "二\n2 two"];
-  一 [label = "一\n1 one"];
-  儿 [label = "儿\n56 youngster"];
+  G [label = "远\ndistant (289)"];
+  B [label = "辶\nroad (*)"];
+  F [label = "元\nbeginning (59)"];
+  D [label = "二\ntwo (2)"];
+  C [label = "一\none (1)"];
+  E [label = "儿\nyoungster (56)"];
 
-  辶 -> 远 [thick];
-  元 -> 远 [thick];
-  二 -> 元 [thick];
-  一 -> 二 [thick];
-  儿 -> 元 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

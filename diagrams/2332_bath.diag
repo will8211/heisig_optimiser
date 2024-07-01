@@ -5,26 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  澡 [label = "澡\n2332 bath"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  喿 [label = "喿\n* wood pulp"];
-  品 [label = "品\n24 goods"];
-  晶 [label = "晶\n23 sparkling"];
-  日 [label = "日\n12 day"];
-  口 [label = "口\n11 mouth"];
-  木 [label = "木\n202 tree"];
+  L [label = "澡\nbath (2332)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  K [label = "喿\nwood pulp (*)"];
+  I [label = "品\ngoods (24)"];
+  G [label = "晶\nsparkling (23)"];
+  F [label = "日\nday (12)"];
+  H [label = "口\nmouth (11)"];
+  J [label = "木\ntree (202)"];
 
-  水 -> 澡 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  喿 -> 澡 [thick];
-  品 -> 喿 [thick];
-  晶 -> 品 [thick];
-  日 -> 晶 [thick];
-  口 -> 品 [thick];
-  木 -> 喿 [thick];
+  E -> L [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  K -> L [thick];
+  I -> K [thick];
+  G -> I [thick];
+  F -> G [thick];
+  H -> I [thick];
+  J -> K [thick];
 }

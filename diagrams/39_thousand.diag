@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  千 [label = "千\n39 thousand"];
-  丶 [label = "丶\n* a drop of"];
-  十 [label = "十\n10 ten"];
+  D [label = "千\nthousand (39)"];
+  B [label = "丶\na drop of (*)"];
+  C [label = "十\nten (10)"];
 
-  丶 -> 千 [thick];
-  十 -> 千 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

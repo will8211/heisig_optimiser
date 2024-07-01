@@ -5,30 +5,30 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  输 [label = "输\n305 transport"];
-  辆 [label = "辆\n2939 vehicles"];
-  车 [label = "车\n300 car"];
-  两 [label = "两\n1478 dos"];
-  人 [label = "人\n793 person"];
-  囧冂 [label = "囧冂\n* belt"];
-  巾 [label = "巾\n410 towel"];
-  俞 [label = "俞\n* slaughterhouse"];
-  亼 [label = "亼\n* meeting"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  刖 [label = "刖\n* butcher"];
-  月 [label = "月\n13 month"];
-  刀 [label = "刀\n83 sword"];
+  N [label = "输\ntransport (305)"];
+  G [label = "辆\nvehicles (2939)"];
+  B [label = "车\ncar (300)"];
+  F [label = "两\ndos (1478)"];
+  C [label = "人\nperson (793)"];
+  E [label = "囧冂\nbelt (*)"];
+  D [label = "巾\ntowel (410)"];
+  M [label = "俞\nslaughterhouse (*)"];
+  I [label = "亼\nmeeting (*)"];
+  H [label = "𠆢\numbrella (*)"];
+  L [label = "刖\nbutcher (*)"];
+  J [label = "月\nmonth (13)"];
+  K [label = "刀\nsword (83)"];
 
-  辆 -> 输 [thick];
-  车 -> 辆 [thick];
-  两 -> 辆 [thick];
-  人 -> 两 [thick];
-  囧冂 -> 两 [thick];
-  巾 -> 囧冂 [thick];
-  俞 -> 输 [thick];
-  亼 -> 俞 [thick];
-  "𠆢" -> 亼 [thick];
-  刖 -> 俞 [thick];
-  月 -> 刖 [thick];
-  刀 -> 刖 [thick];
+  G -> N [thick];
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
+  M -> N [thick];
+  I -> M [thick];
+  H -> I [thick];
+  L -> M [thick];
+  J -> L [thick];
+  K -> L [thick];
 }

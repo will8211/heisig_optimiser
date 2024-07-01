@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  陕 [label = "陕\n2346 Shaanxi Province"];
-  阝 [label = "阝\n* pinnacle"];
-  夹 [label = "夹\n1523 press from both sides"];
-  夫 [label = "夫\n726 husband"];
-  大 [label = "大\n113 large"];
-  丷 [label = "丷\n* horns"];
-  一 [label = "一\n1 one"];
+  H [label = "陕\nShaanxi Province (2346)"];
+  B [label = "阝\npinnacle (*)"];
+  G [label = "夹\npress from both sides (1523)"];
+  D [label = "夫\nhusband (726)"];
+  C [label = "大\nlarge (113)"];
+  F [label = "丷\nhorns (*)"];
+  E [label = "一\none (1)"];
 
-  阝 -> 陕 [thick];
-  夹 -> 陕 [thick];
-  夫 -> 夹 [thick];
-  大 -> 夫 [thick];
-  丷 -> 夹 [thick];
-  一 -> 丷 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  D -> G [thick];
+  C -> D [thick];
+  F -> G [thick];
+  E -> F [thick];
 }

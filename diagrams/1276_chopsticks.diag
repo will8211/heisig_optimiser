@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  筷 [label = "筷\n1276 chopsticks"];
-  竹 [label = "竹\n786 bamboo"];
-  丁 [label = "丁\n90 fourth"];
-  快 [label = "快\n1274 fast"];
-  心 [label = "心\n563 heart"];
-  夬 [label = "夬\n* guillotine"];
-  囧侯－亻－矢 [label = "囧侯－亻－矢\n* key"];
-  大 [label = "大\n113 large"];
+  I [label = "筷\nchopsticks (1276)"];
+  C [label = "竹\nbamboo (786)"];
+  B [label = "丁\nfourth (90)"];
+  H [label = "快\nfast (1274)"];
+  D [label = "心\nheart (563)"];
+  G [label = "夬\nguillotine (*)"];
+  E [label = "囧侯－亻－矢\nkey (*)"];
+  F [label = "大\nlarge (113)"];
 
-  竹 -> 筷 [thick];
-  丁 -> 竹 [thick];
-  快 -> 筷 [thick];
-  心 -> 快 [thick];
-  夬 -> 快 [thick];
-  囧侯－亻－矢 -> 夬 [thick];
-  大 -> 夬 [thick];
+  C -> I [thick];
+  B -> C [thick];
+  H -> I [thick];
+  D -> H [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

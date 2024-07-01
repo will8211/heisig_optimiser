@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  托 [label = "托\n1424 entrust"];
-  扌 [label = "扌\n* fingers"];
-  乇 [label = "乇\n* fur ball"];
-  毛 [label = "毛\n1421 fur"];
-  手 [label = "手\n584 hand"];
+  F [label = "托\nentrust (1424)"];
+  B [label = "扌\nfingers (*)"];
+  E [label = "乇\nfur ball (*)"];
+  D [label = "毛\nfur (1421)"];
+  C [label = "手\nhand (584)"];
 
-  扌 -> 托 [thick];
-  乇 -> 托 [thick];
-  毛 -> 乇 [thick];
-  手 -> 毛 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  念 [label = "念\n1246 miss"];
-  今 [label = "今\n1244 now"];
-  亼 [label = "亼\n* meeting"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  心 [label = "心\n563 heart"];
+  F [label = "念\nmiss (1246)"];
+  D [label = "今\nnow (1244)"];
+  C [label = "亼\nmeeting (*)"];
+  B [label = "𠆢\numbrella (*)"];
+  E [label = "心\nheart (563)"];
 
-  今 -> 念 [thick];
-  亼 -> 今 [thick];
-  "𠆢" -> 亼 [thick];
-  心 -> 念 [thick];
+  D -> F [thick];
+  C -> D [thick];
+  B -> C [thick];
+  E -> F [thick];
 }

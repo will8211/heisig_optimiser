@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  霉 [label = "霉\n1714 mildew"];
-  雨 [label = "雨\n425 rain"];
-  每 [label = "每\n467 every"];
-  "𠂉" [label = "𠂉\n* reclining"];
-  母 [label = "母\n105 mother"];
-  女 [label = "女\n102 woman"];
+  G [label = "霉\nmildew (1714)"];
+  B [label = "雨\nrain (425)"];
+  F [label = "每\nevery (467)"];
+  C [label = "𠂉\nreclining (*)"];
+  E [label = "母\nmother (105)"];
+  D [label = "女\nwoman (102)"];
 
-  雨 -> 霉 [thick];
-  每 -> 霉 [thick];
-  "𠂉" -> 每 [thick];
-  母 -> 每 [thick];
-  女 -> 母 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
 }

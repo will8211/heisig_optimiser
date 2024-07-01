@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  囧酱－酉 [label = "囧酱－酉\n* chocolate turtle"];
-  兆 [label = "兆\n237 portent"];
-  夕 [label = "夕\n115 evening"];
-  月 [label = "月\n13 month"];
+  E [label = "囧酱－酉\nchocolate turtle (*)"];
+  B [label = "兆\nportent (237)"];
+  D [label = "夕\nevening (115)"];
+  C [label = "月\nmonth (13)"];
 
-  兆 -> 囧酱－酉 [thick];
-  夕 -> 囧酱－酉 [thick];
-  月 -> 夕 [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

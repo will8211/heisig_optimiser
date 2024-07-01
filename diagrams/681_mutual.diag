@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  互 [label = "互\n681 mutual"];
-  囧会－亼 [label = "囧会－亼\n* wall"];
-  厶 [label = "厶\n* elbow"];
-  一 [label = "一\n1 one"];
+  E [label = "互\nmutual (681)"];
+  D [label = "囧会－亼\nwall (*)"];
+  B [label = "厶\nelbow (*)"];
+  C [label = "一\none (1)"];
 
-  囧会－亼 -> 互 [thick];
-  厶 -> 囧会－亼 [thick];
-  一 -> 囧会－亼 [thick];
+  D -> E [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

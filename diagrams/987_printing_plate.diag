@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  版 [label = "版\n987 printing plate"];
-  片 [label = "片\n986 slice"];
-  反 [label = "反\n656 against"];
-  "𠂆" [label = "𠂆\n* drag"];
-  又 [label = "又\n633 again"];
+  F [label = "版\nprinting plate (987)"];
+  B [label = "片\nslice (986)"];
+  E [label = "反\nagainst (656)"];
+  C [label = "𠂆\ndrag (*)"];
+  D [label = "又\nagain (633)"];
 
-  片 -> 版 [thick];
-  反 -> 版 [thick];
-  "𠂆" -> 反 [thick];
-  又 -> 反 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

@@ -5,23 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  搬 [label = "搬\n1398 relocate"];
-  扌 [label = "扌\n* fingers"];
-  般 [label = "般\n1396 sort"];
-  舟 [label = "舟\n1394 boat"];
-  丶 [label = "丶\n* a drop of"];
-  冂 [label = "冂\n* hood"];
-  几 [label = "几\n57 how many?"];
-  殳 [label = "殳\n* missile"];
-  又 [label = "又\n633 again"];
+  K [label = "搬\nrelocate (1398)"];
+  B [label = "扌\nfingers (*)"];
+  J [label = "般\nsort (1396)"];
+  F [label = "舟\nboat (1394)"];
+  C [label = "丶\na drop of (*)"];
+  E [label = "冂\nhood (*)"];
+  D [label = "几\nhow many? (57)"];
+  I [label = "殳\nmissile (*)"];
+  G [label = "几\nhow many? (57)"];
+  H [label = "又\nagain (633)"];
 
-  扌 -> 搬 [thick];
-  般 -> 搬 [thick];
-  舟 -> 般 [thick];
-  丶 -> 舟 [thick];
-  冂 -> 舟 [thick];
-  几 -> 冂 [thick];
-  殳 -> 般 [thick];
-  几 -> 殳 [thick];
-  又 -> 殳 [thick];
+  B -> K [thick];
+  J -> K [thick];
+  F -> J [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
+  I -> J [thick];
+  G -> I [thick];
+  H -> I [thick];
 }

@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  盏 [label = "盏\n2491 small cup"];
-  戋 [label = "戋\n* float"];
-  戈 [label = "戈\n361 halberd"];
-  弋 [label = "弋\n* arrow"];
-  皿 [label = "皿\n* dish"];
+  F [label = "盏\nsmall cup (2491)"];
+  D [label = "戋\nfloat (*)"];
+  C [label = "戈\nhalberd (361)"];
+  B [label = "弋\narrow (*)"];
+  E [label = "皿\ndish (*)"];
 
-  戋 -> 盏 [thick];
-  戈 -> 戋 [thick];
-  弋 -> 戈 [thick];
-  皿 -> 盏 [thick];
+  D -> F [thick];
+  C -> D [thick];
+  B -> C [thick];
+  E -> F [thick];
 }

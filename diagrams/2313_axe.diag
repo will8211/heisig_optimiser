@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  斧 [label = "斧\n2313 axe"];
-  父 [label = "父\n1043 father"];
-  丶 [label = "丶\n* a drop of"];
-  斤 [label = "斤\n924 catty"];
+  E [label = "斧\naxe (2313)"];
+  C [label = "父\nfather (1043)"];
+  B [label = "丶\na drop of (*)"];
+  D [label = "斤\ncatty (924)"];
 
-  父 -> 斧 [thick];
-  丶 -> 父 [thick];
-  斤 -> 斧 [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
 }

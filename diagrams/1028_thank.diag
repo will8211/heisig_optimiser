@@ -5,28 +5,30 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  谢 [label = "谢\n1028 thank"];
-  言 [label = "言\n346 say"];
-  二 [label = "二\n2 two"];
-  一 [label = "一\n1 one"];
-  口 [label = "口\n11 mouth"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  由 [label = "由\n913 wherefore"];
-  田 [label = "田\n14 rice field"];
+  N [label = "谢\nthank (1028)"];
+  K [label = "言\nsay (346)"];
+  C [label = "二\ntwo (2)"];
+  B [label = "一\none (1)"];
+  D [label = "口\nmouth (11)"];
+  J [label = "亠\ntop hat (*)"];
+  G [label = "六\nsix (6)"];
+  F [label = "囧只－口\nanimal legs (*)"];
+  E [label = "八\neight (8)"];
+  I [label = "囧只－口\nanimal legs (*)"];
+  H [label = "八\neight (8)"];
+  M [label = "由\nwherefore (913)"];
+  L [label = "田\nrice field (14)"];
 
-  言 -> 谢 [thick];
-  二 -> 言 [thick];
-  一 -> 二 [thick];
-  口 -> 言 [thick];
-  亠 -> 言 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
-  由 -> 谢 [thick];
-  田 -> 由 [thick];
+  K -> N [thick];
+  C -> K [thick];
+  B -> C [thick];
+  D -> K [thick];
+  J -> K [thick];
+  G -> J [thick];
+  F -> G [thick];
+  E -> F [thick];
+  I -> J [thick];
+  H -> I [thick];
+  M -> N [thick];
+  L -> M [thick];
 }

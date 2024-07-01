@@ -5,27 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  凑 [label = "凑\n2597 gather together"];
-  冫 [label = "冫\n* ice"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  奏 [label = "奏\n2596 play an instrument"];
-  "𡗗" [label = "𡗗\n* bonsai"];
-  丰 [label = "丰\n1223 plentiful"];
-  天 [label = "天\n436 heavens"];
-  大 [label = "大\n113 large"];
+  M [label = "凑\ngather together (2597)"];
+  F [label = "冫\nice (*)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  L [label = "奏\nplay an instrument (2596)"];
+  H [label = "𡗗\nbonsai (*)"];
+  G [label = "丰\nplentiful (1223)"];
+  K [label = "天\nheavens (436)"];
+  I [label = "一\none (1)"];
+  J [label = "大\nlarge (113)"];
 
-  冫 -> 凑 [thick];
-  水 -> 冫 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  奏 -> 凑 [thick];
-  "𡗗" -> 奏 [thick];
-  丰 -> "𡗗" [thick];
-  天 -> 奏 [thick];
-  一 -> 天 [thick];
-  大 -> 天 [thick];
+  F -> M [thick];
+  E -> F [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  L -> M [thick];
+  H -> L [thick];
+  G -> H [thick];
+  K -> L [thick];
+  I -> K [thick];
+  J -> K [thick];
 }

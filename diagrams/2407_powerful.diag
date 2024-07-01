@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  劲 [label = "劲\n2407 powerful"];
-  "𢀖" [label = "𢀖\n* spool"];
-  工 [label = "工\n76 work"];
-  人 [label = "人\n793 person"];
-  肌 [label = "肌\n63 muscle"];
-  几 [label = "几\n57 how many?"];
-  月 [label = "月\n13 month"];
+  H [label = "劲\npowerful (2407)"];
+  D [label = "𢀖\nspool (*)"];
+  B [label = "工\nwork (76)"];
+  C [label = "人\nperson (793)"];
+  G [label = "肌\nmuscle (63)"];
+  E [label = "几\nhow many? (57)"];
+  F [label = "月\nmonth (13)"];
 
-  "𢀖" -> 劲 [thick];
-  工 -> "𢀖" [thick];
-  人 -> "𢀖" [thick];
-  肌 -> 劲 [thick];
-  几 -> 肌 [thick];
-  月 -> 肌 [thick];
+  D -> H [thick];
+  B -> D [thick];
+  C -> D [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

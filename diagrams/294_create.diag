@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  造 [label = "造\n294 create"];
-  告 [label = "告\n254 declare"];
-  牛 [label = "牛\n252 cow"];
-  口 [label = "口\n11 mouth"];
-  辶 [label = "辶\n* road"];
+  F [label = "造\ncreate (294)"];
+  D [label = "告\ndeclare (254)"];
+  B [label = "牛\ncow (252)"];
+  C [label = "口\nmouth (11)"];
+  E [label = "辶\nroad (*)"];
 
-  告 -> 造 [thick];
-  牛 -> 告 [thick];
-  口 -> 告 [thick];
-  辶 -> 造 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  拳 [label = "拳\n985 boxing"];
-  囧眷－目 [label = "囧眷－目\n* quarter"];
-  半 [label = "半\n980 half"];
-  手 [label = "手\n584 hand"];
+  E [label = "拳\nboxing (985)"];
+  C [label = "囧眷－目\nquarter (*)"];
+  B [label = "半\nhalf (980)"];
+  D [label = "手\nhand (584)"];
 
-  囧眷－目 -> 拳 [thick];
-  半 -> 囧眷－目 [thick];
-  手 -> 拳 [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
 }

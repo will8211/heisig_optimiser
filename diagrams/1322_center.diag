@@ -5,8 +5,8 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  央 [label = "央\n1322 center"];
-  大 [label = "大\n113 large"];
+  C [label = "央\ncenter (1322)"];
+  B [label = "大\nlarge (113)"];
 
-  大 -> 央 [thick];
+  B -> C [thick];
 }

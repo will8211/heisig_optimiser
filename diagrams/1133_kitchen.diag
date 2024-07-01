@@ -5,27 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  厨 [label = "厨\n1133 kitchen"];
-  厂 [label = "厂\n121 factory"];
-  桌 [label = "桌\n224 table"];
-  木 [label = "木\n202 tree"];
-  日 [label = "日\n12 day"];
-  卜 [label = "卜\n43 divination"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  寸 [label = "寸\n166 Chinese inch"];
-  十 [label = "十\n10 ten"];
+  M [label = "厨\nkitchen (1133)"];
+  B [label = "厂\nfactory (121)"];
+  I [label = "桌\ntable (224)"];
+  C [label = "木\ntree (202)"];
+  D [label = "日\nday (12)"];
+  H [label = "卜\ndivination (43)"];
+  F [label = "丨\nwalking stick (*)"];
+  E [label = "一\none (1)"];
+  G [label = "丶\na drop of (*)"];
+  L [label = "寸\nChinese inch (166)"];
+  J [label = "丶\na drop of (*)"];
+  K [label = "十\nten (10)"];
 
-  厂 -> 厨 [thick];
-  桌 -> 厨 [thick];
-  木 -> 桌 [thick];
-  日 -> 桌 [thick];
-  卜 -> 桌 [thick];
-  丨 -> 卜 [thick];
-  一 -> 丨 [thick];
-  丶 -> 卜 [thick];
-  寸 -> 厨 [thick];
-  丶 -> 寸 [thick];
-  十 -> 寸 [thick];
+  B -> M [thick];
+  I -> M [thick];
+  C -> I [thick];
+  D -> I [thick];
+  H -> I [thick];
+  F -> H [thick];
+  E -> F [thick];
+  G -> H [thick];
+  L -> M [thick];
+  J -> L [thick];
+  K -> L [thick];
 }

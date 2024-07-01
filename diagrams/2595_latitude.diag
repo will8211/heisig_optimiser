@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  纬 [label = "纬\n2595 latitude"];
-  纟 [label = "纟\n* thread"];
-  厶 [label = "厶\n* elbow"];
-  韦 [label = "韦\n1227 tanned hide"];
+  E [label = "纬\nlatitude (2595)"];
+  C [label = "纟\nthread (*)"];
+  B [label = "厶\nelbow (*)"];
+  D [label = "韦\ntanned hide (1227)"];
 
-  纟 -> 纬 [thick];
-  厶 -> 纟 [thick];
-  韦 -> 纬 [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
 }

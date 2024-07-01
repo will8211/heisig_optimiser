@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  期 [label = "期\n1336 period of time"];
-  其 [label = "其\n1335 his-hers-its-theirs"];
-  甘 [label = "甘\n1333 sweet"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  月 [label = "月\n13 month"];
+  G [label = "期\nperiod of time (1336)"];
+  E [label = "其\nhis-hers-its-theirs (1335)"];
+  B [label = "甘\nsweet (1333)"];
+  D [label = "囧只－口\nanimal legs (*)"];
+  C [label = "八\neight (8)"];
+  F [label = "月\nmonth (13)"];
 
-  其 -> 期 [thick];
-  甘 -> 其 [thick];
-  囧只－口 -> 其 [thick];
-  八 -> 囧只－口 [thick];
-  月 -> 期 [thick];
+  E -> G [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
+  F -> G [thick];
 }

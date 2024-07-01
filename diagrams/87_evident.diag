@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  昭 [label = "昭\n87 evident"];
-  召 [label = "召\n86 summon"];
-  刀 [label = "刀\n83 sword"];
-  口 [label = "口\n11 mouth"];
-  日 [label = "日\n12 day"];
+  F [label = "昭\nevident (87)"];
+  D [label = "召\nsummon (86)"];
+  B [label = "刀\nsword (83)"];
+  C [label = "口\nmouth (11)"];
+  E [label = "日\nday (12)"];
 
-  召 -> 昭 [thick];
-  刀 -> 召 [thick];
-  口 -> 召 [thick];
-  日 -> 昭 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

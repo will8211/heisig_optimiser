@@ -5,30 +5,30 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  矩 [label = "矩\n2685 square"];
-  矢 [label = "矢\n998 dart"];
-  天 [label = "天\n436 heavens"];
-  一 [label = "一\n1 one"];
-  大 [label = "大\n113 large"];
-  丶 [label = "丶\n* a drop of"];
-  巨 [label = "巨\n2681 gigantic"];
-  箱 [label = "箱\n788 box"];
-  竹 [label = "竹\n786 bamboo"];
-  丁 [label = "丁\n90 fourth"];
-  相 [label = "相\n212 one another"];
-  木 [label = "木\n202 tree"];
-  目 [label = "目\n15 eye"];
+  N [label = "矩\nsquare (2685)"];
+  F [label = "矢\ndart (998)"];
+  D [label = "天\nheavens (436)"];
+  B [label = "一\none (1)"];
+  C [label = "大\nlarge (113)"];
+  E [label = "丶\na drop of (*)"];
+  M [label = "巨\ngigantic (2681)"];
+  L [label = "箱\nbox (788)"];
+  H [label = "竹\nbamboo (786)"];
+  G [label = "丁\nfourth (90)"];
+  K [label = "相\none another (212)"];
+  I [label = "木\ntree (202)"];
+  J [label = "目\neye (15)"];
 
-  矢 -> 矩 [thick];
-  天 -> 矢 [thick];
-  一 -> 天 [thick];
-  大 -> 天 [thick];
-  丶 -> 矢 [thick];
-  巨 -> 矩 [thick];
-  箱 -> 巨 [thick];
-  竹 -> 箱 [thick];
-  丁 -> 竹 [thick];
-  相 -> 箱 [thick];
-  木 -> 相 [thick];
-  目 -> 相 [thick];
+  F -> N [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
+  M -> N [thick];
+  L -> M [thick];
+  H -> L [thick];
+  G -> H [thick];
+  K -> L [thick];
+  I -> K [thick];
+  J -> K [thick];
 }

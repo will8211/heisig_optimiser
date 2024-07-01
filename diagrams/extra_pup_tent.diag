@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  尞 [label = "尞\n* pup tent"];
-  大 [label = "大\n113 large"];
-  癶 [label = "癶\n* teepee"];
-  日 [label = "日\n12 day"];
-  小 [label = "小\n109 small"];
-  丶 [label = "丶\n* a drop of"];
+  G [label = "尞\npup tent (*)"];
+  B [label = "大\nlarge (113)"];
+  C [label = "癶\nteepee (*)"];
+  D [label = "日\nday (12)"];
+  F [label = "小\nsmall (109)"];
+  E [label = "丶\na drop of (*)"];
 
-  大 -> 尞 [thick];
-  癶 -> 尞 [thick];
-  日 -> 尞 [thick];
-  小 -> 尞 [thick];
-  丶 -> 小 [thick];
+  B -> G [thick];
+  C -> G [thick];
+  D -> G [thick];
+  F -> G [thick];
+  E -> F [thick];
 }

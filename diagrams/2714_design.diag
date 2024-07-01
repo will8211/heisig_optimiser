@@ -5,24 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  纹 [label = "纹\n2714 design"];
-  纟 [label = "纟\n* thread"];
-  厶 [label = "厶\n* elbow"];
-  文 [label = "文\n1315 literature"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  "㐅" [label = "㐅\n* sheaf"];
+  L [label = "纹\ndesign (2714)"];
+  C [label = "纟\nthread (*)"];
+  B [label = "厶\nelbow (*)"];
+  K [label = "文\nliterature (1315)"];
+  I [label = "亠\ntop hat (*)"];
+  F [label = "六\nsix (6)"];
+  E [label = "囧只－口\nanimal legs (*)"];
+  D [label = "八\neight (8)"];
+  H [label = "囧只－口\nanimal legs (*)"];
+  G [label = "八\neight (8)"];
+  J [label = "㐅\nsheaf (*)"];
 
-  纟 -> 纹 [thick];
-  厶 -> 纟 [thick];
-  文 -> 纹 [thick];
-  亠 -> 文 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
-  "㐅" -> 文 [thick];
+  C -> L [thick];
+  B -> C [thick];
+  K -> L [thick];
+  I -> K [thick];
+  F -> I [thick];
+  E -> F [thick];
+  D -> E [thick];
+  H -> I [thick];
+  G -> H [thick];
+  J -> K [thick];
 }

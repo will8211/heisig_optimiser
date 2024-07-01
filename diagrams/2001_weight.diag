@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  衡 [label = "衡\n2001 weight"];
-  行 [label = "行\n754 line of business"];
-  大 [label = "大\n113 large"];
-  鱼 [label = "鱼\n154 fish"];
-  勹 [label = "勹\n* bound up"];
-  田 [label = "田\n14 rice field"];
-  一 [label = "一\n1 one"];
+  H [label = "衡\nweight (2001)"];
+  B [label = "行\nline of business (754)"];
+  C [label = "大\nlarge (113)"];
+  G [label = "鱼\nfish (154)"];
+  D [label = "勹\nbound up (*)"];
+  E [label = "田\nrice field (14)"];
+  F [label = "一\none (1)"];
 
-  行 -> 衡 [thick];
-  大 -> 衡 [thick];
-  鱼 -> 衡 [thick];
-  勹 -> 鱼 [thick];
-  田 -> 鱼 [thick];
-  一 -> 鱼 [thick];
+  B -> H [thick];
+  C -> H [thick];
+  G -> H [thick];
+  D -> G [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  篷 [label = "篷\n2587 awning"];
-  竹 [label = "竹\n786 bamboo"];
-  丁 [label = "丁\n90 fourth"];
-  逢 [label = "逢\n2584 chance upon"];
-  夆 [label = "夆\n* briar"];
-  丰 [label = "丰\n1223 plentiful"];
-  夂 [label = "夂\n* walking legs"];
-  辶 [label = "辶\n* road"];
+  I [label = "篷\nawning (2587)"];
+  C [label = "竹\nbamboo (786)"];
+  B [label = "丁\nfourth (90)"];
+  H [label = "逢\nchance upon (2584)"];
+  F [label = "夆\nbriar (*)"];
+  D [label = "丰\nplentiful (1223)"];
+  E [label = "夂\nwalking legs (*)"];
+  G [label = "辶\nroad (*)"];
 
-  竹 -> 篷 [thick];
-  丁 -> 竹 [thick];
-  逢 -> 篷 [thick];
-  夆 -> 逢 [thick];
-  丰 -> 夆 [thick];
-  夂 -> 夆 [thick];
-  辶 -> 逢 [thick];
+  C -> I [thick];
+  B -> C [thick];
+  H -> I [thick];
+  F -> H [thick];
+  D -> F [thick];
+  E -> F [thick];
+  G -> H [thick];
 }

@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  查 [label = "查\n220 investigate"];
-  旦 [label = "旦\n30 daybreak"];
-  日 [label = "日\n12 day"];
-  一 [label = "一\n1 one"];
-  木 [label = "木\n202 tree"];
+  F [label = "查\ninvestigate (220)"];
+  D [label = "旦\ndaybreak (30)"];
+  B [label = "日\nday (12)"];
+  C [label = "一\none (1)"];
+  E [label = "木\ntree (202)"];
 
-  旦 -> 查 [thick];
-  日 -> 旦 [thick];
-  一 -> 旦 [thick];
-  木 -> 查 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

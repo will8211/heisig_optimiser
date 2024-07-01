@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  豹 [label = "豹\n1902 leopard"];
-  豸 [label = "豸\n* leopard"];
-  爪 [label = "爪\n663 claw"];
-  "𠂆" [label = "𠂆\n* drag"];
-  豕 [label = "豕\n* sow"];
-  勺 [label = "勺\n69 ladle"];
-  勹 [label = "勹\n* bound up"];
-  丶 [label = "丶\n* a drop of"];
+  I [label = "豹\nleopard (1902)"];
+  E [label = "豸\nleopard (*)"];
+  C [label = "爪\nclaw (663)"];
+  B [label = "𠂆\ndrag (*)"];
+  D [label = "豕\nsow (*)"];
+  H [label = "勺\nladle (69)"];
+  F [label = "勹\nbound up (*)"];
+  G [label = "丶\na drop of (*)"];
 
-  豸 -> 豹 [thick];
-  爪 -> 豸 [thick];
-  "𠂆" -> 爪 [thick];
-  豕 -> 豸 [thick];
-  勺 -> 豹 [thick];
-  勹 -> 勺 [thick];
-  丶 -> 勺 [thick];
+  E -> I [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  H -> I [thick];
+  F -> H [thick];
+  G -> H [thick];
 }

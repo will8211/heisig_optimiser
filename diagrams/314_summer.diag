@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  夏 [label = "夏\n314 summer"];
-  自 [label = "自\n33 oneself"];
-  丶 [label = "丶\n* a drop of"];
-  目 [label = "目\n15 eye"];
-  一 [label = "一\n1 one"];
-  夂 [label = "夂\n* walking legs"];
+  G [label = "夏\nsummer (314)"];
+  D [label = "自\noneself (33)"];
+  B [label = "丶\na drop of (*)"];
+  C [label = "目\neye (15)"];
+  E [label = "一\none (1)"];
+  F [label = "夂\nwalking legs (*)"];
 
-  自 -> 夏 [thick];
-  丶 -> 自 [thick];
-  目 -> 自 [thick];
-  一 -> 夏 [thick];
-  夂 -> 夏 [thick];
+  D -> G [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

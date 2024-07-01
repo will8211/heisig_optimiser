@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  普 [label = "普\n1348 universal"];
-  並 [label = "並\n* side by side"];
-  日 [label = "日\n12 day"];
+  D [label = "普\nuniversal (1348)"];
+  B [label = "並\nside by side (*)"];
+  C [label = "日\nday (12)"];
 
-  並 -> 普 [thick];
-  日 -> 普 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

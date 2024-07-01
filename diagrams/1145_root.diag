@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  根 [label = "根\n1145 root"];
-  木 [label = "木\n202 tree"];
-  艮 [label = "艮\n* silver"];
+  D [label = "根\nroot (1145)"];
+  B [label = "木\ntree (202)"];
+  C [label = "艮\nsilver (*)"];
 
-  木 -> 根 [thick];
-  艮 -> 根 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

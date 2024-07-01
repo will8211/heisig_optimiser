@@ -8,16 +8,6 @@ SPAN_WIDTH = 250  # default value is 64
 SPAN_HEIGHT = 150  # default value is 40
 
 
-def sanitize_cjk(string):
-    if not string:
-        return string
-    for char in string:
-        if not char == "－" and not "\u4E00" <= char <= "\u9FFF":
-            # return str(sum([ord(x) for x in string]))
-            return f'"{string}"'
-    return string
-
-
 # Function to recursively parse requirements
 def parse_requirements(node, parent_id=None, connections=None, labels=None):
     if connections is None:
@@ -25,19 +15,17 @@ def parse_requirements(node, parent_id=None, connections=None, labels=None):
     if labels is None:
         labels = {}
 
-    current_character = node["character"]
-    safe_current_character = sanitize_cjk(current_character)
-    safe_parent_id = sanitize_cjk(parent_id)
     number = str(node["number"]) if node["number"] else "*"
-    current_label = f"{node['character']}\\n{number} {node['keyword']}"
-    labels[safe_current_character] = current_label
+    current_label = f"{node['character']}\\n{node['keyword']} ({number})"
+    current_id = node["id"]
+    labels[current_id] = current_label
 
     if parent_id:
-        connections.append(f"{safe_current_character} -> {safe_parent_id} [thick];")
+        connections.append(f"{current_id} -> {parent_id} [thick];")
 
     if "requirements" in node:
         for req in node["requirements"]:
-            parse_requirements(req, current_character, connections, labels)
+            parse_requirements(req, current_id, connections, labels)
 
     return connections, labels
 

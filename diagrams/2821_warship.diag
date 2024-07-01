@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  舰 [label = "舰\n2821 warship"];
-  舟 [label = "舟\n1394 boat"];
-  丶 [label = "丶\n* a drop of"];
-  冂 [label = "冂\n* hood"];
-  几 [label = "几\n57 how many?"];
-  见 [label = "见\n58 see"];
-  目 [label = "目\n15 eye"];
-  儿 [label = "儿\n56 youngster"];
+  I [label = "舰\nwarship (2821)"];
+  E [label = "舟\nboat (1394)"];
+  B [label = "丶\na drop of (*)"];
+  D [label = "冂\nhood (*)"];
+  C [label = "几\nhow many? (57)"];
+  H [label = "见\nsee (58)"];
+  F [label = "目\neye (15)"];
+  G [label = "儿\nyoungster (56)"];
 
-  舟 -> 舰 [thick];
-  丶 -> 舟 [thick];
-  冂 -> 舟 [thick];
-  几 -> 冂 [thick];
-  见 -> 舰 [thick];
-  目 -> 见 [thick];
-  儿 -> 见 [thick];
+  E -> I [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
+  H -> I [thick];
+  F -> H [thick];
+  G -> H [thick];
 }

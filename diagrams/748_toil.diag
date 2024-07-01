@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  努 [label = "努\n748 toil"];
-  奴 [label = "奴\n747 slave"];
-  女 [label = "女\n102 woman"];
-  又 [label = "又\n633 again"];
-  肌 [label = "肌\n63 muscle"];
-  几 [label = "几\n57 how many?"];
-  月 [label = "月\n13 month"];
+  H [label = "努\ntoil (748)"];
+  D [label = "奴\nslave (747)"];
+  B [label = "女\nwoman (102)"];
+  C [label = "又\nagain (633)"];
+  G [label = "肌\nmuscle (63)"];
+  E [label = "几\nhow many? (57)"];
+  F [label = "月\nmonth (13)"];
 
-  奴 -> 努 [thick];
-  女 -> 奴 [thick];
-  又 -> 奴 [thick];
-  肌 -> 努 [thick];
-  几 -> 肌 [thick];
-  月 -> 肌 [thick];
+  D -> H [thick];
+  B -> D [thick];
+  C -> D [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

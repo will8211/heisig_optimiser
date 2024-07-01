@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  重 [label = "重\n1290 heavy"];
-  千 [label = "千\n39 thousand"];
-  丶 [label = "丶\n* a drop of"];
-  十 [label = "十\n10 ten"];
-  里 [label = "里\n179 li"];
-  田 [label = "田\n14 rice field"];
-  土 [label = "土\n158 soil"];
+  H [label = "重\nheavy (1290)"];
+  D [label = "千\nthousand (39)"];
+  B [label = "丶\na drop of (*)"];
+  C [label = "十\nten (10)"];
+  G [label = "里\nli (179)"];
+  E [label = "田\nrice field (14)"];
+  F [label = "土\nsoil (158)"];
 
-  千 -> 重 [thick];
-  丶 -> 千 [thick];
-  十 -> 千 [thick];
-  里 -> 重 [thick];
-  田 -> 里 [thick];
-  土 -> 里 [thick];
+  D -> H [thick];
+  B -> D [thick];
+  C -> D [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

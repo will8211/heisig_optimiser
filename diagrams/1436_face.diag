@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  脸 [label = "脸\n1436 face"];
-  月 [label = "月\n13 month"];
-  佥 [label = "佥\n* hootenanny"];
-  亼 [label = "亼\n* meeting"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  囧应－广 [label = "囧应－广\n* owl"];
-  一 [label = "一\n1 one"];
+  H [label = "脸\nface (1436)"];
+  B [label = "月\nmonth (13)"];
+  G [label = "佥\nhootenanny (*)"];
+  D [label = "亼\nmeeting (*)"];
+  C [label = "𠆢\numbrella (*)"];
+  E [label = "囧应－广\nowl (*)"];
+  F [label = "一\none (1)"];
 
-  月 -> 脸 [thick];
-  佥 -> 脸 [thick];
-  亼 -> 佥 [thick];
-  "𠆢" -> 亼 [thick];
-  囧应－广 -> 佥 [thick];
-  一 -> 佥 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  D -> G [thick];
+  C -> D [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

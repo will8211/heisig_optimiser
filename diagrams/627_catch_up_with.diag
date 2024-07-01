@@ -5,8 +5,8 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  及 [label = "及\n627 catch up with"];
-  乃 [label = "乃\n625 only then"];
+  C [label = "及\ncatch up with (627)"];
+  B [label = "乃\nonly then (625)"];
 
-  乃 -> 及 [thick];
+  B -> C [thick];
 }

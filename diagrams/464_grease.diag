@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  脂 [label = "脂\n464 grease"];
-  旨 [label = "旨\n463 purpose"];
-  匕 [label = "匕\n453 ancient spoon"];
-  日 [label = "日\n12 day"];
-  体 [label = "体\n813 body"];
-  人 [label = "人\n793 person"];
-  本 [label = "本\n213 notebook"];
-  木 [label = "木\n202 tree"];
+  I [label = "脂\ngrease (464)"];
+  D [label = "旨\npurpose (463)"];
+  B [label = "匕\nancient spoon (453)"];
+  C [label = "日\nday (12)"];
+  H [label = "体\nbody (813)"];
+  E [label = "人\nperson (793)"];
+  G [label = "本\nnotebook (213)"];
+  F [label = "木\ntree (202)"];
 
-  旨 -> 脂 [thick];
-  匕 -> 旨 [thick];
-  日 -> 旨 [thick];
-  体 -> 脂 [thick];
-  人 -> 体 [thick];
-  本 -> 体 [thick];
-  木 -> 本 [thick];
+  D -> I [thick];
+  B -> D [thick];
+  C -> D [thick];
+  H -> I [thick];
+  E -> H [thick];
+  G -> H [thick];
+  F -> G [thick];
 }

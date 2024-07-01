@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  弄 [label = "弄\n615 play with"];
-  玉 [label = "玉\n266 jade"];
-  王 [label = "王\n265 king"];
-  工 [label = "工\n76 work"];
-  丶 [label = "丶\n* a drop of"];
-  开 [label = "开\n613 open"];
-  二 [label = "二\n2 two"];
-  一 [label = "一\n1 one"];
+  I [label = "弄\nplay with (615)"];
+  E [label = "玉\njade (266)"];
+  C [label = "王\nking (265)"];
+  B [label = "工\nwork (76)"];
+  D [label = "丶\na drop of (*)"];
+  H [label = "开\nopen (613)"];
+  G [label = "二\ntwo (2)"];
+  F [label = "一\none (1)"];
 
-  玉 -> 弄 [thick];
-  王 -> 玉 [thick];
-  工 -> 王 [thick];
-  丶 -> 玉 [thick];
-  开 -> 弄 [thick];
-  二 -> 开 [thick];
-  一 -> 二 [thick];
+  E -> I [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  H -> I [thick];
+  G -> H [thick];
+  F -> G [thick];
 }

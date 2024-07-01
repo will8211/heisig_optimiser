@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  屁 [label = "屁\n2142 fart"];
-  尸 [label = "尸\n882 corpse"];
-  比 [label = "比\n456 compare"];
-  匕 [label = "匕\n453 ancient spoon"];
+  E [label = "屁\nfart (2142)"];
+  B [label = "尸\ncorpse (882)"];
+  D [label = "比\ncompare (456)"];
+  C [label = "匕\nancient spoon (453)"];
 
-  尸 -> 屁 [thick];
-  比 -> 屁 [thick];
-  匕 -> 比 [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

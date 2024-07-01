@@ -5,8 +5,8 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  末 [label = "末\n216 last"];
-  木 [label = "木\n202 tree"];
+  C [label = "末\nlast (216)"];
+  B [label = "木\ntree (202)"];
 
-  木 -> 末 [thick];
+  B -> C [thick];
 }

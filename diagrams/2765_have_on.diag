@@ -5,26 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  戴 [label = "戴\n2765 have on"];
-  囧载－车 [label = "囧载－车\n* Thanksgiving"];
-  土 [label = "土\n158 soil"];
-  戈 [label = "戈\n361 halberd"];
-  弋 [label = "弋\n* arrow"];
-  田 [label = "田\n14 rice field"];
-  共 [label = "共\n1354 together"];
-  囧昔－日 [label = "囧昔－日\n* salad"];
-  艹 [label = "艹\n* flower"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
+  L [label = "戴\nhave on (2765)"];
+  E [label = "囧载－车\nThanksgiving (*)"];
+  B [label = "土\nsoil (158)"];
+  D [label = "戈\nhalberd (361)"];
+  C [label = "弋\narrow (*)"];
+  F [label = "田\nrice field (14)"];
+  K [label = "共\ntogether (1354)"];
+  H [label = "囧昔－日\nsalad (*)"];
+  G [label = "艹\nflower (*)"];
+  J [label = "囧只－口\nanimal legs (*)"];
+  I [label = "八\neight (8)"];
 
-  囧载－车 -> 戴 [thick];
-  土 -> 囧载－车 [thick];
-  戈 -> 囧载－车 [thick];
-  弋 -> 戈 [thick];
-  田 -> 戴 [thick];
-  共 -> 戴 [thick];
-  囧昔－日 -> 共 [thick];
-  艹 -> 囧昔－日 [thick];
-  囧只－口 -> 共 [thick];
-  八 -> 囧只－口 [thick];
+  E -> L [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
+  F -> L [thick];
+  K -> L [thick];
+  H -> K [thick];
+  G -> H [thick];
+  J -> K [thick];
+  I -> J [thick];
 }

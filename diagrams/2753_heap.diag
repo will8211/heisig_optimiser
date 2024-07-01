@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  叠 [label = "叠\n2753 heap"];
-  又 [label = "又\n633 again"];
-  冖 [label = "冖\n* crown"];
-  架 [label = "架\n751 shelf"];
-  加 [label = "加\n749 add"];
-  肌 [label = "肌\n63 muscle"];
-  几 [label = "几\n57 how many?"];
-  月 [label = "月\n13 month"];
-  口 [label = "口\n11 mouth"];
-  木 [label = "木\n202 tree"];
+  K [label = "叠\nheap (2753)"];
+  B [label = "又\nagain (633)"];
+  C [label = "冖\ncrown (*)"];
+  J [label = "架\nshelf (751)"];
+  H [label = "加\nadd (749)"];
+  F [label = "肌\nmuscle (63)"];
+  D [label = "几\nhow many? (57)"];
+  E [label = "月\nmonth (13)"];
+  G [label = "口\nmouth (11)"];
+  I [label = "木\ntree (202)"];
 
-  又 -> 叠 [thick];
-  冖 -> 叠 [thick];
-  架 -> 叠 [thick];
-  加 -> 架 [thick];
-  肌 -> 加 [thick];
-  几 -> 肌 [thick];
-  月 -> 肌 [thick];
-  口 -> 加 [thick];
-  木 -> 架 [thick];
+  B -> K [thick];
+  C -> K [thick];
+  J -> K [thick];
+  H -> J [thick];
+  F -> H [thick];
+  D -> F [thick];
+  E -> F [thick];
+  G -> H [thick];
+  I -> J [thick];
 }

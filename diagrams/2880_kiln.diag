@@ -5,21 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  窑 [label = "窑\n2880 kiln"];
-  穴 [label = "穴\n1070 hole"];
-  宀 [label = "宀\n* house"];
-  八 [label = "八\n8 eight"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  缶 [label = "缶\n* tin can"];
-  午 [label = "午\n542 noon"];
-  山 [label = "山\n688 mountain"];
+  J [label = "窑\nkiln (2880)"];
+  F [label = "穴\nhole (1070)"];
+  B [label = "宀\nhouse (*)"];
+  C [label = "八\neight (8)"];
+  E [label = "囧只－口\nanimal legs (*)"];
+  D [label = "八\neight (8)"];
+  I [label = "缶\ntin can (*)"];
+  G [label = "午\nnoon (542)"];
+  H [label = "山\nmountain (688)"];
 
-  穴 -> 窑 [thick];
-  宀 -> 穴 [thick];
-  八 -> 穴 [thick];
-  囧只－口 -> 穴 [thick];
-  八 -> 囧只－口 [thick];
-  缶 -> 窑 [thick];
-  午 -> 缶 [thick];
-  山 -> 缶 [thick];
+  F -> J [thick];
+  B -> F [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
+  I -> J [thick];
+  G -> I [thick];
+  H -> I [thick];
 }

@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  苏 [label = "苏\n745 revive"];
-  艹 [label = "艹\n* flower"];
-  办 [label = "办\n743 manage"];
-  肌 [label = "肌\n63 muscle"];
-  几 [label = "几\n57 how many?"];
-  月 [label = "月\n13 month"];
-  丶 [label = "丶\n* a drop of"];
+  H [label = "苏\nrevive (745)"];
+  B [label = "艹\nflower (*)"];
+  G [label = "办\nmanage (743)"];
+  E [label = "肌\nmuscle (63)"];
+  C [label = "几\nhow many? (57)"];
+  D [label = "月\nmonth (13)"];
+  F [label = "丶\na drop of (*)"];
 
-  艹 -> 苏 [thick];
-  办 -> 苏 [thick];
-  肌 -> 办 [thick];
-  几 -> 肌 [thick];
-  月 -> 肌 [thick];
-  丶 -> 办 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  E -> G [thick];
+  C -> E [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

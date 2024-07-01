@@ -5,26 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  侦 [label = "侦\n2061 detect"];
-  人 [label = "人\n793 person"];
-  贞 [label = "贞\n54 chaste"];
-  贝 [label = "贝\n52 shellfish"];
-  目 [label = "目\n15 eye"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  卜 [label = "卜\n43 divination"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
+  L [label = "侦\ndetect (2061)"];
+  B [label = "人\nperson (793)"];
+  K [label = "贞\nchaste (54)"];
+  F [label = "贝\nshellfish (52)"];
+  C [label = "目\neye (15)"];
+  E [label = "囧只－口\nanimal legs (*)"];
+  D [label = "八\neight (8)"];
+  J [label = "卜\ndivination (43)"];
+  H [label = "丨\nwalking stick (*)"];
+  G [label = "一\none (1)"];
+  I [label = "丶\na drop of (*)"];
 
-  人 -> 侦 [thick];
-  贞 -> 侦 [thick];
-  贝 -> 贞 [thick];
-  目 -> 贝 [thick];
-  囧只－口 -> 贝 [thick];
-  八 -> 囧只－口 [thick];
-  卜 -> 贞 [thick];
-  丨 -> 卜 [thick];
-  一 -> 丨 [thick];
-  丶 -> 卜 [thick];
+  B -> L [thick];
+  K -> L [thick];
+  F -> K [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
+  J -> K [thick];
+  H -> J [thick];
+  G -> H [thick];
+  I -> J [thick];
 }

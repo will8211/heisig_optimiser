@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  移 [label = "移\n767 shift"];
-  禾 [label = "禾\n762 standing grain"];
-  多 [label = "多\n116 many"];
-  月 [label = "月\n13 month"];
+  E [label = "移\nshift (767)"];
+  B [label = "禾\nstanding grain (762)"];
+  D [label = "多\nmany (116)"];
+  C [label = "月\nmonth (13)"];
 
-  禾 -> 移 [thick];
-  多 -> 移 [thick];
-  月 -> 多 [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

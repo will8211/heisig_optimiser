@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  烛 [label = "烛\n1742 candle"];
-  火 [label = "火\n170 fire"];
-  虫 [label = "虫\n509 insect"];
+  D [label = "烛\ncandle (1742)"];
+  B [label = "火\nfire (170)"];
+  C [label = "虫\ninsect (509)"];
 
-  火 -> 烛 [thick];
-  虫 -> 烛 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

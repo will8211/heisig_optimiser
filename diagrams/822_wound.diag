@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  伤 [label = "伤\n822 wound"];
-  人 [label = "人\n793 person"];
-  "𠂉" [label = "𠂉\n* reclining"];
-  肌 [label = "肌\n63 muscle"];
-  几 [label = "几\n57 how many?"];
-  月 [label = "月\n13 month"];
+  G [label = "伤\nwound (822)"];
+  B [label = "人\nperson (793)"];
+  C [label = "𠂉\nreclining (*)"];
+  F [label = "肌\nmuscle (63)"];
+  D [label = "几\nhow many? (57)"];
+  E [label = "月\nmonth (13)"];
 
-  人 -> 伤 [thick];
-  "𠂉" -> 伤 [thick];
-  肌 -> 伤 [thick];
-  几 -> 肌 [thick];
-  月 -> 肌 [thick];
+  B -> G [thick];
+  C -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

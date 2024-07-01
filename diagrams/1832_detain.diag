@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  拘 [label = "拘\n1832 detain"];
-  扌 [label = "扌\n* fingers"];
-  句 [label = "句\n67 sentence"];
-  勹 [label = "勹\n* bound up"];
-  口 [label = "口\n11 mouth"];
+  F [label = "拘\ndetain (1832)"];
+  B [label = "扌\nfingers (*)"];
+  E [label = "句\nsentence (67)"];
+  C [label = "勹\nbound up (*)"];
+  D [label = "口\nmouth (11)"];
 
-  扌 -> 拘 [thick];
-  句 -> 拘 [thick];
-  勹 -> 句 [thick];
-  口 -> 句 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

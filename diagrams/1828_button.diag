@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  扣 [label = "扣\n1828 button"];
-  扌 [label = "扌\n* fingers"];
-  口 [label = "口\n11 mouth"];
+  D [label = "扣\nbutton (1828)"];
+  B [label = "扌\nfingers (*)"];
+  C [label = "口\nmouth (11)"];
 
-  扌 -> 扣 [thick];
-  口 -> 扣 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

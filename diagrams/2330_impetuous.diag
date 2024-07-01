@@ -5,23 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  躁 [label = "躁\n2330 impetuous"];
-  足 [label = "足\n1048 lower leg"];
-  口 [label = "口\n11 mouth"];
-  止 [label = "止\n379 stop"];
-  喿 [label = "喿\n* wood pulp"];
-  品 [label = "品\n24 goods"];
-  晶 [label = "晶\n23 sparkling"];
-  日 [label = "日\n12 day"];
-  木 [label = "木\n202 tree"];
+  K [label = "躁\nimpetuous (2330)"];
+  D [label = "足\nlower leg (1048)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "止\nstop (379)"];
+  J [label = "喿\nwood pulp (*)"];
+  H [label = "品\ngoods (24)"];
+  F [label = "晶\nsparkling (23)"];
+  E [label = "日\nday (12)"];
+  G [label = "口\nmouth (11)"];
+  I [label = "木\ntree (202)"];
 
-  足 -> 躁 [thick];
-  口 -> 足 [thick];
-  止 -> 足 [thick];
-  喿 -> 躁 [thick];
-  品 -> 喿 [thick];
-  晶 -> 品 [thick];
-  日 -> 晶 [thick];
-  口 -> 品 [thick];
-  木 -> 喿 [thick];
+  D -> K [thick];
+  B -> D [thick];
+  C -> D [thick];
+  J -> K [thick];
+  H -> J [thick];
+  F -> H [thick];
+  E -> F [thick];
+  G -> H [thick];
+  I -> J [thick];
 }

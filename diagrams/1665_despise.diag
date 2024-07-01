@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  蔑 [label = "蔑\n1665 despise"];
-  艹 [label = "艹\n* flower"];
-  目 [label = "目\n15 eye"];
-  戌 [label = "戌\n* march"];
-  戊 [label = "戊\n* parade"];
-  戈 [label = "戈\n361 halberd"];
-  弋 [label = "弋\n* arrow"];
-  一 [label = "一\n1 one"];
+  I [label = "蔑\ndespise (1665)"];
+  B [label = "艹\nflower (*)"];
+  C [label = "目\neye (15)"];
+  H [label = "戌\nmarch (*)"];
+  F [label = "戊\nparade (*)"];
+  E [label = "戈\nhalberd (361)"];
+  D [label = "弋\narrow (*)"];
+  G [label = "一\none (1)"];
 
-  艹 -> 蔑 [thick];
-  目 -> 蔑 [thick];
-  戌 -> 蔑 [thick];
-  戊 -> 戌 [thick];
-  戈 -> 戊 [thick];
-  弋 -> 戈 [thick];
-  一 -> 戌 [thick];
+  B -> I [thick];
+  C -> I [thick];
+  H -> I [thick];
+  F -> H [thick];
+  E -> F [thick];
+  D -> E [thick];
+  G -> H [thick];
 }

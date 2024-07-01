@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  海 [label = "海\n469 sea"];
-  每 [label = "每\n467 every"];
-  "𠂉" [label = "𠂉\n* reclining"];
-  母 [label = "母\n105 mother"];
-  女 [label = "女\n102 woman"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
+  J [label = "海\nsea (469)"];
+  E [label = "每\nevery (467)"];
+  B [label = "𠂉\nreclining (*)"];
+  D [label = "母\nmother (105)"];
+  C [label = "女\nwoman (102)"];
+  I [label = "水\nwater (137)"];
+  G [label = "丨\nwalking stick (*)"];
+  F [label = "一\none (1)"];
+  H [label = "丶\na drop of (*)"];
 
-  每 -> 海 [thick];
-  "𠂉" -> 每 [thick];
-  母 -> 每 [thick];
-  女 -> 母 [thick];
-  水 -> 海 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
+  E -> J [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
+  I -> J [thick];
+  G -> I [thick];
+  F -> G [thick];
+  H -> I [thick];
 }

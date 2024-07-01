@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  闪 [label = "闪\n2627 flash"];
-  门 [label = "门\n1260 gate"];
-  人 [label = "人\n793 person"];
+  D [label = "闪\nflash (2627)"];
+  B [label = "门\ngate (1260)"];
+  C [label = "人\nperson (793)"];
 
-  门 -> 闪 [thick];
-  人 -> 闪 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

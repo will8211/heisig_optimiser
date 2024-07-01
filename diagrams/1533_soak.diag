@@ -5,23 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  沾 [label = "沾\n1533 soak"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  占 [label = "占\n44 tell fortunes"];
-  卜 [label = "卜\n43 divination"];
-  口 [label = "口\n11 mouth"];
+  L [label = "沾\nsoak (1533)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  K [label = "占\ntell fortunes (44)"];
+  I [label = "卜\ndivination (43)"];
+  G [label = "丨\nwalking stick (*)"];
+  F [label = "一\none (1)"];
+  H [label = "丶\na drop of (*)"];
+  J [label = "口\nmouth (11)"];
 
-  水 -> 沾 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  占 -> 沾 [thick];
-  卜 -> 占 [thick];
-  丨 -> 卜 [thick];
-  一 -> 丨 [thick];
-  丶 -> 卜 [thick];
-  口 -> 占 [thick];
+  E -> L [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  K -> L [thick];
+  I -> K [thick];
+  G -> I [thick];
+  F -> G [thick];
+  H -> I [thick];
+  J -> K [thick];
 }

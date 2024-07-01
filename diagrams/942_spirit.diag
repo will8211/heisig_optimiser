@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  灵 [label = "灵\n942 spirit"];
-  彐 [label = "彐\n* broom"];
-  火 [label = "火\n170 fire"];
+  D [label = "灵\nspirit (942)"];
+  B [label = "彐\nbroom (*)"];
+  C [label = "火\nfire (170)"];
 
-  彐 -> 灵 [thick];
-  火 -> 灵 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

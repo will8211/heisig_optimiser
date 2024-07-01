@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  挥 [label = "挥\n599 brandish"];
-  扌 [label = "扌\n* fingers"];
-  军 [label = "军\n320 army"];
-  冖 [label = "冖\n* crown"];
-  车 [label = "车\n300 car"];
+  F [label = "挥\nbrandish (599)"];
+  B [label = "扌\nfingers (*)"];
+  E [label = "军\narmy (320)"];
+  C [label = "冖\ncrown (*)"];
+  D [label = "车\ncar (300)"];
 
-  扌 -> 挥 [thick];
-  军 -> 挥 [thick];
-  冖 -> 军 [thick];
-  车 -> 军 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

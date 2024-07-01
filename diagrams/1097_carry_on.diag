@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  继 [label = "继\n1097 carry on"];
-  纟 [label = "纟\n* thread"];
-  厶 [label = "厶\n* elbow"];
-  米 [label = "米\n778 rice"];
-  乙 [label = "乙\n95 second"];
+  F [label = "继\ncarry on (1097)"];
+  C [label = "纟\nthread (*)"];
+  B [label = "厶\nelbow (*)"];
+  D [label = "米\nrice (778)"];
+  E [label = "乙\nsecond (95)"];
 
-  纟 -> 继 [thick];
-  厶 -> 纟 [thick];
-  米 -> 继 [thick];
-  乙 -> 继 [thick];
+  C -> F [thick];
+  B -> C [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

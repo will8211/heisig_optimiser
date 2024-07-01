@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  秘 [label = "秘\n2016 confidential"];
-  禾 [label = "禾\n762 standing grain"];
-  必 [label = "必\n583 certainly"];
-  心 [label = "心\n563 heart"];
+  E [label = "秘\nconfidential (2016)"];
+  B [label = "禾\nstanding grain (762)"];
+  D [label = "必\ncertainly (583)"];
+  C [label = "心\nheart (563)"];
 
-  禾 -> 秘 [thick];
-  必 -> 秘 [thick];
-  心 -> 必 [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

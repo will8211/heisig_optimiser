@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  泰 [label = "泰\n1231 tranquil"];
-  "𡗗" [label = "𡗗\n* bonsai"];
-  丰 [label = "丰\n1223 plentiful"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
+  H [label = "泰\ntranquil (1231)"];
+  C [label = "𡗗\nbonsai (*)"];
+  B [label = "丰\nplentiful (1223)"];
+  G [label = "水\nwater (137)"];
+  E [label = "丨\nwalking stick (*)"];
+  D [label = "一\none (1)"];
+  F [label = "丶\na drop of (*)"];
 
-  "𡗗" -> 泰 [thick];
-  丰 -> "𡗗" [thick];
-  水 -> 泰 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
+  C -> H [thick];
+  B -> C [thick];
+  G -> H [thick];
+  E -> G [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

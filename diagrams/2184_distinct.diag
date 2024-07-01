@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  晰 [label = "晰\n2184 distinct"];
-  日 [label = "日\n12 day"];
-  析 [label = "析\n2183 analyze"];
-  木 [label = "木\n202 tree"];
-  斤 [label = "斤\n924 catty"];
+  F [label = "晰\ndistinct (2184)"];
+  B [label = "日\nday (12)"];
+  E [label = "析\nanalyze (2183)"];
+  C [label = "木\ntree (202)"];
+  D [label = "斤\ncatty (924)"];
 
-  日 -> 晰 [thick];
-  析 -> 晰 [thick];
-  木 -> 析 [thick];
-  斤 -> 析 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  猫 [label = "猫\n1587 cat"];
-  犬 [label = "犬\n239 pooch"];
-  大 [label = "大\n113 large"];
-  丶 [label = "丶\n* a drop of"];
-  苗 [label = "苗\n235 seedling"];
-  田 [label = "田\n14 rice field"];
-  艹 [label = "艹\n* flower"];
+  H [label = "猫\ncat (1587)"];
+  D [label = "犬\npooch (239)"];
+  B [label = "大\nlarge (113)"];
+  C [label = "丶\na drop of (*)"];
+  G [label = "苗\nseedling (235)"];
+  E [label = "田\nrice field (14)"];
+  F [label = "艹\nflower (*)"];
 
-  犬 -> 猫 [thick];
-  大 -> 犬 [thick];
-  丶 -> 犬 [thick];
-  苗 -> 猫 [thick];
-  田 -> 苗 [thick];
-  艹 -> 苗 [thick];
+  D -> H [thick];
+  B -> D [thick];
+  C -> D [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

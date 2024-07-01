@@ -5,30 +5,32 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  矿 [label = "矿\n1783 mine"];
-  石 [label = "石\n125 stone"];
-  口 [label = "口\n11 mouth"];
-  厂 [label = "厂\n121 factory"];
-  洞 [label = "洞\n186 cave"];
-  同 [label = "同\n185 same"];
-  一 [label = "一\n1 one"];
-  冂 [label = "冂\n* hood"];
-  几 [label = "几\n57 how many?"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  丶 [label = "丶\n* a drop of"];
+  O [label = "矿\nmine (1783)"];
+  D [label = "石\nstone (125)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "厂\nfactory (121)"];
+  N [label = "洞\ncave (186)"];
+  I [label = "同\nsame (185)"];
+  E [label = "一\none (1)"];
+  F [label = "口\nmouth (11)"];
+  H [label = "冂\nhood (*)"];
+  G [label = "几\nhow many? (57)"];
+  M [label = "水\nwater (137)"];
+  K [label = "丨\nwalking stick (*)"];
+  J [label = "一\none (1)"];
+  L [label = "丶\na drop of (*)"];
 
-  石 -> 矿 [thick];
-  口 -> 石 [thick];
-  厂 -> 石 [thick];
-  洞 -> 矿 [thick];
-  同 -> 洞 [thick];
-  一 -> 同 [thick];
-  口 -> 同 [thick];
-  冂 -> 同 [thick];
-  几 -> 冂 [thick];
-  水 -> 洞 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
+  D -> O [thick];
+  B -> D [thick];
+  C -> D [thick];
+  N -> O [thick];
+  I -> N [thick];
+  E -> I [thick];
+  F -> I [thick];
+  H -> I [thick];
+  G -> H [thick];
+  M -> N [thick];
+  K -> M [thick];
+  J -> K [thick];
+  L -> M [thick];
 }

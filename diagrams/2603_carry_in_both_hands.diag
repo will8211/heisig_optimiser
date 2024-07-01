@@ -5,17 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  捧 [label = "捧\n2603 carry in both hands"];
-  扌 [label = "扌\n* fingers"];
-  奉 [label = "奉\n1232 proffer"];
-  "𡗗" [label = "𡗗\n* bonsai"];
-  丰 [label = "丰\n1223 plentiful"];
-  "囧奉－𡗗" [label = "囧奉－𡗗\n* cornstalk"];
+  H [label = "捧\ncarry in both hands (2603)"];
+  B [label = "扌\nfingers (*)"];
+  G [label = "奉\nproffer (1232)"];
+  D [label = "𡗗\nbonsai (*)"];
+  C [label = "丰\nplentiful (1223)"];
+  F [label = "囧奉－𡗗\ncornstalk (*)"];
+  E [label = "丰\nplentiful (1223)"];
 
-  扌 -> 捧 [thick];
-  奉 -> 捧 [thick];
-  "𡗗" -> 奉 [thick];
-  丰 -> "𡗗" [thick];
-  "囧奉－𡗗" -> 奉 [thick];
-  丰 -> "囧奉－𡗗" [thick];
+  B -> H [thick];
+  G -> H [thick];
+  D -> G [thick];
+  C -> D [thick];
+  F -> G [thick];
+  E -> F [thick];
 }

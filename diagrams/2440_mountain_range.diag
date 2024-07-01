@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  岭 [label = "岭\n2440 mountain range"];
-  山 [label = "山\n688 mountain"];
-  令 [label = "令\n1113 orders"];
-  亼 [label = "亼\n* meeting"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  囧节－艹 [label = "囧节－艹\n* chop"];
+  G [label = "岭\nmountain range (2440)"];
+  B [label = "山\nmountain (688)"];
+  F [label = "令\norders (1113)"];
+  D [label = "亼\nmeeting (*)"];
+  C [label = "𠆢\numbrella (*)"];
+  E [label = "囧节－艹\nchop (*)"];
 
-  山 -> 岭 [thick];
-  令 -> 岭 [thick];
-  亼 -> 令 [thick];
-  "𠆢" -> 亼 [thick];
-  囧节－艹 -> 令 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  去 [label = "去\n675 go"];
-  土 [label = "土\n158 soil"];
-  厶 [label = "厶\n* elbow"];
+  D [label = "去\ngo (675)"];
+  B [label = "土\nsoil (158)"];
+  C [label = "厶\nelbow (*)"];
 
-  土 -> 去 [thick];
-  厶 -> 去 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

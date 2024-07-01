@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  咨 [label = "咨\n481 consult with"];
-  次 [label = "次\n478 next"];
-  欠 [label = "欠\n474 lack"];
-  冫 [label = "冫\n* ice"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  口 [label = "口\n11 mouth"];
+  J [label = "咨\nconsult with (481)"];
+  H [label = "次\nnext (478)"];
+  B [label = "欠\nlack (474)"];
+  G [label = "冫\nice (*)"];
+  F [label = "水\nwater (137)"];
+  D [label = "丨\nwalking stick (*)"];
+  C [label = "一\none (1)"];
+  E [label = "丶\na drop of (*)"];
+  I [label = "口\nmouth (11)"];
 
-  次 -> 咨 [thick];
-  欠 -> 次 [thick];
-  冫 -> 次 [thick];
-  水 -> 冫 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  口 -> 咨 [thick];
+  H -> J [thick];
+  B -> H [thick];
+  G -> H [thick];
+  F -> G [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
+  I -> J [thick];
 }

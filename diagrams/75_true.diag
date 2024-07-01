@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  真 [label = "真\n75 true"];
-  十 [label = "十\n10 ten"];
-  囧具－目 [label = "囧具－目\n* tool"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
+  F [label = "真\ntrue (75)"];
+  B [label = "十\nten (10)"];
+  E [label = "囧具－目\ntool (*)"];
+  D [label = "囧只－口\nanimal legs (*)"];
+  C [label = "八\neight (8)"];
 
-  十 -> 真 [thick];
-  囧具－目 -> 真 [thick];
-  囧只－口 -> 囧具－目 [thick];
-  八 -> 囧只－口 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

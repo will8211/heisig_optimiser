@@ -5,8 +5,8 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  圭 [label = "圭\n* bricks"];
-  土 [label = "土\n158 soil"];
+  C [label = "圭\nbricks (*)"];
+  B [label = "土\nsoil (158)"];
 
-  土 -> 圭 [thick];
+  B -> C [thick];
 }

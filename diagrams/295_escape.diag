@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  逃 [label = "逃\n295 escape"];
-  兆 [label = "兆\n237 portent"];
-  辶 [label = "辶\n* road"];
+  D [label = "逃\nescape (295)"];
+  B [label = "兆\nportent (237)"];
+  C [label = "辶\nroad (*)"];
 
-  兆 -> 逃 [thick];
-  辶 -> 逃 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

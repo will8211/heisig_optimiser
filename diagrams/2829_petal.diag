@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  瓣 [label = "瓣\n2829 petal"];
-  辛 [label = "辛\n1183 peppery"];
-  立 [label = "立\n444 standing up"];
-  十 [label = "十\n10 ten"];
-  瓜 [label = "瓜\n1399 melon"];
-  爪 [label = "爪\n663 claw"];
-  "𠂆" [label = "𠂆\n* drag"];
+  H [label = "瓣\npetal (2829)"];
+  D [label = "辛\npeppery (1183)"];
+  B [label = "立\nstanding up (444)"];
+  C [label = "十\nten (10)"];
+  G [label = "瓜\nmelon (1399)"];
+  F [label = "爪\nclaw (663)"];
+  E [label = "𠂆\ndrag (*)"];
 
-  辛 -> 瓣 [thick];
-  立 -> 辛 [thick];
-  十 -> 辛 [thick];
-  瓜 -> 瓣 [thick];
-  爪 -> 瓜 [thick];
-  "𠂆" -> 爪 [thick];
+  D -> H [thick];
+  B -> D [thick];
+  C -> D [thick];
+  G -> H [thick];
+  F -> G [thick];
+  E -> F [thick];
 }

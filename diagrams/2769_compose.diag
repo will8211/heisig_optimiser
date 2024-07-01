@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  撰 [label = "撰\n2769 compose"];
-  扌 [label = "扌\n* fingers"];
-  已 [label = "已\n519 already"];
-  己 [label = "己\n515 self"];
-  共 [label = "共\n1354 together"];
-  囧昔－日 [label = "囧昔－日\n* salad"];
-  艹 [label = "艹\n* flower"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
+  J [label = "撰\ncompose (2769)"];
+  B [label = "扌\nfingers (*)"];
+  D [label = "已\nalready (519)"];
+  C [label = "己\nself (515)"];
+  I [label = "共\ntogether (1354)"];
+  F [label = "囧昔－日\nsalad (*)"];
+  E [label = "艹\nflower (*)"];
+  H [label = "囧只－口\nanimal legs (*)"];
+  G [label = "八\neight (8)"];
 
-  扌 -> 撰 [thick];
-  已 -> 撰 [thick];
-  己 -> 已 [thick];
-  共 -> 撰 [thick];
-  囧昔－日 -> 共 [thick];
-  艹 -> 囧昔－日 [thick];
-  囧只－口 -> 共 [thick];
-  八 -> 囧只－口 [thick];
+  B -> J [thick];
+  D -> J [thick];
+  C -> D [thick];
+  I -> J [thick];
+  F -> I [thick];
+  E -> F [thick];
+  H -> I [thick];
+  G -> H [thick];
 }

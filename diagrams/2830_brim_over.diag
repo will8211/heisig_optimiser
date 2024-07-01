@@ -5,28 +5,30 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  溢 [label = "溢\n2830 brim over"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  益 [label = "益\n1401 benefit"];
-  皿 [label = "皿\n* dish"];
-  囧率－玄－十 [label = "囧率－玄－十\n* sparkler"];
-  丷 [label = "丷\n* horns"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
+  N [label = "溢\nbrim over (2830)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  M [label = "益\nbenefit (1401)"];
+  F [label = "皿\ndish (*)"];
+  G [label = "囧率－玄－十\nsparkler (*)"];
+  H [label = "一\none (1)"];
+  J [label = "丷\nhorns (*)"];
+  I [label = "一\none (1)"];
+  L [label = "囧只－口\nanimal legs (*)"];
+  K [label = "八\neight (8)"];
 
-  水 -> 溢 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  益 -> 溢 [thick];
-  皿 -> 益 [thick];
-  囧率－玄－十 -> 益 [thick];
-  一 -> 益 [thick];
-  丷 -> 益 [thick];
-  一 -> 丷 [thick];
-  囧只－口 -> 益 [thick];
-  八 -> 囧只－口 [thick];
+  E -> N [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  M -> N [thick];
+  F -> M [thick];
+  G -> M [thick];
+  H -> M [thick];
+  J -> M [thick];
+  I -> J [thick];
+  L -> M [thick];
+  K -> L [thick];
 }

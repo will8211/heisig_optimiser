@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  范 [label = "范\n2445 model"];
-  艹 [label = "艹\n* flower"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  "㔾" [label = "㔾\n* fingerprint"];
+  H [label = "范\nmodel (2445)"];
+  B [label = "艹\nflower (*)"];
+  F [label = "水\nwater (137)"];
+  D [label = "丨\nwalking stick (*)"];
+  C [label = "一\none (1)"];
+  E [label = "丶\na drop of (*)"];
+  G [label = "㔾\nfingerprint (*)"];
 
-  艹 -> 范 [thick];
-  水 -> 范 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  "㔾" -> 范 [thick];
+  B -> H [thick];
+  F -> H [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
+  G -> H [thick];
 }

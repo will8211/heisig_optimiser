@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  筛 [label = "筛\n2052 sift"];
-  竹 [label = "竹\n786 bamboo"];
-  丁 [label = "丁\n90 fourth"];
-  师 [label = "师\n412 teacher"];
-  帅 [label = "帅\n411 commander"];
-  刀 [label = "刀\n83 sword"];
-  巾 [label = "巾\n410 towel"];
-  一 [label = "一\n1 one"];
+  I [label = "筛\nsift (2052)"];
+  C [label = "竹\nbamboo (786)"];
+  B [label = "丁\nfourth (90)"];
+  H [label = "师\nteacher (412)"];
+  F [label = "帅\ncommander (411)"];
+  D [label = "刀\nsword (83)"];
+  E [label = "巾\ntowel (410)"];
+  G [label = "一\none (1)"];
 
-  竹 -> 筛 [thick];
-  丁 -> 竹 [thick];
-  师 -> 筛 [thick];
-  帅 -> 师 [thick];
-  刀 -> 帅 [thick];
-  巾 -> 帅 [thick];
-  一 -> 师 [thick];
+  C -> I [thick];
+  B -> C [thick];
+  H -> I [thick];
+  F -> H [thick];
+  D -> F [thick];
+  E -> F [thick];
+  G -> H [thick];
 }

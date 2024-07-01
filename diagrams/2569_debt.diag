@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  债 [label = "债\n2569 debt"];
-  人 [label = "人\n793 person"];
-  责 [label = "责\n1215 responsibility"];
-  囧毒－母 [label = "囧毒－母\n* grow up"];
-  贝 [label = "贝\n52 shellfish"];
-  目 [label = "目\n15 eye"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
+  I [label = "债\ndebt (2569)"];
+  B [label = "人\nperson (793)"];
+  H [label = "责\nresponsibility (1215)"];
+  C [label = "囧毒－母\ngrow up (*)"];
+  G [label = "贝\nshellfish (52)"];
+  D [label = "目\neye (15)"];
+  F [label = "囧只－口\nanimal legs (*)"];
+  E [label = "八\neight (8)"];
 
-  人 -> 债 [thick];
-  责 -> 债 [thick];
-  囧毒－母 -> 责 [thick];
-  贝 -> 责 [thick];
-  目 -> 贝 [thick];
-  囧只－口 -> 贝 [thick];
-  八 -> 囧只－口 [thick];
+  B -> I [thick];
+  H -> I [thick];
+  C -> H [thick];
+  G -> H [thick];
+  D -> G [thick];
+  F -> G [thick];
+  E -> F [thick];
 }

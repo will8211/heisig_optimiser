@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  紫 [label = "紫\n2420 purple"];
-  此 [label = "此\n460 this (literary)"];
-  止 [label = "止\n379 stop"];
-  匕 [label = "匕\n453 ancient spoon"];
-  糸 [label = "糸\n* floss"];
-  幺 [label = "幺\n* cocoon"];
-  小 [label = "小\n109 small"];
-  丶 [label = "丶\n* a drop of"];
+  I [label = "紫\npurple (2420)"];
+  D [label = "此\nthis (literary) (460)"];
+  B [label = "止\nstop (379)"];
+  C [label = "匕\nancient spoon (453)"];
+  H [label = "糸\nfloss (*)"];
+  E [label = "幺\ncocoon (*)"];
+  G [label = "小\nsmall (109)"];
+  F [label = "丶\na drop of (*)"];
 
-  此 -> 紫 [thick];
-  止 -> 此 [thick];
-  匕 -> 此 [thick];
-  糸 -> 紫 [thick];
-  幺 -> 糸 [thick];
-  小 -> 糸 [thick];
-  丶 -> 小 [thick];
+  D -> I [thick];
+  B -> D [thick];
+  C -> D [thick];
+  H -> I [thick];
+  E -> H [thick];
+  G -> H [thick];
+  F -> G [thick];
 }

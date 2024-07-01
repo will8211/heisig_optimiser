@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  腾 [label = "腾\n2904 take flight"];
-  月 [label = "月\n13 month"];
-  囧眷－目 [label = "囧眷－目\n* quarter"];
-  半 [label = "半\n980 half"];
-  马 [label = "马\n1453 horse"];
-  囧与－丨一 [label = "囧与－丨一\n* pointed tail"];
+  G [label = "腾\ntake flight (2904)"];
+  B [label = "月\nmonth (13)"];
+  D [label = "囧眷－目\nquarter (*)"];
+  C [label = "半\nhalf (980)"];
+  F [label = "马\nhorse (1453)"];
+  E [label = "囧与－丨一\npointed tail (*)"];
 
-  月 -> 腾 [thick];
-  囧眷－目 -> 腾 [thick];
-  半 -> 囧眷－目 [thick];
-  马 -> 腾 [thick];
-  囧与－丨一 -> 马 [thick];
+  B -> G [thick];
+  D -> G [thick];
+  C -> D [thick];
+  F -> G [thick];
+  E -> F [thick];
 }

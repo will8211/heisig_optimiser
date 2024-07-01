@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  鬼 [label = "鬼\n1472 ghost"];
-  丶 [label = "丶\n* a drop of"];
-  田 [label = "田\n14 rice field"];
-  儿 [label = "儿\n56 youngster"];
-  厶 [label = "厶\n* elbow"];
+  F [label = "鬼\nghost (1472)"];
+  B [label = "丶\na drop of (*)"];
+  C [label = "田\nrice field (14)"];
+  D [label = "儿\nyoungster (56)"];
+  E [label = "厶\nelbow (*)"];
 
-  丶 -> 鬼 [thick];
-  田 -> 鬼 [thick];
-  儿 -> 鬼 [thick];
-  厶 -> 鬼 [thick];
+  B -> F [thick];
+  C -> F [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

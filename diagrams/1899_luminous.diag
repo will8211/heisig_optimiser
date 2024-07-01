@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  烁 [label = "烁\n1899 luminous"];
-  火 [label = "火\n170 fire"];
-  乐 [label = "乐\n662 music"];
-  "𠂆" [label = "𠂆\n* drag"];
-  木 [label = "木\n202 tree"];
+  F [label = "烁\nluminous (1899)"];
+  B [label = "火\nfire (170)"];
+  E [label = "乐\nmusic (662)"];
+  C [label = "𠂆\ndrag (*)"];
+  D [label = "木\ntree (202)"];
 
-  火 -> 烁 [thick];
-  乐 -> 烁 [thick];
-  "𠂆" -> 乐 [thick];
-  木 -> 乐 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

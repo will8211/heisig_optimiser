@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  均 [label = "均\n159 equal"];
-  土 [label = "土\n158 soil"];
-  匀 [label = "匀\n66 uniform"];
-  勹 [label = "勹\n* bound up"];
-  二 [label = "二\n2 two"];
-  一 [label = "一\n1 one"];
+  G [label = "均\nequal (159)"];
+  B [label = "土\nsoil (158)"];
+  F [label = "匀\nuniform (66)"];
+  C [label = "勹\nbound up (*)"];
+  E [label = "二\ntwo (2)"];
+  D [label = "一\none (1)"];
 
-  土 -> 均 [thick];
-  匀 -> 均 [thick];
-  勹 -> 匀 [thick];
-  二 -> 匀 [thick];
-  一 -> 二 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
 }

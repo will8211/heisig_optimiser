@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  弥 [label = "弥\n1015 fill"];
-  弓 [label = "弓\n1013 bow"];
-  尔 [label = "尔\n798 you (literary)"];
-  小 [label = "小\n109 small"];
-  丶 [label = "丶\n* a drop of"];
+  F [label = "弥\nfill (1015)"];
+  B [label = "弓\nbow (1013)"];
+  E [label = "尔\nyou (literary) (798)"];
+  D [label = "小\nsmall (109)"];
+  C [label = "丶\na drop of (*)"];
 
-  弓 -> 弥 [thick];
-  尔 -> 弥 [thick];
-  小 -> 尔 [thick];
-  丶 -> 小 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

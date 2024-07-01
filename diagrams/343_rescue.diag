@@ -5,20 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  救 [label = "救\n343 rescue"];
-  攵 [label = "攵\n* taskmaster"];
-  求 [label = "求\n140 request"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
+  J [label = "救\nrescue (343)"];
+  B [label = "攵\ntaskmaster (*)"];
+  I [label = "求\nrequest (140)"];
+  F [label = "水\nwater (137)"];
+  D [label = "丨\nwalking stick (*)"];
+  C [label = "一\none (1)"];
+  E [label = "丶\na drop of (*)"];
+  G [label = "丶\na drop of (*)"];
+  H [label = "一\none (1)"];
 
-  攵 -> 救 [thick];
-  求 -> 救 [thick];
-  水 -> 求 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  丶 -> 求 [thick];
-  一 -> 求 [thick];
+  B -> J [thick];
+  I -> J [thick];
+  F -> I [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
+  G -> I [thick];
+  H -> I [thick];
 }

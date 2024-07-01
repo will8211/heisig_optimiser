@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  寻 [label = "寻\n945 seek"];
-  彐 [label = "彐\n* broom"];
-  寸 [label = "寸\n166 Chinese inch"];
-  丶 [label = "丶\n* a drop of"];
-  十 [label = "十\n10 ten"];
+  F [label = "寻\nseek (945)"];
+  B [label = "彐\nbroom (*)"];
+  E [label = "寸\nChinese inch (166)"];
+  C [label = "丶\na drop of (*)"];
+  D [label = "十\nten (10)"];
 
-  彐 -> 寻 [thick];
-  寸 -> 寻 [thick];
-  丶 -> 寸 [thick];
-  十 -> 寸 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

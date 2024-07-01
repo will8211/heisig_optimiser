@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  拓 [label = "拓\n1834 pioneer"];
-  扌 [label = "扌\n* fingers"];
-  石 [label = "石\n125 stone"];
-  口 [label = "口\n11 mouth"];
-  厂 [label = "厂\n121 factory"];
+  F [label = "拓\npioneer (1834)"];
+  B [label = "扌\nfingers (*)"];
+  E [label = "石\nstone (125)"];
+  C [label = "口\nmouth (11)"];
+  D [label = "厂\nfactory (121)"];
 
-  扌 -> 拓 [thick];
-  石 -> 拓 [thick];
-  口 -> 石 [thick];
-  厂 -> 石 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  数 [label = "数\n784 number"];
-  娄 [label = "娄\n* bride"];
-  女 [label = "女\n102 woman"];
-  米 [label = "米\n778 rice"];
-  攵 [label = "攵\n* taskmaster"];
+  F [label = "数\nnumber (784)"];
+  D [label = "娄\nbride (*)"];
+  B [label = "女\nwoman (102)"];
+  C [label = "米\nrice (778)"];
+  E [label = "攵\ntaskmaster (*)"];
 
-  娄 -> 数 [thick];
-  女 -> 娄 [thick];
-  米 -> 娄 [thick];
-  攵 -> 数 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

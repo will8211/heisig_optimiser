@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  "𢛳" [label = "𢛳\n* 10 commandments"];
-  十 [label = "十\n10 ten"];
-  目 [label = "目\n15 eye"];
-  一 [label = "一\n1 one"];
-  心 [label = "心\n563 heart"];
+  F [label = "𢛳\n10 commandments (*)"];
+  B [label = "十\nten (10)"];
+  C [label = "目\neye (15)"];
+  D [label = "一\none (1)"];
+  E [label = "心\nheart (563)"];
 
-  十 -> "𢛳" [thick];
-  目 -> "𢛳" [thick];
-  一 -> "𢛳" [thick];
-  心 -> "𢛳" [thick];
+  B -> F [thick];
+  C -> F [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

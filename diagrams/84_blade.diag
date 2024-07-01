@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  刃 [label = "刃\n84 blade"];
-  刀 [label = "刀\n83 sword"];
-  丶 [label = "丶\n* a drop of"];
+  D [label = "刃\nblade (84)"];
+  B [label = "刀\nsword (83)"];
+  C [label = "丶\na drop of (*)"];
 
-  刀 -> 刃 [thick];
-  丶 -> 刃 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

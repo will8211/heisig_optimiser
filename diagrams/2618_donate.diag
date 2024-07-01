@@ -5,26 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  献 [label = "献\n2618 donate"];
-  南 [label = "南\n1259 south"];
-  囧冂 [label = "囧冂\n* belt"];
-  巾 [label = "巾\n410 towel"];
-  幸 [label = "幸\n1191 good fortune"];
-  辛 [label = "辛\n1183 peppery"];
-  立 [label = "立\n444 standing up"];
-  十 [label = "十\n10 ten"];
-  犬 [label = "犬\n239 pooch"];
-  大 [label = "大\n113 large"];
-  丶 [label = "丶\n* a drop of"];
+  L [label = "献\ndonate (2618)"];
+  H [label = "南\nsouth (1259)"];
+  C [label = "囧冂\nbelt (*)"];
+  B [label = "巾\ntowel (410)"];
+  G [label = "幸\ngood fortune (1191)"];
+  F [label = "辛\npeppery (1183)"];
+  D [label = "立\nstanding up (444)"];
+  E [label = "十\nten (10)"];
+  K [label = "犬\npooch (239)"];
+  I [label = "大\nlarge (113)"];
+  J [label = "丶\na drop of (*)"];
 
-  南 -> 献 [thick];
-  囧冂 -> 南 [thick];
-  巾 -> 囧冂 [thick];
-  幸 -> 南 [thick];
-  辛 -> 幸 [thick];
-  立 -> 辛 [thick];
-  十 -> 辛 [thick];
-  犬 -> 献 [thick];
-  大 -> 犬 [thick];
-  丶 -> 犬 [thick];
+  H -> L [thick];
+  C -> H [thick];
+  B -> C [thick];
+  G -> H [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
+  K -> L [thick];
+  I -> K [thick];
+  J -> K [thick];
 }

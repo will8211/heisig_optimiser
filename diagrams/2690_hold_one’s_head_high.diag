@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  昂 [label = "昂\n2690 hold one’s head high"];
-  日 [label = "日\n12 day"];
-  卬 [label = "卬\n* stamp collection"];
-  箱 [label = "箱\n788 box"];
-  竹 [label = "竹\n786 bamboo"];
-  丁 [label = "丁\n90 fourth"];
-  相 [label = "相\n212 one another"];
-  木 [label = "木\n202 tree"];
-  目 [label = "目\n15 eye"];
-  卩 [label = "卩\n* stamp"];
+  K [label = "昂\nhold one’s head high (2690)"];
+  B [label = "日\nday (12)"];
+  J [label = "卬\nstamp collection (*)"];
+  H [label = "箱\nbox (788)"];
+  D [label = "竹\nbamboo (786)"];
+  C [label = "丁\nfourth (90)"];
+  G [label = "相\none another (212)"];
+  E [label = "木\ntree (202)"];
+  F [label = "目\neye (15)"];
+  I [label = "卩\nstamp (*)"];
 
-  日 -> 昂 [thick];
-  卬 -> 昂 [thick];
-  箱 -> 卬 [thick];
-  竹 -> 箱 [thick];
-  丁 -> 竹 [thick];
-  相 -> 箱 [thick];
-  木 -> 相 [thick];
-  目 -> 相 [thick];
-  卩 -> 卬 [thick];
+  B -> K [thick];
+  J -> K [thick];
+  H -> J [thick];
+  D -> H [thick];
+  C -> D [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
+  I -> J [thick];
 }

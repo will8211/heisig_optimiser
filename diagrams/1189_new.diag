@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  新 [label = "新\n1189 new"];
-  亲 [label = "亲\n1188 relatives"];
-  辛 [label = "辛\n1183 peppery"];
-  立 [label = "立\n444 standing up"];
-  十 [label = "十\n10 ten"];
-  小 [label = "小\n109 small"];
-  丶 [label = "丶\n* a drop of"];
-  斤 [label = "斤\n924 catty"];
+  I [label = "新\nnew (1189)"];
+  G [label = "亲\nrelatives (1188)"];
+  D [label = "辛\npeppery (1183)"];
+  B [label = "立\nstanding up (444)"];
+  C [label = "十\nten (10)"];
+  F [label = "小\nsmall (109)"];
+  E [label = "丶\na drop of (*)"];
+  H [label = "斤\ncatty (924)"];
 
-  亲 -> 新 [thick];
-  辛 -> 亲 [thick];
-  立 -> 辛 [thick];
-  十 -> 辛 [thick];
-  小 -> 亲 [thick];
-  丶 -> 小 [thick];
-  斤 -> 新 [thick];
+  G -> I [thick];
+  D -> G [thick];
+  B -> D [thick];
+  C -> D [thick];
+  F -> G [thick];
+  E -> F [thick];
+  H -> I [thick];
 }

@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  嘎 [label = "嘎\n1661 caw"];
-  口 [label = "口\n11 mouth"];
-  一 [label = "一\n1 one"];
-  自 [label = "自\n33 oneself"];
-  丶 [label = "丶\n* a drop of"];
-  目 [label = "目\n15 eye"];
-  戈 [label = "戈\n361 halberd"];
-  弋 [label = "弋\n* arrow"];
+  I [label = "嘎\ncaw (1661)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "一\none (1)"];
+  F [label = "自\noneself (33)"];
+  D [label = "丶\na drop of (*)"];
+  E [label = "目\neye (15)"];
+  H [label = "戈\nhalberd (361)"];
+  G [label = "弋\narrow (*)"];
 
-  口 -> 嘎 [thick];
-  一 -> 嘎 [thick];
-  自 -> 嘎 [thick];
-  丶 -> 自 [thick];
-  目 -> 自 [thick];
-  戈 -> 嘎 [thick];
-  弋 -> 戈 [thick];
+  B -> I [thick];
+  C -> I [thick];
+  F -> I [thick];
+  D -> F [thick];
+  E -> F [thick];
+  H -> I [thick];
+  G -> H [thick];
 }

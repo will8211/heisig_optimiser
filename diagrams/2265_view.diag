@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  览 [label = "览\n2265 view"];
-  临 [label = "临\n1010 be about to"];
-  囧坚－圣 [label = "囧坚－圣\n* fencing foil"];
-  丶 [label = "丶\n* a drop of"];
-  "𠂉" [label = "𠂉\n* reclining"];
-  日 [label = "日\n12 day"];
-  见 [label = "见\n58 see"];
-  目 [label = "目\n15 eye"];
-  儿 [label = "儿\n56 youngster"];
+  J [label = "览\nview (2265)"];
+  F [label = "临\nbe about to (1010)"];
+  B [label = "囧坚－圣\nfencing foil (*)"];
+  C [label = "丶\na drop of (*)"];
+  D [label = "𠂉\nreclining (*)"];
+  E [label = "日\nday (12)"];
+  I [label = "见\nsee (58)"];
+  G [label = "目\neye (15)"];
+  H [label = "儿\nyoungster (56)"];
 
-  临 -> 览 [thick];
-  囧坚－圣 -> 临 [thick];
-  丶 -> 临 [thick];
-  "𠂉" -> 临 [thick];
-  日 -> 临 [thick];
-  见 -> 览 [thick];
-  目 -> 见 [thick];
-  儿 -> 见 [thick];
+  F -> J [thick];
+  B -> F [thick];
+  C -> F [thick];
+  D -> F [thick];
+  E -> F [thick];
+  I -> J [thick];
+  G -> I [thick];
+  H -> I [thick];
 }

@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  叼 [label = "叼\n2815 hold in the mouth"];
-  口 [label = "口\n11 mouth"];
-  刁 [label = "刁\n2814 wily"];
-  "𠃌" [label = "𠃌\n* clothes hanger"];
-  丶 [label = "丶\n* a drop of"];
+  F [label = "叼\nhold in the mouth (2815)"];
+  B [label = "口\nmouth (11)"];
+  E [label = "刁\nwily (2814)"];
+  C [label = "𠃌\nclothes hanger (*)"];
+  D [label = "丶\na drop of (*)"];
 
-  口 -> 叼 [thick];
-  刁 -> 叼 [thick];
-  "𠃌" -> 刁 [thick];
-  丶 -> 刁 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

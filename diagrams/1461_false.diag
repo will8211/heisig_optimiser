@@ -5,33 +5,34 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  虚 [label = "虚\n1461 false"];
-  虎 [label = "虎\n1459 tiger"];
-  卜 [label = "卜\n43 divination"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  七 [label = "七\n7 seven"];
-  几 [label = "几\n57 how many?"];
-  疋 [label = "疋\n* zoo"];
-  囧走－十 [label = "囧走－十\n* mending"];
-  正 [label = "正\n387 correct"];
-  止 [label = "止\n379 stop"];
-  业 [label = "业\n1349 profession"];
-  並 [label = "並\n* side by side"];
+  P [label = "虚\nfalse (1461)"];
+  M [label = "虎\ntiger (1459)"];
+  E [label = "卜\ndivination (43)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  F [label = "七\nseven (7)"];
+  G [label = "几\nhow many? (57)"];
+  L [label = "疋\nzoo (*)"];
+  K [label = "囧走－十\nmending (*)"];
+  J [label = "正\ncorrect (387)"];
+  H [label = "一\none (1)"];
+  I [label = "止\nstop (379)"];
+  O [label = "业\nprofession (1349)"];
+  N [label = "並\nside by side (*)"];
 
-  虎 -> 虚 [thick];
-  卜 -> 虎 [thick];
-  丨 -> 卜 [thick];
-  一 -> 丨 [thick];
-  丶 -> 卜 [thick];
-  七 -> 虎 [thick];
-  几 -> 虎 [thick];
-  疋 -> 虎 [thick];
-  囧走－十 -> 疋 [thick];
-  正 -> 囧走－十 [thick];
-  一 -> 正 [thick];
-  止 -> 正 [thick];
-  业 -> 虚 [thick];
-  並 -> 业 [thick];
+  M -> P [thick];
+  E -> M [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  F -> M [thick];
+  G -> M [thick];
+  L -> M [thick];
+  K -> L [thick];
+  J -> K [thick];
+  H -> J [thick];
+  I -> J [thick];
+  O -> P [thick];
+  N -> O [thick];
 }

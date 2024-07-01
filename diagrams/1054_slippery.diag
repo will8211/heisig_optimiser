@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  滑 [label = "滑\n1054 slippery"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  骨 [label = "骨\n1053 skeleton"];
-  月 [label = "月\n13 month"];
-  冖 [label = "冖\n* crown"];
+  I [label = "滑\nslippery (1054)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  H [label = "骨\nskeleton (1053)"];
+  F [label = "月\nmonth (13)"];
+  G [label = "冖\ncrown (*)"];
 
-  水 -> 滑 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  骨 -> 滑 [thick];
-  月 -> 骨 [thick];
-  冖 -> 骨 [thick];
+  E -> I [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  H -> I [thick];
+  F -> H [thick];
+  G -> H [thick];
 }

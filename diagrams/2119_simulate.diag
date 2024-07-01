@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  拟 [label = "拟\n2119 simulate"];
-  扌 [label = "扌\n* fingers"];
-  以 [label = "以\n861 by means of"];
-  人 [label = "人\n793 person"];
-  囧以－丶人 [label = "囧以－丶人\n* plow"];
-  丶 [label = "丶\n* a drop of"];
+  G [label = "拟\nsimulate (2119)"];
+  B [label = "扌\nfingers (*)"];
+  F [label = "以\nby means of (861)"];
+  C [label = "人\nperson (793)"];
+  D [label = "囧以－丶人\nplow (*)"];
+  E [label = "丶\na drop of (*)"];
 
-  扌 -> 拟 [thick];
-  以 -> 拟 [thick];
-  人 -> 以 [thick];
-  囧以－丶人 -> 以 [thick];
-  丶 -> 以 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

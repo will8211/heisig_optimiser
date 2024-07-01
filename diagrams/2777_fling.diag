@@ -5,8 +5,8 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  甩 [label = "甩\n2777 fling"];
-  用 [label = "用\n1361 utilize"];
+  C [label = "甩\nfling (2777)"];
+  B [label = "用\nutilize (1361)"];
 
-  用 -> 甩 [thick];
+  B -> C [thick];
 }

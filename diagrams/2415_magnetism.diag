@@ -5,28 +5,30 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  磁 [label = "磁\n2415 magnetism"];
-  石 [label = "石\n125 stone"];
-  口 [label = "口\n11 mouth"];
-  厂 [label = "厂\n121 factory"];
-  兹 [label = "兹\n* Mona Lisa"];
-  玄 [label = "玄\n2411 mysterious"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  幺 [label = "幺\n* cocoon"];
+  N [label = "磁\nmagnetism (2415)"];
+  D [label = "石\nstone (125)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "厂\nfactory (121)"];
+  M [label = "兹\nMona Lisa (*)"];
+  L [label = "玄\nmysterious (2411)"];
+  J [label = "亠\ntop hat (*)"];
+  G [label = "六\nsix (6)"];
+  F [label = "囧只－口\nanimal legs (*)"];
+  E [label = "八\neight (8)"];
+  I [label = "囧只－口\nanimal legs (*)"];
+  H [label = "八\neight (8)"];
+  K [label = "幺\ncocoon (*)"];
 
-  石 -> 磁 [thick];
-  口 -> 石 [thick];
-  厂 -> 石 [thick];
-  兹 -> 磁 [thick];
-  玄 -> 兹 [thick];
-  亠 -> 玄 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
-  幺 -> 玄 [thick];
+  D -> N [thick];
+  B -> D [thick];
+  C -> D [thick];
+  M -> N [thick];
+  L -> M [thick];
+  J -> L [thick];
+  G -> J [thick];
+  F -> G [thick];
+  E -> F [thick];
+  I -> J [thick];
+  H -> I [thick];
+  K -> L [thick];
 }

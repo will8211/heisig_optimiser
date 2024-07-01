@@ -5,22 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  闹 [label = "闹\n2623 stir up trouble"];
-  门 [label = "门\n1260 gate"];
-  市 [label = "市\n419 market"];
-  巾 [label = "巾\n410 towel"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
+  K [label = "闹\nstir up trouble (2623)"];
+  B [label = "门\ngate (1260)"];
+  J [label = "市\nmarket (419)"];
+  C [label = "巾\ntowel (410)"];
+  I [label = "亠\ntop hat (*)"];
+  F [label = "六\nsix (6)"];
+  E [label = "囧只－口\nanimal legs (*)"];
+  D [label = "八\neight (8)"];
+  H [label = "囧只－口\nanimal legs (*)"];
+  G [label = "八\neight (8)"];
 
-  门 -> 闹 [thick];
-  市 -> 闹 [thick];
-  巾 -> 市 [thick];
-  亠 -> 市 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
+  B -> K [thick];
+  J -> K [thick];
+  C -> J [thick];
+  I -> J [thick];
+  F -> I [thick];
+  E -> F [thick];
+  D -> E [thick];
+  H -> I [thick];
+  G -> H [thick];
 }

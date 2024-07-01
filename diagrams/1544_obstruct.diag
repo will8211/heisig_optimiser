@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  碍 [label = "碍\n1544 obstruct"];
-  石 [label = "石\n125 stone"];
-  口 [label = "口\n11 mouth"];
-  厂 [label = "厂\n121 factory"];
-  旦 [label = "旦\n30 daybreak"];
-  日 [label = "日\n12 day"];
-  一 [label = "一\n1 one"];
-  寸 [label = "寸\n166 Chinese inch"];
-  丶 [label = "丶\n* a drop of"];
-  十 [label = "十\n10 ten"];
+  K [label = "碍\nobstruct (1544)"];
+  D [label = "石\nstone (125)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "厂\nfactory (121)"];
+  G [label = "旦\ndaybreak (30)"];
+  E [label = "日\nday (12)"];
+  F [label = "一\none (1)"];
+  J [label = "寸\nChinese inch (166)"];
+  H [label = "丶\na drop of (*)"];
+  I [label = "十\nten (10)"];
 
-  石 -> 碍 [thick];
-  口 -> 石 [thick];
-  厂 -> 石 [thick];
-  旦 -> 碍 [thick];
-  日 -> 旦 [thick];
-  一 -> 旦 [thick];
-  寸 -> 碍 [thick];
-  丶 -> 寸 [thick];
-  十 -> 寸 [thick];
+  D -> K [thick];
+  B -> D [thick];
+  C -> D [thick];
+  G -> K [thick];
+  E -> G [thick];
+  F -> G [thick];
+  J -> K [thick];
+  H -> J [thick];
+  I -> J [thick];
 }

@@ -5,34 +5,36 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  诗 [label = "诗\n355 poem"];
-  寺 [label = "寺\n169 Buddhist temple"];
-  土 [label = "土\n158 soil"];
-  寸 [label = "寸\n166 Chinese inch"];
-  丶 [label = "丶\n* a drop of"];
-  十 [label = "十\n10 ten"];
-  言 [label = "言\n346 say"];
-  二 [label = "二\n2 two"];
-  一 [label = "一\n1 one"];
-  口 [label = "口\n11 mouth"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
+  Q [label = "诗\npoem (355)"];
+  F [label = "寺\nBuddhist temple (169)"];
+  B [label = "土\nsoil (158)"];
+  E [label = "寸\nChinese inch (166)"];
+  C [label = "丶\na drop of (*)"];
+  D [label = "十\nten (10)"];
+  P [label = "言\nsay (346)"];
+  H [label = "二\ntwo (2)"];
+  G [label = "一\none (1)"];
+  I [label = "口\nmouth (11)"];
+  O [label = "亠\ntop hat (*)"];
+  L [label = "六\nsix (6)"];
+  K [label = "囧只－口\nanimal legs (*)"];
+  J [label = "八\neight (8)"];
+  N [label = "囧只－口\nanimal legs (*)"];
+  M [label = "八\neight (8)"];
 
-  寺 -> 诗 [thick];
-  土 -> 寺 [thick];
-  寸 -> 寺 [thick];
-  丶 -> 寸 [thick];
-  十 -> 寸 [thick];
-  言 -> 诗 [thick];
-  二 -> 言 [thick];
-  一 -> 二 [thick];
-  口 -> 言 [thick];
-  亠 -> 言 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
+  F -> Q [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
+  P -> Q [thick];
+  H -> P [thick];
+  G -> H [thick];
+  I -> P [thick];
+  O -> P [thick];
+  L -> O [thick];
+  K -> L [thick];
+  J -> K [thick];
+  N -> O [thick];
+  M -> N [thick];
 }

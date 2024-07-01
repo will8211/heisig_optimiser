@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  沫 [label = "沫\n217 foam"];
-  末 [label = "末\n216 last"];
-  木 [label = "木\n202 tree"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
+  H [label = "沫\nfoam (217)"];
+  C [label = "末\nlast (216)"];
+  B [label = "木\ntree (202)"];
+  G [label = "水\nwater (137)"];
+  E [label = "丨\nwalking stick (*)"];
+  D [label = "一\none (1)"];
+  F [label = "丶\na drop of (*)"];
 
-  末 -> 沫 [thick];
-  木 -> 末 [thick];
-  水 -> 沫 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
+  C -> H [thick];
+  B -> C [thick];
+  G -> H [thick];
+  E -> G [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

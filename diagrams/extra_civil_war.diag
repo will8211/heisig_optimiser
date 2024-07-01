@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  殸 [label = "殸\n* civil war"];
-  士 [label = "士\n334 soldier"];
-  尸 [label = "尸\n882 corpse"];
-  殳 [label = "殳\n* missile"];
-  几 [label = "几\n57 how many?"];
-  又 [label = "又\n633 again"];
+  G [label = "殸\ncivil war (*)"];
+  B [label = "士\nsoldier (334)"];
+  C [label = "尸\ncorpse (882)"];
+  F [label = "殳\nmissile (*)"];
+  D [label = "几\nhow many? (57)"];
+  E [label = "又\nagain (633)"];
 
-  士 -> 殸 [thick];
-  尸 -> 殸 [thick];
-  殳 -> 殸 [thick];
-  几 -> 殳 [thick];
-  又 -> 殳 [thick];
+  B -> G [thick];
+  C -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

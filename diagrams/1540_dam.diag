@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  坝 [label = "坝\n1540 dam"];
-  土 [label = "土\n158 soil"];
-  贝 [label = "贝\n52 shellfish"];
-  目 [label = "目\n15 eye"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
+  G [label = "坝\ndam (1540)"];
+  B [label = "土\nsoil (158)"];
+  F [label = "贝\nshellfish (52)"];
+  C [label = "目\neye (15)"];
+  E [label = "囧只－口\nanimal legs (*)"];
+  D [label = "八\neight (8)"];
 
-  土 -> 坝 [thick];
-  贝 -> 坝 [thick];
-  目 -> 贝 [thick];
-  囧只－口 -> 贝 [thick];
-  八 -> 囧只－口 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
 }

@@ -5,16 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  善 [label = "善\n870 virtuous"];
-  羊 [label = "羊\n528 sheep"];
-  丷 [label = "丷\n* horns"];
-  一 [label = "一\n1 one"];
-  口 [label = "口\n11 mouth"];
+  H [label = "善\nvirtuous (870)"];
+  D [label = "羊\nsheep (528)"];
+  C [label = "丷\nhorns (*)"];
+  B [label = "一\none (1)"];
+  F [label = "丷\nhorns (*)"];
+  E [label = "一\none (1)"];
+  G [label = "口\nmouth (11)"];
 
-  羊 -> 善 [thick];
-  丷 -> 羊 [thick];
-  一 -> 丷 [thick];
-  丷 -> 善 [thick];
-  一 -> 丷 [thick];
-  口 -> 善 [thick];
+  D -> H [thick];
+  C -> D [thick];
+  B -> C [thick];
+  F -> H [thick];
+  E -> F [thick];
+  G -> H [thick];
 }

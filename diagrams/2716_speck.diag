@@ -5,28 +5,30 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  斑 [label = "斑\n2716 speck"];
-  文 [label = "文\n1315 literature"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  "㐅" [label = "㐅\n* sheaf"];
-  玉 [label = "玉\n266 jade"];
-  王 [label = "王\n265 king"];
-  工 [label = "工\n76 work"];
-  丶 [label = "丶\n* a drop of"];
+  N [label = "斑\nspeck (2716)"];
+  I [label = "文\nliterature (1315)"];
+  G [label = "亠\ntop hat (*)"];
+  D [label = "六\nsix (6)"];
+  C [label = "囧只－口\nanimal legs (*)"];
+  B [label = "八\neight (8)"];
+  F [label = "囧只－口\nanimal legs (*)"];
+  E [label = "八\neight (8)"];
+  H [label = "㐅\nsheaf (*)"];
+  M [label = "玉\njade (266)"];
+  K [label = "王\nking (265)"];
+  J [label = "工\nwork (76)"];
+  L [label = "丶\na drop of (*)"];
 
-  文 -> 斑 [thick];
-  亠 -> 文 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
-  "㐅" -> 文 [thick];
-  玉 -> 斑 [thick];
-  王 -> 玉 [thick];
-  工 -> 王 [thick];
-  丶 -> 玉 [thick];
+  I -> N [thick];
+  G -> I [thick];
+  D -> G [thick];
+  C -> D [thick];
+  B -> C [thick];
+  F -> G [thick];
+  E -> F [thick];
+  H -> I [thick];
+  M -> N [thick];
+  K -> M [thick];
+  J -> K [thick];
+  L -> M [thick];
 }

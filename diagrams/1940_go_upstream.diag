@@ -5,23 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  溯 [label = "溯\n1940 go upstream"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  屰 [label = "屰\n* mountain goat"];
-  丷 [label = "丷\n* horns"];
-  山 [label = "山\n688 mountain"];
-  月 [label = "月\n13 month"];
+  K [label = "溯\ngo upstream (1940)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  I [label = "屰\nmountain goat (*)"];
+  G [label = "丷\nhorns (*)"];
+  F [label = "一\none (1)"];
+  H [label = "山\nmountain (688)"];
+  J [label = "月\nmonth (13)"];
 
-  水 -> 溯 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  屰 -> 溯 [thick];
-  丷 -> 屰 [thick];
-  一 -> 丷 [thick];
-  山 -> 屰 [thick];
-  月 -> 溯 [thick];
+  E -> K [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  I -> K [thick];
+  G -> I [thick];
+  F -> G [thick];
+  H -> I [thick];
+  J -> K [thick];
 }

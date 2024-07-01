@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  趴 [label = "趴\n2319 prostrate oneself"];
-  足 [label = "足\n1048 lower leg"];
-  口 [label = "口\n11 mouth"];
-  止 [label = "止\n379 stop"];
-  八 [label = "八\n8 eight"];
+  F [label = "趴\nprostrate oneself (2319)"];
+  D [label = "足\nlower leg (1048)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "止\nstop (379)"];
+  E [label = "八\neight (8)"];
 
-  足 -> 趴 [thick];
-  口 -> 足 [thick];
-  止 -> 足 [thick];
-  八 -> 趴 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

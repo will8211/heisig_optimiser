@@ -5,28 +5,30 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  熬 [label = "熬\n1732 stew"];
-  土 [label = "土\n158 soil"];
-  放 [label = "放\n496 release"];
-  攵 [label = "攵\n* taskmaster"];
-  方 [label = "方\n494 direction"];
-  刀 [label = "刀\n83 sword"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  火 [label = "火\n170 fire"];
+  N [label = "熬\nstew (1732)"];
+  B [label = "土\nsoil (158)"];
+  L [label = "放\nrelease (496)"];
+  C [label = "攵\ntaskmaster (*)"];
+  K [label = "方\ndirection (494)"];
+  D [label = "刀\nsword (83)"];
+  J [label = "亠\ntop hat (*)"];
+  G [label = "六\nsix (6)"];
+  F [label = "囧只－口\nanimal legs (*)"];
+  E [label = "八\neight (8)"];
+  I [label = "囧只－口\nanimal legs (*)"];
+  H [label = "八\neight (8)"];
+  M [label = "火\nfire (170)"];
 
-  土 -> 熬 [thick];
-  放 -> 熬 [thick];
-  攵 -> 放 [thick];
-  方 -> 放 [thick];
-  刀 -> 方 [thick];
-  亠 -> 方 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
-  火 -> 熬 [thick];
+  B -> N [thick];
+  L -> N [thick];
+  C -> L [thick];
+  K -> L [thick];
+  D -> K [thick];
+  J -> K [thick];
+  G -> J [thick];
+  F -> G [thick];
+  E -> F [thick];
+  I -> J [thick];
+  H -> I [thick];
+  M -> N [thick];
 }

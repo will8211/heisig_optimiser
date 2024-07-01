@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  骨 [label = "骨\n1053 skeleton"];
-  月 [label = "月\n13 month"];
-  冖 [label = "冖\n* crown"];
+  D [label = "骨\nskeleton (1053)"];
+  B [label = "月\nmonth (13)"];
+  C [label = "冖\ncrown (*)"];
 
-  月 -> 骨 [thick];
-  冖 -> 骨 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

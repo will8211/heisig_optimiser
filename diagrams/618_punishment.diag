@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  刑 [label = "刑\n618 punishment"];
-  开 [label = "开\n613 open"];
-  二 [label = "二\n2 two"];
-  一 [label = "一\n1 one"];
-  刀 [label = "刀\n83 sword"];
+  F [label = "刑\npunishment (618)"];
+  D [label = "开\nopen (613)"];
+  C [label = "二\ntwo (2)"];
+  B [label = "一\none (1)"];
+  E [label = "刀\nsword (83)"];
 
-  开 -> 刑 [thick];
-  二 -> 开 [thick];
-  一 -> 二 [thick];
-  刀 -> 刑 [thick];
+  D -> F [thick];
+  C -> D [thick];
+  B -> C [thick];
+  E -> F [thick];
 }

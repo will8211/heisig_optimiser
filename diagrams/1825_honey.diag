@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  蜜 [label = "蜜\n1825 honey"];
-  宀 [label = "宀\n* house"];
-  必 [label = "必\n583 certainly"];
-  心 [label = "心\n563 heart"];
-  虫 [label = "虫\n509 insect"];
+  F [label = "蜜\nhoney (1825)"];
+  B [label = "宀\nhouse (*)"];
+  D [label = "必\ncertainly (583)"];
+  C [label = "心\nheart (563)"];
+  E [label = "虫\ninsect (509)"];
 
-  宀 -> 蜜 [thick];
-  必 -> 蜜 [thick];
-  心 -> 必 [thick];
-  虫 -> 蜜 [thick];
+  B -> F [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

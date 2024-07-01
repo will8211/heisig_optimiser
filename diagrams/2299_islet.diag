@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  屿 [label = "屿\n2299 islet"];
-  山 [label = "山\n688 mountain"];
-  与 [label = "与\n1032 offer"];
-  囧与－丨一 [label = "囧与－丨一\n* pointed tail"];
-  囧与－一 [label = "囧与－一\n* slingshot"];
-  弓 [label = "弓\n1013 bow"];
+  G [label = "屿\nislet (2299)"];
+  B [label = "山\nmountain (688)"];
+  F [label = "与\noffer (1032)"];
+  C [label = "囧与－丨一\npointed tail (*)"];
+  E [label = "囧与－一\nslingshot (*)"];
+  D [label = "弓\nbow (1013)"];
 
-  山 -> 屿 [thick];
-  与 -> 屿 [thick];
-  囧与－丨一 -> 与 [thick];
-  囧与－一 -> 与 [thick];
-  弓 -> 囧与－一 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
 }

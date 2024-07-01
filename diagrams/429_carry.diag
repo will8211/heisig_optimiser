@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  运 [label = "运\n429 carry"];
-  辶 [label = "辶\n* road"];
-  云 [label = "云\n428 cloud"];
+  D [label = "运\ncarry (429)"];
+  B [label = "辶\nroad (*)"];
+  C [label = "云\ncloud (428)"];
 
-  辶 -> 运 [thick];
-  云 -> 运 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

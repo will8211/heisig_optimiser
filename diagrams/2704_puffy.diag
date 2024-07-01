@@ -5,28 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  膨 [label = "膨\n2704 puffy"];
-  月 [label = "月\n13 month"];
-  壴 [label = "壴\n* drum"];
-  士 [label = "士\n334 soldier"];
-  桌 [label = "桌\n224 table"];
-  木 [label = "木\n202 tree"];
-  日 [label = "日\n12 day"];
-  卜 [label = "卜\n43 divination"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  彡 [label = "彡\n* rooster tail"];
+  M [label = "膨\npuffy (2704)"];
+  B [label = "月\nmonth (13)"];
+  K [label = "壴\ndrum (*)"];
+  C [label = "士\nsoldier (334)"];
+  J [label = "桌\ntable (224)"];
+  D [label = "木\ntree (202)"];
+  E [label = "日\nday (12)"];
+  I [label = "卜\ndivination (43)"];
+  G [label = "丨\nwalking stick (*)"];
+  F [label = "一\none (1)"];
+  H [label = "丶\na drop of (*)"];
+  L [label = "彡\nrooster tail (*)"];
 
-  月 -> 膨 [thick];
-  壴 -> 膨 [thick];
-  士 -> 壴 [thick];
-  桌 -> 壴 [thick];
-  木 -> 桌 [thick];
-  日 -> 桌 [thick];
-  卜 -> 桌 [thick];
-  丨 -> 卜 [thick];
-  一 -> 丨 [thick];
-  丶 -> 卜 [thick];
-  彡 -> 膨 [thick];
+  B -> M [thick];
+  K -> M [thick];
+  C -> K [thick];
+  J -> K [thick];
+  D -> J [thick];
+  E -> J [thick];
+  I -> J [thick];
+  G -> I [thick];
+  F -> G [thick];
+  H -> I [thick];
+  L -> M [thick];
 }

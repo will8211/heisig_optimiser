@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  踩 [label = "踩\n2324 step on"];
-  足 [label = "足\n1048 lower leg"];
-  口 [label = "口\n11 mouth"];
-  止 [label = "止\n379 stop"];
-  采 [label = "采\n665 pick"];
-  爪 [label = "爪\n663 claw"];
-  "𠂆" [label = "𠂆\n* drag"];
-  木 [label = "木\n202 tree"];
+  I [label = "踩\nstep on (2324)"];
+  D [label = "足\nlower leg (1048)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "止\nstop (379)"];
+  H [label = "采\npick (665)"];
+  F [label = "爪\nclaw (663)"];
+  E [label = "𠂆\ndrag (*)"];
+  G [label = "木\ntree (202)"];
 
-  足 -> 踩 [thick];
-  口 -> 足 [thick];
-  止 -> 足 [thick];
-  采 -> 踩 [thick];
-  爪 -> 采 [thick];
-  "𠂆" -> 爪 [thick];
-  木 -> 采 [thick];
+  D -> I [thick];
+  B -> D [thick];
+  C -> D [thick];
+  H -> I [thick];
+  F -> H [thick];
+  E -> F [thick];
+  G -> H [thick];
 }

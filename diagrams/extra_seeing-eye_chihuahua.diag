@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  犮 [label = "犮\n* seeing-eye chihuahua"];
-  犬 [label = "犬\n239 pooch"];
-  大 [label = "大\n113 large"];
-  丶 [label = "丶\n* a drop of"];
-  友 [label = "友\n635 friend"];
-  "𠂇" [label = "𠂇\n* by one’s side"];
-  十 [label = "十\n10 ten"];
-  又 [label = "又\n633 again"];
+  I [label = "犮\nseeing-eye chihuahua (*)"];
+  D [label = "犬\npooch (239)"];
+  B [label = "大\nlarge (113)"];
+  C [label = "丶\na drop of (*)"];
+  H [label = "友\nfriend (635)"];
+  F [label = "𠂇\nby one’s side (*)"];
+  E [label = "十\nten (10)"];
+  G [label = "又\nagain (633)"];
 
-  犬 -> 犮 [thick];
-  大 -> 犬 [thick];
-  丶 -> 犬 [thick];
-  友 -> 犮 [thick];
-  "𠂇" -> 友 [thick];
-  十 -> "𠂇" [thick];
-  又 -> 友 [thick];
+  D -> I [thick];
+  B -> D [thick];
+  C -> D [thick];
+  H -> I [thick];
+  F -> H [thick];
+  E -> F [thick];
+  G -> H [thick];
 }

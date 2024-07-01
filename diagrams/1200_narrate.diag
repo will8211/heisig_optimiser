@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  述 [label = "述\n1200 narrate"];
-  术 [label = "术\n1199 art"];
-  丶 [label = "丶\n* a drop of"];
-  木 [label = "木\n202 tree"];
-  辶 [label = "辶\n* road"];
+  F [label = "述\nnarrate (1200)"];
+  D [label = "术\nart (1199)"];
+  B [label = "丶\na drop of (*)"];
+  C [label = "木\ntree (202)"];
+  E [label = "辶\nroad (*)"];
 
-  术 -> 述 [thick];
-  丶 -> 术 [thick];
-  木 -> 术 [thick];
-  辶 -> 述 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

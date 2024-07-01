@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  赵 [label = "赵\n2535 Zhao"];
-  走 [label = "走\n391 walk"];
-  囧走－十 [label = "囧走－十\n* mending"];
-  正 [label = "正\n387 correct"];
-  一 [label = "一\n1 one"];
-  止 [label = "止\n379 stop"];
-  土 [label = "土\n158 soil"];
-  "㐅" [label = "㐅\n* sheaf"];
+  I [label = "赵\nZhao (2535)"];
+  G [label = "走\nwalk (391)"];
+  E [label = "囧走－十\nmending (*)"];
+  D [label = "正\ncorrect (387)"];
+  B [label = "一\none (1)"];
+  C [label = "止\nstop (379)"];
+  F [label = "土\nsoil (158)"];
+  H [label = "㐅\nsheaf (*)"];
 
-  走 -> 赵 [thick];
-  囧走－十 -> 走 [thick];
-  正 -> 囧走－十 [thick];
-  一 -> 正 [thick];
-  止 -> 正 [thick];
-  土 -> 走 [thick];
-  "㐅" -> 赵 [thick];
+  G -> I [thick];
+  E -> G [thick];
+  D -> E [thick];
+  B -> D [thick];
+  C -> D [thick];
+  F -> G [thick];
+  H -> I [thick];
 }

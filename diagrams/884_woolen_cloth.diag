@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  呢 [label = "呢\n884 woolen cloth"];
-  口 [label = "口\n11 mouth"];
-  尼 [label = "尼\n883 nun"];
-  尸 [label = "尸\n882 corpse"];
-  匕 [label = "匕\n453 ancient spoon"];
+  F [label = "呢\nwoolen cloth (884)"];
+  B [label = "口\nmouth (11)"];
+  E [label = "尼\nnun (883)"];
+  C [label = "尸\ncorpse (882)"];
+  D [label = "匕\nancient spoon (453)"];
 
-  口 -> 呢 [thick];
-  尼 -> 呢 [thick];
-  尸 -> 尼 [thick];
-  匕 -> 尼 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

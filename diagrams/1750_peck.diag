@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  啄 [label = "啄\n1750 peck"];
-  口 [label = "口\n11 mouth"];
-  豖 [label = "豖\n* hog-tied"];
-  豕 [label = "豕\n* sow"];
+  E [label = "啄\npeck (1750)"];
+  B [label = "口\nmouth (11)"];
+  D [label = "豖\nhog-tied (*)"];
+  C [label = "豕\nsow (*)"];
 
-  口 -> 啄 [thick];
-  豖 -> 啄 [thick];
-  豕 -> 豖 [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

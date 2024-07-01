@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  想 [label = "想\n573 think"];
-  相 [label = "相\n212 one another"];
-  木 [label = "木\n202 tree"];
-  目 [label = "目\n15 eye"];
-  心 [label = "心\n563 heart"];
+  F [label = "想\nthink (573)"];
+  D [label = "相\none another (212)"];
+  B [label = "木\ntree (202)"];
+  C [label = "目\neye (15)"];
+  E [label = "心\nheart (563)"];
 
-  相 -> 想 [thick];
-  木 -> 相 [thick];
-  目 -> 相 [thick];
-  心 -> 想 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

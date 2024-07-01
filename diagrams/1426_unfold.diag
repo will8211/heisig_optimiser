@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  展 [label = "展\n1426 unfold"];
-  尸 [label = "尸\n882 corpse"];
-  囧昔－日 [label = "囧昔－日\n* salad"];
-  艹 [label = "艹\n* flower"];
-  囧丧－十－丷 [label = "囧丧－十－丷\n* barrette"];
+  F [label = "展\nunfold (1426)"];
+  B [label = "尸\ncorpse (882)"];
+  D [label = "囧昔－日\nsalad (*)"];
+  C [label = "艹\nflower (*)"];
+  E [label = "囧丧－十－丷\nbarrette (*)"];
 
-  尸 -> 展 [thick];
-  囧昔－日 -> 展 [thick];
-  艹 -> 囧昔－日 [thick];
-  囧丧－十－丷 -> 展 [thick];
+  B -> F [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

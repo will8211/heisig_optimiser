@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  绪 [label = "绪\n2393 inception"];
-  纟 [label = "纟\n* thread"];
-  厶 [label = "厶\n* elbow"];
-  者 [label = "者\n1037 someone"];
-  老 [label = "老\n1029 old man"];
-  土 [label = "土\n158 soil"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  匕 [label = "匕\n453 ancient spoon"];
-  日 [label = "日\n12 day"];
+  K [label = "绪\ninception (2393)"];
+  C [label = "纟\nthread (*)"];
+  B [label = "厶\nelbow (*)"];
+  J [label = "者\nsomeone (1037)"];
+  H [label = "老\nold man (1029)"];
+  D [label = "土\nsoil (158)"];
+  F [label = "丨\nwalking stick (*)"];
+  E [label = "一\none (1)"];
+  G [label = "匕\nancient spoon (453)"];
+  I [label = "日\nday (12)"];
 
-  纟 -> 绪 [thick];
-  厶 -> 纟 [thick];
-  者 -> 绪 [thick];
-  老 -> 者 [thick];
-  土 -> 老 [thick];
-  丨 -> 老 [thick];
-  一 -> 丨 [thick];
-  匕 -> 老 [thick];
-  日 -> 者 [thick];
+  C -> K [thick];
+  B -> C [thick];
+  J -> K [thick];
+  H -> J [thick];
+  D -> H [thick];
+  F -> H [thick];
+  E -> F [thick];
+  G -> H [thick];
+  I -> J [thick];
 }

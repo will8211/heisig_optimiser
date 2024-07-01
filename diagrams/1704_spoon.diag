@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  匙 [label = "匙\n1704 spoon"];
-  是 [label = "是\n394 be"];
-  囧走－十 [label = "囧走－十\n* mending"];
-  正 [label = "正\n387 correct"];
-  一 [label = "一\n1 one"];
-  止 [label = "止\n379 stop"];
-  日 [label = "日\n12 day"];
-  匕 [label = "匕\n453 ancient spoon"];
+  I [label = "匙\nspoon (1704)"];
+  G [label = "是\nbe (394)"];
+  E [label = "囧走－十\nmending (*)"];
+  D [label = "正\ncorrect (387)"];
+  B [label = "一\none (1)"];
+  C [label = "止\nstop (379)"];
+  F [label = "日\nday (12)"];
+  H [label = "匕\nancient spoon (453)"];
 
-  是 -> 匙 [thick];
-  囧走－十 -> 是 [thick];
-  正 -> 囧走－十 [thick];
-  一 -> 正 [thick];
-  止 -> 正 [thick];
-  日 -> 是 [thick];
-  匕 -> 匙 [thick];
+  G -> I [thick];
+  E -> G [thick];
+  D -> E [thick];
+  B -> D [thick];
+  C -> D [thick];
+  F -> G [thick];
+  H -> I [thick];
 }

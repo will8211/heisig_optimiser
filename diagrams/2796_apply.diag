@@ -5,32 +5,34 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  敷 [label = "敷\n2796 apply"];
-  甫 [label = "甫\n1379 Fu"];
-  十 [label = "十\n10 ten"];
-  月 [label = "月\n13 month"];
-  丶 [label = "丶\n* a drop of"];
-  放 [label = "放\n496 release"];
-  攵 [label = "攵\n* taskmaster"];
-  方 [label = "方\n494 direction"];
-  刀 [label = "刀\n83 sword"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
+  P [label = "敷\napply (2796)"];
+  E [label = "甫\nFu (1379)"];
+  B [label = "十\nten (10)"];
+  C [label = "月\nmonth (13)"];
+  D [label = "丶\na drop of (*)"];
+  O [label = "放\nrelease (496)"];
+  F [label = "攵\ntaskmaster (*)"];
+  N [label = "方\ndirection (494)"];
+  G [label = "刀\nsword (83)"];
+  M [label = "亠\ntop hat (*)"];
+  J [label = "六\nsix (6)"];
+  I [label = "囧只－口\nanimal legs (*)"];
+  H [label = "八\neight (8)"];
+  L [label = "囧只－口\nanimal legs (*)"];
+  K [label = "八\neight (8)"];
 
-  甫 -> 敷 [thick];
-  十 -> 甫 [thick];
-  月 -> 甫 [thick];
-  丶 -> 甫 [thick];
-  放 -> 敷 [thick];
-  攵 -> 放 [thick];
-  方 -> 放 [thick];
-  刀 -> 方 [thick];
-  亠 -> 方 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
+  E -> P [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
+  O -> P [thick];
+  F -> O [thick];
+  N -> O [thick];
+  G -> N [thick];
+  M -> N [thick];
+  J -> M [thick];
+  I -> J [thick];
+  H -> I [thick];
+  L -> M [thick];
+  K -> L [thick];
 }

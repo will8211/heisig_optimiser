@@ -5,19 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  剪 [label = "剪\n304 shears"];
-  刀 [label = "刀\n83 sword"];
-  前 [label = "前\n303 in front"];
-  丷 [label = "丷\n* horns"];
-  一 [label = "一\n1 one"];
-  刖 [label = "刖\n* butcher"];
-  月 [label = "月\n13 month"];
+  I [label = "剪\nshears (304)"];
+  B [label = "刀\nsword (83)"];
+  H [label = "前\nin front (303)"];
+  D [label = "丷\nhorns (*)"];
+  C [label = "一\none (1)"];
+  G [label = "刖\nbutcher (*)"];
+  E [label = "月\nmonth (13)"];
+  F [label = "刀\nsword (83)"];
 
-  刀 -> 剪 [thick];
-  前 -> 剪 [thick];
-  丷 -> 前 [thick];
-  一 -> 丷 [thick];
-  刖 -> 前 [thick];
-  月 -> 刖 [thick];
-  刀 -> 刖 [thick];
+  B -> I [thick];
+  H -> I [thick];
+  D -> H [thick];
+  C -> D [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

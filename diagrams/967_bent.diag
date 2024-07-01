@@ -5,8 +5,8 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  曲 [label = "曲\n967 bent"];
-  田 [label = "田\n14 rice field"];
+  C [label = "曲\nbent (967)"];
+  B [label = "田\nrice field (14)"];
 
-  田 -> 曲 [thick];
+  B -> C [thick];
 }

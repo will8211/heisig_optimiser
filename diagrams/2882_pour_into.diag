@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  灌 [label = "灌\n2882 pour into"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  雚 [label = "雚\n* stork"];
-  隹 [label = "隹\n* turkey"];
-  吅 [label = "吅\n* chatterbox"];
-  口 [label = "口\n11 mouth"];
-  艹 [label = "艹\n* flower"];
+  K [label = "灌\npour into (2882)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  J [label = "雚\nstork (*)"];
+  F [label = "隹\nturkey (*)"];
+  H [label = "吅\nchatterbox (*)"];
+  G [label = "口\nmouth (11)"];
+  I [label = "艹\nflower (*)"];
 
-  水 -> 灌 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  雚 -> 灌 [thick];
-  隹 -> 雚 [thick];
-  吅 -> 雚 [thick];
-  口 -> 吅 [thick];
-  艹 -> 雚 [thick];
+  E -> K [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  J -> K [thick];
+  F -> J [thick];
+  H -> J [thick];
+  G -> H [thick];
+  I -> J [thick];
 }

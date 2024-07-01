@@ -5,22 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  坊 [label = "坊\n1728 workshop"];
-  土 [label = "土\n158 soil"];
-  方 [label = "方\n494 direction"];
-  刀 [label = "刀\n83 sword"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
+  K [label = "坊\nworkshop (1728)"];
+  B [label = "土\nsoil (158)"];
+  J [label = "方\ndirection (494)"];
+  C [label = "刀\nsword (83)"];
+  I [label = "亠\ntop hat (*)"];
+  F [label = "六\nsix (6)"];
+  E [label = "囧只－口\nanimal legs (*)"];
+  D [label = "八\neight (8)"];
+  H [label = "囧只－口\nanimal legs (*)"];
+  G [label = "八\neight (8)"];
 
-  土 -> 坊 [thick];
-  方 -> 坊 [thick];
-  刀 -> 方 [thick];
-  亠 -> 方 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
+  B -> K [thick];
+  J -> K [thick];
+  C -> J [thick];
+  I -> J [thick];
+  F -> I [thick];
+  E -> F [thick];
+  D -> E [thick];
+  H -> I [thick];
+  G -> H [thick];
 }

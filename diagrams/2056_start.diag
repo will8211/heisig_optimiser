@@ -5,15 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  倡 [label = "倡\n2056 start"];
-  人 [label = "人\n793 person"];
-  昌 [label = "昌\n25 prosperous"];
-  日 [label = "日\n12 day"];
-  晶 [label = "晶\n23 sparkling"];
+  G [label = "倡\nstart (2056)"];
+  B [label = "人\nperson (793)"];
+  F [label = "昌\nprosperous (25)"];
+  C [label = "日\nday (12)"];
+  E [label = "晶\nsparkling (23)"];
+  D [label = "日\nday (12)"];
 
-  人 -> 倡 [thick];
-  昌 -> 倡 [thick];
-  日 -> 昌 [thick];
-  晶 -> 昌 [thick];
-  日 -> 晶 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
 }

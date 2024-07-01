@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  操 [label = "操\n2335 exercise"];
-  扌 [label = "扌\n* fingers"];
-  喿 [label = "喿\n* wood pulp"];
-  品 [label = "品\n24 goods"];
-  晶 [label = "晶\n23 sparkling"];
-  日 [label = "日\n12 day"];
-  口 [label = "口\n11 mouth"];
-  木 [label = "木\n202 tree"];
+  I [label = "操\nexercise (2335)"];
+  B [label = "扌\nfingers (*)"];
+  H [label = "喿\nwood pulp (*)"];
+  F [label = "品\ngoods (24)"];
+  D [label = "晶\nsparkling (23)"];
+  C [label = "日\nday (12)"];
+  E [label = "口\nmouth (11)"];
+  G [label = "木\ntree (202)"];
 
-  扌 -> 操 [thick];
-  喿 -> 操 [thick];
-  品 -> 喿 [thick];
-  晶 -> 品 [thick];
-  日 -> 晶 [thick];
-  口 -> 品 [thick];
-  木 -> 喿 [thick];
+  B -> I [thick];
+  H -> I [thick];
+  F -> H [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
+  G -> H [thick];
 }

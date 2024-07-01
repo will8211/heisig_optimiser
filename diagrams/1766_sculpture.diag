@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  雕 [label = "雕\n1766 sculpture"];
-  周 [label = "周\n333 circumference"];
-  囧周－冂 [label = "囧周－冂\n* lidded crock"];
-  土 [label = "土\n158 soil"];
-  口 [label = "口\n11 mouth"];
-  冂 [label = "冂\n* hood"];
-  几 [label = "几\n57 how many?"];
-  隹 [label = "隹\n* turkey"];
+  I [label = "雕\nsculpture (1766)"];
+  G [label = "周\ncircumference (333)"];
+  D [label = "囧周－冂\nlidded crock (*)"];
+  B [label = "土\nsoil (158)"];
+  C [label = "口\nmouth (11)"];
+  F [label = "冂\nhood (*)"];
+  E [label = "几\nhow many? (57)"];
+  H [label = "隹\nturkey (*)"];
 
-  周 -> 雕 [thick];
-  囧周－冂 -> 周 [thick];
-  土 -> 囧周－冂 [thick];
-  口 -> 囧周－冂 [thick];
-  冂 -> 周 [thick];
-  几 -> 冂 [thick];
-  隹 -> 雕 [thick];
+  G -> I [thick];
+  D -> G [thick];
+  B -> D [thick];
+  C -> D [thick];
+  F -> G [thick];
+  E -> F [thick];
+  H -> I [thick];
 }

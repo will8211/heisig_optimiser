@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  奄 [label = "奄\n* hang glider"];
-  电 [label = "电\n1484 electricity"];
-  大 [label = "大\n113 large"];
+  D [label = "奄\nhang glider (*)"];
+  B [label = "电\nelectricity (1484)"];
+  C [label = "大\nlarge (113)"];
 
-  电 -> 奄 [thick];
-  大 -> 奄 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

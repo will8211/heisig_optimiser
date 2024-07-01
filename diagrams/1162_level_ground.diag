@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  坪 [label = "坪\n1162 level ground"];
-  土 [label = "土\n158 soil"];
-  平 [label = "平\n1160 even"];
+  D [label = "坪\nlevel ground (1162)"];
+  B [label = "土\nsoil (158)"];
+  C [label = "平\neven (1160)"];
 
-  土 -> 坪 [thick];
-  平 -> 坪 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

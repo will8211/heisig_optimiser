@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  礼 [label = "礼\n902 ceremony"];
-  示 [label = "示\n900 show"];
-  乙 [label = "乙\n95 second"];
+  D [label = "礼\nceremony (902)"];
+  B [label = "示\nshow (900)"];
+  C [label = "乙\nsecond (95)"];
 
-  示 -> 礼 [thick];
-  乙 -> 礼 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

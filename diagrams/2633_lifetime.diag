@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  辈 [label = "辈\n2633 lifetime"];
-  非 [label = "非\n1267 non-"];
-  车 [label = "车\n300 car"];
+  D [label = "辈\nlifetime (2633)"];
+  B [label = "非\nnon- (1267)"];
+  C [label = "车\ncar (300)"];
 
-  非 -> 辈 [thick];
-  车 -> 辈 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

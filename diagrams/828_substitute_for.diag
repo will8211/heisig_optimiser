@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  代 [label = "代\n828 substitute for"];
-  人 [label = "人\n793 person"];
-  弋 [label = "弋\n* arrow"];
+  D [label = "代\nsubstitute for (828)"];
+  B [label = "人\nperson (793)"];
+  C [label = "弋\narrow (*)"];
 
-  人 -> 代 [thick];
-  弋 -> 代 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

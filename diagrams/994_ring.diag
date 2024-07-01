@@ -5,21 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  环 [label = "环\n994 ring"];
-  玉 [label = "玉\n266 jade"];
-  王 [label = "王\n265 king"];
-  工 [label = "工\n76 work"];
-  丶 [label = "丶\n* a drop of"];
-  不 [label = "不\n991 no"];
-  一 [label = "一\n1 one"];
-  人 [label = "人\n793 person"];
+  J [label = "环\nring (994)"];
+  E [label = "玉\njade (266)"];
+  C [label = "王\nking (265)"];
+  B [label = "工\nwork (76)"];
+  D [label = "丶\na drop of (*)"];
+  I [label = "不\nno (991)"];
+  F [label = "一\none (1)"];
+  G [label = "人\nperson (793)"];
+  H [label = "丶\na drop of (*)"];
 
-  玉 -> 环 [thick];
-  王 -> 玉 [thick];
-  工 -> 王 [thick];
-  丶 -> 玉 [thick];
-  不 -> 环 [thick];
-  一 -> 不 [thick];
-  人 -> 不 [thick];
-  丶 -> 不 [thick];
+  E -> J [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  I -> J [thick];
+  F -> I [thick];
+  G -> I [thick];
+  H -> I [thick];
 }

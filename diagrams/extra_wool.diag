@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  囧差－工 [label = "囧差－工\n* wool"];
-  羊 [label = "羊\n528 sheep"];
-  丷 [label = "丷\n* horns"];
-  一 [label = "一\n1 one"];
+  E [label = "囧差－工\nwool (*)"];
+  D [label = "羊\nsheep (528)"];
+  C [label = "丷\nhorns (*)"];
+  B [label = "一\none (1)"];
 
-  羊 -> 囧差－工 [thick];
-  丷 -> 羊 [thick];
-  一 -> 丷 [thick];
+  D -> E [thick];
+  C -> D [thick];
+  B -> C [thick];
 }

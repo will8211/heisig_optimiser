@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  荷 [label = "荷\n2101 Holland"];
-  艹 [label = "艹\n* flower"];
-  何 [label = "何\n835 whatwhichwhowherewhy?"];
-  人 [label = "人\n793 person"];
-  可 [label = "可\n92 can"];
-  丁 [label = "丁\n90 fourth"];
-  口 [label = "口\n11 mouth"];
+  H [label = "荷\nHolland (2101)"];
+  B [label = "艹\nflower (*)"];
+  G [label = "何\nwhatwhichwhowherewhy? (835)"];
+  C [label = "人\nperson (793)"];
+  F [label = "可\ncan (92)"];
+  D [label = "丁\nfourth (90)"];
+  E [label = "口\nmouth (11)"];
 
-  艹 -> 荷 [thick];
-  何 -> 荷 [thick];
-  人 -> 何 [thick];
-  可 -> 何 [thick];
-  丁 -> 可 [thick];
-  口 -> 可 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  C -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

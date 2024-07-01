@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  榴 [label = "榴\n2433 pomegranate"];
-  木 [label = "木\n202 tree"];
-  留 [label = "留\n1107 stay"];
-  囧贸－贝 [label = "囧贸－贝\n* letter opener"];
-  卩 [label = "卩\n* stamp"];
-  刀 [label = "刀\n83 sword"];
-  田 [label = "田\n14 rice field"];
+  H [label = "榴\npomegranate (2433)"];
+  B [label = "木\ntree (202)"];
+  G [label = "留\nstay (1107)"];
+  E [label = "囧贸－贝\nletter opener (*)"];
+  C [label = "卩\nstamp (*)"];
+  D [label = "刀\nsword (83)"];
+  F [label = "田\nrice field (14)"];
 
-  木 -> 榴 [thick];
-  留 -> 榴 [thick];
-  囧贸－贝 -> 留 [thick];
-  卩 -> 囧贸－贝 [thick];
-  刀 -> 囧贸－贝 [thick];
-  田 -> 留 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  E -> G [thick];
+  C -> E [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

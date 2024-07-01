@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  爸 [label = "爸\n1328 papa"];
-  父 [label = "父\n1043 father"];
-  丶 [label = "丶\n* a drop of"];
-  巴 [label = "巴\n1326 crust"];
+  E [label = "爸\npapa (1328)"];
+  C [label = "父\nfather (1043)"];
+  B [label = "丶\na drop of (*)"];
+  D [label = "巴\ncrust (1326)"];
 
-  父 -> 爸 [thick];
-  丶 -> 父 [thick];
-  巴 -> 爸 [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
 }

@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  青 [label = "青\n1208 blue or green"];
-  囧毒－母 [label = "囧毒－母\n* grow up"];
-  月 [label = "月\n13 month"];
+  D [label = "青\nblue or green (1208)"];
+  B [label = "囧毒－母\ngrow up (*)"];
+  C [label = "月\nmonth (13)"];
 
-  囧毒－母 -> 青 [thick];
-  月 -> 青 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

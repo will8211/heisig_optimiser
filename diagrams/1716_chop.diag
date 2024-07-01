@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  砍 [label = "砍\n1716 chop"];
-  石 [label = "石\n125 stone"];
-  口 [label = "口\n11 mouth"];
-  厂 [label = "厂\n121 factory"];
-  欠 [label = "欠\n474 lack"];
+  F [label = "砍\nchop (1716)"];
+  D [label = "石\nstone (125)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "厂\nfactory (121)"];
+  E [label = "欠\nlack (474)"];
 
-  石 -> 砍 [thick];
-  口 -> 石 [thick];
-  厂 -> 石 [thick];
-  欠 -> 砍 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

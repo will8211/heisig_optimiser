@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  彦 [label = "彦\n1313 erudite"];
-  产 [label = "产\n1312 products"];
-  立 [label = "立\n444 standing up"];
-  厂 [label = "厂\n121 factory"];
-  彡 [label = "彡\n* rooster tail"];
+  F [label = "彦\nerudite (1313)"];
+  D [label = "产\nproducts (1312)"];
+  B [label = "立\nstanding up (444)"];
+  C [label = "厂\nfactory (121)"];
+  E [label = "彡\nrooster tail (*)"];
 
-  产 -> 彦 [thick];
-  立 -> 产 [thick];
-  厂 -> 产 [thick];
-  彡 -> 彦 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

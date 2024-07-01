@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  违 [label = "违\n2594 disobey"];
-  韦 [label = "韦\n1227 tanned hide"];
-  辶 [label = "辶\n* road"];
+  D [label = "违\ndisobey (2594)"];
+  B [label = "韦\ntanned hide (1227)"];
+  C [label = "辶\nroad (*)"];
 
-  韦 -> 违 [thick];
-  辶 -> 违 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

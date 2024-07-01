@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  拂 [label = "拂\n2278 caress"];
-  扌 [label = "扌\n* fingers"];
-  弗 [label = "弗\n* dollar sign"];
-  "囧介－𠆢" [label = "囧介－𠆢\n* crutches"];
-  弓 [label = "弓\n1013 bow"];
+  F [label = "拂\ncaress (2278)"];
+  B [label = "扌\nfingers (*)"];
+  E [label = "弗\ndollar sign (*)"];
+  C [label = "囧介－𠆢\ncrutches (*)"];
+  D [label = "弓\nbow (1013)"];
 
-  扌 -> 拂 [thick];
-  弗 -> 拂 [thick];
-  "囧介－𠆢" -> 弗 [thick];
-  弓 -> 弗 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

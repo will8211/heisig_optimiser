@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  扫 [label = "扫\n944 sweep"];
-  扌 [label = "扌\n* fingers"];
-  彐 [label = "彐\n* broom"];
+  D [label = "扫\nsweep (944)"];
+  B [label = "扌\nfingers (*)"];
+  C [label = "彐\nbroom (*)"];
 
-  扌 -> 扫 [thick];
-  彐 -> 扫 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

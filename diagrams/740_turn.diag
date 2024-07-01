@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  拐 [label = "拐\n740 turn"];
-  扌 [label = "扌\n* fingers"];
-  另 [label = "另\n738 another"];
-  口 [label = "口\n11 mouth"];
-  肌 [label = "肌\n63 muscle"];
-  几 [label = "几\n57 how many?"];
-  月 [label = "月\n13 month"];
+  H [label = "拐\nturn (740)"];
+  B [label = "扌\nfingers (*)"];
+  G [label = "另\nanother (738)"];
+  C [label = "口\nmouth (11)"];
+  F [label = "肌\nmuscle (63)"];
+  D [label = "几\nhow many? (57)"];
+  E [label = "月\nmonth (13)"];
 
-  扌 -> 拐 [thick];
-  另 -> 拐 [thick];
-  口 -> 另 [thick];
-  肌 -> 另 [thick];
-  几 -> 肌 [thick];
-  月 -> 肌 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  C -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

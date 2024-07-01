@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  跃 [label = "跃\n2322 leap"];
-  足 [label = "足\n1048 lower leg"];
-  口 [label = "口\n11 mouth"];
-  止 [label = "止\n379 stop"];
-  夭 [label = "夭\n440 die young"];
-  大 [label = "大\n113 large"];
-  丶 [label = "丶\n* a drop of"];
+  H [label = "跃\nleap (2322)"];
+  D [label = "足\nlower leg (1048)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "止\nstop (379)"];
+  G [label = "夭\ndie young (440)"];
+  E [label = "大\nlarge (113)"];
+  F [label = "丶\na drop of (*)"];
 
-  足 -> 跃 [thick];
-  口 -> 足 [thick];
-  止 -> 足 [thick];
-  夭 -> 跃 [thick];
-  大 -> 夭 [thick];
-  丶 -> 夭 [thick];
+  D -> H [thick];
+  B -> D [thick];
+  C -> D [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

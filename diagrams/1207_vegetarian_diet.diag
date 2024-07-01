@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  素 [label = "素\n1207 vegetarian diet"];
-  囧毒－母 [label = "囧毒－母\n* grow up"];
-  糸 [label = "糸\n* floss"];
-  幺 [label = "幺\n* cocoon"];
-  小 [label = "小\n109 small"];
-  丶 [label = "丶\n* a drop of"];
+  G [label = "素\nvegetarian diet (1207)"];
+  B [label = "囧毒－母\ngrow up (*)"];
+  F [label = "糸\nfloss (*)"];
+  C [label = "幺\ncocoon (*)"];
+  E [label = "小\nsmall (109)"];
+  D [label = "丶\na drop of (*)"];
 
-  囧毒－母 -> 素 [thick];
-  糸 -> 素 [thick];
-  幺 -> 糸 [thick];
-  小 -> 糸 [thick];
-  丶 -> 小 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
 }

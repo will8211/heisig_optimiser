@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  囧甚 [label = "囧甚\n* Hercules"];
-  甚 [label = "甚\n1338 tremendously"];
-  其 [label = "其\n1335 his-hers-its-theirs"];
-  甘 [label = "甘\n1333 sweet"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  乙 [label = "乙\n95 second"];
+  H [label = "囧甚\nHercules (*)"];
+  G [label = "甚\ntremendously (1338)"];
+  E [label = "其\nhis-hers-its-theirs (1335)"];
+  B [label = "甘\nsweet (1333)"];
+  D [label = "囧只－口\nanimal legs (*)"];
+  C [label = "八\neight (8)"];
+  F [label = "乙\nsecond (95)"];
 
-  甚 -> 囧甚 [thick];
-  其 -> 甚 [thick];
-  甘 -> 其 [thick];
-  囧只－口 -> 其 [thick];
-  八 -> 囧只－口 [thick];
-  乙 -> 甚 [thick];
+  G -> H [thick];
+  E -> G [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
+  F -> G [thick];
 }

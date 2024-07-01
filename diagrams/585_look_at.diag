@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  看 [label = "看\n585 look at"];
-  手 [label = "手\n584 hand"];
-  目 [label = "目\n15 eye"];
+  D [label = "看\nlook at (585)"];
+  B [label = "手\nhand (584)"];
+  C [label = "目\neye (15)"];
 
-  手 -> 看 [thick];
-  目 -> 看 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

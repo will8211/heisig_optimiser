@@ -5,19 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  砂 [label = "砂\n126 gravel"];
-  少 [label = "少\n110 few"];
-  丶 [label = "丶\n* a drop of"];
-  小 [label = "小\n109 small"];
-  石 [label = "石\n125 stone"];
-  口 [label = "口\n11 mouth"];
-  厂 [label = "厂\n121 factory"];
+  I [label = "砂\ngravel (126)"];
+  E [label = "少\nfew (110)"];
+  B [label = "丶\na drop of (*)"];
+  D [label = "小\nsmall (109)"];
+  C [label = "丶\na drop of (*)"];
+  H [label = "石\nstone (125)"];
+  F [label = "口\nmouth (11)"];
+  G [label = "厂\nfactory (121)"];
 
-  少 -> 砂 [thick];
-  丶 -> 少 [thick];
-  小 -> 少 [thick];
-  丶 -> 小 [thick];
-  石 -> 砂 [thick];
-  口 -> 石 [thick];
-  厂 -> 石 [thick];
+  E -> I [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
+  H -> I [thick];
+  F -> H [thick];
+  G -> H [thick];
 }

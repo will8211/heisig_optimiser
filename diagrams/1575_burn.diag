@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  焚 [label = "焚\n1575 burn"];
-  林 [label = "林\n203 woods"];
-  木 [label = "木\n202 tree"];
-  火 [label = "火\n170 fire"];
+  E [label = "焚\nburn (1575)"];
+  C [label = "林\nwoods (203)"];
+  B [label = "木\ntree (202)"];
+  D [label = "火\nfire (170)"];
 
-  林 -> 焚 [thick];
-  木 -> 林 [thick];
-  火 -> 焚 [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
 }

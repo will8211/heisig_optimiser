@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  净 [label = "净\n952 clean"];
-  冫 [label = "冫\n* ice"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  争 [label = "争\n951 contend"];
-  勹 [label = "勹\n* bound up"];
-  肀 [label = "肀\n* rake"];
-  彐 [label = "彐\n* broom"];
+  K [label = "净\nclean (952)"];
+  F [label = "冫\nice (*)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  J [label = "争\ncontend (951)"];
+  G [label = "勹\nbound up (*)"];
+  I [label = "肀\nrake (*)"];
+  H [label = "彐\nbroom (*)"];
 
-  冫 -> 净 [thick];
-  水 -> 冫 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  争 -> 净 [thick];
-  勹 -> 争 [thick];
-  肀 -> 争 [thick];
-  彐 -> 肀 [thick];
+  F -> K [thick];
+  E -> F [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  J -> K [thick];
+  G -> J [thick];
+  I -> J [thick];
+  H -> I [thick];
 }

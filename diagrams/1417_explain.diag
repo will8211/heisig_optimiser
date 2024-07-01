@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  释 [label = "释\n1417 explain"];
-  釆 [label = "釆\n* droppings"];
-  丶 [label = "丶\n* a drop of"];
-  米 [label = "米\n778 rice"];
-  又 [label = "又\n633 again"];
-  "囧奉－𡗗" [label = "囧奉－𡗗\n* cornstalk"];
-  丰 [label = "丰\n1223 plentiful"];
+  H [label = "释\nexplain (1417)"];
+  D [label = "釆\ndroppings (*)"];
+  B [label = "丶\na drop of (*)"];
+  C [label = "米\nrice (778)"];
+  E [label = "又\nagain (633)"];
+  G [label = "囧奉－𡗗\ncornstalk (*)"];
+  F [label = "丰\nplentiful (1223)"];
 
-  釆 -> 释 [thick];
-  丶 -> 釆 [thick];
-  米 -> 釆 [thick];
-  又 -> 释 [thick];
-  "囧奉－𡗗" -> 释 [thick];
-  丰 -> "囧奉－𡗗" [thick];
+  D -> H [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> H [thick];
+  G -> H [thick];
+  F -> G [thick];
 }

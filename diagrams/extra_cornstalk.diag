@@ -5,8 +5,8 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  "囧奉－𡗗" [label = "囧奉－𡗗\n* cornstalk"];
-  丰 [label = "丰\n1223 plentiful"];
+  C [label = "囧奉－𡗗\ncornstalk (*)"];
+  B [label = "丰\nplentiful (1223)"];
 
-  丰 -> "囧奉－𡗗" [thick];
+  B -> C [thick];
 }

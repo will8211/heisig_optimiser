@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  旨 [label = "旨\n463 purpose"];
-  匕 [label = "匕\n453 ancient spoon"];
-  日 [label = "日\n12 day"];
+  D [label = "旨\npurpose (463)"];
+  B [label = "匕\nancient spoon (453)"];
+  C [label = "日\nday (12)"];
 
-  匕 -> 旨 [thick];
-  日 -> 旨 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

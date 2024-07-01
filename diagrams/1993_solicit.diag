@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  征 [label = "征\n1993 solicit"];
-  行 [label = "行\n754 line of business"];
-  正 [label = "正\n387 correct"];
-  一 [label = "一\n1 one"];
-  止 [label = "止\n379 stop"];
+  F [label = "征\nsolicit (1993)"];
+  B [label = "行\nline of business (754)"];
+  E [label = "正\ncorrect (387)"];
+  C [label = "一\none (1)"];
+  D [label = "止\nstop (379)"];
 
-  行 -> 征 [thick];
-  正 -> 征 [thick];
-  一 -> 正 [thick];
-  止 -> 正 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

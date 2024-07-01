@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  梗 [label = "梗\n1881 stalk"];
-  木 [label = "木\n202 tree"];
-  更 [label = "更\n631 even more"];
-  一 [label = "一\n1 one"];
-  日 [label = "日\n12 day"];
-  囧史－口 [label = "囧史－口\n* tucked under the arm"];
+  G [label = "梗\nstalk (1881)"];
+  B [label = "木\ntree (202)"];
+  F [label = "更\neven more (631)"];
+  C [label = "一\none (1)"];
+  D [label = "日\nday (12)"];
+  E [label = "囧史－口\ntucked under the arm (*)"];
 
-  木 -> 梗 [thick];
-  更 -> 梗 [thick];
-  一 -> 更 [thick];
-  日 -> 更 [thick];
-  囧史－口 -> 更 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

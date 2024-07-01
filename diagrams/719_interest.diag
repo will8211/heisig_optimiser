@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  趣 [label = "趣\n719 interest"];
-  走 [label = "走\n391 walk"];
-  囧走－十 [label = "囧走－十\n* mending"];
-  正 [label = "正\n387 correct"];
-  一 [label = "一\n1 one"];
-  止 [label = "止\n379 stop"];
-  土 [label = "土\n158 soil"];
-  取 [label = "取\n718 take"];
-  耳 [label = "耳\n717 ear"];
-  又 [label = "又\n633 again"];
+  K [label = "趣\ninterest (719)"];
+  G [label = "走\nwalk (391)"];
+  E [label = "囧走－十\nmending (*)"];
+  D [label = "正\ncorrect (387)"];
+  B [label = "一\none (1)"];
+  C [label = "止\nstop (379)"];
+  F [label = "土\nsoil (158)"];
+  J [label = "取\ntake (718)"];
+  H [label = "耳\near (717)"];
+  I [label = "又\nagain (633)"];
 
-  走 -> 趣 [thick];
-  囧走－十 -> 走 [thick];
-  正 -> 囧走－十 [thick];
-  一 -> 正 [thick];
-  止 -> 正 [thick];
-  土 -> 走 [thick];
-  取 -> 趣 [thick];
-  耳 -> 取 [thick];
-  又 -> 取 [thick];
+  G -> K [thick];
+  E -> G [thick];
+  D -> E [thick];
+  B -> D [thick];
+  C -> D [thick];
+  F -> G [thick];
+  J -> K [thick];
+  H -> J [thick];
+  I -> J [thick];
 }

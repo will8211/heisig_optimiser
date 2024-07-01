@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  召 [label = "召\n86 summon"];
-  刀 [label = "刀\n83 sword"];
-  口 [label = "口\n11 mouth"];
+  D [label = "召\nsummon (86)"];
+  B [label = "刀\nsword (83)"];
+  C [label = "口\nmouth (11)"];
 
-  刀 -> 召 [thick];
-  口 -> 召 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

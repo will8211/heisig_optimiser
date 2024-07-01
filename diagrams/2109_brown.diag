@@ -5,28 +5,30 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  褐 [label = "褐\n2109 brown"];
-  衣 [label = "衣\n400 clothing"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  曷 [label = "曷\n* siesta"];
-  人 [label = "人\n793 person"];
-  勹 [label = "勹\n* bound up"];
-  乙 [label = "乙\n95 second"];
-  日 [label = "日\n12 day"];
+  N [label = "褐\nbrown (2109)"];
+  H [label = "衣\nclothing (400)"];
+  G [label = "亠\ntop hat (*)"];
+  D [label = "六\nsix (6)"];
+  C [label = "囧只－口\nanimal legs (*)"];
+  B [label = "八\neight (8)"];
+  F [label = "囧只－口\nanimal legs (*)"];
+  E [label = "八\neight (8)"];
+  M [label = "曷\nsiesta (*)"];
+  I [label = "人\nperson (793)"];
+  J [label = "勹\nbound up (*)"];
+  K [label = "乙\nsecond (95)"];
+  L [label = "日\nday (12)"];
 
-  衣 -> 褐 [thick];
-  亠 -> 衣 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
-  曷 -> 褐 [thick];
-  人 -> 曷 [thick];
-  勹 -> 曷 [thick];
-  乙 -> 曷 [thick];
-  日 -> 曷 [thick];
+  H -> N [thick];
+  G -> H [thick];
+  D -> G [thick];
+  C -> D [thick];
+  B -> C [thick];
+  F -> G [thick];
+  E -> F [thick];
+  M -> N [thick];
+  I -> M [thick];
+  J -> M [thick];
+  K -> M [thick];
+  L -> M [thick];
 }

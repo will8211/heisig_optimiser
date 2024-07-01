@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  叉 [label = "叉\n1883 fork"];
-  又 [label = "又\n633 again"];
-  丶 [label = "丶\n* a drop of"];
+  D [label = "叉\nfork (1883)"];
+  B [label = "又\nagain (633)"];
+  C [label = "丶\na drop of (*)"];
 
-  又 -> 叉 [thick];
-  丶 -> 叉 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

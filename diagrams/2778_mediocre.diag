@@ -5,31 +5,32 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  庸 [label = "庸\n2778 mediocre"];
-  洞 [label = "洞\n186 cave"];
-  同 [label = "同\n185 same"];
-  一 [label = "一\n1 one"];
-  口 [label = "口\n11 mouth"];
-  冂 [label = "冂\n* hood"];
-  几 [label = "几\n57 how many?"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  丶 [label = "丶\n* a drop of"];
-  肀 [label = "肀\n* rake"];
-  彐 [label = "彐\n* broom"];
-  用 [label = "用\n1361 utilize"];
+  O [label = "庸\nmediocre (2778)"];
+  K [label = "洞\ncave (186)"];
+  F [label = "同\nsame (185)"];
+  B [label = "一\none (1)"];
+  C [label = "口\nmouth (11)"];
+  E [label = "冂\nhood (*)"];
+  D [label = "几\nhow many? (57)"];
+  J [label = "水\nwater (137)"];
+  H [label = "丨\nwalking stick (*)"];
+  G [label = "一\none (1)"];
+  I [label = "丶\na drop of (*)"];
+  M [label = "肀\nrake (*)"];
+  L [label = "彐\nbroom (*)"];
+  N [label = "用\nutilize (1361)"];
 
-  洞 -> 庸 [thick];
-  同 -> 洞 [thick];
-  一 -> 同 [thick];
-  口 -> 同 [thick];
-  冂 -> 同 [thick];
-  几 -> 冂 [thick];
-  水 -> 洞 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  肀 -> 庸 [thick];
-  彐 -> 肀 [thick];
-  用 -> 庸 [thick];
+  K -> O [thick];
+  F -> K [thick];
+  B -> F [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
+  J -> K [thick];
+  H -> J [thick];
+  G -> H [thick];
+  I -> J [thick];
+  M -> O [thick];
+  L -> M [thick];
+  N -> O [thick];
 }

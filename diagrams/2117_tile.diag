@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  瓦 [label = "瓦\n2117 tile"];
-  一 [label = "一\n1 one"];
-  囧以－丶人 [label = "囧以－丶人\n* plow"];
-  乙 [label = "乙\n95 second"];
-  丶 [label = "丶\n* a drop of"];
+  F [label = "瓦\ntile (2117)"];
+  B [label = "一\none (1)"];
+  C [label = "囧以－丶人\nplow (*)"];
+  D [label = "乙\nsecond (95)"];
+  E [label = "丶\na drop of (*)"];
 
-  一 -> 瓦 [thick];
-  囧以－丶人 -> 瓦 [thick];
-  乙 -> 瓦 [thick];
-  丶 -> 瓦 [thick];
+  B -> F [thick];
+  C -> F [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

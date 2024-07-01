@@ -5,21 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  腔 [label = "腔\n2363 body cavity"];
-  月 [label = "月\n13 month"];
-  空 [label = "空\n1073 empty"];
-  穴 [label = "穴\n1070 hole"];
-  宀 [label = "宀\n* house"];
-  八 [label = "八\n8 eight"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  工 [label = "工\n76 work"];
+  J [label = "腔\nbody cavity (2363)"];
+  B [label = "月\nmonth (13)"];
+  I [label = "空\nempty (1073)"];
+  G [label = "穴\nhole (1070)"];
+  C [label = "宀\nhouse (*)"];
+  D [label = "八\neight (8)"];
+  F [label = "囧只－口\nanimal legs (*)"];
+  E [label = "八\neight (8)"];
+  H [label = "工\nwork (76)"];
 
-  月 -> 腔 [thick];
-  空 -> 腔 [thick];
-  穴 -> 空 [thick];
-  宀 -> 穴 [thick];
-  八 -> 穴 [thick];
-  囧只－口 -> 穴 [thick];
-  八 -> 囧只－口 [thick];
-  工 -> 空 [thick];
+  B -> J [thick];
+  I -> J [thick];
+  G -> I [thick];
+  C -> G [thick];
+  D -> G [thick];
+  F -> G [thick];
+  E -> F [thick];
+  H -> I [thick];
 }

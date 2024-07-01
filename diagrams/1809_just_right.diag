@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  恰 [label = "恰\n1809 just right"];
-  心 [label = "心\n563 heart"];
-  合 [label = "合\n262 fit"];
-  亼 [label = "亼\n* meeting"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  口 [label = "口\n11 mouth"];
+  G [label = "恰\njust right (1809)"];
+  B [label = "心\nheart (563)"];
+  F [label = "合\nfit (262)"];
+  D [label = "亼\nmeeting (*)"];
+  C [label = "𠆢\numbrella (*)"];
+  E [label = "口\nmouth (11)"];
 
-  心 -> 恰 [thick];
-  合 -> 恰 [thick];
-  亼 -> 合 [thick];
-  "𠆢" -> 亼 [thick];
-  口 -> 合 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

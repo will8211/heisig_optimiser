@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  节 [label = "节\n1111 holiday"];
-  艹 [label = "艹\n* flower"];
-  囧节－艹 [label = "囧节－艹\n* chop"];
+  D [label = "节\nholiday (1111)"];
+  B [label = "艹\nflower (*)"];
+  C [label = "囧节－艹\nchop (*)"];
 
-  艹 -> 节 [thick];
-  囧节－艹 -> 节 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

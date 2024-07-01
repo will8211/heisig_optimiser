@@ -5,29 +5,30 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  颊 [label = "颊\n1524 cheek"];
-  夹 [label = "夹\n1523 press from both sides"];
-  夫 [label = "夫\n726 husband"];
-  大 [label = "大\n113 large"];
-  丷 [label = "丷\n* horns"];
-  一 [label = "一\n1 one"];
-  页 [label = "页\n60 page"];
-  贝 [label = "贝\n52 shellfish"];
-  目 [label = "目\n15 eye"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  丶 [label = "丶\n* a drop of"];
+  N [label = "颊\ncheek (1524)"];
+  F [label = "夹\npress from both sides (1523)"];
+  C [label = "夫\nhusband (726)"];
+  B [label = "大\nlarge (113)"];
+  E [label = "丷\nhorns (*)"];
+  D [label = "一\none (1)"];
+  M [label = "页\npage (60)"];
+  J [label = "贝\nshellfish (52)"];
+  G [label = "目\neye (15)"];
+  I [label = "囧只－口\nanimal legs (*)"];
+  H [label = "八\neight (8)"];
+  K [label = "一\none (1)"];
+  L [label = "丶\na drop of (*)"];
 
-  夹 -> 颊 [thick];
-  夫 -> 夹 [thick];
-  大 -> 夫 [thick];
-  丷 -> 夹 [thick];
-  一 -> 丷 [thick];
-  页 -> 颊 [thick];
-  贝 -> 页 [thick];
-  目 -> 贝 [thick];
-  囧只－口 -> 贝 [thick];
-  八 -> 囧只－口 [thick];
-  一 -> 页 [thick];
-  丶 -> 页 [thick];
+  F -> N [thick];
+  C -> F [thick];
+  B -> C [thick];
+  E -> F [thick];
+  D -> E [thick];
+  M -> N [thick];
+  J -> M [thick];
+  G -> J [thick];
+  I -> J [thick];
+  H -> I [thick];
+  K -> M [thick];
+  L -> M [thick];
 }

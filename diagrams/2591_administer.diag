@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  辖 [label = "辖\n2591 administer"];
-  车 [label = "车\n300 car"];
-  害 [label = "害\n1224 harm"];
-  宀 [label = "宀\n* house"];
-  丰 [label = "丰\n1223 plentiful"];
-  口 [label = "口\n11 mouth"];
+  G [label = "辖\nadminister (2591)"];
+  B [label = "车\ncar (300)"];
+  F [label = "害\nharm (1224)"];
+  C [label = "宀\nhouse (*)"];
+  D [label = "丰\nplentiful (1223)"];
+  E [label = "口\nmouth (11)"];
 
-  车 -> 辖 [thick];
-  害 -> 辖 [thick];
-  宀 -> 害 [thick];
-  丰 -> 害 [thick];
-  口 -> 害 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

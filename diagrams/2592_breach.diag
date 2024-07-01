@@ -5,23 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  豁 [label = "豁\n2592 breach"];
-  害 [label = "害\n1224 harm"];
-  宀 [label = "宀\n* house"];
-  丰 [label = "丰\n1223 plentiful"];
-  口 [label = "口\n11 mouth"];
-  谷 [label = "谷\n698 valley"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  "𠆢" [label = "𠆢\n* umbrella"];
+  K [label = "豁\nbreach (2592)"];
+  E [label = "害\nharm (1224)"];
+  B [label = "宀\nhouse (*)"];
+  C [label = "丰\nplentiful (1223)"];
+  D [label = "口\nmouth (11)"];
+  J [label = "谷\nvalley (698)"];
+  G [label = "囧只－口\nanimal legs (*)"];
+  F [label = "八\neight (8)"];
+  H [label = "𠆢\numbrella (*)"];
+  I [label = "口\nmouth (11)"];
 
-  害 -> 豁 [thick];
-  宀 -> 害 [thick];
-  丰 -> 害 [thick];
-  口 -> 害 [thick];
-  谷 -> 豁 [thick];
-  囧只－口 -> 谷 [thick];
-  八 -> 囧只－口 [thick];
-  "𠆢" -> 谷 [thick];
-  口 -> 谷 [thick];
+  E -> K [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
+  J -> K [thick];
+  G -> J [thick];
+  F -> G [thick];
+  H -> J [thick];
+  I -> J [thick];
 }

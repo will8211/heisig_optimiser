@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  首 [label = "首\n71 heads"];
-  丷 [label = "丷\n* horns"];
-  一 [label = "一\n1 one"];
-  自 [label = "自\n33 oneself"];
-  丶 [label = "丶\n* a drop of"];
-  目 [label = "目\n15 eye"];
+  G [label = "首\nheads (71)"];
+  C [label = "丷\nhorns (*)"];
+  B [label = "一\none (1)"];
+  F [label = "自\noneself (33)"];
+  D [label = "丶\na drop of (*)"];
+  E [label = "目\neye (15)"];
 
-  丷 -> 首 [thick];
-  一 -> 丷 [thick];
-  自 -> 首 [thick];
-  丶 -> 自 [thick];
-  目 -> 自 [thick];
+  C -> G [thick];
+  B -> C [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

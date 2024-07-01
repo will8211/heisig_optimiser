@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  近 [label = "近\n927 near"];
-  斤 [label = "斤\n924 catty"];
-  辶 [label = "辶\n* road"];
+  D [label = "近\nnear (927)"];
+  B [label = "斤\ncatty (924)"];
+  C [label = "辶\nroad (*)"];
 
-  斤 -> 近 [thick];
-  辶 -> 近 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

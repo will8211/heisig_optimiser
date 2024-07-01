@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  肤 [label = "肤\n1977 skin"];
-  月 [label = "月\n13 month"];
-  夫 [label = "夫\n726 husband"];
-  大 [label = "大\n113 large"];
+  E [label = "肤\nskin (1977)"];
+  B [label = "月\nmonth (13)"];
+  D [label = "夫\nhusband (726)"];
+  C [label = "大\nlarge (113)"];
 
-  月 -> 肤 [thick];
-  夫 -> 肤 [thick];
-  大 -> 夫 [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

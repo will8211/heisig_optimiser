@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  扒 [label = "扒\n1827 pick pockets"];
-  扌 [label = "扌\n* fingers"];
-  八 [label = "八\n8 eight"];
+  D [label = "扒\npick pockets (1827)"];
+  B [label = "扌\nfingers (*)"];
+  C [label = "八\neight (8)"];
 
-  扌 -> 扒 [thick];
-  八 -> 扒 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

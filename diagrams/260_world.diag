@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  界 [label = "界\n260 world"];
-  介 [label = "介\n259 introduce"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  "囧介－𠆢" [label = "囧介－𠆢\n* crutches"];
-  田 [label = "田\n14 rice field"];
+  F [label = "界\nworld (260)"];
+  D [label = "介\nintroduce (259)"];
+  B [label = "𠆢\numbrella (*)"];
+  C [label = "囧介－𠆢\ncrutches (*)"];
+  E [label = "田\nrice field (14)"];
 
-  介 -> 界 [thick];
-  "𠆢" -> 介 [thick];
-  "囧介－𠆢" -> 介 [thick];
-  田 -> 界 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

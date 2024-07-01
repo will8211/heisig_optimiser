@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  冗 [label = "冗\n318 superfluous"];
-  冖 [label = "冖\n* crown"];
-  几 [label = "几\n57 how many?"];
+  D [label = "冗\nsuperfluous (318)"];
+  B [label = "冖\ncrown (*)"];
+  C [label = "几\nhow many? (57)"];
 
-  冖 -> 冗 [thick];
-  几 -> 冗 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

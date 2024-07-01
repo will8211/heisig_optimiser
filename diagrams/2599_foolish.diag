@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  蠢 [label = "蠢\n2599 foolish"];
-  春 [label = "春\n1230 springtime"];
-  "𡗗" [label = "𡗗\n* bonsai"];
-  丰 [label = "丰\n1223 plentiful"];
-  日 [label = "日\n12 day"];
-  虫 [label = "虫\n509 insect"];
+  G [label = "蠢\nfoolish (2599)"];
+  E [label = "春\nspringtime (1230)"];
+  C [label = "𡗗\nbonsai (*)"];
+  B [label = "丰\nplentiful (1223)"];
+  D [label = "日\nday (12)"];
+  F [label = "虫\ninsect (509)"];
 
-  春 -> 蠢 [thick];
-  "𡗗" -> 春 [thick];
-  丰 -> "𡗗" [thick];
-  日 -> 春 [thick];
-  虫 -> 蠢 [thick];
+  E -> G [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

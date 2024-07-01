@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  围 [label = "围\n1228 surround"];
-  囗 [label = "囗\n* pent in"];
-  韦 [label = "韦\n1227 tanned hide"];
+  D [label = "围\nsurround (1228)"];
+  B [label = "囗\npent in (*)"];
+  C [label = "韦\ntanned hide (1227)"];
 
-  囗 -> 围 [thick];
-  韦 -> 围 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

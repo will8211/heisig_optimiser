@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  岂 [label = "岂\n1934 (rhetorical question)"];
-  山 [label = "山\n688 mountain"];
-  己 [label = "己\n515 self"];
+  D [label = "岂\n(rhetorical question) (1934)"];
+  B [label = "山\nmountain (688)"];
+  C [label = "己\nself (515)"];
 
-  山 -> 岂 [thick];
-  己 -> 岂 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

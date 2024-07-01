@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  摇 [label = "摇\n1446 shake"];
-  扌 [label = "扌\n* fingers"];
-  "䍃" [label = "䍃\n* can opener"];
-  爪 [label = "爪\n663 claw"];
-  "𠂆" [label = "𠂆\n* drag"];
-  缶 [label = "缶\n* tin can"];
-  午 [label = "午\n542 noon"];
-  山 [label = "山\n688 mountain"];
+  I [label = "摇\nshake (1446)"];
+  B [label = "扌\nfingers (*)"];
+  H [label = "䍃\ncan opener (*)"];
+  D [label = "爪\nclaw (663)"];
+  C [label = "𠂆\ndrag (*)"];
+  G [label = "缶\ntin can (*)"];
+  E [label = "午\nnoon (542)"];
+  F [label = "山\nmountain (688)"];
 
-  扌 -> 摇 [thick];
-  "䍃" -> 摇 [thick];
-  爪 -> "䍃" [thick];
-  "𠂆" -> 爪 [thick];
-  缶 -> "䍃" [thick];
-  午 -> 缶 [thick];
-  山 -> 缶 [thick];
+  B -> I [thick];
+  H -> I [thick];
+  D -> H [thick];
+  C -> D [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

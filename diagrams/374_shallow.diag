@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  浅 [label = "浅\n374 shallow"];
-  戋 [label = "戋\n* float"];
-  戈 [label = "戈\n361 halberd"];
-  弋 [label = "弋\n* arrow"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
+  I [label = "浅\nshallow (374)"];
+  D [label = "戋\nfloat (*)"];
+  C [label = "戈\nhalberd (361)"];
+  B [label = "弋\narrow (*)"];
+  H [label = "水\nwater (137)"];
+  F [label = "丨\nwalking stick (*)"];
+  E [label = "一\none (1)"];
+  G [label = "丶\na drop of (*)"];
 
-  戋 -> 浅 [thick];
-  戈 -> 戋 [thick];
-  弋 -> 戈 [thick];
-  水 -> 浅 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
+  D -> I [thick];
+  C -> D [thick];
+  B -> C [thick];
+  H -> I [thick];
+  F -> H [thick];
+  E -> F [thick];
+  G -> H [thick];
 }

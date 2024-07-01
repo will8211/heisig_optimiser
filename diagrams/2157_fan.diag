@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  扇 [label = "扇\n2157 fan"];
-  户 [label = "户\n896 door"];
-  丶 [label = "丶\n* a drop of"];
-  尸 [label = "尸\n882 corpse"];
-  羽 [label = "羽\n544 feathers"];
+  F [label = "扇\nfan (2157)"];
+  D [label = "户\ndoor (896)"];
+  B [label = "丶\na drop of (*)"];
+  C [label = "尸\ncorpse (882)"];
+  E [label = "羽\nfeathers (544)"];
 
-  户 -> 扇 [thick];
-  丶 -> 户 [thick];
-  尸 -> 户 [thick];
-  羽 -> 扇 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

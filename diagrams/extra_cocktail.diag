@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  "㐱" [label = "㐱\n* cocktail"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  彡 [label = "彡\n* rooster tail"];
+  D [label = "㐱\ncocktail (*)"];
+  B [label = "𠆢\numbrella (*)"];
+  C [label = "彡\nrooster tail (*)"];
 
-  "𠆢" -> "㐱" [thick];
-  彡 -> "㐱" [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

@@ -5,8 +5,8 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  纟 [label = "纟\n* thread"];
-  厶 [label = "厶\n* elbow"];
+  C [label = "纟\nthread (*)"];
+  B [label = "厶\nelbow (*)"];
 
-  厶 -> 纟 [thick];
+  B -> C [thick];
 }

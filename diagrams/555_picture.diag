@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  图 [label = "图\n555 picture"];
-  囗 [label = "囗\n* pent in"];
-  冬 [label = "冬\n435 winter"];
-  夂 [label = "夂\n* walking legs"];
-  冫 [label = "冫\n* ice"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
+  J [label = "图\npicture (555)"];
+  B [label = "囗\npent in (*)"];
+  I [label = "冬\nwinter (435)"];
+  C [label = "夂\nwalking legs (*)"];
+  H [label = "冫\nice (*)"];
+  G [label = "水\nwater (137)"];
+  E [label = "丨\nwalking stick (*)"];
+  D [label = "一\none (1)"];
+  F [label = "丶\na drop of (*)"];
 
-  囗 -> 图 [thick];
-  冬 -> 图 [thick];
-  夂 -> 冬 [thick];
-  冫 -> 冬 [thick];
-  水 -> 冫 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
+  B -> J [thick];
+  I -> J [thick];
+  C -> I [thick];
+  H -> I [thick];
+  G -> H [thick];
+  E -> G [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

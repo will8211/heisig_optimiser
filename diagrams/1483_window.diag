@@ -5,19 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  窗 [label = "窗\n1483 window"];
-  穴 [label = "穴\n1070 hole"];
-  宀 [label = "宀\n* house"];
-  八 [label = "八\n8 eight"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  囱 [label = "囱\n* GPS"];
-  夂 [label = "夂\n* walking legs"];
+  I [label = "窗\nwindow (1483)"];
+  F [label = "穴\nhole (1070)"];
+  B [label = "宀\nhouse (*)"];
+  C [label = "八\neight (8)"];
+  E [label = "囧只－口\nanimal legs (*)"];
+  D [label = "八\neight (8)"];
+  H [label = "囱\nGPS (*)"];
+  G [label = "夂\nwalking legs (*)"];
 
-  穴 -> 窗 [thick];
-  宀 -> 穴 [thick];
-  八 -> 穴 [thick];
-  囧只－口 -> 穴 [thick];
-  八 -> 囧只－口 [thick];
-  囱 -> 窗 [thick];
-  夂 -> 囱 [thick];
+  F -> I [thick];
+  B -> F [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
+  H -> I [thick];
+  G -> H [thick];
 }

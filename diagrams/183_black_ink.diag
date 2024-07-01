@@ -5,8 +5,8 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  墨 [label = "墨\n183 black ink"];
-  土 [label = "土\n158 soil"];
+  C [label = "墨\nblack ink (183)"];
+  B [label = "土\nsoil (158)"];
 
-  土 -> 墨 [thick];
+  B -> C [thick];
 }

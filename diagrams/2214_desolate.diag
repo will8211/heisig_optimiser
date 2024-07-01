@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  萧 [label = "萧\n2214 desolate"];
-  艹 [label = "艹\n* flower"];
-  肃 [label = "肃\n2212 solemn"];
-  肀 [label = "肀\n* rake"];
-  彐 [label = "彐\n* broom"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  "囧介－𠆢" [label = "囧介－𠆢\n* crutches"];
+  I [label = "萧\ndesolate (2214)"];
+  B [label = "艹\nflower (*)"];
+  H [label = "肃\nsolemn (2212)"];
+  D [label = "肀\nrake (*)"];
+  C [label = "彐\nbroom (*)"];
+  F [label = "囧只－口\nanimal legs (*)"];
+  E [label = "八\neight (8)"];
+  G [label = "囧介－𠆢\ncrutches (*)"];
 
-  艹 -> 萧 [thick];
-  肃 -> 萧 [thick];
-  肀 -> 肃 [thick];
-  彐 -> 肀 [thick];
-  囧只－口 -> 肃 [thick];
-  八 -> 囧只－口 [thick];
-  "囧介－𠆢" -> 肃 [thick];
+  B -> I [thick];
+  H -> I [thick];
+  D -> H [thick];
+  C -> D [thick];
+  F -> H [thick];
+  E -> F [thick];
+  G -> H [thick];
 }

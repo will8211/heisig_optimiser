@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  煌 [label = "煌\n273 resplendent"];
-  火 [label = "火\n170 fire"];
-  皇 [label = "皇\n272 emperor"];
-  王 [label = "王\n265 king"];
-  工 [label = "工\n76 work"];
-  白 [label = "白\n34 white"];
-  日 [label = "日\n12 day"];
-  丶 [label = "丶\n* a drop of"];
+  I [label = "煌\nresplendent (273)"];
+  B [label = "火\nfire (170)"];
+  H [label = "皇\nemperor (272)"];
+  D [label = "王\nking (265)"];
+  C [label = "工\nwork (76)"];
+  G [label = "白\nwhite (34)"];
+  E [label = "日\nday (12)"];
+  F [label = "丶\na drop of (*)"];
 
-  火 -> 煌 [thick];
-  皇 -> 煌 [thick];
-  王 -> 皇 [thick];
-  工 -> 王 [thick];
-  白 -> 皇 [thick];
-  日 -> 白 [thick];
-  丶 -> 白 [thick];
+  B -> I [thick];
+  H -> I [thick];
+  D -> H [thick];
+  C -> D [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

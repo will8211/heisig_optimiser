@@ -5,22 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  袜 [label = "袜\n1677 socks"];
-  衣 [label = "衣\n400 clothing"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  末 [label = "末\n216 last"];
-  木 [label = "木\n202 tree"];
+  K [label = "袜\nsocks (1677)"];
+  H [label = "衣\nclothing (400)"];
+  G [label = "亠\ntop hat (*)"];
+  D [label = "六\nsix (6)"];
+  C [label = "囧只－口\nanimal legs (*)"];
+  B [label = "八\neight (8)"];
+  F [label = "囧只－口\nanimal legs (*)"];
+  E [label = "八\neight (8)"];
+  J [label = "末\nlast (216)"];
+  I [label = "木\ntree (202)"];
 
-  衣 -> 袜 [thick];
-  亠 -> 衣 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
-  末 -> 袜 [thick];
-  木 -> 末 [thick];
+  H -> K [thick];
+  G -> H [thick];
+  D -> G [thick];
+  C -> D [thick];
+  B -> C [thick];
+  F -> G [thick];
+  E -> F [thick];
+  J -> K [thick];
+  I -> J [thick];
 }

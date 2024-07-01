@@ -5,23 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  渣 [label = "渣\n221 sediment"];
-  查 [label = "查\n220 investigate"];
-  旦 [label = "旦\n30 daybreak"];
-  日 [label = "日\n12 day"];
-  一 [label = "一\n1 one"];
-  木 [label = "木\n202 tree"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  丶 [label = "丶\n* a drop of"];
+  K [label = "渣\nsediment (221)"];
+  F [label = "查\ninvestigate (220)"];
+  D [label = "旦\ndaybreak (30)"];
+  B [label = "日\nday (12)"];
+  C [label = "一\none (1)"];
+  E [label = "木\ntree (202)"];
+  J [label = "水\nwater (137)"];
+  H [label = "丨\nwalking stick (*)"];
+  G [label = "一\none (1)"];
+  I [label = "丶\na drop of (*)"];
 
-  查 -> 渣 [thick];
-  旦 -> 查 [thick];
-  日 -> 旦 [thick];
-  一 -> 旦 [thick];
-  木 -> 查 [thick];
-  水 -> 渣 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
+  F -> K [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
+  J -> K [thick];
+  H -> J [thick];
+  G -> H [thick];
+  I -> J [thick];
 }

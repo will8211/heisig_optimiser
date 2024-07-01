@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  尧 [label = "尧\n376 Yao"];
-  戈 [label = "戈\n361 halberd"];
-  弋 [label = "弋\n* arrow"];
-  儿 [label = "儿\n56 youngster"];
+  E [label = "尧\nYao (376)"];
+  C [label = "戈\nhalberd (361)"];
+  B [label = "弋\narrow (*)"];
+  D [label = "儿\nyoungster (56)"];
 
-  戈 -> 尧 [thick];
-  弋 -> 戈 [thick];
-  儿 -> 尧 [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
 }

@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  拌 [label = "拌\n2247 blend"];
-  扌 [label = "扌\n* fingers"];
-  半 [label = "半\n980 half"];
+  D [label = "拌\nblend (2247)"];
+  B [label = "扌\nfingers (*)"];
+  C [label = "半\nhalf (980)"];
 
-  扌 -> 拌 [thick];
-  半 -> 拌 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

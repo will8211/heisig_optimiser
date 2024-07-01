@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  茄 [label = "茄\n1991 eggplant"];
-  艹 [label = "艹\n* flower"];
-  加 [label = "加\n749 add"];
-  肌 [label = "肌\n63 muscle"];
-  几 [label = "几\n57 how many?"];
-  月 [label = "月\n13 month"];
-  口 [label = "口\n11 mouth"];
+  H [label = "茄\neggplant (1991)"];
+  B [label = "艹\nflower (*)"];
+  G [label = "加\nadd (749)"];
+  E [label = "肌\nmuscle (63)"];
+  C [label = "几\nhow many? (57)"];
+  D [label = "月\nmonth (13)"];
+  F [label = "口\nmouth (11)"];
 
-  艹 -> 茄 [thick];
-  加 -> 茄 [thick];
-  肌 -> 加 [thick];
-  几 -> 肌 [thick];
-  月 -> 肌 [thick];
-  口 -> 加 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  E -> G [thick];
+  C -> E [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

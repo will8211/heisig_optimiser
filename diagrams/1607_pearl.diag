@@ -5,21 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  珠 [label = "珠\n1607 pearl"];
-  玉 [label = "玉\n266 jade"];
-  王 [label = "王\n265 king"];
-  工 [label = "工\n76 work"];
-  丶 [label = "丶\n* a drop of"];
-  朱 [label = "朱\n1578 vermilion"];
-  未 [label = "未\n215 not yet"];
-  木 [label = "木\n202 tree"];
+  J [label = "珠\npearl (1607)"];
+  E [label = "玉\njade (266)"];
+  C [label = "王\nking (265)"];
+  B [label = "工\nwork (76)"];
+  D [label = "丶\na drop of (*)"];
+  I [label = "朱\nvermilion (1578)"];
+  F [label = "丶\na drop of (*)"];
+  H [label = "未\nnot yet (215)"];
+  G [label = "木\ntree (202)"];
 
-  玉 -> 珠 [thick];
-  王 -> 玉 [thick];
-  工 -> 王 [thick];
-  丶 -> 玉 [thick];
-  朱 -> 珠 [thick];
-  丶 -> 朱 [thick];
-  未 -> 朱 [thick];
-  木 -> 未 [thick];
+  E -> J [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  I -> J [thick];
+  F -> I [thick];
+  H -> I [thick];
+  G -> H [thick];
 }

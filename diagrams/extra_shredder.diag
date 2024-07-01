@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  敝 [label = "敝\n* shredder"];
-  冂 [label = "冂\n* hood"];
-  几 [label = "几\n57 how many?"];
-  米 [label = "米\n778 rice"];
-  攵 [label = "攵\n* taskmaster"];
+  F [label = "敝\nshredder (*)"];
+  C [label = "冂\nhood (*)"];
+  B [label = "几\nhow many? (57)"];
+  D [label = "米\nrice (778)"];
+  E [label = "攵\ntaskmaster (*)"];
 
-  冂 -> 敝 [thick];
-  几 -> 冂 [thick];
-  米 -> 敝 [thick];
-  攵 -> 敝 [thick];
+  C -> F [thick];
+  B -> C [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

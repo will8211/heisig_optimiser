@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  晨 [label = "晨\n1468 morning"];
-  日 [label = "日\n12 day"];
-  辰 [label = "辰\n1467 sign of the dragon"];
-  厂 [label = "厂\n121 factory"];
-  二 [label = "二\n2 two"];
-  一 [label = "一\n1 one"];
-  囧丧－十－丷 [label = "囧丧－十－丷\n* barrette"];
+  H [label = "晨\nmorning (1468)"];
+  B [label = "日\nday (12)"];
+  G [label = "辰\nsign of the dragon (1467)"];
+  C [label = "厂\nfactory (121)"];
+  E [label = "二\ntwo (2)"];
+  D [label = "一\none (1)"];
+  F [label = "囧丧－十－丷\nbarrette (*)"];
 
-  日 -> 晨 [thick];
-  辰 -> 晨 [thick];
-  厂 -> 辰 [thick];
-  二 -> 辰 [thick];
-  一 -> 二 [thick];
-  囧丧－十－丷 -> 辰 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  C -> G [thick];
+  E -> G [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

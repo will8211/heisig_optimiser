@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  指 [label = "指\n594 finger"];
-  扌 [label = "扌\n* fingers"];
-  旨 [label = "旨\n463 purpose"];
-  匕 [label = "匕\n453 ancient spoon"];
-  日 [label = "日\n12 day"];
+  F [label = "指\nfinger (594)"];
+  B [label = "扌\nfingers (*)"];
+  E [label = "旨\npurpose (463)"];
+  C [label = "匕\nancient spoon (453)"];
+  D [label = "日\nday (12)"];
 
-  扌 -> 指 [thick];
-  旨 -> 指 [thick];
-  匕 -> 旨 [thick];
-  日 -> 旨 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

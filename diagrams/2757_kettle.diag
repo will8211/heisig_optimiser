@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  壶 [label = "壶\n2757 kettle"];
-  士 [label = "士\n334 soldier"];
-  冖 [label = "冖\n* crown"];
-  业 [label = "业\n1349 profession"];
-  並 [label = "並\n* side by side"];
+  F [label = "壶\nkettle (2757)"];
+  B [label = "士\nsoldier (334)"];
+  C [label = "冖\ncrown (*)"];
+  E [label = "业\nprofession (1349)"];
+  D [label = "並\nside by side (*)"];
 
-  士 -> 壶 [thick];
-  冖 -> 壶 [thick];
-  业 -> 壶 [thick];
-  並 -> 业 [thick];
+  B -> F [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
 }

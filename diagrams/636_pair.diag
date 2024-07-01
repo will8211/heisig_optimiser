@@ -5,8 +5,8 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  双 [label = "双\n636 pair"];
-  又 [label = "又\n633 again"];
+  C [label = "双\npair (636)"];
+  B [label = "又\nagain (633)"];
 
-  又 -> 双 [thick];
+  B -> C [thick];
 }

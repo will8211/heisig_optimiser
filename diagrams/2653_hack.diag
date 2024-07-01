@@ -5,15 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  嗽 [label = "嗽\n2653 hack"];
-  口 [label = "口\n11 mouth"];
-  束 [label = "束\n1286 bundle up"];
-  木 [label = "木\n202 tree"];
-  欠 [label = "欠\n474 lack"];
+  G [label = "嗽\nhack (2653)"];
+  B [label = "口\nmouth (11)"];
+  E [label = "束\nbundle up (1286)"];
+  C [label = "木\ntree (202)"];
+  D [label = "口\nmouth (11)"];
+  F [label = "欠\nlack (474)"];
 
-  口 -> 嗽 [thick];
-  束 -> 嗽 [thick];
-  木 -> 束 [thick];
-  口 -> 束 [thick];
-  欠 -> 嗽 [thick];
+  B -> G [thick];
+  E -> G [thick];
+  C -> E [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

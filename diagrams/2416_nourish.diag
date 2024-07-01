@@ -5,30 +5,32 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  滋 [label = "滋\n2416 nourish"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  兹 [label = "兹\n* Mona Lisa"];
-  玄 [label = "玄\n2411 mysterious"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  幺 [label = "幺\n* cocoon"];
+  O [label = "滋\nnourish (2416)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  N [label = "兹\nMona Lisa (*)"];
+  M [label = "玄\nmysterious (2411)"];
+  K [label = "亠\ntop hat (*)"];
+  H [label = "六\nsix (6)"];
+  G [label = "囧只－口\nanimal legs (*)"];
+  F [label = "八\neight (8)"];
+  J [label = "囧只－口\nanimal legs (*)"];
+  I [label = "八\neight (8)"];
+  L [label = "幺\ncocoon (*)"];
 
-  水 -> 滋 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  兹 -> 滋 [thick];
-  玄 -> 兹 [thick];
-  亠 -> 玄 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
-  幺 -> 玄 [thick];
+  E -> O [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  N -> O [thick];
+  M -> N [thick];
+  K -> M [thick];
+  H -> K [thick];
+  G -> H [thick];
+  F -> G [thick];
+  J -> K [thick];
+  I -> J [thick];
+  L -> M [thick];
 }

@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  雷 [label = "雷\n426 thunder"];
-  田 [label = "田\n14 rice field"];
-  雨 [label = "雨\n425 rain"];
+  D [label = "雷\nthunder (426)"];
+  B [label = "田\nrice field (14)"];
+  C [label = "雨\nrain (425)"];
 
-  田 -> 雷 [thick];
-  雨 -> 雷 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

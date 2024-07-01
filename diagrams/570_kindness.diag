@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  恩 [label = "恩\n570 kindness"];
-  因 [label = "因\n551 cause"];
-  囗 [label = "囗\n* pent in"];
-  大 [label = "大\n113 large"];
-  心 [label = "心\n563 heart"];
+  F [label = "恩\nkindness (570)"];
+  D [label = "因\ncause (551)"];
+  B [label = "囗\npent in (*)"];
+  C [label = "大\nlarge (113)"];
+  E [label = "心\nheart (563)"];
 
-  因 -> 恩 [thick];
-  囗 -> 因 [thick];
-  大 -> 因 [thick];
-  心 -> 恩 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

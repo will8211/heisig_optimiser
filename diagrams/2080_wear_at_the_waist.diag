@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  佩 [label = "佩\n2080 wear at the waist"];
-  人 [label = "人\n793 person"];
-  几 [label = "几\n57 how many?"];
-  一 [label = "一\n1 one"];
-  巾 [label = "巾\n410 towel"];
+  F [label = "佩\nwear at the waist (2080)"];
+  B [label = "人\nperson (793)"];
+  C [label = "几\nhow many? (57)"];
+  D [label = "一\none (1)"];
+  E [label = "巾\ntowel (410)"];
 
-  人 -> 佩 [thick];
-  几 -> 佩 [thick];
-  一 -> 佩 [thick];
-  巾 -> 佩 [thick];
+  B -> F [thick];
+  C -> F [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

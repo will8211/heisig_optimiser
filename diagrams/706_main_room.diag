@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  堂 [label = "堂\n706 main room"];
-  囧赏－贝 [label = "囧赏－贝\n* outhouse"];
-  小 [label = "小\n109 small"];
-  丶 [label = "丶\n* a drop of"];
-  口 [label = "口\n11 mouth"];
-  土 [label = "土\n158 soil"];
+  G [label = "堂\nmain room (706)"];
+  E [label = "囧赏－贝\nouthouse (*)"];
+  C [label = "小\nsmall (109)"];
+  B [label = "丶\na drop of (*)"];
+  D [label = "口\nmouth (11)"];
+  F [label = "土\nsoil (158)"];
 
-  囧赏－贝 -> 堂 [thick];
-  小 -> 囧赏－贝 [thick];
-  丶 -> 小 [thick];
-  口 -> 囧赏－贝 [thick];
-  土 -> 堂 [thick];
+  E -> G [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

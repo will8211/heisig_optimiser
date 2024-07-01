@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  配 [label = "配\n1127 distribute"];
-  酉 [label = "酉\n* whiskey bottle"];
-  己 [label = "己\n515 self"];
+  D [label = "配\ndistribute (1127)"];
+  B [label = "酉\nwhiskey bottle (*)"];
+  C [label = "己\nself (515)"];
 
-  酉 -> 配 [thick];
-  己 -> 配 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

@@ -5,30 +5,32 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  频 [label = "频\n382 repeatedly"];
-  页 [label = "页\n60 page"];
-  贝 [label = "贝\n52 shellfish"];
-  目 [label = "目\n15 eye"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  步 [label = "步\n380 footstep"];
-  止 [label = "止\n379 stop"];
-  少 [label = "少\n110 few"];
-  小 [label = "小\n109 small"];
+  O [label = "频\nrepeatedly (382)"];
+  H [label = "页\npage (60)"];
+  E [label = "贝\nshellfish (52)"];
+  B [label = "目\neye (15)"];
+  D [label = "囧只－口\nanimal legs (*)"];
+  C [label = "八\neight (8)"];
+  F [label = "一\none (1)"];
+  G [label = "丶\na drop of (*)"];
+  N [label = "步\nfootstep (380)"];
+  I [label = "止\nstop (379)"];
+  M [label = "少\nfew (110)"];
+  J [label = "丶\na drop of (*)"];
+  L [label = "小\nsmall (109)"];
+  K [label = "丶\na drop of (*)"];
 
-  页 -> 频 [thick];
-  贝 -> 页 [thick];
-  目 -> 贝 [thick];
-  囧只－口 -> 贝 [thick];
-  八 -> 囧只－口 [thick];
-  一 -> 页 [thick];
-  丶 -> 页 [thick];
-  步 -> 频 [thick];
-  止 -> 步 [thick];
-  少 -> 步 [thick];
-  丶 -> 少 [thick];
-  小 -> 少 [thick];
-  丶 -> 小 [thick];
+  H -> O [thick];
+  E -> H [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
+  F -> H [thick];
+  G -> H [thick];
+  N -> O [thick];
+  I -> N [thick];
+  M -> N [thick];
+  J -> M [thick];
+  L -> M [thick];
+  K -> L [thick];
 }

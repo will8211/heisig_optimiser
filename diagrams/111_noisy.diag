@@ -5,15 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  吵 [label = "吵\n111 noisy"];
-  少 [label = "少\n110 few"];
-  丶 [label = "丶\n* a drop of"];
-  小 [label = "小\n109 small"];
-  口 [label = "口\n11 mouth"];
+  G [label = "吵\nnoisy (111)"];
+  E [label = "少\nfew (110)"];
+  B [label = "丶\na drop of (*)"];
+  D [label = "小\nsmall (109)"];
+  C [label = "丶\na drop of (*)"];
+  F [label = "口\nmouth (11)"];
 
-  少 -> 吵 [thick];
-  丶 -> 少 [thick];
-  小 -> 少 [thick];
-  丶 -> 小 [thick];
-  口 -> 吵 [thick];
+  E -> G [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
+  F -> G [thick];
 }

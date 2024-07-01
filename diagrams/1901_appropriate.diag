@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  妥 [label = "妥\n1901 appropriate"];
-  爪 [label = "爪\n663 claw"];
-  "𠂆" [label = "𠂆\n* drag"];
-  女 [label = "女\n102 woman"];
+  E [label = "妥\nappropriate (1901)"];
+  C [label = "爪\nclaw (663)"];
+  B [label = "𠂆\ndrag (*)"];
+  D [label = "女\nwoman (102)"];
 
-  爪 -> 妥 [thick];
-  "𠂆" -> 爪 [thick];
-  女 -> 妥 [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
 }

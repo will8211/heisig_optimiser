@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  啦 [label = "啦\n609 !!"];
-  口 [label = "口\n11 mouth"];
-  拉 [label = "拉\n608 pull"];
-  扌 [label = "扌\n* fingers"];
-  立 [label = "立\n444 standing up"];
+  F [label = "啦\n!! (609)"];
+  B [label = "口\nmouth (11)"];
+  E [label = "拉\npull (608)"];
+  C [label = "扌\nfingers (*)"];
+  D [label = "立\nstanding up (444)"];
 
-  口 -> 啦 [thick];
-  拉 -> 啦 [thick];
-  扌 -> 拉 [thick];
-  立 -> 拉 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

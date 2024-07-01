@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  尝 [label = "尝\n1692 taste"];
-  小 [label = "小\n109 small"];
-  丶 [label = "丶\n* a drop of"];
-  冖 [label = "冖\n* crown"];
-  云 [label = "云\n428 cloud"];
+  F [label = "尝\ntaste (1692)"];
+  C [label = "小\nsmall (109)"];
+  B [label = "丶\na drop of (*)"];
+  D [label = "冖\ncrown (*)"];
+  E [label = "云\ncloud (428)"];
 
-  小 -> 尝 [thick];
-  丶 -> 小 [thick];
-  冖 -> 尝 [thick];
-  云 -> 尝 [thick];
+  C -> F [thick];
+  B -> C [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

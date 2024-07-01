@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  肠 [label = "肠\n1754 intestines"];
-  月 [label = "月\n13 month"];
-  "𠃓" [label = "𠃓\n* piglets"];
-  豕 [label = "豕\n* sow"];
+  E [label = "肠\nintestines (1754)"];
+  B [label = "月\nmonth (13)"];
+  D [label = "𠃓\npiglets (*)"];
+  C [label = "豕\nsow (*)"];
 
-  月 -> 肠 [thick];
-  "𠃓" -> 肠 [thick];
-  豕 -> "𠃓" [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

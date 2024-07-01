@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  萨 [label = "萨\n2711 Samoa"];
-  艹 [label = "艹\n* flower"];
-  阝 [label = "阝\n* pinnacle"];
-  产 [label = "产\n1312 products"];
-  立 [label = "立\n444 standing up"];
-  厂 [label = "厂\n121 factory"];
+  G [label = "萨\nSamoa (2711)"];
+  B [label = "艹\nflower (*)"];
+  C [label = "阝\npinnacle (*)"];
+  F [label = "产\nproducts (1312)"];
+  D [label = "立\nstanding up (444)"];
+  E [label = "厂\nfactory (121)"];
 
-  艹 -> 萨 [thick];
-  阝 -> 萨 [thick];
-  产 -> 萨 [thick];
-  立 -> 产 [thick];
-  厂 -> 产 [thick];
+  B -> G [thick];
+  C -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  握 [label = "握\n887 grip"];
-  扌 [label = "扌\n* fingers"];
-  屋 [label = "屋\n886 habitation"];
-  尸 [label = "尸\n882 corpse"];
-  至 [label = "至\n678 until"];
-  囧会－亼 [label = "囧会－亼\n* wall"];
-  厶 [label = "厶\n* elbow"];
-  一 [label = "一\n1 one"];
-  土 [label = "土\n158 soil"];
+  J [label = "握\ngrip (887)"];
+  B [label = "扌\nfingers (*)"];
+  I [label = "屋\nhabitation (886)"];
+  C [label = "尸\ncorpse (882)"];
+  H [label = "至\nuntil (678)"];
+  F [label = "囧会－亼\nwall (*)"];
+  D [label = "厶\nelbow (*)"];
+  E [label = "一\none (1)"];
+  G [label = "土\nsoil (158)"];
 
-  扌 -> 握 [thick];
-  屋 -> 握 [thick];
-  尸 -> 屋 [thick];
-  至 -> 屋 [thick];
-  囧会－亼 -> 至 [thick];
-  厶 -> 囧会－亼 [thick];
-  一 -> 囧会－亼 [thick];
-  土 -> 至 [thick];
+  B -> J [thick];
+  I -> J [thick];
+  C -> I [thick];
+  H -> I [thick];
+  F -> H [thick];
+  D -> F [thick];
+  E -> F [thick];
+  G -> H [thick];
 }

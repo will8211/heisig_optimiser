@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  墙 [label = "墙\n1781 wall"];
-  土 [label = "土\n158 soil"];
-  丷 [label = "丷\n* horns"];
-  一 [label = "一\n1 one"];
-  回 [label = "回\n554 return"];
-  囗 [label = "囗\n* pent in"];
-  口 [label = "口\n11 mouth"];
+  H [label = "墙\nwall (1781)"];
+  B [label = "土\nsoil (158)"];
+  D [label = "丷\nhorns (*)"];
+  C [label = "一\none (1)"];
+  G [label = "回\nreturn (554)"];
+  E [label = "囗\npent in (*)"];
+  F [label = "口\nmouth (11)"];
 
-  土 -> 墙 [thick];
-  丷 -> 墙 [thick];
-  一 -> 丷 [thick];
-  回 -> 墙 [thick];
-  囗 -> 回 [thick];
-  口 -> 回 [thick];
+  B -> H [thick];
+  D -> H [thick];
+  C -> D [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

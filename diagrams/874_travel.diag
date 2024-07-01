@@ -5,32 +5,40 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  旅 [label = "旅\n874 travel"];
-  囧施－也 [label = "囧施－也\n* banner"];
-  方 [label = "方\n494 direction"];
-  刀 [label = "刀\n83 sword"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  "𠂉" [label = "𠂉\n* reclining"];
-  衣 [label = "衣\n400 clothing"];
+  S [label = "旅\ntravel (874)"];
+  K [label = "囧施－也\nbanner (*)"];
+  I [label = "方\ndirection (494)"];
+  B [label = "刀\nsword (83)"];
+  H [label = "亠\ntop hat (*)"];
+  E [label = "六\nsix (6)"];
+  D [label = "囧只－口\nanimal legs (*)"];
+  C [label = "八\neight (8)"];
+  G [label = "囧只－口\nanimal legs (*)"];
+  F [label = "八\neight (8)"];
+  J [label = "𠂉\nreclining (*)"];
+  R [label = "衣\nclothing (400)"];
+  Q [label = "亠\ntop hat (*)"];
+  N [label = "六\nsix (6)"];
+  M [label = "囧只－口\nanimal legs (*)"];
+  L [label = "八\neight (8)"];
+  P [label = "囧只－口\nanimal legs (*)"];
+  O [label = "八\neight (8)"];
 
-  囧施－也 -> 旅 [thick];
-  方 -> 囧施－也 [thick];
-  刀 -> 方 [thick];
-  亠 -> 方 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
-  "𠂉" -> 囧施－也 [thick];
-  衣 -> 旅 [thick];
-  亠 -> 衣 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
+  K -> S [thick];
+  I -> K [thick];
+  B -> I [thick];
+  H -> I [thick];
+  E -> H [thick];
+  D -> E [thick];
+  C -> D [thick];
+  G -> H [thick];
+  F -> G [thick];
+  J -> K [thick];
+  R -> S [thick];
+  Q -> R [thick];
+  N -> Q [thick];
+  M -> N [thick];
+  L -> M [thick];
+  P -> Q [thick];
+  O -> P [thick];
 }

@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  爹 [label = "爹\n2312 dad"];
-  父 [label = "父\n1043 father"];
-  丶 [label = "丶\n* a drop of"];
-  多 [label = "多\n116 many"];
-  月 [label = "月\n13 month"];
+  F [label = "爹\ndad (2312)"];
+  C [label = "父\nfather (1043)"];
+  B [label = "丶\na drop of (*)"];
+  E [label = "多\nmany (116)"];
+  D [label = "月\nmonth (13)"];
 
-  父 -> 爹 [thick];
-  丶 -> 父 [thick];
-  多 -> 爹 [thick];
-  月 -> 多 [thick];
+  C -> F [thick];
+  B -> C [thick];
+  E -> F [thick];
+  D -> E [thick];
 }

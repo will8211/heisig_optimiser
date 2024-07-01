@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  侮 [label = "侮\n2084 insult"];
-  人 [label = "人\n793 person"];
-  每 [label = "每\n467 every"];
-  "𠂉" [label = "𠂉\n* reclining"];
-  母 [label = "母\n105 mother"];
-  女 [label = "女\n102 woman"];
+  G [label = "侮\ninsult (2084)"];
+  B [label = "人\nperson (793)"];
+  F [label = "每\nevery (467)"];
+  C [label = "𠂉\nreclining (*)"];
+  E [label = "母\nmother (105)"];
+  D [label = "女\nwoman (102)"];
 
-  人 -> 侮 [thick];
-  每 -> 侮 [thick];
-  "𠂉" -> 每 [thick];
-  母 -> 每 [thick];
-  女 -> 母 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
 }

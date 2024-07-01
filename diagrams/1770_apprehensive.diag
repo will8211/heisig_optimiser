@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  焦 [label = "焦\n1770 apprehensive"];
-  隹 [label = "隹\n* turkey"];
-  火 [label = "火\n170 fire"];
+  D [label = "焦\napprehensive (1770)"];
+  B [label = "隹\nturkey (*)"];
+  C [label = "火\nfire (170)"];
 
-  隹 -> 焦 [thick];
-  火 -> 焦 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  睁 [label = "睁\n2222 unshut"];
-  目 [label = "目\n15 eye"];
-  争 [label = "争\n951 contend"];
-  勹 [label = "勹\n* bound up"];
-  肀 [label = "肀\n* rake"];
-  彐 [label = "彐\n* broom"];
+  G [label = "睁\nunshut (2222)"];
+  B [label = "目\neye (15)"];
+  F [label = "争\ncontend (951)"];
+  C [label = "勹\nbound up (*)"];
+  E [label = "肀\nrake (*)"];
+  D [label = "彐\nbroom (*)"];
 
-  目 -> 睁 [thick];
-  争 -> 睁 [thick];
-  勹 -> 争 [thick];
-  肀 -> 争 [thick];
-  彐 -> 肀 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
 }

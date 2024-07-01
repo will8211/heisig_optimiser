@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  降 [label = "降\n1069 descend"];
-  阝 [label = "阝\n* pinnacle"];
-  夂 [label = "夂\n* walking legs"];
-  年 [label = "年\n871 year"];
-  午 [label = "午\n542 noon"];
+  F [label = "降\ndescend (1069)"];
+  B [label = "阝\npinnacle (*)"];
+  C [label = "夂\nwalking legs (*)"];
+  E [label = "年\nyear (871)"];
+  D [label = "午\nnoon (542)"];
 
-  阝 -> 降 [thick];
-  夂 -> 降 [thick];
-  年 -> 降 [thick];
-  午 -> 年 [thick];
+  B -> F [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
 }

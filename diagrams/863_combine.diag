@@ -5,15 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  并 [label = "并\n863 combine"];
-  丷 [label = "丷\n* horns"];
-  一 [label = "一\n1 one"];
-  开 [label = "开\n613 open"];
-  二 [label = "二\n2 two"];
+  G [label = "并\ncombine (863)"];
+  C [label = "丷\nhorns (*)"];
+  B [label = "一\none (1)"];
+  F [label = "开\nopen (613)"];
+  E [label = "二\ntwo (2)"];
+  D [label = "一\none (1)"];
 
-  丷 -> 并 [thick];
-  一 -> 丷 [thick];
-  开 -> 并 [thick];
-  二 -> 开 [thick];
-  一 -> 二 [thick];
+  C -> G [thick];
+  B -> C [thick];
+  F -> G [thick];
+  E -> F [thick];
+  D -> E [thick];
 }

@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  碌 [label = "碌\n950 commonplace"];
-  石 [label = "石\n125 stone"];
-  口 [label = "口\n11 mouth"];
-  厂 [label = "厂\n121 factory"];
-  录 [label = "录\n949 record"];
-  彐 [label = "彐\n* broom"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
+  K [label = "碌\ncommonplace (950)"];
+  D [label = "石\nstone (125)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "厂\nfactory (121)"];
+  J [label = "录\nrecord (949)"];
+  E [label = "彐\nbroom (*)"];
+  I [label = "水\nwater (137)"];
+  G [label = "丨\nwalking stick (*)"];
+  F [label = "一\none (1)"];
+  H [label = "丶\na drop of (*)"];
 
-  石 -> 碌 [thick];
-  口 -> 石 [thick];
-  厂 -> 石 [thick];
-  录 -> 碌 [thick];
-  彐 -> 录 [thick];
-  水 -> 录 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
+  D -> K [thick];
+  B -> D [thick];
+  C -> D [thick];
+  J -> K [thick];
+  E -> J [thick];
+  I -> J [thick];
+  G -> I [thick];
+  F -> G [thick];
+  H -> I [thick];
 }

@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  浮 [label = "浮\n2431 float"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  孚 [label = "孚\n* fledglings"];
-  爪 [label = "爪\n663 claw"];
-  "𠂆" [label = "𠂆\n* drag"];
-  子 [label = "子\n97 child"];
+  J [label = "浮\nfloat (2431)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  I [label = "孚\nfledglings (*)"];
+  G [label = "爪\nclaw (663)"];
+  F [label = "𠂆\ndrag (*)"];
+  H [label = "子\nchild (97)"];
 
-  水 -> 浮 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  孚 -> 浮 [thick];
-  爪 -> 孚 [thick];
-  "𠂆" -> 爪 [thick];
-  子 -> 孚 [thick];
+  E -> J [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  I -> J [thick];
+  G -> I [thick];
+  F -> G [thick];
+  H -> I [thick];
 }

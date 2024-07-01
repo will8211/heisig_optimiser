@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  踪 [label = "踪\n2328 tracks"];
-  足 [label = "足\n1048 lower leg"];
-  口 [label = "口\n11 mouth"];
-  止 [label = "止\n379 stop"];
-  宗 [label = "宗\n908 religion"];
-  宀 [label = "宀\n* house"];
-  示 [label = "示\n900 show"];
+  H [label = "踪\ntracks (2328)"];
+  D [label = "足\nlower leg (1048)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "止\nstop (379)"];
+  G [label = "宗\nreligion (908)"];
+  E [label = "宀\nhouse (*)"];
+  F [label = "示\nshow (900)"];
 
-  足 -> 踪 [thick];
-  口 -> 足 [thick];
-  止 -> 足 [thick];
-  宗 -> 踪 [thick];
-  宀 -> 宗 [thick];
-  示 -> 宗 [thick];
+  D -> H [thick];
+  B -> D [thick];
+  C -> D [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

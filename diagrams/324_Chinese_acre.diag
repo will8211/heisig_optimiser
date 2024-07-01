@@ -5,18 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  亩 [label = "亩\n324 Chinese acre"];
-  田 [label = "田\n14 rice field"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
+  I [label = "亩\nChinese acre (324)"];
+  B [label = "田\nrice field (14)"];
+  H [label = "亠\ntop hat (*)"];
+  E [label = "六\nsix (6)"];
+  D [label = "囧只－口\nanimal legs (*)"];
+  C [label = "八\neight (8)"];
+  G [label = "囧只－口\nanimal legs (*)"];
+  F [label = "八\neight (8)"];
 
-  田 -> 亩 [thick];
-  亠 -> 亩 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
+  B -> I [thick];
+  H -> I [thick];
+  E -> H [thick];
+  D -> E [thick];
+  C -> D [thick];
+  G -> H [thick];
+  F -> G [thick];
 }

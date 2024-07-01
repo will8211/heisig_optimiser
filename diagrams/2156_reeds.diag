@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  芦 [label = "芦\n2156 reeds"];
-  艹 [label = "艹\n* flower"];
-  户 [label = "户\n896 door"];
-  丶 [label = "丶\n* a drop of"];
-  尸 [label = "尸\n882 corpse"];
+  F [label = "芦\nreeds (2156)"];
+  B [label = "艹\nflower (*)"];
+  E [label = "户\ndoor (896)"];
+  C [label = "丶\na drop of (*)"];
+  D [label = "尸\ncorpse (882)"];
 
-  艹 -> 芦 [thick];
-  户 -> 芦 [thick];
-  丶 -> 户 [thick];
-  尸 -> 户 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

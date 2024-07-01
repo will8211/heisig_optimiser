@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  葱 [label = "葱\n2131 onion"];
-  艹 [label = "艹\n* flower"];
-  匆 [label = "匆\n2130 hurriedly"];
-  勿 [label = "勿\n877 not"];
-  "𠃓" [label = "𠃓\n* piglets"];
-  豕 [label = "豕\n* sow"];
-  丶 [label = "丶\n* a drop of"];
-  心 [label = "心\n563 heart"];
+  I [label = "葱\nonion (2131)"];
+  B [label = "艹\nflower (*)"];
+  G [label = "匆\nhurriedly (2130)"];
+  E [label = "勿\nnot (877)"];
+  D [label = "𠃓\npiglets (*)"];
+  C [label = "豕\nsow (*)"];
+  F [label = "丶\na drop of (*)"];
+  H [label = "心\nheart (563)"];
 
-  艹 -> 葱 [thick];
-  匆 -> 葱 [thick];
-  勿 -> 匆 [thick];
-  "𠃓" -> 勿 [thick];
-  豕 -> "𠃓" [thick];
-  丶 -> 匆 [thick];
-  心 -> 葱 [thick];
+  B -> I [thick];
+  G -> I [thick];
+  E -> G [thick];
+  D -> E [thick];
+  C -> D [thick];
+  F -> G [thick];
+  H -> I [thick];
 }

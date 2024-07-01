@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  我 [label = "我\n588 I"];
-  手 [label = "手\n584 hand"];
-  戈 [label = "戈\n361 halberd"];
-  弋 [label = "弋\n* arrow"];
+  E [label = "我\nI (588)"];
+  B [label = "手\nhand (584)"];
+  D [label = "戈\nhalberd (361)"];
+  C [label = "弋\narrow (*)"];
 
-  手 -> 我 [thick];
-  戈 -> 我 [thick];
-  弋 -> 戈 [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  菇 [label = "菇\n2996 mushroom (stem)"];
-  艹 [label = "艹\n* flower"];
-  姑 [label = "姑\n1518 father’s sister"];
-  女 [label = "女\n102 woman"];
-  古 [label = "古\n16 ancient"];
-  十 [label = "十\n10 ten"];
-  口 [label = "口\n11 mouth"];
+  H [label = "菇\nmushroom (stem) (2996)"];
+  B [label = "艹\nflower (*)"];
+  G [label = "姑\nfather’s sister (1518)"];
+  C [label = "女\nwoman (102)"];
+  F [label = "古\nancient (16)"];
+  D [label = "十\nten (10)"];
+  E [label = "口\nmouth (11)"];
 
-  艹 -> 菇 [thick];
-  姑 -> 菇 [thick];
-  女 -> 姑 [thick];
-  古 -> 姑 [thick];
-  十 -> 古 [thick];
-  口 -> 古 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  C -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

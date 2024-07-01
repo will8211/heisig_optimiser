@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  挂 [label = "挂\n605 hang"];
-  扌 [label = "扌\n* fingers"];
-  圭 [label = "圭\n* bricks"];
-  土 [label = "土\n158 soil"];
+  E [label = "挂\nhang (605)"];
+  B [label = "扌\nfingers (*)"];
+  D [label = "圭\nbricks (*)"];
+  C [label = "土\nsoil (158)"];
 
-  扌 -> 挂 [thick];
-  圭 -> 挂 [thick];
-  土 -> 圭 [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

@@ -5,23 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  活 [label = "活\n151 lively"];
-  舌 [label = "舌\n40 tongue"];
-  口 [label = "口\n11 mouth"];
-  千 [label = "千\n39 thousand"];
-  丶 [label = "丶\n* a drop of"];
-  十 [label = "十\n10 ten"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
+  K [label = "活\nlively (151)"];
+  F [label = "舌\ntongue (40)"];
+  B [label = "口\nmouth (11)"];
+  E [label = "千\nthousand (39)"];
+  C [label = "丶\na drop of (*)"];
+  D [label = "十\nten (10)"];
+  J [label = "水\nwater (137)"];
+  H [label = "丨\nwalking stick (*)"];
+  G [label = "一\none (1)"];
+  I [label = "丶\na drop of (*)"];
 
-  舌 -> 活 [thick];
-  口 -> 舌 [thick];
-  千 -> 舌 [thick];
-  丶 -> 千 [thick];
-  十 -> 千 [thick];
-  水 -> 活 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
+  F -> K [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
+  J -> K [thick];
+  H -> J [thick];
+  G -> H [thick];
+  I -> J [thick];
 }

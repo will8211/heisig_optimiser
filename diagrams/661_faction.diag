@@ -5,28 +5,30 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  派 [label = "派\n661 faction"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  "𠂆" [label = "𠂆\n* drag"];
-  衣 [label = "衣\n400 clothing"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
+  N [label = "派\nfaction (661)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  F [label = "𠂆\ndrag (*)"];
+  M [label = "衣\nclothing (400)"];
+  L [label = "亠\ntop hat (*)"];
+  I [label = "六\nsix (6)"];
+  H [label = "囧只－口\nanimal legs (*)"];
+  G [label = "八\neight (8)"];
+  K [label = "囧只－口\nanimal legs (*)"];
+  J [label = "八\neight (8)"];
 
-  水 -> 派 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  "𠂆" -> 派 [thick];
-  衣 -> 派 [thick];
-  亠 -> 衣 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
+  E -> N [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  F -> N [thick];
+  M -> N [thick];
+  L -> M [thick];
+  I -> L [thick];
+  H -> I [thick];
+  G -> H [thick];
+  K -> L [thick];
+  J -> K [thick];
 }

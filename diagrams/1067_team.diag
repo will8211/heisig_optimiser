@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  队 [label = "队\n1067 team"];
-  阝 [label = "阝\n* pinnacle"];
-  人 [label = "人\n793 person"];
+  D [label = "队\nteam (1067)"];
+  B [label = "阝\npinnacle (*)"];
+  C [label = "人\nperson (793)"];
 
-  阝 -> 队 [thick];
-  人 -> 队 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

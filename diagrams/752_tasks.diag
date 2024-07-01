@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  务 [label = "务\n752 tasks"];
-  夂 [label = "夂\n* walking legs"];
-  力 [label = "力\n732 power"];
+  D [label = "务\ntasks (752)"];
+  B [label = "夂\nwalking legs (*)"];
+  C [label = "力\npower (732)"];
 
-  夂 -> 务 [thick];
-  力 -> 务 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

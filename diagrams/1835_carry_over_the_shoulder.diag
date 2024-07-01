@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  扛 [label = "扛\n1835 carry over the shoulder"];
-  扌 [label = "扌\n* fingers"];
-  工 [label = "工\n76 work"];
+  D [label = "扛\ncarry over the shoulder (1835)"];
+  B [label = "扌\nfingers (*)"];
+  C [label = "工\nwork (76)"];
 
-  扌 -> 扛 [thick];
-  工 -> 扛 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

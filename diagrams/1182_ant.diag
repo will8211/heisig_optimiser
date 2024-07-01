@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  蚁 [label = "蚁\n1182 ant"];
-  虫 [label = "虫\n509 insect"];
-  义 [label = "义\n1180 righteousness"];
-  "㐅" [label = "㐅\n* sheaf"];
-  丶 [label = "丶\n* a drop of"];
+  F [label = "蚁\nant (1182)"];
+  B [label = "虫\ninsect (509)"];
+  E [label = "义\nrighteousness (1180)"];
+  C [label = "㐅\nsheaf (*)"];
+  D [label = "丶\na drop of (*)"];
 
-  虫 -> 蚁 [thick];
-  义 -> 蚁 [thick];
-  "㐅" -> 义 [thick];
-  丶 -> 义 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

@@ -5,8 +5,8 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  众 [label = "众\n847 multitude"];
-  人 [label = "人\n793 person"];
+  C [label = "众\nmultitude (847)"];
+  B [label = "人\nperson (793)"];
 
-  人 -> 众 [thick];
+  B -> C [thick];
 }

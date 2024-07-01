@@ -5,21 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  弃 [label = "弃\n1917 forsake"];
-  囧充－儿 [label = "囧充－儿\n* infant"];
-  囧会－亼 [label = "囧会－亼\n* wall"];
-  厶 [label = "厶\n* elbow"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  开 [label = "开\n613 open"];
-  二 [label = "二\n2 two"];
+  J [label = "弃\nforsake (1917)"];
+  F [label = "囧充－儿\ninfant (*)"];
+  D [label = "囧会－亼\nwall (*)"];
+  B [label = "厶\nelbow (*)"];
+  C [label = "一\none (1)"];
+  E [label = "丶\na drop of (*)"];
+  I [label = "开\nopen (613)"];
+  H [label = "二\ntwo (2)"];
+  G [label = "一\none (1)"];
 
-  囧充－儿 -> 弃 [thick];
-  囧会－亼 -> 囧充－儿 [thick];
-  厶 -> 囧会－亼 [thick];
-  一 -> 囧会－亼 [thick];
-  丶 -> 囧充－儿 [thick];
-  开 -> 弃 [thick];
-  二 -> 开 [thick];
-  一 -> 二 [thick];
+  F -> J [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
+  I -> J [thick];
+  H -> I [thick];
+  G -> H [thick];
 }

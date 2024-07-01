@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  夆 [label = "夆\n* briar"];
-  丰 [label = "丰\n1223 plentiful"];
-  夂 [label = "夂\n* walking legs"];
+  D [label = "夆\nbriar (*)"];
+  B [label = "丰\nplentiful (1223)"];
+  C [label = "夂\nwalking legs (*)"];
 
-  丰 -> 夆 [thick];
-  夂 -> 夆 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

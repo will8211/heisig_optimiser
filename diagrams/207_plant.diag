@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  植 [label = "植\n207 plant"];
-  木 [label = "木\n202 tree"];
-  直 [label = "直\n72 straight"];
-  十 [label = "十\n10 ten"];
-  目 [label = "目\n15 eye"];
-  一 [label = "一\n1 one"];
+  G [label = "植\nplant (207)"];
+  B [label = "木\ntree (202)"];
+  F [label = "直\nstraight (72)"];
+  C [label = "十\nten (10)"];
+  D [label = "目\neye (15)"];
+  E [label = "一\none (1)"];
 
-  木 -> 植 [thick];
-  直 -> 植 [thick];
-  十 -> 直 [thick];
-  目 -> 直 [thick];
-  一 -> 直 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  胃 [label = "胃\n29 stomach"];
-  月 [label = "月\n13 month"];
-  田 [label = "田\n14 rice field"];
+  D [label = "胃\nstomach (29)"];
+  B [label = "月\nmonth (13)"];
+  C [label = "田\nrice field (14)"];
 
-  月 -> 胃 [thick];
-  田 -> 胃 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

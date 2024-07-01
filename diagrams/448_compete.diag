@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  竞 [label = "竞\n448 compete"];
-  兄 [label = "兄\n107 elder brother"];
-  口 [label = "口\n11 mouth"];
-  儿 [label = "儿\n56 youngster"];
-  立 [label = "立\n444 standing up"];
+  F [label = "竞\ncompete (448)"];
+  D [label = "兄\nelder brother (107)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "儿\nyoungster (56)"];
+  E [label = "立\nstanding up (444)"];
 
-  兄 -> 竞 [thick];
-  口 -> 兄 [thick];
-  儿 -> 兄 [thick];
-  立 -> 竞 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

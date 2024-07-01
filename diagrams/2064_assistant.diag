@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  佐 [label = "佐\n2064 assistant"];
-  人 [label = "人\n793 person"];
-  左 [label = "左\n77 left"];
-  "𠂇" [label = "𠂇\n* by one’s side"];
-  十 [label = "十\n10 ten"];
-  工 [label = "工\n76 work"];
+  G [label = "佐\nassistant (2064)"];
+  B [label = "人\nperson (793)"];
+  F [label = "左\nleft (77)"];
+  D [label = "𠂇\nby one’s side (*)"];
+  C [label = "十\nten (10)"];
+  E [label = "工\nwork (76)"];
 
-  人 -> 佐 [thick];
-  左 -> 佐 [thick];
-  "𠂇" -> 左 [thick];
-  十 -> "𠂇" [thick];
-  工 -> 左 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

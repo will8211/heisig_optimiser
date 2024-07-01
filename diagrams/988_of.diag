@@ -5,8 +5,8 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  之 [label = "之\n988 of"];
-  丶 [label = "丶\n* a drop of"];
+  C [label = "之\nof (988)"];
+  B [label = "丶\na drop of (*)"];
 
-  丶 -> 之 [thick];
+  B -> C [thick];
 }

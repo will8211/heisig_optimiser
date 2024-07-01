@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  厢 [label = "厢\n1576 side room"];
-  厂 [label = "厂\n121 factory"];
-  相 [label = "相\n212 one another"];
-  木 [label = "木\n202 tree"];
-  目 [label = "目\n15 eye"];
+  F [label = "厢\nside room (1576)"];
+  B [label = "厂\nfactory (121)"];
+  E [label = "相\none another (212)"];
+  C [label = "木\ntree (202)"];
+  D [label = "目\neye (15)"];
 
-  厂 -> 厢 [thick];
-  相 -> 厢 [thick];
-  木 -> 相 [thick];
-  目 -> 相 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

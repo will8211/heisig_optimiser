@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  歌 [label = "歌\n476 song"];
-  可 [label = "可\n92 can"];
-  丁 [label = "丁\n90 fourth"];
-  口 [label = "口\n11 mouth"];
-  欠 [label = "欠\n474 lack"];
+  F [label = "歌\nsong (476)"];
+  D [label = "可\ncan (92)"];
+  B [label = "丁\nfourth (90)"];
+  C [label = "口\nmouth (11)"];
+  E [label = "欠\nlack (474)"];
 
-  可 -> 歌 [thick];
-  丁 -> 可 [thick];
-  口 -> 可 [thick];
-  欠 -> 歌 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

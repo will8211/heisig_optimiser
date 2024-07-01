@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  灭 [label = "灭\n171 destroy"];
-  火 [label = "火\n170 fire"];
-  一 [label = "一\n1 one"];
+  D [label = "灭\ndestroy (171)"];
+  B [label = "火\nfire (170)"];
+  C [label = "一\none (1)"];
 
-  火 -> 灭 [thick];
-  一 -> 灭 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  藤 [label = "藤\n2250 rattan"];
-  艹 [label = "艹\n* flower"];
-  月 [label = "月\n13 month"];
-  囧眷－目 [label = "囧眷－目\n* quarter"];
-  半 [label = "半\n980 half"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
+  J [label = "藤\nrattan (2250)"];
+  B [label = "艹\nflower (*)"];
+  C [label = "月\nmonth (13)"];
+  E [label = "囧眷－目\nquarter (*)"];
+  D [label = "半\nhalf (980)"];
+  I [label = "水\nwater (137)"];
+  G [label = "丨\nwalking stick (*)"];
+  F [label = "一\none (1)"];
+  H [label = "丶\na drop of (*)"];
 
-  艹 -> 藤 [thick];
-  月 -> 藤 [thick];
-  囧眷－目 -> 藤 [thick];
-  半 -> 囧眷－目 [thick];
-  水 -> 藤 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
+  B -> J [thick];
+  C -> J [thick];
+  E -> J [thick];
+  D -> E [thick];
+  I -> J [thick];
+  G -> I [thick];
+  F -> G [thick];
+  H -> I [thick];
 }

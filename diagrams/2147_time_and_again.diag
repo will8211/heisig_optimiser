@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  屡 [label = "屡\n2147 time and again"];
-  尸 [label = "尸\n882 corpse"];
-  娄 [label = "娄\n* bride"];
-  女 [label = "女\n102 woman"];
-  米 [label = "米\n778 rice"];
+  F [label = "屡\ntime and again (2147)"];
+  B [label = "尸\ncorpse (882)"];
+  E [label = "娄\nbride (*)"];
+  C [label = "女\nwoman (102)"];
+  D [label = "米\nrice (778)"];
 
-  尸 -> 屡 [thick];
-  娄 -> 屡 [thick];
-  女 -> 娄 [thick];
-  米 -> 娄 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

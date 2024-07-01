@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  哑 [label = "哑\n2760 mute"];
-  口 [label = "口\n11 mouth"];
-  亚 [label = "亚\n1351 Asia"];
-  一 [label = "一\n1 one"];
-  业 [label = "业\n1349 profession"];
-  並 [label = "並\n* side by side"];
+  G [label = "哑\nmute (2760)"];
+  B [label = "口\nmouth (11)"];
+  F [label = "亚\nAsia (1351)"];
+  C [label = "一\none (1)"];
+  E [label = "业\nprofession (1349)"];
+  D [label = "並\nside by side (*)"];
 
-  口 -> 哑 [thick];
-  亚 -> 哑 [thick];
-  一 -> 亚 [thick];
-  业 -> 亚 [thick];
-  並 -> 业 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
 }

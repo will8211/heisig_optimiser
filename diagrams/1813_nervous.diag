@@ -5,30 +5,32 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  慌 [label = "慌\n1813 nervous"];
-  心 [label = "心\n563 heart"];
-  荒 [label = "荒\n1725 wasteland"];
-  芒 [label = "芒\n1724 mango"];
-  艹 [label = "艹\n* flower"];
-  亡 [label = "亡\n490 deceased"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  乙 [label = "乙\n95 second"];
-  川 [label = "川\n134 stream"];
+  O [label = "慌\nnervous (1813)"];
+  B [label = "心\nheart (563)"];
+  N [label = "荒\nwasteland (1725)"];
+  L [label = "芒\nmango (1724)"];
+  C [label = "艹\nflower (*)"];
+  K [label = "亡\ndeceased (490)"];
+  I [label = "亠\ntop hat (*)"];
+  F [label = "六\nsix (6)"];
+  E [label = "囧只－口\nanimal legs (*)"];
+  D [label = "八\neight (8)"];
+  H [label = "囧只－口\nanimal legs (*)"];
+  G [label = "八\neight (8)"];
+  J [label = "乙\nsecond (95)"];
+  M [label = "川\nstream (134)"];
 
-  心 -> 慌 [thick];
-  荒 -> 慌 [thick];
-  芒 -> 荒 [thick];
-  艹 -> 芒 [thick];
-  亡 -> 芒 [thick];
-  亠 -> 亡 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
-  乙 -> 亡 [thick];
-  川 -> 荒 [thick];
+  B -> O [thick];
+  N -> O [thick];
+  L -> N [thick];
+  C -> L [thick];
+  K -> L [thick];
+  I -> K [thick];
+  F -> I [thick];
+  E -> F [thick];
+  D -> E [thick];
+  H -> I [thick];
+  G -> H [thick];
+  J -> K [thick];
+  M -> N [thick];
 }

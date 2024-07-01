@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  杀 [label = "杀\n1167 kill"];
-  "㐅" [label = "㐅\n* sheaf"];
-  木 [label = "木\n202 tree"];
+  D [label = "杀\nkill (1167)"];
+  B [label = "㐅\nsheaf (*)"];
+  C [label = "木\ntree (202)"];
 
-  "㐅" -> 杀 [thick];
-  木 -> 杀 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

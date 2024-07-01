@@ -5,8 +5,8 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  业 [label = "业\n1349 profession"];
-  並 [label = "並\n* side by side"];
+  C [label = "业\nprofession (1349)"];
+  B [label = "並\nside by side (*)"];
 
-  並 -> 业 [thick];
+  B -> C [thick];
 }

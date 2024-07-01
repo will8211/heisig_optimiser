@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  拦 [label = "拦\n1762 impede"];
-  扌 [label = "扌\n* fingers"];
-  兰 [label = "兰\n533 orchid"];
-  羊 [label = "羊\n528 sheep"];
-  丷 [label = "丷\n* horns"];
-  一 [label = "一\n1 one"];
+  G [label = "拦\nimpede (1762)"];
+  B [label = "扌\nfingers (*)"];
+  F [label = "兰\norchid (533)"];
+  E [label = "羊\nsheep (528)"];
+  D [label = "丷\nhorns (*)"];
+  C [label = "一\none (1)"];
 
-  扌 -> 拦 [thick];
-  兰 -> 拦 [thick];
-  羊 -> 兰 [thick];
-  丷 -> 羊 [thick];
-  一 -> 丷 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  E -> F [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

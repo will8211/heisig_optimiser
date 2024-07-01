@@ -5,17 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  臭 [label = "臭\n250 stinking"];
-  犬 [label = "犬\n239 pooch"];
-  大 [label = "大\n113 large"];
-  丶 [label = "丶\n* a drop of"];
-  自 [label = "自\n33 oneself"];
-  目 [label = "目\n15 eye"];
+  H [label = "臭\nstinking (250)"];
+  D [label = "犬\npooch (239)"];
+  B [label = "大\nlarge (113)"];
+  C [label = "丶\na drop of (*)"];
+  G [label = "自\noneself (33)"];
+  E [label = "丶\na drop of (*)"];
+  F [label = "目\neye (15)"];
 
-  犬 -> 臭 [thick];
-  大 -> 犬 [thick];
-  丶 -> 犬 [thick];
-  自 -> 臭 [thick];
-  丶 -> 自 [thick];
-  目 -> 自 [thick];
+  D -> H [thick];
+  B -> D [thick];
+  C -> D [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  限 [label = "限\n1149 limit"];
-  阝 [label = "阝\n* pinnacle"];
-  艮 [label = "艮\n* silver"];
+  D [label = "限\nlimit (1149)"];
+  B [label = "阝\npinnacle (*)"];
+  C [label = "艮\nsilver (*)"];
 
-  阝 -> 限 [thick];
-  艮 -> 限 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

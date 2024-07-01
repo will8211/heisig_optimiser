@@ -5,23 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  藉 [label = "藉\n2852 in disorder"];
-  艹 [label = "艹\n* flower"];
-  耒 [label = "耒\n* Christmas tree"];
-  一 [label = "一\n1 one"];
-  未 [label = "未\n215 not yet"];
-  木 [label = "木\n202 tree"];
-  昔 [label = "昔\n971 times past"];
-  囧昔－日 [label = "囧昔－日\n* salad"];
-  日 [label = "日\n12 day"];
+  K [label = "藉\nin disorder (2852)"];
+  B [label = "艹\nflower (*)"];
+  F [label = "耒\nChristmas tree (*)"];
+  C [label = "一\none (1)"];
+  E [label = "未\nnot yet (215)"];
+  D [label = "木\ntree (202)"];
+  J [label = "昔\ntimes past (971)"];
+  H [label = "囧昔－日\nsalad (*)"];
+  G [label = "艹\nflower (*)"];
+  I [label = "日\nday (12)"];
 
-  艹 -> 藉 [thick];
-  耒 -> 藉 [thick];
-  一 -> 耒 [thick];
-  未 -> 耒 [thick];
-  木 -> 未 [thick];
-  昔 -> 藉 [thick];
-  囧昔－日 -> 昔 [thick];
-  艹 -> 囧昔－日 [thick];
-  日 -> 昔 [thick];
+  B -> K [thick];
+  F -> K [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
+  J -> K [thick];
+  H -> J [thick];
+  G -> H [thick];
+  I -> J [thick];
 }

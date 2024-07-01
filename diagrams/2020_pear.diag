@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  梨 [label = "梨\n2020 pear"];
-  利 [label = "利\n771 profit"];
-  禾 [label = "禾\n762 standing grain"];
-  刀 [label = "刀\n83 sword"];
-  木 [label = "木\n202 tree"];
+  F [label = "梨\npear (2020)"];
+  D [label = "利\nprofit (771)"];
+  B [label = "禾\nstanding grain (762)"];
+  C [label = "刀\nsword (83)"];
+  E [label = "木\ntree (202)"];
 
-  利 -> 梨 [thick];
-  禾 -> 利 [thick];
-  刀 -> 利 [thick];
-  木 -> 梨 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  岩 [label = "岩\n1927 rock"];
-  山 [label = "山\n688 mountain"];
-  石 [label = "石\n125 stone"];
-  口 [label = "口\n11 mouth"];
-  厂 [label = "厂\n121 factory"];
+  F [label = "岩\nrock (1927)"];
+  B [label = "山\nmountain (688)"];
+  E [label = "石\nstone (125)"];
+  C [label = "口\nmouth (11)"];
+  D [label = "厂\nfactory (121)"];
 
-  山 -> 岩 [thick];
-  石 -> 岩 [thick];
-  口 -> 石 [thick];
-  厂 -> 石 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

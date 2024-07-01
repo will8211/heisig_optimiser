@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  拖 [label = "拖\n1859 drag"];
-  扌 [label = "扌\n* fingers"];
-  "𠂉" [label = "𠂉\n* reclining"];
-  也 [label = "也\n505 also"];
-  乙 [label = "乙\n95 second"];
+  F [label = "拖\ndrag (1859)"];
+  B [label = "扌\nfingers (*)"];
+  C [label = "𠂉\nreclining (*)"];
+  E [label = "也\nalso (505)"];
+  D [label = "乙\nsecond (95)"];
 
-  扌 -> 拖 [thick];
-  "𠂉" -> 拖 [thick];
-  也 -> 拖 [thick];
-  乙 -> 也 [thick];
+  B -> F [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
 }

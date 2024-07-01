@@ -5,28 +5,30 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  亶 [label = "亶\n* Mr. Hyde"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  回 [label = "回\n554 return"];
-  囗 [label = "囗\n* pent in"];
-  口 [label = "口\n11 mouth"];
-  旦 [label = "旦\n30 daybreak"];
-  日 [label = "日\n12 day"];
-  一 [label = "一\n1 one"];
+  N [label = "亶\nMr. Hyde (*)"];
+  G [label = "亠\ntop hat (*)"];
+  D [label = "六\nsix (6)"];
+  C [label = "囧只－口\nanimal legs (*)"];
+  B [label = "八\neight (8)"];
+  F [label = "囧只－口\nanimal legs (*)"];
+  E [label = "八\neight (8)"];
+  J [label = "回\nreturn (554)"];
+  H [label = "囗\npent in (*)"];
+  I [label = "口\nmouth (11)"];
+  M [label = "旦\ndaybreak (30)"];
+  K [label = "日\nday (12)"];
+  L [label = "一\none (1)"];
 
-  亠 -> 亶 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
-  回 -> 亶 [thick];
-  囗 -> 回 [thick];
-  口 -> 回 [thick];
-  旦 -> 亶 [thick];
-  日 -> 旦 [thick];
-  一 -> 旦 [thick];
+  G -> N [thick];
+  D -> G [thick];
+  C -> D [thick];
+  B -> C [thick];
+  F -> G [thick];
+  E -> F [thick];
+  J -> N [thick];
+  H -> J [thick];
+  I -> J [thick];
+  M -> N [thick];
+  K -> M [thick];
+  L -> M [thick];
 }

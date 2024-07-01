@@ -5,11 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  昌 [label = "昌\n25 prosperous"];
-  日 [label = "日\n12 day"];
-  晶 [label = "晶\n23 sparkling"];
+  E [label = "昌\nprosperous (25)"];
+  B [label = "日\nday (12)"];
+  D [label = "晶\nsparkling (23)"];
+  C [label = "日\nday (12)"];
 
-  日 -> 昌 [thick];
-  晶 -> 昌 [thick];
-  日 -> 晶 [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

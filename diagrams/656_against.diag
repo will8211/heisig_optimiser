@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  反 [label = "反\n656 against"];
-  "𠂆" [label = "𠂆\n* drag"];
-  又 [label = "又\n633 again"];
+  D [label = "反\nagainst (656)"];
+  B [label = "𠂆\ndrag (*)"];
+  C [label = "又\nagain (633)"];
 
-  "𠂆" -> 反 [thick];
-  又 -> 反 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

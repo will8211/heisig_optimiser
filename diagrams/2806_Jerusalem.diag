@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  耶 [label = "耶\n2806 Jerusalem"];
-  耳 [label = "耳\n717 ear"];
-  囧阝 [label = "囧阝\n* city walls"];
-  阝 [label = "阝\n* pinnacle"];
+  E [label = "耶\nJerusalem (2806)"];
+  B [label = "耳\near (717)"];
+  D [label = "囧阝\ncity walls (*)"];
+  C [label = "阝\npinnacle (*)"];
 
-  耳 -> 耶 [thick];
-  囧阝 -> 耶 [thick];
-  阝 -> 囧阝 [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  即 [label = "即\n1146 immediately"];
-  艮 [label = "艮\n* silver"];
-  卩 [label = "卩\n* stamp"];
+  D [label = "即\nimmediately (1146)"];
+  B [label = "艮\nsilver (*)"];
+  C [label = "卩\nstamp (*)"];
 
-  艮 -> 即 [thick];
-  卩 -> 即 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

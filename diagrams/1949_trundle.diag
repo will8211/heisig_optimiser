@@ -5,31 +5,34 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  滚 [label = "滚\n1949 trundle"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  衣 [label = "衣\n400 clothing"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  公 [label = "公\n696 public"];
-  厶 [label = "厶\n* elbow"];
+  P [label = "滚\ntrundle (1949)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  L [label = "衣\nclothing (400)"];
+  K [label = "亠\ntop hat (*)"];
+  H [label = "六\nsix (6)"];
+  G [label = "囧只－口\nanimal legs (*)"];
+  F [label = "八\neight (8)"];
+  J [label = "囧只－口\nanimal legs (*)"];
+  I [label = "八\neight (8)"];
+  O [label = "公\npublic (696)"];
+  M [label = "八\neight (8)"];
+  N [label = "厶\nelbow (*)"];
 
-  水 -> 滚 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  衣 -> 滚 [thick];
-  亠 -> 衣 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
-  公 -> 滚 [thick];
-  八 -> 公 [thick];
-  厶 -> 公 [thick];
+  E -> P [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  L -> P [thick];
+  K -> L [thick];
+  H -> K [thick];
+  G -> H [thick];
+  F -> G [thick];
+  J -> K [thick];
+  I -> J [thick];
+  O -> P [thick];
+  M -> O [thick];
+  N -> O [thick];
 }

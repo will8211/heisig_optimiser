@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  元 [label = "元\n59 beginning"];
-  二 [label = "二\n2 two"];
-  一 [label = "一\n1 one"];
-  儿 [label = "儿\n56 youngster"];
+  E [label = "元\nbeginning (59)"];
+  C [label = "二\ntwo (2)"];
+  B [label = "一\none (1)"];
+  D [label = "儿\nyoungster (56)"];
 
-  二 -> 元 [thick];
-  一 -> 二 [thick];
-  儿 -> 元 [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
 }

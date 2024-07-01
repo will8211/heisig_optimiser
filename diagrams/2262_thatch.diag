@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  茅 [label = "茅\n2262 thatch"];
-  艹 [label = "艹\n* flower"];
-  矛 [label = "矛\n1002 spear"];
+  D [label = "茅\nthatch (2262)"];
+  B [label = "艹\nflower (*)"];
+  C [label = "矛\nspear (1002)"];
 
-  艹 -> 茅 [thick];
-  矛 -> 茅 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

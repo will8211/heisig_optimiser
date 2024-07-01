@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  师 [label = "师\n412 teacher"];
-  帅 [label = "帅\n411 commander"];
-  刀 [label = "刀\n83 sword"];
-  巾 [label = "巾\n410 towel"];
-  一 [label = "一\n1 one"];
+  F [label = "师\nteacher (412)"];
+  D [label = "帅\ncommander (411)"];
+  B [label = "刀\nsword (83)"];
+  C [label = "巾\ntowel (410)"];
+  E [label = "一\none (1)"];
 
-  帅 -> 师 [thick];
-  刀 -> 帅 [thick];
-  巾 -> 帅 [thick];
-  一 -> 师 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

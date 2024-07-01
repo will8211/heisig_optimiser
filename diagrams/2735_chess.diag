@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  棋 [label = "棋\n2735 chess"];
-  木 [label = "木\n202 tree"];
-  其 [label = "其\n1335 his-hers-its-theirs"];
-  甘 [label = "甘\n1333 sweet"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
+  G [label = "棋\nchess (2735)"];
+  B [label = "木\ntree (202)"];
+  F [label = "其\nhis-hers-its-theirs (1335)"];
+  C [label = "甘\nsweet (1333)"];
+  E [label = "囧只－口\nanimal legs (*)"];
+  D [label = "八\neight (8)"];
 
-  木 -> 棋 [thick];
-  其 -> 棋 [thick];
-  甘 -> 其 [thick];
-  囧只－口 -> 其 [thick];
-  八 -> 囧只－口 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
 }

@@ -5,23 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  隘 [label = "隘\n2831 pass"];
-  阝 [label = "阝\n* pinnacle"];
-  益 [label = "益\n1401 benefit"];
-  皿 [label = "皿\n* dish"];
-  囧率－玄－十 [label = "囧率－玄－十\n* sparkler"];
-  一 [label = "一\n1 one"];
-  丷 [label = "丷\n* horns"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
+  K [label = "隘\npass (2831)"];
+  B [label = "阝\npinnacle (*)"];
+  J [label = "益\nbenefit (1401)"];
+  C [label = "皿\ndish (*)"];
+  D [label = "囧率－玄－十\nsparkler (*)"];
+  E [label = "一\none (1)"];
+  G [label = "丷\nhorns (*)"];
+  F [label = "一\none (1)"];
+  I [label = "囧只－口\nanimal legs (*)"];
+  H [label = "八\neight (8)"];
 
-  阝 -> 隘 [thick];
-  益 -> 隘 [thick];
-  皿 -> 益 [thick];
-  囧率－玄－十 -> 益 [thick];
-  一 -> 益 [thick];
-  丷 -> 益 [thick];
-  一 -> 丷 [thick];
-  囧只－口 -> 益 [thick];
-  八 -> 囧只－口 [thick];
+  B -> K [thick];
+  J -> K [thick];
+  C -> J [thick];
+  D -> J [thick];
+  E -> J [thick];
+  G -> J [thick];
+  F -> G [thick];
+  I -> J [thick];
+  H -> I [thick];
 }

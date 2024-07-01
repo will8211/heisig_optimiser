@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  伪 [label = "伪\n797 bogus"];
-  人 [label = "人\n793 person"];
-  为 [label = "为\n746 act"];
-  丶 [label = "丶\n* a drop of"];
-  肌 [label = "肌\n63 muscle"];
-  几 [label = "几\n57 how many?"];
-  月 [label = "月\n13 month"];
+  H [label = "伪\nbogus (797)"];
+  B [label = "人\nperson (793)"];
+  G [label = "为\nact (746)"];
+  C [label = "丶\na drop of (*)"];
+  F [label = "肌\nmuscle (63)"];
+  D [label = "几\nhow many? (57)"];
+  E [label = "月\nmonth (13)"];
 
-  人 -> 伪 [thick];
-  为 -> 伪 [thick];
-  丶 -> 为 [thick];
-  肌 -> 为 [thick];
-  几 -> 肌 [thick];
-  月 -> 肌 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  C -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

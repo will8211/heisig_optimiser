@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  垒 [label = "垒\n1907 baseball base"];
-  厶 [label = "厶\n* elbow"];
-  土 [label = "土\n158 soil"];
+  D [label = "垒\nbaseball base (1907)"];
+  B [label = "厶\nelbow (*)"];
+  C [label = "土\nsoil (158)"];
 
-  厶 -> 垒 [thick];
-  土 -> 垒 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  捷 [label = "捷\n2211 nimble"];
-  扌 [label = "扌\n* fingers"];
-  十 [label = "十\n10 ten"];
-  肀 [label = "肀\n* rake"];
-  彐 [label = "彐\n* broom"];
-  止 [label = "止\n379 stop"];
+  G [label = "捷\nnimble (2211)"];
+  B [label = "扌\nfingers (*)"];
+  C [label = "十\nten (10)"];
+  E [label = "肀\nrake (*)"];
+  D [label = "彐\nbroom (*)"];
+  F [label = "止\nstop (379)"];
 
-  扌 -> 捷 [thick];
-  十 -> 捷 [thick];
-  肀 -> 捷 [thick];
-  彐 -> 肀 [thick];
-  止 -> 捷 [thick];
+  B -> G [thick];
+  C -> G [thick];
+  E -> G [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

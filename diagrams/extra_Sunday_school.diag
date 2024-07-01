@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  孛 [label = "孛\n* Sunday school"];
-  囧索－糸 [label = "囧索－糸\n* chapel"];
-  宀 [label = "宀\n* house"];
-  子 [label = "子\n97 child"];
+  E [label = "孛\nSunday school (*)"];
+  C [label = "囧索－糸\nchapel (*)"];
+  B [label = "宀\nhouse (*)"];
+  D [label = "子\nchild (97)"];
 
-  囧索－糸 -> 孛 [thick];
-  宀 -> 囧索－糸 [thick];
-  子 -> 孛 [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
 }

@@ -5,8 +5,8 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  囱 [label = "囱\n* GPS"];
-  夂 [label = "夂\n* walking legs"];
+  C [label = "囱\nGPS (*)"];
+  B [label = "夂\nwalking legs (*)"];
 
-  夂 -> 囱 [thick];
+  B -> C [thick];
 }

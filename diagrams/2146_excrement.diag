@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  屎 [label = "屎\n2146 excrement"];
-  尸 [label = "尸\n882 corpse"];
-  米 [label = "米\n778 rice"];
+  D [label = "屎\nexcrement (2146)"];
+  B [label = "尸\ncorpse (882)"];
+  C [label = "米\nrice (778)"];
 
-  尸 -> 屎 [thick];
-  米 -> 屎 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  驴 [label = "驴\n2903 donkey"];
-  马 [label = "马\n1453 horse"];
-  囧与－丨一 [label = "囧与－丨一\n* pointed tail"];
-  户 [label = "户\n896 door"];
-  丶 [label = "丶\n* a drop of"];
-  尸 [label = "尸\n882 corpse"];
+  G [label = "驴\ndonkey (2903)"];
+  C [label = "马\nhorse (1453)"];
+  B [label = "囧与－丨一\npointed tail (*)"];
+  F [label = "户\ndoor (896)"];
+  D [label = "丶\na drop of (*)"];
+  E [label = "尸\ncorpse (882)"];
 
-  马 -> 驴 [thick];
-  囧与－丨一 -> 马 [thick];
-  户 -> 驴 [thick];
-  丶 -> 户 [thick];
-  尸 -> 户 [thick];
+  C -> G [thick];
+  B -> C [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

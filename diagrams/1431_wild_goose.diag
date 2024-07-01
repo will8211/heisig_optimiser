@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  雁 [label = "雁\n1431 wild goose"];
-  厂 [label = "厂\n121 factory"];
-  倠 [label = "倠\n* birdman"];
-  人 [label = "人\n793 person"];
-  隹 [label = "隹\n* turkey"];
+  F [label = "雁\nwild goose (1431)"];
+  B [label = "厂\nfactory (121)"];
+  E [label = "倠\nbirdman (*)"];
+  C [label = "人\nperson (793)"];
+  D [label = "隹\nturkey (*)"];
 
-  厂 -> 雁 [thick];
-  倠 -> 雁 [thick];
-  人 -> 倠 [thick];
-  隹 -> 倠 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

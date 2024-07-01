@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  扑 [label = "扑\n1831 pounce on"];
-  扌 [label = "扌\n* fingers"];
-  卜 [label = "卜\n43 divination"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
+  G [label = "扑\npounce on (1831)"];
+  B [label = "扌\nfingers (*)"];
+  F [label = "卜\ndivination (43)"];
+  D [label = "丨\nwalking stick (*)"];
+  C [label = "一\none (1)"];
+  E [label = "丶\na drop of (*)"];
 
-  扌 -> 扑 [thick];
-  卜 -> 扑 [thick];
-  丨 -> 卜 [thick];
-  一 -> 丨 [thick];
-  丶 -> 卜 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

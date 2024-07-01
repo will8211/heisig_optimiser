@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  巫 [label = "巫\n850 witch"];
-  工 [label = "工\n76 work"];
-  从 [label = "从\n846 follow"];
-  人 [label = "人\n793 person"];
+  E [label = "巫\nwitch (850)"];
+  B [label = "工\nwork (76)"];
+  D [label = "从\nfollow (846)"];
+  C [label = "人\nperson (793)"];
 
-  工 -> 巫 [thick];
-  从 -> 巫 [thick];
-  人 -> 从 [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

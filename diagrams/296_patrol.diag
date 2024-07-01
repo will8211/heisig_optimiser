@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  巡 [label = "巡\n296 patrol"];
-  川 [label = "川\n134 stream"];
-  辶 [label = "辶\n* road"];
+  D [label = "巡\npatrol (296)"];
+  B [label = "川\nstream (134)"];
+  C [label = "辶\nroad (*)"];
 
-  川 -> 巡 [thick];
-  辶 -> 巡 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

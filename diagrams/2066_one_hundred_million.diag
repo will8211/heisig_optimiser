@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  亿 [label = "亿\n2066 one hundred million"];
-  人 [label = "人\n793 person"];
-  乙 [label = "乙\n95 second"];
+  D [label = "亿\none hundred million (2066)"];
+  B [label = "人\nperson (793)"];
+  C [label = "乙\nsecond (95)"];
 
-  人 -> 亿 [thick];
-  乙 -> 亿 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

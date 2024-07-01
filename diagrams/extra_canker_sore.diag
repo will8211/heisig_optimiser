@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  肙 [label = "肙\n* canker sore"];
-  口 [label = "口\n11 mouth"];
-  月 [label = "月\n13 month"];
+  D [label = "肙\ncanker sore (*)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "月\nmonth (13)"];
 
-  口 -> 肙 [thick];
-  月 -> 肙 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

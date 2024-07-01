@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  镜 [label = "镜\n488 mirror"];
-  金 [label = "金\n279 gold"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  王 [label = "王\n265 king"];
-  工 [label = "工\n76 work"];
-  丶 [label = "丶\n* a drop of"];
-  竟 [label = "竟\n487 unexpectedly"];
-  立 [label = "立\n444 standing up"];
-  儿 [label = "儿\n56 youngster"];
-  日 [label = "日\n12 day"];
+  K [label = "镜\nmirror (488)"];
+  F [label = "金\ngold (279)"];
+  B [label = "𠆢\numbrella (*)"];
+  D [label = "王\nking (265)"];
+  C [label = "工\nwork (76)"];
+  E [label = "丶\na drop of (*)"];
+  J [label = "竟\nunexpectedly (487)"];
+  G [label = "立\nstanding up (444)"];
+  H [label = "儿\nyoungster (56)"];
+  I [label = "日\nday (12)"];
 
-  金 -> 镜 [thick];
-  "𠆢" -> 金 [thick];
-  王 -> 金 [thick];
-  工 -> 王 [thick];
-  丶 -> 金 [thick];
-  竟 -> 镜 [thick];
-  立 -> 竟 [thick];
-  儿 -> 竟 [thick];
-  日 -> 竟 [thick];
+  F -> K [thick];
+  B -> F [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
+  J -> K [thick];
+  G -> J [thick];
+  H -> J [thick];
+  I -> J [thick];
 }

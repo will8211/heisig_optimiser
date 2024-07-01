@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  史 [label = "史\n630 history"];
-  口 [label = "口\n11 mouth"];
-  囧史－口 [label = "囧史－口\n* tucked under the arm"];
+  D [label = "史\nhistory (630)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "囧史－口\ntucked under the arm (*)"];
 
-  口 -> 史 [thick];
-  囧史－口 -> 史 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

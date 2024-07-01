@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  眷 [label = "眷\n984 dependents"];
-  囧眷－目 [label = "囧眷－目\n* quarter"];
-  半 [label = "半\n980 half"];
-  目 [label = "目\n15 eye"];
+  E [label = "眷\ndependents (984)"];
+  C [label = "囧眷－目\nquarter (*)"];
+  B [label = "半\nhalf (980)"];
+  D [label = "目\neye (15)"];
 
-  囧眷－目 -> 眷 [thick];
-  半 -> 囧眷－目 [thick];
-  目 -> 眷 [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
 }

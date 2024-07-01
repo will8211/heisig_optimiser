@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  尾 [label = "尾\n1422 tail"];
-  尸 [label = "尸\n882 corpse"];
-  毛 [label = "毛\n1421 fur"];
-  手 [label = "手\n584 hand"];
+  E [label = "尾\ntail (1422)"];
+  B [label = "尸\ncorpse (882)"];
+  D [label = "毛\nfur (1421)"];
+  C [label = "手\nhand (584)"];
 
-  尸 -> 尾 [thick];
-  毛 -> 尾 [thick];
-  手 -> 毛 [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

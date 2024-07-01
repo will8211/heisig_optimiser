@@ -5,22 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  骑 [label = "骑\n1458 ride"];
-  马 [label = "马\n1453 horse"];
-  囧与－丨一 [label = "囧与－丨一\n* pointed tail"];
-  奇 [label = "奇\n133 strange"];
-  大 [label = "大\n113 large"];
-  可 [label = "可\n92 can"];
-  丁 [label = "丁\n90 fourth"];
-  口 [label = "口\n11 mouth"];
+  K [label = "骑\nride (1458)"];
+  C [label = "马\nhorse (1453)"];
+  B [label = "囧与－丨一\npointed tail (*)"];
+  J [label = "奇\nstrange (133)"];
+  D [label = "大\nlarge (113)"];
+  G [label = "可\ncan (92)"];
+  E [label = "丁\nfourth (90)"];
+  F [label = "口\nmouth (11)"];
+  H [label = "口\nmouth (11)"];
+  I [label = "丁\nfourth (90)"];
 
-  马 -> 骑 [thick];
-  囧与－丨一 -> 马 [thick];
-  奇 -> 骑 [thick];
-  大 -> 奇 [thick];
-  可 -> 奇 [thick];
-  丁 -> 可 [thick];
-  口 -> 可 [thick];
-  口 -> 奇 [thick];
-  丁 -> 奇 [thick];
+  C -> K [thick];
+  B -> C [thick];
+  J -> K [thick];
+  D -> J [thick];
+  G -> J [thick];
+  E -> G [thick];
+  F -> G [thick];
+  H -> J [thick];
+  I -> J [thick];
 }

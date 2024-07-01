@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  荐 [label = "荐\n1876 recommend"];
-  艹 [label = "艹\n* flower"];
-  存 [label = "存\n623 deposit"];
-  才 [label = "才\n620 genius"];
-  子 [label = "子\n97 child"];
+  F [label = "荐\nrecommend (1876)"];
+  B [label = "艹\nflower (*)"];
+  E [label = "存\ndeposit (623)"];
+  C [label = "才\ngenius (620)"];
+  D [label = "子\nchild (97)"];
 
-  艹 -> 荐 [thick];
-  存 -> 荐 [thick];
-  才 -> 存 [thick];
-  子 -> 存 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

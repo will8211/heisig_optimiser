@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  胖 [label = "胖\n982 fat"];
-  月 [label = "月\n13 month"];
-  半 [label = "半\n980 half"];
+  D [label = "胖\nfat (982)"];
+  B [label = "月\nmonth (13)"];
+  C [label = "半\nhalf (980)"];
 
-  月 -> 胖 [thick];
-  半 -> 胖 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

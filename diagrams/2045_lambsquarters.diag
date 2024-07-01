@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  莱 [label = "莱\n2045 lambsquarters"];
-  艹 [label = "艹\n* flower"];
-  来 [label = "来\n783 come"];
-  一 [label = "一\n1 one"];
-  米 [label = "米\n778 rice"];
+  F [label = "莱\nlambsquarters (2045)"];
+  B [label = "艹\nflower (*)"];
+  E [label = "来\ncome (783)"];
+  C [label = "一\none (1)"];
+  D [label = "米\nrice (778)"];
 
-  艹 -> 莱 [thick];
-  来 -> 莱 [thick];
-  一 -> 来 [thick];
-  米 -> 来 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

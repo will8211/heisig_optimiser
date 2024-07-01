@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  坤 [label = "坤\n2175 female"];
-  土 [label = "土\n158 soil"];
-  申 [label = "申\n918 express"];
-  日 [label = "日\n12 day"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
+  G [label = "坤\nfemale (2175)"];
+  B [label = "土\nsoil (158)"];
+  F [label = "申\nexpress (918)"];
+  C [label = "日\nday (12)"];
+  E [label = "丨\nwalking stick (*)"];
+  D [label = "一\none (1)"];
 
-  土 -> 坤 [thick];
-  申 -> 坤 [thick];
-  日 -> 申 [thick];
-  丨 -> 申 [thick];
-  一 -> 丨 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
 }

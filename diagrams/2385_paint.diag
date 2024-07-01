@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  绘 [label = "绘\n2385 paint"];
-  纟 [label = "纟\n* thread"];
-  厶 [label = "厶\n* elbow"];
-  亼 [label = "亼\n* meeting"];
-  "𠆢" [label = "𠆢\n* umbrella"];
+  F [label = "绘\npaint (2385)"];
+  C [label = "纟\nthread (*)"];
+  B [label = "厶\nelbow (*)"];
+  E [label = "亼\nmeeting (*)"];
+  D [label = "𠆢\numbrella (*)"];
 
-  纟 -> 绘 [thick];
-  厶 -> 纟 [thick];
-  亼 -> 绘 [thick];
-  "𠆢" -> 亼 [thick];
+  C -> F [thick];
+  B -> C [thick];
+  E -> F [thick];
+  D -> E [thick];
 }

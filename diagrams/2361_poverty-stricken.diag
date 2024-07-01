@@ -5,21 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  窘 [label = "窘\n2361 poverty-stricken"];
-  穴 [label = "穴\n1070 hole"];
-  宀 [label = "宀\n* house"];
-  八 [label = "八\n8 eight"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  君 [label = "君\n959 monarch"];
-  尹 [label = "尹\n957 overseer"];
-  口 [label = "口\n11 mouth"];
+  J [label = "窘\npoverty-stricken (2361)"];
+  F [label = "穴\nhole (1070)"];
+  B [label = "宀\nhouse (*)"];
+  C [label = "八\neight (8)"];
+  E [label = "囧只－口\nanimal legs (*)"];
+  D [label = "八\neight (8)"];
+  I [label = "君\nmonarch (959)"];
+  G [label = "尹\noverseer (957)"];
+  H [label = "口\nmouth (11)"];
 
-  穴 -> 窘 [thick];
-  宀 -> 穴 [thick];
-  八 -> 穴 [thick];
-  囧只－口 -> 穴 [thick];
-  八 -> 囧只－口 [thick];
-  君 -> 窘 [thick];
-  尹 -> 君 [thick];
-  口 -> 君 [thick];
+  F -> J [thick];
+  B -> F [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
+  I -> J [thick];
+  G -> I [thick];
+  H -> I [thick];
 }

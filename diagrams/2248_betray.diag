@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  叛 [label = "叛\n2248 betray"];
-  半 [label = "半\n980 half"];
-  反 [label = "反\n656 against"];
-  "𠂆" [label = "𠂆\n* drag"];
-  又 [label = "又\n633 again"];
+  F [label = "叛\nbetray (2248)"];
+  B [label = "半\nhalf (980)"];
+  E [label = "反\nagainst (656)"];
+  C [label = "𠂆\ndrag (*)"];
+  D [label = "又\nagain (633)"];
 
-  半 -> 叛 [thick];
-  反 -> 叛 [thick];
-  "𠂆" -> 反 [thick];
-  又 -> 反 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

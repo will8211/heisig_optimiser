@@ -5,19 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  恒 [label = "恒\n1798 permanent"];
-  心 [label = "心\n563 heart"];
-  宣 [label = "宣\n195 proclaim"];
-  宀 [label = "宀\n* house"];
-  旦 [label = "旦\n30 daybreak"];
-  日 [label = "日\n12 day"];
-  一 [label = "一\n1 one"];
+  I [label = "恒\npermanent (1798)"];
+  B [label = "心\nheart (563)"];
+  H [label = "宣\nproclaim (195)"];
+  C [label = "宀\nhouse (*)"];
+  F [label = "旦\ndaybreak (30)"];
+  D [label = "日\nday (12)"];
+  E [label = "一\none (1)"];
+  G [label = "日\nday (12)"];
 
-  心 -> 恒 [thick];
-  宣 -> 恒 [thick];
-  宀 -> 宣 [thick];
-  旦 -> 宣 [thick];
-  日 -> 旦 [thick];
-  一 -> 旦 [thick];
-  日 -> 宣 [thick];
+  B -> I [thick];
+  H -> I [thick];
+  C -> H [thick];
+  F -> H [thick];
+  D -> F [thick];
+  E -> F [thick];
+  G -> H [thick];
 }

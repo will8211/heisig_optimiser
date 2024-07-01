@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  煞 [label = "煞\n2198 goblin"];
-  刍 [label = "刍\n* hairnet"];
-  勹 [label = "勹\n* bound up"];
-  彐 [label = "彐\n* broom"];
-  攵 [label = "攵\n* taskmaster"];
-  火 [label = "火\n170 fire"];
+  G [label = "煞\ngoblin (2198)"];
+  D [label = "刍\nhairnet (*)"];
+  B [label = "勹\nbound up (*)"];
+  C [label = "彐\nbroom (*)"];
+  E [label = "攵\ntaskmaster (*)"];
+  F [label = "火\nfire (170)"];
 
-  刍 -> 煞 [thick];
-  勹 -> 刍 [thick];
-  彐 -> 刍 [thick];
-  攵 -> 煞 [thick];
-  火 -> 煞 [thick];
+  D -> G [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

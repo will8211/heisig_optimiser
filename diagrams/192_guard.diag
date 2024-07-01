@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  守 [label = "守\n192 guard"];
-  寸 [label = "寸\n166 Chinese inch"];
-  丶 [label = "丶\n* a drop of"];
-  十 [label = "十\n10 ten"];
-  宀 [label = "宀\n* house"];
+  F [label = "守\nguard (192)"];
+  D [label = "寸\nChinese inch (166)"];
+  B [label = "丶\na drop of (*)"];
+  C [label = "十\nten (10)"];
+  E [label = "宀\nhouse (*)"];
 
-  寸 -> 守 [thick];
-  丶 -> 寸 [thick];
-  十 -> 寸 [thick];
-  宀 -> 守 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

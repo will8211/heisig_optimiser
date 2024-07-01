@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  寥 [label = "寥\n2708 deserted"];
-  宀 [label = "宀\n* house"];
-  翏 [label = "翏\n* kiddie cocktail"];
-  羽 [label = "羽\n544 feathers"];
-  "㐱" [label = "㐱\n* cocktail"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  彡 [label = "彡\n* rooster tail"];
+  H [label = "寥\ndeserted (2708)"];
+  B [label = "宀\nhouse (*)"];
+  G [label = "翏\nkiddie cocktail (*)"];
+  C [label = "羽\nfeathers (544)"];
+  F [label = "㐱\ncocktail (*)"];
+  D [label = "𠆢\numbrella (*)"];
+  E [label = "彡\nrooster tail (*)"];
 
-  宀 -> 寥 [thick];
-  翏 -> 寥 [thick];
-  羽 -> 翏 [thick];
-  "㐱" -> 翏 [thick];
-  "𠆢" -> "㐱" [thick];
-  彡 -> "㐱" [thick];
+  B -> H [thick];
+  G -> H [thick];
+  C -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

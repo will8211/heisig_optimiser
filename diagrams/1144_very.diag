@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  很 [label = "很\n1144 very"];
-  行 [label = "行\n754 line of business"];
-  艮 [label = "艮\n* silver"];
+  D [label = "很\nvery (1144)"];
+  B [label = "行\nline of business (754)"];
+  C [label = "艮\nsilver (*)"];
 
-  行 -> 很 [thick];
-  艮 -> 很 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

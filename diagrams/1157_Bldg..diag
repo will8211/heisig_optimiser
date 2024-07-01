@@ -5,24 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  馆 [label = "馆\n1157 Bldg."];
-  食 [label = "食\n1154 food"];
-  良 [label = "良\n1151 high-quality"];
-  丶 [label = "丶\n* a drop of"];
-  艮 [label = "艮\n* silver"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  官 [label = "官\n1041 bureaucrat"];
-  "𠂤" [label = "𠂤\n* maestro"];
-  宀 [label = "宀\n* house"];
+  L [label = "馆\nBldg. (1157)"];
+  F [label = "食\nfood (1154)"];
+  D [label = "良\nhigh-quality (1151)"];
+  B [label = "丶\na drop of (*)"];
+  C [label = "艮\nsilver (*)"];
+  E [label = "𠆢\numbrella (*)"];
+  K [label = "官\nbureaucrat (1041)"];
+  H [label = "𠂤\nmaestro (*)"];
+  G [label = "丶\na drop of (*)"];
+  I [label = "丶\na drop of (*)"];
+  J [label = "宀\nhouse (*)"];
 
-  食 -> 馆 [thick];
-  良 -> 食 [thick];
-  丶 -> 良 [thick];
-  艮 -> 良 [thick];
-  "𠆢" -> 食 [thick];
-  官 -> 馆 [thick];
-  "𠂤" -> 官 [thick];
-  丶 -> "𠂤" [thick];
-  丶 -> 官 [thick];
-  宀 -> 官 [thick];
+  F -> L [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
+  K -> L [thick];
+  H -> K [thick];
+  G -> H [thick];
+  I -> K [thick];
+  J -> K [thick];
 }

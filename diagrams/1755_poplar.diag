@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  杨 [label = "杨\n1755 poplar"];
-  木 [label = "木\n202 tree"];
-  "𠃓" [label = "𠃓\n* piglets"];
-  豕 [label = "豕\n* sow"];
+  E [label = "杨\npoplar (1755)"];
+  B [label = "木\ntree (202)"];
+  D [label = "𠃓\npiglets (*)"];
+  C [label = "豕\nsow (*)"];
 
-  木 -> 杨 [thick];
-  "𠃓" -> 杨 [thick];
-  豕 -> "𠃓" [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

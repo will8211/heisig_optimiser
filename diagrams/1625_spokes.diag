@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  辐 [label = "辐\n1625 spokes"];
-  车 [label = "车\n300 car"];
-  畐 [label = "畐\n* wealth"];
-  一 [label = "一\n1 one"];
-  口 [label = "口\n11 mouth"];
-  田 [label = "田\n14 rice field"];
+  G [label = "辐\nspokes (1625)"];
+  B [label = "车\ncar (300)"];
+  F [label = "畐\nwealth (*)"];
+  C [label = "一\none (1)"];
+  D [label = "口\nmouth (11)"];
+  E [label = "田\nrice field (14)"];
 
-  车 -> 辐 [thick];
-  畐 -> 辐 [thick];
-  一 -> 畐 [thick];
-  口 -> 畐 [thick];
-  田 -> 畐 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

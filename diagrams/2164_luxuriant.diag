@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  蔚 [label = "蔚\n2164 luxuriant"];
-  艹 [label = "艹\n* flower"];
-  尉 [label = "尉\n* Cardinal Richelieu"];
-  尸 [label = "尸\n882 corpse"];
-  寸 [label = "寸\n166 Chinese inch"];
-  丶 [label = "丶\n* a drop of"];
-  十 [label = "十\n10 ten"];
-  示 [label = "示\n900 show"];
+  I [label = "蔚\nluxuriant (2164)"];
+  B [label = "艹\nflower (*)"];
+  H [label = "尉\nCardinal Richelieu (*)"];
+  C [label = "尸\ncorpse (882)"];
+  F [label = "寸\nChinese inch (166)"];
+  D [label = "丶\na drop of (*)"];
+  E [label = "十\nten (10)"];
+  G [label = "示\nshow (900)"];
 
-  艹 -> 蔚 [thick];
-  尉 -> 蔚 [thick];
-  尸 -> 尉 [thick];
-  寸 -> 尉 [thick];
-  丶 -> 寸 [thick];
-  十 -> 寸 [thick];
-  示 -> 尉 [thick];
+  B -> I [thick];
+  H -> I [thick];
+  C -> H [thick];
+  F -> H [thick];
+  D -> F [thick];
+  E -> F [thick];
+  G -> H [thick];
 }

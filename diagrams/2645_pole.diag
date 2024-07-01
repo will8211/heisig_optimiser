@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  竿 [label = "竿\n2645 pole"];
-  竹 [label = "竹\n786 bamboo"];
-  丁 [label = "丁\n90 fourth"];
-  干 [label = "干\n1277 dry"];
+  E [label = "竿\npole (2645)"];
+  C [label = "竹\nbamboo (786)"];
+  B [label = "丁\nfourth (90)"];
+  D [label = "干\ndry (1277)"];
 
-  竹 -> 竿 [thick];
-  丁 -> 竹 [thick];
-  干 -> 竿 [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
 }

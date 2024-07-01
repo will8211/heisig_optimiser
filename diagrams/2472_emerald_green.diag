@@ -5,26 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  翠 [label = "翠\n2472 emerald green"];
-  羽 [label = "羽\n544 feathers"];
-  卒 [label = "卒\n* foot soldiers"];
-  从 [label = "从\n846 follow"];
-  人 [label = "人\n793 person"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  十 [label = "十\n10 ten"];
+  M [label = "翠\nemerald green (2472)"];
+  B [label = "羽\nfeathers (544)"];
+  L [label = "卒\nfoot soldiers (*)"];
+  D [label = "从\nfollow (846)"];
+  C [label = "人\nperson (793)"];
+  J [label = "亠\ntop hat (*)"];
+  G [label = "六\nsix (6)"];
+  F [label = "囧只－口\nanimal legs (*)"];
+  E [label = "八\neight (8)"];
+  I [label = "囧只－口\nanimal legs (*)"];
+  H [label = "八\neight (8)"];
+  K [label = "十\nten (10)"];
 
-  羽 -> 翠 [thick];
-  卒 -> 翠 [thick];
-  从 -> 卒 [thick];
-  人 -> 从 [thick];
-  亠 -> 卒 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
-  十 -> 卒 [thick];
+  B -> M [thick];
+  L -> M [thick];
+  D -> L [thick];
+  C -> D [thick];
+  J -> L [thick];
+  G -> J [thick];
+  F -> G [thick];
+  E -> F [thick];
+  I -> J [thick];
+  H -> I [thick];
+  K -> L [thick];
 }

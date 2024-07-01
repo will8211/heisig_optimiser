@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  刹 [label = "刹\n2537 brake"];
-  杀 [label = "杀\n1167 kill"];
-  "㐅" [label = "㐅\n* sheaf"];
-  木 [label = "木\n202 tree"];
-  刀 [label = "刀\n83 sword"];
+  F [label = "刹\nbrake (2537)"];
+  D [label = "杀\nkill (1167)"];
+  B [label = "㐅\nsheaf (*)"];
+  C [label = "木\ntree (202)"];
+  E [label = "刀\nsword (83)"];
 
-  杀 -> 刹 [thick];
-  "㐅" -> 杀 [thick];
-  木 -> 杀 [thick];
-  刀 -> 刹 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

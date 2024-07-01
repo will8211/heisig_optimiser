@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  树 [label = "树\n643 timber"];
-  木 [label = "木\n202 tree"];
-  对 [label = "对\n642 that’s right"];
-  又 [label = "又\n633 again"];
-  寸 [label = "寸\n166 Chinese inch"];
-  丶 [label = "丶\n* a drop of"];
-  十 [label = "十\n10 ten"];
+  H [label = "树\ntimber (643)"];
+  B [label = "木\ntree (202)"];
+  G [label = "对\nthat’s right (642)"];
+  C [label = "又\nagain (633)"];
+  F [label = "寸\nChinese inch (166)"];
+  D [label = "丶\na drop of (*)"];
+  E [label = "十\nten (10)"];
 
-  木 -> 树 [thick];
-  对 -> 树 [thick];
-  又 -> 对 [thick];
-  寸 -> 对 [thick];
-  丶 -> 寸 [thick];
-  十 -> 寸 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  C -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

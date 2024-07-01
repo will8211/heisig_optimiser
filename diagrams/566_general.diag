@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  总 [label = "总\n566 general"];
-  丷 [label = "丷\n* horns"];
-  一 [label = "一\n1 one"];
-  口 [label = "口\n11 mouth"];
-  心 [label = "心\n563 heart"];
+  F [label = "总\ngeneral (566)"];
+  C [label = "丷\nhorns (*)"];
+  B [label = "一\none (1)"];
+  D [label = "口\nmouth (11)"];
+  E [label = "心\nheart (563)"];
 
-  丷 -> 总 [thick];
-  一 -> 丷 [thick];
-  口 -> 总 [thick];
-  心 -> 总 [thick];
+  C -> F [thick];
+  B -> C [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

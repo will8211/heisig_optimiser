@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  缺 [label = "缺\n1444 deficient"];
-  缶 [label = "缶\n* tin can"];
-  午 [label = "午\n542 noon"];
-  山 [label = "山\n688 mountain"];
-  夬 [label = "夬\n* guillotine"];
-  囧侯－亻－矢 [label = "囧侯－亻－矢\n* key"];
-  大 [label = "大\n113 large"];
+  H [label = "缺\ndeficient (1444)"];
+  D [label = "缶\ntin can (*)"];
+  B [label = "午\nnoon (542)"];
+  C [label = "山\nmountain (688)"];
+  G [label = "夬\nguillotine (*)"];
+  E [label = "囧侯－亻－矢\nkey (*)"];
+  F [label = "大\nlarge (113)"];
 
-  缶 -> 缺 [thick];
-  午 -> 缶 [thick];
-  山 -> 缶 [thick];
-  夬 -> 缺 [thick];
-  囧侯－亻－矢 -> 夬 [thick];
-  大 -> 夬 [thick];
+  D -> H [thick];
+  B -> D [thick];
+  C -> D [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

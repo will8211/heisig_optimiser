@@ -5,26 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  滞 [label = "滞\n422 stagnant"];
-  带 [label = "带\n421 sash"];
-  "囧冖＋巾" [label = "囧冖＋巾\n* apron"];
-  巾 [label = "巾\n410 towel"];
-  冖 [label = "冖\n* crown"];
-  一 [label = "一\n1 one"];
-  小 [label = "小\n109 small"];
-  丶 [label = "丶\n* a drop of"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
+  M [label = "滞\nstagnant (422)"];
+  H [label = "带\nsash (421)"];
+  D [label = "囧冖＋巾\napron (*)"];
+  B [label = "巾\ntowel (410)"];
+  C [label = "冖\ncrown (*)"];
+  E [label = "一\none (1)"];
+  G [label = "小\nsmall (109)"];
+  F [label = "丶\na drop of (*)"];
+  L [label = "水\nwater (137)"];
+  J [label = "丨\nwalking stick (*)"];
+  I [label = "一\none (1)"];
+  K [label = "丶\na drop of (*)"];
 
-  带 -> 滞 [thick];
-  "囧冖＋巾" -> 带 [thick];
-  巾 -> "囧冖＋巾" [thick];
-  冖 -> "囧冖＋巾" [thick];
-  一 -> 带 [thick];
-  小 -> 带 [thick];
-  丶 -> 小 [thick];
-  水 -> 滞 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
+  H -> M [thick];
+  D -> H [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> H [thick];
+  G -> H [thick];
+  F -> G [thick];
+  L -> M [thick];
+  J -> L [thick];
+  I -> J [thick];
+  K -> L [thick];
 }

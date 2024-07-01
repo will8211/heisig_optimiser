@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  橄 [label = "橄\n2987 olive (A)"];
-  木 [label = "木\n202 tree"];
-  敢 [label = "敢\n722 brave"];
-  丁 [label = "丁\n90 fourth"];
-  耳 [label = "耳\n717 ear"];
-  攵 [label = "攵\n* taskmaster"];
+  G [label = "橄\nolive (A) (2987)"];
+  B [label = "木\ntree (202)"];
+  F [label = "敢\nbrave (722)"];
+  C [label = "丁\nfourth (90)"];
+  D [label = "耳\near (717)"];
+  E [label = "攵\ntaskmaster (*)"];
 
-  木 -> 橄 [thick];
-  敢 -> 橄 [thick];
-  丁 -> 敢 [thick];
-  耳 -> 敢 [thick];
-  攵 -> 敢 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

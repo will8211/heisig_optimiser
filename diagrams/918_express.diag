@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  申 [label = "申\n918 express"];
-  日 [label = "日\n12 day"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
+  E [label = "申\nexpress (918)"];
+  B [label = "日\nday (12)"];
+  D [label = "丨\nwalking stick (*)"];
+  C [label = "一\none (1)"];
 
-  日 -> 申 [thick];
-  丨 -> 申 [thick];
-  一 -> 丨 [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  命 [label = "命\n1105 fate"];
-  合 [label = "合\n262 fit"];
-  亼 [label = "亼\n* meeting"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  口 [label = "口\n11 mouth"];
-  卩 [label = "卩\n* stamp"];
+  G [label = "命\nfate (1105)"];
+  E [label = "合\nfit (262)"];
+  C [label = "亼\nmeeting (*)"];
+  B [label = "𠆢\numbrella (*)"];
+  D [label = "口\nmouth (11)"];
+  F [label = "卩\nstamp (*)"];
 
-  合 -> 命 [thick];
-  亼 -> 合 [thick];
-  "𠆢" -> 亼 [thick];
-  口 -> 合 [thick];
-  卩 -> 命 [thick];
+  E -> G [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

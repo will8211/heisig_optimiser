@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  凯 [label = "凯\n1935 triumphant"];
-  山 [label = "山\n688 mountain"];
-  己 [label = "己\n515 self"];
-  几 [label = "几\n57 how many?"];
+  E [label = "凯\ntriumphant (1935)"];
+  B [label = "山\nmountain (688)"];
+  C [label = "己\nself (515)"];
+  D [label = "几\nhow many? (57)"];
 
-  山 -> 凯 [thick];
-  己 -> 凯 [thick];
-  几 -> 凯 [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

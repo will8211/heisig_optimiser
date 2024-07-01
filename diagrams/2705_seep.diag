@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  渗 [label = "渗\n2705 seep"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  参 [label = "参\n1308 participate"];
-  大 [label = "大\n113 large"];
-  厶 [label = "厶\n* elbow"];
-  彡 [label = "彡\n* rooster tail"];
+  J [label = "渗\nseep (2705)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  I [label = "参\nparticipate (1308)"];
+  F [label = "大\nlarge (113)"];
+  G [label = "厶\nelbow (*)"];
+  H [label = "彡\nrooster tail (*)"];
 
-  水 -> 渗 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  参 -> 渗 [thick];
-  大 -> 参 [thick];
-  厶 -> 参 [thick];
-  彡 -> 参 [thick];
+  E -> J [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  I -> J [thick];
+  F -> I [thick];
+  G -> I [thick];
+  H -> I [thick];
 }

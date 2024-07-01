@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  彻 [label = "彻\n1992 thorough"];
-  行 [label = "行\n754 line of business"];
-  切 [label = "切\n85 cut"];
-  刀 [label = "刀\n83 sword"];
-  七 [label = "七\n7 seven"];
+  F [label = "彻\nthorough (1992)"];
+  B [label = "行\nline of business (754)"];
+  E [label = "切\ncut (85)"];
+  C [label = "刀\nsword (83)"];
+  D [label = "七\nseven (7)"];
 
-  行 -> 彻 [thick];
-  切 -> 彻 [thick];
-  刀 -> 切 [thick];
-  七 -> 切 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

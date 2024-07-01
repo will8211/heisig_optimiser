@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  径 [label = "径\n2406 trail"];
-  行 [label = "行\n754 line of business"];
-  "𢀖" [label = "𢀖\n* spool"];
-  工 [label = "工\n76 work"];
-  人 [label = "人\n793 person"];
+  F [label = "径\ntrail (2406)"];
+  B [label = "行\nline of business (754)"];
+  E [label = "𢀖\nspool (*)"];
+  C [label = "工\nwork (76)"];
+  D [label = "人\nperson (793)"];
 
-  行 -> 径 [thick];
-  "𢀖" -> 径 [thick];
-  工 -> "𢀖" [thick];
-  人 -> "𢀖" [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

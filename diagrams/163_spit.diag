@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  吐 [label = "吐\n163 spit"];
-  口 [label = "口\n11 mouth"];
-  土 [label = "土\n158 soil"];
+  D [label = "吐\nspit (163)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "土\nsoil (158)"];
 
-  口 -> 吐 [thick];
-  土 -> 吐 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  尤 [label = "尤\n240 remarkable"];
-  犬 [label = "犬\n239 pooch"];
-  大 [label = "大\n113 large"];
-  丶 [label = "丶\n* a drop of"];
-  儿 [label = "儿\n56 youngster"];
+  F [label = "尤\nremarkable (240)"];
+  D [label = "犬\npooch (239)"];
+  B [label = "大\nlarge (113)"];
+  C [label = "丶\na drop of (*)"];
+  E [label = "儿\nyoungster (56)"];
 
-  犬 -> 尤 [thick];
-  大 -> 犬 [thick];
-  丶 -> 犬 [thick];
-  儿 -> 尤 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

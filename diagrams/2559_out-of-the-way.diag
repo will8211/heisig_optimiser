@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  僻 [label = "僻\n2559 out-of-the-way"];
-  人 [label = "人\n793 person"];
-  辟 [label = "辟\n1185 repudiate"];
-  尸 [label = "尸\n882 corpse"];
-  口 [label = "口\n11 mouth"];
-  辛 [label = "辛\n1183 peppery"];
-  立 [label = "立\n444 standing up"];
-  十 [label = "十\n10 ten"];
+  I [label = "僻\nout-of-the-way (2559)"];
+  B [label = "人\nperson (793)"];
+  H [label = "辟\nrepudiate (1185)"];
+  C [label = "尸\ncorpse (882)"];
+  D [label = "口\nmouth (11)"];
+  G [label = "辛\npeppery (1183)"];
+  E [label = "立\nstanding up (444)"];
+  F [label = "十\nten (10)"];
 
-  人 -> 僻 [thick];
-  辟 -> 僻 [thick];
-  尸 -> 辟 [thick];
-  口 -> 辟 [thick];
-  辛 -> 辟 [thick];
-  立 -> 辛 [thick];
-  十 -> 辛 [thick];
+  B -> I [thick];
+  H -> I [thick];
+  C -> H [thick];
+  D -> H [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  亚 [label = "亚\n1351 Asia"];
-  一 [label = "一\n1 one"];
-  业 [label = "业\n1349 profession"];
-  並 [label = "並\n* side by side"];
+  E [label = "亚\nAsia (1351)"];
+  B [label = "一\none (1)"];
+  D [label = "业\nprofession (1349)"];
+  C [label = "並\nside by side (*)"];
 
-  一 -> 亚 [thick];
-  业 -> 亚 [thick];
-  並 -> 业 [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

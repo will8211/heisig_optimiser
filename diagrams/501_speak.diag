@@ -5,34 +5,38 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  说 [label = "说\n501 speak"];
-  言 [label = "言\n346 say"];
-  二 [label = "二\n2 two"];
-  一 [label = "一\n1 one"];
-  口 [label = "口\n11 mouth"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  兑 [label = "兑\n499 convert"];
-  兄 [label = "兄\n107 elder brother"];
-  儿 [label = "儿\n56 youngster"];
-  丷 [label = "丷\n* horns"];
+  R [label = "说\nspeak (501)"];
+  K [label = "言\nsay (346)"];
+  C [label = "二\ntwo (2)"];
+  B [label = "一\none (1)"];
+  D [label = "口\nmouth (11)"];
+  J [label = "亠\ntop hat (*)"];
+  G [label = "六\nsix (6)"];
+  F [label = "囧只－口\nanimal legs (*)"];
+  E [label = "八\neight (8)"];
+  I [label = "囧只－口\nanimal legs (*)"];
+  H [label = "八\neight (8)"];
+  Q [label = "兑\nconvert (499)"];
+  N [label = "兄\nelder brother (107)"];
+  L [label = "口\nmouth (11)"];
+  M [label = "儿\nyoungster (56)"];
+  P [label = "丷\nhorns (*)"];
+  O [label = "一\none (1)"];
 
-  言 -> 说 [thick];
-  二 -> 言 [thick];
-  一 -> 二 [thick];
-  口 -> 言 [thick];
-  亠 -> 言 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
-  兑 -> 说 [thick];
-  兄 -> 兑 [thick];
-  口 -> 兄 [thick];
-  儿 -> 兄 [thick];
-  丷 -> 兑 [thick];
-  一 -> 丷 [thick];
+  K -> R [thick];
+  C -> K [thick];
+  B -> C [thick];
+  D -> K [thick];
+  J -> K [thick];
+  G -> J [thick];
+  F -> G [thick];
+  E -> F [thick];
+  I -> J [thick];
+  H -> I [thick];
+  Q -> R [thick];
+  N -> Q [thick];
+  L -> N [thick];
+  M -> N [thick];
+  P -> Q [thick];
+  O -> P [thick];
 }

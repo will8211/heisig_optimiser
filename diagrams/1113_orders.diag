@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  令 [label = "令\n1113 orders"];
-  亼 [label = "亼\n* meeting"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  囧节－艹 [label = "囧节－艹\n* chop"];
+  E [label = "令\norders (1113)"];
+  C [label = "亼\nmeeting (*)"];
+  B [label = "𠆢\numbrella (*)"];
+  D [label = "囧节－艹\nchop (*)"];
 
-  亼 -> 令 [thick];
-  "𠆢" -> 亼 [thick];
-  囧节－艹 -> 令 [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
 }

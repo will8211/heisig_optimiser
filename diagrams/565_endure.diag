@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  忍 [label = "忍\n565 endure"];
-  刃 [label = "刃\n84 blade"];
-  刀 [label = "刀\n83 sword"];
-  丶 [label = "丶\n* a drop of"];
-  心 [label = "心\n563 heart"];
+  F [label = "忍\nendure (565)"];
+  D [label = "刃\nblade (84)"];
+  B [label = "刀\nsword (83)"];
+  C [label = "丶\na drop of (*)"];
+  E [label = "心\nheart (563)"];
 
-  刃 -> 忍 [thick];
-  刀 -> 刃 [thick];
-  丶 -> 刃 [thick];
-  心 -> 忍 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

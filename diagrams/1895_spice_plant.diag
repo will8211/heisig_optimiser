@@ -5,26 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  椒 [label = "椒\n1895 spice plant"];
-  木 [label = "木\n202 tree"];
-  叔 [label = "叔\n653 uncle"];
-  上 [label = "上\n45 above"];
-  卜 [label = "卜\n43 divination"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  小 [label = "小\n109 small"];
-  又 [label = "又\n633 again"];
+  M [label = "椒\nspice plant (1895)"];
+  B [label = "木\ntree (202)"];
+  L [label = "叔\nuncle (653)"];
+  H [label = "上\nabove (45)"];
+  F [label = "卜\ndivination (43)"];
+  D [label = "丨\nwalking stick (*)"];
+  C [label = "一\none (1)"];
+  E [label = "丶\na drop of (*)"];
+  G [label = "一\none (1)"];
+  J [label = "小\nsmall (109)"];
+  I [label = "丶\na drop of (*)"];
+  K [label = "又\nagain (633)"];
 
-  木 -> 椒 [thick];
-  叔 -> 椒 [thick];
-  上 -> 叔 [thick];
-  卜 -> 上 [thick];
-  丨 -> 卜 [thick];
-  一 -> 丨 [thick];
-  丶 -> 卜 [thick];
-  一 -> 上 [thick];
-  小 -> 叔 [thick];
-  丶 -> 小 [thick];
-  又 -> 叔 [thick];
+  B -> M [thick];
+  L -> M [thick];
+  H -> L [thick];
+  F -> H [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
+  G -> H [thick];
+  J -> L [thick];
+  I -> J [thick];
+  K -> L [thick];
 }

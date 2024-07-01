@@ -5,28 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  锐 [label = "锐\n1736 sharp"];
-  金 [label = "金\n279 gold"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  王 [label = "王\n265 king"];
-  工 [label = "工\n76 work"];
-  丶 [label = "丶\n* a drop of"];
-  兑 [label = "兑\n499 convert"];
-  兄 [label = "兄\n107 elder brother"];
-  口 [label = "口\n11 mouth"];
-  儿 [label = "儿\n56 youngster"];
-  丷 [label = "丷\n* horns"];
-  一 [label = "一\n1 one"];
+  M [label = "锐\nsharp (1736)"];
+  F [label = "金\ngold (279)"];
+  B [label = "𠆢\numbrella (*)"];
+  D [label = "王\nking (265)"];
+  C [label = "工\nwork (76)"];
+  E [label = "丶\na drop of (*)"];
+  L [label = "兑\nconvert (499)"];
+  I [label = "兄\nelder brother (107)"];
+  G [label = "口\nmouth (11)"];
+  H [label = "儿\nyoungster (56)"];
+  K [label = "丷\nhorns (*)"];
+  J [label = "一\none (1)"];
 
-  金 -> 锐 [thick];
-  "𠆢" -> 金 [thick];
-  王 -> 金 [thick];
-  工 -> 王 [thick];
-  丶 -> 金 [thick];
-  兑 -> 锐 [thick];
-  兄 -> 兑 [thick];
-  口 -> 兄 [thick];
-  儿 -> 兄 [thick];
-  丷 -> 兑 [thick];
-  一 -> 丷 [thick];
+  F -> M [thick];
+  B -> F [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
+  L -> M [thick];
+  I -> L [thick];
+  G -> I [thick];
+  H -> I [thick];
+  K -> L [thick];
+  J -> K [thick];
 }

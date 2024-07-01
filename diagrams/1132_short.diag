@@ -5,28 +5,30 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  短 [label = "短\n1132 short"];
-  矢 [label = "矢\n998 dart"];
-  天 [label = "天\n436 heavens"];
-  一 [label = "一\n1 one"];
-  大 [label = "大\n113 large"];
-  丶 [label = "丶\n* a drop of"];
-  桌 [label = "桌\n224 table"];
-  木 [label = "木\n202 tree"];
-  日 [label = "日\n12 day"];
-  卜 [label = "卜\n43 divination"];
-  丨 [label = "丨\n* walking stick"];
+  N [label = "短\nshort (1132)"];
+  F [label = "矢\ndart (998)"];
+  D [label = "天\nheavens (436)"];
+  B [label = "一\none (1)"];
+  C [label = "大\nlarge (113)"];
+  E [label = "丶\na drop of (*)"];
+  M [label = "桌\ntable (224)"];
+  G [label = "木\ntree (202)"];
+  H [label = "日\nday (12)"];
+  L [label = "卜\ndivination (43)"];
+  J [label = "丨\nwalking stick (*)"];
+  I [label = "一\none (1)"];
+  K [label = "丶\na drop of (*)"];
 
-  矢 -> 短 [thick];
-  天 -> 矢 [thick];
-  一 -> 天 [thick];
-  大 -> 天 [thick];
-  丶 -> 矢 [thick];
-  桌 -> 短 [thick];
-  木 -> 桌 [thick];
-  日 -> 桌 [thick];
-  卜 -> 桌 [thick];
-  丨 -> 卜 [thick];
-  一 -> 丨 [thick];
-  丶 -> 卜 [thick];
+  F -> N [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
+  M -> N [thick];
+  G -> M [thick];
+  H -> M [thick];
+  L -> M [thick];
+  J -> L [thick];
+  I -> J [thick];
+  K -> L [thick];
 }

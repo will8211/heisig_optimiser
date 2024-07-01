@@ -5,27 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  潮 [label = "潮\n149 tide"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  朝 [label = "朝\n49 dynasty"];
-  月 [label = "月\n13 month"];
-  "𠦝" [label = "𠦝\n* mist"];
-  早 [label = "早\n26 early"];
-  日 [label = "日\n12 day"];
-  十 [label = "十\n10 ten"];
+  M [label = "潮\ntide (149)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  L [label = "朝\ndynasty (49)"];
+  F [label = "月\nmonth (13)"];
+  K [label = "𠦝\nmist (*)"];
+  I [label = "早\nearly (26)"];
+  G [label = "日\nday (12)"];
+  H [label = "十\nten (10)"];
+  J [label = "十\nten (10)"];
 
-  水 -> 潮 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  朝 -> 潮 [thick];
-  月 -> 朝 [thick];
-  "𠦝" -> 朝 [thick];
-  早 -> "𠦝" [thick];
-  日 -> 早 [thick];
-  十 -> 早 [thick];
-  十 -> "𠦝" [thick];
+  E -> M [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  L -> M [thick];
+  F -> L [thick];
+  K -> L [thick];
+  I -> K [thick];
+  G -> I [thick];
+  H -> I [thick];
+  J -> K [thick];
 }

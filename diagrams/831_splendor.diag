@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  华 [label = "华\n831 splendor"];
-  化 [label = "化\n830 transform"];
-  人 [label = "人\n793 person"];
-  匕 [label = "匕\n453 ancient spoon"];
-  十 [label = "十\n10 ten"];
+  F [label = "华\nsplendor (831)"];
+  D [label = "化\ntransform (830)"];
+  B [label = "人\nperson (793)"];
+  C [label = "匕\nancient spoon (453)"];
+  E [label = "十\nten (10)"];
 
-  化 -> 华 [thick];
-  人 -> 化 [thick];
-  匕 -> 化 [thick];
-  十 -> 华 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

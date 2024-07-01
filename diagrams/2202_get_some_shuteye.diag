@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  寝 [label = "寝\n2202 get some shuteye"];
-  宀 [label = "宀\n* house"];
-  兆 [label = "兆\n237 portent"];
-  囧浸－氵 [label = "囧浸－氵\n* dunce"];
-  彐 [label = "彐\n* broom"];
-  冖 [label = "冖\n* crown"];
-  又 [label = "又\n633 again"];
+  H [label = "寝\nget some shuteye (2202)"];
+  B [label = "宀\nhouse (*)"];
+  C [label = "兆\nportent (237)"];
+  G [label = "囧浸－氵\ndunce (*)"];
+  D [label = "彐\nbroom (*)"];
+  E [label = "冖\ncrown (*)"];
+  F [label = "又\nagain (633)"];
 
-  宀 -> 寝 [thick];
-  兆 -> 寝 [thick];
-  囧浸－氵 -> 寝 [thick];
-  彐 -> 囧浸－氵 [thick];
-  冖 -> 囧浸－氵 [thick];
-  又 -> 囧浸－氵 [thick];
+  B -> H [thick];
+  C -> H [thick];
+  G -> H [thick];
+  D -> G [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

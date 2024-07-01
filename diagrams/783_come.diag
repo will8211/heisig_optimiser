@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  来 [label = "来\n783 come"];
-  一 [label = "一\n1 one"];
-  米 [label = "米\n778 rice"];
+  D [label = "来\ncome (783)"];
+  B [label = "一\none (1)"];
+  C [label = "米\nrice (778)"];
 
-  一 -> 来 [thick];
-  米 -> 来 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

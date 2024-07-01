@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  坚 [label = "坚\n1011 firm"];
-  囧坚－圣 [label = "囧坚－圣\n* fencing foil"];
-  又 [label = "又\n633 again"];
-  土 [label = "土\n158 soil"];
+  E [label = "坚\nfirm (1011)"];
+  B [label = "囧坚－圣\nfencing foil (*)"];
+  C [label = "又\nagain (633)"];
+  D [label = "土\nsoil (158)"];
 
-  囧坚－圣 -> 坚 [thick];
-  又 -> 坚 [thick];
-  土 -> 坚 [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

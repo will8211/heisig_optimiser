@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  怨 [label = "怨\n2450 resentment"];
-  夗 [label = "夗\n* nameplate"];
-  夕 [label = "夕\n115 evening"];
-  月 [label = "月\n13 month"];
-  "㔾" [label = "㔾\n* fingerprint"];
-  心 [label = "心\n563 heart"];
+  G [label = "怨\nresentment (2450)"];
+  E [label = "夗\nnameplate (*)"];
+  C [label = "夕\nevening (115)"];
+  B [label = "月\nmonth (13)"];
+  D [label = "㔾\nfingerprint (*)"];
+  F [label = "心\nheart (563)"];
 
-  夗 -> 怨 [thick];
-  夕 -> 夗 [thick];
-  月 -> 夕 [thick];
-  "㔾" -> 夗 [thick];
-  心 -> 怨 [thick];
+  E -> G [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

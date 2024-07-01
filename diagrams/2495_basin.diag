@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  盆 [label = "盆\n2495 basin"];
-  分 [label = "分\n694 part"];
-  八 [label = "八\n8 eight"];
-  刀 [label = "刀\n83 sword"];
-  皿 [label = "皿\n* dish"];
+  F [label = "盆\nbasin (2495)"];
+  D [label = "分\npart (694)"];
+  B [label = "八\neight (8)"];
+  C [label = "刀\nsword (83)"];
+  E [label = "皿\ndish (*)"];
 
-  分 -> 盆 [thick];
-  八 -> 分 [thick];
-  刀 -> 分 [thick];
-  皿 -> 盆 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

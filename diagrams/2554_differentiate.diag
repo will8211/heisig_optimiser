@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  辨 [label = "辨\n2554 differentiate"];
-  辛 [label = "辛\n1183 peppery"];
-  立 [label = "立\n444 standing up"];
-  十 [label = "十\n10 ten"];
-  刀 [label = "刀\n83 sword"];
+  F [label = "辨\ndifferentiate (2554)"];
+  D [label = "辛\npeppery (1183)"];
+  B [label = "立\nstanding up (444)"];
+  C [label = "十\nten (10)"];
+  E [label = "刀\nsword (83)"];
 
-  辛 -> 辨 [thick];
-  立 -> 辛 [thick];
-  十 -> 辛 [thick];
-  刀 -> 辨 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

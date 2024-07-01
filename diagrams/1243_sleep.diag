@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  睡 [label = "睡\n1243 sleep"];
-  目 [label = "目\n15 eye"];
-  垂 [label = "垂\n1241 droop"];
-  壬 [label = "壬\n* porter"];
-  士 [label = "士\n334 soldier"];
-  囧垂－一－一 [label = "囧垂－一－一\n* silage"];
+  G [label = "睡\nsleep (1243)"];
+  B [label = "目\neye (15)"];
+  F [label = "垂\ndroop (1241)"];
+  D [label = "壬\nporter (*)"];
+  C [label = "士\nsoldier (334)"];
+  E [label = "囧垂－一－一\nsilage (*)"];
 
-  目 -> 睡 [thick];
-  垂 -> 睡 [thick];
-  壬 -> 垂 [thick];
-  士 -> 壬 [thick];
-  囧垂－一－一 -> 垂 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

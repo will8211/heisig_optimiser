@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  促 [label = "促\n2318 urge"];
-  人 [label = "人\n793 person"];
-  足 [label = "足\n1048 lower leg"];
-  口 [label = "口\n11 mouth"];
-  止 [label = "止\n379 stop"];
+  F [label = "促\nurge (2318)"];
+  B [label = "人\nperson (793)"];
+  E [label = "足\nlower leg (1048)"];
+  C [label = "口\nmouth (11)"];
+  D [label = "止\nstop (379)"];
 
-  人 -> 促 [thick];
-  足 -> 促 [thick];
-  口 -> 足 [thick];
-  止 -> 足 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

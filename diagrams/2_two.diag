@@ -5,8 +5,8 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  二 [label = "二\n2 two"];
-  一 [label = "一\n1 one"];
+  C [label = "二\ntwo (2)"];
+  B [label = "一\none (1)"];
 
-  一 -> 二 [thick];
+  B -> C [thick];
 }

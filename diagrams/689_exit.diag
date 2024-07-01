@@ -5,8 +5,8 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  出 [label = "出\n689 exit"];
-  山 [label = "山\n688 mountain"];
+  C [label = "出\nexit (689)"];
+  B [label = "山\nmountain (688)"];
 
-  山 -> 出 [thick];
+  B -> C [thick];
 }

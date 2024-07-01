@@ -5,35 +5,36 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  遮 [label = "遮\n2245 screen"];
-  囧席－巾 [label = "囧席－巾\n* caverns"];
-  洞 [label = "洞\n186 cave"];
-  同 [label = "同\n185 same"];
-  一 [label = "一\n1 one"];
-  口 [label = "口\n11 mouth"];
-  冂 [label = "冂\n* hood"];
-  几 [label = "几\n57 how many?"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  丶 [label = "丶\n* a drop of"];
-  廿 [label = "廿\n976 twenty"];
-  十 [label = "十\n10 ten"];
-  火 [label = "火\n170 fire"];
-  辶 [label = "辶\n* road"];
+  Q [label = "遮\nscreen (2245)"];
+  N [label = "囧席－巾\ncaverns (*)"];
+  K [label = "洞\ncave (186)"];
+  F [label = "同\nsame (185)"];
+  B [label = "一\none (1)"];
+  C [label = "口\nmouth (11)"];
+  E [label = "冂\nhood (*)"];
+  D [label = "几\nhow many? (57)"];
+  J [label = "水\nwater (137)"];
+  H [label = "丨\nwalking stick (*)"];
+  G [label = "一\none (1)"];
+  I [label = "丶\na drop of (*)"];
+  M [label = "廿\ntwenty (976)"];
+  L [label = "十\nten (10)"];
+  O [label = "火\nfire (170)"];
+  P [label = "辶\nroad (*)"];
 
-  囧席－巾 -> 遮 [thick];
-  洞 -> 囧席－巾 [thick];
-  同 -> 洞 [thick];
-  一 -> 同 [thick];
-  口 -> 同 [thick];
-  冂 -> 同 [thick];
-  几 -> 冂 [thick];
-  水 -> 洞 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  廿 -> 囧席－巾 [thick];
-  十 -> 廿 [thick];
-  火 -> 遮 [thick];
-  辶 -> 遮 [thick];
+  N -> Q [thick];
+  K -> N [thick];
+  F -> K [thick];
+  B -> F [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
+  J -> K [thick];
+  H -> J [thick];
+  G -> H [thick];
+  I -> J [thick];
+  M -> N [thick];
+  L -> M [thick];
+  O -> Q [thick];
+  P -> Q [thick];
 }

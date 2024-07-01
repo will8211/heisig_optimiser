@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  晕 [label = "晕\n1634 dizzy"];
-  日 [label = "日\n12 day"];
-  军 [label = "军\n320 army"];
-  冖 [label = "冖\n* crown"];
-  车 [label = "车\n300 car"];
+  F [label = "晕\ndizzy (1634)"];
+  B [label = "日\nday (12)"];
+  E [label = "军\narmy (320)"];
+  C [label = "冖\ncrown (*)"];
+  D [label = "车\ncar (300)"];
 
-  日 -> 晕 [thick];
-  军 -> 晕 [thick];
-  冖 -> 军 [thick];
-  车 -> 军 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

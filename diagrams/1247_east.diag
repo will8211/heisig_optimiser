@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  东 [label = "东\n1247 east"];
-  车 [label = "车\n300 car"];
-  丶 [label = "丶\n* a drop of"];
+  D [label = "东\neast (1247)"];
+  B [label = "车\ncar (300)"];
+  C [label = "丶\na drop of (*)"];
 
-  车 -> 东 [thick];
-  丶 -> 东 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

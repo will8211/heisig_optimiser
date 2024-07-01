@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  确 [label = "确\n1363 reliable"];
-  石 [label = "石\n125 stone"];
-  口 [label = "口\n11 mouth"];
-  厂 [label = "厂\n121 factory"];
-  角 [label = "角\n1362 angle"];
-  勹 [label = "勹\n* bound up"];
-  用 [label = "用\n1361 utilize"];
+  H [label = "确\nreliable (1363)"];
+  D [label = "石\nstone (125)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "厂\nfactory (121)"];
+  G [label = "角\nangle (1362)"];
+  E [label = "勹\nbound up (*)"];
+  F [label = "用\nutilize (1361)"];
 
-  石 -> 确 [thick];
-  口 -> 石 [thick];
-  厂 -> 石 [thick];
-  角 -> 确 [thick];
-  勹 -> 角 [thick];
-  用 -> 角 [thick];
+  D -> H [thick];
+  B -> D [thick];
+  C -> D [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

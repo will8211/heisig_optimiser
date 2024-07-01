@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  秀 [label = "秀\n775 elegant"];
-  禾 [label = "禾\n762 standing grain"];
-  乃 [label = "乃\n625 only then"];
+  D [label = "秀\nelegant (775)"];
+  B [label = "禾\nstanding grain (762)"];
+  C [label = "乃\nonly then (625)"];
 
-  禾 -> 秀 [thick];
-  乃 -> 秀 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

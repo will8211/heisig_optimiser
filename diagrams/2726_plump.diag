@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  肥 [label = "肥\n2726 plump"];
-  月 [label = "月\n13 month"];
-  巴 [label = "巴\n1326 crust"];
+  D [label = "肥\nplump (2726)"];
+  B [label = "月\nmonth (13)"];
+  C [label = "巴\ncrust (1326)"];
 
-  月 -> 肥 [thick];
-  巴 -> 肥 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

@@ -5,8 +5,8 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  必 [label = "必\n583 certainly"];
-  心 [label = "心\n563 heart"];
+  C [label = "必\ncertainly (583)"];
+  B [label = "心\nheart (563)"];
 
-  心 -> 必 [thick];
+  B -> C [thick];
 }

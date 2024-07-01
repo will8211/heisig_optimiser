@@ -5,21 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  涩 [label = "涩\n1669 astringent"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  刃 [label = "刃\n84 blade"];
-  刀 [label = "刀\n83 sword"];
-  止 [label = "止\n379 stop"];
+  J [label = "涩\nastringent (1669)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  H [label = "刃\nblade (84)"];
+  F [label = "刀\nsword (83)"];
+  G [label = "丶\na drop of (*)"];
+  I [label = "止\nstop (379)"];
 
-  水 -> 涩 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  刃 -> 涩 [thick];
-  刀 -> 刃 [thick];
-  丶 -> 刃 [thick];
-  止 -> 涩 [thick];
+  E -> J [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  H -> J [thick];
+  F -> H [thick];
+  G -> H [thick];
+  I -> J [thick];
 }

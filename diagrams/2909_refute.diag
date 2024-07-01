@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  驳 [label = "驳\n2909 refute"];
-  马 [label = "马\n1453 horse"];
-  囧与－丨一 [label = "囧与－丨一\n* pointed tail"];
-  "㐅" [label = "㐅\n* sheaf"];
+  E [label = "驳\nrefute (2909)"];
+  C [label = "马\nhorse (1453)"];
+  B [label = "囧与－丨一\npointed tail (*)"];
+  D [label = "㐅\nsheaf (*)"];
 
-  马 -> 驳 [thick];
-  囧与－丨一 -> 马 [thick];
-  "㐅" -> 驳 [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
 }

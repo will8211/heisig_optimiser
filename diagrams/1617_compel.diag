@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  迫 [label = "迫\n1617 compel"];
-  白 [label = "白\n34 white"];
-  日 [label = "日\n12 day"];
-  丶 [label = "丶\n* a drop of"];
-  辶 [label = "辶\n* road"];
+  F [label = "迫\ncompel (1617)"];
+  D [label = "白\nwhite (34)"];
+  B [label = "日\nday (12)"];
+  C [label = "丶\na drop of (*)"];
+  E [label = "辶\nroad (*)"];
 
-  白 -> 迫 [thick];
-  日 -> 白 [thick];
-  丶 -> 白 [thick];
-  辶 -> 迫 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

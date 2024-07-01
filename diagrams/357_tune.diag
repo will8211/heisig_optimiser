@@ -5,35 +5,38 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  调 [label = "调\n357 tune"];
-  周 [label = "周\n333 circumference"];
-  囧周－冂 [label = "囧周－冂\n* lidded crock"];
-  土 [label = "土\n158 soil"];
-  口 [label = "口\n11 mouth"];
-  冂 [label = "冂\n* hood"];
-  几 [label = "几\n57 how many?"];
-  言 [label = "言\n346 say"];
-  二 [label = "二\n2 two"];
-  一 [label = "一\n1 one"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
+  R [label = "调\ntune (357)"];
+  G [label = "周\ncircumference (333)"];
+  D [label = "囧周－冂\nlidded crock (*)"];
+  B [label = "土\nsoil (158)"];
+  C [label = "口\nmouth (11)"];
+  F [label = "冂\nhood (*)"];
+  E [label = "几\nhow many? (57)"];
+  Q [label = "言\nsay (346)"];
+  I [label = "二\ntwo (2)"];
+  H [label = "一\none (1)"];
+  J [label = "口\nmouth (11)"];
+  P [label = "亠\ntop hat (*)"];
+  M [label = "六\nsix (6)"];
+  L [label = "囧只－口\nanimal legs (*)"];
+  K [label = "八\neight (8)"];
+  O [label = "囧只－口\nanimal legs (*)"];
+  N [label = "八\neight (8)"];
 
-  周 -> 调 [thick];
-  囧周－冂 -> 周 [thick];
-  土 -> 囧周－冂 [thick];
-  口 -> 囧周－冂 [thick];
-  冂 -> 周 [thick];
-  几 -> 冂 [thick];
-  言 -> 调 [thick];
-  二 -> 言 [thick];
-  一 -> 二 [thick];
-  口 -> 言 [thick];
-  亠 -> 言 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
+  G -> R [thick];
+  D -> G [thick];
+  B -> D [thick];
+  C -> D [thick];
+  F -> G [thick];
+  E -> F [thick];
+  Q -> R [thick];
+  I -> Q [thick];
+  H -> I [thick];
+  J -> Q [thick];
+  P -> Q [thick];
+  M -> P [thick];
+  L -> M [thick];
+  K -> L [thick];
+  O -> P [thick];
+  N -> O [thick];
 }

@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  回 [label = "回\n554 return"];
-  囗 [label = "囗\n* pent in"];
-  口 [label = "口\n11 mouth"];
+  D [label = "回\nreturn (554)"];
+  B [label = "囗\npent in (*)"];
+  C [label = "口\nmouth (11)"];
 
-  囗 -> 回 [thick];
-  口 -> 回 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

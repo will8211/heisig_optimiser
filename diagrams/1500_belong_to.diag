@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  属 [label = "属\n1500 belong to"];
-  尸 [label = "尸\n882 corpse"];
-  丶 [label = "丶\n* a drop of"];
-  囧冂 [label = "囧冂\n* belt"];
-  巾 [label = "巾\n410 towel"];
-  虫 [label = "虫\n509 insect"];
+  G [label = "属\nbelong to (1500)"];
+  B [label = "尸\ncorpse (882)"];
+  C [label = "丶\na drop of (*)"];
+  E [label = "囧冂\nbelt (*)"];
+  D [label = "巾\ntowel (410)"];
+  F [label = "虫\ninsect (509)"];
 
-  尸 -> 属 [thick];
-  丶 -> 属 [thick];
-  囧冂 -> 属 [thick];
-  巾 -> 囧冂 [thick];
-  虫 -> 属 [thick];
+  B -> G [thick];
+  C -> G [thick];
+  E -> G [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

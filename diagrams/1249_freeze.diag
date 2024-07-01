@@ -5,21 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  冻 [label = "冻\n1249 freeze"];
-  冫 [label = "冫\n* ice"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  东 [label = "东\n1247 east"];
-  车 [label = "车\n300 car"];
+  J [label = "冻\nfreeze (1249)"];
+  F [label = "冫\nice (*)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  I [label = "东\neast (1247)"];
+  G [label = "车\ncar (300)"];
+  H [label = "丶\na drop of (*)"];
 
-  冫 -> 冻 [thick];
-  水 -> 冫 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  东 -> 冻 [thick];
-  车 -> 东 [thick];
-  丶 -> 东 [thick];
+  F -> J [thick];
+  E -> F [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  I -> J [thick];
+  G -> I [thick];
+  H -> I [thick];
 }

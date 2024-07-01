@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  劫 [label = "劫\n1987 plunder"];
-  去 [label = "去\n675 go"];
-  土 [label = "土\n158 soil"];
-  厶 [label = "厶\n* elbow"];
-  肌 [label = "肌\n63 muscle"];
-  几 [label = "几\n57 how many?"];
-  月 [label = "月\n13 month"];
+  H [label = "劫\nplunder (1987)"];
+  D [label = "去\ngo (675)"];
+  B [label = "土\nsoil (158)"];
+  C [label = "厶\nelbow (*)"];
+  G [label = "肌\nmuscle (63)"];
+  E [label = "几\nhow many? (57)"];
+  F [label = "月\nmonth (13)"];
 
-  去 -> 劫 [thick];
-  土 -> 去 [thick];
-  厶 -> 去 [thick];
-  肌 -> 劫 [thick];
-  几 -> 肌 [thick];
-  月 -> 肌 [thick];
+  D -> H [thick];
+  B -> D [thick];
+  C -> D [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  糟 [label = "糟\n2237 messed up"];
-  米 [label = "米\n778 rice"];
-  囧曹 [label = "囧曹\n* cadet"];
-  一 [label = "一\n1 one"];
-  曲 [label = "曲\n967 bent"];
-  田 [label = "田\n14 rice field"];
-  日 [label = "日\n12 day"];
+  H [label = "糟\nmessed up (2237)"];
+  B [label = "米\nrice (778)"];
+  G [label = "囧曹\ncadet (*)"];
+  C [label = "一\none (1)"];
+  E [label = "曲\nbent (967)"];
+  D [label = "田\nrice field (14)"];
+  F [label = "日\nday (12)"];
 
-  米 -> 糟 [thick];
-  囧曹 -> 糟 [thick];
-  一 -> 囧曹 [thick];
-  曲 -> 囧曹 [thick];
-  田 -> 曲 [thick];
-  日 -> 囧曹 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  C -> G [thick];
+  E -> G [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

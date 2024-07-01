@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  义 [label = "义\n1180 righteousness"];
-  "㐅" [label = "㐅\n* sheaf"];
-  丶 [label = "丶\n* a drop of"];
+  D [label = "义\nrighteousness (1180)"];
+  B [label = "㐅\nsheaf (*)"];
+  C [label = "丶\na drop of (*)"];
 
-  "㐅" -> 义 [thick];
-  丶 -> 义 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

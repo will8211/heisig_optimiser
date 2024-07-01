@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  拧 [label = "拧\n1843 tweak"];
-  扌 [label = "扌\n* fingers"];
-  宁 [label = "宁\n1558 calm"];
-  宀 [label = "宀\n* house"];
-  丁 [label = "丁\n90 fourth"];
+  F [label = "拧\ntweak (1843)"];
+  B [label = "扌\nfingers (*)"];
+  E [label = "宁\ncalm (1558)"];
+  C [label = "宀\nhouse (*)"];
+  D [label = "丁\nfourth (90)"];
 
-  扌 -> 拧 [thick];
-  宁 -> 拧 [thick];
-  宀 -> 宁 [thick];
-  丁 -> 宁 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

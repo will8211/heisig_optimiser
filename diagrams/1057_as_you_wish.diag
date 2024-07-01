@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  随 [label = "随\n1057 as you wish"];
-  阝 [label = "阝\n* pinnacle"];
-  有 [label = "有\n79 possess"];
-  月 [label = "月\n13 month"];
-  "𠂇" [label = "𠂇\n* by one’s side"];
-  十 [label = "十\n10 ten"];
-  辶 [label = "辶\n* road"];
+  H [label = "随\nas you wish (1057)"];
+  B [label = "阝\npinnacle (*)"];
+  F [label = "有\npossess (79)"];
+  C [label = "月\nmonth (13)"];
+  E [label = "𠂇\nby one’s side (*)"];
+  D [label = "十\nten (10)"];
+  G [label = "辶\nroad (*)"];
 
-  阝 -> 随 [thick];
-  有 -> 随 [thick];
-  月 -> 有 [thick];
-  "𠂇" -> 有 [thick];
-  十 -> "𠂇" [thick];
-  辶 -> 随 [thick];
+  B -> H [thick];
+  F -> H [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
+  G -> H [thick];
 }

@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  笨 [label = "笨\n2049 stupid"];
-  竹 [label = "竹\n786 bamboo"];
-  丁 [label = "丁\n90 fourth"];
-  本 [label = "本\n213 notebook"];
-  木 [label = "木\n202 tree"];
+  F [label = "笨\nstupid (2049)"];
+  C [label = "竹\nbamboo (786)"];
+  B [label = "丁\nfourth (90)"];
+  E [label = "本\nnotebook (213)"];
+  D [label = "木\ntree (202)"];
 
-  竹 -> 笨 [thick];
-  丁 -> 竹 [thick];
-  本 -> 笨 [thick];
-  木 -> 本 [thick];
+  C -> F [thick];
+  B -> C [thick];
+  E -> F [thick];
+  D -> E [thick];
 }

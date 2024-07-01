@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  媒 [label = "媒\n2732 matchmaker"];
-  女 [label = "女\n102 woman"];
-  某 [label = "某\n1334 such and such"];
-  甘 [label = "甘\n1333 sweet"];
-  木 [label = "木\n202 tree"];
+  F [label = "媒\nmatchmaker (2732)"];
+  B [label = "女\nwoman (102)"];
+  E [label = "某\nsuch and such (1334)"];
+  C [label = "甘\nsweet (1333)"];
+  D [label = "木\ntree (202)"];
 
-  女 -> 媒 [thick];
-  某 -> 媒 [thick];
-  甘 -> 某 [thick];
-  木 -> 某 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

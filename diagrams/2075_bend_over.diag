@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  伏 [label = "伏\n2075 bend over"];
-  人 [label = "人\n793 person"];
-  犬 [label = "犬\n239 pooch"];
-  大 [label = "大\n113 large"];
-  丶 [label = "丶\n* a drop of"];
+  F [label = "伏\nbend over (2075)"];
+  B [label = "人\nperson (793)"];
+  E [label = "犬\npooch (239)"];
+  C [label = "大\nlarge (113)"];
+  D [label = "丶\na drop of (*)"];
 
-  人 -> 伏 [thick];
-  犬 -> 伏 [thick];
-  大 -> 犬 [thick];
-  丶 -> 犬 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

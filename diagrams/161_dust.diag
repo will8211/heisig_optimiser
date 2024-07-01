@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  尘 [label = "尘\n161 dust"];
-  小 [label = "小\n109 small"];
-  丶 [label = "丶\n* a drop of"];
-  土 [label = "土\n158 soil"];
+  E [label = "尘\ndust (161)"];
+  C [label = "小\nsmall (109)"];
+  B [label = "丶\na drop of (*)"];
+  D [label = "土\nsoil (158)"];
 
-  小 -> 尘 [thick];
-  丶 -> 小 [thick];
-  土 -> 尘 [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
 }

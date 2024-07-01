@@ -5,8 +5,8 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  尺 [label = "尺\n894 ruler"];
-  尸 [label = "尸\n882 corpse"];
+  C [label = "尺\nruler (894)"];
+  B [label = "尸\ncorpse (882)"];
 
-  尸 -> 尺 [thick];
+  B -> C [thick];
 }

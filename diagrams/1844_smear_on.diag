@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  抹 [label = "抹\n1844 smear on"];
-  扌 [label = "扌\n* fingers"];
-  末 [label = "末\n216 last"];
-  木 [label = "木\n202 tree"];
+  E [label = "抹\nsmear on (1844)"];
+  B [label = "扌\nfingers (*)"];
+  D [label = "末\nlast (216)"];
+  C [label = "木\ntree (202)"];
 
-  扌 -> 抹 [thick];
-  末 -> 抹 [thick];
-  木 -> 末 [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

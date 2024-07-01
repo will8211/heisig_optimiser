@@ -5,17 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  韩 [label = "韩\n2593 Korea"];
-  "𠦝" [label = "𠦝\n* mist"];
-  早 [label = "早\n26 early"];
-  日 [label = "日\n12 day"];
-  十 [label = "十\n10 ten"];
-  韦 [label = "韦\n1227 tanned hide"];
+  H [label = "韩\nKorea (2593)"];
+  F [label = "𠦝\nmist (*)"];
+  D [label = "早\nearly (26)"];
+  B [label = "日\nday (12)"];
+  C [label = "十\nten (10)"];
+  E [label = "十\nten (10)"];
+  G [label = "韦\ntanned hide (1227)"];
 
-  "𠦝" -> 韩 [thick];
-  早 -> "𠦝" [thick];
-  日 -> 早 [thick];
-  十 -> 早 [thick];
-  十 -> "𠦝" [thick];
-  韦 -> 韩 [thick];
+  F -> H [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
+  G -> H [thick];
 }

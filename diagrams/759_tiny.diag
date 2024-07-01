@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  微 [label = "微\n759 tiny"];
-  行 [label = "行\n754 line of business"];
-  山 [label = "山\n688 mountain"];
-  一 [label = "一\n1 one"];
-  几 [label = "几\n57 how many?"];
-  攵 [label = "攵\n* taskmaster"];
+  G [label = "微\ntiny (759)"];
+  B [label = "行\nline of business (754)"];
+  C [label = "山\nmountain (688)"];
+  D [label = "一\none (1)"];
+  E [label = "几\nhow many? (57)"];
+  F [label = "攵\ntaskmaster (*)"];
 
-  行 -> 微 [thick];
-  山 -> 微 [thick];
-  一 -> 微 [thick];
-  几 -> 微 [thick];
-  攵 -> 微 [thick];
+  B -> G [thick];
+  C -> G [thick];
+  D -> G [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

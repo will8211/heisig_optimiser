@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  臂 [label = "臂\n2556 arm"];
-  辟 [label = "辟\n1185 repudiate"];
-  尸 [label = "尸\n882 corpse"];
-  口 [label = "口\n11 mouth"];
-  辛 [label = "辛\n1183 peppery"];
-  立 [label = "立\n444 standing up"];
-  十 [label = "十\n10 ten"];
-  月 [label = "月\n13 month"];
+  I [label = "臂\narm (2556)"];
+  G [label = "辟\nrepudiate (1185)"];
+  B [label = "尸\ncorpse (882)"];
+  C [label = "口\nmouth (11)"];
+  F [label = "辛\npeppery (1183)"];
+  D [label = "立\nstanding up (444)"];
+  E [label = "十\nten (10)"];
+  H [label = "月\nmonth (13)"];
 
-  辟 -> 臂 [thick];
-  尸 -> 辟 [thick];
-  口 -> 辟 [thick];
-  辛 -> 辟 [thick];
-  立 -> 辛 [thick];
-  十 -> 辛 [thick];
-  月 -> 臂 [thick];
+  G -> I [thick];
+  B -> G [thick];
+  C -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
+  H -> I [thick];
 }

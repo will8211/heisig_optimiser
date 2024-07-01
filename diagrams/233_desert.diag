@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  漠 [label = "漠\n233 desert"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  莫 [label = "莫\n231 nobody"];
-  艹 [label = "艹\n* flower"];
-  日 [label = "日\n12 day"];
-  大 [label = "大\n113 large"];
+  J [label = "漠\ndesert (233)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  I [label = "莫\nnobody (231)"];
+  F [label = "艹\nflower (*)"];
+  G [label = "日\nday (12)"];
+  H [label = "大\nlarge (113)"];
 
-  水 -> 漠 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  莫 -> 漠 [thick];
-  艹 -> 莫 [thick];
-  日 -> 莫 [thick];
-  大 -> 莫 [thick];
+  E -> J [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  I -> J [thick];
+  F -> I [thick];
+  G -> I [thick];
+  H -> I [thick];
 }

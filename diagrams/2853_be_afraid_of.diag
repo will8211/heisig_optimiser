@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  畏 [label = "畏\n2853 be afraid of"];
-  田 [label = "田\n14 rice field"];
-  囧丧－十－丷 [label = "囧丧－十－丷\n* barrette"];
+  D [label = "畏\nbe afraid of (2853)"];
+  B [label = "田\nrice field (14)"];
+  C [label = "囧丧－十－丷\nbarrette (*)"];
 
-  田 -> 畏 [thick];
-  囧丧－十－丷 -> 畏 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

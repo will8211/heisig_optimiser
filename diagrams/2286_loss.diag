@@ -5,8 +5,8 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  亏 [label = "亏\n2286 loss"];
-  丂 [label = "丂\n* snare"];
+  C [label = "亏\nloss (2286)"];
+  B [label = "丂\nsnare (*)"];
 
-  丂 -> 亏 [thick];
+  B -> C [thick];
 }

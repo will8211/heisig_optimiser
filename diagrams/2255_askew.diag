@@ -5,19 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  歪 [label = "歪\n2255 askew"];
-  不 [label = "不\n991 no"];
-  一 [label = "一\n1 one"];
-  人 [label = "人\n793 person"];
-  丶 [label = "丶\n* a drop of"];
-  正 [label = "正\n387 correct"];
-  止 [label = "止\n379 stop"];
+  I [label = "歪\naskew (2255)"];
+  E [label = "不\nno (991)"];
+  B [label = "一\none (1)"];
+  C [label = "人\nperson (793)"];
+  D [label = "丶\na drop of (*)"];
+  H [label = "正\ncorrect (387)"];
+  F [label = "一\none (1)"];
+  G [label = "止\nstop (379)"];
 
-  不 -> 歪 [thick];
-  一 -> 不 [thick];
-  人 -> 不 [thick];
-  丶 -> 不 [thick];
-  正 -> 歪 [thick];
-  一 -> 正 [thick];
-  止 -> 正 [thick];
+  E -> I [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
+  H -> I [thick];
+  F -> H [thick];
+  G -> H [thick];
 }

@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  弹 [label = "弹\n1019 bullet"];
-  弓 [label = "弓\n1013 bow"];
-  单 [label = "单\n1018 list"];
-  丷 [label = "丷\n* horns"];
-  一 [label = "一\n1 one"];
-  田 [label = "田\n14 rice field"];
-  十 [label = "十\n10 ten"];
+  H [label = "弹\nbullet (1019)"];
+  B [label = "弓\nbow (1013)"];
+  G [label = "单\nlist (1018)"];
+  D [label = "丷\nhorns (*)"];
+  C [label = "一\none (1)"];
+  E [label = "田\nrice field (14)"];
+  F [label = "十\nten (10)"];
 
-  弓 -> 弹 [thick];
-  单 -> 弹 [thick];
-  丷 -> 单 [thick];
-  一 -> 丷 [thick];
-  田 -> 单 [thick];
-  十 -> 单 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  D -> G [thick];
+  C -> D [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  "𠀐" [label = "𠀐\n* purse"];
-  中 [label = "中\n38 middle"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  口 [label = "口\n11 mouth"];
+  F [label = "𠀐\npurse (*)"];
+  E [label = "中\nmiddle (38)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "口\nmouth (11)"];
 
-  中 -> "𠀐" [thick];
-  丨 -> 中 [thick];
-  一 -> 丨 [thick];
-  口 -> 中 [thick];
+  E -> F [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
 }

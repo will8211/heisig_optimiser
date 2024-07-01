@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  轿 [label = "轿\n1699 sedan chair"];
-  车 [label = "车\n300 car"];
-  乔 [label = "乔\n441 pretend"];
-  "囧介－𠆢" [label = "囧介－𠆢\n* crutches"];
-  夭 [label = "夭\n440 die young"];
-  大 [label = "大\n113 large"];
-  丶 [label = "丶\n* a drop of"];
+  H [label = "轿\nsedan chair (1699)"];
+  B [label = "车\ncar (300)"];
+  G [label = "乔\npretend (441)"];
+  C [label = "囧介－𠆢\ncrutches (*)"];
+  F [label = "夭\ndie young (440)"];
+  D [label = "大\nlarge (113)"];
+  E [label = "丶\na drop of (*)"];
 
-  车 -> 轿 [thick];
-  乔 -> 轿 [thick];
-  "囧介－𠆢" -> 乔 [thick];
-  夭 -> 乔 [thick];
-  大 -> 夭 [thick];
-  丶 -> 夭 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  C -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

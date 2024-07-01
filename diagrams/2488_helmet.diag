@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  盔 [label = "盔\n2488 helmet"];
-  灰 [label = "灰\n172 ashes"];
-  火 [label = "火\n170 fire"];
-  "𠂇" [label = "𠂇\n* by one’s side"];
-  十 [label = "十\n10 ten"];
-  皿 [label = "皿\n* dish"];
+  G [label = "盔\nhelmet (2488)"];
+  E [label = "灰\nashes (172)"];
+  B [label = "火\nfire (170)"];
+  D [label = "𠂇\nby one’s side (*)"];
+  C [label = "十\nten (10)"];
+  F [label = "皿\ndish (*)"];
 
-  灰 -> 盔 [thick];
-  火 -> 灰 [thick];
-  "𠂇" -> 灰 [thick];
-  十 -> "𠂇" [thick];
-  皿 -> 盔 [thick];
+  E -> G [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
+  F -> G [thick];
 }

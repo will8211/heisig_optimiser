@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  靠 [label = "靠\n1270 lean on"];
-  告 [label = "告\n254 declare"];
-  牛 [label = "牛\n252 cow"];
-  口 [label = "口\n11 mouth"];
-  非 [label = "非\n1267 non-"];
+  F [label = "靠\nlean on (1270)"];
+  D [label = "告\ndeclare (254)"];
+  B [label = "牛\ncow (252)"];
+  C [label = "口\nmouth (11)"];
+  E [label = "非\nnon- (1267)"];
 
-  告 -> 靠 [thick];
-  牛 -> 告 [thick];
-  口 -> 告 [thick];
-  非 -> 靠 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

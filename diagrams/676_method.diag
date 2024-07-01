@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  法 [label = "法\n676 method"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  去 [label = "去\n675 go"];
-  土 [label = "土\n158 soil"];
-  厶 [label = "厶\n* elbow"];
+  I [label = "法\nmethod (676)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  H [label = "去\ngo (675)"];
+  F [label = "土\nsoil (158)"];
+  G [label = "厶\nelbow (*)"];
 
-  水 -> 法 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  去 -> 法 [thick];
-  土 -> 去 [thick];
-  厶 -> 去 [thick];
+  E -> I [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  H -> I [thick];
+  F -> H [thick];
+  G -> H [thick];
 }

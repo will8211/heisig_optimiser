@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  礁 [label = "礁\n1772 reef"];
-  石 [label = "石\n125 stone"];
-  口 [label = "口\n11 mouth"];
-  厂 [label = "厂\n121 factory"];
-  焦 [label = "焦\n1770 apprehensive"];
-  隹 [label = "隹\n* turkey"];
-  火 [label = "火\n170 fire"];
+  H [label = "礁\nreef (1772)"];
+  D [label = "石\nstone (125)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "厂\nfactory (121)"];
+  G [label = "焦\napprehensive (1770)"];
+  E [label = "隹\nturkey (*)"];
+  F [label = "火\nfire (170)"];
 
-  石 -> 礁 [thick];
-  口 -> 石 [thick];
-  厂 -> 石 [thick];
-  焦 -> 礁 [thick];
-  隹 -> 焦 [thick];
-  火 -> 焦 [thick];
+  D -> H [thick];
+  B -> D [thick];
+  C -> D [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

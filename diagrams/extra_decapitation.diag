@@ -5,17 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  囧粱－米 [label = "囧粱－米\n* decapitation"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  刀 [label = "刀\n83 sword"];
+  H [label = "囧粱－米\ndecapitation (*)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  F [label = "刀\nsword (83)"];
+  G [label = "丶\na drop of (*)"];
 
-  水 -> 囧粱－米 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  刀 -> 囧粱－米 [thick];
-  丶 -> 囧粱－米 [thick];
+  E -> H [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  F -> H [thick];
+  G -> H [thick];
 }

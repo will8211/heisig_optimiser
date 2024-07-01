@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  缀 [label = "缀\n2973 embellish"];
-  纟 [label = "纟\n* thread"];
-  厶 [label = "厶\n* elbow"];
-  "㸚" [label = "㸚\n* stitching"];
+  E [label = "缀\nembellish (2973)"];
+  C [label = "纟\nthread (*)"];
+  B [label = "厶\nelbow (*)"];
+  D [label = "㸚\nstitching (*)"];
 
-  纟 -> 缀 [thick];
-  厶 -> 纟 [thick];
-  "㸚" -> 缀 [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
 }

@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  城 [label = "城\n369 city"];
-  土 [label = "土\n158 soil"];
-  成 [label = "成\n368 turn into"];
-  戊 [label = "戊\n* parade"];
-  戈 [label = "戈\n361 halberd"];
-  弋 [label = "弋\n* arrow"];
-  刀 [label = "刀\n83 sword"];
+  H [label = "城\ncity (369)"];
+  B [label = "土\nsoil (158)"];
+  G [label = "成\nturn into (368)"];
+  E [label = "戊\nparade (*)"];
+  D [label = "戈\nhalberd (361)"];
+  C [label = "弋\narrow (*)"];
+  F [label = "刀\nsword (83)"];
 
-  土 -> 城 [thick];
-  成 -> 城 [thick];
-  戊 -> 成 [thick];
-  戈 -> 戊 [thick];
-  弋 -> 戈 [thick];
-  刀 -> 成 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  E -> G [thick];
+  D -> E [thick];
+  C -> D [thick];
+  F -> G [thick];
 }

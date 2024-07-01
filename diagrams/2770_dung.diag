@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  粪 [label = "粪\n2770 dung"];
-  米 [label = "米\n778 rice"];
-  共 [label = "共\n1354 together"];
-  囧昔－日 [label = "囧昔－日\n* salad"];
-  艹 [label = "艹\n* flower"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
+  H [label = "粪\ndung (2770)"];
+  B [label = "米\nrice (778)"];
+  G [label = "共\ntogether (1354)"];
+  D [label = "囧昔－日\nsalad (*)"];
+  C [label = "艹\nflower (*)"];
+  F [label = "囧只－口\nanimal legs (*)"];
+  E [label = "八\neight (8)"];
 
-  米 -> 粪 [thick];
-  共 -> 粪 [thick];
-  囧昔－日 -> 共 [thick];
-  艹 -> 囧昔－日 [thick];
-  囧只－口 -> 共 [thick];
-  八 -> 囧只－口 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  D -> G [thick];
+  C -> D [thick];
+  F -> G [thick];
+  E -> F [thick];
 }

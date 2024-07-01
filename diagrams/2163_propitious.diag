@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  祥 [label = "祥\n2163 propitious"];
-  示 [label = "示\n900 show"];
-  羊 [label = "羊\n528 sheep"];
-  丷 [label = "丷\n* horns"];
-  一 [label = "一\n1 one"];
+  F [label = "祥\npropitious (2163)"];
+  B [label = "示\nshow (900)"];
+  E [label = "羊\nsheep (528)"];
+  D [label = "丷\nhorns (*)"];
+  C [label = "一\none (1)"];
 
-  示 -> 祥 [thick];
-  羊 -> 祥 [thick];
-  丷 -> 羊 [thick];
-  一 -> 丷 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

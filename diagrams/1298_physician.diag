@@ -5,28 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  医 [label = "医\n1298 physician"];
-  箱 [label = "箱\n788 box"];
-  竹 [label = "竹\n786 bamboo"];
-  丁 [label = "丁\n90 fourth"];
-  相 [label = "相\n212 one another"];
-  木 [label = "木\n202 tree"];
-  目 [label = "目\n15 eye"];
-  矢 [label = "矢\n998 dart"];
-  天 [label = "天\n436 heavens"];
-  一 [label = "一\n1 one"];
-  大 [label = "大\n113 large"];
-  丶 [label = "丶\n* a drop of"];
+  M [label = "医\nphysician (1298)"];
+  G [label = "箱\nbox (788)"];
+  C [label = "竹\nbamboo (786)"];
+  B [label = "丁\nfourth (90)"];
+  F [label = "相\none another (212)"];
+  D [label = "木\ntree (202)"];
+  E [label = "目\neye (15)"];
+  L [label = "矢\ndart (998)"];
+  J [label = "天\nheavens (436)"];
+  H [label = "一\none (1)"];
+  I [label = "大\nlarge (113)"];
+  K [label = "丶\na drop of (*)"];
 
-  箱 -> 医 [thick];
-  竹 -> 箱 [thick];
-  丁 -> 竹 [thick];
-  相 -> 箱 [thick];
-  木 -> 相 [thick];
-  目 -> 相 [thick];
-  矢 -> 医 [thick];
-  天 -> 矢 [thick];
-  一 -> 天 [thick];
-  大 -> 天 [thick];
-  丶 -> 矢 [thick];
+  G -> M [thick];
+  C -> G [thick];
+  B -> C [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
+  L -> M [thick];
+  J -> L [thick];
+  H -> J [thick];
+  I -> J [thick];
+  K -> L [thick];
 }

@@ -5,30 +5,32 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  敫 [label = "敫\n* homing pigeon"];
-  白 [label = "白\n34 white"];
-  日 [label = "日\n12 day"];
-  丶 [label = "丶\n* a drop of"];
-  放 [label = "放\n496 release"];
-  攵 [label = "攵\n* taskmaster"];
-  方 [label = "方\n494 direction"];
-  刀 [label = "刀\n83 sword"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
+  O [label = "敫\nhoming pigeon (*)"];
+  D [label = "白\nwhite (34)"];
+  B [label = "日\nday (12)"];
+  C [label = "丶\na drop of (*)"];
+  N [label = "放\nrelease (496)"];
+  E [label = "攵\ntaskmaster (*)"];
+  M [label = "方\ndirection (494)"];
+  F [label = "刀\nsword (83)"];
+  L [label = "亠\ntop hat (*)"];
+  I [label = "六\nsix (6)"];
+  H [label = "囧只－口\nanimal legs (*)"];
+  G [label = "八\neight (8)"];
+  K [label = "囧只－口\nanimal legs (*)"];
+  J [label = "八\neight (8)"];
 
-  白 -> 敫 [thick];
-  日 -> 白 [thick];
-  丶 -> 白 [thick];
-  放 -> 敫 [thick];
-  攵 -> 放 [thick];
-  方 -> 放 [thick];
-  刀 -> 方 [thick];
-  亠 -> 方 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
+  D -> O [thick];
+  B -> D [thick];
+  C -> D [thick];
+  N -> O [thick];
+  E -> N [thick];
+  M -> N [thick];
+  F -> M [thick];
+  L -> M [thick];
+  I -> L [thick];
+  H -> I [thick];
+  G -> H [thick];
+  K -> L [thick];
+  J -> K [thick];
 }

@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  收 [label = "收\n1193 receive"];
-  丩 [label = "丩\n* cornucopia"];
-  攵 [label = "攵\n* taskmaster"];
+  D [label = "收\nreceive (1193)"];
+  B [label = "丩\ncornucopia (*)"];
+  C [label = "攵\ntaskmaster (*)"];
 
-  丩 -> 收 [thick];
-  攵 -> 收 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

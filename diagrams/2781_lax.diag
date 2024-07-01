@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  懈 [label = "懈\n2781 lax"];
-  心 [label = "心\n563 heart"];
-  解 [label = "解\n1364 untie"];
-  角 [label = "角\n1362 angle"];
-  勹 [label = "勹\n* bound up"];
-  用 [label = "用\n1361 utilize"];
-  刀 [label = "刀\n83 sword"];
-  牛 [label = "牛\n252 cow"];
+  I [label = "懈\nlax (2781)"];
+  B [label = "心\nheart (563)"];
+  H [label = "解\nuntie (1364)"];
+  E [label = "角\nangle (1362)"];
+  C [label = "勹\nbound up (*)"];
+  D [label = "用\nutilize (1361)"];
+  F [label = "刀\nsword (83)"];
+  G [label = "牛\ncow (252)"];
 
-  心 -> 懈 [thick];
-  解 -> 懈 [thick];
-  角 -> 解 [thick];
-  勹 -> 角 [thick];
-  用 -> 角 [thick];
-  刀 -> 解 [thick];
-  牛 -> 解 [thick];
+  B -> I [thick];
+  H -> I [thick];
+  E -> H [thick];
+  C -> E [thick];
+  D -> E [thick];
+  F -> H [thick];
+  G -> H [thick];
 }

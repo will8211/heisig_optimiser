@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  阶 [label = "阶\n1064 stairs"];
-  阝 [label = "阝\n* pinnacle"];
-  介 [label = "介\n259 introduce"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  "囧介－𠆢" [label = "囧介－𠆢\n* crutches"];
+  F [label = "阶\nstairs (1064)"];
+  B [label = "阝\npinnacle (*)"];
+  E [label = "介\nintroduce (259)"];
+  C [label = "𠆢\numbrella (*)"];
+  D [label = "囧介－𠆢\ncrutches (*)"];
 
-  阝 -> 阶 [thick];
-  介 -> 阶 [thick];
-  "𠆢" -> 介 [thick];
-  "囧介－𠆢" -> 介 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

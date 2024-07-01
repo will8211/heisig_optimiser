@@ -5,25 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  憾 [label = "憾\n577 regret"];
-  心 [label = "心\n563 heart"];
-  感 [label = "感\n576 feel"];
-  咸 [label = "咸\n372 salty"];
-  口 [label = "口\n11 mouth"];
-  戌 [label = "戌\n* march"];
-  戊 [label = "戊\n* parade"];
-  戈 [label = "戈\n361 halberd"];
-  弋 [label = "弋\n* arrow"];
-  一 [label = "一\n1 one"];
+  L [label = "憾\nregret (577)"];
+  B [label = "心\nheart (563)"];
+  K [label = "感\nfeel (576)"];
+  I [label = "咸\nsalty (372)"];
+  C [label = "口\nmouth (11)"];
+  H [label = "戌\nmarch (*)"];
+  F [label = "戊\nparade (*)"];
+  E [label = "戈\nhalberd (361)"];
+  D [label = "弋\narrow (*)"];
+  G [label = "一\none (1)"];
+  J [label = "心\nheart (563)"];
 
-  心 -> 憾 [thick];
-  感 -> 憾 [thick];
-  咸 -> 感 [thick];
-  口 -> 咸 [thick];
-  戌 -> 咸 [thick];
-  戊 -> 戌 [thick];
-  戈 -> 戊 [thick];
-  弋 -> 戈 [thick];
-  一 -> 戌 [thick];
-  心 -> 感 [thick];
+  B -> L [thick];
+  K -> L [thick];
+  I -> K [thick];
+  C -> I [thick];
+  H -> I [thick];
+  F -> H [thick];
+  E -> F [thick];
+  D -> E [thick];
+  G -> H [thick];
+  J -> K [thick];
 }

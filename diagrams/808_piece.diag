@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  件 [label = "件\n808 piece"];
-  人 [label = "人\n793 person"];
-  牛 [label = "牛\n252 cow"];
+  D [label = "件\npiece (808)"];
+  B [label = "人\nperson (793)"];
+  C [label = "牛\ncow (252)"];
 
-  人 -> 件 [thick];
-  牛 -> 件 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

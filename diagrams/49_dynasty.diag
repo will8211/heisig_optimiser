@@ -5,17 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  朝 [label = "朝\n49 dynasty"];
-  月 [label = "月\n13 month"];
-  "𠦝" [label = "𠦝\n* mist"];
-  早 [label = "早\n26 early"];
-  日 [label = "日\n12 day"];
-  十 [label = "十\n10 ten"];
+  H [label = "朝\ndynasty (49)"];
+  B [label = "月\nmonth (13)"];
+  G [label = "𠦝\nmist (*)"];
+  E [label = "早\nearly (26)"];
+  C [label = "日\nday (12)"];
+  D [label = "十\nten (10)"];
+  F [label = "十\nten (10)"];
 
-  月 -> 朝 [thick];
-  "𠦝" -> 朝 [thick];
-  早 -> "𠦝" [thick];
-  日 -> 早 [thick];
-  十 -> 早 [thick];
-  十 -> "𠦝" [thick];
+  B -> H [thick];
+  G -> H [thick];
+  E -> G [thick];
+  C -> E [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

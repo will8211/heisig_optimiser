@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  断 [label = "断\n931 sever"];
-  米 [label = "米\n778 rice"];
-  乙 [label = "乙\n95 second"];
-  斤 [label = "斤\n924 catty"];
+  E [label = "断\nsever (931)"];
+  B [label = "米\nrice (778)"];
+  C [label = "乙\nsecond (95)"];
+  D [label = "斤\ncatty (924)"];
 
-  米 -> 断 [thick];
-  乙 -> 断 [thick];
-  斤 -> 断 [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

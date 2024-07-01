@@ -5,8 +5,8 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  厅 [label = "厅\n122 hall"];
-  丁 [label = "丁\n90 fourth"];
+  C [label = "厅\nhall (122)"];
+  B [label = "丁\nfourth (90)"];
 
-  丁 -> 厅 [thick];
+  B -> C [thick];
 }

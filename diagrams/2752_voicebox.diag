@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  嗓 [label = "嗓\n2752 voicebox"];
-  口 [label = "口\n11 mouth"];
-  桑 [label = "桑\n2751 mulberry tree"];
-  又 [label = "又\n633 again"];
-  木 [label = "木\n202 tree"];
+  F [label = "嗓\nvoicebox (2752)"];
+  B [label = "口\nmouth (11)"];
+  E [label = "桑\nmulberry tree (2751)"];
+  C [label = "又\nagain (633)"];
+  D [label = "木\ntree (202)"];
 
-  口 -> 嗓 [thick];
-  桑 -> 嗓 [thick];
-  又 -> 桑 [thick];
-  木 -> 桑 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

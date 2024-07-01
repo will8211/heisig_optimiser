@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  悔 [label = "悔\n1818 be sorry about"];
-  心 [label = "心\n563 heart"];
-  每 [label = "每\n467 every"];
-  "𠂉" [label = "𠂉\n* reclining"];
-  母 [label = "母\n105 mother"];
-  女 [label = "女\n102 woman"];
+  G [label = "悔\nbe sorry about (1818)"];
+  B [label = "心\nheart (563)"];
+  F [label = "每\nevery (467)"];
+  C [label = "𠂉\nreclining (*)"];
+  E [label = "母\nmother (105)"];
+  D [label = "女\nwoman (102)"];
 
-  心 -> 悔 [thick];
-  每 -> 悔 [thick];
-  "𠂉" -> 每 [thick];
-  母 -> 每 [thick];
-  女 -> 母 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
 }

@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  嘶 [label = "嘶\n2738 hoarse"];
-  口 [label = "口\n11 mouth"];
-  斯 [label = "斯\n1339 Sphinx"];
-  其 [label = "其\n1335 his-hers-its-theirs"];
-  甘 [label = "甘\n1333 sweet"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  斤 [label = "斤\n924 catty"];
+  I [label = "嘶\nhoarse (2738)"];
+  B [label = "口\nmouth (11)"];
+  H [label = "斯\nSphinx (1339)"];
+  F [label = "其\nhis-hers-its-theirs (1335)"];
+  C [label = "甘\nsweet (1333)"];
+  E [label = "囧只－口\nanimal legs (*)"];
+  D [label = "八\neight (8)"];
+  G [label = "斤\ncatty (924)"];
 
-  口 -> 嘶 [thick];
-  斯 -> 嘶 [thick];
-  其 -> 斯 [thick];
-  甘 -> 其 [thick];
-  囧只－口 -> 其 [thick];
-  八 -> 囧只－口 [thick];
-  斤 -> 斯 [thick];
+  B -> I [thick];
+  H -> I [thick];
+  F -> H [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
+  G -> H [thick];
 }

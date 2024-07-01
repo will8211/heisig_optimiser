@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  季 [label = "季\n773 seasons"];
-  禾 [label = "禾\n762 standing grain"];
-  子 [label = "子\n97 child"];
+  D [label = "季\nseasons (773)"];
+  B [label = "禾\nstanding grain (762)"];
+  C [label = "子\nchild (97)"];
 
-  禾 -> 季 [thick];
-  子 -> 季 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

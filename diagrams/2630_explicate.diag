@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  阐 [label = "阐\n2630 explicate"];
-  门 [label = "门\n1260 gate"];
-  单 [label = "单\n1018 list"];
-  丷 [label = "丷\n* horns"];
-  一 [label = "一\n1 one"];
-  田 [label = "田\n14 rice field"];
-  十 [label = "十\n10 ten"];
+  H [label = "阐\nexplicate (2630)"];
+  B [label = "门\ngate (1260)"];
+  G [label = "单\nlist (1018)"];
+  D [label = "丷\nhorns (*)"];
+  C [label = "一\none (1)"];
+  E [label = "田\nrice field (14)"];
+  F [label = "十\nten (10)"];
 
-  门 -> 阐 [thick];
-  单 -> 阐 [thick];
-  丷 -> 单 [thick];
-  一 -> 丷 [thick];
-  田 -> 单 [thick];
-  十 -> 单 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  D -> G [thick];
+  C -> D [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

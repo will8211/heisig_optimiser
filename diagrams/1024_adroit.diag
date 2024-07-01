@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  巧 [label = "巧\n1024 adroit"];
-  工 [label = "工\n76 work"];
-  丂 [label = "丂\n* snare"];
+  D [label = "巧\nadroit (1024)"];
+  B [label = "工\nwork (76)"];
+  C [label = "丂\nsnare (*)"];
 
-  工 -> 巧 [thick];
-  丂 -> 巧 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

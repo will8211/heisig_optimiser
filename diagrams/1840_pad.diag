@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  垫 [label = "垫\n1840 pad"];
-  执 [label = "执\n602 clench"];
-  扌 [label = "扌\n* fingers"];
-  丸 [label = "丸\n42 pill"];
-  九 [label = "九\n9 nine"];
-  土 [label = "土\n158 soil"];
+  G [label = "垫\npad (1840)"];
+  E [label = "执\nclench (602)"];
+  B [label = "扌\nfingers (*)"];
+  D [label = "丸\npill (42)"];
+  C [label = "九\nnine (9)"];
+  F [label = "土\nsoil (158)"];
 
-  执 -> 垫 [thick];
-  扌 -> 执 [thick];
-  丸 -> 执 [thick];
-  九 -> 丸 [thick];
-  土 -> 垫 [thick];
+  E -> G [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
+  F -> G [thick];
 }

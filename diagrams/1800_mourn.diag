@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  悼 [label = "悼\n1800 mourn"];
-  心 [label = "心\n563 heart"];
-  卓 [label = "卓\n48 eminent"];
-  卜 [label = "卜\n43 divination"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  早 [label = "早\n26 early"];
-  日 [label = "日\n12 day"];
-  十 [label = "十\n10 ten"];
+  K [label = "悼\nmourn (1800)"];
+  B [label = "心\nheart (563)"];
+  J [label = "卓\neminent (48)"];
+  F [label = "卜\ndivination (43)"];
+  D [label = "丨\nwalking stick (*)"];
+  C [label = "一\none (1)"];
+  E [label = "丶\na drop of (*)"];
+  I [label = "早\nearly (26)"];
+  G [label = "日\nday (12)"];
+  H [label = "十\nten (10)"];
 
-  心 -> 悼 [thick];
-  卓 -> 悼 [thick];
-  卜 -> 卓 [thick];
-  丨 -> 卜 [thick];
-  一 -> 丨 [thick];
-  丶 -> 卜 [thick];
-  早 -> 卓 [thick];
-  日 -> 早 [thick];
-  十 -> 早 [thick];
+  B -> K [thick];
+  J -> K [thick];
+  F -> J [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
+  I -> J [thick];
+  G -> I [thick];
+  H -> I [thick];
 }

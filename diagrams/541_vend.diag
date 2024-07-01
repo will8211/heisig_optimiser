@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  售 [label = "售\n541 vend"];
-  隹 [label = "隹\n* turkey"];
-  口 [label = "口\n11 mouth"];
+  D [label = "售\nvend (541)"];
+  B [label = "隹\nturkey (*)"];
+  C [label = "口\nmouth (11)"];
 
-  隹 -> 售 [thick];
-  口 -> 售 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

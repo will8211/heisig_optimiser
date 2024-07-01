@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  静 [label = "静\n1214 quiet"];
-  青 [label = "青\n1208 blue or green"];
-  囧毒－母 [label = "囧毒－母\n* grow up"];
-  月 [label = "月\n13 month"];
-  争 [label = "争\n951 contend"];
-  勹 [label = "勹\n* bound up"];
-  肀 [label = "肀\n* rake"];
-  彐 [label = "彐\n* broom"];
+  I [label = "静\nquiet (1214)"];
+  D [label = "青\nblue or green (1208)"];
+  B [label = "囧毒－母\ngrow up (*)"];
+  C [label = "月\nmonth (13)"];
+  H [label = "争\ncontend (951)"];
+  E [label = "勹\nbound up (*)"];
+  G [label = "肀\nrake (*)"];
+  F [label = "彐\nbroom (*)"];
 
-  青 -> 静 [thick];
-  囧毒－母 -> 青 [thick];
-  月 -> 青 [thick];
-  争 -> 静 [thick];
-  勹 -> 争 [thick];
-  肀 -> 争 [thick];
-  彐 -> 肀 [thick];
+  D -> I [thick];
+  B -> D [thick];
+  C -> D [thick];
+  H -> I [thick];
+  E -> H [thick];
+  G -> H [thick];
+  F -> G [thick];
 }

@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  仙 [label = "仙\n2092 immortal"];
-  人 [label = "人\n793 person"];
-  山 [label = "山\n688 mountain"];
+  D [label = "仙\nimmortal (2092)"];
+  B [label = "人\nperson (793)"];
+  C [label = "山\nmountain (688)"];
 
-  人 -> 仙 [thick];
-  山 -> 仙 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

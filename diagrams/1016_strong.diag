@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  强 [label = "强\n1016 strong"];
-  弓 [label = "弓\n1013 bow"];
-  口 [label = "口\n11 mouth"];
-  虫 [label = "虫\n509 insect"];
+  E [label = "强\nstrong (1016)"];
+  B [label = "弓\nbow (1013)"];
+  C [label = "口\nmouth (11)"];
+  D [label = "虫\ninsect (509)"];
 
-  弓 -> 强 [thick];
-  口 -> 强 [thick];
-  虫 -> 强 [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

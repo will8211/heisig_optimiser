@@ -5,30 +5,30 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  儒 [label = "儒\n964 Confucian"];
-  人 [label = "人\n793 person"];
-  需 [label = "需\n963 need"];
-  雨 [label = "雨\n425 rain"];
-  梳 [label = "梳\n685 comb"];
-  木 [label = "木\n202 tree"];
-  "㐬" [label = "㐬\n* baby Moses"];
-  囧充－儿 [label = "囧充－儿\n* infant"];
-  囧会－亼 [label = "囧会－亼\n* wall"];
-  厶 [label = "厶\n* elbow"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  川 [label = "川\n134 stream"];
+  N [label = "儒\nConfucian (964)"];
+  B [label = "人\nperson (793)"];
+  M [label = "需\nneed (963)"];
+  C [label = "雨\nrain (425)"];
+  L [label = "梳\ncomb (685)"];
+  D [label = "木\ntree (202)"];
+  K [label = "㐬\nbaby Moses (*)"];
+  I [label = "囧充－儿\ninfant (*)"];
+  G [label = "囧会－亼\nwall (*)"];
+  E [label = "厶\nelbow (*)"];
+  F [label = "一\none (1)"];
+  H [label = "丶\na drop of (*)"];
+  J [label = "川\nstream (134)"];
 
-  人 -> 儒 [thick];
-  需 -> 儒 [thick];
-  雨 -> 需 [thick];
-  梳 -> 需 [thick];
-  木 -> 梳 [thick];
-  "㐬" -> 梳 [thick];
-  囧充－儿 -> "㐬" [thick];
-  囧会－亼 -> 囧充－儿 [thick];
-  厶 -> 囧会－亼 [thick];
-  一 -> 囧会－亼 [thick];
-  丶 -> 囧充－儿 [thick];
-  川 -> "㐬" [thick];
+  B -> N [thick];
+  M -> N [thick];
+  C -> M [thick];
+  L -> M [thick];
+  D -> L [thick];
+  K -> L [thick];
+  I -> K [thick];
+  G -> I [thick];
+  E -> G [thick];
+  F -> G [thick];
+  H -> I [thick];
+  J -> K [thick];
 }

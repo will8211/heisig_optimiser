@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  闭 [label = "闭\n2626 close"];
-  门 [label = "门\n1260 gate"];
-  才 [label = "才\n620 genius"];
+  D [label = "闭\nclose (2626)"];
+  B [label = "门\ngate (1260)"];
+  C [label = "才\ngenius (620)"];
 
-  门 -> 闭 [thick];
-  才 -> 闭 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

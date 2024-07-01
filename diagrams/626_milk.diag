@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  奶 [label = "奶\n626 milk"];
-  女 [label = "女\n102 woman"];
-  乃 [label = "乃\n625 only then"];
+  D [label = "奶\nmilk (626)"];
+  B [label = "女\nwoman (102)"];
+  C [label = "乃\nonly then (625)"];
 
-  女 -> 奶 [thick];
-  乃 -> 奶 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

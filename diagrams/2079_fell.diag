@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  伐 [label = "伐\n2079 fell"];
-  人 [label = "人\n793 person"];
-  戈 [label = "戈\n361 halberd"];
-  弋 [label = "弋\n* arrow"];
+  E [label = "伐\nfell (2079)"];
+  B [label = "人\nperson (793)"];
+  D [label = "戈\nhalberd (361)"];
+  C [label = "弋\narrow (*)"];
 
-  人 -> 伐 [thick];
-  戈 -> 伐 [thick];
-  弋 -> 戈 [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

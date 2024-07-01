@@ -5,26 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  饿 [label = "饿\n2526 hungry"];
-  食 [label = "食\n1154 food"];
-  良 [label = "良\n1151 high-quality"];
-  丶 [label = "丶\n* a drop of"];
-  艮 [label = "艮\n* silver"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  囧我 [label = "囧我\n* miser"];
-  我 [label = "我\n588 I"];
-  手 [label = "手\n584 hand"];
-  戈 [label = "戈\n361 halberd"];
-  弋 [label = "弋\n* arrow"];
+  L [label = "饿\nhungry (2526)"];
+  F [label = "食\nfood (1154)"];
+  D [label = "良\nhigh-quality (1151)"];
+  B [label = "丶\na drop of (*)"];
+  C [label = "艮\nsilver (*)"];
+  E [label = "𠆢\numbrella (*)"];
+  K [label = "囧我\nmiser (*)"];
+  J [label = "我\nI (588)"];
+  G [label = "手\nhand (584)"];
+  I [label = "戈\nhalberd (361)"];
+  H [label = "弋\narrow (*)"];
 
-  食 -> 饿 [thick];
-  良 -> 食 [thick];
-  丶 -> 良 [thick];
-  艮 -> 良 [thick];
-  "𠆢" -> 食 [thick];
-  囧我 -> 饿 [thick];
-  我 -> 囧我 [thick];
-  手 -> 我 [thick];
-  戈 -> 我 [thick];
-  弋 -> 戈 [thick];
+  F -> L [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
+  K -> L [thick];
+  J -> K [thick];
+  G -> J [thick];
+  I -> J [thick];
+  H -> I [thick];
 }

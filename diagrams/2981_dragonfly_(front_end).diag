@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  蜻 [label = "蜻\n2981 dragonfly (front end)"];
-  虫 [label = "虫\n509 insect"];
-  青 [label = "青\n1208 blue or green"];
-  囧毒－母 [label = "囧毒－母\n* grow up"];
-  月 [label = "月\n13 month"];
+  F [label = "蜻\ndragonfly (front end) (2981)"];
+  B [label = "虫\ninsect (509)"];
+  E [label = "青\nblue or green (1208)"];
+  C [label = "囧毒－母\ngrow up (*)"];
+  D [label = "月\nmonth (13)"];
 
-  虫 -> 蜻 [thick];
-  青 -> 蜻 [thick];
-  囧毒－母 -> 青 [thick];
-  月 -> 青 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

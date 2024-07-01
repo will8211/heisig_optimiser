@@ -5,27 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  鞭 [label = "鞭\n2840 whip"];
-  革 [label = "革\n1407 leather"];
-  廿 [label = "廿\n976 twenty"];
-  十 [label = "十\n10 ten"];
-  口 [label = "口\n11 mouth"];
-  便 [label = "便\n836 convenient"];
-  人 [label = "人\n793 person"];
-  更 [label = "更\n631 even more"];
-  一 [label = "一\n1 one"];
-  日 [label = "日\n12 day"];
-  囧史－口 [label = "囧史－口\n* tucked under the arm"];
+  M [label = "鞭\nwhip (2840)"];
+  F [label = "革\nleather (1407)"];
+  C [label = "廿\ntwenty (976)"];
+  B [label = "十\nten (10)"];
+  D [label = "口\nmouth (11)"];
+  E [label = "十\nten (10)"];
+  L [label = "便\nconvenient (836)"];
+  G [label = "人\nperson (793)"];
+  K [label = "更\neven more (631)"];
+  H [label = "一\none (1)"];
+  I [label = "日\nday (12)"];
+  J [label = "囧史－口\ntucked under the arm (*)"];
 
-  革 -> 鞭 [thick];
-  廿 -> 革 [thick];
-  十 -> 廿 [thick];
-  口 -> 革 [thick];
-  十 -> 革 [thick];
-  便 -> 鞭 [thick];
-  人 -> 便 [thick];
-  更 -> 便 [thick];
-  一 -> 更 [thick];
-  日 -> 更 [thick];
-  囧史－口 -> 更 [thick];
+  F -> M [thick];
+  C -> F [thick];
+  B -> C [thick];
+  D -> F [thick];
+  E -> F [thick];
+  L -> M [thick];
+  G -> L [thick];
+  K -> L [thick];
+  H -> K [thick];
+  I -> K [thick];
+  J -> K [thick];
 }

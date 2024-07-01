@@ -5,25 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  涂 [label = "涂\n2648 smear"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  余 [label = "余\n1283 excess"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  于 [label = "于\n1281 Yu"];
-  干 [label = "干\n1277 dry"];
-  小 [label = "小\n109 small"];
+  L [label = "涂\nsmear (2648)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  K [label = "余\nexcess (1283)"];
+  F [label = "𠆢\numbrella (*)"];
+  H [label = "于\nYu (1281)"];
+  G [label = "干\ndry (1277)"];
+  J [label = "小\nsmall (109)"];
+  I [label = "丶\na drop of (*)"];
 
-  水 -> 涂 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  余 -> 涂 [thick];
-  "𠆢" -> 余 [thick];
-  于 -> 余 [thick];
-  干 -> 于 [thick];
-  小 -> 余 [thick];
-  丶 -> 小 [thick];
+  E -> L [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  K -> L [thick];
+  F -> K [thick];
+  H -> K [thick];
+  G -> H [thick];
+  J -> K [thick];
+  I -> J [thick];
 }

@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  苍 [label = "苍\n2455 ash-colored"];
-  艹 [label = "艹\n* flower"];
-  仓 [label = "仓\n1119 storehouse"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  "㔾" [label = "㔾\n* fingerprint"];
+  F [label = "苍\nash-colored (2455)"];
+  B [label = "艹\nflower (*)"];
+  E [label = "仓\nstorehouse (1119)"];
+  C [label = "𠆢\numbrella (*)"];
+  D [label = "㔾\nfingerprint (*)"];
 
-  艹 -> 苍 [thick];
-  仓 -> 苍 [thick];
-  "𠆢" -> 仓 [thick];
-  "㔾" -> 仓 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  群 [label = "群\n961 crowd"];
-  君 [label = "君\n959 monarch"];
-  尹 [label = "尹\n957 overseer"];
-  口 [label = "口\n11 mouth"];
-  羊 [label = "羊\n528 sheep"];
-  丷 [label = "丷\n* horns"];
-  一 [label = "一\n1 one"];
+  H [label = "群\ncrowd (961)"];
+  D [label = "君\nmonarch (959)"];
+  B [label = "尹\noverseer (957)"];
+  C [label = "口\nmouth (11)"];
+  G [label = "羊\nsheep (528)"];
+  F [label = "丷\nhorns (*)"];
+  E [label = "一\none (1)"];
 
-  君 -> 群 [thick];
-  尹 -> 君 [thick];
-  口 -> 君 [thick];
-  羊 -> 群 [thick];
-  丷 -> 羊 [thick];
-  一 -> 丷 [thick];
+  D -> H [thick];
+  B -> D [thick];
+  C -> D [thick];
+  G -> H [thick];
+  F -> G [thick];
+  E -> F [thick];
 }

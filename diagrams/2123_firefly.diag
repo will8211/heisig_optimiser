@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  萤 [label = "萤\n2123 firefly"];
-  囧荣－木 [label = "囧荣－木\n* greenhouse"];
-  宀 [label = "宀\n* house"];
-  艹 [label = "艹\n* flower"];
-  虫 [label = "虫\n509 insect"];
+  F [label = "萤\nfirefly (2123)"];
+  D [label = "囧荣－木\ngreenhouse (*)"];
+  B [label = "宀\nhouse (*)"];
+  C [label = "艹\nflower (*)"];
+  E [label = "虫\ninsect (509)"];
 
-  囧荣－木 -> 萤 [thick];
-  宀 -> 囧荣－木 [thick];
-  艹 -> 囧荣－木 [thick];
-  虫 -> 萤 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

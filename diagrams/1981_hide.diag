@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  藏 [label = "藏\n1981 hide"];
-  艹 [label = "艹\n* flower"];
-  爿 [label = "爿\n* bunk beds"];
-  戊 [label = "戊\n* parade"];
-  戈 [label = "戈\n361 halberd"];
-  弋 [label = "弋\n* arrow"];
-  臣 [label = "臣\n731 feudal official"];
+  H [label = "藏\nhide (1981)"];
+  B [label = "艹\nflower (*)"];
+  C [label = "爿\nbunk beds (*)"];
+  F [label = "戊\nparade (*)"];
+  E [label = "戈\nhalberd (361)"];
+  D [label = "弋\narrow (*)"];
+  G [label = "臣\nfeudal official (731)"];
 
-  艹 -> 藏 [thick];
-  爿 -> 藏 [thick];
-  戊 -> 藏 [thick];
-  戈 -> 戊 [thick];
-  弋 -> 戈 [thick];
-  臣 -> 藏 [thick];
+  B -> H [thick];
+  C -> H [thick];
+  F -> H [thick];
+  E -> F [thick];
+  D -> E [thick];
+  G -> H [thick];
 }

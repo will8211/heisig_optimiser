@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  返 [label = "返\n658 go back"];
-  反 [label = "反\n656 against"];
-  "𠂆" [label = "𠂆\n* drag"];
-  又 [label = "又\n633 again"];
-  辶 [label = "辶\n* road"];
+  F [label = "返\ngo back (658)"];
+  D [label = "反\nagainst (656)"];
+  B [label = "𠂆\ndrag (*)"];
+  C [label = "又\nagain (633)"];
+  E [label = "辶\nroad (*)"];
 
-  反 -> 返 [thick];
-  "𠂆" -> 反 [thick];
-  又 -> 反 [thick];
-  辶 -> 返 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

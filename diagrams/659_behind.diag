@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  后 [label = "后\n659 behind"];
-  "𠂆" [label = "𠂆\n* drag"];
-  一 [label = "一\n1 one"];
-  口 [label = "口\n11 mouth"];
+  E [label = "后\nbehind (659)"];
+  B [label = "𠂆\ndrag (*)"];
+  C [label = "一\none (1)"];
+  D [label = "口\nmouth (11)"];
 
-  "𠂆" -> 后 [thick];
-  一 -> 后 [thick];
-  口 -> 后 [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

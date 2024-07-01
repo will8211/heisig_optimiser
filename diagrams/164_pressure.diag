@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  压 [label = "压\n164 pressure"];
-  土 [label = "土\n158 soil"];
-  厂 [label = "厂\n121 factory"];
-  丶 [label = "丶\n* a drop of"];
+  E [label = "压\npressure (164)"];
+  B [label = "土\nsoil (158)"];
+  C [label = "厂\nfactory (121)"];
+  D [label = "丶\na drop of (*)"];
 
-  土 -> 压 [thick];
-  厂 -> 压 [thick];
-  丶 -> 压 [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

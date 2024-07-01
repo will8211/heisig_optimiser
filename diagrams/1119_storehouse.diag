@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  仓 [label = "仓\n1119 storehouse"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  "㔾" [label = "㔾\n* fingerprint"];
+  D [label = "仓\nstorehouse (1119)"];
+  B [label = "𠆢\numbrella (*)"];
+  C [label = "㔾\nfingerprint (*)"];
 
-  "𠆢" -> 仓 [thick];
-  "㔾" -> 仓 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

@@ -5,8 +5,8 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  北 [label = "北\n454 north"];
-  匕 [label = "匕\n453 ancient spoon"];
+  C [label = "北\nnorth (454)"];
+  B [label = "匕\nancient spoon (453)"];
 
-  匕 -> 北 [thick];
+  B -> C [thick];
 }

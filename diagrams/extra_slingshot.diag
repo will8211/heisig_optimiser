@@ -5,8 +5,8 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  囧与－一 [label = "囧与－一\n* slingshot"];
-  弓 [label = "弓\n1013 bow"];
+  C [label = "囧与－一\nslingshot (*)"];
+  B [label = "弓\nbow (1013)"];
 
-  弓 -> 囧与－一 [thick];
+  B -> C [thick];
 }

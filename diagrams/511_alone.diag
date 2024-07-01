@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  独 [label = "独\n511 alone"];
-  犬 [label = "犬\n239 pooch"];
-  大 [label = "大\n113 large"];
-  丶 [label = "丶\n* a drop of"];
-  虫 [label = "虫\n509 insect"];
+  F [label = "独\nalone (511)"];
+  D [label = "犬\npooch (239)"];
+  B [label = "大\nlarge (113)"];
+  C [label = "丶\na drop of (*)"];
+  E [label = "虫\ninsect (509)"];
 
-  犬 -> 独 [thick];
-  大 -> 犬 [thick];
-  丶 -> 犬 [thick];
-  虫 -> 独 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

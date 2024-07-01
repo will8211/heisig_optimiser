@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  宽 [label = "宽\n230 wide"];
-  宀 [label = "宀\n* house"];
-  见 [label = "见\n58 see"];
-  目 [label = "目\n15 eye"];
-  儿 [label = "儿\n56 youngster"];
-  艹 [label = "艹\n* flower"];
+  G [label = "宽\nwide (230)"];
+  B [label = "宀\nhouse (*)"];
+  E [label = "见\nsee (58)"];
+  C [label = "目\neye (15)"];
+  D [label = "儿\nyoungster (56)"];
+  F [label = "艹\nflower (*)"];
 
-  宀 -> 宽 [thick];
-  见 -> 宽 [thick];
-  目 -> 见 [thick];
-  儿 -> 见 [thick];
-  艹 -> 宽 [thick];
+  B -> G [thick];
+  E -> G [thick];
+  C -> E [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

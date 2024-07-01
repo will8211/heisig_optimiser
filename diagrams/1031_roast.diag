@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  烤 [label = "烤\n1031 roast"];
-  火 [label = "火\n170 fire"];
-  考 [label = "考\n1030 take an exam"];
-  老 [label = "老\n1029 old man"];
-  土 [label = "土\n158 soil"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  匕 [label = "匕\n453 ancient spoon"];
-  囧与－一 [label = "囧与－一\n* slingshot"];
-  弓 [label = "弓\n1013 bow"];
+  K [label = "烤\nroast (1031)"];
+  B [label = "火\nfire (170)"];
+  J [label = "考\ntake an exam (1030)"];
+  G [label = "老\nold man (1029)"];
+  C [label = "土\nsoil (158)"];
+  E [label = "丨\nwalking stick (*)"];
+  D [label = "一\none (1)"];
+  F [label = "匕\nancient spoon (453)"];
+  I [label = "囧与－一\nslingshot (*)"];
+  H [label = "弓\nbow (1013)"];
 
-  火 -> 烤 [thick];
-  考 -> 烤 [thick];
-  老 -> 考 [thick];
-  土 -> 老 [thick];
-  丨 -> 老 [thick];
-  一 -> 丨 [thick];
-  匕 -> 老 [thick];
-  囧与－一 -> 考 [thick];
-  弓 -> 囧与－一 [thick];
+  B -> K [thick];
+  J -> K [thick];
+  G -> J [thick];
+  C -> G [thick];
+  E -> G [thick];
+  D -> E [thick];
+  F -> G [thick];
+  I -> J [thick];
+  H -> I [thick];
 }

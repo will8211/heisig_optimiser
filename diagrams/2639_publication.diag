@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  刊 [label = "刊\n2639 publication"];
-  干 [label = "干\n1277 dry"];
-  刀 [label = "刀\n83 sword"];
+  D [label = "刊\npublication (2639)"];
+  B [label = "干\ndry (1277)"];
+  C [label = "刀\nsword (83)"];
 
-  干 -> 刊 [thick];
-  刀 -> 刊 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

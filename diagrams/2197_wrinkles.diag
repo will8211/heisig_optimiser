@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  皱 [label = "皱\n2197 wrinkles"];
-  刍 [label = "刍\n* hairnet"];
-  勹 [label = "勹\n* bound up"];
-  彐 [label = "彐\n* broom"];
-  皮 [label = "皮\n707 covering"];
-  支 [label = "支\n650 offshoot"];
-  十 [label = "十\n10 ten"];
-  又 [label = "又\n633 again"];
+  I [label = "皱\nwrinkles (2197)"];
+  D [label = "刍\nhairnet (*)"];
+  B [label = "勹\nbound up (*)"];
+  C [label = "彐\nbroom (*)"];
+  H [label = "皮\ncovering (707)"];
+  G [label = "支\noffshoot (650)"];
+  E [label = "十\nten (10)"];
+  F [label = "又\nagain (633)"];
 
-  刍 -> 皱 [thick];
-  勹 -> 刍 [thick];
-  彐 -> 刍 [thick];
-  皮 -> 皱 [thick];
-  支 -> 皮 [thick];
-  十 -> 支 [thick];
-  又 -> 支 [thick];
+  D -> I [thick];
+  B -> D [thick];
+  C -> D [thick];
+  H -> I [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

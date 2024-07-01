@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  豸 [label = "豸\n* leopard"];
-  爪 [label = "爪\n663 claw"];
-  "𠂆" [label = "𠂆\n* drag"];
-  豕 [label = "豕\n* sow"];
+  E [label = "豸\nleopard (*)"];
+  C [label = "爪\nclaw (663)"];
+  B [label = "𠂆\ndrag (*)"];
+  D [label = "豕\nsow (*)"];
 
-  爪 -> 豸 [thick];
-  "𠂆" -> 爪 [thick];
-  豕 -> 豸 [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
 }

@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  蒜 [label = "蒜\n2166 garlic"];
-  示 [label = "示\n900 show"];
-  艹 [label = "艹\n* flower"];
+  D [label = "蒜\ngarlic (2166)"];
+  B [label = "示\nshow (900)"];
+  C [label = "艹\nflower (*)"];
 
-  示 -> 蒜 [thick];
-  艹 -> 蒜 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

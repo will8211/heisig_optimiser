@@ -5,17 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  啊 [label = "啊\n1056 aah!"];
-  口 [label = "口\n11 mouth"];
-  阿 [label = "阿\n1055 Apollo"];
-  阝 [label = "阝\n* pinnacle"];
-  可 [label = "可\n92 can"];
-  丁 [label = "丁\n90 fourth"];
+  H [label = "啊\naah! (1056)"];
+  B [label = "口\nmouth (11)"];
+  G [label = "阿\nApollo (1055)"];
+  C [label = "阝\npinnacle (*)"];
+  F [label = "可\ncan (92)"];
+  D [label = "丁\nfourth (90)"];
+  E [label = "口\nmouth (11)"];
 
-  口 -> 啊 [thick];
-  阿 -> 啊 [thick];
-  阝 -> 阿 [thick];
-  可 -> 阿 [thick];
-  丁 -> 可 [thick];
-  口 -> 可 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  C -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

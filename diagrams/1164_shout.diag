@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  呼 [label = "呼\n1164 shout"];
-  口 [label = "口\n11 mouth"];
-  乎 [label = "乎\n1163 ooh!"];
-  平 [label = "平\n1160 even"];
+  E [label = "呼\nshout (1164)"];
+  B [label = "口\nmouth (11)"];
+  D [label = "乎\nooh! (1163)"];
+  C [label = "平\neven (1160)"];
 
-  口 -> 呼 [thick];
-  乎 -> 呼 [thick];
-  平 -> 乎 [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

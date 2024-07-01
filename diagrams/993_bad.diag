@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  坏 [label = "坏\n993 bad"];
-  土 [label = "土\n158 soil"];
-  不 [label = "不\n991 no"];
-  一 [label = "一\n1 one"];
-  人 [label = "人\n793 person"];
-  丶 [label = "丶\n* a drop of"];
+  G [label = "坏\nbad (993)"];
+  B [label = "土\nsoil (158)"];
+  F [label = "不\nno (991)"];
+  C [label = "一\none (1)"];
+  D [label = "人\nperson (793)"];
+  E [label = "丶\na drop of (*)"];
 
-  土 -> 坏 [thick];
-  不 -> 坏 [thick];
-  一 -> 不 [thick];
-  人 -> 不 [thick];
-  丶 -> 不 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

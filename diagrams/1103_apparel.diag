@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  服 [label = "服\n1103 apparel"];
-  月 [label = "月\n13 month"];
-  卩 [label = "卩\n* stamp"];
-  又 [label = "又\n633 again"];
+  E [label = "服\napparel (1103)"];
+  B [label = "月\nmonth (13)"];
+  C [label = "卩\nstamp (*)"];
+  D [label = "又\nagain (633)"];
 
-  月 -> 服 [thick];
-  卩 -> 服 [thick];
-  又 -> 服 [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

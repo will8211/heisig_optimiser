@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  纷 [label = "纷\n2386 disorderly"];
-  纟 [label = "纟\n* thread"];
-  厶 [label = "厶\n* elbow"];
-  分 [label = "分\n694 part"];
-  八 [label = "八\n8 eight"];
-  刀 [label = "刀\n83 sword"];
+  G [label = "纷\ndisorderly (2386)"];
+  C [label = "纟\nthread (*)"];
+  B [label = "厶\nelbow (*)"];
+  F [label = "分\npart (694)"];
+  D [label = "八\neight (8)"];
+  E [label = "刀\nsword (83)"];
 
-  纟 -> 纷 [thick];
-  厶 -> 纟 [thick];
-  分 -> 纷 [thick];
-  八 -> 分 [thick];
-  刀 -> 分 [thick];
+  C -> G [thick];
+  B -> C [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

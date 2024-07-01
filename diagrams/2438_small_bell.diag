@@ -5,23 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  铃 [label = "铃\n2438 small bell"];
-  金 [label = "金\n279 gold"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  王 [label = "王\n265 king"];
-  工 [label = "工\n76 work"];
-  丶 [label = "丶\n* a drop of"];
-  令 [label = "令\n1113 orders"];
-  亼 [label = "亼\n* meeting"];
-  囧节－艹 [label = "囧节－艹\n* chop"];
+  K [label = "铃\nsmall bell (2438)"];
+  F [label = "金\ngold (279)"];
+  B [label = "𠆢\numbrella (*)"];
+  D [label = "王\nking (265)"];
+  C [label = "工\nwork (76)"];
+  E [label = "丶\na drop of (*)"];
+  J [label = "令\norders (1113)"];
+  H [label = "亼\nmeeting (*)"];
+  G [label = "𠆢\numbrella (*)"];
+  I [label = "囧节－艹\nchop (*)"];
 
-  金 -> 铃 [thick];
-  "𠆢" -> 金 [thick];
-  王 -> 金 [thick];
-  工 -> 王 [thick];
-  丶 -> 金 [thick];
-  令 -> 铃 [thick];
-  亼 -> 令 [thick];
-  "𠆢" -> 亼 [thick];
-  囧节－艹 -> 令 [thick];
+  F -> K [thick];
+  B -> F [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
+  J -> K [thick];
+  H -> J [thick];
+  G -> H [thick];
+  I -> J [thick];
 }

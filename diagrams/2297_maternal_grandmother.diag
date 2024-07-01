@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  姥 [label = "姥\n2297 maternal grandmother"];
-  女 [label = "女\n102 woman"];
-  老 [label = "老\n1029 old man"];
-  土 [label = "土\n158 soil"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  匕 [label = "匕\n453 ancient spoon"];
+  H [label = "姥\nmaternal grandmother (2297)"];
+  B [label = "女\nwoman (102)"];
+  G [label = "老\nold man (1029)"];
+  C [label = "土\nsoil (158)"];
+  E [label = "丨\nwalking stick (*)"];
+  D [label = "一\none (1)"];
+  F [label = "匕\nancient spoon (453)"];
 
-  女 -> 姥 [thick];
-  老 -> 姥 [thick];
-  土 -> 老 [thick];
-  丨 -> 老 [thick];
-  一 -> 丨 [thick];
-  匕 -> 老 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  C -> G [thick];
+  E -> G [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

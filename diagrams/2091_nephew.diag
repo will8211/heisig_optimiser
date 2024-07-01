@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  侄 [label = "侄\n2091 nephew"];
-  人 [label = "人\n793 person"];
-  至 [label = "至\n678 until"];
-  囧会－亼 [label = "囧会－亼\n* wall"];
-  厶 [label = "厶\n* elbow"];
-  一 [label = "一\n1 one"];
-  土 [label = "土\n158 soil"];
+  H [label = "侄\nnephew (2091)"];
+  B [label = "人\nperson (793)"];
+  G [label = "至\nuntil (678)"];
+  E [label = "囧会－亼\nwall (*)"];
+  C [label = "厶\nelbow (*)"];
+  D [label = "一\none (1)"];
+  F [label = "土\nsoil (158)"];
 
-  人 -> 侄 [thick];
-  至 -> 侄 [thick];
-  囧会－亼 -> 至 [thick];
-  厶 -> 囧会－亼 [thick];
-  一 -> 囧会－亼 [thick];
-  土 -> 至 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  E -> G [thick];
+  C -> E [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

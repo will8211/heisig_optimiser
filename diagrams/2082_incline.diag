@@ -5,26 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  倾 [label = "倾\n2082 incline"];
-  人 [label = "人\n793 person"];
-  顷 [label = "顷\n1703 100 Chinese acres"];
-  七 [label = "七\n7 seven"];
-  页 [label = "页\n60 page"];
-  贝 [label = "贝\n52 shellfish"];
-  目 [label = "目\n15 eye"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
+  L [label = "倾\nincline (2082)"];
+  B [label = "人\nperson (793)"];
+  K [label = "顷\n100 Chinese acres (1703)"];
+  C [label = "七\nseven (7)"];
+  J [label = "页\npage (60)"];
+  G [label = "贝\nshellfish (52)"];
+  D [label = "目\neye (15)"];
+  F [label = "囧只－口\nanimal legs (*)"];
+  E [label = "八\neight (8)"];
+  H [label = "一\none (1)"];
+  I [label = "丶\na drop of (*)"];
 
-  人 -> 倾 [thick];
-  顷 -> 倾 [thick];
-  七 -> 顷 [thick];
-  页 -> 顷 [thick];
-  贝 -> 页 [thick];
-  目 -> 贝 [thick];
-  囧只－口 -> 贝 [thick];
-  八 -> 囧只－口 [thick];
-  一 -> 页 [thick];
-  丶 -> 页 [thick];
+  B -> L [thick];
+  K -> L [thick];
+  C -> K [thick];
+  J -> K [thick];
+  G -> J [thick];
+  D -> G [thick];
+  F -> G [thick];
+  E -> F [thick];
+  H -> J [thick];
+  I -> J [thick];
 }

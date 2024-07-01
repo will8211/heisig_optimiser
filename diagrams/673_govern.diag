@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  治 [label = "治\n673 govern"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  台 [label = "台\n672 platform"];
-  厶 [label = "厶\n* elbow"];
-  口 [label = "口\n11 mouth"];
+  I [label = "治\ngovern (673)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  H [label = "台\nplatform (672)"];
+  F [label = "厶\nelbow (*)"];
+  G [label = "口\nmouth (11)"];
 
-  水 -> 治 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  台 -> 治 [thick];
-  厶 -> 台 [thick];
-  口 -> 台 [thick];
+  E -> I [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  H -> I [thick];
+  F -> H [thick];
+  G -> H [thick];
 }

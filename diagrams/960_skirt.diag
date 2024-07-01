@@ -5,24 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  裙 [label = "裙\n960 skirt"];
-  衣 [label = "衣\n400 clothing"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  君 [label = "君\n959 monarch"];
-  尹 [label = "尹\n957 overseer"];
-  口 [label = "口\n11 mouth"];
+  L [label = "裙\nskirt (960)"];
+  H [label = "衣\nclothing (400)"];
+  G [label = "亠\ntop hat (*)"];
+  D [label = "六\nsix (6)"];
+  C [label = "囧只－口\nanimal legs (*)"];
+  B [label = "八\neight (8)"];
+  F [label = "囧只－口\nanimal legs (*)"];
+  E [label = "八\neight (8)"];
+  K [label = "君\nmonarch (959)"];
+  I [label = "尹\noverseer (957)"];
+  J [label = "口\nmouth (11)"];
 
-  衣 -> 裙 [thick];
-  亠 -> 衣 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
-  君 -> 裙 [thick];
-  尹 -> 君 [thick];
-  口 -> 君 [thick];
+  H -> L [thick];
+  G -> H [thick];
+  D -> G [thick];
+  C -> D [thick];
+  B -> C [thick];
+  F -> G [thick];
+  E -> F [thick];
+  K -> L [thick];
+  I -> K [thick];
+  J -> K [thick];
 }

@@ -5,26 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  蹲 [label = "蹲\n2479 squat"];
-  足 [label = "足\n1048 lower leg"];
-  口 [label = "口\n11 mouth"];
-  止 [label = "止\n379 stop"];
-  酋 [label = "酋\n1128 chieftain"];
-  丷 [label = "丷\n* horns"];
-  一 [label = "一\n1 one"];
-  酉 [label = "酉\n* whiskey bottle"];
-  寸 [label = "寸\n166 Chinese inch"];
-  丶 [label = "丶\n* a drop of"];
-  十 [label = "十\n10 ten"];
+  L [label = "蹲\nsquat (2479)"];
+  D [label = "足\nlower leg (1048)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "止\nstop (379)"];
+  H [label = "酋\nchieftain (1128)"];
+  F [label = "丷\nhorns (*)"];
+  E [label = "一\none (1)"];
+  G [label = "酉\nwhiskey bottle (*)"];
+  K [label = "寸\nChinese inch (166)"];
+  I [label = "丶\na drop of (*)"];
+  J [label = "十\nten (10)"];
 
-  足 -> 蹲 [thick];
-  口 -> 足 [thick];
-  止 -> 足 [thick];
-  酋 -> 蹲 [thick];
-  丷 -> 酋 [thick];
-  一 -> 丷 [thick];
-  酉 -> 酋 [thick];
-  寸 -> 蹲 [thick];
-  丶 -> 寸 [thick];
-  十 -> 寸 [thick];
+  D -> L [thick];
+  B -> D [thick];
+  C -> D [thick];
+  H -> L [thick];
+  F -> H [thick];
+  E -> F [thick];
+  G -> H [thick];
+  K -> L [thick];
+  I -> K [thick];
+  J -> K [thick];
 }

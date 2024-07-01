@@ -5,30 +5,32 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  论 [label = "论\n465 theory"];
-  仑 [label = "仑\n* lifeguard"];
-  匕 [label = "匕\n453 ancient spoon"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  言 [label = "言\n346 say"];
-  二 [label = "二\n2 two"];
-  一 [label = "一\n1 one"];
-  口 [label = "口\n11 mouth"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
+  O [label = "论\ntheory (465)"];
+  D [label = "仑\nlifeguard (*)"];
+  B [label = "匕\nancient spoon (453)"];
+  C [label = "𠆢\numbrella (*)"];
+  N [label = "言\nsay (346)"];
+  F [label = "二\ntwo (2)"];
+  E [label = "一\none (1)"];
+  G [label = "口\nmouth (11)"];
+  M [label = "亠\ntop hat (*)"];
+  J [label = "六\nsix (6)"];
+  I [label = "囧只－口\nanimal legs (*)"];
+  H [label = "八\neight (8)"];
+  L [label = "囧只－口\nanimal legs (*)"];
+  K [label = "八\neight (8)"];
 
-  仑 -> 论 [thick];
-  匕 -> 仑 [thick];
-  "𠆢" -> 仑 [thick];
-  言 -> 论 [thick];
-  二 -> 言 [thick];
-  一 -> 二 [thick];
-  口 -> 言 [thick];
-  亠 -> 言 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
+  D -> O [thick];
+  B -> D [thick];
+  C -> D [thick];
+  N -> O [thick];
+  F -> N [thick];
+  E -> F [thick];
+  G -> N [thick];
+  M -> N [thick];
+  J -> M [thick];
+  I -> J [thick];
+  H -> I [thick];
+  L -> M [thick];
+  K -> L [thick];
 }

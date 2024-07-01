@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  睛 [label = "睛\n1212 eyeball"];
-  目 [label = "目\n15 eye"];
-  青 [label = "青\n1208 blue or green"];
-  囧毒－母 [label = "囧毒－母\n* grow up"];
-  月 [label = "月\n13 month"];
+  F [label = "睛\neyeball (1212)"];
+  B [label = "目\neye (15)"];
+  E [label = "青\nblue or green (1208)"];
+  C [label = "囧毒－母\ngrow up (*)"];
+  D [label = "月\nmonth (13)"];
 
-  目 -> 睛 [thick];
-  青 -> 睛 [thick];
-  囧毒－母 -> 青 [thick];
-  月 -> 青 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

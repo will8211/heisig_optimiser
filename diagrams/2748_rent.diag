@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  租 [label = "租\n2748 rent"];
-  禾 [label = "禾\n762 standing grain"];
-  且 [label = "且\n1343 moreover"];
+  D [label = "租\nrent (2748)"];
+  B [label = "禾\nstanding grain (762)"];
+  C [label = "且\nmoreover (1343)"];
 
-  禾 -> 租 [thick];
-  且 -> 租 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

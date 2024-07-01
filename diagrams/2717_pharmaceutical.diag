@@ -5,26 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  剂 [label = "剂\n2717 pharmaceutical"];
-  齐 [label = "齐\n1318 identical"];
-  文 [label = "文\n1315 literature"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  "㐅" [label = "㐅\n* sheaf"];
-  "囧介－𠆢" [label = "囧介－𠆢\n* crutches"];
-  刀 [label = "刀\n83 sword"];
+  M [label = "剂\npharmaceutical (2717)"];
+  K [label = "齐\nidentical (1318)"];
+  I [label = "文\nliterature (1315)"];
+  G [label = "亠\ntop hat (*)"];
+  D [label = "六\nsix (6)"];
+  C [label = "囧只－口\nanimal legs (*)"];
+  B [label = "八\neight (8)"];
+  F [label = "囧只－口\nanimal legs (*)"];
+  E [label = "八\neight (8)"];
+  H [label = "㐅\nsheaf (*)"];
+  J [label = "囧介－𠆢\ncrutches (*)"];
+  L [label = "刀\nsword (83)"];
 
-  齐 -> 剂 [thick];
-  文 -> 齐 [thick];
-  亠 -> 文 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
-  "㐅" -> 文 [thick];
-  "囧介－𠆢" -> 齐 [thick];
-  刀 -> 剂 [thick];
+  K -> M [thick];
+  I -> K [thick];
+  G -> I [thick];
+  D -> G [thick];
+  C -> D [thick];
+  B -> C [thick];
+  F -> G [thick];
+  E -> F [thick];
+  H -> I [thick];
+  J -> K [thick];
+  L -> M [thick];
 }

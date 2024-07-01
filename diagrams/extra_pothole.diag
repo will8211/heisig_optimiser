@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  臽 [label = "臽\n* pothole"];
-  臼 [label = "臼\n* mortar"];
-  勹 [label = "勹\n* bound up"];
+  D [label = "臽\npothole (*)"];
+  B [label = "臼\nmortar (*)"];
+  C [label = "勹\nbound up (*)"];
 
-  臼 -> 臽 [thick];
-  勹 -> 臽 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

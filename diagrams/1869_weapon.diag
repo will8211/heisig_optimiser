@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  械 [label = "械\n1869 weapon"];
-  木 [label = "木\n202 tree"];
-  戒 [label = "戒\n1868 take precautions against"];
-  开 [label = "开\n613 open"];
-  二 [label = "二\n2 two"];
-  一 [label = "一\n1 one"];
-  戈 [label = "戈\n361 halberd"];
-  弋 [label = "弋\n* arrow"];
+  I [label = "械\nweapon (1869)"];
+  B [label = "木\ntree (202)"];
+  H [label = "戒\ntake precautions against (1868)"];
+  E [label = "开\nopen (613)"];
+  D [label = "二\ntwo (2)"];
+  C [label = "一\none (1)"];
+  G [label = "戈\nhalberd (361)"];
+  F [label = "弋\narrow (*)"];
 
-  木 -> 械 [thick];
-  戒 -> 械 [thick];
-  开 -> 戒 [thick];
-  二 -> 开 [thick];
-  一 -> 二 [thick];
-  戈 -> 戒 [thick];
-  弋 -> 戈 [thick];
+  B -> I [thick];
+  H -> I [thick];
+  E -> H [thick];
+  D -> E [thick];
+  C -> D [thick];
+  G -> H [thick];
+  F -> G [thick];
 }

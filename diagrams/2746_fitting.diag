@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  宜 [label = "宜\n2746 fitting"];
-  宀 [label = "宀\n* house"];
-  且 [label = "且\n1343 moreover"];
+  D [label = "宜\nfitting (2746)"];
+  B [label = "宀\nhouse (*)"];
+  C [label = "且\nmoreover (1343)"];
 
-  宀 -> 宜 [thick];
-  且 -> 宜 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

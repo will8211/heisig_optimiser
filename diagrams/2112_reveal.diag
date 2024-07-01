@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  揭 [label = "揭\n2112 reveal"];
-  扌 [label = "扌\n* fingers"];
-  曷 [label = "曷\n* siesta"];
-  人 [label = "人\n793 person"];
-  勹 [label = "勹\n* bound up"];
-  乙 [label = "乙\n95 second"];
-  日 [label = "日\n12 day"];
+  H [label = "揭\nreveal (2112)"];
+  B [label = "扌\nfingers (*)"];
+  G [label = "曷\nsiesta (*)"];
+  C [label = "人\nperson (793)"];
+  D [label = "勹\nbound up (*)"];
+  E [label = "乙\nsecond (95)"];
+  F [label = "日\nday (12)"];
 
-  扌 -> 揭 [thick];
-  曷 -> 揭 [thick];
-  人 -> 曷 [thick];
-  勹 -> 曷 [thick];
-  乙 -> 曷 [thick];
-  日 -> 曷 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  C -> G [thick];
+  D -> G [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

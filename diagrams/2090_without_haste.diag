@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  悠 [label = "悠\n2090 without haste"];
-  人 [label = "人\n793 person"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  攵 [label = "攵\n* taskmaster"];
-  心 [label = "心\n563 heart"];
+  G [label = "悠\nwithout haste (2090)"];
+  B [label = "人\nperson (793)"];
+  D [label = "丨\nwalking stick (*)"];
+  C [label = "一\none (1)"];
+  E [label = "攵\ntaskmaster (*)"];
+  F [label = "心\nheart (563)"];
 
-  人 -> 悠 [thick];
-  丨 -> 悠 [thick];
-  一 -> 丨 [thick];
-  攵 -> 悠 [thick];
-  心 -> 悠 [thick];
+  B -> G [thick];
+  D -> G [thick];
+  C -> D [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

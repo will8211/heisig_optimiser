@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  扭 [label = "扭\n1487 twist"];
-  扌 [label = "扌\n* fingers"];
-  丑 [label = "丑\n1486 clown"];
-  十 [label = "十\n10 ten"];
-  囧侯－亻－矢 [label = "囧侯－亻－矢\n* key"];
+  F [label = "扭\ntwist (1487)"];
+  B [label = "扌\nfingers (*)"];
+  E [label = "丑\nclown (1486)"];
+  C [label = "十\nten (10)"];
+  D [label = "囧侯－亻－矢\nkey (*)"];
 
-  扌 -> 扭 [thick];
-  丑 -> 扭 [thick];
-  十 -> 丑 [thick];
-  囧侯－亻－矢 -> 丑 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

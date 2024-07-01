@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  抽 [label = "抽\n914 take out"];
-  扌 [label = "扌\n* fingers"];
-  由 [label = "由\n913 wherefore"];
-  田 [label = "田\n14 rice field"];
+  E [label = "抽\ntake out (914)"];
+  B [label = "扌\nfingers (*)"];
+  D [label = "由\nwherefore (913)"];
+  C [label = "田\nrice field (14)"];
 
-  扌 -> 抽 [thick];
-  由 -> 抽 [thick];
-  田 -> 由 [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

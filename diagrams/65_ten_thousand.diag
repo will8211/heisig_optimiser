@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  万 [label = "万\n65 ten thousand"];
-  勹 [label = "勹\n* bound up"];
-  一 [label = "一\n1 one"];
+  D [label = "万\nten thousand (65)"];
+  B [label = "勹\nbound up (*)"];
+  C [label = "一\none (1)"];
 
-  勹 -> 万 [thick];
-  一 -> 万 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

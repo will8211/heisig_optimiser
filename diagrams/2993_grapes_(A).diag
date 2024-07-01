@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  葡 [label = "葡\n2993 grapes (A)"];
-  艹 [label = "艹\n* flower"];
-  勹 [label = "勹\n* bound up"];
-  甫 [label = "甫\n1379 Fu"];
-  十 [label = "十\n10 ten"];
-  月 [label = "月\n13 month"];
-  丶 [label = "丶\n* a drop of"];
+  H [label = "葡\ngrapes (A) (2993)"];
+  B [label = "艹\nflower (*)"];
+  C [label = "勹\nbound up (*)"];
+  G [label = "甫\nFu (1379)"];
+  D [label = "十\nten (10)"];
+  E [label = "月\nmonth (13)"];
+  F [label = "丶\na drop of (*)"];
 
-  艹 -> 葡 [thick];
-  勹 -> 葡 [thick];
-  甫 -> 葡 [thick];
-  十 -> 甫 [thick];
-  月 -> 甫 [thick];
-  丶 -> 甫 [thick];
+  B -> H [thick];
+  C -> H [thick];
+  G -> H [thick];
+  D -> G [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

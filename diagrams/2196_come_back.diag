@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  归 [label = "归\n2196 come back"];
-  刀 [label = "刀\n83 sword"];
-  彐 [label = "彐\n* broom"];
+  D [label = "归\ncome back (2196)"];
+  B [label = "刀\nsword (83)"];
+  C [label = "彐\nbroom (*)"];
 
-  刀 -> 归 [thick];
-  彐 -> 归 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

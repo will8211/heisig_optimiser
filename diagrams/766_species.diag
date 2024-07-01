@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  种 [label = "种\n766 species"];
-  禾 [label = "禾\n762 standing grain"];
-  中 [label = "中\n38 middle"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  口 [label = "口\n11 mouth"];
+  G [label = "种\nspecies (766)"];
+  B [label = "禾\nstanding grain (762)"];
+  F [label = "中\nmiddle (38)"];
+  D [label = "丨\nwalking stick (*)"];
+  C [label = "一\none (1)"];
+  E [label = "口\nmouth (11)"];
 
-  禾 -> 种 [thick];
-  中 -> 种 [thick];
-  丨 -> 中 [thick];
-  一 -> 丨 [thick];
-  口 -> 中 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

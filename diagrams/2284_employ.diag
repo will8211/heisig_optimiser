@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  聘 [label = "聘\n2284 employ"];
-  耳 [label = "耳\n717 ear"];
-  由 [label = "由\n913 wherefore"];
-  田 [label = "田\n14 rice field"];
-  丂 [label = "丂\n* snare"];
+  F [label = "聘\nemploy (2284)"];
+  B [label = "耳\near (717)"];
+  D [label = "由\nwherefore (913)"];
+  C [label = "田\nrice field (14)"];
+  E [label = "丂\nsnare (*)"];
 
-  耳 -> 聘 [thick];
-  由 -> 聘 [thick];
-  田 -> 由 [thick];
-  丂 -> 聘 [thick];
+  B -> F [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

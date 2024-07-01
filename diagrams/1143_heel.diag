@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  跟 [label = "跟\n1143 heel"];
-  足 [label = "足\n1048 lower leg"];
-  口 [label = "口\n11 mouth"];
-  止 [label = "止\n379 stop"];
-  艮 [label = "艮\n* silver"];
+  F [label = "跟\nheel (1143)"];
+  D [label = "足\nlower leg (1048)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "止\nstop (379)"];
+  E [label = "艮\nsilver (*)"];
 
-  足 -> 跟 [thick];
-  口 -> 足 [thick];
-  止 -> 足 [thick];
-  艮 -> 跟 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

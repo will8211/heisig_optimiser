@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  陆 [label = "陆\n1235 land"];
-  阝 [label = "阝\n* pinnacle"];
-  击 [label = "击\n1234 beat"];
-  "囧奉－𡗗" [label = "囧奉－𡗗\n* cornstalk"];
-  丰 [label = "丰\n1223 plentiful"];
-  山 [label = "山\n688 mountain"];
+  G [label = "陆\nland (1235)"];
+  B [label = "阝\npinnacle (*)"];
+  F [label = "击\nbeat (1234)"];
+  D [label = "囧奉－𡗗\ncornstalk (*)"];
+  C [label = "丰\nplentiful (1223)"];
+  E [label = "山\nmountain (688)"];
 
-  阝 -> 陆 [thick];
-  击 -> 陆 [thick];
-  "囧奉－𡗗" -> 击 [thick];
-  丰 -> "囧奉－𡗗" [thick];
-  山 -> 击 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

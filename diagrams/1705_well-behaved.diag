@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  乖 [label = "乖\n1705 well-behaved"];
-  千 [label = "千\n39 thousand"];
-  丶 [label = "丶\n* a drop of"];
-  十 [label = "十\n10 ten"];
-  北 [label = "北\n454 north"];
-  匕 [label = "匕\n453 ancient spoon"];
+  G [label = "乖\nwell-behaved (1705)"];
+  D [label = "千\nthousand (39)"];
+  B [label = "丶\na drop of (*)"];
+  C [label = "十\nten (10)"];
+  F [label = "北\nnorth (454)"];
+  E [label = "匕\nancient spoon (453)"];
 
-  千 -> 乖 [thick];
-  丶 -> 千 [thick];
-  十 -> 千 [thick];
-  北 -> 乖 [thick];
-  匕 -> 北 [thick];
+  D -> G [thick];
+  B -> D [thick];
+  C -> D [thick];
+  F -> G [thick];
+  E -> F [thick];
 }

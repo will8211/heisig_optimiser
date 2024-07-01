@@ -5,19 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  管 [label = "管\n1042 pipe"];
-  竹 [label = "竹\n786 bamboo"];
-  丁 [label = "丁\n90 fourth"];
-  官 [label = "官\n1041 bureaucrat"];
-  "𠂤" [label = "𠂤\n* maestro"];
-  丶 [label = "丶\n* a drop of"];
-  宀 [label = "宀\n* house"];
+  I [label = "管\npipe (1042)"];
+  C [label = "竹\nbamboo (786)"];
+  B [label = "丁\nfourth (90)"];
+  H [label = "官\nbureaucrat (1041)"];
+  E [label = "𠂤\nmaestro (*)"];
+  D [label = "丶\na drop of (*)"];
+  F [label = "丶\na drop of (*)"];
+  G [label = "宀\nhouse (*)"];
 
-  竹 -> 管 [thick];
-  丁 -> 竹 [thick];
-  官 -> 管 [thick];
-  "𠂤" -> 官 [thick];
-  丶 -> "𠂤" [thick];
-  丶 -> 官 [thick];
-  宀 -> 官 [thick];
+  C -> I [thick];
+  B -> C [thick];
+  H -> I [thick];
+  E -> H [thick];
+  D -> E [thick];
+  F -> H [thick];
+  G -> H [thick];
 }

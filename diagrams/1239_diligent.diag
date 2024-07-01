@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  勤 [label = "勤\n1239 diligent"];
-  堇 [label = "堇\n* spinach"];
-  囧昔－日 [label = "囧昔－日\n* salad"];
-  艹 [label = "艹\n* flower"];
-  口 [label = "口\n11 mouth"];
-  囧毒－母 [label = "囧毒－母\n* grow up"];
-  肌 [label = "肌\n63 muscle"];
-  几 [label = "几\n57 how many?"];
-  月 [label = "月\n13 month"];
+  J [label = "勤\ndiligent (1239)"];
+  F [label = "堇\nspinach (*)"];
+  C [label = "囧昔－日\nsalad (*)"];
+  B [label = "艹\nflower (*)"];
+  D [label = "口\nmouth (11)"];
+  E [label = "囧毒－母\ngrow up (*)"];
+  I [label = "肌\nmuscle (63)"];
+  G [label = "几\nhow many? (57)"];
+  H [label = "月\nmonth (13)"];
 
-  堇 -> 勤 [thick];
-  囧昔－日 -> 堇 [thick];
-  艹 -> 囧昔－日 [thick];
-  口 -> 堇 [thick];
-  囧毒－母 -> 堇 [thick];
-  肌 -> 勤 [thick];
-  几 -> 肌 [thick];
-  月 -> 肌 [thick];
+  F -> J [thick];
+  C -> F [thick];
+  B -> C [thick];
+  D -> F [thick];
+  E -> F [thick];
+  I -> J [thick];
+  G -> I [thick];
+  H -> I [thick];
 }

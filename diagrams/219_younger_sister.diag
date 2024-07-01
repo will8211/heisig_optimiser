@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  妹 [label = "妹\n219 younger sister"];
-  女 [label = "女\n102 woman"];
-  未 [label = "未\n215 not yet"];
-  木 [label = "木\n202 tree"];
+  E [label = "妹\nyounger sister (219)"];
+  B [label = "女\nwoman (102)"];
+  D [label = "未\nnot yet (215)"];
+  C [label = "木\ntree (202)"];
 
-  女 -> 妹 [thick];
-  未 -> 妹 [thick];
-  木 -> 未 [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

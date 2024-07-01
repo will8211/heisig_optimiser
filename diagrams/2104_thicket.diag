@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  丛 [label = "丛\n2104 thicket"];
-  从 [label = "从\n846 follow"];
-  人 [label = "人\n793 person"];
-  一 [label = "一\n1 one"];
+  E [label = "丛\nthicket (2104)"];
+  C [label = "从\nfollow (846)"];
+  B [label = "人\nperson (793)"];
+  D [label = "一\none (1)"];
 
-  从 -> 丛 [thick];
-  人 -> 从 [thick];
-  一 -> 丛 [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
 }

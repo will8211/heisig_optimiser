@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  呆 [label = "呆\n209 dim-witted"];
-  木 [label = "木\n202 tree"];
-  口 [label = "口\n11 mouth"];
+  D [label = "呆\ndim-witted (209)"];
+  B [label = "木\ntree (202)"];
+  C [label = "口\nmouth (11)"];
 
-  木 -> 呆 [thick];
-  口 -> 呆 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

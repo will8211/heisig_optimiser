@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  尔 [label = "尔\n798 you (literary)"];
-  小 [label = "小\n109 small"];
-  丶 [label = "丶\n* a drop of"];
+  D [label = "尔\nyou (literary) (798)"];
+  C [label = "小\nsmall (109)"];
+  B [label = "丶\na drop of (*)"];
 
-  小 -> 尔 [thick];
-  丶 -> 小 [thick];
+  C -> D [thick];
+  B -> C [thick];
 }

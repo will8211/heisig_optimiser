@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  巢 [label = "巢\n2179 nest"];
-  川 [label = "川\n134 stream"];
-  果 [label = "果\n921 fruit"];
-  木 [label = "木\n202 tree"];
-  田 [label = "田\n14 rice field"];
+  F [label = "巢\nnest (2179)"];
+  B [label = "川\nstream (134)"];
+  E [label = "果\nfruit (921)"];
+  C [label = "木\ntree (202)"];
+  D [label = "田\nrice field (14)"];
 
-  川 -> 巢 [thick];
-  果 -> 巢 [thick];
-  木 -> 果 [thick];
-  田 -> 果 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

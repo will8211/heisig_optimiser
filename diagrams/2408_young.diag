@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  幼 [label = "幼\n2408 young"];
-  幺 [label = "幺\n* cocoon"];
-  肌 [label = "肌\n63 muscle"];
-  几 [label = "几\n57 how many?"];
-  月 [label = "月\n13 month"];
+  F [label = "幼\nyoung (2408)"];
+  B [label = "幺\ncocoon (*)"];
+  E [label = "肌\nmuscle (63)"];
+  C [label = "几\nhow many? (57)"];
+  D [label = "月\nmonth (13)"];
 
-  幺 -> 幼 [thick];
-  肌 -> 幼 [thick];
-  几 -> 肌 [thick];
-  月 -> 肌 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  艳 [label = "艳\n1332 gorgeous"];
-  丰 [label = "丰\n1223 plentiful"];
-  色 [label = "色\n1330 color"];
-  勹 [label = "勹\n* bound up"];
-  巴 [label = "巴\n1326 crust"];
+  F [label = "艳\ngorgeous (1332)"];
+  B [label = "丰\nplentiful (1223)"];
+  E [label = "色\ncolor (1330)"];
+  C [label = "勹\nbound up (*)"];
+  D [label = "巴\ncrust (1326)"];
 
-  丰 -> 艳 [thick];
-  色 -> 艳 [thick];
-  勹 -> 色 [thick];
-  巴 -> 色 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

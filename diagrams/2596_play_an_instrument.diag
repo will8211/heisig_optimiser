@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  奏 [label = "奏\n2596 play an instrument"];
-  "𡗗" [label = "𡗗\n* bonsai"];
-  丰 [label = "丰\n1223 plentiful"];
-  天 [label = "天\n436 heavens"];
-  一 [label = "一\n1 one"];
-  大 [label = "大\n113 large"];
+  G [label = "奏\nplay an instrument (2596)"];
+  C [label = "𡗗\nbonsai (*)"];
+  B [label = "丰\nplentiful (1223)"];
+  F [label = "天\nheavens (436)"];
+  D [label = "一\none (1)"];
+  E [label = "大\nlarge (113)"];
 
-  "𡗗" -> 奏 [thick];
-  丰 -> "𡗗" [thick];
-  天 -> 奏 [thick];
-  一 -> 天 [thick];
-  大 -> 天 [thick];
+  C -> G [thick];
+  B -> C [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

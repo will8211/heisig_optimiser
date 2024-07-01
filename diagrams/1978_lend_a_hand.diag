@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  扶 [label = "扶\n1978 lend a hand"];
-  扌 [label = "扌\n* fingers"];
-  夫 [label = "夫\n726 husband"];
-  大 [label = "大\n113 large"];
+  E [label = "扶\nlend a hand (1978)"];
+  B [label = "扌\nfingers (*)"];
+  D [label = "夫\nhusband (726)"];
+  C [label = "大\nlarge (113)"];
 
-  扌 -> 扶 [thick];
-  夫 -> 扶 [thick];
-  大 -> 夫 [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  逗 [label = "逗\n2480 tease"];
-  豆 [label = "豆\n1131 beans"];
-  辶 [label = "辶\n* road"];
+  D [label = "逗\ntease (2480)"];
+  B [label = "豆\nbeans (1131)"];
+  C [label = "辶\nroad (*)"];
 
-  豆 -> 逗 [thick];
-  辶 -> 逗 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

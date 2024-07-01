@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  越 [label = "越\n393 surpass"];
-  戊 [label = "戊\n* parade"];
-  戈 [label = "戈\n361 halberd"];
-  弋 [label = "弋\n* arrow"];
-  走 [label = "走\n391 walk"];
-  囧走－十 [label = "囧走－十\n* mending"];
-  正 [label = "正\n387 correct"];
-  一 [label = "一\n1 one"];
-  止 [label = "止\n379 stop"];
-  土 [label = "土\n158 soil"];
+  K [label = "越\nsurpass (393)"];
+  D [label = "戊\nparade (*)"];
+  C [label = "戈\nhalberd (361)"];
+  B [label = "弋\narrow (*)"];
+  J [label = "走\nwalk (391)"];
+  H [label = "囧走－十\nmending (*)"];
+  G [label = "正\ncorrect (387)"];
+  E [label = "一\none (1)"];
+  F [label = "止\nstop (379)"];
+  I [label = "土\nsoil (158)"];
 
-  戊 -> 越 [thick];
-  戈 -> 戊 [thick];
-  弋 -> 戈 [thick];
-  走 -> 越 [thick];
-  囧走－十 -> 走 [thick];
-  正 -> 囧走－十 [thick];
-  一 -> 正 [thick];
-  止 -> 正 [thick];
-  土 -> 走 [thick];
+  D -> K [thick];
+  C -> D [thick];
+  B -> C [thick];
+  J -> K [thick];
+  H -> J [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
+  I -> J [thick];
 }

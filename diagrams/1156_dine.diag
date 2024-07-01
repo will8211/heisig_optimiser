@@ -5,29 +5,30 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  餐 [label = "餐\n1156 dine"];
-  卜 [label = "卜\n43 divination"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  夕 [label = "夕\n115 evening"];
-  月 [label = "月\n13 month"];
-  又 [label = "又\n633 again"];
-  食 [label = "食\n1154 food"];
-  良 [label = "良\n1151 high-quality"];
-  艮 [label = "艮\n* silver"];
-  "𠆢" [label = "𠆢\n* umbrella"];
+  N [label = "餐\ndine (1156)"];
+  E [label = "卜\ndivination (43)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  G [label = "夕\nevening (115)"];
+  F [label = "月\nmonth (13)"];
+  H [label = "又\nagain (633)"];
+  M [label = "食\nfood (1154)"];
+  K [label = "良\nhigh-quality (1151)"];
+  I [label = "丶\na drop of (*)"];
+  J [label = "艮\nsilver (*)"];
+  L [label = "𠆢\numbrella (*)"];
 
-  卜 -> 餐 [thick];
-  丨 -> 卜 [thick];
-  一 -> 丨 [thick];
-  丶 -> 卜 [thick];
-  夕 -> 餐 [thick];
-  月 -> 夕 [thick];
-  又 -> 餐 [thick];
-  食 -> 餐 [thick];
-  良 -> 食 [thick];
-  丶 -> 良 [thick];
-  艮 -> 良 [thick];
-  "𠆢" -> 食 [thick];
+  E -> N [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  G -> N [thick];
+  F -> G [thick];
+  H -> N [thick];
+  M -> N [thick];
+  K -> M [thick];
+  I -> K [thick];
+  J -> K [thick];
+  L -> M [thick];
 }

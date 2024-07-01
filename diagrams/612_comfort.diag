@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  抚 [label = "抚\n612 comfort"];
-  扌 [label = "扌\n* fingers"];
-  无 [label = "无\n611 nothing"];
+  D [label = "抚\ncomfort (612)"];
+  B [label = "扌\nfingers (*)"];
+  C [label = "无\nnothing (611)"];
 
-  扌 -> 抚 [thick];
-  无 -> 抚 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

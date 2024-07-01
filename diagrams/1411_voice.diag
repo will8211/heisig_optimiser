@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  声 [label = "声\n1411 voice"];
-  士 [label = "士\n334 soldier"];
-  尸 [label = "尸\n882 corpse"];
+  D [label = "声\nvoice (1411)"];
+  B [label = "士\nsoldier (334)"];
+  C [label = "尸\ncorpse (882)"];
 
-  士 -> 声 [thick];
-  尸 -> 声 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

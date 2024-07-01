@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  宰 [label = "宰\n2553 butcher"];
-  宀 [label = "宀\n* house"];
-  辛 [label = "辛\n1183 peppery"];
-  立 [label = "立\n444 standing up"];
-  十 [label = "十\n10 ten"];
+  F [label = "宰\nbutcher (2553)"];
+  B [label = "宀\nhouse (*)"];
+  E [label = "辛\npeppery (1183)"];
+  C [label = "立\nstanding up (444)"];
+  D [label = "十\nten (10)"];
 
-  宀 -> 宰 [thick];
-  辛 -> 宰 [thick];
-  立 -> 辛 [thick];
-  十 -> 辛 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

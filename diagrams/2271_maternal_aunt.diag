@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  姨 [label = "姨\n2271 maternal aunt"];
-  女 [label = "女\n102 woman"];
-  夷 [label = "夷\n2270 barbarian"];
-  大 [label = "大\n113 large"];
-  弓 [label = "弓\n1013 bow"];
+  F [label = "姨\nmaternal aunt (2271)"];
+  B [label = "女\nwoman (102)"];
+  E [label = "夷\nbarbarian (2270)"];
+  C [label = "大\nlarge (113)"];
+  D [label = "弓\nbow (1013)"];
 
-  女 -> 姨 [thick];
-  夷 -> 姨 [thick];
-  大 -> 夷 [thick];
-  弓 -> 夷 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

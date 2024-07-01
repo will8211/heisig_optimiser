@@ -5,26 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  蓄 [label = "蓄\n2414 save up"];
-  艹 [label = "艹\n* flower"];
-  畜 [label = "畜\n2413 livestock"];
-  玄 [label = "玄\n2411 mysterious"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  幺 [label = "幺\n* cocoon"];
-  田 [label = "田\n14 rice field"];
+  M [label = "蓄\nsave up (2414)"];
+  B [label = "艹\nflower (*)"];
+  L [label = "畜\nlivestock (2413)"];
+  J [label = "玄\nmysterious (2411)"];
+  H [label = "亠\ntop hat (*)"];
+  E [label = "六\nsix (6)"];
+  D [label = "囧只－口\nanimal legs (*)"];
+  C [label = "八\neight (8)"];
+  G [label = "囧只－口\nanimal legs (*)"];
+  F [label = "八\neight (8)"];
+  I [label = "幺\ncocoon (*)"];
+  K [label = "田\nrice field (14)"];
 
-  艹 -> 蓄 [thick];
-  畜 -> 蓄 [thick];
-  玄 -> 畜 [thick];
-  亠 -> 玄 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
-  幺 -> 玄 [thick];
-  田 -> 畜 [thick];
+  B -> M [thick];
+  L -> M [thick];
+  J -> L [thick];
+  H -> J [thick];
+  E -> H [thick];
+  D -> E [thick];
+  C -> D [thick];
+  G -> H [thick];
+  F -> G [thick];
+  I -> J [thick];
+  K -> L [thick];
 }

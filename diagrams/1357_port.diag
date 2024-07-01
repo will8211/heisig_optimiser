@@ -5,30 +5,30 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  港 [label = "港\n1357 port"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  巷 [label = "巷\n1356 lane"];
-  共 [label = "共\n1354 together"];
-  囧昔－日 [label = "囧昔－日\n* salad"];
-  艹 [label = "艹\n* flower"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  已 [label = "已\n519 already"];
-  己 [label = "己\n515 self"];
+  N [label = "港\nport (1357)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  M [label = "巷\nlane (1356)"];
+  J [label = "共\ntogether (1354)"];
+  G [label = "囧昔－日\nsalad (*)"];
+  F [label = "艹\nflower (*)"];
+  I [label = "囧只－口\nanimal legs (*)"];
+  H [label = "八\neight (8)"];
+  L [label = "已\nalready (519)"];
+  K [label = "己\nself (515)"];
 
-  水 -> 港 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  巷 -> 港 [thick];
-  共 -> 巷 [thick];
-  囧昔－日 -> 共 [thick];
-  艹 -> 囧昔－日 [thick];
-  囧只－口 -> 共 [thick];
-  八 -> 囧只－口 [thick];
-  已 -> 巷 [thick];
-  己 -> 已 [thick];
+  E -> N [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  M -> N [thick];
+  J -> M [thick];
+  G -> J [thick];
+  F -> G [thick];
+  I -> J [thick];
+  H -> I [thick];
+  L -> M [thick];
+  K -> L [thick];
 }

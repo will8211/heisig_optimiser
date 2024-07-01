@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  坦 [label = "坦\n1539 level"];
-  土 [label = "土\n158 soil"];
-  旦 [label = "旦\n30 daybreak"];
-  日 [label = "日\n12 day"];
-  一 [label = "一\n1 one"];
+  F [label = "坦\nlevel (1539)"];
+  B [label = "土\nsoil (158)"];
+  E [label = "旦\ndaybreak (30)"];
+  C [label = "日\nday (12)"];
+  D [label = "一\none (1)"];
 
-  土 -> 坦 [thick];
-  旦 -> 坦 [thick];
-  日 -> 旦 [thick];
-  一 -> 旦 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

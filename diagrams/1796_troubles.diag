@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  患 [label = "患\n1796 troubles"];
-  串 [label = "串\n1506 string together"];
-  心 [label = "心\n563 heart"];
+  D [label = "患\ntroubles (1796)"];
+  B [label = "串\nstring together (1506)"];
+  C [label = "心\nheart (563)"];
 
-  串 -> 患 [thick];
-  心 -> 患 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  膝 [label = "膝\n2025 knees"];
-  月 [label = "月\n13 month"];
-  桼 [label = "桼\n* Baron von Rumpelbrella"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  木 [label = "木\n202 tree"];
+  J [label = "膝\nknees (2025)"];
+  B [label = "月\nmonth (13)"];
+  I [label = "桼\nBaron von Rumpelbrella (*)"];
+  C [label = "𠆢\numbrella (*)"];
+  G [label = "水\nwater (137)"];
+  E [label = "丨\nwalking stick (*)"];
+  D [label = "一\none (1)"];
+  F [label = "丶\na drop of (*)"];
+  H [label = "木\ntree (202)"];
 
-  月 -> 膝 [thick];
-  桼 -> 膝 [thick];
-  "𠆢" -> 桼 [thick];
-  水 -> 桼 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  木 -> 桼 [thick];
+  B -> J [thick];
+  I -> J [thick];
+  C -> I [thick];
+  G -> I [thick];
+  E -> G [thick];
+  D -> E [thick];
+  F -> G [thick];
+  H -> I [thick];
 }

@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  膏 [label = "膏\n1636 ointment"];
-  囧高 [label = "囧高\n* Eiffel Tower"];
-  月 [label = "月\n13 month"];
+  D [label = "膏\nointment (1636)"];
+  B [label = "囧高\nEiffel Tower (*)"];
+  C [label = "月\nmonth (13)"];
 
-  囧高 -> 膏 [thick];
-  月 -> 膏 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

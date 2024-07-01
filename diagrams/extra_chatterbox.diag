@@ -5,8 +5,8 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  吅 [label = "吅\n* chatterbox"];
-  口 [label = "口\n11 mouth"];
+  C [label = "吅\nchatterbox (*)"];
+  B [label = "口\nmouth (11)"];
 
-  口 -> 吅 [thick];
+  B -> C [thick];
 }

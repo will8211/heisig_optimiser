@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  愕 [label = "愕\n2292 stunned"];
-  心 [label = "心\n563 heart"];
-  吅 [label = "吅\n* chatterbox"];
-  口 [label = "口\n11 mouth"];
-  亏 [label = "亏\n2286 loss"];
-  丂 [label = "丂\n* snare"];
+  G [label = "愕\nstunned (2292)"];
+  B [label = "心\nheart (563)"];
+  D [label = "吅\nchatterbox (*)"];
+  C [label = "口\nmouth (11)"];
+  F [label = "亏\nloss (2286)"];
+  E [label = "丂\nsnare (*)"];
 
-  心 -> 愕 [thick];
-  吅 -> 愕 [thick];
-  口 -> 吅 [thick];
-  亏 -> 愕 [thick];
-  丂 -> 亏 [thick];
+  B -> G [thick];
+  D -> G [thick];
+  C -> D [thick];
+  F -> G [thick];
+  E -> F [thick];
 }

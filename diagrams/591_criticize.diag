@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  批 [label = "批\n591 criticize"];
-  扌 [label = "扌\n* fingers"];
-  比 [label = "比\n456 compare"];
-  匕 [label = "匕\n453 ancient spoon"];
+  E [label = "批\ncriticize (591)"];
+  B [label = "扌\nfingers (*)"];
+  D [label = "比\ncompare (456)"];
+  C [label = "匕\nancient spoon (453)"];
 
-  扌 -> 批 [thick];
-  比 -> 批 [thick];
-  匕 -> 比 [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  招 [label = "招\n592 beckon"];
-  扌 [label = "扌\n* fingers"];
-  召 [label = "召\n86 summon"];
-  刀 [label = "刀\n83 sword"];
-  口 [label = "口\n11 mouth"];
+  F [label = "招\nbeckon (592)"];
+  B [label = "扌\nfingers (*)"];
+  E [label = "召\nsummon (86)"];
+  C [label = "刀\nsword (83)"];
+  D [label = "口\nmouth (11)"];
 
-  扌 -> 招 [thick];
-  召 -> 招 [thick];
-  刀 -> 召 [thick];
-  口 -> 召 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  囧勾 [label = "囧勾\n* cast"];
-  勹 [label = "勹\n* bound up"];
-  厶 [label = "厶\n* elbow"];
+  D [label = "囧勾\ncast (*)"];
+  B [label = "勹\nbound up (*)"];
+  C [label = "厶\nelbow (*)"];
 
-  勹 -> 囧勾 [thick];
-  厶 -> 囧勾 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

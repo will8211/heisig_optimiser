@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  忆 [label = "忆\n1806 recall"];
-  心 [label = "心\n563 heart"];
-  乙 [label = "乙\n95 second"];
+  D [label = "忆\nrecall (1806)"];
+  B [label = "心\nheart (563)"];
+  C [label = "乙\nsecond (95)"];
 
-  心 -> 忆 [thick];
-  乙 -> 忆 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

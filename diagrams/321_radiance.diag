@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  辉 [label = "辉\n321 radiance"];
-  光 [label = "光\n130 ray"];
-  小 [label = "小\n109 small"];
-  丶 [label = "丶\n* a drop of"];
-  儿 [label = "儿\n56 youngster"];
-  军 [label = "军\n320 army"];
-  冖 [label = "冖\n* crown"];
-  车 [label = "车\n300 car"];
+  I [label = "辉\nradiance (321)"];
+  E [label = "光\nray (130)"];
+  C [label = "小\nsmall (109)"];
+  B [label = "丶\na drop of (*)"];
+  D [label = "儿\nyoungster (56)"];
+  H [label = "军\narmy (320)"];
+  F [label = "冖\ncrown (*)"];
+  G [label = "车\ncar (300)"];
 
-  光 -> 辉 [thick];
-  小 -> 光 [thick];
-  丶 -> 小 [thick];
-  儿 -> 光 [thick];
-  军 -> 辉 [thick];
-  冖 -> 军 [thick];
-  车 -> 军 [thick];
+  E -> I [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  H -> I [thick];
+  F -> H [thick];
+  G -> H [thick];
 }

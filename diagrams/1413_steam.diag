@@ -5,23 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  蒸 [label = "蒸\n1413 steam"];
-  艹 [label = "艹\n* flower"];
-  一 [label = "一\n1 one"];
-  火 [label = "火\n170 fire"];
-  了 [label = "了\n101 -ed"];
-  子 [label = "子\n97 child"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  丶 [label = "丶\n* a drop of"];
+  K [label = "蒸\nsteam (1413)"];
+  B [label = "艹\nflower (*)"];
+  C [label = "一\none (1)"];
+  D [label = "火\nfire (170)"];
+  F [label = "了\n-ed (101)"];
+  E [label = "子\nchild (97)"];
+  J [label = "水\nwater (137)"];
+  H [label = "丨\nwalking stick (*)"];
+  G [label = "一\none (1)"];
+  I [label = "丶\na drop of (*)"];
 
-  艹 -> 蒸 [thick];
-  一 -> 蒸 [thick];
-  火 -> 蒸 [thick];
-  了 -> 蒸 [thick];
-  子 -> 了 [thick];
-  水 -> 蒸 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
+  B -> K [thick];
+  C -> K [thick];
+  D -> K [thick];
+  F -> K [thick];
+  E -> F [thick];
+  J -> K [thick];
+  H -> J [thick];
+  G -> H [thick];
+  I -> J [thick];
 }

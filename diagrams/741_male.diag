@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  男 [label = "男\n741 male"];
-  田 [label = "田\n14 rice field"];
-  力 [label = "力\n732 power"];
+  D [label = "男\nmale (741)"];
+  B [label = "田\nrice field (14)"];
+  C [label = "力\npower (732)"];
 
-  田 -> 男 [thick];
-  力 -> 男 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

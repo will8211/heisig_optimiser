@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  蛾 [label = "蛾\n1826 moth"];
-  虫 [label = "虫\n509 insect"];
-  囧我 [label = "囧我\n* miser"];
-  我 [label = "我\n588 I"];
-  手 [label = "手\n584 hand"];
-  戈 [label = "戈\n361 halberd"];
-  弋 [label = "弋\n* arrow"];
+  H [label = "蛾\nmoth (1826)"];
+  B [label = "虫\ninsect (509)"];
+  G [label = "囧我\nmiser (*)"];
+  F [label = "我\nI (588)"];
+  C [label = "手\nhand (584)"];
+  E [label = "戈\nhalberd (361)"];
+  D [label = "弋\narrow (*)"];
 
-  虫 -> 蛾 [thick];
-  囧我 -> 蛾 [thick];
-  我 -> 囧我 [thick];
-  手 -> 我 [thick];
-  戈 -> 我 [thick];
-  弋 -> 戈 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  F -> G [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
 }

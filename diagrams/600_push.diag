@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  推 [label = "推\n600 push"];
-  扌 [label = "扌\n* fingers"];
-  隹 [label = "隹\n* turkey"];
+  D [label = "推\npush (600)"];
+  B [label = "扌\nfingers (*)"];
+  C [label = "隹\nturkey (*)"];
 
-  扌 -> 推 [thick];
-  隹 -> 推 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

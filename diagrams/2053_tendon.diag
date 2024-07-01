@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  筋 [label = "筋\n2053 tendon"];
-  竹 [label = "竹\n786 bamboo"];
-  丁 [label = "丁\n90 fourth"];
-  月 [label = "月\n13 month"];
-  力 [label = "力\n732 power"];
+  F [label = "筋\ntendon (2053)"];
+  C [label = "竹\nbamboo (786)"];
+  B [label = "丁\nfourth (90)"];
+  D [label = "月\nmonth (13)"];
+  E [label = "力\npower (732)"];
 
-  竹 -> 筋 [thick];
-  丁 -> 竹 [thick];
-  月 -> 筋 [thick];
-  力 -> 筋 [thick];
+  C -> F [thick];
+  B -> C [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

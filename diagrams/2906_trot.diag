@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  骤 [label = "骤\n2906 trot"];
-  马 [label = "马\n1453 horse"];
-  囧与－丨一 [label = "囧与－丨一\n* pointed tail"];
-  聚 [label = "聚\n2098 assemble"];
-  取 [label = "取\n718 take"];
-  耳 [label = "耳\n717 ear"];
-  又 [label = "又\n633 again"];
-  人 [label = "人\n793 person"];
+  I [label = "骤\ntrot (2906)"];
+  C [label = "马\nhorse (1453)"];
+  B [label = "囧与－丨一\npointed tail (*)"];
+  H [label = "聚\nassemble (2098)"];
+  F [label = "取\ntake (718)"];
+  D [label = "耳\near (717)"];
+  E [label = "又\nagain (633)"];
+  G [label = "人\nperson (793)"];
 
-  马 -> 骤 [thick];
-  囧与－丨一 -> 马 [thick];
-  聚 -> 骤 [thick];
-  取 -> 聚 [thick];
-  耳 -> 取 [thick];
-  又 -> 取 [thick];
-  人 -> 聚 [thick];
+  C -> I [thick];
+  B -> C [thick];
+  H -> I [thick];
+  F -> H [thick];
+  D -> F [thick];
+  E -> F [thick];
+  G -> H [thick];
 }

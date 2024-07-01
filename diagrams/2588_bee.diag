@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  蜂 [label = "蜂\n2588 bee"];
-  虫 [label = "虫\n509 insect"];
-  夆 [label = "夆\n* briar"];
-  丰 [label = "丰\n1223 plentiful"];
-  夂 [label = "夂\n* walking legs"];
+  F [label = "蜂\nbee (2588)"];
+  B [label = "虫\ninsect (509)"];
+  E [label = "夆\nbriar (*)"];
+  C [label = "丰\nplentiful (1223)"];
+  D [label = "夂\nwalking legs (*)"];
 
-  虫 -> 蜂 [thick];
-  夆 -> 蜂 [thick];
-  丰 -> 夆 [thick];
-  夂 -> 夆 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

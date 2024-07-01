@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  朿 [label = "朿\n* thorn"];
-  囧冂 [label = "囧冂\n* belt"];
-  巾 [label = "巾\n410 towel"];
-  木 [label = "木\n202 tree"];
+  E [label = "朿\nthorn (*)"];
+  C [label = "囧冂\nbelt (*)"];
+  B [label = "巾\ntowel (410)"];
+  D [label = "木\ntree (202)"];
 
-  囧冂 -> 朿 [thick];
-  巾 -> 囧冂 [thick];
-  木 -> 朿 [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
 }

@@ -5,28 +5,30 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  屯 [label = "屯\n2542 stockpile"];
-  一 [label = "一\n1 one"];
-  坑 [label = "坑\n323 pit"];
-  亢 [label = "亢\n* whirlwind"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  几 [label = "几\n57 how many?"];
-  土 [label = "土\n158 soil"];
-  乙 [label = "乙\n95 second"];
+  N [label = "屯\nstockpile (2542)"];
+  B [label = "一\none (1)"];
+  L [label = "坑\npit (323)"];
+  J [label = "亢\nwhirlwind (*)"];
+  H [label = "亠\ntop hat (*)"];
+  E [label = "六\nsix (6)"];
+  D [label = "囧只－口\nanimal legs (*)"];
+  C [label = "八\neight (8)"];
+  G [label = "囧只－口\nanimal legs (*)"];
+  F [label = "八\neight (8)"];
+  I [label = "几\nhow many? (57)"];
+  K [label = "土\nsoil (158)"];
+  M [label = "乙\nsecond (95)"];
 
-  一 -> 屯 [thick];
-  坑 -> 屯 [thick];
-  亢 -> 坑 [thick];
-  亠 -> 亢 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
-  几 -> 亢 [thick];
-  土 -> 坑 [thick];
-  乙 -> 屯 [thick];
+  B -> N [thick];
+  L -> N [thick];
+  J -> L [thick];
+  H -> J [thick];
+  E -> H [thick];
+  D -> E [thick];
+  C -> D [thick];
+  G -> H [thick];
+  F -> G [thick];
+  I -> J [thick];
+  K -> L [thick];
+  M -> N [thick];
 }

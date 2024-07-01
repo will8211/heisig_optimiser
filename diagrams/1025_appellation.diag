@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  号 [label = "号\n1025 appellation"];
-  口 [label = "口\n11 mouth"];
-  丂 [label = "丂\n* snare"];
+  D [label = "号\nappellation (1025)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "丂\nsnare (*)"];
 
-  口 -> 号 [thick];
-  丂 -> 号 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

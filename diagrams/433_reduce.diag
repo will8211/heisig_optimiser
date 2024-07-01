@@ -5,27 +5,30 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  减 [label = "减\n433 reduce"];
-  冫 [label = "冫\n* ice"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  盐 [label = "盐\n2487 salt"];
-  土 [label = "土\n158 soil"];
-  卜 [label = "卜\n43 divination"];
-  皿 [label = "皿\n* dish"];
+  N [label = "减\nreduce (433)"];
+  F [label = "冫\nice (*)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  M [label = "盐\nsalt (2487)"];
+  G [label = "土\nsoil (158)"];
+  K [label = "卜\ndivination (43)"];
+  I [label = "丨\nwalking stick (*)"];
+  H [label = "一\none (1)"];
+  J [label = "丶\na drop of (*)"];
+  L [label = "皿\ndish (*)"];
 
-  冫 -> 减 [thick];
-  水 -> 冫 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  盐 -> 减 [thick];
-  土 -> 盐 [thick];
-  卜 -> 盐 [thick];
-  丨 -> 卜 [thick];
-  一 -> 丨 [thick];
-  丶 -> 卜 [thick];
-  皿 -> 盐 [thick];
+  F -> N [thick];
+  E -> F [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  M -> N [thick];
+  G -> M [thick];
+  K -> M [thick];
+  I -> K [thick];
+  H -> I [thick];
+  J -> K [thick];
+  L -> M [thick];
 }

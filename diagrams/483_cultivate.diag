@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  培 [label = "培\n483 cultivate"];
-  咅 [label = "咅\n* muzzle"];
-  立 [label = "立\n444 standing up"];
-  口 [label = "口\n11 mouth"];
-  土 [label = "土\n158 soil"];
+  F [label = "培\ncultivate (483)"];
+  D [label = "咅\nmuzzle (*)"];
+  B [label = "立\nstanding up (444)"];
+  C [label = "口\nmouth (11)"];
+  E [label = "土\nsoil (158)"];
 
-  咅 -> 培 [thick];
-  立 -> 咅 [thick];
-  口 -> 咅 [thick];
-  土 -> 培 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

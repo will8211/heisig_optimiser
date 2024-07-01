@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  猜 [label = "猜\n2567 guess"];
-  犬 [label = "犬\n239 pooch"];
-  大 [label = "大\n113 large"];
-  丶 [label = "丶\n* a drop of"];
-  青 [label = "青\n1208 blue or green"];
-  囧毒－母 [label = "囧毒－母\n* grow up"];
-  月 [label = "月\n13 month"];
+  H [label = "猜\nguess (2567)"];
+  D [label = "犬\npooch (239)"];
+  B [label = "大\nlarge (113)"];
+  C [label = "丶\na drop of (*)"];
+  G [label = "青\nblue or green (1208)"];
+  E [label = "囧毒－母\ngrow up (*)"];
+  F [label = "月\nmonth (13)"];
 
-  犬 -> 猜 [thick];
-  大 -> 犬 [thick];
-  丶 -> 犬 [thick];
-  青 -> 猜 [thick];
-  囧毒－母 -> 青 [thick];
-  月 -> 青 [thick];
+  D -> H [thick];
+  B -> D [thick];
+  C -> D [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  腹 [label = "腹\n473 abdomen"];
-  体 [label = "体\n813 body"];
-  人 [label = "人\n793 person"];
-  本 [label = "本\n213 notebook"];
-  木 [label = "木\n202 tree"];
-  复 [label = "复\n472 duplicate"];
-  "𠂉" [label = "𠂉\n* reclining"];
-  日 [label = "日\n12 day"];
-  夂 [label = "夂\n* walking legs"];
+  J [label = "腹\nabdomen (473)"];
+  E [label = "体\nbody (813)"];
+  B [label = "人\nperson (793)"];
+  D [label = "本\nnotebook (213)"];
+  C [label = "木\ntree (202)"];
+  I [label = "复\nduplicate (472)"];
+  F [label = "𠂉\nreclining (*)"];
+  G [label = "日\nday (12)"];
+  H [label = "夂\nwalking legs (*)"];
 
-  体 -> 腹 [thick];
-  人 -> 体 [thick];
-  本 -> 体 [thick];
-  木 -> 本 [thick];
-  复 -> 腹 [thick];
-  "𠂉" -> 复 [thick];
-  日 -> 复 [thick];
-  夂 -> 复 [thick];
+  E -> J [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
+  I -> J [thick];
+  F -> I [thick];
+  G -> I [thick];
+  H -> I [thick];
 }

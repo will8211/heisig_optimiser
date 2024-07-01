@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  卸 [label = "卸\n2426 unload"];
-  午 [label = "午\n542 noon"];
-  止 [label = "止\n379 stop"];
-  卩 [label = "卩\n* stamp"];
+  E [label = "卸\nunload (2426)"];
+  B [label = "午\nnoon (542)"];
+  C [label = "止\nstop (379)"];
+  D [label = "卩\nstamp (*)"];
 
-  午 -> 卸 [thick];
-  止 -> 卸 [thick];
-  卩 -> 卸 [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

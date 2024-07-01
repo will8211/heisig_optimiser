@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  兴 [label = "兴\n1433 excitement"];
-  囧应－广 [label = "囧应－广\n* owl"];
-  一 [label = "一\n1 one"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
+  F [label = "兴\nexcitement (1433)"];
+  B [label = "囧应－广\nowl (*)"];
+  C [label = "一\none (1)"];
+  E [label = "囧只－口\nanimal legs (*)"];
+  D [label = "八\neight (8)"];
 
-  囧应－广 -> 兴 [thick];
-  一 -> 兴 [thick];
-  囧只－口 -> 兴 [thick];
-  八 -> 囧只－口 [thick];
+  B -> F [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
 }

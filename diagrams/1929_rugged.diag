@@ -5,20 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  崎 [label = "崎\n1929 rugged"];
-  山 [label = "山\n688 mountain"];
-  奇 [label = "奇\n133 strange"];
-  大 [label = "大\n113 large"];
-  可 [label = "可\n92 can"];
-  丁 [label = "丁\n90 fourth"];
-  口 [label = "口\n11 mouth"];
+  J [label = "崎\nrugged (1929)"];
+  B [label = "山\nmountain (688)"];
+  I [label = "奇\nstrange (133)"];
+  C [label = "大\nlarge (113)"];
+  F [label = "可\ncan (92)"];
+  D [label = "丁\nfourth (90)"];
+  E [label = "口\nmouth (11)"];
+  G [label = "口\nmouth (11)"];
+  H [label = "丁\nfourth (90)"];
 
-  山 -> 崎 [thick];
-  奇 -> 崎 [thick];
-  大 -> 奇 [thick];
-  可 -> 奇 [thick];
-  丁 -> 可 [thick];
-  口 -> 可 [thick];
-  口 -> 奇 [thick];
-  丁 -> 奇 [thick];
+  B -> J [thick];
+  I -> J [thick];
+  C -> I [thick];
+  F -> I [thick];
+  D -> F [thick];
+  E -> F [thick];
+  G -> I [thick];
+  H -> I [thick];
 }

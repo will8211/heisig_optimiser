@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  角 [label = "角\n1362 angle"];
-  勹 [label = "勹\n* bound up"];
-  用 [label = "用\n1361 utilize"];
+  D [label = "角\nangle (1362)"];
+  B [label = "勹\nbound up (*)"];
+  C [label = "用\nutilize (1361)"];
 
-  勹 -> 角 [thick];
-  用 -> 角 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

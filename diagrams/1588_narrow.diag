@@ -5,21 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  狭 [label = "狭\n1588 narrow"];
-  犬 [label = "犬\n239 pooch"];
-  大 [label = "大\n113 large"];
-  丶 [label = "丶\n* a drop of"];
-  夹 [label = "夹\n1523 press from both sides"];
-  夫 [label = "夫\n726 husband"];
-  丷 [label = "丷\n* horns"];
-  一 [label = "一\n1 one"];
+  J [label = "狭\nnarrow (1588)"];
+  D [label = "犬\npooch (239)"];
+  B [label = "大\nlarge (113)"];
+  C [label = "丶\na drop of (*)"];
+  I [label = "夹\npress from both sides (1523)"];
+  F [label = "夫\nhusband (726)"];
+  E [label = "大\nlarge (113)"];
+  H [label = "丷\nhorns (*)"];
+  G [label = "一\none (1)"];
 
-  犬 -> 狭 [thick];
-  大 -> 犬 [thick];
-  丶 -> 犬 [thick];
-  夹 -> 狭 [thick];
-  夫 -> 夹 [thick];
-  大 -> 夫 [thick];
-  丷 -> 夹 [thick];
-  一 -> 丷 [thick];
+  D -> J [thick];
+  B -> D [thick];
+  C -> D [thick];
+  I -> J [thick];
+  F -> I [thick];
+  E -> F [thick];
+  H -> I [thick];
+  G -> H [thick];
 }

@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  蒂 [label = "蒂\n1702 fruit stem"];
-  艹 [label = "艹\n* flower"];
-  帝 [label = "帝\n449 sovereign"];
-  立 [label = "立\n444 standing up"];
-  "囧冖＋巾" [label = "囧冖＋巾\n* apron"];
-  巾 [label = "巾\n410 towel"];
-  冖 [label = "冖\n* crown"];
+  H [label = "蒂\nfruit stem (1702)"];
+  B [label = "艹\nflower (*)"];
+  G [label = "帝\nsovereign (449)"];
+  C [label = "立\nstanding up (444)"];
+  F [label = "囧冖＋巾\napron (*)"];
+  D [label = "巾\ntowel (410)"];
+  E [label = "冖\ncrown (*)"];
 
-  艹 -> 蒂 [thick];
-  帝 -> 蒂 [thick];
-  立 -> 帝 [thick];
-  "囧冖＋巾" -> 帝 [thick];
-  巾 -> "囧冖＋巾" [thick];
-  冖 -> "囧冖＋巾" [thick];
+  B -> H [thick];
+  G -> H [thick];
+  C -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

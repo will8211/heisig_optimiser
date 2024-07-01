@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  旬 [label = "旬\n68 decameron"];
-  日 [label = "日\n12 day"];
-  勹 [label = "勹\n* bound up"];
+  D [label = "旬\ndecameron (68)"];
+  B [label = "日\nday (12)"];
+  C [label = "勹\nbound up (*)"];
 
-  日 -> 旬 [thick];
-  勹 -> 旬 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

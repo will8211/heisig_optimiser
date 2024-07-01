@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  笔 [label = "笔\n1423 pen"];
-  竹 [label = "竹\n786 bamboo"];
-  丁 [label = "丁\n90 fourth"];
-  毛 [label = "毛\n1421 fur"];
-  手 [label = "手\n584 hand"];
+  F [label = "笔\npen (1423)"];
+  C [label = "竹\nbamboo (786)"];
+  B [label = "丁\nfourth (90)"];
+  E [label = "毛\nfur (1421)"];
+  D [label = "手\nhand (584)"];
 
-  竹 -> 笔 [thick];
-  丁 -> 竹 [thick];
-  毛 -> 笔 [thick];
-  手 -> 毛 [thick];
+  C -> F [thick];
+  B -> C [thick];
+  E -> F [thick];
+  D -> E [thick];
 }

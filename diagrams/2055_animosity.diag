@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  仇 [label = "仇\n2055 animosity"];
-  人 [label = "人\n793 person"];
-  九 [label = "九\n9 nine"];
+  D [label = "仇\nanimosity (2055)"];
+  B [label = "人\nperson (793)"];
+  C [label = "九\nnine (9)"];
 
-  人 -> 仇 [thick];
-  九 -> 仇 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

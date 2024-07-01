@@ -5,8 +5,8 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  囧尴－监 [label = "囧尴－监\n* Frankenbowser"];
-  大 [label = "大\n113 large"];
+  C [label = "囧尴－监\nFrankenbowser (*)"];
+  B [label = "大\nlarge (113)"];
 
-  大 -> 囧尴－监 [thick];
+  B -> C [thick];
 }

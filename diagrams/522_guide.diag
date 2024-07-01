@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  导 [label = "导\n522 guide"];
-  已 [label = "已\n519 already"];
-  己 [label = "己\n515 self"];
-  寸 [label = "寸\n166 Chinese inch"];
-  丶 [label = "丶\n* a drop of"];
-  十 [label = "十\n10 ten"];
+  G [label = "导\nguide (522)"];
+  C [label = "已\nalready (519)"];
+  B [label = "己\nself (515)"];
+  F [label = "寸\nChinese inch (166)"];
+  D [label = "丶\na drop of (*)"];
+  E [label = "十\nten (10)"];
 
-  已 -> 导 [thick];
-  己 -> 已 [thick];
-  寸 -> 导 [thick];
-  丶 -> 寸 [thick];
-  十 -> 寸 [thick];
+  C -> G [thick];
+  B -> C [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

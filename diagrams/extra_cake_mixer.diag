@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  叟 [label = "叟\n* cake mixer"];
-  臼 [label = "臼\n* mortar"];
-  又 [label = "又\n633 again"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
+  F [label = "叟\ncake mixer (*)"];
+  B [label = "臼\nmortar (*)"];
+  C [label = "又\nagain (633)"];
+  E [label = "丨\nwalking stick (*)"];
+  D [label = "一\none (1)"];
 
-  臼 -> 叟 [thick];
-  又 -> 叟 [thick];
-  丨 -> 叟 [thick];
-  一 -> 丨 [thick];
+  B -> F [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
 }

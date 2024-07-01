@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  岁 [label = "岁\n691 years of age"];
-  山 [label = "山\n688 mountain"];
-  夕 [label = "夕\n115 evening"];
-  月 [label = "月\n13 month"];
+  E [label = "岁\nyears of age (691)"];
+  B [label = "山\nmountain (688)"];
+  D [label = "夕\nevening (115)"];
+  C [label = "月\nmonth (13)"];
 
-  山 -> 岁 [thick];
-  夕 -> 岁 [thick];
-  月 -> 夕 [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

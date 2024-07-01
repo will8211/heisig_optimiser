@@ -5,17 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  纱 [label = "纱\n2375 yarn"];
-  纟 [label = "纟\n* thread"];
-  厶 [label = "厶\n* elbow"];
-  少 [label = "少\n110 few"];
-  丶 [label = "丶\n* a drop of"];
-  小 [label = "小\n109 small"];
+  H [label = "纱\nyarn (2375)"];
+  C [label = "纟\nthread (*)"];
+  B [label = "厶\nelbow (*)"];
+  G [label = "少\nfew (110)"];
+  D [label = "丶\na drop of (*)"];
+  F [label = "小\nsmall (109)"];
+  E [label = "丶\na drop of (*)"];
 
-  纟 -> 纱 [thick];
-  厶 -> 纟 [thick];
-  少 -> 纱 [thick];
-  丶 -> 少 [thick];
-  小 -> 少 [thick];
-  丶 -> 小 [thick];
+  C -> H [thick];
+  B -> C [thick];
+  G -> H [thick];
+  D -> G [thick];
+  F -> G [thick];
+  E -> F [thick];
 }

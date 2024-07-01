@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  站 [label = "站\n446 station"];
-  占 [label = "占\n44 tell fortunes"];
-  卜 [label = "卜\n43 divination"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  口 [label = "口\n11 mouth"];
-  立 [label = "立\n444 standing up"];
+  I [label = "站\nstation (446)"];
+  G [label = "占\ntell fortunes (44)"];
+  E [label = "卜\ndivination (43)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  F [label = "口\nmouth (11)"];
+  H [label = "立\nstanding up (444)"];
 
-  占 -> 站 [thick];
-  卜 -> 占 [thick];
-  丨 -> 卜 [thick];
-  一 -> 丨 [thick];
-  丶 -> 卜 [thick];
-  口 -> 占 [thick];
-  立 -> 站 [thick];
+  G -> I [thick];
+  E -> G [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  F -> G [thick];
+  H -> I [thick];
 }

@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  刮 [label = "刮\n1515 scrape"];
-  舌 [label = "舌\n40 tongue"];
-  口 [label = "口\n11 mouth"];
-  千 [label = "千\n39 thousand"];
-  丶 [label = "丶\n* a drop of"];
-  十 [label = "十\n10 ten"];
-  刀 [label = "刀\n83 sword"];
+  H [label = "刮\nscrape (1515)"];
+  F [label = "舌\ntongue (40)"];
+  B [label = "口\nmouth (11)"];
+  E [label = "千\nthousand (39)"];
+  C [label = "丶\na drop of (*)"];
+  D [label = "十\nten (10)"];
+  G [label = "刀\nsword (83)"];
 
-  舌 -> 刮 [thick];
-  口 -> 舌 [thick];
-  千 -> 舌 [thick];
-  丶 -> 千 [thick];
-  十 -> 千 [thick];
-  刀 -> 刮 [thick];
+  F -> H [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
+  G -> H [thick];
 }

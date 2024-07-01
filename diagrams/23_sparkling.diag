@@ -5,8 +5,8 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  晶 [label = "晶\n23 sparkling"];
-  日 [label = "日\n12 day"];
+  C [label = "晶\nsparkling (23)"];
+  B [label = "日\nday (12)"];
 
-  日 -> 晶 [thick];
+  B -> C [thick];
 }

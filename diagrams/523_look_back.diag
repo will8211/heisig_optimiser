@@ -5,26 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  顾 [label = "顾\n523 look back"];
-  厂 [label = "厂\n121 factory"];
-  已 [label = "已\n519 already"];
-  己 [label = "己\n515 self"];
-  页 [label = "页\n60 page"];
-  贝 [label = "贝\n52 shellfish"];
-  目 [label = "目\n15 eye"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
+  L [label = "顾\nlook back (523)"];
+  B [label = "厂\nfactory (121)"];
+  D [label = "已\nalready (519)"];
+  C [label = "己\nself (515)"];
+  K [label = "页\npage (60)"];
+  H [label = "贝\nshellfish (52)"];
+  E [label = "目\neye (15)"];
+  G [label = "囧只－口\nanimal legs (*)"];
+  F [label = "八\neight (8)"];
+  I [label = "一\none (1)"];
+  J [label = "丶\na drop of (*)"];
 
-  厂 -> 顾 [thick];
-  已 -> 顾 [thick];
-  己 -> 已 [thick];
-  页 -> 顾 [thick];
-  贝 -> 页 [thick];
-  目 -> 贝 [thick];
-  囧只－口 -> 贝 [thick];
-  八 -> 囧只－口 [thick];
-  一 -> 页 [thick];
-  丶 -> 页 [thick];
+  B -> L [thick];
+  D -> L [thick];
+  C -> D [thick];
+  K -> L [thick];
+  H -> K [thick];
+  E -> H [thick];
+  G -> H [thick];
+  F -> G [thick];
+  I -> K [thick];
+  J -> K [thick];
 }

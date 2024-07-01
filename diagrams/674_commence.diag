@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  始 [label = "始\n674 commence"];
-  女 [label = "女\n102 woman"];
-  台 [label = "台\n672 platform"];
-  厶 [label = "厶\n* elbow"];
-  口 [label = "口\n11 mouth"];
+  F [label = "始\ncommence (674)"];
+  B [label = "女\nwoman (102)"];
+  E [label = "台\nplatform (672)"];
+  C [label = "厶\nelbow (*)"];
+  D [label = "口\nmouth (11)"];
 
-  女 -> 始 [thick];
-  台 -> 始 [thick];
-  厶 -> 台 [thick];
-  口 -> 台 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

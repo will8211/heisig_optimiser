@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  扯 [label = "扯\n1856 yank"];
-  扌 [label = "扌\n* fingers"];
-  止 [label = "止\n379 stop"];
+  D [label = "扯\nyank (1856)"];
+  B [label = "扌\nfingers (*)"];
+  C [label = "止\nstop (379)"];
 
-  扌 -> 扯 [thick];
-  止 -> 扯 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

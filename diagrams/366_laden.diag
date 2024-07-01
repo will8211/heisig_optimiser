@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  载 [label = "载\n366 laden"];
-  车 [label = "车\n300 car"];
-  囧载－车 [label = "囧载－车\n* Thanksgiving"];
-  土 [label = "土\n158 soil"];
-  戈 [label = "戈\n361 halberd"];
-  弋 [label = "弋\n* arrow"];
+  G [label = "载\nladen (366)"];
+  B [label = "车\ncar (300)"];
+  F [label = "囧载－车\nThanksgiving (*)"];
+  C [label = "土\nsoil (158)"];
+  E [label = "戈\nhalberd (361)"];
+  D [label = "弋\narrow (*)"];
 
-  车 -> 载 [thick];
-  囧载－车 -> 载 [thick];
-  土 -> 囧载－车 [thick];
-  戈 -> 囧载－车 [thick];
-  弋 -> 戈 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
 }

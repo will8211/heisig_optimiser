@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  料 [label = "料\n969 material"];
-  米 [label = "米\n778 rice"];
-  斗 [label = "斗\n968 Big Dipper"];
-  冫 [label = "冫\n* ice"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  十 [label = "十\n10 ten"];
+  J [label = "料\nmaterial (969)"];
+  B [label = "米\nrice (778)"];
+  I [label = "斗\nBig Dipper (968)"];
+  G [label = "冫\nice (*)"];
+  F [label = "水\nwater (137)"];
+  D [label = "丨\nwalking stick (*)"];
+  C [label = "一\none (1)"];
+  E [label = "丶\na drop of (*)"];
+  H [label = "十\nten (10)"];
 
-  米 -> 料 [thick];
-  斗 -> 料 [thick];
-  冫 -> 斗 [thick];
-  水 -> 冫 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  十 -> 斗 [thick];
+  B -> J [thick];
+  I -> J [thick];
+  G -> I [thick];
+  F -> G [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
+  H -> I [thick];
 }

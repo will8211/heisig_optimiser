@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  毁 [label = "毁\n2959 ruin"];
-  工 [label = "工\n76 work"];
-  臼 [label = "臼\n* mortar"];
-  殳 [label = "殳\n* missile"];
-  几 [label = "几\n57 how many?"];
-  又 [label = "又\n633 again"];
+  G [label = "毁\nruin (2959)"];
+  B [label = "工\nwork (76)"];
+  C [label = "臼\nmortar (*)"];
+  F [label = "殳\nmissile (*)"];
+  D [label = "几\nhow many? (57)"];
+  E [label = "又\nagain (633)"];
 
-  工 -> 毁 [thick];
-  臼 -> 毁 [thick];
-  殳 -> 毁 [thick];
-  几 -> 殳 [thick];
-  又 -> 殳 [thick];
+  B -> G [thick];
+  C -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

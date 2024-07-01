@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  筹 [label = "筹\n2580 make arrangements"];
-  竹 [label = "竹\n786 bamboo"];
-  丁 [label = "丁\n90 fourth"];
-  寿 [label = "寿\n2575 longevity"];
-  丰 [label = "丰\n1223 plentiful"];
-  寸 [label = "寸\n166 Chinese inch"];
-  丶 [label = "丶\n* a drop of"];
-  十 [label = "十\n10 ten"];
+  I [label = "筹\nmake arrangements (2580)"];
+  C [label = "竹\nbamboo (786)"];
+  B [label = "丁\nfourth (90)"];
+  H [label = "寿\nlongevity (2575)"];
+  D [label = "丰\nplentiful (1223)"];
+  G [label = "寸\nChinese inch (166)"];
+  E [label = "丶\na drop of (*)"];
+  F [label = "十\nten (10)"];
 
-  竹 -> 筹 [thick];
-  丁 -> 竹 [thick];
-  寿 -> 筹 [thick];
-  丰 -> 寿 [thick];
-  寸 -> 寿 [thick];
-  丶 -> 寸 [thick];
-  十 -> 寸 [thick];
+  C -> I [thick];
+  B -> C [thick];
+  H -> I [thick];
+  D -> H [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

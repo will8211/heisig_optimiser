@@ -5,24 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  矫 [label = "矫\n2256 rectify"];
-  矢 [label = "矢\n998 dart"];
-  天 [label = "天\n436 heavens"];
-  一 [label = "一\n1 one"];
-  大 [label = "大\n113 large"];
-  丶 [label = "丶\n* a drop of"];
-  乔 [label = "乔\n441 pretend"];
-  "囧介－𠆢" [label = "囧介－𠆢\n* crutches"];
-  夭 [label = "夭\n440 die young"];
+  L [label = "矫\nrectify (2256)"];
+  F [label = "矢\ndart (998)"];
+  D [label = "天\nheavens (436)"];
+  B [label = "一\none (1)"];
+  C [label = "大\nlarge (113)"];
+  E [label = "丶\na drop of (*)"];
+  K [label = "乔\npretend (441)"];
+  G [label = "囧介－𠆢\ncrutches (*)"];
+  J [label = "夭\ndie young (440)"];
+  H [label = "大\nlarge (113)"];
+  I [label = "丶\na drop of (*)"];
 
-  矢 -> 矫 [thick];
-  天 -> 矢 [thick];
-  一 -> 天 [thick];
-  大 -> 天 [thick];
-  丶 -> 矢 [thick];
-  乔 -> 矫 [thick];
-  "囧介－𠆢" -> 乔 [thick];
-  夭 -> 乔 [thick];
-  大 -> 夭 [thick];
-  丶 -> 夭 [thick];
+  F -> L [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
+  K -> L [thick];
+  G -> K [thick];
+  J -> K [thick];
+  H -> J [thick];
+  I -> J [thick];
 }

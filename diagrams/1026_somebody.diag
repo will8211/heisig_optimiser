@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  身 [label = "身\n1026 somebody"];
-  自 [label = "自\n33 oneself"];
-  丶 [label = "丶\n* a drop of"];
-  目 [label = "目\n15 eye"];
+  E [label = "身\nsomebody (1026)"];
+  D [label = "自\noneself (33)"];
+  B [label = "丶\na drop of (*)"];
+  C [label = "目\neye (15)"];
 
-  自 -> 身 [thick];
-  丶 -> 自 [thick];
-  目 -> 自 [thick];
+  D -> E [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

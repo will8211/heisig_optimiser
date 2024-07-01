@@ -5,26 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  裳 [label = "裳\n1955 raiment"];
-  囧赏－贝 [label = "囧赏－贝\n* outhouse"];
-  小 [label = "小\n109 small"];
-  丶 [label = "丶\n* a drop of"];
-  口 [label = "口\n11 mouth"];
-  衣 [label = "衣\n400 clothing"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
+  M [label = "裳\nraiment (1955)"];
+  E [label = "囧赏－贝\nouthouse (*)"];
+  C [label = "小\nsmall (109)"];
+  B [label = "丶\na drop of (*)"];
+  D [label = "口\nmouth (11)"];
+  L [label = "衣\nclothing (400)"];
+  K [label = "亠\ntop hat (*)"];
+  H [label = "六\nsix (6)"];
+  G [label = "囧只－口\nanimal legs (*)"];
+  F [label = "八\neight (8)"];
+  J [label = "囧只－口\nanimal legs (*)"];
+  I [label = "八\neight (8)"];
 
-  囧赏－贝 -> 裳 [thick];
-  小 -> 囧赏－贝 [thick];
-  丶 -> 小 [thick];
-  口 -> 囧赏－贝 [thick];
-  衣 -> 裳 [thick];
-  亠 -> 衣 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
+  E -> M [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  L -> M [thick];
+  K -> L [thick];
+  H -> K [thick];
+  G -> H [thick];
+  F -> G [thick];
+  J -> K [thick];
+  I -> J [thick];
 }

@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  卫 [label = "卫\n1112 defend"];
-  囧节－艹 [label = "囧节－艹\n* chop"];
-  一 [label = "一\n1 one"];
+  D [label = "卫\ndefend (1112)"];
+  B [label = "囧节－艹\nchop (*)"];
+  C [label = "一\none (1)"];
 
-  囧节－艹 -> 卫 [thick];
-  一 -> 卫 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

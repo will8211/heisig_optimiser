@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  崖 [label = "崖\n1930 cliff"];
-  山 [label = "山\n688 mountain"];
-  厂 [label = "厂\n121 factory"];
-  圭 [label = "圭\n* bricks"];
-  土 [label = "土\n158 soil"];
+  F [label = "崖\ncliff (1930)"];
+  B [label = "山\nmountain (688)"];
+  C [label = "厂\nfactory (121)"];
+  E [label = "圭\nbricks (*)"];
+  D [label = "土\nsoil (158)"];
 
-  山 -> 崖 [thick];
-  厂 -> 崖 [thick];
-  圭 -> 崖 [thick];
-  土 -> 圭 [thick];
+  B -> F [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
 }

@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  迟 [label = "迟\n2139 tardy"];
-  尸 [label = "尸\n882 corpse"];
-  丶 [label = "丶\n* a drop of"];
-  辶 [label = "辶\n* road"];
+  E [label = "迟\ntardy (2139)"];
+  B [label = "尸\ncorpse (882)"];
+  C [label = "丶\na drop of (*)"];
+  D [label = "辶\nroad (*)"];
 
-  尸 -> 迟 [thick];
-  丶 -> 迟 [thick];
-  辶 -> 迟 [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

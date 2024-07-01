@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  贸 [label = "贸\n1106 trade"];
-  囧贸－贝 [label = "囧贸－贝\n* letter opener"];
-  卩 [label = "卩\n* stamp"];
-  刀 [label = "刀\n83 sword"];
-  贝 [label = "贝\n52 shellfish"];
-  目 [label = "目\n15 eye"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
+  I [label = "贸\ntrade (1106)"];
+  D [label = "囧贸－贝\nletter opener (*)"];
+  B [label = "卩\nstamp (*)"];
+  C [label = "刀\nsword (83)"];
+  H [label = "贝\nshellfish (52)"];
+  E [label = "目\neye (15)"];
+  G [label = "囧只－口\nanimal legs (*)"];
+  F [label = "八\neight (8)"];
 
-  囧贸－贝 -> 贸 [thick];
-  卩 -> 囧贸－贝 [thick];
-  刀 -> 囧贸－贝 [thick];
-  贝 -> 贸 [thick];
-  目 -> 贝 [thick];
-  囧只－口 -> 贝 [thick];
-  八 -> 囧只－口 [thick];
+  D -> I [thick];
+  B -> D [thick];
+  C -> D [thick];
+  H -> I [thick];
+  E -> H [thick];
+  G -> H [thick];
+  F -> G [thick];
 }

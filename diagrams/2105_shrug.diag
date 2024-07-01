@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  耸 [label = "耸\n2105 shrug"];
-  从 [label = "从\n846 follow"];
-  人 [label = "人\n793 person"];
-  耳 [label = "耳\n717 ear"];
+  E [label = "耸\nshrug (2105)"];
+  C [label = "从\nfollow (846)"];
+  B [label = "人\nperson (793)"];
+  D [label = "耳\near (717)"];
 
-  从 -> 耸 [thick];
-  人 -> 从 [thick];
-  耳 -> 耸 [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
 }

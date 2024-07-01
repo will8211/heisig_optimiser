@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  葬 [label = "葬\n716 inter"];
-  艹 [label = "艹\n* flower"];
-  死 [label = "死\n715 death"];
-  歹 [label = "歹\n712 malicious"];
-  匕 [label = "匕\n453 ancient spoon"];
-  开 [label = "开\n613 open"];
-  二 [label = "二\n2 two"];
-  一 [label = "一\n1 one"];
+  I [label = "葬\ninter (716)"];
+  B [label = "艹\nflower (*)"];
+  E [label = "死\ndeath (715)"];
+  C [label = "歹\nmalicious (712)"];
+  D [label = "匕\nancient spoon (453)"];
+  H [label = "开\nopen (613)"];
+  G [label = "二\ntwo (2)"];
+  F [label = "一\none (1)"];
 
-  艹 -> 葬 [thick];
-  死 -> 葬 [thick];
-  歹 -> 死 [thick];
-  匕 -> 死 [thick];
-  开 -> 葬 [thick];
-  二 -> 开 [thick];
-  一 -> 二 [thick];
+  B -> I [thick];
+  E -> I [thick];
+  C -> E [thick];
+  D -> E [thick];
+  H -> I [thick];
+  G -> H [thick];
+  F -> G [thick];
 }

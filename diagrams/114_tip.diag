@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  尖 [label = "尖\n114 tip"];
-  小 [label = "小\n109 small"];
-  丶 [label = "丶\n* a drop of"];
-  大 [label = "大\n113 large"];
+  E [label = "尖\ntip (114)"];
+  C [label = "小\nsmall (109)"];
+  B [label = "丶\na drop of (*)"];
+  D [label = "大\nlarge (113)"];
 
-  小 -> 尖 [thick];
-  丶 -> 小 [thick];
-  大 -> 尖 [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
 }

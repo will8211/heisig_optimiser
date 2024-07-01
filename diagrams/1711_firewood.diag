@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  柴 [label = "柴\n1711 firewood"];
-  此 [label = "此\n460 this (literary)"];
-  止 [label = "止\n379 stop"];
-  匕 [label = "匕\n453 ancient spoon"];
-  木 [label = "木\n202 tree"];
+  F [label = "柴\nfirewood (1711)"];
+  D [label = "此\nthis (literary) (460)"];
+  B [label = "止\nstop (379)"];
+  C [label = "匕\nancient spoon (453)"];
+  E [label = "木\ntree (202)"];
 
-  此 -> 柴 [thick];
-  止 -> 此 [thick];
-  匕 -> 此 [thick];
-  木 -> 柴 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

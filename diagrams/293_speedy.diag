@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  迅 [label = "迅\n293 speedy"];
-  乙 [label = "乙\n95 second"];
-  十 [label = "十\n10 ten"];
-  辶 [label = "辶\n* road"];
+  E [label = "迅\nspeedy (293)"];
+  B [label = "乙\nsecond (95)"];
+  C [label = "十\nten (10)"];
+  D [label = "辶\nroad (*)"];
 
-  乙 -> 迅 [thick];
-  十 -> 迅 [thick];
-  辶 -> 迅 [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

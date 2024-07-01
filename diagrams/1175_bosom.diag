@@ -5,32 +5,34 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  胸 [label = "胸\n1175 bosom"];
-  月 [label = "月\n13 month"];
-  勹 [label = "勹\n* bound up"];
-  凶 [label = "凶\n1174 cruel"];
-  "㐅" [label = "㐅\n* sheaf"];
-  坑 [label = "坑\n323 pit"];
-  亢 [label = "亢\n* whirlwind"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  几 [label = "几\n57 how many?"];
-  土 [label = "土\n158 soil"];
+  P [label = "胸\nbosom (1175)"];
+  B [label = "月\nmonth (13)"];
+  C [label = "勹\nbound up (*)"];
+  O [label = "凶\ncruel (1174)"];
+  D [label = "㐅\nsheaf (*)"];
+  N [label = "坑\npit (323)"];
+  L [label = "亢\nwhirlwind (*)"];
+  J [label = "亠\ntop hat (*)"];
+  G [label = "六\nsix (6)"];
+  F [label = "囧只－口\nanimal legs (*)"];
+  E [label = "八\neight (8)"];
+  I [label = "囧只－口\nanimal legs (*)"];
+  H [label = "八\neight (8)"];
+  K [label = "几\nhow many? (57)"];
+  M [label = "土\nsoil (158)"];
 
-  月 -> 胸 [thick];
-  勹 -> 胸 [thick];
-  凶 -> 胸 [thick];
-  "㐅" -> 凶 [thick];
-  坑 -> 凶 [thick];
-  亢 -> 坑 [thick];
-  亠 -> 亢 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
-  几 -> 亢 [thick];
-  土 -> 坑 [thick];
+  B -> P [thick];
+  C -> P [thick];
+  O -> P [thick];
+  D -> O [thick];
+  N -> O [thick];
+  L -> N [thick];
+  J -> L [thick];
+  G -> J [thick];
+  F -> G [thick];
+  E -> F [thick];
+  I -> J [thick];
+  H -> I [thick];
+  K -> L [thick];
+  M -> N [thick];
 }

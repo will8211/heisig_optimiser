@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  清 [label = "清\n1213 pure"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  青 [label = "青\n1208 blue or green"];
-  囧毒－母 [label = "囧毒－母\n* grow up"];
-  月 [label = "月\n13 month"];
+  I [label = "清\npure (1213)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  H [label = "青\nblue or green (1208)"];
+  F [label = "囧毒－母\ngrow up (*)"];
+  G [label = "月\nmonth (13)"];
 
-  水 -> 清 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  青 -> 清 [thick];
-  囧毒－母 -> 青 [thick];
-  月 -> 青 [thick];
+  E -> I [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  H -> I [thick];
+  F -> H [thick];
+  G -> H [thick];
 }

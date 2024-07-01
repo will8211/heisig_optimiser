@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  煤 [label = "煤\n2733 coal"];
-  火 [label = "火\n170 fire"];
-  某 [label = "某\n1334 such and such"];
-  甘 [label = "甘\n1333 sweet"];
-  木 [label = "木\n202 tree"];
+  F [label = "煤\ncoal (2733)"];
+  B [label = "火\nfire (170)"];
+  E [label = "某\nsuch and such (1334)"];
+  C [label = "甘\nsweet (1333)"];
+  D [label = "木\ntree (202)"];
 
-  火 -> 煤 [thick];
-  某 -> 煤 [thick];
-  甘 -> 某 [thick];
-  木 -> 某 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

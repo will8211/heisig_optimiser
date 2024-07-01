@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  矗 [label = "矗\n1511 stand straight"];
-  直 [label = "直\n72 straight"];
-  十 [label = "十\n10 ten"];
-  目 [label = "目\n15 eye"];
-  一 [label = "一\n1 one"];
+  F [label = "矗\nstand straight (1511)"];
+  E [label = "直\nstraight (72)"];
+  B [label = "十\nten (10)"];
+  C [label = "目\neye (15)"];
+  D [label = "一\none (1)"];
 
-  直 -> 矗 [thick];
-  十 -> 直 [thick];
-  目 -> 直 [thick];
-  一 -> 直 [thick];
+  E -> F [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

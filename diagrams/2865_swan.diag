@@ -5,32 +5,34 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  鸿 [label = "鸿\n2865 swan"];
-  江 [label = "江\n147 Yangtze"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  工 [label = "工\n76 work"];
-  鸟 [label = "鸟\n1438 bird"];
-  向 [label = "向\n188 orientation"];
-  冂 [label = "冂\n* hood"];
-  几 [label = "几\n57 how many?"];
-  口 [label = "口\n11 mouth"];
-  囧与－丨一 [label = "囧与－丨一\n* pointed tail"];
+  P [label = "鸿\nswan (2865)"];
+  G [label = "江\nYangtze (147)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  F [label = "工\nwork (76)"];
+  O [label = "鸟\nbird (1438)"];
+  L [label = "向\norientation (188)"];
+  H [label = "丶\na drop of (*)"];
+  J [label = "冂\nhood (*)"];
+  I [label = "几\nhow many? (57)"];
+  K [label = "口\nmouth (11)"];
+  M [label = "丶\na drop of (*)"];
+  N [label = "囧与－丨一\npointed tail (*)"];
 
-  江 -> 鸿 [thick];
-  水 -> 江 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  工 -> 江 [thick];
-  鸟 -> 鸿 [thick];
-  向 -> 鸟 [thick];
-  丶 -> 向 [thick];
-  冂 -> 向 [thick];
-  几 -> 冂 [thick];
-  口 -> 向 [thick];
-  丶 -> 鸟 [thick];
-  囧与－丨一 -> 鸟 [thick];
+  G -> P [thick];
+  E -> G [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  F -> G [thick];
+  O -> P [thick];
+  L -> O [thick];
+  H -> L [thick];
+  J -> L [thick];
+  I -> J [thick];
+  K -> L [thick];
+  M -> O [thick];
+  N -> O [thick];
 }

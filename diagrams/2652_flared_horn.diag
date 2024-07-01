@@ -5,15 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  喇 [label = "喇\n2652 flared horn"];
-  口 [label = "口\n11 mouth"];
-  束 [label = "束\n1286 bundle up"];
-  木 [label = "木\n202 tree"];
-  刀 [label = "刀\n83 sword"];
+  G [label = "喇\nflared horn (2652)"];
+  B [label = "口\nmouth (11)"];
+  E [label = "束\nbundle up (1286)"];
+  C [label = "木\ntree (202)"];
+  D [label = "口\nmouth (11)"];
+  F [label = "刀\nsword (83)"];
 
-  口 -> 喇 [thick];
-  束 -> 喇 [thick];
-  木 -> 束 [thick];
-  口 -> 束 [thick];
-  刀 -> 喇 [thick];
+  B -> G [thick];
+  E -> G [thick];
+  C -> E [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

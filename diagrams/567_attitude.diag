@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  态 [label = "态\n567 attitude"];
-  太 [label = "太\n131 overly"];
-  大 [label = "大\n113 large"];
-  丶 [label = "丶\n* a drop of"];
-  心 [label = "心\n563 heart"];
+  F [label = "态\nattitude (567)"];
+  D [label = "太\noverly (131)"];
+  B [label = "大\nlarge (113)"];
+  C [label = "丶\na drop of (*)"];
+  E [label = "心\nheart (563)"];
 
-  太 -> 态 [thick];
-  大 -> 太 [thick];
-  丶 -> 太 [thick];
-  心 -> 态 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

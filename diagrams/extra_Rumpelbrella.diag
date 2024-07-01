@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  黍 [label = "黍\n* Rumpelbrella"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  禾 [label = "禾\n762 standing grain"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
+  H [label = "黍\nRumpelbrella (*)"];
+  B [label = "𠆢\numbrella (*)"];
+  C [label = "禾\nstanding grain (762)"];
+  G [label = "水\nwater (137)"];
+  E [label = "丨\nwalking stick (*)"];
+  D [label = "一\none (1)"];
+  F [label = "丶\na drop of (*)"];
 
-  "𠆢" -> 黍 [thick];
-  禾 -> 黍 [thick];
-  水 -> 黍 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
+  B -> H [thick];
+  C -> H [thick];
+  G -> H [thick];
+  E -> G [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

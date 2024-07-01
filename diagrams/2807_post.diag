@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  邮 [label = "邮\n2807 post"];
-  由 [label = "由\n913 wherefore"];
-  田 [label = "田\n14 rice field"];
-  囧阝 [label = "囧阝\n* city walls"];
-  阝 [label = "阝\n* pinnacle"];
+  F [label = "邮\npost (2807)"];
+  C [label = "由\nwherefore (913)"];
+  B [label = "田\nrice field (14)"];
+  E [label = "囧阝\ncity walls (*)"];
+  D [label = "阝\npinnacle (*)"];
 
-  由 -> 邮 [thick];
-  田 -> 由 [thick];
-  囧阝 -> 邮 [thick];
-  阝 -> 囧阝 [thick];
+  C -> F [thick];
+  B -> C [thick];
+  E -> F [thick];
+  D -> E [thick];
 }

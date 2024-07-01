@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  任 [label = "任\n853 appoint"];
-  人 [label = "人\n793 person"];
-  壬 [label = "壬\n* porter"];
-  士 [label = "士\n334 soldier"];
+  E [label = "任\nappoint (853)"];
+  B [label = "人\nperson (793)"];
+  D [label = "壬\nporter (*)"];
+  C [label = "士\nsoldier (334)"];
 
-  人 -> 任 [thick];
-  壬 -> 任 [thick];
-  士 -> 壬 [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

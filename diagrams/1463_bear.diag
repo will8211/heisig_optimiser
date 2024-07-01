@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  熊 [label = "熊\n1463 bear"];
-  厶 [label = "厶\n* elbow"];
-  月 [label = "月\n13 month"];
-  匕 [label = "匕\n453 ancient spoon"];
-  火 [label = "火\n170 fire"];
+  F [label = "熊\nbear (1463)"];
+  B [label = "厶\nelbow (*)"];
+  C [label = "月\nmonth (13)"];
+  D [label = "匕\nancient spoon (453)"];
+  E [label = "火\nfire (170)"];
 
-  厶 -> 熊 [thick];
-  月 -> 熊 [thick];
-  匕 -> 熊 [thick];
-  火 -> 熊 [thick];
+  B -> F [thick];
+  C -> F [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

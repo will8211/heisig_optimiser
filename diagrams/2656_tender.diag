@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  嫩 [label = "嫩\n2656 tender"];
-  女 [label = "女\n102 woman"];
-  束 [label = "束\n1286 bundle up"];
-  木 [label = "木\n202 tree"];
-  口 [label = "口\n11 mouth"];
-  攵 [label = "攵\n* taskmaster"];
+  G [label = "嫩\ntender (2656)"];
+  B [label = "女\nwoman (102)"];
+  E [label = "束\nbundle up (1286)"];
+  C [label = "木\ntree (202)"];
+  D [label = "口\nmouth (11)"];
+  F [label = "攵\ntaskmaster (*)"];
 
-  女 -> 嫩 [thick];
-  束 -> 嫩 [thick];
-  木 -> 束 [thick];
-  口 -> 束 [thick];
-  攵 -> 嫩 [thick];
+  B -> G [thick];
+  E -> G [thick];
+  C -> E [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

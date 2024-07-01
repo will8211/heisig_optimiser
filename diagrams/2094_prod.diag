@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  催 [label = "催\n2094 prod"];
-  人 [label = "人\n793 person"];
-  崔 [label = "崔\n1937 Cui"];
-  山 [label = "山\n688 mountain"];
-  隹 [label = "隹\n* turkey"];
+  F [label = "催\nprod (2094)"];
+  B [label = "人\nperson (793)"];
+  E [label = "崔\nCui (1937)"];
+  C [label = "山\nmountain (688)"];
+  D [label = "隹\nturkey (*)"];
 
-  人 -> 催 [thick];
-  崔 -> 催 [thick];
-  山 -> 崔 [thick];
-  隹 -> 崔 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

@@ -5,34 +5,36 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  凿 [label = "凿\n2758 bore a hole"];
-  业 [label = "业\n1349 profession"];
-  並 [label = "並\n* side by side"];
-  坑 [label = "坑\n323 pit"];
-  亢 [label = "亢\n* whirlwind"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  几 [label = "几\n57 how many?"];
-  土 [label = "土\n158 soil"];
-  丷 [label = "丷\n* horns"];
-  一 [label = "一\n1 one"];
-  干 [label = "干\n1277 dry"];
+  Q [label = "凿\nbore a hole (2758)"];
+  C [label = "业\nprofession (1349)"];
+  B [label = "並\nside by side (*)"];
+  M [label = "坑\npit (323)"];
+  K [label = "亢\nwhirlwind (*)"];
+  I [label = "亠\ntop hat (*)"];
+  F [label = "六\nsix (6)"];
+  E [label = "囧只－口\nanimal legs (*)"];
+  D [label = "八\neight (8)"];
+  H [label = "囧只－口\nanimal legs (*)"];
+  G [label = "八\neight (8)"];
+  J [label = "几\nhow many? (57)"];
+  L [label = "土\nsoil (158)"];
+  O [label = "丷\nhorns (*)"];
+  N [label = "一\none (1)"];
+  P [label = "干\ndry (1277)"];
 
-  业 -> 凿 [thick];
-  並 -> 业 [thick];
-  坑 -> 凿 [thick];
-  亢 -> 坑 [thick];
-  亠 -> 亢 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
-  几 -> 亢 [thick];
-  土 -> 坑 [thick];
-  丷 -> 凿 [thick];
-  一 -> 丷 [thick];
-  干 -> 凿 [thick];
+  C -> Q [thick];
+  B -> C [thick];
+  M -> Q [thick];
+  K -> M [thick];
+  I -> K [thick];
+  F -> I [thick];
+  E -> F [thick];
+  D -> E [thick];
+  H -> I [thick];
+  G -> H [thick];
+  J -> K [thick];
+  L -> M [thick];
+  O -> Q [thick];
+  N -> O [thick];
+  P -> Q [thick];
 }

@@ -5,19 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  燃 [label = "燃\n1591 ignite"];
-  火 [label = "火\n170 fire"];
-  然 [label = "然\n247 sort of thing"];
-  月 [label = "月\n13 month"];
-  犬 [label = "犬\n239 pooch"];
-  大 [label = "大\n113 large"];
-  丶 [label = "丶\n* a drop of"];
+  I [label = "燃\nignite (1591)"];
+  B [label = "火\nfire (170)"];
+  H [label = "然\nsort of thing (247)"];
+  C [label = "月\nmonth (13)"];
+  F [label = "犬\npooch (239)"];
+  D [label = "大\nlarge (113)"];
+  E [label = "丶\na drop of (*)"];
+  G [label = "火\nfire (170)"];
 
-  火 -> 燃 [thick];
-  然 -> 燃 [thick];
-  月 -> 然 [thick];
-  犬 -> 然 [thick];
-  大 -> 犬 [thick];
-  丶 -> 犬 [thick];
-  火 -> 然 [thick];
+  B -> I [thick];
+  H -> I [thick];
+  C -> H [thick];
+  F -> H [thick];
+  D -> F [thick];
+  E -> F [thick];
+  G -> H [thick];
 }

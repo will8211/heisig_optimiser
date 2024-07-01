@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  牲 [label = "牲\n2570 domestic animal"];
-  牛 [label = "牛\n252 cow"];
-  生 [label = "生\n1218 life"];
-  丶 [label = "丶\n* a drop of"];
-  囧毒－母 [label = "囧毒－母\n* grow up"];
+  F [label = "牲\ndomestic animal (2570)"];
+  B [label = "牛\ncow (252)"];
+  E [label = "生\nlife (1218)"];
+  C [label = "丶\na drop of (*)"];
+  D [label = "囧毒－母\ngrow up (*)"];
 
-  牛 -> 牲 [thick];
-  生 -> 牲 [thick];
-  丶 -> 生 [thick];
-  囧毒－母 -> 生 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

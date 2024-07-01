@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  幽 [label = "幽\n2410 secluded"];
-  山 [label = "山\n688 mountain"];
-  幺 [label = "幺\n* cocoon"];
+  D [label = "幽\nsecluded (2410)"];
+  B [label = "山\nmountain (688)"];
+  C [label = "幺\ncocoon (*)"];
 
-  山 -> 幽 [thick];
-  幺 -> 幽 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

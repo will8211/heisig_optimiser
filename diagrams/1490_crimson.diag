@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  赤 [label = "赤\n1490 crimson"];
-  土 [label = "土\n158 soil"];
-  刀 [label = "刀\n83 sword"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
+  F [label = "赤\ncrimson (1490)"];
+  B [label = "土\nsoil (158)"];
+  C [label = "刀\nsword (83)"];
+  E [label = "囧只－口\nanimal legs (*)"];
+  D [label = "八\neight (8)"];
 
-  土 -> 赤 [thick];
-  刀 -> 赤 [thick];
-  囧只－口 -> 赤 [thick];
-  八 -> 囧只－口 [thick];
+  B -> F [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
 }

@@ -5,17 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  棒 [label = "棒\n1233 cudgel"];
-  木 [label = "木\n202 tree"];
-  奉 [label = "奉\n1232 proffer"];
-  "𡗗" [label = "𡗗\n* bonsai"];
-  丰 [label = "丰\n1223 plentiful"];
-  "囧奉－𡗗" [label = "囧奉－𡗗\n* cornstalk"];
+  H [label = "棒\ncudgel (1233)"];
+  B [label = "木\ntree (202)"];
+  G [label = "奉\nproffer (1232)"];
+  D [label = "𡗗\nbonsai (*)"];
+  C [label = "丰\nplentiful (1223)"];
+  F [label = "囧奉－𡗗\ncornstalk (*)"];
+  E [label = "丰\nplentiful (1223)"];
 
-  木 -> 棒 [thick];
-  奉 -> 棒 [thick];
-  "𡗗" -> 奉 [thick];
-  丰 -> "𡗗" [thick];
-  "囧奉－𡗗" -> 奉 [thick];
-  丰 -> "囧奉－𡗗" [thick];
+  B -> H [thick];
+  G -> H [thick];
+  D -> G [thick];
+  C -> D [thick];
+  F -> G [thick];
+  E -> F [thick];
 }

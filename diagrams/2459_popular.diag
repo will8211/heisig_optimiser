@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  舆 [label = "舆\n2459 popular"];
-  囧舆－车 [label = "囧舆－车\n* zipper"];
-  囧具－目 [label = "囧具－目\n* tool"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  囧印－卩 [label = "囧印－卩\n* staples"];
-  车 [label = "车\n300 car"];
+  H [label = "舆\npopular (2459)"];
+  F [label = "囧舆－车\nzipper (*)"];
+  D [label = "囧具－目\ntool (*)"];
+  C [label = "囧只－口\nanimal legs (*)"];
+  B [label = "八\neight (8)"];
+  E [label = "囧印－卩\nstaples (*)"];
+  G [label = "车\ncar (300)"];
 
-  囧舆－车 -> 舆 [thick];
-  囧具－目 -> 囧舆－车 [thick];
-  囧只－口 -> 囧具－目 [thick];
-  八 -> 囧只－口 [thick];
-  囧印－卩 -> 囧舆－车 [thick];
-  车 -> 舆 [thick];
+  F -> H [thick];
+  D -> F [thick];
+  C -> D [thick];
+  B -> C [thick];
+  E -> F [thick];
+  G -> H [thick];
 }

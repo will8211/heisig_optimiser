@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  钮 [label = "钮\n2946 push button"];
-  金 [label = "金\n279 gold"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  王 [label = "王\n265 king"];
-  工 [label = "工\n76 work"];
-  丶 [label = "丶\n* a drop of"];
-  丑 [label = "丑\n1486 clown"];
-  十 [label = "十\n10 ten"];
-  囧侯－亻－矢 [label = "囧侯－亻－矢\n* key"];
+  J [label = "钮\npush button (2946)"];
+  F [label = "金\ngold (279)"];
+  B [label = "𠆢\numbrella (*)"];
+  D [label = "王\nking (265)"];
+  C [label = "工\nwork (76)"];
+  E [label = "丶\na drop of (*)"];
+  I [label = "丑\nclown (1486)"];
+  G [label = "十\nten (10)"];
+  H [label = "囧侯－亻－矢\nkey (*)"];
 
-  金 -> 钮 [thick];
-  "𠆢" -> 金 [thick];
-  王 -> 金 [thick];
-  工 -> 王 [thick];
-  丶 -> 金 [thick];
-  丑 -> 钮 [thick];
-  十 -> 丑 [thick];
-  囧侯－亻－矢 -> 丑 [thick];
+  F -> J [thick];
+  B -> F [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
+  I -> J [thick];
+  G -> I [thick];
+  H -> I [thick];
 }

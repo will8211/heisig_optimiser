@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  梦 [label = "梦\n205 dream"];
-  林 [label = "林\n203 woods"];
-  木 [label = "木\n202 tree"];
-  夕 [label = "夕\n115 evening"];
-  月 [label = "月\n13 month"];
+  F [label = "梦\ndream (205)"];
+  C [label = "林\nwoods (203)"];
+  B [label = "木\ntree (202)"];
+  E [label = "夕\nevening (115)"];
+  D [label = "月\nmonth (13)"];
 
-  林 -> 梦 [thick];
-  木 -> 林 [thick];
-  夕 -> 梦 [thick];
-  月 -> 夕 [thick];
+  C -> F [thick];
+  B -> C [thick];
+  E -> F [thick];
+  D -> E [thick];
 }

@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  揪 [label = "揪\n770 hold tight"];
-  扌 [label = "扌\n* fingers"];
-  秋 [label = "秋\n768 autumn"];
-  禾 [label = "禾\n762 standing grain"];
-  火 [label = "火\n170 fire"];
+  F [label = "揪\nhold tight (770)"];
+  B [label = "扌\nfingers (*)"];
+  E [label = "秋\nautumn (768)"];
+  C [label = "禾\nstanding grain (762)"];
+  D [label = "火\nfire (170)"];
 
-  扌 -> 揪 [thick];
-  秋 -> 揪 [thick];
-  禾 -> 秋 [thick];
-  火 -> 秋 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

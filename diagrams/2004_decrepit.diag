@@ -5,26 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  颓 [label = "颓\n2004 decrepit"];
-  秃 [label = "秃\n2003 bald"];
-  禾 [label = "禾\n762 standing grain"];
-  几 [label = "几\n57 how many?"];
-  页 [label = "页\n60 page"];
-  贝 [label = "贝\n52 shellfish"];
-  目 [label = "目\n15 eye"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
+  L [label = "颓\ndecrepit (2004)"];
+  D [label = "秃\nbald (2003)"];
+  B [label = "禾\nstanding grain (762)"];
+  C [label = "几\nhow many? (57)"];
+  K [label = "页\npage (60)"];
+  H [label = "贝\nshellfish (52)"];
+  E [label = "目\neye (15)"];
+  G [label = "囧只－口\nanimal legs (*)"];
+  F [label = "八\neight (8)"];
+  I [label = "一\none (1)"];
+  J [label = "丶\na drop of (*)"];
 
-  秃 -> 颓 [thick];
-  禾 -> 秃 [thick];
-  几 -> 秃 [thick];
-  页 -> 颓 [thick];
-  贝 -> 页 [thick];
-  目 -> 贝 [thick];
-  囧只－口 -> 贝 [thick];
-  八 -> 囧只－口 [thick];
-  一 -> 页 [thick];
-  丶 -> 页 [thick];
+  D -> L [thick];
+  B -> D [thick];
+  C -> D [thick];
+  K -> L [thick];
+  H -> K [thick];
+  E -> H [thick];
+  G -> H [thick];
+  F -> G [thick];
+  I -> K [thick];
+  J -> K [thick];
 }

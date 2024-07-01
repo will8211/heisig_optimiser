@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  糊 [label = "糊\n2029 batter"];
-  米 [label = "米\n778 rice"];
-  胡 [label = "胡\n17 recklessly"];
-  月 [label = "月\n13 month"];
-  古 [label = "古\n16 ancient"];
-  十 [label = "十\n10 ten"];
-  口 [label = "口\n11 mouth"];
+  H [label = "糊\nbatter (2029)"];
+  B [label = "米\nrice (778)"];
+  G [label = "胡\nrecklessly (17)"];
+  C [label = "月\nmonth (13)"];
+  F [label = "古\nancient (16)"];
+  D [label = "十\nten (10)"];
+  E [label = "口\nmouth (11)"];
 
-  米 -> 糊 [thick];
-  胡 -> 糊 [thick];
-  月 -> 胡 [thick];
-  古 -> 胡 [thick];
-  十 -> 古 [thick];
-  口 -> 古 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  C -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

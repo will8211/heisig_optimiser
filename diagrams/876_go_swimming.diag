@@ -5,34 +5,36 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  游 [label = "游\n876 go swimming"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  囧施－也 [label = "囧施－也\n* banner"];
-  方 [label = "方\n494 direction"];
-  刀 [label = "刀\n83 sword"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  "𠂉" [label = "𠂉\n* reclining"];
-  子 [label = "子\n97 child"];
+  Q [label = "游\ngo swimming (876)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  O [label = "囧施－也\nbanner (*)"];
+  M [label = "方\ndirection (494)"];
+  F [label = "刀\nsword (83)"];
+  L [label = "亠\ntop hat (*)"];
+  I [label = "六\nsix (6)"];
+  H [label = "囧只－口\nanimal legs (*)"];
+  G [label = "八\neight (8)"];
+  K [label = "囧只－口\nanimal legs (*)"];
+  J [label = "八\neight (8)"];
+  N [label = "𠂉\nreclining (*)"];
+  P [label = "子\nchild (97)"];
 
-  水 -> 游 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  囧施－也 -> 游 [thick];
-  方 -> 囧施－也 [thick];
-  刀 -> 方 [thick];
-  亠 -> 方 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
-  "𠂉" -> 囧施－也 [thick];
-  子 -> 游 [thick];
+  E -> Q [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  O -> Q [thick];
+  M -> O [thick];
+  F -> M [thick];
+  L -> M [thick];
+  I -> L [thick];
+  H -> I [thick];
+  G -> H [thick];
+  K -> L [thick];
+  J -> K [thick];
+  N -> O [thick];
+  P -> Q [thick];
 }

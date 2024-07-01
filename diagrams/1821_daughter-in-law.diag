@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  媳 [label = "媳\n1821 daughter-in-law"];
-  女 [label = "女\n102 woman"];
-  息 [label = "息\n574 breath"];
-  自 [label = "自\n33 oneself"];
-  丶 [label = "丶\n* a drop of"];
-  目 [label = "目\n15 eye"];
-  心 [label = "心\n563 heart"];
+  H [label = "媳\ndaughter-in-law (1821)"];
+  B [label = "女\nwoman (102)"];
+  G [label = "息\nbreath (574)"];
+  E [label = "自\noneself (33)"];
+  C [label = "丶\na drop of (*)"];
+  D [label = "目\neye (15)"];
+  F [label = "心\nheart (563)"];
 
-  女 -> 媳 [thick];
-  息 -> 媳 [thick];
-  自 -> 息 [thick];
-  丶 -> 自 [thick];
-  目 -> 自 [thick];
-  心 -> 息 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  E -> G [thick];
+  C -> E [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

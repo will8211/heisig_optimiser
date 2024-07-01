@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  掩 [label = "掩\n1485 conceal"];
-  扌 [label = "扌\n* fingers"];
-  奄 [label = "奄\n* hang glider"];
-  电 [label = "电\n1484 electricity"];
-  大 [label = "大\n113 large"];
+  F [label = "掩\nconceal (1485)"];
+  B [label = "扌\nfingers (*)"];
+  E [label = "奄\nhang glider (*)"];
+  C [label = "电\nelectricity (1484)"];
+  D [label = "大\nlarge (113)"];
 
-  扌 -> 掩 [thick];
-  奄 -> 掩 [thick];
-  电 -> 奄 [thick];
-  大 -> 奄 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

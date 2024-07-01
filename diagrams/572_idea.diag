@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  意 [label = "意\n572 idea"];
-  音 [label = "音\n484 sound"];
-  立 [label = "立\n444 standing up"];
-  日 [label = "日\n12 day"];
-  心 [label = "心\n563 heart"];
+  F [label = "意\nidea (572)"];
+  D [label = "音\nsound (484)"];
+  B [label = "立\nstanding up (444)"];
+  C [label = "日\nday (12)"];
+  E [label = "心\nheart (563)"];
 
-  音 -> 意 [thick];
-  立 -> 音 [thick];
-  日 -> 音 [thick];
-  心 -> 意 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

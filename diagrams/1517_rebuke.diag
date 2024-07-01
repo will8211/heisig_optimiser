@@ -5,13 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  呵 [label = "呵\n1517 rebuke"];
-  口 [label = "口\n11 mouth"];
-  可 [label = "可\n92 can"];
-  丁 [label = "丁\n90 fourth"];
+  F [label = "呵\nrebuke (1517)"];
+  B [label = "口\nmouth (11)"];
+  E [label = "可\ncan (92)"];
+  C [label = "丁\nfourth (90)"];
+  D [label = "口\nmouth (11)"];
 
-  口 -> 呵 [thick];
-  可 -> 呵 [thick];
-  丁 -> 可 [thick];
-  口 -> 可 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  肝 [label = "肝\n2638 liver"];
-  月 [label = "月\n13 month"];
-  干 [label = "干\n1277 dry"];
+  D [label = "肝\nliver (2638)"];
+  B [label = "月\nmonth (13)"];
+  C [label = "干\ndry (1277)"];
 
-  月 -> 肝 [thick];
-  干 -> 肝 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  竖 [label = "竖\n2268 perpendicular"];
-  坚 [label = "坚\n1011 firm"];
-  囧坚－圣 [label = "囧坚－圣\n* fencing foil"];
-  又 [label = "又\n633 again"];
-  土 [label = "土\n158 soil"];
-  立 [label = "立\n444 standing up"];
+  G [label = "竖\nperpendicular (2268)"];
+  E [label = "坚\nfirm (1011)"];
+  B [label = "囧坚－圣\nfencing foil (*)"];
+  C [label = "又\nagain (633)"];
+  D [label = "土\nsoil (158)"];
+  F [label = "立\nstanding up (444)"];
 
-  坚 -> 竖 [thick];
-  囧坚－圣 -> 坚 [thick];
-  又 -> 坚 [thick];
-  土 -> 坚 [thick];
-  立 -> 竖 [thick];
+  E -> G [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

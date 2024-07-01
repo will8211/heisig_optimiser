@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  匀 [label = "匀\n66 uniform"];
-  勹 [label = "勹\n* bound up"];
-  二 [label = "二\n2 two"];
-  一 [label = "一\n1 one"];
+  E [label = "匀\nuniform (66)"];
+  B [label = "勹\nbound up (*)"];
+  D [label = "二\ntwo (2)"];
+  C [label = "一\none (1)"];
 
-  勹 -> 匀 [thick];
-  二 -> 匀 [thick];
-  一 -> 二 [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

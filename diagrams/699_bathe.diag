@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  浴 [label = "浴\n699 bathe"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  谷 [label = "谷\n698 valley"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  口 [label = "口\n11 mouth"];
+  K [label = "浴\nbathe (699)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  J [label = "谷\nvalley (698)"];
+  G [label = "囧只－口\nanimal legs (*)"];
+  F [label = "八\neight (8)"];
+  H [label = "𠆢\numbrella (*)"];
+  I [label = "口\nmouth (11)"];
 
-  水 -> 浴 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  谷 -> 浴 [thick];
-  囧只－口 -> 谷 [thick];
-  八 -> 囧只－口 [thick];
-  "𠆢" -> 谷 [thick];
-  口 -> 谷 [thick];
+  E -> K [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  J -> K [thick];
+  G -> J [thick];
+  F -> G [thick];
+  H -> J [thick];
+  I -> J [thick];
 }

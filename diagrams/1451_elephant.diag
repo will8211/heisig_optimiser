@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  象 [label = "象\n1451 elephant"];
-  兔 [label = "兔\n1447 rabbit"];
-  勹 [label = "勹\n* bound up"];
-  口 [label = "口\n11 mouth"];
-  儿 [label = "儿\n56 youngster"];
-  丶 [label = "丶\n* a drop of"];
-  豕 [label = "豕\n* sow"];
+  H [label = "象\nelephant (1451)"];
+  F [label = "兔\nrabbit (1447)"];
+  B [label = "勹\nbound up (*)"];
+  C [label = "口\nmouth (11)"];
+  D [label = "儿\nyoungster (56)"];
+  E [label = "丶\na drop of (*)"];
+  G [label = "豕\nsow (*)"];
 
-  兔 -> 象 [thick];
-  勹 -> 兔 [thick];
-  口 -> 兔 [thick];
-  儿 -> 兔 [thick];
-  丶 -> 兔 [thick];
-  豕 -> 象 [thick];
+  F -> H [thick];
+  B -> F [thick];
+  C -> F [thick];
+  D -> F [thick];
+  E -> F [thick];
+  G -> H [thick];
 }

@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  易 [label = "易\n880 easy"];
-  日 [label = "日\n12 day"];
-  勿 [label = "勿\n877 not"];
-  "𠃓" [label = "𠃓\n* piglets"];
-  豕 [label = "豕\n* sow"];
+  F [label = "易\neasy (880)"];
+  B [label = "日\nday (12)"];
+  E [label = "勿\nnot (877)"];
+  D [label = "𠃓\npiglets (*)"];
+  C [label = "豕\nsow (*)"];
 
-  日 -> 易 [thick];
-  勿 -> 易 [thick];
-  "𠃓" -> 勿 [thick];
-  豕 -> "𠃓" [thick];
+  B -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  碰 [label = "碰\n2755 bump"];
-  石 [label = "石\n125 stone"];
-  口 [label = "口\n11 mouth"];
-  厂 [label = "厂\n121 factory"];
-  並 [label = "並\n* side by side"];
+  F [label = "碰\nbump (2755)"];
+  D [label = "石\nstone (125)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "厂\nfactory (121)"];
+  E [label = "並\nside by side (*)"];
 
-  石 -> 碰 [thick];
-  口 -> 石 [thick];
-  厂 -> 石 [thick];
-  並 -> 碰 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

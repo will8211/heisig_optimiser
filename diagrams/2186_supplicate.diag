@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  祈 [label = "祈\n2186 supplicate"];
-  示 [label = "示\n900 show"];
-  斤 [label = "斤\n924 catty"];
+  D [label = "祈\nsupplicate (2186)"];
+  B [label = "示\nshow (900)"];
+  C [label = "斤\ncatty (924)"];
 
-  示 -> 祈 [thick];
-  斤 -> 祈 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

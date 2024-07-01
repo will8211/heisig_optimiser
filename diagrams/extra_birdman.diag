@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  倠 [label = "倠\n* birdman"];
-  人 [label = "人\n793 person"];
-  隹 [label = "隹\n* turkey"];
+  D [label = "倠\nbirdman (*)"];
+  B [label = "人\nperson (793)"];
+  C [label = "隹\nturkey (*)"];
 
-  人 -> 倠 [thick];
-  隹 -> 倠 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

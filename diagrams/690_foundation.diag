@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  础 [label = "础\n690 foundation"];
-  石 [label = "石\n125 stone"];
-  口 [label = "口\n11 mouth"];
-  厂 [label = "厂\n121 factory"];
-  出 [label = "出\n689 exit"];
-  山 [label = "山\n688 mountain"];
+  G [label = "础\nfoundation (690)"];
+  D [label = "石\nstone (125)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "厂\nfactory (121)"];
+  F [label = "出\nexit (689)"];
+  E [label = "山\nmountain (688)"];
 
-  石 -> 础 [thick];
-  口 -> 石 [thick];
-  厂 -> 石 [thick];
-  出 -> 础 [thick];
-  山 -> 出 [thick];
+  D -> G [thick];
+  B -> D [thick];
+  C -> D [thick];
+  F -> G [thick];
+  E -> F [thick];
 }

@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  雇 [label = "雇\n898 hire"];
-  户 [label = "户\n896 door"];
-  丶 [label = "丶\n* a drop of"];
-  尸 [label = "尸\n882 corpse"];
-  隹 [label = "隹\n* turkey"];
+  F [label = "雇\nhire (898)"];
+  D [label = "户\ndoor (896)"];
+  B [label = "丶\na drop of (*)"];
+  C [label = "尸\ncorpse (882)"];
+  E [label = "隹\nturkey (*)"];
 
-  户 -> 雇 [thick];
-  丶 -> 户 [thick];
-  尸 -> 户 [thick];
-  隹 -> 雇 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

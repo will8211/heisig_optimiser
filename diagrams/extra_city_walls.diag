@@ -5,8 +5,8 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  囧阝 [label = "囧阝\n* city walls"];
-  阝 [label = "阝\n* pinnacle"];
+  C [label = "囧阝\ncity walls (*)"];
+  B [label = "阝\npinnacle (*)"];
 
-  阝 -> 囧阝 [thick];
+  B -> C [thick];
 }

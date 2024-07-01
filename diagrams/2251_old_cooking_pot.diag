@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  鼎 [label = "鼎\n2251 old cooking pot"];
-  目 [label = "目\n15 eye"];
-  爿 [label = "爿\n* bunk beds"];
-  片 [label = "片\n986 slice"];
+  E [label = "鼎\nold cooking pot (2251)"];
+  B [label = "目\neye (15)"];
+  C [label = "爿\nbunk beds (*)"];
+  D [label = "片\nslice (986)"];
 
-  目 -> 鼎 [thick];
-  爿 -> 鼎 [thick];
-  片 -> 鼎 [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  乇 [label = "乇\n* fur ball"];
-  毛 [label = "毛\n1421 fur"];
-  手 [label = "手\n584 hand"];
+  D [label = "乇\nfur ball (*)"];
+  C [label = "毛\nfur (1421)"];
+  B [label = "手\nhand (584)"];
 
-  毛 -> 乇 [thick];
-  手 -> 毛 [thick];
+  C -> D [thick];
+  B -> C [thick];
 }

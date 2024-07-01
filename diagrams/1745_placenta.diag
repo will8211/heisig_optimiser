@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  胞 [label = "胞\n1745 placenta"];
-  月 [label = "月\n13 month"];
-  包 [label = "包\n520 wrap"];
-  勹 [label = "勹\n* bound up"];
-  已 [label = "已\n519 already"];
-  己 [label = "己\n515 self"];
+  G [label = "胞\nplacenta (1745)"];
+  B [label = "月\nmonth (13)"];
+  F [label = "包\nwrap (520)"];
+  C [label = "勹\nbound up (*)"];
+  E [label = "已\nalready (519)"];
+  D [label = "己\nself (515)"];
 
-  月 -> 胞 [thick];
-  包 -> 胞 [thick];
-  勹 -> 包 [thick];
-  已 -> 包 [thick];
-  己 -> 已 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
 }

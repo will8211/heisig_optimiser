@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  勺 [label = "勺\n69 ladle"];
-  勹 [label = "勹\n* bound up"];
-  丶 [label = "丶\n* a drop of"];
+  D [label = "勺\nladle (69)"];
+  B [label = "勹\nbound up (*)"];
+  C [label = "丶\na drop of (*)"];
 
-  勹 -> 勺 [thick];
-  丶 -> 勺 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

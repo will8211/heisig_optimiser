@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  帽 [label = "帽\n416 hat"];
-  冒 [label = "冒\n184 risk"];
-  冂 [label = "冂\n* hood"];
-  几 [label = "几\n57 how many?"];
-  二 [label = "二\n2 two"];
-  一 [label = "一\n1 one"];
-  目 [label = "目\n15 eye"];
-  巾 [label = "巾\n410 towel"];
+  I [label = "帽\nhat (416)"];
+  G [label = "冒\nrisk (184)"];
+  C [label = "冂\nhood (*)"];
+  B [label = "几\nhow many? (57)"];
+  E [label = "二\ntwo (2)"];
+  D [label = "一\none (1)"];
+  F [label = "目\neye (15)"];
+  H [label = "巾\ntowel (410)"];
 
-  冒 -> 帽 [thick];
-  冂 -> 冒 [thick];
-  几 -> 冂 [thick];
-  二 -> 冒 [thick];
-  一 -> 二 [thick];
-  目 -> 冒 [thick];
-  巾 -> 帽 [thick];
+  G -> I [thick];
+  C -> G [thick];
+  B -> C [thick];
+  E -> G [thick];
+  D -> E [thick];
+  F -> G [thick];
+  H -> I [thick];
 }

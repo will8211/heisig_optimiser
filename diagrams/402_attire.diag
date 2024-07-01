@@ -5,22 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  装 [label = "装\n402 attire"];
-  衣 [label = "衣\n400 clothing"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  兆 [label = "兆\n237 portent"];
-  士 [label = "士\n334 soldier"];
+  K [label = "装\nattire (402)"];
+  H [label = "衣\nclothing (400)"];
+  G [label = "亠\ntop hat (*)"];
+  D [label = "六\nsix (6)"];
+  C [label = "囧只－口\nanimal legs (*)"];
+  B [label = "八\neight (8)"];
+  F [label = "囧只－口\nanimal legs (*)"];
+  E [label = "八\neight (8)"];
+  I [label = "兆\nportent (237)"];
+  J [label = "士\nsoldier (334)"];
 
-  衣 -> 装 [thick];
-  亠 -> 衣 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
-  兆 -> 装 [thick];
-  士 -> 装 [thick];
+  H -> K [thick];
+  G -> H [thick];
+  D -> G [thick];
+  C -> D [thick];
+  B -> C [thick];
+  F -> G [thick];
+  E -> F [thick];
+  I -> K [thick];
+  J -> K [thick];
 }

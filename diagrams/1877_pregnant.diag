@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  孕 [label = "孕\n1877 pregnant"];
-  乃 [label = "乃\n625 only then"];
-  子 [label = "子\n97 child"];
+  D [label = "孕\npregnant (1877)"];
+  B [label = "乃\nonly then (625)"];
+  C [label = "子\nchild (97)"];
 
-  乃 -> 孕 [thick];
-  子 -> 孕 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

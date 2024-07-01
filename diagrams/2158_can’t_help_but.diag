@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  奈 [label = "奈\n2158 can’t help but"];
-  大 [label = "大\n113 large"];
-  示 [label = "示\n900 show"];
+  D [label = "奈\ncan’t help but (2158)"];
+  B [label = "大\nlarge (113)"];
+  C [label = "示\nshow (900)"];
 
-  大 -> 奈 [thick];
-  示 -> 奈 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

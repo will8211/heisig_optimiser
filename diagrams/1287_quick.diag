@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  速 [label = "速\n1287 quick"];
-  束 [label = "束\n1286 bundle up"];
-  木 [label = "木\n202 tree"];
-  口 [label = "口\n11 mouth"];
-  辶 [label = "辶\n* road"];
+  F [label = "速\nquick (1287)"];
+  D [label = "束\nbundle up (1286)"];
+  B [label = "木\ntree (202)"];
+  C [label = "口\nmouth (11)"];
+  E [label = "辶\nroad (*)"];
 
-  束 -> 速 [thick];
-  木 -> 束 [thick];
-  口 -> 束 [thick];
-  辶 -> 速 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

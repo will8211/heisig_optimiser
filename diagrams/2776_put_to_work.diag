@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  佣 [label = "佣\n2776 put to work"];
-  人 [label = "人\n793 person"];
-  用 [label = "用\n1361 utilize"];
+  D [label = "佣\nput to work (2776)"];
+  B [label = "人\nperson (793)"];
+  C [label = "用\nutilize (1361)"];
 
-  人 -> 佣 [thick];
-  用 -> 佣 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

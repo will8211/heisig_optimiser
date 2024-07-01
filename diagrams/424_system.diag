@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  制 [label = "制\n424 system"];
-  牛 [label = "牛\n252 cow"];
-  刀 [label = "刀\n83 sword"];
-  囧冂 [label = "囧冂\n* belt"];
-  巾 [label = "巾\n410 towel"];
+  F [label = "制\nsystem (424)"];
+  B [label = "牛\ncow (252)"];
+  C [label = "刀\nsword (83)"];
+  E [label = "囧冂\nbelt (*)"];
+  D [label = "巾\ntowel (410)"];
 
-  牛 -> 制 [thick];
-  刀 -> 制 [thick];
-  囧冂 -> 制 [thick];
-  巾 -> 囧冂 [thick];
+  B -> F [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
 }

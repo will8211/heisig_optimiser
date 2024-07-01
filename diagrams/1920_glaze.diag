@@ -5,27 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  琉 [label = "琉\n1920 glaze"];
-  玉 [label = "玉\n266 jade"];
-  王 [label = "王\n265 king"];
-  工 [label = "工\n76 work"];
-  丶 [label = "丶\n* a drop of"];
-  "㐬" [label = "㐬\n* baby Moses"];
-  囧充－儿 [label = "囧充－儿\n* infant"];
-  囧会－亼 [label = "囧会－亼\n* wall"];
-  厶 [label = "厶\n* elbow"];
-  一 [label = "一\n1 one"];
-  川 [label = "川\n134 stream"];
+  M [label = "琉\nglaze (1920)"];
+  E [label = "玉\njade (266)"];
+  C [label = "王\nking (265)"];
+  B [label = "工\nwork (76)"];
+  D [label = "丶\na drop of (*)"];
+  L [label = "㐬\nbaby Moses (*)"];
+  J [label = "囧充－儿\ninfant (*)"];
+  H [label = "囧会－亼\nwall (*)"];
+  F [label = "厶\nelbow (*)"];
+  G [label = "一\none (1)"];
+  I [label = "丶\na drop of (*)"];
+  K [label = "川\nstream (134)"];
 
-  玉 -> 琉 [thick];
-  王 -> 玉 [thick];
-  工 -> 王 [thick];
-  丶 -> 玉 [thick];
-  "㐬" -> 琉 [thick];
-  囧充－儿 -> "㐬" [thick];
-  囧会－亼 -> 囧充－儿 [thick];
-  厶 -> 囧会－亼 [thick];
-  一 -> 囧会－亼 [thick];
-  丶 -> 囧充－儿 [thick];
-  川 -> "㐬" [thick];
+  E -> M [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  L -> M [thick];
+  J -> L [thick];
+  H -> J [thick];
+  F -> H [thick];
+  G -> H [thick];
+  I -> J [thick];
+  K -> L [thick];
 }

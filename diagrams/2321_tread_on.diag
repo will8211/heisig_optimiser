@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  践 [label = "践\n2321 tread on"];
-  足 [label = "足\n1048 lower leg"];
-  口 [label = "口\n11 mouth"];
-  止 [label = "止\n379 stop"];
-  戋 [label = "戋\n* float"];
-  戈 [label = "戈\n361 halberd"];
-  弋 [label = "弋\n* arrow"];
+  H [label = "践\ntread on (2321)"];
+  D [label = "足\nlower leg (1048)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "止\nstop (379)"];
+  G [label = "戋\nfloat (*)"];
+  F [label = "戈\nhalberd (361)"];
+  E [label = "弋\narrow (*)"];
 
-  足 -> 践 [thick];
-  口 -> 足 [thick];
-  止 -> 足 [thick];
-  戋 -> 践 [thick];
-  戈 -> 戋 [thick];
-  弋 -> 戈 [thick];
+  D -> H [thick];
+  B -> D [thick];
+  C -> D [thick];
+  G -> H [thick];
+  F -> G [thick];
+  E -> F [thick];
 }

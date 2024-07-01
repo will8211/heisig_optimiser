@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  妆 [label = "妆\n243 put on makeup"];
-  女 [label = "女\n102 woman"];
-  兆 [label = "兆\n237 portent"];
+  D [label = "妆\nput on makeup (243)"];
+  B [label = "女\nwoman (102)"];
+  C [label = "兆\nportent (237)"];
 
-  女 -> 妆 [thick];
-  兆 -> 妆 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

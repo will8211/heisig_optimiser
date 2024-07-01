@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  急 [label = "急\n946 anxious"];
-  勹 [label = "勹\n* bound up"];
-  彐 [label = "彐\n* broom"];
-  心 [label = "心\n563 heart"];
+  E [label = "急\nanxious (946)"];
+  B [label = "勹\nbound up (*)"];
+  C [label = "彐\nbroom (*)"];
+  D [label = "心\nheart (563)"];
 
-  勹 -> 急 [thick];
-  彐 -> 急 [thick];
-  心 -> 急 [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

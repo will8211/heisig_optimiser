@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  货 [label = "货\n834 commodities"];
-  化 [label = "化\n830 transform"];
-  人 [label = "人\n793 person"];
-  匕 [label = "匕\n453 ancient spoon"];
-  贝 [label = "贝\n52 shellfish"];
-  目 [label = "目\n15 eye"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
+  I [label = "货\ncommodities (834)"];
+  D [label = "化\ntransform (830)"];
+  B [label = "人\nperson (793)"];
+  C [label = "匕\nancient spoon (453)"];
+  H [label = "贝\nshellfish (52)"];
+  E [label = "目\neye (15)"];
+  G [label = "囧只－口\nanimal legs (*)"];
+  F [label = "八\neight (8)"];
 
-  化 -> 货 [thick];
-  人 -> 化 [thick];
-  匕 -> 化 [thick];
-  贝 -> 货 [thick];
-  目 -> 贝 [thick];
-  囧只－口 -> 贝 [thick];
-  八 -> 囧只－口 [thick];
+  D -> I [thick];
+  B -> D [thick];
+  C -> D [thick];
+  H -> I [thick];
+  E -> H [thick];
+  G -> H [thick];
+  F -> G [thick];
 }

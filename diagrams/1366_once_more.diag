@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  再 [label = "再\n1366 once more"];
-  一 [label = "一\n1 one"];
-  冂 [label = "冂\n* hood"];
-  几 [label = "几\n57 how many?"];
-  土 [label = "土\n158 soil"];
+  F [label = "再\nonce more (1366)"];
+  B [label = "一\none (1)"];
+  D [label = "冂\nhood (*)"];
+  C [label = "几\nhow many? (57)"];
+  E [label = "土\nsoil (158)"];
 
-  一 -> 再 [thick];
-  冂 -> 再 [thick];
-  几 -> 冂 [thick];
-  土 -> 再 [thick];
+  B -> F [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

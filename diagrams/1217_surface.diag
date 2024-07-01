@@ -5,20 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  表 [label = "表\n1217 surface"];
-  囧毒－母 [label = "囧毒－母\n* grow up"];
-  衣 [label = "衣\n400 clothing"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
+  J [label = "表\nsurface (1217)"];
+  B [label = "囧毒－母\ngrow up (*)"];
+  I [label = "衣\nclothing (400)"];
+  H [label = "亠\ntop hat (*)"];
+  E [label = "六\nsix (6)"];
+  D [label = "囧只－口\nanimal legs (*)"];
+  C [label = "八\neight (8)"];
+  G [label = "囧只－口\nanimal legs (*)"];
+  F [label = "八\neight (8)"];
 
-  囧毒－母 -> 表 [thick];
-  衣 -> 表 [thick];
-  亠 -> 衣 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
+  B -> J [thick];
+  I -> J [thick];
+  H -> I [thick];
+  E -> H [thick];
+  D -> E [thick];
+  C -> D [thick];
+  G -> H [thick];
+  F -> G [thick];
 }

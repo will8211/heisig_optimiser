@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  宁 [label = "宁\n1558 calm"];
-  宀 [label = "宀\n* house"];
-  丁 [label = "丁\n90 fourth"];
+  D [label = "宁\ncalm (1558)"];
+  B [label = "宀\nhouse (*)"];
+  C [label = "丁\nfourth (90)"];
 
-  宀 -> 宁 [thick];
-  丁 -> 宁 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

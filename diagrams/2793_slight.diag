@@ -5,31 +5,34 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  薄 [label = "薄\n2793 slight"];
-  蒲 [label = "蒲\n2792 cattail"];
-  浦 [label = "浦\n2791 river mouth"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  甫 [label = "甫\n1379 Fu"];
-  十 [label = "十\n10 ten"];
-  月 [label = "月\n13 month"];
-  艹 [label = "艹\n* flower"];
-  寸 [label = "寸\n166 Chinese inch"];
+  P [label = "薄\nslight (2793)"];
+  L [label = "蒲\ncattail (2792)"];
+  J [label = "浦\nriver mouth (2791)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  I [label = "甫\nFu (1379)"];
+  F [label = "十\nten (10)"];
+  G [label = "月\nmonth (13)"];
+  H [label = "丶\na drop of (*)"];
+  K [label = "艹\nflower (*)"];
+  O [label = "寸\nChinese inch (166)"];
+  M [label = "丶\na drop of (*)"];
+  N [label = "十\nten (10)"];
 
-  蒲 -> 薄 [thick];
-  浦 -> 蒲 [thick];
-  水 -> 浦 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  甫 -> 浦 [thick];
-  十 -> 甫 [thick];
-  月 -> 甫 [thick];
-  丶 -> 甫 [thick];
-  艹 -> 蒲 [thick];
-  寸 -> 薄 [thick];
-  丶 -> 寸 [thick];
-  十 -> 寸 [thick];
+  L -> P [thick];
+  J -> L [thick];
+  E -> J [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  I -> J [thick];
+  F -> I [thick];
+  G -> I [thick];
+  H -> I [thick];
+  K -> L [thick];
+  O -> P [thick];
+  M -> O [thick];
+  N -> O [thick];
 }

@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  搓 [label = "搓\n1861 massage"];
-  扌 [label = "扌\n* fingers"];
-  差 [label = "差\n535 fall short of"];
-  囧差－工 [label = "囧差－工\n* wool"];
-  羊 [label = "羊\n528 sheep"];
-  丷 [label = "丷\n* horns"];
-  一 [label = "一\n1 one"];
-  工 [label = "工\n76 work"];
+  I [label = "搓\nmassage (1861)"];
+  B [label = "扌\nfingers (*)"];
+  H [label = "差\nfall short of (535)"];
+  F [label = "囧差－工\nwool (*)"];
+  E [label = "羊\nsheep (528)"];
+  D [label = "丷\nhorns (*)"];
+  C [label = "一\none (1)"];
+  G [label = "工\nwork (76)"];
 
-  扌 -> 搓 [thick];
-  差 -> 搓 [thick];
-  囧差－工 -> 差 [thick];
-  羊 -> 囧差－工 [thick];
-  丷 -> 羊 [thick];
-  一 -> 丷 [thick];
-  工 -> 差 [thick];
+  B -> I [thick];
+  H -> I [thick];
+  F -> H [thick];
+  E -> F [thick];
+  D -> E [thick];
+  C -> D [thick];
+  G -> H [thick];
 }

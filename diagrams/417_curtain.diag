@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  幕 [label = "幕\n417 curtain"];
-  莫 [label = "莫\n231 nobody"];
-  艹 [label = "艹\n* flower"];
-  日 [label = "日\n12 day"];
-  大 [label = "大\n113 large"];
-  巾 [label = "巾\n410 towel"];
+  G [label = "幕\ncurtain (417)"];
+  E [label = "莫\nnobody (231)"];
+  B [label = "艹\nflower (*)"];
+  C [label = "日\nday (12)"];
+  D [label = "大\nlarge (113)"];
+  F [label = "巾\ntowel (410)"];
 
-  莫 -> 幕 [thick];
-  艹 -> 莫 [thick];
-  日 -> 莫 [thick];
-  大 -> 莫 [thick];
-  巾 -> 幕 [thick];
+  E -> G [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

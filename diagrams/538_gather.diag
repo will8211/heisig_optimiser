@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  集 [label = "集\n538 gather"];
-  隹 [label = "隹\n* turkey"];
-  木 [label = "木\n202 tree"];
+  D [label = "集\ngather (538)"];
+  B [label = "隹\nturkey (*)"];
+  C [label = "木\ntree (202)"];
 
-  隹 -> 集 [thick];
-  木 -> 集 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

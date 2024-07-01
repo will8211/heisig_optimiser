@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  严 [label = "严\n1353 strict"];
-  亚 [label = "亚\n1351 Asia"];
-  一 [label = "一\n1 one"];
-  业 [label = "业\n1349 profession"];
-  並 [label = "並\n* side by side"];
-  厂 [label = "厂\n121 factory"];
+  G [label = "严\nstrict (1353)"];
+  E [label = "亚\nAsia (1351)"];
+  B [label = "一\none (1)"];
+  D [label = "业\nprofession (1349)"];
+  C [label = "並\nside by side (*)"];
+  F [label = "厂\nfactory (121)"];
 
-  亚 -> 严 [thick];
-  一 -> 亚 [thick];
-  业 -> 亚 [thick];
-  並 -> 业 [thick];
-  厂 -> 严 [thick];
+  E -> G [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
+  F -> G [thick];
 }

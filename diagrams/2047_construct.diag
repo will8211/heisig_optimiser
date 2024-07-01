@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  筑 [label = "筑\n2047 construct"];
-  竹 [label = "竹\n786 bamboo"];
-  丁 [label = "丁\n90 fourth"];
-  工 [label = "工\n76 work"];
-  凡 [label = "凡\n62 ordinary"];
-  丶 [label = "丶\n* a drop of"];
-  几 [label = "几\n57 how many?"];
+  H [label = "筑\nconstruct (2047)"];
+  C [label = "竹\nbamboo (786)"];
+  B [label = "丁\nfourth (90)"];
+  D [label = "工\nwork (76)"];
+  G [label = "凡\nordinary (62)"];
+  E [label = "丶\na drop of (*)"];
+  F [label = "几\nhow many? (57)"];
 
-  竹 -> 筑 [thick];
-  丁 -> 竹 [thick];
-  工 -> 筑 [thick];
-  凡 -> 筑 [thick];
-  丶 -> 凡 [thick];
-  几 -> 凡 [thick];
+  C -> H [thick];
+  B -> C [thick];
+  D -> H [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

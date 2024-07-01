@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  弊 [label = "弊\n2044 fraud"];
-  敝 [label = "敝\n* shredder"];
-  冂 [label = "冂\n* hood"];
-  几 [label = "几\n57 how many?"];
-  米 [label = "米\n778 rice"];
-  攵 [label = "攵\n* taskmaster"];
-  开 [label = "开\n613 open"];
-  二 [label = "二\n2 two"];
-  一 [label = "一\n1 one"];
+  J [label = "弊\nfraud (2044)"];
+  F [label = "敝\nshredder (*)"];
+  C [label = "冂\nhood (*)"];
+  B [label = "几\nhow many? (57)"];
+  D [label = "米\nrice (778)"];
+  E [label = "攵\ntaskmaster (*)"];
+  I [label = "开\nopen (613)"];
+  H [label = "二\ntwo (2)"];
+  G [label = "一\none (1)"];
 
-  敝 -> 弊 [thick];
-  冂 -> 敝 [thick];
-  几 -> 冂 [thick];
-  米 -> 敝 [thick];
-  攵 -> 敝 [thick];
-  开 -> 弊 [thick];
-  二 -> 开 [thick];
-  一 -> 二 [thick];
+  F -> J [thick];
+  C -> F [thick];
+  B -> C [thick];
+  D -> F [thick];
+  E -> F [thick];
+  I -> J [thick];
+  H -> I [thick];
+  G -> H [thick];
 }

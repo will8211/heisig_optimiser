@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  右 [label = "右\n78 right"];
-  口 [label = "口\n11 mouth"];
-  "𠂇" [label = "𠂇\n* by one’s side"];
-  十 [label = "十\n10 ten"];
+  E [label = "右\nright (78)"];
+  B [label = "口\nmouth (11)"];
+  D [label = "𠂇\nby one’s side (*)"];
+  C [label = "十\nten (10)"];
 
-  口 -> 右 [thick];
-  "𠂇" -> 右 [thick];
-  十 -> "𠂇" [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

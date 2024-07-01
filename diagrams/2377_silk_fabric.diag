@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  绸 [label = "绸\n2377 silk fabric"];
-  纟 [label = "纟\n* thread"];
-  厶 [label = "厶\n* elbow"];
-  周 [label = "周\n333 circumference"];
-  囧周－冂 [label = "囧周－冂\n* lidded crock"];
-  土 [label = "土\n158 soil"];
-  口 [label = "口\n11 mouth"];
-  冂 [label = "冂\n* hood"];
-  几 [label = "几\n57 how many?"];
+  J [label = "绸\nsilk fabric (2377)"];
+  C [label = "纟\nthread (*)"];
+  B [label = "厶\nelbow (*)"];
+  I [label = "周\ncircumference (333)"];
+  F [label = "囧周－冂\nlidded crock (*)"];
+  D [label = "土\nsoil (158)"];
+  E [label = "口\nmouth (11)"];
+  H [label = "冂\nhood (*)"];
+  G [label = "几\nhow many? (57)"];
 
-  纟 -> 绸 [thick];
-  厶 -> 纟 [thick];
-  周 -> 绸 [thick];
-  囧周－冂 -> 周 [thick];
-  土 -> 囧周－冂 [thick];
-  口 -> 囧周－冂 [thick];
-  冂 -> 周 [thick];
-  几 -> 冂 [thick];
+  C -> J [thick];
+  B -> C [thick];
+  I -> J [thick];
+  F -> I [thick];
+  D -> F [thick];
+  E -> F [thick];
+  H -> I [thick];
+  G -> H [thick];
 }

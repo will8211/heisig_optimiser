@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  穗 [label = "穗\n2015 ear of grain"];
-  禾 [label = "禾\n762 standing grain"];
-  惠 [label = "惠\n1794 favor"];
-  一 [label = "一\n1 one"];
-  日 [label = "日\n12 day"];
-  虫 [label = "虫\n509 insect"];
-  心 [label = "心\n563 heart"];
+  H [label = "穗\near of grain (2015)"];
+  B [label = "禾\nstanding grain (762)"];
+  G [label = "惠\nfavor (1794)"];
+  C [label = "一\none (1)"];
+  D [label = "日\nday (12)"];
+  E [label = "虫\ninsect (509)"];
+  F [label = "心\nheart (563)"];
 
-  禾 -> 穗 [thick];
-  惠 -> 穗 [thick];
-  一 -> 惠 [thick];
-  日 -> 惠 [thick];
-  虫 -> 惠 [thick];
-  心 -> 惠 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  C -> G [thick];
+  D -> G [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

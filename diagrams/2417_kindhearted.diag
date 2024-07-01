@@ -5,24 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  慈 [label = "慈\n2417 kindhearted"];
-  兹 [label = "兹\n* Mona Lisa"];
-  玄 [label = "玄\n2411 mysterious"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  幺 [label = "幺\n* cocoon"];
-  心 [label = "心\n563 heart"];
+  L [label = "慈\nkindhearted (2417)"];
+  J [label = "兹\nMona Lisa (*)"];
+  I [label = "玄\nmysterious (2411)"];
+  G [label = "亠\ntop hat (*)"];
+  D [label = "六\nsix (6)"];
+  C [label = "囧只－口\nanimal legs (*)"];
+  B [label = "八\neight (8)"];
+  F [label = "囧只－口\nanimal legs (*)"];
+  E [label = "八\neight (8)"];
+  H [label = "幺\ncocoon (*)"];
+  K [label = "心\nheart (563)"];
 
-  兹 -> 慈 [thick];
-  玄 -> 兹 [thick];
-  亠 -> 玄 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
-  幺 -> 玄 [thick];
-  心 -> 慈 [thick];
+  J -> L [thick];
+  I -> J [thick];
+  G -> I [thick];
+  D -> G [thick];
+  C -> D [thick];
+  B -> C [thick];
+  F -> G [thick];
+  E -> F [thick];
+  H -> I [thick];
+  K -> L [thick];
 }

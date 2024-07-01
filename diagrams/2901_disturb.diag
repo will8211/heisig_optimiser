@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  骚 [label = "骚\n2901 disturb"];
-  虫 [label = "虫\n509 insect"];
-  马 [label = "马\n1453 horse"];
-  囧与－丨一 [label = "囧与－丨一\n* pointed tail"];
-  叉 [label = "叉\n1883 fork"];
-  又 [label = "又\n633 again"];
-  丶 [label = "丶\n* a drop of"];
+  H [label = "骚\ndisturb (2901)"];
+  B [label = "虫\ninsect (509)"];
+  D [label = "马\nhorse (1453)"];
+  C [label = "囧与－丨一\npointed tail (*)"];
+  G [label = "叉\nfork (1883)"];
+  E [label = "又\nagain (633)"];
+  F [label = "丶\na drop of (*)"];
 
-  虫 -> 骚 [thick];
-  马 -> 骚 [thick];
-  囧与－丨一 -> 马 [thick];
-  叉 -> 骚 [thick];
-  又 -> 叉 [thick];
-  丶 -> 叉 [thick];
+  B -> H [thick];
+  D -> H [thick];
+  C -> D [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

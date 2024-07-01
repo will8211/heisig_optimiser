@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  朴 [label = "朴\n1563 plain"];
-  木 [label = "木\n202 tree"];
-  卜 [label = "卜\n43 divination"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
+  G [label = "朴\nplain (1563)"];
+  B [label = "木\ntree (202)"];
+  F [label = "卜\ndivination (43)"];
+  D [label = "丨\nwalking stick (*)"];
+  C [label = "一\none (1)"];
+  E [label = "丶\na drop of (*)"];
 
-  木 -> 朴 [thick];
-  卜 -> 朴 [thick];
-  丨 -> 卜 [thick];
-  一 -> 丨 [thick];
-  丶 -> 卜 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  陷 [label = "陷\n2971 get stuck"];
-  阝 [label = "阝\n* pinnacle"];
-  臽 [label = "臽\n* pothole"];
-  臼 [label = "臼\n* mortar"];
-  勹 [label = "勹\n* bound up"];
+  F [label = "陷\nget stuck (2971)"];
+  B [label = "阝\npinnacle (*)"];
+  E [label = "臽\npothole (*)"];
+  C [label = "臼\nmortar (*)"];
+  D [label = "勹\nbound up (*)"];
 
-  阝 -> 陷 [thick];
-  臽 -> 陷 [thick];
-  臼 -> 臽 [thick];
-  勹 -> 臽 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  樱 [label = "樱\n1567 cherry"];
-  婴 [label = "婴\n1519 baby"];
-  贝 [label = "贝\n52 shellfish"];
-  目 [label = "目\n15 eye"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  女 [label = "女\n102 woman"];
-  木 [label = "木\n202 tree"];
+  I [label = "樱\ncherry (1567)"];
+  G [label = "婴\nbaby (1519)"];
+  E [label = "贝\nshellfish (52)"];
+  B [label = "目\neye (15)"];
+  D [label = "囧只－口\nanimal legs (*)"];
+  C [label = "八\neight (8)"];
+  F [label = "女\nwoman (102)"];
+  H [label = "木\ntree (202)"];
 
-  婴 -> 樱 [thick];
-  贝 -> 婴 [thick];
-  目 -> 贝 [thick];
-  囧只－口 -> 贝 [thick];
-  八 -> 囧只－口 [thick];
-  女 -> 婴 [thick];
-  木 -> 樱 [thick];
+  G -> I [thick];
+  E -> G [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
+  F -> G [thick];
+  H -> I [thick];
 }

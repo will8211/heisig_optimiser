@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  最 [label = "最\n720 most"];
-  日 [label = "日\n12 day"];
-  取 [label = "取\n718 take"];
-  耳 [label = "耳\n717 ear"];
-  又 [label = "又\n633 again"];
+  F [label = "最\nmost (720)"];
+  B [label = "日\nday (12)"];
+  E [label = "取\ntake (718)"];
+  C [label = "耳\near (717)"];
+  D [label = "又\nagain (633)"];
 
-  日 -> 最 [thick];
-  取 -> 最 [thick];
-  耳 -> 取 [thick];
-  又 -> 取 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

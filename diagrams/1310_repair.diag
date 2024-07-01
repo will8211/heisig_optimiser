@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  修 [label = "修\n1310 repair"];
-  人 [label = "人\n793 person"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  夂 [label = "夂\n* walking legs"];
-  彡 [label = "彡\n* rooster tail"];
+  G [label = "修\nrepair (1310)"];
+  B [label = "人\nperson (793)"];
+  D [label = "丨\nwalking stick (*)"];
+  C [label = "一\none (1)"];
+  E [label = "夂\nwalking legs (*)"];
+  F [label = "彡\nrooster tail (*)"];
 
-  人 -> 修 [thick];
-  丨 -> 修 [thick];
-  一 -> 丨 [thick];
-  夂 -> 修 [thick];
-  彡 -> 修 [thick];
+  B -> G [thick];
+  D -> G [thick];
+  C -> D [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

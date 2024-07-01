@@ -5,21 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  抵 [label = "抵\n2788 resist"];
-  扌 [label = "扌\n* fingers"];
-  氐 [label = "氐\n* calling card"];
-  氏 [label = "氏\n1371 family name"];
-  丶 [label = "丶\n* a drop of"];
-  囧以－丶人 [label = "囧以－丶人\n* plow"];
-  一 [label = "一\n1 one"];
-  乙 [label = "乙\n95 second"];
+  J [label = "抵\nresist (2788)"];
+  B [label = "扌\nfingers (*)"];
+  I [label = "氐\ncalling card (*)"];
+  G [label = "氏\nfamily name (1371)"];
+  C [label = "丶\na drop of (*)"];
+  D [label = "囧以－丶人\nplow (*)"];
+  E [label = "一\none (1)"];
+  F [label = "乙\nsecond (95)"];
+  H [label = "丶\na drop of (*)"];
 
-  扌 -> 抵 [thick];
-  氐 -> 抵 [thick];
-  氏 -> 氐 [thick];
-  丶 -> 氏 [thick];
-  囧以－丶人 -> 氏 [thick];
-  一 -> 氏 [thick];
-  乙 -> 氏 [thick];
-  丶 -> 氐 [thick];
+  B -> J [thick];
+  I -> J [thick];
+  G -> I [thick];
+  C -> G [thick];
+  D -> G [thick];
+  E -> G [thick];
+  F -> G [thick];
+  H -> I [thick];
 }

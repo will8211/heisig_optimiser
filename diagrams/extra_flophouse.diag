@@ -5,8 +5,8 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  囧家 [label = "囧家\n* flophouse"];
-  宀 [label = "宀\n* house"];
+  C [label = "囧家\nflophouse (*)"];
+  B [label = "宀\nhouse (*)"];
 
-  宀 -> 囧家 [thick];
+  B -> C [thick];
 }

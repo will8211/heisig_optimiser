@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  临 [label = "临\n1010 be about to"];
-  囧坚－圣 [label = "囧坚－圣\n* fencing foil"];
-  丶 [label = "丶\n* a drop of"];
-  "𠂉" [label = "𠂉\n* reclining"];
-  日 [label = "日\n12 day"];
+  F [label = "临\nbe about to (1010)"];
+  B [label = "囧坚－圣\nfencing foil (*)"];
+  C [label = "丶\na drop of (*)"];
+  D [label = "𠂉\nreclining (*)"];
+  E [label = "日\nday (12)"];
 
-  囧坚－圣 -> 临 [thick];
-  丶 -> 临 [thick];
-  "𠂉" -> 临 [thick];
-  日 -> 临 [thick];
+  B -> F [thick];
+  C -> F [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

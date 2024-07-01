@@ -5,22 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  率 [label = "率\n1320 rate"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  幺 [label = "幺\n* cocoon"];
-  囧率－玄－十 [label = "囧率－玄－十\n* sparkler"];
-  十 [label = "十\n10 ten"];
+  K [label = "率\nrate (1320)"];
+  G [label = "亠\ntop hat (*)"];
+  D [label = "六\nsix (6)"];
+  C [label = "囧只－口\nanimal legs (*)"];
+  B [label = "八\neight (8)"];
+  F [label = "囧只－口\nanimal legs (*)"];
+  E [label = "八\neight (8)"];
+  H [label = "幺\ncocoon (*)"];
+  I [label = "囧率－玄－十\nsparkler (*)"];
+  J [label = "十\nten (10)"];
 
-  亠 -> 率 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
-  幺 -> 率 [thick];
-  囧率－玄－十 -> 率 [thick];
-  十 -> 率 [thick];
+  G -> K [thick];
+  D -> G [thick];
+  C -> D [thick];
+  B -> C [thick];
+  F -> G [thick];
+  E -> F [thick];
+  H -> K [thick];
+  I -> K [thick];
+  J -> K [thick];
 }

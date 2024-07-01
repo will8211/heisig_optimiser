@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  两 [label = "两\n1478 dos"];
-  人 [label = "人\n793 person"];
-  囧冂 [label = "囧冂\n* belt"];
-  巾 [label = "巾\n410 towel"];
+  E [label = "两\ndos (1478)"];
+  B [label = "人\nperson (793)"];
+  D [label = "囧冂\nbelt (*)"];
+  C [label = "巾\ntowel (410)"];
 
-  人 -> 两 [thick];
-  囧冂 -> 两 [thick];
-  巾 -> 囧冂 [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

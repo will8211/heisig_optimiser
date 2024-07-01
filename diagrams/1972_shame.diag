@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  耻 [label = "耻\n1972 shame"];
-  耳 [label = "耳\n717 ear"];
-  止 [label = "止\n379 stop"];
+  D [label = "耻\nshame (1972)"];
+  B [label = "耳\near (717)"];
+  C [label = "止\nstop (379)"];
 
-  耳 -> 耻 [thick];
-  止 -> 耻 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

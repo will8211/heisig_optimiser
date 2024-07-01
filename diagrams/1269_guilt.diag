@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  罪 [label = "罪\n1269 guilt"];
-  目 [label = "目\n15 eye"];
-  非 [label = "非\n1267 non-"];
+  D [label = "罪\nguilt (1269)"];
+  B [label = "目\neye (15)"];
+  C [label = "非\nnon- (1267)"];
 
-  目 -> 罪 [thick];
-  非 -> 罪 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

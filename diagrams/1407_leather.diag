@@ -5,13 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  革 [label = "革\n1407 leather"];
-  廿 [label = "廿\n976 twenty"];
-  十 [label = "十\n10 ten"];
-  口 [label = "口\n11 mouth"];
+  F [label = "革\nleather (1407)"];
+  C [label = "廿\ntwenty (976)"];
+  B [label = "十\nten (10)"];
+  D [label = "口\nmouth (11)"];
+  E [label = "十\nten (10)"];
 
-  廿 -> 革 [thick];
-  十 -> 廿 [thick];
-  口 -> 革 [thick];
-  十 -> 革 [thick];
+  C -> F [thick];
+  B -> C [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

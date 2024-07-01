@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  吩 [label = "吩\n2997 in-(struct)"];
-  口 [label = "口\n11 mouth"];
-  分 [label = "分\n694 part"];
-  八 [label = "八\n8 eight"];
-  刀 [label = "刀\n83 sword"];
+  F [label = "吩\nin-(struct) (2997)"];
+  B [label = "口\nmouth (11)"];
+  E [label = "分\npart (694)"];
+  C [label = "八\neight (8)"];
+  D [label = "刀\nsword (83)"];
 
-  口 -> 吩 [thick];
-  分 -> 吩 [thick];
-  八 -> 分 [thick];
-  刀 -> 分 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

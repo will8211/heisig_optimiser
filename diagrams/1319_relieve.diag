@@ -5,32 +5,34 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  济 [label = "济\n1319 relieve"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  齐 [label = "齐\n1318 identical"];
-  文 [label = "文\n1315 literature"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  "㐅" [label = "㐅\n* sheaf"];
-  "囧介－𠆢" [label = "囧介－𠆢\n* crutches"];
+  P [label = "济\nrelieve (1319)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  O [label = "齐\nidentical (1318)"];
+  M [label = "文\nliterature (1315)"];
+  K [label = "亠\ntop hat (*)"];
+  H [label = "六\nsix (6)"];
+  G [label = "囧只－口\nanimal legs (*)"];
+  F [label = "八\neight (8)"];
+  J [label = "囧只－口\nanimal legs (*)"];
+  I [label = "八\neight (8)"];
+  L [label = "㐅\nsheaf (*)"];
+  N [label = "囧介－𠆢\ncrutches (*)"];
 
-  水 -> 济 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  齐 -> 济 [thick];
-  文 -> 齐 [thick];
-  亠 -> 文 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
-  "㐅" -> 文 [thick];
-  "囧介－𠆢" -> 齐 [thick];
+  E -> P [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  O -> P [thick];
+  M -> O [thick];
+  K -> M [thick];
+  H -> K [thick];
+  G -> H [thick];
+  F -> G [thick];
+  J -> K [thick];
+  I -> J [thick];
+  L -> M [thick];
+  N -> O [thick];
 }

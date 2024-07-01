@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  接 [label = "接\n604 welcome"];
-  扌 [label = "扌\n* fingers"];
-  立 [label = "立\n444 standing up"];
-  女 [label = "女\n102 woman"];
+  E [label = "接\nwelcome (604)"];
+  B [label = "扌\nfingers (*)"];
+  C [label = "立\nstanding up (444)"];
+  D [label = "女\nwoman (102)"];
 
-  扌 -> 接 [thick];
-  立 -> 接 [thick];
-  女 -> 接 [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

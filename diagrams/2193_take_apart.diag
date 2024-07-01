@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  拆 [label = "拆\n2193 take apart"];
-  扌 [label = "扌\n* fingers"];
-  斥 [label = "斥\n935 reprimand"];
-  斤 [label = "斤\n924 catty"];
-  丶 [label = "丶\n* a drop of"];
+  F [label = "拆\ntake apart (2193)"];
+  B [label = "扌\nfingers (*)"];
+  E [label = "斥\nreprimand (935)"];
+  C [label = "斤\ncatty (924)"];
+  D [label = "丶\na drop of (*)"];
 
-  扌 -> 拆 [thick];
-  斥 -> 拆 [thick];
-  斤 -> 斥 [thick];
-  丶 -> 斥 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  啇 [label = "啇\n* antique"];
-  立 [label = "立\n444 standing up"];
-  冂 [label = "冂\n* hood"];
-  几 [label = "几\n57 how many?"];
-  古 [label = "古\n16 ancient"];
-  十 [label = "十\n10 ten"];
-  口 [label = "口\n11 mouth"];
+  H [label = "啇\nantique (*)"];
+  B [label = "立\nstanding up (444)"];
+  D [label = "冂\nhood (*)"];
+  C [label = "几\nhow many? (57)"];
+  G [label = "古\nancient (16)"];
+  E [label = "十\nten (10)"];
+  F [label = "口\nmouth (11)"];
 
-  立 -> 啇 [thick];
-  冂 -> 啇 [thick];
-  几 -> 冂 [thick];
-  古 -> 啇 [thick];
-  十 -> 古 [thick];
-  口 -> 古 [thick];
+  B -> H [thick];
+  D -> H [thick];
+  C -> D [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  豫 [label = "豫\n2892 pleased"];
-  予 [label = "予\n1005 bestow"];
-  矛 [label = "矛\n1002 spear"];
-  象 [label = "象\n1451 elephant"];
-  兔 [label = "兔\n1447 rabbit"];
-  勹 [label = "勹\n* bound up"];
-  口 [label = "口\n11 mouth"];
-  儿 [label = "儿\n56 youngster"];
-  丶 [label = "丶\n* a drop of"];
-  豕 [label = "豕\n* sow"];
+  K [label = "豫\npleased (2892)"];
+  C [label = "予\nbestow (1005)"];
+  B [label = "矛\nspear (1002)"];
+  J [label = "象\nelephant (1451)"];
+  H [label = "兔\nrabbit (1447)"];
+  D [label = "勹\nbound up (*)"];
+  E [label = "口\nmouth (11)"];
+  F [label = "儿\nyoungster (56)"];
+  G [label = "丶\na drop of (*)"];
+  I [label = "豕\nsow (*)"];
 
-  予 -> 豫 [thick];
-  矛 -> 予 [thick];
-  象 -> 豫 [thick];
-  兔 -> 象 [thick];
-  勹 -> 兔 [thick];
-  口 -> 兔 [thick];
-  儿 -> 兔 [thick];
-  丶 -> 兔 [thick];
-  豕 -> 象 [thick];
+  C -> K [thick];
+  B -> C [thick];
+  J -> K [thick];
+  H -> J [thick];
+  D -> H [thick];
+  E -> H [thick];
+  F -> H [thick];
+  G -> H [thick];
+  I -> J [thick];
 }

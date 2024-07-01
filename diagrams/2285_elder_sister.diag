@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  姊 [label = "姊\n2285 elder sister"];
-  女 [label = "女\n102 woman"];
-  丂 [label = "丂\n* snare"];
-  "𠂆" [label = "𠂆\n* drag"];
-  才 [label = "才\n620 genius"];
+  F [label = "姊\nelder sister (2285)"];
+  B [label = "女\nwoman (102)"];
+  C [label = "丂\nsnare (*)"];
+  D [label = "𠂆\ndrag (*)"];
+  E [label = "才\ngenius (620)"];
 
-  女 -> 姊 [thick];
-  丂 -> 姊 [thick];
-  "𠂆" -> 姊 [thick];
-  才 -> 姊 [thick];
+  B -> F [thick];
+  C -> F [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  抢 [label = "抢\n2456 rob"];
-  扌 [label = "扌\n* fingers"];
-  仓 [label = "仓\n1119 storehouse"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  "㔾" [label = "㔾\n* fingerprint"];
+  F [label = "抢\nrob (2456)"];
+  B [label = "扌\nfingers (*)"];
+  E [label = "仓\nstorehouse (1119)"];
+  C [label = "𠆢\numbrella (*)"];
+  D [label = "㔾\nfingerprint (*)"];
 
-  扌 -> 抢 [thick];
-  仓 -> 抢 [thick];
-  "𠆢" -> 仓 [thick];
-  "㔾" -> 仓 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

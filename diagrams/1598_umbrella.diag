@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  伞 [label = "伞\n1598 umbrella"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  丷 [label = "丷\n* horns"];
-  一 [label = "一\n1 one"];
-  十 [label = "十\n10 ten"];
+  F [label = "伞\numbrella (1598)"];
+  B [label = "𠆢\numbrella (*)"];
+  D [label = "丷\nhorns (*)"];
+  C [label = "一\none (1)"];
+  E [label = "十\nten (10)"];
 
-  "𠆢" -> 伞 [thick];
-  丷 -> 伞 [thick];
-  一 -> 丷 [thick];
-  十 -> 伞 [thick];
+  B -> F [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

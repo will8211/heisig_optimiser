@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  翼 [label = "翼\n2766 wings"];
-  羽 [label = "羽\n544 feathers"];
-  田 [label = "田\n14 rice field"];
-  共 [label = "共\n1354 together"];
-  囧昔－日 [label = "囧昔－日\n* salad"];
-  艹 [label = "艹\n* flower"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
+  I [label = "翼\nwings (2766)"];
+  B [label = "羽\nfeathers (544)"];
+  C [label = "田\nrice field (14)"];
+  H [label = "共\ntogether (1354)"];
+  E [label = "囧昔－日\nsalad (*)"];
+  D [label = "艹\nflower (*)"];
+  G [label = "囧只－口\nanimal legs (*)"];
+  F [label = "八\neight (8)"];
 
-  羽 -> 翼 [thick];
-  田 -> 翼 [thick];
-  共 -> 翼 [thick];
-  囧昔－日 -> 共 [thick];
-  艹 -> 囧昔－日 [thick];
-  囧只－口 -> 共 [thick];
-  八 -> 囧只－口 [thick];
+  B -> I [thick];
+  C -> I [thick];
+  H -> I [thick];
+  E -> H [thick];
+  D -> E [thick];
+  G -> H [thick];
+  F -> G [thick];
 }

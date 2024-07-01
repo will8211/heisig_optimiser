@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  邻 [label = "邻\n2811 neighbor"];
-  令 [label = "令\n1113 orders"];
-  亼 [label = "亼\n* meeting"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  囧节－艹 [label = "囧节－艹\n* chop"];
-  囧阝 [label = "囧阝\n* city walls"];
-  阝 [label = "阝\n* pinnacle"];
+  H [label = "邻\nneighbor (2811)"];
+  E [label = "令\norders (1113)"];
+  C [label = "亼\nmeeting (*)"];
+  B [label = "𠆢\numbrella (*)"];
+  D [label = "囧节－艹\nchop (*)"];
+  G [label = "囧阝\ncity walls (*)"];
+  F [label = "阝\npinnacle (*)"];
 
-  令 -> 邻 [thick];
-  亼 -> 令 [thick];
-  "𠆢" -> 亼 [thick];
-  囧节－艹 -> 令 [thick];
-  囧阝 -> 邻 [thick];
-  阝 -> 囧阝 [thick];
+  E -> H [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  G -> H [thick];
+  F -> G [thick];
 }

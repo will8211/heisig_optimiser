@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  祝 [label = "祝\n2162 wish well"];
-  示 [label = "示\n900 show"];
-  兄 [label = "兄\n107 elder brother"];
-  口 [label = "口\n11 mouth"];
-  儿 [label = "儿\n56 youngster"];
+  F [label = "祝\nwish well (2162)"];
+  B [label = "示\nshow (900)"];
+  E [label = "兄\nelder brother (107)"];
+  C [label = "口\nmouth (11)"];
+  D [label = "儿\nyoungster (56)"];
 
-  示 -> 祝 [thick];
-  兄 -> 祝 [thick];
-  口 -> 兄 [thick];
-  儿 -> 兄 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

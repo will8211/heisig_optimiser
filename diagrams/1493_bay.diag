@@ -5,34 +5,38 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  湾 [label = "湾\n1493 bay"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  弯 [label = "弯\n1492 curved"];
-  亦 [label = "亦\n1491 likewise"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  刀 [label = "刀\n83 sword"];
-  弓 [label = "弓\n1013 bow"];
+  R [label = "湾\nbay (1493)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  Q [label = "弯\ncurved (1492)"];
+  O [label = "亦\nlikewise (1491)"];
+  K [label = "亠\ntop hat (*)"];
+  H [label = "六\nsix (6)"];
+  G [label = "囧只－口\nanimal legs (*)"];
+  F [label = "八\neight (8)"];
+  J [label = "囧只－口\nanimal legs (*)"];
+  I [label = "八\neight (8)"];
+  M [label = "囧只－口\nanimal legs (*)"];
+  L [label = "八\neight (8)"];
+  N [label = "刀\nsword (83)"];
+  P [label = "弓\nbow (1013)"];
 
-  水 -> 湾 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  弯 -> 湾 [thick];
-  亦 -> 弯 [thick];
-  亠 -> 亦 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亦 [thick];
-  八 -> 囧只－口 [thick];
-  刀 -> 亦 [thick];
-  弓 -> 弯 [thick];
+  E -> R [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  Q -> R [thick];
+  O -> Q [thick];
+  K -> O [thick];
+  H -> K [thick];
+  G -> H [thick];
+  F -> G [thick];
+  J -> K [thick];
+  I -> J [thick];
+  M -> O [thick];
+  L -> M [thick];
+  N -> O [thick];
+  P -> Q [thick];
 }

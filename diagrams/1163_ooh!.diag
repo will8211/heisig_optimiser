@@ -5,8 +5,8 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  乎 [label = "乎\n1163 ooh!"];
-  平 [label = "平\n1160 even"];
+  C [label = "乎\nooh! (1163)"];
+  B [label = "平\neven (1160)"];
 
-  平 -> 乎 [thick];
+  B -> C [thick];
 }

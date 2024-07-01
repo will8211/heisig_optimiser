@@ -5,27 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  旷 [label = "旷\n1782 expansive"];
-  日 [label = "日\n12 day"];
-  洞 [label = "洞\n186 cave"];
-  同 [label = "同\n185 same"];
-  一 [label = "一\n1 one"];
-  口 [label = "口\n11 mouth"];
-  冂 [label = "冂\n* hood"];
-  几 [label = "几\n57 how many?"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  丶 [label = "丶\n* a drop of"];
+  M [label = "旷\nexpansive (1782)"];
+  B [label = "日\nday (12)"];
+  L [label = "洞\ncave (186)"];
+  G [label = "同\nsame (185)"];
+  C [label = "一\none (1)"];
+  D [label = "口\nmouth (11)"];
+  F [label = "冂\nhood (*)"];
+  E [label = "几\nhow many? (57)"];
+  K [label = "水\nwater (137)"];
+  I [label = "丨\nwalking stick (*)"];
+  H [label = "一\none (1)"];
+  J [label = "丶\na drop of (*)"];
 
-  日 -> 旷 [thick];
-  洞 -> 旷 [thick];
-  同 -> 洞 [thick];
-  一 -> 同 [thick];
-  口 -> 同 [thick];
-  冂 -> 同 [thick];
-  几 -> 冂 [thick];
-  水 -> 洞 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
+  B -> M [thick];
+  L -> M [thick];
+  G -> L [thick];
+  C -> G [thick];
+  D -> G [thick];
+  F -> G [thick];
+  E -> F [thick];
+  K -> L [thick];
+  I -> K [thick];
+  H -> I [thick];
+  J -> K [thick];
 }

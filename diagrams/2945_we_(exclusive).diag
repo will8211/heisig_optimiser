@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  俺 [label = "俺\n2945 we (exclusive)"];
-  人 [label = "人\n793 person"];
-  奄 [label = "奄\n* hang glider"];
-  电 [label = "电\n1484 electricity"];
-  大 [label = "大\n113 large"];
+  F [label = "俺\nwe (exclusive) (2945)"];
+  B [label = "人\nperson (793)"];
+  E [label = "奄\nhang glider (*)"];
+  C [label = "电\nelectricity (1484)"];
+  D [label = "大\nlarge (113)"];
 
-  人 -> 俺 [thick];
-  奄 -> 俺 [thick];
-  电 -> 奄 [thick];
-  大 -> 奄 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

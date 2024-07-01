@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  怪 [label = "怪\n641 peculiar"];
-  心 [label = "心\n563 heart"];
-  圣 [label = "圣\n634 holy"];
-  又 [label = "又\n633 again"];
-  土 [label = "土\n158 soil"];
+  F [label = "怪\npeculiar (641)"];
+  B [label = "心\nheart (563)"];
+  E [label = "圣\nholy (634)"];
+  C [label = "又\nagain (633)"];
+  D [label = "土\nsoil (158)"];
 
-  心 -> 怪 [thick];
-  圣 -> 怪 [thick];
-  又 -> 圣 [thick];
-  土 -> 圣 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

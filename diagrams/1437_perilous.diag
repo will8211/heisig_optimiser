@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  险 [label = "险\n1437 perilous"];
-  阝 [label = "阝\n* pinnacle"];
-  佥 [label = "佥\n* hootenanny"];
-  亼 [label = "亼\n* meeting"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  囧应－广 [label = "囧应－广\n* owl"];
-  一 [label = "一\n1 one"];
+  H [label = "险\nperilous (1437)"];
+  B [label = "阝\npinnacle (*)"];
+  G [label = "佥\nhootenanny (*)"];
+  D [label = "亼\nmeeting (*)"];
+  C [label = "𠆢\numbrella (*)"];
+  E [label = "囧应－广\nowl (*)"];
+  F [label = "一\none (1)"];
 
-  阝 -> 险 [thick];
-  佥 -> 险 [thick];
-  亼 -> 佥 [thick];
-  "𠆢" -> 亼 [thick];
-  囧应－广 -> 佥 [thick];
-  一 -> 佥 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  D -> G [thick];
+  C -> D [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

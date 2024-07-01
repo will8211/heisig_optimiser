@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  燕 [label = "燕\n2244 swallow"];
-  廿 [label = "廿\n976 twenty"];
-  十 [label = "十\n10 ten"];
-  口 [label = "口\n11 mouth"];
-  北 [label = "北\n454 north"];
-  匕 [label = "匕\n453 ancient spoon"];
-  火 [label = "火\n170 fire"];
+  H [label = "燕\nswallow (2244)"];
+  C [label = "廿\ntwenty (976)"];
+  B [label = "十\nten (10)"];
+  D [label = "口\nmouth (11)"];
+  F [label = "北\nnorth (454)"];
+  E [label = "匕\nancient spoon (453)"];
+  G [label = "火\nfire (170)"];
 
-  廿 -> 燕 [thick];
-  十 -> 廿 [thick];
-  口 -> 燕 [thick];
-  北 -> 燕 [thick];
-  匕 -> 北 [thick];
-  火 -> 燕 [thick];
+  C -> H [thick];
+  B -> C [thick];
+  D -> H [thick];
+  F -> H [thick];
+  E -> F [thick];
+  G -> H [thick];
 }

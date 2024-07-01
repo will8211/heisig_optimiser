@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  吉 [label = "吉\n335 lucky"];
-  士 [label = "士\n334 soldier"];
-  口 [label = "口\n11 mouth"];
+  D [label = "吉\nlucky (335)"];
+  B [label = "士\nsoldier (334)"];
+  C [label = "口\nmouth (11)"];
 
-  士 -> 吉 [thick];
-  口 -> 吉 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

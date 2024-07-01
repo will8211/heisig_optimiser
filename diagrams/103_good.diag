@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  好 [label = "好\n103 good"];
-  女 [label = "女\n102 woman"];
-  子 [label = "子\n97 child"];
+  D [label = "好\ngood (103)"];
+  B [label = "女\nwoman (102)"];
+  C [label = "子\nchild (97)"];
 
-  女 -> 好 [thick];
-  子 -> 好 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

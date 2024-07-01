@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  笛 [label = "笛\n2172 flute"];
-  竹 [label = "竹\n786 bamboo"];
-  丁 [label = "丁\n90 fourth"];
-  由 [label = "由\n913 wherefore"];
-  田 [label = "田\n14 rice field"];
+  F [label = "笛\nflute (2172)"];
+  C [label = "竹\nbamboo (786)"];
+  B [label = "丁\nfourth (90)"];
+  E [label = "由\nwherefore (913)"];
+  D [label = "田\nrice field (14)"];
 
-  竹 -> 笛 [thick];
-  丁 -> 竹 [thick];
-  由 -> 笛 [thick];
-  田 -> 由 [thick];
+  C -> F [thick];
+  B -> C [thick];
+  E -> F [thick];
+  D -> E [thick];
 }

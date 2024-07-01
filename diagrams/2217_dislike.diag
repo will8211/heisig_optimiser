@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  嫌 [label = "嫌\n2217 dislike"];
-  女 [label = "女\n102 woman"];
-  兼 [label = "兼\n2215 double"];
-  丷 [label = "丷\n* horns"];
-  一 [label = "一\n1 one"];
-  肀 [label = "肀\n* rake"];
-  彐 [label = "彐\n* broom"];
+  H [label = "嫌\ndislike (2217)"];
+  B [label = "女\nwoman (102)"];
+  G [label = "兼\ndouble (2215)"];
+  D [label = "丷\nhorns (*)"];
+  C [label = "一\none (1)"];
+  F [label = "肀\nrake (*)"];
+  E [label = "彐\nbroom (*)"];
 
-  女 -> 嫌 [thick];
-  兼 -> 嫌 [thick];
-  丷 -> 兼 [thick];
-  一 -> 丷 [thick];
-  肀 -> 兼 [thick];
-  彐 -> 肀 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  D -> G [thick];
+  C -> D [thick];
+  F -> G [thick];
+  E -> F [thick];
 }

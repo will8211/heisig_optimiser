@@ -5,30 +5,30 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  额 [label = "额\n313 forehead"];
-  客 [label = "客\n312 guest"];
-  宀 [label = "宀\n* house"];
-  各 [label = "各\n309 each"];
-  口 [label = "口\n11 mouth"];
-  夂 [label = "夂\n* walking legs"];
-  页 [label = "页\n60 page"];
-  贝 [label = "贝\n52 shellfish"];
-  目 [label = "目\n15 eye"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
+  N [label = "额\nforehead (313)"];
+  F [label = "客\nguest (312)"];
+  B [label = "宀\nhouse (*)"];
+  E [label = "各\neach (309)"];
+  C [label = "口\nmouth (11)"];
+  D [label = "夂\nwalking legs (*)"];
+  M [label = "页\npage (60)"];
+  J [label = "贝\nshellfish (52)"];
+  G [label = "目\neye (15)"];
+  I [label = "囧只－口\nanimal legs (*)"];
+  H [label = "八\neight (8)"];
+  K [label = "一\none (1)"];
+  L [label = "丶\na drop of (*)"];
 
-  客 -> 额 [thick];
-  宀 -> 客 [thick];
-  各 -> 客 [thick];
-  口 -> 各 [thick];
-  夂 -> 各 [thick];
-  页 -> 额 [thick];
-  贝 -> 页 [thick];
-  目 -> 贝 [thick];
-  囧只－口 -> 贝 [thick];
-  八 -> 囧只－口 [thick];
-  一 -> 页 [thick];
-  丶 -> 页 [thick];
+  F -> N [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
+  M -> N [thick];
+  J -> M [thick];
+  G -> J [thick];
+  I -> J [thick];
+  H -> I [thick];
+  K -> M [thick];
+  L -> M [thick];
 }

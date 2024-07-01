@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  武 [label = "武\n385 military"];
-  一 [label = "一\n1 one"];
-  弋 [label = "弋\n* arrow"];
-  止 [label = "止\n379 stop"];
+  E [label = "武\nmilitary (385)"];
+  B [label = "一\none (1)"];
+  C [label = "弋\narrow (*)"];
+  D [label = "止\nstop (379)"];
 
-  一 -> 武 [thick];
-  弋 -> 武 [thick];
-  止 -> 武 [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

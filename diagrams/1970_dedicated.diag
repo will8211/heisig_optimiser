@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  耿 [label = "耿\n1970 dedicated"];
-  耳 [label = "耳\n717 ear"];
-  火 [label = "火\n170 fire"];
+  D [label = "耿\ndedicated (1970)"];
+  B [label = "耳\near (717)"];
+  C [label = "火\nfire (170)"];
 
-  耳 -> 耿 [thick];
-  火 -> 耿 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  偿 [label = "偿\n2078 repay"];
-  人 [label = "人\n793 person"];
-  尝 [label = "尝\n1692 taste"];
-  小 [label = "小\n109 small"];
-  丶 [label = "丶\n* a drop of"];
-  冖 [label = "冖\n* crown"];
-  云 [label = "云\n428 cloud"];
+  H [label = "偿\nrepay (2078)"];
+  B [label = "人\nperson (793)"];
+  G [label = "尝\ntaste (1692)"];
+  D [label = "小\nsmall (109)"];
+  C [label = "丶\na drop of (*)"];
+  E [label = "冖\ncrown (*)"];
+  F [label = "云\ncloud (428)"];
 
-  人 -> 偿 [thick];
-  尝 -> 偿 [thick];
-  小 -> 尝 [thick];
-  丶 -> 小 [thick];
-  冖 -> 尝 [thick];
-  云 -> 尝 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  D -> G [thick];
+  C -> D [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

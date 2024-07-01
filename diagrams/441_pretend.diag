@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  乔 [label = "乔\n441 pretend"];
-  "囧介－𠆢" [label = "囧介－𠆢\n* crutches"];
-  夭 [label = "夭\n440 die young"];
-  大 [label = "大\n113 large"];
-  丶 [label = "丶\n* a drop of"];
+  F [label = "乔\npretend (441)"];
+  B [label = "囧介－𠆢\ncrutches (*)"];
+  E [label = "夭\ndie young (440)"];
+  C [label = "大\nlarge (113)"];
+  D [label = "丶\na drop of (*)"];
 
-  "囧介－𠆢" -> 乔 [thick];
-  夭 -> 乔 [thick];
-  大 -> 夭 [thick];
-  丶 -> 夭 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

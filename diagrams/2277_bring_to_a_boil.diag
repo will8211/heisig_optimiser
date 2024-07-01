@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  沸 [label = "沸\n2277 bring to a boil"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  弗 [label = "弗\n* dollar sign"];
-  "囧介－𠆢" [label = "囧介－𠆢\n* crutches"];
-  弓 [label = "弓\n1013 bow"];
+  I [label = "沸\nbring to a boil (2277)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  H [label = "弗\ndollar sign (*)"];
+  F [label = "囧介－𠆢\ncrutches (*)"];
+  G [label = "弓\nbow (1013)"];
 
-  水 -> 沸 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  弗 -> 沸 [thick];
-  "囧介－𠆢" -> 弗 [thick];
-  弓 -> 弗 [thick];
+  E -> I [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  H -> I [thick];
+  F -> H [thick];
+  G -> H [thick];
 }

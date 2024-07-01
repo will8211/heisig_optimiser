@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  陌 [label = "陌\n2338 footpath"];
-  阝 [label = "阝\n* pinnacle"];
-  百 [label = "百\n35 hundred"];
-  白 [label = "白\n34 white"];
-  日 [label = "日\n12 day"];
-  丶 [label = "丶\n* a drop of"];
-  一 [label = "一\n1 one"];
+  H [label = "陌\nfootpath (2338)"];
+  B [label = "阝\npinnacle (*)"];
+  G [label = "百\nhundred (35)"];
+  E [label = "白\nwhite (34)"];
+  C [label = "日\nday (12)"];
+  D [label = "丶\na drop of (*)"];
+  F [label = "一\none (1)"];
 
-  阝 -> 陌 [thick];
-  百 -> 陌 [thick];
-  白 -> 百 [thick];
-  日 -> 白 [thick];
-  丶 -> 白 [thick];
-  一 -> 百 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  E -> G [thick];
+  C -> E [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

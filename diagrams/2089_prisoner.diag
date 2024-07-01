@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  囚 [label = "囚\n2089 prisoner"];
-  囗 [label = "囗\n* pent in"];
-  人 [label = "人\n793 person"];
+  D [label = "囚\nprisoner (2089)"];
+  B [label = "囗\npent in (*)"];
+  C [label = "人\nperson (793)"];
 
-  囗 -> 囚 [thick];
-  人 -> 囚 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

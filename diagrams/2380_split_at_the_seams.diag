@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  绽 [label = "绽\n2380 split at the seams"];
-  纟 [label = "纟\n* thread"];
-  厶 [label = "厶\n* elbow"];
-  定 [label = "定\n390 settle on"];
-  囧走－十 [label = "囧走－十\n* mending"];
-  正 [label = "正\n387 correct"];
-  一 [label = "一\n1 one"];
-  止 [label = "止\n379 stop"];
-  宀 [label = "宀\n* house"];
+  J [label = "绽\nsplit at the seams (2380)"];
+  C [label = "纟\nthread (*)"];
+  B [label = "厶\nelbow (*)"];
+  I [label = "定\nsettle on (390)"];
+  G [label = "囧走－十\nmending (*)"];
+  F [label = "正\ncorrect (387)"];
+  D [label = "一\none (1)"];
+  E [label = "止\nstop (379)"];
+  H [label = "宀\nhouse (*)"];
 
-  纟 -> 绽 [thick];
-  厶 -> 纟 [thick];
-  定 -> 绽 [thick];
-  囧走－十 -> 定 [thick];
-  正 -> 囧走－十 [thick];
-  一 -> 正 [thick];
-  止 -> 正 [thick];
-  宀 -> 定 [thick];
+  C -> J [thick];
+  B -> C [thick];
+  I -> J [thick];
+  G -> I [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
+  H -> I [thick];
 }

@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  孤 [label = "孤\n1400 orphan"];
-  子 [label = "子\n97 child"];
-  瓜 [label = "瓜\n1399 melon"];
-  爪 [label = "爪\n663 claw"];
-  "𠂆" [label = "𠂆\n* drag"];
+  F [label = "孤\norphan (1400)"];
+  B [label = "子\nchild (97)"];
+  E [label = "瓜\nmelon (1399)"];
+  D [label = "爪\nclaw (663)"];
+  C [label = "𠂆\ndrag (*)"];
 
-  子 -> 孤 [thick];
-  瓜 -> 孤 [thick];
-  爪 -> 瓜 [thick];
-  "𠂆" -> 爪 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

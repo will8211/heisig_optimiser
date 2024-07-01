@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  略 [label = "略\n311 abbreviation"];
-  各 [label = "各\n309 each"];
-  口 [label = "口\n11 mouth"];
-  夂 [label = "夂\n* walking legs"];
-  田 [label = "田\n14 rice field"];
+  F [label = "略\nabbreviation (311)"];
+  D [label = "各\neach (309)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "夂\nwalking legs (*)"];
+  E [label = "田\nrice field (14)"];
 
-  各 -> 略 [thick];
-  口 -> 各 [thick];
-  夂 -> 各 [thick];
-  田 -> 略 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

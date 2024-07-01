@@ -5,27 +5,30 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  狡 [label = "狡\n2316 sly"];
-  犬 [label = "犬\n239 pooch"];
-  大 [label = "大\n113 large"];
-  丶 [label = "丶\n* a drop of"];
-  交 [label = "交\n1044 mingle"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  父 [label = "父\n1043 father"];
+  N [label = "狡\nsly (2316)"];
+  D [label = "犬\npooch (239)"];
+  B [label = "大\nlarge (113)"];
+  C [label = "丶\na drop of (*)"];
+  M [label = "交\nmingle (1044)"];
+  J [label = "亠\ntop hat (*)"];
+  G [label = "六\nsix (6)"];
+  F [label = "囧只－口\nanimal legs (*)"];
+  E [label = "八\neight (8)"];
+  I [label = "囧只－口\nanimal legs (*)"];
+  H [label = "八\neight (8)"];
+  L [label = "父\nfather (1043)"];
+  K [label = "丶\na drop of (*)"];
 
-  犬 -> 狡 [thick];
-  大 -> 犬 [thick];
-  丶 -> 犬 [thick];
-  交 -> 狡 [thick];
-  亠 -> 交 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
-  父 -> 交 [thick];
-  丶 -> 父 [thick];
+  D -> N [thick];
+  B -> D [thick];
+  C -> D [thick];
+  M -> N [thick];
+  J -> M [thick];
+  G -> J [thick];
+  F -> G [thick];
+  E -> F [thick];
+  I -> J [thick];
+  H -> I [thick];
+  L -> M [thick];
+  K -> L [thick];
 }

@@ -5,21 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  汽 [label = "汽\n1405 vapor"];
-  气 [label = "气\n1404 air"];
-  "𠂉" [label = "𠂉\n* reclining"];
-  一 [label = "一\n1 one"];
-  乙 [label = "乙\n95 second"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  丶 [label = "丶\n* a drop of"];
+  J [label = "汽\nvapor (1405)"];
+  E [label = "气\nair (1404)"];
+  B [label = "𠂉\nreclining (*)"];
+  C [label = "一\none (1)"];
+  D [label = "乙\nsecond (95)"];
+  I [label = "水\nwater (137)"];
+  G [label = "丨\nwalking stick (*)"];
+  F [label = "一\none (1)"];
+  H [label = "丶\na drop of (*)"];
 
-  气 -> 汽 [thick];
-  "𠂉" -> 气 [thick];
-  一 -> 气 [thick];
-  乙 -> 气 [thick];
-  水 -> 汽 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
+  E -> J [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
+  I -> J [thick];
+  G -> I [thick];
+  F -> G [thick];
+  H -> I [thick];
 }

@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  挫 [label = "挫\n2106 frustrate"];
-  扌 [label = "扌\n* fingers"];
-  坐 [label = "坐\n848 sit"];
-  从 [label = "从\n846 follow"];
-  人 [label = "人\n793 person"];
-  土 [label = "土\n158 soil"];
+  G [label = "挫\nfrustrate (2106)"];
+  B [label = "扌\nfingers (*)"];
+  F [label = "坐\nsit (848)"];
+  D [label = "从\nfollow (846)"];
+  C [label = "人\nperson (793)"];
+  E [label = "土\nsoil (158)"];
 
-  扌 -> 挫 [thick];
-  坐 -> 挫 [thick];
-  从 -> 坐 [thick];
-  人 -> 从 [thick];
-  土 -> 坐 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

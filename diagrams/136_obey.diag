@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  顺 [label = "顺\n136 obey"];
-  川 [label = "川\n134 stream"];
-  页 [label = "页\n60 page"];
-  贝 [label = "贝\n52 shellfish"];
-  目 [label = "目\n15 eye"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
+  J [label = "顺\nobey (136)"];
+  B [label = "川\nstream (134)"];
+  I [label = "页\npage (60)"];
+  F [label = "贝\nshellfish (52)"];
+  C [label = "目\neye (15)"];
+  E [label = "囧只－口\nanimal legs (*)"];
+  D [label = "八\neight (8)"];
+  G [label = "一\none (1)"];
+  H [label = "丶\na drop of (*)"];
 
-  川 -> 顺 [thick];
-  页 -> 顺 [thick];
-  贝 -> 页 [thick];
-  目 -> 贝 [thick];
-  囧只－口 -> 贝 [thick];
-  八 -> 囧只－口 [thick];
-  一 -> 页 [thick];
-  丶 -> 页 [thick];
+  B -> J [thick];
+  I -> J [thick];
+  F -> I [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
+  G -> I [thick];
+  H -> I [thick];
 }

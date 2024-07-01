@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  祭 [label = "祭\n910 offer sacrifice"];
-  月 [label = "月\n13 month"];
-  又 [label = "又\n633 again"];
-  示 [label = "示\n900 show"];
+  E [label = "祭\noffer sacrifice (910)"];
+  B [label = "月\nmonth (13)"];
+  C [label = "又\nagain (633)"];
+  D [label = "示\nshow (900)"];
 
-  月 -> 祭 [thick];
-  又 -> 祭 [thick];
-  示 -> 祭 [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

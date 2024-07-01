@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  遂 [label = "遂\n1752 satisfy"];
-  丷 [label = "丷\n* horns"];
-  一 [label = "一\n1 one"];
-  豕 [label = "豕\n* sow"];
-  辶 [label = "辶\n* road"];
+  F [label = "遂\nsatisfy (1752)"];
+  C [label = "丷\nhorns (*)"];
+  B [label = "一\none (1)"];
+  D [label = "豕\nsow (*)"];
+  E [label = "辶\nroad (*)"];
 
-  丷 -> 遂 [thick];
-  一 -> 丷 [thick];
-  豕 -> 遂 [thick];
-  辶 -> 遂 [thick];
+  C -> F [thick];
+  B -> C [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

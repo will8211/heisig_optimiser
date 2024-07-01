@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  稀 [label = "稀\n1166 scarce"];
-  禾 [label = "禾\n762 standing grain"];
-  希 [label = "希\n1165 hope"];
-  "㐅" [label = "㐅\n* sheaf"];
-  布 [label = "布\n414 cloth"];
-  "𠂇" [label = "𠂇\n* by one’s side"];
-  十 [label = "十\n10 ten"];
-  巾 [label = "巾\n410 towel"];
+  I [label = "稀\nscarce (1166)"];
+  B [label = "禾\nstanding grain (762)"];
+  H [label = "希\nhope (1165)"];
+  C [label = "㐅\nsheaf (*)"];
+  G [label = "布\ncloth (414)"];
+  E [label = "𠂇\nby one’s side (*)"];
+  D [label = "十\nten (10)"];
+  F [label = "巾\ntowel (410)"];
 
-  禾 -> 稀 [thick];
-  希 -> 稀 [thick];
-  "㐅" -> 希 [thick];
-  布 -> 希 [thick];
-  "𠂇" -> 布 [thick];
-  十 -> "𠂇" [thick];
-  巾 -> 布 [thick];
+  B -> I [thick];
+  H -> I [thick];
+  C -> H [thick];
+  G -> H [thick];
+  E -> G [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

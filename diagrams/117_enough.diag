@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  够 [label = "够\n117 enough"];
-  句 [label = "句\n67 sentence"];
-  勹 [label = "勹\n* bound up"];
-  口 [label = "口\n11 mouth"];
-  多 [label = "多\n116 many"];
-  月 [label = "月\n13 month"];
+  G [label = "够\nenough (117)"];
+  D [label = "句\nsentence (67)"];
+  B [label = "勹\nbound up (*)"];
+  C [label = "口\nmouth (11)"];
+  F [label = "多\nmany (116)"];
+  E [label = "月\nmonth (13)"];
 
-  句 -> 够 [thick];
-  勹 -> 句 [thick];
-  口 -> 句 [thick];
-  多 -> 够 [thick];
-  月 -> 多 [thick];
+  D -> G [thick];
+  B -> D [thick];
+  C -> D [thick];
+  F -> G [thick];
+  E -> F [thick];
 }

@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  阴 [label = "阴\n1059 Yin"];
-  阝 [label = "阝\n* pinnacle"];
-  月 [label = "月\n13 month"];
+  D [label = "阴\nYin (1059)"];
+  B [label = "阝\npinnacle (*)"];
+  C [label = "月\nmonth (13)"];
 
-  阝 -> 阴 [thick];
-  月 -> 阴 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

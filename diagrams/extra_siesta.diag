@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  曷 [label = "曷\n* siesta"];
-  人 [label = "人\n793 person"];
-  勹 [label = "勹\n* bound up"];
-  乙 [label = "乙\n95 second"];
-  日 [label = "日\n12 day"];
+  F [label = "曷\nsiesta (*)"];
+  B [label = "人\nperson (793)"];
+  C [label = "勹\nbound up (*)"];
+  D [label = "乙\nsecond (95)"];
+  E [label = "日\nday (12)"];
 
-  人 -> 曷 [thick];
-  勹 -> 曷 [thick];
-  乙 -> 曷 [thick];
-  日 -> 曷 [thick];
+  B -> F [thick];
+  C -> F [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

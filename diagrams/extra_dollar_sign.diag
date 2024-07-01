@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  弗 [label = "弗\n* dollar sign"];
-  "囧介－𠆢" [label = "囧介－𠆢\n* crutches"];
-  弓 [label = "弓\n1013 bow"];
+  D [label = "弗\ndollar sign (*)"];
+  B [label = "囧介－𠆢\ncrutches (*)"];
+  C [label = "弓\nbow (1013)"];
 
-  "囧介－𠆢" -> 弗 [thick];
-  弓 -> 弗 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

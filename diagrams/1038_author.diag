@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  著 [label = "著\n1038 author"];
-  艹 [label = "艹\n* flower"];
-  者 [label = "者\n1037 someone"];
-  老 [label = "老\n1029 old man"];
-  土 [label = "土\n158 soil"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  匕 [label = "匕\n453 ancient spoon"];
-  日 [label = "日\n12 day"];
+  J [label = "著\nauthor (1038)"];
+  B [label = "艹\nflower (*)"];
+  I [label = "者\nsomeone (1037)"];
+  G [label = "老\nold man (1029)"];
+  C [label = "土\nsoil (158)"];
+  E [label = "丨\nwalking stick (*)"];
+  D [label = "一\none (1)"];
+  F [label = "匕\nancient spoon (453)"];
+  H [label = "日\nday (12)"];
 
-  艹 -> 著 [thick];
-  者 -> 著 [thick];
-  老 -> 者 [thick];
-  土 -> 老 [thick];
-  丨 -> 老 [thick];
-  一 -> 丨 [thick];
-  匕 -> 老 [thick];
-  日 -> 者 [thick];
+  B -> J [thick];
+  I -> J [thick];
+  G -> I [thick];
+  C -> G [thick];
+  E -> G [thick];
+  D -> E [thick];
+  F -> G [thick];
+  H -> I [thick];
 }

@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  奥 [label = "奥\n2031 of great depth"];
-  丶 [label = "丶\n* a drop of"];
-  冂 [label = "冂\n* hood"];
-  几 [label = "几\n57 how many?"];
-  米 [label = "米\n778 rice"];
-  大 [label = "大\n113 large"];
+  G [label = "奥\nof great depth (2031)"];
+  B [label = "丶\na drop of (*)"];
+  D [label = "冂\nhood (*)"];
+  C [label = "几\nhow many? (57)"];
+  E [label = "米\nrice (778)"];
+  F [label = "大\nlarge (113)"];
 
-  丶 -> 奥 [thick];
-  冂 -> 奥 [thick];
-  几 -> 冂 [thick];
-  米 -> 奥 [thick];
-  大 -> 奥 [thick];
+  B -> G [thick];
+  D -> G [thick];
+  C -> D [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  排 [label = "排\n1268 row"];
-  扌 [label = "扌\n* fingers"];
-  非 [label = "非\n1267 non-"];
+  D [label = "排\nrow (1268)"];
+  B [label = "扌\nfingers (*)"];
+  C [label = "非\nnon- (1267)"];
 
-  扌 -> 排 [thick];
-  非 -> 排 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

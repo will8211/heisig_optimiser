@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  喘 [label = "喘\n2233 wheeze"];
-  口 [label = "口\n11 mouth"];
-  耑 [label = "耑\n* prospector"];
+  D [label = "喘\nwheeze (2233)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "耑\nprospector (*)"];
 
-  口 -> 喘 [thick];
-  耑 -> 喘 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

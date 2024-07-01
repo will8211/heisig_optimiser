@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  尽 [label = "尽\n895 exhausted"];
-  尺 [label = "尺\n894 ruler"];
-  尸 [label = "尸\n882 corpse"];
-  冫 [label = "冫\n* ice"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
+  I [label = "尽\nexhausted (895)"];
+  C [label = "尺\nruler (894)"];
+  B [label = "尸\ncorpse (882)"];
+  H [label = "冫\nice (*)"];
+  G [label = "水\nwater (137)"];
+  E [label = "丨\nwalking stick (*)"];
+  D [label = "一\none (1)"];
+  F [label = "丶\na drop of (*)"];
 
-  尺 -> 尽 [thick];
-  尸 -> 尺 [thick];
-  冫 -> 尽 [thick];
-  水 -> 冫 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
+  C -> I [thick];
+  B -> C [thick];
+  H -> I [thick];
+  G -> H [thick];
+  E -> G [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

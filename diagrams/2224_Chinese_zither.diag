@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  筝 [label = "筝\n2224 Chinese zither"];
-  竹 [label = "竹\n786 bamboo"];
-  丁 [label = "丁\n90 fourth"];
-  争 [label = "争\n951 contend"];
-  勹 [label = "勹\n* bound up"];
-  肀 [label = "肀\n* rake"];
-  彐 [label = "彐\n* broom"];
+  H [label = "筝\nChinese zither (2224)"];
+  C [label = "竹\nbamboo (786)"];
+  B [label = "丁\nfourth (90)"];
+  G [label = "争\ncontend (951)"];
+  D [label = "勹\nbound up (*)"];
+  F [label = "肀\nrake (*)"];
+  E [label = "彐\nbroom (*)"];
 
-  竹 -> 筝 [thick];
-  丁 -> 竹 [thick];
-  争 -> 筝 [thick];
-  勹 -> 争 [thick];
-  肀 -> 争 [thick];
-  彐 -> 肀 [thick];
+  C -> H [thick];
+  B -> C [thick];
+  G -> H [thick];
+  D -> G [thick];
+  F -> G [thick];
+  E -> F [thick];
 }

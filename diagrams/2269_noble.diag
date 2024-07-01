@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  弘 [label = "弘\n2269 noble"];
-  弓 [label = "弓\n1013 bow"];
-  厶 [label = "厶\n* elbow"];
+  D [label = "弘\nnoble (2269)"];
+  B [label = "弓\nbow (1013)"];
+  C [label = "厶\nelbow (*)"];
 
-  弓 -> 弘 [thick];
-  厶 -> 弘 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

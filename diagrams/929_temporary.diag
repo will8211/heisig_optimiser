@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  暂 [label = "暂\n929 temporary"];
-  斩 [label = "斩\n928 hew"];
-  车 [label = "车\n300 car"];
-  斤 [label = "斤\n924 catty"];
-  日 [label = "日\n12 day"];
+  F [label = "暂\ntemporary (929)"];
+  D [label = "斩\nhew (928)"];
+  B [label = "车\ncar (300)"];
+  C [label = "斤\ncatty (924)"];
+  E [label = "日\nday (12)"];
 
-  斩 -> 暂 [thick];
-  车 -> 斩 [thick];
-  斤 -> 斩 [thick];
-  日 -> 暂 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

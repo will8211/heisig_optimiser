@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  味 [label = "味\n218 flavor"];
-  未 [label = "未\n215 not yet"];
-  木 [label = "木\n202 tree"];
-  口 [label = "口\n11 mouth"];
+  E [label = "味\nflavor (218)"];
+  C [label = "未\nnot yet (215)"];
+  B [label = "木\ntree (202)"];
+  D [label = "口\nmouth (11)"];
 
-  未 -> 味 [thick];
-  木 -> 未 [thick];
-  口 -> 味 [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
 }

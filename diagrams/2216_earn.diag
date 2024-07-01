@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  赚 [label = "赚\n2216 earn"];
-  贝 [label = "贝\n52 shellfish"];
-  目 [label = "目\n15 eye"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  兼 [label = "兼\n2215 double"];
-  丷 [label = "丷\n* horns"];
-  一 [label = "一\n1 one"];
-  肀 [label = "肀\n* rake"];
-  彐 [label = "彐\n* broom"];
+  K [label = "赚\nearn (2216)"];
+  E [label = "贝\nshellfish (52)"];
+  B [label = "目\neye (15)"];
+  D [label = "囧只－口\nanimal legs (*)"];
+  C [label = "八\neight (8)"];
+  J [label = "兼\ndouble (2215)"];
+  G [label = "丷\nhorns (*)"];
+  F [label = "一\none (1)"];
+  I [label = "肀\nrake (*)"];
+  H [label = "彐\nbroom (*)"];
 
-  贝 -> 赚 [thick];
-  目 -> 贝 [thick];
-  囧只－口 -> 贝 [thick];
-  八 -> 囧只－口 [thick];
-  兼 -> 赚 [thick];
-  丷 -> 兼 [thick];
-  一 -> 丷 [thick];
-  肀 -> 兼 [thick];
-  彐 -> 肀 [thick];
+  E -> K [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
+  J -> K [thick];
+  G -> J [thick];
+  F -> G [thick];
+  I -> J [thick];
+  H -> I [thick];
 }

@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  兼 [label = "兼\n2215 double"];
-  丷 [label = "丷\n* horns"];
-  一 [label = "一\n1 one"];
-  肀 [label = "肀\n* rake"];
-  彐 [label = "彐\n* broom"];
+  F [label = "兼\ndouble (2215)"];
+  C [label = "丷\nhorns (*)"];
+  B [label = "一\none (1)"];
+  E [label = "肀\nrake (*)"];
+  D [label = "彐\nbroom (*)"];
 
-  丷 -> 兼 [thick];
-  一 -> 丷 [thick];
-  肀 -> 兼 [thick];
-  彐 -> 肀 [thick];
+  C -> F [thick];
+  B -> C [thick];
+  E -> F [thick];
+  D -> E [thick];
 }

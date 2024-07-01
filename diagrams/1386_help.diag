@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  帮 [label = "帮\n1386 help"];
-  丰 [label = "丰\n1223 plentiful"];
-  囧阝 [label = "囧阝\n* city walls"];
-  阝 [label = "阝\n* pinnacle"];
-  巾 [label = "巾\n410 towel"];
+  F [label = "帮\nhelp (1386)"];
+  B [label = "丰\nplentiful (1223)"];
+  D [label = "囧阝\ncity walls (*)"];
+  C [label = "阝\npinnacle (*)"];
+  E [label = "巾\ntowel (410)"];
 
-  丰 -> 帮 [thick];
-  囧阝 -> 帮 [thick];
-  阝 -> 囧阝 [thick];
-  巾 -> 帮 [thick];
+  B -> F [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

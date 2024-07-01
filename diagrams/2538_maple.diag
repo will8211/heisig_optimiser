@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  枫 [label = "枫\n2538 maple"];
-  木 [label = "木\n202 tree"];
-  风 [label = "风\n1168 wind"];
-  几 [label = "几\n57 how many?"];
-  "㐅" [label = "㐅\n* sheaf"];
+  F [label = "枫\nmaple (2538)"];
+  B [label = "木\ntree (202)"];
+  E [label = "风\nwind (1168)"];
+  C [label = "几\nhow many? (57)"];
+  D [label = "㐅\nsheaf (*)"];
 
-  木 -> 枫 [thick];
-  风 -> 枫 [thick];
-  几 -> 风 [thick];
-  "㐅" -> 风 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

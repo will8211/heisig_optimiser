@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  星 [label = "星\n1219 star"];
-  日 [label = "日\n12 day"];
-  生 [label = "生\n1218 life"];
-  丶 [label = "丶\n* a drop of"];
-  囧毒－母 [label = "囧毒－母\n* grow up"];
+  F [label = "星\nstar (1219)"];
+  B [label = "日\nday (12)"];
+  E [label = "生\nlife (1218)"];
+  C [label = "丶\na drop of (*)"];
+  D [label = "囧毒－母\ngrow up (*)"];
 
-  日 -> 星 [thick];
-  生 -> 星 [thick];
-  丶 -> 生 [thick];
-  囧毒－母 -> 生 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

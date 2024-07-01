@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  白 [label = "白\n34 white"];
-  日 [label = "日\n12 day"];
-  丶 [label = "丶\n* a drop of"];
+  D [label = "白\nwhite (34)"];
+  B [label = "日\nday (12)"];
+  C [label = "丶\na drop of (*)"];
 
-  日 -> 白 [thick];
-  丶 -> 白 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

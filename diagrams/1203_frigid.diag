@@ -5,26 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  寒 [label = "寒\n1203 frigid"];
-  囧赛－贝 [label = "囧赛－贝\n* hamster cage"];
-  宀 [label = "宀\n* house"];
-  "𠀎" [label = "𠀎\n* wire mesh"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  冫 [label = "冫\n* ice"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
+  L [label = "寒\nfrigid (1203)"];
+  F [label = "囧赛－贝\nhamster cage (*)"];
+  B [label = "宀\nhouse (*)"];
+  C [label = "𠀎\nwire mesh (*)"];
+  E [label = "囧只－口\nanimal legs (*)"];
+  D [label = "八\neight (8)"];
+  K [label = "冫\nice (*)"];
+  J [label = "水\nwater (137)"];
+  H [label = "丨\nwalking stick (*)"];
+  G [label = "一\none (1)"];
+  I [label = "丶\na drop of (*)"];
 
-  囧赛－贝 -> 寒 [thick];
-  宀 -> 囧赛－贝 [thick];
-  "𠀎" -> 囧赛－贝 [thick];
-  囧只－口 -> 囧赛－贝 [thick];
-  八 -> 囧只－口 [thick];
-  冫 -> 寒 [thick];
-  水 -> 冫 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
+  F -> L [thick];
+  B -> F [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
+  K -> L [thick];
+  J -> K [thick];
+  H -> J [thick];
+  G -> H [thick];
+  I -> J [thick];
 }

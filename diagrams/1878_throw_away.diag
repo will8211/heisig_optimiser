@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  扔 [label = "扔\n1878 throw away"];
-  扌 [label = "扌\n* fingers"];
-  乃 [label = "乃\n625 only then"];
+  D [label = "扔\nthrow away (1878)"];
+  B [label = "扌\nfingers (*)"];
+  C [label = "乃\nonly then (625)"];
 
-  扌 -> 扔 [thick];
-  乃 -> 扔 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

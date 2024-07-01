@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  尼 [label = "尼\n883 nun"];
-  尸 [label = "尸\n882 corpse"];
-  匕 [label = "匕\n453 ancient spoon"];
+  D [label = "尼\nnun (883)"];
+  B [label = "尸\ncorpse (882)"];
+  C [label = "匕\nancient spoon (453)"];
 
-  尸 -> 尼 [thick];
-  匕 -> 尼 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

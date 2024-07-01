@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  猎 [label = "猎\n2243 hunt"];
-  犬 [label = "犬\n239 pooch"];
-  大 [label = "大\n113 large"];
-  丶 [label = "丶\n* a drop of"];
-  昔 [label = "昔\n971 times past"];
-  囧昔－日 [label = "囧昔－日\n* salad"];
-  艹 [label = "艹\n* flower"];
-  日 [label = "日\n12 day"];
+  I [label = "猎\nhunt (2243)"];
+  D [label = "犬\npooch (239)"];
+  B [label = "大\nlarge (113)"];
+  C [label = "丶\na drop of (*)"];
+  H [label = "昔\ntimes past (971)"];
+  F [label = "囧昔－日\nsalad (*)"];
+  E [label = "艹\nflower (*)"];
+  G [label = "日\nday (12)"];
 
-  犬 -> 猎 [thick];
-  大 -> 犬 [thick];
-  丶 -> 犬 [thick];
-  昔 -> 猎 [thick];
-  囧昔－日 -> 昔 [thick];
-  艹 -> 囧昔－日 [thick];
-  日 -> 昔 [thick];
+  D -> I [thick];
+  B -> D [thick];
+  C -> D [thick];
+  H -> I [thick];
+  F -> H [thick];
+  E -> F [thick];
+  G -> H [thick];
 }

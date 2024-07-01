@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  尬 [label = "尬\n2500 embarrassed"];
-  囧尴－监 [label = "囧尴－监\n* Frankenbowser"];
-  大 [label = "大\n113 large"];
-  介 [label = "介\n259 introduce"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  "囧介－𠆢" [label = "囧介－𠆢\n* crutches"];
+  G [label = "尬\nembarrassed (2500)"];
+  C [label = "囧尴－监\nFrankenbowser (*)"];
+  B [label = "大\nlarge (113)"];
+  F [label = "介\nintroduce (259)"];
+  D [label = "𠆢\numbrella (*)"];
+  E [label = "囧介－𠆢\ncrutches (*)"];
 
-  囧尴－监 -> 尬 [thick];
-  大 -> 囧尴－监 [thick];
-  介 -> 尬 [thick];
-  "𠆢" -> 介 [thick];
-  "囧介－𠆢" -> 介 [thick];
+  C -> G [thick];
+  B -> C [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

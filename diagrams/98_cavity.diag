@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  孔 [label = "孔\n98 cavity"];
-  子 [label = "子\n97 child"];
-  乙 [label = "乙\n95 second"];
+  D [label = "孔\ncavity (98)"];
+  B [label = "子\nchild (97)"];
+  C [label = "乙\nsecond (95)"];
 
-  子 -> 孔 [thick];
-  乙 -> 孔 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

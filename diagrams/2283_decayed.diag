@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  朽 [label = "朽\n2283 decayed"];
-  木 [label = "木\n202 tree"];
-  丂 [label = "丂\n* snare"];
+  D [label = "朽\ndecayed (2283)"];
+  B [label = "木\ntree (202)"];
+  C [label = "丂\nsnare (*)"];
 
-  木 -> 朽 [thick];
-  丂 -> 朽 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

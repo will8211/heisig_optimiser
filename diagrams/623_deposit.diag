@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  存 [label = "存\n623 deposit"];
-  才 [label = "才\n620 genius"];
-  子 [label = "子\n97 child"];
+  D [label = "存\ndeposit (623)"];
+  B [label = "才\ngenius (620)"];
+  C [label = "子\nchild (97)"];
 
-  才 -> 存 [thick];
-  子 -> 存 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

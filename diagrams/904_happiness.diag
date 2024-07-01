@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  福 [label = "福\n904 happiness"];
-  示 [label = "示\n900 show"];
-  畐 [label = "畐\n* wealth"];
-  一 [label = "一\n1 one"];
-  口 [label = "口\n11 mouth"];
-  田 [label = "田\n14 rice field"];
+  G [label = "福\nhappiness (904)"];
+  B [label = "示\nshow (900)"];
+  F [label = "畐\nwealth (*)"];
+  C [label = "一\none (1)"];
+  D [label = "口\nmouth (11)"];
+  E [label = "田\nrice field (14)"];
 
-  示 -> 福 [thick];
-  畐 -> 福 [thick];
-  一 -> 畐 [thick];
-  口 -> 畐 [thick];
-  田 -> 畐 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

@@ -5,19 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  般 [label = "般\n1396 sort"];
-  舟 [label = "舟\n1394 boat"];
-  丶 [label = "丶\n* a drop of"];
-  冂 [label = "冂\n* hood"];
-  几 [label = "几\n57 how many?"];
-  殳 [label = "殳\n* missile"];
-  又 [label = "又\n633 again"];
+  I [label = "般\nsort (1396)"];
+  E [label = "舟\nboat (1394)"];
+  B [label = "丶\na drop of (*)"];
+  D [label = "冂\nhood (*)"];
+  C [label = "几\nhow many? (57)"];
+  H [label = "殳\nmissile (*)"];
+  F [label = "几\nhow many? (57)"];
+  G [label = "又\nagain (633)"];
 
-  舟 -> 般 [thick];
-  丶 -> 舟 [thick];
-  冂 -> 舟 [thick];
-  几 -> 冂 [thick];
-  殳 -> 般 [thick];
-  几 -> 殳 [thick];
-  又 -> 殳 [thick];
+  E -> I [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
+  H -> I [thick];
+  F -> H [thick];
+  G -> H [thick];
 }

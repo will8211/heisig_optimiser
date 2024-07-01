@@ -5,8 +5,8 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  莲 [label = "莲\n302 lotus"];
-  艹 [label = "艹\n* flower"];
+  C [label = "莲\nlotus (302)"];
+  B [label = "艹\nflower (*)"];
 
-  艹 -> 莲 [thick];
+  B -> C [thick];
 }

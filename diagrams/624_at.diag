@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  在 [label = "在\n624 at"];
-  才 [label = "才\n620 genius"];
-  土 [label = "土\n158 soil"];
+  D [label = "在\nat (624)"];
+  B [label = "才\ngenius (620)"];
+  C [label = "土\nsoil (158)"];
 
-  才 -> 在 [thick];
-  土 -> 在 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

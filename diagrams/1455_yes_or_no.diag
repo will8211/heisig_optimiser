@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  吗 [label = "吗\n1455 yes or no"];
-  口 [label = "口\n11 mouth"];
-  马 [label = "马\n1453 horse"];
-  囧与－丨一 [label = "囧与－丨一\n* pointed tail"];
+  E [label = "吗\nyes or no (1455)"];
+  B [label = "口\nmouth (11)"];
+  D [label = "马\nhorse (1453)"];
+  C [label = "囧与－丨一\npointed tail (*)"];
 
-  口 -> 吗 [thick];
-  马 -> 吗 [thick];
-  囧与－丨一 -> 马 [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

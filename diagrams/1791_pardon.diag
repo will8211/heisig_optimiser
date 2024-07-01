@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  恕 [label = "恕\n1791 pardon"];
-  如 [label = "如\n104 be like"];
-  口 [label = "口\n11 mouth"];
-  女 [label = "女\n102 woman"];
-  心 [label = "心\n563 heart"];
+  F [label = "恕\npardon (1791)"];
+  D [label = "如\nbe like (104)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "女\nwoman (102)"];
+  E [label = "心\nheart (563)"];
 
-  如 -> 恕 [thick];
-  口 -> 如 [thick];
-  女 -> 如 [thick];
-  心 -> 恕 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

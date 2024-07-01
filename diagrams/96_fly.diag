@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  飞 [label = "飞\n96 fly"];
-  乙 [label = "乙\n95 second"];
-  丶 [label = "丶\n* a drop of"];
+  D [label = "飞\nfly (96)"];
+  B [label = "乙\nsecond (95)"];
+  C [label = "丶\na drop of (*)"];
 
-  乙 -> 飞 [thick];
-  丶 -> 飞 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

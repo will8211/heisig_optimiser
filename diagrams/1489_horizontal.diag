@@ -5,26 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  横 [label = "横\n1489 horizontal"];
-  木 [label = "木\n202 tree"];
-  黄 [label = "黄\n1488 yellow"];
-  寅 [label = "寅\n1465 sign of the tiger"];
-  宀 [label = "宀\n* house"];
-  一 [label = "一\n1 one"];
-  由 [label = "由\n913 wherefore"];
-  田 [label = "田\n14 rice field"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  艹 [label = "艹\n* flower"];
+  L [label = "横\nhorizontal (1489)"];
+  B [label = "木\ntree (202)"];
+  K [label = "黄\nyellow (1488)"];
+  I [label = "寅\nsign of the tiger (1465)"];
+  C [label = "宀\nhouse (*)"];
+  D [label = "一\none (1)"];
+  F [label = "由\nwherefore (913)"];
+  E [label = "田\nrice field (14)"];
+  H [label = "囧只－口\nanimal legs (*)"];
+  G [label = "八\neight (8)"];
+  J [label = "艹\nflower (*)"];
 
-  木 -> 横 [thick];
-  黄 -> 横 [thick];
-  寅 -> 黄 [thick];
-  宀 -> 寅 [thick];
-  一 -> 寅 [thick];
-  由 -> 寅 [thick];
-  田 -> 由 [thick];
-  囧只－口 -> 寅 [thick];
-  八 -> 囧只－口 [thick];
-  艹 -> 黄 [thick];
+  B -> L [thick];
+  K -> L [thick];
+  I -> K [thick];
+  C -> I [thick];
+  D -> I [thick];
+  F -> I [thick];
+  E -> F [thick];
+  H -> I [thick];
+  G -> H [thick];
+  J -> K [thick];
 }

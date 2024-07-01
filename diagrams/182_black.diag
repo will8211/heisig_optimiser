@@ -5,19 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  黑 [label = "黑\n182 black"];
-  里 [label = "里\n179 li"];
-  田 [label = "田\n14 rice field"];
-  土 [label = "土\n158 soil"];
-  丷 [label = "丷\n* horns"];
-  一 [label = "一\n1 one"];
-  火 [label = "火\n170 fire"];
+  I [label = "黑\nblack (182)"];
+  D [label = "里\nli (179)"];
+  B [label = "田\nrice field (14)"];
+  C [label = "土\nsoil (158)"];
+  E [label = "田\nrice field (14)"];
+  G [label = "丷\nhorns (*)"];
+  F [label = "一\none (1)"];
+  H [label = "火\nfire (170)"];
 
-  里 -> 黑 [thick];
-  田 -> 里 [thick];
-  土 -> 里 [thick];
-  田 -> 黑 [thick];
-  丷 -> 黑 [thick];
-  一 -> 丷 [thick];
-  火 -> 黑 [thick];
+  D -> I [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> I [thick];
+  G -> I [thick];
+  F -> G [thick];
+  H -> I [thick];
 }

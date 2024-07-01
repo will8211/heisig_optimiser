@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  听 [label = "听\n925 listen"];
-  口 [label = "口\n11 mouth"];
-  斤 [label = "斤\n924 catty"];
+  D [label = "听\nlisten (925)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "斤\ncatty (924)"];
 
-  口 -> 听 [thick];
-  斤 -> 听 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  秉 [label = "秉\n2208 wield"];
-  肀 [label = "肀\n* rake"];
-  彐 [label = "彐\n* broom"];
-  禾 [label = "禾\n762 standing grain"];
+  E [label = "秉\nwield (2208)"];
+  C [label = "肀\nrake (*)"];
+  B [label = "彐\nbroom (*)"];
+  D [label = "禾\nstanding grain (762)"];
 
-  肀 -> 秉 [thick];
-  彐 -> 肀 [thick];
-  禾 -> 秉 [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
 }

@@ -5,8 +5,8 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  年 [label = "年\n871 year"];
-  午 [label = "午\n542 noon"];
+  C [label = "年\nyear (871)"];
+  B [label = "午\nnoon (542)"];
 
-  午 -> 年 [thick];
+  B -> C [thick];
 }

@@ -5,32 +5,34 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  溃 [label = "溃\n2745 burst"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  贵 [label = "贵\n1340 expensive"];
-  "𠀐" [label = "𠀐\n* purse"];
-  中 [label = "中\n38 middle"];
-  口 [label = "口\n11 mouth"];
-  贝 [label = "贝\n52 shellfish"];
-  目 [label = "目\n15 eye"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
+  P [label = "溃\nburst (2745)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  O [label = "贵\nexpensive (1340)"];
+  J [label = "𠀐\npurse (*)"];
+  I [label = "中\nmiddle (38)"];
+  G [label = "丨\nwalking stick (*)"];
+  F [label = "一\none (1)"];
+  H [label = "口\nmouth (11)"];
+  N [label = "贝\nshellfish (52)"];
+  K [label = "目\neye (15)"];
+  M [label = "囧只－口\nanimal legs (*)"];
+  L [label = "八\neight (8)"];
 
-  水 -> 溃 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  贵 -> 溃 [thick];
-  "𠀐" -> 贵 [thick];
-  中 -> "𠀐" [thick];
-  丨 -> 中 [thick];
-  一 -> 丨 [thick];
-  口 -> 中 [thick];
-  贝 -> 贵 [thick];
-  目 -> 贝 [thick];
-  囧只－口 -> 贝 [thick];
-  八 -> 囧只－口 [thick];
+  E -> P [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  O -> P [thick];
+  J -> O [thick];
+  I -> J [thick];
+  G -> I [thick];
+  F -> G [thick];
+  H -> I [thick];
+  N -> O [thick];
+  K -> N [thick];
+  M -> N [thick];
+  L -> M [thick];
 }

@@ -5,26 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  贾 [label = "贾\n1258 merchant"];
-  西 [label = "西\n1253 west"];
-  四 [label = "四\n4 four"];
-  口 [label = "口\n11 mouth"];
-  儿 [label = "儿\n56 youngster"];
-  一 [label = "一\n1 one"];
-  贝 [label = "贝\n52 shellfish"];
-  目 [label = "目\n15 eye"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
+  M [label = "贾\nmerchant (1258)"];
+  H [label = "西\nwest (1253)"];
+  D [label = "四\nfour (4)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "儿\nyoungster (56)"];
+  E [label = "一\none (1)"];
+  F [label = "儿\nyoungster (56)"];
+  G [label = "口\nmouth (11)"];
+  L [label = "贝\nshellfish (52)"];
+  I [label = "目\neye (15)"];
+  K [label = "囧只－口\nanimal legs (*)"];
+  J [label = "八\neight (8)"];
 
-  西 -> 贾 [thick];
-  四 -> 西 [thick];
-  口 -> 四 [thick];
-  儿 -> 四 [thick];
-  一 -> 西 [thick];
-  儿 -> 西 [thick];
-  口 -> 西 [thick];
-  贝 -> 贾 [thick];
-  目 -> 贝 [thick];
-  囧只－口 -> 贝 [thick];
-  八 -> 囧只－口 [thick];
+  H -> M [thick];
+  D -> H [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> H [thick];
+  F -> H [thick];
+  G -> H [thick];
+  L -> M [thick];
+  I -> L [thick];
+  K -> L [thick];
+  J -> K [thick];
 }

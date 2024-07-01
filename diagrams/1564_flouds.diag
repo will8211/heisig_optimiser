@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  朵 [label = "朵\n1564 flouds"];
-  几 [label = "几\n57 how many?"];
-  木 [label = "木\n202 tree"];
+  D [label = "朵\nflouds (1564)"];
+  B [label = "几\nhow many? (57)"];
+  C [label = "木\ntree (202)"];
 
-  几 -> 朵 [thick];
-  木 -> 朵 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

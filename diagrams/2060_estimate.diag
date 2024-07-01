@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  估 [label = "估\n2060 estimate"];
-  人 [label = "人\n793 person"];
-  古 [label = "古\n16 ancient"];
-  十 [label = "十\n10 ten"];
-  口 [label = "口\n11 mouth"];
+  F [label = "估\nestimate (2060)"];
+  B [label = "人\nperson (793)"];
+  E [label = "古\nancient (16)"];
+  C [label = "十\nten (10)"];
+  D [label = "口\nmouth (11)"];
 
-  人 -> 估 [thick];
-  古 -> 估 [thick];
-  十 -> 古 [thick];
-  口 -> 古 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

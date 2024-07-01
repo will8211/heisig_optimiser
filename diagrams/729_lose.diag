@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  失 [label = "失\n729 lose"];
-  夫 [label = "夫\n726 husband"];
-  大 [label = "大\n113 large"];
-  丶 [label = "丶\n* a drop of"];
+  E [label = "失\nlose (729)"];
+  C [label = "夫\nhusband (726)"];
+  B [label = "大\nlarge (113)"];
+  D [label = "丶\na drop of (*)"];
 
-  夫 -> 失 [thick];
-  大 -> 夫 [thick];
-  丶 -> 失 [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
 }

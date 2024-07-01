@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  耽 [label = "耽\n2503 indulge in"];
-  耳 [label = "耳\n717 ear"];
-  冘 [label = "冘\n* Frankenbowser Rex"];
-  囧尴－监 [label = "囧尴－监\n* Frankenbowser"];
-  大 [label = "大\n113 large"];
-  冖 [label = "冖\n* crown"];
+  G [label = "耽\nindulge in (2503)"];
+  B [label = "耳\near (717)"];
+  F [label = "冘\nFrankenbowser Rex (*)"];
+  D [label = "囧尴－监\nFrankenbowser (*)"];
+  C [label = "大\nlarge (113)"];
+  E [label = "冖\ncrown (*)"];
 
-  耳 -> 耽 [thick];
-  冘 -> 耽 [thick];
-  囧尴－监 -> 冘 [thick];
-  大 -> 囧尴－监 [thick];
-  冖 -> 冘 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

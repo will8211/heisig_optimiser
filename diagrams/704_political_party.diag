@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  党 [label = "党\n704 political party"];
-  儿 [label = "儿\n56 youngster"];
-  囧赏－贝 [label = "囧赏－贝\n* outhouse"];
-  小 [label = "小\n109 small"];
-  丶 [label = "丶\n* a drop of"];
-  口 [label = "口\n11 mouth"];
+  G [label = "党\npolitical party (704)"];
+  B [label = "儿\nyoungster (56)"];
+  F [label = "囧赏－贝\nouthouse (*)"];
+  D [label = "小\nsmall (109)"];
+  C [label = "丶\na drop of (*)"];
+  E [label = "口\nmouth (11)"];
 
-  儿 -> 党 [thick];
-  囧赏－贝 -> 党 [thick];
-  小 -> 囧赏－贝 [thick];
-  丶 -> 小 [thick];
-  口 -> 囧赏－贝 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

@@ -5,19 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  鄙 [label = "鄙\n2805 despicable"];
-  口 [label = "口\n11 mouth"];
-  十 [label = "十\n10 ten"];
-  回 [label = "回\n554 return"];
-  囗 [label = "囗\n* pent in"];
-  囧阝 [label = "囧阝\n* city walls"];
-  阝 [label = "阝\n* pinnacle"];
+  I [label = "鄙\ndespicable (2805)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "十\nten (10)"];
+  F [label = "回\nreturn (554)"];
+  D [label = "囗\npent in (*)"];
+  E [label = "口\nmouth (11)"];
+  H [label = "囧阝\ncity walls (*)"];
+  G [label = "阝\npinnacle (*)"];
 
-  口 -> 鄙 [thick];
-  十 -> 鄙 [thick];
-  回 -> 鄙 [thick];
-  囗 -> 回 [thick];
-  口 -> 回 [thick];
-  囧阝 -> 鄙 [thick];
-  阝 -> 囧阝 [thick];
+  B -> I [thick];
+  C -> I [thick];
+  F -> I [thick];
+  D -> F [thick];
+  E -> F [thick];
+  H -> I [thick];
+  G -> H [thick];
 }

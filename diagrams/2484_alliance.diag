@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  盟 [label = "盟\n2484 alliance"];
-  明 [label = "明\n21 bright"];
-  日 [label = "日\n12 day"];
-  月 [label = "月\n13 month"];
-  皿 [label = "皿\n* dish"];
+  F [label = "盟\nalliance (2484)"];
+  D [label = "明\nbright (21)"];
+  B [label = "日\nday (12)"];
+  C [label = "月\nmonth (13)"];
+  E [label = "皿\ndish (*)"];
 
-  明 -> 盟 [thick];
-  日 -> 明 [thick];
-  月 -> 明 [thick];
-  皿 -> 盟 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

@@ -5,21 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  猩 [label = "猩\n2573 orangutan"];
-  犬 [label = "犬\n239 pooch"];
-  大 [label = "大\n113 large"];
-  丶 [label = "丶\n* a drop of"];
-  星 [label = "星\n1219 star"];
-  日 [label = "日\n12 day"];
-  生 [label = "生\n1218 life"];
-  囧毒－母 [label = "囧毒－母\n* grow up"];
+  J [label = "猩\norangutan (2573)"];
+  D [label = "犬\npooch (239)"];
+  B [label = "大\nlarge (113)"];
+  C [label = "丶\na drop of (*)"];
+  I [label = "星\nstar (1219)"];
+  E [label = "日\nday (12)"];
+  H [label = "生\nlife (1218)"];
+  F [label = "丶\na drop of (*)"];
+  G [label = "囧毒－母\ngrow up (*)"];
 
-  犬 -> 猩 [thick];
-  大 -> 犬 [thick];
-  丶 -> 犬 [thick];
-  星 -> 猩 [thick];
-  日 -> 星 [thick];
-  生 -> 星 [thick];
-  丶 -> 生 [thick];
-  囧毒－母 -> 生 [thick];
+  D -> J [thick];
+  B -> D [thick];
+  C -> D [thick];
+  I -> J [thick];
+  E -> I [thick];
+  H -> I [thick];
+  F -> H [thick];
+  G -> H [thick];
 }

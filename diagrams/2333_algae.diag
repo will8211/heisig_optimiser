@@ -5,30 +5,30 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  藻 [label = "藻\n2333 algae"];
-  艹 [label = "艹\n* flower"];
-  澡 [label = "澡\n2332 bath"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  喿 [label = "喿\n* wood pulp"];
-  品 [label = "品\n24 goods"];
-  晶 [label = "晶\n23 sparkling"];
-  日 [label = "日\n12 day"];
-  口 [label = "口\n11 mouth"];
-  木 [label = "木\n202 tree"];
+  N [label = "藻\nalgae (2333)"];
+  B [label = "艹\nflower (*)"];
+  M [label = "澡\nbath (2332)"];
+  F [label = "水\nwater (137)"];
+  D [label = "丨\nwalking stick (*)"];
+  C [label = "一\none (1)"];
+  E [label = "丶\na drop of (*)"];
+  L [label = "喿\nwood pulp (*)"];
+  J [label = "品\ngoods (24)"];
+  H [label = "晶\nsparkling (23)"];
+  G [label = "日\nday (12)"];
+  I [label = "口\nmouth (11)"];
+  K [label = "木\ntree (202)"];
 
-  艹 -> 藻 [thick];
-  澡 -> 藻 [thick];
-  水 -> 澡 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  喿 -> 澡 [thick];
-  品 -> 喿 [thick];
-  晶 -> 品 [thick];
-  日 -> 晶 [thick];
-  口 -> 品 [thick];
-  木 -> 喿 [thick];
+  B -> N [thick];
+  M -> N [thick];
+  F -> M [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
+  L -> M [thick];
+  J -> L [thick];
+  H -> J [thick];
+  G -> H [thick];
+  I -> J [thick];
+  K -> L [thick];
 }

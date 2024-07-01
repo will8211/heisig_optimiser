@@ -5,26 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  汇 [label = "汇\n2673 converge"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  箱 [label = "箱\n788 box"];
-  竹 [label = "竹\n786 bamboo"];
-  丁 [label = "丁\n90 fourth"];
-  相 [label = "相\n212 one another"];
-  木 [label = "木\n202 tree"];
-  目 [label = "目\n15 eye"];
+  L [label = "汇\nconverge (2673)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  K [label = "箱\nbox (788)"];
+  G [label = "竹\nbamboo (786)"];
+  F [label = "丁\nfourth (90)"];
+  J [label = "相\none another (212)"];
+  H [label = "木\ntree (202)"];
+  I [label = "目\neye (15)"];
 
-  水 -> 汇 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  箱 -> 汇 [thick];
-  竹 -> 箱 [thick];
-  丁 -> 竹 [thick];
-  相 -> 箱 [thick];
-  木 -> 相 [thick];
-  目 -> 相 [thick];
+  E -> L [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  K -> L [thick];
+  G -> K [thick];
+  F -> G [thick];
+  J -> K [thick];
+  H -> J [thick];
+  I -> J [thick];
 }

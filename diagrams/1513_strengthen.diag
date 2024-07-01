@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  巩 [label = "巩\n1513 strengthen"];
-  工 [label = "工\n76 work"];
-  凡 [label = "凡\n62 ordinary"];
-  丶 [label = "丶\n* a drop of"];
-  几 [label = "几\n57 how many?"];
+  F [label = "巩\nstrengthen (1513)"];
+  B [label = "工\nwork (76)"];
+  E [label = "凡\nordinary (62)"];
+  C [label = "丶\na drop of (*)"];
+  D [label = "几\nhow many? (57)"];
 
-  工 -> 巩 [thick];
-  凡 -> 巩 [thick];
-  丶 -> 凡 [thick];
-  几 -> 凡 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  爱 [label = "爱\n669 love"];
-  囧受－又 [label = "囧受－又\n* birdhouse"];
-  爪 [label = "爪\n663 claw"];
-  "𠂆" [label = "𠂆\n* drag"];
-  宀 [label = "宀\n* house"];
-  友 [label = "友\n635 friend"];
-  "𠂇" [label = "𠂇\n* by one’s side"];
-  十 [label = "十\n10 ten"];
-  又 [label = "又\n633 again"];
+  J [label = "爱\nlove (669)"];
+  E [label = "囧受－又\nbirdhouse (*)"];
+  C [label = "爪\nclaw (663)"];
+  B [label = "𠂆\ndrag (*)"];
+  D [label = "宀\nhouse (*)"];
+  I [label = "友\nfriend (635)"];
+  G [label = "𠂇\nby one’s side (*)"];
+  F [label = "十\nten (10)"];
+  H [label = "又\nagain (633)"];
 
-  囧受－又 -> 爱 [thick];
-  爪 -> 囧受－又 [thick];
-  "𠂆" -> 爪 [thick];
-  宀 -> 囧受－又 [thick];
-  友 -> 爱 [thick];
-  "𠂇" -> 友 [thick];
-  十 -> "𠂇" [thick];
-  又 -> 友 [thick];
+  E -> J [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  I -> J [thick];
+  G -> I [thick];
+  F -> G [thick];
+  H -> I [thick];
 }

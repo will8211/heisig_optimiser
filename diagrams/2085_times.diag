@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  倍 [label = "倍\n2085 times"];
-  人 [label = "人\n793 person"];
-  咅 [label = "咅\n* muzzle"];
-  立 [label = "立\n444 standing up"];
-  口 [label = "口\n11 mouth"];
+  F [label = "倍\ntimes (2085)"];
+  B [label = "人\nperson (793)"];
+  E [label = "咅\nmuzzle (*)"];
+  C [label = "立\nstanding up (444)"];
+  D [label = "口\nmouth (11)"];
 
-  人 -> 倍 [thick];
-  咅 -> 倍 [thick];
-  立 -> 咅 [thick];
-  口 -> 咅 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

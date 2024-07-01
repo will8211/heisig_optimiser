@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  嫁 [label = "嫁\n1753 marry"];
-  女 [label = "女\n102 woman"];
-  囧家 [label = "囧家\n* flophouse"];
-  宀 [label = "宀\n* house"];
+  E [label = "嫁\nmarry (1753)"];
+  B [label = "女\nwoman (102)"];
+  D [label = "囧家\nflophouse (*)"];
+  C [label = "宀\nhouse (*)"];
 
-  女 -> 嫁 [thick];
-  囧家 -> 嫁 [thick];
-  宀 -> 囧家 [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

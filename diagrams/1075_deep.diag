@@ -5,27 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  深 [label = "深\n1075 deep"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  "㓁" [label = "㓁\n* paper punch"];
-  穴 [label = "穴\n1070 hole"];
-  宀 [label = "宀\n* house"];
-  八 [label = "八\n8 eight"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  木 [label = "木\n202 tree"];
+  M [label = "深\ndeep (1075)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  K [label = "㓁\npaper punch (*)"];
+  J [label = "穴\nhole (1070)"];
+  F [label = "宀\nhouse (*)"];
+  G [label = "八\neight (8)"];
+  I [label = "囧只－口\nanimal legs (*)"];
+  H [label = "八\neight (8)"];
+  L [label = "木\ntree (202)"];
 
-  水 -> 深 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  "㓁" -> 深 [thick];
-  穴 -> "㓁" [thick];
-  宀 -> 穴 [thick];
-  八 -> 穴 [thick];
-  囧只－口 -> 穴 [thick];
-  八 -> 囧只－口 [thick];
-  木 -> 深 [thick];
+  E -> M [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  K -> M [thick];
+  J -> K [thick];
+  F -> J [thick];
+  G -> J [thick];
+  I -> J [thick];
+  H -> I [thick];
+  L -> M [thick];
 }

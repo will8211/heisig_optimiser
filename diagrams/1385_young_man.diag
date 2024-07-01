@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  郎 [label = "郎\n1385 young man"];
-  良 [label = "良\n1151 high-quality"];
-  丶 [label = "丶\n* a drop of"];
-  艮 [label = "艮\n* silver"];
-  囧阝 [label = "囧阝\n* city walls"];
-  阝 [label = "阝\n* pinnacle"];
+  G [label = "郎\nyoung man (1385)"];
+  D [label = "良\nhigh-quality (1151)"];
+  B [label = "丶\na drop of (*)"];
+  C [label = "艮\nsilver (*)"];
+  F [label = "囧阝\ncity walls (*)"];
+  E [label = "阝\npinnacle (*)"];
 
-  良 -> 郎 [thick];
-  丶 -> 良 [thick];
-  艮 -> 良 [thick];
-  囧阝 -> 郎 [thick];
-  阝 -> 囧阝 [thick];
+  D -> G [thick];
+  B -> D [thick];
+  C -> D [thick];
+  F -> G [thick];
+  E -> F [thick];
 }

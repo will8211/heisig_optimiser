@@ -5,32 +5,36 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  瀑 [label = "瀑\n2773 waterfall"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  暴 [label = "暴\n2772 violent"];
-  日 [label = "日\n12 day"];
-  共 [label = "共\n1354 together"];
-  囧昔－日 [label = "囧昔－日\n* salad"];
-  艹 [label = "艹\n* flower"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
+  Q [label = "瀑\nwaterfall (2773)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  P [label = "暴\nviolent (2772)"];
+  F [label = "日\nday (12)"];
+  K [label = "共\ntogether (1354)"];
+  H [label = "囧昔－日\nsalad (*)"];
+  G [label = "艹\nflower (*)"];
+  J [label = "囧只－口\nanimal legs (*)"];
+  I [label = "八\neight (8)"];
+  O [label = "水\nwater (137)"];
+  M [label = "丨\nwalking stick (*)"];
+  L [label = "一\none (1)"];
+  N [label = "丶\na drop of (*)"];
 
-  水 -> 瀑 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  暴 -> 瀑 [thick];
-  日 -> 暴 [thick];
-  共 -> 暴 [thick];
-  囧昔－日 -> 共 [thick];
-  艹 -> 囧昔－日 [thick];
-  囧只－口 -> 共 [thick];
-  八 -> 囧只－口 [thick];
-  水 -> 暴 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
+  E -> Q [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  P -> Q [thick];
+  F -> P [thick];
+  K -> P [thick];
+  H -> K [thick];
+  G -> H [thick];
+  J -> K [thick];
+  I -> J [thick];
+  O -> P [thick];
+  M -> O [thick];
+  L -> M [thick];
+  N -> O [thick];
 }

@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  枚 [label = "枚\n1643 small objects"];
-  木 [label = "木\n202 tree"];
-  攵 [label = "攵\n* taskmaster"];
+  D [label = "枚\nsmall objects (1643)"];
+  B [label = "木\ntree (202)"];
+  C [label = "攵\ntaskmaster (*)"];
 
-  木 -> 枚 [thick];
-  攵 -> 枚 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

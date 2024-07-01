@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  敏 [label = "敏\n1713 quick-witted"];
-  每 [label = "每\n467 every"];
-  "𠂉" [label = "𠂉\n* reclining"];
-  母 [label = "母\n105 mother"];
-  女 [label = "女\n102 woman"];
-  攵 [label = "攵\n* taskmaster"];
+  G [label = "敏\nquick-witted (1713)"];
+  E [label = "每\nevery (467)"];
+  B [label = "𠂉\nreclining (*)"];
+  D [label = "母\nmother (105)"];
+  C [label = "女\nwoman (102)"];
+  F [label = "攵\ntaskmaster (*)"];
 
-  每 -> 敏 [thick];
-  "𠂉" -> 每 [thick];
-  母 -> 每 [thick];
-  女 -> 母 [thick];
-  攵 -> 敏 [thick];
+  E -> G [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
+  F -> G [thick];
 }

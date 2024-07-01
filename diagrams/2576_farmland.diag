@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  畴 [label = "畴\n2576 farmland"];
-  田 [label = "田\n14 rice field"];
-  寿 [label = "寿\n2575 longevity"];
-  丰 [label = "丰\n1223 plentiful"];
-  寸 [label = "寸\n166 Chinese inch"];
-  丶 [label = "丶\n* a drop of"];
-  十 [label = "十\n10 ten"];
+  H [label = "畴\nfarmland (2576)"];
+  B [label = "田\nrice field (14)"];
+  G [label = "寿\nlongevity (2575)"];
+  C [label = "丰\nplentiful (1223)"];
+  F [label = "寸\nChinese inch (166)"];
+  D [label = "丶\na drop of (*)"];
+  E [label = "十\nten (10)"];
 
-  田 -> 畴 [thick];
-  寿 -> 畴 [thick];
-  丰 -> 寿 [thick];
-  寸 -> 寿 [thick];
-  丶 -> 寸 [thick];
-  十 -> 寸 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  C -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

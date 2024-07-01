@@ -5,26 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  绰 [label = "绰\n2373 ample"];
-  纟 [label = "纟\n* thread"];
-  厶 [label = "厶\n* elbow"];
-  卓 [label = "卓\n48 eminent"];
-  卜 [label = "卜\n43 divination"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  早 [label = "早\n26 early"];
-  日 [label = "日\n12 day"];
-  十 [label = "十\n10 ten"];
+  L [label = "绰\nample (2373)"];
+  C [label = "纟\nthread (*)"];
+  B [label = "厶\nelbow (*)"];
+  K [label = "卓\neminent (48)"];
+  G [label = "卜\ndivination (43)"];
+  E [label = "丨\nwalking stick (*)"];
+  D [label = "一\none (1)"];
+  F [label = "丶\na drop of (*)"];
+  J [label = "早\nearly (26)"];
+  H [label = "日\nday (12)"];
+  I [label = "十\nten (10)"];
 
-  纟 -> 绰 [thick];
-  厶 -> 纟 [thick];
-  卓 -> 绰 [thick];
-  卜 -> 卓 [thick];
-  丨 -> 卜 [thick];
-  一 -> 丨 [thick];
-  丶 -> 卜 [thick];
-  早 -> 卓 [thick];
-  日 -> 早 [thick];
-  十 -> 早 [thick];
+  C -> L [thick];
+  B -> C [thick];
+  K -> L [thick];
+  G -> K [thick];
+  E -> G [thick];
+  D -> E [thick];
+  F -> G [thick];
+  J -> K [thick];
+  H -> J [thick];
+  I -> J [thick];
 }

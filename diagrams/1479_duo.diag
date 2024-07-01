@@ -5,15 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  俩 [label = "俩\n1479 duo"];
-  人 [label = "人\n793 person"];
-  两 [label = "两\n1478 dos"];
-  囧冂 [label = "囧冂\n* belt"];
-  巾 [label = "巾\n410 towel"];
+  G [label = "俩\nduo (1479)"];
+  B [label = "人\nperson (793)"];
+  F [label = "两\ndos (1478)"];
+  C [label = "人\nperson (793)"];
+  E [label = "囧冂\nbelt (*)"];
+  D [label = "巾\ntowel (410)"];
 
-  人 -> 俩 [thick];
-  两 -> 俩 [thick];
-  人 -> 两 [thick];
-  囧冂 -> 两 [thick];
-  巾 -> 囧冂 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
 }

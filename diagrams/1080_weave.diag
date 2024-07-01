@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  织 [label = "织\n1080 weave"];
-  纟 [label = "纟\n* thread"];
-  厶 [label = "厶\n* elbow"];
-  口 [label = "口\n11 mouth"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
+  G [label = "织\nweave (1080)"];
+  C [label = "纟\nthread (*)"];
+  B [label = "厶\nelbow (*)"];
+  D [label = "口\nmouth (11)"];
+  F [label = "囧只－口\nanimal legs (*)"];
+  E [label = "八\neight (8)"];
 
-  纟 -> 织 [thick];
-  厶 -> 纟 [thick];
-  口 -> 织 [thick];
-  囧只－口 -> 织 [thick];
-  八 -> 囧只－口 [thick];
+  C -> G [thick];
+  B -> C [thick];
+  D -> G [thick];
+  F -> G [thick];
+  E -> F [thick];
 }

@@ -5,27 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  阔 [label = "阔\n2619 broad"];
-  门 [label = "门\n1260 gate"];
-  活 [label = "活\n151 lively"];
-  舌 [label = "舌\n40 tongue"];
-  口 [label = "口\n11 mouth"];
-  千 [label = "千\n39 thousand"];
-  丶 [label = "丶\n* a drop of"];
-  十 [label = "十\n10 ten"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
+  M [label = "阔\nbroad (2619)"];
+  B [label = "门\ngate (1260)"];
+  L [label = "活\nlively (151)"];
+  G [label = "舌\ntongue (40)"];
+  C [label = "口\nmouth (11)"];
+  F [label = "千\nthousand (39)"];
+  D [label = "丶\na drop of (*)"];
+  E [label = "十\nten (10)"];
+  K [label = "水\nwater (137)"];
+  I [label = "丨\nwalking stick (*)"];
+  H [label = "一\none (1)"];
+  J [label = "丶\na drop of (*)"];
 
-  门 -> 阔 [thick];
-  活 -> 阔 [thick];
-  舌 -> 活 [thick];
-  口 -> 舌 [thick];
-  千 -> 舌 [thick];
-  丶 -> 千 [thick];
-  十 -> 千 [thick];
-  水 -> 活 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
+  B -> M [thick];
+  L -> M [thick];
+  G -> L [thick];
+  C -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
+  K -> L [thick];
+  I -> K [thick];
+  H -> I [thick];
+  J -> K [thick];
 }

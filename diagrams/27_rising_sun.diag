@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  旭 [label = "旭\n27 rising sun"];
-  日 [label = "日\n12 day"];
-  九 [label = "九\n9 nine"];
+  D [label = "旭\nrising sun (27)"];
+  B [label = "日\nday (12)"];
+  C [label = "九\nnine (9)"];
 
-  日 -> 旭 [thick];
-  九 -> 旭 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

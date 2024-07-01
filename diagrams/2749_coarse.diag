@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  粗 [label = "粗\n2749 coarse"];
-  米 [label = "米\n778 rice"];
-  且 [label = "且\n1343 moreover"];
+  D [label = "粗\ncoarse (2749)"];
+  B [label = "米\nrice (778)"];
+  C [label = "且\nmoreover (1343)"];
 
-  米 -> 粗 [thick];
-  且 -> 粗 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

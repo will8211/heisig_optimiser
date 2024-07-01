@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  他 [label = "他\n810 he"];
-  人 [label = "人\n793 person"];
-  也 [label = "也\n505 also"];
-  乙 [label = "乙\n95 second"];
+  E [label = "他\nhe (810)"];
+  B [label = "人\nperson (793)"];
+  D [label = "也\nalso (505)"];
+  C [label = "乙\nsecond (95)"];
 
-  人 -> 他 [thick];
-  也 -> 他 [thick];
-  乙 -> 也 [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

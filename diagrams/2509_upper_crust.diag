@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  爵 [label = "爵\n2509 upper crust"];
-  爪 [label = "爪\n663 claw"];
-  "𠂆" [label = "𠂆\n* drag"];
-  目 [label = "目\n15 eye"];
-  艮 [label = "艮\n* silver"];
-  寸 [label = "寸\n166 Chinese inch"];
-  丶 [label = "丶\n* a drop of"];
-  十 [label = "十\n10 ten"];
+  I [label = "爵\nupper crust (2509)"];
+  C [label = "爪\nclaw (663)"];
+  B [label = "𠂆\ndrag (*)"];
+  D [label = "目\neye (15)"];
+  E [label = "艮\nsilver (*)"];
+  H [label = "寸\nChinese inch (166)"];
+  F [label = "丶\na drop of (*)"];
+  G [label = "十\nten (10)"];
 
-  爪 -> 爵 [thick];
-  "𠂆" -> 爪 [thick];
-  目 -> 爵 [thick];
-  艮 -> 爵 [thick];
-  寸 -> 爵 [thick];
-  丶 -> 寸 [thick];
-  十 -> 寸 [thick];
+  C -> I [thick];
+  B -> C [thick];
+  D -> I [thick];
+  E -> I [thick];
+  H -> I [thick];
+  F -> H [thick];
+  G -> H [thick];
 }

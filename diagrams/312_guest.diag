@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  客 [label = "客\n312 guest"];
-  宀 [label = "宀\n* house"];
-  各 [label = "各\n309 each"];
-  口 [label = "口\n11 mouth"];
-  夂 [label = "夂\n* walking legs"];
+  F [label = "客\nguest (312)"];
+  B [label = "宀\nhouse (*)"];
+  E [label = "各\neach (309)"];
+  C [label = "口\nmouth (11)"];
+  D [label = "夂\nwalking legs (*)"];
 
-  宀 -> 客 [thick];
-  各 -> 客 [thick];
-  口 -> 各 [thick];
-  夂 -> 各 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

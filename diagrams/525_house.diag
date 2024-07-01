@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  家 [label = "家\n525 house"];
-  宀 [label = "宀\n* house"];
-  豕 [label = "豕\n* sow"];
+  D [label = "家\nhouse (525)"];
+  B [label = "宀\nhouse (*)"];
+  C [label = "豕\nsow (*)"];
 
-  宀 -> 家 [thick];
-  豕 -> 家 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

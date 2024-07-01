@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  阵 [label = "阵\n1066 battle formation"];
-  阝 [label = "阝\n* pinnacle"];
-  车 [label = "车\n300 car"];
+  D [label = "阵\nbattle formation (1066)"];
+  B [label = "阝\npinnacle (*)"];
+  C [label = "车\ncar (300)"];
 
-  阝 -> 阵 [thick];
-  车 -> 阵 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

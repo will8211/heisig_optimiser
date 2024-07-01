@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  丹 [label = "丹\n1554 cinnabar red"];
-  冂 [label = "冂\n* hood"];
-  几 [label = "几\n57 how many?"];
-  丶 [label = "丶\n* a drop of"];
-  一 [label = "一\n1 one"];
+  F [label = "丹\ncinnabar red (1554)"];
+  C [label = "冂\nhood (*)"];
+  B [label = "几\nhow many? (57)"];
+  D [label = "丶\na drop of (*)"];
+  E [label = "一\none (1)"];
 
-  冂 -> 丹 [thick];
-  几 -> 冂 [thick];
-  丶 -> 丹 [thick];
-  一 -> 丹 [thick];
+  C -> F [thick];
+  B -> C [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

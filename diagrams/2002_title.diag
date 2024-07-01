@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  衔 [label = "衔\n2002 title"];
-  行 [label = "行\n754 line of business"];
-  金 [label = "金\n279 gold"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  王 [label = "王\n265 king"];
-  工 [label = "工\n76 work"];
-  丶 [label = "丶\n* a drop of"];
+  H [label = "衔\ntitle (2002)"];
+  B [label = "行\nline of business (754)"];
+  G [label = "金\ngold (279)"];
+  C [label = "𠆢\numbrella (*)"];
+  E [label = "王\nking (265)"];
+  D [label = "工\nwork (76)"];
+  F [label = "丶\na drop of (*)"];
 
-  行 -> 衔 [thick];
-  金 -> 衔 [thick];
-  "𠆢" -> 金 [thick];
-  王 -> 金 [thick];
-  工 -> 王 [thick];
-  丶 -> 金 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  C -> G [thick];
+  E -> G [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

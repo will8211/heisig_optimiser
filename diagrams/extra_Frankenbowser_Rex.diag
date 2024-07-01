@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  冘 [label = "冘\n* Frankenbowser Rex"];
-  囧尴－监 [label = "囧尴－监\n* Frankenbowser"];
-  大 [label = "大\n113 large"];
-  冖 [label = "冖\n* crown"];
+  E [label = "冘\nFrankenbowser Rex (*)"];
+  C [label = "囧尴－监\nFrankenbowser (*)"];
+  B [label = "大\nlarge (113)"];
+  D [label = "冖\ncrown (*)"];
 
-  囧尴－监 -> 冘 [thick];
-  大 -> 囧尴－监 [thick];
-  冖 -> 冘 [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
 }

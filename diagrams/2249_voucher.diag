@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  券 [label = "券\n2249 voucher"];
-  囧眷－目 [label = "囧眷－目\n* quarter"];
-  半 [label = "半\n980 half"];
-  刀 [label = "刀\n83 sword"];
+  E [label = "券\nvoucher (2249)"];
+  C [label = "囧眷－目\nquarter (*)"];
+  B [label = "半\nhalf (980)"];
+  D [label = "刀\nsword (83)"];
 
-  囧眷－目 -> 券 [thick];
-  半 -> 囧眷－目 [thick];
-  刀 -> 券 [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
 }

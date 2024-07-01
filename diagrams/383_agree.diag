@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  肯 [label = "肯\n383 agree"];
-  止 [label = "止\n379 stop"];
-  月 [label = "月\n13 month"];
+  D [label = "肯\nagree (383)"];
+  B [label = "止\nstop (379)"];
+  C [label = "月\nmonth (13)"];
 
-  止 -> 肯 [thick];
-  月 -> 肯 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

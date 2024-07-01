@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  缝 [label = "缝\n2585 sew"];
-  纟 [label = "纟\n* thread"];
-  厶 [label = "厶\n* elbow"];
-  逢 [label = "逢\n2584 chance upon"];
-  夆 [label = "夆\n* briar"];
-  丰 [label = "丰\n1223 plentiful"];
-  夂 [label = "夂\n* walking legs"];
-  辶 [label = "辶\n* road"];
+  I [label = "缝\nsew (2585)"];
+  C [label = "纟\nthread (*)"];
+  B [label = "厶\nelbow (*)"];
+  H [label = "逢\nchance upon (2584)"];
+  F [label = "夆\nbriar (*)"];
+  D [label = "丰\nplentiful (1223)"];
+  E [label = "夂\nwalking legs (*)"];
+  G [label = "辶\nroad (*)"];
 
-  纟 -> 缝 [thick];
-  厶 -> 纟 [thick];
-  逢 -> 缝 [thick];
-  夆 -> 逢 [thick];
-  丰 -> 夆 [thick];
-  夂 -> 夆 [thick];
-  辶 -> 逢 [thick];
+  C -> I [thick];
+  B -> C [thick];
+  H -> I [thick];
+  F -> H [thick];
+  D -> F [thick];
+  E -> F [thick];
+  G -> H [thick];
 }

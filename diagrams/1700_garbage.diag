@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  垃 [label = "垃\n1700 garbage"];
-  土 [label = "土\n158 soil"];
-  立 [label = "立\n444 standing up"];
+  D [label = "垃\ngarbage (1700)"];
+  B [label = "土\nsoil (158)"];
+  C [label = "立\nstanding up (444)"];
 
-  土 -> 垃 [thick];
-  立 -> 垃 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

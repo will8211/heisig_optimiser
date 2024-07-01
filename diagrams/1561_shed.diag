@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  棚 [label = "棚\n1561 shed"];
-  木 [label = "木\n202 tree"];
-  朋 [label = "朋\n20 companion"];
-  月 [label = "月\n13 month"];
+  E [label = "棚\nshed (1561)"];
+  B [label = "木\ntree (202)"];
+  D [label = "朋\ncompanion (20)"];
+  C [label = "月\nmonth (13)"];
 
-  木 -> 棚 [thick];
-  朋 -> 棚 [thick];
-  月 -> 朋 [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

@@ -5,17 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  咖 [label = "咖\n2991 coffee (first drop)"];
-  口 [label = "口\n11 mouth"];
-  加 [label = "加\n749 add"];
-  肌 [label = "肌\n63 muscle"];
-  几 [label = "几\n57 how many?"];
-  月 [label = "月\n13 month"];
+  H [label = "咖\ncoffee (first drop) (2991)"];
+  B [label = "口\nmouth (11)"];
+  G [label = "加\nadd (749)"];
+  E [label = "肌\nmuscle (63)"];
+  C [label = "几\nhow many? (57)"];
+  D [label = "月\nmonth (13)"];
+  F [label = "口\nmouth (11)"];
 
-  口 -> 咖 [thick];
-  加 -> 咖 [thick];
-  肌 -> 加 [thick];
-  几 -> 肌 [thick];
-  月 -> 肌 [thick];
-  口 -> 加 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  E -> G [thick];
+  C -> E [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

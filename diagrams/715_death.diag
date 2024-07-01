@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  死 [label = "死\n715 death"];
-  歹 [label = "歹\n712 malicious"];
-  匕 [label = "匕\n453 ancient spoon"];
+  D [label = "死\ndeath (715)"];
+  B [label = "歹\nmalicious (712)"];
+  C [label = "匕\nancient spoon (453)"];
 
-  歹 -> 死 [thick];
-  匕 -> 死 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

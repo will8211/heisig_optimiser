@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  佳 [label = "佳\n2070 superb"];
-  人 [label = "人\n793 person"];
-  圭 [label = "圭\n* bricks"];
-  土 [label = "土\n158 soil"];
+  E [label = "佳\nsuperb (2070)"];
+  B [label = "人\nperson (793)"];
+  D [label = "圭\nbricks (*)"];
+  C [label = "土\nsoil (158)"];
 
-  人 -> 佳 [thick];
-  圭 -> 佳 [thick];
-  土 -> 圭 [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

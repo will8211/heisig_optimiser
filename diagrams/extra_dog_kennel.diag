@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  囧因 [label = "囧因\n* dog kennel"];
-  囗 [label = "囗\n* pent in"];
-  大 [label = "大\n113 large"];
+  D [label = "囧因\ndog kennel (*)"];
+  B [label = "囗\npent in (*)"];
+  C [label = "大\nlarge (113)"];
 
-  囗 -> 囧因 [thick];
-  大 -> 囧因 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

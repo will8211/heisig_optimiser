@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  刁 [label = "刁\n2814 wily"];
-  "𠃌" [label = "𠃌\n* clothes hanger"];
-  丶 [label = "丶\n* a drop of"];
+  D [label = "刁\nwily (2814)"];
+  B [label = "𠃌\nclothes hanger (*)"];
+  C [label = "丶\na drop of (*)"];
 
-  "𠃌" -> 刁 [thick];
-  丶 -> 刁 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  筒 [label = "筒\n2050 tube"];
-  竹 [label = "竹\n786 bamboo"];
-  丁 [label = "丁\n90 fourth"];
-  同 [label = "同\n185 same"];
-  一 [label = "一\n1 one"];
-  口 [label = "口\n11 mouth"];
-  冂 [label = "冂\n* hood"];
-  几 [label = "几\n57 how many?"];
+  I [label = "筒\ntube (2050)"];
+  C [label = "竹\nbamboo (786)"];
+  B [label = "丁\nfourth (90)"];
+  H [label = "同\nsame (185)"];
+  D [label = "一\none (1)"];
+  E [label = "口\nmouth (11)"];
+  G [label = "冂\nhood (*)"];
+  F [label = "几\nhow many? (57)"];
 
-  竹 -> 筒 [thick];
-  丁 -> 竹 [thick];
-  同 -> 筒 [thick];
-  一 -> 同 [thick];
-  口 -> 同 [thick];
-  冂 -> 同 [thick];
-  几 -> 冂 [thick];
+  C -> I [thick];
+  B -> C [thick];
+  H -> I [thick];
+  D -> H [thick];
+  E -> H [thick];
+  G -> H [thick];
+  F -> G [thick];
 }

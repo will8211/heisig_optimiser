@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  揉 [label = "揉\n1004 knead"];
-  扌 [label = "扌\n* fingers"];
-  柔 [label = "柔\n1003 gentle"];
-  矛 [label = "矛\n1002 spear"];
-  木 [label = "木\n202 tree"];
+  F [label = "揉\nknead (1004)"];
+  B [label = "扌\nfingers (*)"];
+  E [label = "柔\ngentle (1003)"];
+  C [label = "矛\nspear (1002)"];
+  D [label = "木\ntree (202)"];
 
-  扌 -> 揉 [thick];
-  柔 -> 揉 [thick];
-  矛 -> 柔 [thick];
-  木 -> 柔 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

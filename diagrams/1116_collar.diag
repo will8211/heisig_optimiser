@@ -5,28 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  领 [label = "领\n1116 collar"];
-  令 [label = "令\n1113 orders"];
-  亼 [label = "亼\n* meeting"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  囧节－艹 [label = "囧节－艹\n* chop"];
-  页 [label = "页\n60 page"];
-  贝 [label = "贝\n52 shellfish"];
-  目 [label = "目\n15 eye"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
+  M [label = "领\ncollar (1116)"];
+  E [label = "令\norders (1113)"];
+  C [label = "亼\nmeeting (*)"];
+  B [label = "𠆢\numbrella (*)"];
+  D [label = "囧节－艹\nchop (*)"];
+  L [label = "页\npage (60)"];
+  I [label = "贝\nshellfish (52)"];
+  F [label = "目\neye (15)"];
+  H [label = "囧只－口\nanimal legs (*)"];
+  G [label = "八\neight (8)"];
+  J [label = "一\none (1)"];
+  K [label = "丶\na drop of (*)"];
 
-  令 -> 领 [thick];
-  亼 -> 令 [thick];
-  "𠆢" -> 亼 [thick];
-  囧节－艹 -> 令 [thick];
-  页 -> 领 [thick];
-  贝 -> 页 [thick];
-  目 -> 贝 [thick];
-  囧只－口 -> 贝 [thick];
-  八 -> 囧只－口 [thick];
-  一 -> 页 [thick];
-  丶 -> 页 [thick];
+  E -> M [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  L -> M [thick];
+  I -> L [thick];
+  F -> I [thick];
+  H -> I [thick];
+  G -> H [thick];
+  J -> L [thick];
+  K -> L [thick];
 }

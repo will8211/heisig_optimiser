@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  蒋 [label = "蒋\n2469 Jiang"];
-  将 [label = "将\n244 General"];
-  兆 [label = "兆\n237 portent"];
-  夕 [label = "夕\n115 evening"];
-  月 [label = "月\n13 month"];
-  寸 [label = "寸\n166 Chinese inch"];
-  丶 [label = "丶\n* a drop of"];
-  十 [label = "十\n10 ten"];
-  艹 [label = "艹\n* flower"];
+  J [label = "蒋\nJiang (2469)"];
+  H [label = "将\nGeneral (244)"];
+  B [label = "兆\nportent (237)"];
+  D [label = "夕\nevening (115)"];
+  C [label = "月\nmonth (13)"];
+  G [label = "寸\nChinese inch (166)"];
+  E [label = "丶\na drop of (*)"];
+  F [label = "十\nten (10)"];
+  I [label = "艹\nflower (*)"];
 
-  将 -> 蒋 [thick];
-  兆 -> 将 [thick];
-  夕 -> 将 [thick];
-  月 -> 夕 [thick];
-  寸 -> 将 [thick];
-  丶 -> 寸 [thick];
-  十 -> 寸 [thick];
-  艹 -> 蒋 [thick];
+  H -> J [thick];
+  B -> H [thick];
+  D -> H [thick];
+  C -> D [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
+  I -> J [thick];
 }

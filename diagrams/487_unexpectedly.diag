@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  竟 [label = "竟\n487 unexpectedly"];
-  立 [label = "立\n444 standing up"];
-  儿 [label = "儿\n56 youngster"];
-  日 [label = "日\n12 day"];
+  E [label = "竟\nunexpectedly (487)"];
+  B [label = "立\nstanding up (444)"];
+  C [label = "儿\nyoungster (56)"];
+  D [label = "日\nday (12)"];
 
-  立 -> 竟 [thick];
-  儿 -> 竟 [thick];
-  日 -> 竟 [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

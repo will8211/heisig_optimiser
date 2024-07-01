@@ -5,25 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  澳 [label = "澳\n2032 deep inlet"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  奥 [label = "奥\n2031 of great depth"];
-  冂 [label = "冂\n* hood"];
-  几 [label = "几\n57 how many?"];
-  米 [label = "米\n778 rice"];
-  大 [label = "大\n113 large"];
+  L [label = "澳\ndeep inlet (2032)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  K [label = "奥\nof great depth (2031)"];
+  F [label = "丶\na drop of (*)"];
+  H [label = "冂\nhood (*)"];
+  G [label = "几\nhow many? (57)"];
+  I [label = "米\nrice (778)"];
+  J [label = "大\nlarge (113)"];
 
-  水 -> 澳 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  奥 -> 澳 [thick];
-  丶 -> 奥 [thick];
-  冂 -> 奥 [thick];
-  几 -> 冂 [thick];
-  米 -> 奥 [thick];
-  大 -> 奥 [thick];
+  E -> L [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  K -> L [thick];
+  F -> K [thick];
+  H -> K [thick];
+  G -> H [thick];
+  I -> K [thick];
+  J -> K [thick];
 }

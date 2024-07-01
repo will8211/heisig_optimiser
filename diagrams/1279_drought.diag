@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  旱 [label = "旱\n1279 drought"];
-  日 [label = "日\n12 day"];
-  干 [label = "干\n1277 dry"];
+  D [label = "旱\ndrought (1279)"];
+  B [label = "日\nday (12)"];
+  C [label = "干\ndry (1277)"];
 
-  日 -> 旱 [thick];
-  干 -> 旱 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

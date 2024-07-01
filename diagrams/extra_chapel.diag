@@ -5,8 +5,8 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  囧索－糸 [label = "囧索－糸\n* chapel"];
-  宀 [label = "宀\n* house"];
+  C [label = "囧索－糸\nchapel (*)"];
+  B [label = "宀\nhouse (*)"];
 
-  宀 -> 囧索－糸 [thick];
+  B -> C [thick];
 }

@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  岸 [label = "岸\n1278 shore"];
-  山 [label = "山\n688 mountain"];
-  厂 [label = "厂\n121 factory"];
-  干 [label = "干\n1277 dry"];
+  E [label = "岸\nshore (1278)"];
+  B [label = "山\nmountain (688)"];
+  C [label = "厂\nfactory (121)"];
+  D [label = "干\ndry (1277)"];
 
-  山 -> 岸 [thick];
-  厂 -> 岸 [thick];
-  干 -> 岸 [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

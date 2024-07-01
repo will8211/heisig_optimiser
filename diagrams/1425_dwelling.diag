@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  宅 [label = "宅\n1425 dwelling"];
-  宀 [label = "宀\n* house"];
-  乇 [label = "乇\n* fur ball"];
-  毛 [label = "毛\n1421 fur"];
-  手 [label = "手\n584 hand"];
+  F [label = "宅\ndwelling (1425)"];
+  B [label = "宀\nhouse (*)"];
+  E [label = "乇\nfur ball (*)"];
+  D [label = "毛\nfur (1421)"];
+  C [label = "手\nhand (584)"];
 
-  宀 -> 宅 [thick];
-  乇 -> 宅 [thick];
-  毛 -> 乇 [thick];
-  手 -> 毛 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

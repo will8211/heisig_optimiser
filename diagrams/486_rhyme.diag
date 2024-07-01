@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  韵 [label = "韵\n486 rhyme"];
-  音 [label = "音\n484 sound"];
-  立 [label = "立\n444 standing up"];
-  日 [label = "日\n12 day"];
-  匀 [label = "匀\n66 uniform"];
-  勹 [label = "勹\n* bound up"];
-  二 [label = "二\n2 two"];
-  一 [label = "一\n1 one"];
+  I [label = "韵\nrhyme (486)"];
+  D [label = "音\nsound (484)"];
+  B [label = "立\nstanding up (444)"];
+  C [label = "日\nday (12)"];
+  H [label = "匀\nuniform (66)"];
+  E [label = "勹\nbound up (*)"];
+  G [label = "二\ntwo (2)"];
+  F [label = "一\none (1)"];
 
-  音 -> 韵 [thick];
-  立 -> 音 [thick];
-  日 -> 音 [thick];
-  匀 -> 韵 [thick];
-  勹 -> 匀 [thick];
-  二 -> 匀 [thick];
-  一 -> 二 [thick];
+  D -> I [thick];
+  B -> D [thick];
+  C -> D [thick];
+  H -> I [thick];
+  E -> H [thick];
+  G -> H [thick];
+  F -> G [thick];
 }

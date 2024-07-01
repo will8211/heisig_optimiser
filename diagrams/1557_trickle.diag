@@ -5,25 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  淌 [label = "淌\n1557 trickle"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  尚 [label = "尚\n190 esteem"];
-  小 [label = "小\n109 small"];
-  冂 [label = "冂\n* hood"];
-  几 [label = "几\n57 how many?"];
-  口 [label = "口\n11 mouth"];
+  L [label = "淌\ntrickle (1557)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  K [label = "尚\nesteem (190)"];
+  G [label = "小\nsmall (109)"];
+  F [label = "丶\na drop of (*)"];
+  I [label = "冂\nhood (*)"];
+  H [label = "几\nhow many? (57)"];
+  J [label = "口\nmouth (11)"];
 
-  水 -> 淌 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  尚 -> 淌 [thick];
-  小 -> 尚 [thick];
-  丶 -> 小 [thick];
-  冂 -> 尚 [thick];
-  几 -> 冂 [thick];
-  口 -> 尚 [thick];
+  E -> L [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  K -> L [thick];
+  G -> K [thick];
+  F -> G [thick];
+  I -> K [thick];
+  H -> I [thick];
+  J -> K [thick];
 }

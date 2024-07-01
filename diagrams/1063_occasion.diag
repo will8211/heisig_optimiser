@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  际 [label = "际\n1063 occasion"];
-  阝 [label = "阝\n* pinnacle"];
-  示 [label = "示\n900 show"];
+  D [label = "际\noccasion (1063)"];
+  B [label = "阝\npinnacle (*)"];
+  C [label = "示\nshow (900)"];
 
-  阝 -> 际 [thick];
-  示 -> 际 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

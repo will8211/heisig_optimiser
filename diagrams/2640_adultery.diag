@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  奸 [label = "奸\n2640 adultery"];
-  女 [label = "女\n102 woman"];
-  干 [label = "干\n1277 dry"];
+  D [label = "奸\nadultery (2640)"];
+  B [label = "女\nwoman (102)"];
+  C [label = "干\ndry (1277)"];
 
-  女 -> 奸 [thick];
-  干 -> 奸 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

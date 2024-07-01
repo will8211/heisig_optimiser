@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  妈 [label = "妈\n1454 mama"];
-  女 [label = "女\n102 woman"];
-  马 [label = "马\n1453 horse"];
-  囧与－丨一 [label = "囧与－丨一\n* pointed tail"];
+  E [label = "妈\nmama (1454)"];
+  B [label = "女\nwoman (102)"];
+  D [label = "马\nhorse (1453)"];
+  C [label = "囧与－丨一\npointed tail (*)"];
 
-  女 -> 妈 [thick];
-  马 -> 妈 [thick];
-  囧与－丨一 -> 马 [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  格 [label = "格\n310 pattern"];
-  各 [label = "各\n309 each"];
-  口 [label = "口\n11 mouth"];
-  夂 [label = "夂\n* walking legs"];
-  木 [label = "木\n202 tree"];
+  F [label = "格\npattern (310)"];
+  D [label = "各\neach (309)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "夂\nwalking legs (*)"];
+  E [label = "木\ntree (202)"];
 
-  各 -> 格 [thick];
-  口 -> 各 [thick];
-  夂 -> 各 [thick];
-  木 -> 格 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  廷 [label = "廷\n854 royal court"];
-  壬 [label = "壬\n* porter"];
-  士 [label = "士\n334 soldier"];
-  廴 [label = "廴\n* stretch"];
+  E [label = "廷\nroyal court (854)"];
+  C [label = "壬\nporter (*)"];
+  B [label = "士\nsoldier (334)"];
+  D [label = "廴\nstretch (*)"];
 
-  壬 -> 廷 [thick];
-  士 -> 壬 [thick];
-  廴 -> 廷 [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
 }

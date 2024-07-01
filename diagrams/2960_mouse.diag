@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  鼠 [label = "鼠\n2960 mouse"];
-  臼 [label = "臼\n* mortar"];
-  囧以－丶人 [label = "囧以－丶人\n* plow"];
-  雨 [label = "雨\n425 rain"];
-  乙 [label = "乙\n95 second"];
+  F [label = "鼠\nmouse (2960)"];
+  B [label = "臼\nmortar (*)"];
+  C [label = "囧以－丶人\nplow (*)"];
+  D [label = "雨\nrain (425)"];
+  E [label = "乙\nsecond (95)"];
 
-  臼 -> 鼠 [thick];
-  囧以－丶人 -> 鼠 [thick];
-  雨 -> 鼠 [thick];
-  乙 -> 鼠 [thick];
+  B -> F [thick];
+  C -> F [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

@@ -5,35 +5,38 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  激 [label = "激\n497 excite"];
-  攵 [label = "攵\n* taskmaster"];
-  白 [label = "白\n34 white"];
-  日 [label = "日\n12 day"];
-  丶 [label = "丶\n* a drop of"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  方 [label = "方\n494 direction"];
-  刀 [label = "刀\n83 sword"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
+  R [label = "激\nexcite (497)"];
+  B [label = "攵\ntaskmaster (*)"];
+  E [label = "白\nwhite (34)"];
+  C [label = "日\nday (12)"];
+  D [label = "丶\na drop of (*)"];
+  I [label = "水\nwater (137)"];
+  G [label = "丨\nwalking stick (*)"];
+  F [label = "一\none (1)"];
+  H [label = "丶\na drop of (*)"];
+  Q [label = "方\ndirection (494)"];
+  J [label = "刀\nsword (83)"];
+  P [label = "亠\ntop hat (*)"];
+  M [label = "六\nsix (6)"];
+  L [label = "囧只－口\nanimal legs (*)"];
+  K [label = "八\neight (8)"];
+  O [label = "囧只－口\nanimal legs (*)"];
+  N [label = "八\neight (8)"];
 
-  攵 -> 激 [thick];
-  白 -> 激 [thick];
-  日 -> 白 [thick];
-  丶 -> 白 [thick];
-  水 -> 激 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  方 -> 激 [thick];
-  刀 -> 方 [thick];
-  亠 -> 方 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
+  B -> R [thick];
+  E -> R [thick];
+  C -> E [thick];
+  D -> E [thick];
+  I -> R [thick];
+  G -> I [thick];
+  F -> G [thick];
+  H -> I [thick];
+  Q -> R [thick];
+  J -> Q [thick];
+  P -> Q [thick];
+  M -> P [thick];
+  L -> M [thick];
+  K -> L [thick];
+  O -> P [thick];
+  N -> O [thick];
 }

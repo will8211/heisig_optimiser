@@ -5,28 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  滨 [label = "滨\n2370 water’s edge"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  宾 [label = "宾\n2369 visitor"];
-  兵 [label = "兵\n1078 troops"];
-  丘 [label = "丘\n1077 hill"];
-  斤 [label = "斤\n924 catty"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  宀 [label = "宀\n* house"];
+  M [label = "滨\nwater’s edge (2370)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  L [label = "宾\nvisitor (2369)"];
+  J [label = "兵\ntroops (1078)"];
+  G [label = "丘\nhill (1077)"];
+  F [label = "斤\ncatty (924)"];
+  I [label = "囧只－口\nanimal legs (*)"];
+  H [label = "八\neight (8)"];
+  K [label = "宀\nhouse (*)"];
 
-  水 -> 滨 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  宾 -> 滨 [thick];
-  兵 -> 宾 [thick];
-  丘 -> 兵 [thick];
-  斤 -> 丘 [thick];
-  囧只－口 -> 兵 [thick];
-  八 -> 囧只－口 [thick];
-  宀 -> 宾 [thick];
+  E -> M [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  L -> M [thick];
+  J -> L [thick];
+  G -> J [thick];
+  F -> G [thick];
+  I -> J [thick];
+  H -> I [thick];
+  K -> L [thick];
 }

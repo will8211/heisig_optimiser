@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  渴 [label = "渴\n852 thirsty"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  曷 [label = "曷\n* siesta"];
-  人 [label = "人\n793 person"];
-  勹 [label = "勹\n* bound up"];
-  乙 [label = "乙\n95 second"];
-  日 [label = "日\n12 day"];
+  K [label = "渴\nthirsty (852)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  J [label = "曷\nsiesta (*)"];
+  F [label = "人\nperson (793)"];
+  G [label = "勹\nbound up (*)"];
+  H [label = "乙\nsecond (95)"];
+  I [label = "日\nday (12)"];
 
-  水 -> 渴 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  曷 -> 渴 [thick];
-  人 -> 曷 [thick];
-  勹 -> 曷 [thick];
-  乙 -> 曷 [thick];
-  日 -> 曷 [thick];
+  E -> K [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  J -> K [thick];
+  F -> J [thick];
+  G -> J [thick];
+  H -> J [thick];
+  I -> J [thick];
 }

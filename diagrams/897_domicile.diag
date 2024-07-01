@@ -5,26 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  房 [label = "房\n897 domicile"];
-  户 [label = "户\n896 door"];
-  丶 [label = "丶\n* a drop of"];
-  尸 [label = "尸\n882 corpse"];
-  方 [label = "方\n494 direction"];
-  刀 [label = "刀\n83 sword"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
+  M [label = "房\ndomicile (897)"];
+  D [label = "户\ndoor (896)"];
+  B [label = "丶\na drop of (*)"];
+  C [label = "尸\ncorpse (882)"];
+  L [label = "方\ndirection (494)"];
+  E [label = "刀\nsword (83)"];
+  K [label = "亠\ntop hat (*)"];
+  H [label = "六\nsix (6)"];
+  G [label = "囧只－口\nanimal legs (*)"];
+  F [label = "八\neight (8)"];
+  J [label = "囧只－口\nanimal legs (*)"];
+  I [label = "八\neight (8)"];
 
-  户 -> 房 [thick];
-  丶 -> 户 [thick];
-  尸 -> 户 [thick];
-  方 -> 房 [thick];
-  刀 -> 方 [thick];
-  亠 -> 方 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
+  D -> M [thick];
+  B -> D [thick];
+  C -> D [thick];
+  L -> M [thick];
+  E -> L [thick];
+  K -> L [thick];
+  H -> K [thick];
+  G -> H [thick];
+  F -> G [thick];
+  J -> K [thick];
+  I -> J [thick];
 }

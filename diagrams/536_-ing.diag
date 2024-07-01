@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  着 [label = "着\n536 -ing"];
-  囧差－工 [label = "囧差－工\n* wool"];
-  羊 [label = "羊\n528 sheep"];
-  丷 [label = "丷\n* horns"];
-  一 [label = "一\n1 one"];
-  目 [label = "目\n15 eye"];
+  G [label = "着\n-ing (536)"];
+  E [label = "囧差－工\nwool (*)"];
+  D [label = "羊\nsheep (528)"];
+  C [label = "丷\nhorns (*)"];
+  B [label = "一\none (1)"];
+  F [label = "目\neye (15)"];
 
-  囧差－工 -> 着 [thick];
-  羊 -> 囧差－工 [thick];
-  丷 -> 羊 [thick];
-  一 -> 丷 [thick];
-  目 -> 着 [thick];
+  E -> G [thick];
+  D -> E [thick];
+  C -> D [thick];
+  B -> C [thick];
+  F -> G [thick];
 }

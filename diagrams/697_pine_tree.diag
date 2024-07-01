@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  松 [label = "松\n697 pine tree"];
-  木 [label = "木\n202 tree"];
-  公 [label = "公\n696 public"];
-  八 [label = "八\n8 eight"];
-  厶 [label = "厶\n* elbow"];
+  F [label = "松\npine tree (697)"];
+  B [label = "木\ntree (202)"];
+  E [label = "公\npublic (696)"];
+  C [label = "八\neight (8)"];
+  D [label = "厶\nelbow (*)"];
 
-  木 -> 松 [thick];
-  公 -> 松 [thick];
-  八 -> 公 [thick];
-  厶 -> 公 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

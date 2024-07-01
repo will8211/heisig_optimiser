@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  龟 [label = "龟\n2941 tortoise"];
-  勹 [label = "勹\n* bound up"];
-  电 [label = "电\n1484 electricity"];
+  D [label = "龟\ntortoise (2941)"];
+  B [label = "勹\nbound up (*)"];
+  C [label = "电\nelectricity (1484)"];
 
-  勹 -> 龟 [thick];
-  电 -> 龟 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

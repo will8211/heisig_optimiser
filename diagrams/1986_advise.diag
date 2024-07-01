@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  劝 [label = "劝\n1986 advise"];
-  又 [label = "又\n633 again"];
-  肌 [label = "肌\n63 muscle"];
-  几 [label = "几\n57 how many?"];
-  月 [label = "月\n13 month"];
+  F [label = "劝\nadvise (1986)"];
+  B [label = "又\nagain (633)"];
+  E [label = "肌\nmuscle (63)"];
+  C [label = "几\nhow many? (57)"];
+  D [label = "月\nmonth (13)"];
 
-  又 -> 劝 [thick];
-  肌 -> 劝 [thick];
-  几 -> 肌 [thick];
-  月 -> 肌 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

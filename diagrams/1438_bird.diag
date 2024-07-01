@@ -5,19 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  鸟 [label = "鸟\n1438 bird"];
-  向 [label = "向\n188 orientation"];
-  丶 [label = "丶\n* a drop of"];
-  冂 [label = "冂\n* hood"];
-  几 [label = "几\n57 how many?"];
-  口 [label = "口\n11 mouth"];
-  囧与－丨一 [label = "囧与－丨一\n* pointed tail"];
+  I [label = "鸟\nbird (1438)"];
+  F [label = "向\norientation (188)"];
+  B [label = "丶\na drop of (*)"];
+  D [label = "冂\nhood (*)"];
+  C [label = "几\nhow many? (57)"];
+  E [label = "口\nmouth (11)"];
+  G [label = "丶\na drop of (*)"];
+  H [label = "囧与－丨一\npointed tail (*)"];
 
-  向 -> 鸟 [thick];
-  丶 -> 向 [thick];
-  冂 -> 向 [thick];
-  几 -> 冂 [thick];
-  口 -> 向 [thick];
-  丶 -> 鸟 [thick];
-  囧与－丨一 -> 鸟 [thick];
+  F -> I [thick];
+  B -> F [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
+  G -> I [thick];
+  H -> I [thick];
 }

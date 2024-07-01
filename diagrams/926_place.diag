@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  所 [label = "所\n926 place"];
-  户 [label = "户\n896 door"];
-  丶 [label = "丶\n* a drop of"];
-  尸 [label = "尸\n882 corpse"];
-  斤 [label = "斤\n924 catty"];
+  F [label = "所\nplace (926)"];
+  D [label = "户\ndoor (896)"];
+  B [label = "丶\na drop of (*)"];
+  C [label = "尸\ncorpse (882)"];
+  E [label = "斤\ncatty (924)"];
 
-  户 -> 所 [thick];
-  丶 -> 户 [thick];
-  尸 -> 户 [thick];
-  斤 -> 所 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

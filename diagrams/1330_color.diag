@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  色 [label = "色\n1330 color"];
-  勹 [label = "勹\n* bound up"];
-  巴 [label = "巴\n1326 crust"];
+  D [label = "色\ncolor (1330)"];
+  B [label = "勹\nbound up (*)"];
+  C [label = "巴\ncrust (1326)"];
 
-  勹 -> 色 [thick];
-  巴 -> 色 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

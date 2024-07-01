@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  条 [label = "条\n307 strip"];
-  夂 [label = "夂\n* walking legs"];
-  木 [label = "木\n202 tree"];
+  D [label = "条\nstrip (307)"];
+  B [label = "夂\nwalking legs (*)"];
+  C [label = "木\ntree (202)"];
 
-  夂 -> 条 [thick];
-  木 -> 条 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

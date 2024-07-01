@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  仑 [label = "仑\n* lifeguard"];
-  匕 [label = "匕\n453 ancient spoon"];
-  "𠆢" [label = "𠆢\n* umbrella"];
+  D [label = "仑\nlifeguard (*)"];
+  B [label = "匕\nancient spoon (453)"];
+  C [label = "𠆢\numbrella (*)"];
 
-  匕 -> 仑 [thick];
-  "𠆢" -> 仑 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

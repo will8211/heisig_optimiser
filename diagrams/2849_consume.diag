@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  耗 [label = "耗\n2849 consume"];
-  耒 [label = "耒\n* Christmas tree"];
-  一 [label = "一\n1 one"];
-  未 [label = "未\n215 not yet"];
-  木 [label = "木\n202 tree"];
-  毛 [label = "毛\n1421 fur"];
-  手 [label = "手\n584 hand"];
+  H [label = "耗\nconsume (2849)"];
+  E [label = "耒\nChristmas tree (*)"];
+  B [label = "一\none (1)"];
+  D [label = "未\nnot yet (215)"];
+  C [label = "木\ntree (202)"];
+  G [label = "毛\nfur (1421)"];
+  F [label = "手\nhand (584)"];
 
-  耒 -> 耗 [thick];
-  一 -> 耒 [thick];
-  未 -> 耒 [thick];
-  木 -> 未 [thick];
-  毛 -> 耗 [thick];
-  手 -> 毛 [thick];
+  E -> H [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
+  G -> H [thick];
+  F -> G [thick];
 }

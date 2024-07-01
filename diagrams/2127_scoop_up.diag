@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  捞 [label = "捞\n2127 scoop up"];
-  扌 [label = "扌\n* fingers"];
-  劳 [label = "劳\n868 labor"];
-  囧荣－木 [label = "囧荣－木\n* greenhouse"];
-  宀 [label = "宀\n* house"];
-  艹 [label = "艹\n* flower"];
-  力 [label = "力\n732 power"];
+  H [label = "捞\nscoop up (2127)"];
+  B [label = "扌\nfingers (*)"];
+  G [label = "劳\nlabor (868)"];
+  E [label = "囧荣－木\ngreenhouse (*)"];
+  C [label = "宀\nhouse (*)"];
+  D [label = "艹\nflower (*)"];
+  F [label = "力\npower (732)"];
 
-  扌 -> 捞 [thick];
-  劳 -> 捞 [thick];
-  囧荣－木 -> 劳 [thick];
-  宀 -> 囧荣－木 [thick];
-  艹 -> 囧荣－木 [thick];
-  力 -> 劳 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  E -> G [thick];
+  C -> E [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

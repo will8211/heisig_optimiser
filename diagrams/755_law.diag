@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  律 [label = "律\n755 law"];
-  行 [label = "行\n754 line of business"];
-  聿 [label = "聿\n* brush"];
+  D [label = "律\nlaw (755)"];
+  B [label = "行\nline of business (754)"];
+  C [label = "聿\nbrush (*)"];
 
-  行 -> 律 [thick];
-  聿 -> 律 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

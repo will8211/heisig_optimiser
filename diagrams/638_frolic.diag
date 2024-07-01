@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  戏 [label = "戏\n638 frolic"];
-  又 [label = "又\n633 again"];
-  戈 [label = "戈\n361 halberd"];
-  弋 [label = "弋\n* arrow"];
+  E [label = "戏\nfrolic (638)"];
+  B [label = "又\nagain (633)"];
+  D [label = "戈\nhalberd (361)"];
+  C [label = "弋\narrow (*)"];
 
-  又 -> 戏 [thick];
-  戈 -> 戏 [thick];
-  弋 -> 戈 [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

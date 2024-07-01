@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  轩 [label = "轩\n2643 veranda"];
-  车 [label = "车\n300 car"];
-  干 [label = "干\n1277 dry"];
+  D [label = "轩\nveranda (2643)"];
+  B [label = "车\ncar (300)"];
+  C [label = "干\ndry (1277)"];
 
-  车 -> 轩 [thick];
-  干 -> 轩 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

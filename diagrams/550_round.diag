@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  圆 [label = "圆\n550 round"];
-  囗 [label = "囗\n* pent in"];
-  员 [label = "员\n55 employee"];
-  口 [label = "口\n11 mouth"];
-  贝 [label = "贝\n52 shellfish"];
-  目 [label = "目\n15 eye"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
+  I [label = "圆\nround (550)"];
+  B [label = "囗\npent in (*)"];
+  H [label = "员\nemployee (55)"];
+  C [label = "口\nmouth (11)"];
+  G [label = "贝\nshellfish (52)"];
+  D [label = "目\neye (15)"];
+  F [label = "囧只－口\nanimal legs (*)"];
+  E [label = "八\neight (8)"];
 
-  囗 -> 圆 [thick];
-  员 -> 圆 [thick];
-  口 -> 员 [thick];
-  贝 -> 员 [thick];
-  目 -> 贝 [thick];
-  囧只－口 -> 贝 [thick];
-  八 -> 囧只－口 [thick];
+  B -> I [thick];
+  H -> I [thick];
+  C -> H [thick];
+  G -> H [thick];
+  D -> G [thick];
+  F -> G [thick];
+  E -> F [thick];
 }

@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  录 [label = "录\n949 record"];
-  彐 [label = "彐\n* broom"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
+  G [label = "录\nrecord (949)"];
+  B [label = "彐\nbroom (*)"];
+  F [label = "水\nwater (137)"];
+  D [label = "丨\nwalking stick (*)"];
+  C [label = "一\none (1)"];
+  E [label = "丶\na drop of (*)"];
 
-  彐 -> 录 [thick];
-  水 -> 录 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

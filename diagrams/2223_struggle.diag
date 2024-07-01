@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  挣 [label = "挣\n2223 struggle"];
-  扌 [label = "扌\n* fingers"];
-  争 [label = "争\n951 contend"];
-  勹 [label = "勹\n* bound up"];
-  肀 [label = "肀\n* rake"];
-  彐 [label = "彐\n* broom"];
+  G [label = "挣\nstruggle (2223)"];
+  B [label = "扌\nfingers (*)"];
+  F [label = "争\ncontend (951)"];
+  C [label = "勹\nbound up (*)"];
+  E [label = "肀\nrake (*)"];
+  D [label = "彐\nbroom (*)"];
 
-  扌 -> 挣 [thick];
-  争 -> 挣 [thick];
-  勹 -> 争 [thick];
-  肀 -> 争 [thick];
-  彐 -> 肀 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
 }

@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  价 [label = "价\n795 price"];
-  人 [label = "人\n793 person"];
-  介 [label = "介\n259 introduce"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  "囧介－𠆢" [label = "囧介－𠆢\n* crutches"];
+  F [label = "价\nprice (795)"];
+  B [label = "人\nperson (793)"];
+  E [label = "介\nintroduce (259)"];
+  C [label = "𠆢\numbrella (*)"];
+  D [label = "囧介－𠆢\ncrutches (*)"];
 
-  人 -> 价 [thick];
-  介 -> 价 [thick];
-  "𠆢" -> 介 [thick];
-  "囧介－𠆢" -> 介 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

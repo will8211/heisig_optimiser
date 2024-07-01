@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  恍 [label = "恍\n1808 all of a sudden"];
-  心 [label = "心\n563 heart"];
-  光 [label = "光\n130 ray"];
-  小 [label = "小\n109 small"];
-  丶 [label = "丶\n* a drop of"];
-  儿 [label = "儿\n56 youngster"];
+  G [label = "恍\nall of a sudden (1808)"];
+  B [label = "心\nheart (563)"];
+  F [label = "光\nray (130)"];
+  D [label = "小\nsmall (109)"];
+  C [label = "丶\na drop of (*)"];
+  E [label = "儿\nyoungster (56)"];
 
-  心 -> 恍 [thick];
-  光 -> 恍 [thick];
-  小 -> 光 [thick];
-  丶 -> 小 [thick];
-  儿 -> 光 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  搜 [label = "搜\n2966 search"];
-  扌 [label = "扌\n* fingers"];
-  叟 [label = "叟\n* cake mixer"];
-  臼 [label = "臼\n* mortar"];
-  又 [label = "又\n633 again"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
+  H [label = "搜\nsearch (2966)"];
+  B [label = "扌\nfingers (*)"];
+  G [label = "叟\ncake mixer (*)"];
+  C [label = "臼\nmortar (*)"];
+  D [label = "又\nagain (633)"];
+  F [label = "丨\nwalking stick (*)"];
+  E [label = "一\none (1)"];
 
-  扌 -> 搜 [thick];
-  叟 -> 搜 [thick];
-  臼 -> 叟 [thick];
-  又 -> 叟 [thick];
-  丨 -> 叟 [thick];
-  一 -> 丨 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  C -> G [thick];
+  D -> G [thick];
+  F -> G [thick];
+  E -> F [thick];
 }

@@ -5,24 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  承 [label = "承\n1412 undertake"];
-  了 [label = "了\n101 -ed"];
-  子 [label = "子\n97 child"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  三 [label = "三\n3 three"];
-  二 [label = "二\n2 two"];
+  L [label = "承\nundertake (1412)"];
+  C [label = "了\n-ed (101)"];
+  B [label = "子\nchild (97)"];
+  G [label = "水\nwater (137)"];
+  E [label = "丨\nwalking stick (*)"];
+  D [label = "一\none (1)"];
+  F [label = "丶\na drop of (*)"];
+  K [label = "三\nthree (3)"];
+  H [label = "一\none (1)"];
+  J [label = "二\ntwo (2)"];
+  I [label = "一\none (1)"];
 
-  了 -> 承 [thick];
-  子 -> 了 [thick];
-  水 -> 承 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  三 -> 承 [thick];
-  一 -> 三 [thick];
-  二 -> 三 [thick];
-  一 -> 二 [thick];
+  C -> L [thick];
+  B -> C [thick];
+  G -> L [thick];
+  E -> G [thick];
+  D -> E [thick];
+  F -> G [thick];
+  K -> L [thick];
+  H -> K [thick];
+  J -> K [thick];
+  I -> J [thick];
 }

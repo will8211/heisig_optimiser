@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  傻 [label = "傻\n2974 thick-headed"];
-  人 [label = "人\n793 person"];
-  囟 [label = "囟\n* Farmer’s Almanac"];
-  "㐅" [label = "㐅\n* sheaf"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  夂 [label = "夂\n* walking legs"];
+  H [label = "傻\nthick-headed (2974)"];
+  B [label = "人\nperson (793)"];
+  D [label = "囟\nFarmer’s Almanac (*)"];
+  C [label = "㐅\nsheaf (*)"];
+  F [label = "囧只－口\nanimal legs (*)"];
+  E [label = "八\neight (8)"];
+  G [label = "夂\nwalking legs (*)"];
 
-  人 -> 傻 [thick];
-  囟 -> 傻 [thick];
-  "㐅" -> 囟 [thick];
-  囧只－口 -> 傻 [thick];
-  八 -> 囧只－口 [thick];
-  夂 -> 傻 [thick];
+  B -> H [thick];
+  D -> H [thick];
+  C -> D [thick];
+  F -> H [thick];
+  E -> F [thick];
+  G -> H [thick];
 }

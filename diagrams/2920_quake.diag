@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  震 [label = "震\n2920 quake"];
-  雨 [label = "雨\n425 rain"];
-  辰 [label = "辰\n1467 sign of the dragon"];
-  厂 [label = "厂\n121 factory"];
-  二 [label = "二\n2 two"];
-  一 [label = "一\n1 one"];
-  囧丧－十－丷 [label = "囧丧－十－丷\n* barrette"];
+  H [label = "震\nquake (2920)"];
+  B [label = "雨\nrain (425)"];
+  G [label = "辰\nsign of the dragon (1467)"];
+  C [label = "厂\nfactory (121)"];
+  E [label = "二\ntwo (2)"];
+  D [label = "一\none (1)"];
+  F [label = "囧丧－十－丷\nbarrette (*)"];
 
-  雨 -> 震 [thick];
-  辰 -> 震 [thick];
-  厂 -> 辰 [thick];
-  二 -> 辰 [thick];
-  一 -> 二 [thick];
-  囧丧－十－丷 -> 辰 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  C -> G [thick];
+  E -> G [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

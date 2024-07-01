@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  她 [label = "她\n506 she"];
-  女 [label = "女\n102 woman"];
-  也 [label = "也\n505 also"];
-  乙 [label = "乙\n95 second"];
+  E [label = "她\nshe (506)"];
+  B [label = "女\nwoman (102)"];
+  D [label = "也\nalso (505)"];
+  C [label = "乙\nsecond (95)"];
 
-  女 -> 她 [thick];
-  也 -> 她 [thick];
-  乙 -> 也 [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

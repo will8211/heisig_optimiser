@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  割 [label = "割\n1225 cut off"];
-  害 [label = "害\n1224 harm"];
-  宀 [label = "宀\n* house"];
-  丰 [label = "丰\n1223 plentiful"];
-  口 [label = "口\n11 mouth"];
-  刀 [label = "刀\n83 sword"];
+  G [label = "割\ncut off (1225)"];
+  E [label = "害\nharm (1224)"];
+  B [label = "宀\nhouse (*)"];
+  C [label = "丰\nplentiful (1223)"];
+  D [label = "口\nmouth (11)"];
+  F [label = "刀\nsword (83)"];
 
-  害 -> 割 [thick];
-  宀 -> 害 [thick];
-  丰 -> 害 [thick];
-  口 -> 害 [thick];
-  刀 -> 割 [thick];
+  E -> G [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  帜 [label = "帜\n415 streamer"];
-  巾 [label = "巾\n410 towel"];
-  口 [label = "口\n11 mouth"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
+  F [label = "帜\nstreamer (415)"];
+  B [label = "巾\ntowel (410)"];
+  C [label = "口\nmouth (11)"];
+  E [label = "囧只－口\nanimal legs (*)"];
+  D [label = "八\neight (8)"];
 
-  巾 -> 帜 [thick];
-  口 -> 帜 [thick];
-  囧只－口 -> 帜 [thick];
-  八 -> 囧只－口 [thick];
+  B -> F [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
 }

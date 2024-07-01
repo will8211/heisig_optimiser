@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  感 [label = "感\n576 feel"];
-  咸 [label = "咸\n372 salty"];
-  口 [label = "口\n11 mouth"];
-  戌 [label = "戌\n* march"];
-  戊 [label = "戊\n* parade"];
-  戈 [label = "戈\n361 halberd"];
-  弋 [label = "弋\n* arrow"];
-  一 [label = "一\n1 one"];
-  心 [label = "心\n563 heart"];
+  J [label = "感\nfeel (576)"];
+  H [label = "咸\nsalty (372)"];
+  B [label = "口\nmouth (11)"];
+  G [label = "戌\nmarch (*)"];
+  E [label = "戊\nparade (*)"];
+  D [label = "戈\nhalberd (361)"];
+  C [label = "弋\narrow (*)"];
+  F [label = "一\none (1)"];
+  I [label = "心\nheart (563)"];
 
-  咸 -> 感 [thick];
-  口 -> 咸 [thick];
-  戌 -> 咸 [thick];
-  戊 -> 戌 [thick];
-  戈 -> 戊 [thick];
-  弋 -> 戈 [thick];
-  一 -> 戌 [thick];
-  心 -> 感 [thick];
+  H -> J [thick];
+  B -> H [thick];
+  G -> H [thick];
+  E -> G [thick];
+  D -> E [thick];
+  C -> D [thick];
+  F -> G [thick];
+  I -> J [thick];
 }

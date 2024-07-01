@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  黄 [label = "黄\n1488 yellow"];
-  寅 [label = "寅\n1465 sign of the tiger"];
-  宀 [label = "宀\n* house"];
-  一 [label = "一\n1 one"];
-  由 [label = "由\n913 wherefore"];
-  田 [label = "田\n14 rice field"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  艹 [label = "艹\n* flower"];
+  J [label = "黄\nyellow (1488)"];
+  H [label = "寅\nsign of the tiger (1465)"];
+  B [label = "宀\nhouse (*)"];
+  C [label = "一\none (1)"];
+  E [label = "由\nwherefore (913)"];
+  D [label = "田\nrice field (14)"];
+  G [label = "囧只－口\nanimal legs (*)"];
+  F [label = "八\neight (8)"];
+  I [label = "艹\nflower (*)"];
 
-  寅 -> 黄 [thick];
-  宀 -> 寅 [thick];
-  一 -> 寅 [thick];
-  由 -> 寅 [thick];
-  田 -> 由 [thick];
-  囧只－口 -> 寅 [thick];
-  八 -> 囧只－口 [thick];
-  艹 -> 黄 [thick];
+  H -> J [thick];
+  B -> H [thick];
+  C -> H [thick];
+  E -> H [thick];
+  D -> E [thick];
+  G -> H [thick];
+  F -> G [thick];
+  I -> J [thick];
 }

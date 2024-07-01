@@ -5,30 +5,32 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  函 [label = "函\n2720 letter"];
-  了 [label = "了\n101 -ed"];
-  子 [label = "子\n97 child"];
-  囧率－玄－十 [label = "囧率－玄－十\n* sparkler"];
-  坑 [label = "坑\n323 pit"];
-  亢 [label = "亢\n* whirlwind"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  几 [label = "几\n57 how many?"];
-  土 [label = "土\n158 soil"];
+  O [label = "函\nletter (2720)"];
+  C [label = "了\n-ed (101)"];
+  B [label = "子\nchild (97)"];
+  D [label = "囧率－玄－十\nsparkler (*)"];
+  N [label = "坑\npit (323)"];
+  L [label = "亢\nwhirlwind (*)"];
+  J [label = "亠\ntop hat (*)"];
+  G [label = "六\nsix (6)"];
+  F [label = "囧只－口\nanimal legs (*)"];
+  E [label = "八\neight (8)"];
+  I [label = "囧只－口\nanimal legs (*)"];
+  H [label = "八\neight (8)"];
+  K [label = "几\nhow many? (57)"];
+  M [label = "土\nsoil (158)"];
 
-  了 -> 函 [thick];
-  子 -> 了 [thick];
-  囧率－玄－十 -> 函 [thick];
-  坑 -> 函 [thick];
-  亢 -> 坑 [thick];
-  亠 -> 亢 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
-  几 -> 亢 [thick];
-  土 -> 坑 [thick];
+  C -> O [thick];
+  B -> C [thick];
+  D -> O [thick];
+  N -> O [thick];
+  L -> N [thick];
+  J -> L [thick];
+  G -> J [thick];
+  F -> G [thick];
+  E -> F [thick];
+  I -> J [thick];
+  H -> I [thick];
+  K -> L [thick];
+  M -> N [thick];
 }

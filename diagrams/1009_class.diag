@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  班 [label = "班\n1009 class"];
-  刀 [label = "刀\n83 sword"];
-  玉 [label = "玉\n266 jade"];
-  王 [label = "王\n265 king"];
-  工 [label = "工\n76 work"];
-  丶 [label = "丶\n* a drop of"];
+  G [label = "班\nclass (1009)"];
+  B [label = "刀\nsword (83)"];
+  F [label = "玉\njade (266)"];
+  D [label = "王\nking (265)"];
+  C [label = "工\nwork (76)"];
+  E [label = "丶\na drop of (*)"];
 
-  刀 -> 班 [thick];
-  玉 -> 班 [thick];
-  王 -> 玉 [thick];
-  工 -> 王 [thick];
-  丶 -> 玉 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

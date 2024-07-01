@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  李 [label = "李\n223 plum"];
-  木 [label = "木\n202 tree"];
-  子 [label = "子\n97 child"];
+  D [label = "李\nplum (223)"];
+  B [label = "木\ntree (202)"];
+  C [label = "子\nchild (97)"];
 
-  木 -> 李 [thick];
-  子 -> 李 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

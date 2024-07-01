@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  塌 [label = "塌\n1775 fall down"];
-  土 [label = "土\n158 soil"];
-  日 [label = "日\n12 day"];
-  羽 [label = "羽\n544 feathers"];
+  E [label = "塌\nfall down (1775)"];
+  B [label = "土\nsoil (158)"];
+  C [label = "日\nday (12)"];
+  D [label = "羽\nfeathers (544)"];
 
-  土 -> 塌 [thick];
-  日 -> 塌 [thick];
-  羽 -> 塌 [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

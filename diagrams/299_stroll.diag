@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  逛 [label = "逛\n299 stroll"];
-  狂 [label = "狂\n271 crazy"];
-  王 [label = "王\n265 king"];
-  工 [label = "工\n76 work"];
-  犬 [label = "犬\n239 pooch"];
-  大 [label = "大\n113 large"];
-  丶 [label = "丶\n* a drop of"];
-  辶 [label = "辶\n* road"];
+  I [label = "逛\nstroll (299)"];
+  G [label = "狂\ncrazy (271)"];
+  C [label = "王\nking (265)"];
+  B [label = "工\nwork (76)"];
+  F [label = "犬\npooch (239)"];
+  D [label = "大\nlarge (113)"];
+  E [label = "丶\na drop of (*)"];
+  H [label = "辶\nroad (*)"];
 
-  狂 -> 逛 [thick];
-  王 -> 狂 [thick];
-  工 -> 王 [thick];
-  犬 -> 狂 [thick];
-  大 -> 犬 [thick];
-  丶 -> 犬 [thick];
-  辶 -> 逛 [thick];
+  G -> I [thick];
+  C -> G [thick];
+  B -> C [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
+  H -> I [thick];
 }

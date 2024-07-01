@@ -5,19 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  氧 [label = "氧\n2834 oxygen"];
-  气 [label = "气\n1404 air"];
-  "𠂉" [label = "𠂉\n* reclining"];
-  一 [label = "一\n1 one"];
-  乙 [label = "乙\n95 second"];
-  羊 [label = "羊\n528 sheep"];
-  丷 [label = "丷\n* horns"];
+  I [label = "氧\noxygen (2834)"];
+  E [label = "气\nair (1404)"];
+  B [label = "𠂉\nreclining (*)"];
+  C [label = "一\none (1)"];
+  D [label = "乙\nsecond (95)"];
+  H [label = "羊\nsheep (528)"];
+  G [label = "丷\nhorns (*)"];
+  F [label = "一\none (1)"];
 
-  气 -> 氧 [thick];
-  "𠂉" -> 气 [thick];
-  一 -> 气 [thick];
-  乙 -> 气 [thick];
-  羊 -> 氧 [thick];
-  丷 -> 羊 [thick];
-  一 -> 丷 [thick];
+  E -> I [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
+  H -> I [thick];
+  G -> H [thick];
+  F -> G [thick];
 }

@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  改 [label = "改\n517 alter"];
-  己 [label = "己\n515 self"];
-  攵 [label = "攵\n* taskmaster"];
+  D [label = "改\nalter (517)"];
+  B [label = "己\nself (515)"];
+  C [label = "攵\ntaskmaster (*)"];
 
-  己 -> 改 [thick];
-  攵 -> 改 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

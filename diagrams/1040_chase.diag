@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  追 [label = "追\n1040 chase"];
-  "𠂤" [label = "𠂤\n* maestro"];
-  丶 [label = "丶\n* a drop of"];
-  辶 [label = "辶\n* road"];
+  E [label = "追\nchase (1040)"];
+  C [label = "𠂤\nmaestro (*)"];
+  B [label = "丶\na drop of (*)"];
+  D [label = "辶\nroad (*)"];
 
-  "𠂤" -> 追 [thick];
-  丶 -> "𠂤" [thick];
-  辶 -> 追 [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
 }

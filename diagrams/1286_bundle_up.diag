@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  束 [label = "束\n1286 bundle up"];
-  木 [label = "木\n202 tree"];
-  口 [label = "口\n11 mouth"];
+  D [label = "束\nbundle up (1286)"];
+  B [label = "木\ntree (202)"];
+  C [label = "口\nmouth (11)"];
 
-  木 -> 束 [thick];
-  口 -> 束 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

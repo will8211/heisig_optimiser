@@ -5,28 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  滴 [label = "滴\n452 drip"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  啇 [label = "啇\n* antique"];
-  立 [label = "立\n444 standing up"];
-  冂 [label = "冂\n* hood"];
-  几 [label = "几\n57 how many?"];
-  古 [label = "古\n16 ancient"];
-  十 [label = "十\n10 ten"];
-  口 [label = "口\n11 mouth"];
+  M [label = "滴\ndrip (452)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  L [label = "啇\nantique (*)"];
+  F [label = "立\nstanding up (444)"];
+  H [label = "冂\nhood (*)"];
+  G [label = "几\nhow many? (57)"];
+  K [label = "古\nancient (16)"];
+  I [label = "十\nten (10)"];
+  J [label = "口\nmouth (11)"];
 
-  水 -> 滴 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  啇 -> 滴 [thick];
-  立 -> 啇 [thick];
-  冂 -> 啇 [thick];
-  几 -> 冂 [thick];
-  古 -> 啇 [thick];
-  十 -> 古 [thick];
-  口 -> 古 [thick];
+  E -> M [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  L -> M [thick];
+  F -> L [thick];
+  H -> L [thick];
+  G -> H [thick];
+  K -> L [thick];
+  I -> K [thick];
+  J -> K [thick];
 }

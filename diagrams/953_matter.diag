@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  事 [label = "事\n953 matter"];
-  一 [label = "一\n1 one"];
-  口 [label = "口\n11 mouth"];
-  肀 [label = "肀\n* rake"];
-  彐 [label = "彐\n* broom"];
+  F [label = "事\nmatter (953)"];
+  B [label = "一\none (1)"];
+  C [label = "口\nmouth (11)"];
+  E [label = "肀\nrake (*)"];
+  D [label = "彐\nbroom (*)"];
 
-  一 -> 事 [thick];
-  口 -> 事 [thick];
-  肀 -> 事 [thick];
-  彐 -> 肀 [thick];
+  B -> F [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
 }

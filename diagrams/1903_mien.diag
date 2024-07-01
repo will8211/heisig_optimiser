@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  貌 [label = "貌\n1903 mien"];
-  豸 [label = "豸\n* leopard"];
-  爪 [label = "爪\n663 claw"];
-  "𠂆" [label = "𠂆\n* drag"];
-  豕 [label = "豕\n* sow"];
-  白 [label = "白\n34 white"];
-  日 [label = "日\n12 day"];
-  丶 [label = "丶\n* a drop of"];
-  儿 [label = "儿\n56 youngster"];
+  J [label = "貌\nmien (1903)"];
+  E [label = "豸\nleopard (*)"];
+  C [label = "爪\nclaw (663)"];
+  B [label = "𠂆\ndrag (*)"];
+  D [label = "豕\nsow (*)"];
+  H [label = "白\nwhite (34)"];
+  F [label = "日\nday (12)"];
+  G [label = "丶\na drop of (*)"];
+  I [label = "儿\nyoungster (56)"];
 
-  豸 -> 貌 [thick];
-  爪 -> 豸 [thick];
-  "𠂆" -> 爪 [thick];
-  豕 -> 豸 [thick];
-  白 -> 貌 [thick];
-  日 -> 白 [thick];
-  丶 -> 白 [thick];
-  儿 -> 貌 [thick];
+  E -> J [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  H -> J [thick];
+  F -> H [thick];
+  G -> H [thick];
+  I -> J [thick];
 }

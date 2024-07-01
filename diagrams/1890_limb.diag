@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  肢 [label = "肢\n1890 limb"];
-  月 [label = "月\n13 month"];
-  支 [label = "支\n650 offshoot"];
-  十 [label = "十\n10 ten"];
-  又 [label = "又\n633 again"];
+  F [label = "肢\nlimb (1890)"];
+  B [label = "月\nmonth (13)"];
+  E [label = "支\noffshoot (650)"];
+  C [label = "十\nten (10)"];
+  D [label = "又\nagain (633)"];
 
-  月 -> 肢 [thick];
-  支 -> 肢 [thick];
-  十 -> 支 [thick];
-  又 -> 支 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

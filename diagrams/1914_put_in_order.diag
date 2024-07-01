@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  摆 [label = "摆\n1914 put in order"];
-  扌 [label = "扌\n* fingers"];
-  罢 [label = "罢\n1913 cease"];
-  目 [label = "目\n15 eye"];
-  去 [label = "去\n675 go"];
-  土 [label = "土\n158 soil"];
-  厶 [label = "厶\n* elbow"];
+  H [label = "摆\nput in order (1914)"];
+  B [label = "扌\nfingers (*)"];
+  G [label = "罢\ncease (1913)"];
+  C [label = "目\neye (15)"];
+  F [label = "去\ngo (675)"];
+  D [label = "土\nsoil (158)"];
+  E [label = "厶\nelbow (*)"];
 
-  扌 -> 摆 [thick];
-  罢 -> 摆 [thick];
-  目 -> 罢 [thick];
-  去 -> 罢 [thick];
-  土 -> 去 [thick];
-  厶 -> 去 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  C -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

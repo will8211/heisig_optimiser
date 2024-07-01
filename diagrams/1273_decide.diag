@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  决 [label = "决\n1273 decide"];
-  冫 [label = "冫\n* ice"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  夬 [label = "夬\n* guillotine"];
-  囧侯－亻－矢 [label = "囧侯－亻－矢\n* key"];
-  大 [label = "大\n113 large"];
+  J [label = "决\ndecide (1273)"];
+  F [label = "冫\nice (*)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  I [label = "夬\nguillotine (*)"];
+  G [label = "囧侯－亻－矢\nkey (*)"];
+  H [label = "大\nlarge (113)"];
 
-  冫 -> 决 [thick];
-  水 -> 冫 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  夬 -> 决 [thick];
-  囧侯－亻－矢 -> 夬 [thick];
-  大 -> 夬 [thick];
+  F -> J [thick];
+  E -> F [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  I -> J [thick];
+  G -> I [thick];
+  H -> I [thick];
 }

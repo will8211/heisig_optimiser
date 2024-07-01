@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  障 [label = "障\n2342 barrier"];
-  阝 [label = "阝\n* pinnacle"];
-  章 [label = "章\n447 chapter"];
-  早 [label = "早\n26 early"];
-  日 [label = "日\n12 day"];
-  十 [label = "十\n10 ten"];
-  立 [label = "立\n444 standing up"];
+  H [label = "障\nbarrier (2342)"];
+  B [label = "阝\npinnacle (*)"];
+  G [label = "章\nchapter (447)"];
+  E [label = "早\nearly (26)"];
+  C [label = "日\nday (12)"];
+  D [label = "十\nten (10)"];
+  F [label = "立\nstanding up (444)"];
 
-  阝 -> 障 [thick];
-  章 -> 障 [thick];
-  早 -> 章 [thick];
-  日 -> 早 [thick];
-  十 -> 早 [thick];
-  立 -> 章 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  E -> G [thick];
+  C -> E [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

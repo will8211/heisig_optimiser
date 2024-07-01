@@ -5,8 +5,8 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  习 [label = "习\n545 learn"];
-  羽 [label = "羽\n544 feathers"];
+  C [label = "习\nlearn (545)"];
+  B [label = "羽\nfeathers (544)"];
 
-  羽 -> 习 [thick];
+  B -> C [thick];
 }

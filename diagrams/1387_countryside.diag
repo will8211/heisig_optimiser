@@ -5,8 +5,8 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  乡 [label = "乡\n1387 countryside"];
-  幺 [label = "幺\n* cocoon"];
+  C [label = "乡\ncountryside (1387)"];
+  B [label = "幺\ncocoon (*)"];
 
-  幺 -> 乡 [thick];
+  B -> C [thick];
 }

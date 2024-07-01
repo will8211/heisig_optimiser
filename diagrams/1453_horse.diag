@@ -5,8 +5,8 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  马 [label = "马\n1453 horse"];
-  囧与－丨一 [label = "囧与－丨一\n* pointed tail"];
+  C [label = "马\nhorse (1453)"];
+  B [label = "囧与－丨一\npointed tail (*)"];
 
-  囧与－丨一 -> 马 [thick];
+  B -> C [thick];
 }

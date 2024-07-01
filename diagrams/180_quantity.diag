@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  量 [label = "量\n180 quantity"];
-  旦 [label = "旦\n30 daybreak"];
-  日 [label = "日\n12 day"];
-  一 [label = "一\n1 one"];
-  里 [label = "里\n179 li"];
-  田 [label = "田\n14 rice field"];
-  土 [label = "土\n158 soil"];
+  H [label = "量\nquantity (180)"];
+  D [label = "旦\ndaybreak (30)"];
+  B [label = "日\nday (12)"];
+  C [label = "一\none (1)"];
+  G [label = "里\nli (179)"];
+  E [label = "田\nrice field (14)"];
+  F [label = "土\nsoil (158)"];
 
-  旦 -> 量 [thick];
-  日 -> 旦 [thick];
-  一 -> 旦 [thick];
-  里 -> 量 [thick];
-  田 -> 里 [thick];
-  土 -> 里 [thick];
+  D -> H [thick];
+  B -> D [thick];
+  C -> D [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

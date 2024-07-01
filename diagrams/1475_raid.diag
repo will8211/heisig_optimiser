@@ -5,28 +5,30 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  袭 [label = "袭\n1475 raid"];
-  龙 [label = "龙\n1474 dragon"];
-  犬 [label = "犬\n239 pooch"];
-  大 [label = "大\n113 large"];
-  丶 [label = "丶\n* a drop of"];
-  匕 [label = "匕\n453 ancient spoon"];
-  衣 [label = "衣\n400 clothing"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
+  N [label = "袭\nraid (1475)"];
+  F [label = "龙\ndragon (1474)"];
+  D [label = "犬\npooch (239)"];
+  B [label = "大\nlarge (113)"];
+  C [label = "丶\na drop of (*)"];
+  E [label = "匕\nancient spoon (453)"];
+  M [label = "衣\nclothing (400)"];
+  L [label = "亠\ntop hat (*)"];
+  I [label = "六\nsix (6)"];
+  H [label = "囧只－口\nanimal legs (*)"];
+  G [label = "八\neight (8)"];
+  K [label = "囧只－口\nanimal legs (*)"];
+  J [label = "八\neight (8)"];
 
-  龙 -> 袭 [thick];
-  犬 -> 龙 [thick];
-  大 -> 犬 [thick];
-  丶 -> 犬 [thick];
-  匕 -> 龙 [thick];
-  衣 -> 袭 [thick];
-  亠 -> 衣 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
+  F -> N [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
+  M -> N [thick];
+  L -> M [thick];
+  I -> L [thick];
+  H -> I [thick];
+  G -> H [thick];
+  K -> L [thick];
+  J -> K [thick];
 }

@@ -5,24 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  愣 [label = "愣\n1814 dumbfounded"];
-  心 [label = "心\n563 heart"];
-  目 [label = "目\n15 eye"];
-  方 [label = "方\n494 direction"];
-  刀 [label = "刀\n83 sword"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
+  L [label = "愣\ndumbfounded (1814)"];
+  B [label = "心\nheart (563)"];
+  C [label = "目\neye (15)"];
+  K [label = "方\ndirection (494)"];
+  D [label = "刀\nsword (83)"];
+  J [label = "亠\ntop hat (*)"];
+  G [label = "六\nsix (6)"];
+  F [label = "囧只－口\nanimal legs (*)"];
+  E [label = "八\neight (8)"];
+  I [label = "囧只－口\nanimal legs (*)"];
+  H [label = "八\neight (8)"];
 
-  心 -> 愣 [thick];
-  目 -> 愣 [thick];
-  方 -> 愣 [thick];
-  刀 -> 方 [thick];
-  亠 -> 方 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
+  B -> L [thick];
+  C -> L [thick];
+  K -> L [thick];
+  D -> K [thick];
+  J -> K [thick];
+  G -> J [thick];
+  F -> G [thick];
+  E -> F [thick];
+  I -> J [thick];
+  H -> I [thick];
 }

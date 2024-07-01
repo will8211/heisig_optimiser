@@ -5,27 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  饼 [label = "饼\n2524 cookie"];
-  食 [label = "食\n1154 food"];
-  良 [label = "良\n1151 high-quality"];
-  丶 [label = "丶\n* a drop of"];
-  艮 [label = "艮\n* silver"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  并 [label = "并\n863 combine"];
-  丷 [label = "丷\n* horns"];
-  一 [label = "一\n1 one"];
-  开 [label = "开\n613 open"];
-  二 [label = "二\n2 two"];
+  M [label = "饼\ncookie (2524)"];
+  F [label = "食\nfood (1154)"];
+  D [label = "良\nhigh-quality (1151)"];
+  B [label = "丶\na drop of (*)"];
+  C [label = "艮\nsilver (*)"];
+  E [label = "𠆢\numbrella (*)"];
+  L [label = "并\ncombine (863)"];
+  H [label = "丷\nhorns (*)"];
+  G [label = "一\none (1)"];
+  K [label = "开\nopen (613)"];
+  J [label = "二\ntwo (2)"];
+  I [label = "一\none (1)"];
 
-  食 -> 饼 [thick];
-  良 -> 食 [thick];
-  丶 -> 良 [thick];
-  艮 -> 良 [thick];
-  "𠆢" -> 食 [thick];
-  并 -> 饼 [thick];
-  丷 -> 并 [thick];
-  一 -> 丷 [thick];
-  开 -> 并 [thick];
-  二 -> 开 [thick];
-  一 -> 二 [thick];
+  F -> M [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
+  L -> M [thick];
+  H -> L [thick];
+  G -> H [thick];
+  K -> L [thick];
+  J -> K [thick];
+  I -> J [thick];
 }

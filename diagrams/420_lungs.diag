@@ -5,22 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  肺 [label = "肺\n420 lungs"];
-  市 [label = "市\n419 market"];
-  巾 [label = "巾\n410 towel"];
-  亠 [label = "亠\n* top hat"];
-  六 [label = "六\n6 six"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  月 [label = "月\n13 month"];
+  K [label = "肺\nlungs (420)"];
+  I [label = "市\nmarket (419)"];
+  B [label = "巾\ntowel (410)"];
+  H [label = "亠\ntop hat (*)"];
+  E [label = "六\nsix (6)"];
+  D [label = "囧只－口\nanimal legs (*)"];
+  C [label = "八\neight (8)"];
+  G [label = "囧只－口\nanimal legs (*)"];
+  F [label = "八\neight (8)"];
+  J [label = "月\nmonth (13)"];
 
-  市 -> 肺 [thick];
-  巾 -> 市 [thick];
-  亠 -> 市 [thick];
-  六 -> 亠 [thick];
-  囧只－口 -> 六 [thick];
-  八 -> 囧只－口 [thick];
-  囧只－口 -> 亠 [thick];
-  八 -> 囧只－口 [thick];
-  月 -> 肺 [thick];
+  I -> K [thick];
+  B -> I [thick];
+  H -> I [thick];
+  E -> H [thick];
+  D -> E [thick];
+  C -> D [thick];
+  G -> H [thick];
+  F -> G [thick];
+  J -> K [thick];
 }

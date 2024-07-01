@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  吊 [label = "吊\n1681 dangle"];
-  口 [label = "口\n11 mouth"];
-  巾 [label = "巾\n410 towel"];
+  D [label = "吊\ndangle (1681)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "巾\ntowel (410)"];
 
-  口 -> 吊 [thick];
-  巾 -> 吊 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

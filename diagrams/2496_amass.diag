@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  蕴 [label = "蕴\n2496 amass"];
-  艹 [label = "艹\n* flower"];
-  纟 [label = "纟\n* thread"];
-  厶 [label = "厶\n* elbow"];
-  日 [label = "日\n12 day"];
-  皿 [label = "皿\n* dish"];
+  G [label = "蕴\namass (2496)"];
+  B [label = "艹\nflower (*)"];
+  D [label = "纟\nthread (*)"];
+  C [label = "厶\nelbow (*)"];
+  E [label = "日\nday (12)"];
+  F [label = "皿\ndish (*)"];
 
-  艹 -> 蕴 [thick];
-  纟 -> 蕴 [thick];
-  厶 -> 纟 [thick];
-  日 -> 蕴 [thick];
-  皿 -> 蕴 [thick];
+  B -> G [thick];
+  D -> G [thick];
+  C -> D [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

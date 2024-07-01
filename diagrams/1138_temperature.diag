@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  温 [label = "温\n1138 temperature"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  日 [label = "日\n12 day"];
-  皿 [label = "皿\n* dish"];
+  H [label = "温\ntemperature (1138)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  F [label = "日\nday (12)"];
+  G [label = "皿\ndish (*)"];
 
-  水 -> 温 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  日 -> 温 [thick];
-  皿 -> 温 [thick];
+  E -> H [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  F -> H [thick];
+  G -> H [thick];
 }

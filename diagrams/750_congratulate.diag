@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  贺 [label = "贺\n750 congratulate"];
-  加 [label = "加\n749 add"];
-  肌 [label = "肌\n63 muscle"];
-  几 [label = "几\n57 how many?"];
-  月 [label = "月\n13 month"];
-  口 [label = "口\n11 mouth"];
-  贝 [label = "贝\n52 shellfish"];
-  目 [label = "目\n15 eye"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
+  K [label = "贺\ncongratulate (750)"];
+  F [label = "加\nadd (749)"];
+  D [label = "肌\nmuscle (63)"];
+  B [label = "几\nhow many? (57)"];
+  C [label = "月\nmonth (13)"];
+  E [label = "口\nmouth (11)"];
+  J [label = "贝\nshellfish (52)"];
+  G [label = "目\neye (15)"];
+  I [label = "囧只－口\nanimal legs (*)"];
+  H [label = "八\neight (8)"];
 
-  加 -> 贺 [thick];
-  肌 -> 加 [thick];
-  几 -> 肌 [thick];
-  月 -> 肌 [thick];
-  口 -> 加 [thick];
-  贝 -> 贺 [thick];
-  目 -> 贝 [thick];
-  囧只－口 -> 贝 [thick];
-  八 -> 囧只－口 [thick];
+  F -> K [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
+  J -> K [thick];
+  G -> J [thick];
+  I -> J [thick];
+  H -> I [thick];
 }

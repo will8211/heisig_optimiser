@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  快 [label = "快\n1274 fast"];
-  心 [label = "心\n563 heart"];
-  夬 [label = "夬\n* guillotine"];
-  囧侯－亻－矢 [label = "囧侯－亻－矢\n* key"];
-  大 [label = "大\n113 large"];
+  F [label = "快\nfast (1274)"];
+  B [label = "心\nheart (563)"];
+  E [label = "夬\nguillotine (*)"];
+  C [label = "囧侯－亻－矢\nkey (*)"];
+  D [label = "大\nlarge (113)"];
 
-  心 -> 快 [thick];
-  夬 -> 快 [thick];
-  囧侯－亻－矢 -> 夬 [thick];
-  大 -> 夬 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

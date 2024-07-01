@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  琢 [label = "琢\n1751 chisel"];
-  玉 [label = "玉\n266 jade"];
-  王 [label = "王\n265 king"];
-  工 [label = "工\n76 work"];
-  丶 [label = "丶\n* a drop of"];
-  豖 [label = "豖\n* hog-tied"];
-  豕 [label = "豕\n* sow"];
+  H [label = "琢\nchisel (1751)"];
+  E [label = "玉\njade (266)"];
+  C [label = "王\nking (265)"];
+  B [label = "工\nwork (76)"];
+  D [label = "丶\na drop of (*)"];
+  G [label = "豖\nhog-tied (*)"];
+  F [label = "豕\nsow (*)"];
 
-  玉 -> 琢 [thick];
-  王 -> 玉 [thick];
-  工 -> 王 [thick];
-  丶 -> 玉 [thick];
-  豖 -> 琢 [thick];
-  豕 -> 豖 [thick];
+  E -> H [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  G -> H [thick];
+  F -> G [thick];
 }

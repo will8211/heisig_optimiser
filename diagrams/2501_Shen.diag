@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  沈 [label = "沈\n2501 Shen"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  冘 [label = "冘\n* Frankenbowser Rex"];
-  囧尴－监 [label = "囧尴－监\n* Frankenbowser"];
-  大 [label = "大\n113 large"];
-  冖 [label = "冖\n* crown"];
+  J [label = "沈\nShen (2501)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  I [label = "冘\nFrankenbowser Rex (*)"];
+  G [label = "囧尴－监\nFrankenbowser (*)"];
+  F [label = "大\nlarge (113)"];
+  H [label = "冖\ncrown (*)"];
 
-  水 -> 沈 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  冘 -> 沈 [thick];
-  囧尴－监 -> 冘 [thick];
-  大 -> 囧尴－监 [thick];
-  冖 -> 冘 [thick];
+  E -> J [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  I -> J [thick];
+  G -> I [thick];
+  F -> G [thick];
+  H -> I [thick];
 }

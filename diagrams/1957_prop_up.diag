@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  撑 [label = "撑\n1957 prop up"];
-  扌 [label = "扌\n* fingers"];
-  掌 [label = "掌\n1956 palm of the hand"];
-  囧赏－贝 [label = "囧赏－贝\n* outhouse"];
-  小 [label = "小\n109 small"];
-  丶 [label = "丶\n* a drop of"];
-  口 [label = "口\n11 mouth"];
-  手 [label = "手\n584 hand"];
+  I [label = "撑\nprop up (1957)"];
+  B [label = "扌\nfingers (*)"];
+  H [label = "掌\npalm of the hand (1956)"];
+  F [label = "囧赏－贝\nouthouse (*)"];
+  D [label = "小\nsmall (109)"];
+  C [label = "丶\na drop of (*)"];
+  E [label = "口\nmouth (11)"];
+  G [label = "手\nhand (584)"];
 
-  扌 -> 撑 [thick];
-  掌 -> 撑 [thick];
-  囧赏－贝 -> 掌 [thick];
-  小 -> 囧赏－贝 [thick];
-  丶 -> 小 [thick];
-  口 -> 囧赏－贝 [thick];
-  手 -> 掌 [thick];
+  B -> I [thick];
+  H -> I [thick];
+  F -> H [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
+  G -> H [thick];
 }

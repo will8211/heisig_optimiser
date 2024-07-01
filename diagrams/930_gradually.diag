@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  渐 [label = "渐\n930 gradually"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  斩 [label = "斩\n928 hew"];
-  车 [label = "车\n300 car"];
-  斤 [label = "斤\n924 catty"];
+  I [label = "渐\ngradually (930)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  H [label = "斩\nhew (928)"];
+  F [label = "车\ncar (300)"];
+  G [label = "斤\ncatty (924)"];
 
-  水 -> 渐 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  斩 -> 渐 [thick];
-  车 -> 斩 [thick];
-  斤 -> 斩 [thick];
+  E -> I [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  H -> I [thick];
+  F -> H [thick];
+  G -> H [thick];
 }

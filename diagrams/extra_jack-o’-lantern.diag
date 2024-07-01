@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  粦 [label = "粦\n* jack-o’-lantern"];
-  米 [label = "米\n778 rice"];
-  舛 [label = "舛\n* sunglasses"];
-  夕 [label = "夕\n115 evening"];
-  月 [label = "月\n13 month"];
-  年 [label = "年\n871 year"];
-  午 [label = "午\n542 noon"];
+  H [label = "粦\njack-o’-lantern (*)"];
+  B [label = "米\nrice (778)"];
+  G [label = "舛\nsunglasses (*)"];
+  D [label = "夕\nevening (115)"];
+  C [label = "月\nmonth (13)"];
+  F [label = "年\nyear (871)"];
+  E [label = "午\nnoon (542)"];
 
-  米 -> 粦 [thick];
-  舛 -> 粦 [thick];
-  夕 -> 舛 [thick];
-  月 -> 夕 [thick];
-  年 -> 舛 [thick];
-  午 -> 年 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  D -> G [thick];
+  C -> D [thick];
+  F -> G [thick];
+  E -> F [thick];
 }

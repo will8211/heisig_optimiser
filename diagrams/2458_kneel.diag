@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  跪 [label = "跪\n2458 kneel"];
-  足 [label = "足\n1048 lower leg"];
-  口 [label = "口\n11 mouth"];
-  止 [label = "止\n379 stop"];
-  危 [label = "危\n1123 danger"];
-  勹 [label = "勹\n* bound up"];
-  厂 [label = "厂\n121 factory"];
-  "㔾" [label = "㔾\n* fingerprint"];
+  I [label = "跪\nkneel (2458)"];
+  D [label = "足\nlower leg (1048)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "止\nstop (379)"];
+  H [label = "危\ndanger (1123)"];
+  E [label = "勹\nbound up (*)"];
+  F [label = "厂\nfactory (121)"];
+  G [label = "㔾\nfingerprint (*)"];
 
-  足 -> 跪 [thick];
-  口 -> 足 [thick];
-  止 -> 足 [thick];
-  危 -> 跪 [thick];
-  勹 -> 危 [thick];
-  厂 -> 危 [thick];
-  "㔾" -> 危 [thick];
+  D -> I [thick];
+  B -> D [thick];
+  C -> D [thick];
+  H -> I [thick];
+  E -> H [thick];
+  F -> H [thick];
+  G -> H [thick];
 }

@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  曰 [label = "曰\n1499 sayeth"];
-  囗 [label = "囗\n* pent in"];
-  一 [label = "一\n1 one"];
+  D [label = "曰\nsayeth (1499)"];
+  B [label = "囗\npent in (*)"];
+  C [label = "一\none (1)"];
 
-  囗 -> 曰 [thick];
-  一 -> 曰 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

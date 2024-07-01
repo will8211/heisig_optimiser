@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  童 [label = "童\n450 juvenile"];
-  立 [label = "立\n444 standing up"];
-  里 [label = "里\n179 li"];
-  田 [label = "田\n14 rice field"];
-  土 [label = "土\n158 soil"];
+  F [label = "童\njuvenile (450)"];
+  B [label = "立\nstanding up (444)"];
+  E [label = "里\nli (179)"];
+  C [label = "田\nrice field (14)"];
+  D [label = "土\nsoil (158)"];
 
-  立 -> 童 [thick];
-  里 -> 童 [thick];
-  田 -> 里 [thick];
-  土 -> 里 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

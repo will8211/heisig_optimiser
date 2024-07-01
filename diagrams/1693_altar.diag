@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  坛 [label = "坛\n1693 altar"];
-  土 [label = "土\n158 soil"];
-  云 [label = "云\n428 cloud"];
+  D [label = "坛\naltar (1693)"];
+  B [label = "土\nsoil (158)"];
+  C [label = "云\ncloud (428)"];
 
-  土 -> 坛 [thick];
-  云 -> 坛 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  物 [label = "物\n879 thing"];
-  牛 [label = "牛\n252 cow"];
-  勿 [label = "勿\n877 not"];
-  "𠃓" [label = "𠃓\n* piglets"];
-  豕 [label = "豕\n* sow"];
+  F [label = "物\nthing (879)"];
+  B [label = "牛\ncow (252)"];
+  E [label = "勿\nnot (877)"];
+  D [label = "𠃓\npiglets (*)"];
+  C [label = "豕\nsow (*)"];
 
-  牛 -> 物 [thick];
-  勿 -> 物 [thick];
-  "𠃓" -> 勿 [thick];
-  豕 -> "𠃓" [thick];
+  B -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

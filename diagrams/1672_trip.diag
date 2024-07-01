@@ -5,30 +5,30 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  趟 [label = "趟\n1672 trip"];
-  走 [label = "走\n391 walk"];
-  囧走－十 [label = "囧走－十\n* mending"];
-  正 [label = "正\n387 correct"];
-  一 [label = "一\n1 one"];
-  止 [label = "止\n379 stop"];
-  土 [label = "土\n158 soil"];
-  尚 [label = "尚\n190 esteem"];
-  小 [label = "小\n109 small"];
-  丶 [label = "丶\n* a drop of"];
-  冂 [label = "冂\n* hood"];
-  几 [label = "几\n57 how many?"];
-  口 [label = "口\n11 mouth"];
+  N [label = "趟\ntrip (1672)"];
+  G [label = "走\nwalk (391)"];
+  E [label = "囧走－十\nmending (*)"];
+  D [label = "正\ncorrect (387)"];
+  B [label = "一\none (1)"];
+  C [label = "止\nstop (379)"];
+  F [label = "土\nsoil (158)"];
+  M [label = "尚\nesteem (190)"];
+  I [label = "小\nsmall (109)"];
+  H [label = "丶\na drop of (*)"];
+  K [label = "冂\nhood (*)"];
+  J [label = "几\nhow many? (57)"];
+  L [label = "口\nmouth (11)"];
 
-  走 -> 趟 [thick];
-  囧走－十 -> 走 [thick];
-  正 -> 囧走－十 [thick];
-  一 -> 正 [thick];
-  止 -> 正 [thick];
-  土 -> 走 [thick];
-  尚 -> 趟 [thick];
-  小 -> 尚 [thick];
-  丶 -> 小 [thick];
-  冂 -> 尚 [thick];
-  几 -> 冂 [thick];
-  口 -> 尚 [thick];
+  G -> N [thick];
+  E -> G [thick];
+  D -> E [thick];
+  B -> D [thick];
+  C -> D [thick];
+  F -> G [thick];
+  M -> N [thick];
+  I -> M [thick];
+  H -> I [thick];
+  K -> M [thick];
+  J -> K [thick];
+  L -> M [thick];
 }

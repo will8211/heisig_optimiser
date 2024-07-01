@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  草 [label = "草\n227 grass"];
-  艹 [label = "艹\n* flower"];
-  早 [label = "早\n26 early"];
-  日 [label = "日\n12 day"];
-  十 [label = "十\n10 ten"];
+  F [label = "草\ngrass (227)"];
+  B [label = "艹\nflower (*)"];
+  E [label = "早\nearly (26)"];
+  C [label = "日\nday (12)"];
+  D [label = "十\nten (10)"];
 
-  艹 -> 草 [thick];
-  早 -> 草 [thick];
-  日 -> 早 [thick];
-  十 -> 早 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

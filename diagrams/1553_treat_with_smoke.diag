@@ -5,27 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  熏 [label = "熏\n1553 treat with smoke"];
-  千 [label = "千\n39 thousand"];
-  丶 [label = "丶\n* a drop of"];
-  十 [label = "十\n10 ten"];
-  黑 [label = "黑\n182 black"];
-  里 [label = "里\n179 li"];
-  田 [label = "田\n14 rice field"];
-  土 [label = "土\n158 soil"];
-  丷 [label = "丷\n* horns"];
-  一 [label = "一\n1 one"];
-  火 [label = "火\n170 fire"];
+  M [label = "熏\ntreat with smoke (1553)"];
+  D [label = "千\nthousand (39)"];
+  B [label = "丶\na drop of (*)"];
+  C [label = "十\nten (10)"];
+  L [label = "黑\nblack (182)"];
+  G [label = "里\nli (179)"];
+  E [label = "田\nrice field (14)"];
+  F [label = "土\nsoil (158)"];
+  H [label = "田\nrice field (14)"];
+  J [label = "丷\nhorns (*)"];
+  I [label = "一\none (1)"];
+  K [label = "火\nfire (170)"];
 
-  千 -> 熏 [thick];
-  丶 -> 千 [thick];
-  十 -> 千 [thick];
-  黑 -> 熏 [thick];
-  里 -> 黑 [thick];
-  田 -> 里 [thick];
-  土 -> 里 [thick];
-  田 -> 黑 [thick];
-  丷 -> 黑 [thick];
-  一 -> 丷 [thick];
-  火 -> 黑 [thick];
+  D -> M [thick];
+  B -> D [thick];
+  C -> D [thick];
+  L -> M [thick];
+  G -> L [thick];
+  E -> G [thick];
+  F -> G [thick];
+  H -> L [thick];
+  J -> L [thick];
+  I -> J [thick];
+  K -> L [thick];
 }

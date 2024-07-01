@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  吹 [label = "吹\n475 blow"];
-  口 [label = "口\n11 mouth"];
-  欠 [label = "欠\n474 lack"];
+  D [label = "吹\nblow (475)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "欠\nlack (474)"];
 
-  口 -> 吹 [thick];
-  欠 -> 吹 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

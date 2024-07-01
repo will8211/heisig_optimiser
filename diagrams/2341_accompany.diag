@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  陪 [label = "陪\n2341 accompany"];
-  阝 [label = "阝\n* pinnacle"];
-  咅 [label = "咅\n* muzzle"];
-  立 [label = "立\n444 standing up"];
-  口 [label = "口\n11 mouth"];
+  F [label = "陪\naccompany (2341)"];
+  B [label = "阝\npinnacle (*)"];
+  E [label = "咅\nmuzzle (*)"];
+  C [label = "立\nstanding up (444)"];
+  D [label = "口\nmouth (11)"];
 
-  阝 -> 陪 [thick];
-  咅 -> 陪 [thick];
-  立 -> 咅 [thick];
-  口 -> 咅 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

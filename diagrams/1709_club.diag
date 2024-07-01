@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  棍 [label = "棍\n1709 club"];
-  木 [label = "木\n202 tree"];
-  昆 [label = "昆\n457 descendants"];
-  日 [label = "日\n12 day"];
-  比 [label = "比\n456 compare"];
-  匕 [label = "匕\n453 ancient spoon"];
+  G [label = "棍\nclub (1709)"];
+  B [label = "木\ntree (202)"];
+  F [label = "昆\ndescendants (457)"];
+  C [label = "日\nday (12)"];
+  E [label = "比\ncompare (456)"];
+  D [label = "匕\nancient spoon (453)"];
 
-  木 -> 棍 [thick];
-  昆 -> 棍 [thick];
-  日 -> 昆 [thick];
-  比 -> 昆 [thick];
-  匕 -> 比 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
 }

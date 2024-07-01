@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  厉 [label = "厉\n123 stern"];
-  厂 [label = "厂\n121 factory"];
-  万 [label = "万\n65 ten thousand"];
-  勹 [label = "勹\n* bound up"];
-  一 [label = "一\n1 one"];
+  F [label = "厉\nstern (123)"];
+  B [label = "厂\nfactory (121)"];
+  E [label = "万\nten thousand (65)"];
+  C [label = "勹\nbound up (*)"];
+  D [label = "一\none (1)"];
 
-  厂 -> 厉 [thick];
-  万 -> 厉 [thick];
-  勹 -> 万 [thick];
-  一 -> 万 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

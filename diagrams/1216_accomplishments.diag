@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  绩 [label = "绩\n1216 accomplishments"];
-  纟 [label = "纟\n* thread"];
-  厶 [label = "厶\n* elbow"];
-  责 [label = "责\n1215 responsibility"];
-  囧毒－母 [label = "囧毒－母\n* grow up"];
-  贝 [label = "贝\n52 shellfish"];
-  目 [label = "目\n15 eye"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
+  J [label = "绩\naccomplishments (1216)"];
+  C [label = "纟\nthread (*)"];
+  B [label = "厶\nelbow (*)"];
+  I [label = "责\nresponsibility (1215)"];
+  D [label = "囧毒－母\ngrow up (*)"];
+  H [label = "贝\nshellfish (52)"];
+  E [label = "目\neye (15)"];
+  G [label = "囧只－口\nanimal legs (*)"];
+  F [label = "八\neight (8)"];
 
-  纟 -> 绩 [thick];
-  厶 -> 纟 [thick];
-  责 -> 绩 [thick];
-  囧毒－母 -> 责 [thick];
-  贝 -> 责 [thick];
-  目 -> 贝 [thick];
-  囧只－口 -> 贝 [thick];
-  八 -> 囧只－口 [thick];
+  C -> J [thick];
+  B -> C [thick];
+  I -> J [thick];
+  D -> I [thick];
+  H -> I [thick];
+  E -> H [thick];
+  G -> H [thick];
+  F -> G [thick];
 }

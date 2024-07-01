@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  吧 [label = "吧\n1329 bar"];
-  口 [label = "口\n11 mouth"];
-  巴 [label = "巴\n1326 crust"];
+  D [label = "吧\nbar (1329)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "巴\ncrust (1326)"];
 
-  口 -> 吧 [thick];
-  巴 -> 吧 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

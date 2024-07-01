@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  逼 [label = "逼\n1619 press"];
-  畐 [label = "畐\n* wealth"];
-  一 [label = "一\n1 one"];
-  口 [label = "口\n11 mouth"];
-  田 [label = "田\n14 rice field"];
-  辶 [label = "辶\n* road"];
+  G [label = "逼\npress (1619)"];
+  E [label = "畐\nwealth (*)"];
+  B [label = "一\none (1)"];
+  C [label = "口\nmouth (11)"];
+  D [label = "田\nrice field (14)"];
+  F [label = "辶\nroad (*)"];
 
-  畐 -> 逼 [thick];
-  一 -> 畐 [thick];
-  口 -> 畐 [thick];
-  田 -> 畐 [thick];
-  辶 -> 逼 [thick];
+  E -> G [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

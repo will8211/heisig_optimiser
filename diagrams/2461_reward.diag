@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  酬 [label = "酬\n2461 reward"];
-  酉 [label = "酉\n* whiskey bottle"];
-  州 [label = "州\n135 state"];
-  丶 [label = "丶\n* a drop of"];
-  川 [label = "川\n134 stream"];
+  F [label = "酬\nreward (2461)"];
+  B [label = "酉\nwhiskey bottle (*)"];
+  E [label = "州\nstate (135)"];
+  C [label = "丶\na drop of (*)"];
+  D [label = "川\nstream (134)"];
 
-  酉 -> 酬 [thick];
-  州 -> 酬 [thick];
-  丶 -> 州 [thick];
-  川 -> 州 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

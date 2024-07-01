@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  助 [label = "助\n1347 assist"];
-  且 [label = "且\n1343 moreover"];
-  力 [label = "力\n732 power"];
+  D [label = "助\nassist (1347)"];
+  B [label = "且\nmoreover (1343)"];
+  C [label = "力\npower (732)"];
 
-  且 -> 助 [thick];
-  力 -> 助 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

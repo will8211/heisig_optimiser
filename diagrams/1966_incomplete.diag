@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  残 [label = "残\n1966 incomplete"];
-  歹 [label = "歹\n712 malicious"];
-  戋 [label = "戋\n* float"];
-  戈 [label = "戈\n361 halberd"];
-  弋 [label = "弋\n* arrow"];
+  F [label = "残\nincomplete (1966)"];
+  B [label = "歹\nmalicious (712)"];
+  E [label = "戋\nfloat (*)"];
+  D [label = "戈\nhalberd (361)"];
+  C [label = "弋\narrow (*)"];
 
-  歹 -> 残 [thick];
-  戋 -> 残 [thick];
-  戈 -> 戋 [thick];
-  弋 -> 戈 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

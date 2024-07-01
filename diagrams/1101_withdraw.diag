@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  却 [label = "却\n1101 withdraw"];
-  去 [label = "去\n675 go"];
-  土 [label = "土\n158 soil"];
-  厶 [label = "厶\n* elbow"];
-  卩 [label = "卩\n* stamp"];
+  F [label = "却\nwithdraw (1101)"];
+  D [label = "去\ngo (675)"];
+  B [label = "土\nsoil (158)"];
+  C [label = "厶\nelbow (*)"];
+  E [label = "卩\nstamp (*)"];
 
-  去 -> 却 [thick];
-  土 -> 去 [thick];
-  厶 -> 去 [thick];
-  卩 -> 却 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

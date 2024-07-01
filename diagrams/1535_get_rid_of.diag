@@ -5,19 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  汰 [label = "汰\n1535 get rid of"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  太 [label = "太\n131 overly"];
-  大 [label = "大\n113 large"];
+  I [label = "汰\nget rid of (1535)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  H [label = "太\noverly (131)"];
+  F [label = "大\nlarge (113)"];
+  G [label = "丶\na drop of (*)"];
 
-  水 -> 汰 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  太 -> 汰 [thick];
-  大 -> 太 [thick];
-  丶 -> 太 [thick];
+  E -> I [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  H -> I [thick];
+  F -> H [thick];
+  G -> H [thick];
 }

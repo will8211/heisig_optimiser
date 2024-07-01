@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  伙 [label = "伙\n2072 mate"];
-  人 [label = "人\n793 person"];
-  火 [label = "火\n170 fire"];
+  D [label = "伙\nmate (2072)"];
+  B [label = "人\nperson (793)"];
+  C [label = "火\nfire (170)"];
 
-  人 -> 伙 [thick];
-  火 -> 伙 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

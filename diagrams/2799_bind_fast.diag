@@ -5,24 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  缚 [label = "缚\n2799 bind fast"];
-  纟 [label = "纟\n* thread"];
-  厶 [label = "厶\n* elbow"];
-  尃 [label = "尃\n* gummed label"];
-  甫 [label = "甫\n1379 Fu"];
-  十 [label = "十\n10 ten"];
-  月 [label = "月\n13 month"];
-  丶 [label = "丶\n* a drop of"];
-  寸 [label = "寸\n166 Chinese inch"];
+  L [label = "缚\nbind fast (2799)"];
+  C [label = "纟\nthread (*)"];
+  B [label = "厶\nelbow (*)"];
+  K [label = "尃\ngummed label (*)"];
+  G [label = "甫\nFu (1379)"];
+  D [label = "十\nten (10)"];
+  E [label = "月\nmonth (13)"];
+  F [label = "丶\na drop of (*)"];
+  J [label = "寸\nChinese inch (166)"];
+  H [label = "丶\na drop of (*)"];
+  I [label = "十\nten (10)"];
 
-  纟 -> 缚 [thick];
-  厶 -> 纟 [thick];
-  尃 -> 缚 [thick];
-  甫 -> 尃 [thick];
-  十 -> 甫 [thick];
-  月 -> 甫 [thick];
-  丶 -> 甫 [thick];
-  寸 -> 尃 [thick];
-  丶 -> 寸 [thick];
-  十 -> 寸 [thick];
+  C -> L [thick];
+  B -> C [thick];
+  K -> L [thick];
+  G -> K [thick];
+  D -> G [thick];
+  E -> G [thick];
+  F -> G [thick];
+  J -> K [thick];
+  H -> J [thick];
+  I -> J [thick];
 }

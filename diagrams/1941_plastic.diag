@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  塑 [label = "塑\n1941 plastic"];
-  屰 [label = "屰\n* mountain goat"];
-  丷 [label = "丷\n* horns"];
-  一 [label = "一\n1 one"];
-  山 [label = "山\n688 mountain"];
-  月 [label = "月\n13 month"];
-  土 [label = "土\n158 soil"];
+  H [label = "塑\nplastic (1941)"];
+  E [label = "屰\nmountain goat (*)"];
+  C [label = "丷\nhorns (*)"];
+  B [label = "一\none (1)"];
+  D [label = "山\nmountain (688)"];
+  F [label = "月\nmonth (13)"];
+  G [label = "土\nsoil (158)"];
 
-  屰 -> 塑 [thick];
-  丷 -> 屰 [thick];
-  一 -> 丷 [thick];
-  山 -> 屰 [thick];
-  月 -> 塑 [thick];
-  土 -> 塑 [thick];
+  E -> H [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  F -> H [thick];
+  G -> H [thick];
 }

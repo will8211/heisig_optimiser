@@ -5,17 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  狼 [label = "狼\n2514 wolf"];
-  犬 [label = "犬\n239 pooch"];
-  大 [label = "大\n113 large"];
-  丶 [label = "丶\n* a drop of"];
-  良 [label = "良\n1151 high-quality"];
-  艮 [label = "艮\n* silver"];
+  H [label = "狼\nwolf (2514)"];
+  D [label = "犬\npooch (239)"];
+  B [label = "大\nlarge (113)"];
+  C [label = "丶\na drop of (*)"];
+  G [label = "良\nhigh-quality (1151)"];
+  E [label = "丶\na drop of (*)"];
+  F [label = "艮\nsilver (*)"];
 
-  犬 -> 狼 [thick];
-  大 -> 犬 [thick];
-  丶 -> 犬 [thick];
-  良 -> 狼 [thick];
-  丶 -> 良 [thick];
-  艮 -> 良 [thick];
+  D -> H [thick];
+  B -> D [thick];
+  C -> D [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

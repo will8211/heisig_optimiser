@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  咐 [label = "咐\n2998 (in)-struct"];
-  口 [label = "口\n11 mouth"];
-  付 [label = "付\n825 pay"];
-  人 [label = "人\n793 person"];
-  寸 [label = "寸\n166 Chinese inch"];
-  丶 [label = "丶\n* a drop of"];
-  十 [label = "十\n10 ten"];
+  H [label = "咐\n(in)-struct (2998)"];
+  B [label = "口\nmouth (11)"];
+  G [label = "付\npay (825)"];
+  C [label = "人\nperson (793)"];
+  F [label = "寸\nChinese inch (166)"];
+  D [label = "丶\na drop of (*)"];
+  E [label = "十\nten (10)"];
 
-  口 -> 咐 [thick];
-  付 -> 咐 [thick];
-  人 -> 付 [thick];
-  寸 -> 付 [thick];
-  丶 -> 寸 [thick];
-  十 -> 寸 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  C -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

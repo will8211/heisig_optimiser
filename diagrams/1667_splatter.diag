@@ -5,30 +5,30 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  溅 [label = "溅\n1667 splatter"];
-  水 [label = "水\n137 water"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
-  贱 [label = "贱\n375 cheap"];
-  戋 [label = "戋\n* float"];
-  戈 [label = "戈\n361 halberd"];
-  弋 [label = "弋\n* arrow"];
-  贝 [label = "贝\n52 shellfish"];
-  目 [label = "目\n15 eye"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
+  N [label = "溅\nsplatter (1667)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  M [label = "贱\ncheap (375)"];
+  H [label = "戋\nfloat (*)"];
+  G [label = "戈\nhalberd (361)"];
+  F [label = "弋\narrow (*)"];
+  L [label = "贝\nshellfish (52)"];
+  I [label = "目\neye (15)"];
+  K [label = "囧只－口\nanimal legs (*)"];
+  J [label = "八\neight (8)"];
 
-  水 -> 溅 [thick];
-  丨 -> 水 [thick];
-  一 -> 丨 [thick];
-  丶 -> 水 [thick];
-  贱 -> 溅 [thick];
-  戋 -> 贱 [thick];
-  戈 -> 戋 [thick];
-  弋 -> 戈 [thick];
-  贝 -> 贱 [thick];
-  目 -> 贝 [thick];
-  囧只－口 -> 贝 [thick];
-  八 -> 囧只－口 [thick];
+  E -> N [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  M -> N [thick];
+  H -> M [thick];
+  G -> H [thick];
+  F -> G [thick];
+  L -> M [thick];
+  I -> L [thick];
+  K -> L [thick];
+  J -> K [thick];
 }

@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  肿 [label = "肿\n1505 swollen"];
-  月 [label = "月\n13 month"];
-  中 [label = "中\n38 middle"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  口 [label = "口\n11 mouth"];
+  G [label = "肿\nswollen (1505)"];
+  B [label = "月\nmonth (13)"];
+  F [label = "中\nmiddle (38)"];
+  D [label = "丨\nwalking stick (*)"];
+  C [label = "一\none (1)"];
+  E [label = "口\nmouth (11)"];
 
-  月 -> 肿 [thick];
-  中 -> 肿 [thick];
-  丨 -> 中 [thick];
-  一 -> 丨 [thick];
-  口 -> 中 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

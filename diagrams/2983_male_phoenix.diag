@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  凤 [label = "凤\n2983 male phoenix"];
-  几 [label = "几\n57 how many?"];
-  又 [label = "又\n633 again"];
+  D [label = "凤\nmale phoenix (2983)"];
+  B [label = "几\nhow many? (57)"];
+  C [label = "又\nagain (633)"];
 
-  几 -> 凤 [thick];
-  又 -> 凤 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

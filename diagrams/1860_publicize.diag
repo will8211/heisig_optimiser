@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  扬 [label = "扬\n1860 publicize"];
-  扌 [label = "扌\n* fingers"];
-  "𠃓" [label = "𠃓\n* piglets"];
-  豕 [label = "豕\n* sow"];
+  E [label = "扬\npublicize (1860)"];
+  B [label = "扌\nfingers (*)"];
+  D [label = "𠃓\npiglets (*)"];
+  C [label = "豕\nsow (*)"];
 
-  扌 -> 扬 [thick];
-  "𠃓" -> 扬 [thick];
-  豕 -> "𠃓" [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
 }

@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  斩 [label = "斩\n928 hew"];
-  车 [label = "车\n300 car"];
-  斤 [label = "斤\n924 catty"];
+  D [label = "斩\nhew (928)"];
+  B [label = "车\ncar (300)"];
+  C [label = "斤\ncatty (924)"];
 
-  车 -> 斩 [thick];
-  斤 -> 斩 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

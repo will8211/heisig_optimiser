@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  迷 [label = "迷\n780 lost"];
-  米 [label = "米\n778 rice"];
-  辶 [label = "辶\n* road"];
+  D [label = "迷\nlost (780)"];
+  B [label = "米\nrice (778)"];
+  C [label = "辶\nroad (*)"];
 
-  米 -> 迷 [thick];
-  辶 -> 迷 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

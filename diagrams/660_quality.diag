@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  质 [label = "质\n660 quality"];
-  "𠂆" [label = "𠂆\n* drag"];
-  十 [label = "十\n10 ten"];
-  贝 [label = "贝\n52 shellfish"];
-  目 [label = "目\n15 eye"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
+  H [label = "质\nquality (660)"];
+  B [label = "𠂆\ndrag (*)"];
+  C [label = "十\nten (10)"];
+  G [label = "贝\nshellfish (52)"];
+  D [label = "目\neye (15)"];
+  F [label = "囧只－口\nanimal legs (*)"];
+  E [label = "八\neight (8)"];
 
-  "𠂆" -> 质 [thick];
-  十 -> 质 [thick];
-  贝 -> 质 [thick];
-  目 -> 贝 [thick];
-  囧只－口 -> 贝 [thick];
-  八 -> 囧只－口 [thick];
+  B -> H [thick];
+  C -> H [thick];
+  G -> H [thick];
+  D -> G [thick];
+  F -> G [thick];
+  E -> F [thick];
 }

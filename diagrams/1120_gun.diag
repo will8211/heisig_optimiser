@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  枪 [label = "枪\n1120 gun"];
-  木 [label = "木\n202 tree"];
-  仓 [label = "仓\n1119 storehouse"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  "㔾" [label = "㔾\n* fingerprint"];
+  F [label = "枪\ngun (1120)"];
+  B [label = "木\ntree (202)"];
+  E [label = "仓\nstorehouse (1119)"];
+  C [label = "𠆢\numbrella (*)"];
+  D [label = "㔾\nfingerprint (*)"];
 
-  木 -> 枪 [thick];
-  仓 -> 枪 [thick];
-  "𠆢" -> 仓 [thick];
-  "㔾" -> 仓 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

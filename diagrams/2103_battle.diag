@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  仗 [label = "仗\n2103 battle"];
-  人 [label = "人\n793 person"];
-  丈 [label = "丈\n837 100 Chinese inches"];
+  D [label = "仗\nbattle (2103)"];
+  B [label = "人\nperson (793)"];
+  C [label = "丈\n100 Chinese inches (837)"];
 
-  人 -> 仗 [thick];
-  丈 -> 仗 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

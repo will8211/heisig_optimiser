@@ -5,28 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  赌 [label = "赌\n2304 gamble"];
-  贝 [label = "贝\n52 shellfish"];
-  目 [label = "目\n15 eye"];
-  囧只－口 [label = "囧只－口\n* animal legs"];
-  八 [label = "八\n8 eight"];
-  者 [label = "者\n1037 someone"];
-  老 [label = "老\n1029 old man"];
-  土 [label = "土\n158 soil"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  匕 [label = "匕\n453 ancient spoon"];
-  日 [label = "日\n12 day"];
+  M [label = "赌\ngamble (2304)"];
+  E [label = "贝\nshellfish (52)"];
+  B [label = "目\neye (15)"];
+  D [label = "囧只－口\nanimal legs (*)"];
+  C [label = "八\neight (8)"];
+  L [label = "者\nsomeone (1037)"];
+  J [label = "老\nold man (1029)"];
+  F [label = "土\nsoil (158)"];
+  H [label = "丨\nwalking stick (*)"];
+  G [label = "一\none (1)"];
+  I [label = "匕\nancient spoon (453)"];
+  K [label = "日\nday (12)"];
 
-  贝 -> 赌 [thick];
-  目 -> 贝 [thick];
-  囧只－口 -> 贝 [thick];
-  八 -> 囧只－口 [thick];
-  者 -> 赌 [thick];
-  老 -> 者 [thick];
-  土 -> 老 [thick];
-  丨 -> 老 [thick];
-  一 -> 丨 [thick];
-  匕 -> 老 [thick];
-  日 -> 者 [thick];
+  E -> M [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
+  L -> M [thick];
+  J -> L [thick];
+  F -> J [thick];
+  H -> J [thick];
+  G -> H [thick];
+  I -> J [thick];
+  K -> L [thick];
 }

@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  菜 [label = "菜\n666 vegetable"];
-  艹 [label = "艹\n* flower"];
-  采 [label = "采\n665 pick"];
-  爪 [label = "爪\n663 claw"];
-  "𠂆" [label = "𠂆\n* drag"];
-  木 [label = "木\n202 tree"];
+  G [label = "菜\nvegetable (666)"];
+  B [label = "艹\nflower (*)"];
+  F [label = "采\npick (665)"];
+  D [label = "爪\nclaw (663)"];
+  C [label = "𠂆\ndrag (*)"];
+  E [label = "木\ntree (202)"];
 
-  艹 -> 菜 [thick];
-  采 -> 菜 [thick];
-  爪 -> 采 [thick];
-  "𠂆" -> 爪 [thick];
-  木 -> 采 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

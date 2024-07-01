@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  殊 [label = "殊\n1965 dissimilar"];
-  歹 [label = "歹\n712 malicious"];
-  朱 [label = "朱\n1578 vermilion"];
-  丶 [label = "丶\n* a drop of"];
-  未 [label = "未\n215 not yet"];
-  木 [label = "木\n202 tree"];
+  G [label = "殊\ndissimilar (1965)"];
+  B [label = "歹\nmalicious (712)"];
+  F [label = "朱\nvermilion (1578)"];
+  C [label = "丶\na drop of (*)"];
+  E [label = "未\nnot yet (215)"];
+  D [label = "木\ntree (202)"];
 
-  歹 -> 殊 [thick];
-  朱 -> 殊 [thick];
-  丶 -> 朱 [thick];
-  未 -> 朱 [thick];
-  木 -> 未 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
 }

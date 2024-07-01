@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  葛 [label = "葛\n2108 kudzu"];
-  艹 [label = "艹\n* flower"];
-  曷 [label = "曷\n* siesta"];
-  人 [label = "人\n793 person"];
-  勹 [label = "勹\n* bound up"];
-  乙 [label = "乙\n95 second"];
-  日 [label = "日\n12 day"];
+  H [label = "葛\nkudzu (2108)"];
+  B [label = "艹\nflower (*)"];
+  G [label = "曷\nsiesta (*)"];
+  C [label = "人\nperson (793)"];
+  D [label = "勹\nbound up (*)"];
+  E [label = "乙\nsecond (95)"];
+  F [label = "日\nday (12)"];
 
-  艹 -> 葛 [thick];
-  曷 -> 葛 [thick];
-  人 -> 曷 [thick];
-  勹 -> 曷 [thick];
-  乙 -> 曷 [thick];
-  日 -> 曷 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  C -> G [thick];
+  D -> G [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

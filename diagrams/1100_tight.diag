@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  紧 [label = "紧\n1100 tight"];
-  坚 [label = "坚\n1011 firm"];
-  囧坚－圣 [label = "囧坚－圣\n* fencing foil"];
-  又 [label = "又\n633 again"];
-  土 [label = "土\n158 soil"];
-  糸 [label = "糸\n* floss"];
-  幺 [label = "幺\n* cocoon"];
-  小 [label = "小\n109 small"];
-  丶 [label = "丶\n* a drop of"];
+  J [label = "紧\ntight (1100)"];
+  E [label = "坚\nfirm (1011)"];
+  B [label = "囧坚－圣\nfencing foil (*)"];
+  C [label = "又\nagain (633)"];
+  D [label = "土\nsoil (158)"];
+  I [label = "糸\nfloss (*)"];
+  F [label = "幺\ncocoon (*)"];
+  H [label = "小\nsmall (109)"];
+  G [label = "丶\na drop of (*)"];
 
-  坚 -> 紧 [thick];
-  囧坚－圣 -> 坚 [thick];
-  又 -> 坚 [thick];
-  土 -> 坚 [thick];
-  糸 -> 紧 [thick];
-  幺 -> 糸 [thick];
-  小 -> 糸 [thick];
-  丶 -> 小 [thick];
+  E -> J [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
+  I -> J [thick];
+  F -> I [thick];
+  H -> I [thick];
+  G -> H [thick];
 }

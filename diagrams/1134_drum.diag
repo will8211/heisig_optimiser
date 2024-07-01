@@ -5,30 +5,30 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  鼓 [label = "鼓\n1134 drum"];
-  支 [label = "支\n650 offshoot"];
-  十 [label = "十\n10 ten"];
-  又 [label = "又\n633 again"];
-  壴 [label = "壴\n* drum"];
-  士 [label = "士\n334 soldier"];
-  桌 [label = "桌\n224 table"];
-  木 [label = "木\n202 tree"];
-  日 [label = "日\n12 day"];
-  卜 [label = "卜\n43 divination"];
-  丨 [label = "丨\n* walking stick"];
-  一 [label = "一\n1 one"];
-  丶 [label = "丶\n* a drop of"];
+  N [label = "鼓\ndrum (1134)"];
+  D [label = "支\noffshoot (650)"];
+  B [label = "十\nten (10)"];
+  C [label = "又\nagain (633)"];
+  M [label = "壴\ndrum (*)"];
+  E [label = "士\nsoldier (334)"];
+  L [label = "桌\ntable (224)"];
+  F [label = "木\ntree (202)"];
+  G [label = "日\nday (12)"];
+  K [label = "卜\ndivination (43)"];
+  I [label = "丨\nwalking stick (*)"];
+  H [label = "一\none (1)"];
+  J [label = "丶\na drop of (*)"];
 
-  支 -> 鼓 [thick];
-  十 -> 支 [thick];
-  又 -> 支 [thick];
-  壴 -> 鼓 [thick];
-  士 -> 壴 [thick];
-  桌 -> 壴 [thick];
-  木 -> 桌 [thick];
-  日 -> 桌 [thick];
-  卜 -> 桌 [thick];
-  丨 -> 卜 [thick];
-  一 -> 丨 [thick];
-  丶 -> 卜 [thick];
+  D -> N [thick];
+  B -> D [thick];
+  C -> D [thick];
+  M -> N [thick];
+  E -> M [thick];
+  L -> M [thick];
+  F -> L [thick];
+  G -> L [thick];
+  K -> L [thick];
+  I -> K [thick];
+  H -> I [thick];
+  J -> K [thick];
 }

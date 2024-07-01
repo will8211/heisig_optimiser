@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  固 [label = "固\n548 solid"];
-  囗 [label = "囗\n* pent in"];
-  古 [label = "古\n16 ancient"];
-  十 [label = "十\n10 ten"];
-  口 [label = "口\n11 mouth"];
+  F [label = "固\nsolid (548)"];
+  B [label = "囗\npent in (*)"];
+  E [label = "古\nancient (16)"];
+  C [label = "十\nten (10)"];
+  D [label = "口\nmouth (11)"];
 
-  囗 -> 固 [thick];
-  古 -> 固 [thick];
-  十 -> 古 [thick];
-  口 -> 古 [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

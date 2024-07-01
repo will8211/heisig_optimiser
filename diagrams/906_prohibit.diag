@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  禁 [label = "禁\n906 prohibit"];
-  林 [label = "林\n203 woods"];
-  木 [label = "木\n202 tree"];
-  示 [label = "示\n900 show"];
+  E [label = "禁\nprohibit (906)"];
+  C [label = "林\nwoods (203)"];
+  B [label = "木\ntree (202)"];
+  D [label = "示\nshow (900)"];
 
-  林 -> 禁 [thick];
-  木 -> 林 [thick];
-  示 -> 禁 [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
 }

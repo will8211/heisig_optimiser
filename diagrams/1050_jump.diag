@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  跳 [label = "跳\n1050 jump"];
-  足 [label = "足\n1048 lower leg"];
-  口 [label = "口\n11 mouth"];
-  止 [label = "止\n379 stop"];
-  兆 [label = "兆\n237 portent"];
+  F [label = "跳\njump (1050)"];
+  D [label = "足\nlower leg (1048)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "止\nstop (379)"];
+  E [label = "兆\nportent (237)"];
 
-  足 -> 跳 [thick];
-  口 -> 足 [thick];
-  止 -> 足 [thick];
-  兆 -> 跳 [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

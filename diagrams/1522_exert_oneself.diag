@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  奋 [label = "奋\n1522 exert oneself"];
-  大 [label = "大\n113 large"];
-  田 [label = "田\n14 rice field"];
+  D [label = "奋\nexert oneself (1522)"];
+  B [label = "大\nlarge (113)"];
+  C [label = "田\nrice field (14)"];
 
-  大 -> 奋 [thick];
-  田 -> 奋 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

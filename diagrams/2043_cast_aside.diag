@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  撇 [label = "撇\n2043 cast aside"];
-  扌 [label = "扌\n* fingers"];
-  敝 [label = "敝\n* shredder"];
-  冂 [label = "冂\n* hood"];
-  几 [label = "几\n57 how many?"];
-  米 [label = "米\n778 rice"];
-  攵 [label = "攵\n* taskmaster"];
+  H [label = "撇\ncast aside (2043)"];
+  B [label = "扌\nfingers (*)"];
+  G [label = "敝\nshredder (*)"];
+  D [label = "冂\nhood (*)"];
+  C [label = "几\nhow many? (57)"];
+  E [label = "米\nrice (778)"];
+  F [label = "攵\ntaskmaster (*)"];
 
-  扌 -> 撇 [thick];
-  敝 -> 撇 [thick];
-  冂 -> 敝 [thick];
-  几 -> 冂 [thick];
-  米 -> 敝 [thick];
-  攵 -> 敝 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  D -> G [thick];
+  C -> D [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

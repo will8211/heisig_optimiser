@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  骂 [label = "骂\n1456 scold"];
-  吅 [label = "吅\n* chatterbox"];
-  口 [label = "口\n11 mouth"];
-  马 [label = "马\n1453 horse"];
-  囧与－丨一 [label = "囧与－丨一\n* pointed tail"];
+  F [label = "骂\nscold (1456)"];
+  C [label = "吅\nchatterbox (*)"];
+  B [label = "口\nmouth (11)"];
+  E [label = "马\nhorse (1453)"];
+  D [label = "囧与－丨一\npointed tail (*)"];
 
-  吅 -> 骂 [thick];
-  口 -> 吅 [thick];
-  马 -> 骂 [thick];
-  囧与－丨一 -> 马 [thick];
+  C -> F [thick];
+  B -> C [thick];
+  E -> F [thick];
+  D -> E [thick];
 }

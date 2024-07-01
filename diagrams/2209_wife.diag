@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  妻 [label = "妻\n2209 wife"];
-  十 [label = "十\n10 ten"];
-  肀 [label = "肀\n* rake"];
-  彐 [label = "彐\n* broom"];
-  女 [label = "女\n102 woman"];
+  F [label = "妻\nwife (2209)"];
+  B [label = "十\nten (10)"];
+  D [label = "肀\nrake (*)"];
+  C [label = "彐\nbroom (*)"];
+  E [label = "女\nwoman (102)"];
 
-  十 -> 妻 [thick];
-  肀 -> 妻 [thick];
-  彐 -> 肀 [thick];
-  女 -> 妻 [thick];
+  B -> F [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

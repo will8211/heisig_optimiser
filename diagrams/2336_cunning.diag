@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  猾 [label = "猾\n2336 cunning"];
-  犬 [label = "犬\n239 pooch"];
-  大 [label = "大\n113 large"];
-  丶 [label = "丶\n* a drop of"];
-  骨 [label = "骨\n1053 skeleton"];
-  月 [label = "月\n13 month"];
-  冖 [label = "冖\n* crown"];
+  H [label = "猾\ncunning (2336)"];
+  D [label = "犬\npooch (239)"];
+  B [label = "大\nlarge (113)"];
+  C [label = "丶\na drop of (*)"];
+  G [label = "骨\nskeleton (1053)"];
+  E [label = "月\nmonth (13)"];
+  F [label = "冖\ncrown (*)"];
 
-  犬 -> 猾 [thick];
-  大 -> 犬 [thick];
-  丶 -> 犬 [thick];
-  骨 -> 猾 [thick];
-  月 -> 骨 [thick];
-  冖 -> 骨 [thick];
+  D -> H [thick];
+  B -> D [thick];
+  C -> D [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

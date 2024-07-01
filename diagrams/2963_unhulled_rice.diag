@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  稻 [label = "稻\n2963 unhulled rice"];
-  禾 [label = "禾\n762 standing grain"];
-  舀 [label = "舀\n* scoop"];
-  爪 [label = "爪\n663 claw"];
-  "𠂆" [label = "𠂆\n* drag"];
-  臼 [label = "臼\n* mortar"];
+  G [label = "稻\nunhulled rice (2963)"];
+  B [label = "禾\nstanding grain (762)"];
+  F [label = "舀\nscoop (*)"];
+  D [label = "爪\nclaw (663)"];
+  C [label = "𠂆\ndrag (*)"];
+  E [label = "臼\nmortar (*)"];
 
-  禾 -> 稻 [thick];
-  舀 -> 稻 [thick];
-  爪 -> 舀 [thick];
-  "𠂆" -> 爪 [thick];
-  臼 -> 舀 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
 }

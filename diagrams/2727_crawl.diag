@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  爬 [label = "爬\n2727 crawl"];
-  爪 [label = "爪\n663 claw"];
-  "𠂆" [label = "𠂆\n* drag"];
-  巴 [label = "巴\n1326 crust"];
+  E [label = "爬\ncrawl (2727)"];
+  C [label = "爪\nclaw (663)"];
+  B [label = "𠂆\ndrag (*)"];
+  D [label = "巴\ncrust (1326)"];
 
-  爪 -> 爬 [thick];
-  "𠂆" -> 爪 [thick];
-  巴 -> 爬 [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
 }

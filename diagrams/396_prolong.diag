@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  延 [label = "延\n396 prolong"];
-  廴 [label = "廴\n* stretch"];
-  丶 [label = "丶\n* a drop of"];
-  止 [label = "止\n379 stop"];
+  E [label = "延\nprolong (396)"];
+  B [label = "廴\nstretch (*)"];
+  C [label = "丶\na drop of (*)"];
+  D [label = "止\nstop (379)"];
 
-  廴 -> 延 [thick];
-  丶 -> 延 [thick];
-  止 -> 延 [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

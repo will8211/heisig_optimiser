@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  茧 [label = "茧\n1743 cocoon"];
-  艹 [label = "艹\n* flower"];
-  虫 [label = "虫\n509 insect"];
+  D [label = "茧\ncocoon (1743)"];
+  B [label = "艹\nflower (*)"];
+  C [label = "虫\ninsect (509)"];
 
-  艹 -> 茧 [thick];
-  虫 -> 茧 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  妇 [label = "妇\n943 married woman"];
-  女 [label = "女\n102 woman"];
-  彐 [label = "彐\n* broom"];
+  D [label = "妇\nmarried woman (943)"];
+  B [label = "女\nwoman (102)"];
+  C [label = "彐\nbroom (*)"];
 
-  女 -> 妇 [thick];
-  彐 -> 妇 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

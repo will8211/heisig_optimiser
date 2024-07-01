@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  写 [label = "写\n1033 write"];
-  冖 [label = "冖\n* crown"];
-  与 [label = "与\n1032 offer"];
-  囧与－丨一 [label = "囧与－丨一\n* pointed tail"];
-  囧与－一 [label = "囧与－一\n* slingshot"];
-  弓 [label = "弓\n1013 bow"];
+  G [label = "写\nwrite (1033)"];
+  B [label = "冖\ncrown (*)"];
+  F [label = "与\noffer (1032)"];
+  C [label = "囧与－丨一\npointed tail (*)"];
+  E [label = "囧与－一\nslingshot (*)"];
+  D [label = "弓\nbow (1013)"];
 
-  冖 -> 写 [thick];
-  与 -> 写 [thick];
-  囧与－丨一 -> 与 [thick];
-  囧与－一 -> 与 [thick];
-  弓 -> 囧与－一 [thick];
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
 }

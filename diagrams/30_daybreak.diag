@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  旦 [label = "旦\n30 daybreak"];
-  日 [label = "日\n12 day"];
-  一 [label = "一\n1 one"];
+  D [label = "旦\ndaybreak (30)"];
+  B [label = "日\nday (12)"];
+  C [label = "一\none (1)"];
 
-  日 -> 旦 [thick];
-  一 -> 旦 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

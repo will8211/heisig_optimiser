@@ -5,8 +5,8 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  毛 [label = "毛\n1421 fur"];
-  手 [label = "手\n584 hand"];
+  C [label = "毛\nfur (1421)"];
+  B [label = "手\nhand (584)"];
 
-  手 -> 毛 [thick];
+  B -> C [thick];
 }

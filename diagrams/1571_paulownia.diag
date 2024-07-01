@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  桐 [label = "桐\n1571 paulownia"];
-  木 [label = "木\n202 tree"];
-  同 [label = "同\n185 same"];
-  一 [label = "一\n1 one"];
-  口 [label = "口\n11 mouth"];
-  冂 [label = "冂\n* hood"];
-  几 [label = "几\n57 how many?"];
+  H [label = "桐\npaulownia (1571)"];
+  B [label = "木\ntree (202)"];
+  G [label = "同\nsame (185)"];
+  C [label = "一\none (1)"];
+  D [label = "口\nmouth (11)"];
+  F [label = "冂\nhood (*)"];
+  E [label = "几\nhow many? (57)"];
 
-  木 -> 桐 [thick];
-  同 -> 桐 [thick];
-  一 -> 同 [thick];
-  口 -> 同 [thick];
-  冂 -> 同 [thick];
-  几 -> 冂 [thick];
+  B -> H [thick];
+  G -> H [thick];
+  C -> G [thick];
+  D -> G [thick];
+  F -> G [thick];
+  E -> F [thick];
 }

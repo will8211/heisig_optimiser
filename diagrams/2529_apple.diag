@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  苹 [label = "苹\n2529 apple"];
-  艹 [label = "艹\n* flower"];
-  平 [label = "平\n1160 even"];
+  D [label = "苹\napple (2529)"];
+  B [label = "艹\nflower (*)"];
+  C [label = "平\neven (1160)"];
 
-  艹 -> 苹 [thick];
-  平 -> 苹 [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

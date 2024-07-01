@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  驶 [label = "驶\n2900 maneuver"];
-  马 [label = "马\n1453 horse"];
-  囧与－丨一 [label = "囧与－丨一\n* pointed tail"];
-  史 [label = "史\n630 history"];
-  口 [label = "口\n11 mouth"];
-  囧史－口 [label = "囧史－口\n* tucked under the arm"];
+  G [label = "驶\nmaneuver (2900)"];
+  C [label = "马\nhorse (1453)"];
+  B [label = "囧与－丨一\npointed tail (*)"];
+  F [label = "史\nhistory (630)"];
+  D [label = "口\nmouth (11)"];
+  E [label = "囧史－口\ntucked under the arm (*)"];
 
-  马 -> 驶 [thick];
-  囧与－丨一 -> 马 [thick];
-  史 -> 驶 [thick];
-  口 -> 史 [thick];
-  囧史－口 -> 史 [thick];
+  C -> G [thick];
+  B -> C [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

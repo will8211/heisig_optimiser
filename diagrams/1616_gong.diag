@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  锣 [label = "锣\n1616 gong"];
-  金 [label = "金\n279 gold"];
-  "𠆢" [label = "𠆢\n* umbrella"];
-  王 [label = "王\n265 king"];
-  工 [label = "工\n76 work"];
-  丶 [label = "丶\n* a drop of"];
-  罗 [label = "罗\n120 silk gauze"];
-  目 [label = "目\n15 eye"];
-  夕 [label = "夕\n115 evening"];
-  月 [label = "月\n13 month"];
+  K [label = "锣\ngong (1616)"];
+  F [label = "金\ngold (279)"];
+  B [label = "𠆢\numbrella (*)"];
+  D [label = "王\nking (265)"];
+  C [label = "工\nwork (76)"];
+  E [label = "丶\na drop of (*)"];
+  J [label = "罗\nsilk gauze (120)"];
+  G [label = "目\neye (15)"];
+  I [label = "夕\nevening (115)"];
+  H [label = "月\nmonth (13)"];
 
-  金 -> 锣 [thick];
-  "𠆢" -> 金 [thick];
-  王 -> 金 [thick];
-  工 -> 王 [thick];
-  丶 -> 金 [thick];
-  罗 -> 锣 [thick];
-  目 -> 罗 [thick];
-  夕 -> 罗 [thick];
-  月 -> 夕 [thick];
+  F -> K [thick];
+  B -> F [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
+  J -> K [thick];
+  G -> J [thick];
+  I -> J [thick];
+  H -> I [thick];
 }

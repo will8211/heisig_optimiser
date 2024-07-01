@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  码 [label = "码\n2893 numeral"];
-  石 [label = "石\n125 stone"];
-  口 [label = "口\n11 mouth"];
-  厂 [label = "厂\n121 factory"];
-  马 [label = "马\n1453 horse"];
-  囧与－丨一 [label = "囧与－丨一\n* pointed tail"];
+  G [label = "码\nnumeral (2893)"];
+  D [label = "石\nstone (125)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "厂\nfactory (121)"];
+  F [label = "马\nhorse (1453)"];
+  E [label = "囧与－丨一\npointed tail (*)"];
 
-  石 -> 码 [thick];
-  口 -> 石 [thick];
-  厂 -> 石 [thick];
-  马 -> 码 [thick];
-  囧与－丨一 -> 马 [thick];
+  D -> G [thick];
+  B -> D [thick];
+  C -> D [thick];
+  F -> G [thick];
+  E -> F [thick];
 }

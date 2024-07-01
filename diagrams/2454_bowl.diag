@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  碗 [label = "碗\n2454 bowl"];
-  石 [label = "石\n125 stone"];
-  口 [label = "口\n11 mouth"];
-  厂 [label = "厂\n121 factory"];
-  宛 [label = "宛\n2451 winding"];
-  宀 [label = "宀\n* house"];
-  夗 [label = "夗\n* nameplate"];
-  夕 [label = "夕\n115 evening"];
-  月 [label = "月\n13 month"];
-  "㔾" [label = "㔾\n* fingerprint"];
+  K [label = "碗\nbowl (2454)"];
+  D [label = "石\nstone (125)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "厂\nfactory (121)"];
+  J [label = "宛\nwinding (2451)"];
+  E [label = "宀\nhouse (*)"];
+  I [label = "夗\nnameplate (*)"];
+  G [label = "夕\nevening (115)"];
+  F [label = "月\nmonth (13)"];
+  H [label = "㔾\nfingerprint (*)"];
 
-  石 -> 碗 [thick];
-  口 -> 石 [thick];
-  厂 -> 石 [thick];
-  宛 -> 碗 [thick];
-  宀 -> 宛 [thick];
-  夗 -> 宛 [thick];
-  夕 -> 夗 [thick];
-  月 -> 夕 [thick];
-  "㔾" -> 夗 [thick];
+  D -> K [thick];
+  B -> D [thick];
+  C -> D [thick];
+  J -> K [thick];
+  E -> J [thick];
+  I -> J [thick];
+  G -> I [thick];
+  F -> G [thick];
+  H -> I [thick];
 }

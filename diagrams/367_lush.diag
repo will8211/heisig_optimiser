@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  茂 [label = "茂\n367 lush"];
-  戊 [label = "戊\n* parade"];
-  戈 [label = "戈\n361 halberd"];
-  弋 [label = "弋\n* arrow"];
-  艹 [label = "艹\n* flower"];
+  F [label = "茂\nlush (367)"];
+  D [label = "戊\nparade (*)"];
+  C [label = "戈\nhalberd (361)"];
+  B [label = "弋\narrow (*)"];
+  E [label = "艹\nflower (*)"];
 
-  戊 -> 茂 [thick];
-  戈 -> 戊 [thick];
-  弋 -> 戈 [thick];
-  艹 -> 茂 [thick];
+  D -> F [thick];
+  C -> D [thick];
+  B -> C [thick];
+  E -> F [thick];
 }
