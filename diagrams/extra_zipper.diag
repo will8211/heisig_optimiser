@@ -1,0 +1,11 @@
+blockdiag {
+  囧舆－车 [label = "囧舆－车\n* zipper"];
+  囧具－目 [label = "囧具－目\n* tool"];
+  囧只－口 [label = "囧只－口\n* animal legs"];
+  八 [label = "八\n8 eight"];
+  囧印－卩 [label = "囧印－卩\n* staples"];
+  囧具－目 -> 囧舆－车;
+  囧只－口 -> 囧具－目;
+  八 -> 囧只－口;
+  囧印－卩 -> 囧舆－车;
+}

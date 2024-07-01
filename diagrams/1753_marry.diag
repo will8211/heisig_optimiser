@@ -1,8 +1,8 @@
 blockdiag {
   嫁 [label = "嫁\n1753 marry"];
   女 [label = "女\n102 woman"];
-  囧家 [label = "囧家\nNone flophouse"];
-  宀 [label = "宀\nNone house"];
+  囧家 [label = "囧家\n* flophouse"];
+  宀 [label = "宀\n* house"];
   女 -> 嫁;
   囧家 -> 嫁;
   宀 -> 囧家;

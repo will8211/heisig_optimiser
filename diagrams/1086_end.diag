@@ -1,14 +1,14 @@
 blockdiag {
   终 [label = "终\n1086 end"];
-  纟 [label = "纟\nNone thread"];
-  厶 [label = "厶\nNone elbow"];
+  纟 [label = "纟\n* thread"];
+  厶 [label = "厶\n* elbow"];
   冬 [label = "冬\n435 winter"];
-  夂 [label = "夂\nNone walking legs"];
-  冫 [label = "冫\nNone ice"];
+  夂 [label = "夂\n* walking legs"];
+  冫 [label = "冫\n* ice"];
   水 [label = "水\n137 water"];
-  丨 [label = "丨\nNone walking stick"];
+  丨 [label = "丨\n* walking stick"];
   一 [label = "一\n1 one"];
-  丶 [label = "丶\nNone a drop of"];
+  丶 [label = "丶\n* a drop of"];
   纟 -> 终;
   厶 -> 纟;
   冬 -> 终;

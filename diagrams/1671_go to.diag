@@ -1,14 +1,14 @@
 blockdiag {
   赴 [label = "赴\n1671 go to"];
   走 [label = "走\n391 walk"];
-  囧走－十 [label = "囧走－十\nNone mending"];
+  囧走－十 [label = "囧走－十\n* mending"];
   正 [label = "正\n387 correct"];
   一 [label = "一\n1 one"];
   止 [label = "止\n379 stop"];
   土 [label = "土\n158 soil"];
   卜 [label = "卜\n43 divination"];
-  丨 [label = "丨\nNone walking stick"];
-  丶 [label = "丶\nNone a drop of"];
+  丨 [label = "丨\n* walking stick"];
+  丶 [label = "丶\n* a drop of"];
   走 -> 赴;
   囧走－十 -> 走;
   正 -> 囧走－十;

@@ -1,8 +1,8 @@
 blockdiag {
   稼 [label = "稼\n2011 crops"];
   禾 [label = "禾\n762 standing grain"];
-  囧家 [label = "囧家\nNone flophouse"];
-  宀 [label = "宀\nNone house"];
+  囧家 [label = "囧家\n* flophouse"];
+  宀 [label = "宀\n* house"];
   禾 -> 稼;
   囧家 -> 稼;
   宀 -> 囧家;

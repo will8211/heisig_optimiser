@@ -1,10 +1,10 @@
 blockdiag {
   富 [label = "富\n200 wealthy"];
-  畐 [label = "畐\nNone wealth"];
+  畐 [label = "畐\n* wealth"];
   一 [label = "一\n1 one"];
   口 [label = "口\n11 mouth"];
   田 [label = "田\n14 rice field"];
-  宀 [label = "宀\nNone house"];
+  宀 [label = "宀\n* house"];
   畐 -> 富;
   一 -> 畐;
   口 -> 畐;

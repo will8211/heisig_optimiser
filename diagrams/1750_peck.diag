@@ -1,8 +1,8 @@
 blockdiag {
   啄 [label = "啄\n1750 peck"];
   口 [label = "口\n11 mouth"];
-  豖 [label = "豖\nNone hog-tied"];
-  豕 [label = "豕\nNone sow"];
+  豖 [label = "豖\n* hog-tied"];
+  豕 [label = "豕\n* sow"];
   口 -> 啄;
   豖 -> 啄;
   豕 -> 豖;

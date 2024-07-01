@@ -1,0 +1,15 @@
+blockdiag {
+  桼 [label = "桼\n* Baron von Rumpelbrella"];
+  𠆢 [label = "𠆢\n* umbrella"];
+  水 [label = "水\n137 water"];
+  丨 [label = "丨\n* walking stick"];
+  一 [label = "一\n1 one"];
+  丶 [label = "丶\n* a drop of"];
+  木 [label = "木\n202 tree"];
+  𠆢 -> 桼;
+  水 -> 桼;
+  丨 -> 水;
+  一 -> 丨;
+  丶 -> 水;
+  木 -> 桼;
+}

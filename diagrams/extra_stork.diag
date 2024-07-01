@@ -1,0 +1,11 @@
+blockdiag {
+  雚 [label = "雚\n* stork"];
+  隹 [label = "隹\n* turkey"];
+  吅 [label = "吅\n* chatterbox"];
+  口 [label = "口\n11 mouth"];
+  艹 [label = "艹\n* flower"];
+  隹 -> 雚;
+  吅 -> 雚;
+  口 -> 吅;
+  艹 -> 雚;
+}

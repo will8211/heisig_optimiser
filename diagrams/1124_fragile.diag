@@ -2,9 +2,9 @@ blockdiag {
   脆 [label = "脆\n1124 fragile"];
   月 [label = "月\n13 month"];
   危 [label = "危\n1123 danger"];
-  勹 [label = "勹\nNone bound up"];
+  勹 [label = "勹\n* bound up"];
   厂 [label = "厂\n121 factory"];
-  㔾 [label = "㔾\nNone fingerprint"];
+  㔾 [label = "㔾\n* fingerprint"];
   月 -> 脆;
   危 -> 脆;
   勹 -> 危;

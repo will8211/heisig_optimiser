@@ -1,12 +1,12 @@
 blockdiag {
   渔 [label = "渔\n155 fishing"];
   鱼 [label = "鱼\n154 fish"];
-  勹 [label = "勹\nNone bound up"];
+  勹 [label = "勹\n* bound up"];
   田 [label = "田\n14 rice field"];
   一 [label = "一\n1 one"];
   水 [label = "水\n137 water"];
-  丨 [label = "丨\nNone walking stick"];
-  丶 [label = "丶\nNone a drop of"];
+  丨 [label = "丨\n* walking stick"];
+  丶 [label = "丶\n* a drop of"];
   鱼 -> 渔;
   勹 -> 鱼;
   田 -> 鱼;

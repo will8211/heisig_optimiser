@@ -1,8 +1,8 @@
 blockdiag {
   纠 [label = "纠\n2560 entangle"];
-  纟 [label = "纟\nNone thread"];
-  厶 [label = "厶\nNone elbow"];
-  丩 [label = "丩\nNone cornucopia"];
+  纟 [label = "纟\n* thread"];
+  厶 [label = "厶\n* elbow"];
+  丩 [label = "丩\n* cornucopia"];
   纟 -> 纠;
   厶 -> 纟;
   丩 -> 纠;

@@ -1,14 +1,14 @@
 blockdiag {
   趋 [label = "趋\n2199 hasten"];
   走 [label = "走\n391 walk"];
-  囧走－十 [label = "囧走－十\nNone mending"];
+  囧走－十 [label = "囧走－十\n* mending"];
   正 [label = "正\n387 correct"];
   一 [label = "一\n1 one"];
   止 [label = "止\n379 stop"];
   土 [label = "土\n158 soil"];
-  刍 [label = "刍\nNone hairnet"];
-  勹 [label = "勹\nNone bound up"];
-  彐 [label = "彐\nNone broom"];
+  刍 [label = "刍\n* hairnet"];
+  勹 [label = "勹\n* bound up"];
+  彐 [label = "彐\n* broom"];
   走 -> 趋;
   囧走－十 -> 走;
   正 -> 囧走－十;

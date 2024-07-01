@@ -1,10 +1,10 @@
 blockdiag {
   稻 [label = "稻\n2963 unhulled rice"];
   禾 [label = "禾\n762 standing grain"];
-  舀 [label = "舀\nNone scoop"];
+  舀 [label = "舀\n* scoop"];
   爪 [label = "爪\n663 claw"];
-  𠂆 [label = "𠂆\nNone drag"];
-  臼 [label = "臼\nNone mortar"];
+  𠂆 [label = "𠂆\n* drag"];
+  臼 [label = "臼\n* mortar"];
   禾 -> 稻;
   舀 -> 稻;
   爪 -> 舀;

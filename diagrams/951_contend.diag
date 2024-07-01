@@ -1,8 +1,8 @@
 blockdiag {
   争 [label = "争\n951 contend"];
-  勹 [label = "勹\nNone bound up"];
-  肀 [label = "肀\nNone rake"];
-  彐 [label = "彐\nNone broom"];
+  勹 [label = "勹\n* bound up"];
+  肀 [label = "肀\n* rake"];
+  彐 [label = "彐\n* broom"];
   勹 -> 争;
   肀 -> 争;
   彐 -> 肀;

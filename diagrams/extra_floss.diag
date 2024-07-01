@@ -1,0 +1,9 @@
+blockdiag {
+  糸 [label = "糸\n* floss"];
+  幺 [label = "幺\n* cocoon"];
+  小 [label = "小\n109 small"];
+  丶 [label = "丶\n* a drop of"];
+  幺 -> 糸;
+  小 -> 糸;
+  丶 -> 小;
+}

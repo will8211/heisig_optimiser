@@ -1,11 +1,11 @@
 blockdiag {
   鲜 [label = "鲜\n531 fresh"];
   鱼 [label = "鱼\n154 fish"];
-  勹 [label = "勹\nNone bound up"];
+  勹 [label = "勹\n* bound up"];
   田 [label = "田\n14 rice field"];
   一 [label = "一\n1 one"];
   羊 [label = "羊\n528 sheep"];
-  丷 [label = "丷\nNone horns"];
+  丷 [label = "丷\n* horns"];
   鱼 -> 鲜;
   勹 -> 鱼;
   田 -> 鱼;

@@ -1,0 +1,13 @@
+blockdiag {
+  喿 [label = "喿\n* wood pulp"];
+  品 [label = "品\n24 goods"];
+  晶 [label = "晶\n23 sparkling"];
+  日 [label = "日\n12 day"];
+  口 [label = "口\n11 mouth"];
+  木 [label = "木\n202 tree"];
+  品 -> 喿;
+  晶 -> 品;
+  日 -> 晶;
+  口 -> 品;
+  木 -> 喿;
+}

@@ -1,0 +1,25 @@
+blockdiag {
+  亶 [label = "亶\n* Mr. Hyde"];
+  亠 [label = "亠\n* top hat"];
+  六 [label = "六\n6 six"];
+  囧只－口 [label = "囧只－口\n* animal legs"];
+  八 [label = "八\n8 eight"];
+  回 [label = "回\n554 return"];
+  囗 [label = "囗\n* pent in"];
+  口 [label = "口\n11 mouth"];
+  旦 [label = "旦\n30 daybreak"];
+  日 [label = "日\n12 day"];
+  一 [label = "一\n1 one"];
+  亠 -> 亶;
+  六 -> 亠;
+  囧只－口 -> 六;
+  八 -> 囧只－口;
+  囧只－口 -> 亠;
+  八 -> 囧只－口;
+  回 -> 亶;
+  囗 -> 回;
+  口 -> 回;
+  旦 -> 亶;
+  日 -> 旦;
+  一 -> 旦;
+}

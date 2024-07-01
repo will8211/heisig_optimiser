@@ -32,7 +32,7 @@ def build_hierarchy(character, character_map, visited=None):
     visited.remove(character)  # Remove character from visited after processing
 
     return {
-        "number": str(character_data["Number"]),
+        "number": str(character_data["Number"]) if character_data["Number"] else None,
         "character": character_data["Character"],
         "keyword": character_data["Keywords"][0],
         "requirements": requirements,
@@ -57,7 +57,9 @@ for character_data in data:
     first_keyword = character_data["Keywords"][0]
     hierarchy = build_hierarchy(character, character_map)
     if hierarchy:
-        output_file = os.path.join(output_dir, f"{number}_{first_keyword}.json")
+        output_file = os.path.join(
+            output_dir, f"{number or 'extra'}_{first_keyword}.json"
+        )
         with open(output_file, "w", encoding="utf-8") as f:
             json.dump(hierarchy, f, ensure_ascii=False, indent=2)
 

@@ -1,9 +1,9 @@
 blockdiag {
   构 [label = "构\n687 frame"];
   木 [label = "木\n202 tree"];
-  囧勾 [label = "囧勾\nNone cast"];
-  勹 [label = "勹\nNone bound up"];
-  厶 [label = "厶\nNone elbow"];
+  囧勾 [label = "囧勾\n* cast"];
+  勹 [label = "勹\n* bound up"];
+  厶 [label = "厶\n* elbow"];
   木 -> 构;
   囧勾 -> 构;
   勹 -> 囧勾;

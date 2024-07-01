@@ -1,11 +1,11 @@
 blockdiag {
   邻 [label = "邻\n2811 neighbor"];
   令 [label = "令\n1113 orders"];
-  亼 [label = "亼\nNone meeting"];
-  𠆢 [label = "𠆢\nNone umbrella"];
-  囧节－艹 [label = "囧节－艹\nNone chop"];
-  囧阝 [label = "囧阝\nNone city walls"];
-  阝 [label = "阝\nNone pinnacle"];
+  亼 [label = "亼\n* meeting"];
+  𠆢 [label = "𠆢\n* umbrella"];
+  囧节－艹 [label = "囧节－艹\n* chop"];
+  囧阝 [label = "囧阝\n* city walls"];
+  阝 [label = "阝\n* pinnacle"];
   令 -> 邻;
   亼 -> 令;
   𠆢 -> 亼;

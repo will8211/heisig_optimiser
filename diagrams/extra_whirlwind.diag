@@ -1,0 +1,15 @@
+blockdiag {
+  亢 [label = "亢\n* whirlwind"];
+  亠 [label = "亠\n* top hat"];
+  六 [label = "六\n6 six"];
+  囧只－口 [label = "囧只－口\n* animal legs"];
+  八 [label = "八\n8 eight"];
+  几 [label = "几\n57 how many?"];
+  亠 -> 亢;
+  六 -> 亠;
+  囧只－口 -> 六;
+  八 -> 囧只－口;
+  囧只－口 -> 亠;
+  八 -> 囧只－口;
+  几 -> 亢;
+}

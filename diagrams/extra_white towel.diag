@@ -1,0 +1,11 @@
+blockdiag {
+  帛 [label = "帛\n* white towel"];
+  白 [label = "白\n34 white"];
+  日 [label = "日\n12 day"];
+  丶 [label = "丶\n* a drop of"];
+  巾 [label = "巾\n410 towel"];
+  白 -> 帛;
+  日 -> 白;
+  丶 -> 白;
+  巾 -> 帛;
+}

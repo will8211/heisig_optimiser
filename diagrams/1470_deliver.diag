@@ -1,11 +1,11 @@
 blockdiag {
   送 [label = "送\n1470 deliver"];
   关 [label = "关\n1469 shut"];
-  丷 [label = "丷\nNone horns"];
+  丷 [label = "丷\n* horns"];
   一 [label = "一\n1 one"];
   天 [label = "天\n436 heavens"];
   大 [label = "大\n113 large"];
-  辶 [label = "辶\nNone road"];
+  辶 [label = "辶\n* road"];
   关 -> 送;
   丷 -> 关;
   一 -> 丷;
