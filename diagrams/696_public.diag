@@ -1,7 +1,7 @@
 blockdiag {
-  696 [label = "公\n696 public"];
-  8 [label = "八\n8 eight"];
-  None [label = "厶\nNone elbow"];
-  8 -> 696;
-  None -> 696;
+  公 [label = "公\n696 public"];
+  八 [label = "八\n8 eight"];
+  厶 [label = "厶\nNone elbow"];
+  八 -> 公;
+  厶 -> 公;
 }

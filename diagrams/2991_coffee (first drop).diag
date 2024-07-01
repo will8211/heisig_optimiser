@@ -1,14 +1,14 @@
 blockdiag {
-  2991 [label = "咖\n2991 coffee (first drop)"];
-  11 [label = "口\n11 mouth"];
-  749 [label = "加\n749 add"];
-  63 [label = "肌\n63 muscle"];
-  57 [label = "几\n57 how many?"];
-  13 [label = "月\n13 month"];
-  11 -> 2991;
-  749 -> 2991;
-  63 -> 749;
-  57 -> 63;
-  13 -> 63;
-  11 -> 749;
+  咖 [label = "咖\n2991 coffee (first drop)"];
+  口 [label = "口\n11 mouth"];
+  加 [label = "加\n749 add"];
+  肌 [label = "肌\n63 muscle"];
+  几 [label = "几\n57 how many?"];
+  月 [label = "月\n13 month"];
+  口 -> 咖;
+  加 -> 咖;
+  肌 -> 加;
+  几 -> 肌;
+  月 -> 肌;
+  口 -> 加;
 }

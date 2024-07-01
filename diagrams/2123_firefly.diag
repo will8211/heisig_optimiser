@@ -1,9 +1,11 @@
 blockdiag {
-  2123 [label = "萤\n2123 firefly"];
-  None [label = "艹\nNone flower"];
-  509 [label = "虫\n509 insect"];
-  None -> 2123;
-  None -> None;
-  None -> None;
-  509 -> 2123;
+  萤 [label = "萤\n2123 firefly"];
+  囧荣－木 [label = "囧荣－木\nNone greenhouse"];
+  宀 [label = "宀\nNone house"];
+  艹 [label = "艹\nNone flower"];
+  虫 [label = "虫\n509 insect"];
+  囧荣－木 -> 萤;
+  宀 -> 囧荣－木;
+  艹 -> 囧荣－木;
+  虫 -> 萤;
 }

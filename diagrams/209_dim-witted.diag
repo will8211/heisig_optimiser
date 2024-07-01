@@ -1,7 +1,7 @@
 blockdiag {
-  209 [label = "呆\n209 dim-witted"];
-  202 [label = "木\n202 tree"];
-  11 [label = "口\n11 mouth"];
-  202 -> 209;
-  11 -> 209;
+  呆 [label = "呆\n209 dim-witted"];
+  木 [label = "木\n202 tree"];
+  口 [label = "口\n11 mouth"];
+  木 -> 呆;
+  口 -> 呆;
 }

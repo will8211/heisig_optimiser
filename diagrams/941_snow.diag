@@ -1,7 +1,7 @@
 blockdiag {
-  941 [label = "雪\n941 snow"];
-  425 [label = "雨\n425 rain"];
-  None [label = "彐\nNone broom"];
-  425 -> 941;
-  None -> 941;
+  雪 [label = "雪\n941 snow"];
+  雨 [label = "雨\n425 rain"];
+  彐 [label = "彐\nNone broom"];
+  雨 -> 雪;
+  彐 -> 雪;
 }

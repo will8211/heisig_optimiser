@@ -1,7 +1,7 @@
 blockdiag {
-  2247 [label = "拌\n2247 blend"];
-  None [label = "扌\nNone fingers"];
-  980 [label = "半\n980 half"];
-  None -> 2247;
-  980 -> 2247;
+  拌 [label = "拌\n2247 blend"];
+  扌 [label = "扌\nNone fingers"];
+  半 [label = "半\n980 half"];
+  扌 -> 拌;
+  半 -> 拌;
 }

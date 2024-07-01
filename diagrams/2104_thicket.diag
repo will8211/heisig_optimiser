@@ -1,9 +1,9 @@
 blockdiag {
-  2104 [label = "丛\n2104 thicket"];
-  846 [label = "从\n846 follow"];
-  793 [label = "人\n793 person"];
-  1 [label = "一\n1 one"];
-  846 -> 2104;
-  793 -> 846;
-  1 -> 2104;
+  丛 [label = "丛\n2104 thicket"];
+  从 [label = "从\n846 follow"];
+  人 [label = "人\n793 person"];
+  一 [label = "一\n1 one"];
+  从 -> 丛;
+  人 -> 从;
+  一 -> 丛;
 }

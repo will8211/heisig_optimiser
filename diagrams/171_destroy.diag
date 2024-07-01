@@ -1,7 +1,7 @@
 blockdiag {
-  171 [label = "灭\n171 destroy"];
-  170 [label = "火\n170 fire"];
-  1 [label = "一\n1 one"];
-  170 -> 171;
-  1 -> 171;
+  灭 [label = "灭\n171 destroy"];
+  火 [label = "火\n170 fire"];
+  一 [label = "一\n1 one"];
+  火 -> 灭;
+  一 -> 灭;
 }

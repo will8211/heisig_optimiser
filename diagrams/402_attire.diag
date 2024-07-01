@@ -1,18 +1,19 @@
 blockdiag {
-  402 [label = "装\n402 attire"];
-  400 [label = "衣\n400 clothing"];
-  None [label = "囧只－口\nNone animal legs"];
-  6 [label = "六\n6 six"];
-  8 [label = "八\n8 eight"];
-  237 [label = "兆\n237 portent"];
-  334 [label = "士\n334 soldier"];
-  400 -> 402;
-  None -> 400;
-  6 -> None;
-  None -> 6;
-  8 -> None;
-  None -> None;
-  8 -> None;
-  237 -> 402;
-  334 -> 402;
+  装 [label = "装\n402 attire"];
+  衣 [label = "衣\n400 clothing"];
+  亠 [label = "亠\nNone top hat"];
+  六 [label = "六\n6 six"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  兆 [label = "兆\n237 portent"];
+  士 [label = "士\n334 soldier"];
+  衣 -> 装;
+  亠 -> 衣;
+  六 -> 亠;
+  囧只－口 -> 六;
+  八 -> 囧只－口;
+  囧只－口 -> 亠;
+  八 -> 囧只－口;
+  兆 -> 装;
+  士 -> 装;
 }

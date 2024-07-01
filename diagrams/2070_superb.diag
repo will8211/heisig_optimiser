@@ -1,9 +1,9 @@
 blockdiag {
-  2070 [label = "佳\n2070 superb"];
-  793 [label = "人\n793 person"];
-  None [label = "圭\nNone bricks"];
-  158 [label = "土\n158 soil"];
-  793 -> 2070;
-  None -> 2070;
-  158 -> None;
+  佳 [label = "佳\n2070 superb"];
+  人 [label = "人\n793 person"];
+  圭 [label = "圭\nNone bricks"];
+  土 [label = "土\n158 soil"];
+  人 -> 佳;
+  圭 -> 佳;
+  土 -> 圭;
 }

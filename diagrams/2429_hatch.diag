@@ -1,17 +1,21 @@
 blockdiag {
-  2429 [label = "孵\n2429 hatch"];
-  2428 [label = "卵\n2428 nest eggs"];
-  None [label = "𠂆\nNone drag"];
-  83 [label = "刀\n83 sword"];
-  663 [label = "爪\n663 claw"];
-  97 [label = "子\n97 child"];
-  2428 -> 2429;
-  None -> 2428;
-  None -> None;
-  83 -> None;
-  None -> 2428;
-  None -> 2429;
-  663 -> None;
-  None -> 663;
-  97 -> None;
+  孵 [label = "孵\n2429 hatch"];
+  卵 [label = "卵\n2428 nest eggs"];
+  囧贸－贝 [label = "囧贸－贝\nNone letter opener"];
+  卩 [label = "卩\nNone stamp"];
+  刀 [label = "刀\n83 sword"];
+  丶 [label = "丶\nNone a drop of"];
+  孚 [label = "孚\nNone fledglings"];
+  爪 [label = "爪\n663 claw"];
+  𠂆 [label = "𠂆\nNone drag"];
+  子 [label = "子\n97 child"];
+  卵 -> 孵;
+  囧贸－贝 -> 卵;
+  卩 -> 囧贸－贝;
+  刀 -> 囧贸－贝;
+  丶 -> 卵;
+  孚 -> 孵;
+  爪 -> 孚;
+  𠂆 -> 爪;
+  子 -> 孚;
 }

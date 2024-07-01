@@ -1,11 +1,13 @@
 blockdiag {
-  2115 [label = "挺\n2115 erect"];
-  None [label = "廴\nNone stretch"];
-  854 [label = "廷\n854 royal court"];
-  334 [label = "士\n334 soldier"];
-  None -> 2115;
-  854 -> 2115;
-  None -> 854;
-  334 -> None;
-  None -> 854;
+  挺 [label = "挺\n2115 erect"];
+  扌 [label = "扌\nNone fingers"];
+  廷 [label = "廷\n854 royal court"];
+  壬 [label = "壬\nNone porter"];
+  士 [label = "士\n334 soldier"];
+  廴 [label = "廴\nNone stretch"];
+  扌 -> 挺;
+  廷 -> 挺;
+  壬 -> 廷;
+  士 -> 壬;
+  廴 -> 廷;
 }

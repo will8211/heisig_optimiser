@@ -1,10 +1,13 @@
 blockdiag {
-  1081 [label = "线\n1081 line"];
-  None [label = "弋\nNone arrow"];
-  361 [label = "戈\n361 halberd"];
-  None -> 1081;
-  None -> None;
-  None -> 1081;
-  361 -> None;
-  None -> 361;
+  线 [label = "线\n1081 line"];
+  纟 [label = "纟\nNone thread"];
+  厶 [label = "厶\nNone elbow"];
+  戋 [label = "戋\nNone float"];
+  戈 [label = "戈\n361 halberd"];
+  弋 [label = "弋\nNone arrow"];
+  纟 -> 线;
+  厶 -> 纟;
+  戋 -> 线;
+  戈 -> 戋;
+  弋 -> 戈;
 }

@@ -1,13 +1,13 @@
 blockdiag {
-  2272 [label = "疆\n2272 dividing line"];
-  1013 [label = "弓\n1013 bow"];
-  158 [label = "土\n158 soil"];
-  None [label = "畺\nNone family feud"];
-  14 [label = "田\n14 rice field"];
-  1 [label = "一\n1 one"];
-  1013 -> 2272;
-  158 -> 2272;
-  None -> 2272;
-  14 -> None;
-  1 -> None;
+  疆 [label = "疆\n2272 dividing line"];
+  弓 [label = "弓\n1013 bow"];
+  土 [label = "土\n158 soil"];
+  畺 [label = "畺\nNone family feud"];
+  田 [label = "田\n14 rice field"];
+  一 [label = "一\n1 one"];
+  弓 -> 疆;
+  土 -> 疆;
+  畺 -> 疆;
+  田 -> 畺;
+  一 -> 畺;
 }

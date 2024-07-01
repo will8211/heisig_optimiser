@@ -1,11 +1,11 @@
 blockdiag {
-  476 [label = "歌\n476 song"];
-  92 [label = "可\n92 can"];
-  90 [label = "丁\n90 fourth"];
-  11 [label = "口\n11 mouth"];
-  474 [label = "欠\n474 lack"];
-  92 -> 476;
-  90 -> 92;
-  11 -> 92;
-  474 -> 476;
+  歌 [label = "歌\n476 song"];
+  可 [label = "可\n92 can"];
+  丁 [label = "丁\n90 fourth"];
+  口 [label = "口\n11 mouth"];
+  欠 [label = "欠\n474 lack"];
+  可 -> 歌;
+  丁 -> 可;
+  口 -> 可;
+  欠 -> 歌;
 }

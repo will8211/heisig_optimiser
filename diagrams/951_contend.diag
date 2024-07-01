@@ -1,7 +1,9 @@
 blockdiag {
-  951 [label = "争\n951 contend"];
-  None [label = "彐\nNone broom"];
-  None -> 951;
-  None -> 951;
-  None -> None;
+  争 [label = "争\n951 contend"];
+  勹 [label = "勹\nNone bound up"];
+  肀 [label = "肀\nNone rake"];
+  彐 [label = "彐\nNone broom"];
+  勹 -> 争;
+  肀 -> 争;
+  彐 -> 肀;
 }

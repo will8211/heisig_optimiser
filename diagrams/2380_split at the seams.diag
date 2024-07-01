@@ -1,16 +1,19 @@
 blockdiag {
-  2380 [label = "绽\n2380 split at the seams"];
-  None [label = "宀\nNone house"];
-  390 [label = "定\n390 settle on"];
-  387 [label = "正\n387 correct"];
-  1 [label = "一\n1 one"];
-  379 [label = "止\n379 stop"];
-  None -> 2380;
-  None -> None;
-  390 -> 2380;
-  None -> 390;
-  387 -> None;
-  1 -> 387;
-  379 -> 387;
-  None -> 390;
+  绽 [label = "绽\n2380 split at the seams"];
+  纟 [label = "纟\nNone thread"];
+  厶 [label = "厶\nNone elbow"];
+  定 [label = "定\n390 settle on"];
+  囧走－十 [label = "囧走－十\nNone mending"];
+  正 [label = "正\n387 correct"];
+  一 [label = "一\n1 one"];
+  止 [label = "止\n379 stop"];
+  宀 [label = "宀\nNone house"];
+  纟 -> 绽;
+  厶 -> 纟;
+  定 -> 绽;
+  囧走－十 -> 定;
+  正 -> 囧走－十;
+  一 -> 正;
+  止 -> 正;
+  宀 -> 定;
 }

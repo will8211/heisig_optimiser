@@ -1,7 +1,7 @@
 blockdiag {
-  2627 [label = "闪\n2627 flash"];
-  1260 [label = "门\n1260 gate"];
-  793 [label = "人\n793 person"];
-  1260 -> 2627;
-  793 -> 2627;
+  闪 [label = "闪\n2627 flash"];
+  门 [label = "门\n1260 gate"];
+  人 [label = "人\n793 person"];
+  门 -> 闪;
+  人 -> 闪;
 }

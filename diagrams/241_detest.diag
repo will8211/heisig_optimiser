@@ -1,11 +1,11 @@
 blockdiag {
-  241 [label = "厌\n241 detest"];
-  239 [label = "犬\n239 pooch"];
-  113 [label = "大\n113 large"];
-  None [label = "丶\nNone a drop of"];
-  121 [label = "厂\n121 factory"];
-  239 -> 241;
-  113 -> 239;
-  None -> 239;
-  121 -> 241;
+  厌 [label = "厌\n241 detest"];
+  犬 [label = "犬\n239 pooch"];
+  大 [label = "大\n113 large"];
+  丶 [label = "丶\nNone a drop of"];
+  厂 [label = "厂\n121 factory"];
+  犬 -> 厌;
+  大 -> 犬;
+  丶 -> 犬;
+  厂 -> 厌;
 }

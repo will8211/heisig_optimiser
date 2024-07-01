@@ -1,9 +1,11 @@
 blockdiag {
-  None [label = "囧节－艹\nNone chop"];
-  13 [label = "月\n13 month"];
-  1 [label = "一\n1 one"];
-  13 -> None;
-  None -> None;
-  1 -> None;
-  None -> None;
+  甬 [label = "甬\nNone chop-rack"];
+  月 [label = "月\n13 month"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  囧节－艹 [label = "囧节－艹\nNone chop"];
+  月 -> 甬;
+  丨 -> 甬;
+  一 -> 丨;
+  囧节－艹 -> 甬;
 }

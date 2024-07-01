@@ -1,10 +1,11 @@
 blockdiag {
-  1433 [label = "兴\n1433 excitement"];
-  None [label = "囧只－口\nNone animal legs"];
-  1 [label = "一\n1 one"];
-  8 [label = "八\n8 eight"];
-  None -> 1433;
-  1 -> 1433;
-  None -> 1433;
-  8 -> None;
+  兴 [label = "兴\n1433 excitement"];
+  囧应－广 [label = "囧应－广\nNone owl"];
+  一 [label = "一\n1 one"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  囧应－广 -> 兴;
+  一 -> 兴;
+  囧只－口 -> 兴;
+  八 -> 囧只－口;
 }

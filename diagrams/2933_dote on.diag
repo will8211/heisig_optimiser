@@ -1,14 +1,15 @@
 blockdiag {
-  2933 [label = "宠\n2933 dote on"];
-  None [label = "丶\nNone a drop of"];
-  1474 [label = "龙\n1474 dragon"];
-  239 [label = "犬\n239 pooch"];
-  113 [label = "大\n113 large"];
-  453 [label = "匕\n453 ancient spoon"];
-  None -> 2933;
-  1474 -> 2933;
-  239 -> 1474;
-  113 -> 239;
-  None -> 239;
-  453 -> 1474;
+  宠 [label = "宠\n2933 dote on"];
+  宀 [label = "宀\nNone house"];
+  龙 [label = "龙\n1474 dragon"];
+  犬 [label = "犬\n239 pooch"];
+  大 [label = "大\n113 large"];
+  丶 [label = "丶\nNone a drop of"];
+  匕 [label = "匕\n453 ancient spoon"];
+  宀 -> 宠;
+  龙 -> 宠;
+  犬 -> 龙;
+  大 -> 犬;
+  丶 -> 犬;
+  匕 -> 龙;
 }

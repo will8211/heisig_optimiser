@@ -1,9 +1,9 @@
 blockdiag {
-  1641 [label = "壳\n1641 shell"];
-  334 [label = "士\n334 soldier"];
-  None [label = "冖\nNone crown"];
-  57 [label = "几\n57 how many?"];
-  334 -> 1641;
-  None -> 1641;
-  57 -> 1641;
+  壳 [label = "壳\n1641 shell"];
+  士 [label = "士\n334 soldier"];
+  冖 [label = "冖\nNone crown"];
+  几 [label = "几\n57 how many?"];
+  士 -> 壳;
+  冖 -> 壳;
+  几 -> 壳;
 }

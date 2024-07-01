@@ -1,14 +1,17 @@
 blockdiag {
-  668 [label = "授\n668 confer"];
-  None [label = "宀\nNone house"];
-  667 [label = "受\n667 accept"];
-  663 [label = "爪\n663 claw"];
-  633 [label = "又\n633 again"];
-  None -> 668;
-  667 -> 668;
-  None -> 667;
-  663 -> None;
-  None -> 663;
-  None -> None;
-  633 -> 667;
+  授 [label = "授\n668 confer"];
+  扌 [label = "扌\nNone fingers"];
+  受 [label = "受\n667 accept"];
+  囧受－又 [label = "囧受－又\nNone birdhouse"];
+  爪 [label = "爪\n663 claw"];
+  𠂆 [label = "𠂆\nNone drag"];
+  宀 [label = "宀\nNone house"];
+  又 [label = "又\n633 again"];
+  扌 -> 授;
+  受 -> 授;
+  囧受－又 -> 受;
+  爪 -> 囧受－又;
+  𠂆 -> 爪;
+  宀 -> 囧受－又;
+  又 -> 受;
 }

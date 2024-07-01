@@ -1,7 +1,7 @@
 blockdiag {
-  593 [label = "打\n593 strike"];
-  None [label = "扌\nNone fingers"];
-  90 [label = "丁\n90 fourth"];
-  None -> 593;
-  90 -> 593;
+  打 [label = "打\n593 strike"];
+  扌 [label = "扌\nNone fingers"];
+  丁 [label = "丁\n90 fourth"];
+  扌 -> 打;
+  丁 -> 打;
 }

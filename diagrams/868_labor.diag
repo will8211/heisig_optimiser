@@ -1,9 +1,11 @@
 blockdiag {
-  868 [label = "劳\n868 labor"];
-  None [label = "艹\nNone flower"];
-  732 [label = "力\n732 power"];
-  None -> 868;
-  None -> None;
-  None -> None;
-  732 -> 868;
+  劳 [label = "劳\n868 labor"];
+  囧荣－木 [label = "囧荣－木\nNone greenhouse"];
+  宀 [label = "宀\nNone house"];
+  艹 [label = "艹\nNone flower"];
+  力 [label = "力\n732 power"];
+  囧荣－木 -> 劳;
+  宀 -> 囧荣－木;
+  艹 -> 囧荣－木;
+  力 -> 劳;
 }

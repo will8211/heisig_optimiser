@@ -1,9 +1,9 @@
 blockdiag {
-  722 [label = "敢\n722 brave"];
-  90 [label = "丁\n90 fourth"];
-  717 [label = "耳\n717 ear"];
-  None [label = "攵\nNone taskmaster"];
-  90 -> 722;
-  717 -> 722;
-  None -> 722;
+  敢 [label = "敢\n722 brave"];
+  丁 [label = "丁\n90 fourth"];
+  耳 [label = "耳\n717 ear"];
+  攵 [label = "攵\nNone taskmaster"];
+  丁 -> 敢;
+  耳 -> 敢;
+  攵 -> 敢;
 }

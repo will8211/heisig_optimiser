@@ -1,9 +1,9 @@
 blockdiag {
-  2989 [label = "芙\n2989 hibiscus (A)"];
-  None [label = "艹\nNone flower"];
-  726 [label = "夫\n726 husband"];
-  113 [label = "大\n113 large"];
-  None -> 2989;
-  726 -> 2989;
-  113 -> 726;
+  芙 [label = "芙\n2989 hibiscus (A)"];
+  艹 [label = "艹\nNone flower"];
+  夫 [label = "夫\n726 husband"];
+  大 [label = "大\n113 large"];
+  艹 -> 芙;
+  夫 -> 芙;
+  大 -> 夫;
 }

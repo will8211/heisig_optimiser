@@ -1,11 +1,13 @@
 blockdiag {
-  2502 [label = "枕\n2502 pillow"];
-  202 [label = "木\n202 tree"];
-  None [label = "冖\nNone crown"];
-  113 [label = "大\n113 large"];
-  202 -> 2502;
-  None -> 2502;
-  None -> None;
-  113 -> None;
-  None -> None;
+  枕 [label = "枕\n2502 pillow"];
+  木 [label = "木\n202 tree"];
+  冘 [label = "冘\nNone Frankenbowser Rex"];
+  囧尴－监 [label = "囧尴－监\nNone Frankenbowser"];
+  大 [label = "大\n113 large"];
+  冖 [label = "冖\nNone crown"];
+  木 -> 枕;
+  冘 -> 枕;
+  囧尴－监 -> 冘;
+  大 -> 囧尴－监;
+  冖 -> 冘;
 }

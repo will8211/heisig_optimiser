@@ -1,10 +1,11 @@
 blockdiag {
-  1110 [label = "柳\n1110 willow"];
-  202 [label = "木\n202 tree"];
-  None [label = "卩\nNone stamp"];
-  83 [label = "刀\n83 sword"];
-  202 -> 1110;
-  None -> 1110;
-  None -> None;
-  83 -> None;
+  柳 [label = "柳\n1110 willow"];
+  木 [label = "木\n202 tree"];
+  囧贸－贝 [label = "囧贸－贝\nNone letter opener"];
+  卩 [label = "卩\nNone stamp"];
+  刀 [label = "刀\n83 sword"];
+  木 -> 柳;
+  囧贸－贝 -> 柳;
+  卩 -> 囧贸－贝;
+  刀 -> 囧贸－贝;
 }

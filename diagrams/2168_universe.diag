@@ -1,9 +1,9 @@
 blockdiag {
-  2168 [label = "宙\n2168 universe"];
-  None [label = "宀\nNone house"];
-  913 [label = "由\n913 wherefore"];
-  14 [label = "田\n14 rice field"];
-  None -> 2168;
-  913 -> 2168;
-  14 -> 913;
+  宙 [label = "宙\n2168 universe"];
+  宀 [label = "宀\nNone house"];
+  由 [label = "由\n913 wherefore"];
+  田 [label = "田\n14 rice field"];
+  宀 -> 宙;
+  由 -> 宙;
+  田 -> 由;
 }

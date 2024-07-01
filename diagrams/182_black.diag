@@ -1,16 +1,16 @@
 blockdiag {
-  182 [label = "黑\n182 black"];
-  179 [label = "里\n179 li"];
-  14 [label = "田\n14 rice field"];
-  158 [label = "土\n158 soil"];
-  None [label = "丷\nNone horns"];
-  1 [label = "一\n1 one"];
-  170 [label = "火\n170 fire"];
-  179 -> 182;
-  14 -> 179;
-  158 -> 179;
-  14 -> 182;
-  None -> 182;
-  1 -> None;
-  170 -> 182;
+  黑 [label = "黑\n182 black"];
+  里 [label = "里\n179 li"];
+  田 [label = "田\n14 rice field"];
+  土 [label = "土\n158 soil"];
+  丷 [label = "丷\nNone horns"];
+  一 [label = "一\n1 one"];
+  火 [label = "火\n170 fire"];
+  里 -> 黑;
+  田 -> 里;
+  土 -> 里;
+  田 -> 黑;
+  丷 -> 黑;
+  一 -> 丷;
+  火 -> 黑;
 }

@@ -1,7 +1,9 @@
 blockdiag {
-  1082 [label = "维\n1082 maintain"];
-  None [label = "隹\nNone turkey"];
-  None -> 1082;
-  None -> None;
-  None -> 1082;
+  维 [label = "维\n1082 maintain"];
+  纟 [label = "纟\nNone thread"];
+  厶 [label = "厶\nNone elbow"];
+  隹 [label = "隹\nNone turkey"];
+  纟 -> 维;
+  厶 -> 纟;
+  隹 -> 维;
 }

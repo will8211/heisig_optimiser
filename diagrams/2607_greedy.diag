@@ -1,15 +1,17 @@
 blockdiag {
-  2607 [label = "贪\n2607 greedy"];
-  1244 [label = "今\n1244 now"];
-  None [label = "囧只－口\nNone animal legs"];
-  52 [label = "贝\n52 shellfish"];
-  15 [label = "目\n15 eye"];
-  8 [label = "八\n8 eight"];
-  1244 -> 2607;
-  None -> 1244;
-  None -> None;
-  52 -> 2607;
-  15 -> 52;
-  None -> 52;
-  8 -> None;
+  贪 [label = "贪\n2607 greedy"];
+  今 [label = "今\n1244 now"];
+  亼 [label = "亼\nNone meeting"];
+  𠆢 [label = "𠆢\nNone umbrella"];
+  贝 [label = "贝\n52 shellfish"];
+  目 [label = "目\n15 eye"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  今 -> 贪;
+  亼 -> 今;
+  𠆢 -> 亼;
+  贝 -> 贪;
+  目 -> 贝;
+  囧只－口 -> 贝;
+  八 -> 囧只－口;
 }

@@ -1,10 +1,11 @@
 blockdiag {
-  2757 [label = "壶\n2757 kettle"];
-  334 [label = "士\n334 soldier"];
-  None [label = "並\nNone side by side"];
-  1349 [label = "业\n1349 profession"];
-  334 -> 2757;
-  None -> 2757;
-  1349 -> 2757;
-  None -> 1349;
+  壶 [label = "壶\n2757 kettle"];
+  士 [label = "士\n334 soldier"];
+  冖 [label = "冖\nNone crown"];
+  业 [label = "业\n1349 profession"];
+  並 [label = "並\nNone side by side"];
+  士 -> 壶;
+  冖 -> 壶;
+  业 -> 壶;
+  並 -> 业;
 }

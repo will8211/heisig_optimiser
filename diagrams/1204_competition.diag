@@ -1,16 +1,19 @@
 blockdiag {
-  1204 [label = "赛\n1204 competition"];
-  None [label = "囧只－口\nNone animal legs"];
-  8 [label = "八\n8 eight"];
-  52 [label = "贝\n52 shellfish"];
-  15 [label = "目\n15 eye"];
-  None -> 1204;
-  None -> None;
-  None -> None;
-  None -> None;
-  8 -> None;
-  52 -> 1204;
-  15 -> 52;
-  None -> 52;
-  8 -> None;
+  赛 [label = "赛\n1204 competition"];
+  囧赛－贝 [label = "囧赛－贝\nNone hamster cage"];
+  宀 [label = "宀\nNone house"];
+  𠀎 [label = "𠀎\nNone wire mesh"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  贝 [label = "贝\n52 shellfish"];
+  目 [label = "目\n15 eye"];
+  囧赛－贝 -> 赛;
+  宀 -> 囧赛－贝;
+  𠀎 -> 囧赛－贝;
+  囧只－口 -> 囧赛－贝;
+  八 -> 囧只－口;
+  贝 -> 赛;
+  目 -> 贝;
+  囧只－口 -> 贝;
+  八 -> 囧只－口;
 }

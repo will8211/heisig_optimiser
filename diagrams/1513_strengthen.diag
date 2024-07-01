@@ -1,11 +1,11 @@
 blockdiag {
-  1513 [label = "巩\n1513 strengthen"];
-  76 [label = "工\n76 work"];
-  62 [label = "凡\n62 ordinary"];
-  None [label = "丶\nNone a drop of"];
-  57 [label = "几\n57 how many?"];
-  76 -> 1513;
-  62 -> 1513;
-  None -> 62;
-  57 -> 62;
+  巩 [label = "巩\n1513 strengthen"];
+  工 [label = "工\n76 work"];
+  凡 [label = "凡\n62 ordinary"];
+  丶 [label = "丶\nNone a drop of"];
+  几 [label = "几\n57 how many?"];
+  工 -> 巩;
+  凡 -> 巩;
+  丶 -> 凡;
+  几 -> 凡;
 }

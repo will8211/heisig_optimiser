@@ -1,15 +1,15 @@
 blockdiag {
-  1857 [label = "撞\n1857 bump into"];
-  450 [label = "童\n450 juvenile"];
-  444 [label = "立\n444 standing up"];
-  179 [label = "里\n179 li"];
-  14 [label = "田\n14 rice field"];
-  158 [label = "土\n158 soil"];
-  None [label = "扌\nNone fingers"];
-  450 -> 1857;
-  444 -> 450;
-  179 -> 450;
-  14 -> 179;
-  158 -> 179;
-  None -> 1857;
+  撞 [label = "撞\n1857 bump into"];
+  童 [label = "童\n450 juvenile"];
+  立 [label = "立\n444 standing up"];
+  里 [label = "里\n179 li"];
+  田 [label = "田\n14 rice field"];
+  土 [label = "土\n158 soil"];
+  扌 [label = "扌\nNone fingers"];
+  童 -> 撞;
+  立 -> 童;
+  里 -> 童;
+  田 -> 里;
+  土 -> 里;
+  扌 -> 撞;
 }

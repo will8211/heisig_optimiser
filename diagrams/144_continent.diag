@@ -1,15 +1,16 @@
 blockdiag {
-  144 [label = "洲\n144 continent"];
-  135 [label = "州\n135 state"];
-  None [label = "丶\nNone a drop of"];
-  134 [label = "川\n134 stream"];
-  137 [label = "水\n137 water"];
-  1 [label = "一\n1 one"];
-  135 -> 144;
-  None -> 135;
-  134 -> 135;
-  137 -> 144;
-  None -> 137;
-  1 -> None;
-  None -> 137;
+  洲 [label = "洲\n144 continent"];
+  州 [label = "州\n135 state"];
+  丶 [label = "丶\nNone a drop of"];
+  川 [label = "川\n134 stream"];
+  水 [label = "水\n137 water"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  州 -> 洲;
+  丶 -> 州;
+  川 -> 州;
+  水 -> 洲;
+  丨 -> 水;
+  一 -> 丨;
+  丶 -> 水;
 }

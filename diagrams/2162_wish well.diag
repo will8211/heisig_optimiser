@@ -1,11 +1,11 @@
 blockdiag {
-  2162 [label = "祝\n2162 wish well"];
-  900 [label = "示\n900 show"];
-  107 [label = "兄\n107 elder brother"];
-  11 [label = "口\n11 mouth"];
-  56 [label = "儿\n56 youngster"];
-  900 -> 2162;
-  107 -> 2162;
-  11 -> 107;
-  56 -> 107;
+  祝 [label = "祝\n2162 wish well"];
+  示 [label = "示\n900 show"];
+  兄 [label = "兄\n107 elder brother"];
+  口 [label = "口\n11 mouth"];
+  儿 [label = "儿\n56 youngster"];
+  示 -> 祝;
+  兄 -> 祝;
+  口 -> 兄;
+  儿 -> 兄;
 }

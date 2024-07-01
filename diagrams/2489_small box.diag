@@ -1,11 +1,13 @@
 blockdiag {
-  2489 [label = "盒\n2489 small box"];
-  262 [label = "合\n262 fit"];
-  None [label = "皿\nNone dish"];
-  11 [label = "口\n11 mouth"];
-  262 -> 2489;
-  None -> 262;
-  None -> None;
-  11 -> 262;
-  None -> 2489;
+  盒 [label = "盒\n2489 small box"];
+  合 [label = "合\n262 fit"];
+  亼 [label = "亼\nNone meeting"];
+  𠆢 [label = "𠆢\nNone umbrella"];
+  口 [label = "口\n11 mouth"];
+  皿 [label = "皿\nNone dish"];
+  合 -> 盒;
+  亼 -> 合;
+  𠆢 -> 亼;
+  口 -> 合;
+  皿 -> 盒;
 }

@@ -1,16 +1,19 @@
 blockdiag {
-  1239 [label = "勤\n1239 diligent"];
-  None [label = "囧毒－母\nNone grow up"];
-  11 [label = "口\n11 mouth"];
-  63 [label = "肌\n63 muscle"];
-  57 [label = "几\n57 how many?"];
-  13 [label = "月\n13 month"];
-  None -> 1239;
-  None -> None;
-  None -> None;
-  11 -> None;
-  None -> None;
-  63 -> 1239;
-  57 -> 63;
-  13 -> 63;
+  勤 [label = "勤\n1239 diligent"];
+  堇 [label = "堇\nNone spinach"];
+  囧昔－日 [label = "囧昔－日\nNone salad"];
+  艹 [label = "艹\nNone flower"];
+  口 [label = "口\n11 mouth"];
+  囧毒－母 [label = "囧毒－母\nNone grow up"];
+  肌 [label = "肌\n63 muscle"];
+  几 [label = "几\n57 how many?"];
+  月 [label = "月\n13 month"];
+  堇 -> 勤;
+  囧昔－日 -> 堇;
+  艹 -> 囧昔－日;
+  口 -> 堇;
+  囧毒－母 -> 堇;
+  肌 -> 勤;
+  几 -> 肌;
+  月 -> 肌;
 }

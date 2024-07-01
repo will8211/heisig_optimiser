@@ -1,14 +1,15 @@
 blockdiag {
-  1865 [label = "挟\n1865 coerce"];
-  None [label = "丷\nNone horns"];
-  1523 [label = "夹\n1523 press from both sides"];
-  726 [label = "夫\n726 husband"];
-  113 [label = "大\n113 large"];
-  1 [label = "一\n1 one"];
-  None -> 1865;
-  1523 -> 1865;
-  726 -> 1523;
-  113 -> 726;
-  None -> 1523;
-  1 -> None;
+  挟 [label = "挟\n1865 coerce"];
+  扌 [label = "扌\nNone fingers"];
+  夹 [label = "夹\n1523 press from both sides"];
+  夫 [label = "夫\n726 husband"];
+  大 [label = "大\n113 large"];
+  丷 [label = "丷\nNone horns"];
+  一 [label = "一\n1 one"];
+  扌 -> 挟;
+  夹 -> 挟;
+  夫 -> 夹;
+  大 -> 夫;
+  丷 -> 夹;
+  一 -> 丷;
 }

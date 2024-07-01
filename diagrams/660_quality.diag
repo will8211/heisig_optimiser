@@ -1,14 +1,15 @@
 blockdiag {
-  660 [label = "质\n660 quality"];
-  None [label = "囧只－口\nNone animal legs"];
-  10 [label = "十\n10 ten"];
-  52 [label = "贝\n52 shellfish"];
-  15 [label = "目\n15 eye"];
-  8 [label = "八\n8 eight"];
-  None -> 660;
-  10 -> 660;
-  52 -> 660;
-  15 -> 52;
-  None -> 52;
-  8 -> None;
+  质 [label = "质\n660 quality"];
+  𠂆 [label = "𠂆\nNone drag"];
+  十 [label = "十\n10 ten"];
+  贝 [label = "贝\n52 shellfish"];
+  目 [label = "目\n15 eye"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  𠂆 -> 质;
+  十 -> 质;
+  贝 -> 质;
+  目 -> 贝;
+  囧只－口 -> 贝;
+  八 -> 囧只－口;
 }

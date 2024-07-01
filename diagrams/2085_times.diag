@@ -1,11 +1,11 @@
 blockdiag {
-  2085 [label = "倍\n2085 times"];
-  793 [label = "人\n793 person"];
-  None [label = "咅\nNone muzzle"];
-  444 [label = "立\n444 standing up"];
-  11 [label = "口\n11 mouth"];
-  793 -> 2085;
-  None -> 2085;
-  444 -> None;
-  11 -> None;
+  倍 [label = "倍\n2085 times"];
+  人 [label = "人\n793 person"];
+  咅 [label = "咅\nNone muzzle"];
+  立 [label = "立\n444 standing up"];
+  口 [label = "口\n11 mouth"];
+  人 -> 倍;
+  咅 -> 倍;
+  立 -> 咅;
+  口 -> 咅;
 }

@@ -1,7 +1,7 @@
 blockdiag {
-  640 [label = "欢\n640 joyous"];
-  633 [label = "又\n633 again"];
-  474 [label = "欠\n474 lack"];
-  633 -> 640;
-  474 -> 640;
+  欢 [label = "欢\n640 joyous"];
+  又 [label = "又\n633 again"];
+  欠 [label = "欠\n474 lack"];
+  又 -> 欢;
+  欠 -> 欢;
 }

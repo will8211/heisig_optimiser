@@ -1,11 +1,11 @@
 blockdiag {
-  1634 [label = "晕\n1634 dizzy"];
-  12 [label = "日\n12 day"];
-  320 [label = "军\n320 army"];
-  None [label = "冖\nNone crown"];
-  300 [label = "车\n300 car"];
-  12 -> 1634;
-  320 -> 1634;
-  None -> 320;
-  300 -> 320;
+  晕 [label = "晕\n1634 dizzy"];
+  日 [label = "日\n12 day"];
+  军 [label = "军\n320 army"];
+  冖 [label = "冖\nNone crown"];
+  车 [label = "车\n300 car"];
+  日 -> 晕;
+  军 -> 晕;
+  冖 -> 军;
+  车 -> 军;
 }

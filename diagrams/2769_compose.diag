@@ -1,16 +1,19 @@
 blockdiag {
-  2769 [label = "撰\n2769 compose"];
-  None [label = "囧只－口\nNone animal legs"];
-  519 [label = "已\n519 already"];
-  515 [label = "己\n515 self"];
-  1354 [label = "共\n1354 together"];
-  8 [label = "八\n8 eight"];
-  None -> 2769;
-  519 -> 2769;
-  515 -> 519;
-  1354 -> 2769;
-  None -> 1354;
-  None -> None;
-  None -> 1354;
-  8 -> None;
+  撰 [label = "撰\n2769 compose"];
+  扌 [label = "扌\nNone fingers"];
+  已 [label = "已\n519 already"];
+  己 [label = "己\n515 self"];
+  共 [label = "共\n1354 together"];
+  囧昔－日 [label = "囧昔－日\nNone salad"];
+  艹 [label = "艹\nNone flower"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  扌 -> 撰;
+  已 -> 撰;
+  己 -> 已;
+  共 -> 撰;
+  囧昔－日 -> 共;
+  艹 -> 囧昔－日;
+  囧只－口 -> 共;
+  八 -> 囧只－口;
 }

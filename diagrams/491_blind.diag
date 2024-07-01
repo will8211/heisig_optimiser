@@ -1,18 +1,19 @@
 blockdiag {
-  491 [label = "盲\n491 blind"];
-  15 [label = "目\n15 eye"];
-  490 [label = "亡\n490 deceased"];
-  None [label = "囧只－口\nNone animal legs"];
-  6 [label = "六\n6 six"];
-  8 [label = "八\n8 eight"];
-  95 [label = "乙\n95 second"];
-  15 -> 491;
-  490 -> 491;
-  None -> 490;
-  6 -> None;
-  None -> 6;
-  8 -> None;
-  None -> None;
-  8 -> None;
-  95 -> 490;
+  盲 [label = "盲\n491 blind"];
+  目 [label = "目\n15 eye"];
+  亡 [label = "亡\n490 deceased"];
+  亠 [label = "亠\nNone top hat"];
+  六 [label = "六\n6 six"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  乙 [label = "乙\n95 second"];
+  目 -> 盲;
+  亡 -> 盲;
+  亠 -> 亡;
+  六 -> 亠;
+  囧只－口 -> 六;
+  八 -> 囧只－口;
+  囧只－口 -> 亠;
+  八 -> 囧只－口;
+  乙 -> 亡;
 }

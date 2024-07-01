@@ -1,11 +1,11 @@
 blockdiag {
-  2318 [label = "促\n2318 urge"];
-  793 [label = "人\n793 person"];
-  1048 [label = "足\n1048 lower leg"];
-  11 [label = "口\n11 mouth"];
-  379 [label = "止\n379 stop"];
-  793 -> 2318;
-  1048 -> 2318;
-  11 -> 1048;
-  379 -> 1048;
+  促 [label = "促\n2318 urge"];
+  人 [label = "人\n793 person"];
+  足 [label = "足\n1048 lower leg"];
+  口 [label = "口\n11 mouth"];
+  止 [label = "止\n379 stop"];
+  人 -> 促;
+  足 -> 促;
+  口 -> 足;
+  止 -> 足;
 }

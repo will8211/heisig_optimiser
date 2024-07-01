@@ -1,13 +1,13 @@
 blockdiag {
-  2536 [label = "攀\n2536 climb"];
-  203 [label = "林\n203 woods"];
-  202 [label = "木\n202 tree"];
-  None [label = "㐅\nNone sheaf"];
-  113 [label = "大\n113 large"];
-  584 [label = "手\n584 hand"];
-  203 -> 2536;
-  202 -> 203;
-  None -> 2536;
-  113 -> 2536;
-  584 -> 2536;
+  攀 [label = "攀\n2536 climb"];
+  林 [label = "林\n203 woods"];
+  木 [label = "木\n202 tree"];
+  㐅 [label = "㐅\nNone sheaf"];
+  大 [label = "大\n113 large"];
+  手 [label = "手\n584 hand"];
+  林 -> 攀;
+  木 -> 林;
+  㐅 -> 攀;
+  大 -> 攀;
+  手 -> 攀;
 }

@@ -1,14 +1,15 @@
 blockdiag {
-  597 [label = "括\n597 include"];
-  None [label = "丶\nNone a drop of"];
-  40 [label = "舌\n40 tongue"];
-  11 [label = "口\n11 mouth"];
-  39 [label = "千\n39 thousand"];
-  10 [label = "十\n10 ten"];
-  None -> 597;
-  40 -> 597;
-  11 -> 40;
-  39 -> 40;
-  None -> 39;
-  10 -> 39;
+  括 [label = "括\n597 include"];
+  扌 [label = "扌\nNone fingers"];
+  舌 [label = "舌\n40 tongue"];
+  口 [label = "口\n11 mouth"];
+  千 [label = "千\n39 thousand"];
+  丶 [label = "丶\nNone a drop of"];
+  十 [label = "十\n10 ten"];
+  扌 -> 括;
+  舌 -> 括;
+  口 -> 舌;
+  千 -> 舌;
+  丶 -> 千;
+  十 -> 千;
 }

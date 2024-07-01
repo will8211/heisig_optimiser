@@ -1,9 +1,9 @@
 blockdiag {
-  984 [label = "眷\n984 dependents"];
-  None [label = "囧眷－目\nNone quarter"];
-  980 [label = "半\n980 half"];
-  15 [label = "目\n15 eye"];
-  None -> 984;
-  980 -> None;
-  15 -> 984;
+  眷 [label = "眷\n984 dependents"];
+  囧眷－目 [label = "囧眷－目\nNone quarter"];
+  半 [label = "半\n980 half"];
+  目 [label = "目\n15 eye"];
+  囧眷－目 -> 眷;
+  半 -> 囧眷－目;
+  目 -> 眷;
 }

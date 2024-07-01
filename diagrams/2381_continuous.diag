@@ -1,14 +1,17 @@
 blockdiag {
-  2381 [label = "绵\n2381 continuous"];
-  None [label = "丶\nNone a drop of"];
-  34 [label = "白\n34 white"];
-  12 [label = "日\n12 day"];
-  410 [label = "巾\n410 towel"];
-  None -> 2381;
-  None -> None;
-  None -> 2381;
-  34 -> None;
-  12 -> 34;
-  None -> 34;
-  410 -> None;
+  绵 [label = "绵\n2381 continuous"];
+  纟 [label = "纟\nNone thread"];
+  厶 [label = "厶\nNone elbow"];
+  帛 [label = "帛\nNone white towel"];
+  白 [label = "白\n34 white"];
+  日 [label = "日\n12 day"];
+  丶 [label = "丶\nNone a drop of"];
+  巾 [label = "巾\n410 towel"];
+  纟 -> 绵;
+  厶 -> 纟;
+  帛 -> 绵;
+  白 -> 帛;
+  日 -> 白;
+  丶 -> 白;
+  巾 -> 帛;
 }

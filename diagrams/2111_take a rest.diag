@@ -1,14 +1,15 @@
 blockdiag {
-  2111 [label = "歇\n2111 take a rest"];
-  None [label = "勹\nNone bound up"];
-  793 [label = "人\n793 person"];
-  95 [label = "乙\n95 second"];
-  12 [label = "日\n12 day"];
-  474 [label = "欠\n474 lack"];
-  None -> 2111;
-  793 -> None;
-  None -> None;
-  95 -> None;
-  12 -> None;
-  474 -> 2111;
+  歇 [label = "歇\n2111 take a rest"];
+  曷 [label = "曷\nNone siesta"];
+  人 [label = "人\n793 person"];
+  勹 [label = "勹\nNone bound up"];
+  乙 [label = "乙\n95 second"];
+  日 [label = "日\n12 day"];
+  欠 [label = "欠\n474 lack"];
+  曷 -> 歇;
+  人 -> 曷;
+  勹 -> 曷;
+  乙 -> 曷;
+  日 -> 曷;
+  欠 -> 歇;
 }

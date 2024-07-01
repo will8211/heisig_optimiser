@@ -1,14 +1,15 @@
 blockdiag {
-  2935 [label = "拢\n2935 draw near"];
-  None [label = "丶\nNone a drop of"];
-  1474 [label = "龙\n1474 dragon"];
-  239 [label = "犬\n239 pooch"];
-  113 [label = "大\n113 large"];
-  453 [label = "匕\n453 ancient spoon"];
-  None -> 2935;
-  1474 -> 2935;
-  239 -> 1474;
-  113 -> 239;
-  None -> 239;
-  453 -> 1474;
+  拢 [label = "拢\n2935 draw near"];
+  扌 [label = "扌\nNone fingers"];
+  龙 [label = "龙\n1474 dragon"];
+  犬 [label = "犬\n239 pooch"];
+  大 [label = "大\n113 large"];
+  丶 [label = "丶\nNone a drop of"];
+  匕 [label = "匕\n453 ancient spoon"];
+  扌 -> 拢;
+  龙 -> 拢;
+  犬 -> 龙;
+  大 -> 犬;
+  丶 -> 犬;
+  匕 -> 龙;
 }

@@ -1,16 +1,19 @@
 blockdiag {
-  2025 [label = "膝\n2025 knees"];
-  13 [label = "月\n13 month"];
-  None [label = "丶\nNone a drop of"];
-  137 [label = "水\n137 water"];
-  1 [label = "一\n1 one"];
-  202 [label = "木\n202 tree"];
-  13 -> 2025;
-  None -> 2025;
-  None -> None;
-  137 -> None;
-  None -> 137;
-  1 -> None;
-  None -> 137;
-  202 -> None;
+  膝 [label = "膝\n2025 knees"];
+  月 [label = "月\n13 month"];
+  桼 [label = "桼\nNone Baron von Rumpelbrella"];
+  𠆢 [label = "𠆢\nNone umbrella"];
+  水 [label = "水\n137 water"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  丶 [label = "丶\nNone a drop of"];
+  木 [label = "木\n202 tree"];
+  月 -> 膝;
+  桼 -> 膝;
+  𠆢 -> 桼;
+  水 -> 桼;
+  丨 -> 水;
+  一 -> 丨;
+  丶 -> 水;
+  木 -> 桼;
 }

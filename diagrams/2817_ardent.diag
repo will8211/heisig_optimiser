@@ -1,16 +1,19 @@
 blockdiag {
-  2817 [label = "殷\n2817 ardent"];
-  None [label = "殳\nNone missile"];
-  34 [label = "白\n34 white"];
-  12 [label = "日\n12 day"];
-  57 [label = "几\n57 how many?"];
-  633 [label = "又\n633 again"];
-  None -> 2817;
-  34 -> 2817;
-  12 -> 34;
-  None -> 34;
-  None -> 2817;
-  None -> 2817;
-  57 -> None;
-  633 -> None;
+  殷 [label = "殷\n2817 ardent"];
+  𠂆 [label = "𠂆\nNone drag"];
+  白 [label = "白\n34 white"];
+  日 [label = "日\n12 day"];
+  丶 [label = "丶\nNone a drop of"];
+  𠃌 [label = "𠃌\nNone clothes hanger"];
+  殳 [label = "殳\nNone missile"];
+  几 [label = "几\n57 how many?"];
+  又 [label = "又\n633 again"];
+  𠂆 -> 殷;
+  白 -> 殷;
+  日 -> 白;
+  丶 -> 白;
+  𠃌 -> 殷;
+  殳 -> 殷;
+  几 -> 殳;
+  又 -> 殳;
 }

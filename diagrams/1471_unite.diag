@@ -1,16 +1,16 @@
 blockdiag {
-  1471 [label = "联\n1471 unite"];
-  717 [label = "耳\n717 ear"];
-  1469 [label = "关\n1469 shut"];
-  None [label = "丷\nNone horns"];
-  1 [label = "一\n1 one"];
-  436 [label = "天\n436 heavens"];
-  113 [label = "大\n113 large"];
-  717 -> 1471;
-  1469 -> 1471;
-  None -> 1469;
-  1 -> None;
-  436 -> 1469;
-  1 -> 436;
-  113 -> 436;
+  联 [label = "联\n1471 unite"];
+  耳 [label = "耳\n717 ear"];
+  关 [label = "关\n1469 shut"];
+  丷 [label = "丷\nNone horns"];
+  一 [label = "一\n1 one"];
+  天 [label = "天\n436 heavens"];
+  大 [label = "大\n113 large"];
+  耳 -> 联;
+  关 -> 联;
+  丷 -> 关;
+  一 -> 丷;
+  天 -> 关;
+  一 -> 天;
+  大 -> 天;
 }

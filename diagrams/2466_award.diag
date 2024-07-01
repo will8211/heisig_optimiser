@@ -1,13 +1,13 @@
 blockdiag {
-  2466 [label = "奖\n2466 award"];
-  None [label = "囧酱－酉\nNone chocolate turtle"];
-  237 [label = "兆\n237 portent"];
-  115 [label = "夕\n115 evening"];
-  13 [label = "月\n13 month"];
-  113 [label = "大\n113 large"];
-  None -> 2466;
-  237 -> None;
-  115 -> None;
-  13 -> 115;
-  113 -> 2466;
+  奖 [label = "奖\n2466 award"];
+  囧酱－酉 [label = "囧酱－酉\nNone chocolate turtle"];
+  兆 [label = "兆\n237 portent"];
+  夕 [label = "夕\n115 evening"];
+  月 [label = "月\n13 month"];
+  大 [label = "大\n113 large"];
+  囧酱－酉 -> 奖;
+  兆 -> 囧酱－酉;
+  夕 -> 囧酱－酉;
+  月 -> 夕;
+  大 -> 奖;
 }

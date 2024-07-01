@@ -1,10 +1,11 @@
 blockdiag {
-  2405 [label = "茎\n2405 plant stem"];
-  None [label = "𢀖\nNone spool"];
-  76 [label = "工\n76 work"];
-  793 [label = "人\n793 person"];
-  None -> 2405;
-  None -> 2405;
-  76 -> None;
-  793 -> None;
+  茎 [label = "茎\n2405 plant stem"];
+  艹 [label = "艹\nNone flower"];
+  𢀖 [label = "𢀖\nNone spool"];
+  工 [label = "工\n76 work"];
+  人 [label = "人\n793 person"];
+  艹 -> 茎;
+  𢀖 -> 茎;
+  工 -> 𢀖;
+  人 -> 𢀖;
 }

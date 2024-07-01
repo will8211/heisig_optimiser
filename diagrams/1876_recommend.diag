@@ -1,11 +1,11 @@
 blockdiag {
-  1876 [label = "荐\n1876 recommend"];
-  None [label = "艹\nNone flower"];
-  623 [label = "存\n623 deposit"];
-  620 [label = "才\n620 genius"];
-  97 [label = "子\n97 child"];
-  None -> 1876;
-  623 -> 1876;
-  620 -> 623;
-  97 -> 623;
+  荐 [label = "荐\n1876 recommend"];
+  艹 [label = "艹\nNone flower"];
+  存 [label = "存\n623 deposit"];
+  才 [label = "才\n620 genius"];
+  子 [label = "子\n97 child"];
+  艹 -> 荐;
+  存 -> 荐;
+  才 -> 存;
+  子 -> 存;
 }

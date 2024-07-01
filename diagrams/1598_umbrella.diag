@@ -1,10 +1,11 @@
 blockdiag {
-  1598 [label = "伞\n1598 umbrella"];
-  None [label = "丷\nNone horns"];
-  1 [label = "一\n1 one"];
-  10 [label = "十\n10 ten"];
-  None -> 1598;
-  None -> 1598;
-  1 -> None;
-  10 -> 1598;
+  伞 [label = "伞\n1598 umbrella"];
+  𠆢 [label = "𠆢\nNone umbrella"];
+  丷 [label = "丷\nNone horns"];
+  一 [label = "一\n1 one"];
+  十 [label = "十\n10 ten"];
+  𠆢 -> 伞;
+  丷 -> 伞;
+  一 -> 丷;
+  十 -> 伞;
 }

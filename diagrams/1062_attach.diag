@@ -1,14 +1,15 @@
 blockdiag {
-  1062 [label = "附\n1062 attach"];
-  None [label = "丶\nNone a drop of"];
-  825 [label = "付\n825 pay"];
-  793 [label = "人\n793 person"];
-  166 [label = "寸\n166 Chinese inch"];
-  10 [label = "十\n10 ten"];
-  None -> 1062;
-  825 -> 1062;
-  793 -> 825;
-  166 -> 825;
-  None -> 166;
-  10 -> 166;
+  附 [label = "附\n1062 attach"];
+  阝 [label = "阝\nNone pinnacle"];
+  付 [label = "付\n825 pay"];
+  人 [label = "人\n793 person"];
+  寸 [label = "寸\n166 Chinese inch"];
+  丶 [label = "丶\nNone a drop of"];
+  十 [label = "十\n10 ten"];
+  阝 -> 附;
+  付 -> 附;
+  人 -> 付;
+  寸 -> 付;
+  丶 -> 寸;
+  十 -> 寸;
 }

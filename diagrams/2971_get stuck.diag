@@ -1,8 +1,11 @@
 blockdiag {
-  2971 [label = "陷\n2971 get stuck"];
-  None [label = "勹\nNone bound up"];
-  None -> 2971;
-  None -> 2971;
-  None -> None;
-  None -> None;
+  陷 [label = "陷\n2971 get stuck"];
+  阝 [label = "阝\nNone pinnacle"];
+  臽 [label = "臽\nNone pothole"];
+  臼 [label = "臼\nNone mortar"];
+  勹 [label = "勹\nNone bound up"];
+  阝 -> 陷;
+  臽 -> 陷;
+  臼 -> 臽;
+  勹 -> 臽;
 }

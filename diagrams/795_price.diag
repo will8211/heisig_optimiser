@@ -1,10 +1,11 @@
 blockdiag {
-  795 [label = "价\n795 price"];
-  793 [label = "人\n793 person"];
-  259 [label = "介\n259 introduce"];
-  None [label = "囧介－𠆢\nNone crutches"];
-  793 -> 795;
-  259 -> 795;
-  None -> 259;
-  None -> 259;
+  价 [label = "价\n795 price"];
+  人 [label = "人\n793 person"];
+  介 [label = "介\n259 introduce"];
+  𠆢 [label = "𠆢\nNone umbrella"];
+  囧介－𠆢 [label = "囧介－𠆢\nNone crutches"];
+  人 -> 价;
+  介 -> 价;
+  𠆢 -> 介;
+  囧介－𠆢 -> 介;
 }

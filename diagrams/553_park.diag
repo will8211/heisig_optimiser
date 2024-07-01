@@ -1,13 +1,13 @@
 blockdiag {
-  553 [label = "园\n553 park"];
-  None [label = "囗\nNone pent in"];
-  59 [label = "元\n59 beginning"];
-  2 [label = "二\n2 two"];
-  1 [label = "一\n1 one"];
-  56 [label = "儿\n56 youngster"];
-  None -> 553;
-  59 -> 553;
-  2 -> 59;
-  1 -> 2;
-  56 -> 59;
+  园 [label = "园\n553 park"];
+  囗 [label = "囗\nNone pent in"];
+  元 [label = "元\n59 beginning"];
+  二 [label = "二\n2 two"];
+  一 [label = "一\n1 one"];
+  儿 [label = "儿\n56 youngster"];
+  囗 -> 园;
+  元 -> 园;
+  二 -> 元;
+  一 -> 二;
+  儿 -> 元;
 }

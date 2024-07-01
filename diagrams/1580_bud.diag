@@ -1,11 +1,11 @@
 blockdiag {
-  1580 [label = "萌\n1580 bud"];
-  None [label = "艹\nNone flower"];
-  21 [label = "明\n21 bright"];
-  12 [label = "日\n12 day"];
-  13 [label = "月\n13 month"];
-  None -> 1580;
-  21 -> 1580;
-  12 -> 21;
-  13 -> 21;
+  萌 [label = "萌\n1580 bud"];
+  艹 [label = "艹\nNone flower"];
+  明 [label = "明\n21 bright"];
+  日 [label = "日\n12 day"];
+  月 [label = "月\n13 month"];
+  艹 -> 萌;
+  明 -> 萌;
+  日 -> 明;
+  月 -> 明;
 }

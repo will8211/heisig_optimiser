@@ -1,13 +1,13 @@
 blockdiag {
-  272 [label = "皇\n272 emperor"];
-  265 [label = "王\n265 king"];
-  76 [label = "工\n76 work"];
-  34 [label = "白\n34 white"];
-  12 [label = "日\n12 day"];
-  None [label = "丶\nNone a drop of"];
-  265 -> 272;
-  76 -> 265;
-  34 -> 272;
-  12 -> 34;
-  None -> 34;
+  皇 [label = "皇\n272 emperor"];
+  王 [label = "王\n265 king"];
+  工 [label = "工\n76 work"];
+  白 [label = "白\n34 white"];
+  日 [label = "日\n12 day"];
+  丶 [label = "丶\nNone a drop of"];
+  王 -> 皇;
+  工 -> 王;
+  白 -> 皇;
+  日 -> 白;
+  丶 -> 白;
 }

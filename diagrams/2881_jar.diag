@@ -1,15 +1,19 @@
 blockdiag {
-  2881 [label = "罐\n2881 jar"];
-  None [label = "艹\nNone flower"];
-  542 [label = "午\n542 noon"];
-  688 [label = "山\n688 mountain"];
-  11 [label = "口\n11 mouth"];
-  None -> 2881;
-  542 -> None;
-  688 -> None;
-  None -> 2881;
-  None -> None;
-  None -> None;
-  11 -> None;
-  None -> None;
+  罐 [label = "罐\n2881 jar"];
+  缶 [label = "缶\nNone tin can"];
+  午 [label = "午\n542 noon"];
+  山 [label = "山\n688 mountain"];
+  雚 [label = "雚\nNone stork"];
+  隹 [label = "隹\nNone turkey"];
+  吅 [label = "吅\nNone chatterbox"];
+  口 [label = "口\n11 mouth"];
+  艹 [label = "艹\nNone flower"];
+  缶 -> 罐;
+  午 -> 缶;
+  山 -> 缶;
+  雚 -> 罐;
+  隹 -> 雚;
+  吅 -> 雚;
+  口 -> 吅;
+  艹 -> 雚;
 }

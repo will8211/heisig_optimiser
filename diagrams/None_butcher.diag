@@ -1,7 +1,7 @@
 blockdiag {
-  None [label = "刖\nNone butcher"];
-  13 [label = "月\n13 month"];
-  83 [label = "刀\n83 sword"];
-  13 -> None;
-  83 -> None;
+  刖 [label = "刖\nNone butcher"];
+  月 [label = "月\n13 month"];
+  刀 [label = "刀\n83 sword"];
+  月 -> 刖;
+  刀 -> 刖;
 }

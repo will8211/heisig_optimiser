@@ -1,12 +1,15 @@
 blockdiag {
-  2565 [label = "寨\n2565 stockade"];
-  None [label = "囧只－口\nNone animal legs"];
-  8 [label = "八\n8 eight"];
-  202 [label = "木\n202 tree"];
-  None -> 2565;
-  None -> None;
-  None -> None;
-  None -> None;
-  8 -> None;
-  202 -> 2565;
+  寨 [label = "寨\n2565 stockade"];
+  囧赛－贝 [label = "囧赛－贝\nNone hamster cage"];
+  宀 [label = "宀\nNone house"];
+  𠀎 [label = "𠀎\nNone wire mesh"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  木 [label = "木\n202 tree"];
+  囧赛－贝 -> 寨;
+  宀 -> 囧赛－贝;
+  𠀎 -> 囧赛－贝;
+  囧只－口 -> 囧赛－贝;
+  八 -> 囧只－口;
+  木 -> 寨;
 }

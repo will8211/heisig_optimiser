@@ -1,13 +1,13 @@
 blockdiag {
-  1538 [label = "鲁\n1538 Lu"];
-  154 [label = "鱼\n154 fish"];
-  None [label = "勹\nNone bound up"];
-  14 [label = "田\n14 rice field"];
-  1 [label = "一\n1 one"];
-  12 [label = "日\n12 day"];
-  154 -> 1538;
-  None -> 154;
-  14 -> 154;
-  1 -> 154;
-  12 -> 1538;
+  鲁 [label = "鲁\n1538 Lu"];
+  鱼 [label = "鱼\n154 fish"];
+  勹 [label = "勹\nNone bound up"];
+  田 [label = "田\n14 rice field"];
+  一 [label = "一\n1 one"];
+  日 [label = "日\n12 day"];
+  鱼 -> 鲁;
+  勹 -> 鱼;
+  田 -> 鱼;
+  一 -> 鱼;
+  日 -> 鲁;
 }

@@ -1,7 +1,7 @@
 blockdiag {
-  1765 [label = "堆\n1765 pile"];
-  158 [label = "土\n158 soil"];
-  None [label = "隹\nNone turkey"];
-  158 -> 1765;
-  None -> 1765;
+  堆 [label = "堆\n1765 pile"];
+  土 [label = "土\n158 soil"];
+  隹 [label = "隹\nNone turkey"];
+  土 -> 堆;
+  隹 -> 堆;
 }

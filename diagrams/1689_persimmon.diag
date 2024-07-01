@@ -1,18 +1,19 @@
 blockdiag {
-  1689 [label = "柿\n1689 persimmon"];
-  202 [label = "木\n202 tree"];
-  419 [label = "市\n419 market"];
-  410 [label = "巾\n410 towel"];
-  None [label = "囧只－口\nNone animal legs"];
-  6 [label = "六\n6 six"];
-  8 [label = "八\n8 eight"];
-  202 -> 1689;
-  419 -> 1689;
-  410 -> 419;
-  None -> 419;
-  6 -> None;
-  None -> 6;
-  8 -> None;
-  None -> None;
-  8 -> None;
+  柿 [label = "柿\n1689 persimmon"];
+  木 [label = "木\n202 tree"];
+  市 [label = "市\n419 market"];
+  巾 [label = "巾\n410 towel"];
+  亠 [label = "亠\nNone top hat"];
+  六 [label = "六\n6 six"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  木 -> 柿;
+  市 -> 柿;
+  巾 -> 市;
+  亠 -> 市;
+  六 -> 亠;
+  囧只－口 -> 六;
+  八 -> 囧只－口;
+  囧只－口 -> 亠;
+  八 -> 囧只－口;
 }

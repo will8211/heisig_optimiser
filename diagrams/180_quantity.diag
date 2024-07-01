@@ -1,15 +1,15 @@
 blockdiag {
-  180 [label = "量\n180 quantity"];
-  30 [label = "旦\n30 daybreak"];
-  12 [label = "日\n12 day"];
-  1 [label = "一\n1 one"];
-  179 [label = "里\n179 li"];
-  14 [label = "田\n14 rice field"];
-  158 [label = "土\n158 soil"];
-  30 -> 180;
-  12 -> 30;
-  1 -> 30;
-  179 -> 180;
-  14 -> 179;
-  158 -> 179;
+  量 [label = "量\n180 quantity"];
+  旦 [label = "旦\n30 daybreak"];
+  日 [label = "日\n12 day"];
+  一 [label = "一\n1 one"];
+  里 [label = "里\n179 li"];
+  田 [label = "田\n14 rice field"];
+  土 [label = "土\n158 soil"];
+  旦 -> 量;
+  日 -> 旦;
+  一 -> 旦;
+  里 -> 量;
+  田 -> 里;
+  土 -> 里;
 }

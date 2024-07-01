@@ -1,10 +1,11 @@
 blockdiag {
-  2371 [label = "绷\n2371 stretch taut"];
-  None [label = "厶\nNone elbow"];
-  20 [label = "朋\n20 companion"];
-  13 [label = "月\n13 month"];
-  None -> 2371;
-  None -> None;
-  20 -> 2371;
-  13 -> 20;
+  绷 [label = "绷\n2371 stretch taut"];
+  纟 [label = "纟\nNone thread"];
+  厶 [label = "厶\nNone elbow"];
+  朋 [label = "朋\n20 companion"];
+  月 [label = "月\n13 month"];
+  纟 -> 绷;
+  厶 -> 纟;
+  朋 -> 绷;
+  月 -> 朋;
 }

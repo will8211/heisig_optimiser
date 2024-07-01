@@ -1,18 +1,18 @@
 blockdiag {
-  994 [label = "环\n994 ring"];
-  266 [label = "玉\n266 jade"];
-  265 [label = "王\n265 king"];
-  76 [label = "工\n76 work"];
-  None [label = "丶\nNone a drop of"];
-  991 [label = "不\n991 no"];
-  1 [label = "一\n1 one"];
-  793 [label = "人\n793 person"];
-  266 -> 994;
-  265 -> 266;
-  76 -> 265;
-  None -> 266;
-  991 -> 994;
-  1 -> 991;
-  793 -> 991;
-  None -> 991;
+  环 [label = "环\n994 ring"];
+  玉 [label = "玉\n266 jade"];
+  王 [label = "王\n265 king"];
+  工 [label = "工\n76 work"];
+  丶 [label = "丶\nNone a drop of"];
+  不 [label = "不\n991 no"];
+  一 [label = "一\n1 one"];
+  人 [label = "人\n793 person"];
+  玉 -> 环;
+  王 -> 玉;
+  工 -> 王;
+  丶 -> 玉;
+  不 -> 环;
+  一 -> 不;
+  人 -> 不;
+  丶 -> 不;
 }

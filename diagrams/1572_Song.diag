@@ -1,7 +1,7 @@
 blockdiag {
-  1572 [label = "宋\n1572 Song"];
-  None [label = "宀\nNone house"];
-  202 [label = "木\n202 tree"];
-  None -> 1572;
-  202 -> 1572;
+  宋 [label = "宋\n1572 Song"];
+  宀 [label = "宀\nNone house"];
+  木 [label = "木\n202 tree"];
+  宀 -> 宋;
+  木 -> 宋;
 }

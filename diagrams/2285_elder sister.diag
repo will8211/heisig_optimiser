@@ -1,10 +1,11 @@
 blockdiag {
-  2285 [label = "姊\n2285 elder sister"];
-  102 [label = "女\n102 woman"];
-  None [label = "𠂆\nNone drag"];
-  620 [label = "才\n620 genius"];
-  102 -> 2285;
-  None -> 2285;
-  None -> 2285;
-  620 -> 2285;
+  姊 [label = "姊\n2285 elder sister"];
+  女 [label = "女\n102 woman"];
+  丂 [label = "丂\nNone snare"];
+  𠂆 [label = "𠂆\nNone drag"];
+  才 [label = "才\n620 genius"];
+  女 -> 姊;
+  丂 -> 姊;
+  𠂆 -> 姊;
+  才 -> 姊;
 }

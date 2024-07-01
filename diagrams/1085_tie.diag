@@ -1,12 +1,13 @@
 blockdiag {
-  1085 [label = "结\n1085 tie"];
-  None [label = "厶\nNone elbow"];
-  335 [label = "吉\n335 lucky"];
-  334 [label = "士\n334 soldier"];
-  11 [label = "口\n11 mouth"];
-  None -> 1085;
-  None -> None;
-  335 -> 1085;
-  334 -> 335;
-  11 -> 335;
+  结 [label = "结\n1085 tie"];
+  纟 [label = "纟\nNone thread"];
+  厶 [label = "厶\nNone elbow"];
+  吉 [label = "吉\n335 lucky"];
+  士 [label = "士\n334 soldier"];
+  口 [label = "口\n11 mouth"];
+  纟 -> 结;
+  厶 -> 纟;
+  吉 -> 结;
+  士 -> 吉;
+  口 -> 吉;
 }

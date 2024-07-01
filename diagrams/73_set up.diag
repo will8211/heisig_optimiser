@@ -1,12 +1,12 @@
 blockdiag {
-  73 [label = "置\n73 set up"];
-  15 [label = "目\n15 eye"];
-  72 [label = "直\n72 straight"];
-  10 [label = "十\n10 ten"];
-  1 [label = "一\n1 one"];
-  15 -> 73;
-  72 -> 73;
-  10 -> 72;
-  15 -> 72;
-  1 -> 72;
+  置 [label = "置\n73 set up"];
+  目 [label = "目\n15 eye"];
+  直 [label = "直\n72 straight"];
+  十 [label = "十\n10 ten"];
+  一 [label = "一\n1 one"];
+  目 -> 置;
+  直 -> 置;
+  十 -> 直;
+  目 -> 直;
+  一 -> 直;
 }

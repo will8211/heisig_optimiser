@@ -1,7 +1,7 @@
 blockdiag {
-  808 [label = "件\n808 piece"];
-  793 [label = "人\n793 person"];
-  252 [label = "牛\n252 cow"];
-  793 -> 808;
-  252 -> 808;
+  件 [label = "件\n808 piece"];
+  人 [label = "人\n793 person"];
+  牛 [label = "牛\n252 cow"];
+  人 -> 件;
+  牛 -> 件;
 }

@@ -1,7 +1,7 @@
 blockdiag {
-  1003 [label = "柔\n1003 gentle"];
-  1002 [label = "矛\n1002 spear"];
-  202 [label = "木\n202 tree"];
-  1002 -> 1003;
-  202 -> 1003;
+  柔 [label = "柔\n1003 gentle"];
+  矛 [label = "矛\n1002 spear"];
+  木 [label = "木\n202 tree"];
+  矛 -> 柔;
+  木 -> 柔;
 }

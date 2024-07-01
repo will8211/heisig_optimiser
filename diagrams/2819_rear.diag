@@ -1,18 +1,21 @@
 blockdiag {
-  2819 [label = "饲\n2819 rear"];
-  1154 [label = "食\n1154 food"];
-  1151 [label = "良\n1151 high-quality"];
-  None [label = "𠃌\nNone clothes hanger"];
-  1391 [label = "司\n1391 take charge of"];
-  1 [label = "一\n1 one"];
-  11 [label = "口\n11 mouth"];
-  1154 -> 2819;
-  1151 -> 1154;
-  None -> 1151;
-  None -> 1151;
-  None -> 1154;
-  1391 -> 2819;
-  None -> 1391;
-  1 -> 1391;
-  11 -> 1391;
+  饲 [label = "饲\n2819 rear"];
+  食 [label = "食\n1154 food"];
+  良 [label = "良\n1151 high-quality"];
+  丶 [label = "丶\nNone a drop of"];
+  艮 [label = "艮\nNone silver"];
+  𠆢 [label = "𠆢\nNone umbrella"];
+  司 [label = "司\n1391 take charge of"];
+  𠃌 [label = "𠃌\nNone clothes hanger"];
+  一 [label = "一\n1 one"];
+  口 [label = "口\n11 mouth"];
+  食 -> 饲;
+  良 -> 食;
+  丶 -> 良;
+  艮 -> 良;
+  𠆢 -> 食;
+  司 -> 饲;
+  𠃌 -> 司;
+  一 -> 司;
+  口 -> 司;
 }

@@ -1,11 +1,11 @@
 blockdiag {
-  1927 [label = "岩\n1927 rock"];
-  688 [label = "山\n688 mountain"];
-  125 [label = "石\n125 stone"];
-  11 [label = "口\n11 mouth"];
-  121 [label = "厂\n121 factory"];
-  688 -> 1927;
-  125 -> 1927;
-  11 -> 125;
-  121 -> 125;
+  岩 [label = "岩\n1927 rock"];
+  山 [label = "山\n688 mountain"];
+  石 [label = "石\n125 stone"];
+  口 [label = "口\n11 mouth"];
+  厂 [label = "厂\n121 factory"];
+  山 -> 岩;
+  石 -> 岩;
+  口 -> 石;
+  厂 -> 石;
 }

@@ -1,10 +1,13 @@
 blockdiag {
-  1385 [label = "郎\n1385 young man"];
-  1151 [label = "良\n1151 high-quality"];
-  None [label = "阝\nNone pinnacle"];
-  1151 -> 1385;
-  None -> 1151;
-  None -> 1151;
-  None -> 1385;
-  None -> None;
+  郎 [label = "郎\n1385 young man"];
+  良 [label = "良\n1151 high-quality"];
+  丶 [label = "丶\nNone a drop of"];
+  艮 [label = "艮\nNone silver"];
+  囧阝 [label = "囧阝\nNone city walls"];
+  阝 [label = "阝\nNone pinnacle"];
+  良 -> 郎;
+  丶 -> 良;
+  艮 -> 良;
+  囧阝 -> 郎;
+  阝 -> 囧阝;
 }

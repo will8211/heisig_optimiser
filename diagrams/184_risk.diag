@@ -1,13 +1,13 @@
 blockdiag {
-  184 [label = "冒\n184 risk"];
-  None [label = "冂\nNone hood"];
-  57 [label = "几\n57 how many?"];
-  2 [label = "二\n2 two"];
-  1 [label = "一\n1 one"];
-  15 [label = "目\n15 eye"];
-  None -> 184;
-  57 -> None;
-  2 -> 184;
-  1 -> 2;
-  15 -> 184;
+  冒 [label = "冒\n184 risk"];
+  冂 [label = "冂\nNone hood"];
+  几 [label = "几\n57 how many?"];
+  二 [label = "二\n2 two"];
+  一 [label = "一\n1 one"];
+  目 [label = "目\n15 eye"];
+  冂 -> 冒;
+  几 -> 冂;
+  二 -> 冒;
+  一 -> 二;
+  目 -> 冒;
 }

@@ -1,19 +1,19 @@
 blockdiag {
-  933 [label = "哲\n933 philosopher"];
-  932 [label = "折\n932 discount"];
-  594 [label = "指\n594 finger"];
-  None [label = "扌\nNone fingers"];
-  463 [label = "旨\n463 purpose"];
-  453 [label = "匕\n453 ancient spoon"];
-  12 [label = "日\n12 day"];
-  924 [label = "斤\n924 catty"];
-  11 [label = "口\n11 mouth"];
-  932 -> 933;
-  594 -> 932;
-  None -> 594;
-  463 -> 594;
-  453 -> 463;
-  12 -> 463;
-  924 -> 932;
-  11 -> 933;
+  哲 [label = "哲\n933 philosopher"];
+  折 [label = "折\n932 discount"];
+  指 [label = "指\n594 finger"];
+  扌 [label = "扌\nNone fingers"];
+  旨 [label = "旨\n463 purpose"];
+  匕 [label = "匕\n453 ancient spoon"];
+  日 [label = "日\n12 day"];
+  斤 [label = "斤\n924 catty"];
+  口 [label = "口\n11 mouth"];
+  折 -> 哲;
+  指 -> 折;
+  扌 -> 指;
+  旨 -> 指;
+  匕 -> 旨;
+  日 -> 旨;
+  斤 -> 折;
+  口 -> 哲;
 }

@@ -1,11 +1,13 @@
 blockdiag {
-  2119 [label = "拟\n2119 simulate"];
-  None [label = "丶\nNone a drop of"];
-  861 [label = "以\n861 by means of"];
-  793 [label = "人\n793 person"];
-  None -> 2119;
-  861 -> 2119;
-  793 -> 861;
-  None -> 861;
-  None -> 861;
+  拟 [label = "拟\n2119 simulate"];
+  扌 [label = "扌\nNone fingers"];
+  以 [label = "以\n861 by means of"];
+  人 [label = "人\n793 person"];
+  囧以－丶人 [label = "囧以－丶人\nNone plow"];
+  丶 [label = "丶\nNone a drop of"];
+  扌 -> 拟;
+  以 -> 拟;
+  人 -> 以;
+  囧以－丶人 -> 以;
+  丶 -> 以;
 }

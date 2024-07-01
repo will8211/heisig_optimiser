@@ -9,21 +9,17 @@ def parse_requirements(node, parent_id=None, connections=None, labels=None):
     if labels is None:
         labels = {}
 
-    current_id = node["id"]
-    current_label = node.get("label", "")
-    if current_label:
-        parts = current_label.split("\n")
-        full_label = f"{parts[0]}\\n{current_id} {parts[1]}"
-    else:
-        full_label = str(current_id)
-    labels[current_id] = full_label
+    current_character = node["character"]
+    number = str(node["number"]) if node["number"] else "*"
+    current_label = f"{node['character']}\\n{number} {node['keyword']}"
+    labels[current_character] = current_label
 
     if parent_id:
-        connections.append(f"{current_id} -> {parent_id};")
+        connections.append(f"{current_character} -> {parent_id};")
 
     if "requirements" in node:
         for req in node["requirements"]:
-            parse_requirements(req, current_id, connections, labels)
+            parse_requirements(req, current_character, connections, labels)
 
     return connections, labels
 

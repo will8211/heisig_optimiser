@@ -1,15 +1,17 @@
 blockdiag {
-  2453 [label = "婉\n2453 tactful"];
-  102 [label = "女\n102 woman"];
-  2451 [label = "宛\n2451 winding"];
-  None [label = "㔾\nNone fingerprint"];
-  115 [label = "夕\n115 evening"];
-  13 [label = "月\n13 month"];
-  102 -> 2453;
-  2451 -> 2453;
-  None -> 2451;
-  None -> 2451;
-  115 -> None;
-  13 -> 115;
-  None -> None;
+  婉 [label = "婉\n2453 tactful"];
+  女 [label = "女\n102 woman"];
+  宛 [label = "宛\n2451 winding"];
+  宀 [label = "宀\nNone house"];
+  夗 [label = "夗\nNone nameplate"];
+  夕 [label = "夕\n115 evening"];
+  月 [label = "月\n13 month"];
+  㔾 [label = "㔾\nNone fingerprint"];
+  女 -> 婉;
+  宛 -> 婉;
+  宀 -> 宛;
+  夗 -> 宛;
+  夕 -> 夗;
+  月 -> 夕;
+  㔾 -> 夗;
 }

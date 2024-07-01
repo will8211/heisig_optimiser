@@ -1,15 +1,17 @@
 blockdiag {
-  647 [label = "没\n647 not have"];
-  137 [label = "水\n137 water"];
-  None [label = "殳\nNone missile"];
-  1 [label = "一\n1 one"];
-  57 [label = "几\n57 how many?"];
-  633 [label = "又\n633 again"];
-  137 -> 647;
-  None -> 137;
-  1 -> None;
-  None -> 137;
-  None -> 647;
-  57 -> None;
-  633 -> None;
+  没 [label = "没\n647 not have"];
+  水 [label = "水\n137 water"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  丶 [label = "丶\nNone a drop of"];
+  殳 [label = "殳\nNone missile"];
+  几 [label = "几\n57 how many?"];
+  又 [label = "又\n633 again"];
+  水 -> 没;
+  丨 -> 水;
+  一 -> 丨;
+  丶 -> 水;
+  殳 -> 没;
+  几 -> 殳;
+  又 -> 殳;
 }

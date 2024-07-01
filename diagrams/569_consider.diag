@@ -1,7 +1,7 @@
 blockdiag {
-  569 [label = "思\n569 consider"];
-  14 [label = "田\n14 rice field"];
-  563 [label = "心\n563 heart"];
-  14 -> 569;
-  563 -> 569;
+  思 [label = "思\n569 consider"];
+  田 [label = "田\n14 rice field"];
+  心 [label = "心\n563 heart"];
+  田 -> 思;
+  心 -> 思;
 }

@@ -1,9 +1,9 @@
 blockdiag {
-  2159 [label = "款\n2159 funds"];
-  334 [label = "士\n334 soldier"];
-  900 [label = "示\n900 show"];
-  474 [label = "欠\n474 lack"];
-  334 -> 2159;
-  900 -> 2159;
-  474 -> 2159;
+  款 [label = "款\n2159 funds"];
+  士 [label = "士\n334 soldier"];
+  示 [label = "示\n900 show"];
+  欠 [label = "欠\n474 lack"];
+  士 -> 款;
+  示 -> 款;
+  欠 -> 款;
 }

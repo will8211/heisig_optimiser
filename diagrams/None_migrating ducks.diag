@@ -1,13 +1,15 @@
 blockdiag {
-  None [label = "𠂇\nNone by one’s side"];
-  663 [label = "爪\n663 claw"];
-  635 [label = "友\n635 friend"];
-  10 [label = "十\n10 ten"];
-  633 [label = "又\n633 again"];
-  663 -> None;
-  None -> 663;
-  635 -> None;
-  None -> 635;
-  10 -> None;
-  633 -> 635;
+  爰 [label = "爰\nNone migrating ducks"];
+  爪 [label = "爪\n663 claw"];
+  𠂆 [label = "𠂆\nNone drag"];
+  友 [label = "友\n635 friend"];
+  𠂇 [label = "𠂇\nNone by one’s side"];
+  十 [label = "十\n10 ten"];
+  又 [label = "又\n633 again"];
+  爪 -> 爰;
+  𠂆 -> 爪;
+  友 -> 爰;
+  𠂇 -> 友;
+  十 -> 𠂇;
+  又 -> 友;
 }

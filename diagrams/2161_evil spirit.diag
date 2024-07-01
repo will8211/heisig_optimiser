@@ -1,9 +1,9 @@
 blockdiag {
-  2161 [label = "祟\n2161 evil spirit"];
-  689 [label = "出\n689 exit"];
-  688 [label = "山\n688 mountain"];
-  900 [label = "示\n900 show"];
-  689 -> 2161;
-  688 -> 689;
-  900 -> 2161;
+  祟 [label = "祟\n2161 evil spirit"];
+  出 [label = "出\n689 exit"];
+  山 [label = "山\n688 mountain"];
+  示 [label = "示\n900 show"];
+  出 -> 祟;
+  山 -> 出;
+  示 -> 祟;
 }

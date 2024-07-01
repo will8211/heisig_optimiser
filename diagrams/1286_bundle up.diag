@@ -1,7 +1,7 @@
 blockdiag {
-  1286 [label = "束\n1286 bundle up"];
-  202 [label = "木\n202 tree"];
-  11 [label = "口\n11 mouth"];
-  202 -> 1286;
-  11 -> 1286;
+  束 [label = "束\n1286 bundle up"];
+  木 [label = "木\n202 tree"];
+  口 [label = "口\n11 mouth"];
+  木 -> 束;
+  口 -> 束;
 }

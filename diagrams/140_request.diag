@@ -1,12 +1,13 @@
 blockdiag {
-  140 [label = "求\n140 request"];
-  137 [label = "水\n137 water"];
-  None [label = "丶\nNone a drop of"];
-  1 [label = "一\n1 one"];
-  137 -> 140;
-  None -> 137;
-  1 -> None;
-  None -> 137;
-  None -> 140;
-  1 -> 140;
+  求 [label = "求\n140 request"];
+  水 [label = "水\n137 water"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  丶 [label = "丶\nNone a drop of"];
+  水 -> 求;
+  丨 -> 水;
+  一 -> 丨;
+  丶 -> 水;
+  丶 -> 求;
+  一 -> 求;
 }

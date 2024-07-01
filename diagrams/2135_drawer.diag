@@ -1,9 +1,9 @@
 blockdiag {
-  2135 [label = "屉\n2135 drawer"];
-  882 [label = "尸\n882 corpse"];
-  28 [label = "世\n28 generation"];
-  10 [label = "十\n10 ten"];
-  882 -> 2135;
-  28 -> 2135;
-  10 -> 28;
+  屉 [label = "屉\n2135 drawer"];
+  尸 [label = "尸\n882 corpse"];
+  世 [label = "世\n28 generation"];
+  十 [label = "十\n10 ten"];
+  尸 -> 屉;
+  世 -> 屉;
+  十 -> 世;
 }

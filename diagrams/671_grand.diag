@@ -1,9 +1,11 @@
 blockdiag {
-  671 [label = "雄\n671 grand"];
-  None [label = "隹\nNone turkey"];
-  10 [label = "十\n10 ten"];
-  None -> 671;
-  10 -> None;
-  None -> 671;
-  None -> 671;
+  雄 [label = "雄\n671 grand"];
+  𠂇 [label = "𠂇\nNone by one’s side"];
+  十 [label = "十\n10 ten"];
+  厶 [label = "厶\nNone elbow"];
+  隹 [label = "隹\nNone turkey"];
+  𠂇 -> 雄;
+  十 -> 𠂇;
+  厶 -> 雄;
+  隹 -> 雄;
 }

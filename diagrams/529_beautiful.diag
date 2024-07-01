@@ -1,11 +1,11 @@
 blockdiag {
-  529 [label = "美\n529 beautiful"];
-  113 [label = "大\n113 large"];
-  528 [label = "羊\n528 sheep"];
-  None [label = "丷\nNone horns"];
-  1 [label = "一\n1 one"];
-  113 -> 529;
-  528 -> 529;
-  None -> 528;
-  1 -> None;
+  美 [label = "美\n529 beautiful"];
+  大 [label = "大\n113 large"];
+  羊 [label = "羊\n528 sheep"];
+  丷 [label = "丷\nNone horns"];
+  一 [label = "一\n1 one"];
+  大 -> 美;
+  羊 -> 美;
+  丷 -> 羊;
+  一 -> 丷;
 }

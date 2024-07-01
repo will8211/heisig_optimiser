@@ -1,14 +1,15 @@
 blockdiag {
-  418 [label = "棉\n418 cotton"];
-  202 [label = "木\n202 tree"];
-  None [label = "丶\nNone a drop of"];
-  34 [label = "白\n34 white"];
-  12 [label = "日\n12 day"];
-  410 [label = "巾\n410 towel"];
-  202 -> 418;
-  None -> 418;
-  34 -> None;
-  12 -> 34;
-  None -> 34;
-  410 -> None;
+  棉 [label = "棉\n418 cotton"];
+  木 [label = "木\n202 tree"];
+  帛 [label = "帛\nNone white towel"];
+  白 [label = "白\n34 white"];
+  日 [label = "日\n12 day"];
+  丶 [label = "丶\nNone a drop of"];
+  巾 [label = "巾\n410 towel"];
+  木 -> 棉;
+  帛 -> 棉;
+  白 -> 帛;
+  日 -> 白;
+  丶 -> 白;
+  巾 -> 帛;
 }

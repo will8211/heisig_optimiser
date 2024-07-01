@@ -1,15 +1,15 @@
 blockdiag {
-  751 [label = "架\n751 shelf"];
-  749 [label = "加\n749 add"];
-  63 [label = "肌\n63 muscle"];
-  57 [label = "几\n57 how many?"];
-  13 [label = "月\n13 month"];
-  11 [label = "口\n11 mouth"];
-  202 [label = "木\n202 tree"];
-  749 -> 751;
-  63 -> 749;
-  57 -> 63;
-  13 -> 63;
-  11 -> 749;
-  202 -> 751;
+  架 [label = "架\n751 shelf"];
+  加 [label = "加\n749 add"];
+  肌 [label = "肌\n63 muscle"];
+  几 [label = "几\n57 how many?"];
+  月 [label = "月\n13 month"];
+  口 [label = "口\n11 mouth"];
+  木 [label = "木\n202 tree"];
+  加 -> 架;
+  肌 -> 加;
+  几 -> 肌;
+  月 -> 肌;
+  口 -> 加;
+  木 -> 架;
 }

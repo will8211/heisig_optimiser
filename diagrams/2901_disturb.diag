@@ -1,14 +1,15 @@
 blockdiag {
-  2901 [label = "骚\n2901 disturb"];
-  509 [label = "虫\n509 insect"];
-  1453 [label = "马\n1453 horse"];
-  None [label = "丶\nNone a drop of"];
-  1883 [label = "叉\n1883 fork"];
-  633 [label = "又\n633 again"];
-  509 -> 2901;
-  1453 -> 2901;
-  None -> 1453;
-  1883 -> 2901;
-  633 -> 1883;
-  None -> 1883;
+  骚 [label = "骚\n2901 disturb"];
+  虫 [label = "虫\n509 insect"];
+  马 [label = "马\n1453 horse"];
+  囧与－丨一 [label = "囧与－丨一\nNone pointed tail"];
+  叉 [label = "叉\n1883 fork"];
+  又 [label = "又\n633 again"];
+  丶 [label = "丶\nNone a drop of"];
+  虫 -> 骚;
+  马 -> 骚;
+  囧与－丨一 -> 马;
+  叉 -> 骚;
+  又 -> 叉;
+  丶 -> 叉;
 }

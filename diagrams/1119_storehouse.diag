@@ -1,6 +1,7 @@
 blockdiag {
-  1119 [label = "仓\n1119 storehouse"];
-  None [label = "㔾\nNone fingerprint"];
-  None -> 1119;
-  None -> 1119;
+  仓 [label = "仓\n1119 storehouse"];
+  𠆢 [label = "𠆢\nNone umbrella"];
+  㔾 [label = "㔾\nNone fingerprint"];
+  𠆢 -> 仓;
+  㔾 -> 仓;
 }

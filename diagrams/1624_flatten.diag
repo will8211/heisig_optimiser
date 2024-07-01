@@ -1,7 +1,7 @@
 blockdiag {
-  1624 [label = "轧\n1624 flatten"];
-  300 [label = "车\n300 car"];
-  95 [label = "乙\n95 second"];
-  300 -> 1624;
-  95 -> 1624;
+  轧 [label = "轧\n1624 flatten"];
+  车 [label = "车\n300 car"];
+  乙 [label = "乙\n95 second"];
+  车 -> 轧;
+  乙 -> 轧;
 }

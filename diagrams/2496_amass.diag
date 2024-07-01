@@ -1,10 +1,13 @@
 blockdiag {
-  2496 [label = "蕴\n2496 amass"];
-  None [label = "皿\nNone dish"];
-  12 [label = "日\n12 day"];
-  None -> 2496;
-  None -> 2496;
-  None -> None;
-  12 -> 2496;
-  None -> 2496;
+  蕴 [label = "蕴\n2496 amass"];
+  艹 [label = "艹\nNone flower"];
+  纟 [label = "纟\nNone thread"];
+  厶 [label = "厶\nNone elbow"];
+  日 [label = "日\n12 day"];
+  皿 [label = "皿\nNone dish"];
+  艹 -> 蕴;
+  纟 -> 蕴;
+  厶 -> 纟;
+  日 -> 蕴;
+  皿 -> 蕴;
 }

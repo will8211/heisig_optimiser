@@ -1,11 +1,11 @@
 blockdiag {
-  2732 [label = "媒\n2732 matchmaker"];
-  102 [label = "女\n102 woman"];
-  1334 [label = "某\n1334 such and such"];
-  1333 [label = "甘\n1333 sweet"];
-  202 [label = "木\n202 tree"];
-  102 -> 2732;
-  1334 -> 2732;
-  1333 -> 1334;
-  202 -> 1334;
+  媒 [label = "媒\n2732 matchmaker"];
+  女 [label = "女\n102 woman"];
+  某 [label = "某\n1334 such and such"];
+  甘 [label = "甘\n1333 sweet"];
+  木 [label = "木\n202 tree"];
+  女 -> 媒;
+  某 -> 媒;
+  甘 -> 某;
+  木 -> 某;
 }

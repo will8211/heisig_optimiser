@@ -1,6 +1,7 @@
 blockdiag {
-  524 [label = "逐\n524 pursue"];
-  None [label = "辶\nNone road"];
-  None -> 524;
-  None -> 524;
+  逐 [label = "逐\n524 pursue"];
+  豕 [label = "豕\nNone sow"];
+  辶 [label = "辶\nNone road"];
+  豕 -> 逐;
+  辶 -> 逐;
 }

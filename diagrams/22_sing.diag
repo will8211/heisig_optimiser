@@ -1,7 +1,7 @@
 blockdiag {
-  22 [label = "唱\n22 sing"];
-  11 [label = "口\n11 mouth"];
-  12 [label = "日\n12 day"];
-  11 -> 22;
-  12 -> 22;
+  唱 [label = "唱\n22 sing"];
+  口 [label = "口\n11 mouth"];
+  日 [label = "日\n12 day"];
+  口 -> 唱;
+  日 -> 唱;
 }

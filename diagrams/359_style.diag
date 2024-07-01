@@ -1,7 +1,7 @@
 blockdiag {
-  359 [label = "式\n359 style"];
-  None [label = "弋\nNone arrow"];
-  76 [label = "工\n76 work"];
-  None -> 359;
-  76 -> 359;
+  式 [label = "式\n359 style"];
+  弋 [label = "弋\nNone arrow"];
+  工 [label = "工\n76 work"];
+  弋 -> 式;
+  工 -> 式;
 }

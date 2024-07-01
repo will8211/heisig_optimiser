@@ -1,17 +1,21 @@
 blockdiag {
-  1157 [label = "馆\n1157 Bldg."];
-  1154 [label = "食\n1154 food"];
-  1151 [label = "良\n1151 high-quality"];
-  None [label = "宀\nNone house"];
-  1041 [label = "官\n1041 bureaucrat"];
-  1154 -> 1157;
-  1151 -> 1154;
-  None -> 1151;
-  None -> 1151;
-  None -> 1154;
-  1041 -> 1157;
-  None -> 1041;
-  None -> None;
-  None -> 1041;
-  None -> 1041;
+  馆 [label = "馆\n1157 Bldg."];
+  食 [label = "食\n1154 food"];
+  良 [label = "良\n1151 high-quality"];
+  丶 [label = "丶\nNone a drop of"];
+  艮 [label = "艮\nNone silver"];
+  𠆢 [label = "𠆢\nNone umbrella"];
+  官 [label = "官\n1041 bureaucrat"];
+  𠂤 [label = "𠂤\nNone maestro"];
+  宀 [label = "宀\nNone house"];
+  食 -> 馆;
+  良 -> 食;
+  丶 -> 良;
+  艮 -> 良;
+  𠆢 -> 食;
+  官 -> 馆;
+  𠂤 -> 官;
+  丶 -> 𠂤;
+  丶 -> 官;
+  宀 -> 官;
 }

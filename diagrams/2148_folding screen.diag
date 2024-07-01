@@ -1,16 +1,16 @@
 blockdiag {
-  2148 [label = "屏\n2148 folding screen"];
-  882 [label = "尸\n882 corpse"];
-  863 [label = "并\n863 combine"];
-  None [label = "丷\nNone horns"];
-  1 [label = "一\n1 one"];
-  613 [label = "开\n613 open"];
-  2 [label = "二\n2 two"];
-  882 -> 2148;
-  863 -> 2148;
-  None -> 863;
-  1 -> None;
-  613 -> 863;
-  2 -> 613;
-  1 -> 2;
+  屏 [label = "屏\n2148 folding screen"];
+  尸 [label = "尸\n882 corpse"];
+  并 [label = "并\n863 combine"];
+  丷 [label = "丷\nNone horns"];
+  一 [label = "一\n1 one"];
+  开 [label = "开\n613 open"];
+  二 [label = "二\n2 two"];
+  尸 -> 屏;
+  并 -> 屏;
+  丷 -> 并;
+  一 -> 丷;
+  开 -> 并;
+  二 -> 开;
+  一 -> 二;
 }

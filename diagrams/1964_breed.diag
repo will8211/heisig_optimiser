@@ -1,13 +1,13 @@
 blockdiag {
-  1964 [label = "殖\n1964 breed"];
-  712 [label = "歹\n712 malicious"];
-  72 [label = "直\n72 straight"];
-  10 [label = "十\n10 ten"];
-  15 [label = "目\n15 eye"];
-  1 [label = "一\n1 one"];
-  712 -> 1964;
-  72 -> 1964;
-  10 -> 72;
-  15 -> 72;
-  1 -> 72;
+  殖 [label = "殖\n1964 breed"];
+  歹 [label = "歹\n712 malicious"];
+  直 [label = "直\n72 straight"];
+  十 [label = "十\n10 ten"];
+  目 [label = "目\n15 eye"];
+  一 [label = "一\n1 one"];
+  歹 -> 殖;
+  直 -> 殖;
+  十 -> 直;
+  目 -> 直;
+  一 -> 直;
 }

@@ -1,15 +1,15 @@
 blockdiag {
-  2244 [label = "燕\n2244 swallow"];
-  976 [label = "廿\n976 twenty"];
-  10 [label = "十\n10 ten"];
-  11 [label = "口\n11 mouth"];
-  454 [label = "北\n454 north"];
-  453 [label = "匕\n453 ancient spoon"];
-  170 [label = "火\n170 fire"];
-  976 -> 2244;
-  10 -> 976;
-  11 -> 2244;
-  454 -> 2244;
-  453 -> 454;
-  170 -> 2244;
+  燕 [label = "燕\n2244 swallow"];
+  廿 [label = "廿\n976 twenty"];
+  十 [label = "十\n10 ten"];
+  口 [label = "口\n11 mouth"];
+  北 [label = "北\n454 north"];
+  匕 [label = "匕\n453 ancient spoon"];
+  火 [label = "火\n170 fire"];
+  廿 -> 燕;
+  十 -> 廿;
+  口 -> 燕;
+  北 -> 燕;
+  匕 -> 北;
+  火 -> 燕;
 }

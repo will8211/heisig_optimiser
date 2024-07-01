@@ -1,11 +1,11 @@
 blockdiag {
-  2020 [label = "梨\n2020 pear"];
-  771 [label = "利\n771 profit"];
-  762 [label = "禾\n762 standing grain"];
-  83 [label = "刀\n83 sword"];
-  202 [label = "木\n202 tree"];
-  771 -> 2020;
-  762 -> 771;
-  83 -> 771;
-  202 -> 2020;
+  梨 [label = "梨\n2020 pear"];
+  利 [label = "利\n771 profit"];
+  禾 [label = "禾\n762 standing grain"];
+  刀 [label = "刀\n83 sword"];
+  木 [label = "木\n202 tree"];
+  利 -> 梨;
+  禾 -> 利;
+  刀 -> 利;
+  木 -> 梨;
 }

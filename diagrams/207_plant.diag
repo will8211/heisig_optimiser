@@ -1,13 +1,13 @@
 blockdiag {
-  207 [label = "植\n207 plant"];
-  202 [label = "木\n202 tree"];
-  72 [label = "直\n72 straight"];
-  10 [label = "十\n10 ten"];
-  15 [label = "目\n15 eye"];
-  1 [label = "一\n1 one"];
-  202 -> 207;
-  72 -> 207;
-  10 -> 72;
-  15 -> 72;
-  1 -> 72;
+  植 [label = "植\n207 plant"];
+  木 [label = "木\n202 tree"];
+  直 [label = "直\n72 straight"];
+  十 [label = "十\n10 ten"];
+  目 [label = "目\n15 eye"];
+  一 [label = "一\n1 one"];
+  木 -> 植;
+  直 -> 植;
+  十 -> 直;
+  目 -> 直;
+  一 -> 直;
 }

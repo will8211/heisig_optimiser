@@ -1,7 +1,7 @@
 blockdiag {
-  981 [label = "伴\n981 partner"];
-  793 [label = "人\n793 person"];
-  980 [label = "半\n980 half"];
-  793 -> 981;
-  980 -> 981;
+  伴 [label = "伴\n981 partner"];
+  人 [label = "人\n793 person"];
+  半 [label = "半\n980 half"];
+  人 -> 伴;
+  半 -> 伴;
 }

@@ -1,14 +1,15 @@
 blockdiag {
-  1574 [label = "淋\n1574 drench"];
-  137 [label = "水\n137 water"];
-  None [label = "丶\nNone a drop of"];
-  1 [label = "一\n1 one"];
-  203 [label = "林\n203 woods"];
-  202 [label = "木\n202 tree"];
-  137 -> 1574;
-  None -> 137;
-  1 -> None;
-  None -> 137;
-  203 -> 1574;
-  202 -> 203;
+  淋 [label = "淋\n1574 drench"];
+  水 [label = "水\n137 water"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  丶 [label = "丶\nNone a drop of"];
+  林 [label = "林\n203 woods"];
+  木 [label = "木\n202 tree"];
+  水 -> 淋;
+  丨 -> 水;
+  一 -> 丨;
+  丶 -> 水;
+  林 -> 淋;
+  木 -> 林;
 }

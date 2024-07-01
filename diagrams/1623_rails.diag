@@ -1,7 +1,7 @@
 blockdiag {
-  1623 [label = "轨\n1623 rails"];
-  300 [label = "车\n300 car"];
-  9 [label = "九\n9 nine"];
-  300 -> 1623;
-  9 -> 1623;
+  轨 [label = "轨\n1623 rails"];
+  车 [label = "车\n300 car"];
+  九 [label = "九\n9 nine"];
+  车 -> 轨;
+  九 -> 轨;
 }

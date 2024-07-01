@@ -1,12 +1,13 @@
 blockdiag {
-  948 [label = "档\n948 files"];
-  202 [label = "木\n202 tree"];
-  947 [label = "当\n947 work as"];
-  109 [label = "小\n109 small"];
-  None [label = "彐\nNone broom"];
-  202 -> 948;
-  947 -> 948;
-  109 -> 947;
-  None -> 109;
-  None -> 947;
+  档 [label = "档\n948 files"];
+  木 [label = "木\n202 tree"];
+  当 [label = "当\n947 work as"];
+  小 [label = "小\n109 small"];
+  丶 [label = "丶\nNone a drop of"];
+  彐 [label = "彐\nNone broom"];
+  木 -> 档;
+  当 -> 档;
+  小 -> 当;
+  丶 -> 小;
+  彐 -> 当;
 }

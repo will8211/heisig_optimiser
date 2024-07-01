@@ -1,17 +1,19 @@
 blockdiag {
-  233 [label = "漠\n233 desert"];
-  137 [label = "水\n137 water"];
-  None [label = "艹\nNone flower"];
-  1 [label = "一\n1 one"];
-  231 [label = "莫\n231 nobody"];
-  12 [label = "日\n12 day"];
-  113 [label = "大\n113 large"];
-  137 -> 233;
-  None -> 137;
-  1 -> None;
-  None -> 137;
-  231 -> 233;
-  None -> 231;
-  12 -> 231;
-  113 -> 231;
+  漠 [label = "漠\n233 desert"];
+  水 [label = "水\n137 water"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  丶 [label = "丶\nNone a drop of"];
+  莫 [label = "莫\n231 nobody"];
+  艹 [label = "艹\nNone flower"];
+  日 [label = "日\n12 day"];
+  大 [label = "大\n113 large"];
+  水 -> 漠;
+  丨 -> 水;
+  一 -> 丨;
+  丶 -> 水;
+  莫 -> 漠;
+  艹 -> 莫;
+  日 -> 莫;
+  大 -> 莫;
 }

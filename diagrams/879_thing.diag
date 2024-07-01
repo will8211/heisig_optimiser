@@ -1,10 +1,11 @@
 blockdiag {
-  879 [label = "物\n879 thing"];
-  252 [label = "牛\n252 cow"];
-  877 [label = "勿\n877 not"];
-  None [label = "豕\nNone sow"];
-  252 -> 879;
-  877 -> 879;
-  None -> 877;
-  None -> None;
+  物 [label = "物\n879 thing"];
+  牛 [label = "牛\n252 cow"];
+  勿 [label = "勿\n877 not"];
+  𠃓 [label = "𠃓\nNone piglets"];
+  豕 [label = "豕\nNone sow"];
+  牛 -> 物;
+  勿 -> 物;
+  𠃓 -> 勿;
+  豕 -> 𠃓;
 }

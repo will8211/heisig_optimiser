@@ -1,10 +1,11 @@
 blockdiag {
-  1690 [label = "棘\n1690 thorn bushes"];
-  None [label = "囧冂\nNone belt"];
-  410 [label = "巾\n410 towel"];
-  202 [label = "木\n202 tree"];
-  None -> 1690;
-  None -> None;
-  410 -> None;
-  202 -> None;
+  棘 [label = "棘\n1690 thorn bushes"];
+  朿 [label = "朿\nNone thorn"];
+  囧冂 [label = "囧冂\nNone belt"];
+  巾 [label = "巾\n410 towel"];
+  木 [label = "木\n202 tree"];
+  朿 -> 棘;
+  囧冂 -> 朿;
+  巾 -> 囧冂;
+  木 -> 朿;
 }

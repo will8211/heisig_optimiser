@@ -1,12 +1,12 @@
 blockdiag {
-  1969 [label = "毙\n1969 die a violent death"];
-  456 [label = "比\n456 compare"];
-  453 [label = "匕\n453 ancient spoon"];
-  715 [label = "死\n715 death"];
-  712 [label = "歹\n712 malicious"];
-  456 -> 1969;
-  453 -> 456;
-  715 -> 1969;
-  712 -> 715;
-  453 -> 715;
+  毙 [label = "毙\n1969 die a violent death"];
+  比 [label = "比\n456 compare"];
+  匕 [label = "匕\n453 ancient spoon"];
+  死 [label = "死\n715 death"];
+  歹 [label = "歹\n712 malicious"];
+  比 -> 毙;
+  匕 -> 比;
+  死 -> 毙;
+  歹 -> 死;
+  匕 -> 死;
 }

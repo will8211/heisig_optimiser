@@ -1,12 +1,12 @@
 blockdiag {
-  1469 [label = "关\n1469 shut"];
-  None [label = "丷\nNone horns"];
-  1 [label = "一\n1 one"];
-  436 [label = "天\n436 heavens"];
-  113 [label = "大\n113 large"];
-  None -> 1469;
-  1 -> None;
-  436 -> 1469;
-  1 -> 436;
-  113 -> 436;
+  关 [label = "关\n1469 shut"];
+  丷 [label = "丷\nNone horns"];
+  一 [label = "一\n1 one"];
+  天 [label = "天\n436 heavens"];
+  大 [label = "大\n113 large"];
+  丷 -> 关;
+  一 -> 丷;
+  天 -> 关;
+  一 -> 天;
+  大 -> 天;
 }

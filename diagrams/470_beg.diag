@@ -1,7 +1,7 @@
 blockdiag {
-  470 [label = "乞\n470 beg"];
-  None [label = "𠂉\nNone reclining"];
-  95 [label = "乙\n95 second"];
-  None -> 470;
-  95 -> 470;
+  乞 [label = "乞\n470 beg"];
+  𠂉 [label = "𠂉\nNone reclining"];
+  乙 [label = "乙\n95 second"];
+  𠂉 -> 乞;
+  乙 -> 乞;
 }

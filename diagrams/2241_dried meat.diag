@@ -1,12 +1,13 @@
 blockdiag {
-  2241 [label = "腊\n2241 dried meat"];
-  13 [label = "月\n13 month"];
-  971 [label = "昔\n971 times past"];
-  None [label = "艹\nNone flower"];
-  12 [label = "日\n12 day"];
-  13 -> 2241;
-  971 -> 2241;
-  None -> 971;
-  None -> None;
-  12 -> 971;
+  腊 [label = "腊\n2241 dried meat"];
+  月 [label = "月\n13 month"];
+  昔 [label = "昔\n971 times past"];
+  囧昔－日 [label = "囧昔－日\nNone salad"];
+  艹 [label = "艹\nNone flower"];
+  日 [label = "日\n12 day"];
+  月 -> 腊;
+  昔 -> 腊;
+  囧昔－日 -> 昔;
+  艹 -> 囧昔－日;
+  日 -> 昔;
 }

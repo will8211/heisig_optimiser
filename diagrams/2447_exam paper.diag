@@ -1,8 +1,9 @@
 blockdiag {
-  2447 [label = "卷\n2447 exam paper"];
-  None [label = "㔾\nNone fingerprint"];
-  980 [label = "半\n980 half"];
-  None -> 2447;
-  980 -> None;
-  None -> 2447;
+  卷 [label = "卷\n2447 exam paper"];
+  囧眷－目 [label = "囧眷－目\nNone quarter"];
+  半 [label = "半\n980 half"];
+  㔾 [label = "㔾\nNone fingerprint"];
+  囧眷－目 -> 卷;
+  半 -> 囧眷－目;
+  㔾 -> 卷;
 }

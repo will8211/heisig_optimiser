@@ -1,12 +1,15 @@
 blockdiag {
-  2858 [label = "剑\n2858 saber"];
-  None [label = "囧应－广\nNone owl"];
-  1 [label = "一\n1 one"];
-  83 [label = "刀\n83 sword"];
-  None -> 2858;
-  None -> None;
-  None -> None;
-  None -> None;
-  1 -> None;
-  83 -> 2858;
+  剑 [label = "剑\n2858 saber"];
+  佥 [label = "佥\nNone hootenanny"];
+  亼 [label = "亼\nNone meeting"];
+  𠆢 [label = "𠆢\nNone umbrella"];
+  囧应－广 [label = "囧应－广\nNone owl"];
+  一 [label = "一\n1 one"];
+  刀 [label = "刀\n83 sword"];
+  佥 -> 剑;
+  亼 -> 佥;
+  𠆢 -> 亼;
+  囧应－广 -> 佥;
+  一 -> 佥;
+  刀 -> 剑;
 }

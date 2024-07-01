@@ -1,18 +1,19 @@
 blockdiag {
-  2264 [label = "舒\n2264 relax"];
-  1599 [label = "舍\n1599 abode"];
-  None [label = "𠆢\nNone umbrella"];
-  16 [label = "古\n16 ancient"];
-  10 [label = "十\n10 ten"];
-  11 [label = "口\n11 mouth"];
-  1005 [label = "予\n1005 bestow"];
-  1002 [label = "矛\n1002 spear"];
-  1599 -> 2264;
-  None -> 1599;
-  None -> None;
-  16 -> 1599;
-  10 -> 16;
-  11 -> 16;
-  1005 -> 2264;
-  1002 -> 1005;
+  舒 [label = "舒\n2264 relax"];
+  舍 [label = "舍\n1599 abode"];
+  亼 [label = "亼\nNone meeting"];
+  𠆢 [label = "𠆢\nNone umbrella"];
+  古 [label = "古\n16 ancient"];
+  十 [label = "十\n10 ten"];
+  口 [label = "口\n11 mouth"];
+  予 [label = "予\n1005 bestow"];
+  矛 [label = "矛\n1002 spear"];
+  舍 -> 舒;
+  亼 -> 舍;
+  𠆢 -> 亼;
+  古 -> 舍;
+  十 -> 古;
+  口 -> 古;
+  予 -> 舒;
+  矛 -> 予;
 }

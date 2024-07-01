@@ -1,15 +1,17 @@
 blockdiag {
-  1285 [label = "途\n1285 route"];
-  1283 [label = "余\n1283 excess"];
-  None [label = "辶\nNone road"];
-  1281 [label = "于\n1281 Yu"];
-  1277 [label = "干\n1277 dry"];
-  109 [label = "小\n109 small"];
-  1283 -> 1285;
-  None -> 1283;
-  1281 -> 1283;
-  1277 -> 1281;
-  109 -> 1283;
-  None -> 109;
-  None -> 1285;
+  途 [label = "途\n1285 route"];
+  余 [label = "余\n1283 excess"];
+  𠆢 [label = "𠆢\nNone umbrella"];
+  于 [label = "于\n1281 Yu"];
+  干 [label = "干\n1277 dry"];
+  小 [label = "小\n109 small"];
+  丶 [label = "丶\nNone a drop of"];
+  辶 [label = "辶\nNone road"];
+  余 -> 途;
+  𠆢 -> 余;
+  于 -> 余;
+  干 -> 于;
+  小 -> 余;
+  丶 -> 小;
+  辶 -> 途;
 }

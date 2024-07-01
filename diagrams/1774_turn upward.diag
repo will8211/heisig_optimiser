@@ -1,13 +1,13 @@
 blockdiag {
-  1774 [label = "翘\n1774 turn upward"];
-  376 [label = "尧\n376 Yao"];
-  361 [label = "戈\n361 halberd"];
-  None [label = "弋\nNone arrow"];
-  56 [label = "儿\n56 youngster"];
-  544 [label = "羽\n544 feathers"];
-  376 -> 1774;
-  361 -> 376;
-  None -> 361;
-  56 -> 376;
-  544 -> 1774;
+  翘 [label = "翘\n1774 turn upward"];
+  尧 [label = "尧\n376 Yao"];
+  戈 [label = "戈\n361 halberd"];
+  弋 [label = "弋\nNone arrow"];
+  儿 [label = "儿\n56 youngster"];
+  羽 [label = "羽\n544 feathers"];
+  尧 -> 翘;
+  戈 -> 尧;
+  弋 -> 戈;
+  儿 -> 尧;
+  羽 -> 翘;
 }

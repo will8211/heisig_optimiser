@@ -1,10 +1,11 @@
 blockdiag {
-  1137 [label = "盖\n1137 lid"];
-  528 [label = "羊\n528 sheep"];
-  None [label = "皿\nNone dish"];
-  1 [label = "一\n1 one"];
-  528 -> 1137;
-  None -> 528;
-  1 -> None;
-  None -> 1137;
+  盖 [label = "盖\n1137 lid"];
+  羊 [label = "羊\n528 sheep"];
+  丷 [label = "丷\nNone horns"];
+  一 [label = "一\n1 one"];
+  皿 [label = "皿\nNone dish"];
+  羊 -> 盖;
+  丷 -> 羊;
+  一 -> 丷;
+  皿 -> 盖;
 }

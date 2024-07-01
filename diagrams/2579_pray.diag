@@ -1,15 +1,15 @@
 blockdiag {
-  2579 [label = "祷\n2579 pray"];
-  900 [label = "示\n900 show"];
-  2575 [label = "寿\n2575 longevity"];
-  1223 [label = "丰\n1223 plentiful"];
-  166 [label = "寸\n166 Chinese inch"];
-  None [label = "丶\nNone a drop of"];
-  10 [label = "十\n10 ten"];
-  900 -> 2579;
-  2575 -> 2579;
-  1223 -> 2575;
-  166 -> 2575;
-  None -> 166;
-  10 -> 166;
+  祷 [label = "祷\n2579 pray"];
+  示 [label = "示\n900 show"];
+  寿 [label = "寿\n2575 longevity"];
+  丰 [label = "丰\n1223 plentiful"];
+  寸 [label = "寸\n166 Chinese inch"];
+  丶 [label = "丶\nNone a drop of"];
+  十 [label = "十\n10 ten"];
+  示 -> 祷;
+  寿 -> 祷;
+  丰 -> 寿;
+  寸 -> 寿;
+  丶 -> 寸;
+  十 -> 寸;
 }

@@ -1,9 +1,9 @@
 blockdiag {
-  274 [label = "呈\n274 submit"];
-  265 [label = "王\n265 king"];
-  76 [label = "工\n76 work"];
-  11 [label = "口\n11 mouth"];
-  265 -> 274;
-  76 -> 265;
-  11 -> 274;
+  呈 [label = "呈\n274 submit"];
+  王 [label = "王\n265 king"];
+  工 [label = "工\n76 work"];
+  口 [label = "口\n11 mouth"];
+  王 -> 呈;
+  工 -> 王;
+  口 -> 呈;
 }

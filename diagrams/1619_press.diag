@@ -1,12 +1,13 @@
 blockdiag {
-  1619 [label = "逼\n1619 press"];
-  None [label = "辶\nNone road"];
-  1 [label = "一\n1 one"];
-  11 [label = "口\n11 mouth"];
-  14 [label = "田\n14 rice field"];
-  None -> 1619;
-  1 -> None;
-  11 -> None;
-  14 -> None;
-  None -> 1619;
+  逼 [label = "逼\n1619 press"];
+  畐 [label = "畐\nNone wealth"];
+  一 [label = "一\n1 one"];
+  口 [label = "口\n11 mouth"];
+  田 [label = "田\n14 rice field"];
+  辶 [label = "辶\nNone road"];
+  畐 -> 逼;
+  一 -> 畐;
+  口 -> 畐;
+  田 -> 畐;
+  辶 -> 逼;
 }

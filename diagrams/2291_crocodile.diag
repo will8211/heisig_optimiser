@@ -1,17 +1,19 @@
 blockdiag {
-  2291 [label = "鳄\n2291 crocodile"];
-  154 [label = "鱼\n154 fish"];
-  None [label = "丂\nNone snare"];
-  14 [label = "田\n14 rice field"];
-  1 [label = "一\n1 one"];
-  11 [label = "口\n11 mouth"];
-  2286 [label = "亏\n2286 loss"];
-  154 -> 2291;
-  None -> 154;
-  14 -> 154;
-  1 -> 154;
-  None -> 2291;
-  11 -> None;
-  2286 -> 2291;
-  None -> 2286;
+  鳄 [label = "鳄\n2291 crocodile"];
+  鱼 [label = "鱼\n154 fish"];
+  勹 [label = "勹\nNone bound up"];
+  田 [label = "田\n14 rice field"];
+  一 [label = "一\n1 one"];
+  吅 [label = "吅\nNone chatterbox"];
+  口 [label = "口\n11 mouth"];
+  亏 [label = "亏\n2286 loss"];
+  丂 [label = "丂\nNone snare"];
+  鱼 -> 鳄;
+  勹 -> 鱼;
+  田 -> 鱼;
+  一 -> 鱼;
+  吅 -> 鳄;
+  口 -> 吅;
+  亏 -> 鳄;
+  丂 -> 亏;
 }

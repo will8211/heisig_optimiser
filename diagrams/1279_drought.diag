@@ -1,7 +1,7 @@
 blockdiag {
-  1279 [label = "旱\n1279 drought"];
-  12 [label = "日\n12 day"];
-  1277 [label = "干\n1277 dry"];
-  12 -> 1279;
-  1277 -> 1279;
+  旱 [label = "旱\n1279 drought"];
+  日 [label = "日\n12 day"];
+  干 [label = "干\n1277 dry"];
+  日 -> 旱;
+  干 -> 旱;
 }

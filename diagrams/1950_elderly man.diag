@@ -1,11 +1,11 @@
 blockdiag {
-  1950 [label = "翁\n1950 elderly man"];
-  696 [label = "公\n696 public"];
-  8 [label = "八\n8 eight"];
-  None [label = "厶\nNone elbow"];
-  544 [label = "羽\n544 feathers"];
-  696 -> 1950;
-  8 -> 696;
-  None -> 696;
-  544 -> 1950;
+  翁 [label = "翁\n1950 elderly man"];
+  公 [label = "公\n696 public"];
+  八 [label = "八\n8 eight"];
+  厶 [label = "厶\nNone elbow"];
+  羽 [label = "羽\n544 feathers"];
+  公 -> 翁;
+  八 -> 公;
+  厶 -> 公;
+  羽 -> 翁;
 }

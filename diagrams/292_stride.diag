@@ -1,10 +1,11 @@
 blockdiag {
-  292 [label = "迈\n292 stride"];
-  None [label = "勹\nNone bound up"];
-  65 [label = "万\n65 ten thousand"];
-  1 [label = "一\n1 one"];
-  None -> 292;
-  65 -> 292;
-  None -> 65;
-  1 -> 65;
+  迈 [label = "迈\n292 stride"];
+  辶 [label = "辶\nNone road"];
+  万 [label = "万\n65 ten thousand"];
+  勹 [label = "勹\nNone bound up"];
+  一 [label = "一\n1 one"];
+  辶 -> 迈;
+  万 -> 迈;
+  勹 -> 万;
+  一 -> 万;
 }

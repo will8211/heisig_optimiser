@@ -1,7 +1,7 @@
 blockdiag {
-  1329 [label = "吧\n1329 bar"];
-  11 [label = "口\n11 mouth"];
-  1326 [label = "巴\n1326 crust"];
-  11 -> 1329;
-  1326 -> 1329;
+  吧 [label = "吧\n1329 bar"];
+  口 [label = "口\n11 mouth"];
+  巴 [label = "巴\n1326 crust"];
+  口 -> 吧;
+  巴 -> 吧;
 }

@@ -1,16 +1,17 @@
 blockdiag {
-  2009 [label = "稠\n2009 dense"];
-  762 [label = "禾\n762 standing grain"];
-  333 [label = "周\n333 circumference"];
-  None [label = "冂\nNone hood"];
-  158 [label = "土\n158 soil"];
-  11 [label = "口\n11 mouth"];
-  57 [label = "几\n57 how many?"];
-  762 -> 2009;
-  333 -> 2009;
-  None -> 333;
-  158 -> None;
-  11 -> None;
-  None -> 333;
-  57 -> None;
+  稠 [label = "稠\n2009 dense"];
+  禾 [label = "禾\n762 standing grain"];
+  周 [label = "周\n333 circumference"];
+  囧周－冂 [label = "囧周－冂\nNone lidded crock"];
+  土 [label = "土\n158 soil"];
+  口 [label = "口\n11 mouth"];
+  冂 [label = "冂\nNone hood"];
+  几 [label = "几\n57 how many?"];
+  禾 -> 稠;
+  周 -> 稠;
+  囧周－冂 -> 周;
+  土 -> 囧周－冂;
+  口 -> 囧周－冂;
+  冂 -> 周;
+  几 -> 冂;
 }

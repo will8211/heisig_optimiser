@@ -1,13 +1,15 @@
 blockdiag {
-  2178 [label = "畅\n2178 smooth"];
-  918 [label = "申\n918 express"];
-  12 [label = "日\n12 day"];
-  None [label = "豕\nNone sow"];
-  1 [label = "一\n1 one"];
-  918 -> 2178;
-  12 -> 918;
-  None -> 918;
-  1 -> None;
-  None -> 2178;
-  None -> None;
+  畅 [label = "畅\n2178 smooth"];
+  申 [label = "申\n918 express"];
+  日 [label = "日\n12 day"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  𠃓 [label = "𠃓\nNone piglets"];
+  豕 [label = "豕\nNone sow"];
+  申 -> 畅;
+  日 -> 申;
+  丨 -> 申;
+  一 -> 丨;
+  𠃓 -> 畅;
+  豕 -> 𠃓;
 }

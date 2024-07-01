@@ -1,17 +1,17 @@
 blockdiag {
-  632 [label = "硬\n632 hard"];
-  125 [label = "石\n125 stone"];
-  11 [label = "口\n11 mouth"];
-  121 [label = "厂\n121 factory"];
-  631 [label = "更\n631 even more"];
-  1 [label = "一\n1 one"];
-  12 [label = "日\n12 day"];
-  None [label = "囧史－口\nNone tucked under the arm"];
-  125 -> 632;
-  11 -> 125;
-  121 -> 125;
-  631 -> 632;
-  1 -> 631;
-  12 -> 631;
-  None -> 631;
+  硬 [label = "硬\n632 hard"];
+  石 [label = "石\n125 stone"];
+  口 [label = "口\n11 mouth"];
+  厂 [label = "厂\n121 factory"];
+  更 [label = "更\n631 even more"];
+  一 [label = "一\n1 one"];
+  日 [label = "日\n12 day"];
+  囧史－口 [label = "囧史－口\nNone tucked under the arm"];
+  石 -> 硬;
+  口 -> 石;
+  厂 -> 石;
+  更 -> 硬;
+  一 -> 更;
+  日 -> 更;
+  囧史－口 -> 更;
 }

@@ -1,12 +1,13 @@
 blockdiag {
-  2605 [label = "唾\n2605 saliva"];
-  11 [label = "口\n11 mouth"];
-  1241 [label = "垂\n1241 droop"];
-  None [label = "囧垂－一－一\nNone silage"];
-  334 [label = "士\n334 soldier"];
-  11 -> 2605;
-  1241 -> 2605;
-  None -> 1241;
-  334 -> None;
-  None -> 1241;
+  唾 [label = "唾\n2605 saliva"];
+  口 [label = "口\n11 mouth"];
+  垂 [label = "垂\n1241 droop"];
+  壬 [label = "壬\nNone porter"];
+  士 [label = "士\n334 soldier"];
+  囧垂－一－一 [label = "囧垂－一－一\nNone silage"];
+  口 -> 唾;
+  垂 -> 唾;
+  壬 -> 垂;
+  士 -> 壬;
+  囧垂－一－一 -> 垂;
 }

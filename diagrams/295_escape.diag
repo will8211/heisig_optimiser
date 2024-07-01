@@ -1,7 +1,7 @@
 blockdiag {
-  295 [label = "逃\n295 escape"];
-  237 [label = "兆\n237 portent"];
-  None [label = "辶\nNone road"];
-  237 -> 295;
-  None -> 295;
+  逃 [label = "逃\n295 escape"];
+  兆 [label = "兆\n237 portent"];
+  辶 [label = "辶\nNone road"];
+  兆 -> 逃;
+  辶 -> 逃;
 }

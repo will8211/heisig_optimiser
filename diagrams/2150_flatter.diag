@@ -1,11 +1,11 @@
 blockdiag {
-  2150 [label = "媚\n2150 flatter"];
-  102 [label = "女\n102 woman"];
-  2149 [label = "眉\n2149 eyebrows"];
-  15 [label = "目\n15 eye"];
-  882 [label = "尸\n882 corpse"];
-  102 -> 2150;
-  2149 -> 2150;
-  15 -> 2149;
-  882 -> 2149;
+  媚 [label = "媚\n2150 flatter"];
+  女 [label = "女\n102 woman"];
+  眉 [label = "眉\n2149 eyebrows"];
+  目 [label = "目\n15 eye"];
+  尸 [label = "尸\n882 corpse"];
+  女 -> 媚;
+  眉 -> 媚;
+  目 -> 眉;
+  尸 -> 眉;
 }

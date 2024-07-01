@@ -1,13 +1,13 @@
 blockdiag {
-  2760 [label = "哑\n2760 mute"];
-  11 [label = "口\n11 mouth"];
-  1351 [label = "亚\n1351 Asia"];
-  1 [label = "一\n1 one"];
-  1349 [label = "业\n1349 profession"];
-  None [label = "並\nNone side by side"];
-  11 -> 2760;
-  1351 -> 2760;
-  1 -> 1351;
-  1349 -> 1351;
-  None -> 1349;
+  哑 [label = "哑\n2760 mute"];
+  口 [label = "口\n11 mouth"];
+  亚 [label = "亚\n1351 Asia"];
+  一 [label = "一\n1 one"];
+  业 [label = "业\n1349 profession"];
+  並 [label = "並\nNone side by side"];
+  口 -> 哑;
+  亚 -> 哑;
+  一 -> 亚;
+  业 -> 亚;
+  並 -> 业;
 }

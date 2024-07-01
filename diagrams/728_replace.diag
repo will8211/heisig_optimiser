@@ -1,9 +1,9 @@
 blockdiag {
-  728 [label = "替\n728 replace"];
-  726 [label = "夫\n726 husband"];
-  113 [label = "大\n113 large"];
-  12 [label = "日\n12 day"];
-  726 -> 728;
-  113 -> 726;
-  12 -> 728;
+  替 [label = "替\n728 replace"];
+  夫 [label = "夫\n726 husband"];
+  大 [label = "大\n113 large"];
+  日 [label = "日\n12 day"];
+  夫 -> 替;
+  大 -> 夫;
+  日 -> 替;
 }

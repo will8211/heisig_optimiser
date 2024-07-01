@@ -1,8 +1,11 @@
 blockdiag {
-  None [label = "囧毒－母\nNone grow up"];
-  11 [label = "口\n11 mouth"];
-  None -> None;
-  None -> None;
-  11 -> None;
-  None -> None;
+  堇 [label = "堇\nNone spinach"];
+  囧昔－日 [label = "囧昔－日\nNone salad"];
+  艹 [label = "艹\nNone flower"];
+  口 [label = "口\n11 mouth"];
+  囧毒－母 [label = "囧毒－母\nNone grow up"];
+  囧昔－日 -> 堇;
+  艹 -> 囧昔－日;
+  口 -> 堇;
+  囧毒－母 -> 堇;
 }

@@ -1,11 +1,11 @@
 blockdiag {
-  1794 [label = "惠\n1794 favor"];
-  1 [label = "一\n1 one"];
-  12 [label = "日\n12 day"];
-  509 [label = "虫\n509 insect"];
-  563 [label = "心\n563 heart"];
-  1 -> 1794;
-  12 -> 1794;
-  509 -> 1794;
-  563 -> 1794;
+  惠 [label = "惠\n1794 favor"];
+  一 [label = "一\n1 one"];
+  日 [label = "日\n12 day"];
+  虫 [label = "虫\n509 insect"];
+  心 [label = "心\n563 heart"];
+  一 -> 惠;
+  日 -> 惠;
+  虫 -> 惠;
+  心 -> 惠;
 }

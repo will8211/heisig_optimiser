@@ -1,10 +1,11 @@
 blockdiag {
-  1153 [label = "娘\n1153 mom"];
-  102 [label = "女\n102 woman"];
-  1151 [label = "良\n1151 high-quality"];
-  None [label = "艮\nNone silver"];
-  102 -> 1153;
-  1151 -> 1153;
-  None -> 1151;
-  None -> 1151;
+  娘 [label = "娘\n1153 mom"];
+  女 [label = "女\n102 woman"];
+  良 [label = "良\n1151 high-quality"];
+  丶 [label = "丶\nNone a drop of"];
+  艮 [label = "艮\nNone silver"];
+  女 -> 娘;
+  良 -> 娘;
+  丶 -> 良;
+  艮 -> 良;
 }

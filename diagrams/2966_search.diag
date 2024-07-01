@@ -1,12 +1,15 @@
 blockdiag {
-  2966 [label = "搜\n2966 search"];
-  None [label = "丨\nNone walking stick"];
-  633 [label = "又\n633 again"];
-  1 [label = "一\n1 one"];
-  None -> 2966;
-  None -> 2966;
-  None -> None;
-  633 -> None;
-  None -> None;
-  1 -> None;
+  搜 [label = "搜\n2966 search"];
+  扌 [label = "扌\nNone fingers"];
+  叟 [label = "叟\nNone cake mixer"];
+  臼 [label = "臼\nNone mortar"];
+  又 [label = "又\n633 again"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  扌 -> 搜;
+  叟 -> 搜;
+  臼 -> 叟;
+  又 -> 叟;
+  丨 -> 叟;
+  一 -> 丨;
 }

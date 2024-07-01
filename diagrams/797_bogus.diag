@@ -1,15 +1,15 @@
 blockdiag {
-  797 [label = "伪\n797 bogus"];
-  793 [label = "人\n793 person"];
-  746 [label = "为\n746 act"];
-  None [label = "丶\nNone a drop of"];
-  63 [label = "肌\n63 muscle"];
-  57 [label = "几\n57 how many?"];
-  13 [label = "月\n13 month"];
-  793 -> 797;
-  746 -> 797;
-  None -> 746;
-  63 -> 746;
-  57 -> 63;
-  13 -> 63;
+  伪 [label = "伪\n797 bogus"];
+  人 [label = "人\n793 person"];
+  为 [label = "为\n746 act"];
+  丶 [label = "丶\nNone a drop of"];
+  肌 [label = "肌\n63 muscle"];
+  几 [label = "几\n57 how many?"];
+  月 [label = "月\n13 month"];
+  人 -> 伪;
+  为 -> 伪;
+  丶 -> 为;
+  肌 -> 为;
+  几 -> 肌;
+  月 -> 肌;
 }

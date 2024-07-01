@@ -1,11 +1,11 @@
 blockdiag {
-  1720 [label = "剖\n1720 cut open"];
-  None [label = "咅\nNone muzzle"];
-  444 [label = "立\n444 standing up"];
-  11 [label = "口\n11 mouth"];
-  83 [label = "刀\n83 sword"];
-  None -> 1720;
-  444 -> None;
-  11 -> None;
-  83 -> 1720;
+  剖 [label = "剖\n1720 cut open"];
+  咅 [label = "咅\nNone muzzle"];
+  立 [label = "立\n444 standing up"];
+  口 [label = "口\n11 mouth"];
+  刀 [label = "刀\n83 sword"];
+  咅 -> 剖;
+  立 -> 咅;
+  口 -> 咅;
+  刀 -> 剖;
 }

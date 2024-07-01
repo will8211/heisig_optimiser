@@ -1,11 +1,11 @@
 blockdiag {
-  926 [label = "所\n926 place"];
-  896 [label = "户\n896 door"];
-  None [label = "丶\nNone a drop of"];
-  882 [label = "尸\n882 corpse"];
-  924 [label = "斤\n924 catty"];
-  896 -> 926;
-  None -> 896;
-  882 -> 896;
-  924 -> 926;
+  所 [label = "所\n926 place"];
+  户 [label = "户\n896 door"];
+  丶 [label = "丶\nNone a drop of"];
+  尸 [label = "尸\n882 corpse"];
+  斤 [label = "斤\n924 catty"];
+  户 -> 所;
+  丶 -> 户;
+  尸 -> 户;
+  斤 -> 所;
 }

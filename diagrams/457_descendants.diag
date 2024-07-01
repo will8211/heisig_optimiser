@@ -1,9 +1,9 @@
 blockdiag {
-  457 [label = "昆\n457 descendants"];
-  12 [label = "日\n12 day"];
-  456 [label = "比\n456 compare"];
-  453 [label = "匕\n453 ancient spoon"];
-  12 -> 457;
-  456 -> 457;
-  453 -> 456;
+  昆 [label = "昆\n457 descendants"];
+  日 [label = "日\n12 day"];
+  比 [label = "比\n456 compare"];
+  匕 [label = "匕\n453 ancient spoon"];
+  日 -> 昆;
+  比 -> 昆;
+  匕 -> 比;
 }

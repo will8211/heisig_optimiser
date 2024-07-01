@@ -1,13 +1,13 @@
 blockdiag {
-  2007 [label = "稣\n2007 rise again"];
-  154 [label = "鱼\n154 fish"];
-  None [label = "勹\nNone bound up"];
-  14 [label = "田\n14 rice field"];
-  1 [label = "一\n1 one"];
-  762 [label = "禾\n762 standing grain"];
-  154 -> 2007;
-  None -> 154;
-  14 -> 154;
-  1 -> 154;
-  762 -> 2007;
+  稣 [label = "稣\n2007 rise again"];
+  鱼 [label = "鱼\n154 fish"];
+  勹 [label = "勹\nNone bound up"];
+  田 [label = "田\n14 rice field"];
+  一 [label = "一\n1 one"];
+  禾 [label = "禾\n762 standing grain"];
+  鱼 -> 稣;
+  勹 -> 鱼;
+  田 -> 鱼;
+  一 -> 鱼;
+  禾 -> 稣;
 }

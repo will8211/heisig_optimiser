@@ -1,17 +1,17 @@
 blockdiag {
-  500 [label = "脱\n500 undress"];
-  13 [label = "月\n13 month"];
-  499 [label = "兑\n499 convert"];
-  107 [label = "兄\n107 elder brother"];
-  11 [label = "口\n11 mouth"];
-  56 [label = "儿\n56 youngster"];
-  None [label = "丷\nNone horns"];
-  1 [label = "一\n1 one"];
-  13 -> 500;
-  499 -> 500;
-  107 -> 499;
-  11 -> 107;
-  56 -> 107;
-  None -> 499;
-  1 -> None;
+  脱 [label = "脱\n500 undress"];
+  月 [label = "月\n13 month"];
+  兑 [label = "兑\n499 convert"];
+  兄 [label = "兄\n107 elder brother"];
+  口 [label = "口\n11 mouth"];
+  儿 [label = "儿\n56 youngster"];
+  丷 [label = "丷\nNone horns"];
+  一 [label = "一\n1 one"];
+  月 -> 脱;
+  兑 -> 脱;
+  兄 -> 兑;
+  口 -> 兄;
+  儿 -> 兄;
+  丷 -> 兑;
+  一 -> 丷;
 }

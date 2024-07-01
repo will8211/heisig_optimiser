@@ -13,7 +13,6 @@ def build_hierarchy(character, character_map, visited=None):
     visited.add(character)
 
     character_data = character_map[character]
-    label = f"{character}\n{character_data['Keywords'][0]}"
     requirements = []
     processed_characters = set()  # Track characters added to requirements
     for req in character_data["Requires"]:
@@ -33,8 +32,9 @@ def build_hierarchy(character, character_map, visited=None):
     visited.remove(character)  # Remove character from visited after processing
 
     return {
-        "id": str(character_data["Number"]),
-        "label": label,
+        "number": str(character_data["Number"]),
+        "character": character_data["Character"],
+        "keyword": character_data["Keywords"][0],
         "requirements": requirements,
     }
 

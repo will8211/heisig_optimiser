@@ -1,9 +1,11 @@
 blockdiag {
-  974 [label = "散\n974 scattered"];
-  None [label = "攵\nNone taskmaster"];
-  13 [label = "月\n13 month"];
-  None -> 974;
-  None -> None;
-  13 -> 974;
-  None -> 974;
+  散 [label = "散\n974 scattered"];
+  囧昔－日 [label = "囧昔－日\nNone salad"];
+  艹 [label = "艹\nNone flower"];
+  月 [label = "月\n13 month"];
+  攵 [label = "攵\nNone taskmaster"];
+  囧昔－日 -> 散;
+  艹 -> 囧昔－日;
+  月 -> 散;
+  攵 -> 散;
 }

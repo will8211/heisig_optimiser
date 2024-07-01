@@ -1,15 +1,15 @@
 blockdiag {
-  2038 [label = "糙\n2038 rough"];
-  778 [label = "米\n778 rice"];
-  294 [label = "造\n294 create"];
-  254 [label = "告\n254 declare"];
-  252 [label = "牛\n252 cow"];
-  11 [label = "口\n11 mouth"];
-  None [label = "辶\nNone road"];
-  778 -> 2038;
-  294 -> 2038;
-  254 -> 294;
-  252 -> 254;
-  11 -> 254;
-  None -> 294;
+  糙 [label = "糙\n2038 rough"];
+  米 [label = "米\n778 rice"];
+  造 [label = "造\n294 create"];
+  告 [label = "告\n254 declare"];
+  牛 [label = "牛\n252 cow"];
+  口 [label = "口\n11 mouth"];
+  辶 [label = "辶\nNone road"];
+  米 -> 糙;
+  造 -> 糙;
+  告 -> 造;
+  牛 -> 告;
+  口 -> 告;
+  辶 -> 造;
 }

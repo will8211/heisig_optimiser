@@ -1,7 +1,7 @@
 blockdiag {
-  742 [label = "功\n742 achievement"];
-  76 [label = "工\n76 work"];
-  732 [label = "力\n732 power"];
-  76 -> 742;
-  732 -> 742;
+  功 [label = "功\n742 achievement"];
+  工 [label = "工\n76 work"];
+  力 [label = "力\n732 power"];
+  工 -> 功;
+  力 -> 功;
 }

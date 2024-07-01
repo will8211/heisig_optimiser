@@ -1,7 +1,7 @@
 blockdiag {
-  1344 [label = "姐\n1344 older sister"];
-  102 [label = "女\n102 woman"];
-  1343 [label = "且\n1343 moreover"];
-  102 -> 1344;
-  1343 -> 1344;
+  姐 [label = "姐\n1344 older sister"];
+  女 [label = "女\n102 woman"];
+  且 [label = "且\n1343 moreover"];
+  女 -> 姐;
+  且 -> 姐;
 }

@@ -1,10 +1,10 @@
 blockdiag {
-  1502 [label = "咕\n1502 mutter"];
-  16 [label = "古\n16 ancient"];
-  10 [label = "十\n10 ten"];
-  11 [label = "口\n11 mouth"];
-  16 -> 1502;
-  10 -> 16;
-  11 -> 16;
-  11 -> 1502;
+  咕 [label = "咕\n1502 mutter"];
+  古 [label = "古\n16 ancient"];
+  十 [label = "十\n10 ten"];
+  口 [label = "口\n11 mouth"];
+  古 -> 咕;
+  十 -> 古;
+  口 -> 古;
+  口 -> 咕;
 }

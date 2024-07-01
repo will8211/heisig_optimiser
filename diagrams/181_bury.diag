@@ -1,10 +1,10 @@
 blockdiag {
-  181 [label = "埋\n181 bury"];
-  158 [label = "土\n158 soil"];
-  179 [label = "里\n179 li"];
-  14 [label = "田\n14 rice field"];
-  158 -> 181;
-  179 -> 181;
-  14 -> 179;
-  158 -> 179;
+  埋 [label = "埋\n181 bury"];
+  土 [label = "土\n158 soil"];
+  里 [label = "里\n179 li"];
+  田 [label = "田\n14 rice field"];
+  土 -> 埋;
+  里 -> 埋;
+  田 -> 里;
+  土 -> 里;
 }

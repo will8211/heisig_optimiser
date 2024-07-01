@@ -1,17 +1,18 @@
 blockdiag {
-  1588 [label = "狭\n1588 narrow"];
-  239 [label = "犬\n239 pooch"];
-  113 [label = "大\n113 large"];
-  None [label = "丷\nNone horns"];
-  1523 [label = "夹\n1523 press from both sides"];
-  726 [label = "夫\n726 husband"];
-  1 [label = "一\n1 one"];
-  239 -> 1588;
-  113 -> 239;
-  None -> 239;
-  1523 -> 1588;
-  726 -> 1523;
-  113 -> 726;
-  None -> 1523;
-  1 -> None;
+  狭 [label = "狭\n1588 narrow"];
+  犬 [label = "犬\n239 pooch"];
+  大 [label = "大\n113 large"];
+  丶 [label = "丶\nNone a drop of"];
+  夹 [label = "夹\n1523 press from both sides"];
+  夫 [label = "夫\n726 husband"];
+  丷 [label = "丷\nNone horns"];
+  一 [label = "一\n1 one"];
+  犬 -> 狭;
+  大 -> 犬;
+  丶 -> 犬;
+  夹 -> 狭;
+  夫 -> 夹;
+  大 -> 夫;
+  丷 -> 夹;
+  一 -> 丷;
 }

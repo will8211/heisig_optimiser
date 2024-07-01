@@ -1,10 +1,11 @@
 blockdiag {
-  1275 [label = "块\n1275 lump"];
-  158 [label = "土\n158 soil"];
-  None [label = "囧侯－亻－矢\nNone key"];
-  113 [label = "大\n113 large"];
-  158 -> 1275;
-  None -> 1275;
-  None -> None;
-  113 -> None;
+  块 [label = "块\n1275 lump"];
+  土 [label = "土\n158 soil"];
+  夬 [label = "夬\nNone guillotine"];
+  囧侯－亻－矢 [label = "囧侯－亻－矢\nNone key"];
+  大 [label = "大\n113 large"];
+  土 -> 块;
+  夬 -> 块;
+  囧侯－亻－矢 -> 夬;
+  大 -> 夬;
 }

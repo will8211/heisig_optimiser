@@ -1,14 +1,15 @@
 blockdiag {
-  2567 [label = "猜\n2567 guess"];
-  239 [label = "犬\n239 pooch"];
-  113 [label = "大\n113 large"];
-  None [label = "囧毒－母\nNone grow up"];
-  1208 [label = "青\n1208 blue or green"];
-  13 [label = "月\n13 month"];
-  239 -> 2567;
-  113 -> 239;
-  None -> 239;
-  1208 -> 2567;
-  None -> 1208;
-  13 -> 1208;
+  猜 [label = "猜\n2567 guess"];
+  犬 [label = "犬\n239 pooch"];
+  大 [label = "大\n113 large"];
+  丶 [label = "丶\nNone a drop of"];
+  青 [label = "青\n1208 blue or green"];
+  囧毒－母 [label = "囧毒－母\nNone grow up"];
+  月 [label = "月\n13 month"];
+  犬 -> 猜;
+  大 -> 犬;
+  丶 -> 犬;
+  青 -> 猜;
+  囧毒－母 -> 青;
+  月 -> 青;
 }

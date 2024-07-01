@@ -1,14 +1,15 @@
 blockdiag {
-  1699 [label = "轿\n1699 sedan chair"];
-  300 [label = "车\n300 car"];
-  441 [label = "乔\n441 pretend"];
-  None [label = "丶\nNone a drop of"];
-  440 [label = "夭\n440 die young"];
-  113 [label = "大\n113 large"];
-  300 -> 1699;
-  441 -> 1699;
-  None -> 441;
-  440 -> 441;
-  113 -> 440;
-  None -> 440;
+  轿 [label = "轿\n1699 sedan chair"];
+  车 [label = "车\n300 car"];
+  乔 [label = "乔\n441 pretend"];
+  囧介－𠆢 [label = "囧介－𠆢\nNone crutches"];
+  夭 [label = "夭\n440 die young"];
+  大 [label = "大\n113 large"];
+  丶 [label = "丶\nNone a drop of"];
+  车 -> 轿;
+  乔 -> 轿;
+  囧介－𠆢 -> 乔;
+  夭 -> 乔;
+  大 -> 夭;
+  丶 -> 夭;
 }

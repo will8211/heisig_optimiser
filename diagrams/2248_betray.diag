@@ -1,11 +1,11 @@
 blockdiag {
-  2248 [label = "叛\n2248 betray"];
-  980 [label = "半\n980 half"];
-  656 [label = "反\n656 against"];
-  None [label = "𠂆\nNone drag"];
-  633 [label = "又\n633 again"];
-  980 -> 2248;
-  656 -> 2248;
-  None -> 656;
-  633 -> 656;
+  叛 [label = "叛\n2248 betray"];
+  半 [label = "半\n980 half"];
+  反 [label = "反\n656 against"];
+  𠂆 [label = "𠂆\nNone drag"];
+  又 [label = "又\n633 again"];
+  半 -> 叛;
+  反 -> 叛;
+  𠂆 -> 反;
+  又 -> 反;
 }

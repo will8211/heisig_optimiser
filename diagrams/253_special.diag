@@ -1,15 +1,15 @@
 blockdiag {
-  253 [label = "特\n253 special"];
-  252 [label = "牛\n252 cow"];
-  169 [label = "寺\n169 Buddhist temple"];
-  158 [label = "土\n158 soil"];
-  166 [label = "寸\n166 Chinese inch"];
-  None [label = "丶\nNone a drop of"];
-  10 [label = "十\n10 ten"];
-  252 -> 253;
-  169 -> 253;
-  158 -> 169;
-  166 -> 169;
-  None -> 166;
-  10 -> 166;
+  特 [label = "特\n253 special"];
+  牛 [label = "牛\n252 cow"];
+  寺 [label = "寺\n169 Buddhist temple"];
+  土 [label = "土\n158 soil"];
+  寸 [label = "寸\n166 Chinese inch"];
+  丶 [label = "丶\nNone a drop of"];
+  十 [label = "十\n10 ten"];
+  牛 -> 特;
+  寺 -> 特;
+  土 -> 寺;
+  寸 -> 寺;
+  丶 -> 寸;
+  十 -> 寸;
 }

@@ -1,11 +1,11 @@
 blockdiag {
-  36 [label = "皂\n36 soap"];
-  34 [label = "白\n34 white"];
-  12 [label = "日\n12 day"];
-  None [label = "丶\nNone a drop of"];
-  7 [label = "七\n7 seven"];
-  34 -> 36;
-  12 -> 34;
-  None -> 34;
-  7 -> 36;
+  皂 [label = "皂\n36 soap"];
+  白 [label = "白\n34 white"];
+  日 [label = "日\n12 day"];
+  丶 [label = "丶\nNone a drop of"];
+  七 [label = "七\n7 seven"];
+  白 -> 皂;
+  日 -> 白;
+  丶 -> 白;
+  七 -> 皂;
 }

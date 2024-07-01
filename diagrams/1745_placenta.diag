@@ -1,13 +1,13 @@
 blockdiag {
-  1745 [label = "胞\n1745 placenta"];
-  13 [label = "月\n13 month"];
-  520 [label = "包\n520 wrap"];
-  None [label = "勹\nNone bound up"];
-  519 [label = "已\n519 already"];
-  515 [label = "己\n515 self"];
-  13 -> 1745;
-  520 -> 1745;
-  None -> 520;
-  519 -> 520;
-  515 -> 519;
+  胞 [label = "胞\n1745 placenta"];
+  月 [label = "月\n13 month"];
+  包 [label = "包\n520 wrap"];
+  勹 [label = "勹\nNone bound up"];
+  已 [label = "已\n519 already"];
+  己 [label = "己\n515 self"];
+  月 -> 胞;
+  包 -> 胞;
+  勹 -> 包;
+  已 -> 包;
+  己 -> 已;
 }

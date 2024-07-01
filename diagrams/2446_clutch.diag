@@ -1,8 +1,9 @@
 blockdiag {
-  2446 [label = "扼\n2446 clutch"];
-  None [label = "㔾\nNone fingerprint"];
-  121 [label = "厂\n121 factory"];
-  None -> 2446;
-  121 -> 2446;
-  None -> 2446;
+  扼 [label = "扼\n2446 clutch"];
+  扌 [label = "扌\nNone fingers"];
+  厂 [label = "厂\n121 factory"];
+  㔾 [label = "㔾\nNone fingerprint"];
+  扌 -> 扼;
+  厂 -> 扼;
+  㔾 -> 扼;
 }

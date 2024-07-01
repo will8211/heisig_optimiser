@@ -1,11 +1,11 @@
 blockdiag {
-  342 [label = "故\n342 deliberately"];
-  16 [label = "古\n16 ancient"];
-  10 [label = "十\n10 ten"];
-  11 [label = "口\n11 mouth"];
-  None [label = "攵\nNone taskmaster"];
-  16 -> 342;
-  10 -> 16;
-  11 -> 16;
-  None -> 342;
+  故 [label = "故\n342 deliberately"];
+  古 [label = "古\n16 ancient"];
+  十 [label = "十\n10 ten"];
+  口 [label = "口\n11 mouth"];
+  攵 [label = "攵\nNone taskmaster"];
+  古 -> 故;
+  十 -> 古;
+  口 -> 古;
+  攵 -> 故;
 }

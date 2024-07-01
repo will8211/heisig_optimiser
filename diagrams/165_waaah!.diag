@@ -1,9 +1,9 @@
 blockdiag {
-  165 [label = "哇\n165 waaah!"];
-  11 [label = "口\n11 mouth"];
-  None [label = "圭\nNone bricks"];
-  158 [label = "土\n158 soil"];
-  11 -> 165;
-  None -> 165;
-  158 -> None;
+  哇 [label = "哇\n165 waaah!"];
+  口 [label = "口\n11 mouth"];
+  圭 [label = "圭\nNone bricks"];
+  土 [label = "土\n158 soil"];
+  口 -> 哇;
+  圭 -> 哇;
+  土 -> 圭;
 }

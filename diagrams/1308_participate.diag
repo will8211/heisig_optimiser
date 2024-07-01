@@ -1,8 +1,9 @@
 blockdiag {
-  1308 [label = "参\n1308 participate"];
-  113 [label = "大\n113 large"];
-  None [label = "彡\nNone rooster tail"];
-  113 -> 1308;
-  None -> 1308;
-  None -> 1308;
+  参 [label = "参\n1308 participate"];
+  大 [label = "大\n113 large"];
+  厶 [label = "厶\nNone elbow"];
+  彡 [label = "彡\nNone rooster tail"];
+  大 -> 参;
+  厶 -> 参;
+  彡 -> 参;
 }

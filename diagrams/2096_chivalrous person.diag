@@ -1,15 +1,15 @@
 blockdiag {
-  2096 [label = "侠\n2096 chivalrous person"];
-  793 [label = "人\n793 person"];
-  1523 [label = "夹\n1523 press from both sides"];
-  726 [label = "夫\n726 husband"];
-  113 [label = "大\n113 large"];
-  None [label = "丷\nNone horns"];
-  1 [label = "一\n1 one"];
-  793 -> 2096;
-  1523 -> 2096;
-  726 -> 1523;
-  113 -> 726;
-  None -> 1523;
-  1 -> None;
+  侠 [label = "侠\n2096 chivalrous person"];
+  人 [label = "人\n793 person"];
+  夹 [label = "夹\n1523 press from both sides"];
+  夫 [label = "夫\n726 husband"];
+  大 [label = "大\n113 large"];
+  丷 [label = "丷\nNone horns"];
+  一 [label = "一\n1 one"];
+  人 -> 侠;
+  夹 -> 侠;
+  夫 -> 夹;
+  大 -> 夫;
+  丷 -> 夹;
+  一 -> 丷;
 }

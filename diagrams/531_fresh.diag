@@ -1,15 +1,16 @@
 blockdiag {
-  531 [label = "鲜\n531 fresh"];
-  154 [label = "鱼\n154 fish"];
-  None [label = "丷\nNone horns"];
-  14 [label = "田\n14 rice field"];
-  1 [label = "一\n1 one"];
-  528 [label = "羊\n528 sheep"];
-  154 -> 531;
-  None -> 154;
-  14 -> 154;
-  1 -> 154;
-  528 -> 531;
-  None -> 528;
-  1 -> None;
+  鲜 [label = "鲜\n531 fresh"];
+  鱼 [label = "鱼\n154 fish"];
+  勹 [label = "勹\nNone bound up"];
+  田 [label = "田\n14 rice field"];
+  一 [label = "一\n1 one"];
+  羊 [label = "羊\n528 sheep"];
+  丷 [label = "丷\nNone horns"];
+  鱼 -> 鲜;
+  勹 -> 鱼;
+  田 -> 鱼;
+  一 -> 鱼;
+  羊 -> 鲜;
+  丷 -> 羊;
+  一 -> 丷;
 }

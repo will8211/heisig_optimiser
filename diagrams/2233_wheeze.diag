@@ -1,7 +1,7 @@
 blockdiag {
-  2233 [label = "喘\n2233 wheeze"];
-  11 [label = "口\n11 mouth"];
-  None [label = "耑\nNone prospector"];
-  11 -> 2233;
-  None -> 2233;
+  喘 [label = "喘\n2233 wheeze"];
+  口 [label = "口\n11 mouth"];
+  耑 [label = "耑\nNone prospector"];
+  口 -> 喘;
+  耑 -> 喘;
 }

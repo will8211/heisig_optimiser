@@ -1,7 +1,7 @@
 blockdiag {
-  2531 [label = "秤\n2531 scale"];
-  762 [label = "禾\n762 standing grain"];
-  1160 [label = "平\n1160 even"];
-  762 -> 2531;
-  1160 -> 2531;
+  秤 [label = "秤\n2531 scale"];
+  禾 [label = "禾\n762 standing grain"];
+  平 [label = "平\n1160 even"];
+  禾 -> 秤;
+  平 -> 秤;
 }

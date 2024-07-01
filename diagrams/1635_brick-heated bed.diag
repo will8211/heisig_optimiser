@@ -1,17 +1,19 @@
 blockdiag {
-  1635 [label = "炕\n1635 brick-heated bed"];
-  170 [label = "火\n170 fire"];
-  None [label = "囧只－口\nNone animal legs"];
-  6 [label = "六\n6 six"];
-  8 [label = "八\n8 eight"];
-  57 [label = "几\n57 how many?"];
-  170 -> 1635;
-  None -> 1635;
-  None -> None;
-  6 -> None;
-  None -> 6;
-  8 -> None;
-  None -> None;
-  8 -> None;
-  57 -> None;
+  炕 [label = "炕\n1635 brick-heated bed"];
+  火 [label = "火\n170 fire"];
+  亢 [label = "亢\nNone whirlwind"];
+  亠 [label = "亠\nNone top hat"];
+  六 [label = "六\n6 six"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  几 [label = "几\n57 how many?"];
+  火 -> 炕;
+  亢 -> 炕;
+  亠 -> 亢;
+  六 -> 亠;
+  囧只－口 -> 六;
+  八 -> 囧只－口;
+  囧只－口 -> 亠;
+  八 -> 囧只－口;
+  几 -> 亢;
 }

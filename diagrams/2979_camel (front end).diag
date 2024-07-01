@@ -1,12 +1,13 @@
 blockdiag {
-  2979 [label = "骆\n2979 camel (front end)"];
-  1453 [label = "马\n1453 horse"];
-  None [label = "夂\nNone walking legs"];
-  309 [label = "各\n309 each"];
-  11 [label = "口\n11 mouth"];
-  1453 -> 2979;
-  None -> 1453;
-  309 -> 2979;
-  11 -> 309;
-  None -> 309;
+  骆 [label = "骆\n2979 camel (front end)"];
+  马 [label = "马\n1453 horse"];
+  囧与－丨一 [label = "囧与－丨一\nNone pointed tail"];
+  各 [label = "各\n309 each"];
+  口 [label = "口\n11 mouth"];
+  夂 [label = "夂\nNone walking legs"];
+  马 -> 骆;
+  囧与－丨一 -> 马;
+  各 -> 骆;
+  口 -> 各;
+  夂 -> 各;
 }

@@ -1,14 +1,17 @@
 blockdiag {
-  2382 [label = "缔\n2382 conclude"];
-  None [label = "冖\nNone crown"];
-  449 [label = "帝\n449 sovereign"];
-  444 [label = "立\n444 standing up"];
-  410 [label = "巾\n410 towel"];
-  None -> 2382;
-  None -> None;
-  449 -> 2382;
-  444 -> 449;
-  None -> 449;
-  410 -> None;
-  None -> None;
+  缔 [label = "缔\n2382 conclude"];
+  纟 [label = "纟\nNone thread"];
+  厶 [label = "厶\nNone elbow"];
+  帝 [label = "帝\n449 sovereign"];
+  立 [label = "立\n444 standing up"];
+  囧冖＋巾 [label = "囧冖＋巾\nNone apron"];
+  巾 [label = "巾\n410 towel"];
+  冖 [label = "冖\nNone crown"];
+  纟 -> 缔;
+  厶 -> 纟;
+  帝 -> 缔;
+  立 -> 帝;
+  囧冖＋巾 -> 帝;
+  巾 -> 囧冖＋巾;
+  冖 -> 囧冖＋巾;
 }

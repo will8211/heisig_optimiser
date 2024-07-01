@@ -1,7 +1,7 @@
 blockdiag {
-  1347 [label = "助\n1347 assist"];
-  1343 [label = "且\n1343 moreover"];
-  732 [label = "力\n732 power"];
-  1343 -> 1347;
-  732 -> 1347;
+  助 [label = "助\n1347 assist"];
+  且 [label = "且\n1343 moreover"];
+  力 [label = "力\n732 power"];
+  且 -> 助;
+  力 -> 助;
 }

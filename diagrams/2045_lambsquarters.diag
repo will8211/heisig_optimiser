@@ -1,11 +1,11 @@
 blockdiag {
-  2045 [label = "莱\n2045 lambsquarters"];
-  None [label = "艹\nNone flower"];
-  783 [label = "来\n783 come"];
-  1 [label = "一\n1 one"];
-  778 [label = "米\n778 rice"];
-  None -> 2045;
-  783 -> 2045;
-  1 -> 783;
-  778 -> 783;
+  莱 [label = "莱\n2045 lambsquarters"];
+  艹 [label = "艹\nNone flower"];
+  来 [label = "来\n783 come"];
+  一 [label = "一\n1 one"];
+  米 [label = "米\n778 rice"];
+  艹 -> 莱;
+  来 -> 莱;
+  一 -> 来;
+  米 -> 来;
 }

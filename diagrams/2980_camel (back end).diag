@@ -1,12 +1,13 @@
 blockdiag {
-  2980 [label = "驼\n2980 camel (back end)"];
-  1453 [label = "马\n1453 horse"];
-  None [label = "宀\nNone house"];
-  462 [label = "它\n462 it"];
-  453 [label = "匕\n453 ancient spoon"];
-  1453 -> 2980;
-  None -> 1453;
-  462 -> 2980;
-  None -> 462;
-  453 -> 462;
+  驼 [label = "驼\n2980 camel (back end)"];
+  马 [label = "马\n1453 horse"];
+  囧与－丨一 [label = "囧与－丨一\nNone pointed tail"];
+  它 [label = "它\n462 it"];
+  宀 [label = "宀\nNone house"];
+  匕 [label = "匕\n453 ancient spoon"];
+  马 -> 驼;
+  囧与－丨一 -> 马;
+  它 -> 驼;
+  宀 -> 它;
+  匕 -> 它;
 }

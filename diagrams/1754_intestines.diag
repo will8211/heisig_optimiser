@@ -1,8 +1,9 @@
 blockdiag {
-  1754 [label = "肠\n1754 intestines"];
-  13 [label = "月\n13 month"];
-  None [label = "豕\nNone sow"];
-  13 -> 1754;
-  None -> 1754;
-  None -> None;
+  肠 [label = "肠\n1754 intestines"];
+  月 [label = "月\n13 month"];
+  𠃓 [label = "𠃓\nNone piglets"];
+  豕 [label = "豕\nNone sow"];
+  月 -> 肠;
+  𠃓 -> 肠;
+  豕 -> 𠃓;
 }

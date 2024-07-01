@@ -1,12 +1,15 @@
 blockdiag {
-  1117 [label = "通\n1117 communicate"];
-  None [label = "辶\nNone road"];
-  13 [label = "月\n13 month"];
-  1 [label = "一\n1 one"];
-  None -> 1117;
-  13 -> None;
-  None -> None;
-  1 -> None;
-  None -> None;
-  None -> 1117;
+  通 [label = "通\n1117 communicate"];
+  甬 [label = "甬\nNone chop-rack"];
+  月 [label = "月\n13 month"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  囧节－艹 [label = "囧节－艹\nNone chop"];
+  辶 [label = "辶\nNone road"];
+  甬 -> 通;
+  月 -> 甬;
+  丨 -> 甬;
+  一 -> 丨;
+  囧节－艹 -> 甬;
+  辶 -> 通;
 }

@@ -1,10 +1,11 @@
 blockdiag {
-  1092 [label = "纵\n1092 vertical"];
-  None [label = "厶\nNone elbow"];
-  846 [label = "从\n846 follow"];
-  793 [label = "人\n793 person"];
-  None -> 1092;
-  None -> None;
-  846 -> 1092;
-  793 -> 846;
+  纵 [label = "纵\n1092 vertical"];
+  纟 [label = "纟\nNone thread"];
+  厶 [label = "厶\nNone elbow"];
+  从 [label = "从\n846 follow"];
+  人 [label = "人\n793 person"];
+  纟 -> 纵;
+  厶 -> 纟;
+  从 -> 纵;
+  人 -> 从;
 }

@@ -1,9 +1,11 @@
 blockdiag {
-  2491 [label = "盏\n2491 small cup"];
-  None [label = "皿\nNone dish"];
-  361 [label = "戈\n361 halberd"];
-  None -> 2491;
-  361 -> None;
-  None -> 361;
-  None -> 2491;
+  盏 [label = "盏\n2491 small cup"];
+  戋 [label = "戋\nNone float"];
+  戈 [label = "戈\n361 halberd"];
+  弋 [label = "弋\nNone arrow"];
+  皿 [label = "皿\nNone dish"];
+  戋 -> 盏;
+  戈 -> 戋;
+  弋 -> 戈;
+  皿 -> 盏;
 }

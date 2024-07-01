@@ -1,9 +1,9 @@
 blockdiag {
-  2494 [label = "盈\n2494 replete"];
-  625 [label = "乃\n625 only then"];
-  633 [label = "又\n633 again"];
-  None [label = "皿\nNone dish"];
-  625 -> 2494;
-  633 -> 2494;
-  None -> 2494;
+  盈 [label = "盈\n2494 replete"];
+  乃 [label = "乃\n625 only then"];
+  又 [label = "又\n633 again"];
+  皿 [label = "皿\nNone dish"];
+  乃 -> 盈;
+  又 -> 盈;
+  皿 -> 盈;
 }

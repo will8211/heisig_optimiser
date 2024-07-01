@@ -1,13 +1,13 @@
 blockdiag {
-  1881 [label = "梗\n1881 stalk"];
-  202 [label = "木\n202 tree"];
-  631 [label = "更\n631 even more"];
-  1 [label = "一\n1 one"];
-  12 [label = "日\n12 day"];
-  None [label = "囧史－口\nNone tucked under the arm"];
-  202 -> 1881;
-  631 -> 1881;
-  1 -> 631;
-  12 -> 631;
-  None -> 631;
+  梗 [label = "梗\n1881 stalk"];
+  木 [label = "木\n202 tree"];
+  更 [label = "更\n631 even more"];
+  一 [label = "一\n1 one"];
+  日 [label = "日\n12 day"];
+  囧史－口 [label = "囧史－口\nNone tucked under the arm"];
+  木 -> 梗;
+  更 -> 梗;
+  一 -> 更;
+  日 -> 更;
+  囧史－口 -> 更;
 }

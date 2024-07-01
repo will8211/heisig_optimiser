@@ -1,9 +1,9 @@
 blockdiag {
-  1164 [label = "呼\n1164 shout"];
-  11 [label = "口\n11 mouth"];
-  1163 [label = "乎\n1163 ooh!"];
-  1160 [label = "平\n1160 even"];
-  11 -> 1164;
-  1163 -> 1164;
-  1160 -> 1163;
+  呼 [label = "呼\n1164 shout"];
+  口 [label = "口\n11 mouth"];
+  乎 [label = "乎\n1163 ooh!"];
+  平 [label = "平\n1160 even"];
+  口 -> 呼;
+  乎 -> 呼;
+  平 -> 乎;
 }

@@ -1,7 +1,7 @@
 blockdiag {
-  None [label = "肙\nNone canker sore"];
-  11 [label = "口\n11 mouth"];
-  13 [label = "月\n13 month"];
-  11 -> None;
-  13 -> None;
+  肙 [label = "肙\nNone canker sore"];
+  口 [label = "口\n11 mouth"];
+  月 [label = "月\n13 month"];
+  口 -> 肙;
+  月 -> 肙;
 }

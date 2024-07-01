@@ -1,7 +1,7 @@
 blockdiag {
-  1548 [label = "灶\n1548 cooking stove"];
-  170 [label = "火\n170 fire"];
-  158 [label = "土\n158 soil"];
-  170 -> 1548;
-  158 -> 1548;
+  灶 [label = "灶\n1548 cooking stove"];
+  火 [label = "火\n170 fire"];
+  土 [label = "土\n158 soil"];
+  火 -> 灶;
+  土 -> 灶;
 }

@@ -1,9 +1,9 @@
 blockdiag {
-  1977 [label = "肤\n1977 skin"];
-  13 [label = "月\n13 month"];
-  726 [label = "夫\n726 husband"];
-  113 [label = "大\n113 large"];
-  13 -> 1977;
-  726 -> 1977;
-  113 -> 726;
+  肤 [label = "肤\n1977 skin"];
+  月 [label = "月\n13 month"];
+  夫 [label = "夫\n726 husband"];
+  大 [label = "大\n113 large"];
+  月 -> 肤;
+  夫 -> 肤;
+  大 -> 夫;
 }

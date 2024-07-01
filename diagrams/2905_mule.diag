@@ -1,16 +1,19 @@
 blockdiag {
-  2905 [label = "骡\n2905 mule"];
-  1453 [label = "马\n1453 horse"];
-  None [label = "丶\nNone a drop of"];
-  2418 [label = "累\n2418 tired"];
-  14 [label = "田\n14 rice field"];
-  109 [label = "小\n109 small"];
-  1453 -> 2905;
-  None -> 1453;
-  2418 -> 2905;
-  14 -> 2418;
-  None -> 2418;
-  None -> None;
-  109 -> None;
-  None -> 109;
+  骡 [label = "骡\n2905 mule"];
+  马 [label = "马\n1453 horse"];
+  囧与－丨一 [label = "囧与－丨一\nNone pointed tail"];
+  累 [label = "累\n2418 tired"];
+  田 [label = "田\n14 rice field"];
+  糸 [label = "糸\nNone floss"];
+  幺 [label = "幺\nNone cocoon"];
+  小 [label = "小\n109 small"];
+  丶 [label = "丶\nNone a drop of"];
+  马 -> 骡;
+  囧与－丨一 -> 马;
+  累 -> 骡;
+  田 -> 累;
+  糸 -> 累;
+  幺 -> 糸;
+  小 -> 糸;
+  丶 -> 小;
 }

@@ -1,7 +1,7 @@
 blockdiag {
-  84 [label = "刃\n84 blade"];
-  83 [label = "刀\n83 sword"];
-  None [label = "丶\nNone a drop of"];
-  83 -> 84;
-  None -> 84;
+  刃 [label = "刃\n84 blade"];
+  刀 [label = "刀\n83 sword"];
+  丶 [label = "丶\nNone a drop of"];
+  刀 -> 刃;
+  丶 -> 刃;
 }

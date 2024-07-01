@@ -1,17 +1,21 @@
 blockdiag {
-  2763 [label = "洪\n2763 deluge"];
-  137 [label = "水\n137 water"];
-  None [label = "囧只－口\nNone animal legs"];
-  1 [label = "一\n1 one"];
-  1354 [label = "共\n1354 together"];
-  8 [label = "八\n8 eight"];
-  137 -> 2763;
-  None -> 137;
-  1 -> None;
-  None -> 137;
-  1354 -> 2763;
-  None -> 1354;
-  None -> None;
-  None -> 1354;
-  8 -> None;
+  洪 [label = "洪\n2763 deluge"];
+  水 [label = "水\n137 water"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  丶 [label = "丶\nNone a drop of"];
+  共 [label = "共\n1354 together"];
+  囧昔－日 [label = "囧昔－日\nNone salad"];
+  艹 [label = "艹\nNone flower"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  水 -> 洪;
+  丨 -> 水;
+  一 -> 丨;
+  丶 -> 水;
+  共 -> 洪;
+  囧昔－日 -> 共;
+  艹 -> 囧昔－日;
+  囧只－口 -> 共;
+  八 -> 囧只－口;
 }

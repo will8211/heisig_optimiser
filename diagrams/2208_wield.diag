@@ -1,8 +1,9 @@
 blockdiag {
-  2208 [label = "秉\n2208 wield"];
-  None [label = "彐\nNone broom"];
-  762 [label = "禾\n762 standing grain"];
-  None -> 2208;
-  None -> None;
-  762 -> 2208;
+  秉 [label = "秉\n2208 wield"];
+  肀 [label = "肀\nNone rake"];
+  彐 [label = "彐\nNone broom"];
+  禾 [label = "禾\n762 standing grain"];
+  肀 -> 秉;
+  彐 -> 肀;
+  禾 -> 秉;
 }

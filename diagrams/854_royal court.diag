@@ -1,8 +1,9 @@
 blockdiag {
-  854 [label = "廷\n854 royal court"];
-  None [label = "廴\nNone stretch"];
-  334 [label = "士\n334 soldier"];
-  None -> 854;
-  334 -> None;
-  None -> 854;
+  廷 [label = "廷\n854 royal court"];
+  壬 [label = "壬\nNone porter"];
+  士 [label = "士\n334 soldier"];
+  廴 [label = "廴\nNone stretch"];
+  壬 -> 廷;
+  士 -> 壬;
+  廴 -> 廷;
 }

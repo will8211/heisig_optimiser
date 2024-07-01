@@ -1,13 +1,17 @@
 blockdiag {
-  1457 [label = "验\n1457 check"];
-  1453 [label = "马\n1453 horse"];
-  None [label = "囧应－广\nNone owl"];
-  1 [label = "一\n1 one"];
-  1453 -> 1457;
-  None -> 1453;
-  None -> 1457;
-  None -> None;
-  None -> None;
-  None -> None;
-  1 -> None;
+  验 [label = "验\n1457 check"];
+  马 [label = "马\n1453 horse"];
+  囧与－丨一 [label = "囧与－丨一\nNone pointed tail"];
+  佥 [label = "佥\nNone hootenanny"];
+  亼 [label = "亼\nNone meeting"];
+  𠆢 [label = "𠆢\nNone umbrella"];
+  囧应－广 [label = "囧应－广\nNone owl"];
+  一 [label = "一\n1 one"];
+  马 -> 验;
+  囧与－丨一 -> 马;
+  佥 -> 验;
+  亼 -> 佥;
+  𠆢 -> 亼;
+  囧应－广 -> 佥;
+  一 -> 佥;
 }

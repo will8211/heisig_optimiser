@@ -1,11 +1,11 @@
 blockdiag {
-  1892 [label = "歧\n1892 fork in the road"];
-  379 [label = "止\n379 stop"];
-  650 [label = "支\n650 offshoot"];
-  10 [label = "十\n10 ten"];
-  633 [label = "又\n633 again"];
-  379 -> 1892;
-  650 -> 1892;
-  10 -> 650;
-  633 -> 650;
+  歧 [label = "歧\n1892 fork in the road"];
+  止 [label = "止\n379 stop"];
+  支 [label = "支\n650 offshoot"];
+  十 [label = "十\n10 ten"];
+  又 [label = "又\n633 again"];
+  止 -> 歧;
+  支 -> 歧;
+  十 -> 支;
+  又 -> 支;
 }

@@ -1,15 +1,17 @@
 blockdiag {
-  2422 [label = "絮\n2422 long-winded"];
-  104 [label = "如\n104 be like"];
-  11 [label = "口\n11 mouth"];
-  102 [label = "女\n102 woman"];
-  None [label = "丶\nNone a drop of"];
-  109 [label = "小\n109 small"];
-  104 -> 2422;
-  11 -> 104;
-  102 -> 104;
-  None -> 2422;
-  None -> None;
-  109 -> None;
-  None -> 109;
+  絮 [label = "絮\n2422 long-winded"];
+  如 [label = "如\n104 be like"];
+  口 [label = "口\n11 mouth"];
+  女 [label = "女\n102 woman"];
+  糸 [label = "糸\nNone floss"];
+  幺 [label = "幺\nNone cocoon"];
+  小 [label = "小\n109 small"];
+  丶 [label = "丶\nNone a drop of"];
+  如 -> 絮;
+  口 -> 如;
+  女 -> 如;
+  糸 -> 絮;
+  幺 -> 糸;
+  小 -> 糸;
+  丶 -> 小;
 }

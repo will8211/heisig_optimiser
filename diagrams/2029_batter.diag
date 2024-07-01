@@ -1,15 +1,15 @@
 blockdiag {
-  2029 [label = "糊\n2029 batter"];
-  778 [label = "米\n778 rice"];
-  17 [label = "胡\n17 recklessly"];
-  13 [label = "月\n13 month"];
-  16 [label = "古\n16 ancient"];
-  10 [label = "十\n10 ten"];
-  11 [label = "口\n11 mouth"];
-  778 -> 2029;
-  17 -> 2029;
-  13 -> 17;
-  16 -> 17;
-  10 -> 16;
-  11 -> 16;
+  糊 [label = "糊\n2029 batter"];
+  米 [label = "米\n778 rice"];
+  胡 [label = "胡\n17 recklessly"];
+  月 [label = "月\n13 month"];
+  古 [label = "古\n16 ancient"];
+  十 [label = "十\n10 ten"];
+  口 [label = "口\n11 mouth"];
+  米 -> 糊;
+  胡 -> 糊;
+  月 -> 胡;
+  古 -> 胡;
+  十 -> 古;
+  口 -> 古;
 }

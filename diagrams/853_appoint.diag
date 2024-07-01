@@ -1,9 +1,9 @@
 blockdiag {
-  853 [label = "任\n853 appoint"];
-  793 [label = "人\n793 person"];
-  None [label = "壬\nNone porter"];
-  334 [label = "士\n334 soldier"];
-  793 -> 853;
-  None -> 853;
-  334 -> None;
+  任 [label = "任\n853 appoint"];
+  人 [label = "人\n793 person"];
+  壬 [label = "壬\nNone porter"];
+  士 [label = "士\n334 soldier"];
+  人 -> 任;
+  壬 -> 任;
+  士 -> 壬;
 }

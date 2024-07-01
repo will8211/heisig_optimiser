@@ -1,7 +1,7 @@
 blockdiag {
-  844 [label = "肉\n844 meat"];
-  13 [label = "月\n13 month"];
-  793 [label = "人\n793 person"];
-  13 -> 844;
-  793 -> 844;
+  肉 [label = "肉\n844 meat"];
+  月 [label = "月\n13 month"];
+  人 [label = "人\n793 person"];
+  月 -> 肉;
+  人 -> 肉;
 }

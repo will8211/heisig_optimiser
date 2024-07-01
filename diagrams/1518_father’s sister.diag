@@ -1,11 +1,11 @@
 blockdiag {
-  1518 [label = "姑\n1518 father’s sister"];
-  102 [label = "女\n102 woman"];
-  16 [label = "古\n16 ancient"];
-  10 [label = "十\n10 ten"];
-  11 [label = "口\n11 mouth"];
-  102 -> 1518;
-  16 -> 1518;
-  10 -> 16;
-  11 -> 16;
+  姑 [label = "姑\n1518 father’s sister"];
+  女 [label = "女\n102 woman"];
+  古 [label = "古\n16 ancient"];
+  十 [label = "十\n10 ten"];
+  口 [label = "口\n11 mouth"];
+  女 -> 姑;
+  古 -> 姑;
+  十 -> 古;
+  口 -> 古;
 }

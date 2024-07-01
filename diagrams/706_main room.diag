@@ -1,12 +1,13 @@
 blockdiag {
-  706 [label = "堂\n706 main room"];
-  None [label = "丶\nNone a drop of"];
-  109 [label = "小\n109 small"];
-  11 [label = "口\n11 mouth"];
-  158 [label = "土\n158 soil"];
-  None -> 706;
-  109 -> None;
-  None -> 109;
-  11 -> None;
-  158 -> 706;
+  堂 [label = "堂\n706 main room"];
+  囧赏－贝 [label = "囧赏－贝\nNone outhouse"];
+  小 [label = "小\n109 small"];
+  丶 [label = "丶\nNone a drop of"];
+  口 [label = "口\n11 mouth"];
+  土 [label = "土\n158 soil"];
+  囧赏－贝 -> 堂;
+  小 -> 囧赏－贝;
+  丶 -> 小;
+  口 -> 囧赏－贝;
+  土 -> 堂;
 }

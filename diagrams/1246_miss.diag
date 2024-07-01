@@ -1,10 +1,11 @@
 blockdiag {
-  1246 [label = "念\n1246 miss"];
-  1244 [label = "今\n1244 now"];
-  None [label = "𠆢\nNone umbrella"];
-  563 [label = "心\n563 heart"];
-  1244 -> 1246;
-  None -> 1244;
-  None -> None;
-  563 -> 1246;
+  念 [label = "念\n1246 miss"];
+  今 [label = "今\n1244 now"];
+  亼 [label = "亼\nNone meeting"];
+  𠆢 [label = "𠆢\nNone umbrella"];
+  心 [label = "心\n563 heart"];
+  今 -> 念;
+  亼 -> 今;
+  𠆢 -> 亼;
+  心 -> 念;
 }

@@ -1,11 +1,11 @@
 blockdiag {
-  1986 [label = "劝\n1986 advise"];
-  633 [label = "又\n633 again"];
-  63 [label = "肌\n63 muscle"];
-  57 [label = "几\n57 how many?"];
-  13 [label = "月\n13 month"];
-  633 -> 1986;
-  63 -> 1986;
-  57 -> 63;
-  13 -> 63;
+  劝 [label = "劝\n1986 advise"];
+  又 [label = "又\n633 again"];
+  肌 [label = "肌\n63 muscle"];
+  几 [label = "几\n57 how many?"];
+  月 [label = "月\n13 month"];
+  又 -> 劝;
+  肌 -> 劝;
+  几 -> 肌;
+  月 -> 肌;
 }

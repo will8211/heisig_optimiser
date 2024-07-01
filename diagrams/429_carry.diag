@@ -1,7 +1,7 @@
 blockdiag {
-  429 [label = "运\n429 carry"];
-  None [label = "辶\nNone road"];
-  428 [label = "云\n428 cloud"];
-  None -> 429;
-  428 -> 429;
+  运 [label = "运\n429 carry"];
+  辶 [label = "辶\nNone road"];
+  云 [label = "云\n428 cloud"];
+  辶 -> 运;
+  云 -> 运;
 }

@@ -1,10 +1,13 @@
 blockdiag {
-  2223 [label = "挣\n2223 struggle"];
-  None [label = "彐\nNone broom"];
-  951 [label = "争\n951 contend"];
-  None -> 2223;
-  951 -> 2223;
-  None -> 951;
-  None -> 951;
-  None -> None;
+  挣 [label = "挣\n2223 struggle"];
+  扌 [label = "扌\nNone fingers"];
+  争 [label = "争\n951 contend"];
+  勹 [label = "勹\nNone bound up"];
+  肀 [label = "肀\nNone rake"];
+  彐 [label = "彐\nNone broom"];
+  扌 -> 挣;
+  争 -> 挣;
+  勹 -> 争;
+  肀 -> 争;
+  彐 -> 肀;
 }

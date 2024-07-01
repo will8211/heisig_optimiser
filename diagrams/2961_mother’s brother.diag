@@ -1,11 +1,11 @@
 blockdiag {
-  2961 [label = "舅\n2961 mother’s brother"];
-  None [label = "臼\nNone mortar"];
-  741 [label = "男\n741 male"];
-  14 [label = "田\n14 rice field"];
-  732 [label = "力\n732 power"];
-  None -> 2961;
-  741 -> 2961;
-  14 -> 741;
-  732 -> 741;
+  舅 [label = "舅\n2961 mother’s brother"];
+  臼 [label = "臼\nNone mortar"];
+  男 [label = "男\n741 male"];
+  田 [label = "田\n14 rice field"];
+  力 [label = "力\n732 power"];
+  臼 -> 舅;
+  男 -> 舅;
+  田 -> 男;
+  力 -> 男;
 }

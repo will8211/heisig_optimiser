@@ -1,8 +1,9 @@
 blockdiag {
-  None [label = "勹\nNone bound up"];
-  1322 [label = "央\n1322 center"];
-  113 [label = "大\n113 large"];
-  None -> None;
-  1322 -> None;
-  113 -> 1322;
+  奂 [label = "奂\nNone Victorian lady"];
+  勹 [label = "勹\nNone bound up"];
+  央 [label = "央\n1322 center"];
+  大 [label = "大\n113 large"];
+  勹 -> 奂;
+  央 -> 奂;
+  大 -> 央;
 }

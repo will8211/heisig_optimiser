@@ -1,13 +1,13 @@
 blockdiag {
-  1819 [label = "慕\n1819 admire"];
-  231 [label = "莫\n231 nobody"];
-  None [label = "艹\nNone flower"];
-  12 [label = "日\n12 day"];
-  113 [label = "大\n113 large"];
-  563 [label = "心\n563 heart"];
-  231 -> 1819;
-  None -> 231;
-  12 -> 231;
-  113 -> 231;
-  563 -> 1819;
+  慕 [label = "慕\n1819 admire"];
+  莫 [label = "莫\n231 nobody"];
+  艹 [label = "艹\nNone flower"];
+  日 [label = "日\n12 day"];
+  大 [label = "大\n113 large"];
+  心 [label = "心\n563 heart"];
+  莫 -> 慕;
+  艹 -> 莫;
+  日 -> 莫;
+  大 -> 莫;
+  心 -> 慕;
 }

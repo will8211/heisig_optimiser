@@ -1,10 +1,11 @@
 blockdiag {
-  2534 [label = "哎\n2534 Good grief!"];
-  11 [label = "口\n11 mouth"];
-  2533 [label = "艾\n2533 Chinese mugwort"];
-  None [label = "㐅\nNone sheaf"];
-  11 -> 2534;
-  2533 -> 2534;
-  None -> 2533;
-  None -> 2533;
+  哎 [label = "哎\n2534 Good grief!"];
+  口 [label = "口\n11 mouth"];
+  艾 [label = "艾\n2533 Chinese mugwort"];
+  艹 [label = "艹\nNone flower"];
+  㐅 [label = "㐅\nNone sheaf"];
+  口 -> 哎;
+  艾 -> 哎;
+  艹 -> 艾;
+  㐅 -> 艾;
 }

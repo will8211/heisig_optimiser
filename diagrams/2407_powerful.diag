@@ -1,15 +1,15 @@
 blockdiag {
-  2407 [label = "劲\n2407 powerful"];
-  None [label = "𢀖\nNone spool"];
-  76 [label = "工\n76 work"];
-  793 [label = "人\n793 person"];
-  63 [label = "肌\n63 muscle"];
-  57 [label = "几\n57 how many?"];
-  13 [label = "月\n13 month"];
-  None -> 2407;
-  76 -> None;
-  793 -> None;
-  63 -> 2407;
-  57 -> 63;
-  13 -> 63;
+  劲 [label = "劲\n2407 powerful"];
+  𢀖 [label = "𢀖\nNone spool"];
+  工 [label = "工\n76 work"];
+  人 [label = "人\n793 person"];
+  肌 [label = "肌\n63 muscle"];
+  几 [label = "几\n57 how many?"];
+  月 [label = "月\n13 month"];
+  𢀖 -> 劲;
+  工 -> 𢀖;
+  人 -> 𢀖;
+  肌 -> 劲;
+  几 -> 肌;
+  月 -> 肌;
 }

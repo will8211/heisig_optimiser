@@ -1,10 +1,11 @@
 blockdiag {
-  1721 [label = "菩\n1721 bodhisattva"];
-  None [label = "咅\nNone muzzle"];
-  444 [label = "立\n444 standing up"];
-  11 [label = "口\n11 mouth"];
-  None -> 1721;
-  None -> 1721;
-  444 -> None;
-  11 -> None;
+  菩 [label = "菩\n1721 bodhisattva"];
+  艹 [label = "艹\nNone flower"];
+  咅 [label = "咅\nNone muzzle"];
+  立 [label = "立\n444 standing up"];
+  口 [label = "口\n11 mouth"];
+  艹 -> 菩;
+  咅 -> 菩;
+  立 -> 咅;
+  口 -> 咅;
 }

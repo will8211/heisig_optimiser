@@ -1,7 +1,7 @@
 blockdiag {
-  1796 [label = "患\n1796 troubles"];
-  1506 [label = "串\n1506 string together"];
-  563 [label = "心\n563 heart"];
-  1506 -> 1796;
-  563 -> 1796;
+  患 [label = "患\n1796 troubles"];
+  串 [label = "串\n1506 string together"];
+  心 [label = "心\n563 heart"];
+  串 -> 患;
+  心 -> 患;
 }

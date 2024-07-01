@@ -1,13 +1,13 @@
 blockdiag {
-  232 [label = "模\n232 imitate"];
-  231 [label = "莫\n231 nobody"];
-  None [label = "艹\nNone flower"];
-  12 [label = "日\n12 day"];
-  113 [label = "大\n113 large"];
-  202 [label = "木\n202 tree"];
-  231 -> 232;
-  None -> 231;
-  12 -> 231;
-  113 -> 231;
-  202 -> 232;
+  模 [label = "模\n232 imitate"];
+  莫 [label = "莫\n231 nobody"];
+  艹 [label = "艹\nNone flower"];
+  日 [label = "日\n12 day"];
+  大 [label = "大\n113 large"];
+  木 [label = "木\n202 tree"];
+  莫 -> 模;
+  艹 -> 莫;
+  日 -> 莫;
+  大 -> 莫;
+  木 -> 模;
 }

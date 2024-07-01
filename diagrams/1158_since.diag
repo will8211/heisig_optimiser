@@ -1,8 +1,9 @@
 blockdiag {
-  1158 [label = "既\n1158 since"];
-  None [label = "旡\nNone waitress"];
-  56 [label = "儿\n56 youngster"];
-  None -> 1158;
-  None -> 1158;
-  56 -> None;
+  既 [label = "既\n1158 since"];
+  艮 [label = "艮\nNone silver"];
+  旡 [label = "旡\nNone waitress"];
+  儿 [label = "儿\n56 youngster"];
+  艮 -> 既;
+  旡 -> 既;
+  儿 -> 旡;
 }

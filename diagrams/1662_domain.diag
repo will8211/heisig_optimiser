@@ -1,15 +1,15 @@
 blockdiag {
-  1662 [label = "域\n1662 domain"];
-  158 [label = "土\n158 soil"];
-  364 [label = "或\n364 or"];
-  11 [label = "口\n11 mouth"];
-  1 [label = "一\n1 one"];
-  361 [label = "戈\n361 halberd"];
-  None [label = "弋\nNone arrow"];
-  158 -> 1662;
-  364 -> 1662;
-  11 -> 364;
-  1 -> 364;
-  361 -> 364;
-  None -> 361;
+  域 [label = "域\n1662 domain"];
+  土 [label = "土\n158 soil"];
+  或 [label = "或\n364 or"];
+  口 [label = "口\n11 mouth"];
+  一 [label = "一\n1 one"];
+  戈 [label = "戈\n361 halberd"];
+  弋 [label = "弋\nNone arrow"];
+  土 -> 域;
+  或 -> 域;
+  口 -> 或;
+  一 -> 或;
+  戈 -> 或;
+  弋 -> 戈;
 }

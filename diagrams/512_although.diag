@@ -1,7 +1,7 @@
 blockdiag {
-  512 [label = "虽\n512 although"];
-  11 [label = "口\n11 mouth"];
-  509 [label = "虫\n509 insect"];
-  11 -> 512;
-  509 -> 512;
+  虽 [label = "虽\n512 although"];
+  口 [label = "口\n11 mouth"];
+  虫 [label = "虫\n509 insect"];
+  口 -> 虽;
+  虫 -> 虽;
 }

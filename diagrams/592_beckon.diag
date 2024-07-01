@@ -1,11 +1,11 @@
 blockdiag {
-  592 [label = "招\n592 beckon"];
-  None [label = "扌\nNone fingers"];
-  86 [label = "召\n86 summon"];
-  83 [label = "刀\n83 sword"];
-  11 [label = "口\n11 mouth"];
-  None -> 592;
-  86 -> 592;
-  83 -> 86;
-  11 -> 86;
+  招 [label = "招\n592 beckon"];
+  扌 [label = "扌\nNone fingers"];
+  召 [label = "召\n86 summon"];
+  刀 [label = "刀\n83 sword"];
+  口 [label = "口\n11 mouth"];
+  扌 -> 招;
+  召 -> 招;
+  刀 -> 召;
+  口 -> 召;
 }

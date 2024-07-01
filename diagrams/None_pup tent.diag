@@ -1,11 +1,13 @@
 blockdiag {
-  None [label = "丶\nNone a drop of"];
-  113 [label = "大\n113 large"];
-  12 [label = "日\n12 day"];
-  109 [label = "小\n109 small"];
-  113 -> None;
-  None -> None;
-  12 -> None;
-  109 -> None;
-  None -> 109;
+  尞 [label = "尞\nNone pup tent"];
+  大 [label = "大\n113 large"];
+  癶 [label = "癶\nNone teepee"];
+  日 [label = "日\n12 day"];
+  小 [label = "小\n109 small"];
+  丶 [label = "丶\nNone a drop of"];
+  大 -> 尞;
+  癶 -> 尞;
+  日 -> 尞;
+  小 -> 尞;
+  丶 -> 小;
 }

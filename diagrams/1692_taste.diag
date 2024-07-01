@@ -1,10 +1,11 @@
 blockdiag {
-  1692 [label = "尝\n1692 taste"];
-  109 [label = "小\n109 small"];
-  None [label = "冖\nNone crown"];
-  428 [label = "云\n428 cloud"];
-  109 -> 1692;
-  None -> 109;
-  None -> 1692;
-  428 -> 1692;
+  尝 [label = "尝\n1692 taste"];
+  小 [label = "小\n109 small"];
+  丶 [label = "丶\nNone a drop of"];
+  冖 [label = "冖\nNone crown"];
+  云 [label = "云\n428 cloud"];
+  小 -> 尝;
+  丶 -> 小;
+  冖 -> 尝;
+  云 -> 尝;
 }

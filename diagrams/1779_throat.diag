@@ -1,10 +1,11 @@
 blockdiag {
-  1779 [label = "咽\n1779 throat"];
-  11 [label = "口\n11 mouth"];
-  None [label = "囗\nNone pent in"];
-  113 [label = "大\n113 large"];
-  11 -> 1779;
-  None -> 1779;
-  None -> None;
-  113 -> None;
+  咽 [label = "咽\n1779 throat"];
+  口 [label = "口\n11 mouth"];
+  囧因 [label = "囧因\nNone dog kennel"];
+  囗 [label = "囗\nNone pent in"];
+  大 [label = "大\n113 large"];
+  口 -> 咽;
+  囧因 -> 咽;
+  囗 -> 囧因;
+  大 -> 囧因;
 }

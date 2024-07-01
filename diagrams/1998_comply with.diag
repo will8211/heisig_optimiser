@@ -1,13 +1,13 @@
 blockdiag {
-  1998 [label = "循\n1998 comply with"];
-  754 [label = "行\n754 line of business"];
-  1896 [label = "盾\n1896 shield"];
-  None [label = "𠂆\nNone drag"];
-  10 [label = "十\n10 ten"];
-  15 [label = "目\n15 eye"];
-  754 -> 1998;
-  1896 -> 1998;
-  None -> 1896;
-  10 -> 1896;
-  15 -> 1896;
+  循 [label = "循\n1998 comply with"];
+  行 [label = "行\n754 line of business"];
+  盾 [label = "盾\n1896 shield"];
+  𠂆 [label = "𠂆\nNone drag"];
+  十 [label = "十\n10 ten"];
+  目 [label = "目\n15 eye"];
+  行 -> 循;
+  盾 -> 循;
+  𠂆 -> 盾;
+  十 -> 盾;
+  目 -> 盾;
 }

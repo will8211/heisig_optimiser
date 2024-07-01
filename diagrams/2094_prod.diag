@@ -1,11 +1,11 @@
 blockdiag {
-  2094 [label = "催\n2094 prod"];
-  793 [label = "人\n793 person"];
-  1937 [label = "崔\n1937 Cui"];
-  688 [label = "山\n688 mountain"];
-  None [label = "隹\nNone turkey"];
-  793 -> 2094;
-  1937 -> 2094;
-  688 -> 1937;
-  None -> 1937;
+  催 [label = "催\n2094 prod"];
+  人 [label = "人\n793 person"];
+  崔 [label = "崔\n1937 Cui"];
+  山 [label = "山\n688 mountain"];
+  隹 [label = "隹\nNone turkey"];
+  人 -> 催;
+  崔 -> 催;
+  山 -> 崔;
+  隹 -> 崔;
 }

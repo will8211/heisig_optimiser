@@ -1,12 +1,13 @@
 blockdiag {
-  2432 [label = "俘\n2432 captive"];
-  793 [label = "人\n793 person"];
-  None [label = "𠂆\nNone drag"];
-  663 [label = "爪\n663 claw"];
-  97 [label = "子\n97 child"];
-  793 -> 2432;
-  None -> 2432;
-  663 -> None;
-  None -> 663;
-  97 -> None;
+  俘 [label = "俘\n2432 captive"];
+  人 [label = "人\n793 person"];
+  孚 [label = "孚\nNone fledglings"];
+  爪 [label = "爪\n663 claw"];
+  𠂆 [label = "𠂆\nNone drag"];
+  子 [label = "子\n97 child"];
+  人 -> 俘;
+  孚 -> 俘;
+  爪 -> 孚;
+  𠂆 -> 爪;
+  子 -> 孚;
 }

@@ -1,11 +1,11 @@
 blockdiag {
-  483 [label = "培\n483 cultivate"];
-  None [label = "咅\nNone muzzle"];
-  444 [label = "立\n444 standing up"];
-  11 [label = "口\n11 mouth"];
-  158 [label = "土\n158 soil"];
-  None -> 483;
-  444 -> None;
-  11 -> None;
-  158 -> 483;
+  培 [label = "培\n483 cultivate"];
+  咅 [label = "咅\nNone muzzle"];
+  立 [label = "立\n444 standing up"];
+  口 [label = "口\n11 mouth"];
+  土 [label = "土\n158 soil"];
+  咅 -> 培;
+  立 -> 咅;
+  口 -> 咅;
+  土 -> 培;
 }

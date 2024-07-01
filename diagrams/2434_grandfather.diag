@@ -1,8 +1,9 @@
 blockdiag {
-  2434 [label = "爷\n2434 grandfather"];
-  1043 [label = "父\n1043 father"];
-  None [label = "囧节－艹\nNone chop"];
-  1043 -> 2434;
-  None -> 1043;
-  None -> 2434;
+  爷 [label = "爷\n2434 grandfather"];
+  父 [label = "父\n1043 father"];
+  丶 [label = "丶\nNone a drop of"];
+  囧节－艹 [label = "囧节－艹\nNone chop"];
+  父 -> 爷;
+  丶 -> 父;
+  囧节－艹 -> 爷;
 }

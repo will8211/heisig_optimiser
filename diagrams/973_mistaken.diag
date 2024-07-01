@@ -1,18 +1,21 @@
 blockdiag {
-  973 [label = "错\n973 mistaken"];
-  279 [label = "金\n279 gold"];
-  None [label = "艹\nNone flower"];
-  265 [label = "王\n265 king"];
-  76 [label = "工\n76 work"];
-  971 [label = "昔\n971 times past"];
-  12 [label = "日\n12 day"];
-  279 -> 973;
-  None -> 279;
-  265 -> 279;
-  76 -> 265;
-  None -> 279;
-  971 -> 973;
-  None -> 971;
-  None -> None;
-  12 -> 971;
+  错 [label = "错\n973 mistaken"];
+  金 [label = "金\n279 gold"];
+  𠆢 [label = "𠆢\nNone umbrella"];
+  王 [label = "王\n265 king"];
+  工 [label = "工\n76 work"];
+  丶 [label = "丶\nNone a drop of"];
+  昔 [label = "昔\n971 times past"];
+  囧昔－日 [label = "囧昔－日\nNone salad"];
+  艹 [label = "艹\nNone flower"];
+  日 [label = "日\n12 day"];
+  金 -> 错;
+  𠆢 -> 金;
+  王 -> 金;
+  工 -> 王;
+  丶 -> 金;
+  昔 -> 错;
+  囧昔－日 -> 昔;
+  艹 -> 囧昔－日;
+  日 -> 昔;
 }

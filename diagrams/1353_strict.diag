@@ -1,13 +1,13 @@
 blockdiag {
-  1353 [label = "严\n1353 strict"];
-  1351 [label = "亚\n1351 Asia"];
-  1 [label = "一\n1 one"];
-  1349 [label = "业\n1349 profession"];
-  None [label = "並\nNone side by side"];
-  121 [label = "厂\n121 factory"];
-  1351 -> 1353;
-  1 -> 1351;
-  1349 -> 1351;
-  None -> 1349;
-  121 -> 1353;
+  严 [label = "严\n1353 strict"];
+  亚 [label = "亚\n1351 Asia"];
+  一 [label = "一\n1 one"];
+  业 [label = "业\n1349 profession"];
+  並 [label = "並\nNone side by side"];
+  厂 [label = "厂\n121 factory"];
+  亚 -> 严;
+  一 -> 亚;
+  业 -> 亚;
+  並 -> 业;
+  厂 -> 严;
 }

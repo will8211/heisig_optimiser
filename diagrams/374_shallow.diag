@@ -1,14 +1,17 @@
 blockdiag {
-  374 [label = "浅\n374 shallow"];
-  None [label = "丶\nNone a drop of"];
-  361 [label = "戈\n361 halberd"];
-  137 [label = "水\n137 water"];
-  1 [label = "一\n1 one"];
-  None -> 374;
-  361 -> None;
-  None -> 361;
-  137 -> 374;
-  None -> 137;
-  1 -> None;
-  None -> 137;
+  浅 [label = "浅\n374 shallow"];
+  戋 [label = "戋\nNone float"];
+  戈 [label = "戈\n361 halberd"];
+  弋 [label = "弋\nNone arrow"];
+  水 [label = "水\n137 water"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  丶 [label = "丶\nNone a drop of"];
+  戋 -> 浅;
+  戈 -> 戋;
+  弋 -> 戈;
+  水 -> 浅;
+  丨 -> 水;
+  一 -> 丨;
+  丶 -> 水;
 }

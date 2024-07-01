@@ -1,11 +1,11 @@
 blockdiag {
-  1545 [label = "夺\n1545 take by force"];
-  113 [label = "大\n113 large"];
-  166 [label = "寸\n166 Chinese inch"];
-  None [label = "丶\nNone a drop of"];
-  10 [label = "十\n10 ten"];
-  113 -> 1545;
-  166 -> 1545;
-  None -> 166;
-  10 -> 166;
+  夺 [label = "夺\n1545 take by force"];
+  大 [label = "大\n113 large"];
+  寸 [label = "寸\n166 Chinese inch"];
+  丶 [label = "丶\nNone a drop of"];
+  十 [label = "十\n10 ten"];
+  大 -> 夺;
+  寸 -> 夺;
+  丶 -> 寸;
+  十 -> 寸;
 }

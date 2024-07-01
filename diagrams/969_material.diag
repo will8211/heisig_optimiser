@@ -1,17 +1,19 @@
 blockdiag {
-  969 [label = "料\n969 material"];
-  778 [label = "米\n778 rice"];
-  968 [label = "斗\n968 Big Dipper"];
-  None [label = "丶\nNone a drop of"];
-  137 [label = "水\n137 water"];
-  1 [label = "一\n1 one"];
-  10 [label = "十\n10 ten"];
-  778 -> 969;
-  968 -> 969;
-  None -> 968;
-  137 -> None;
-  None -> 137;
-  1 -> None;
-  None -> 137;
-  10 -> 968;
+  料 [label = "料\n969 material"];
+  米 [label = "米\n778 rice"];
+  斗 [label = "斗\n968 Big Dipper"];
+  冫 [label = "冫\nNone ice"];
+  水 [label = "水\n137 water"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  丶 [label = "丶\nNone a drop of"];
+  十 [label = "十\n10 ten"];
+  米 -> 料;
+  斗 -> 料;
+  冫 -> 斗;
+  水 -> 冫;
+  丨 -> 水;
+  一 -> 丨;
+  丶 -> 水;
+  十 -> 斗;
 }

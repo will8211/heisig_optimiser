@@ -1,10 +1,11 @@
 blockdiag {
-  441 [label = "乔\n441 pretend"];
-  None [label = "丶\nNone a drop of"];
-  440 [label = "夭\n440 die young"];
-  113 [label = "大\n113 large"];
-  None -> 441;
-  440 -> 441;
-  113 -> 440;
-  None -> 440;
+  乔 [label = "乔\n441 pretend"];
+  囧介－𠆢 [label = "囧介－𠆢\nNone crutches"];
+  夭 [label = "夭\n440 die young"];
+  大 [label = "大\n113 large"];
+  丶 [label = "丶\nNone a drop of"];
+  囧介－𠆢 -> 乔;
+  夭 -> 乔;
+  大 -> 夭;
+  丶 -> 夭;
 }

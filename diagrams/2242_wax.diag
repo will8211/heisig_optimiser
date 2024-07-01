@@ -1,12 +1,13 @@
 blockdiag {
-  2242 [label = "蜡\n2242 wax"];
-  509 [label = "虫\n509 insect"];
-  971 [label = "昔\n971 times past"];
-  None [label = "艹\nNone flower"];
-  12 [label = "日\n12 day"];
-  509 -> 2242;
-  971 -> 2242;
-  None -> 971;
-  None -> None;
-  12 -> 971;
+  蜡 [label = "蜡\n2242 wax"];
+  虫 [label = "虫\n509 insect"];
+  昔 [label = "昔\n971 times past"];
+  囧昔－日 [label = "囧昔－日\nNone salad"];
+  艹 [label = "艹\nNone flower"];
+  日 [label = "日\n12 day"];
+  虫 -> 蜡;
+  昔 -> 蜡;
+  囧昔－日 -> 昔;
+  艹 -> 囧昔－日;
+  日 -> 昔;
 }

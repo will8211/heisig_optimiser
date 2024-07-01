@@ -1,7 +1,7 @@
 blockdiag {
-  1025 [label = "号\n1025 appellation"];
-  11 [label = "口\n11 mouth"];
-  None [label = "丂\nNone snare"];
-  11 -> 1025;
-  None -> 1025;
+  号 [label = "号\n1025 appellation"];
+  口 [label = "口\n11 mouth"];
+  丂 [label = "丂\nNone snare"];
+  口 -> 号;
+  丂 -> 号;
 }

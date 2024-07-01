@@ -1,11 +1,11 @@
 blockdiag {
-  737 [label = "历\n737 experience"];
-  121 [label = "厂\n121 factory"];
-  63 [label = "肌\n63 muscle"];
-  57 [label = "几\n57 how many?"];
-  13 [label = "月\n13 month"];
-  121 -> 737;
-  63 -> 737;
-  57 -> 63;
-  13 -> 63;
+  历 [label = "历\n737 experience"];
+  厂 [label = "厂\n121 factory"];
+  肌 [label = "肌\n63 muscle"];
+  几 [label = "几\n57 how many?"];
+  月 [label = "月\n13 month"];
+  厂 -> 历;
+  肌 -> 历;
+  几 -> 肌;
+  月 -> 肌;
 }

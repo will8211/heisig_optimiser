@@ -1,16 +1,19 @@
 blockdiag {
-  1601 [label = "洽\n1601 in agreement"];
-  137 [label = "水\n137 water"];
-  None [label = "𠆢\nNone umbrella"];
-  1 [label = "一\n1 one"];
-  262 [label = "合\n262 fit"];
-  11 [label = "口\n11 mouth"];
-  137 -> 1601;
-  None -> 137;
-  1 -> None;
-  None -> 137;
-  262 -> 1601;
-  None -> 262;
-  None -> None;
-  11 -> 262;
+  洽 [label = "洽\n1601 in agreement"];
+  水 [label = "水\n137 water"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  丶 [label = "丶\nNone a drop of"];
+  合 [label = "合\n262 fit"];
+  亼 [label = "亼\nNone meeting"];
+  𠆢 [label = "𠆢\nNone umbrella"];
+  口 [label = "口\n11 mouth"];
+  水 -> 洽;
+  丨 -> 水;
+  一 -> 丨;
+  丶 -> 水;
+  合 -> 洽;
+  亼 -> 合;
+  𠆢 -> 亼;
+  口 -> 合;
 }

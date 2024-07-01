@@ -1,13 +1,15 @@
 blockdiag {
-  2770 [label = "粪\n2770 dung"];
-  778 [label = "米\n778 rice"];
-  1354 [label = "共\n1354 together"];
-  None [label = "囧只－口\nNone animal legs"];
-  8 [label = "八\n8 eight"];
-  778 -> 2770;
-  1354 -> 2770;
-  None -> 1354;
-  None -> None;
-  None -> 1354;
-  8 -> None;
+  粪 [label = "粪\n2770 dung"];
+  米 [label = "米\n778 rice"];
+  共 [label = "共\n1354 together"];
+  囧昔－日 [label = "囧昔－日\nNone salad"];
+  艹 [label = "艹\nNone flower"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  米 -> 粪;
+  共 -> 粪;
+  囧昔－日 -> 共;
+  艹 -> 囧昔－日;
+  囧只－口 -> 共;
+  八 -> 囧只－口;
 }

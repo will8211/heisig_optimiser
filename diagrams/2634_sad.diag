@@ -1,7 +1,7 @@
 blockdiag {
-  2634 [label = "悲\n2634 sad"];
-  1267 [label = "非\n1267 non-"];
-  563 [label = "心\n563 heart"];
-  1267 -> 2634;
-  563 -> 2634;
+  悲 [label = "悲\n2634 sad"];
+  非 [label = "非\n1267 non-"];
+  心 [label = "心\n563 heart"];
+  非 -> 悲;
+  心 -> 悲;
 }

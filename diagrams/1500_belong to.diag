@@ -1,12 +1,13 @@
 blockdiag {
-  1500 [label = "属\n1500 belong to"];
-  882 [label = "尸\n882 corpse"];
-  None [label = "囧冂\nNone belt"];
-  410 [label = "巾\n410 towel"];
-  509 [label = "虫\n509 insect"];
-  882 -> 1500;
-  None -> 1500;
-  None -> 1500;
-  410 -> None;
-  509 -> 1500;
+  属 [label = "属\n1500 belong to"];
+  尸 [label = "尸\n882 corpse"];
+  丶 [label = "丶\nNone a drop of"];
+  囧冂 [label = "囧冂\nNone belt"];
+  巾 [label = "巾\n410 towel"];
+  虫 [label = "虫\n509 insect"];
+  尸 -> 属;
+  丶 -> 属;
+  囧冂 -> 属;
+  巾 -> 囧冂;
+  虫 -> 属;
 }

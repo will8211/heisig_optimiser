@@ -1,16 +1,19 @@
 blockdiag {
-  2238 [label = "抖\n2238 quiver"];
-  None [label = "丶\nNone a drop of"];
-  968 [label = "斗\n968 Big Dipper"];
-  137 [label = "水\n137 water"];
-  1 [label = "一\n1 one"];
-  10 [label = "十\n10 ten"];
-  None -> 2238;
-  968 -> 2238;
-  None -> 968;
-  137 -> None;
-  None -> 137;
-  1 -> None;
-  None -> 137;
-  10 -> 968;
+  抖 [label = "抖\n2238 quiver"];
+  扌 [label = "扌\nNone fingers"];
+  斗 [label = "斗\n968 Big Dipper"];
+  冫 [label = "冫\nNone ice"];
+  水 [label = "水\n137 water"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  丶 [label = "丶\nNone a drop of"];
+  十 [label = "十\n10 ten"];
+  扌 -> 抖;
+  斗 -> 抖;
+  冫 -> 斗;
+  水 -> 冫;
+  丨 -> 水;
+  一 -> 丨;
+  丶 -> 水;
+  十 -> 斗;
 }

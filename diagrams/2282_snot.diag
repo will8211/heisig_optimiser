@@ -1,18 +1,22 @@
 blockdiag {
-  2282 [label = "涕\n2282 snot"];
-  1022 [label = "弟\n1022 younger brother"];
-  None [label = "丶\nNone a drop of"];
-  1 [label = "一\n1 one"];
-  1013 [label = "弓\n1013 bow"];
-  137 [label = "水\n137 water"];
-  1022 -> 2282;
-  None -> 1022;
-  1 -> None;
-  None -> 1022;
-  None -> None;
-  1013 -> None;
-  137 -> 2282;
-  None -> 137;
-  1 -> None;
-  None -> 137;
+  涕 [label = "涕\n2282 snot"];
+  弟 [label = "弟\n1022 younger brother"];
+  丷 [label = "丷\nNone horns"];
+  一 [label = "一\n1 one"];
+  弗 [label = "弗\nNone dollar sign"];
+  囧介－𠆢 [label = "囧介－𠆢\nNone crutches"];
+  弓 [label = "弓\n1013 bow"];
+  水 [label = "水\n137 water"];
+  丨 [label = "丨\nNone walking stick"];
+  丶 [label = "丶\nNone a drop of"];
+  弟 -> 涕;
+  丷 -> 弟;
+  一 -> 丷;
+  弗 -> 弟;
+  囧介－𠆢 -> 弗;
+  弓 -> 弗;
+  水 -> 涕;
+  丨 -> 水;
+  一 -> 丨;
+  丶 -> 水;
 }

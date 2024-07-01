@@ -1,11 +1,11 @@
 blockdiag {
-  1992 [label = "彻\n1992 thorough"];
-  754 [label = "行\n754 line of business"];
-  85 [label = "切\n85 cut"];
-  83 [label = "刀\n83 sword"];
-  7 [label = "七\n7 seven"];
-  754 -> 1992;
-  85 -> 1992;
-  83 -> 85;
-  7 -> 85;
+  彻 [label = "彻\n1992 thorough"];
+  行 [label = "行\n754 line of business"];
+  切 [label = "切\n85 cut"];
+  刀 [label = "刀\n83 sword"];
+  七 [label = "七\n7 seven"];
+  行 -> 彻;
+  切 -> 彻;
+  刀 -> 切;
+  七 -> 切;
 }

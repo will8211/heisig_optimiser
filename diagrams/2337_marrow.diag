@@ -1,18 +1,20 @@
 blockdiag {
-  2337 [label = "髓\n2337 marrow"];
-  1053 [label = "骨\n1053 skeleton"];
-  13 [label = "月\n13 month"];
-  None [label = "辶\nNone road"];
-  77 [label = "左\n77 left"];
-  10 [label = "十\n10 ten"];
-  76 [label = "工\n76 work"];
-  1053 -> 2337;
-  13 -> 1053;
-  None -> 1053;
-  77 -> 2337;
-  None -> 77;
-  10 -> None;
-  76 -> 77;
-  13 -> 2337;
-  None -> 2337;
+  髓 [label = "髓\n2337 marrow"];
+  骨 [label = "骨\n1053 skeleton"];
+  月 [label = "月\n13 month"];
+  冖 [label = "冖\nNone crown"];
+  左 [label = "左\n77 left"];
+  𠂇 [label = "𠂇\nNone by one’s side"];
+  十 [label = "十\n10 ten"];
+  工 [label = "工\n76 work"];
+  辶 [label = "辶\nNone road"];
+  骨 -> 髓;
+  月 -> 骨;
+  冖 -> 骨;
+  左 -> 髓;
+  𠂇 -> 左;
+  十 -> 𠂇;
+  工 -> 左;
+  月 -> 髓;
+  辶 -> 髓;
 }

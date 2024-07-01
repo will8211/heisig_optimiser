@@ -1,7 +1,7 @@
 blockdiag {
-  1681 [label = "吊\n1681 dangle"];
-  11 [label = "口\n11 mouth"];
-  410 [label = "巾\n410 towel"];
-  11 -> 1681;
-  410 -> 1681;
+  吊 [label = "吊\n1681 dangle"];
+  口 [label = "口\n11 mouth"];
+  巾 [label = "巾\n410 towel"];
+  口 -> 吊;
+  巾 -> 吊;
 }

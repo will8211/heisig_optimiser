@@ -1,7 +1,7 @@
 blockdiag {
-  475 [label = "吹\n475 blow"];
-  11 [label = "口\n11 mouth"];
-  474 [label = "欠\n474 lack"];
-  11 -> 475;
-  474 -> 475;
+  吹 [label = "吹\n475 blow"];
+  口 [label = "口\n11 mouth"];
+  欠 [label = "欠\n474 lack"];
+  口 -> 吹;
+  欠 -> 吹;
 }

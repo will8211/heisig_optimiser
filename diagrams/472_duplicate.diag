@@ -1,8 +1,9 @@
 blockdiag {
-  472 [label = "复\n472 duplicate"];
-  None [label = "夂\nNone walking legs"];
-  12 [label = "日\n12 day"];
-  None -> 472;
-  12 -> 472;
-  None -> 472;
+  复 [label = "复\n472 duplicate"];
+  𠂉 [label = "𠂉\nNone reclining"];
+  日 [label = "日\n12 day"];
+  夂 [label = "夂\nNone walking legs"];
+  𠂉 -> 复;
+  日 -> 复;
+  夂 -> 复;
 }

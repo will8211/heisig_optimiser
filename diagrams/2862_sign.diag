@@ -1,14 +1,17 @@
 blockdiag {
-  2862 [label = "签\n2862 sign"];
-  None [label = "囧应－广\nNone owl"];
-  1 [label = "一\n1 one"];
-  786 [label = "竹\n786 bamboo"];
-  90 [label = "丁\n90 fourth"];
-  None -> 2862;
-  None -> None;
-  None -> None;
-  None -> None;
-  1 -> None;
-  786 -> 2862;
-  90 -> 786;
+  签 [label = "签\n2862 sign"];
+  佥 [label = "佥\nNone hootenanny"];
+  亼 [label = "亼\nNone meeting"];
+  𠆢 [label = "𠆢\nNone umbrella"];
+  囧应－广 [label = "囧应－广\nNone owl"];
+  一 [label = "一\n1 one"];
+  竹 [label = "竹\n786 bamboo"];
+  丁 [label = "丁\n90 fourth"];
+  佥 -> 签;
+  亼 -> 佥;
+  𠆢 -> 亼;
+  囧应－广 -> 佥;
+  一 -> 佥;
+  竹 -> 签;
+  丁 -> 竹;
 }

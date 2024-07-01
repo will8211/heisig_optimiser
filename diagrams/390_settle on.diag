@@ -1,12 +1,13 @@
 blockdiag {
-  390 [label = "定\n390 settle on"];
-  None [label = "宀\nNone house"];
-  387 [label = "正\n387 correct"];
-  1 [label = "一\n1 one"];
-  379 [label = "止\n379 stop"];
-  None -> 390;
-  387 -> None;
-  1 -> 387;
-  379 -> 387;
-  None -> 390;
+  定 [label = "定\n390 settle on"];
+  囧走－十 [label = "囧走－十\nNone mending"];
+  正 [label = "正\n387 correct"];
+  一 [label = "一\n1 one"];
+  止 [label = "止\n379 stop"];
+  宀 [label = "宀\nNone house"];
+  囧走－十 -> 定;
+  正 -> 囧走－十;
+  一 -> 正;
+  止 -> 正;
+  宀 -> 定;
 }

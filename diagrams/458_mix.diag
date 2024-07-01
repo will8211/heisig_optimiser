@@ -1,18 +1,19 @@
 blockdiag {
-  458 [label = "混\n458 mix"];
-  137 [label = "水\n137 water"];
-  None [label = "丶\nNone a drop of"];
-  1 [label = "一\n1 one"];
-  457 [label = "昆\n457 descendants"];
-  12 [label = "日\n12 day"];
-  456 [label = "比\n456 compare"];
-  453 [label = "匕\n453 ancient spoon"];
-  137 -> 458;
-  None -> 137;
-  1 -> None;
-  None -> 137;
-  457 -> 458;
-  12 -> 457;
-  456 -> 457;
-  453 -> 456;
+  混 [label = "混\n458 mix"];
+  水 [label = "水\n137 water"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  丶 [label = "丶\nNone a drop of"];
+  昆 [label = "昆\n457 descendants"];
+  日 [label = "日\n12 day"];
+  比 [label = "比\n456 compare"];
+  匕 [label = "匕\n453 ancient spoon"];
+  水 -> 混;
+  丨 -> 水;
+  一 -> 丨;
+  丶 -> 水;
+  昆 -> 混;
+  日 -> 昆;
+  比 -> 昆;
+  匕 -> 比;
 }

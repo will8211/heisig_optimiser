@@ -1,15 +1,15 @@
 blockdiag {
-  804 [label = "做\n804 make"];
-  793 [label = "人\n793 person"];
-  342 [label = "故\n342 deliberately"];
-  16 [label = "古\n16 ancient"];
-  10 [label = "十\n10 ten"];
-  11 [label = "口\n11 mouth"];
-  None [label = "攵\nNone taskmaster"];
-  793 -> 804;
-  342 -> 804;
-  16 -> 342;
-  10 -> 16;
-  11 -> 16;
-  None -> 342;
+  做 [label = "做\n804 make"];
+  人 [label = "人\n793 person"];
+  故 [label = "故\n342 deliberately"];
+  古 [label = "古\n16 ancient"];
+  十 [label = "十\n10 ten"];
+  口 [label = "口\n11 mouth"];
+  攵 [label = "攵\nNone taskmaster"];
+  人 -> 做;
+  故 -> 做;
+  古 -> 故;
+  十 -> 古;
+  口 -> 古;
+  攵 -> 故;
 }

@@ -1,9 +1,9 @@
 blockdiag {
-  691 [label = "岁\n691 years of age"];
-  688 [label = "山\n688 mountain"];
-  115 [label = "夕\n115 evening"];
-  13 [label = "月\n13 month"];
-  688 -> 691;
-  115 -> 691;
-  13 -> 115;
+  岁 [label = "岁\n691 years of age"];
+  山 [label = "山\n688 mountain"];
+  夕 [label = "夕\n115 evening"];
+  月 [label = "月\n13 month"];
+  山 -> 岁;
+  夕 -> 岁;
+  月 -> 夕;
 }

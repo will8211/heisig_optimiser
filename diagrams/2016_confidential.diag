@@ -1,9 +1,9 @@
 blockdiag {
-  2016 [label = "秘\n2016 confidential"];
-  762 [label = "禾\n762 standing grain"];
-  583 [label = "必\n583 certainly"];
-  563 [label = "心\n563 heart"];
-  762 -> 2016;
-  583 -> 2016;
-  563 -> 583;
+  秘 [label = "秘\n2016 confidential"];
+  禾 [label = "禾\n762 standing grain"];
+  必 [label = "必\n583 certainly"];
+  心 [label = "心\n563 heart"];
+  禾 -> 秘;
+  必 -> 秘;
+  心 -> 必;
 }

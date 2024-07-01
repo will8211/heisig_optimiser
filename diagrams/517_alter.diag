@@ -1,7 +1,7 @@
 blockdiag {
-  517 [label = "改\n517 alter"];
-  515 [label = "己\n515 self"];
-  None [label = "攵\nNone taskmaster"];
-  515 -> 517;
-  None -> 517;
+  改 [label = "改\n517 alter"];
+  己 [label = "己\n515 self"];
+  攵 [label = "攵\nNone taskmaster"];
+  己 -> 改;
+  攵 -> 改;
 }

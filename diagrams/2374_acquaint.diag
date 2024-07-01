@@ -1,12 +1,13 @@
 blockdiag {
-  2374 [label = "绍\n2374 acquaint"];
-  None [label = "厶\nNone elbow"];
-  86 [label = "召\n86 summon"];
-  83 [label = "刀\n83 sword"];
-  11 [label = "口\n11 mouth"];
-  None -> 2374;
-  None -> None;
-  86 -> 2374;
-  83 -> 86;
-  11 -> 86;
+  绍 [label = "绍\n2374 acquaint"];
+  纟 [label = "纟\nNone thread"];
+  厶 [label = "厶\nNone elbow"];
+  召 [label = "召\n86 summon"];
+  刀 [label = "刀\n83 sword"];
+  口 [label = "口\n11 mouth"];
+  纟 -> 绍;
+  厶 -> 纟;
+  召 -> 绍;
+  刀 -> 召;
+  口 -> 召;
 }

@@ -1,10 +1,11 @@
 blockdiag {
-  1148 [label = "腿\n1148 leg"];
-  13 [label = "月\n13 month"];
-  1147 [label = "退\n1147 retreat"];
-  None [label = "辶\nNone road"];
-  13 -> 1148;
-  1147 -> 1148;
-  None -> 1147;
-  None -> 1147;
+  腿 [label = "腿\n1148 leg"];
+  月 [label = "月\n13 month"];
+  退 [label = "退\n1147 retreat"];
+  艮 [label = "艮\nNone silver"];
+  辶 [label = "辶\nNone road"];
+  月 -> 腿;
+  退 -> 腿;
+  艮 -> 退;
+  辶 -> 退;
 }

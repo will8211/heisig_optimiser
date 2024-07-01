@@ -1,15 +1,15 @@
 blockdiag {
-  1991 [label = "茄\n1991 eggplant"];
-  None [label = "艹\nNone flower"];
-  749 [label = "加\n749 add"];
-  63 [label = "肌\n63 muscle"];
-  57 [label = "几\n57 how many?"];
-  13 [label = "月\n13 month"];
-  11 [label = "口\n11 mouth"];
-  None -> 1991;
-  749 -> 1991;
-  63 -> 749;
-  57 -> 63;
-  13 -> 63;
-  11 -> 749;
+  茄 [label = "茄\n1991 eggplant"];
+  艹 [label = "艹\nNone flower"];
+  加 [label = "加\n749 add"];
+  肌 [label = "肌\n63 muscle"];
+  几 [label = "几\n57 how many?"];
+  月 [label = "月\n13 month"];
+  口 [label = "口\n11 mouth"];
+  艹 -> 茄;
+  加 -> 茄;
+  肌 -> 加;
+  几 -> 肌;
+  月 -> 肌;
+  口 -> 加;
 }

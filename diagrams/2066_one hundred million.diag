@@ -1,7 +1,7 @@
 blockdiag {
-  2066 [label = "亿\n2066 one hundred million"];
-  793 [label = "人\n793 person"];
-  95 [label = "乙\n95 second"];
-  793 -> 2066;
-  95 -> 2066;
+  亿 [label = "亿\n2066 one hundred million"];
+  人 [label = "人\n793 person"];
+  乙 [label = "乙\n95 second"];
+  人 -> 亿;
+  乙 -> 亿;
 }

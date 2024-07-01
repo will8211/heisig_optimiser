@@ -1,17 +1,17 @@
 blockdiag {
-  2052 [label = "筛\n2052 sift"];
-  786 [label = "竹\n786 bamboo"];
-  90 [label = "丁\n90 fourth"];
-  412 [label = "师\n412 teacher"];
-  411 [label = "帅\n411 commander"];
-  83 [label = "刀\n83 sword"];
-  410 [label = "巾\n410 towel"];
-  1 [label = "一\n1 one"];
-  786 -> 2052;
-  90 -> 786;
-  412 -> 2052;
-  411 -> 412;
-  83 -> 411;
-  410 -> 411;
-  1 -> 412;
+  筛 [label = "筛\n2052 sift"];
+  竹 [label = "竹\n786 bamboo"];
+  丁 [label = "丁\n90 fourth"];
+  师 [label = "师\n412 teacher"];
+  帅 [label = "帅\n411 commander"];
+  刀 [label = "刀\n83 sword"];
+  巾 [label = "巾\n410 towel"];
+  一 [label = "一\n1 one"];
+  竹 -> 筛;
+  丁 -> 竹;
+  师 -> 筛;
+  帅 -> 师;
+  刀 -> 帅;
+  巾 -> 帅;
+  一 -> 师;
 }

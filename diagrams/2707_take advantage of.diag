@@ -1,18 +1,21 @@
 blockdiag {
-  2707 [label = "趁\n2707 take advantage of"];
-  None [label = "囧走－十\nNone mending"];
-  391 [label = "走\n391 walk"];
-  387 [label = "正\n387 correct"];
-  1 [label = "一\n1 one"];
-  379 [label = "止\n379 stop"];
-  158 [label = "土\n158 soil"];
-  None -> 2707;
-  None -> None;
-  None -> None;
-  391 -> 2707;
-  None -> 391;
-  387 -> None;
-  1 -> 387;
-  379 -> 387;
-  158 -> 391;
+  趁 [label = "趁\n2707 take advantage of"];
+  㐱 [label = "㐱\nNone cocktail"];
+  𠆢 [label = "𠆢\nNone umbrella"];
+  彡 [label = "彡\nNone rooster tail"];
+  走 [label = "走\n391 walk"];
+  囧走－十 [label = "囧走－十\nNone mending"];
+  正 [label = "正\n387 correct"];
+  一 [label = "一\n1 one"];
+  止 [label = "止\n379 stop"];
+  土 [label = "土\n158 soil"];
+  㐱 -> 趁;
+  𠆢 -> 㐱;
+  彡 -> 㐱;
+  走 -> 趁;
+  囧走－十 -> 走;
+  正 -> 囧走－十;
+  一 -> 正;
+  止 -> 正;
+  土 -> 走;
 }

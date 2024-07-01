@@ -1,13 +1,13 @@
 blockdiag {
-  920 [label = "神\n920 gods"];
-  900 [label = "示\n900 show"];
-  918 [label = "申\n918 express"];
-  12 [label = "日\n12 day"];
-  None [label = "丨\nNone walking stick"];
-  1 [label = "一\n1 one"];
-  900 -> 920;
-  918 -> 920;
-  12 -> 918;
-  None -> 918;
-  1 -> None;
+  神 [label = "神\n920 gods"];
+  示 [label = "示\n900 show"];
+  申 [label = "申\n918 express"];
+  日 [label = "日\n12 day"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  示 -> 神;
+  申 -> 神;
+  日 -> 申;
+  丨 -> 申;
+  一 -> 丨;
 }

@@ -1,7 +1,7 @@
 blockdiag {
-  317 [label = "备\n317 prepare"];
-  None [label = "夂\nNone walking legs"];
-  14 [label = "田\n14 rice field"];
-  None -> 317;
-  14 -> 317;
+  备 [label = "备\n317 prepare"];
+  夂 [label = "夂\nNone walking legs"];
+  田 [label = "田\n14 rice field"];
+  夂 -> 备;
+  田 -> 备;
 }

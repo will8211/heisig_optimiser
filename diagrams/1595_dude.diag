@@ -1,7 +1,7 @@
 blockdiag {
-  1595 [label = "牡\n1595 dude"];
-  252 [label = "牛\n252 cow"];
-  158 [label = "土\n158 soil"];
-  252 -> 1595;
-  158 -> 1595;
+  牡 [label = "牡\n1595 dude"];
+  牛 [label = "牛\n252 cow"];
+  土 [label = "土\n158 soil"];
+  牛 -> 牡;
+  土 -> 牡;
 }

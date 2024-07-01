@@ -1,14 +1,16 @@
 blockdiag {
-  2644 [label = "罕\n2644 rarely"];
-  None [label = "囧只－口\nNone animal legs"];
-  1070 [label = "穴\n1070 hole"];
-  8 [label = "八\n8 eight"];
-  1277 [label = "干\n1277 dry"];
-  None -> 2644;
-  1070 -> None;
-  None -> 1070;
-  8 -> 1070;
-  None -> 1070;
-  8 -> None;
-  1277 -> 2644;
+  罕 [label = "罕\n2644 rarely"];
+  㓁 [label = "㓁\nNone paper punch"];
+  穴 [label = "穴\n1070 hole"];
+  宀 [label = "宀\nNone house"];
+  八 [label = "八\n8 eight"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  干 [label = "干\n1277 dry"];
+  㓁 -> 罕;
+  穴 -> 㓁;
+  宀 -> 穴;
+  八 -> 穴;
+  囧只－口 -> 穴;
+  八 -> 囧只－口;
+  干 -> 罕;
 }

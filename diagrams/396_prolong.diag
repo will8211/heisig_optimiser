@@ -1,8 +1,9 @@
 blockdiag {
-  396 [label = "延\n396 prolong"];
-  None [label = "丶\nNone a drop of"];
-  379 [label = "止\n379 stop"];
-  None -> 396;
-  None -> 396;
-  379 -> 396;
+  延 [label = "延\n396 prolong"];
+  廴 [label = "廴\nNone stretch"];
+  丶 [label = "丶\nNone a drop of"];
+  止 [label = "止\n379 stop"];
+  廴 -> 延;
+  丶 -> 延;
+  止 -> 延;
 }

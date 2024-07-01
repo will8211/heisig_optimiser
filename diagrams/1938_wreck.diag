@@ -1,18 +1,19 @@
 blockdiag {
-  1938 [label = "摧\n1938 wreck"];
-  594 [label = "指\n594 finger"];
-  None [label = "隹\nNone turkey"];
-  463 [label = "旨\n463 purpose"];
-  453 [label = "匕\n453 ancient spoon"];
-  12 [label = "日\n12 day"];
-  1937 [label = "崔\n1937 Cui"];
-  688 [label = "山\n688 mountain"];
-  594 -> 1938;
-  None -> 594;
-  463 -> 594;
-  453 -> 463;
-  12 -> 463;
-  1937 -> 1938;
-  688 -> 1937;
-  None -> 1937;
+  摧 [label = "摧\n1938 wreck"];
+  指 [label = "指\n594 finger"];
+  扌 [label = "扌\nNone fingers"];
+  旨 [label = "旨\n463 purpose"];
+  匕 [label = "匕\n453 ancient spoon"];
+  日 [label = "日\n12 day"];
+  崔 [label = "崔\n1937 Cui"];
+  山 [label = "山\n688 mountain"];
+  隹 [label = "隹\nNone turkey"];
+  指 -> 摧;
+  扌 -> 指;
+  旨 -> 指;
+  匕 -> 旨;
+  日 -> 旨;
+  崔 -> 摧;
+  山 -> 崔;
+  隹 -> 崔;
 }

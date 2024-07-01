@@ -1,16 +1,21 @@
 blockdiag {
-  1918 [label = "撤\n1918 remove"];
-  None [label = "攵\nNone taskmaster"];
-  683 [label = "育\n683 education"];
-  1 [label = "一\n1 one"];
-  13 [label = "月\n13 month"];
-  None -> 1918;
-  683 -> 1918;
-  None -> 683;
-  None -> None;
-  None -> None;
-  1 -> None;
-  None -> None;
-  13 -> 683;
-  None -> 1918;
+  撤 [label = "撤\n1918 remove"];
+  扌 [label = "扌\nNone fingers"];
+  育 [label = "育\n683 education"];
+  囧充－儿 [label = "囧充－儿\nNone infant"];
+  囧会－亼 [label = "囧会－亼\nNone wall"];
+  厶 [label = "厶\nNone elbow"];
+  一 [label = "一\n1 one"];
+  丶 [label = "丶\nNone a drop of"];
+  月 [label = "月\n13 month"];
+  攵 [label = "攵\nNone taskmaster"];
+  扌 -> 撤;
+  育 -> 撤;
+  囧充－儿 -> 育;
+  囧会－亼 -> 囧充－儿;
+  厶 -> 囧会－亼;
+  一 -> 囧会－亼;
+  丶 -> 囧充－儿;
+  月 -> 育;
+  攵 -> 撤;
 }

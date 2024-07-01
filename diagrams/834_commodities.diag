@@ -1,17 +1,17 @@
 blockdiag {
-  834 [label = "货\n834 commodities"];
-  830 [label = "化\n830 transform"];
-  793 [label = "人\n793 person"];
-  453 [label = "匕\n453 ancient spoon"];
-  52 [label = "贝\n52 shellfish"];
-  15 [label = "目\n15 eye"];
-  None [label = "囧只－口\nNone animal legs"];
-  8 [label = "八\n8 eight"];
-  830 -> 834;
-  793 -> 830;
-  453 -> 830;
-  52 -> 834;
-  15 -> 52;
-  None -> 52;
-  8 -> None;
+  货 [label = "货\n834 commodities"];
+  化 [label = "化\n830 transform"];
+  人 [label = "人\n793 person"];
+  匕 [label = "匕\n453 ancient spoon"];
+  贝 [label = "贝\n52 shellfish"];
+  目 [label = "目\n15 eye"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  化 -> 货;
+  人 -> 化;
+  匕 -> 化;
+  贝 -> 货;
+  目 -> 贝;
+  囧只－口 -> 贝;
+  八 -> 囧只－口;
 }

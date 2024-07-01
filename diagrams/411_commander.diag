@@ -1,7 +1,7 @@
 blockdiag {
-  411 [label = "帅\n411 commander"];
-  83 [label = "刀\n83 sword"];
-  410 [label = "巾\n410 towel"];
-  83 -> 411;
-  410 -> 411;
+  帅 [label = "帅\n411 commander"];
+  刀 [label = "刀\n83 sword"];
+  巾 [label = "巾\n410 towel"];
+  刀 -> 帅;
+  巾 -> 帅;
 }

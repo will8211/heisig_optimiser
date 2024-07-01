@@ -1,11 +1,13 @@
 blockdiag {
-  2391 [label = "综\n2391 sum up"];
-  None [label = "宀\nNone house"];
-  908 [label = "宗\n908 religion"];
-  900 [label = "示\n900 show"];
-  None -> 2391;
-  None -> None;
-  908 -> 2391;
-  None -> 908;
-  900 -> 908;
+  综 [label = "综\n2391 sum up"];
+  纟 [label = "纟\nNone thread"];
+  厶 [label = "厶\nNone elbow"];
+  宗 [label = "宗\n908 religion"];
+  宀 [label = "宀\nNone house"];
+  示 [label = "示\n900 show"];
+  纟 -> 综;
+  厶 -> 纟;
+  宗 -> 综;
+  宀 -> 宗;
+  示 -> 宗;
 }

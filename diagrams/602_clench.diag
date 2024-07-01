@@ -1,9 +1,9 @@
 blockdiag {
-  602 [label = "执\n602 clench"];
-  None [label = "扌\nNone fingers"];
-  42 [label = "丸\n42 pill"];
-  9 [label = "九\n9 nine"];
-  None -> 602;
-  42 -> 602;
-  9 -> 42;
+  执 [label = "执\n602 clench"];
+  扌 [label = "扌\nNone fingers"];
+  丸 [label = "丸\n42 pill"];
+  九 [label = "九\n9 nine"];
+  扌 -> 执;
+  丸 -> 执;
+  九 -> 丸;
 }

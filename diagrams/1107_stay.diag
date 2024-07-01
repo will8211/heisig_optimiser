@@ -1,10 +1,11 @@
 blockdiag {
-  1107 [label = "留\n1107 stay"];
-  None [label = "卩\nNone stamp"];
-  83 [label = "刀\n83 sword"];
-  14 [label = "田\n14 rice field"];
-  None -> 1107;
-  None -> None;
-  83 -> None;
-  14 -> 1107;
+  留 [label = "留\n1107 stay"];
+  囧贸－贝 [label = "囧贸－贝\nNone letter opener"];
+  卩 [label = "卩\nNone stamp"];
+  刀 [label = "刀\n83 sword"];
+  田 [label = "田\n14 rice field"];
+  囧贸－贝 -> 留;
+  卩 -> 囧贸－贝;
+  刀 -> 囧贸－贝;
+  田 -> 留;
 }

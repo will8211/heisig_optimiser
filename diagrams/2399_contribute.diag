@@ -1,10 +1,11 @@
 blockdiag {
-  2399 [label = "捐\n2399 contribute"];
-  None [label = "肙\nNone canker sore"];
-  11 [label = "口\n11 mouth"];
-  13 [label = "月\n13 month"];
-  None -> 2399;
-  None -> 2399;
-  11 -> None;
-  13 -> None;
+  捐 [label = "捐\n2399 contribute"];
+  扌 [label = "扌\nNone fingers"];
+  肙 [label = "肙\nNone canker sore"];
+  口 [label = "口\n11 mouth"];
+  月 [label = "月\n13 month"];
+  扌 -> 捐;
+  肙 -> 捐;
+  口 -> 肙;
+  月 -> 肙;
 }

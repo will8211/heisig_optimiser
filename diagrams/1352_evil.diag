@@ -1,13 +1,13 @@
 blockdiag {
-  1352 [label = "恶\n1352 evil"];
-  1351 [label = "亚\n1351 Asia"];
-  1 [label = "一\n1 one"];
-  1349 [label = "业\n1349 profession"];
-  None [label = "並\nNone side by side"];
-  563 [label = "心\n563 heart"];
-  1351 -> 1352;
-  1 -> 1351;
-  1349 -> 1351;
-  None -> 1349;
-  563 -> 1352;
+  恶 [label = "恶\n1352 evil"];
+  亚 [label = "亚\n1351 Asia"];
+  一 [label = "一\n1 one"];
+  业 [label = "业\n1349 profession"];
+  並 [label = "並\nNone side by side"];
+  心 [label = "心\n563 heart"];
+  亚 -> 恶;
+  一 -> 亚;
+  业 -> 亚;
+  並 -> 业;
+  心 -> 恶;
 }

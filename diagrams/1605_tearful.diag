@@ -1,17 +1,18 @@
 blockdiag {
-  1605 [label = "汪\n1605 tearful"];
-  137 [label = "水\n137 water"];
-  None [label = "丶\nNone a drop of"];
-  1 [label = "一\n1 one"];
-  266 [label = "玉\n266 jade"];
-  265 [label = "王\n265 king"];
-  76 [label = "工\n76 work"];
-  137 -> 1605;
-  None -> 137;
-  1 -> None;
-  None -> 137;
-  266 -> 1605;
-  265 -> 266;
-  76 -> 265;
-  None -> 266;
+  汪 [label = "汪\n1605 tearful"];
+  水 [label = "水\n137 water"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  丶 [label = "丶\nNone a drop of"];
+  玉 [label = "玉\n266 jade"];
+  王 [label = "王\n265 king"];
+  工 [label = "工\n76 work"];
+  水 -> 汪;
+  丨 -> 水;
+  一 -> 丨;
+  丶 -> 水;
+  玉 -> 汪;
+  王 -> 玉;
+  工 -> 王;
+  丶 -> 玉;
 }

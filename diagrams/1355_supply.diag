@@ -1,13 +1,15 @@
 blockdiag {
-  1355 [label = "供\n1355 supply"];
-  793 [label = "人\n793 person"];
-  1354 [label = "共\n1354 together"];
-  None [label = "囧只－口\nNone animal legs"];
-  8 [label = "八\n8 eight"];
-  793 -> 1355;
-  1354 -> 1355;
-  None -> 1354;
-  None -> None;
-  None -> 1354;
-  8 -> None;
+  供 [label = "供\n1355 supply"];
+  人 [label = "人\n793 person"];
+  共 [label = "共\n1354 together"];
+  囧昔－日 [label = "囧昔－日\nNone salad"];
+  艹 [label = "艹\nNone flower"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  人 -> 供;
+  共 -> 供;
+  囧昔－日 -> 共;
+  艹 -> 囧昔－日;
+  囧只－口 -> 共;
+  八 -> 囧只－口;
 }

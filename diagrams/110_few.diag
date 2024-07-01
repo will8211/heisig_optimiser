@@ -1,8 +1,8 @@
 blockdiag {
-  110 [label = "少\n110 few"];
-  None [label = "丶\nNone a drop of"];
-  109 [label = "小\n109 small"];
-  None -> 110;
-  109 -> 110;
-  None -> 109;
+  少 [label = "少\n110 few"];
+  丶 [label = "丶\nNone a drop of"];
+  小 [label = "小\n109 small"];
+  丶 -> 少;
+  小 -> 少;
+  丶 -> 小;
 }

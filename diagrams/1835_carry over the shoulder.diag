@@ -1,7 +1,7 @@
 blockdiag {
-  1835 [label = "扛\n1835 carry over the shoulder"];
-  None [label = "扌\nNone fingers"];
-  76 [label = "工\n76 work"];
-  None -> 1835;
-  76 -> 1835;
+  扛 [label = "扛\n1835 carry over the shoulder"];
+  扌 [label = "扌\nNone fingers"];
+  工 [label = "工\n76 work"];
+  扌 -> 扛;
+  工 -> 扛;
 }

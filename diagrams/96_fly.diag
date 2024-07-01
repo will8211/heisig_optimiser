@@ -1,7 +1,7 @@
 blockdiag {
-  96 [label = "飞\n96 fly"];
-  95 [label = "乙\n95 second"];
-  None [label = "丶\nNone a drop of"];
-  95 -> 96;
-  None -> 96;
+  飞 [label = "飞\n96 fly"];
+  乙 [label = "乙\n95 second"];
+  丶 [label = "丶\nNone a drop of"];
+  乙 -> 飞;
+  丶 -> 飞;
 }

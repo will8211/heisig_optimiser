@@ -1,7 +1,7 @@
 blockdiag {
-  752 [label = "务\n752 tasks"];
-  None [label = "夂\nNone walking legs"];
-  732 [label = "力\n732 power"];
-  None -> 752;
-  732 -> 752;
+  务 [label = "务\n752 tasks"];
+  夂 [label = "夂\nNone walking legs"];
+  力 [label = "力\n732 power"];
+  夂 -> 务;
+  力 -> 务;
 }

@@ -1,16 +1,17 @@
 blockdiag {
-  1676 [label = "婿\n1676 son-in-law"];
-  102 [label = "女\n102 woman"];
-  None [label = "囧走－十\nNone mending"];
-  387 [label = "正\n387 correct"];
-  1 [label = "一\n1 one"];
-  379 [label = "止\n379 stop"];
-  13 [label = "月\n13 month"];
-  102 -> 1676;
-  None -> 1676;
-  None -> None;
-  387 -> None;
-  1 -> 387;
-  379 -> 387;
-  13 -> 1676;
+  婿 [label = "婿\n1676 son-in-law"];
+  女 [label = "女\n102 woman"];
+  疋 [label = "疋\nNone zoo"];
+  囧走－十 [label = "囧走－十\nNone mending"];
+  正 [label = "正\n387 correct"];
+  一 [label = "一\n1 one"];
+  止 [label = "止\n379 stop"];
+  月 [label = "月\n13 month"];
+  女 -> 婿;
+  疋 -> 婿;
+  囧走－十 -> 疋;
+  正 -> 囧走－十;
+  一 -> 正;
+  止 -> 正;
+  月 -> 婿;
 }

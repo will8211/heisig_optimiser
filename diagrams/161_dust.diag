@@ -1,9 +1,9 @@
 blockdiag {
-  161 [label = "尘\n161 dust"];
-  109 [label = "小\n109 small"];
-  None [label = "丶\nNone a drop of"];
-  158 [label = "土\n158 soil"];
-  109 -> 161;
-  None -> 109;
-  158 -> 161;
+  尘 [label = "尘\n161 dust"];
+  小 [label = "小\n109 small"];
+  丶 [label = "丶\nNone a drop of"];
+  土 [label = "土\n158 soil"];
+  小 -> 尘;
+  丶 -> 小;
+  土 -> 尘;
 }

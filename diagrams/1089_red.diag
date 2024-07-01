@@ -1,8 +1,9 @@
 blockdiag {
-  1089 [label = "红\n1089 red"];
-  None [label = "厶\nNone elbow"];
-  76 [label = "工\n76 work"];
-  None -> 1089;
-  None -> None;
-  76 -> 1089;
+  红 [label = "红\n1089 red"];
+  纟 [label = "纟\nNone thread"];
+  厶 [label = "厶\nNone elbow"];
+  工 [label = "工\n76 work"];
+  纟 -> 红;
+  厶 -> 纟;
+  工 -> 红;
 }

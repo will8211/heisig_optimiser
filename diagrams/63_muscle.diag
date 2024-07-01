@@ -1,7 +1,7 @@
 blockdiag {
-  63 [label = "肌\n63 muscle"];
-  57 [label = "几\n57 how many?"];
-  13 [label = "月\n13 month"];
-  57 -> 63;
-  13 -> 63;
+  肌 [label = "肌\n63 muscle"];
+  几 [label = "几\n57 how many?"];
+  月 [label = "月\n13 month"];
+  几 -> 肌;
+  月 -> 肌;
 }

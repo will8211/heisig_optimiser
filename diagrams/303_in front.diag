@@ -1,12 +1,13 @@
 blockdiag {
-  303 [label = "前\n303 in front"];
-  None [label = "刖\nNone butcher"];
-  1 [label = "一\n1 one"];
-  13 [label = "月\n13 month"];
-  83 [label = "刀\n83 sword"];
-  None -> 303;
-  1 -> None;
-  None -> 303;
-  13 -> None;
-  83 -> None;
+  前 [label = "前\n303 in front"];
+  丷 [label = "丷\nNone horns"];
+  一 [label = "一\n1 one"];
+  刖 [label = "刖\nNone butcher"];
+  月 [label = "月\n13 month"];
+  刀 [label = "刀\n83 sword"];
+  丷 -> 前;
+  一 -> 丷;
+  刖 -> 前;
+  月 -> 刖;
+  刀 -> 刖;
 }

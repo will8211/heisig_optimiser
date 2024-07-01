@@ -1,11 +1,11 @@
 blockdiag {
-  1963 [label = "歼\n1963 annihilate"];
-  712 [label = "歹\n712 malicious"];
-  39 [label = "千\n39 thousand"];
-  None [label = "丶\nNone a drop of"];
-  10 [label = "十\n10 ten"];
-  712 -> 1963;
-  39 -> 1963;
-  None -> 39;
-  10 -> 39;
+  歼 [label = "歼\n1963 annihilate"];
+  歹 [label = "歹\n712 malicious"];
+  千 [label = "千\n39 thousand"];
+  丶 [label = "丶\nNone a drop of"];
+  十 [label = "十\n10 ten"];
+  歹 -> 歼;
+  千 -> 歼;
+  丶 -> 千;
+  十 -> 千;
 }

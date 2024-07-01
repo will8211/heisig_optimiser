@@ -1,7 +1,7 @@
 blockdiag {
-  715 [label = "死\n715 death"];
-  712 [label = "歹\n712 malicious"];
-  453 [label = "匕\n453 ancient spoon"];
-  712 -> 715;
-  453 -> 715;
+  死 [label = "死\n715 death"];
+  歹 [label = "歹\n712 malicious"];
+  匕 [label = "匕\n453 ancient spoon"];
+  歹 -> 死;
+  匕 -> 死;
 }

@@ -1,13 +1,13 @@
 blockdiag {
-  1225 [label = "割\n1225 cut off"];
-  1224 [label = "害\n1224 harm"];
-  None [label = "宀\nNone house"];
-  1223 [label = "丰\n1223 plentiful"];
-  11 [label = "口\n11 mouth"];
-  83 [label = "刀\n83 sword"];
-  1224 -> 1225;
-  None -> 1224;
-  1223 -> 1224;
-  11 -> 1224;
-  83 -> 1225;
+  割 [label = "割\n1225 cut off"];
+  害 [label = "害\n1224 harm"];
+  宀 [label = "宀\nNone house"];
+  丰 [label = "丰\n1223 plentiful"];
+  口 [label = "口\n11 mouth"];
+  刀 [label = "刀\n83 sword"];
+  害 -> 割;
+  宀 -> 害;
+  丰 -> 害;
+  口 -> 害;
+  刀 -> 割;
 }

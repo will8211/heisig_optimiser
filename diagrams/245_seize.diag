@@ -1,10 +1,11 @@
 blockdiag {
-  245 [label = "获\n245 seize"];
-  None [label = "丶\nNone a drop of"];
-  239 [label = "犬\n239 pooch"];
-  113 [label = "大\n113 large"];
-  None -> 245;
-  239 -> 245;
-  113 -> 239;
-  None -> 239;
+  获 [label = "获\n245 seize"];
+  艹 [label = "艹\nNone flower"];
+  犬 [label = "犬\n239 pooch"];
+  大 [label = "大\n113 large"];
+  丶 [label = "丶\nNone a drop of"];
+  艹 -> 获;
+  犬 -> 获;
+  大 -> 犬;
+  丶 -> 犬;
 }

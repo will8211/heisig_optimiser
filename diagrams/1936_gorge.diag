@@ -1,15 +1,15 @@
 blockdiag {
-  1936 [label = "峡\n1936 gorge"];
-  688 [label = "山\n688 mountain"];
-  1523 [label = "夹\n1523 press from both sides"];
-  726 [label = "夫\n726 husband"];
-  113 [label = "大\n113 large"];
-  None [label = "丷\nNone horns"];
-  1 [label = "一\n1 one"];
-  688 -> 1936;
-  1523 -> 1936;
-  726 -> 1523;
-  113 -> 726;
-  None -> 1523;
-  1 -> None;
+  峡 [label = "峡\n1936 gorge"];
+  山 [label = "山\n688 mountain"];
+  夹 [label = "夹\n1523 press from both sides"];
+  夫 [label = "夫\n726 husband"];
+  大 [label = "大\n113 large"];
+  丷 [label = "丷\nNone horns"];
+  一 [label = "一\n1 one"];
+  山 -> 峡;
+  夹 -> 峡;
+  夫 -> 夹;
+  大 -> 夫;
+  丷 -> 夹;
+  一 -> 丷;
 }

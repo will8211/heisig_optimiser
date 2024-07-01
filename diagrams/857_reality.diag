@@ -1,16 +1,19 @@
 blockdiag {
-  857 [label = "实\n857 reality"];
-  None [label = "丶\nNone a drop of"];
-  856 [label = "头\n856 head"];
-  113 [label = "大\n113 large"];
-  137 [label = "水\n137 water"];
-  1 [label = "一\n1 one"];
-  None -> 857;
-  856 -> 857;
-  113 -> 856;
-  None -> 856;
-  137 -> None;
-  None -> 137;
-  1 -> None;
-  None -> 137;
+  实 [label = "实\n857 reality"];
+  宀 [label = "宀\nNone house"];
+  头 [label = "头\n856 head"];
+  大 [label = "大\n113 large"];
+  冫 [label = "冫\nNone ice"];
+  水 [label = "水\n137 water"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  丶 [label = "丶\nNone a drop of"];
+  宀 -> 实;
+  头 -> 实;
+  大 -> 头;
+  冫 -> 头;
+  水 -> 冫;
+  丨 -> 水;
+  一 -> 丨;
+  丶 -> 水;
 }

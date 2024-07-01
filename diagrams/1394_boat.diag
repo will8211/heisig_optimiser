@@ -1,8 +1,9 @@
 blockdiag {
-  1394 [label = "舟\n1394 boat"];
-  None [label = "冂\nNone hood"];
-  57 [label = "几\n57 how many?"];
-  None -> 1394;
-  None -> 1394;
-  57 -> None;
+  舟 [label = "舟\n1394 boat"];
+  丶 [label = "丶\nNone a drop of"];
+  冂 [label = "冂\nNone hood"];
+  几 [label = "几\n57 how many?"];
+  丶 -> 舟;
+  冂 -> 舟;
+  几 -> 冂;
 }

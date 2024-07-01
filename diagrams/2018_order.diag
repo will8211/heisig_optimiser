@@ -1,13 +1,13 @@
 blockdiag {
-  2018 [label = "秩\n2018 order"];
-  762 [label = "禾\n762 standing grain"];
-  729 [label = "失\n729 lose"];
-  726 [label = "夫\n726 husband"];
-  113 [label = "大\n113 large"];
-  None [label = "丶\nNone a drop of"];
-  762 -> 2018;
-  729 -> 2018;
-  726 -> 729;
-  113 -> 726;
-  None -> 729;
+  秩 [label = "秩\n2018 order"];
+  禾 [label = "禾\n762 standing grain"];
+  失 [label = "失\n729 lose"];
+  夫 [label = "夫\n726 husband"];
+  大 [label = "大\n113 large"];
+  丶 [label = "丶\nNone a drop of"];
+  禾 -> 秩;
+  失 -> 秩;
+  夫 -> 失;
+  大 -> 夫;
+  丶 -> 失;
 }

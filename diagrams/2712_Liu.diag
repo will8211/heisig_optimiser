@@ -1,17 +1,19 @@
 blockdiag {
-  2712 [label = "刘\n2712 Liu"];
-  1315 [label = "文\n1315 literature"];
-  None [label = "㐅\nNone sheaf"];
-  6 [label = "六\n6 six"];
-  8 [label = "八\n8 eight"];
-  83 [label = "刀\n83 sword"];
-  1315 -> 2712;
-  None -> 1315;
-  6 -> None;
-  None -> 6;
-  8 -> None;
-  None -> None;
-  8 -> None;
-  None -> 1315;
-  83 -> 2712;
+  刘 [label = "刘\n2712 Liu"];
+  文 [label = "文\n1315 literature"];
+  亠 [label = "亠\nNone top hat"];
+  六 [label = "六\n6 six"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  㐅 [label = "㐅\nNone sheaf"];
+  刀 [label = "刀\n83 sword"];
+  文 -> 刘;
+  亠 -> 文;
+  六 -> 亠;
+  囧只－口 -> 六;
+  八 -> 囧只－口;
+  囧只－口 -> 亠;
+  八 -> 囧只－口;
+  㐅 -> 文;
+  刀 -> 刘;
 }

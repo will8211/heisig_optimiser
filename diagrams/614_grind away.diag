@@ -1,15 +1,15 @@
 blockdiag {
-  614 [label = "研\n614 grind away"];
-  125 [label = "石\n125 stone"];
-  11 [label = "口\n11 mouth"];
-  121 [label = "厂\n121 factory"];
-  613 [label = "开\n613 open"];
-  2 [label = "二\n2 two"];
-  1 [label = "一\n1 one"];
-  125 -> 614;
-  11 -> 125;
-  121 -> 125;
-  613 -> 614;
-  2 -> 613;
-  1 -> 2;
+  研 [label = "研\n614 grind away"];
+  石 [label = "石\n125 stone"];
+  口 [label = "口\n11 mouth"];
+  厂 [label = "厂\n121 factory"];
+  开 [label = "开\n613 open"];
+  二 [label = "二\n2 two"];
+  一 [label = "一\n1 one"];
+  石 -> 研;
+  口 -> 石;
+  厂 -> 石;
+  开 -> 研;
+  二 -> 开;
+  一 -> 二;
 }

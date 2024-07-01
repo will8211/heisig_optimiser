@@ -1,7 +1,7 @@
 blockdiag {
-  541 [label = "售\n541 vend"];
-  None [label = "隹\nNone turkey"];
-  11 [label = "口\n11 mouth"];
-  None -> 541;
-  11 -> 541;
+  售 [label = "售\n541 vend"];
+  隹 [label = "隹\nNone turkey"];
+  口 [label = "口\n11 mouth"];
+  隹 -> 售;
+  口 -> 售;
 }

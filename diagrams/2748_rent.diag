@@ -1,7 +1,7 @@
 blockdiag {
-  2748 [label = "租\n2748 rent"];
-  762 [label = "禾\n762 standing grain"];
-  1343 [label = "且\n1343 moreover"];
-  762 -> 2748;
-  1343 -> 2748;
+  租 [label = "租\n2748 rent"];
+  禾 [label = "禾\n762 standing grain"];
+  且 [label = "且\n1343 moreover"];
+  禾 -> 租;
+  且 -> 租;
 }

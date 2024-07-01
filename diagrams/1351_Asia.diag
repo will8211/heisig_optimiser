@@ -1,9 +1,9 @@
 blockdiag {
-  1351 [label = "亚\n1351 Asia"];
-  1 [label = "一\n1 one"];
-  1349 [label = "业\n1349 profession"];
-  None [label = "並\nNone side by side"];
-  1 -> 1351;
-  1349 -> 1351;
-  None -> 1349;
+  亚 [label = "亚\n1351 Asia"];
+  一 [label = "一\n1 one"];
+  业 [label = "业\n1349 profession"];
+  並 [label = "並\nNone side by side"];
+  一 -> 亚;
+  业 -> 亚;
+  並 -> 业;
 }

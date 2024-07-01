@@ -1,8 +1,9 @@
 blockdiag {
-  2595 [label = "纬\n2595 latitude"];
-  None [label = "厶\nNone elbow"];
-  1227 [label = "韦\n1227 tanned hide"];
-  None -> 2595;
-  None -> None;
-  1227 -> 2595;
+  纬 [label = "纬\n2595 latitude"];
+  纟 [label = "纟\nNone thread"];
+  厶 [label = "厶\nNone elbow"];
+  韦 [label = "韦\n1227 tanned hide"];
+  纟 -> 纬;
+  厶 -> 纟;
+  韦 -> 纬;
 }

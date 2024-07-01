@@ -1,7 +1,7 @@
 blockdiag {
-  2039 [label = "粒\n2039 grain"];
-  778 [label = "米\n778 rice"];
-  444 [label = "立\n444 standing up"];
-  778 -> 2039;
-  444 -> 2039;
+  粒 [label = "粒\n2039 grain"];
+  米 [label = "米\n778 rice"];
+  立 [label = "立\n444 standing up"];
+  米 -> 粒;
+  立 -> 粒;
 }

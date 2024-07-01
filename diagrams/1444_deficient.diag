@@ -1,13 +1,15 @@
 blockdiag {
-  1444 [label = "缺\n1444 deficient"];
-  None [label = "囧侯－亻－矢\nNone key"];
-  542 [label = "午\n542 noon"];
-  688 [label = "山\n688 mountain"];
-  113 [label = "大\n113 large"];
-  None -> 1444;
-  542 -> None;
-  688 -> None;
-  None -> 1444;
-  None -> None;
-  113 -> None;
+  缺 [label = "缺\n1444 deficient"];
+  缶 [label = "缶\nNone tin can"];
+  午 [label = "午\n542 noon"];
+  山 [label = "山\n688 mountain"];
+  夬 [label = "夬\nNone guillotine"];
+  囧侯－亻－矢 [label = "囧侯－亻－矢\nNone key"];
+  大 [label = "大\n113 large"];
+  缶 -> 缺;
+  午 -> 缶;
+  山 -> 缶;
+  夬 -> 缺;
+  囧侯－亻－矢 -> 夬;
+  大 -> 夬;
 }

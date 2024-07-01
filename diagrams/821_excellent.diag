@@ -1,15 +1,15 @@
 blockdiag {
-  821 [label = "优\n821 excellent"];
-  793 [label = "人\n793 person"];
-  240 [label = "尤\n240 remarkable"];
-  239 [label = "犬\n239 pooch"];
-  113 [label = "大\n113 large"];
-  None [label = "丶\nNone a drop of"];
-  56 [label = "儿\n56 youngster"];
-  793 -> 821;
-  240 -> 821;
-  239 -> 240;
-  113 -> 239;
-  None -> 239;
-  56 -> 240;
+  优 [label = "优\n821 excellent"];
+  人 [label = "人\n793 person"];
+  尤 [label = "尤\n240 remarkable"];
+  犬 [label = "犬\n239 pooch"];
+  大 [label = "大\n113 large"];
+  丶 [label = "丶\nNone a drop of"];
+  儿 [label = "儿\n56 youngster"];
+  人 -> 优;
+  尤 -> 优;
+  犬 -> 尤;
+  大 -> 犬;
+  丶 -> 犬;
+  儿 -> 尤;
 }

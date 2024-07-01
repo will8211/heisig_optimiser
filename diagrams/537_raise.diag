@@ -1,14 +1,17 @@
 blockdiag {
-  537 [label = "养\n537 raise"];
-  None [label = "囧介－𠆢\nNone crutches"];
-  528 [label = "羊\n528 sheep"];
-  1 [label = "一\n1 one"];
-  259 [label = "介\n259 introduce"];
-  None -> 537;
-  528 -> None;
-  None -> 528;
-  1 -> None;
-  259 -> 537;
-  None -> 259;
-  None -> 259;
+  养 [label = "养\n537 raise"];
+  囧差－工 [label = "囧差－工\nNone wool"];
+  羊 [label = "羊\n528 sheep"];
+  丷 [label = "丷\nNone horns"];
+  一 [label = "一\n1 one"];
+  介 [label = "介\n259 introduce"];
+  𠆢 [label = "𠆢\nNone umbrella"];
+  囧介－𠆢 [label = "囧介－𠆢\nNone crutches"];
+  囧差－工 -> 养;
+  羊 -> 囧差－工;
+  丷 -> 羊;
+  一 -> 丷;
+  介 -> 养;
+  𠆢 -> 介;
+  囧介－𠆢 -> 介;
 }

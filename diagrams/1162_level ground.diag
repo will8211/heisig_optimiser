@@ -1,7 +1,7 @@
 blockdiag {
-  1162 [label = "坪\n1162 level ground"];
-  158 [label = "土\n158 soil"];
-  1160 [label = "平\n1160 even"];
-  158 -> 1162;
-  1160 -> 1162;
+  坪 [label = "坪\n1162 level ground"];
+  土 [label = "土\n158 soil"];
+  平 [label = "平\n1160 even"];
+  土 -> 坪;
+  平 -> 坪;
 }

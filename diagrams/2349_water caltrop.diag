@@ -1,12 +1,15 @@
 blockdiag {
-  2349 [label = "菱\n2349 water caltrop"];
-  None [label = "夂\nNone walking legs"];
-  158 [label = "土\n158 soil"];
-  8 [label = "八\n8 eight"];
-  None -> 2349;
-  None -> 2349;
-  158 -> None;
-  None -> None;
-  8 -> None;
-  None -> None;
+  菱 [label = "菱\n2349 water caltrop"];
+  艹 [label = "艹\nNone flower"];
+  夌 [label = "夌\nNone Minuteclods"];
+  土 [label = "土\n158 soil"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  夂 [label = "夂\nNone walking legs"];
+  艹 -> 菱;
+  夌 -> 菱;
+  土 -> 夌;
+  囧只－口 -> 夌;
+  八 -> 囧只－口;
+  夂 -> 夌;
 }

@@ -1,14 +1,16 @@
 blockdiag {
-  1042 [label = "管\n1042 pipe"];
-  786 [label = "竹\n786 bamboo"];
-  90 [label = "丁\n90 fourth"];
-  1041 [label = "官\n1041 bureaucrat"];
-  None [label = "宀\nNone house"];
-  786 -> 1042;
-  90 -> 786;
-  1041 -> 1042;
-  None -> 1041;
-  None -> None;
-  None -> 1041;
-  None -> 1041;
+  管 [label = "管\n1042 pipe"];
+  竹 [label = "竹\n786 bamboo"];
+  丁 [label = "丁\n90 fourth"];
+  官 [label = "官\n1041 bureaucrat"];
+  𠂤 [label = "𠂤\nNone maestro"];
+  丶 [label = "丶\nNone a drop of"];
+  宀 [label = "宀\nNone house"];
+  竹 -> 管;
+  丁 -> 竹;
+  官 -> 管;
+  𠂤 -> 官;
+  丶 -> 𠂤;
+  丶 -> 官;
+  宀 -> 官;
 }

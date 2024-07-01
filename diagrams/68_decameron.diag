@@ -1,7 +1,7 @@
 blockdiag {
-  68 [label = "旬\n68 decameron"];
-  12 [label = "日\n12 day"];
-  None [label = "勹\nNone bound up"];
-  12 -> 68;
-  None -> 68;
+  旬 [label = "旬\n68 decameron"];
+  日 [label = "日\n12 day"];
+  勹 [label = "勹\nNone bound up"];
+  日 -> 旬;
+  勹 -> 旬;
 }

@@ -1,15 +1,15 @@
 blockdiag {
-  1019 [label = "弹\n1019 bullet"];
-  1013 [label = "弓\n1013 bow"];
-  1018 [label = "单\n1018 list"];
-  None [label = "丷\nNone horns"];
-  1 [label = "一\n1 one"];
-  14 [label = "田\n14 rice field"];
-  10 [label = "十\n10 ten"];
-  1013 -> 1019;
-  1018 -> 1019;
-  None -> 1018;
-  1 -> None;
-  14 -> 1018;
-  10 -> 1018;
+  弹 [label = "弹\n1019 bullet"];
+  弓 [label = "弓\n1013 bow"];
+  单 [label = "单\n1018 list"];
+  丷 [label = "丷\nNone horns"];
+  一 [label = "一\n1 one"];
+  田 [label = "田\n14 rice field"];
+  十 [label = "十\n10 ten"];
+  弓 -> 弹;
+  单 -> 弹;
+  丷 -> 单;
+  一 -> 丷;
+  田 -> 单;
+  十 -> 单;
 }

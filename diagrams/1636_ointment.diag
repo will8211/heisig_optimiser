@@ -1,7 +1,7 @@
 blockdiag {
-  1636 [label = "膏\n1636 ointment"];
-  None [label = "囧高\nNone Eiffel Tower"];
-  13 [label = "月\n13 month"];
-  None -> 1636;
-  13 -> 1636;
+  膏 [label = "膏\n1636 ointment"];
+  囧高 [label = "囧高\nNone Eiffel Tower"];
+  月 [label = "月\n13 month"];
+  囧高 -> 膏;
+  月 -> 膏;
 }

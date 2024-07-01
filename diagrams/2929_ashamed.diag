@@ -1,14 +1,15 @@
 blockdiag {
-  2929 [label = "愧\n2929 ashamed"];
-  563 [label = "心\n563 heart"];
-  1472 [label = "鬼\n1472 ghost"];
-  None [label = "厶\nNone elbow"];
-  14 [label = "田\n14 rice field"];
-  56 [label = "儿\n56 youngster"];
-  563 -> 2929;
-  1472 -> 2929;
-  None -> 1472;
-  14 -> 1472;
-  56 -> 1472;
-  None -> 1472;
+  愧 [label = "愧\n2929 ashamed"];
+  心 [label = "心\n563 heart"];
+  鬼 [label = "鬼\n1472 ghost"];
+  丶 [label = "丶\nNone a drop of"];
+  田 [label = "田\n14 rice field"];
+  儿 [label = "儿\n56 youngster"];
+  厶 [label = "厶\nNone elbow"];
+  心 -> 愧;
+  鬼 -> 愧;
+  丶 -> 鬼;
+  田 -> 鬼;
+  儿 -> 鬼;
+  厶 -> 鬼;
 }

@@ -1,11 +1,11 @@
 blockdiag {
-  1550 [label = "厘\n1550 smidgen"];
-  121 [label = "厂\n121 factory"];
-  179 [label = "里\n179 li"];
-  14 [label = "田\n14 rice field"];
-  158 [label = "土\n158 soil"];
-  121 -> 1550;
-  179 -> 1550;
-  14 -> 179;
-  158 -> 179;
+  厘 [label = "厘\n1550 smidgen"];
+  厂 [label = "厂\n121 factory"];
+  里 [label = "里\n179 li"];
+  田 [label = "田\n14 rice field"];
+  土 [label = "土\n158 soil"];
+  厂 -> 厘;
+  里 -> 厘;
+  田 -> 里;
+  土 -> 里;
 }

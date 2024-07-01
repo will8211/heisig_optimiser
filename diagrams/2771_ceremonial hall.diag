@@ -1,18 +1,21 @@
 blockdiag {
-  2771 [label = "殿\n2771 ceremonial hall"];
-  882 [label = "尸\n882 corpse"];
-  1354 [label = "共\n1354 together"];
-  None [label = "殳\nNone missile"];
-  8 [label = "八\n8 eight"];
-  57 [label = "几\n57 how many?"];
-  633 [label = "又\n633 again"];
-  882 -> 2771;
-  1354 -> 2771;
-  None -> 1354;
-  None -> None;
-  None -> 1354;
-  8 -> None;
-  None -> 2771;
-  57 -> None;
-  633 -> None;
+  殿 [label = "殿\n2771 ceremonial hall"];
+  尸 [label = "尸\n882 corpse"];
+  共 [label = "共\n1354 together"];
+  囧昔－日 [label = "囧昔－日\nNone salad"];
+  艹 [label = "艹\nNone flower"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  殳 [label = "殳\nNone missile"];
+  几 [label = "几\n57 how many?"];
+  又 [label = "又\n633 again"];
+  尸 -> 殿;
+  共 -> 殿;
+  囧昔－日 -> 共;
+  艹 -> 囧昔－日;
+  囧只－口 -> 共;
+  八 -> 囧只－口;
+  殳 -> 殿;
+  几 -> 殳;
+  又 -> 殳;
 }

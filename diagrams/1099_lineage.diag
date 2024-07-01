@@ -1,10 +1,12 @@
 blockdiag {
-  1099 [label = "系\n1099 lineage"];
-  None [label = "丶\nNone a drop of"];
-  109 [label = "小\n109 small"];
-  None -> 1099;
-  None -> 1099;
-  None -> None;
-  109 -> None;
-  None -> 109;
+  系 [label = "系\n1099 lineage"];
+  丶 [label = "丶\nNone a drop of"];
+  糸 [label = "糸\nNone floss"];
+  幺 [label = "幺\nNone cocoon"];
+  小 [label = "小\n109 small"];
+  丶 -> 系;
+  糸 -> 系;
+  幺 -> 糸;
+  小 -> 糸;
+  丶 -> 小;
 }

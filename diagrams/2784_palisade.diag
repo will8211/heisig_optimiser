@@ -1,7 +1,7 @@
 blockdiag {
-  2784 [label = "栅\n2784 palisade"];
-  202 [label = "木\n202 tree"];
-  2782 [label = "册\n2782 Vol."];
-  202 -> 2784;
-  2782 -> 2784;
+  栅 [label = "栅\n2784 palisade"];
+  木 [label = "木\n202 tree"];
+  册 [label = "册\n2782 Vol."];
+  木 -> 栅;
+  册 -> 栅;
 }

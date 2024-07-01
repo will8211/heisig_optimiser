@@ -1,7 +1,7 @@
 blockdiag {
-  256 [label = "先\n256 before"];
-  252 [label = "牛\n252 cow"];
-  56 [label = "儿\n56 youngster"];
-  252 -> 256;
-  56 -> 256;
+  先 [label = "先\n256 before"];
+  牛 [label = "牛\n252 cow"];
+  儿 [label = "儿\n56 youngster"];
+  牛 -> 先;
+  儿 -> 先;
 }

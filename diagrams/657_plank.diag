@@ -1,11 +1,11 @@
 blockdiag {
-  657 [label = "板\n657 plank"];
-  202 [label = "木\n202 tree"];
-  656 [label = "反\n656 against"];
-  None [label = "𠂆\nNone drag"];
-  633 [label = "又\n633 again"];
-  202 -> 657;
-  656 -> 657;
-  None -> 656;
-  633 -> 656;
+  板 [label = "板\n657 plank"];
+  木 [label = "木\n202 tree"];
+  反 [label = "反\n656 against"];
+  𠂆 [label = "𠂆\nNone drag"];
+  又 [label = "又\n633 again"];
+  木 -> 板;
+  反 -> 板;
+  𠂆 -> 反;
+  又 -> 反;
 }

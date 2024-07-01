@@ -1,7 +1,7 @@
 blockdiag {
-  568 [label = "志\n568 aspiration"];
-  334 [label = "士\n334 soldier"];
-  563 [label = "心\n563 heart"];
-  334 -> 568;
-  563 -> 568;
+  志 [label = "志\n568 aspiration"];
+  士 [label = "士\n334 soldier"];
+  心 [label = "心\n563 heart"];
+  士 -> 志;
+  心 -> 志;
 }

@@ -1,11 +1,11 @@
 blockdiag {
-  236 [label = "瞄\n236 aim"];
-  15 [label = "目\n15 eye"];
-  235 [label = "苗\n235 seedling"];
-  14 [label = "田\n14 rice field"];
-  None [label = "艹\nNone flower"];
-  15 -> 236;
-  235 -> 236;
-  14 -> 235;
-  None -> 235;
+  瞄 [label = "瞄\n236 aim"];
+  目 [label = "目\n15 eye"];
+  苗 [label = "苗\n235 seedling"];
+  田 [label = "田\n14 rice field"];
+  艹 [label = "艹\nNone flower"];
+  目 -> 瞄;
+  苗 -> 瞄;
+  田 -> 苗;
+  艹 -> 苗;
 }

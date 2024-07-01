@@ -1,10 +1,11 @@
 blockdiag {
-  2193 [label = "拆\n2193 take apart"];
-  None [label = "丶\nNone a drop of"];
-  935 [label = "斥\n935 reprimand"];
-  924 [label = "斤\n924 catty"];
-  None -> 2193;
-  935 -> 2193;
-  924 -> 935;
-  None -> 935;
+  拆 [label = "拆\n2193 take apart"];
+  扌 [label = "扌\nNone fingers"];
+  斥 [label = "斥\n935 reprimand"];
+  斤 [label = "斤\n924 catty"];
+  丶 [label = "丶\nNone a drop of"];
+  扌 -> 拆;
+  斥 -> 拆;
+  斤 -> 斥;
+  丶 -> 斥;
 }

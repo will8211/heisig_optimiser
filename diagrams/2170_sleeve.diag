@@ -1,18 +1,19 @@
 blockdiag {
-  2170 [label = "袖\n2170 sleeve"];
-  400 [label = "衣\n400 clothing"];
-  None [label = "囧只－口\nNone animal legs"];
-  6 [label = "六\n6 six"];
-  8 [label = "八\n8 eight"];
-  913 [label = "由\n913 wherefore"];
-  14 [label = "田\n14 rice field"];
-  400 -> 2170;
-  None -> 400;
-  6 -> None;
-  None -> 6;
-  8 -> None;
-  None -> None;
-  8 -> None;
-  913 -> 2170;
-  14 -> 913;
+  袖 [label = "袖\n2170 sleeve"];
+  衣 [label = "衣\n400 clothing"];
+  亠 [label = "亠\nNone top hat"];
+  六 [label = "六\n6 six"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  由 [label = "由\n913 wherefore"];
+  田 [label = "田\n14 rice field"];
+  衣 -> 袖;
+  亠 -> 衣;
+  六 -> 亠;
+  囧只－口 -> 六;
+  八 -> 囧只－口;
+  囧只－口 -> 亠;
+  八 -> 囧只－口;
+  由 -> 袖;
+  田 -> 由;
 }

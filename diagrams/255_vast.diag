@@ -1,14 +1,15 @@
 blockdiag {
-  255 [label = "浩\n255 vast"];
-  137 [label = "水\n137 water"];
-  None [label = "丶\nNone a drop of"];
-  1 [label = "一\n1 one"];
-  11 [label = "口\n11 mouth"];
-  252 [label = "牛\n252 cow"];
-  137 -> 255;
-  None -> 137;
-  1 -> None;
-  None -> 137;
-  11 -> 255;
-  252 -> 255;
+  浩 [label = "浩\n255 vast"];
+  水 [label = "水\n137 water"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  丶 [label = "丶\nNone a drop of"];
+  口 [label = "口\n11 mouth"];
+  牛 [label = "牛\n252 cow"];
+  水 -> 浩;
+  丨 -> 水;
+  一 -> 丨;
+  丶 -> 水;
+  口 -> 浩;
+  牛 -> 浩;
 }

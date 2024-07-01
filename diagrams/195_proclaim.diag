@@ -1,12 +1,12 @@
 blockdiag {
-  195 [label = "宣\n195 proclaim"];
-  None [label = "宀\nNone house"];
-  30 [label = "旦\n30 daybreak"];
-  12 [label = "日\n12 day"];
-  1 [label = "一\n1 one"];
-  None -> 195;
-  30 -> 195;
-  12 -> 30;
-  1 -> 30;
-  12 -> 195;
+  宣 [label = "宣\n195 proclaim"];
+  宀 [label = "宀\nNone house"];
+  旦 [label = "旦\n30 daybreak"];
+  日 [label = "日\n12 day"];
+  一 [label = "一\n1 one"];
+  宀 -> 宣;
+  旦 -> 宣;
+  日 -> 旦;
+  一 -> 旦;
+  日 -> 宣;
 }

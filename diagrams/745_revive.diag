@@ -1,14 +1,15 @@
 blockdiag {
-  745 [label = "苏\n745 revive"];
-  None [label = "丶\nNone a drop of"];
-  743 [label = "办\n743 manage"];
-  63 [label = "肌\n63 muscle"];
-  57 [label = "几\n57 how many?"];
-  13 [label = "月\n13 month"];
-  None -> 745;
-  743 -> 745;
-  63 -> 743;
-  57 -> 63;
-  13 -> 63;
-  None -> 743;
+  苏 [label = "苏\n745 revive"];
+  艹 [label = "艹\nNone flower"];
+  办 [label = "办\n743 manage"];
+  肌 [label = "肌\n63 muscle"];
+  几 [label = "几\n57 how many?"];
+  月 [label = "月\n13 month"];
+  丶 [label = "丶\nNone a drop of"];
+  艹 -> 苏;
+  办 -> 苏;
+  肌 -> 办;
+  几 -> 肌;
+  月 -> 肌;
+  丶 -> 办;
 }

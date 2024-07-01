@@ -1,15 +1,15 @@
 blockdiag {
-  619 [label = "型\n619 mold"];
-  618 [label = "刑\n618 punishment"];
-  613 [label = "开\n613 open"];
-  2 [label = "二\n2 two"];
-  1 [label = "一\n1 one"];
-  83 [label = "刀\n83 sword"];
-  158 [label = "土\n158 soil"];
-  618 -> 619;
-  613 -> 618;
-  2 -> 613;
-  1 -> 2;
-  83 -> 618;
-  158 -> 619;
+  型 [label = "型\n619 mold"];
+  刑 [label = "刑\n618 punishment"];
+  开 [label = "开\n613 open"];
+  二 [label = "二\n2 two"];
+  一 [label = "一\n1 one"];
+  刀 [label = "刀\n83 sword"];
+  土 [label = "土\n158 soil"];
+  刑 -> 型;
+  开 -> 刑;
+  二 -> 开;
+  一 -> 二;
+  刀 -> 刑;
+  土 -> 型;
 }

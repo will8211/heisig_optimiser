@@ -1,11 +1,11 @@
 blockdiag {
-  1630 [label = "胳\n1630 upper limb"];
-  13 [label = "月\n13 month"];
-  309 [label = "各\n309 each"];
-  11 [label = "口\n11 mouth"];
-  None [label = "夂\nNone walking legs"];
-  13 -> 1630;
-  309 -> 1630;
-  11 -> 309;
-  None -> 309;
+  胳 [label = "胳\n1630 upper limb"];
+  月 [label = "月\n13 month"];
+  各 [label = "各\n309 each"];
+  口 [label = "口\n11 mouth"];
+  夂 [label = "夂\nNone walking legs"];
+  月 -> 胳;
+  各 -> 胳;
+  口 -> 各;
+  夂 -> 各;
 }

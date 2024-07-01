@@ -1,9 +1,9 @@
 blockdiag {
-  1575 [label = "焚\n1575 burn"];
-  203 [label = "林\n203 woods"];
-  202 [label = "木\n202 tree"];
-  170 [label = "火\n170 fire"];
-  203 -> 1575;
-  202 -> 203;
-  170 -> 1575;
+  焚 [label = "焚\n1575 burn"];
+  林 [label = "林\n203 woods"];
+  木 [label = "木\n202 tree"];
+  火 [label = "火\n170 fire"];
+  林 -> 焚;
+  木 -> 林;
+  火 -> 焚;
 }

@@ -1,12 +1,13 @@
 blockdiag {
-  1980 [label = "卧\n1980 for sleeping"];
-  731 [label = "臣\n731 feudal official"];
-  43 [label = "卜\n43 divination"];
-  None [label = "丶\nNone a drop of"];
-  1 [label = "一\n1 one"];
-  731 -> 1980;
-  43 -> 1980;
-  None -> 43;
-  1 -> None;
-  None -> 43;
+  卧 [label = "卧\n1980 for sleeping"];
+  臣 [label = "臣\n731 feudal official"];
+  卜 [label = "卜\n43 divination"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  丶 [label = "丶\nNone a drop of"];
+  臣 -> 卧;
+  卜 -> 卧;
+  丨 -> 卜;
+  一 -> 丨;
+  丶 -> 卜;
 }

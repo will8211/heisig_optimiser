@@ -1,11 +1,11 @@
 blockdiag {
-  1990 [label = "怒\n1990 anger"];
-  747 [label = "奴\n747 slave"];
-  102 [label = "女\n102 woman"];
-  633 [label = "又\n633 again"];
-  563 [label = "心\n563 heart"];
-  747 -> 1990;
-  102 -> 747;
-  633 -> 747;
-  563 -> 1990;
+  怒 [label = "怒\n1990 anger"];
+  奴 [label = "奴\n747 slave"];
+  女 [label = "女\n102 woman"];
+  又 [label = "又\n633 again"];
+  心 [label = "心\n563 heart"];
+  奴 -> 怒;
+  女 -> 奴;
+  又 -> 奴;
+  心 -> 怒;
 }

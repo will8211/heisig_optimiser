@@ -1,9 +1,9 @@
 blockdiag {
-  767 [label = "移\n767 shift"];
-  762 [label = "禾\n762 standing grain"];
-  116 [label = "多\n116 many"];
-  13 [label = "月\n13 month"];
-  762 -> 767;
-  116 -> 767;
-  13 -> 116;
+  移 [label = "移\n767 shift"];
+  禾 [label = "禾\n762 standing grain"];
+  多 [label = "多\n116 many"];
+  月 [label = "月\n13 month"];
+  禾 -> 移;
+  多 -> 移;
+  月 -> 多;
 }

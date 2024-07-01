@@ -1,11 +1,13 @@
 blockdiag {
-  2440 [label = "岭\n2440 mountain range"];
-  688 [label = "山\n688 mountain"];
-  1113 [label = "令\n1113 orders"];
-  None [label = "囧节－艹\nNone chop"];
-  688 -> 2440;
-  1113 -> 2440;
-  None -> 1113;
-  None -> None;
-  None -> 1113;
+  岭 [label = "岭\n2440 mountain range"];
+  山 [label = "山\n688 mountain"];
+  令 [label = "令\n1113 orders"];
+  亼 [label = "亼\nNone meeting"];
+  𠆢 [label = "𠆢\nNone umbrella"];
+  囧节－艹 [label = "囧节－艹\nNone chop"];
+  山 -> 岭;
+  令 -> 岭;
+  亼 -> 令;
+  𠆢 -> 亼;
+  囧节－艹 -> 令;
 }

@@ -1,6 +1,7 @@
 blockdiag {
-  1079 [label = "丝\n1079 silk"];
-  None [label = "厶\nNone elbow"];
-  None -> 1079;
-  None -> None;
+  丝 [label = "丝\n1079 silk"];
+  纟 [label = "纟\nNone thread"];
+  厶 [label = "厶\nNone elbow"];
+  纟 -> 丝;
+  厶 -> 纟;
 }

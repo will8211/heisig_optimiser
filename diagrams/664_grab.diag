@@ -1,8 +1,9 @@
 blockdiag {
-  664 [label = "抓\n664 grab"];
-  None [label = "𠂆\nNone drag"];
-  663 [label = "爪\n663 claw"];
-  None -> 664;
-  663 -> 664;
-  None -> 663;
+  抓 [label = "抓\n664 grab"];
+  扌 [label = "扌\nNone fingers"];
+  爪 [label = "爪\n663 claw"];
+  𠂆 [label = "𠂆\nNone drag"];
+  扌 -> 抓;
+  爪 -> 抓;
+  𠂆 -> 爪;
 }

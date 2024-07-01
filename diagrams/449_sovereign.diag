@@ -1,10 +1,11 @@
 blockdiag {
-  449 [label = "帝\n449 sovereign"];
-  444 [label = "立\n444 standing up"];
-  None [label = "冖\nNone crown"];
-  410 [label = "巾\n410 towel"];
-  444 -> 449;
-  None -> 449;
-  410 -> None;
-  None -> None;
+  帝 [label = "帝\n449 sovereign"];
+  立 [label = "立\n444 standing up"];
+  囧冖＋巾 [label = "囧冖＋巾\nNone apron"];
+  巾 [label = "巾\n410 towel"];
+  冖 [label = "冖\nNone crown"];
+  立 -> 帝;
+  囧冖＋巾 -> 帝;
+  巾 -> 囧冖＋巾;
+  冖 -> 囧冖＋巾;
 }

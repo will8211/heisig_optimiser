@@ -1,16 +1,17 @@
 blockdiag {
-  2604 [label = "砖\n2604 brick"];
-  125 [label = "石\n125 stone"];
-  11 [label = "口\n11 mouth"];
-  121 [label = "厂\n121 factory"];
-  1236 [label = "专\n1236 specialty"];
-  None [label = "囧节－艹\nNone chop"];
-  1223 [label = "丰\n1223 plentiful"];
-  125 -> 2604;
-  11 -> 125;
-  121 -> 125;
-  1236 -> 2604;
-  None -> 1236;
-  1223 -> None;
-  None -> 1236;
+  砖 [label = "砖\n2604 brick"];
+  石 [label = "石\n125 stone"];
+  口 [label = "口\n11 mouth"];
+  厂 [label = "厂\n121 factory"];
+  专 [label = "专\n1236 specialty"];
+  囧奉－𡗗 [label = "囧奉－𡗗\nNone cornstalk"];
+  丰 [label = "丰\n1223 plentiful"];
+  囧节－艹 [label = "囧节－艹\nNone chop"];
+  石 -> 砖;
+  口 -> 石;
+  厂 -> 石;
+  专 -> 砖;
+  囧奉－𡗗 -> 专;
+  丰 -> 囧奉－𡗗;
+  囧节－艹 -> 专;
 }

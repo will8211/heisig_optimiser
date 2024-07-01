@@ -1,11 +1,11 @@
 blockdiag {
-  1758 [label = "姜\n1758 ginger"];
-  528 [label = "羊\n528 sheep"];
-  None [label = "丷\nNone horns"];
-  1 [label = "一\n1 one"];
-  102 [label = "女\n102 woman"];
-  528 -> 1758;
-  None -> 528;
-  1 -> None;
-  102 -> 1758;
+  姜 [label = "姜\n1758 ginger"];
+  羊 [label = "羊\n528 sheep"];
+  丷 [label = "丷\nNone horns"];
+  一 [label = "一\n1 one"];
+  女 [label = "女\n102 woman"];
+  羊 -> 姜;
+  丷 -> 羊;
+  一 -> 丷;
+  女 -> 姜;
 }

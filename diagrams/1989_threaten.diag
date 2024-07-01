@@ -1,14 +1,14 @@
 blockdiag {
-  1989 [label = "胁\n1989 threaten"];
-  13 [label = "月\n13 month"];
-  743 [label = "办\n743 manage"];
-  63 [label = "肌\n63 muscle"];
-  57 [label = "几\n57 how many?"];
-  None [label = "丶\nNone a drop of"];
-  13 -> 1989;
-  743 -> 1989;
-  63 -> 743;
-  57 -> 63;
-  13 -> 63;
-  None -> 743;
+  胁 [label = "胁\n1989 threaten"];
+  月 [label = "月\n13 month"];
+  办 [label = "办\n743 manage"];
+  肌 [label = "肌\n63 muscle"];
+  几 [label = "几\n57 how many?"];
+  丶 [label = "丶\nNone a drop of"];
+  月 -> 胁;
+  办 -> 胁;
+  肌 -> 办;
+  几 -> 肌;
+  月 -> 肌;
+  丶 -> 办;
 }

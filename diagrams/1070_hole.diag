@@ -1,9 +1,10 @@
 blockdiag {
-  1070 [label = "穴\n1070 hole"];
-  None [label = "囧只－口\nNone animal legs"];
-  8 [label = "八\n8 eight"];
-  None -> 1070;
-  8 -> 1070;
-  None -> 1070;
-  8 -> None;
+  穴 [label = "穴\n1070 hole"];
+  宀 [label = "宀\nNone house"];
+  八 [label = "八\n8 eight"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  宀 -> 穴;
+  八 -> 穴;
+  囧只－口 -> 穴;
+  八 -> 囧只－口;
 }

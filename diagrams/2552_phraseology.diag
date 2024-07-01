@@ -1,18 +1,18 @@
 blockdiag {
-  2552 [label = "辞\n2552 phraseology"];
-  40 [label = "舌\n40 tongue"];
-  11 [label = "口\n11 mouth"];
-  39 [label = "千\n39 thousand"];
-  None [label = "丶\nNone a drop of"];
-  10 [label = "十\n10 ten"];
-  1183 [label = "辛\n1183 peppery"];
-  444 [label = "立\n444 standing up"];
-  40 -> 2552;
-  11 -> 40;
-  39 -> 40;
-  None -> 39;
-  10 -> 39;
-  1183 -> 2552;
-  444 -> 1183;
-  10 -> 1183;
+  辞 [label = "辞\n2552 phraseology"];
+  舌 [label = "舌\n40 tongue"];
+  口 [label = "口\n11 mouth"];
+  千 [label = "千\n39 thousand"];
+  丶 [label = "丶\nNone a drop of"];
+  十 [label = "十\n10 ten"];
+  辛 [label = "辛\n1183 peppery"];
+  立 [label = "立\n444 standing up"];
+  舌 -> 辞;
+  口 -> 舌;
+  千 -> 舌;
+  丶 -> 千;
+  十 -> 千;
+  辛 -> 辞;
+  立 -> 辛;
+  十 -> 辛;
 }

@@ -1,11 +1,12 @@
 blockdiag {
-  862 [label = "似\n862 similar"];
-  793 [label = "人\n793 person"];
-  861 [label = "以\n861 by means of"];
-  None [label = "丶\nNone a drop of"];
-  793 -> 862;
-  861 -> 862;
-  793 -> 861;
-  None -> 861;
-  None -> 861;
+  似 [label = "似\n862 similar"];
+  人 [label = "人\n793 person"];
+  以 [label = "以\n861 by means of"];
+  囧以－丶人 [label = "囧以－丶人\nNone plow"];
+  丶 [label = "丶\nNone a drop of"];
+  人 -> 似;
+  以 -> 似;
+  人 -> 以;
+  囧以－丶人 -> 以;
+  丶 -> 以;
 }

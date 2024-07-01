@@ -1,17 +1,17 @@
 blockdiag {
-  1567 [label = "樱\n1567 cherry"];
-  1519 [label = "婴\n1519 baby"];
-  52 [label = "贝\n52 shellfish"];
-  15 [label = "目\n15 eye"];
-  None [label = "囧只－口\nNone animal legs"];
-  8 [label = "八\n8 eight"];
-  102 [label = "女\n102 woman"];
-  202 [label = "木\n202 tree"];
-  1519 -> 1567;
-  52 -> 1519;
-  15 -> 52;
-  None -> 52;
-  8 -> None;
-  102 -> 1519;
-  202 -> 1567;
+  樱 [label = "樱\n1567 cherry"];
+  婴 [label = "婴\n1519 baby"];
+  贝 [label = "贝\n52 shellfish"];
+  目 [label = "目\n15 eye"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  女 [label = "女\n102 woman"];
+  木 [label = "木\n202 tree"];
+  婴 -> 樱;
+  贝 -> 婴;
+  目 -> 贝;
+  囧只－口 -> 贝;
+  八 -> 囧只－口;
+  女 -> 婴;
+  木 -> 樱;
 }

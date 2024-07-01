@@ -1,9 +1,9 @@
 blockdiag {
-  507 [label = "地\n507 ground"];
-  158 [label = "土\n158 soil"];
-  505 [label = "也\n505 also"];
-  95 [label = "乙\n95 second"];
-  158 -> 507;
-  505 -> 507;
-  95 -> 505;
+  地 [label = "地\n507 ground"];
+  土 [label = "土\n158 soil"];
+  也 [label = "也\n505 also"];
+  乙 [label = "乙\n95 second"];
+  土 -> 地;
+  也 -> 地;
+  乙 -> 也;
 }

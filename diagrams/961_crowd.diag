@@ -1,15 +1,15 @@
 blockdiag {
-  961 [label = "群\n961 crowd"];
-  959 [label = "君\n959 monarch"];
-  957 [label = "尹\n957 overseer"];
-  11 [label = "口\n11 mouth"];
-  528 [label = "羊\n528 sheep"];
-  None [label = "丷\nNone horns"];
-  1 [label = "一\n1 one"];
-  959 -> 961;
-  957 -> 959;
-  11 -> 959;
-  528 -> 961;
-  None -> 528;
-  1 -> None;
+  群 [label = "群\n961 crowd"];
+  君 [label = "君\n959 monarch"];
+  尹 [label = "尹\n957 overseer"];
+  口 [label = "口\n11 mouth"];
+  羊 [label = "羊\n528 sheep"];
+  丷 [label = "丷\nNone horns"];
+  一 [label = "一\n1 one"];
+  君 -> 群;
+  尹 -> 君;
+  口 -> 君;
+  羊 -> 群;
+  丷 -> 羊;
+  一 -> 丷;
 }

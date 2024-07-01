@@ -1,11 +1,11 @@
 blockdiag {
-  205 [label = "梦\n205 dream"];
-  203 [label = "林\n203 woods"];
-  202 [label = "木\n202 tree"];
-  115 [label = "夕\n115 evening"];
-  13 [label = "月\n13 month"];
-  203 -> 205;
-  202 -> 203;
-  115 -> 205;
-  13 -> 115;
+  梦 [label = "梦\n205 dream"];
+  林 [label = "林\n203 woods"];
+  木 [label = "木\n202 tree"];
+  夕 [label = "夕\n115 evening"];
+  月 [label = "月\n13 month"];
+  林 -> 梦;
+  木 -> 林;
+  夕 -> 梦;
+  月 -> 夕;
 }

@@ -1,7 +1,7 @@
 blockdiag {
-  2089 [label = "囚\n2089 prisoner"];
-  None [label = "囗\nNone pent in"];
-  793 [label = "人\n793 person"];
-  None -> 2089;
-  793 -> 2089;
+  囚 [label = "囚\n2089 prisoner"];
+  囗 [label = "囗\nNone pent in"];
+  人 [label = "人\n793 person"];
+  囗 -> 囚;
+  人 -> 囚;
 }

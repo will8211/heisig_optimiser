@@ -1,8 +1,9 @@
 blockdiag {
-  1088 [label = "纪\n1088 epoch"];
-  None [label = "厶\nNone elbow"];
-  515 [label = "己\n515 self"];
-  None -> 1088;
-  None -> None;
-  515 -> 1088;
+  纪 [label = "纪\n1088 epoch"];
+  纟 [label = "纟\nNone thread"];
+  厶 [label = "厶\nNone elbow"];
+  己 [label = "己\n515 self"];
+  纟 -> 纪;
+  厶 -> 纟;
+  己 -> 纪;
 }

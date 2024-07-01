@@ -1,11 +1,13 @@
 blockdiag {
-  1331 [label = "绝\n1331 discontinue"];
-  None [label = "勹\nNone bound up"];
-  1330 [label = "色\n1330 color"];
-  1326 [label = "巴\n1326 crust"];
-  None -> 1331;
-  None -> None;
-  1330 -> 1331;
-  None -> 1330;
-  1326 -> 1330;
+  绝 [label = "绝\n1331 discontinue"];
+  纟 [label = "纟\nNone thread"];
+  厶 [label = "厶\nNone elbow"];
+  色 [label = "色\n1330 color"];
+  勹 [label = "勹\nNone bound up"];
+  巴 [label = "巴\n1326 crust"];
+  纟 -> 绝;
+  厶 -> 纟;
+  色 -> 绝;
+  勹 -> 色;
+  巴 -> 色;
 }

@@ -1,9 +1,9 @@
 blockdiag {
-  2598 [label = "秦\n2598 Qin"];
-  None [label = "𡗗\nNone bonsai"];
-  1223 [label = "丰\n1223 plentiful"];
-  762 [label = "禾\n762 standing grain"];
-  None -> 2598;
-  1223 -> None;
-  762 -> 2598;
+  秦 [label = "秦\n2598 Qin"];
+  𡗗 [label = "𡗗\nNone bonsai"];
+  丰 [label = "丰\n1223 plentiful"];
+  禾 [label = "禾\n762 standing grain"];
+  𡗗 -> 秦;
+  丰 -> 𡗗;
+  禾 -> 秦;
 }

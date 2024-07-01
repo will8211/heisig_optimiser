@@ -1,12 +1,13 @@
 blockdiag {
-  1762 [label = "拦\n1762 impede"];
-  None [label = "丷\nNone horns"];
-  533 [label = "兰\n533 orchid"];
-  528 [label = "羊\n528 sheep"];
-  1 [label = "一\n1 one"];
-  None -> 1762;
-  533 -> 1762;
-  528 -> 533;
-  None -> 528;
-  1 -> None;
+  拦 [label = "拦\n1762 impede"];
+  扌 [label = "扌\nNone fingers"];
+  兰 [label = "兰\n533 orchid"];
+  羊 [label = "羊\n528 sheep"];
+  丷 [label = "丷\nNone horns"];
+  一 [label = "一\n1 one"];
+  扌 -> 拦;
+  兰 -> 拦;
+  羊 -> 兰;
+  丷 -> 羊;
+  一 -> 丷;
 }

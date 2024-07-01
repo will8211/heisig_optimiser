@@ -1,14 +1,14 @@
 blockdiag {
-  1464 [label = "能\n1464 ability"];
-  1463 [label = "熊\n1463 bear"];
-  None [label = "厶\nNone elbow"];
-  13 [label = "月\n13 month"];
-  453 [label = "匕\n453 ancient spoon"];
-  170 [label = "火\n170 fire"];
-  1463 -> 1464;
-  None -> 1463;
-  13 -> 1463;
-  453 -> 1463;
-  170 -> 1463;
-  170 -> 1464;
+  能 [label = "能\n1464 ability"];
+  熊 [label = "熊\n1463 bear"];
+  厶 [label = "厶\nNone elbow"];
+  月 [label = "月\n13 month"];
+  匕 [label = "匕\n453 ancient spoon"];
+  火 [label = "火\n170 fire"];
+  熊 -> 能;
+  厶 -> 熊;
+  月 -> 熊;
+  匕 -> 熊;
+  火 -> 熊;
+  火 -> 能;
 }

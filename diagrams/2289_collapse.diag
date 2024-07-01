@@ -1,13 +1,13 @@
 blockdiag {
-  2289 [label = "垮\n2289 collapse"];
-  158 [label = "土\n158 soil"];
-  2288 [label = "夸\n2288 brag"];
-  113 [label = "大\n113 large"];
-  2286 [label = "亏\n2286 loss"];
-  None [label = "丂\nNone snare"];
-  158 -> 2289;
-  2288 -> 2289;
-  113 -> 2288;
-  2286 -> 2288;
-  None -> 2286;
+  垮 [label = "垮\n2289 collapse"];
+  土 [label = "土\n158 soil"];
+  夸 [label = "夸\n2288 brag"];
+  大 [label = "大\n113 large"];
+  亏 [label = "亏\n2286 loss"];
+  丂 [label = "丂\nNone snare"];
+  土 -> 垮;
+  夸 -> 垮;
+  大 -> 夸;
+  亏 -> 夸;
+  丂 -> 亏;
 }

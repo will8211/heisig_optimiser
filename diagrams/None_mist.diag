@@ -1,10 +1,10 @@
 blockdiag {
-  None [label = "𠦝\nNone mist"];
-  26 [label = "早\n26 early"];
-  12 [label = "日\n12 day"];
-  10 [label = "十\n10 ten"];
-  26 -> None;
-  12 -> 26;
-  10 -> 26;
-  10 -> None;
+  𠦝 [label = "𠦝\nNone mist"];
+  早 [label = "早\n26 early"];
+  日 [label = "日\n12 day"];
+  十 [label = "十\n10 ten"];
+  早 -> 𠦝;
+  日 -> 早;
+  十 -> 早;
+  十 -> 𠦝;
 }

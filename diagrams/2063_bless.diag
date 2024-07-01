@@ -1,13 +1,13 @@
 blockdiag {
-  2063 [label = "佑\n2063 bless"];
-  793 [label = "人\n793 person"];
-  78 [label = "右\n78 right"];
-  11 [label = "口\n11 mouth"];
-  None [label = "𠂇\nNone by one’s side"];
-  10 [label = "十\n10 ten"];
-  793 -> 2063;
-  78 -> 2063;
-  11 -> 78;
-  None -> 78;
-  10 -> None;
+  佑 [label = "佑\n2063 bless"];
+  人 [label = "人\n793 person"];
+  右 [label = "右\n78 right"];
+  口 [label = "口\n11 mouth"];
+  𠂇 [label = "𠂇\nNone by one’s side"];
+  十 [label = "十\n10 ten"];
+  人 -> 佑;
+  右 -> 佑;
+  口 -> 右;
+  𠂇 -> 右;
+  十 -> 𠂇;
 }

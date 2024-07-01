@@ -1,18 +1,19 @@
 blockdiag {
-  2086 [label = "仿\n2086 mimic"];
-  793 [label = "人\n793 person"];
-  494 [label = "方\n494 direction"];
-  83 [label = "刀\n83 sword"];
-  None [label = "囧只－口\nNone animal legs"];
-  6 [label = "六\n6 six"];
-  8 [label = "八\n8 eight"];
-  793 -> 2086;
-  494 -> 2086;
-  83 -> 494;
-  None -> 494;
-  6 -> None;
-  None -> 6;
-  8 -> None;
-  None -> None;
-  8 -> None;
+  仿 [label = "仿\n2086 mimic"];
+  人 [label = "人\n793 person"];
+  方 [label = "方\n494 direction"];
+  刀 [label = "刀\n83 sword"];
+  亠 [label = "亠\nNone top hat"];
+  六 [label = "六\n6 six"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  人 -> 仿;
+  方 -> 仿;
+  刀 -> 方;
+  亠 -> 方;
+  六 -> 亠;
+  囧只－口 -> 六;
+  八 -> 囧只－口;
+  囧只－口 -> 亠;
+  八 -> 囧只－口;
 }

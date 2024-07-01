@@ -1,13 +1,13 @@
 blockdiag {
-  690 [label = "础\n690 foundation"];
-  125 [label = "石\n125 stone"];
-  11 [label = "口\n11 mouth"];
-  121 [label = "厂\n121 factory"];
-  689 [label = "出\n689 exit"];
-  688 [label = "山\n688 mountain"];
-  125 -> 690;
-  11 -> 125;
-  121 -> 125;
-  689 -> 690;
-  688 -> 689;
+  础 [label = "础\n690 foundation"];
+  石 [label = "石\n125 stone"];
+  口 [label = "口\n11 mouth"];
+  厂 [label = "厂\n121 factory"];
+  出 [label = "出\n689 exit"];
+  山 [label = "山\n688 mountain"];
+  石 -> 础;
+  口 -> 石;
+  厂 -> 石;
+  出 -> 础;
+  山 -> 出;
 }

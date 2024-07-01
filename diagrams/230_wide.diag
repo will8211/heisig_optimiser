@@ -1,12 +1,13 @@
 blockdiag {
-  230 [label = "宽\n230 wide"];
-  None [label = "艹\nNone flower"];
-  58 [label = "见\n58 see"];
-  15 [label = "目\n15 eye"];
-  56 [label = "儿\n56 youngster"];
-  None -> 230;
-  58 -> 230;
-  15 -> 58;
-  56 -> 58;
-  None -> 230;
+  宽 [label = "宽\n230 wide"];
+  宀 [label = "宀\nNone house"];
+  见 [label = "见\n58 see"];
+  目 [label = "目\n15 eye"];
+  儿 [label = "儿\n56 youngster"];
+  艹 [label = "艹\nNone flower"];
+  宀 -> 宽;
+  见 -> 宽;
+  目 -> 见;
+  儿 -> 见;
+  艹 -> 宽;
 }

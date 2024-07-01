@@ -1,12 +1,13 @@
 blockdiag {
-  190 [label = "尚\n190 esteem"];
-  109 [label = "小\n109 small"];
-  None [label = "冂\nNone hood"];
-  57 [label = "几\n57 how many?"];
-  11 [label = "口\n11 mouth"];
-  109 -> 190;
-  None -> 109;
-  None -> 190;
-  57 -> None;
-  11 -> 190;
+  尚 [label = "尚\n190 esteem"];
+  小 [label = "小\n109 small"];
+  丶 [label = "丶\nNone a drop of"];
+  冂 [label = "冂\nNone hood"];
+  几 [label = "几\n57 how many?"];
+  口 [label = "口\n11 mouth"];
+  小 -> 尚;
+  丶 -> 小;
+  冂 -> 尚;
+  几 -> 冂;
+  口 -> 尚;
 }

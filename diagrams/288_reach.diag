@@ -1,7 +1,7 @@
 blockdiag {
-  288 [label = "达\n288 reach"];
-  None [label = "辶\nNone road"];
-  113 [label = "大\n113 large"];
-  None -> 288;
-  113 -> 288;
+  达 [label = "达\n288 reach"];
+  辶 [label = "辶\nNone road"];
+  大 [label = "大\n113 large"];
+  辶 -> 达;
+  大 -> 达;
 }

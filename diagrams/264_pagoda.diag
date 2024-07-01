@@ -1,13 +1,15 @@
 blockdiag {
-  264 [label = "塔\n264 pagoda"];
-  158 [label = "土\n158 soil"];
-  None [label = "𠆢\nNone umbrella"];
-  262 [label = "合\n262 fit"];
-  11 [label = "口\n11 mouth"];
-  158 -> 264;
-  None -> 264;
-  262 -> 264;
-  None -> 262;
-  None -> None;
-  11 -> 262;
+  塔 [label = "塔\n264 pagoda"];
+  土 [label = "土\n158 soil"];
+  艹 [label = "艹\nNone flower"];
+  合 [label = "合\n262 fit"];
+  亼 [label = "亼\nNone meeting"];
+  𠆢 [label = "𠆢\nNone umbrella"];
+  口 [label = "口\n11 mouth"];
+  土 -> 塔;
+  艹 -> 塔;
+  合 -> 塔;
+  亼 -> 合;
+  𠆢 -> 亼;
+  口 -> 合;
 }

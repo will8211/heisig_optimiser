@@ -1,9 +1,9 @@
 blockdiag {
-  59 [label = "元\n59 beginning"];
-  2 [label = "二\n2 two"];
-  1 [label = "一\n1 one"];
-  56 [label = "儿\n56 youngster"];
-  2 -> 59;
-  1 -> 2;
-  56 -> 59;
+  元 [label = "元\n59 beginning"];
+  二 [label = "二\n2 two"];
+  一 [label = "一\n1 one"];
+  儿 [label = "儿\n56 youngster"];
+  二 -> 元;
+  一 -> 二;
+  儿 -> 元;
 }

@@ -1,12 +1,15 @@
 blockdiag {
-  2768 [label = "拱\n2768 arch"];
-  None [label = "囧只－口\nNone animal legs"];
-  1354 [label = "共\n1354 together"];
-  8 [label = "八\n8 eight"];
-  None -> 2768;
-  1354 -> 2768;
-  None -> 1354;
-  None -> None;
-  None -> 1354;
-  8 -> None;
+  拱 [label = "拱\n2768 arch"];
+  扌 [label = "扌\nNone fingers"];
+  共 [label = "共\n1354 together"];
+  囧昔－日 [label = "囧昔－日\nNone salad"];
+  艹 [label = "艹\nNone flower"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  扌 -> 拱;
+  共 -> 拱;
+  囧昔－日 -> 共;
+  艹 -> 囧昔－日;
+  囧只－口 -> 共;
+  八 -> 囧只－口;
 }

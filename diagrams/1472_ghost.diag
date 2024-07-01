@@ -1,10 +1,11 @@
 blockdiag {
-  1472 [label = "鬼\n1472 ghost"];
-  None [label = "厶\nNone elbow"];
-  14 [label = "田\n14 rice field"];
-  56 [label = "儿\n56 youngster"];
-  None -> 1472;
-  14 -> 1472;
-  56 -> 1472;
-  None -> 1472;
+  鬼 [label = "鬼\n1472 ghost"];
+  丶 [label = "丶\nNone a drop of"];
+  田 [label = "田\n14 rice field"];
+  儿 [label = "儿\n56 youngster"];
+  厶 [label = "厶\nNone elbow"];
+  丶 -> 鬼;
+  田 -> 鬼;
+  儿 -> 鬼;
+  厶 -> 鬼;
 }

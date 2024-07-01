@@ -1,17 +1,20 @@
 blockdiag {
-  2438 [label = "铃\n2438 small bell"];
-  279 [label = "金\n279 gold"];
-  None [label = "囧节－艹\nNone chop"];
-  265 [label = "王\n265 king"];
-  76 [label = "工\n76 work"];
-  1113 [label = "令\n1113 orders"];
-  279 -> 2438;
-  None -> 279;
-  265 -> 279;
-  76 -> 265;
-  None -> 279;
-  1113 -> 2438;
-  None -> 1113;
-  None -> None;
-  None -> 1113;
+  铃 [label = "铃\n2438 small bell"];
+  金 [label = "金\n279 gold"];
+  𠆢 [label = "𠆢\nNone umbrella"];
+  王 [label = "王\n265 king"];
+  工 [label = "工\n76 work"];
+  丶 [label = "丶\nNone a drop of"];
+  令 [label = "令\n1113 orders"];
+  亼 [label = "亼\nNone meeting"];
+  囧节－艹 [label = "囧节－艹\nNone chop"];
+  金 -> 铃;
+  𠆢 -> 金;
+  王 -> 金;
+  工 -> 王;
+  丶 -> 金;
+  令 -> 铃;
+  亼 -> 令;
+  𠆢 -> 亼;
+  囧节－艹 -> 令;
 }

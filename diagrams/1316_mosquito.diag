@@ -1,17 +1,19 @@
 blockdiag {
-  1316 [label = "蚊\n1316 mosquito"];
-  509 [label = "虫\n509 insect"];
-  1315 [label = "文\n1315 literature"];
-  None [label = "㐅\nNone sheaf"];
-  6 [label = "六\n6 six"];
-  8 [label = "八\n8 eight"];
-  509 -> 1316;
-  1315 -> 1316;
-  None -> 1315;
-  6 -> None;
-  None -> 6;
-  8 -> None;
-  None -> None;
-  8 -> None;
-  None -> 1315;
+  蚊 [label = "蚊\n1316 mosquito"];
+  虫 [label = "虫\n509 insect"];
+  文 [label = "文\n1315 literature"];
+  亠 [label = "亠\nNone top hat"];
+  六 [label = "六\n6 six"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  㐅 [label = "㐅\nNone sheaf"];
+  虫 -> 蚊;
+  文 -> 蚊;
+  亠 -> 文;
+  六 -> 亠;
+  囧只－口 -> 六;
+  八 -> 囧只－口;
+  囧只－口 -> 亠;
+  八 -> 囧只－口;
+  㐅 -> 文;
 }

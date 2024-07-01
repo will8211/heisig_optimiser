@@ -1,6 +1,7 @@
 blockdiag {
-  None [label = "囧只－口\nNone animal legs"];
-  8 [label = "八\n8 eight"];
-  None -> None;
-  8 -> None;
+  囧具－目 [label = "囧具－目\nNone tool"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  囧只－口 -> 囧具－目;
+  八 -> 囧只－口;
 }

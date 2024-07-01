@@ -1,9 +1,9 @@
 blockdiag {
-  385 [label = "武\n385 military"];
-  1 [label = "一\n1 one"];
-  None [label = "弋\nNone arrow"];
-  379 [label = "止\n379 stop"];
-  1 -> 385;
-  None -> 385;
-  379 -> 385;
+  武 [label = "武\n385 military"];
+  一 [label = "一\n1 one"];
+  弋 [label = "弋\nNone arrow"];
+  止 [label = "止\n379 stop"];
+  一 -> 武;
+  弋 -> 武;
+  止 -> 武;
 }

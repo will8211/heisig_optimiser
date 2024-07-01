@@ -1,12 +1,13 @@
 blockdiag {
-  196 [label = "宵\n196 nighttime"];
-  None [label = "丶\nNone a drop of"];
-  128 [label = "肖\n128 resemble"];
-  109 [label = "小\n109 small"];
-  13 [label = "月\n13 month"];
-  None -> 196;
-  128 -> 196;
-  109 -> 128;
-  None -> 109;
-  13 -> 128;
+  宵 [label = "宵\n196 nighttime"];
+  宀 [label = "宀\nNone house"];
+  肖 [label = "肖\n128 resemble"];
+  小 [label = "小\n109 small"];
+  丶 [label = "丶\nNone a drop of"];
+  月 [label = "月\n13 month"];
+  宀 -> 宵;
+  肖 -> 宵;
+  小 -> 肖;
+  丶 -> 小;
+  月 -> 肖;
 }

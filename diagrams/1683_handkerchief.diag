@@ -1,11 +1,11 @@
 blockdiag {
-  1683 [label = "帕\n1683 handkerchief"];
-  410 [label = "巾\n410 towel"];
-  34 [label = "白\n34 white"];
-  12 [label = "日\n12 day"];
-  None [label = "丶\nNone a drop of"];
-  410 -> 1683;
-  34 -> 1683;
-  12 -> 34;
-  None -> 34;
+  帕 [label = "帕\n1683 handkerchief"];
+  巾 [label = "巾\n410 towel"];
+  白 [label = "白\n34 white"];
+  日 [label = "日\n12 day"];
+  丶 [label = "丶\nNone a drop of"];
+  巾 -> 帕;
+  白 -> 帕;
+  日 -> 白;
+  丶 -> 白;
 }

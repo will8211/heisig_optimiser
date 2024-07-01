@@ -1,15 +1,15 @@
 blockdiag {
-  1792 [label = "惑\n1792 be bewildered"];
-  364 [label = "或\n364 or"];
-  11 [label = "口\n11 mouth"];
-  1 [label = "一\n1 one"];
-  361 [label = "戈\n361 halberd"];
-  None [label = "弋\nNone arrow"];
-  563 [label = "心\n563 heart"];
-  364 -> 1792;
-  11 -> 364;
-  1 -> 364;
-  361 -> 364;
-  None -> 361;
-  563 -> 1792;
+  惑 [label = "惑\n1792 be bewildered"];
+  或 [label = "或\n364 or"];
+  口 [label = "口\n11 mouth"];
+  一 [label = "一\n1 one"];
+  戈 [label = "戈\n361 halberd"];
+  弋 [label = "弋\nNone arrow"];
+  心 [label = "心\n563 heart"];
+  或 -> 惑;
+  口 -> 或;
+  一 -> 或;
+  戈 -> 或;
+  弋 -> 戈;
+  心 -> 惑;
 }

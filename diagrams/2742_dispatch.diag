@@ -1,15 +1,19 @@
 blockdiag {
-  2742 [label = "遣\n2742 dispatch"];
-  None [label = "辶\nNone road"];
-  38 [label = "中\n38 middle"];
-  1 [label = "一\n1 one"];
-  11 [label = "口\n11 mouth"];
-  None -> 2742;
-  38 -> None;
-  None -> 38;
-  1 -> None;
-  11 -> 38;
-  None -> 2742;
-  None -> None;
-  None -> 2742;
+  遣 [label = "遣\n2742 dispatch"];
+  𠀐 [label = "𠀐\nNone purse"];
+  中 [label = "中\n38 middle"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  口 [label = "口\n11 mouth"];
+  𠂤 [label = "𠂤\nNone maestro"];
+  丶 [label = "丶\nNone a drop of"];
+  辶 [label = "辶\nNone road"];
+  𠀐 -> 遣;
+  中 -> 𠀐;
+  丨 -> 中;
+  一 -> 丨;
+  口 -> 中;
+  𠂤 -> 遣;
+  丶 -> 𠂤;
+  辶 -> 遣;
 }

@@ -1,9 +1,9 @@
 blockdiag {
-  2142 [label = "屁\n2142 fart"];
-  882 [label = "尸\n882 corpse"];
-  456 [label = "比\n456 compare"];
-  453 [label = "匕\n453 ancient spoon"];
-  882 -> 2142;
-  456 -> 2142;
-  453 -> 456;
+  屁 [label = "屁\n2142 fart"];
+  尸 [label = "尸\n882 corpse"];
+  比 [label = "比\n456 compare"];
+  匕 [label = "匕\n453 ancient spoon"];
+  尸 -> 屁;
+  比 -> 屁;
+  匕 -> 比;
 }

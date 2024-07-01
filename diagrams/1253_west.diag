@@ -1,13 +1,13 @@
 blockdiag {
-  1253 [label = "西\n1253 west"];
-  4 [label = "四\n4 four"];
-  11 [label = "口\n11 mouth"];
-  56 [label = "儿\n56 youngster"];
-  1 [label = "一\n1 one"];
-  4 -> 1253;
-  11 -> 4;
-  56 -> 4;
-  1 -> 1253;
-  56 -> 1253;
-  11 -> 1253;
+  西 [label = "西\n1253 west"];
+  四 [label = "四\n4 four"];
+  口 [label = "口\n11 mouth"];
+  儿 [label = "儿\n56 youngster"];
+  一 [label = "一\n1 one"];
+  四 -> 西;
+  口 -> 四;
+  儿 -> 四;
+  一 -> 西;
+  儿 -> 西;
+  口 -> 西;
 }

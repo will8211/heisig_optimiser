@@ -1,14 +1,17 @@
 blockdiag {
-  1372 [label = "纸\n1372 paper"];
-  None [label = "囧以－丶人\nNone plow"];
-  1371 [label = "氏\n1371 family name"];
-  1 [label = "一\n1 one"];
-  95 [label = "乙\n95 second"];
-  None -> 1372;
-  None -> None;
-  1371 -> 1372;
-  None -> 1371;
-  None -> 1371;
-  1 -> 1371;
-  95 -> 1371;
+  纸 [label = "纸\n1372 paper"];
+  纟 [label = "纟\nNone thread"];
+  厶 [label = "厶\nNone elbow"];
+  氏 [label = "氏\n1371 family name"];
+  丶 [label = "丶\nNone a drop of"];
+  囧以－丶人 [label = "囧以－丶人\nNone plow"];
+  一 [label = "一\n1 one"];
+  乙 [label = "乙\n95 second"];
+  纟 -> 纸;
+  厶 -> 纟;
+  氏 -> 纸;
+  丶 -> 氏;
+  囧以－丶人 -> 氏;
+  一 -> 氏;
+  乙 -> 氏;
 }

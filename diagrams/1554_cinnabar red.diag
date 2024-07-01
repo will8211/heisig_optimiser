@@ -1,10 +1,11 @@
 blockdiag {
-  1554 [label = "丹\n1554 cinnabar red"];
-  None [label = "丶\nNone a drop of"];
-  57 [label = "几\n57 how many?"];
-  1 [label = "一\n1 one"];
-  None -> 1554;
-  57 -> None;
-  None -> 1554;
-  1 -> 1554;
+  丹 [label = "丹\n1554 cinnabar red"];
+  冂 [label = "冂\nNone hood"];
+  几 [label = "几\n57 how many?"];
+  丶 [label = "丶\nNone a drop of"];
+  一 [label = "一\n1 one"];
+  冂 -> 丹;
+  几 -> 冂;
+  丶 -> 丹;
+  一 -> 丹;
 }

@@ -1,11 +1,11 @@
 blockdiag {
-  1332 [label = "艳\n1332 gorgeous"];
-  1223 [label = "丰\n1223 plentiful"];
-  1330 [label = "色\n1330 color"];
-  None [label = "勹\nNone bound up"];
-  1326 [label = "巴\n1326 crust"];
-  1223 -> 1332;
-  1330 -> 1332;
-  None -> 1330;
-  1326 -> 1330;
+  艳 [label = "艳\n1332 gorgeous"];
+  丰 [label = "丰\n1223 plentiful"];
+  色 [label = "色\n1330 color"];
+  勹 [label = "勹\nNone bound up"];
+  巴 [label = "巴\n1326 crust"];
+  丰 -> 艳;
+  色 -> 艳;
+  勹 -> 色;
+  巴 -> 色;
 }

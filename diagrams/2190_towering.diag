@@ -1,11 +1,11 @@
 blockdiag {
-  2190 [label = "崭\n2190 towering"];
-  688 [label = "山\n688 mountain"];
-  928 [label = "斩\n928 hew"];
-  300 [label = "车\n300 car"];
-  924 [label = "斤\n924 catty"];
-  688 -> 2190;
-  928 -> 2190;
-  300 -> 928;
-  924 -> 928;
+  崭 [label = "崭\n2190 towering"];
+  山 [label = "山\n688 mountain"];
+  斩 [label = "斩\n928 hew"];
+  车 [label = "车\n300 car"];
+  斤 [label = "斤\n924 catty"];
+  山 -> 崭;
+  斩 -> 崭;
+  车 -> 斩;
+  斤 -> 斩;
 }

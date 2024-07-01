@@ -1,11 +1,11 @@
 blockdiag {
-  1029 [label = "老\n1029 old man"];
-  158 [label = "土\n158 soil"];
-  None [label = "丨\nNone walking stick"];
-  1 [label = "一\n1 one"];
-  453 [label = "匕\n453 ancient spoon"];
-  158 -> 1029;
-  None -> 1029;
-  1 -> None;
-  453 -> 1029;
+  老 [label = "老\n1029 old man"];
+  土 [label = "土\n158 soil"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  匕 [label = "匕\n453 ancient spoon"];
+  土 -> 老;
+  丨 -> 老;
+  一 -> 丨;
+  匕 -> 老;
 }

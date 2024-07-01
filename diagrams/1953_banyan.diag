@@ -1,17 +1,19 @@
 blockdiag {
-  1953 [label = "榕\n1953 banyan"];
-  202 [label = "木\n202 tree"];
-  701 [label = "容\n701 contain"];
-  None [label = "𠆢\nNone umbrella"];
-  698 [label = "谷\n698 valley"];
-  8 [label = "八\n8 eight"];
-  11 [label = "口\n11 mouth"];
-  202 -> 1953;
-  701 -> 1953;
-  None -> 701;
-  698 -> 701;
-  None -> 698;
-  8 -> None;
-  None -> 698;
-  11 -> 698;
+  榕 [label = "榕\n1953 banyan"];
+  木 [label = "木\n202 tree"];
+  容 [label = "容\n701 contain"];
+  宀 [label = "宀\nNone house"];
+  谷 [label = "谷\n698 valley"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  𠆢 [label = "𠆢\nNone umbrella"];
+  口 [label = "口\n11 mouth"];
+  木 -> 榕;
+  容 -> 榕;
+  宀 -> 容;
+  谷 -> 容;
+  囧只－口 -> 谷;
+  八 -> 囧只－口;
+  𠆢 -> 谷;
+  口 -> 谷;
 }

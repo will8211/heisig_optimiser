@@ -1,16 +1,17 @@
 blockdiag {
-  1706 [label = "乘\n1706 hitch a ride"];
-  1705 [label = "乖\n1705 well-behaved"];
-  39 [label = "千\n39 thousand"];
-  None [label = "𠆢\nNone umbrella"];
-  10 [label = "十\n10 ten"];
-  454 [label = "北\n454 north"];
-  453 [label = "匕\n453 ancient spoon"];
-  1705 -> 1706;
-  39 -> 1705;
-  None -> 39;
-  10 -> 39;
-  454 -> 1705;
-  453 -> 454;
-  None -> 1706;
+  乘 [label = "乘\n1706 hitch a ride"];
+  乖 [label = "乖\n1705 well-behaved"];
+  千 [label = "千\n39 thousand"];
+  丶 [label = "丶\nNone a drop of"];
+  十 [label = "十\n10 ten"];
+  北 [label = "北\n454 north"];
+  匕 [label = "匕\n453 ancient spoon"];
+  𠆢 [label = "𠆢\nNone umbrella"];
+  乖 -> 乘;
+  千 -> 乖;
+  丶 -> 千;
+  十 -> 千;
+  北 -> 乖;
+  匕 -> 北;
+  𠆢 -> 乘;
 }

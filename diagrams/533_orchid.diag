@@ -1,9 +1,9 @@
 blockdiag {
-  533 [label = "兰\n533 orchid"];
-  528 [label = "羊\n528 sheep"];
-  None [label = "丷\nNone horns"];
-  1 [label = "一\n1 one"];
-  528 -> 533;
-  None -> 528;
-  1 -> None;
+  兰 [label = "兰\n533 orchid"];
+  羊 [label = "羊\n528 sheep"];
+  丷 [label = "丷\nNone horns"];
+  一 [label = "一\n1 one"];
+  羊 -> 兰;
+  丷 -> 羊;
+  一 -> 丷;
 }

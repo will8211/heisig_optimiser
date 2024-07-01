@@ -1,9 +1,9 @@
 blockdiag {
-  1632 [label = "牵\n1632 lead along"];
-  113 [label = "大\n113 large"];
-  None [label = "冖\nNone crown"];
-  252 [label = "牛\n252 cow"];
-  113 -> 1632;
-  None -> 1632;
-  252 -> 1632;
+  牵 [label = "牵\n1632 lead along"];
+  大 [label = "大\n113 large"];
+  冖 [label = "冖\nNone crown"];
+  牛 [label = "牛\n252 cow"];
+  大 -> 牵;
+  冖 -> 牵;
+  牛 -> 牵;
 }

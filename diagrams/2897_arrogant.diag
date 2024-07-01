@@ -1,15 +1,17 @@
 blockdiag {
-  2897 [label = "骄\n2897 arrogant"];
-  1453 [label = "马\n1453 horse"];
-  None [label = "丶\nNone a drop of"];
-  441 [label = "乔\n441 pretend"];
-  440 [label = "夭\n440 die young"];
-  113 [label = "大\n113 large"];
-  1453 -> 2897;
-  None -> 1453;
-  441 -> 2897;
-  None -> 441;
-  440 -> 441;
-  113 -> 440;
-  None -> 440;
+  骄 [label = "骄\n2897 arrogant"];
+  马 [label = "马\n1453 horse"];
+  囧与－丨一 [label = "囧与－丨一\nNone pointed tail"];
+  乔 [label = "乔\n441 pretend"];
+  囧介－𠆢 [label = "囧介－𠆢\nNone crutches"];
+  夭 [label = "夭\n440 die young"];
+  大 [label = "大\n113 large"];
+  丶 [label = "丶\nNone a drop of"];
+  马 -> 骄;
+  囧与－丨一 -> 马;
+  乔 -> 骄;
+  囧介－𠆢 -> 乔;
+  夭 -> 乔;
+  大 -> 夭;
+  丶 -> 夭;
 }

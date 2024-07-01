@@ -1,15 +1,17 @@
 blockdiag {
-  1861 [label = "搓\n1861 massage"];
-  None [label = "丷\nNone horns"];
-  535 [label = "差\n535 fall short of"];
-  528 [label = "羊\n528 sheep"];
-  1 [label = "一\n1 one"];
-  76 [label = "工\n76 work"];
-  None -> 1861;
-  535 -> 1861;
-  None -> 535;
-  528 -> None;
-  None -> 528;
-  1 -> None;
-  76 -> 535;
+  搓 [label = "搓\n1861 massage"];
+  扌 [label = "扌\nNone fingers"];
+  差 [label = "差\n535 fall short of"];
+  囧差－工 [label = "囧差－工\nNone wool"];
+  羊 [label = "羊\n528 sheep"];
+  丷 [label = "丷\nNone horns"];
+  一 [label = "一\n1 one"];
+  工 [label = "工\n76 work"];
+  扌 -> 搓;
+  差 -> 搓;
+  囧差－工 -> 差;
+  羊 -> 囧差－工;
+  丷 -> 羊;
+  一 -> 丷;
+  工 -> 差;
 }

@@ -1,10 +1,11 @@
 blockdiag {
-  645 [label = "摊\n645 vendor’s stand"];
-  None [label = "隹\nNone turkey"];
-  644 [label = "难\n644 difficult"];
-  633 [label = "又\n633 again"];
-  None -> 645;
-  644 -> 645;
-  633 -> 644;
-  None -> 644;
+  摊 [label = "摊\n645 vendor’s stand"];
+  扌 [label = "扌\nNone fingers"];
+  难 [label = "难\n644 difficult"];
+  又 [label = "又\n633 again"];
+  隹 [label = "隹\nNone turkey"];
+  扌 -> 摊;
+  难 -> 摊;
+  又 -> 难;
+  隹 -> 难;
 }

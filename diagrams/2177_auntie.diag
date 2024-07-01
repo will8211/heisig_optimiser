@@ -1,16 +1,17 @@
 blockdiag {
-  2177 [label = "婶\n2177 auntie"];
-  102 [label = "女\n102 woman"];
-  2176 [label = "审\n2176 painstaking"];
-  None [label = "丨\nNone walking stick"];
-  918 [label = "申\n918 express"];
-  12 [label = "日\n12 day"];
-  1 [label = "一\n1 one"];
-  102 -> 2177;
-  2176 -> 2177;
-  None -> 2176;
-  918 -> 2176;
-  12 -> 918;
-  None -> 918;
-  1 -> None;
+  婶 [label = "婶\n2177 auntie"];
+  女 [label = "女\n102 woman"];
+  审 [label = "审\n2176 painstaking"];
+  宀 [label = "宀\nNone house"];
+  申 [label = "申\n918 express"];
+  日 [label = "日\n12 day"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  女 -> 婶;
+  审 -> 婶;
+  宀 -> 审;
+  申 -> 审;
+  日 -> 申;
+  丨 -> 申;
+  一 -> 丨;
 }

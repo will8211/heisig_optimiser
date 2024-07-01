@@ -1,10 +1,11 @@
 blockdiag {
-  2341 [label = "陪\n2341 accompany"];
-  None [label = "咅\nNone muzzle"];
-  444 [label = "立\n444 standing up"];
-  11 [label = "口\n11 mouth"];
-  None -> 2341;
-  None -> 2341;
-  444 -> None;
-  11 -> None;
+  陪 [label = "陪\n2341 accompany"];
+  阝 [label = "阝\nNone pinnacle"];
+  咅 [label = "咅\nNone muzzle"];
+  立 [label = "立\n444 standing up"];
+  口 [label = "口\n11 mouth"];
+  阝 -> 陪;
+  咅 -> 陪;
+  立 -> 咅;
+  口 -> 咅;
 }

@@ -1,17 +1,17 @@
 blockdiag {
-  1295 [label = "区\n1295 region"];
-  788 [label = "箱\n788 box"];
-  786 [label = "竹\n786 bamboo"];
-  90 [label = "丁\n90 fourth"];
-  212 [label = "相\n212 one another"];
-  202 [label = "木\n202 tree"];
-  15 [label = "目\n15 eye"];
-  None [label = "㐅\nNone sheaf"];
-  788 -> 1295;
-  786 -> 788;
-  90 -> 786;
-  212 -> 788;
-  202 -> 212;
-  15 -> 212;
-  None -> 1295;
+  区 [label = "区\n1295 region"];
+  箱 [label = "箱\n788 box"];
+  竹 [label = "竹\n786 bamboo"];
+  丁 [label = "丁\n90 fourth"];
+  相 [label = "相\n212 one another"];
+  木 [label = "木\n202 tree"];
+  目 [label = "目\n15 eye"];
+  㐅 [label = "㐅\nNone sheaf"];
+  箱 -> 区;
+  竹 -> 箱;
+  丁 -> 竹;
+  相 -> 箱;
+  木 -> 相;
+  目 -> 相;
+  㐅 -> 区;
 }

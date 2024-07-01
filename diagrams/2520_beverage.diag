@@ -1,13 +1,15 @@
 blockdiag {
-  2520 [label = "饮\n2520 beverage"];
-  1154 [label = "食\n1154 food"];
-  1151 [label = "良\n1151 high-quality"];
-  None [label = "𠆢\nNone umbrella"];
-  474 [label = "欠\n474 lack"];
-  1154 -> 2520;
-  1151 -> 1154;
-  None -> 1151;
-  None -> 1151;
-  None -> 1154;
-  474 -> 2520;
+  饮 [label = "饮\n2520 beverage"];
+  食 [label = "食\n1154 food"];
+  良 [label = "良\n1151 high-quality"];
+  丶 [label = "丶\nNone a drop of"];
+  艮 [label = "艮\nNone silver"];
+  𠆢 [label = "𠆢\nNone umbrella"];
+  欠 [label = "欠\n474 lack"];
+  食 -> 饮;
+  良 -> 食;
+  丶 -> 良;
+  艮 -> 良;
+  𠆢 -> 食;
+  欠 -> 饮;
 }

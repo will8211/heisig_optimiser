@@ -1,7 +1,7 @@
 blockdiag {
-  135 [label = "州\n135 state"];
-  None [label = "丶\nNone a drop of"];
-  134 [label = "川\n134 stream"];
-  None -> 135;
-  134 -> 135;
+  州 [label = "州\n135 state"];
+  丶 [label = "丶\nNone a drop of"];
+  川 [label = "川\n134 stream"];
+  丶 -> 州;
+  川 -> 州;
 }

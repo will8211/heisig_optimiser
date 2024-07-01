@@ -1,16 +1,17 @@
 blockdiag {
-  482 [label = "赔\n482 compensate"];
-  52 [label = "贝\n52 shellfish"];
-  15 [label = "目\n15 eye"];
-  None [label = "咅\nNone muzzle"];
-  8 [label = "八\n8 eight"];
-  444 [label = "立\n444 standing up"];
-  11 [label = "口\n11 mouth"];
-  52 -> 482;
-  15 -> 52;
-  None -> 52;
-  8 -> None;
-  None -> 482;
-  444 -> None;
-  11 -> None;
+  赔 [label = "赔\n482 compensate"];
+  贝 [label = "贝\n52 shellfish"];
+  目 [label = "目\n15 eye"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  咅 [label = "咅\nNone muzzle"];
+  立 [label = "立\n444 standing up"];
+  口 [label = "口\n11 mouth"];
+  贝 -> 赔;
+  目 -> 贝;
+  囧只－口 -> 贝;
+  八 -> 囧只－口;
+  咅 -> 赔;
+  立 -> 咅;
+  口 -> 咅;
 }

@@ -1,11 +1,11 @@
 blockdiag {
-  2406 [label = "径\n2406 trail"];
-  754 [label = "行\n754 line of business"];
-  None [label = "𢀖\nNone spool"];
-  76 [label = "工\n76 work"];
-  793 [label = "人\n793 person"];
-  754 -> 2406;
-  None -> 2406;
-  76 -> None;
-  793 -> None;
+  径 [label = "径\n2406 trail"];
+  行 [label = "行\n754 line of business"];
+  𢀖 [label = "𢀖\nNone spool"];
+  工 [label = "工\n76 work"];
+  人 [label = "人\n793 person"];
+  行 -> 径;
+  𢀖 -> 径;
+  工 -> 𢀖;
+  人 -> 𢀖;
 }

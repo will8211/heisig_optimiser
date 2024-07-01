@@ -1,11 +1,15 @@
 blockdiag {
-  2859 [label = "敛\n2859 restrain"];
-  None [label = "攵\nNone taskmaster"];
-  1 [label = "一\n1 one"];
-  None -> 2859;
-  None -> None;
-  None -> None;
-  None -> None;
-  1 -> None;
-  None -> 2859;
+  敛 [label = "敛\n2859 restrain"];
+  佥 [label = "佥\nNone hootenanny"];
+  亼 [label = "亼\nNone meeting"];
+  𠆢 [label = "𠆢\nNone umbrella"];
+  囧应－广 [label = "囧应－广\nNone owl"];
+  一 [label = "一\n1 one"];
+  攵 [label = "攵\nNone taskmaster"];
+  佥 -> 敛;
+  亼 -> 佥;
+  𠆢 -> 亼;
+  囧应－广 -> 佥;
+  一 -> 佥;
+  攵 -> 敛;
 }

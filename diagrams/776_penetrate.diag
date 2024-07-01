@@ -1,11 +1,11 @@
 blockdiag {
-  776 [label = "透\n776 penetrate"];
-  775 [label = "秀\n775 elegant"];
-  762 [label = "禾\n762 standing grain"];
-  625 [label = "乃\n625 only then"];
-  None [label = "辶\nNone road"];
-  775 -> 776;
-  762 -> 775;
-  625 -> 775;
-  None -> 776;
+  透 [label = "透\n776 penetrate"];
+  秀 [label = "秀\n775 elegant"];
+  禾 [label = "禾\n762 standing grain"];
+  乃 [label = "乃\n625 only then"];
+  辶 [label = "辶\nNone road"];
+  秀 -> 透;
+  禾 -> 秀;
+  乃 -> 秀;
+  辶 -> 透;
 }

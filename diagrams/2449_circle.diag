@@ -1,11 +1,13 @@
 blockdiag {
-  2449 [label = "圈\n2449 circle"];
-  None [label = "㔾\nNone fingerprint"];
-  2447 [label = "卷\n2447 exam paper"];
-  980 [label = "半\n980 half"];
-  None -> 2449;
-  2447 -> 2449;
-  None -> 2447;
-  980 -> None;
-  None -> 2447;
+  圈 [label = "圈\n2449 circle"];
+  囗 [label = "囗\nNone pent in"];
+  卷 [label = "卷\n2447 exam paper"];
+  囧眷－目 [label = "囧眷－目\nNone quarter"];
+  半 [label = "半\n980 half"];
+  㔾 [label = "㔾\nNone fingerprint"];
+  囗 -> 圈;
+  卷 -> 圈;
+  囧眷－目 -> 卷;
+  半 -> 囧眷－目;
+  㔾 -> 卷;
 }

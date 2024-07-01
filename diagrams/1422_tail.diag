@@ -1,9 +1,9 @@
 blockdiag {
-  1422 [label = "尾\n1422 tail"];
-  882 [label = "尸\n882 corpse"];
-  1421 [label = "毛\n1421 fur"];
-  584 [label = "手\n584 hand"];
-  882 -> 1422;
-  1421 -> 1422;
-  584 -> 1421;
+  尾 [label = "尾\n1422 tail"];
+  尸 [label = "尸\n882 corpse"];
+  毛 [label = "毛\n1421 fur"];
+  手 [label = "手\n584 hand"];
+  尸 -> 尾;
+  毛 -> 尾;
+  手 -> 毛;
 }

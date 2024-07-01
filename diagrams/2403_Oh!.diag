@@ -1,14 +1,17 @@
 blockdiag {
-  2403 [label = "哟\n2403 Oh!"];
-  11 [label = "口\n11 mouth"];
-  1090 [label = "约\n1090 make an appointment"];
-  None [label = "丶\nNone a drop of"];
-  69 [label = "勺\n69 ladle"];
-  11 -> 2403;
-  1090 -> 2403;
-  None -> 1090;
-  None -> None;
-  69 -> 1090;
-  None -> 69;
-  None -> 69;
+  哟 [label = "哟\n2403 Oh!"];
+  口 [label = "口\n11 mouth"];
+  约 [label = "约\n1090 make an appointment"];
+  纟 [label = "纟\nNone thread"];
+  厶 [label = "厶\nNone elbow"];
+  勺 [label = "勺\n69 ladle"];
+  勹 [label = "勹\nNone bound up"];
+  丶 [label = "丶\nNone a drop of"];
+  口 -> 哟;
+  约 -> 哟;
+  纟 -> 约;
+  厶 -> 纟;
+  勺 -> 约;
+  勹 -> 勺;
+  丶 -> 勺;
 }

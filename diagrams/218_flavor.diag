@@ -1,9 +1,9 @@
 blockdiag {
-  218 [label = "味\n218 flavor"];
-  215 [label = "未\n215 not yet"];
-  202 [label = "木\n202 tree"];
-  11 [label = "口\n11 mouth"];
-  215 -> 218;
-  202 -> 215;
-  11 -> 218;
+  味 [label = "味\n218 flavor"];
+  未 [label = "未\n215 not yet"];
+  木 [label = "木\n202 tree"];
+  口 [label = "口\n11 mouth"];
+  未 -> 味;
+  木 -> 未;
+  口 -> 味;
 }

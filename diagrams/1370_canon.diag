@@ -1,12 +1,13 @@
 blockdiag {
-  1370 [label = "典\n1370 canon"];
-  967 [label = "曲\n967 bent"];
-  14 [label = "田\n14 rice field"];
-  None [label = "囧只－口\nNone animal legs"];
-  8 [label = "八\n8 eight"];
-  967 -> 1370;
-  14 -> 967;
-  None -> 1370;
-  None -> None;
-  8 -> None;
+  典 [label = "典\n1370 canon"];
+  曲 [label = "曲\n967 bent"];
+  田 [label = "田\n14 rice field"];
+  囧具－目 [label = "囧具－目\nNone tool"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  曲 -> 典;
+  田 -> 曲;
+  囧具－目 -> 典;
+  囧只－口 -> 囧具－目;
+  八 -> 囧只－口;
 }

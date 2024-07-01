@@ -1,8 +1,9 @@
 blockdiag {
-  1091 [label = "细\n1091 fine"];
-  None [label = "厶\nNone elbow"];
-  14 [label = "田\n14 rice field"];
-  None -> 1091;
-  None -> None;
-  14 -> 1091;
+  细 [label = "细\n1091 fine"];
+  纟 [label = "纟\nNone thread"];
+  厶 [label = "厶\nNone elbow"];
+  田 [label = "田\n14 rice field"];
+  纟 -> 细;
+  厶 -> 纟;
+  田 -> 细;
 }

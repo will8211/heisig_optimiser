@@ -1,18 +1,19 @@
 blockdiag {
-  1038 [label = "著\n1038 author"];
-  None [label = "丨\nNone walking stick"];
-  1037 [label = "者\n1037 someone"];
-  1029 [label = "老\n1029 old man"];
-  158 [label = "土\n158 soil"];
-  1 [label = "一\n1 one"];
-  453 [label = "匕\n453 ancient spoon"];
-  12 [label = "日\n12 day"];
-  None -> 1038;
-  1037 -> 1038;
-  1029 -> 1037;
-  158 -> 1029;
-  None -> 1029;
-  1 -> None;
-  453 -> 1029;
-  12 -> 1037;
+  著 [label = "著\n1038 author"];
+  艹 [label = "艹\nNone flower"];
+  者 [label = "者\n1037 someone"];
+  老 [label = "老\n1029 old man"];
+  土 [label = "土\n158 soil"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  匕 [label = "匕\n453 ancient spoon"];
+  日 [label = "日\n12 day"];
+  艹 -> 著;
+  者 -> 著;
+  老 -> 者;
+  土 -> 老;
+  丨 -> 老;
+  一 -> 丨;
+  匕 -> 老;
+  日 -> 者;
 }

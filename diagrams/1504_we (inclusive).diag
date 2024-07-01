@@ -1,11 +1,11 @@
 blockdiag {
-  1504 [label = "咱\n1504 we (inclusive)"];
-  11 [label = "口\n11 mouth"];
-  33 [label = "自\n33 oneself"];
-  None [label = "丶\nNone a drop of"];
-  15 [label = "目\n15 eye"];
-  11 -> 1504;
-  33 -> 1504;
-  None -> 33;
-  15 -> 33;
+  咱 [label = "咱\n1504 we (inclusive)"];
+  口 [label = "口\n11 mouth"];
+  自 [label = "自\n33 oneself"];
+  丶 [label = "丶\nNone a drop of"];
+  目 [label = "目\n15 eye"];
+  口 -> 咱;
+  自 -> 咱;
+  丶 -> 自;
+  目 -> 自;
 }

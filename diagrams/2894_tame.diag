@@ -1,9 +1,9 @@
 blockdiag {
-  2894 [label = "驯\n2894 tame"];
-  1453 [label = "马\n1453 horse"];
-  None [label = "囧与－丨一\nNone pointed tail"];
-  134 [label = "川\n134 stream"];
-  1453 -> 2894;
-  None -> 1453;
-  134 -> 2894;
+  驯 [label = "驯\n2894 tame"];
+  马 [label = "马\n1453 horse"];
+  囧与－丨一 [label = "囧与－丨一\nNone pointed tail"];
+  川 [label = "川\n134 stream"];
+  马 -> 驯;
+  囧与－丨一 -> 马;
+  川 -> 驯;
 }

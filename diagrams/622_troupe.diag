@@ -1,7 +1,7 @@
 blockdiag {
-  622 [label = "团\n622 troupe"];
-  None [label = "囗\nNone pent in"];
-  620 [label = "才\n620 genius"];
-  None -> 622;
-  620 -> 622;
+  团 [label = "团\n622 troupe"];
+  囗 [label = "囗\nNone pent in"];
+  才 [label = "才\n620 genius"];
+  囗 -> 团;
+  才 -> 团;
 }

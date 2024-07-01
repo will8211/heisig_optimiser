@@ -1,16 +1,19 @@
 blockdiag {
-  2990 [label = "蓉\n2990 cottonrose hibiscus (B)"];
-  None [label = "𠆢\nNone umbrella"];
-  701 [label = "容\n701 contain"];
-  698 [label = "谷\n698 valley"];
-  8 [label = "八\n8 eight"];
-  11 [label = "口\n11 mouth"];
-  None -> 2990;
-  701 -> 2990;
-  None -> 701;
-  698 -> 701;
-  None -> 698;
-  8 -> None;
-  None -> 698;
-  11 -> 698;
+  蓉 [label = "蓉\n2990 cottonrose hibiscus (B)"];
+  艹 [label = "艹\nNone flower"];
+  容 [label = "容\n701 contain"];
+  宀 [label = "宀\nNone house"];
+  谷 [label = "谷\n698 valley"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  𠆢 [label = "𠆢\nNone umbrella"];
+  口 [label = "口\n11 mouth"];
+  艹 -> 蓉;
+  容 -> 蓉;
+  宀 -> 容;
+  谷 -> 容;
+  囧只－口 -> 谷;
+  八 -> 囧只－口;
+  𠆢 -> 谷;
+  口 -> 谷;
 }

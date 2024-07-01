@@ -1,16 +1,19 @@
 blockdiag {
-  1903 [label = "貌\n1903 mien"];
-  None [label = "丶\nNone a drop of"];
-  663 [label = "爪\n663 claw"];
-  34 [label = "白\n34 white"];
-  12 [label = "日\n12 day"];
-  56 [label = "儿\n56 youngster"];
-  None -> 1903;
-  663 -> None;
-  None -> 663;
-  None -> None;
-  34 -> 1903;
-  12 -> 34;
-  None -> 34;
-  56 -> 1903;
+  貌 [label = "貌\n1903 mien"];
+  豸 [label = "豸\nNone leopard"];
+  爪 [label = "爪\n663 claw"];
+  𠂆 [label = "𠂆\nNone drag"];
+  豕 [label = "豕\nNone sow"];
+  白 [label = "白\n34 white"];
+  日 [label = "日\n12 day"];
+  丶 [label = "丶\nNone a drop of"];
+  儿 [label = "儿\n56 youngster"];
+  豸 -> 貌;
+  爪 -> 豸;
+  𠂆 -> 爪;
+  豕 -> 豸;
+  白 -> 貌;
+  日 -> 白;
+  丶 -> 白;
+  儿 -> 貌;
 }

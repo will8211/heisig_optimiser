@@ -1,9 +1,9 @@
 blockdiag {
-  2288 [label = "夸\n2288 brag"];
-  113 [label = "大\n113 large"];
-  2286 [label = "亏\n2286 loss"];
-  None [label = "丂\nNone snare"];
-  113 -> 2288;
-  2286 -> 2288;
-  None -> 2286;
+  夸 [label = "夸\n2288 brag"];
+  大 [label = "大\n113 large"];
+  亏 [label = "亏\n2286 loss"];
+  丂 [label = "丂\nNone snare"];
+  大 -> 夸;
+  亏 -> 夸;
+  丂 -> 亏;
 }

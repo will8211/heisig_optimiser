@@ -1,14 +1,17 @@
 blockdiag {
-  1712 [label = "沦\n1712 sink"];
-  137 [label = "水\n137 water"];
-  None [label = "𠆢\nNone umbrella"];
-  1 [label = "一\n1 one"];
-  453 [label = "匕\n453 ancient spoon"];
-  137 -> 1712;
-  None -> 137;
-  1 -> None;
-  None -> 137;
-  None -> 1712;
-  453 -> None;
-  None -> None;
+  沦 [label = "沦\n1712 sink"];
+  水 [label = "水\n137 water"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  丶 [label = "丶\nNone a drop of"];
+  仑 [label = "仑\nNone lifeguard"];
+  匕 [label = "匕\n453 ancient spoon"];
+  𠆢 [label = "𠆢\nNone umbrella"];
+  水 -> 沦;
+  丨 -> 水;
+  一 -> 丨;
+  丶 -> 水;
+  仑 -> 沦;
+  匕 -> 仑;
+  𠆢 -> 仑;
 }

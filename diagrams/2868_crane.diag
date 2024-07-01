@@ -1,18 +1,22 @@
 blockdiag {
-  2868 [label = "鹤\n2868 crane"];
-  1438 [label = "鸟\n1438 bird"];
-  188 [label = "向\n188 orientation"];
-  None [label = "隹\nNone turkey"];
-  57 [label = "几\n57 how many?"];
-  11 [label = "口\n11 mouth"];
-  1438 -> 2868;
-  188 -> 1438;
-  None -> 188;
-  None -> 188;
-  57 -> None;
-  11 -> 188;
-  None -> 1438;
-  None -> 1438;
-  None -> 2868;
-  None -> 2868;
+  鹤 [label = "鹤\n2868 crane"];
+  鸟 [label = "鸟\n1438 bird"];
+  向 [label = "向\n188 orientation"];
+  丶 [label = "丶\nNone a drop of"];
+  冂 [label = "冂\nNone hood"];
+  几 [label = "几\n57 how many?"];
+  口 [label = "口\n11 mouth"];
+  囧与－丨一 [label = "囧与－丨一\nNone pointed tail"];
+  宀 [label = "宀\nNone house"];
+  隹 [label = "隹\nNone turkey"];
+  鸟 -> 鹤;
+  向 -> 鸟;
+  丶 -> 向;
+  冂 -> 向;
+  几 -> 冂;
+  口 -> 向;
+  丶 -> 鸟;
+  囧与－丨一 -> 鸟;
+  宀 -> 鹤;
+  隹 -> 鹤;
 }

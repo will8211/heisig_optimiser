@@ -1,15 +1,17 @@
 blockdiag {
-  2281 [label = "梯\n2281 ladder"];
-  202 [label = "木\n202 tree"];
-  1022 [label = "弟\n1022 younger brother"];
-  None [label = "囧介－𠆢\nNone crutches"];
-  1 [label = "一\n1 one"];
-  1013 [label = "弓\n1013 bow"];
-  202 -> 2281;
-  1022 -> 2281;
-  None -> 1022;
-  1 -> None;
-  None -> 1022;
-  None -> None;
-  1013 -> None;
+  梯 [label = "梯\n2281 ladder"];
+  木 [label = "木\n202 tree"];
+  弟 [label = "弟\n1022 younger brother"];
+  丷 [label = "丷\nNone horns"];
+  一 [label = "一\n1 one"];
+  弗 [label = "弗\nNone dollar sign"];
+  囧介－𠆢 [label = "囧介－𠆢\nNone crutches"];
+  弓 [label = "弓\n1013 bow"];
+  木 -> 梯;
+  弟 -> 梯;
+  丷 -> 弟;
+  一 -> 丷;
+  弗 -> 弟;
+  囧介－𠆢 -> 弗;
+  弓 -> 弗;
 }

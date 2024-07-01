@@ -1,10 +1,13 @@
 blockdiag {
-  1393 [label = "书\n1393 book"];
-  None [label = "丶\nNone a drop of"];
-  1 [label = "一\n1 one"];
-  None -> 1393;
-  None -> 1393;
-  None -> 1393;
-  1 -> None;
-  None -> 1393;
+  书 [label = "书\n1393 book"];
+  囧侯－亻－矢 [label = "囧侯－亻－矢\nNone key"];
+  𠃌 [label = "𠃌\nNone clothes hanger"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  丶 [label = "丶\nNone a drop of"];
+  囧侯－亻－矢 -> 书;
+  𠃌 -> 书;
+  丨 -> 书;
+  一 -> 丨;
+  丶 -> 书;
 }

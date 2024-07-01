@@ -1,13 +1,15 @@
 blockdiag {
-  2762 [label = "哄\n2762 fool"];
-  11 [label = "口\n11 mouth"];
-  1354 [label = "共\n1354 together"];
-  None [label = "囧只－口\nNone animal legs"];
-  8 [label = "八\n8 eight"];
-  11 -> 2762;
-  1354 -> 2762;
-  None -> 1354;
-  None -> None;
-  None -> 1354;
-  8 -> None;
+  哄 [label = "哄\n2762 fool"];
+  口 [label = "口\n11 mouth"];
+  共 [label = "共\n1354 together"];
+  囧昔－日 [label = "囧昔－日\nNone salad"];
+  艹 [label = "艹\nNone flower"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  口 -> 哄;
+  共 -> 哄;
+  囧昔－日 -> 共;
+  艹 -> 囧昔－日;
+  囧只－口 -> 共;
+  八 -> 囧只－口;
 }

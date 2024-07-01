@@ -1,12 +1,15 @@
 blockdiag {
-  975 [label = "撒\n975 scatter"];
-  None [label = "攵\nNone taskmaster"];
-  974 [label = "散\n974 scattered"];
-  13 [label = "月\n13 month"];
-  None -> 975;
-  974 -> 975;
-  None -> 974;
-  None -> None;
-  13 -> 974;
-  None -> 974;
+  撒 [label = "撒\n975 scatter"];
+  扌 [label = "扌\nNone fingers"];
+  散 [label = "散\n974 scattered"];
+  囧昔－日 [label = "囧昔－日\nNone salad"];
+  艹 [label = "艹\nNone flower"];
+  月 [label = "月\n13 month"];
+  攵 [label = "攵\nNone taskmaster"];
+  扌 -> 撒;
+  散 -> 撒;
+  囧昔－日 -> 散;
+  艹 -> 囧昔－日;
+  月 -> 散;
+  攵 -> 散;
 }

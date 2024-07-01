@@ -1,8 +1,11 @@
 blockdiag {
-  None [label = "囧印－卩\nNone staples"];
-  8 [label = "八\n8 eight"];
-  None -> None;
-  None -> None;
-  8 -> None;
-  None -> None;
+  囧舆－车 [label = "囧舆－车\nNone zipper"];
+  囧具－目 [label = "囧具－目\nNone tool"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  囧印－卩 [label = "囧印－卩\nNone staples"];
+  囧具－目 -> 囧舆－车;
+  囧只－口 -> 囧具－目;
+  八 -> 囧只－口;
+  囧印－卩 -> 囧舆－车;
 }

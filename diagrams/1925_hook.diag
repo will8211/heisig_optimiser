@@ -1,15 +1,19 @@
 blockdiag {
-  1925 [label = "钩\n1925 hook"];
-  279 [label = "金\n279 gold"];
-  None [label = "厶\nNone elbow"];
-  265 [label = "王\n265 king"];
-  76 [label = "工\n76 work"];
-  279 -> 1925;
-  None -> 279;
-  265 -> 279;
-  76 -> 265;
-  None -> 279;
-  None -> 1925;
-  None -> None;
-  None -> None;
+  钩 [label = "钩\n1925 hook"];
+  金 [label = "金\n279 gold"];
+  𠆢 [label = "𠆢\nNone umbrella"];
+  王 [label = "王\n265 king"];
+  工 [label = "工\n76 work"];
+  丶 [label = "丶\nNone a drop of"];
+  囧勾 [label = "囧勾\nNone cast"];
+  勹 [label = "勹\nNone bound up"];
+  厶 [label = "厶\nNone elbow"];
+  金 -> 钩;
+  𠆢 -> 金;
+  王 -> 金;
+  工 -> 王;
+  丶 -> 金;
+  囧勾 -> 钩;
+  勹 -> 囧勾;
+  厶 -> 囧勾;
 }

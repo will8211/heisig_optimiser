@@ -1,11 +1,11 @@
 blockdiag {
-  471 [label = "吃\n471 eat"];
-  11 [label = "口\n11 mouth"];
-  470 [label = "乞\n470 beg"];
-  None [label = "𠂉\nNone reclining"];
-  95 [label = "乙\n95 second"];
-  11 -> 471;
-  470 -> 471;
-  None -> 470;
-  95 -> 470;
+  吃 [label = "吃\n471 eat"];
+  口 [label = "口\n11 mouth"];
+  乞 [label = "乞\n470 beg"];
+  𠂉 [label = "𠂉\nNone reclining"];
+  乙 [label = "乙\n95 second"];
+  口 -> 吃;
+  乞 -> 吃;
+  𠂉 -> 乞;
+  乙 -> 乞;
 }

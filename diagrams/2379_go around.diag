@@ -1,13 +1,15 @@
 blockdiag {
-  2379 [label = "绕\n2379 go around"];
-  None [label = "弋\nNone arrow"];
-  376 [label = "尧\n376 Yao"];
-  361 [label = "戈\n361 halberd"];
-  56 [label = "儿\n56 youngster"];
-  None -> 2379;
-  None -> None;
-  376 -> 2379;
-  361 -> 376;
-  None -> 361;
-  56 -> 376;
+  绕 [label = "绕\n2379 go around"];
+  纟 [label = "纟\nNone thread"];
+  厶 [label = "厶\nNone elbow"];
+  尧 [label = "尧\n376 Yao"];
+  戈 [label = "戈\n361 halberd"];
+  弋 [label = "弋\nNone arrow"];
+  儿 [label = "儿\n56 youngster"];
+  纟 -> 绕;
+  厶 -> 纟;
+  尧 -> 绕;
+  戈 -> 尧;
+  弋 -> 戈;
+  儿 -> 尧;
 }

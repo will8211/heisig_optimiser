@@ -1,15 +1,15 @@
 blockdiag {
-  1000 [label = "知\n1000 know"];
-  998 [label = "矢\n998 dart"];
-  436 [label = "天\n436 heavens"];
-  1 [label = "一\n1 one"];
-  113 [label = "大\n113 large"];
-  None [label = "丶\nNone a drop of"];
-  11 [label = "口\n11 mouth"];
-  998 -> 1000;
-  436 -> 998;
-  1 -> 436;
-  113 -> 436;
-  None -> 998;
-  11 -> 1000;
+  知 [label = "知\n1000 know"];
+  矢 [label = "矢\n998 dart"];
+  天 [label = "天\n436 heavens"];
+  一 [label = "一\n1 one"];
+  大 [label = "大\n113 large"];
+  丶 [label = "丶\nNone a drop of"];
+  口 [label = "口\n11 mouth"];
+  矢 -> 知;
+  天 -> 矢;
+  一 -> 天;
+  大 -> 天;
+  丶 -> 矢;
+  口 -> 知;
 }

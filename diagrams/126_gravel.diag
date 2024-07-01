@@ -1,16 +1,16 @@
 blockdiag {
-  126 [label = "砂\n126 gravel"];
-  110 [label = "少\n110 few"];
-  None [label = "丶\nNone a drop of"];
-  109 [label = "小\n109 small"];
-  125 [label = "石\n125 stone"];
-  11 [label = "口\n11 mouth"];
-  121 [label = "厂\n121 factory"];
-  110 -> 126;
-  None -> 110;
-  109 -> 110;
-  None -> 109;
-  125 -> 126;
-  11 -> 125;
-  121 -> 125;
+  砂 [label = "砂\n126 gravel"];
+  少 [label = "少\n110 few"];
+  丶 [label = "丶\nNone a drop of"];
+  小 [label = "小\n109 small"];
+  石 [label = "石\n125 stone"];
+  口 [label = "口\n11 mouth"];
+  厂 [label = "厂\n121 factory"];
+  少 -> 砂;
+  丶 -> 少;
+  小 -> 少;
+  丶 -> 小;
+  石 -> 砂;
+  口 -> 石;
+  厂 -> 石;
 }

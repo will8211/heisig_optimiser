@@ -1,13 +1,13 @@
 blockdiag {
-  2064 [label = "佐\n2064 assistant"];
-  793 [label = "人\n793 person"];
-  77 [label = "左\n77 left"];
-  None [label = "𠂇\nNone by one’s side"];
-  10 [label = "十\n10 ten"];
-  76 [label = "工\n76 work"];
-  793 -> 2064;
-  77 -> 2064;
-  None -> 77;
-  10 -> None;
-  76 -> 77;
+  佐 [label = "佐\n2064 assistant"];
+  人 [label = "人\n793 person"];
+  左 [label = "左\n77 left"];
+  𠂇 [label = "𠂇\nNone by one’s side"];
+  十 [label = "十\n10 ten"];
+  工 [label = "工\n76 work"];
+  人 -> 佐;
+  左 -> 佐;
+  𠂇 -> 左;
+  十 -> 𠂇;
+  工 -> 左;
 }

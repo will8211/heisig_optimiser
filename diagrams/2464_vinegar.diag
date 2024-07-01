@@ -1,11 +1,13 @@
 blockdiag {
-  2464 [label = "醋\n2464 vinegar"];
-  None [label = "艹\nNone flower"];
-  971 [label = "昔\n971 times past"];
-  12 [label = "日\n12 day"];
-  None -> 2464;
-  971 -> 2464;
-  None -> 971;
-  None -> None;
-  12 -> 971;
+  醋 [label = "醋\n2464 vinegar"];
+  酉 [label = "酉\nNone whiskey bottle"];
+  昔 [label = "昔\n971 times past"];
+  囧昔－日 [label = "囧昔－日\nNone salad"];
+  艹 [label = "艹\nNone flower"];
+  日 [label = "日\n12 day"];
+  酉 -> 醋;
+  昔 -> 醋;
+  囧昔－日 -> 昔;
+  艹 -> 囧昔－日;
+  日 -> 昔;
 }

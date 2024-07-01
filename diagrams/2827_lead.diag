@@ -1,17 +1,19 @@
 blockdiag {
-  2827 [label = "铅\n2827 lead"];
-  279 [label = "金\n279 gold"];
-  None [label = "囧船－舟\nNone belch"];
-  265 [label = "王\n265 king"];
-  76 [label = "工\n76 work"];
-  57 [label = "几\n57 how many?"];
-  11 [label = "口\n11 mouth"];
-  279 -> 2827;
-  None -> 279;
-  265 -> 279;
-  76 -> 265;
-  None -> 279;
-  None -> 2827;
-  57 -> None;
-  11 -> None;
+  铅 [label = "铅\n2827 lead"];
+  金 [label = "金\n279 gold"];
+  𠆢 [label = "𠆢\nNone umbrella"];
+  王 [label = "王\n265 king"];
+  工 [label = "工\n76 work"];
+  丶 [label = "丶\nNone a drop of"];
+  囧船－舟 [label = "囧船－舟\nNone belch"];
+  几 [label = "几\n57 how many?"];
+  口 [label = "口\n11 mouth"];
+  金 -> 铅;
+  𠆢 -> 金;
+  王 -> 金;
+  工 -> 王;
+  丶 -> 金;
+  囧船－舟 -> 铅;
+  几 -> 囧船－舟;
+  口 -> 囧船－舟;
 }

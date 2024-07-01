@@ -1,10 +1,11 @@
 blockdiag {
-  1424 [label = "托\n1424 entrust"];
-  None [label = "乇\nNone fur ball"];
-  1421 [label = "毛\n1421 fur"];
-  584 [label = "手\n584 hand"];
-  None -> 1424;
-  None -> 1424;
-  1421 -> None;
-  584 -> 1421;
+  托 [label = "托\n1424 entrust"];
+  扌 [label = "扌\nNone fingers"];
+  乇 [label = "乇\nNone fur ball"];
+  毛 [label = "毛\n1421 fur"];
+  手 [label = "手\n584 hand"];
+  扌 -> 托;
+  乇 -> 托;
+  毛 -> 乇;
+  手 -> 毛;
 }

@@ -1,7 +1,7 @@
 blockdiag {
-  943 [label = "妇\n943 married woman"];
-  102 [label = "女\n102 woman"];
-  None [label = "彐\nNone broom"];
-  102 -> 943;
-  None -> 943;
+  妇 [label = "妇\n943 married woman"];
+  女 [label = "女\n102 woman"];
+  彐 [label = "彐\nNone broom"];
+  女 -> 妇;
+  彐 -> 妇;
 }

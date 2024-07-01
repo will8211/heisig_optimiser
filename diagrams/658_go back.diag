@@ -1,10 +1,11 @@
 blockdiag {
-  658 [label = "返\n658 go back"];
-  656 [label = "反\n656 against"];
-  None [label = "辶\nNone road"];
-  633 [label = "又\n633 again"];
-  656 -> 658;
-  None -> 656;
-  633 -> 656;
-  None -> 658;
+  返 [label = "返\n658 go back"];
+  反 [label = "反\n656 against"];
+  𠂆 [label = "𠂆\nNone drag"];
+  又 [label = "又\n633 again"];
+  辶 [label = "辶\nNone road"];
+  反 -> 返;
+  𠂆 -> 反;
+  又 -> 反;
+  辶 -> 返;
 }

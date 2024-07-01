@@ -1,13 +1,13 @@
 blockdiag {
-  2596 [label = "奏\n2596 play an instrument"];
-  None [label = "𡗗\nNone bonsai"];
-  1223 [label = "丰\n1223 plentiful"];
-  436 [label = "天\n436 heavens"];
-  1 [label = "一\n1 one"];
-  113 [label = "大\n113 large"];
-  None -> 2596;
-  1223 -> None;
-  436 -> 2596;
-  1 -> 436;
-  113 -> 436;
+  奏 [label = "奏\n2596 play an instrument"];
+  𡗗 [label = "𡗗\nNone bonsai"];
+  丰 [label = "丰\n1223 plentiful"];
+  天 [label = "天\n436 heavens"];
+  一 [label = "一\n1 one"];
+  大 [label = "大\n113 large"];
+  𡗗 -> 奏;
+  丰 -> 𡗗;
+  天 -> 奏;
+  一 -> 天;
+  大 -> 天;
 }

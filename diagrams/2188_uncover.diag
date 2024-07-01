@@ -1,11 +1,11 @@
 blockdiag {
-  2188 [label = "掀\n2188 uncover"];
-  None [label = "扌\nNone fingers"];
-  2187 [label = "欣\n2187 elated"];
-  924 [label = "斤\n924 catty"];
-  474 [label = "欠\n474 lack"];
-  None -> 2188;
-  2187 -> 2188;
-  924 -> 2187;
-  474 -> 2187;
+  掀 [label = "掀\n2188 uncover"];
+  扌 [label = "扌\nNone fingers"];
+  欣 [label = "欣\n2187 elated"];
+  斤 [label = "斤\n924 catty"];
+  欠 [label = "欠\n474 lack"];
+  扌 -> 掀;
+  欣 -> 掀;
+  斤 -> 欣;
+  欠 -> 欣;
 }

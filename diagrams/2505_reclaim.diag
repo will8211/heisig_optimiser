@@ -1,7 +1,7 @@
 blockdiag {
-  2505 [label = "垦\n2505 reclaim"];
-  None [label = "艮\nNone silver"];
-  158 [label = "土\n158 soil"];
-  None -> 2505;
-  158 -> 2505;
+  垦 [label = "垦\n2505 reclaim"];
+  艮 [label = "艮\nNone silver"];
+  土 [label = "土\n158 soil"];
+  艮 -> 垦;
+  土 -> 垦;
 }

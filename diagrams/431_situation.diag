@@ -1,17 +1,19 @@
 blockdiag {
-  431 [label = "况\n431 situation"];
-  107 [label = "兄\n107 elder brother"];
-  11 [label = "口\n11 mouth"];
-  56 [label = "儿\n56 youngster"];
-  None [label = "丶\nNone a drop of"];
-  137 [label = "水\n137 water"];
-  1 [label = "一\n1 one"];
-  107 -> 431;
-  11 -> 107;
-  56 -> 107;
-  None -> 431;
-  137 -> None;
-  None -> 137;
-  1 -> None;
-  None -> 137;
+  况 [label = "况\n431 situation"];
+  兄 [label = "兄\n107 elder brother"];
+  口 [label = "口\n11 mouth"];
+  儿 [label = "儿\n56 youngster"];
+  冫 [label = "冫\nNone ice"];
+  水 [label = "水\n137 water"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  丶 [label = "丶\nNone a drop of"];
+  兄 -> 况;
+  口 -> 兄;
+  儿 -> 兄;
+  冫 -> 况;
+  水 -> 冫;
+  丨 -> 水;
+  一 -> 丨;
+  丶 -> 水;
 }

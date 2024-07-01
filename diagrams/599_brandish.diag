@@ -1,10 +1,11 @@
 blockdiag {
-  599 [label = "挥\n599 brandish"];
-  None [label = "冖\nNone crown"];
-  320 [label = "军\n320 army"];
-  300 [label = "车\n300 car"];
-  None -> 599;
-  320 -> 599;
-  None -> 320;
-  300 -> 320;
+  挥 [label = "挥\n599 brandish"];
+  扌 [label = "扌\nNone fingers"];
+  军 [label = "军\n320 army"];
+  冖 [label = "冖\nNone crown"];
+  车 [label = "车\n300 car"];
+  扌 -> 挥;
+  军 -> 挥;
+  冖 -> 军;
+  车 -> 军;
 }

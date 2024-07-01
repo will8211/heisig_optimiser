@@ -1,9 +1,9 @@
 blockdiag {
-  931 [label = "断\n931 sever"];
-  778 [label = "米\n778 rice"];
-  95 [label = "乙\n95 second"];
-  924 [label = "斤\n924 catty"];
-  778 -> 931;
-  95 -> 931;
-  924 -> 931;
+  断 [label = "断\n931 sever"];
+  米 [label = "米\n778 rice"];
+  乙 [label = "乙\n95 second"];
+  斤 [label = "斤\n924 catty"];
+  米 -> 断;
+  乙 -> 断;
+  斤 -> 断;
 }

@@ -1,17 +1,19 @@
 blockdiag {
-  521 [label = "泡\n521 bubbles"];
-  137 [label = "水\n137 water"];
-  None [label = "勹\nNone bound up"];
-  1 [label = "一\n1 one"];
-  520 [label = "包\n520 wrap"];
-  519 [label = "已\n519 already"];
-  515 [label = "己\n515 self"];
-  137 -> 521;
-  None -> 137;
-  1 -> None;
-  None -> 137;
-  520 -> 521;
-  None -> 520;
-  519 -> 520;
-  515 -> 519;
+  泡 [label = "泡\n521 bubbles"];
+  水 [label = "水\n137 water"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  丶 [label = "丶\nNone a drop of"];
+  包 [label = "包\n520 wrap"];
+  勹 [label = "勹\nNone bound up"];
+  已 [label = "已\n519 already"];
+  己 [label = "己\n515 self"];
+  水 -> 泡;
+  丨 -> 水;
+  一 -> 丨;
+  丶 -> 水;
+  包 -> 泡;
+  勹 -> 包;
+  已 -> 包;
+  己 -> 已;
 }

@@ -1,7 +1,7 @@
 blockdiag {
-  309 [label = "各\n309 each"];
-  11 [label = "口\n11 mouth"];
-  None [label = "夂\nNone walking legs"];
-  11 -> 309;
-  None -> 309;
+  各 [label = "各\n309 each"];
+  口 [label = "口\n11 mouth"];
+  夂 [label = "夂\nNone walking legs"];
+  口 -> 各;
+  夂 -> 各;
 }

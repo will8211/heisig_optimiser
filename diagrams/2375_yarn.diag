@@ -1,12 +1,14 @@
 blockdiag {
-  2375 [label = "纱\n2375 yarn"];
-  None [label = "丶\nNone a drop of"];
-  110 [label = "少\n110 few"];
-  109 [label = "小\n109 small"];
-  None -> 2375;
-  None -> None;
-  110 -> 2375;
-  None -> 110;
-  109 -> 110;
-  None -> 109;
+  纱 [label = "纱\n2375 yarn"];
+  纟 [label = "纟\nNone thread"];
+  厶 [label = "厶\nNone elbow"];
+  少 [label = "少\n110 few"];
+  丶 [label = "丶\nNone a drop of"];
+  小 [label = "小\n109 small"];
+  纟 -> 纱;
+  厶 -> 纟;
+  少 -> 纱;
+  丶 -> 少;
+  小 -> 少;
+  丶 -> 小;
 }

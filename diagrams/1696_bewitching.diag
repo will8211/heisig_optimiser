@@ -1,11 +1,11 @@
 blockdiag {
-  1696 [label = "妖\n1696 bewitching"];
-  102 [label = "女\n102 woman"];
-  440 [label = "夭\n440 die young"];
-  113 [label = "大\n113 large"];
-  None [label = "丶\nNone a drop of"];
-  102 -> 1696;
-  440 -> 1696;
-  113 -> 440;
-  None -> 440;
+  妖 [label = "妖\n1696 bewitching"];
+  女 [label = "女\n102 woman"];
+  夭 [label = "夭\n440 die young"];
+  大 [label = "大\n113 large"];
+  丶 [label = "丶\nNone a drop of"];
+  女 -> 妖;
+  夭 -> 妖;
+  大 -> 夭;
+  丶 -> 夭;
 }

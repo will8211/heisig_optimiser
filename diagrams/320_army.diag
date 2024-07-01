@@ -1,7 +1,7 @@
 blockdiag {
-  320 [label = "军\n320 army"];
-  None [label = "冖\nNone crown"];
-  300 [label = "车\n300 car"];
-  None -> 320;
-  300 -> 320;
+  军 [label = "军\n320 army"];
+  冖 [label = "冖\nNone crown"];
+  车 [label = "车\n300 car"];
+  冖 -> 军;
+  车 -> 军;
 }

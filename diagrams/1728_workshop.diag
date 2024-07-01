@@ -1,18 +1,19 @@
 blockdiag {
-  1728 [label = "坊\n1728 workshop"];
-  158 [label = "土\n158 soil"];
-  494 [label = "方\n494 direction"];
-  83 [label = "刀\n83 sword"];
-  None [label = "囧只－口\nNone animal legs"];
-  6 [label = "六\n6 six"];
-  8 [label = "八\n8 eight"];
-  158 -> 1728;
-  494 -> 1728;
-  83 -> 494;
-  None -> 494;
-  6 -> None;
-  None -> 6;
-  8 -> None;
-  None -> None;
-  8 -> None;
+  坊 [label = "坊\n1728 workshop"];
+  土 [label = "土\n158 soil"];
+  方 [label = "方\n494 direction"];
+  刀 [label = "刀\n83 sword"];
+  亠 [label = "亠\nNone top hat"];
+  六 [label = "六\n6 six"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  土 -> 坊;
+  方 -> 坊;
+  刀 -> 方;
+  亠 -> 方;
+  六 -> 亠;
+  囧只－口 -> 六;
+  八 -> 囧只－口;
+  囧只－口 -> 亠;
+  八 -> 囧只－口;
 }

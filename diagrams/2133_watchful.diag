@@ -1,14 +1,15 @@
 blockdiag {
-  2133 [label = "惕\n2133 watchful"];
-  563 [label = "心\n563 heart"];
-  880 [label = "易\n880 easy"];
-  12 [label = "日\n12 day"];
-  877 [label = "勿\n877 not"];
-  None [label = "豕\nNone sow"];
-  563 -> 2133;
-  880 -> 2133;
-  12 -> 880;
-  877 -> 880;
-  None -> 877;
-  None -> None;
+  惕 [label = "惕\n2133 watchful"];
+  心 [label = "心\n563 heart"];
+  易 [label = "易\n880 easy"];
+  日 [label = "日\n12 day"];
+  勿 [label = "勿\n877 not"];
+  𠃓 [label = "𠃓\nNone piglets"];
+  豕 [label = "豕\nNone sow"];
+  心 -> 惕;
+  易 -> 惕;
+  日 -> 易;
+  勿 -> 易;
+  𠃓 -> 勿;
+  豕 -> 𠃓;
 }

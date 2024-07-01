@@ -1,7 +1,7 @@
 blockdiag {
-  1312 [label = "产\n1312 products"];
-  444 [label = "立\n444 standing up"];
-  121 [label = "厂\n121 factory"];
-  444 -> 1312;
-  121 -> 1312;
+  产 [label = "产\n1312 products"];
+  立 [label = "立\n444 standing up"];
+  厂 [label = "厂\n121 factory"];
+  立 -> 产;
+  厂 -> 产;
 }

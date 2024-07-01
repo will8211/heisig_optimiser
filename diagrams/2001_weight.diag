@@ -1,15 +1,15 @@
 blockdiag {
-  2001 [label = "衡\n2001 weight"];
-  754 [label = "行\n754 line of business"];
-  113 [label = "大\n113 large"];
-  154 [label = "鱼\n154 fish"];
-  None [label = "勹\nNone bound up"];
-  14 [label = "田\n14 rice field"];
-  1 [label = "一\n1 one"];
-  754 -> 2001;
-  113 -> 2001;
-  154 -> 2001;
-  None -> 154;
-  14 -> 154;
-  1 -> 154;
+  衡 [label = "衡\n2001 weight"];
+  行 [label = "行\n754 line of business"];
+  大 [label = "大\n113 large"];
+  鱼 [label = "鱼\n154 fish"];
+  勹 [label = "勹\nNone bound up"];
+  田 [label = "田\n14 rice field"];
+  一 [label = "一\n1 one"];
+  行 -> 衡;
+  大 -> 衡;
+  鱼 -> 衡;
+  勹 -> 鱼;
+  田 -> 鱼;
+  一 -> 鱼;
 }

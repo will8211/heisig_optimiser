@@ -1,11 +1,11 @@
 blockdiag {
-  909 [label = "崇\n909 worship"];
-  688 [label = "山\n688 mountain"];
-  908 [label = "宗\n908 religion"];
-  None [label = "宀\nNone house"];
-  900 [label = "示\n900 show"];
-  688 -> 909;
-  908 -> 909;
-  None -> 908;
-  900 -> 908;
+  崇 [label = "崇\n909 worship"];
+  山 [label = "山\n688 mountain"];
+  宗 [label = "宗\n908 religion"];
+  宀 [label = "宀\nNone house"];
+  示 [label = "示\n900 show"];
+  山 -> 崇;
+  宗 -> 崇;
+  宀 -> 宗;
+  示 -> 宗;
 }

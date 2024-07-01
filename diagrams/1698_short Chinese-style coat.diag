@@ -1,19 +1,21 @@
 blockdiag {
-  1698 [label = "袄\n1698 short Chinese-style coat"];
-  400 [label = "衣\n400 clothing"];
-  None [label = "丶\nNone a drop of"];
-  6 [label = "六\n6 six"];
-  8 [label = "八\n8 eight"];
-  440 [label = "夭\n440 die young"];
-  113 [label = "大\n113 large"];
-  400 -> 1698;
-  None -> 400;
-  6 -> None;
-  None -> 6;
-  8 -> None;
-  None -> None;
-  8 -> None;
-  440 -> 1698;
-  113 -> 440;
-  None -> 440;
+  袄 [label = "袄\n1698 short Chinese-style coat"];
+  衣 [label = "衣\n400 clothing"];
+  亠 [label = "亠\nNone top hat"];
+  六 [label = "六\n6 six"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  夭 [label = "夭\n440 die young"];
+  大 [label = "大\n113 large"];
+  丶 [label = "丶\nNone a drop of"];
+  衣 -> 袄;
+  亠 -> 衣;
+  六 -> 亠;
+  囧只－口 -> 六;
+  八 -> 囧只－口;
+  囧只－口 -> 亠;
+  八 -> 囧只－口;
+  夭 -> 袄;
+  大 -> 夭;
+  丶 -> 夭;
 }

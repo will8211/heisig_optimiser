@@ -1,17 +1,17 @@
 blockdiag {
-  486 [label = "韵\n486 rhyme"];
-  484 [label = "音\n484 sound"];
-  444 [label = "立\n444 standing up"];
-  12 [label = "日\n12 day"];
-  66 [label = "匀\n66 uniform"];
-  None [label = "勹\nNone bound up"];
-  2 [label = "二\n2 two"];
-  1 [label = "一\n1 one"];
-  484 -> 486;
-  444 -> 484;
-  12 -> 484;
-  66 -> 486;
-  None -> 66;
-  2 -> 66;
-  1 -> 2;
+  韵 [label = "韵\n486 rhyme"];
+  音 [label = "音\n484 sound"];
+  立 [label = "立\n444 standing up"];
+  日 [label = "日\n12 day"];
+  匀 [label = "匀\n66 uniform"];
+  勹 [label = "勹\nNone bound up"];
+  二 [label = "二\n2 two"];
+  一 [label = "一\n1 one"];
+  音 -> 韵;
+  立 -> 音;
+  日 -> 音;
+  匀 -> 韵;
+  勹 -> 匀;
+  二 -> 匀;
+  一 -> 二;
 }

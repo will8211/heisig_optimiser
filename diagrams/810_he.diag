@@ -1,9 +1,9 @@
 blockdiag {
-  810 [label = "他\n810 he"];
-  793 [label = "人\n793 person"];
-  505 [label = "也\n505 also"];
-  95 [label = "乙\n95 second"];
-  793 -> 810;
-  505 -> 810;
-  95 -> 505;
+  他 [label = "他\n810 he"];
+  人 [label = "人\n793 person"];
+  也 [label = "也\n505 also"];
+  乙 [label = "乙\n95 second"];
+  人 -> 他;
+  也 -> 他;
+  乙 -> 也;
 }

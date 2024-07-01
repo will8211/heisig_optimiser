@@ -1,11 +1,11 @@
 blockdiag {
-  227 [label = "草\n227 grass"];
-  None [label = "艹\nNone flower"];
-  26 [label = "早\n26 early"];
-  12 [label = "日\n12 day"];
-  10 [label = "十\n10 ten"];
-  None -> 227;
-  26 -> 227;
-  12 -> 26;
-  10 -> 26;
+  草 [label = "草\n227 grass"];
+  艹 [label = "艹\nNone flower"];
+  早 [label = "早\n26 early"];
+  日 [label = "日\n12 day"];
+  十 [label = "十\n10 ten"];
+  艹 -> 草;
+  早 -> 草;
+  日 -> 早;
+  十 -> 早;
 }

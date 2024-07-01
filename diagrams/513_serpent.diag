@@ -1,11 +1,11 @@
 blockdiag {
-  513 [label = "蛇\n513 serpent"];
-  509 [label = "虫\n509 insect"];
-  462 [label = "它\n462 it"];
-  None [label = "宀\nNone house"];
-  453 [label = "匕\n453 ancient spoon"];
-  509 -> 513;
-  462 -> 513;
-  None -> 462;
-  453 -> 462;
+  蛇 [label = "蛇\n513 serpent"];
+  虫 [label = "虫\n509 insect"];
+  它 [label = "它\n462 it"];
+  宀 [label = "宀\nNone house"];
+  匕 [label = "匕\n453 ancient spoon"];
+  虫 -> 蛇;
+  它 -> 蛇;
+  宀 -> 它;
+  匕 -> 它;
 }

@@ -1,11 +1,11 @@
 blockdiag {
-  546 [label = "翔\n546 soar"];
-  528 [label = "羊\n528 sheep"];
-  None [label = "丷\nNone horns"];
-  1 [label = "一\n1 one"];
-  544 [label = "羽\n544 feathers"];
-  528 -> 546;
-  None -> 528;
-  1 -> None;
-  544 -> 546;
+  翔 [label = "翔\n546 soar"];
+  羊 [label = "羊\n528 sheep"];
+  丷 [label = "丷\nNone horns"];
+  一 [label = "一\n1 one"];
+  羽 [label = "羽\n544 feathers"];
+  羊 -> 翔;
+  丷 -> 羊;
+  一 -> 丷;
+  羽 -> 翔;
 }

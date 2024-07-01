@@ -1,17 +1,17 @@
 blockdiag {
-  2012 [label = "税\n2012 tax"];
-  762 [label = "禾\n762 standing grain"];
-  499 [label = "兑\n499 convert"];
-  107 [label = "兄\n107 elder brother"];
-  11 [label = "口\n11 mouth"];
-  56 [label = "儿\n56 youngster"];
-  None [label = "丷\nNone horns"];
-  1 [label = "一\n1 one"];
-  762 -> 2012;
-  499 -> 2012;
-  107 -> 499;
-  11 -> 107;
-  56 -> 107;
-  None -> 499;
-  1 -> None;
+  税 [label = "税\n2012 tax"];
+  禾 [label = "禾\n762 standing grain"];
+  兑 [label = "兑\n499 convert"];
+  兄 [label = "兄\n107 elder brother"];
+  口 [label = "口\n11 mouth"];
+  儿 [label = "儿\n56 youngster"];
+  丷 [label = "丷\nNone horns"];
+  一 [label = "一\n1 one"];
+  禾 -> 税;
+  兑 -> 税;
+  兄 -> 兑;
+  口 -> 兄;
+  儿 -> 兄;
+  丷 -> 兑;
+  一 -> 丷;
 }

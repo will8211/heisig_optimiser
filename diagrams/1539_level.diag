@@ -1,11 +1,11 @@
 blockdiag {
-  1539 [label = "坦\n1539 level"];
-  158 [label = "土\n158 soil"];
-  30 [label = "旦\n30 daybreak"];
-  12 [label = "日\n12 day"];
-  1 [label = "一\n1 one"];
-  158 -> 1539;
-  30 -> 1539;
-  12 -> 30;
-  1 -> 30;
+  坦 [label = "坦\n1539 level"];
+  土 [label = "土\n158 soil"];
+  旦 [label = "旦\n30 daybreak"];
+  日 [label = "日\n12 day"];
+  一 [label = "一\n1 one"];
+  土 -> 坦;
+  旦 -> 坦;
+  日 -> 旦;
+  一 -> 旦;
 }

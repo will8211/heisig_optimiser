@@ -1,7 +1,7 @@
 blockdiag {
-  2102 [label = "杖\n2102 cane"];
-  202 [label = "木\n202 tree"];
-  837 [label = "丈\n837 100 Chinese inches"];
-  202 -> 2102;
-  837 -> 2102;
+  杖 [label = "杖\n2102 cane"];
+  木 [label = "木\n202 tree"];
+  丈 [label = "丈\n837 100 Chinese inches"];
+  木 -> 杖;
+  丈 -> 杖;
 }

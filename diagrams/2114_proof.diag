@@ -1,13 +1,13 @@
 blockdiag {
-  2114 [label = "凭\n2114 proof"];
-  853 [label = "任\n853 appoint"];
-  793 [label = "人\n793 person"];
-  None [label = "壬\nNone porter"];
-  334 [label = "士\n334 soldier"];
-  57 [label = "几\n57 how many?"];
-  853 -> 2114;
-  793 -> 853;
-  None -> 853;
-  334 -> None;
-  57 -> 2114;
+  凭 [label = "凭\n2114 proof"];
+  任 [label = "任\n853 appoint"];
+  人 [label = "人\n793 person"];
+  壬 [label = "壬\nNone porter"];
+  士 [label = "士\n334 soldier"];
+  几 [label = "几\n57 how many?"];
+  任 -> 凭;
+  人 -> 任;
+  壬 -> 任;
+  士 -> 壬;
+  几 -> 凭;
 }

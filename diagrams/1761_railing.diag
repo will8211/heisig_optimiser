@@ -1,13 +1,13 @@
 blockdiag {
-  1761 [label = "栏\n1761 railing"];
-  202 [label = "木\n202 tree"];
-  533 [label = "兰\n533 orchid"];
-  528 [label = "羊\n528 sheep"];
-  None [label = "丷\nNone horns"];
-  1 [label = "一\n1 one"];
-  202 -> 1761;
-  533 -> 1761;
-  528 -> 533;
-  None -> 528;
-  1 -> None;
+  栏 [label = "栏\n1761 railing"];
+  木 [label = "木\n202 tree"];
+  兰 [label = "兰\n533 orchid"];
+  羊 [label = "羊\n528 sheep"];
+  丷 [label = "丷\nNone horns"];
+  一 [label = "一\n1 one"];
+  木 -> 栏;
+  兰 -> 栏;
+  羊 -> 兰;
+  丷 -> 羊;
+  一 -> 丷;
 }

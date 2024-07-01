@@ -1,15 +1,15 @@
 blockdiag {
-  2328 [label = "踪\n2328 tracks"];
-  1048 [label = "足\n1048 lower leg"];
-  11 [label = "口\n11 mouth"];
-  379 [label = "止\n379 stop"];
-  908 [label = "宗\n908 religion"];
-  None [label = "宀\nNone house"];
-  900 [label = "示\n900 show"];
-  1048 -> 2328;
-  11 -> 1048;
-  379 -> 1048;
-  908 -> 2328;
-  None -> 908;
-  900 -> 908;
+  踪 [label = "踪\n2328 tracks"];
+  足 [label = "足\n1048 lower leg"];
+  口 [label = "口\n11 mouth"];
+  止 [label = "止\n379 stop"];
+  宗 [label = "宗\n908 religion"];
+  宀 [label = "宀\nNone house"];
+  示 [label = "示\n900 show"];
+  足 -> 踪;
+  口 -> 足;
+  止 -> 足;
+  宗 -> 踪;
+  宀 -> 宗;
+  示 -> 宗;
 }

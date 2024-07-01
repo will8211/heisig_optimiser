@@ -1,7 +1,7 @@
 blockdiag {
-  2783 [label = "删\n2783 delete"];
-  2782 [label = "册\n2782 Vol."];
-  83 [label = "刀\n83 sword"];
-  2782 -> 2783;
-  83 -> 2783;
+  删 [label = "删\n2783 delete"];
+  册 [label = "册\n2782 Vol."];
+  刀 [label = "刀\n83 sword"];
+  册 -> 删;
+  刀 -> 删;
 }

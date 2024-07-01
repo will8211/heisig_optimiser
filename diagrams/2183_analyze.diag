@@ -1,7 +1,7 @@
 blockdiag {
-  2183 [label = "析\n2183 analyze"];
-  202 [label = "木\n202 tree"];
-  924 [label = "斤\n924 catty"];
-  202 -> 2183;
-  924 -> 2183;
+  析 [label = "析\n2183 analyze"];
+  木 [label = "木\n202 tree"];
+  斤 [label = "斤\n924 catty"];
+  木 -> 析;
+  斤 -> 析;
 }

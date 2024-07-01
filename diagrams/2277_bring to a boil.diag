@@ -1,14 +1,17 @@
 blockdiag {
-  2277 [label = "沸\n2277 bring to a boil"];
-  137 [label = "水\n137 water"];
-  None [label = "囧介－𠆢\nNone crutches"];
-  1 [label = "一\n1 one"];
-  1013 [label = "弓\n1013 bow"];
-  137 -> 2277;
-  None -> 137;
-  1 -> None;
-  None -> 137;
-  None -> 2277;
-  None -> None;
-  1013 -> None;
+  沸 [label = "沸\n2277 bring to a boil"];
+  水 [label = "水\n137 water"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  丶 [label = "丶\nNone a drop of"];
+  弗 [label = "弗\nNone dollar sign"];
+  囧介－𠆢 [label = "囧介－𠆢\nNone crutches"];
+  弓 [label = "弓\n1013 bow"];
+  水 -> 沸;
+  丨 -> 水;
+  一 -> 丨;
+  丶 -> 水;
+  弗 -> 沸;
+  囧介－𠆢 -> 弗;
+  弓 -> 弗;
 }

@@ -1,16 +1,17 @@
 blockdiag {
-  1374 [label = "婚\n1374 marriage"];
-  102 [label = "女\n102 woman"];
-  1371 [label = "氏\n1371 family name"];
-  None [label = "囧以－丶人\nNone plow"];
-  1 [label = "一\n1 one"];
-  95 [label = "乙\n95 second"];
-  12 [label = "日\n12 day"];
-  102 -> 1374;
-  1371 -> 1374;
-  None -> 1371;
-  None -> 1371;
-  1 -> 1371;
-  95 -> 1371;
-  12 -> 1374;
+  婚 [label = "婚\n1374 marriage"];
+  女 [label = "女\n102 woman"];
+  氏 [label = "氏\n1371 family name"];
+  丶 [label = "丶\nNone a drop of"];
+  囧以－丶人 [label = "囧以－丶人\nNone plow"];
+  一 [label = "一\n1 one"];
+  乙 [label = "乙\n95 second"];
+  日 [label = "日\n12 day"];
+  女 -> 婚;
+  氏 -> 婚;
+  丶 -> 氏;
+  囧以－丶人 -> 氏;
+  一 -> 氏;
+  乙 -> 氏;
+  日 -> 婚;
 }

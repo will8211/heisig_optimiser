@@ -1,9 +1,9 @@
 blockdiag {
-  1542 [label = "娃\n1542 newborn"];
-  102 [label = "女\n102 woman"];
-  None [label = "圭\nNone bricks"];
-  158 [label = "土\n158 soil"];
-  102 -> 1542;
-  None -> 1542;
-  158 -> None;
+  娃 [label = "娃\n1542 newborn"];
+  女 [label = "女\n102 woman"];
+  圭 [label = "圭\nNone bricks"];
+  土 [label = "土\n158 soil"];
+  女 -> 娃;
+  圭 -> 娃;
+  土 -> 圭;
 }

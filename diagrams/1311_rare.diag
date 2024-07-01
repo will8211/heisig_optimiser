@@ -1,14 +1,17 @@
 blockdiag {
-  1311 [label = "珍\n1311 rare"];
-  266 [label = "玉\n266 jade"];
-  265 [label = "王\n265 king"];
-  76 [label = "工\n76 work"];
-  None [label = "彡\nNone rooster tail"];
-  266 -> 1311;
-  265 -> 266;
-  76 -> 265;
-  None -> 266;
-  None -> 1311;
-  None -> None;
-  None -> None;
+  珍 [label = "珍\n1311 rare"];
+  玉 [label = "玉\n266 jade"];
+  王 [label = "王\n265 king"];
+  工 [label = "工\n76 work"];
+  丶 [label = "丶\nNone a drop of"];
+  㐱 [label = "㐱\nNone cocktail"];
+  𠆢 [label = "𠆢\nNone umbrella"];
+  彡 [label = "彡\nNone rooster tail"];
+  玉 -> 珍;
+  王 -> 玉;
+  工 -> 王;
+  丶 -> 玉;
+  㐱 -> 珍;
+  𠆢 -> 㐱;
+  彡 -> 㐱;
 }

@@ -1,13 +1,13 @@
 blockdiag {
-  2893 [label = "码\n2893 numeral"];
-  125 [label = "石\n125 stone"];
-  11 [label = "口\n11 mouth"];
-  121 [label = "厂\n121 factory"];
-  1453 [label = "马\n1453 horse"];
-  None [label = "囧与－丨一\nNone pointed tail"];
-  125 -> 2893;
-  11 -> 125;
-  121 -> 125;
-  1453 -> 2893;
-  None -> 1453;
+  码 [label = "码\n2893 numeral"];
+  石 [label = "石\n125 stone"];
+  口 [label = "口\n11 mouth"];
+  厂 [label = "厂\n121 factory"];
+  马 [label = "马\n1453 horse"];
+  囧与－丨一 [label = "囧与－丨一\nNone pointed tail"];
+  石 -> 码;
+  口 -> 石;
+  厂 -> 石;
+  马 -> 码;
+  囧与－丨一 -> 马;
 }

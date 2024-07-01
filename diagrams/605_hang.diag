@@ -1,8 +1,9 @@
 blockdiag {
-  605 [label = "挂\n605 hang"];
-  None [label = "圭\nNone bricks"];
-  158 [label = "土\n158 soil"];
-  None -> 605;
-  None -> 605;
-  158 -> None;
+  挂 [label = "挂\n605 hang"];
+  扌 [label = "扌\nNone fingers"];
+  圭 [label = "圭\nNone bricks"];
+  土 [label = "土\n158 soil"];
+  扌 -> 挂;
+  圭 -> 挂;
+  土 -> 圭;
 }

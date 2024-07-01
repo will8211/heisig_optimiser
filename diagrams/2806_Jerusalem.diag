@@ -1,8 +1,9 @@
 blockdiag {
-  2806 [label = "耶\n2806 Jerusalem"];
-  717 [label = "耳\n717 ear"];
-  None [label = "阝\nNone pinnacle"];
-  717 -> 2806;
-  None -> 2806;
-  None -> None;
+  耶 [label = "耶\n2806 Jerusalem"];
+  耳 [label = "耳\n717 ear"];
+  囧阝 [label = "囧阝\nNone city walls"];
+  阝 [label = "阝\nNone pinnacle"];
+  耳 -> 耶;
+  囧阝 -> 耶;
+  阝 -> 囧阝;
 }

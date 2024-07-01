@@ -1,13 +1,13 @@
 blockdiag {
-  1540 [label = "坝\n1540 dam"];
-  158 [label = "土\n158 soil"];
-  52 [label = "贝\n52 shellfish"];
-  15 [label = "目\n15 eye"];
-  None [label = "囧只－口\nNone animal legs"];
-  8 [label = "八\n8 eight"];
-  158 -> 1540;
-  52 -> 1540;
-  15 -> 52;
-  None -> 52;
-  8 -> None;
+  坝 [label = "坝\n1540 dam"];
+  土 [label = "土\n158 soil"];
+  贝 [label = "贝\n52 shellfish"];
+  目 [label = "目\n15 eye"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  土 -> 坝;
+  贝 -> 坝;
+  目 -> 贝;
+  囧只－口 -> 贝;
+  八 -> 囧只－口;
 }

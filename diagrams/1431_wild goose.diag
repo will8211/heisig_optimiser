@@ -1,10 +1,11 @@
 blockdiag {
-  1431 [label = "雁\n1431 wild goose"];
-  121 [label = "厂\n121 factory"];
-  None [label = "隹\nNone turkey"];
-  793 [label = "人\n793 person"];
-  121 -> 1431;
-  None -> 1431;
-  793 -> None;
-  None -> None;
+  雁 [label = "雁\n1431 wild goose"];
+  厂 [label = "厂\n121 factory"];
+  倠 [label = "倠\nNone birdman"];
+  人 [label = "人\n793 person"];
+  隹 [label = "隹\nNone turkey"];
+  厂 -> 雁;
+  倠 -> 雁;
+  人 -> 倠;
+  隹 -> 倠;
 }

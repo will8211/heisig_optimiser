@@ -1,17 +1,21 @@
 blockdiag {
-  2968 [label = "艘\n2968 vessels"];
-  1394 [label = "舟\n1394 boat"];
-  None [label = "丨\nNone walking stick"];
-  57 [label = "几\n57 how many?"];
-  633 [label = "又\n633 again"];
-  1 [label = "一\n1 one"];
-  1394 -> 2968;
-  None -> 1394;
-  None -> 1394;
-  57 -> None;
-  None -> 2968;
-  None -> None;
-  633 -> None;
-  None -> None;
-  1 -> None;
+  艘 [label = "艘\n2968 vessels"];
+  舟 [label = "舟\n1394 boat"];
+  丶 [label = "丶\nNone a drop of"];
+  冂 [label = "冂\nNone hood"];
+  几 [label = "几\n57 how many?"];
+  叟 [label = "叟\nNone cake mixer"];
+  臼 [label = "臼\nNone mortar"];
+  又 [label = "又\n633 again"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  舟 -> 艘;
+  丶 -> 舟;
+  冂 -> 舟;
+  几 -> 冂;
+  叟 -> 艘;
+  臼 -> 叟;
+  又 -> 叟;
+  丨 -> 叟;
+  一 -> 丨;
 }

@@ -1,10 +1,11 @@
 blockdiag {
-  2960 [label = "鼠\n2960 mouse"];
-  None [label = "囧以－丶人\nNone plow"];
-  425 [label = "雨\n425 rain"];
-  95 [label = "乙\n95 second"];
-  None -> 2960;
-  None -> 2960;
-  425 -> 2960;
-  95 -> 2960;
+  鼠 [label = "鼠\n2960 mouse"];
+  臼 [label = "臼\nNone mortar"];
+  囧以－丶人 [label = "囧以－丶人\nNone plow"];
+  雨 [label = "雨\n425 rain"];
+  乙 [label = "乙\n95 second"];
+  臼 -> 鼠;
+  囧以－丶人 -> 鼠;
+  雨 -> 鼠;
+  乙 -> 鼠;
 }

@@ -1,14 +1,15 @@
 blockdiag {
-  680 [label = "到\n680 arrive"];
-  678 [label = "至\n678 until"];
-  None [label = "厶\nNone elbow"];
-  1 [label = "一\n1 one"];
-  158 [label = "土\n158 soil"];
-  83 [label = "刀\n83 sword"];
-  678 -> 680;
-  None -> 678;
-  None -> None;
-  1 -> None;
-  158 -> 678;
-  83 -> 680;
+  到 [label = "到\n680 arrive"];
+  至 [label = "至\n678 until"];
+  囧会－亼 [label = "囧会－亼\nNone wall"];
+  厶 [label = "厶\nNone elbow"];
+  一 [label = "一\n1 one"];
+  土 [label = "土\n158 soil"];
+  刀 [label = "刀\n83 sword"];
+  至 -> 到;
+  囧会－亼 -> 至;
+  厶 -> 囧会－亼;
+  一 -> 囧会－亼;
+  土 -> 至;
+  刀 -> 到;
 }

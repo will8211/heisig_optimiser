@@ -1,18 +1,19 @@
 blockdiag {
-  2344 [label = "陋\n2344 undesirable"];
-  None [label = "囧冂\nNone belt"];
-  842 [label = "丙\n842 third"];
-  1 [label = "一\n1 one"];
-  840 [label = "内\n840 internal"];
-  410 [label = "巾\n410 towel"];
-  793 [label = "人\n793 person"];
-  95 [label = "乙\n95 second"];
-  None -> 2344;
-  842 -> 2344;
-  1 -> 842;
-  840 -> 842;
-  None -> 840;
-  410 -> None;
-  793 -> 840;
-  95 -> 2344;
+  陋 [label = "陋\n2344 undesirable"];
+  阝 [label = "阝\nNone pinnacle"];
+  丙 [label = "丙\n842 third"];
+  一 [label = "一\n1 one"];
+  内 [label = "内\n840 internal"];
+  囧冂 [label = "囧冂\nNone belt"];
+  巾 [label = "巾\n410 towel"];
+  人 [label = "人\n793 person"];
+  乙 [label = "乙\n95 second"];
+  阝 -> 陋;
+  丙 -> 陋;
+  一 -> 丙;
+  内 -> 丙;
+  囧冂 -> 内;
+  巾 -> 囧冂;
+  人 -> 内;
+  乙 -> 陋;
 }

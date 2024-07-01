@@ -1,13 +1,16 @@
 blockdiag {
-  1483 [label = "窗\n1483 window"];
-  1070 [label = "穴\n1070 hole"];
-  None [label = "夂\nNone walking legs"];
-  8 [label = "八\n8 eight"];
-  1070 -> 1483;
-  None -> 1070;
-  8 -> 1070;
-  None -> 1070;
-  8 -> None;
-  None -> 1483;
-  None -> None;
+  窗 [label = "窗\n1483 window"];
+  穴 [label = "穴\n1070 hole"];
+  宀 [label = "宀\nNone house"];
+  八 [label = "八\n8 eight"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  囱 [label = "囱\nNone GPS"];
+  夂 [label = "夂\nNone walking legs"];
+  穴 -> 窗;
+  宀 -> 穴;
+  八 -> 穴;
+  囧只－口 -> 穴;
+  八 -> 囧只－口;
+  囱 -> 窗;
+  夂 -> 囱;
 }

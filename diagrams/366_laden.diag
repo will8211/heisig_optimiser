@@ -1,12 +1,13 @@
 blockdiag {
-  366 [label = "载\n366 laden"];
-  300 [label = "车\n300 car"];
-  None [label = "弋\nNone arrow"];
-  158 [label = "土\n158 soil"];
-  361 [label = "戈\n361 halberd"];
-  300 -> 366;
-  None -> 366;
-  158 -> None;
-  361 -> None;
-  None -> 361;
+  载 [label = "载\n366 laden"];
+  车 [label = "车\n300 car"];
+  囧载－车 [label = "囧载－车\nNone Thanksgiving"];
+  土 [label = "土\n158 soil"];
+  戈 [label = "戈\n361 halberd"];
+  弋 [label = "弋\nNone arrow"];
+  车 -> 载;
+  囧载－车 -> 载;
+  土 -> 囧载－车;
+  戈 -> 囧载－车;
+  弋 -> 戈;
 }

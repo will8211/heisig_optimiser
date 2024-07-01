@@ -1,10 +1,11 @@
 blockdiag {
-  1222 [label = "胜\n1222 victory"];
-  13 [label = "月\n13 month"];
-  1218 [label = "生\n1218 life"];
-  None [label = "囧毒－母\nNone grow up"];
-  13 -> 1222;
-  1218 -> 1222;
-  None -> 1218;
-  None -> 1218;
+  胜 [label = "胜\n1222 victory"];
+  月 [label = "月\n13 month"];
+  生 [label = "生\n1218 life"];
+  丶 [label = "丶\nNone a drop of"];
+  囧毒－母 [label = "囧毒－母\nNone grow up"];
+  月 -> 胜;
+  生 -> 胜;
+  丶 -> 生;
+  囧毒－母 -> 生;
 }

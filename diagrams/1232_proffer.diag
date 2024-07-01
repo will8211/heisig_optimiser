@@ -1,9 +1,10 @@
 blockdiag {
-  1232 [label = "奉\n1232 proffer"];
-  None [label = "囧奉－𡗗\nNone cornstalk"];
-  1223 [label = "丰\n1223 plentiful"];
-  None -> 1232;
-  1223 -> None;
-  None -> 1232;
-  1223 -> None;
+  奉 [label = "奉\n1232 proffer"];
+  𡗗 [label = "𡗗\nNone bonsai"];
+  丰 [label = "丰\n1223 plentiful"];
+  囧奉－𡗗 [label = "囧奉－𡗗\nNone cornstalk"];
+  𡗗 -> 奉;
+  丰 -> 𡗗;
+  囧奉－𡗗 -> 奉;
+  丰 -> 囧奉－𡗗;
 }

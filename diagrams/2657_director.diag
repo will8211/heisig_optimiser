@@ -1,18 +1,19 @@
 blockdiag {
-  2657 [label = "董\n2657 director"];
-  None [label = "丶\nNone a drop of"];
-  1290 [label = "重\n1290 heavy"];
-  39 [label = "千\n39 thousand"];
-  10 [label = "十\n10 ten"];
-  179 [label = "里\n179 li"];
-  14 [label = "田\n14 rice field"];
-  158 [label = "土\n158 soil"];
-  None -> 2657;
-  1290 -> 2657;
-  39 -> 1290;
-  None -> 39;
-  10 -> 39;
-  179 -> 1290;
-  14 -> 179;
-  158 -> 179;
+  董 [label = "董\n2657 director"];
+  艹 [label = "艹\nNone flower"];
+  重 [label = "重\n1290 heavy"];
+  千 [label = "千\n39 thousand"];
+  丶 [label = "丶\nNone a drop of"];
+  十 [label = "十\n10 ten"];
+  里 [label = "里\n179 li"];
+  田 [label = "田\n14 rice field"];
+  土 [label = "土\n158 soil"];
+  艹 -> 董;
+  重 -> 董;
+  千 -> 重;
+  丶 -> 千;
+  十 -> 千;
+  里 -> 重;
+  田 -> 里;
+  土 -> 里;
 }

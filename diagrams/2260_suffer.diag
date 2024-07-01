@@ -1,16 +1,19 @@
 blockdiag {
-  2260 [label = "挨\n2260 suffer"];
-  None [label = "丶\nNone a drop of"];
-  998 [label = "矢\n998 dart"];
-  436 [label = "天\n436 heavens"];
-  1 [label = "一\n1 one"];
-  113 [label = "大\n113 large"];
-  None -> 2260;
-  None -> 2260;
-  None -> None;
-  998 -> None;
-  436 -> 998;
-  1 -> 436;
-  113 -> 436;
-  None -> 998;
+  挨 [label = "挨\n2260 suffer"];
+  扌 [label = "扌\nNone fingers"];
+  矣 [label = "矣\nNone crossbow"];
+  厶 [label = "厶\nNone elbow"];
+  矢 [label = "矢\n998 dart"];
+  天 [label = "天\n436 heavens"];
+  一 [label = "一\n1 one"];
+  大 [label = "大\n113 large"];
+  丶 [label = "丶\nNone a drop of"];
+  扌 -> 挨;
+  矣 -> 挨;
+  厶 -> 矣;
+  矢 -> 矣;
+  天 -> 矢;
+  一 -> 天;
+  大 -> 天;
+  丶 -> 矢;
 }

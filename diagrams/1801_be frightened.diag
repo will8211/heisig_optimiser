@@ -1,10 +1,11 @@
 blockdiag {
-  1801 [label = "惧\n1801 be frightened"];
-  563 [label = "心\n563 heart"];
-  None [label = "囧只－口\nNone animal legs"];
-  8 [label = "八\n8 eight"];
-  563 -> 1801;
-  None -> 1801;
-  None -> None;
-  8 -> None;
+  惧 [label = "惧\n1801 be frightened"];
+  心 [label = "心\n563 heart"];
+  囧具－目 [label = "囧具－目\nNone tool"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  心 -> 惧;
+  囧具－目 -> 惧;
+  囧只－口 -> 囧具－目;
+  八 -> 囧只－口;
 }

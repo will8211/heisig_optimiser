@@ -1,17 +1,17 @@
 blockdiag {
-  1365 [label = "嘴\n1365 orifice"];
-  11 [label = "口\n11 mouth"];
-  460 [label = "此\n460 this (literary)"];
-  379 [label = "止\n379 stop"];
-  453 [label = "匕\n453 ancient spoon"];
-  1362 [label = "角\n1362 angle"];
-  None [label = "勹\nNone bound up"];
-  1361 [label = "用\n1361 utilize"];
-  11 -> 1365;
-  460 -> 1365;
-  379 -> 460;
-  453 -> 460;
-  1362 -> 1365;
-  None -> 1362;
-  1361 -> 1362;
+  嘴 [label = "嘴\n1365 orifice"];
+  口 [label = "口\n11 mouth"];
+  此 [label = "此\n460 this (literary)"];
+  止 [label = "止\n379 stop"];
+  匕 [label = "匕\n453 ancient spoon"];
+  角 [label = "角\n1362 angle"];
+  勹 [label = "勹\nNone bound up"];
+  用 [label = "用\n1361 utilize"];
+  口 -> 嘴;
+  此 -> 嘴;
+  止 -> 此;
+  匕 -> 此;
+  角 -> 嘴;
+  勹 -> 角;
+  用 -> 角;
 }

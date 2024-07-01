@@ -1,8 +1,9 @@
 blockdiag {
-  610 [label = "找\n610 look for"];
-  None [label = "弋\nNone arrow"];
-  361 [label = "戈\n361 halberd"];
-  None -> 610;
-  361 -> 610;
-  None -> 361;
+  找 [label = "找\n610 look for"];
+  扌 [label = "扌\nNone fingers"];
+  戈 [label = "戈\n361 halberd"];
+  弋 [label = "弋\nNone arrow"];
+  扌 -> 找;
+  戈 -> 找;
+  弋 -> 戈;
 }

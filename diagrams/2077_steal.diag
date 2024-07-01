@@ -1,14 +1,17 @@
 blockdiag {
-  2077 [label = "偷\n2077 steal"];
-  793 [label = "人\n793 person"];
-  None [label = "刖\nNone butcher"];
-  13 [label = "月\n13 month"];
-  83 [label = "刀\n83 sword"];
-  793 -> 2077;
-  None -> 2077;
-  None -> None;
-  None -> None;
-  None -> None;
-  13 -> None;
-  83 -> None;
+  偷 [label = "偷\n2077 steal"];
+  人 [label = "人\n793 person"];
+  俞 [label = "俞\nNone slaughterhouse"];
+  亼 [label = "亼\nNone meeting"];
+  𠆢 [label = "𠆢\nNone umbrella"];
+  刖 [label = "刖\nNone butcher"];
+  月 [label = "月\n13 month"];
+  刀 [label = "刀\n83 sword"];
+  人 -> 偷;
+  俞 -> 偷;
+  亼 -> 俞;
+  𠆢 -> 亼;
+  刖 -> 俞;
+  月 -> 刖;
+  刀 -> 刖;
 }

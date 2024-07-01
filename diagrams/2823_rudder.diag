@@ -1,15 +1,17 @@
 blockdiag {
-  2823 [label = "舵\n2823 rudder"];
-  1394 [label = "舟\n1394 boat"];
-  None [label = "宀\nNone house"];
-  57 [label = "几\n57 how many?"];
-  462 [label = "它\n462 it"];
-  453 [label = "匕\n453 ancient spoon"];
-  1394 -> 2823;
-  None -> 1394;
-  None -> 1394;
-  57 -> None;
-  462 -> 2823;
-  None -> 462;
-  453 -> 462;
+  舵 [label = "舵\n2823 rudder"];
+  舟 [label = "舟\n1394 boat"];
+  丶 [label = "丶\nNone a drop of"];
+  冂 [label = "冂\nNone hood"];
+  几 [label = "几\n57 how many?"];
+  它 [label = "它\n462 it"];
+  宀 [label = "宀\nNone house"];
+  匕 [label = "匕\n453 ancient spoon"];
+  舟 -> 舵;
+  丶 -> 舟;
+  冂 -> 舟;
+  几 -> 冂;
+  它 -> 舵;
+  宀 -> 它;
+  匕 -> 它;
 }

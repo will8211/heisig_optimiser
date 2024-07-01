@@ -1,16 +1,18 @@
 blockdiag {
-  1666 [label = "喊\n1666 yell"];
-  11 [label = "口\n11 mouth"];
-  372 [label = "咸\n372 salty"];
-  None [label = "弋\nNone arrow"];
-  361 [label = "戈\n361 halberd"];
-  1 [label = "一\n1 one"];
-  11 -> 1666;
-  372 -> 1666;
-  11 -> 372;
-  None -> 372;
-  None -> None;
-  361 -> None;
-  None -> 361;
-  1 -> None;
+  喊 [label = "喊\n1666 yell"];
+  口 [label = "口\n11 mouth"];
+  咸 [label = "咸\n372 salty"];
+  戌 [label = "戌\nNone march"];
+  戊 [label = "戊\nNone parade"];
+  戈 [label = "戈\n361 halberd"];
+  弋 [label = "弋\nNone arrow"];
+  一 [label = "一\n1 one"];
+  口 -> 喊;
+  咸 -> 喊;
+  口 -> 咸;
+  戌 -> 咸;
+  戊 -> 戌;
+  戈 -> 戊;
+  弋 -> 戈;
+  一 -> 戌;
 }

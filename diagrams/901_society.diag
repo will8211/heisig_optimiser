@@ -1,7 +1,7 @@
 blockdiag {
-  901 [label = "社\n901 society"];
-  900 [label = "示\n900 show"];
-  158 [label = "土\n158 soil"];
-  900 -> 901;
-  158 -> 901;
+  社 [label = "社\n901 society"];
+  示 [label = "示\n900 show"];
+  土 [label = "土\n158 soil"];
+  示 -> 社;
+  土 -> 社;
 }

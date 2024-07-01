@@ -1,7 +1,7 @@
 blockdiag {
-  1150 [label = "眼\n1150 eyelet"];
-  15 [label = "目\n15 eye"];
-  None [label = "艮\nNone silver"];
-  15 -> 1150;
-  None -> 1150;
+  眼 [label = "眼\n1150 eyelet"];
+  目 [label = "目\n15 eye"];
+  艮 [label = "艮\nNone silver"];
+  目 -> 眼;
+  艮 -> 眼;
 }

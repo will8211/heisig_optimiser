@@ -1,10 +1,11 @@
 blockdiag {
-  466 [label = "轮\n466 wheel"];
-  None [label = "𠆢\nNone umbrella"];
-  453 [label = "匕\n453 ancient spoon"];
-  300 [label = "车\n300 car"];
-  None -> 466;
-  453 -> None;
-  None -> None;
-  300 -> 466;
+  轮 [label = "轮\n466 wheel"];
+  仑 [label = "仑\nNone lifeguard"];
+  匕 [label = "匕\n453 ancient spoon"];
+  𠆢 [label = "𠆢\nNone umbrella"];
+  车 [label = "车\n300 car"];
+  仑 -> 轮;
+  匕 -> 仑;
+  𠆢 -> 仑;
+  车 -> 轮;
 }

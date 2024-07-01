@@ -1,12 +1,13 @@
 blockdiag {
-  1324 [label = "唤\n1324 call out"];
-  11 [label = "口\n11 mouth"];
-  None [label = "勹\nNone bound up"];
-  1322 [label = "央\n1322 center"];
-  113 [label = "大\n113 large"];
-  11 -> 1324;
-  None -> 1324;
-  None -> None;
-  1322 -> None;
-  113 -> 1322;
+  唤 [label = "唤\n1324 call out"];
+  口 [label = "口\n11 mouth"];
+  奂 [label = "奂\nNone Victorian lady"];
+  勹 [label = "勹\nNone bound up"];
+  央 [label = "央\n1322 center"];
+  大 [label = "大\n113 large"];
+  口 -> 唤;
+  奂 -> 唤;
+  勹 -> 奂;
+  央 -> 奂;
+  大 -> 央;
 }

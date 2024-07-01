@@ -1,10 +1,11 @@
 blockdiag {
-  880 [label = "易\n880 easy"];
-  12 [label = "日\n12 day"];
-  877 [label = "勿\n877 not"];
-  None [label = "豕\nNone sow"];
-  12 -> 880;
-  877 -> 880;
-  None -> 877;
-  None -> None;
+  易 [label = "易\n880 easy"];
+  日 [label = "日\n12 day"];
+  勿 [label = "勿\n877 not"];
+  𠃓 [label = "𠃓\nNone piglets"];
+  豕 [label = "豕\nNone sow"];
+  日 -> 易;
+  勿 -> 易;
+  𠃓 -> 勿;
+  豕 -> 𠃓;
 }

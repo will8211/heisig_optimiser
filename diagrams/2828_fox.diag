@@ -1,14 +1,15 @@
 blockdiag {
-  2828 [label = "狐\n2828 fox"];
-  239 [label = "犬\n239 pooch"];
-  113 [label = "大\n113 large"];
-  None [label = "𠂆\nNone drag"];
-  1399 [label = "瓜\n1399 melon"];
-  663 [label = "爪\n663 claw"];
-  239 -> 2828;
-  113 -> 239;
-  None -> 239;
-  1399 -> 2828;
-  663 -> 1399;
-  None -> 663;
+  狐 [label = "狐\n2828 fox"];
+  犬 [label = "犬\n239 pooch"];
+  大 [label = "大\n113 large"];
+  丶 [label = "丶\nNone a drop of"];
+  瓜 [label = "瓜\n1399 melon"];
+  爪 [label = "爪\n663 claw"];
+  𠂆 [label = "𠂆\nNone drag"];
+  犬 -> 狐;
+  大 -> 犬;
+  丶 -> 犬;
+  瓜 -> 狐;
+  爪 -> 瓜;
+  𠂆 -> 爪;
 }

@@ -1,8 +1,9 @@
 blockdiag {
-  261 [label = "茶\n261 tea"];
-  None [label = "𠆢\nNone umbrella"];
-  202 [label = "木\n202 tree"];
-  None -> 261;
-  202 -> 261;
-  None -> 261;
+  茶 [label = "茶\n261 tea"];
+  艹 [label = "艹\nNone flower"];
+  木 [label = "木\n202 tree"];
+  𠆢 [label = "𠆢\nNone umbrella"];
+  艹 -> 茶;
+  木 -> 茶;
+  𠆢 -> 茶;
 }

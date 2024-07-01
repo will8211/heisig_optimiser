@@ -1,14 +1,16 @@
 blockdiag {
-  530 [label = "洋\n530 ocean"];
-  137 [label = "水\n137 water"];
-  None [label = "丷\nNone horns"];
-  1 [label = "一\n1 one"];
-  528 [label = "羊\n528 sheep"];
-  137 -> 530;
-  None -> 137;
-  1 -> None;
-  None -> 137;
-  528 -> 530;
-  None -> 528;
-  1 -> None;
+  洋 [label = "洋\n530 ocean"];
+  水 [label = "水\n137 water"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  丶 [label = "丶\nNone a drop of"];
+  羊 [label = "羊\n528 sheep"];
+  丷 [label = "丷\nNone horns"];
+  水 -> 洋;
+  丨 -> 水;
+  一 -> 丨;
+  丶 -> 水;
+  羊 -> 洋;
+  丷 -> 羊;
+  一 -> 丷;
 }

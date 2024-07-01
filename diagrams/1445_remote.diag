@@ -1,14 +1,17 @@
 blockdiag {
-  1445 [label = "遥\n1445 remote"];
-  None [label = "辶\nNone road"];
-  663 [label = "爪\n663 claw"];
-  542 [label = "午\n542 noon"];
-  688 [label = "山\n688 mountain"];
-  None -> 1445;
-  663 -> None;
-  None -> 663;
-  None -> None;
-  542 -> None;
-  688 -> None;
-  None -> 1445;
+  遥 [label = "遥\n1445 remote"];
+  䍃 [label = "䍃\nNone can opener"];
+  爪 [label = "爪\n663 claw"];
+  𠂆 [label = "𠂆\nNone drag"];
+  缶 [label = "缶\nNone tin can"];
+  午 [label = "午\n542 noon"];
+  山 [label = "山\n688 mountain"];
+  辶 [label = "辶\nNone road"];
+  䍃 -> 遥;
+  爪 -> 䍃;
+  𠂆 -> 爪;
+  缶 -> 䍃;
+  午 -> 缶;
+  山 -> 缶;
+  辶 -> 遥;
 }

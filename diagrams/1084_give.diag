@@ -1,12 +1,15 @@
 blockdiag {
-  1084 [label = "给\n1084 give"];
-  None [label = "𠆢\nNone umbrella"];
-  262 [label = "合\n262 fit"];
-  11 [label = "口\n11 mouth"];
-  None -> 1084;
-  None -> None;
-  262 -> 1084;
-  None -> 262;
-  None -> None;
-  11 -> 262;
+  给 [label = "给\n1084 give"];
+  纟 [label = "纟\nNone thread"];
+  厶 [label = "厶\nNone elbow"];
+  合 [label = "合\n262 fit"];
+  亼 [label = "亼\nNone meeting"];
+  𠆢 [label = "𠆢\nNone umbrella"];
+  口 [label = "口\n11 mouth"];
+  纟 -> 给;
+  厶 -> 纟;
+  合 -> 给;
+  亼 -> 合;
+  𠆢 -> 亼;
+  口 -> 合;
 }

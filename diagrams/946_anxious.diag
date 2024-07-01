@@ -1,8 +1,9 @@
 blockdiag {
-  946 [label = "急\n946 anxious"];
-  None [label = "彐\nNone broom"];
-  563 [label = "心\n563 heart"];
-  None -> 946;
-  None -> 946;
-  563 -> 946;
+  急 [label = "急\n946 anxious"];
+  勹 [label = "勹\nNone bound up"];
+  彐 [label = "彐\nNone broom"];
+  心 [label = "心\n563 heart"];
+  勹 -> 急;
+  彐 -> 急;
+  心 -> 急;
 }

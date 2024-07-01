@@ -1,11 +1,13 @@
 blockdiag {
-  1674 [label = "津\n1674 Tianjin"];
-  137 [label = "水\n137 water"];
-  None [label = "聿\nNone brush"];
-  1 [label = "一\n1 one"];
-  137 -> 1674;
-  None -> 137;
-  1 -> None;
-  None -> 137;
-  None -> 1674;
+  津 [label = "津\n1674 Tianjin"];
+  水 [label = "水\n137 water"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  丶 [label = "丶\nNone a drop of"];
+  聿 [label = "聿\nNone brush"];
+  水 -> 津;
+  丨 -> 水;
+  一 -> 丨;
+  丶 -> 水;
+  聿 -> 津;
 }

@@ -1,15 +1,17 @@
 blockdiag {
-  408 [label = "农\n408 agriculture"];
-  None [label = "囧只－口\nNone animal legs"];
-  400 [label = "衣\n400 clothing"];
-  6 [label = "六\n6 six"];
-  8 [label = "八\n8 eight"];
-  None -> 408;
-  400 -> 408;
-  None -> 400;
-  6 -> None;
-  None -> 6;
-  8 -> None;
-  None -> None;
-  8 -> None;
+  农 [label = "农\n408 agriculture"];
+  冖 [label = "冖\nNone crown"];
+  衣 [label = "衣\n400 clothing"];
+  亠 [label = "亠\nNone top hat"];
+  六 [label = "六\n6 six"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  冖 -> 农;
+  衣 -> 农;
+  亠 -> 衣;
+  六 -> 亠;
+  囧只－口 -> 六;
+  八 -> 囧只－口;
+  囧只－口 -> 亠;
+  八 -> 囧只－口;
 }

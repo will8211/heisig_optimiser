@@ -1,14 +1,17 @@
 blockdiag {
-  None [label = "幺\nNone cocoon"];
-  2411 [label = "玄\n2411 mysterious"];
-  6 [label = "六\n6 six"];
-  8 [label = "八\n8 eight"];
-  2411 -> None;
-  None -> 2411;
-  6 -> None;
-  None -> 6;
-  8 -> None;
-  None -> None;
-  8 -> None;
-  None -> 2411;
+  兹 [label = "兹\nNone Mona Lisa"];
+  玄 [label = "玄\n2411 mysterious"];
+  亠 [label = "亠\nNone top hat"];
+  六 [label = "六\n6 six"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  幺 [label = "幺\nNone cocoon"];
+  玄 -> 兹;
+  亠 -> 玄;
+  六 -> 亠;
+  囧只－口 -> 六;
+  八 -> 囧只－口;
+  囧只－口 -> 亠;
+  八 -> 囧只－口;
+  幺 -> 玄;
 }

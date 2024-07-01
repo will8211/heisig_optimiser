@@ -1,12 +1,13 @@
 blockdiag {
-  996 [label = "还\n996 give back"];
-  991 [label = "不\n991 no"];
-  1 [label = "一\n1 one"];
-  793 [label = "人\n793 person"];
-  None [label = "辶\nNone road"];
-  991 -> 996;
-  1 -> 991;
-  793 -> 991;
-  None -> 991;
-  None -> 996;
+  还 [label = "还\n996 give back"];
+  不 [label = "不\n991 no"];
+  一 [label = "一\n1 one"];
+  人 [label = "人\n793 person"];
+  丶 [label = "丶\nNone a drop of"];
+  辶 [label = "辶\nNone road"];
+  不 -> 还;
+  一 -> 不;
+  人 -> 不;
+  丶 -> 不;
+  辶 -> 还;
 }

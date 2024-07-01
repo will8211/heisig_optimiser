@@ -1,12 +1,12 @@
 blockdiag {
-  1509 [label = "兽\n1509 beast"];
-  None [label = "丷\nNone horns"];
-  1 [label = "一\n1 one"];
-  14 [label = "田\n14 rice field"];
-  11 [label = "口\n11 mouth"];
-  None -> 1509;
-  1 -> None;
-  14 -> 1509;
-  1 -> 1509;
-  11 -> 1509;
+  兽 [label = "兽\n1509 beast"];
+  丷 [label = "丷\nNone horns"];
+  一 [label = "一\n1 one"];
+  田 [label = "田\n14 rice field"];
+  口 [label = "口\n11 mouth"];
+  丷 -> 兽;
+  一 -> 丷;
+  田 -> 兽;
+  一 -> 兽;
+  口 -> 兽;
 }

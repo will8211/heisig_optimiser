@@ -1,6 +1,7 @@
 blockdiag {
-  1193 [label = "收\n1193 receive"];
-  None [label = "攵\nNone taskmaster"];
-  None -> 1193;
-  None -> 1193;
+  收 [label = "收\n1193 receive"];
+  丩 [label = "丩\nNone cornucopia"];
+  攵 [label = "攵\nNone taskmaster"];
+  丩 -> 收;
+  攵 -> 收;
 }

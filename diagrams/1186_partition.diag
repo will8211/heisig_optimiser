@@ -1,17 +1,17 @@
 blockdiag {
-  1186 [label = "壁\n1186 partition"];
-  1185 [label = "辟\n1185 repudiate"];
-  882 [label = "尸\n882 corpse"];
-  11 [label = "口\n11 mouth"];
-  1183 [label = "辛\n1183 peppery"];
-  444 [label = "立\n444 standing up"];
-  10 [label = "十\n10 ten"];
-  158 [label = "土\n158 soil"];
-  1185 -> 1186;
-  882 -> 1185;
-  11 -> 1185;
-  1183 -> 1185;
-  444 -> 1183;
-  10 -> 1183;
-  158 -> 1186;
+  壁 [label = "壁\n1186 partition"];
+  辟 [label = "辟\n1185 repudiate"];
+  尸 [label = "尸\n882 corpse"];
+  口 [label = "口\n11 mouth"];
+  辛 [label = "辛\n1183 peppery"];
+  立 [label = "立\n444 standing up"];
+  十 [label = "十\n10 ten"];
+  土 [label = "土\n158 soil"];
+  辟 -> 壁;
+  尸 -> 辟;
+  口 -> 辟;
+  辛 -> 辟;
+  立 -> 辛;
+  十 -> 辛;
+  土 -> 壁;
 }

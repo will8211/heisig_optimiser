@@ -1,14 +1,17 @@
 blockdiag {
-  1369 [label = "编\n1369 compile"];
-  None [label = "丶\nNone a drop of"];
-  1367 [label = "扁\n1367 flat"];
-  896 [label = "户\n896 door"];
-  882 [label = "尸\n882 corpse"];
-  None -> 1369;
-  None -> None;
-  1367 -> 1369;
-  None -> 1367;
-  896 -> 1367;
-  None -> 896;
-  882 -> 896;
+  编 [label = "编\n1369 compile"];
+  纟 [label = "纟\nNone thread"];
+  厶 [label = "厶\nNone elbow"];
+  扁 [label = "扁\n1367 flat"];
+  冊 [label = "冊\nNone tome"];
+  户 [label = "户\n896 door"];
+  丶 [label = "丶\nNone a drop of"];
+  尸 [label = "尸\n882 corpse"];
+  纟 -> 编;
+  厶 -> 纟;
+  扁 -> 编;
+  冊 -> 扁;
+  户 -> 扁;
+  丶 -> 户;
+  尸 -> 户;
 }

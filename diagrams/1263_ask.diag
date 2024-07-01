@@ -1,7 +1,7 @@
 blockdiag {
-  1263 [label = "问\n1263 ask"];
-  1260 [label = "门\n1260 gate"];
-  11 [label = "口\n11 mouth"];
-  1260 -> 1263;
-  11 -> 1263;
+  问 [label = "问\n1263 ask"];
+  门 [label = "门\n1260 gate"];
+  口 [label = "口\n11 mouth"];
+  门 -> 问;
+  口 -> 问;
 }

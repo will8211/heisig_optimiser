@@ -1,13 +1,13 @@
 blockdiag {
-  1364 [label = "解\n1364 untie"];
-  1362 [label = "角\n1362 angle"];
-  None [label = "勹\nNone bound up"];
-  1361 [label = "用\n1361 utilize"];
-  83 [label = "刀\n83 sword"];
-  252 [label = "牛\n252 cow"];
-  1362 -> 1364;
-  None -> 1362;
-  1361 -> 1362;
-  83 -> 1364;
-  252 -> 1364;
+  解 [label = "解\n1364 untie"];
+  角 [label = "角\n1362 angle"];
+  勹 [label = "勹\nNone bound up"];
+  用 [label = "用\n1361 utilize"];
+  刀 [label = "刀\n83 sword"];
+  牛 [label = "牛\n252 cow"];
+  角 -> 解;
+  勹 -> 角;
+  用 -> 角;
+  刀 -> 解;
+  牛 -> 解;
 }

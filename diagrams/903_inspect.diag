@@ -1,11 +1,11 @@
 blockdiag {
-  903 [label = "视\n903 inspect"];
-  900 [label = "示\n900 show"];
-  58 [label = "见\n58 see"];
-  15 [label = "目\n15 eye"];
-  56 [label = "儿\n56 youngster"];
-  900 -> 903;
-  58 -> 903;
-  15 -> 58;
-  56 -> 58;
+  视 [label = "视\n903 inspect"];
+  示 [label = "示\n900 show"];
+  见 [label = "见\n58 see"];
+  目 [label = "目\n15 eye"];
+  儿 [label = "儿\n56 youngster"];
+  示 -> 视;
+  见 -> 视;
+  目 -> 见;
+  儿 -> 见;
 }

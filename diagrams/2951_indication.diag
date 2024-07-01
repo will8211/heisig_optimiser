@@ -1,19 +1,21 @@
 blockdiag {
-  2951 [label = "迹\n2951 indication"];
-  1491 [label = "亦\n1491 likewise"];
-  None [label = "辶\nNone road"];
-  6 [label = "六\n6 six"];
-  8 [label = "八\n8 eight"];
-  83 [label = "刀\n83 sword"];
-  1491 -> 2951;
-  None -> 1491;
-  6 -> None;
-  None -> 6;
-  8 -> None;
-  None -> None;
-  8 -> None;
-  None -> 1491;
-  8 -> None;
-  83 -> 1491;
-  None -> 2951;
+  迹 [label = "迹\n2951 indication"];
+  亦 [label = "亦\n1491 likewise"];
+  亠 [label = "亠\nNone top hat"];
+  六 [label = "六\n6 six"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  刀 [label = "刀\n83 sword"];
+  辶 [label = "辶\nNone road"];
+  亦 -> 迹;
+  亠 -> 亦;
+  六 -> 亠;
+  囧只－口 -> 六;
+  八 -> 囧只－口;
+  囧只－口 -> 亠;
+  八 -> 囧只－口;
+  囧只－口 -> 亦;
+  八 -> 囧只－口;
+  刀 -> 亦;
+  辶 -> 迹;
 }

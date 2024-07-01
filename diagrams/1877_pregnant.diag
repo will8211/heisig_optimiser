@@ -1,7 +1,7 @@
 blockdiag {
-  1877 [label = "孕\n1877 pregnant"];
-  625 [label = "乃\n625 only then"];
-  97 [label = "子\n97 child"];
-  625 -> 1877;
-  97 -> 1877;
+  孕 [label = "孕\n1877 pregnant"];
+  乃 [label = "乃\n625 only then"];
+  子 [label = "子\n97 child"];
+  乃 -> 孕;
+  子 -> 孕;
 }

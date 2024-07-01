@@ -1,10 +1,11 @@
 blockdiag {
-  1101 [label = "却\n1101 withdraw"];
-  675 [label = "去\n675 go"];
-  158 [label = "土\n158 soil"];
-  None [label = "卩\nNone stamp"];
-  675 -> 1101;
-  158 -> 675;
-  None -> 675;
-  None -> 1101;
+  却 [label = "却\n1101 withdraw"];
+  去 [label = "去\n675 go"];
+  土 [label = "土\n158 soil"];
+  厶 [label = "厶\nNone elbow"];
+  卩 [label = "卩\nNone stamp"];
+  去 -> 却;
+  土 -> 去;
+  厶 -> 去;
+  卩 -> 却;
 }

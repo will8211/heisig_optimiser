@@ -1,7 +1,9 @@
 blockdiag {
-  None [label = "豕\nNone sow"];
-  663 [label = "爪\n663 claw"];
-  663 -> None;
-  None -> 663;
-  None -> None;
+  豸 [label = "豸\nNone leopard"];
+  爪 [label = "爪\n663 claw"];
+  𠂆 [label = "𠂆\nNone drag"];
+  豕 [label = "豕\nNone sow"];
+  爪 -> 豸;
+  𠂆 -> 爪;
+  豕 -> 豸;
 }

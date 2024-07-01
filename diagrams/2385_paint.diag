@@ -1,8 +1,11 @@
 blockdiag {
-  2385 [label = "绘\n2385 paint"];
-  None [label = "𠆢\nNone umbrella"];
-  None -> 2385;
-  None -> None;
-  None -> 2385;
-  None -> None;
+  绘 [label = "绘\n2385 paint"];
+  纟 [label = "纟\nNone thread"];
+  厶 [label = "厶\nNone elbow"];
+  亼 [label = "亼\nNone meeting"];
+  𠆢 [label = "𠆢\nNone umbrella"];
+  纟 -> 绘;
+  厶 -> 纟;
+  亼 -> 绘;
+  𠆢 -> 亼;
 }

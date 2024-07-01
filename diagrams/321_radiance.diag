@@ -1,16 +1,17 @@
 blockdiag {
-  321 [label = "辉\n321 radiance"];
-  130 [label = "光\n130 ray"];
-  109 [label = "小\n109 small"];
-  None [label = "冖\nNone crown"];
-  56 [label = "儿\n56 youngster"];
-  320 [label = "军\n320 army"];
-  300 [label = "车\n300 car"];
-  130 -> 321;
-  109 -> 130;
-  None -> 109;
-  56 -> 130;
-  320 -> 321;
-  None -> 320;
-  300 -> 320;
+  辉 [label = "辉\n321 radiance"];
+  光 [label = "光\n130 ray"];
+  小 [label = "小\n109 small"];
+  丶 [label = "丶\nNone a drop of"];
+  儿 [label = "儿\n56 youngster"];
+  军 [label = "军\n320 army"];
+  冖 [label = "冖\nNone crown"];
+  车 [label = "车\n300 car"];
+  光 -> 辉;
+  小 -> 光;
+  丶 -> 小;
+  儿 -> 光;
+  军 -> 辉;
+  冖 -> 军;
+  车 -> 军;
 }

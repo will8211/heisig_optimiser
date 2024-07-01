@@ -1,7 +1,7 @@
 blockdiag {
-  2185 [label = "芹\n2185 celery"];
-  None [label = "艹\nNone flower"];
-  924 [label = "斤\n924 catty"];
-  None -> 2185;
-  924 -> 2185;
+  芹 [label = "芹\n2185 celery"];
+  艹 [label = "艹\nNone flower"];
+  斤 [label = "斤\n924 catty"];
+  艹 -> 芹;
+  斤 -> 芹;
 }

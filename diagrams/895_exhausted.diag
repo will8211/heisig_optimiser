@@ -1,15 +1,17 @@
 blockdiag {
-  895 [label = "尽\n895 exhausted"];
-  894 [label = "尺\n894 ruler"];
-  882 [label = "尸\n882 corpse"];
-  None [label = "丶\nNone a drop of"];
-  137 [label = "水\n137 water"];
-  1 [label = "一\n1 one"];
-  894 -> 895;
-  882 -> 894;
-  None -> 895;
-  137 -> None;
-  None -> 137;
-  1 -> None;
-  None -> 137;
+  尽 [label = "尽\n895 exhausted"];
+  尺 [label = "尺\n894 ruler"];
+  尸 [label = "尸\n882 corpse"];
+  冫 [label = "冫\nNone ice"];
+  水 [label = "水\n137 water"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  丶 [label = "丶\nNone a drop of"];
+  尺 -> 尽;
+  尸 -> 尺;
+  冫 -> 尽;
+  水 -> 冫;
+  丨 -> 水;
+  一 -> 丨;
+  丶 -> 水;
 }

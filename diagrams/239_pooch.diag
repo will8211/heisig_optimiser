@@ -1,7 +1,7 @@
 blockdiag {
-  239 [label = "犬\n239 pooch"];
-  113 [label = "大\n113 large"];
-  None [label = "丶\nNone a drop of"];
-  113 -> 239;
-  None -> 239;
+  犬 [label = "犬\n239 pooch"];
+  大 [label = "大\n113 large"];
+  丶 [label = "丶\nNone a drop of"];
+  大 -> 犬;
+  丶 -> 犬;
 }

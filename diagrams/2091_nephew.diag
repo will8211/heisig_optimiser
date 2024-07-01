@@ -1,14 +1,15 @@
 blockdiag {
-  2091 [label = "侄\n2091 nephew"];
-  793 [label = "人\n793 person"];
-  678 [label = "至\n678 until"];
-  None [label = "厶\nNone elbow"];
-  1 [label = "一\n1 one"];
-  158 [label = "土\n158 soil"];
-  793 -> 2091;
-  678 -> 2091;
-  None -> 678;
-  None -> None;
-  1 -> None;
-  158 -> 678;
+  侄 [label = "侄\n2091 nephew"];
+  人 [label = "人\n793 person"];
+  至 [label = "至\n678 until"];
+  囧会－亼 [label = "囧会－亼\nNone wall"];
+  厶 [label = "厶\nNone elbow"];
+  一 [label = "一\n1 one"];
+  土 [label = "土\n158 soil"];
+  人 -> 侄;
+  至 -> 侄;
+  囧会－亼 -> 至;
+  厶 -> 囧会－亼;
+  一 -> 囧会－亼;
+  土 -> 至;
 }

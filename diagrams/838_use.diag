@@ -1,9 +1,9 @@
 blockdiag {
-  838 [label = "使\n838 use"];
-  793 [label = "人\n793 person"];
-  837 [label = "丈\n837 100 Chinese inches"];
-  11 [label = "口\n11 mouth"];
-  793 -> 838;
-  837 -> 838;
-  11 -> 838;
+  使 [label = "使\n838 use"];
+  人 [label = "人\n793 person"];
+  丈 [label = "丈\n837 100 Chinese inches"];
+  口 [label = "口\n11 mouth"];
+  人 -> 使;
+  丈 -> 使;
+  口 -> 使;
 }

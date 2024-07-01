@@ -1,11 +1,11 @@
 blockdiag {
-  1209 [label = "精\n1209 refined"];
-  778 [label = "米\n778 rice"];
-  1208 [label = "青\n1208 blue or green"];
-  None [label = "囧毒－母\nNone grow up"];
-  13 [label = "月\n13 month"];
-  778 -> 1209;
-  1208 -> 1209;
-  None -> 1208;
-  13 -> 1208;
+  精 [label = "精\n1209 refined"];
+  米 [label = "米\n778 rice"];
+  青 [label = "青\n1208 blue or green"];
+  囧毒－母 [label = "囧毒－母\nNone grow up"];
+  月 [label = "月\n13 month"];
+  米 -> 精;
+  青 -> 精;
+  囧毒－母 -> 青;
+  月 -> 青;
 }

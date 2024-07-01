@@ -1,16 +1,19 @@
 blockdiag {
-  669 [label = "爱\n669 love"];
-  None [label = "𠂇\nNone by one’s side"];
-  663 [label = "爪\n663 claw"];
-  635 [label = "友\n635 friend"];
-  10 [label = "十\n10 ten"];
-  633 [label = "又\n633 again"];
-  None -> 669;
-  663 -> None;
-  None -> 663;
-  None -> None;
-  635 -> 669;
-  None -> 635;
-  10 -> None;
-  633 -> 635;
+  爱 [label = "爱\n669 love"];
+  囧受－又 [label = "囧受－又\nNone birdhouse"];
+  爪 [label = "爪\n663 claw"];
+  𠂆 [label = "𠂆\nNone drag"];
+  宀 [label = "宀\nNone house"];
+  友 [label = "友\n635 friend"];
+  𠂇 [label = "𠂇\nNone by one’s side"];
+  十 [label = "十\n10 ten"];
+  又 [label = "又\n633 again"];
+  囧受－又 -> 爱;
+  爪 -> 囧受－又;
+  𠂆 -> 爪;
+  宀 -> 囧受－又;
+  友 -> 爱;
+  𠂇 -> 友;
+  十 -> 𠂇;
+  又 -> 友;
 }

@@ -1,17 +1,17 @@
 blockdiag {
-  464 [label = "脂\n464 grease"];
-  463 [label = "旨\n463 purpose"];
-  453 [label = "匕\n453 ancient spoon"];
-  12 [label = "日\n12 day"];
-  813 [label = "体\n813 body"];
-  793 [label = "人\n793 person"];
-  213 [label = "本\n213 notebook"];
-  202 [label = "木\n202 tree"];
-  463 -> 464;
-  453 -> 463;
-  12 -> 463;
-  813 -> 464;
-  793 -> 813;
-  213 -> 813;
-  202 -> 213;
+  脂 [label = "脂\n464 grease"];
+  旨 [label = "旨\n463 purpose"];
+  匕 [label = "匕\n453 ancient spoon"];
+  日 [label = "日\n12 day"];
+  体 [label = "体\n813 body"];
+  人 [label = "人\n793 person"];
+  本 [label = "本\n213 notebook"];
+  木 [label = "木\n202 tree"];
+  旨 -> 脂;
+  匕 -> 旨;
+  日 -> 旨;
+  体 -> 脂;
+  人 -> 体;
+  本 -> 体;
+  木 -> 本;
 }

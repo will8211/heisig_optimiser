@@ -1,9 +1,9 @@
 blockdiag {
-  1837 [label = "拇\n1837 thumb"];
-  None [label = "扌\nNone fingers"];
-  105 [label = "母\n105 mother"];
-  102 [label = "女\n102 woman"];
-  None -> 1837;
-  105 -> 1837;
-  102 -> 105;
+  拇 [label = "拇\n1837 thumb"];
+  扌 [label = "扌\nNone fingers"];
+  母 [label = "母\n105 mother"];
+  女 [label = "女\n102 woman"];
+  扌 -> 拇;
+  母 -> 拇;
+  女 -> 母;
 }

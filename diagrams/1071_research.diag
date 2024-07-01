@@ -1,13 +1,14 @@
 blockdiag {
-  1071 [label = "究\n1071 research"];
-  1070 [label = "穴\n1070 hole"];
-  None [label = "囧只－口\nNone animal legs"];
-  8 [label = "八\n8 eight"];
-  9 [label = "九\n9 nine"];
-  1070 -> 1071;
-  None -> 1070;
-  8 -> 1070;
-  None -> 1070;
-  8 -> None;
-  9 -> 1071;
+  究 [label = "究\n1071 research"];
+  穴 [label = "穴\n1070 hole"];
+  宀 [label = "宀\nNone house"];
+  八 [label = "八\n8 eight"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  九 [label = "九\n9 nine"];
+  穴 -> 究;
+  宀 -> 穴;
+  八 -> 穴;
+  囧只－口 -> 穴;
+  八 -> 囧只－口;
+  九 -> 究;
 }

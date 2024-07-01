@@ -1,7 +1,7 @@
 blockdiag {
-  29 [label = "胃\n29 stomach"];
-  13 [label = "月\n13 month"];
-  14 [label = "田\n14 rice field"];
-  13 -> 29;
-  14 -> 29;
+  胃 [label = "胃\n29 stomach"];
+  月 [label = "月\n13 month"];
+  田 [label = "田\n14 rice field"];
+  月 -> 胃;
+  田 -> 胃;
 }

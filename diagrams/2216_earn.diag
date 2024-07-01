@@ -1,18 +1,21 @@
 blockdiag {
-  2216 [label = "赚\n2216 earn"];
-  52 [label = "贝\n52 shellfish"];
-  15 [label = "目\n15 eye"];
-  None [label = "彐\nNone broom"];
-  8 [label = "八\n8 eight"];
-  2215 [label = "兼\n2215 double"];
-  1 [label = "一\n1 one"];
-  52 -> 2216;
-  15 -> 52;
-  None -> 52;
-  8 -> None;
-  2215 -> 2216;
-  None -> 2215;
-  1 -> None;
-  None -> 2215;
-  None -> None;
+  赚 [label = "赚\n2216 earn"];
+  贝 [label = "贝\n52 shellfish"];
+  目 [label = "目\n15 eye"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  兼 [label = "兼\n2215 double"];
+  丷 [label = "丷\nNone horns"];
+  一 [label = "一\n1 one"];
+  肀 [label = "肀\nNone rake"];
+  彐 [label = "彐\nNone broom"];
+  贝 -> 赚;
+  目 -> 贝;
+  囧只－口 -> 贝;
+  八 -> 囧只－口;
+  兼 -> 赚;
+  丷 -> 兼;
+  一 -> 丷;
+  肀 -> 兼;
+  彐 -> 肀;
 }

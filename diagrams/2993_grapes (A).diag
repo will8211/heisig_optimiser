@@ -1,13 +1,15 @@
 blockdiag {
-  2993 [label = "葡\n2993 grapes (A)"];
-  None [label = "丶\nNone a drop of"];
-  1379 [label = "甫\n1379 Fu"];
-  10 [label = "十\n10 ten"];
-  13 [label = "月\n13 month"];
-  None -> 2993;
-  None -> 2993;
-  1379 -> 2993;
-  10 -> 1379;
-  13 -> 1379;
-  None -> 1379;
+  葡 [label = "葡\n2993 grapes (A)"];
+  艹 [label = "艹\nNone flower"];
+  勹 [label = "勹\nNone bound up"];
+  甫 [label = "甫\n1379 Fu"];
+  十 [label = "十\n10 ten"];
+  月 [label = "月\n13 month"];
+  丶 [label = "丶\nNone a drop of"];
+  艹 -> 葡;
+  勹 -> 葡;
+  甫 -> 葡;
+  十 -> 甫;
+  月 -> 甫;
+  丶 -> 甫;
 }

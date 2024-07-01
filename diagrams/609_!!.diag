@@ -1,11 +1,11 @@
 blockdiag {
-  609 [label = "啦\n609 !!"];
-  11 [label = "口\n11 mouth"];
-  608 [label = "拉\n608 pull"];
-  None [label = "扌\nNone fingers"];
-  444 [label = "立\n444 standing up"];
-  11 -> 609;
-  608 -> 609;
-  None -> 608;
-  444 -> 608;
+  啦 [label = "啦\n609 !!"];
+  口 [label = "口\n11 mouth"];
+  拉 [label = "拉\n608 pull"];
+  扌 [label = "扌\nNone fingers"];
+  立 [label = "立\n444 standing up"];
+  口 -> 啦;
+  拉 -> 啦;
+  扌 -> 拉;
+  立 -> 拉;
 }

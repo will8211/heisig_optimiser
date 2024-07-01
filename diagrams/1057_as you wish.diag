@@ -1,13 +1,15 @@
 blockdiag {
-  1057 [label = "随\n1057 as you wish"];
-  None [label = "辶\nNone road"];
-  79 [label = "有\n79 possess"];
-  13 [label = "月\n13 month"];
-  10 [label = "十\n10 ten"];
-  None -> 1057;
-  79 -> 1057;
-  13 -> 79;
-  None -> 79;
-  10 -> None;
-  None -> 1057;
+  随 [label = "随\n1057 as you wish"];
+  阝 [label = "阝\nNone pinnacle"];
+  有 [label = "有\n79 possess"];
+  月 [label = "月\n13 month"];
+  𠂇 [label = "𠂇\nNone by one’s side"];
+  十 [label = "十\n10 ten"];
+  辶 [label = "辶\nNone road"];
+  阝 -> 随;
+  有 -> 随;
+  月 -> 有;
+  𠂇 -> 有;
+  十 -> 𠂇;
+  辶 -> 随;
 }

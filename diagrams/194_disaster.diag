@@ -1,7 +1,7 @@
 blockdiag {
-  194 [label = "灾\n194 disaster"];
-  None [label = "宀\nNone house"];
-  170 [label = "火\n170 fire"];
-  None -> 194;
-  170 -> 194;
+  灾 [label = "灾\n194 disaster"];
+  宀 [label = "宀\nNone house"];
+  火 [label = "火\n170 fire"];
+  宀 -> 灾;
+  火 -> 灾;
 }

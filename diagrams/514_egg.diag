@@ -1,14 +1,15 @@
 blockdiag {
-  514 [label = "蛋\n514 egg"];
-  None [label = "囧走－十\nNone mending"];
-  387 [label = "正\n387 correct"];
-  1 [label = "一\n1 one"];
-  379 [label = "止\n379 stop"];
-  509 [label = "虫\n509 insect"];
-  None -> 514;
-  None -> None;
-  387 -> None;
-  1 -> 387;
-  379 -> 387;
-  509 -> 514;
+  蛋 [label = "蛋\n514 egg"];
+  疋 [label = "疋\nNone zoo"];
+  囧走－十 [label = "囧走－十\nNone mending"];
+  正 [label = "正\n387 correct"];
+  一 [label = "一\n1 one"];
+  止 [label = "止\n379 stop"];
+  虫 [label = "虫\n509 insect"];
+  疋 -> 蛋;
+  囧走－十 -> 疋;
+  正 -> 囧走－十;
+  一 -> 正;
+  止 -> 正;
+  虫 -> 蛋;
 }

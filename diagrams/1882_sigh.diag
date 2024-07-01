@@ -1,7 +1,7 @@
 blockdiag {
-  1882 [label = "叹\n1882 sigh"];
-  11 [label = "口\n11 mouth"];
-  633 [label = "又\n633 again"];
-  11 -> 1882;
-  633 -> 1882;
+  叹 [label = "叹\n1882 sigh"];
+  口 [label = "口\n11 mouth"];
+  又 [label = "又\n633 again"];
+  口 -> 叹;
+  又 -> 叹;
 }

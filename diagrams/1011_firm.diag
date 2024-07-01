@@ -1,9 +1,9 @@
 blockdiag {
-  1011 [label = "坚\n1011 firm"];
-  None [label = "囧坚－圣\nNone fencing foil"];
-  633 [label = "又\n633 again"];
-  158 [label = "土\n158 soil"];
-  None -> 1011;
-  633 -> 1011;
-  158 -> 1011;
+  坚 [label = "坚\n1011 firm"];
+  囧坚－圣 [label = "囧坚－圣\nNone fencing foil"];
+  又 [label = "又\n633 again"];
+  土 [label = "土\n158 soil"];
+  囧坚－圣 -> 坚;
+  又 -> 坚;
+  土 -> 坚;
 }

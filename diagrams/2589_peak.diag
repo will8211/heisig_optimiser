@@ -1,10 +1,11 @@
 blockdiag {
-  2589 [label = "峰\n2589 peak"];
-  688 [label = "山\n688 mountain"];
-  None [label = "夂\nNone walking legs"];
-  1223 [label = "丰\n1223 plentiful"];
-  688 -> 2589;
-  None -> 2589;
-  1223 -> None;
-  None -> None;
+  峰 [label = "峰\n2589 peak"];
+  山 [label = "山\n688 mountain"];
+  夆 [label = "夆\nNone briar"];
+  丰 [label = "丰\n1223 plentiful"];
+  夂 [label = "夂\nNone walking legs"];
+  山 -> 峰;
+  夆 -> 峰;
+  丰 -> 夆;
+  夂 -> 夆;
 }

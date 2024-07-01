@@ -1,14 +1,15 @@
 blockdiag {
-  2138 [label = "犀\n2138 rhinoceros"];
-  252 [label = "牛\n252 cow"];
-  882 [label = "尸\n882 corpse"];
-  137 [label = "水\n137 water"];
-  None [label = "丶\nNone a drop of"];
-  1 [label = "一\n1 one"];
-  252 -> 2138;
-  882 -> 2138;
-  137 -> 2138;
-  None -> 137;
-  1 -> None;
-  None -> 137;
+  犀 [label = "犀\n2138 rhinoceros"];
+  牛 [label = "牛\n252 cow"];
+  尸 [label = "尸\n882 corpse"];
+  水 [label = "水\n137 water"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  丶 [label = "丶\nNone a drop of"];
+  牛 -> 犀;
+  尸 -> 犀;
+  水 -> 犀;
+  丨 -> 水;
+  一 -> 丨;
+  丶 -> 水;
 }

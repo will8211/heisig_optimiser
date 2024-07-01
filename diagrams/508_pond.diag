@@ -1,15 +1,16 @@
 blockdiag {
-  508 [label = "池\n508 pond"];
-  137 [label = "水\n137 water"];
-  None [label = "丶\nNone a drop of"];
-  1 [label = "一\n1 one"];
-  505 [label = "也\n505 also"];
-  95 [label = "乙\n95 second"];
-  137 -> 508;
-  None -> 137;
-  1 -> None;
-  None -> 137;
-  505 -> 508;
-  95 -> 505;
-  None -> 508;
+  池 [label = "池\n508 pond"];
+  水 [label = "水\n137 water"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  丶 [label = "丶\nNone a drop of"];
+  也 [label = "也\n505 also"];
+  乙 [label = "乙\n95 second"];
+  水 -> 池;
+  丨 -> 水;
+  一 -> 丨;
+  丶 -> 水;
+  也 -> 池;
+  乙 -> 也;
+  丶 -> 池;
 }

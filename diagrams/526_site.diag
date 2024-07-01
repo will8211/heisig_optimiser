@@ -1,8 +1,9 @@
 blockdiag {
-  526 [label = "场\n526 site"];
-  158 [label = "土\n158 soil"];
-  None [label = "豕\nNone sow"];
-  158 -> 526;
-  None -> 526;
-  None -> None;
+  场 [label = "场\n526 site"];
+  土 [label = "土\n158 soil"];
+  𠃓 [label = "𠃓\nNone piglets"];
+  豕 [label = "豕\nNone sow"];
+  土 -> 场;
+  𠃓 -> 场;
+  豕 -> 𠃓;
 }

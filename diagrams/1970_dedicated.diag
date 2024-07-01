@@ -1,7 +1,7 @@
 blockdiag {
-  1970 [label = "耿\n1970 dedicated"];
-  717 [label = "耳\n717 ear"];
-  170 [label = "火\n170 fire"];
-  717 -> 1970;
-  170 -> 1970;
+  耿 [label = "耿\n1970 dedicated"];
+  耳 [label = "耳\n717 ear"];
+  火 [label = "火\n170 fire"];
+  耳 -> 耿;
+  火 -> 耿;
 }

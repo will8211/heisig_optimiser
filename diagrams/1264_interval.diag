@@ -1,7 +1,7 @@
 blockdiag {
-  1264 [label = "间\n1264 interval"];
-  1260 [label = "门\n1260 gate"];
-  12 [label = "日\n12 day"];
-  1260 -> 1264;
-  12 -> 1264;
+  间 [label = "间\n1264 interval"];
+  门 [label = "门\n1260 gate"];
+  日 [label = "日\n12 day"];
+  门 -> 间;
+  日 -> 间;
 }

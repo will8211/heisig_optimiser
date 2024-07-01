@@ -1,12 +1,13 @@
 blockdiag {
-  1477 [label = "哪\n1477 which?"];
-  11 [label = "口\n11 mouth"];
-  1476 [label = "那\n1476 that"];
-  None [label = "阝\nNone pinnacle"];
-  83 [label = "刀\n83 sword"];
-  11 -> 1477;
-  1476 -> 1477;
-  None -> 1476;
-  83 -> None;
-  None -> 1476;
+  哪 [label = "哪\n1477 which?"];
+  口 [label = "口\n11 mouth"];
+  那 [label = "那\n1476 that"];
+  囧那－阝 [label = "囧那－阝\nNone razor wire"];
+  刀 [label = "刀\n83 sword"];
+  阝 [label = "阝\nNone pinnacle"];
+  口 -> 哪;
+  那 -> 哪;
+  囧那－阝 -> 那;
+  刀 -> 囧那－阝;
+  阝 -> 那;
 }

@@ -1,9 +1,9 @@
 blockdiag {
-  77 [label = "左\n77 left"];
-  None [label = "𠂇\nNone by one’s side"];
-  10 [label = "十\n10 ten"];
-  76 [label = "工\n76 work"];
-  None -> 77;
-  10 -> None;
-  76 -> 77;
+  左 [label = "左\n77 left"];
+  𠂇 [label = "𠂇\nNone by one’s side"];
+  十 [label = "十\n10 ten"];
+  工 [label = "工\n76 work"];
+  𠂇 -> 左;
+  十 -> 𠂇;
+  工 -> 左;
 }

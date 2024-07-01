@@ -1,9 +1,11 @@
 blockdiag {
-  1906 [label = "宏\n1906 magnificent"];
-  None [label = "厶\nNone elbow"];
-  10 [label = "十\n10 ten"];
-  None -> 1906;
-  None -> 1906;
-  10 -> None;
-  None -> 1906;
+  宏 [label = "宏\n1906 magnificent"];
+  宀 [label = "宀\nNone house"];
+  𠂇 [label = "𠂇\nNone by one’s side"];
+  十 [label = "十\n10 ten"];
+  厶 [label = "厶\nNone elbow"];
+  宀 -> 宏;
+  𠂇 -> 宏;
+  十 -> 𠂇;
+  厶 -> 宏;
 }

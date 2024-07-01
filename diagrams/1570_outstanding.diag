@@ -1,7 +1,7 @@
 blockdiag {
-  1570 [label = "杰\n1570 outstanding"];
-  202 [label = "木\n202 tree"];
-  170 [label = "火\n170 fire"];
-  202 -> 1570;
-  170 -> 1570;
+  杰 [label = "杰\n1570 outstanding"];
+  木 [label = "木\n202 tree"];
+  火 [label = "火\n170 fire"];
+  木 -> 杰;
+  火 -> 杰;
 }

@@ -1,7 +1,7 @@
 blockdiag {
-  1192 [label = "叫\n1192 call"];
-  11 [label = "口\n11 mouth"];
-  None [label = "丩\nNone cornucopia"];
-  11 -> 1192;
-  None -> 1192;
+  叫 [label = "叫\n1192 call"];
+  口 [label = "口\n11 mouth"];
+  丩 [label = "丩\nNone cornucopia"];
+  口 -> 叫;
+  丩 -> 叫;
 }

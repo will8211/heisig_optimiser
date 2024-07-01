@@ -1,7 +1,7 @@
 blockdiag {
-  925 [label = "听\n925 listen"];
-  11 [label = "口\n11 mouth"];
-  924 [label = "斤\n924 catty"];
-  11 -> 925;
-  924 -> 925;
+  听 [label = "听\n925 listen"];
+  口 [label = "口\n11 mouth"];
+  斤 [label = "斤\n924 catty"];
+  口 -> 听;
+  斤 -> 听;
 }

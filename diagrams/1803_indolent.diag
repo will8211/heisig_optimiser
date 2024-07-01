@@ -1,15 +1,15 @@
 blockdiag {
-  1803 [label = "惰\n1803 indolent"];
-  563 [label = "心\n563 heart"];
-  77 [label = "左\n77 left"];
-  None [label = "𠂇\nNone by one’s side"];
-  10 [label = "十\n10 ten"];
-  76 [label = "工\n76 work"];
-  13 [label = "月\n13 month"];
-  563 -> 1803;
-  77 -> 1803;
-  None -> 77;
-  10 -> None;
-  76 -> 77;
-  13 -> 1803;
+  惰 [label = "惰\n1803 indolent"];
+  心 [label = "心\n563 heart"];
+  左 [label = "左\n77 left"];
+  𠂇 [label = "𠂇\nNone by one’s side"];
+  十 [label = "十\n10 ten"];
+  工 [label = "工\n76 work"];
+  月 [label = "月\n13 month"];
+  心 -> 惰;
+  左 -> 惰;
+  𠂇 -> 左;
+  十 -> 𠂇;
+  工 -> 左;
+  月 -> 惰;
 }

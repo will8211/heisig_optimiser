@@ -1,11 +1,11 @@
 blockdiag {
-  1909 [label = "怠\n1909 negligent"];
-  672 [label = "台\n672 platform"];
-  None [label = "厶\nNone elbow"];
-  11 [label = "口\n11 mouth"];
-  563 [label = "心\n563 heart"];
-  672 -> 1909;
-  None -> 672;
-  11 -> 672;
-  563 -> 1909;
+  怠 [label = "怠\n1909 negligent"];
+  台 [label = "台\n672 platform"];
+  厶 [label = "厶\nNone elbow"];
+  口 [label = "口\n11 mouth"];
+  心 [label = "心\n563 heart"];
+  台 -> 怠;
+  厶 -> 台;
+  口 -> 台;
+  心 -> 怠;
 }

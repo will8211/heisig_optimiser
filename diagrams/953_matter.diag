@@ -1,10 +1,11 @@
 blockdiag {
-  953 [label = "事\n953 matter"];
-  1 [label = "一\n1 one"];
-  11 [label = "口\n11 mouth"];
-  None [label = "彐\nNone broom"];
-  1 -> 953;
-  11 -> 953;
-  None -> 953;
-  None -> None;
+  事 [label = "事\n953 matter"];
+  一 [label = "一\n1 one"];
+  口 [label = "口\n11 mouth"];
+  肀 [label = "肀\nNone rake"];
+  彐 [label = "彐\nNone broom"];
+  一 -> 事;
+  口 -> 事;
+  肀 -> 事;
+  彐 -> 肀;
 }

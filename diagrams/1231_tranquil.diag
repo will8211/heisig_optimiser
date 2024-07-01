@@ -1,13 +1,15 @@
 blockdiag {
-  1231 [label = "泰\n1231 tranquil"];
-  None [label = "丶\nNone a drop of"];
-  1223 [label = "丰\n1223 plentiful"];
-  137 [label = "水\n137 water"];
-  1 [label = "一\n1 one"];
-  None -> 1231;
-  1223 -> None;
-  137 -> 1231;
-  None -> 137;
-  1 -> None;
-  None -> 137;
+  泰 [label = "泰\n1231 tranquil"];
+  𡗗 [label = "𡗗\nNone bonsai"];
+  丰 [label = "丰\n1223 plentiful"];
+  水 [label = "水\n137 water"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  丶 [label = "丶\nNone a drop of"];
+  𡗗 -> 泰;
+  丰 -> 𡗗;
+  水 -> 泰;
+  丨 -> 水;
+  一 -> 丨;
+  丶 -> 水;
 }

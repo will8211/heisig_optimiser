@@ -1,15 +1,19 @@
 blockdiag {
-  685 [label = "梳\n685 comb"];
-  202 [label = "木\n202 tree"];
-  None [label = "丶\nNone a drop of"];
-  1 [label = "一\n1 one"];
-  134 [label = "川\n134 stream"];
-  202 -> 685;
-  None -> 685;
-  None -> None;
-  None -> None;
-  None -> None;
-  1 -> None;
-  None -> None;
-  134 -> None;
+  梳 [label = "梳\n685 comb"];
+  木 [label = "木\n202 tree"];
+  㐬 [label = "㐬\nNone baby Moses"];
+  囧充－儿 [label = "囧充－儿\nNone infant"];
+  囧会－亼 [label = "囧会－亼\nNone wall"];
+  厶 [label = "厶\nNone elbow"];
+  一 [label = "一\n1 one"];
+  丶 [label = "丶\nNone a drop of"];
+  川 [label = "川\n134 stream"];
+  木 -> 梳;
+  㐬 -> 梳;
+  囧充－儿 -> 㐬;
+  囧会－亼 -> 囧充－儿;
+  厶 -> 囧会－亼;
+  一 -> 囧会－亼;
+  丶 -> 囧充－儿;
+  川 -> 㐬;
 }

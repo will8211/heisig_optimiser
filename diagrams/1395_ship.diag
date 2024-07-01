@@ -1,14 +1,16 @@
 blockdiag {
-  1395 [label = "船\n1395 ship"];
-  1394 [label = "舟\n1394 boat"];
-  None [label = "囧船－舟\nNone belch"];
-  57 [label = "几\n57 how many?"];
-  11 [label = "口\n11 mouth"];
-  1394 -> 1395;
-  None -> 1394;
-  None -> 1394;
-  57 -> None;
-  None -> 1395;
-  57 -> None;
-  11 -> None;
+  船 [label = "船\n1395 ship"];
+  舟 [label = "舟\n1394 boat"];
+  丶 [label = "丶\nNone a drop of"];
+  冂 [label = "冂\nNone hood"];
+  几 [label = "几\n57 how many?"];
+  囧船－舟 [label = "囧船－舟\nNone belch"];
+  口 [label = "口\n11 mouth"];
+  舟 -> 船;
+  丶 -> 舟;
+  冂 -> 舟;
+  几 -> 冂;
+  囧船－舟 -> 船;
+  几 -> 囧船－舟;
+  口 -> 囧船－舟;
 }

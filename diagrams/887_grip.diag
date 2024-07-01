@@ -1,17 +1,19 @@
 blockdiag {
-  887 [label = "握\n887 grip"];
-  None [label = "厶\nNone elbow"];
-  886 [label = "屋\n886 habitation"];
-  882 [label = "尸\n882 corpse"];
-  678 [label = "至\n678 until"];
-  1 [label = "一\n1 one"];
-  158 [label = "土\n158 soil"];
-  None -> 887;
-  886 -> 887;
-  882 -> 886;
-  678 -> 886;
-  None -> 678;
-  None -> None;
-  1 -> None;
-  158 -> 678;
+  握 [label = "握\n887 grip"];
+  扌 [label = "扌\nNone fingers"];
+  屋 [label = "屋\n886 habitation"];
+  尸 [label = "尸\n882 corpse"];
+  至 [label = "至\n678 until"];
+  囧会－亼 [label = "囧会－亼\nNone wall"];
+  厶 [label = "厶\nNone elbow"];
+  一 [label = "一\n1 one"];
+  土 [label = "土\n158 soil"];
+  扌 -> 握;
+  屋 -> 握;
+  尸 -> 屋;
+  至 -> 屋;
+  囧会－亼 -> 至;
+  厶 -> 囧会－亼;
+  一 -> 囧会－亼;
+  土 -> 至;
 }

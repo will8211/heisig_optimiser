@@ -1,11 +1,11 @@
 blockdiag {
-  2752 [label = "嗓\n2752 voicebox"];
-  11 [label = "口\n11 mouth"];
-  2751 [label = "桑\n2751 mulberry tree"];
-  633 [label = "又\n633 again"];
-  202 [label = "木\n202 tree"];
-  11 -> 2752;
-  2751 -> 2752;
-  633 -> 2751;
-  202 -> 2751;
+  嗓 [label = "嗓\n2752 voicebox"];
+  口 [label = "口\n11 mouth"];
+  桑 [label = "桑\n2751 mulberry tree"];
+  又 [label = "又\n633 again"];
+  木 [label = "木\n202 tree"];
+  口 -> 嗓;
+  桑 -> 嗓;
+  又 -> 桑;
+  木 -> 桑;
 }

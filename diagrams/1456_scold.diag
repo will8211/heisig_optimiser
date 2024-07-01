@@ -1,10 +1,11 @@
 blockdiag {
-  1456 [label = "骂\n1456 scold"];
-  None [label = "囧与－丨一\nNone pointed tail"];
-  11 [label = "口\n11 mouth"];
-  1453 [label = "马\n1453 horse"];
-  None -> 1456;
-  11 -> None;
-  1453 -> 1456;
-  None -> 1453;
+  骂 [label = "骂\n1456 scold"];
+  吅 [label = "吅\nNone chatterbox"];
+  口 [label = "口\n11 mouth"];
+  马 [label = "马\n1453 horse"];
+  囧与－丨一 [label = "囧与－丨一\nNone pointed tail"];
+  吅 -> 骂;
+  口 -> 吅;
+  马 -> 骂;
+  囧与－丨一 -> 马;
 }

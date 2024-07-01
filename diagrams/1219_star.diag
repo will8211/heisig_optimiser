@@ -1,10 +1,11 @@
 blockdiag {
-  1219 [label = "星\n1219 star"];
-  12 [label = "日\n12 day"];
-  1218 [label = "生\n1218 life"];
-  None [label = "囧毒－母\nNone grow up"];
-  12 -> 1219;
-  1218 -> 1219;
-  None -> 1218;
-  None -> 1218;
+  星 [label = "星\n1219 star"];
+  日 [label = "日\n12 day"];
+  生 [label = "生\n1218 life"];
+  丶 [label = "丶\nNone a drop of"];
+  囧毒－母 [label = "囧毒－母\nNone grow up"];
+  日 -> 星;
+  生 -> 星;
+  丶 -> 生;
+  囧毒－母 -> 生;
 }

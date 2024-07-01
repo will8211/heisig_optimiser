@@ -1,10 +1,11 @@
 blockdiag {
-  1386 [label = "帮\n1386 help"];
-  1223 [label = "丰\n1223 plentiful"];
-  None [label = "阝\nNone pinnacle"];
-  410 [label = "巾\n410 towel"];
-  1223 -> 1386;
-  None -> 1386;
-  None -> None;
-  410 -> 1386;
+  帮 [label = "帮\n1386 help"];
+  丰 [label = "丰\n1223 plentiful"];
+  囧阝 [label = "囧阝\nNone city walls"];
+  阝 [label = "阝\nNone pinnacle"];
+  巾 [label = "巾\n410 towel"];
+  丰 -> 帮;
+  囧阝 -> 帮;
+  阝 -> 囧阝;
+  巾 -> 帮;
 }

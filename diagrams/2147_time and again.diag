@@ -1,11 +1,11 @@
 blockdiag {
-  2147 [label = "屡\n2147 time and again"];
-  882 [label = "尸\n882 corpse"];
-  None [label = "娄\nNone bride"];
-  102 [label = "女\n102 woman"];
-  778 [label = "米\n778 rice"];
-  882 -> 2147;
-  None -> 2147;
-  102 -> None;
-  778 -> None;
+  屡 [label = "屡\n2147 time and again"];
+  尸 [label = "尸\n882 corpse"];
+  娄 [label = "娄\nNone bride"];
+  女 [label = "女\n102 woman"];
+  米 [label = "米\n778 rice"];
+  尸 -> 屡;
+  娄 -> 屡;
+  女 -> 娄;
+  米 -> 娄;
 }

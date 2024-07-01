@@ -1,10 +1,11 @@
 blockdiag {
-  188 [label = "向\n188 orientation"];
-  None [label = "冂\nNone hood"];
-  57 [label = "几\n57 how many?"];
-  11 [label = "口\n11 mouth"];
-  None -> 188;
-  None -> 188;
-  57 -> None;
-  11 -> 188;
+  向 [label = "向\n188 orientation"];
+  丶 [label = "丶\nNone a drop of"];
+  冂 [label = "冂\nNone hood"];
+  几 [label = "几\n57 how many?"];
+  口 [label = "口\n11 mouth"];
+  丶 -> 向;
+  冂 -> 向;
+  几 -> 冂;
+  口 -> 向;
 }

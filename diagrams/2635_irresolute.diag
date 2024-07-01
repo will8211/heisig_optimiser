@@ -1,7 +1,7 @@
 blockdiag {
-  2635 [label = "徘\n2635 irresolute"];
-  754 [label = "行\n754 line of business"];
-  1267 [label = "非\n1267 non-"];
-  754 -> 2635;
-  1267 -> 2635;
+  徘 [label = "徘\n2635 irresolute"];
+  行 [label = "行\n754 line of business"];
+  非 [label = "非\n1267 non-"];
+  行 -> 徘;
+  非 -> 徘;
 }

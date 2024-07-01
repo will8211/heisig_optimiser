@@ -1,7 +1,7 @@
 blockdiag {
-  None [label = "畺\nNone family feud"];
-  14 [label = "田\n14 rice field"];
-  1 [label = "一\n1 one"];
-  14 -> None;
-  1 -> None;
+  畺 [label = "畺\nNone family feud"];
+  田 [label = "田\n14 rice field"];
+  一 [label = "一\n1 one"];
+  田 -> 畺;
+  一 -> 畺;
 }

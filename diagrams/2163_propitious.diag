@@ -1,11 +1,11 @@
 blockdiag {
-  2163 [label = "祥\n2163 propitious"];
-  900 [label = "示\n900 show"];
-  528 [label = "羊\n528 sheep"];
-  None [label = "丷\nNone horns"];
-  1 [label = "一\n1 one"];
-  900 -> 2163;
-  528 -> 2163;
-  None -> 528;
-  1 -> None;
+  祥 [label = "祥\n2163 propitious"];
+  示 [label = "示\n900 show"];
+  羊 [label = "羊\n528 sheep"];
+  丷 [label = "丷\nNone horns"];
+  一 [label = "一\n1 one"];
+  示 -> 祥;
+  羊 -> 祥;
+  丷 -> 羊;
+  一 -> 丷;
 }

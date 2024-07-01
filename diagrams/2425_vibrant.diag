@@ -1,15 +1,17 @@
 blockdiag {
-  2425 [label = "勃\n2425 vibrant"];
-  None [label = "宀\nNone house"];
-  97 [label = "子\n97 child"];
-  63 [label = "肌\n63 muscle"];
-  57 [label = "几\n57 how many?"];
-  13 [label = "月\n13 month"];
-  None -> 2425;
-  None -> None;
-  None -> None;
-  97 -> None;
-  63 -> 2425;
-  57 -> 63;
-  13 -> 63;
+  勃 [label = "勃\n2425 vibrant"];
+  孛 [label = "孛\nNone Sunday school"];
+  囧索－糸 [label = "囧索－糸\nNone chapel"];
+  宀 [label = "宀\nNone house"];
+  子 [label = "子\n97 child"];
+  肌 [label = "肌\n63 muscle"];
+  几 [label = "几\n57 how many?"];
+  月 [label = "月\n13 month"];
+  孛 -> 勃;
+  囧索－糸 -> 孛;
+  宀 -> 囧索－糸;
+  子 -> 孛;
+  肌 -> 勃;
+  几 -> 肌;
+  月 -> 肌;
 }

@@ -1,9 +1,9 @@
 blockdiag {
-  588 [label = "我\n588 I"];
-  584 [label = "手\n584 hand"];
-  361 [label = "戈\n361 halberd"];
-  None [label = "弋\nNone arrow"];
-  584 -> 588;
-  361 -> 588;
-  None -> 361;
+  我 [label = "我\n588 I"];
+  手 [label = "手\n584 hand"];
+  戈 [label = "戈\n361 halberd"];
+  弋 [label = "弋\nNone arrow"];
+  手 -> 我;
+  戈 -> 我;
+  弋 -> 戈;
 }

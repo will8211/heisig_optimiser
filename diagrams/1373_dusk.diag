@@ -1,14 +1,15 @@
 blockdiag {
-  1373 [label = "昏\n1373 dusk"];
-  1371 [label = "氏\n1371 family name"];
-  None [label = "囧以－丶人\nNone plow"];
-  1 [label = "一\n1 one"];
-  95 [label = "乙\n95 second"];
-  12 [label = "日\n12 day"];
-  1371 -> 1373;
-  None -> 1371;
-  None -> 1371;
-  1 -> 1371;
-  95 -> 1371;
-  12 -> 1373;
+  昏 [label = "昏\n1373 dusk"];
+  氏 [label = "氏\n1371 family name"];
+  丶 [label = "丶\nNone a drop of"];
+  囧以－丶人 [label = "囧以－丶人\nNone plow"];
+  一 [label = "一\n1 one"];
+  乙 [label = "乙\n95 second"];
+  日 [label = "日\n12 day"];
+  氏 -> 昏;
+  丶 -> 氏;
+  囧以－丶人 -> 氏;
+  一 -> 氏;
+  乙 -> 氏;
+  日 -> 昏;
 }

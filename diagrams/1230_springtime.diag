@@ -1,9 +1,9 @@
 blockdiag {
-  1230 [label = "春\n1230 springtime"];
-  None [label = "𡗗\nNone bonsai"];
-  1223 [label = "丰\n1223 plentiful"];
-  12 [label = "日\n12 day"];
-  None -> 1230;
-  1223 -> None;
-  12 -> 1230;
+  春 [label = "春\n1230 springtime"];
+  𡗗 [label = "𡗗\nNone bonsai"];
+  丰 [label = "丰\n1223 plentiful"];
+  日 [label = "日\n12 day"];
+  𡗗 -> 春;
+  丰 -> 𡗗;
+  日 -> 春;
 }

@@ -1,7 +1,7 @@
 blockdiag {
-  672 [label = "台\n672 platform"];
-  None [label = "厶\nNone elbow"];
-  11 [label = "口\n11 mouth"];
-  None -> 672;
-  11 -> 672;
+  台 [label = "台\n672 platform"];
+  厶 [label = "厶\nNone elbow"];
+  口 [label = "口\n11 mouth"];
+  厶 -> 台;
+  口 -> 台;
 }

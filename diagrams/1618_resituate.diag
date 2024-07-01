@@ -1,10 +1,11 @@
 blockdiag {
-  1618 [label = "迁\n1618 resituate"];
-  None [label = "丶\nNone a drop of"];
-  39 [label = "千\n39 thousand"];
-  10 [label = "十\n10 ten"];
-  None -> 1618;
-  39 -> 1618;
-  None -> 39;
-  10 -> 39;
+  迁 [label = "迁\n1618 resituate"];
+  辶 [label = "辶\nNone road"];
+  千 [label = "千\n39 thousand"];
+  丶 [label = "丶\nNone a drop of"];
+  十 [label = "十\n10 ten"];
+  辶 -> 迁;
+  千 -> 迁;
+  丶 -> 千;
+  十 -> 千;
 }

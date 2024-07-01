@@ -1,13 +1,15 @@
 blockdiag {
-  2112 [label = "揭\n2112 reveal"];
-  None [label = "勹\nNone bound up"];
-  793 [label = "人\n793 person"];
-  95 [label = "乙\n95 second"];
-  12 [label = "日\n12 day"];
-  None -> 2112;
-  None -> 2112;
-  793 -> None;
-  None -> None;
-  95 -> None;
-  12 -> None;
+  揭 [label = "揭\n2112 reveal"];
+  扌 [label = "扌\nNone fingers"];
+  曷 [label = "曷\nNone siesta"];
+  人 [label = "人\n793 person"];
+  勹 [label = "勹\nNone bound up"];
+  乙 [label = "乙\n95 second"];
+  日 [label = "日\n12 day"];
+  扌 -> 揭;
+  曷 -> 揭;
+  人 -> 曷;
+  勹 -> 曷;
+  乙 -> 曷;
+  日 -> 曷;
 }

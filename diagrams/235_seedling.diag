@@ -1,7 +1,7 @@
 blockdiag {
-  235 [label = "苗\n235 seedling"];
-  14 [label = "田\n14 rice field"];
-  None [label = "艹\nNone flower"];
-  14 -> 235;
-  None -> 235;
+  苗 [label = "苗\n235 seedling"];
+  田 [label = "田\n14 rice field"];
+  艹 [label = "艹\nNone flower"];
+  田 -> 苗;
+  艹 -> 苗;
 }

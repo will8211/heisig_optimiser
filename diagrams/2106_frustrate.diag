@@ -1,13 +1,13 @@
 blockdiag {
-  2106 [label = "挫\n2106 frustrate"];
-  None [label = "扌\nNone fingers"];
-  848 [label = "坐\n848 sit"];
-  846 [label = "从\n846 follow"];
-  793 [label = "人\n793 person"];
-  158 [label = "土\n158 soil"];
-  None -> 2106;
-  848 -> 2106;
-  846 -> 848;
-  793 -> 846;
-  158 -> 848;
+  挫 [label = "挫\n2106 frustrate"];
+  扌 [label = "扌\nNone fingers"];
+  坐 [label = "坐\n848 sit"];
+  从 [label = "从\n846 follow"];
+  人 [label = "人\n793 person"];
+  土 [label = "土\n158 soil"];
+  扌 -> 挫;
+  坐 -> 挫;
+  从 -> 坐;
+  人 -> 从;
+  土 -> 坐;
 }

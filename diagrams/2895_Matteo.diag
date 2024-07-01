@@ -1,14 +1,15 @@
 blockdiag {
-  2895 [label = "玛\n2895 Matteo"];
-  266 [label = "玉\n266 jade"];
-  265 [label = "王\n265 king"];
-  76 [label = "工\n76 work"];
-  None [label = "囧与－丨一\nNone pointed tail"];
-  1453 [label = "马\n1453 horse"];
-  266 -> 2895;
-  265 -> 266;
-  76 -> 265;
-  None -> 266;
-  1453 -> 2895;
-  None -> 1453;
+  玛 [label = "玛\n2895 Matteo"];
+  玉 [label = "玉\n266 jade"];
+  王 [label = "王\n265 king"];
+  工 [label = "工\n76 work"];
+  丶 [label = "丶\nNone a drop of"];
+  马 [label = "马\n1453 horse"];
+  囧与－丨一 [label = "囧与－丨一\nNone pointed tail"];
+  玉 -> 玛;
+  王 -> 玉;
+  工 -> 王;
+  丶 -> 玉;
+  马 -> 玛;
+  囧与－丨一 -> 马;
 }

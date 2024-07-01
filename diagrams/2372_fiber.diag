@@ -1,11 +1,13 @@
 blockdiag {
-  2372 [label = "纤\n2372 fiber"];
-  None [label = "丶\nNone a drop of"];
-  39 [label = "千\n39 thousand"];
-  10 [label = "十\n10 ten"];
-  None -> 2372;
-  None -> None;
-  39 -> 2372;
-  None -> 39;
-  10 -> 39;
+  纤 [label = "纤\n2372 fiber"];
+  纟 [label = "纟\nNone thread"];
+  厶 [label = "厶\nNone elbow"];
+  千 [label = "千\n39 thousand"];
+  丶 [label = "丶\nNone a drop of"];
+  十 [label = "十\n10 ten"];
+  纟 -> 纤;
+  厶 -> 纟;
+  千 -> 纤;
+  丶 -> 千;
+  十 -> 千;
 }

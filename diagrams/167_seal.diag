@@ -1,12 +1,13 @@
 blockdiag {
-  167 [label = "封\n167 seal"];
-  166 [label = "寸\n166 Chinese inch"];
-  None [label = "圭\nNone bricks"];
-  10 [label = "十\n10 ten"];
-  158 [label = "土\n158 soil"];
-  166 -> 167;
-  None -> 166;
-  10 -> 166;
-  None -> 167;
-  158 -> None;
+  封 [label = "封\n167 seal"];
+  寸 [label = "寸\n166 Chinese inch"];
+  丶 [label = "丶\nNone a drop of"];
+  十 [label = "十\n10 ten"];
+  圭 [label = "圭\nNone bricks"];
+  土 [label = "土\n158 soil"];
+  寸 -> 封;
+  丶 -> 寸;
+  十 -> 寸;
+  圭 -> 封;
+  土 -> 圭;
 }

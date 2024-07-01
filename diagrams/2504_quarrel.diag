@@ -1,10 +1,11 @@
 blockdiag {
-  2504 [label = "衅\n2504 quarrel"];
-  1136 [label = "血\n1136 blood"];
-  None [label = "皿\nNone dish"];
-  980 [label = "半\n980 half"];
-  1136 -> 2504;
-  None -> 1136;
-  None -> 1136;
-  980 -> 2504;
+  衅 [label = "衅\n2504 quarrel"];
+  血 [label = "血\n1136 blood"];
+  丶 [label = "丶\nNone a drop of"];
+  皿 [label = "皿\nNone dish"];
+  半 [label = "半\n980 half"];
+  血 -> 衅;
+  丶 -> 血;
+  皿 -> 血;
+  半 -> 衅;
 }

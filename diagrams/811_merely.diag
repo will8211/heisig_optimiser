@@ -1,7 +1,7 @@
 blockdiag {
-  811 [label = "仅\n811 merely"];
-  793 [label = "人\n793 person"];
-  633 [label = "又\n633 again"];
-  793 -> 811;
-  633 -> 811;
+  仅 [label = "仅\n811 merely"];
+  人 [label = "人\n793 person"];
+  又 [label = "又\n633 again"];
+  人 -> 仅;
+  又 -> 仅;
 }

@@ -1,11 +1,13 @@
 blockdiag {
-  2948 [label = "纽\n2948 New York"];
-  None [label = "囧侯－亻－矢\nNone key"];
-  1486 [label = "丑\n1486 clown"];
-  10 [label = "十\n10 ten"];
-  None -> 2948;
-  None -> None;
-  1486 -> 2948;
-  10 -> 1486;
-  None -> 1486;
+  纽 [label = "纽\n2948 New York"];
+  纟 [label = "纟\nNone thread"];
+  厶 [label = "厶\nNone elbow"];
+  丑 [label = "丑\n1486 clown"];
+  十 [label = "十\n10 ten"];
+  囧侯－亻－矢 [label = "囧侯－亻－矢\nNone key"];
+  纟 -> 纽;
+  厶 -> 纟;
+  丑 -> 纽;
+  十 -> 丑;
+  囧侯－亻－矢 -> 丑;
 }

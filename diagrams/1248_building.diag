@@ -1,11 +1,11 @@
 blockdiag {
-  1248 [label = "栋\n1248 building"];
-  202 [label = "木\n202 tree"];
-  1247 [label = "东\n1247 east"];
-  300 [label = "车\n300 car"];
-  None [label = "丶\nNone a drop of"];
-  202 -> 1248;
-  1247 -> 1248;
-  300 -> 1247;
-  None -> 1247;
+  栋 [label = "栋\n1248 building"];
+  木 [label = "木\n202 tree"];
+  东 [label = "东\n1247 east"];
+  车 [label = "车\n300 car"];
+  丶 [label = "丶\nNone a drop of"];
+  木 -> 栋;
+  东 -> 栋;
+  车 -> 东;
+  丶 -> 东;
 }

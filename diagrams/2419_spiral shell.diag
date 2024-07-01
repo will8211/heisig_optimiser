@@ -1,15 +1,17 @@
 blockdiag {
-  2419 [label = "螺\n2419 spiral shell"];
-  509 [label = "虫\n509 insect"];
-  2418 [label = "累\n2418 tired"];
-  14 [label = "田\n14 rice field"];
-  None [label = "丶\nNone a drop of"];
-  109 [label = "小\n109 small"];
-  509 -> 2419;
-  2418 -> 2419;
-  14 -> 2418;
-  None -> 2418;
-  None -> None;
-  109 -> None;
-  None -> 109;
+  螺 [label = "螺\n2419 spiral shell"];
+  虫 [label = "虫\n509 insect"];
+  累 [label = "累\n2418 tired"];
+  田 [label = "田\n14 rice field"];
+  糸 [label = "糸\nNone floss"];
+  幺 [label = "幺\nNone cocoon"];
+  小 [label = "小\n109 small"];
+  丶 [label = "丶\nNone a drop of"];
+  虫 -> 螺;
+  累 -> 螺;
+  田 -> 累;
+  糸 -> 累;
+  幺 -> 糸;
+  小 -> 糸;
+  丶 -> 小;
 }

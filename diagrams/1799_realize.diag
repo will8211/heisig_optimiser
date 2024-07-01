@@ -1,11 +1,11 @@
 blockdiag {
-  1799 [label = "悟\n1799 realize"];
-  563 [label = "心\n563 heart"];
-  19 [label = "吾\n19 I (literary)"];
-  5 [label = "五\n5 five"];
-  11 [label = "口\n11 mouth"];
-  563 -> 1799;
-  19 -> 1799;
-  5 -> 19;
-  11 -> 19;
+  悟 [label = "悟\n1799 realize"];
+  心 [label = "心\n563 heart"];
+  吾 [label = "吾\n19 I (literary)"];
+  五 [label = "五\n5 five"];
+  口 [label = "口\n11 mouth"];
+  心 -> 悟;
+  吾 -> 悟;
+  五 -> 吾;
+  口 -> 吾;
 }

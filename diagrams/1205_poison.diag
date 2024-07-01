@@ -1,9 +1,9 @@
 blockdiag {
-  1205 [label = "毒\n1205 poison"];
-  None [label = "囧毒－母\nNone grow up"];
-  105 [label = "母\n105 mother"];
-  102 [label = "女\n102 woman"];
-  None -> 1205;
-  105 -> 1205;
-  102 -> 105;
+  毒 [label = "毒\n1205 poison"];
+  囧毒－母 [label = "囧毒－母\nNone grow up"];
+  母 [label = "母\n105 mother"];
+  女 [label = "女\n102 woman"];
+  囧毒－母 -> 毒;
+  母 -> 毒;
+  女 -> 母;
 }

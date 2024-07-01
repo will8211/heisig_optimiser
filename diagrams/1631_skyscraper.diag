@@ -1,16 +1,17 @@
 blockdiag {
-  1631 [label = "厦\n1631 skyscraper"];
-  121 [label = "厂\n121 factory"];
-  314 [label = "夏\n314 summer"];
-  33 [label = "自\n33 oneself"];
-  None [label = "夂\nNone walking legs"];
-  15 [label = "目\n15 eye"];
-  1 [label = "一\n1 one"];
-  121 -> 1631;
-  314 -> 1631;
-  33 -> 314;
-  None -> 33;
-  15 -> 33;
-  1 -> 314;
-  None -> 314;
+  厦 [label = "厦\n1631 skyscraper"];
+  厂 [label = "厂\n121 factory"];
+  夏 [label = "夏\n314 summer"];
+  自 [label = "自\n33 oneself"];
+  丶 [label = "丶\nNone a drop of"];
+  目 [label = "目\n15 eye"];
+  一 [label = "一\n1 one"];
+  夂 [label = "夂\nNone walking legs"];
+  厂 -> 厦;
+  夏 -> 厦;
+  自 -> 夏;
+  丶 -> 自;
+  目 -> 自;
+  一 -> 夏;
+  夂 -> 夏;
 }

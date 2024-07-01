@@ -1,6 +1,7 @@
 blockdiag {
-  None [label = "夂\nNone walking legs"];
-  1223 [label = "丰\n1223 plentiful"];
-  1223 -> None;
-  None -> None;
+  夆 [label = "夆\nNone briar"];
+  丰 [label = "丰\n1223 plentiful"];
+  夂 [label = "夂\nNone walking legs"];
+  丰 -> 夆;
+  夂 -> 夆;
 }

@@ -1,16 +1,17 @@
 blockdiag {
-  1276 [label = "筷\n1276 chopsticks"];
-  786 [label = "竹\n786 bamboo"];
-  90 [label = "丁\n90 fourth"];
-  1274 [label = "快\n1274 fast"];
-  563 [label = "心\n563 heart"];
-  None [label = "囧侯－亻－矢\nNone key"];
-  113 [label = "大\n113 large"];
-  786 -> 1276;
-  90 -> 786;
-  1274 -> 1276;
-  563 -> 1274;
-  None -> 1274;
-  None -> None;
-  113 -> None;
+  筷 [label = "筷\n1276 chopsticks"];
+  竹 [label = "竹\n786 bamboo"];
+  丁 [label = "丁\n90 fourth"];
+  快 [label = "快\n1274 fast"];
+  心 [label = "心\n563 heart"];
+  夬 [label = "夬\nNone guillotine"];
+  囧侯－亻－矢 [label = "囧侯－亻－矢\nNone key"];
+  大 [label = "大\n113 large"];
+  竹 -> 筷;
+  丁 -> 竹;
+  快 -> 筷;
+  心 -> 快;
+  夬 -> 快;
+  囧侯－亻－矢 -> 夬;
+  大 -> 夬;
 }

@@ -1,7 +1,7 @@
 blockdiag {
-  208 [label = "杏\n208 apricot"];
-  202 [label = "木\n202 tree"];
-  11 [label = "口\n11 mouth"];
-  202 -> 208;
-  11 -> 208;
+  杏 [label = "杏\n208 apricot"];
+  木 [label = "木\n202 tree"];
+  口 [label = "口\n11 mouth"];
+  木 -> 杏;
+  口 -> 杏;
 }

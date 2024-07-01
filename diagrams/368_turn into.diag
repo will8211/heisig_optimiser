@@ -1,10 +1,11 @@
 blockdiag {
-  368 [label = "成\n368 turn into"];
-  None [label = "弋\nNone arrow"];
-  361 [label = "戈\n361 halberd"];
-  83 [label = "刀\n83 sword"];
-  None -> 368;
-  361 -> None;
-  None -> 361;
-  83 -> 368;
+  成 [label = "成\n368 turn into"];
+  戊 [label = "戊\nNone parade"];
+  戈 [label = "戈\n361 halberd"];
+  弋 [label = "弋\nNone arrow"];
+  刀 [label = "刀\n83 sword"];
+  戊 -> 成;
+  戈 -> 戊;
+  弋 -> 戈;
+  刀 -> 成;
 }

@@ -1,16 +1,17 @@
 blockdiag {
-  1871 [label = "莽\n1871 rude"];
-  None [label = "丶\nNone a drop of"];
-  239 [label = "犬\n239 pooch"];
-  113 [label = "大\n113 large"];
-  613 [label = "开\n613 open"];
-  2 [label = "二\n2 two"];
-  1 [label = "一\n1 one"];
-  None -> 1871;
-  239 -> 1871;
-  113 -> 239;
-  None -> 239;
-  613 -> 1871;
-  2 -> 613;
-  1 -> 2;
+  莽 [label = "莽\n1871 rude"];
+  艹 [label = "艹\nNone flower"];
+  犬 [label = "犬\n239 pooch"];
+  大 [label = "大\n113 large"];
+  丶 [label = "丶\nNone a drop of"];
+  开 [label = "开\n613 open"];
+  二 [label = "二\n2 two"];
+  一 [label = "一\n1 one"];
+  艹 -> 莽;
+  犬 -> 莽;
+  大 -> 犬;
+  丶 -> 犬;
+  开 -> 莽;
+  二 -> 开;
+  一 -> 二;
 }

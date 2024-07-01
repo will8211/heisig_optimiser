@@ -1,11 +1,12 @@
 blockdiag {
-  263 [label = "哈\n263 ha!"];
-  11 [label = "口\n11 mouth"];
-  262 [label = "合\n262 fit"];
-  None [label = "𠆢\nNone umbrella"];
-  11 -> 263;
-  262 -> 263;
-  None -> 262;
-  None -> None;
-  11 -> 262;
+  哈 [label = "哈\n263 ha!"];
+  口 [label = "口\n11 mouth"];
+  合 [label = "合\n262 fit"];
+  亼 [label = "亼\nNone meeting"];
+  𠆢 [label = "𠆢\nNone umbrella"];
+  口 -> 哈;
+  合 -> 哈;
+  亼 -> 合;
+  𠆢 -> 亼;
+  口 -> 合;
 }

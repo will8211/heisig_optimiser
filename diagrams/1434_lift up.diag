@@ -1,15 +1,17 @@
 blockdiag {
-  1434 [label = "举\n1434 lift up"];
-  1433 [label = "兴\n1433 excitement"];
-  None [label = "囧奉－𡗗\nNone cornstalk"];
-  1 [label = "一\n1 one"];
-  8 [label = "八\n8 eight"];
-  1223 [label = "丰\n1223 plentiful"];
-  1433 -> 1434;
-  None -> 1433;
-  1 -> 1433;
-  None -> 1433;
-  8 -> None;
-  None -> 1434;
-  1223 -> None;
+  举 [label = "举\n1434 lift up"];
+  兴 [label = "兴\n1433 excitement"];
+  囧应－广 [label = "囧应－广\nNone owl"];
+  一 [label = "一\n1 one"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  囧奉－𡗗 [label = "囧奉－𡗗\nNone cornstalk"];
+  丰 [label = "丰\n1223 plentiful"];
+  兴 -> 举;
+  囧应－广 -> 兴;
+  一 -> 兴;
+  囧只－口 -> 兴;
+  八 -> 囧只－口;
+  囧奉－𡗗 -> 举;
+  丰 -> 囧奉－𡗗;
 }

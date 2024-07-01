@@ -1,13 +1,13 @@
 blockdiag {
-  2599 [label = "蠢\n2599 foolish"];
-  1230 [label = "春\n1230 springtime"];
-  None [label = "𡗗\nNone bonsai"];
-  1223 [label = "丰\n1223 plentiful"];
-  12 [label = "日\n12 day"];
-  509 [label = "虫\n509 insect"];
-  1230 -> 2599;
-  None -> 1230;
-  1223 -> None;
-  12 -> 1230;
-  509 -> 2599;
+  蠢 [label = "蠢\n2599 foolish"];
+  春 [label = "春\n1230 springtime"];
+  𡗗 [label = "𡗗\nNone bonsai"];
+  丰 [label = "丰\n1223 plentiful"];
+  日 [label = "日\n12 day"];
+  虫 [label = "虫\n509 insect"];
+  春 -> 蠢;
+  𡗗 -> 春;
+  丰 -> 𡗗;
+  日 -> 春;
+  虫 -> 蠢;
 }

@@ -1,16 +1,19 @@
 blockdiag {
-  2705 [label = "渗\n2705 seep"];
-  137 [label = "水\n137 water"];
-  None [label = "彡\nNone rooster tail"];
-  1 [label = "一\n1 one"];
-  1308 [label = "参\n1308 participate"];
-  113 [label = "大\n113 large"];
-  137 -> 2705;
-  None -> 137;
-  1 -> None;
-  None -> 137;
-  1308 -> 2705;
-  113 -> 1308;
-  None -> 1308;
-  None -> 1308;
+  渗 [label = "渗\n2705 seep"];
+  水 [label = "水\n137 water"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  丶 [label = "丶\nNone a drop of"];
+  参 [label = "参\n1308 participate"];
+  大 [label = "大\n113 large"];
+  厶 [label = "厶\nNone elbow"];
+  彡 [label = "彡\nNone rooster tail"];
+  水 -> 渗;
+  丨 -> 水;
+  一 -> 丨;
+  丶 -> 水;
+  参 -> 渗;
+  大 -> 参;
+  厶 -> 参;
+  彡 -> 参;
 }

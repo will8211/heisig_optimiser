@@ -1,17 +1,19 @@
 blockdiag {
-  362 [label = "战\n362 war"];
-  44 [label = "占\n44 tell fortunes"];
-  43 [label = "卜\n43 divination"];
-  None [label = "弋\nNone arrow"];
-  1 [label = "一\n1 one"];
-  11 [label = "口\n11 mouth"];
-  361 [label = "戈\n361 halberd"];
-  44 -> 362;
-  43 -> 44;
-  None -> 43;
-  1 -> None;
-  None -> 43;
-  11 -> 44;
-  361 -> 362;
-  None -> 361;
+  战 [label = "战\n362 war"];
+  占 [label = "占\n44 tell fortunes"];
+  卜 [label = "卜\n43 divination"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  丶 [label = "丶\nNone a drop of"];
+  口 [label = "口\n11 mouth"];
+  戈 [label = "戈\n361 halberd"];
+  弋 [label = "弋\nNone arrow"];
+  占 -> 战;
+  卜 -> 占;
+  丨 -> 卜;
+  一 -> 丨;
+  丶 -> 卜;
+  口 -> 占;
+  戈 -> 战;
+  弋 -> 戈;
 }

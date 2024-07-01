@@ -1,19 +1,21 @@
 blockdiag {
-  2523 [label = "馒\n2523 bread"];
-  1154 [label = "食\n1154 food"];
-  1151 [label = "良\n1151 high-quality"];
-  None [label = "𠆢\nNone umbrella"];
-  723 [label = "曼\n723 drawn out"];
-  12 [label = "日\n12 day"];
-  15 [label = "目\n15 eye"];
-  633 [label = "又\n633 again"];
-  1154 -> 2523;
-  1151 -> 1154;
-  None -> 1151;
-  None -> 1151;
-  None -> 1154;
-  723 -> 2523;
-  12 -> 723;
-  15 -> 723;
-  633 -> 723;
+  馒 [label = "馒\n2523 bread"];
+  食 [label = "食\n1154 food"];
+  良 [label = "良\n1151 high-quality"];
+  丶 [label = "丶\nNone a drop of"];
+  艮 [label = "艮\nNone silver"];
+  𠆢 [label = "𠆢\nNone umbrella"];
+  曼 [label = "曼\n723 drawn out"];
+  日 [label = "日\n12 day"];
+  目 [label = "目\n15 eye"];
+  又 [label = "又\n633 again"];
+  食 -> 馒;
+  良 -> 食;
+  丶 -> 良;
+  艮 -> 良;
+  𠆢 -> 食;
+  曼 -> 馒;
+  日 -> 曼;
+  目 -> 曼;
+  又 -> 曼;
 }

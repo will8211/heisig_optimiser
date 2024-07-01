@@ -1,16 +1,19 @@
 blockdiag {
-  1317 [label = "这\n1317 this"];
-  1315 [label = "文\n1315 literature"];
-  None [label = "辶\nNone road"];
-  6 [label = "六\n6 six"];
-  8 [label = "八\n8 eight"];
-  1315 -> 1317;
-  None -> 1315;
-  6 -> None;
-  None -> 6;
-  8 -> None;
-  None -> None;
-  8 -> None;
-  None -> 1315;
-  None -> 1317;
+  这 [label = "这\n1317 this"];
+  文 [label = "文\n1315 literature"];
+  亠 [label = "亠\nNone top hat"];
+  六 [label = "六\n6 six"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  㐅 [label = "㐅\nNone sheaf"];
+  辶 [label = "辶\nNone road"];
+  文 -> 这;
+  亠 -> 文;
+  六 -> 亠;
+  囧只－口 -> 六;
+  八 -> 囧只－口;
+  囧只－口 -> 亠;
+  八 -> 囧只－口;
+  㐅 -> 文;
+  辶 -> 这;
 }

@@ -1,7 +1,7 @@
 blockdiag {
-  1327 [label = "把\n1327 grasp"];
-  None [label = "扌\nNone fingers"];
-  1326 [label = "巴\n1326 crust"];
-  None -> 1327;
-  1326 -> 1327;
+  把 [label = "把\n1327 grasp"];
+  扌 [label = "扌\nNone fingers"];
+  巴 [label = "巴\n1326 crust"];
+  扌 -> 把;
+  巴 -> 把;
 }

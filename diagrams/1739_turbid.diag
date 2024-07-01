@@ -1,12 +1,13 @@
 blockdiag {
-  1739 [label = "浊\n1739 turbid"];
-  137 [label = "水\n137 water"];
-  None [label = "丶\nNone a drop of"];
-  1 [label = "一\n1 one"];
-  509 [label = "虫\n509 insect"];
-  137 -> 1739;
-  None -> 137;
-  1 -> None;
-  None -> 137;
-  509 -> 1739;
+  浊 [label = "浊\n1739 turbid"];
+  水 [label = "水\n137 water"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  丶 [label = "丶\nNone a drop of"];
+  虫 [label = "虫\n509 insect"];
+  水 -> 浊;
+  丨 -> 水;
+  一 -> 丨;
+  丶 -> 水;
+  虫 -> 浊;
 }

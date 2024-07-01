@@ -1,7 +1,7 @@
 blockdiag {
-  1700 [label = "垃\n1700 garbage"];
-  158 [label = "土\n158 soil"];
-  444 [label = "立\n444 standing up"];
-  158 -> 1700;
-  444 -> 1700;
+  垃 [label = "垃\n1700 garbage"];
+  土 [label = "土\n158 soil"];
+  立 [label = "立\n444 standing up"];
+  土 -> 垃;
+  立 -> 垃;
 }

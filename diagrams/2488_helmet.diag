@@ -1,12 +1,13 @@
 blockdiag {
-  2488 [label = "盔\n2488 helmet"];
-  172 [label = "灰\n172 ashes"];
-  170 [label = "火\n170 fire"];
-  None [label = "皿\nNone dish"];
-  10 [label = "十\n10 ten"];
-  172 -> 2488;
-  170 -> 172;
-  None -> 172;
-  10 -> None;
-  None -> 2488;
+  盔 [label = "盔\n2488 helmet"];
+  灰 [label = "灰\n172 ashes"];
+  火 [label = "火\n170 fire"];
+  𠂇 [label = "𠂇\nNone by one’s side"];
+  十 [label = "十\n10 ten"];
+  皿 [label = "皿\nNone dish"];
+  灰 -> 盔;
+  火 -> 灰;
+  𠂇 -> 灰;
+  十 -> 𠂇;
+  皿 -> 盔;
 }

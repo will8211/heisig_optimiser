@@ -1,14 +1,15 @@
 blockdiag {
-  791 [label = "答\n791 answer"];
-  786 [label = "竹\n786 bamboo"];
-  90 [label = "丁\n90 fourth"];
-  262 [label = "合\n262 fit"];
-  None [label = "𠆢\nNone umbrella"];
-  11 [label = "口\n11 mouth"];
-  786 -> 791;
-  90 -> 786;
-  262 -> 791;
-  None -> 262;
-  None -> None;
-  11 -> 262;
+  答 [label = "答\n791 answer"];
+  竹 [label = "竹\n786 bamboo"];
+  丁 [label = "丁\n90 fourth"];
+  合 [label = "合\n262 fit"];
+  亼 [label = "亼\nNone meeting"];
+  𠆢 [label = "𠆢\nNone umbrella"];
+  口 [label = "口\n11 mouth"];
+  竹 -> 答;
+  丁 -> 竹;
+  合 -> 答;
+  亼 -> 合;
+  𠆢 -> 亼;
+  口 -> 合;
 }

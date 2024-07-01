@@ -1,13 +1,13 @@
 blockdiag {
-  870 [label = "善\n870 virtuous"];
-  528 [label = "羊\n528 sheep"];
-  None [label = "丷\nNone horns"];
-  1 [label = "一\n1 one"];
-  11 [label = "口\n11 mouth"];
-  528 -> 870;
-  None -> 528;
-  1 -> None;
-  None -> 870;
-  1 -> None;
-  11 -> 870;
+  善 [label = "善\n870 virtuous"];
+  羊 [label = "羊\n528 sheep"];
+  丷 [label = "丷\nNone horns"];
+  一 [label = "一\n1 one"];
+  口 [label = "口\n11 mouth"];
+  羊 -> 善;
+  丷 -> 羊;
+  一 -> 丷;
+  丷 -> 善;
+  一 -> 丷;
+  口 -> 善;
 }

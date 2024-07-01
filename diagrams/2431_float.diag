@@ -1,16 +1,19 @@
 blockdiag {
-  2431 [label = "浮\n2431 float"];
-  137 [label = "水\n137 water"];
-  None [label = "𠂆\nNone drag"];
-  1 [label = "一\n1 one"];
-  663 [label = "爪\n663 claw"];
-  97 [label = "子\n97 child"];
-  137 -> 2431;
-  None -> 137;
-  1 -> None;
-  None -> 137;
-  None -> 2431;
-  663 -> None;
-  None -> 663;
-  97 -> None;
+  浮 [label = "浮\n2431 float"];
+  水 [label = "水\n137 water"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  丶 [label = "丶\nNone a drop of"];
+  孚 [label = "孚\nNone fledglings"];
+  爪 [label = "爪\n663 claw"];
+  𠂆 [label = "𠂆\nNone drag"];
+  子 [label = "子\n97 child"];
+  水 -> 浮;
+  丨 -> 水;
+  一 -> 丨;
+  丶 -> 水;
+  孚 -> 浮;
+  爪 -> 孚;
+  𠂆 -> 爪;
+  子 -> 孚;
 }

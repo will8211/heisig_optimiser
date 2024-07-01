@@ -1,7 +1,7 @@
 blockdiag {
-  103 [label = "好\n103 good"];
-  102 [label = "女\n102 woman"];
-  97 [label = "子\n97 child"];
-  102 -> 103;
-  97 -> 103;
+  好 [label = "好\n103 good"];
+  女 [label = "女\n102 woman"];
+  子 [label = "子\n97 child"];
+  女 -> 好;
+  子 -> 好;
 }

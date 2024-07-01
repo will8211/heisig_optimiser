@@ -1,9 +1,9 @@
 blockdiag {
-  1844 [label = "抹\n1844 smear on"];
-  None [label = "扌\nNone fingers"];
-  216 [label = "末\n216 last"];
-  202 [label = "木\n202 tree"];
-  None -> 1844;
-  216 -> 1844;
-  202 -> 216;
+  抹 [label = "抹\n1844 smear on"];
+  扌 [label = "扌\nNone fingers"];
+  末 [label = "末\n216 last"];
+  木 [label = "木\n202 tree"];
+  扌 -> 抹;
+  末 -> 抹;
+  木 -> 末;
 }

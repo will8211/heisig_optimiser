@@ -1,15 +1,17 @@
 blockdiag {
-  2910 [label = "骗\n2910 cheat"];
-  1453 [label = "马\n1453 horse"];
-  None [label = "丶\nNone a drop of"];
-  1367 [label = "扁\n1367 flat"];
-  896 [label = "户\n896 door"];
-  882 [label = "尸\n882 corpse"];
-  1453 -> 2910;
-  None -> 1453;
-  1367 -> 2910;
-  None -> 1367;
-  896 -> 1367;
-  None -> 896;
-  882 -> 896;
+  骗 [label = "骗\n2910 cheat"];
+  马 [label = "马\n1453 horse"];
+  囧与－丨一 [label = "囧与－丨一\nNone pointed tail"];
+  扁 [label = "扁\n1367 flat"];
+  冊 [label = "冊\nNone tome"];
+  户 [label = "户\n896 door"];
+  丶 [label = "丶\nNone a drop of"];
+  尸 [label = "尸\n882 corpse"];
+  马 -> 骗;
+  囧与－丨一 -> 马;
+  扁 -> 骗;
+  冊 -> 扁;
+  户 -> 扁;
+  丶 -> 户;
+  尸 -> 户;
 }

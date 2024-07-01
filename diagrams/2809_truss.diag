@@ -1,12 +1,15 @@
 blockdiag {
-  2809 [label = "绑\n2809 truss"];
-  None [label = "阝\nNone pinnacle"];
-  2808 [label = "邦\n2808 nation"];
-  1223 [label = "丰\n1223 plentiful"];
-  None -> 2809;
-  None -> None;
-  2808 -> 2809;
-  1223 -> 2808;
-  None -> 2808;
-  None -> None;
+  绑 [label = "绑\n2809 truss"];
+  纟 [label = "纟\nNone thread"];
+  厶 [label = "厶\nNone elbow"];
+  邦 [label = "邦\n2808 nation"];
+  丰 [label = "丰\n1223 plentiful"];
+  囧阝 [label = "囧阝\nNone city walls"];
+  阝 [label = "阝\nNone pinnacle"];
+  纟 -> 绑;
+  厶 -> 纟;
+  邦 -> 绑;
+  丰 -> 邦;
+  囧阝 -> 邦;
+  阝 -> 囧阝;
 }

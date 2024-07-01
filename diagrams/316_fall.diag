@@ -1,18 +1,21 @@
 blockdiag {
-  316 [label = "落\n316 fall"];
-  315 [label = "洛\n315 L.A."];
-  309 [label = "各\n309 each"];
-  11 [label = "口\n11 mouth"];
-  None [label = "艹\nNone flower"];
-  137 [label = "水\n137 water"];
-  1 [label = "一\n1 one"];
-  315 -> 316;
-  309 -> 315;
-  11 -> 309;
-  None -> 309;
-  137 -> 315;
-  None -> 137;
-  1 -> None;
-  None -> 137;
-  None -> 316;
+  落 [label = "落\n316 fall"];
+  洛 [label = "洛\n315 L.A."];
+  各 [label = "各\n309 each"];
+  口 [label = "口\n11 mouth"];
+  夂 [label = "夂\nNone walking legs"];
+  水 [label = "水\n137 water"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  丶 [label = "丶\nNone a drop of"];
+  艹 [label = "艹\nNone flower"];
+  洛 -> 落;
+  各 -> 洛;
+  口 -> 各;
+  夂 -> 各;
+  水 -> 洛;
+  丨 -> 水;
+  一 -> 丨;
+  丶 -> 水;
+  艹 -> 落;
 }

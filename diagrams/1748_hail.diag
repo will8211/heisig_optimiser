@@ -1,13 +1,13 @@
 blockdiag {
-  1748 [label = "雹\n1748 hail"];
-  425 [label = "雨\n425 rain"];
-  520 [label = "包\n520 wrap"];
-  None [label = "勹\nNone bound up"];
-  519 [label = "已\n519 already"];
-  515 [label = "己\n515 self"];
-  425 -> 1748;
-  520 -> 1748;
-  None -> 520;
-  519 -> 520;
-  515 -> 519;
+  雹 [label = "雹\n1748 hail"];
+  雨 [label = "雨\n425 rain"];
+  包 [label = "包\n520 wrap"];
+  勹 [label = "勹\nNone bound up"];
+  已 [label = "已\n519 already"];
+  己 [label = "己\n515 self"];
+  雨 -> 雹;
+  包 -> 雹;
+  勹 -> 包;
+  已 -> 包;
+  己 -> 已;
 }

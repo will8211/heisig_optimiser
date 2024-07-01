@@ -1,12 +1,13 @@
 blockdiag {
-  1237 [label = "传\n1237 spread"];
-  793 [label = "人\n793 person"];
-  1236 [label = "专\n1236 specialty"];
-  None [label = "囧节－艹\nNone chop"];
-  1223 [label = "丰\n1223 plentiful"];
-  793 -> 1237;
-  1236 -> 1237;
-  None -> 1236;
-  1223 -> None;
-  None -> 1236;
+  传 [label = "传\n1237 spread"];
+  人 [label = "人\n793 person"];
+  专 [label = "专\n1236 specialty"];
+  囧奉－𡗗 [label = "囧奉－𡗗\nNone cornstalk"];
+  丰 [label = "丰\n1223 plentiful"];
+  囧节－艹 [label = "囧节－艹\nNone chop"];
+  人 -> 传;
+  专 -> 传;
+  囧奉－𡗗 -> 专;
+  丰 -> 囧奉－𡗗;
+  囧节－艹 -> 专;
 }

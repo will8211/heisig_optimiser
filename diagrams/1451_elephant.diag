@@ -1,13 +1,15 @@
 blockdiag {
-  1451 [label = "象\n1451 elephant"];
-  1447 [label = "兔\n1447 rabbit"];
-  None [label = "豕\nNone sow"];
-  11 [label = "口\n11 mouth"];
-  56 [label = "儿\n56 youngster"];
-  1447 -> 1451;
-  None -> 1447;
-  11 -> 1447;
-  56 -> 1447;
-  None -> 1447;
-  None -> 1451;
+  象 [label = "象\n1451 elephant"];
+  兔 [label = "兔\n1447 rabbit"];
+  勹 [label = "勹\nNone bound up"];
+  口 [label = "口\n11 mouth"];
+  儿 [label = "儿\n56 youngster"];
+  丶 [label = "丶\nNone a drop of"];
+  豕 [label = "豕\nNone sow"];
+  兔 -> 象;
+  勹 -> 兔;
+  口 -> 兔;
+  儿 -> 兔;
+  丶 -> 兔;
+  豕 -> 象;
 }

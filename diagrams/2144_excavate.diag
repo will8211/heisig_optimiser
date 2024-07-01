@@ -1,13 +1,13 @@
 blockdiag {
-  2144 [label = "掘\n2144 excavate"];
-  None [label = "扌\nNone fingers"];
-  2143 [label = "屈\n2143 knuckle under"];
-  882 [label = "尸\n882 corpse"];
-  689 [label = "出\n689 exit"];
-  688 [label = "山\n688 mountain"];
-  None -> 2144;
-  2143 -> 2144;
-  882 -> 2143;
-  689 -> 2143;
-  688 -> 689;
+  掘 [label = "掘\n2144 excavate"];
+  扌 [label = "扌\nNone fingers"];
+  屈 [label = "屈\n2143 knuckle under"];
+  尸 [label = "尸\n882 corpse"];
+  出 [label = "出\n689 exit"];
+  山 [label = "山\n688 mountain"];
+  扌 -> 掘;
+  屈 -> 掘;
+  尸 -> 屈;
+  出 -> 屈;
+  山 -> 出;
 }

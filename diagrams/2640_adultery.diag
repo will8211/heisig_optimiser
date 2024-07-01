@@ -1,7 +1,7 @@
 blockdiag {
-  2640 [label = "奸\n2640 adultery"];
-  102 [label = "女\n102 woman"];
-  1277 [label = "干\n1277 dry"];
-  102 -> 2640;
-  1277 -> 2640;
+  奸 [label = "奸\n2640 adultery"];
+  女 [label = "女\n102 woman"];
+  干 [label = "干\n1277 dry"];
+  女 -> 奸;
+  干 -> 奸;
 }

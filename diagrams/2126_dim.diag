@@ -1,14 +1,17 @@
 blockdiag {
-  2126 [label = "朦\n2126 dim"];
-  13 [label = "月\n13 month"];
-  2125 [label = "蒙\n2125 Mongolia"];
-  None [label = "豕\nNone sow"];
-  1 [label = "一\n1 one"];
-  13 -> 2126;
-  2125 -> 2126;
-  None -> 2125;
-  None -> None;
-  None -> None;
-  1 -> 2125;
-  None -> 2125;
+  朦 [label = "朦\n2126 dim"];
+  月 [label = "月\n13 month"];
+  蒙 [label = "蒙\n2125 Mongolia"];
+  囧荣－木 [label = "囧荣－木\nNone greenhouse"];
+  宀 [label = "宀\nNone house"];
+  艹 [label = "艹\nNone flower"];
+  一 [label = "一\n1 one"];
+  豕 [label = "豕\nNone sow"];
+  月 -> 朦;
+  蒙 -> 朦;
+  囧荣－木 -> 蒙;
+  宀 -> 囧荣－木;
+  艹 -> 囧荣－木;
+  一 -> 蒙;
+  豕 -> 蒙;
 }

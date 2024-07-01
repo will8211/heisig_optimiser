@@ -1,11 +1,13 @@
 blockdiag {
-  2203 [label = "侵\n2203 invade"];
-  793 [label = "人\n793 person"];
-  None [label = "冖\nNone crown"];
-  633 [label = "又\n633 again"];
-  793 -> 2203;
-  None -> 2203;
-  None -> None;
-  None -> None;
-  633 -> None;
+  侵 [label = "侵\n2203 invade"];
+  人 [label = "人\n793 person"];
+  囧浸－氵 [label = "囧浸－氵\nNone dunce"];
+  彐 [label = "彐\nNone broom"];
+  冖 [label = "冖\nNone crown"];
+  又 [label = "又\n633 again"];
+  人 -> 侵;
+  囧浸－氵 -> 侵;
+  彐 -> 囧浸－氵;
+  冖 -> 囧浸－氵;
+  又 -> 囧浸－氵;
 }

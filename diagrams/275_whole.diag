@@ -1,9 +1,9 @@
 blockdiag {
-  275 [label = "全\n275 whole"];
-  265 [label = "王\n265 king"];
-  76 [label = "工\n76 work"];
-  None [label = "𠆢\nNone umbrella"];
-  265 -> 275;
-  76 -> 265;
-  None -> 275;
+  全 [label = "全\n275 whole"];
+  王 [label = "王\n265 king"];
+  工 [label = "工\n76 work"];
+  𠆢 [label = "𠆢\nNone umbrella"];
+  王 -> 全;
+  工 -> 王;
+  𠆢 -> 全;
 }

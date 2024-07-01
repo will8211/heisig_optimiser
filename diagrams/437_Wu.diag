@@ -1,11 +1,11 @@
 blockdiag {
-  437 [label = "吴\n437 Wu"];
-  436 [label = "天\n436 heavens"];
-  1 [label = "一\n1 one"];
-  113 [label = "大\n113 large"];
-  11 [label = "口\n11 mouth"];
-  436 -> 437;
-  1 -> 436;
-  113 -> 436;
-  11 -> 437;
+  吴 [label = "吴\n437 Wu"];
+  天 [label = "天\n436 heavens"];
+  一 [label = "一\n1 one"];
+  大 [label = "大\n113 large"];
+  口 [label = "口\n11 mouth"];
+  天 -> 吴;
+  一 -> 天;
+  大 -> 天;
+  口 -> 吴;
 }

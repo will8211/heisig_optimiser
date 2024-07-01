@@ -1,13 +1,13 @@
 blockdiag {
-  3000 [label = "乓\n3000 pong"];
-  1078 [label = "兵\n1078 troops"];
-  1077 [label = "丘\n1077 hill"];
-  924 [label = "斤\n924 catty"];
-  None [label = "囧只－口\nNone animal legs"];
-  8 [label = "八\n8 eight"];
-  1078 -> 3000;
-  1077 -> 1078;
-  924 -> 1077;
-  None -> 1078;
-  8 -> None;
+  乓 [label = "乓\n3000 pong"];
+  兵 [label = "兵\n1078 troops"];
+  丘 [label = "丘\n1077 hill"];
+  斤 [label = "斤\n924 catty"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  兵 -> 乓;
+  丘 -> 兵;
+  斤 -> 丘;
+  囧只－口 -> 兵;
+  八 -> 囧只－口;
 }

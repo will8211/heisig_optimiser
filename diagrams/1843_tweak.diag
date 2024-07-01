@@ -1,10 +1,11 @@
 blockdiag {
-  1843 [label = "拧\n1843 tweak"];
-  None [label = "宀\nNone house"];
-  1558 [label = "宁\n1558 calm"];
-  90 [label = "丁\n90 fourth"];
-  None -> 1843;
-  1558 -> 1843;
-  None -> 1558;
-  90 -> 1558;
+  拧 [label = "拧\n1843 tweak"];
+  扌 [label = "扌\nNone fingers"];
+  宁 [label = "宁\n1558 calm"];
+  宀 [label = "宀\nNone house"];
+  丁 [label = "丁\n90 fourth"];
+  扌 -> 拧;
+  宁 -> 拧;
+  宀 -> 宁;
+  丁 -> 宁;
 }

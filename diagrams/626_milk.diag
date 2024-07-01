@@ -1,7 +1,7 @@
 blockdiag {
-  626 [label = "奶\n626 milk"];
-  102 [label = "女\n102 woman"];
-  625 [label = "乃\n625 only then"];
-  102 -> 626;
-  625 -> 626;
+  奶 [label = "奶\n626 milk"];
+  女 [label = "女\n102 woman"];
+  乃 [label = "乃\n625 only then"];
+  女 -> 奶;
+  乃 -> 奶;
 }

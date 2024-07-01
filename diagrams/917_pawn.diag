@@ -1,9 +1,9 @@
 blockdiag {
-  917 [label = "押\n917 pawn"];
-  None [label = "扌\nNone fingers"];
-  916 [label = "甲\n916 first"];
-  14 [label = "田\n14 rice field"];
-  None -> 917;
-  916 -> 917;
-  14 -> 916;
+  押 [label = "押\n917 pawn"];
+  扌 [label = "扌\nNone fingers"];
+  甲 [label = "甲\n916 first"];
+  田 [label = "田\n14 rice field"];
+  扌 -> 押;
+  甲 -> 押;
+  田 -> 甲;
 }

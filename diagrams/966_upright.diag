@@ -1,7 +1,7 @@
 blockdiag {
-  966 [label = "端\n966 upright"];
-  444 [label = "立\n444 standing up"];
-  None [label = "耑\nNone prospector"];
-  444 -> 966;
-  None -> 966;
+  端 [label = "端\n966 upright"];
+  立 [label = "立\n444 standing up"];
+  耑 [label = "耑\nNone prospector"];
+  立 -> 端;
+  耑 -> 端;
 }

@@ -1,11 +1,13 @@
 blockdiag {
-  2240 [label = "措\n2240 arrange"];
-  None [label = "艹\nNone flower"];
-  971 [label = "昔\n971 times past"];
-  12 [label = "日\n12 day"];
-  None -> 2240;
-  971 -> 2240;
-  None -> 971;
-  None -> None;
-  12 -> 971;
+  措 [label = "措\n2240 arrange"];
+  扌 [label = "扌\nNone fingers"];
+  昔 [label = "昔\n971 times past"];
+  囧昔－日 [label = "囧昔－日\nNone salad"];
+  艹 [label = "艹\nNone flower"];
+  日 [label = "日\n12 day"];
+  扌 -> 措;
+  昔 -> 措;
+  囧昔－日 -> 昔;
+  艹 -> 囧昔－日;
+  日 -> 昔;
 }

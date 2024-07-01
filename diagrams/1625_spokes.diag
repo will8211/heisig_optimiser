@@ -1,13 +1,13 @@
 blockdiag {
-  1625 [label = "辐\n1625 spokes"];
-  300 [label = "车\n300 car"];
-  None [label = "畐\nNone wealth"];
-  1 [label = "一\n1 one"];
-  11 [label = "口\n11 mouth"];
-  14 [label = "田\n14 rice field"];
-  300 -> 1625;
-  None -> 1625;
-  1 -> None;
-  11 -> None;
-  14 -> None;
+  辐 [label = "辐\n1625 spokes"];
+  车 [label = "车\n300 car"];
+  畐 [label = "畐\nNone wealth"];
+  一 [label = "一\n1 one"];
+  口 [label = "口\n11 mouth"];
+  田 [label = "田\n14 rice field"];
+  车 -> 辐;
+  畐 -> 辐;
+  一 -> 畐;
+  口 -> 畐;
+  田 -> 畐;
 }

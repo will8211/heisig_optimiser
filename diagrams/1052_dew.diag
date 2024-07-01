@@ -1,18 +1,18 @@
 blockdiag {
-  1052 [label = "露\n1052 dew"];
-  425 [label = "雨\n425 rain"];
-  1051 [label = "路\n1051 path"];
-  1048 [label = "足\n1048 lower leg"];
-  11 [label = "口\n11 mouth"];
-  379 [label = "止\n379 stop"];
-  309 [label = "各\n309 each"];
-  None [label = "夂\nNone walking legs"];
-  425 -> 1052;
-  1051 -> 1052;
-  1048 -> 1051;
-  11 -> 1048;
-  379 -> 1048;
-  309 -> 1051;
-  11 -> 309;
-  None -> 309;
+  露 [label = "露\n1052 dew"];
+  雨 [label = "雨\n425 rain"];
+  路 [label = "路\n1051 path"];
+  足 [label = "足\n1048 lower leg"];
+  口 [label = "口\n11 mouth"];
+  止 [label = "止\n379 stop"];
+  各 [label = "各\n309 each"];
+  夂 [label = "夂\nNone walking legs"];
+  雨 -> 露;
+  路 -> 露;
+  足 -> 路;
+  口 -> 足;
+  止 -> 足;
+  各 -> 路;
+  口 -> 各;
+  夂 -> 各;
 }

@@ -1,12 +1,13 @@
 blockdiag {
-  587 [label = "拿\n587 hold"];
-  262 [label = "合\n262 fit"];
-  None [label = "𠆢\nNone umbrella"];
-  11 [label = "口\n11 mouth"];
-  584 [label = "手\n584 hand"];
-  262 -> 587;
-  None -> 262;
-  None -> None;
-  11 -> 262;
-  584 -> 587;
+  拿 [label = "拿\n587 hold"];
+  合 [label = "合\n262 fit"];
+  亼 [label = "亼\nNone meeting"];
+  𠆢 [label = "𠆢\nNone umbrella"];
+  口 [label = "口\n11 mouth"];
+  手 [label = "手\n584 hand"];
+  合 -> 拿;
+  亼 -> 合;
+  𠆢 -> 亼;
+  口 -> 合;
+  手 -> 拿;
 }

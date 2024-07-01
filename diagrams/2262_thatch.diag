@@ -1,7 +1,7 @@
 blockdiag {
-  2262 [label = "茅\n2262 thatch"];
-  None [label = "艹\nNone flower"];
-  1002 [label = "矛\n1002 spear"];
-  None -> 2262;
-  1002 -> 2262;
+  茅 [label = "茅\n2262 thatch"];
+  艹 [label = "艹\nNone flower"];
+  矛 [label = "矛\n1002 spear"];
+  艹 -> 茅;
+  矛 -> 茅;
 }

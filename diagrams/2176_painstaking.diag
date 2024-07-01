@@ -1,12 +1,13 @@
 blockdiag {
-  2176 [label = "审\n2176 painstaking"];
-  None [label = "丨\nNone walking stick"];
-  918 [label = "申\n918 express"];
-  12 [label = "日\n12 day"];
-  1 [label = "一\n1 one"];
-  None -> 2176;
-  918 -> 2176;
-  12 -> 918;
-  None -> 918;
-  1 -> None;
+  审 [label = "审\n2176 painstaking"];
+  宀 [label = "宀\nNone house"];
+  申 [label = "申\n918 express"];
+  日 [label = "日\n12 day"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  宀 -> 审;
+  申 -> 审;
+  日 -> 申;
+  丨 -> 申;
+  一 -> 丨;
 }

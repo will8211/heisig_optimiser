@@ -1,9 +1,9 @@
 blockdiag {
-  1234 [label = "击\n1234 beat"];
-  None [label = "囧奉－𡗗\nNone cornstalk"];
-  1223 [label = "丰\n1223 plentiful"];
-  688 [label = "山\n688 mountain"];
-  None -> 1234;
-  1223 -> None;
-  688 -> 1234;
+  击 [label = "击\n1234 beat"];
+  囧奉－𡗗 [label = "囧奉－𡗗\nNone cornstalk"];
+  丰 [label = "丰\n1223 plentiful"];
+  山 [label = "山\n688 mountain"];
+  囧奉－𡗗 -> 击;
+  丰 -> 囧奉－𡗗;
+  山 -> 击;
 }

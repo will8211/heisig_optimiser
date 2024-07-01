@@ -1,19 +1,20 @@
 blockdiag {
-  2927 [label = "瑰\n2927 marvelous"];
-  266 [label = "玉\n266 jade"];
-  265 [label = "王\n265 king"];
-  76 [label = "工\n76 work"];
-  None [label = "厶\nNone elbow"];
-  1472 [label = "鬼\n1472 ghost"];
-  14 [label = "田\n14 rice field"];
-  56 [label = "儿\n56 youngster"];
-  266 -> 2927;
-  265 -> 266;
-  76 -> 265;
-  None -> 266;
-  1472 -> 2927;
-  None -> 1472;
-  14 -> 1472;
-  56 -> 1472;
-  None -> 1472;
+  瑰 [label = "瑰\n2927 marvelous"];
+  玉 [label = "玉\n266 jade"];
+  王 [label = "王\n265 king"];
+  工 [label = "工\n76 work"];
+  丶 [label = "丶\nNone a drop of"];
+  鬼 [label = "鬼\n1472 ghost"];
+  田 [label = "田\n14 rice field"];
+  儿 [label = "儿\n56 youngster"];
+  厶 [label = "厶\nNone elbow"];
+  玉 -> 瑰;
+  王 -> 玉;
+  工 -> 王;
+  丶 -> 玉;
+  鬼 -> 瑰;
+  丶 -> 鬼;
+  田 -> 鬼;
+  儿 -> 鬼;
+  厶 -> 鬼;
 }

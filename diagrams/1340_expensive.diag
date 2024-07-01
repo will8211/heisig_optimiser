@@ -1,19 +1,21 @@
 blockdiag {
-  1340 [label = "贵\n1340 expensive"];
-  None [label = "囧只－口\nNone animal legs"];
-  38 [label = "中\n38 middle"];
-  1 [label = "一\n1 one"];
-  11 [label = "口\n11 mouth"];
-  52 [label = "贝\n52 shellfish"];
-  15 [label = "目\n15 eye"];
-  8 [label = "八\n8 eight"];
-  None -> 1340;
-  38 -> None;
-  None -> 38;
-  1 -> None;
-  11 -> 38;
-  52 -> 1340;
-  15 -> 52;
-  None -> 52;
-  8 -> None;
+  贵 [label = "贵\n1340 expensive"];
+  𠀐 [label = "𠀐\nNone purse"];
+  中 [label = "中\n38 middle"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  口 [label = "口\n11 mouth"];
+  贝 [label = "贝\n52 shellfish"];
+  目 [label = "目\n15 eye"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  𠀐 -> 贵;
+  中 -> 𠀐;
+  丨 -> 中;
+  一 -> 丨;
+  口 -> 中;
+  贝 -> 贵;
+  目 -> 贝;
+  囧只－口 -> 贝;
+  八 -> 囧只－口;
 }

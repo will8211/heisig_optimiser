@@ -1,16 +1,16 @@
 blockdiag {
-  1984 [label = "劣\n1984 inferior"];
-  110 [label = "少\n110 few"];
-  None [label = "丶\nNone a drop of"];
-  109 [label = "小\n109 small"];
-  63 [label = "肌\n63 muscle"];
-  57 [label = "几\n57 how many?"];
-  13 [label = "月\n13 month"];
-  110 -> 1984;
-  None -> 110;
-  109 -> 110;
-  None -> 109;
-  63 -> 1984;
-  57 -> 63;
-  13 -> 63;
+  劣 [label = "劣\n1984 inferior"];
+  少 [label = "少\n110 few"];
+  丶 [label = "丶\nNone a drop of"];
+  小 [label = "小\n109 small"];
+  肌 [label = "肌\n63 muscle"];
+  几 [label = "几\n57 how many?"];
+  月 [label = "月\n13 month"];
+  少 -> 劣;
+  丶 -> 少;
+  小 -> 少;
+  丶 -> 小;
+  肌 -> 劣;
+  几 -> 肌;
+  月 -> 肌;
 }

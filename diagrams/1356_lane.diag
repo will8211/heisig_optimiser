@@ -1,15 +1,17 @@
 blockdiag {
-  1356 [label = "巷\n1356 lane"];
-  1354 [label = "共\n1354 together"];
-  None [label = "囧只－口\nNone animal legs"];
-  8 [label = "八\n8 eight"];
-  519 [label = "已\n519 already"];
-  515 [label = "己\n515 self"];
-  1354 -> 1356;
-  None -> 1354;
-  None -> None;
-  None -> 1354;
-  8 -> None;
-  519 -> 1356;
-  515 -> 519;
+  巷 [label = "巷\n1356 lane"];
+  共 [label = "共\n1354 together"];
+  囧昔－日 [label = "囧昔－日\nNone salad"];
+  艹 [label = "艹\nNone flower"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  已 [label = "已\n519 already"];
+  己 [label = "己\n515 self"];
+  共 -> 巷;
+  囧昔－日 -> 共;
+  艹 -> 囧昔－日;
+  囧只－口 -> 共;
+  八 -> 囧只－口;
+  已 -> 巷;
+  己 -> 已;
 }

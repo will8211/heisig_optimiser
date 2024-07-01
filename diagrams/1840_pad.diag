@@ -1,13 +1,13 @@
 blockdiag {
-  1840 [label = "垫\n1840 pad"];
-  602 [label = "执\n602 clench"];
-  None [label = "扌\nNone fingers"];
-  42 [label = "丸\n42 pill"];
-  9 [label = "九\n9 nine"];
-  158 [label = "土\n158 soil"];
-  602 -> 1840;
-  None -> 602;
-  42 -> 602;
-  9 -> 42;
-  158 -> 1840;
+  垫 [label = "垫\n1840 pad"];
+  执 [label = "执\n602 clench"];
+  扌 [label = "扌\nNone fingers"];
+  丸 [label = "丸\n42 pill"];
+  九 [label = "九\n9 nine"];
+  土 [label = "土\n158 soil"];
+  执 -> 垫;
+  扌 -> 执;
+  丸 -> 执;
+  九 -> 丸;
+  土 -> 垫;
 }

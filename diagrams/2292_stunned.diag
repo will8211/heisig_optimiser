@@ -1,12 +1,13 @@
 blockdiag {
-  2292 [label = "愕\n2292 stunned"];
-  563 [label = "心\n563 heart"];
-  None [label = "丂\nNone snare"];
-  11 [label = "口\n11 mouth"];
-  2286 [label = "亏\n2286 loss"];
-  563 -> 2292;
-  None -> 2292;
-  11 -> None;
-  2286 -> 2292;
-  None -> 2286;
+  愕 [label = "愕\n2292 stunned"];
+  心 [label = "心\n563 heart"];
+  吅 [label = "吅\nNone chatterbox"];
+  口 [label = "口\n11 mouth"];
+  亏 [label = "亏\n2286 loss"];
+  丂 [label = "丂\nNone snare"];
+  心 -> 愕;
+  吅 -> 愕;
+  口 -> 吅;
+  亏 -> 愕;
+  丂 -> 亏;
 }

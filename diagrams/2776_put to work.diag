@@ -1,7 +1,7 @@
 blockdiag {
-  2776 [label = "佣\n2776 put to work"];
-  793 [label = "人\n793 person"];
-  1361 [label = "用\n1361 utilize"];
-  793 -> 2776;
-  1361 -> 2776;
+  佣 [label = "佣\n2776 put to work"];
+  人 [label = "人\n793 person"];
+  用 [label = "用\n1361 utilize"];
+  人 -> 佣;
+  用 -> 佣;
 }

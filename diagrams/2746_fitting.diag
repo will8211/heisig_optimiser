@@ -1,7 +1,7 @@
 blockdiag {
-  2746 [label = "宜\n2746 fitting"];
-  None [label = "宀\nNone house"];
-  1343 [label = "且\n1343 moreover"];
-  None -> 2746;
-  1343 -> 2746;
+  宜 [label = "宜\n2746 fitting"];
+  宀 [label = "宀\nNone house"];
+  且 [label = "且\n1343 moreover"];
+  宀 -> 宜;
+  且 -> 宜;
 }

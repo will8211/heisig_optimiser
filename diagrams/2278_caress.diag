@@ -1,9 +1,11 @@
 blockdiag {
-  2278 [label = "拂\n2278 caress"];
-  None [label = "囧介－𠆢\nNone crutches"];
-  1013 [label = "弓\n1013 bow"];
-  None -> 2278;
-  None -> 2278;
-  None -> None;
-  1013 -> None;
+  拂 [label = "拂\n2278 caress"];
+  扌 [label = "扌\nNone fingers"];
+  弗 [label = "弗\nNone dollar sign"];
+  囧介－𠆢 [label = "囧介－𠆢\nNone crutches"];
+  弓 [label = "弓\n1013 bow"];
+  扌 -> 拂;
+  弗 -> 拂;
+  囧介－𠆢 -> 弗;
+  弓 -> 弗;
 }

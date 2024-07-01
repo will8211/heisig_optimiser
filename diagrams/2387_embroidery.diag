@@ -1,12 +1,13 @@
 blockdiag {
-  2387 [label = "绣\n2387 embroidery"];
-  None [label = "厶\nNone elbow"];
-  775 [label = "秀\n775 elegant"];
-  762 [label = "禾\n762 standing grain"];
-  625 [label = "乃\n625 only then"];
-  None -> 2387;
-  None -> None;
-  775 -> 2387;
-  762 -> 775;
-  625 -> 775;
+  绣 [label = "绣\n2387 embroidery"];
+  纟 [label = "纟\nNone thread"];
+  厶 [label = "厶\nNone elbow"];
+  秀 [label = "秀\n775 elegant"];
+  禾 [label = "禾\n762 standing grain"];
+  乃 [label = "乃\n625 only then"];
+  纟 -> 绣;
+  厶 -> 纟;
+  秀 -> 绣;
+  禾 -> 秀;
+  乃 -> 秀;
 }

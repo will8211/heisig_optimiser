@@ -1,13 +1,13 @@
 blockdiag {
-  2136 [label = "屑\n2136 bits"];
-  882 [label = "尸\n882 corpse"];
-  128 [label = "肖\n128 resemble"];
-  109 [label = "小\n109 small"];
-  None [label = "丶\nNone a drop of"];
-  13 [label = "月\n13 month"];
-  882 -> 2136;
-  128 -> 2136;
-  109 -> 128;
-  None -> 109;
-  13 -> 128;
+  屑 [label = "屑\n2136 bits"];
+  尸 [label = "尸\n882 corpse"];
+  肖 [label = "肖\n128 resemble"];
+  小 [label = "小\n109 small"];
+  丶 [label = "丶\nNone a drop of"];
+  月 [label = "月\n13 month"];
+  尸 -> 屑;
+  肖 -> 屑;
+  小 -> 肖;
+  丶 -> 小;
+  月 -> 肖;
 }

@@ -1,11 +1,13 @@
 blockdiag {
-  2398 [label = "绢\n2398 tough silk"];
-  None [label = "肙\nNone canker sore"];
-  11 [label = "口\n11 mouth"];
-  13 [label = "月\n13 month"];
-  None -> 2398;
-  None -> None;
-  None -> 2398;
-  11 -> None;
-  13 -> None;
+  绢 [label = "绢\n2398 tough silk"];
+  纟 [label = "纟\nNone thread"];
+  厶 [label = "厶\nNone elbow"];
+  肙 [label = "肙\nNone canker sore"];
+  口 [label = "口\n11 mouth"];
+  月 [label = "月\n13 month"];
+  纟 -> 绢;
+  厶 -> 纟;
+  肙 -> 绢;
+  口 -> 肙;
+  月 -> 肙;
 }

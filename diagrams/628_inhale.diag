@@ -1,9 +1,9 @@
 blockdiag {
-  628 [label = "吸\n628 inhale"];
-  11 [label = "口\n11 mouth"];
-  627 [label = "及\n627 catch up with"];
-  625 [label = "乃\n625 only then"];
-  11 -> 628;
-  627 -> 628;
-  625 -> 627;
+  吸 [label = "吸\n628 inhale"];
+  口 [label = "口\n11 mouth"];
+  及 [label = "及\n627 catch up with"];
+  乃 [label = "乃\n625 only then"];
+  口 -> 吸;
+  及 -> 吸;
+  乃 -> 及;
 }

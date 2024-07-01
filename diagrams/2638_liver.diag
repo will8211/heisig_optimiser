@@ -1,7 +1,7 @@
 blockdiag {
-  2638 [label = "肝\n2638 liver"];
-  13 [label = "月\n13 month"];
-  1277 [label = "干\n1277 dry"];
-  13 -> 2638;
-  1277 -> 2638;
+  肝 [label = "肝\n2638 liver"];
+  月 [label = "月\n13 month"];
+  干 [label = "干\n1277 dry"];
+  月 -> 肝;
+  干 -> 肝;
 }

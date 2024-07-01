@@ -1,11 +1,11 @@
 blockdiag {
-  1313 [label = "彦\n1313 erudite"];
-  1312 [label = "产\n1312 products"];
-  444 [label = "立\n444 standing up"];
-  121 [label = "厂\n121 factory"];
-  None [label = "彡\nNone rooster tail"];
-  1312 -> 1313;
-  444 -> 1312;
-  121 -> 1312;
-  None -> 1313;
+  彦 [label = "彦\n1313 erudite"];
+  产 [label = "产\n1312 products"];
+  立 [label = "立\n444 standing up"];
+  厂 [label = "厂\n121 factory"];
+  彡 [label = "彡\nNone rooster tail"];
+  产 -> 彦;
+  立 -> 产;
+  厂 -> 产;
+  彡 -> 彦;
 }

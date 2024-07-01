@@ -1,14 +1,15 @@
 blockdiag {
-  1465 [label = "寅\n1465 sign of the tiger"];
-  None [label = "囧只－口\nNone animal legs"];
-  1 [label = "一\n1 one"];
-  913 [label = "由\n913 wherefore"];
-  14 [label = "田\n14 rice field"];
-  8 [label = "八\n8 eight"];
-  None -> 1465;
-  1 -> 1465;
-  913 -> 1465;
-  14 -> 913;
-  None -> 1465;
-  8 -> None;
+  寅 [label = "寅\n1465 sign of the tiger"];
+  宀 [label = "宀\nNone house"];
+  一 [label = "一\n1 one"];
+  由 [label = "由\n913 wherefore"];
+  田 [label = "田\n14 rice field"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  宀 -> 寅;
+  一 -> 寅;
+  由 -> 寅;
+  田 -> 由;
+  囧只－口 -> 寅;
+  八 -> 囧只－口;
 }

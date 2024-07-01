@@ -1,15 +1,17 @@
 blockdiag {
-  2608 [label = "琴\n2608 stringed instrument"];
-  266 [label = "玉\n266 jade"];
-  265 [label = "王\n265 king"];
-  76 [label = "工\n76 work"];
-  None [label = "𠆢\nNone umbrella"];
-  1244 [label = "今\n1244 now"];
-  266 -> 2608;
-  265 -> 266;
-  76 -> 265;
-  None -> 266;
-  1244 -> 2608;
-  None -> 1244;
-  None -> None;
+  琴 [label = "琴\n2608 stringed instrument"];
+  玉 [label = "玉\n266 jade"];
+  王 [label = "王\n265 king"];
+  工 [label = "工\n76 work"];
+  丶 [label = "丶\nNone a drop of"];
+  今 [label = "今\n1244 now"];
+  亼 [label = "亼\nNone meeting"];
+  𠆢 [label = "𠆢\nNone umbrella"];
+  玉 -> 琴;
+  王 -> 玉;
+  工 -> 王;
+  丶 -> 玉;
+  今 -> 琴;
+  亼 -> 今;
+  𠆢 -> 亼;
 }

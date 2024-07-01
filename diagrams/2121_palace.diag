@@ -1,7 +1,7 @@
 blockdiag {
-  2121 [label = "宫\n2121 palace"];
-  None [label = "宀\nNone house"];
-  865 [label = "吕\n865 spine"];
-  None -> 2121;
-  865 -> 2121;
+  宫 [label = "宫\n2121 palace"];
+  宀 [label = "宀\nNone house"];
+  吕 [label = "吕\n865 spine"];
+  宀 -> 宫;
+  吕 -> 宫;
 }

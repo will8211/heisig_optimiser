@@ -1,7 +1,7 @@
 blockdiag {
-  1067 [label = "队\n1067 team"];
-  None [label = "阝\nNone pinnacle"];
-  793 [label = "人\n793 person"];
-  None -> 1067;
-  793 -> 1067;
+  队 [label = "队\n1067 team"];
+  阝 [label = "阝\nNone pinnacle"];
+  人 [label = "人\n793 person"];
+  阝 -> 队;
+  人 -> 队;
 }

@@ -1,13 +1,13 @@
 blockdiag {
-  129 [label = "削\n129 peel"];
-  83 [label = "刀\n83 sword"];
-  128 [label = "肖\n128 resemble"];
-  109 [label = "小\n109 small"];
-  None [label = "丶\nNone a drop of"];
-  13 [label = "月\n13 month"];
-  83 -> 129;
-  128 -> 129;
-  109 -> 128;
-  None -> 109;
-  13 -> 128;
+  削 [label = "削\n129 peel"];
+  刀 [label = "刀\n83 sword"];
+  肖 [label = "肖\n128 resemble"];
+  小 [label = "小\n109 small"];
+  丶 [label = "丶\nNone a drop of"];
+  月 [label = "月\n13 month"];
+  刀 -> 削;
+  肖 -> 削;
+  小 -> 肖;
+  丶 -> 小;
+  月 -> 肖;
 }

@@ -1,11 +1,11 @@
 blockdiag {
-  2646 [label = "悍\n2646 bold"];
-  563 [label = "心\n563 heart"];
-  1279 [label = "旱\n1279 drought"];
-  12 [label = "日\n12 day"];
-  1277 [label = "干\n1277 dry"];
-  563 -> 2646;
-  1279 -> 2646;
-  12 -> 1279;
-  1277 -> 1279;
+  悍 [label = "悍\n2646 bold"];
+  心 [label = "心\n563 heart"];
+  旱 [label = "旱\n1279 drought"];
+  日 [label = "日\n12 day"];
+  干 [label = "干\n1277 dry"];
+  心 -> 悍;
+  旱 -> 悍;
+  日 -> 旱;
+  干 -> 旱;
 }

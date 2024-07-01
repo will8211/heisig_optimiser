@@ -1,7 +1,7 @@
 blockdiag {
-  1229 [label = "伟\n1229 great"];
-  793 [label = "人\n793 person"];
-  1227 [label = "韦\n1227 tanned hide"];
-  793 -> 1229;
-  1227 -> 1229;
+  伟 [label = "伟\n1229 great"];
+  人 [label = "人\n793 person"];
+  韦 [label = "韦\n1227 tanned hide"];
+  人 -> 伟;
+  韦 -> 伟;
 }

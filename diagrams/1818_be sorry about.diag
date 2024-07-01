@@ -1,13 +1,13 @@
 blockdiag {
-  1818 [label = "悔\n1818 be sorry about"];
-  563 [label = "心\n563 heart"];
-  467 [label = "每\n467 every"];
-  None [label = "𠂉\nNone reclining"];
-  105 [label = "母\n105 mother"];
-  102 [label = "女\n102 woman"];
-  563 -> 1818;
-  467 -> 1818;
-  None -> 467;
-  105 -> 467;
-  102 -> 105;
+  悔 [label = "悔\n1818 be sorry about"];
+  心 [label = "心\n563 heart"];
+  每 [label = "每\n467 every"];
+  𠂉 [label = "𠂉\nNone reclining"];
+  母 [label = "母\n105 mother"];
+  女 [label = "女\n102 woman"];
+  心 -> 悔;
+  每 -> 悔;
+  𠂉 -> 每;
+  母 -> 每;
+  女 -> 母;
 }

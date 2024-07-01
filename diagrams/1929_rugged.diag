@@ -1,17 +1,17 @@
 blockdiag {
-  1929 [label = "崎\n1929 rugged"];
-  688 [label = "山\n688 mountain"];
-  133 [label = "奇\n133 strange"];
-  113 [label = "大\n113 large"];
-  92 [label = "可\n92 can"];
-  90 [label = "丁\n90 fourth"];
-  11 [label = "口\n11 mouth"];
-  688 -> 1929;
-  133 -> 1929;
-  113 -> 133;
-  92 -> 133;
-  90 -> 92;
-  11 -> 92;
-  11 -> 133;
-  90 -> 133;
+  崎 [label = "崎\n1929 rugged"];
+  山 [label = "山\n688 mountain"];
+  奇 [label = "奇\n133 strange"];
+  大 [label = "大\n113 large"];
+  可 [label = "可\n92 can"];
+  丁 [label = "丁\n90 fourth"];
+  口 [label = "口\n11 mouth"];
+  山 -> 崎;
+  奇 -> 崎;
+  大 -> 奇;
+  可 -> 奇;
+  丁 -> 可;
+  口 -> 可;
+  口 -> 奇;
+  丁 -> 奇;
 }

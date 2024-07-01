@@ -1,12 +1,13 @@
 blockdiag {
-  2299 [label = "屿\n2299 islet"];
-  688 [label = "山\n688 mountain"];
-  1032 [label = "与\n1032 offer"];
-  None [label = "囧与－一\nNone slingshot"];
-  1013 [label = "弓\n1013 bow"];
-  688 -> 2299;
-  1032 -> 2299;
-  None -> 1032;
-  None -> 1032;
-  1013 -> None;
+  屿 [label = "屿\n2299 islet"];
+  山 [label = "山\n688 mountain"];
+  与 [label = "与\n1032 offer"];
+  囧与－丨一 [label = "囧与－丨一\nNone pointed tail"];
+  囧与－一 [label = "囧与－一\nNone slingshot"];
+  弓 [label = "弓\n1013 bow"];
+  山 -> 屿;
+  与 -> 屿;
+  囧与－丨一 -> 与;
+  囧与－一 -> 与;
+  弓 -> 囧与－一;
 }

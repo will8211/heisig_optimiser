@@ -1,19 +1,21 @@
 blockdiag {
-  829 [label = "袋\n829 bag"];
-  828 [label = "代\n828 substitute for"];
-  793 [label = "人\n793 person"];
-  None [label = "囧只－口\nNone animal legs"];
-  400 [label = "衣\n400 clothing"];
-  6 [label = "六\n6 six"];
-  8 [label = "八\n8 eight"];
-  828 -> 829;
-  793 -> 828;
-  None -> 828;
-  400 -> 829;
-  None -> 400;
-  6 -> None;
-  None -> 6;
-  8 -> None;
-  None -> None;
-  8 -> None;
+  袋 [label = "袋\n829 bag"];
+  代 [label = "代\n828 substitute for"];
+  人 [label = "人\n793 person"];
+  弋 [label = "弋\nNone arrow"];
+  衣 [label = "衣\n400 clothing"];
+  亠 [label = "亠\nNone top hat"];
+  六 [label = "六\n6 six"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  代 -> 袋;
+  人 -> 代;
+  弋 -> 代;
+  衣 -> 袋;
+  亠 -> 衣;
+  六 -> 亠;
+  囧只－口 -> 六;
+  八 -> 囧只－口;
+  囧只－口 -> 亠;
+  八 -> 囧只－口;
 }

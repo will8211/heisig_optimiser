@@ -1,9 +1,9 @@
 blockdiag {
-  1926 [label = "崩\n1926 crumble"];
-  688 [label = "山\n688 mountain"];
-  20 [label = "朋\n20 companion"];
-  13 [label = "月\n13 month"];
-  688 -> 1926;
-  20 -> 1926;
-  13 -> 20;
+  崩 [label = "崩\n1926 crumble"];
+  山 [label = "山\n688 mountain"];
+  朋 [label = "朋\n20 companion"];
+  月 [label = "月\n13 month"];
+  山 -> 崩;
+  朋 -> 崩;
+  月 -> 朋;
 }

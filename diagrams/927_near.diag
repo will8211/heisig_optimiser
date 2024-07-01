@@ -1,7 +1,7 @@
 blockdiag {
-  927 [label = "近\n927 near"];
-  924 [label = "斤\n924 catty"];
-  None [label = "辶\nNone road"];
-  924 -> 927;
-  None -> 927;
+  近 [label = "近\n927 near"];
+  斤 [label = "斤\n924 catty"];
+  辶 [label = "辶\nNone road"];
+  斤 -> 近;
+  辶 -> 近;
 }

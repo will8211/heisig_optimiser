@@ -1,13 +1,13 @@
 blockdiag {
-  378 [label = "晓\n378 dawn"];
-  12 [label = "日\n12 day"];
-  376 [label = "尧\n376 Yao"];
-  361 [label = "戈\n361 halberd"];
-  None [label = "弋\nNone arrow"];
-  56 [label = "儿\n56 youngster"];
-  12 -> 378;
-  376 -> 378;
-  361 -> 376;
-  None -> 361;
-  56 -> 376;
+  晓 [label = "晓\n378 dawn"];
+  日 [label = "日\n12 day"];
+  尧 [label = "尧\n376 Yao"];
+  戈 [label = "戈\n361 halberd"];
+  弋 [label = "弋\nNone arrow"];
+  儿 [label = "儿\n56 youngster"];
+  日 -> 晓;
+  尧 -> 晓;
+  戈 -> 尧;
+  弋 -> 戈;
+  儿 -> 尧;
 }

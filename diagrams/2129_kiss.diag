@@ -1,10 +1,11 @@
 blockdiag {
-  2129 [label = "吻\n2129 kiss"];
-  11 [label = "口\n11 mouth"];
-  877 [label = "勿\n877 not"];
-  None [label = "豕\nNone sow"];
-  11 -> 2129;
-  877 -> 2129;
-  None -> 877;
-  None -> None;
+  吻 [label = "吻\n2129 kiss"];
+  口 [label = "口\n11 mouth"];
+  勿 [label = "勿\n877 not"];
+  𠃓 [label = "𠃓\nNone piglets"];
+  豕 [label = "豕\nNone sow"];
+  口 -> 吻;
+  勿 -> 吻;
+  𠃓 -> 勿;
+  豕 -> 𠃓;
 }

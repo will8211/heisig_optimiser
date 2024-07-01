@@ -1,9 +1,9 @@
 blockdiag {
-  2173 [label = "届\n2173 fall due"];
-  882 [label = "尸\n882 corpse"];
-  913 [label = "由\n913 wherefore"];
-  14 [label = "田\n14 rice field"];
-  882 -> 2173;
-  913 -> 2173;
-  14 -> 913;
+  届 [label = "届\n2173 fall due"];
+  尸 [label = "尸\n882 corpse"];
+  由 [label = "由\n913 wherefore"];
+  田 [label = "田\n14 rice field"];
+  尸 -> 届;
+  由 -> 届;
+  田 -> 由;
 }

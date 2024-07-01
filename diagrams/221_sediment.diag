@@ -1,19 +1,20 @@
 blockdiag {
-  221 [label = "渣\n221 sediment"];
-  220 [label = "查\n220 investigate"];
-  30 [label = "旦\n30 daybreak"];
-  12 [label = "日\n12 day"];
-  1 [label = "一\n1 one"];
-  202 [label = "木\n202 tree"];
-  137 [label = "水\n137 water"];
-  None [label = "丶\nNone a drop of"];
-  220 -> 221;
-  30 -> 220;
-  12 -> 30;
-  1 -> 30;
-  202 -> 220;
-  137 -> 221;
-  None -> 137;
-  1 -> None;
-  None -> 137;
+  渣 [label = "渣\n221 sediment"];
+  查 [label = "查\n220 investigate"];
+  旦 [label = "旦\n30 daybreak"];
+  日 [label = "日\n12 day"];
+  一 [label = "一\n1 one"];
+  木 [label = "木\n202 tree"];
+  水 [label = "水\n137 water"];
+  丨 [label = "丨\nNone walking stick"];
+  丶 [label = "丶\nNone a drop of"];
+  查 -> 渣;
+  旦 -> 查;
+  日 -> 旦;
+  一 -> 旦;
+  木 -> 查;
+  水 -> 渣;
+  丨 -> 水;
+  一 -> 丨;
+  丶 -> 水;
 }

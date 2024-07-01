@@ -1,11 +1,13 @@
 blockdiag {
-  2222 [label = "睁\n2222 unshut"];
-  15 [label = "目\n15 eye"];
-  951 [label = "争\n951 contend"];
-  None [label = "彐\nNone broom"];
-  15 -> 2222;
-  951 -> 2222;
-  None -> 951;
-  None -> 951;
-  None -> None;
+  睁 [label = "睁\n2222 unshut"];
+  目 [label = "目\n15 eye"];
+  争 [label = "争\n951 contend"];
+  勹 [label = "勹\nNone bound up"];
+  肀 [label = "肀\nNone rake"];
+  彐 [label = "彐\nNone broom"];
+  目 -> 睁;
+  争 -> 睁;
+  勹 -> 争;
+  肀 -> 争;
+  彐 -> 肀;
 }

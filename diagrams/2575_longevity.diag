@@ -1,11 +1,11 @@
 blockdiag {
-  2575 [label = "寿\n2575 longevity"];
-  1223 [label = "丰\n1223 plentiful"];
-  166 [label = "寸\n166 Chinese inch"];
-  None [label = "丶\nNone a drop of"];
-  10 [label = "十\n10 ten"];
-  1223 -> 2575;
-  166 -> 2575;
-  None -> 166;
-  10 -> 166;
+  寿 [label = "寿\n2575 longevity"];
+  丰 [label = "丰\n1223 plentiful"];
+  寸 [label = "寸\n166 Chinese inch"];
+  丶 [label = "丶\nNone a drop of"];
+  十 [label = "十\n10 ten"];
+  丰 -> 寿;
+  寸 -> 寿;
+  丶 -> 寸;
+  十 -> 寸;
 }

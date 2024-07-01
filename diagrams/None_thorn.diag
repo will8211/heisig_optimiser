@@ -1,8 +1,9 @@
 blockdiag {
-  None [label = "囧冂\nNone belt"];
-  410 [label = "巾\n410 towel"];
-  202 [label = "木\n202 tree"];
-  None -> None;
-  410 -> None;
-  202 -> None;
+  朿 [label = "朿\nNone thorn"];
+  囧冂 [label = "囧冂\nNone belt"];
+  巾 [label = "巾\n410 towel"];
+  木 [label = "木\n202 tree"];
+  囧冂 -> 朿;
+  巾 -> 囧冂;
+  木 -> 朿;
 }

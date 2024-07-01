@@ -1,19 +1,21 @@
 blockdiag {
-  950 [label = "碌\n950 commonplace"];
-  125 [label = "石\n125 stone"];
-  11 [label = "口\n11 mouth"];
-  121 [label = "厂\n121 factory"];
-  949 [label = "录\n949 record"];
-  None [label = "丶\nNone a drop of"];
-  137 [label = "水\n137 water"];
-  1 [label = "一\n1 one"];
-  125 -> 950;
-  11 -> 125;
-  121 -> 125;
-  949 -> 950;
-  None -> 949;
-  137 -> 949;
-  None -> 137;
-  1 -> None;
-  None -> 137;
+  碌 [label = "碌\n950 commonplace"];
+  石 [label = "石\n125 stone"];
+  口 [label = "口\n11 mouth"];
+  厂 [label = "厂\n121 factory"];
+  录 [label = "录\n949 record"];
+  彐 [label = "彐\nNone broom"];
+  水 [label = "水\n137 water"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  丶 [label = "丶\nNone a drop of"];
+  石 -> 碌;
+  口 -> 石;
+  厂 -> 石;
+  录 -> 碌;
+  彐 -> 录;
+  水 -> 录;
+  丨 -> 水;
+  一 -> 丨;
+  丶 -> 水;
 }

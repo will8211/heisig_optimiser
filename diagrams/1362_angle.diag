@@ -1,7 +1,7 @@
 blockdiag {
-  1362 [label = "角\n1362 angle"];
-  None [label = "勹\nNone bound up"];
-  1361 [label = "用\n1361 utilize"];
-  None -> 1362;
-  1361 -> 1362;
+  角 [label = "角\n1362 angle"];
+  勹 [label = "勹\nNone bound up"];
+  用 [label = "用\n1361 utilize"];
+  勹 -> 角;
+  用 -> 角;
 }

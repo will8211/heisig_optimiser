@@ -1,13 +1,13 @@
 blockdiag {
-  1568 [label = "梢\n1568 treetops"];
-  202 [label = "木\n202 tree"];
-  128 [label = "肖\n128 resemble"];
-  109 [label = "小\n109 small"];
-  None [label = "丶\nNone a drop of"];
-  13 [label = "月\n13 month"];
-  202 -> 1568;
-  128 -> 1568;
-  109 -> 128;
-  None -> 109;
-  13 -> 128;
+  梢 [label = "梢\n1568 treetops"];
+  木 [label = "木\n202 tree"];
+  肖 [label = "肖\n128 resemble"];
+  小 [label = "小\n109 small"];
+  丶 [label = "丶\nNone a drop of"];
+  月 [label = "月\n13 month"];
+  木 -> 梢;
+  肖 -> 梢;
+  小 -> 肖;
+  丶 -> 小;
+  月 -> 肖;
 }

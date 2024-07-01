@@ -1,8 +1,8 @@
 blockdiag {
-  25 [label = "昌\n25 prosperous"];
-  12 [label = "日\n12 day"];
-  23 [label = "晶\n23 sparkling"];
-  12 -> 25;
-  23 -> 25;
-  12 -> 23;
+  昌 [label = "昌\n25 prosperous"];
+  日 [label = "日\n12 day"];
+  晶 [label = "晶\n23 sparkling"];
+  日 -> 昌;
+  晶 -> 昌;
+  日 -> 晶;
 }

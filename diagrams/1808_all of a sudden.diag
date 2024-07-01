@@ -1,13 +1,13 @@
 blockdiag {
-  1808 [label = "恍\n1808 all of a sudden"];
-  563 [label = "心\n563 heart"];
-  130 [label = "光\n130 ray"];
-  109 [label = "小\n109 small"];
-  None [label = "丶\nNone a drop of"];
-  56 [label = "儿\n56 youngster"];
-  563 -> 1808;
-  130 -> 1808;
-  109 -> 130;
-  None -> 109;
-  56 -> 130;
+  恍 [label = "恍\n1808 all of a sudden"];
+  心 [label = "心\n563 heart"];
+  光 [label = "光\n130 ray"];
+  小 [label = "小\n109 small"];
+  丶 [label = "丶\nNone a drop of"];
+  儿 [label = "儿\n56 youngster"];
+  心 -> 恍;
+  光 -> 恍;
+  小 -> 光;
+  丶 -> 小;
+  儿 -> 光;
 }

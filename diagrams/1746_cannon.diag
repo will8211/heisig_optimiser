@@ -1,13 +1,13 @@
 blockdiag {
-  1746 [label = "炮\n1746 cannon"];
-  170 [label = "火\n170 fire"];
-  520 [label = "包\n520 wrap"];
-  None [label = "勹\nNone bound up"];
-  519 [label = "已\n519 already"];
-  515 [label = "己\n515 self"];
-  170 -> 1746;
-  520 -> 1746;
-  None -> 520;
-  519 -> 520;
-  515 -> 519;
+  炮 [label = "炮\n1746 cannon"];
+  火 [label = "火\n170 fire"];
+  包 [label = "包\n520 wrap"];
+  勹 [label = "勹\nNone bound up"];
+  已 [label = "已\n519 already"];
+  己 [label = "己\n515 self"];
+  火 -> 炮;
+  包 -> 炮;
+  勹 -> 包;
+  已 -> 包;
+  己 -> 已;
 }

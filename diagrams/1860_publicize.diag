@@ -1,7 +1,9 @@
 blockdiag {
-  1860 [label = "扬\n1860 publicize"];
-  None [label = "豕\nNone sow"];
-  None -> 1860;
-  None -> 1860;
-  None -> None;
+  扬 [label = "扬\n1860 publicize"];
+  扌 [label = "扌\nNone fingers"];
+  𠃓 [label = "𠃓\nNone piglets"];
+  豕 [label = "豕\nNone sow"];
+  扌 -> 扬;
+  𠃓 -> 扬;
+  豕 -> 𠃓;
 }

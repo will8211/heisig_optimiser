@@ -1,10 +1,13 @@
 blockdiag {
-  2198 [label = "煞\n2198 goblin"];
-  None [label = "攵\nNone taskmaster"];
-  170 [label = "火\n170 fire"];
-  None -> 2198;
-  None -> None;
-  None -> None;
-  None -> 2198;
-  170 -> 2198;
+  煞 [label = "煞\n2198 goblin"];
+  刍 [label = "刍\nNone hairnet"];
+  勹 [label = "勹\nNone bound up"];
+  彐 [label = "彐\nNone broom"];
+  攵 [label = "攵\nNone taskmaster"];
+  火 [label = "火\n170 fire"];
+  刍 -> 煞;
+  勹 -> 刍;
+  彐 -> 刍;
+  攵 -> 煞;
+  火 -> 煞;
 }

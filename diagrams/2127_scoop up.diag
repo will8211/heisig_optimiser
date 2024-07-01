@@ -1,12 +1,15 @@
 blockdiag {
-  2127 [label = "捞\n2127 scoop up"];
-  None [label = "艹\nNone flower"];
-  868 [label = "劳\n868 labor"];
-  732 [label = "力\n732 power"];
-  None -> 2127;
-  868 -> 2127;
-  None -> 868;
-  None -> None;
-  None -> None;
-  732 -> 868;
+  捞 [label = "捞\n2127 scoop up"];
+  扌 [label = "扌\nNone fingers"];
+  劳 [label = "劳\n868 labor"];
+  囧荣－木 [label = "囧荣－木\nNone greenhouse"];
+  宀 [label = "宀\nNone house"];
+  艹 [label = "艹\nNone flower"];
+  力 [label = "力\n732 power"];
+  扌 -> 捞;
+  劳 -> 捞;
+  囧荣－木 -> 劳;
+  宀 -> 囧荣－木;
+  艹 -> 囧荣－木;
+  力 -> 劳;
 }

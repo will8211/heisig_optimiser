@@ -1,13 +1,15 @@
 blockdiag {
-  2965 [label = "嫂\n2965 elder brother’s wife"];
-  102 [label = "女\n102 woman"];
-  None [label = "丨\nNone walking stick"];
-  633 [label = "又\n633 again"];
-  1 [label = "一\n1 one"];
-  102 -> 2965;
-  None -> 2965;
-  None -> None;
-  633 -> None;
-  None -> None;
-  1 -> None;
+  嫂 [label = "嫂\n2965 elder brother’s wife"];
+  女 [label = "女\n102 woman"];
+  叟 [label = "叟\nNone cake mixer"];
+  臼 [label = "臼\nNone mortar"];
+  又 [label = "又\n633 again"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  女 -> 嫂;
+  叟 -> 嫂;
+  臼 -> 叟;
+  又 -> 叟;
+  丨 -> 叟;
+  一 -> 丨;
 }

@@ -1,7 +1,7 @@
 blockdiag {
-  1827 [label = "扒\n1827 pick pockets"];
-  None [label = "扌\nNone fingers"];
-  8 [label = "八\n8 eight"];
-  None -> 1827;
-  8 -> 1827;
+  扒 [label = "扒\n1827 pick pockets"];
+  扌 [label = "扌\nNone fingers"];
+  八 [label = "八\n8 eight"];
+  扌 -> 扒;
+  八 -> 扒;
 }

@@ -1,12 +1,15 @@
 blockdiag {
-  2564 [label = "塞\n2564 stronghold"];
-  None [label = "囧只－口\nNone animal legs"];
-  8 [label = "八\n8 eight"];
-  158 [label = "土\n158 soil"];
-  None -> 2564;
-  None -> None;
-  None -> None;
-  None -> None;
-  8 -> None;
-  158 -> 2564;
+  塞 [label = "塞\n2564 stronghold"];
+  囧赛－贝 [label = "囧赛－贝\nNone hamster cage"];
+  宀 [label = "宀\nNone house"];
+  𠀎 [label = "𠀎\nNone wire mesh"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  土 [label = "土\n158 soil"];
+  囧赛－贝 -> 塞;
+  宀 -> 囧赛－贝;
+  𠀎 -> 囧赛－贝;
+  囧只－口 -> 囧赛－贝;
+  八 -> 囧只－口;
+  土 -> 塞;
 }

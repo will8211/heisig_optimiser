@@ -1,12 +1,14 @@
 blockdiag {
-  2603 [label = "捧\n2603 carry in both hands"];
-  None [label = "囧奉－𡗗\nNone cornstalk"];
-  1232 [label = "奉\n1232 proffer"];
-  1223 [label = "丰\n1223 plentiful"];
-  None -> 2603;
-  1232 -> 2603;
-  None -> 1232;
-  1223 -> None;
-  None -> 1232;
-  1223 -> None;
+  捧 [label = "捧\n2603 carry in both hands"];
+  扌 [label = "扌\nNone fingers"];
+  奉 [label = "奉\n1232 proffer"];
+  𡗗 [label = "𡗗\nNone bonsai"];
+  丰 [label = "丰\n1223 plentiful"];
+  囧奉－𡗗 [label = "囧奉－𡗗\nNone cornstalk"];
+  扌 -> 捧;
+  奉 -> 捧;
+  𡗗 -> 奉;
+  丰 -> 𡗗;
+  囧奉－𡗗 -> 奉;
+  丰 -> 囧奉－𡗗;
 }

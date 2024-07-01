@@ -1,8 +1,11 @@
 blockdiag {
-  2200 [label = "雏\n2200 chick"];
-  None [label = "隹\nNone turkey"];
-  None -> 2200;
-  None -> None;
-  None -> None;
-  None -> 2200;
+  雏 [label = "雏\n2200 chick"];
+  刍 [label = "刍\nNone hairnet"];
+  勹 [label = "勹\nNone bound up"];
+  彐 [label = "彐\nNone broom"];
+  隹 [label = "隹\nNone turkey"];
+  刍 -> 雏;
+  勹 -> 刍;
+  彐 -> 刍;
+  隹 -> 雏;
 }

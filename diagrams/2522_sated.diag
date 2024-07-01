@@ -1,18 +1,21 @@
 blockdiag {
-  2522 [label = "饱\n2522 sated"];
-  1154 [label = "食\n1154 food"];
-  1151 [label = "良\n1151 high-quality"];
-  None [label = "勹\nNone bound up"];
-  520 [label = "包\n520 wrap"];
-  519 [label = "已\n519 already"];
-  515 [label = "己\n515 self"];
-  1154 -> 2522;
-  1151 -> 1154;
-  None -> 1151;
-  None -> 1151;
-  None -> 1154;
-  520 -> 2522;
-  None -> 520;
-  519 -> 520;
-  515 -> 519;
+  饱 [label = "饱\n2522 sated"];
+  食 [label = "食\n1154 food"];
+  良 [label = "良\n1151 high-quality"];
+  丶 [label = "丶\nNone a drop of"];
+  艮 [label = "艮\nNone silver"];
+  𠆢 [label = "𠆢\nNone umbrella"];
+  包 [label = "包\n520 wrap"];
+  勹 [label = "勹\nNone bound up"];
+  已 [label = "已\n519 already"];
+  己 [label = "己\n515 self"];
+  食 -> 饱;
+  良 -> 食;
+  丶 -> 良;
+  艮 -> 良;
+  𠆢 -> 食;
+  包 -> 饱;
+  勹 -> 包;
+  已 -> 包;
+  己 -> 已;
 }

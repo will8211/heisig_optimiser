@@ -1,12 +1,12 @@
 blockdiag {
-  127 [label = "妙\n127 wonderful"];
-  102 [label = "女\n102 woman"];
-  110 [label = "少\n110 few"];
-  None [label = "丶\nNone a drop of"];
-  109 [label = "小\n109 small"];
-  102 -> 127;
-  110 -> 127;
-  None -> 110;
-  109 -> 110;
-  None -> 109;
+  妙 [label = "妙\n127 wonderful"];
+  女 [label = "女\n102 woman"];
+  少 [label = "少\n110 few"];
+  丶 [label = "丶\nNone a drop of"];
+  小 [label = "小\n109 small"];
+  女 -> 妙;
+  少 -> 妙;
+  丶 -> 少;
+  小 -> 少;
+  丶 -> 小;
 }

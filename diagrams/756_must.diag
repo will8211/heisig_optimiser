@@ -1,17 +1,17 @@
 blockdiag {
-  756 [label = "得\n756 must"];
-  754 [label = "行\n754 line of business"];
-  30 [label = "旦\n30 daybreak"];
-  12 [label = "日\n12 day"];
-  1 [label = "一\n1 one"];
-  166 [label = "寸\n166 Chinese inch"];
-  None [label = "丶\nNone a drop of"];
-  10 [label = "十\n10 ten"];
-  754 -> 756;
-  30 -> 756;
-  12 -> 30;
-  1 -> 30;
-  166 -> 756;
-  None -> 166;
-  10 -> 166;
+  得 [label = "得\n756 must"];
+  行 [label = "行\n754 line of business"];
+  旦 [label = "旦\n30 daybreak"];
+  日 [label = "日\n12 day"];
+  一 [label = "一\n1 one"];
+  寸 [label = "寸\n166 Chinese inch"];
+  丶 [label = "丶\nNone a drop of"];
+  十 [label = "十\n10 ten"];
+  行 -> 得;
+  旦 -> 得;
+  日 -> 旦;
+  一 -> 旦;
+  寸 -> 得;
+  丶 -> 寸;
+  十 -> 寸;
 }

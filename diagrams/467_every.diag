@@ -1,9 +1,9 @@
 blockdiag {
-  467 [label = "每\n467 every"];
-  None [label = "𠂉\nNone reclining"];
-  105 [label = "母\n105 mother"];
-  102 [label = "女\n102 woman"];
-  None -> 467;
-  105 -> 467;
-  102 -> 105;
+  每 [label = "每\n467 every"];
+  𠂉 [label = "𠂉\nNone reclining"];
+  母 [label = "母\n105 mother"];
+  女 [label = "女\n102 woman"];
+  𠂉 -> 每;
+  母 -> 每;
+  女 -> 母;
 }

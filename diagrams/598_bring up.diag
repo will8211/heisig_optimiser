@@ -1,16 +1,17 @@
 blockdiag {
-  598 [label = "提\n598 bring up"];
-  None [label = "囧走－十\nNone mending"];
-  394 [label = "是\n394 be"];
-  387 [label = "正\n387 correct"];
-  1 [label = "一\n1 one"];
-  379 [label = "止\n379 stop"];
-  12 [label = "日\n12 day"];
-  None -> 598;
-  394 -> 598;
-  None -> 394;
-  387 -> None;
-  1 -> 387;
-  379 -> 387;
-  12 -> 394;
+  提 [label = "提\n598 bring up"];
+  扌 [label = "扌\nNone fingers"];
+  是 [label = "是\n394 be"];
+  囧走－十 [label = "囧走－十\nNone mending"];
+  正 [label = "正\n387 correct"];
+  一 [label = "一\n1 one"];
+  止 [label = "止\n379 stop"];
+  日 [label = "日\n12 day"];
+  扌 -> 提;
+  是 -> 提;
+  囧走－十 -> 是;
+  正 -> 囧走－十;
+  一 -> 正;
+  止 -> 正;
+  日 -> 是;
 }

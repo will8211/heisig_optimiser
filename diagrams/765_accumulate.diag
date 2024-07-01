@@ -1,13 +1,13 @@
 blockdiag {
-  765 [label = "积\n765 accumulate"];
-  762 [label = "禾\n762 standing grain"];
-  51 [label = "只\n51 only"];
-  11 [label = "口\n11 mouth"];
-  None [label = "囧只－口\nNone animal legs"];
-  8 [label = "八\n8 eight"];
-  762 -> 765;
-  51 -> 765;
-  11 -> 51;
-  None -> 51;
-  8 -> None;
+  积 [label = "积\n765 accumulate"];
+  禾 [label = "禾\n762 standing grain"];
+  只 [label = "只\n51 only"];
+  口 [label = "口\n11 mouth"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  禾 -> 积;
+  只 -> 积;
+  口 -> 只;
+  囧只－口 -> 只;
+  八 -> 囧只－口;
 }

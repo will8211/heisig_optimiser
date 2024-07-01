@@ -1,13 +1,15 @@
 blockdiag {
-  2392 [label = "绅\n2392 gentry"];
-  None [label = "丨\nNone walking stick"];
-  918 [label = "申\n918 express"];
-  12 [label = "日\n12 day"];
-  1 [label = "一\n1 one"];
-  None -> 2392;
-  None -> None;
-  918 -> 2392;
-  12 -> 918;
-  None -> 918;
-  1 -> None;
+  绅 [label = "绅\n2392 gentry"];
+  纟 [label = "纟\nNone thread"];
+  厶 [label = "厶\nNone elbow"];
+  申 [label = "申\n918 express"];
+  日 [label = "日\n12 day"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  纟 -> 绅;
+  厶 -> 纟;
+  申 -> 绅;
+  日 -> 申;
+  丨 -> 申;
+  一 -> 丨;
 }

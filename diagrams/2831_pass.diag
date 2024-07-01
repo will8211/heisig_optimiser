@@ -1,16 +1,20 @@
 blockdiag {
-  2831 [label = "隘\n2831 pass"];
-  None [label = "囧只－口\nNone animal legs"];
-  1401 [label = "益\n1401 benefit"];
-  1 [label = "一\n1 one"];
-  8 [label = "八\n8 eight"];
-  None -> 2831;
-  1401 -> 2831;
-  None -> 1401;
-  None -> 1401;
-  1 -> 1401;
-  None -> 1401;
-  1 -> None;
-  None -> 1401;
-  8 -> None;
+  隘 [label = "隘\n2831 pass"];
+  阝 [label = "阝\nNone pinnacle"];
+  益 [label = "益\n1401 benefit"];
+  皿 [label = "皿\nNone dish"];
+  囧率－玄－十 [label = "囧率－玄－十\nNone sparkler"];
+  一 [label = "一\n1 one"];
+  丷 [label = "丷\nNone horns"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  阝 -> 隘;
+  益 -> 隘;
+  皿 -> 益;
+  囧率－玄－十 -> 益;
+  一 -> 益;
+  丷 -> 益;
+  一 -> 丷;
+  囧只－口 -> 益;
+  八 -> 囧只－口;
 }

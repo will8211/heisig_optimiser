@@ -1,9 +1,9 @@
 blockdiag {
-  164 [label = "压\n164 pressure"];
-  158 [label = "土\n158 soil"];
-  121 [label = "厂\n121 factory"];
-  None [label = "丶\nNone a drop of"];
-  158 -> 164;
-  121 -> 164;
-  None -> 164;
+  压 [label = "压\n164 pressure"];
+  土 [label = "土\n158 soil"];
+  厂 [label = "厂\n121 factory"];
+  丶 [label = "丶\nNone a drop of"];
+  土 -> 压;
+  厂 -> 压;
+  丶 -> 压;
 }

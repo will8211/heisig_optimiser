@@ -1,6 +1,7 @@
 blockdiag {
-  None [label = "弋\nNone arrow"];
-  361 [label = "戈\n361 halberd"];
-  361 -> None;
-  None -> 361;
+  戊 [label = "戊\nNone parade"];
+  戈 [label = "戈\n361 halberd"];
+  弋 [label = "弋\nNone arrow"];
+  戈 -> 戊;
+  弋 -> 戈;
 }

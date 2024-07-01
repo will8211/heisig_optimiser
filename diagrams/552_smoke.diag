@@ -1,11 +1,11 @@
 blockdiag {
-  552 [label = "烟\n552 smoke"];
-  170 [label = "火\n170 fire"];
-  551 [label = "因\n551 cause"];
-  None [label = "囗\nNone pent in"];
-  113 [label = "大\n113 large"];
-  170 -> 552;
-  551 -> 552;
-  None -> 551;
-  113 -> 551;
+  烟 [label = "烟\n552 smoke"];
+  火 [label = "火\n170 fire"];
+  因 [label = "因\n551 cause"];
+  囗 [label = "囗\nNone pent in"];
+  大 [label = "大\n113 large"];
+  火 -> 烟;
+  因 -> 烟;
+  囗 -> 因;
+  大 -> 因;
 }

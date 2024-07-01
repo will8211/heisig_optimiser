@@ -1,16 +1,17 @@
 blockdiag {
-  1065 [label = "院\n1065 Inst."];
-  None [label = "宀\nNone house"];
-  193 [label = "完\n193 finish"];
-  59 [label = "元\n59 beginning"];
-  2 [label = "二\n2 two"];
-  1 [label = "一\n1 one"];
-  56 [label = "儿\n56 youngster"];
-  None -> 1065;
-  193 -> 1065;
-  None -> 193;
-  59 -> 193;
-  2 -> 59;
-  1 -> 2;
-  56 -> 59;
+  院 [label = "院\n1065 Inst."];
+  阝 [label = "阝\nNone pinnacle"];
+  完 [label = "完\n193 finish"];
+  宀 [label = "宀\nNone house"];
+  元 [label = "元\n59 beginning"];
+  二 [label = "二\n2 two"];
+  一 [label = "一\n1 one"];
+  儿 [label = "儿\n56 youngster"];
+  阝 -> 院;
+  完 -> 院;
+  宀 -> 完;
+  元 -> 完;
+  二 -> 元;
+  一 -> 二;
+  儿 -> 元;
 }

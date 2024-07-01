@@ -1,12 +1,12 @@
 blockdiag {
-  2652 [label = "喇\n2652 flared horn"];
-  11 [label = "口\n11 mouth"];
-  1286 [label = "束\n1286 bundle up"];
-  202 [label = "木\n202 tree"];
-  83 [label = "刀\n83 sword"];
-  11 -> 2652;
-  1286 -> 2652;
-  202 -> 1286;
-  11 -> 1286;
-  83 -> 2652;
+  喇 [label = "喇\n2652 flared horn"];
+  口 [label = "口\n11 mouth"];
+  束 [label = "束\n1286 bundle up"];
+  木 [label = "木\n202 tree"];
+  刀 [label = "刀\n83 sword"];
+  口 -> 喇;
+  束 -> 喇;
+  木 -> 束;
+  口 -> 束;
+  刀 -> 喇;
 }

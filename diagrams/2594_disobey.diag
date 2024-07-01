@@ -1,7 +1,7 @@
 blockdiag {
-  2594 [label = "违\n2594 disobey"];
-  1227 [label = "韦\n1227 tanned hide"];
-  None [label = "辶\nNone road"];
-  1227 -> 2594;
-  None -> 2594;
+  违 [label = "违\n2594 disobey"];
+  韦 [label = "韦\n1227 tanned hide"];
+  辶 [label = "辶\nNone road"];
+  韦 -> 违;
+  辶 -> 违;
 }

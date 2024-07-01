@@ -1,16 +1,19 @@
 blockdiag {
-  2113 [label = "淫\n2113 promiscuous"];
-  137 [label = "水\n137 water"];
-  None [label = "壬\nNone porter"];
-  1 [label = "一\n1 one"];
-  663 [label = "爪\n663 claw"];
-  334 [label = "士\n334 soldier"];
-  137 -> 2113;
-  None -> 137;
-  1 -> None;
-  None -> 137;
-  663 -> 2113;
-  None -> 663;
-  None -> 2113;
-  334 -> None;
+  淫 [label = "淫\n2113 promiscuous"];
+  水 [label = "水\n137 water"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  丶 [label = "丶\nNone a drop of"];
+  爪 [label = "爪\n663 claw"];
+  𠂆 [label = "𠂆\nNone drag"];
+  壬 [label = "壬\nNone porter"];
+  士 [label = "士\n334 soldier"];
+  水 -> 淫;
+  丨 -> 水;
+  一 -> 丨;
+  丶 -> 水;
+  爪 -> 淫;
+  𠂆 -> 爪;
+  壬 -> 淫;
+  士 -> 壬;
 }

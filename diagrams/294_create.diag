@@ -1,11 +1,11 @@
 blockdiag {
-  294 [label = "造\n294 create"];
-  254 [label = "告\n254 declare"];
-  252 [label = "牛\n252 cow"];
-  11 [label = "口\n11 mouth"];
-  None [label = "辶\nNone road"];
-  254 -> 294;
-  252 -> 254;
-  11 -> 254;
-  None -> 294;
+  造 [label = "造\n294 create"];
+  告 [label = "告\n254 declare"];
+  牛 [label = "牛\n252 cow"];
+  口 [label = "口\n11 mouth"];
+  辶 [label = "辶\nNone road"];
+  告 -> 造;
+  牛 -> 告;
+  口 -> 告;
+  辶 -> 造;
 }

@@ -1,13 +1,13 @@
 blockdiag {
-  2040 [label = "糕\n2040 cake"];
-  778 [label = "米\n778 rice"];
-  528 [label = "羊\n528 sheep"];
-  None [label = "丷\nNone horns"];
-  1 [label = "一\n1 one"];
-  170 [label = "火\n170 fire"];
-  778 -> 2040;
-  528 -> 2040;
-  None -> 528;
-  1 -> None;
-  170 -> 2040;
+  糕 [label = "糕\n2040 cake"];
+  米 [label = "米\n778 rice"];
+  羊 [label = "羊\n528 sheep"];
+  丷 [label = "丷\nNone horns"];
+  一 [label = "一\n1 one"];
+  火 [label = "火\n170 fire"];
+  米 -> 糕;
+  羊 -> 糕;
+  丷 -> 羊;
+  一 -> 丷;
+  火 -> 糕;
 }

@@ -1,8 +1,9 @@
 blockdiag {
-  43 [label = "卜\n43 divination"];
-  None [label = "丶\nNone a drop of"];
-  1 [label = "一\n1 one"];
-  None -> 43;
-  1 -> None;
-  None -> 43;
+  卜 [label = "卜\n43 divination"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  丶 [label = "丶\nNone a drop of"];
+  丨 -> 卜;
+  一 -> 丨;
+  丶 -> 卜;
 }

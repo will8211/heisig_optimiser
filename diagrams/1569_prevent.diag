@@ -1,7 +1,7 @@
 blockdiag {
-  1569 [label = "杜\n1569 prevent"];
-  202 [label = "木\n202 tree"];
-  158 [label = "土\n158 soil"];
-  202 -> 1569;
-  158 -> 1569;
+  杜 [label = "杜\n1569 prevent"];
+  木 [label = "木\n202 tree"];
+  土 [label = "土\n158 soil"];
+  木 -> 杜;
+  土 -> 杜;
 }

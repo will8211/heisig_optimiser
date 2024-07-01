@@ -1,7 +1,7 @@
 blockdiag {
-  747 [label = "奴\n747 slave"];
-  102 [label = "女\n102 woman"];
-  633 [label = "又\n633 again"];
-  102 -> 747;
-  633 -> 747;
+  奴 [label = "奴\n747 slave"];
+  女 [label = "女\n102 woman"];
+  又 [label = "又\n633 again"];
+  女 -> 奴;
+  又 -> 奴;
 }

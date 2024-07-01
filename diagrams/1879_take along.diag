@@ -1,8 +1,9 @@
 blockdiag {
-  1879 [label = "携\n1879 take along"];
-  None [label = "隹\nNone turkey"];
-  625 [label = "乃\n625 only then"];
-  None -> 1879;
-  None -> 1879;
-  625 -> 1879;
+  携 [label = "携\n1879 take along"];
+  扌 [label = "扌\nNone fingers"];
+  隹 [label = "隹\nNone turkey"];
+  乃 [label = "乃\n625 only then"];
+  扌 -> 携;
+  隹 -> 携;
+  乃 -> 携;
 }

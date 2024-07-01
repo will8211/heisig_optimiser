@@ -1,18 +1,20 @@
 blockdiag {
-  2852 [label = "藉\n2852 in disorder"];
-  None [label = "艹\nNone flower"];
-  1 [label = "一\n1 one"];
-  215 [label = "未\n215 not yet"];
-  202 [label = "木\n202 tree"];
-  971 [label = "昔\n971 times past"];
-  12 [label = "日\n12 day"];
-  None -> 2852;
-  None -> 2852;
-  1 -> None;
-  215 -> None;
-  202 -> 215;
-  971 -> 2852;
-  None -> 971;
-  None -> None;
-  12 -> 971;
+  藉 [label = "藉\n2852 in disorder"];
+  艹 [label = "艹\nNone flower"];
+  耒 [label = "耒\nNone Christmas tree"];
+  一 [label = "一\n1 one"];
+  未 [label = "未\n215 not yet"];
+  木 [label = "木\n202 tree"];
+  昔 [label = "昔\n971 times past"];
+  囧昔－日 [label = "囧昔－日\nNone salad"];
+  日 [label = "日\n12 day"];
+  艹 -> 藉;
+  耒 -> 藉;
+  一 -> 耒;
+  未 -> 耒;
+  木 -> 未;
+  昔 -> 藉;
+  囧昔－日 -> 昔;
+  艹 -> 囧昔－日;
+  日 -> 昔;
 }

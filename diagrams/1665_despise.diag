@@ -1,14 +1,17 @@
 blockdiag {
-  1665 [label = "蔑\n1665 despise"];
-  None [label = "弋\nNone arrow"];
-  15 [label = "目\n15 eye"];
-  361 [label = "戈\n361 halberd"];
-  1 [label = "一\n1 one"];
-  None -> 1665;
-  15 -> 1665;
-  None -> 1665;
-  None -> None;
-  361 -> None;
-  None -> 361;
-  1 -> None;
+  蔑 [label = "蔑\n1665 despise"];
+  艹 [label = "艹\nNone flower"];
+  目 [label = "目\n15 eye"];
+  戌 [label = "戌\nNone march"];
+  戊 [label = "戊\nNone parade"];
+  戈 [label = "戈\n361 halberd"];
+  弋 [label = "弋\nNone arrow"];
+  一 [label = "一\n1 one"];
+  艹 -> 蔑;
+  目 -> 蔑;
+  戌 -> 蔑;
+  戊 -> 戌;
+  戈 -> 戊;
+  弋 -> 戈;
+  一 -> 戌;
 }

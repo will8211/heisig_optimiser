@@ -1,13 +1,13 @@
 blockdiag {
-  997 [label = "怀\n997 cherish"];
-  563 [label = "心\n563 heart"];
-  991 [label = "不\n991 no"];
-  1 [label = "一\n1 one"];
-  793 [label = "人\n793 person"];
-  None [label = "丶\nNone a drop of"];
-  563 -> 997;
-  991 -> 997;
-  1 -> 991;
-  793 -> 991;
-  None -> 991;
+  怀 [label = "怀\n997 cherish"];
+  心 [label = "心\n563 heart"];
+  不 [label = "不\n991 no"];
+  一 [label = "一\n1 one"];
+  人 [label = "人\n793 person"];
+  丶 [label = "丶\nNone a drop of"];
+  心 -> 怀;
+  不 -> 怀;
+  一 -> 不;
+  人 -> 不;
+  丶 -> 不;
 }

@@ -1,11 +1,11 @@
 blockdiag {
-  415 [label = "帜\n415 streamer"];
-  410 [label = "巾\n410 towel"];
-  11 [label = "口\n11 mouth"];
-  None [label = "囧只－口\nNone animal legs"];
-  8 [label = "八\n8 eight"];
-  410 -> 415;
-  11 -> 415;
-  None -> 415;
-  8 -> None;
+  帜 [label = "帜\n415 streamer"];
+  巾 [label = "巾\n410 towel"];
+  口 [label = "口\n11 mouth"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  巾 -> 帜;
+  口 -> 帜;
+  囧只－口 -> 帜;
+  八 -> 囧只－口;
 }

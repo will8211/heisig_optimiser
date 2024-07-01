@@ -1,10 +1,11 @@
 blockdiag {
-  1122 [label = "犯\n1122 criminal"];
-  239 [label = "犬\n239 pooch"];
-  113 [label = "大\n113 large"];
-  None [label = "㔾\nNone fingerprint"];
-  239 -> 1122;
-  113 -> 239;
-  None -> 239;
-  None -> 1122;
+  犯 [label = "犯\n1122 criminal"];
+  犬 [label = "犬\n239 pooch"];
+  大 [label = "大\n113 large"];
+  丶 [label = "丶\nNone a drop of"];
+  㔾 [label = "㔾\nNone fingerprint"];
+  犬 -> 犯;
+  大 -> 犬;
+  丶 -> 犬;
+  㔾 -> 犯;
 }

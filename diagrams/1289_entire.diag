@@ -1,17 +1,17 @@
 blockdiag {
-  1289 [label = "整\n1289 entire"];
-  1286 [label = "束\n1286 bundle up"];
-  202 [label = "木\n202 tree"];
-  11 [label = "口\n11 mouth"];
-  None [label = "攵\nNone taskmaster"];
-  387 [label = "正\n387 correct"];
-  1 [label = "一\n1 one"];
-  379 [label = "止\n379 stop"];
-  1286 -> 1289;
-  202 -> 1286;
-  11 -> 1286;
-  None -> 1289;
-  387 -> 1289;
-  1 -> 387;
-  379 -> 387;
+  整 [label = "整\n1289 entire"];
+  束 [label = "束\n1286 bundle up"];
+  木 [label = "木\n202 tree"];
+  口 [label = "口\n11 mouth"];
+  攵 [label = "攵\nNone taskmaster"];
+  正 [label = "正\n387 correct"];
+  一 [label = "一\n1 one"];
+  止 [label = "止\n379 stop"];
+  束 -> 整;
+  木 -> 束;
+  口 -> 束;
+  攵 -> 整;
+  正 -> 整;
+  一 -> 正;
+  止 -> 正;
 }

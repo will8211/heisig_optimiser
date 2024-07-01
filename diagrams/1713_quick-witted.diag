@@ -1,12 +1,13 @@
 blockdiag {
-  1713 [label = "敏\n1713 quick-witted"];
-  467 [label = "每\n467 every"];
-  None [label = "攵\nNone taskmaster"];
-  105 [label = "母\n105 mother"];
-  102 [label = "女\n102 woman"];
-  467 -> 1713;
-  None -> 467;
-  105 -> 467;
-  102 -> 105;
-  None -> 1713;
+  敏 [label = "敏\n1713 quick-witted"];
+  每 [label = "每\n467 every"];
+  𠂉 [label = "𠂉\nNone reclining"];
+  母 [label = "母\n105 mother"];
+  女 [label = "女\n102 woman"];
+  攵 [label = "攵\nNone taskmaster"];
+  每 -> 敏;
+  𠂉 -> 每;
+  母 -> 每;
+  女 -> 母;
+  攵 -> 敏;
 }

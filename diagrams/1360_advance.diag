@@ -1,7 +1,7 @@
 blockdiag {
-  1360 [label = "进\n1360 advance"];
-  1358 [label = "井\n1358 well"];
-  None [label = "辶\nNone road"];
-  1358 -> 1360;
-  None -> 1360;
+  进 [label = "进\n1360 advance"];
+  井 [label = "井\n1358 well"];
+  辶 [label = "辶\nNone road"];
+  井 -> 进;
+  辶 -> 进;
 }

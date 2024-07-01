@@ -1,11 +1,12 @@
 blockdiag {
-  1764 [label = "雀\n1764 sparrow"];
-  110 [label = "少\n110 few"];
-  None [label = "隹\nNone turkey"];
-  109 [label = "小\n109 small"];
-  110 -> 1764;
-  None -> 110;
-  109 -> 110;
-  None -> 109;
-  None -> 1764;
+  雀 [label = "雀\n1764 sparrow"];
+  少 [label = "少\n110 few"];
+  丶 [label = "丶\nNone a drop of"];
+  小 [label = "小\n109 small"];
+  隹 [label = "隹\nNone turkey"];
+  少 -> 雀;
+  丶 -> 少;
+  小 -> 少;
+  丶 -> 小;
+  隹 -> 雀;
 }

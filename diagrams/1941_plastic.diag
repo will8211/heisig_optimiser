@@ -1,14 +1,15 @@
 blockdiag {
-  1941 [label = "塑\n1941 plastic"];
-  None [label = "丷\nNone horns"];
-  1 [label = "一\n1 one"];
-  688 [label = "山\n688 mountain"];
-  13 [label = "月\n13 month"];
-  158 [label = "土\n158 soil"];
-  None -> 1941;
-  None -> None;
-  1 -> None;
-  688 -> None;
-  13 -> 1941;
-  158 -> 1941;
+  塑 [label = "塑\n1941 plastic"];
+  屰 [label = "屰\nNone mountain goat"];
+  丷 [label = "丷\nNone horns"];
+  一 [label = "一\n1 one"];
+  山 [label = "山\n688 mountain"];
+  月 [label = "月\n13 month"];
+  土 [label = "土\n158 soil"];
+  屰 -> 塑;
+  丷 -> 屰;
+  一 -> 丷;
+  山 -> 屰;
+  月 -> 塑;
+  土 -> 塑;
 }

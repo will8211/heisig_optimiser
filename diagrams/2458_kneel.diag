@@ -1,16 +1,17 @@
 blockdiag {
-  2458 [label = "跪\n2458 kneel"];
-  1048 [label = "足\n1048 lower leg"];
-  11 [label = "口\n11 mouth"];
-  379 [label = "止\n379 stop"];
-  1123 [label = "危\n1123 danger"];
-  None [label = "㔾\nNone fingerprint"];
-  121 [label = "厂\n121 factory"];
-  1048 -> 2458;
-  11 -> 1048;
-  379 -> 1048;
-  1123 -> 2458;
-  None -> 1123;
-  121 -> 1123;
-  None -> 1123;
+  跪 [label = "跪\n2458 kneel"];
+  足 [label = "足\n1048 lower leg"];
+  口 [label = "口\n11 mouth"];
+  止 [label = "止\n379 stop"];
+  危 [label = "危\n1123 danger"];
+  勹 [label = "勹\nNone bound up"];
+  厂 [label = "厂\n121 factory"];
+  㔾 [label = "㔾\nNone fingerprint"];
+  足 -> 跪;
+  口 -> 足;
+  止 -> 足;
+  危 -> 跪;
+  勹 -> 危;
+  厂 -> 危;
+  㔾 -> 危;
 }

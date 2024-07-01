@@ -1,14 +1,15 @@
 blockdiag {
-  1482 [label = "悬\n1482 suspend"];
-  1481 [label = "县\n1481 county"];
-  15 [label = "目\n15 eye"];
-  None [label = "厶\nNone elbow"];
-  1 [label = "一\n1 one"];
-  563 [label = "心\n563 heart"];
-  1481 -> 1482;
-  15 -> 1481;
-  None -> 1481;
-  None -> None;
-  1 -> None;
-  563 -> 1482;
+  悬 [label = "悬\n1482 suspend"];
+  县 [label = "县\n1481 county"];
+  目 [label = "目\n15 eye"];
+  囧会－亼 [label = "囧会－亼\nNone wall"];
+  厶 [label = "厶\nNone elbow"];
+  一 [label = "一\n1 one"];
+  心 [label = "心\n563 heart"];
+  县 -> 悬;
+  目 -> 县;
+  囧会－亼 -> 县;
+  厶 -> 囧会－亼;
+  一 -> 囧会－亼;
+  心 -> 悬;
 }

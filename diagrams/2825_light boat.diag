@@ -1,16 +1,19 @@
 blockdiag {
-  2825 [label = "艇\n2825 light boat"];
-  1394 [label = "舟\n1394 boat"];
-  None [label = "廴\nNone stretch"];
-  57 [label = "几\n57 how many?"];
-  854 [label = "廷\n854 royal court"];
-  334 [label = "士\n334 soldier"];
-  1394 -> 2825;
-  None -> 1394;
-  None -> 1394;
-  57 -> None;
-  854 -> 2825;
-  None -> 854;
-  334 -> None;
-  None -> 854;
+  艇 [label = "艇\n2825 light boat"];
+  舟 [label = "舟\n1394 boat"];
+  丶 [label = "丶\nNone a drop of"];
+  冂 [label = "冂\nNone hood"];
+  几 [label = "几\n57 how many?"];
+  廷 [label = "廷\n854 royal court"];
+  壬 [label = "壬\nNone porter"];
+  士 [label = "士\n334 soldier"];
+  廴 [label = "廴\nNone stretch"];
+  舟 -> 艇;
+  丶 -> 舟;
+  冂 -> 舟;
+  几 -> 冂;
+  廷 -> 艇;
+  壬 -> 廷;
+  士 -> 壬;
+  廴 -> 廷;
 }

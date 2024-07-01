@@ -1,11 +1,11 @@
 blockdiag {
-  2049 [label = "笨\n2049 stupid"];
-  786 [label = "竹\n786 bamboo"];
-  90 [label = "丁\n90 fourth"];
-  213 [label = "本\n213 notebook"];
-  202 [label = "木\n202 tree"];
-  786 -> 2049;
-  90 -> 786;
-  213 -> 2049;
-  202 -> 213;
+  笨 [label = "笨\n2049 stupid"];
+  竹 [label = "竹\n786 bamboo"];
+  丁 [label = "丁\n90 fourth"];
+  本 [label = "本\n213 notebook"];
+  木 [label = "木\n202 tree"];
+  竹 -> 笨;
+  丁 -> 竹;
+  本 -> 笨;
+  木 -> 本;
 }

@@ -1,18 +1,21 @@
 blockdiag {
-  1201 [label = "襄\n1201 aid"];
-  400 [label = "衣\n400 clothing"];
-  None [label = "𠀎\nNone wire mesh"];
-  6 [label = "六\n6 six"];
-  8 [label = "八\n8 eight"];
-  11 [label = "口\n11 mouth"];
-  400 -> 1201;
-  None -> 400;
-  6 -> None;
-  None -> 6;
-  8 -> None;
-  None -> None;
-  8 -> None;
-  None -> 1201;
-  11 -> None;
-  None -> 1201;
+  襄 [label = "襄\n1201 aid"];
+  衣 [label = "衣\n400 clothing"];
+  亠 [label = "亠\nNone top hat"];
+  六 [label = "六\n6 six"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  吅 [label = "吅\nNone chatterbox"];
+  口 [label = "口\n11 mouth"];
+  𠀎 [label = "𠀎\nNone wire mesh"];
+  衣 -> 襄;
+  亠 -> 衣;
+  六 -> 亠;
+  囧只－口 -> 六;
+  八 -> 囧只－口;
+  囧只－口 -> 亠;
+  八 -> 囧只－口;
+  吅 -> 襄;
+  口 -> 吅;
+  𠀎 -> 襄;
 }

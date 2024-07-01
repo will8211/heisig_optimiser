@@ -1,15 +1,15 @@
 blockdiag {
-  178 [label = "照\n178 illuminate"];
-  87 [label = "昭\n87 evident"];
-  86 [label = "召\n86 summon"];
-  83 [label = "刀\n83 sword"];
-  11 [label = "口\n11 mouth"];
-  12 [label = "日\n12 day"];
-  170 [label = "火\n170 fire"];
-  87 -> 178;
-  86 -> 87;
-  83 -> 86;
-  11 -> 86;
-  12 -> 87;
-  170 -> 178;
+  照 [label = "照\n178 illuminate"];
+  昭 [label = "昭\n87 evident"];
+  召 [label = "召\n86 summon"];
+  刀 [label = "刀\n83 sword"];
+  口 [label = "口\n11 mouth"];
+  日 [label = "日\n12 day"];
+  火 [label = "火\n170 fire"];
+  昭 -> 照;
+  召 -> 昭;
+  刀 -> 召;
+  口 -> 召;
+  日 -> 昭;
+  火 -> 照;
 }

@@ -1,7 +1,7 @@
 blockdiag {
-  238 [label = "桃\n238 peach"];
-  237 [label = "兆\n237 portent"];
-  202 [label = "木\n202 tree"];
-  237 -> 238;
-  202 -> 238;
+  桃 [label = "桃\n238 peach"];
+  兆 [label = "兆\n237 portent"];
+  木 [label = "木\n202 tree"];
+  兆 -> 桃;
+  木 -> 桃;
 }

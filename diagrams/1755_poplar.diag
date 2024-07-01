@@ -1,8 +1,9 @@
 blockdiag {
-  1755 [label = "杨\n1755 poplar"];
-  202 [label = "木\n202 tree"];
-  None [label = "豕\nNone sow"];
-  202 -> 1755;
-  None -> 1755;
-  None -> None;
+  杨 [label = "杨\n1755 poplar"];
+  木 [label = "木\n202 tree"];
+  𠃓 [label = "𠃓\nNone piglets"];
+  豕 [label = "豕\nNone sow"];
+  木 -> 杨;
+  𠃓 -> 杨;
+  豕 -> 𠃓;
 }

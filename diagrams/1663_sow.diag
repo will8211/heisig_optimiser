@@ -1,12 +1,13 @@
 blockdiag {
-  1663 [label = "栽\n1663 sow"];
-  None [label = "弋\nNone arrow"];
-  158 [label = "土\n158 soil"];
-  361 [label = "戈\n361 halberd"];
-  202 [label = "木\n202 tree"];
-  None -> 1663;
-  158 -> None;
-  361 -> None;
-  None -> 361;
-  202 -> 1663;
+  栽 [label = "栽\n1663 sow"];
+  囧载－车 [label = "囧载－车\nNone Thanksgiving"];
+  土 [label = "土\n158 soil"];
+  戈 [label = "戈\n361 halberd"];
+  弋 [label = "弋\nNone arrow"];
+  木 [label = "木\n202 tree"];
+  囧载－车 -> 栽;
+  土 -> 囧载－车;
+  戈 -> 囧载－车;
+  弋 -> 戈;
+  木 -> 栽;
 }

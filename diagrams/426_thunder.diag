@@ -1,7 +1,7 @@
 blockdiag {
-  426 [label = "雷\n426 thunder"];
-  14 [label = "田\n14 rice field"];
-  425 [label = "雨\n425 rain"];
-  14 -> 426;
-  425 -> 426;
+  雷 [label = "雷\n426 thunder"];
+  田 [label = "田\n14 rice field"];
+  雨 [label = "雨\n425 rain"];
+  田 -> 雷;
+  雨 -> 雷;
 }

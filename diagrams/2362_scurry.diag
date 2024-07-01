@@ -1,13 +1,14 @@
 blockdiag {
-  2362 [label = "窜\n2362 scurry"];
-  1070 [label = "穴\n1070 hole"];
-  None [label = "囧只－口\nNone animal legs"];
-  8 [label = "八\n8 eight"];
-  1506 [label = "串\n1506 string together"];
-  1070 -> 2362;
-  None -> 1070;
-  8 -> 1070;
-  None -> 1070;
-  8 -> None;
-  1506 -> 2362;
+  窜 [label = "窜\n2362 scurry"];
+  穴 [label = "穴\n1070 hole"];
+  宀 [label = "宀\nNone house"];
+  八 [label = "八\n8 eight"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  串 [label = "串\n1506 string together"];
+  穴 -> 窜;
+  宀 -> 穴;
+  八 -> 穴;
+  囧只－口 -> 穴;
+  八 -> 囧只－口;
+  串 -> 窜;
 }

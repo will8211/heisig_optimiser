@@ -1,11 +1,11 @@
 blockdiag {
-  1095 [label = "轻\n1095 lightweight"];
-  300 [label = "车\n300 car"];
-  None [label = "𢀖\nNone spool"];
-  76 [label = "工\n76 work"];
-  793 [label = "人\n793 person"];
-  300 -> 1095;
-  None -> 1095;
-  76 -> None;
-  793 -> None;
+  轻 [label = "轻\n1095 lightweight"];
+  车 [label = "车\n300 car"];
+  𢀖 [label = "𢀖\nNone spool"];
+  工 [label = "工\n76 work"];
+  人 [label = "人\n793 person"];
+  车 -> 轻;
+  𢀖 -> 轻;
+  工 -> 𢀖;
+  人 -> 𢀖;
 }

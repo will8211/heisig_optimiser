@@ -1,7 +1,7 @@
 blockdiag {
-  1644 [label = "牧\n1644 herd"];
-  252 [label = "牛\n252 cow"];
-  None [label = "攵\nNone taskmaster"];
-  252 -> 1644;
-  None -> 1644;
+  牧 [label = "牧\n1644 herd"];
+  牛 [label = "牛\n252 cow"];
+  攵 [label = "攵\nNone taskmaster"];
+  牛 -> 牧;
+  攵 -> 牧;
 }

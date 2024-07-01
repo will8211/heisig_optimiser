@@ -1,7 +1,7 @@
 blockdiag {
-  86 [label = "召\n86 summon"];
-  83 [label = "刀\n83 sword"];
-  11 [label = "口\n11 mouth"];
-  83 -> 86;
-  11 -> 86;
+  召 [label = "召\n86 summon"];
+  刀 [label = "刀\n83 sword"];
+  口 [label = "口\n11 mouth"];
+  刀 -> 召;
+  口 -> 召;
 }

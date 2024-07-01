@@ -1,15 +1,17 @@
 blockdiag {
-  319 [label = "沉\n319 profound"];
-  137 [label = "水\n137 water"];
-  None [label = "冖\nNone crown"];
-  1 [label = "一\n1 one"];
-  318 [label = "冗\n318 superfluous"];
-  57 [label = "几\n57 how many?"];
-  137 -> 319;
-  None -> 137;
-  1 -> None;
-  None -> 137;
-  318 -> 319;
-  None -> 318;
-  57 -> 318;
+  沉 [label = "沉\n319 profound"];
+  水 [label = "水\n137 water"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  丶 [label = "丶\nNone a drop of"];
+  冗 [label = "冗\n318 superfluous"];
+  冖 [label = "冖\nNone crown"];
+  几 [label = "几\n57 how many?"];
+  水 -> 沉;
+  丨 -> 水;
+  一 -> 丨;
+  丶 -> 水;
+  冗 -> 沉;
+  冖 -> 冗;
+  几 -> 冗;
 }

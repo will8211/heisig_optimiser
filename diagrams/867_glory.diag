@@ -1,9 +1,11 @@
 blockdiag {
-  867 [label = "荣\n867 glory"];
-  None [label = "艹\nNone flower"];
-  202 [label = "木\n202 tree"];
-  None -> 867;
-  None -> None;
-  None -> None;
-  202 -> 867;
+  荣 [label = "荣\n867 glory"];
+  囧荣－木 [label = "囧荣－木\nNone greenhouse"];
+  宀 [label = "宀\nNone house"];
+  艹 [label = "艹\nNone flower"];
+  木 [label = "木\n202 tree"];
+  囧荣－木 -> 荣;
+  宀 -> 囧荣－木;
+  艹 -> 囧荣－木;
+  木 -> 荣;
 }

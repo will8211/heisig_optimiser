@@ -1,7 +1,7 @@
 blockdiag {
-  2992 [label = "啡\n2992 coffee (last drop)"];
-  11 [label = "口\n11 mouth"];
-  1267 [label = "非\n1267 non-"];
-  11 -> 2992;
-  1267 -> 2992;
+  啡 [label = "啡\n2992 coffee (last drop)"];
+  口 [label = "口\n11 mouth"];
+  非 [label = "非\n1267 non-"];
+  口 -> 啡;
+  非 -> 啡;
 }

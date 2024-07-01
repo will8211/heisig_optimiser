@@ -1,9 +1,9 @@
 blockdiag {
-  1578 [label = "朱\n1578 vermilion"];
-  None [label = "丶\nNone a drop of"];
-  215 [label = "未\n215 not yet"];
-  202 [label = "木\n202 tree"];
-  None -> 1578;
-  215 -> 1578;
-  202 -> 215;
+  朱 [label = "朱\n1578 vermilion"];
+  丶 [label = "丶\nNone a drop of"];
+  未 [label = "未\n215 not yet"];
+  木 [label = "木\n202 tree"];
+  丶 -> 朱;
+  未 -> 朱;
+  木 -> 未;
 }

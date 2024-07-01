@@ -1,13 +1,15 @@
 blockdiag {
-  1417 [label = "释\n1417 explain"];
-  None [label = "囧奉－𡗗\nNone cornstalk"];
-  778 [label = "米\n778 rice"];
-  633 [label = "又\n633 again"];
-  1223 [label = "丰\n1223 plentiful"];
-  None -> 1417;
-  None -> None;
-  778 -> None;
-  633 -> 1417;
-  None -> 1417;
-  1223 -> None;
+  释 [label = "释\n1417 explain"];
+  釆 [label = "釆\nNone droppings"];
+  丶 [label = "丶\nNone a drop of"];
+  米 [label = "米\n778 rice"];
+  又 [label = "又\n633 again"];
+  囧奉－𡗗 [label = "囧奉－𡗗\nNone cornstalk"];
+  丰 [label = "丰\n1223 plentiful"];
+  釆 -> 释;
+  丶 -> 釆;
+  米 -> 釆;
+  又 -> 释;
+  囧奉－𡗗 -> 释;
+  丰 -> 囧奉－𡗗;
 }

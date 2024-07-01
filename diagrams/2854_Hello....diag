@@ -1,11 +1,11 @@
 blockdiag {
-  2854 [label = "喂\n2854 Hello..."];
-  11 [label = "口\n11 mouth"];
-  2853 [label = "畏\n2853 be afraid of"];
-  14 [label = "田\n14 rice field"];
-  None [label = "囧丧－十－丷\nNone barrette"];
-  11 -> 2854;
-  2853 -> 2854;
-  14 -> 2853;
-  None -> 2853;
+  喂 [label = "喂\n2854 Hello..."];
+  口 [label = "口\n11 mouth"];
+  畏 [label = "畏\n2853 be afraid of"];
+  田 [label = "田\n14 rice field"];
+  囧丧－十－丷 [label = "囧丧－十－丷\nNone barrette"];
+  口 -> 喂;
+  畏 -> 喂;
+  田 -> 畏;
+  囧丧－十－丷 -> 畏;
 }

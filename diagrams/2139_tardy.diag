@@ -1,8 +1,9 @@
 blockdiag {
-  2139 [label = "迟\n2139 tardy"];
-  882 [label = "尸\n882 corpse"];
-  None [label = "辶\nNone road"];
-  882 -> 2139;
-  None -> 2139;
-  None -> 2139;
+  迟 [label = "迟\n2139 tardy"];
+  尸 [label = "尸\n882 corpse"];
+  丶 [label = "丶\nNone a drop of"];
+  辶 [label = "辶\nNone road"];
+  尸 -> 迟;
+  丶 -> 迟;
+  辶 -> 迟;
 }

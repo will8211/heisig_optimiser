@@ -1,15 +1,17 @@
 blockdiag {
-  676 [label = "法\n676 method"];
-  137 [label = "水\n137 water"];
-  None [label = "厶\nNone elbow"];
-  1 [label = "一\n1 one"];
-  675 [label = "去\n675 go"];
-  158 [label = "土\n158 soil"];
-  137 -> 676;
-  None -> 137;
-  1 -> None;
-  None -> 137;
-  675 -> 676;
-  158 -> 675;
-  None -> 675;
+  法 [label = "法\n676 method"];
+  水 [label = "水\n137 water"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  丶 [label = "丶\nNone a drop of"];
+  去 [label = "去\n675 go"];
+  土 [label = "土\n158 soil"];
+  厶 [label = "厶\nNone elbow"];
+  水 -> 法;
+  丨 -> 水;
+  一 -> 丨;
+  丶 -> 水;
+  去 -> 法;
+  土 -> 去;
+  厶 -> 去;
 }

@@ -1,12 +1,13 @@
 blockdiag {
-  2290 [label = "挎\n2290 carry on the arm"];
-  None [label = "丂\nNone snare"];
-  2288 [label = "夸\n2288 brag"];
-  113 [label = "大\n113 large"];
-  2286 [label = "亏\n2286 loss"];
-  None -> 2290;
-  2288 -> 2290;
-  113 -> 2288;
-  2286 -> 2288;
-  None -> 2286;
+  挎 [label = "挎\n2290 carry on the arm"];
+  扌 [label = "扌\nNone fingers"];
+  夸 [label = "夸\n2288 brag"];
+  大 [label = "大\n113 large"];
+  亏 [label = "亏\n2286 loss"];
+  丂 [label = "丂\nNone snare"];
+  扌 -> 挎;
+  夸 -> 挎;
+  大 -> 夸;
+  亏 -> 夸;
+  丂 -> 亏;
 }

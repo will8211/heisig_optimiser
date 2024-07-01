@@ -1,12 +1,15 @@
 blockdiag {
-  2343 [label = "隧\n2343 tunnel"];
-  None [label = "辶\nNone road"];
-  1752 [label = "遂\n1752 satisfy"];
-  1 [label = "一\n1 one"];
-  None -> 2343;
-  1752 -> 2343;
-  None -> 1752;
-  1 -> None;
-  None -> 1752;
-  None -> 1752;
+  隧 [label = "隧\n2343 tunnel"];
+  阝 [label = "阝\nNone pinnacle"];
+  遂 [label = "遂\n1752 satisfy"];
+  丷 [label = "丷\nNone horns"];
+  一 [label = "一\n1 one"];
+  豕 [label = "豕\nNone sow"];
+  辶 [label = "辶\nNone road"];
+  阝 -> 隧;
+  遂 -> 隧;
+  丷 -> 遂;
+  一 -> 丷;
+  豕 -> 遂;
+  辶 -> 遂;
 }

@@ -1,13 +1,13 @@
 blockdiag {
-  1609 [label = "栓\n1609 plug"];
-  202 [label = "木\n202 tree"];
-  275 [label = "全\n275 whole"];
-  265 [label = "王\n265 king"];
-  76 [label = "工\n76 work"];
-  None [label = "𠆢\nNone umbrella"];
-  202 -> 1609;
-  275 -> 1609;
-  265 -> 275;
-  76 -> 265;
-  None -> 275;
+  栓 [label = "栓\n1609 plug"];
+  木 [label = "木\n202 tree"];
+  全 [label = "全\n275 whole"];
+  王 [label = "王\n265 king"];
+  工 [label = "工\n76 work"];
+  𠆢 [label = "𠆢\nNone umbrella"];
+  木 -> 栓;
+  全 -> 栓;
+  王 -> 全;
+  工 -> 王;
+  𠆢 -> 全;
 }

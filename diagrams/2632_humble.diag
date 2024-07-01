@@ -1,7 +1,7 @@
 blockdiag {
-  2632 [label = "菲\n2632 humble"];
-  None [label = "艹\nNone flower"];
-  1267 [label = "非\n1267 non-"];
-  None -> 2632;
-  1267 -> 2632;
+  菲 [label = "菲\n2632 humble"];
+  艹 [label = "艹\nNone flower"];
+  非 [label = "非\n1267 non-"];
+  艹 -> 菲;
+  非 -> 菲;
 }

@@ -1,10 +1,11 @@
 blockdiag {
-  2807 [label = "邮\n2807 post"];
-  913 [label = "由\n913 wherefore"];
-  14 [label = "田\n14 rice field"];
-  None [label = "阝\nNone pinnacle"];
-  913 -> 2807;
-  14 -> 913;
-  None -> 2807;
-  None -> None;
+  邮 [label = "邮\n2807 post"];
+  由 [label = "由\n913 wherefore"];
+  田 [label = "田\n14 rice field"];
+  囧阝 [label = "囧阝\nNone city walls"];
+  阝 [label = "阝\nNone pinnacle"];
+  由 -> 邮;
+  田 -> 由;
+  囧阝 -> 邮;
+  阝 -> 囧阝;
 }

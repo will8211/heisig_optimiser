@@ -1,7 +1,7 @@
 blockdiag {
-  1269 [label = "罪\n1269 guilt"];
-  15 [label = "目\n15 eye"];
-  1267 [label = "非\n1267 non-"];
-  15 -> 1269;
-  1267 -> 1269;
+  罪 [label = "罪\n1269 guilt"];
+  目 [label = "目\n15 eye"];
+  非 [label = "非\n1267 non-"];
+  目 -> 罪;
+  非 -> 罪;
 }

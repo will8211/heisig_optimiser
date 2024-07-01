@@ -1,14 +1,17 @@
 blockdiag {
-  2824 [label = "舱\n2824 ship’s cabin"];
-  1394 [label = "舟\n1394 boat"];
-  None [label = "㔾\nNone fingerprint"];
-  57 [label = "几\n57 how many?"];
-  1119 [label = "仓\n1119 storehouse"];
-  1394 -> 2824;
-  None -> 1394;
-  None -> 1394;
-  57 -> None;
-  1119 -> 2824;
-  None -> 1119;
-  None -> 1119;
+  舱 [label = "舱\n2824 ship’s cabin"];
+  舟 [label = "舟\n1394 boat"];
+  丶 [label = "丶\nNone a drop of"];
+  冂 [label = "冂\nNone hood"];
+  几 [label = "几\n57 how many?"];
+  仓 [label = "仓\n1119 storehouse"];
+  𠆢 [label = "𠆢\nNone umbrella"];
+  㔾 [label = "㔾\nNone fingerprint"];
+  舟 -> 舱;
+  丶 -> 舟;
+  冂 -> 舟;
+  几 -> 冂;
+  仓 -> 舱;
+  𠆢 -> 仓;
+  㔾 -> 仓;
 }

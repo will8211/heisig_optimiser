@@ -1,9 +1,9 @@
 blockdiag {
-  2169 [label = "轴\n2169 axle"];
-  300 [label = "车\n300 car"];
-  913 [label = "由\n913 wherefore"];
-  14 [label = "田\n14 rice field"];
-  300 -> 2169;
-  913 -> 2169;
-  14 -> 913;
+  轴 [label = "轴\n2169 axle"];
+  车 [label = "车\n300 car"];
+  由 [label = "由\n913 wherefore"];
+  田 [label = "田\n14 rice field"];
+  车 -> 轴;
+  由 -> 轴;
+  田 -> 由;
 }

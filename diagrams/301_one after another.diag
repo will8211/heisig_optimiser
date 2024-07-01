@@ -1,7 +1,7 @@
 blockdiag {
-  301 [label = "连\n301 one after another"];
-  300 [label = "车\n300 car"];
-  None [label = "辶\nNone road"];
-  300 -> 301;
-  None -> 301;
+  连 [label = "连\n301 one after another"];
+  车 [label = "车\n300 car"];
+  辶 [label = "辶\nNone road"];
+  车 -> 连;
+  辶 -> 连;
 }

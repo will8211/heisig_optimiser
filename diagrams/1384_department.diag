@@ -1,11 +1,13 @@
 blockdiag {
-  1384 [label = "部\n1384 department"];
-  None [label = "阝\nNone pinnacle"];
-  444 [label = "立\n444 standing up"];
-  11 [label = "口\n11 mouth"];
-  None -> 1384;
-  444 -> None;
-  11 -> None;
-  None -> 1384;
-  None -> None;
+  部 [label = "部\n1384 department"];
+  咅 [label = "咅\nNone muzzle"];
+  立 [label = "立\n444 standing up"];
+  口 [label = "口\n11 mouth"];
+  囧阝 [label = "囧阝\nNone city walls"];
+  阝 [label = "阝\nNone pinnacle"];
+  咅 -> 部;
+  立 -> 咅;
+  口 -> 咅;
+  囧阝 -> 部;
+  阝 -> 囧阝;
 }

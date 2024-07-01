@@ -1,11 +1,11 @@
 blockdiag {
-  2273 [label = "僵\n2273 stiff"];
-  793 [label = "人\n793 person"];
-  None [label = "畺\nNone family feud"];
-  14 [label = "田\n14 rice field"];
-  1 [label = "一\n1 one"];
-  793 -> 2273;
-  None -> 2273;
-  14 -> None;
-  1 -> None;
+  僵 [label = "僵\n2273 stiff"];
+  人 [label = "人\n793 person"];
+  畺 [label = "畺\nNone family feud"];
+  田 [label = "田\n14 rice field"];
+  一 [label = "一\n1 one"];
+  人 -> 僵;
+  畺 -> 僵;
+  田 -> 畺;
+  一 -> 畺;
 }

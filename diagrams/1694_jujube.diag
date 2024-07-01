@@ -1,17 +1,21 @@
 blockdiag {
-  1694 [label = "枣\n1694 jujube"];
-  None [label = "丶\nNone a drop of"];
-  410 [label = "巾\n410 towel"];
-  202 [label = "木\n202 tree"];
-  137 [label = "水\n137 water"];
-  1 [label = "一\n1 one"];
-  None -> 1694;
-  None -> None;
-  410 -> None;
-  202 -> None;
-  None -> 1694;
-  137 -> None;
-  None -> 137;
-  1 -> None;
-  None -> 137;
+  枣 [label = "枣\n1694 jujube"];
+  朿 [label = "朿\nNone thorn"];
+  囧冂 [label = "囧冂\nNone belt"];
+  巾 [label = "巾\n410 towel"];
+  木 [label = "木\n202 tree"];
+  冫 [label = "冫\nNone ice"];
+  水 [label = "水\n137 water"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  丶 [label = "丶\nNone a drop of"];
+  朿 -> 枣;
+  囧冂 -> 朿;
+  巾 -> 囧冂;
+  木 -> 朿;
+  冫 -> 枣;
+  水 -> 冫;
+  丨 -> 水;
+  一 -> 丨;
+  丶 -> 水;
 }

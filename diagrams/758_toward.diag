@@ -1,18 +1,18 @@
 blockdiag {
-  758 [label = "往\n758 toward"];
-  754 [label = "行\n754 line of business"];
-  277 [label = "主\n277 lord"];
-  None [label = "丶\nNone a drop of"];
-  265 [label = "王\n265 king"];
-  76 [label = "工\n76 work"];
-  266 [label = "玉\n266 jade"];
-  754 -> 758;
-  277 -> 758;
-  None -> 277;
-  265 -> 277;
-  76 -> 265;
-  266 -> 277;
-  265 -> 266;
-  76 -> 265;
-  None -> 266;
+  往 [label = "往\n758 toward"];
+  行 [label = "行\n754 line of business"];
+  主 [label = "主\n277 lord"];
+  丶 [label = "丶\nNone a drop of"];
+  王 [label = "王\n265 king"];
+  工 [label = "工\n76 work"];
+  玉 [label = "玉\n266 jade"];
+  行 -> 往;
+  主 -> 往;
+  丶 -> 主;
+  王 -> 主;
+  工 -> 王;
+  玉 -> 主;
+  王 -> 玉;
+  工 -> 王;
+  丶 -> 玉;
 }

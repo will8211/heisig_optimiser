@@ -1,11 +1,11 @@
 blockdiag {
-  2284 [label = "聘\n2284 employ"];
-  717 [label = "耳\n717 ear"];
-  913 [label = "由\n913 wherefore"];
-  14 [label = "田\n14 rice field"];
-  None [label = "丂\nNone snare"];
-  717 -> 2284;
-  913 -> 2284;
-  14 -> 913;
-  None -> 2284;
+  聘 [label = "聘\n2284 employ"];
+  耳 [label = "耳\n717 ear"];
+  由 [label = "由\n913 wherefore"];
+  田 [label = "田\n14 rice field"];
+  丂 [label = "丂\nNone snare"];
+  耳 -> 聘;
+  由 -> 聘;
+  田 -> 由;
+  丂 -> 聘;
 }

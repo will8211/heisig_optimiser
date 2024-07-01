@@ -1,5 +1,7 @@
 blockdiag {
-  None [label = "勹\nNone bound up"];
-  None -> None;
-  None -> None;
+  臽 [label = "臽\nNone pothole"];
+  臼 [label = "臼\nNone mortar"];
+  勹 [label = "勹\nNone bound up"];
+  臼 -> 臽;
+  勹 -> 臽;
 }

@@ -1,12 +1,13 @@
 blockdiag {
-  2090 [label = "悠\n2090 without haste"];
-  793 [label = "人\n793 person"];
-  None [label = "攵\nNone taskmaster"];
-  1 [label = "一\n1 one"];
-  563 [label = "心\n563 heart"];
-  793 -> 2090;
-  None -> 2090;
-  1 -> None;
-  None -> 2090;
-  563 -> 2090;
+  悠 [label = "悠\n2090 without haste"];
+  人 [label = "人\n793 person"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  攵 [label = "攵\nNone taskmaster"];
+  心 [label = "心\n563 heart"];
+  人 -> 悠;
+  丨 -> 悠;
+  一 -> 丨;
+  攵 -> 悠;
+  心 -> 悠;
 }

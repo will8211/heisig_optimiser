@@ -1,14 +1,15 @@
 blockdiag {
-  700 [label = "欲\n700 desire"];
-  698 [label = "谷\n698 valley"];
-  None [label = "𠆢\nNone umbrella"];
-  8 [label = "八\n8 eight"];
-  11 [label = "口\n11 mouth"];
-  474 [label = "欠\n474 lack"];
-  698 -> 700;
-  None -> 698;
-  8 -> None;
-  None -> 698;
-  11 -> 698;
-  474 -> 700;
+  欲 [label = "欲\n700 desire"];
+  谷 [label = "谷\n698 valley"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  𠆢 [label = "𠆢\nNone umbrella"];
+  口 [label = "口\n11 mouth"];
+  欠 [label = "欠\n474 lack"];
+  谷 -> 欲;
+  囧只－口 -> 谷;
+  八 -> 囧只－口;
+  𠆢 -> 谷;
+  口 -> 谷;
+  欠 -> 欲;
 }

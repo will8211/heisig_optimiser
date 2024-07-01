@@ -1,7 +1,7 @@
 blockdiag {
-  477 [label = "软\n477 soft"];
-  300 [label = "车\n300 car"];
-  474 [label = "欠\n474 lack"];
-  300 -> 477;
-  474 -> 477;
+  软 [label = "软\n477 soft"];
+  车 [label = "车\n300 car"];
+  欠 [label = "欠\n474 lack"];
+  车 -> 软;
+  欠 -> 软;
 }

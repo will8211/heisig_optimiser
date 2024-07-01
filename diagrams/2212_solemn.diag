@@ -1,10 +1,13 @@
 blockdiag {
-  2212 [label = "肃\n2212 solemn"];
-  None [label = "囧介－𠆢\nNone crutches"];
-  8 [label = "八\n8 eight"];
-  None -> 2212;
-  None -> None;
-  None -> 2212;
-  8 -> None;
-  None -> 2212;
+  肃 [label = "肃\n2212 solemn"];
+  肀 [label = "肀\nNone rake"];
+  彐 [label = "彐\nNone broom"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  囧介－𠆢 [label = "囧介－𠆢\nNone crutches"];
+  肀 -> 肃;
+  彐 -> 肀;
+  囧只－口 -> 肃;
+  八 -> 囧只－口;
+  囧介－𠆢 -> 肃;
 }

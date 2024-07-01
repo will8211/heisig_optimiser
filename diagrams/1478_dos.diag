@@ -1,9 +1,9 @@
 blockdiag {
-  1478 [label = "两\n1478 dos"];
-  793 [label = "人\n793 person"];
-  None [label = "囧冂\nNone belt"];
-  410 [label = "巾\n410 towel"];
-  793 -> 1478;
-  None -> 1478;
-  410 -> None;
+  两 [label = "两\n1478 dos"];
+  人 [label = "人\n793 person"];
+  囧冂 [label = "囧冂\nNone belt"];
+  巾 [label = "巾\n410 towel"];
+  人 -> 两;
+  囧冂 -> 两;
+  巾 -> 囧冂;
 }

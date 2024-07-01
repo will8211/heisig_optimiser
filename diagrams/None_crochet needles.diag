@@ -1,7 +1,7 @@
 blockdiag {
-  None [label = "卂\nNone crochet needles"];
-  95 [label = "乙\n95 second"];
-  10 [label = "十\n10 ten"];
-  95 -> None;
-  10 -> None;
+  卂 [label = "卂\nNone crochet needles"];
+  乙 [label = "乙\n95 second"];
+  十 [label = "十\n10 ten"];
+  乙 -> 卂;
+  十 -> 卂;
 }

@@ -1,7 +1,7 @@
 blockdiag {
-  2726 [label = "肥\n2726 plump"];
-  13 [label = "月\n13 month"];
-  1326 [label = "巴\n1326 crust"];
-  13 -> 2726;
-  1326 -> 2726;
+  肥 [label = "肥\n2726 plump"];
+  月 [label = "月\n13 month"];
+  巴 [label = "巴\n1326 crust"];
+  月 -> 肥;
+  巴 -> 肥;
 }

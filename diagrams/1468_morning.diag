@@ -1,15 +1,15 @@
 blockdiag {
-  1468 [label = "晨\n1468 morning"];
-  12 [label = "日\n12 day"];
-  1467 [label = "辰\n1467 sign of the dragon"];
-  121 [label = "厂\n121 factory"];
-  2 [label = "二\n2 two"];
-  1 [label = "一\n1 one"];
-  None [label = "囧丧－十－丷\nNone barrette"];
-  12 -> 1468;
-  1467 -> 1468;
-  121 -> 1467;
-  2 -> 1467;
-  1 -> 2;
-  None -> 1467;
+  晨 [label = "晨\n1468 morning"];
+  日 [label = "日\n12 day"];
+  辰 [label = "辰\n1467 sign of the dragon"];
+  厂 [label = "厂\n121 factory"];
+  二 [label = "二\n2 two"];
+  一 [label = "一\n1 one"];
+  囧丧－十－丷 [label = "囧丧－十－丷\nNone barrette"];
+  日 -> 晨;
+  辰 -> 晨;
+  厂 -> 辰;
+  二 -> 辰;
+  一 -> 二;
+  囧丧－十－丷 -> 辰;
 }

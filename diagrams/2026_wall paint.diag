@@ -1,18 +1,21 @@
 blockdiag {
-  2026 [label = "漆\n2026 wall paint"];
-  137 [label = "水\n137 water"];
-  None [label = "丶\nNone a drop of"];
-  1 [label = "一\n1 one"];
-  202 [label = "木\n202 tree"];
-  137 -> 2026;
-  None -> 137;
-  1 -> None;
-  None -> 137;
-  None -> 2026;
-  None -> None;
-  137 -> None;
-  None -> 137;
-  1 -> None;
-  None -> 137;
-  202 -> None;
+  漆 [label = "漆\n2026 wall paint"];
+  水 [label = "水\n137 water"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  丶 [label = "丶\nNone a drop of"];
+  桼 [label = "桼\nNone Baron von Rumpelbrella"];
+  𠆢 [label = "𠆢\nNone umbrella"];
+  木 [label = "木\n202 tree"];
+  水 -> 漆;
+  丨 -> 水;
+  一 -> 丨;
+  丶 -> 水;
+  桼 -> 漆;
+  𠆢 -> 桼;
+  水 -> 桼;
+  丨 -> 水;
+  一 -> 丨;
+  丶 -> 水;
+  木 -> 桼;
 }

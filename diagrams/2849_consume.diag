@@ -1,15 +1,15 @@
 blockdiag {
-  2849 [label = "耗\n2849 consume"];
-  None [label = "耒\nNone Christmas tree"];
-  1 [label = "一\n1 one"];
-  215 [label = "未\n215 not yet"];
-  202 [label = "木\n202 tree"];
-  1421 [label = "毛\n1421 fur"];
-  584 [label = "手\n584 hand"];
-  None -> 2849;
-  1 -> None;
-  215 -> None;
-  202 -> 215;
-  1421 -> 2849;
-  584 -> 1421;
+  耗 [label = "耗\n2849 consume"];
+  耒 [label = "耒\nNone Christmas tree"];
+  一 [label = "一\n1 one"];
+  未 [label = "未\n215 not yet"];
+  木 [label = "木\n202 tree"];
+  毛 [label = "毛\n1421 fur"];
+  手 [label = "手\n584 hand"];
+  耒 -> 耗;
+  一 -> 耒;
+  未 -> 耒;
+  木 -> 未;
+  毛 -> 耗;
+  手 -> 毛;
 }

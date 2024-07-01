@@ -1,9 +1,11 @@
 blockdiag {
-  2584 [label = "逢\n2584 chance upon"];
-  None [label = "辶\nNone road"];
-  1223 [label = "丰\n1223 plentiful"];
-  None -> 2584;
-  1223 -> None;
-  None -> None;
-  None -> 2584;
+  逢 [label = "逢\n2584 chance upon"];
+  夆 [label = "夆\nNone briar"];
+  丰 [label = "丰\n1223 plentiful"];
+  夂 [label = "夂\nNone walking legs"];
+  辶 [label = "辶\nNone road"];
+  夆 -> 逢;
+  丰 -> 夆;
+  夂 -> 夆;
+  辶 -> 逢;
 }

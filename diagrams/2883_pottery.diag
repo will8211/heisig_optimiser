@@ -1,12 +1,15 @@
 blockdiag {
-  2883 [label = "陶\n2883 pottery"];
-  None [label = "缶\nNone tin can"];
-  542 [label = "午\n542 noon"];
-  688 [label = "山\n688 mountain"];
-  None -> 2883;
-  None -> 2883;
-  None -> None;
-  None -> None;
-  542 -> None;
-  688 -> None;
+  陶 [label = "陶\n2883 pottery"];
+  阝 [label = "阝\nNone pinnacle"];
+  匋 [label = "匋\nNone canteen"];
+  勹 [label = "勹\nNone bound up"];
+  缶 [label = "缶\nNone tin can"];
+  午 [label = "午\n542 noon"];
+  山 [label = "山\n688 mountain"];
+  阝 -> 陶;
+  匋 -> 陶;
+  勹 -> 匋;
+  缶 -> 匋;
+  午 -> 缶;
+  山 -> 缶;
 }

@@ -1,17 +1,18 @@
 blockdiag {
-  2924 [label = "魄\n2924 vigor"];
-  34 [label = "白\n34 white"];
-  12 [label = "日\n12 day"];
-  None [label = "厶\nNone elbow"];
-  1472 [label = "鬼\n1472 ghost"];
-  14 [label = "田\n14 rice field"];
-  56 [label = "儿\n56 youngster"];
-  34 -> 2924;
-  12 -> 34;
-  None -> 34;
-  1472 -> 2924;
-  None -> 1472;
-  14 -> 1472;
-  56 -> 1472;
-  None -> 1472;
+  魄 [label = "魄\n2924 vigor"];
+  白 [label = "白\n34 white"];
+  日 [label = "日\n12 day"];
+  丶 [label = "丶\nNone a drop of"];
+  鬼 [label = "鬼\n1472 ghost"];
+  田 [label = "田\n14 rice field"];
+  儿 [label = "儿\n56 youngster"];
+  厶 [label = "厶\nNone elbow"];
+  白 -> 魄;
+  日 -> 白;
+  丶 -> 白;
+  鬼 -> 魄;
+  丶 -> 鬼;
+  田 -> 鬼;
+  儿 -> 鬼;
+  厶 -> 鬼;
 }

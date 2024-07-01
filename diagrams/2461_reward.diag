@@ -1,10 +1,11 @@
 blockdiag {
-  2461 [label = "酬\n2461 reward"];
-  None [label = "丶\nNone a drop of"];
-  135 [label = "州\n135 state"];
-  134 [label = "川\n134 stream"];
-  None -> 2461;
-  135 -> 2461;
-  None -> 135;
-  134 -> 135;
+  酬 [label = "酬\n2461 reward"];
+  酉 [label = "酉\nNone whiskey bottle"];
+  州 [label = "州\n135 state"];
+  丶 [label = "丶\nNone a drop of"];
+  川 [label = "川\n134 stream"];
+  酉 -> 酬;
+  州 -> 酬;
+  丶 -> 州;
+  川 -> 州;
 }

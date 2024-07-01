@@ -1,9 +1,11 @@
 blockdiag {
-  1064 [label = "阶\n1064 stairs"];
-  None [label = "囧介－𠆢\nNone crutches"];
-  259 [label = "介\n259 introduce"];
-  None -> 1064;
-  259 -> 1064;
-  None -> 259;
-  None -> 259;
+  阶 [label = "阶\n1064 stairs"];
+  阝 [label = "阝\nNone pinnacle"];
+  介 [label = "介\n259 introduce"];
+  𠆢 [label = "𠆢\nNone umbrella"];
+  囧介－𠆢 [label = "囧介－𠆢\nNone crutches"];
+  阝 -> 阶;
+  介 -> 阶;
+  𠆢 -> 介;
+  囧介－𠆢 -> 介;
 }

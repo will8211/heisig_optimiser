@@ -1,15 +1,17 @@
 blockdiag {
-  1194 [label = "亥\n1194 sign of the pig"];
-  None [label = "厶\nNone elbow"];
-  6 [label = "六\n6 six"];
-  8 [label = "八\n8 eight"];
-  793 [label = "人\n793 person"];
-  None -> 1194;
-  6 -> None;
-  None -> 6;
-  8 -> None;
-  None -> None;
-  8 -> None;
-  None -> 1194;
-  793 -> 1194;
+  亥 [label = "亥\n1194 sign of the pig"];
+  亠 [label = "亠\nNone top hat"];
+  六 [label = "六\n6 six"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  厶 [label = "厶\nNone elbow"];
+  人 [label = "人\n793 person"];
+  亠 -> 亥;
+  六 -> 亠;
+  囧只－口 -> 六;
+  八 -> 囧只－口;
+  囧只－口 -> 亠;
+  八 -> 囧只－口;
+  厶 -> 亥;
+  人 -> 亥;
 }

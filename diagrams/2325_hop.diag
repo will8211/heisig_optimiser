@@ -1,17 +1,17 @@
 blockdiag {
-  2325 [label = "蹦\n2325 hop"];
-  1048 [label = "足\n1048 lower leg"];
-  11 [label = "口\n11 mouth"];
-  379 [label = "止\n379 stop"];
-  1926 [label = "崩\n1926 crumble"];
-  688 [label = "山\n688 mountain"];
-  20 [label = "朋\n20 companion"];
-  13 [label = "月\n13 month"];
-  1048 -> 2325;
-  11 -> 1048;
-  379 -> 1048;
-  1926 -> 2325;
-  688 -> 1926;
-  20 -> 1926;
-  13 -> 20;
+  蹦 [label = "蹦\n2325 hop"];
+  足 [label = "足\n1048 lower leg"];
+  口 [label = "口\n11 mouth"];
+  止 [label = "止\n379 stop"];
+  崩 [label = "崩\n1926 crumble"];
+  山 [label = "山\n688 mountain"];
+  朋 [label = "朋\n20 companion"];
+  月 [label = "月\n13 month"];
+  足 -> 蹦;
+  口 -> 足;
+  止 -> 足;
+  崩 -> 蹦;
+  山 -> 崩;
+  朋 -> 崩;
+  月 -> 朋;
 }

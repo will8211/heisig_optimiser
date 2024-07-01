@@ -1,9 +1,9 @@
 blockdiag {
-  2645 [label = "竿\n2645 pole"];
-  786 [label = "竹\n786 bamboo"];
-  90 [label = "丁\n90 fourth"];
-  1277 [label = "干\n1277 dry"];
-  786 -> 2645;
-  90 -> 786;
-  1277 -> 2645;
+  竿 [label = "竿\n2645 pole"];
+  竹 [label = "竹\n786 bamboo"];
+  丁 [label = "丁\n90 fourth"];
+  干 [label = "干\n1277 dry"];
+  竹 -> 竿;
+  丁 -> 竹;
+  干 -> 竿;
 }

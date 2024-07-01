@@ -1,14 +1,15 @@
 blockdiag {
-  2940 [label = "瞒\n2940 dissemble"];
-  15 [label = "目\n15 eye"];
-  None [label = "囧冂\nNone belt"];
-  1478 [label = "两\n1478 dos"];
-  793 [label = "人\n793 person"];
-  410 [label = "巾\n410 towel"];
-  15 -> 2940;
-  None -> 2940;
-  1478 -> 2940;
-  793 -> 1478;
-  None -> 1478;
-  410 -> None;
+  瞒 [label = "瞒\n2940 dissemble"];
+  目 [label = "目\n15 eye"];
+  艹 [label = "艹\nNone flower"];
+  两 [label = "两\n1478 dos"];
+  人 [label = "人\n793 person"];
+  囧冂 [label = "囧冂\nNone belt"];
+  巾 [label = "巾\n410 towel"];
+  目 -> 瞒;
+  艹 -> 瞒;
+  两 -> 瞒;
+  人 -> 两;
+  囧冂 -> 两;
+  巾 -> 囧冂;
 }

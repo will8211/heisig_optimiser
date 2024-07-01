@@ -1,7 +1,7 @@
 blockdiag {
-  1399 [label = "瓜\n1399 melon"];
-  663 [label = "爪\n663 claw"];
-  None [label = "𠂆\nNone drag"];
-  663 -> 1399;
-  None -> 663;
+  瓜 [label = "瓜\n1399 melon"];
+  爪 [label = "爪\n663 claw"];
+  𠂆 [label = "𠂆\nNone drag"];
+  爪 -> 瓜;
+  𠂆 -> 爪;
 }

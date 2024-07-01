@@ -1,10 +1,11 @@
 blockdiag {
-  2550 [label = "仪\n2550 rite"];
-  793 [label = "人\n793 person"];
-  1180 [label = "义\n1180 righteousness"];
-  None [label = "丶\nNone a drop of"];
-  793 -> 2550;
-  1180 -> 2550;
-  None -> 1180;
-  None -> 1180;
+  仪 [label = "仪\n2550 rite"];
+  人 [label = "人\n793 person"];
+  义 [label = "义\n1180 righteousness"];
+  㐅 [label = "㐅\nNone sheaf"];
+  丶 [label = "丶\nNone a drop of"];
+  人 -> 仪;
+  义 -> 仪;
+  㐅 -> 义;
+  丶 -> 义;
 }

@@ -1,7 +1,7 @@
 blockdiag {
-  1565 [label = "杠\n1565 thick stick"];
-  202 [label = "木\n202 tree"];
-  76 [label = "工\n76 work"];
-  202 -> 1565;
-  76 -> 1565;
+  杠 [label = "杠\n1565 thick stick"];
+  木 [label = "木\n202 tree"];
+  工 [label = "工\n76 work"];
+  木 -> 杠;
+  工 -> 杠;
 }

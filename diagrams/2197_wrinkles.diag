@@ -1,15 +1,17 @@
 blockdiag {
-  2197 [label = "皱\n2197 wrinkles"];
-  None [label = "彐\nNone broom"];
-  707 [label = "皮\n707 covering"];
-  650 [label = "支\n650 offshoot"];
-  10 [label = "十\n10 ten"];
-  633 [label = "又\n633 again"];
-  None -> 2197;
-  None -> None;
-  None -> None;
-  707 -> 2197;
-  650 -> 707;
-  10 -> 650;
-  633 -> 650;
+  皱 [label = "皱\n2197 wrinkles"];
+  刍 [label = "刍\nNone hairnet"];
+  勹 [label = "勹\nNone bound up"];
+  彐 [label = "彐\nNone broom"];
+  皮 [label = "皮\n707 covering"];
+  支 [label = "支\n650 offshoot"];
+  十 [label = "十\n10 ten"];
+  又 [label = "又\n633 again"];
+  刍 -> 皱;
+  勹 -> 刍;
+  彐 -> 刍;
+  皮 -> 皱;
+  支 -> 皮;
+  十 -> 支;
+  又 -> 支;
 }

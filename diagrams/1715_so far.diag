@@ -1,10 +1,11 @@
 blockdiag {
-  1715 [label = "迄\n1715 so far"];
-  470 [label = "乞\n470 beg"];
-  None [label = "辶\nNone road"];
-  95 [label = "乙\n95 second"];
-  470 -> 1715;
-  None -> 470;
-  95 -> 470;
-  None -> 1715;
+  迄 [label = "迄\n1715 so far"];
+  乞 [label = "乞\n470 beg"];
+  𠂉 [label = "𠂉\nNone reclining"];
+  乙 [label = "乙\n95 second"];
+  辶 [label = "辶\nNone road"];
+  乞 -> 迄;
+  𠂉 -> 乞;
+  乙 -> 乞;
+  辶 -> 迄;
 }

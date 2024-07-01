@@ -1,16 +1,17 @@
 blockdiag {
-  399 [label = "楚\n399 clear"];
-  None [label = "囧走－十\nNone mending"];
-  387 [label = "正\n387 correct"];
-  1 [label = "一\n1 one"];
-  379 [label = "止\n379 stop"];
-  203 [label = "林\n203 woods"];
-  202 [label = "木\n202 tree"];
-  None -> 399;
-  None -> None;
-  387 -> None;
-  1 -> 387;
-  379 -> 387;
-  203 -> 399;
-  202 -> 203;
+  楚 [label = "楚\n399 clear"];
+  疋 [label = "疋\nNone zoo"];
+  囧走－十 [label = "囧走－十\nNone mending"];
+  正 [label = "正\n387 correct"];
+  一 [label = "一\n1 one"];
+  止 [label = "止\n379 stop"];
+  林 [label = "林\n203 woods"];
+  木 [label = "木\n202 tree"];
+  疋 -> 楚;
+  囧走－十 -> 疋;
+  正 -> 囧走－十;
+  一 -> 正;
+  止 -> 正;
+  林 -> 楚;
+  木 -> 林;
 }

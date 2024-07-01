@@ -1,11 +1,13 @@
 blockdiag {
-  2441 [label = "伶\n2441 actor"];
-  793 [label = "人\n793 person"];
-  1113 [label = "令\n1113 orders"];
-  None [label = "囧节－艹\nNone chop"];
-  793 -> 2441;
-  1113 -> 2441;
-  None -> 1113;
-  None -> None;
-  None -> 1113;
+  伶 [label = "伶\n2441 actor"];
+  人 [label = "人\n793 person"];
+  令 [label = "令\n1113 orders"];
+  亼 [label = "亼\nNone meeting"];
+  𠆢 [label = "𠆢\nNone umbrella"];
+  囧节－艹 [label = "囧节－艹\nNone chop"];
+  人 -> 伶;
+  令 -> 伶;
+  亼 -> 令;
+  𠆢 -> 亼;
+  囧节－艹 -> 令;
 }

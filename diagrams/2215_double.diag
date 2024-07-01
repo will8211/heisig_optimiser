@@ -1,9 +1,11 @@
 blockdiag {
-  2215 [label = "兼\n2215 double"];
-  None [label = "彐\nNone broom"];
-  1 [label = "一\n1 one"];
-  None -> 2215;
-  1 -> None;
-  None -> 2215;
-  None -> None;
+  兼 [label = "兼\n2215 double"];
+  丷 [label = "丷\nNone horns"];
+  一 [label = "一\n1 one"];
+  肀 [label = "肀\nNone rake"];
+  彐 [label = "彐\nNone broom"];
+  丷 -> 兼;
+  一 -> 丷;
+  肀 -> 兼;
+  彐 -> 肀;
 }

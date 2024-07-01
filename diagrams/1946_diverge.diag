@@ -1,11 +1,11 @@
 blockdiag {
-  1946 [label = "岔\n1946 diverge"];
-  694 [label = "分\n694 part"];
-  8 [label = "八\n8 eight"];
-  83 [label = "刀\n83 sword"];
-  688 [label = "山\n688 mountain"];
-  694 -> 1946;
-  8 -> 694;
-  83 -> 694;
-  688 -> 1946;
+  岔 [label = "岔\n1946 diverge"];
+  分 [label = "分\n694 part"];
+  八 [label = "八\n8 eight"];
+  刀 [label = "刀\n83 sword"];
+  山 [label = "山\n688 mountain"];
+  分 -> 岔;
+  八 -> 分;
+  刀 -> 分;
+  山 -> 岔;
 }

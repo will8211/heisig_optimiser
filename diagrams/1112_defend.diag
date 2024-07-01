@@ -1,7 +1,7 @@
 blockdiag {
-  1112 [label = "卫\n1112 defend"];
-  None [label = "囧节－艹\nNone chop"];
-  1 [label = "一\n1 one"];
-  None -> 1112;
-  1 -> 1112;
+  卫 [label = "卫\n1112 defend"];
+  囧节－艹 [label = "囧节－艹\nNone chop"];
+  一 [label = "一\n1 one"];
+  囧节－艹 -> 卫;
+  一 -> 卫;
 }

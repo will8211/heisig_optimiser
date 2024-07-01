@@ -1,12 +1,12 @@
 blockdiag {
-  1585 [label = "暮\n1585 sunset"];
-  231 [label = "莫\n231 nobody"];
-  None [label = "艹\nNone flower"];
-  12 [label = "日\n12 day"];
-  113 [label = "大\n113 large"];
-  231 -> 1585;
-  None -> 231;
-  12 -> 231;
-  113 -> 231;
-  12 -> 1585;
+  暮 [label = "暮\n1585 sunset"];
+  莫 [label = "莫\n231 nobody"];
+  艹 [label = "艹\nNone flower"];
+  日 [label = "日\n12 day"];
+  大 [label = "大\n113 large"];
+  莫 -> 暮;
+  艹 -> 莫;
+  日 -> 莫;
+  大 -> 莫;
+  日 -> 暮;
 }

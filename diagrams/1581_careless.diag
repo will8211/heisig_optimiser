@@ -1,10 +1,11 @@
 blockdiag {
-  1581 [label = "苟\n1581 careless"];
-  None [label = "勹\nNone bound up"];
-  67 [label = "句\n67 sentence"];
-  11 [label = "口\n11 mouth"];
-  None -> 1581;
-  67 -> 1581;
-  None -> 67;
-  11 -> 67;
+  苟 [label = "苟\n1581 careless"];
+  艹 [label = "艹\nNone flower"];
+  句 [label = "句\n67 sentence"];
+  勹 [label = "勹\nNone bound up"];
+  口 [label = "口\n11 mouth"];
+  艹 -> 苟;
+  句 -> 苟;
+  勹 -> 句;
+  口 -> 句;
 }

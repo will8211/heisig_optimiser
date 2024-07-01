@@ -1,7 +1,7 @@
 blockdiag {
-  768 [label = "秋\n768 autumn"];
-  762 [label = "禾\n762 standing grain"];
-  170 [label = "火\n170 fire"];
-  762 -> 768;
-  170 -> 768;
+  秋 [label = "秋\n768 autumn"];
+  禾 [label = "禾\n762 standing grain"];
+  火 [label = "火\n170 fire"];
+  禾 -> 秋;
+  火 -> 秋;
 }

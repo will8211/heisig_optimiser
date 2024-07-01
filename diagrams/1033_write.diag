@@ -1,11 +1,13 @@
 blockdiag {
-  1033 [label = "写\n1033 write"];
-  None [label = "囧与－一\nNone slingshot"];
-  1032 [label = "与\n1032 offer"];
-  1013 [label = "弓\n1013 bow"];
-  None -> 1033;
-  1032 -> 1033;
-  None -> 1032;
-  None -> 1032;
-  1013 -> None;
+  写 [label = "写\n1033 write"];
+  冖 [label = "冖\nNone crown"];
+  与 [label = "与\n1032 offer"];
+  囧与－丨一 [label = "囧与－丨一\nNone pointed tail"];
+  囧与－一 [label = "囧与－一\nNone slingshot"];
+  弓 [label = "弓\n1013 bow"];
+  冖 -> 写;
+  与 -> 写;
+  囧与－丨一 -> 与;
+  囧与－一 -> 与;
+  弓 -> 囧与－一;
 }

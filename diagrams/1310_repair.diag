@@ -1,11 +1,13 @@
 blockdiag {
-  1310 [label = "修\n1310 repair"];
-  793 [label = "人\n793 person"];
-  None [label = "彡\nNone rooster tail"];
-  1 [label = "一\n1 one"];
-  793 -> 1310;
-  None -> 1310;
-  1 -> None;
-  None -> 1310;
-  None -> 1310;
+  修 [label = "修\n1310 repair"];
+  人 [label = "人\n793 person"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  夂 [label = "夂\nNone walking legs"];
+  彡 [label = "彡\nNone rooster tail"];
+  人 -> 修;
+  丨 -> 修;
+  一 -> 丨;
+  夂 -> 修;
+  彡 -> 修;
 }

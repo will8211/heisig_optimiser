@@ -1,15 +1,15 @@
 blockdiag {
-  1772 [label = "礁\n1772 reef"];
-  125 [label = "石\n125 stone"];
-  11 [label = "口\n11 mouth"];
-  121 [label = "厂\n121 factory"];
-  1770 [label = "焦\n1770 apprehensive"];
-  None [label = "隹\nNone turkey"];
-  170 [label = "火\n170 fire"];
-  125 -> 1772;
-  11 -> 125;
-  121 -> 125;
-  1770 -> 1772;
-  None -> 1770;
-  170 -> 1770;
+  礁 [label = "礁\n1772 reef"];
+  石 [label = "石\n125 stone"];
+  口 [label = "口\n11 mouth"];
+  厂 [label = "厂\n121 factory"];
+  焦 [label = "焦\n1770 apprehensive"];
+  隹 [label = "隹\nNone turkey"];
+  火 [label = "火\n170 fire"];
+  石 -> 礁;
+  口 -> 石;
+  厂 -> 石;
+  焦 -> 礁;
+  隹 -> 焦;
+  火 -> 焦;
 }

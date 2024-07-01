@@ -1,14 +1,17 @@
 blockdiag {
-  1629 [label = "榆\n1629 elm"];
-  202 [label = "木\n202 tree"];
-  None [label = "刖\nNone butcher"];
-  13 [label = "月\n13 month"];
-  83 [label = "刀\n83 sword"];
-  202 -> 1629;
-  None -> 1629;
-  None -> None;
-  None -> None;
-  None -> None;
-  13 -> None;
-  83 -> None;
+  榆 [label = "榆\n1629 elm"];
+  木 [label = "木\n202 tree"];
+  俞 [label = "俞\nNone slaughterhouse"];
+  亼 [label = "亼\nNone meeting"];
+  𠆢 [label = "𠆢\nNone umbrella"];
+  刖 [label = "刖\nNone butcher"];
+  月 [label = "月\n13 month"];
+  刀 [label = "刀\n83 sword"];
+  木 -> 榆;
+  俞 -> 榆;
+  亼 -> 俞;
+  𠆢 -> 亼;
+  刖 -> 俞;
+  月 -> 刖;
+  刀 -> 刖;
 }

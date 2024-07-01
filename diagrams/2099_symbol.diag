@@ -1,17 +1,17 @@
 blockdiag {
-  2099 [label = "符\n2099 symbol"];
-  786 [label = "竹\n786 bamboo"];
-  90 [label = "丁\n90 fourth"];
-  825 [label = "付\n825 pay"];
-  793 [label = "人\n793 person"];
-  166 [label = "寸\n166 Chinese inch"];
-  None [label = "丶\nNone a drop of"];
-  10 [label = "十\n10 ten"];
-  786 -> 2099;
-  90 -> 786;
-  825 -> 2099;
-  793 -> 825;
-  166 -> 825;
-  None -> 166;
-  10 -> 166;
+  符 [label = "符\n2099 symbol"];
+  竹 [label = "竹\n786 bamboo"];
+  丁 [label = "丁\n90 fourth"];
+  付 [label = "付\n825 pay"];
+  人 [label = "人\n793 person"];
+  寸 [label = "寸\n166 Chinese inch"];
+  丶 [label = "丶\nNone a drop of"];
+  十 [label = "十\n10 ten"];
+  竹 -> 符;
+  丁 -> 竹;
+  付 -> 符;
+  人 -> 付;
+  寸 -> 付;
+  丶 -> 寸;
+  十 -> 寸;
 }

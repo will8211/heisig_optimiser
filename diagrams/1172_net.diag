@@ -1,8 +1,9 @@
 blockdiag {
-  1172 [label = "网\n1172 net"];
-  None [label = "㐅\nNone sheaf"];
-  57 [label = "几\n57 how many?"];
-  None -> 1172;
-  57 -> None;
-  None -> 1172;
+  网 [label = "网\n1172 net"];
+  冂 [label = "冂\nNone hood"];
+  几 [label = "几\n57 how many?"];
+  㐅 [label = "㐅\nNone sheaf"];
+  冂 -> 网;
+  几 -> 冂;
+  㐅 -> 网;
 }

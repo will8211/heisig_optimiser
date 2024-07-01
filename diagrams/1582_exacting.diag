@@ -1,11 +1,11 @@
 blockdiag {
-  1582 [label = "苛\n1582 exacting"];
-  None [label = "艹\nNone flower"];
-  92 [label = "可\n92 can"];
-  90 [label = "丁\n90 fourth"];
-  11 [label = "口\n11 mouth"];
-  None -> 1582;
-  92 -> 1582;
-  90 -> 92;
-  11 -> 92;
+  苛 [label = "苛\n1582 exacting"];
+  艹 [label = "艹\nNone flower"];
+  可 [label = "可\n92 can"];
+  丁 [label = "丁\n90 fourth"];
+  口 [label = "口\n11 mouth"];
+  艹 -> 苛;
+  可 -> 苛;
+  丁 -> 可;
+  口 -> 可;
 }

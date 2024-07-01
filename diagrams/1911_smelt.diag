@@ -1,16 +1,19 @@
 blockdiag {
-  1911 [label = "冶\n1911 smelt"];
-  None [label = "厶\nNone elbow"];
-  137 [label = "水\n137 water"];
-  1 [label = "一\n1 one"];
-  672 [label = "台\n672 platform"];
-  11 [label = "口\n11 mouth"];
-  None -> 1911;
-  137 -> None;
-  None -> 137;
-  1 -> None;
-  None -> 137;
-  672 -> 1911;
-  None -> 672;
-  11 -> 672;
+  冶 [label = "冶\n1911 smelt"];
+  冫 [label = "冫\nNone ice"];
+  水 [label = "水\n137 water"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  丶 [label = "丶\nNone a drop of"];
+  台 [label = "台\n672 platform"];
+  厶 [label = "厶\nNone elbow"];
+  口 [label = "口\n11 mouth"];
+  冫 -> 冶;
+  水 -> 冫;
+  丨 -> 水;
+  一 -> 丨;
+  丶 -> 水;
+  台 -> 冶;
+  厶 -> 台;
+  口 -> 台;
 }

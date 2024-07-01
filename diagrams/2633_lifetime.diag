@@ -1,7 +1,7 @@
 blockdiag {
-  2633 [label = "辈\n2633 lifetime"];
-  1267 [label = "非\n1267 non-"];
-  300 [label = "车\n300 car"];
-  1267 -> 2633;
-  300 -> 2633;
+  辈 [label = "辈\n2633 lifetime"];
+  非 [label = "非\n1267 non-"];
+  车 [label = "车\n300 car"];
+  非 -> 辈;
+  车 -> 辈;
 }

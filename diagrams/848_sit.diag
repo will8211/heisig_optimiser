@@ -1,9 +1,9 @@
 blockdiag {
-  848 [label = "坐\n848 sit"];
-  846 [label = "从\n846 follow"];
-  793 [label = "人\n793 person"];
-  158 [label = "土\n158 soil"];
-  846 -> 848;
-  793 -> 846;
-  158 -> 848;
+  坐 [label = "坐\n848 sit"];
+  从 [label = "从\n846 follow"];
+  人 [label = "人\n793 person"];
+  土 [label = "土\n158 soil"];
+  从 -> 坐;
+  人 -> 从;
+  土 -> 坐;
 }

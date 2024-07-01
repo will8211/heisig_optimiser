@@ -1,11 +1,13 @@
 blockdiag {
-  2345 [label = "隐\n2345 hidden"];
-  None [label = "彐\nNone broom"];
-  946 [label = "急\n946 anxious"];
-  563 [label = "心\n563 heart"];
-  None -> 2345;
-  946 -> 2345;
-  None -> 946;
-  None -> 946;
-  563 -> 946;
+  隐 [label = "隐\n2345 hidden"];
+  阝 [label = "阝\nNone pinnacle"];
+  急 [label = "急\n946 anxious"];
+  勹 [label = "勹\nNone bound up"];
+  彐 [label = "彐\nNone broom"];
+  心 [label = "心\n563 heart"];
+  阝 -> 隐;
+  急 -> 隐;
+  勹 -> 急;
+  彐 -> 急;
+  心 -> 急;
 }

@@ -1,11 +1,11 @@
 blockdiag {
-  1691 [label = "蕾\n1691 flower bud"];
-  None [label = "艹\nNone flower"];
-  426 [label = "雷\n426 thunder"];
-  14 [label = "田\n14 rice field"];
-  425 [label = "雨\n425 rain"];
-  None -> 1691;
-  426 -> 1691;
-  14 -> 426;
-  425 -> 426;
+  蕾 [label = "蕾\n1691 flower bud"];
+  艹 [label = "艹\nNone flower"];
+  雷 [label = "雷\n426 thunder"];
+  田 [label = "田\n14 rice field"];
+  雨 [label = "雨\n425 rain"];
+  艹 -> 蕾;
+  雷 -> 蕾;
+  田 -> 雷;
+  雨 -> 雷;
 }

@@ -1,10 +1,11 @@
 blockdiag {
-  1200 [label = "述\n1200 narrate"];
-  1199 [label = "术\n1199 art"];
-  None [label = "辶\nNone road"];
-  202 [label = "木\n202 tree"];
-  1199 -> 1200;
-  None -> 1199;
-  202 -> 1199;
-  None -> 1200;
+  述 [label = "述\n1200 narrate"];
+  术 [label = "术\n1199 art"];
+  丶 [label = "丶\nNone a drop of"];
+  木 [label = "木\n202 tree"];
+  辶 [label = "辶\nNone road"];
+  术 -> 述;
+  丶 -> 术;
+  木 -> 术;
+  辶 -> 述;
 }

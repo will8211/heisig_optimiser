@@ -1,10 +1,13 @@
 blockdiag {
-  1207 [label = "素\n1207 vegetarian diet"];
-  None [label = "丶\nNone a drop of"];
-  109 [label = "小\n109 small"];
-  None -> 1207;
-  None -> 1207;
-  None -> None;
-  109 -> None;
-  None -> 109;
+  素 [label = "素\n1207 vegetarian diet"];
+  囧毒－母 [label = "囧毒－母\nNone grow up"];
+  糸 [label = "糸\nNone floss"];
+  幺 [label = "幺\nNone cocoon"];
+  小 [label = "小\n109 small"];
+  丶 [label = "丶\nNone a drop of"];
+  囧毒－母 -> 素;
+  糸 -> 素;
+  幺 -> 糸;
+  小 -> 糸;
+  丶 -> 小;
 }

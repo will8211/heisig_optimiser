@@ -1,12 +1,13 @@
 blockdiag {
-  2711 [label = "萨\n2711 Samoa"];
-  None [label = "阝\nNone pinnacle"];
-  1312 [label = "产\n1312 products"];
-  444 [label = "立\n444 standing up"];
-  121 [label = "厂\n121 factory"];
-  None -> 2711;
-  None -> 2711;
-  1312 -> 2711;
-  444 -> 1312;
-  121 -> 1312;
+  萨 [label = "萨\n2711 Samoa"];
+  艹 [label = "艹\nNone flower"];
+  阝 [label = "阝\nNone pinnacle"];
+  产 [label = "产\n1312 products"];
+  立 [label = "立\n444 standing up"];
+  厂 [label = "厂\n121 factory"];
+  艹 -> 萨;
+  阝 -> 萨;
+  产 -> 萨;
+  立 -> 产;
+  厂 -> 产;
 }

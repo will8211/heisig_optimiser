@@ -1,14 +1,15 @@
 blockdiag {
-  2336 [label = "猾\n2336 cunning"];
-  239 [label = "犬\n239 pooch"];
-  113 [label = "大\n113 large"];
-  None [label = "冖\nNone crown"];
-  1053 [label = "骨\n1053 skeleton"];
-  13 [label = "月\n13 month"];
-  239 -> 2336;
-  113 -> 239;
-  None -> 239;
-  1053 -> 2336;
-  13 -> 1053;
-  None -> 1053;
+  猾 [label = "猾\n2336 cunning"];
+  犬 [label = "犬\n239 pooch"];
+  大 [label = "大\n113 large"];
+  丶 [label = "丶\nNone a drop of"];
+  骨 [label = "骨\n1053 skeleton"];
+  月 [label = "月\n13 month"];
+  冖 [label = "冖\nNone crown"];
+  犬 -> 猾;
+  大 -> 犬;
+  丶 -> 犬;
+  骨 -> 猾;
+  月 -> 骨;
+  冖 -> 骨;
 }

@@ -1,13 +1,15 @@
 blockdiag {
-  2217 [label = "嫌\n2217 dislike"];
-  102 [label = "女\n102 woman"];
-  2215 [label = "兼\n2215 double"];
-  None [label = "彐\nNone broom"];
-  1 [label = "一\n1 one"];
-  102 -> 2217;
-  2215 -> 2217;
-  None -> 2215;
-  1 -> None;
-  None -> 2215;
-  None -> None;
+  嫌 [label = "嫌\n2217 dislike"];
+  女 [label = "女\n102 woman"];
+  兼 [label = "兼\n2215 double"];
+  丷 [label = "丷\nNone horns"];
+  一 [label = "一\n1 one"];
+  肀 [label = "肀\nNone rake"];
+  彐 [label = "彐\nNone broom"];
+  女 -> 嫌;
+  兼 -> 嫌;
+  丷 -> 兼;
+  一 -> 丷;
+  肀 -> 兼;
+  彐 -> 肀;
 }

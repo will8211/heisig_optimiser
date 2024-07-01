@@ -1,11 +1,11 @@
 blockdiag {
-  1576 [label = "厢\n1576 side room"];
-  121 [label = "厂\n121 factory"];
-  212 [label = "相\n212 one another"];
-  202 [label = "木\n202 tree"];
-  15 [label = "目\n15 eye"];
-  121 -> 1576;
-  212 -> 1576;
-  202 -> 212;
-  15 -> 212;
+  厢 [label = "厢\n1576 side room"];
+  厂 [label = "厂\n121 factory"];
+  相 [label = "相\n212 one another"];
+  木 [label = "木\n202 tree"];
+  目 [label = "目\n15 eye"];
+  厂 -> 厢;
+  相 -> 厢;
+  木 -> 相;
+  目 -> 相;
 }

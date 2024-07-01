@@ -1,16 +1,17 @@
 blockdiag {
-  1030 [label = "考\n1030 take an exam"];
-  1029 [label = "老\n1029 old man"];
-  158 [label = "土\n158 soil"];
-  None [label = "囧与－一\nNone slingshot"];
-  1 [label = "一\n1 one"];
-  453 [label = "匕\n453 ancient spoon"];
-  1013 [label = "弓\n1013 bow"];
-  1029 -> 1030;
-  158 -> 1029;
-  None -> 1029;
-  1 -> None;
-  453 -> 1029;
-  None -> 1030;
-  1013 -> None;
+  考 [label = "考\n1030 take an exam"];
+  老 [label = "老\n1029 old man"];
+  土 [label = "土\n158 soil"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  匕 [label = "匕\n453 ancient spoon"];
+  囧与－一 [label = "囧与－一\nNone slingshot"];
+  弓 [label = "弓\n1013 bow"];
+  老 -> 考;
+  土 -> 老;
+  丨 -> 老;
+  一 -> 丨;
+  匕 -> 老;
+  囧与－一 -> 考;
+  弓 -> 囧与－一;
 }

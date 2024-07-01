@@ -1,16 +1,18 @@
 blockdiag {
-  1072 [label = "突\n1072 abruptly"];
-  1070 [label = "穴\n1070 hole"];
-  None [label = "丶\nNone a drop of"];
-  8 [label = "八\n8 eight"];
-  239 [label = "犬\n239 pooch"];
-  113 [label = "大\n113 large"];
-  1070 -> 1072;
-  None -> 1070;
-  8 -> 1070;
-  None -> 1070;
-  8 -> None;
-  239 -> 1072;
-  113 -> 239;
-  None -> 239;
+  突 [label = "突\n1072 abruptly"];
+  穴 [label = "穴\n1070 hole"];
+  宀 [label = "宀\nNone house"];
+  八 [label = "八\n8 eight"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  犬 [label = "犬\n239 pooch"];
+  大 [label = "大\n113 large"];
+  丶 [label = "丶\nNone a drop of"];
+  穴 -> 突;
+  宀 -> 穴;
+  八 -> 穴;
+  囧只－口 -> 穴;
+  八 -> 囧只－口;
+  犬 -> 突;
+  大 -> 犬;
+  丶 -> 犬;
 }

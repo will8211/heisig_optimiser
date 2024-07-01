@@ -1,7 +1,7 @@
 blockdiag {
-  807 [label = "位\n807 position"];
-  793 [label = "人\n793 person"];
-  444 [label = "立\n444 standing up"];
-  793 -> 807;
-  444 -> 807;
+  位 [label = "位\n807 position"];
+  人 [label = "人\n793 person"];
+  立 [label = "立\n444 standing up"];
+  人 -> 位;
+  立 -> 位;
 }

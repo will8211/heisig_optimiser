@@ -1,19 +1,21 @@
 blockdiag {
-  2915 [label = "瞬\n2915 instant"];
-  15 [label = "目\n15 eye"];
-  663 [label = "爪\n663 claw"];
-  None [label = "舛\nNone sunglasses"];
-  115 [label = "夕\n115 evening"];
-  13 [label = "月\n13 month"];
-  871 [label = "年\n871 year"];
-  542 [label = "午\n542 noon"];
-  15 -> 2915;
-  663 -> 2915;
-  None -> 663;
-  None -> 2915;
-  None -> 2915;
-  115 -> None;
-  13 -> 115;
-  871 -> None;
-  542 -> 871;
+  瞬 [label = "瞬\n2915 instant"];
+  目 [label = "目\n15 eye"];
+  爪 [label = "爪\n663 claw"];
+  𠂆 [label = "𠂆\nNone drag"];
+  冖 [label = "冖\nNone crown"];
+  舛 [label = "舛\nNone sunglasses"];
+  夕 [label = "夕\n115 evening"];
+  月 [label = "月\n13 month"];
+  年 [label = "年\n871 year"];
+  午 [label = "午\n542 noon"];
+  目 -> 瞬;
+  爪 -> 瞬;
+  𠂆 -> 爪;
+  冖 -> 瞬;
+  舛 -> 瞬;
+  夕 -> 舛;
+  月 -> 夕;
+  年 -> 舛;
+  午 -> 年;
 }

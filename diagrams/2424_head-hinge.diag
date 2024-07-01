@@ -1,11 +1,13 @@
 blockdiag {
-  2424 [label = "脖\n2424 head-hinge"];
-  13 [label = "月\n13 month"];
-  None [label = "宀\nNone house"];
-  97 [label = "子\n97 child"];
-  13 -> 2424;
-  None -> 2424;
-  None -> None;
-  None -> None;
-  97 -> None;
+  脖 [label = "脖\n2424 head-hinge"];
+  月 [label = "月\n13 month"];
+  孛 [label = "孛\nNone Sunday school"];
+  囧索－糸 [label = "囧索－糸\nNone chapel"];
+  宀 [label = "宀\nNone house"];
+  子 [label = "子\n97 child"];
+  月 -> 脖;
+  孛 -> 脖;
+  囧索－糸 -> 孛;
+  宀 -> 囧索－糸;
+  子 -> 孛;
 }

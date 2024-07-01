@@ -1,15 +1,15 @@
 blockdiag {
-  1987 [label = "劫\n1987 plunder"];
-  675 [label = "去\n675 go"];
-  158 [label = "土\n158 soil"];
-  None [label = "厶\nNone elbow"];
-  63 [label = "肌\n63 muscle"];
-  57 [label = "几\n57 how many?"];
-  13 [label = "月\n13 month"];
-  675 -> 1987;
-  158 -> 675;
-  None -> 675;
-  63 -> 1987;
-  57 -> 63;
-  13 -> 63;
+  劫 [label = "劫\n1987 plunder"];
+  去 [label = "去\n675 go"];
+  土 [label = "土\n158 soil"];
+  厶 [label = "厶\nNone elbow"];
+  肌 [label = "肌\n63 muscle"];
+  几 [label = "几\n57 how many?"];
+  月 [label = "月\n13 month"];
+  去 -> 劫;
+  土 -> 去;
+  厶 -> 去;
+  肌 -> 劫;
+  几 -> 肌;
+  月 -> 肌;
 }

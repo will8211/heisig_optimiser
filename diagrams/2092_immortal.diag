@@ -1,7 +1,7 @@
 blockdiag {
-  2092 [label = "仙\n2092 immortal"];
-  793 [label = "人\n793 person"];
-  688 [label = "山\n688 mountain"];
-  793 -> 2092;
-  688 -> 2092;
+  仙 [label = "仙\n2092 immortal"];
+  人 [label = "人\n793 person"];
+  山 [label = "山\n688 mountain"];
+  人 -> 仙;
+  山 -> 仙;
 }

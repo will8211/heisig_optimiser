@@ -1,7 +1,7 @@
 blockdiag {
-  2166 [label = "蒜\n2166 garlic"];
-  900 [label = "示\n900 show"];
-  None [label = "艹\nNone flower"];
-  900 -> 2166;
-  None -> 2166;
+  蒜 [label = "蒜\n2166 garlic"];
+  示 [label = "示\n900 show"];
+  艹 [label = "艹\nNone flower"];
+  示 -> 蒜;
+  艹 -> 蒜;
 }

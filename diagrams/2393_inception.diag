@@ -1,19 +1,21 @@
 blockdiag {
-  2393 [label = "绪\n2393 inception"];
-  None [label = "丨\nNone walking stick"];
-  1037 [label = "者\n1037 someone"];
-  1029 [label = "老\n1029 old man"];
-  158 [label = "土\n158 soil"];
-  1 [label = "一\n1 one"];
-  453 [label = "匕\n453 ancient spoon"];
-  12 [label = "日\n12 day"];
-  None -> 2393;
-  None -> None;
-  1037 -> 2393;
-  1029 -> 1037;
-  158 -> 1029;
-  None -> 1029;
-  1 -> None;
-  453 -> 1029;
-  12 -> 1037;
+  绪 [label = "绪\n2393 inception"];
+  纟 [label = "纟\nNone thread"];
+  厶 [label = "厶\nNone elbow"];
+  者 [label = "者\n1037 someone"];
+  老 [label = "老\n1029 old man"];
+  土 [label = "土\n158 soil"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  匕 [label = "匕\n453 ancient spoon"];
+  日 [label = "日\n12 day"];
+  纟 -> 绪;
+  厶 -> 纟;
+  者 -> 绪;
+  老 -> 者;
+  土 -> 老;
+  丨 -> 老;
+  一 -> 丨;
+  匕 -> 老;
+  日 -> 者;
 }

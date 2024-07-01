@@ -1,11 +1,11 @@
 blockdiag {
-  1996 [label = "徊\n1996 undecided"];
-  754 [label = "行\n754 line of business"];
-  554 [label = "回\n554 return"];
-  None [label = "囗\nNone pent in"];
-  11 [label = "口\n11 mouth"];
-  754 -> 1996;
-  554 -> 1996;
-  None -> 554;
-  11 -> 554;
+  徊 [label = "徊\n1996 undecided"];
+  行 [label = "行\n754 line of business"];
+  回 [label = "回\n554 return"];
+  囗 [label = "囗\nNone pent in"];
+  口 [label = "口\n11 mouth"];
+  行 -> 徊;
+  回 -> 徊;
+  囗 -> 回;
+  口 -> 回;
 }

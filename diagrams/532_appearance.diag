@@ -1,11 +1,11 @@
 blockdiag {
-  532 [label = "样\n532 appearance"];
-  202 [label = "木\n202 tree"];
-  528 [label = "羊\n528 sheep"];
-  None [label = "丷\nNone horns"];
-  1 [label = "一\n1 one"];
-  202 -> 532;
-  528 -> 532;
-  None -> 528;
-  1 -> None;
+  样 [label = "样\n532 appearance"];
+  木 [label = "木\n202 tree"];
+  羊 [label = "羊\n528 sheep"];
+  丷 [label = "丷\nNone horns"];
+  一 [label = "一\n1 one"];
+  木 -> 样;
+  羊 -> 样;
+  丷 -> 羊;
+  一 -> 丷;
 }

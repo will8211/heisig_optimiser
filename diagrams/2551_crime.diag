@@ -1,14 +1,14 @@
 blockdiag {
-  2551 [label = "辜\n2551 crime"];
-  16 [label = "古\n16 ancient"];
-  10 [label = "十\n10 ten"];
-  11 [label = "口\n11 mouth"];
-  1183 [label = "辛\n1183 peppery"];
-  444 [label = "立\n444 standing up"];
-  16 -> 2551;
-  10 -> 16;
-  11 -> 16;
-  1183 -> 2551;
-  444 -> 1183;
-  10 -> 1183;
+  辜 [label = "辜\n2551 crime"];
+  古 [label = "古\n16 ancient"];
+  十 [label = "十\n10 ten"];
+  口 [label = "口\n11 mouth"];
+  辛 [label = "辛\n1183 peppery"];
+  立 [label = "立\n444 standing up"];
+  古 -> 辜;
+  十 -> 古;
+  口 -> 古;
+  辛 -> 辜;
+  立 -> 辛;
+  十 -> 辛;
 }

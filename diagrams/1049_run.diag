@@ -1,17 +1,17 @@
 blockdiag {
-  1049 [label = "跑\n1049 run"];
-  1048 [label = "足\n1048 lower leg"];
-  11 [label = "口\n11 mouth"];
-  379 [label = "止\n379 stop"];
-  520 [label = "包\n520 wrap"];
-  None [label = "勹\nNone bound up"];
-  519 [label = "已\n519 already"];
-  515 [label = "己\n515 self"];
-  1048 -> 1049;
-  11 -> 1048;
-  379 -> 1048;
-  520 -> 1049;
-  None -> 520;
-  519 -> 520;
-  515 -> 519;
+  跑 [label = "跑\n1049 run"];
+  足 [label = "足\n1048 lower leg"];
+  口 [label = "口\n11 mouth"];
+  止 [label = "止\n379 stop"];
+  包 [label = "包\n520 wrap"];
+  勹 [label = "勹\nNone bound up"];
+  已 [label = "已\n519 already"];
+  己 [label = "己\n515 self"];
+  足 -> 跑;
+  口 -> 足;
+  止 -> 足;
+  包 -> 跑;
+  勹 -> 包;
+  已 -> 包;
+  己 -> 已;
 }

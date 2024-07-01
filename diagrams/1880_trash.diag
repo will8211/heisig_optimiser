@@ -1,9 +1,9 @@
 blockdiag {
-  1880 [label = "圾\n1880 trash"];
-  158 [label = "土\n158 soil"];
-  627 [label = "及\n627 catch up with"];
-  625 [label = "乃\n625 only then"];
-  158 -> 1880;
-  627 -> 1880;
-  625 -> 627;
+  圾 [label = "圾\n1880 trash"];
+  土 [label = "土\n158 soil"];
+  及 [label = "及\n627 catch up with"];
+  乃 [label = "乃\n625 only then"];
+  土 -> 圾;
+  及 -> 圾;
+  乃 -> 及;
 }

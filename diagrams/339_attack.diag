@@ -1,7 +1,7 @@
 blockdiag {
-  339 [label = "攻\n339 attack"];
-  None [label = "攵\nNone taskmaster"];
-  76 [label = "工\n76 work"];
-  None -> 339;
-  76 -> 339;
+  攻 [label = "攻\n339 attack"];
+  攵 [label = "攵\nNone taskmaster"];
+  工 [label = "工\n76 work"];
+  攵 -> 攻;
+  工 -> 攻;
 }

@@ -1,7 +1,7 @@
 blockdiag {
-  254 [label = "告\n254 declare"];
-  252 [label = "牛\n252 cow"];
-  11 [label = "口\n11 mouth"];
-  252 -> 254;
-  11 -> 254;
+  告 [label = "告\n254 declare"];
+  牛 [label = "牛\n252 cow"];
+  口 [label = "口\n11 mouth"];
+  牛 -> 告;
+  口 -> 告;
 }

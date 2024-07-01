@@ -1,13 +1,13 @@
 blockdiag {
-  621 [label = "财\n621 riches"];
-  52 [label = "贝\n52 shellfish"];
-  15 [label = "目\n15 eye"];
-  None [label = "囧只－口\nNone animal legs"];
-  8 [label = "八\n8 eight"];
-  620 [label = "才\n620 genius"];
-  52 -> 621;
-  15 -> 52;
-  None -> 52;
-  8 -> None;
-  620 -> 621;
+  财 [label = "财\n621 riches"];
+  贝 [label = "贝\n52 shellfish"];
+  目 [label = "目\n15 eye"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  才 [label = "才\n620 genius"];
+  贝 -> 财;
+  目 -> 贝;
+  囧只－口 -> 贝;
+  八 -> 囧只－口;
+  才 -> 财;
 }

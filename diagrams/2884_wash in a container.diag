@@ -1,17 +1,21 @@
 blockdiag {
-  2884 [label = "淘\n2884 wash in a container"];
-  137 [label = "水\n137 water"];
-  None [label = "缶\nNone tin can"];
-  1 [label = "一\n1 one"];
-  542 [label = "午\n542 noon"];
-  688 [label = "山\n688 mountain"];
-  137 -> 2884;
-  None -> 137;
-  1 -> None;
-  None -> 137;
-  None -> 2884;
-  None -> None;
-  None -> None;
-  542 -> None;
-  688 -> None;
+  淘 [label = "淘\n2884 wash in a container"];
+  水 [label = "水\n137 water"];
+  丨 [label = "丨\nNone walking stick"];
+  一 [label = "一\n1 one"];
+  丶 [label = "丶\nNone a drop of"];
+  匋 [label = "匋\nNone canteen"];
+  勹 [label = "勹\nNone bound up"];
+  缶 [label = "缶\nNone tin can"];
+  午 [label = "午\n542 noon"];
+  山 [label = "山\n688 mountain"];
+  水 -> 淘;
+  丨 -> 水;
+  一 -> 丨;
+  丶 -> 水;
+  匋 -> 淘;
+  勹 -> 匋;
+  缶 -> 匋;
+  午 -> 缶;
+  山 -> 缶;
 }

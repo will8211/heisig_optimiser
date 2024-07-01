@@ -1,9 +1,11 @@
 blockdiag {
-  2455 [label = "苍\n2455 ash-colored"];
-  None [label = "㔾\nNone fingerprint"];
-  1119 [label = "仓\n1119 storehouse"];
-  None -> 2455;
-  1119 -> 2455;
-  None -> 1119;
-  None -> 1119;
+  苍 [label = "苍\n2455 ash-colored"];
+  艹 [label = "艹\nNone flower"];
+  仓 [label = "仓\n1119 storehouse"];
+  𠆢 [label = "𠆢\nNone umbrella"];
+  㔾 [label = "㔾\nNone fingerprint"];
+  艹 -> 苍;
+  仓 -> 苍;
+  𠆢 -> 仓;
+  㔾 -> 仓;
 }

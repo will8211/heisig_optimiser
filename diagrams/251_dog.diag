@@ -1,14 +1,15 @@
 blockdiag {
-  251 [label = "狗\n251 dog"];
-  239 [label = "犬\n239 pooch"];
-  113 [label = "大\n113 large"];
-  None [label = "勹\nNone bound up"];
-  67 [label = "句\n67 sentence"];
-  11 [label = "口\n11 mouth"];
-  239 -> 251;
-  113 -> 239;
-  None -> 239;
-  67 -> 251;
-  None -> 67;
-  11 -> 67;
+  狗 [label = "狗\n251 dog"];
+  犬 [label = "犬\n239 pooch"];
+  大 [label = "大\n113 large"];
+  丶 [label = "丶\nNone a drop of"];
+  句 [label = "句\n67 sentence"];
+  勹 [label = "勹\nNone bound up"];
+  口 [label = "口\n11 mouth"];
+  犬 -> 狗;
+  大 -> 犬;
+  丶 -> 犬;
+  句 -> 狗;
+  勹 -> 句;
+  口 -> 句;
 }

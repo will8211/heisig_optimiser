@@ -1,15 +1,15 @@
 blockdiag {
-  761 [label = "德\n761 morality"];
-  754 [label = "行\n754 line of business"];
-  None [label = "𢛳\nNone 10 commandments"];
-  10 [label = "十\n10 ten"];
-  15 [label = "目\n15 eye"];
-  1 [label = "一\n1 one"];
-  563 [label = "心\n563 heart"];
-  754 -> 761;
-  None -> 761;
-  10 -> None;
-  15 -> None;
-  1 -> None;
-  563 -> None;
+  德 [label = "德\n761 morality"];
+  行 [label = "行\n754 line of business"];
+  𢛳 [label = "𢛳\nNone 10 commandments"];
+  十 [label = "十\n10 ten"];
+  目 [label = "目\n15 eye"];
+  一 [label = "一\n1 one"];
+  心 [label = "心\n563 heart"];
+  行 -> 德;
+  𢛳 -> 德;
+  十 -> 𢛳;
+  目 -> 𢛳;
+  一 -> 𢛳;
+  心 -> 𢛳;
 }

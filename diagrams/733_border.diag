@@ -1,7 +1,7 @@
 blockdiag {
-  733 [label = "边\n733 border"];
-  732 [label = "力\n732 power"];
-  None [label = "辶\nNone road"];
-  732 -> 733;
-  None -> 733;
+  边 [label = "边\n733 border"];
+  力 [label = "力\n732 power"];
+  辶 [label = "辶\nNone road"];
+  力 -> 边;
+  辶 -> 边;
 }

@@ -1,12 +1,12 @@
 blockdiag {
-  2653 [label = "嗽\n2653 hack"];
-  11 [label = "口\n11 mouth"];
-  1286 [label = "束\n1286 bundle up"];
-  202 [label = "木\n202 tree"];
-  474 [label = "欠\n474 lack"];
-  11 -> 2653;
-  1286 -> 2653;
-  202 -> 1286;
-  11 -> 1286;
-  474 -> 2653;
+  嗽 [label = "嗽\n2653 hack"];
+  口 [label = "口\n11 mouth"];
+  束 [label = "束\n1286 bundle up"];
+  木 [label = "木\n202 tree"];
+  欠 [label = "欠\n474 lack"];
+  口 -> 嗽;
+  束 -> 嗽;
+  木 -> 束;
+  口 -> 束;
+  欠 -> 嗽;
 }

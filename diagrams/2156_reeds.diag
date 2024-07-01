@@ -1,10 +1,11 @@
 blockdiag {
-  2156 [label = "芦\n2156 reeds"];
-  None [label = "丶\nNone a drop of"];
-  896 [label = "户\n896 door"];
-  882 [label = "尸\n882 corpse"];
-  None -> 2156;
-  896 -> 2156;
-  None -> 896;
-  882 -> 896;
+  芦 [label = "芦\n2156 reeds"];
+  艹 [label = "艹\nNone flower"];
+  户 [label = "户\n896 door"];
+  丶 [label = "丶\nNone a drop of"];
+  尸 [label = "尸\n882 corpse"];
+  艹 -> 芦;
+  户 -> 芦;
+  丶 -> 户;
+  尸 -> 户;
 }

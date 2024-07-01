@@ -1,17 +1,19 @@
 blockdiag {
-  1382 [label = "搏\n1382 wrestle"];
-  None [label = "丶\nNone a drop of"];
-  1379 [label = "甫\n1379 Fu"];
-  10 [label = "十\n10 ten"];
-  13 [label = "月\n13 month"];
-  166 [label = "寸\n166 Chinese inch"];
-  None -> 1382;
-  None -> 1382;
-  1379 -> None;
-  10 -> 1379;
-  13 -> 1379;
-  None -> 1379;
-  166 -> None;
-  None -> 166;
-  10 -> 166;
+  搏 [label = "搏\n1382 wrestle"];
+  扌 [label = "扌\nNone fingers"];
+  尃 [label = "尃\nNone gummed label"];
+  甫 [label = "甫\n1379 Fu"];
+  十 [label = "十\n10 ten"];
+  月 [label = "月\n13 month"];
+  丶 [label = "丶\nNone a drop of"];
+  寸 [label = "寸\n166 Chinese inch"];
+  扌 -> 搏;
+  尃 -> 搏;
+  甫 -> 尃;
+  十 -> 甫;
+  月 -> 甫;
+  丶 -> 甫;
+  寸 -> 尃;
+  丶 -> 寸;
+  十 -> 寸;
 }

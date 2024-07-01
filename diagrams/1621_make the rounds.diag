@@ -1,13 +1,13 @@
 blockdiag {
-  1621 [label = "逻\n1621 make the rounds"];
-  None [label = "辶\nNone road"];
-  120 [label = "罗\n120 silk gauze"];
-  15 [label = "目\n15 eye"];
-  115 [label = "夕\n115 evening"];
-  13 [label = "月\n13 month"];
-  None -> 1621;
-  120 -> 1621;
-  15 -> 120;
-  115 -> 120;
-  13 -> 115;
+  逻 [label = "逻\n1621 make the rounds"];
+  辶 [label = "辶\nNone road"];
+  罗 [label = "罗\n120 silk gauze"];
+  目 [label = "目\n15 eye"];
+  夕 [label = "夕\n115 evening"];
+  月 [label = "月\n13 month"];
+  辶 -> 逻;
+  罗 -> 逻;
+  目 -> 罗;
+  夕 -> 罗;
+  月 -> 夕;
 }

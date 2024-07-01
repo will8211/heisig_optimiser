@@ -1,12 +1,12 @@
 blockdiag {
-  2005 [label = "秒\n2005 seconds"];
-  762 [label = "禾\n762 standing grain"];
-  110 [label = "少\n110 few"];
-  None [label = "丶\nNone a drop of"];
-  109 [label = "小\n109 small"];
-  762 -> 2005;
-  110 -> 2005;
-  None -> 110;
-  109 -> 110;
-  None -> 109;
+  秒 [label = "秒\n2005 seconds"];
+  禾 [label = "禾\n762 standing grain"];
+  少 [label = "少\n110 few"];
+  丶 [label = "丶\nNone a drop of"];
+  小 [label = "小\n109 small"];
+  禾 -> 秒;
+  少 -> 秒;
+  丶 -> 少;
+  小 -> 少;
+  丶 -> 小;
 }

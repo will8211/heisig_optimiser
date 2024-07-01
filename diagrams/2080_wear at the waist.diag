@@ -1,11 +1,11 @@
 blockdiag {
-  2080 [label = "佩\n2080 wear at the waist"];
-  793 [label = "人\n793 person"];
-  57 [label = "几\n57 how many?"];
-  1 [label = "一\n1 one"];
-  410 [label = "巾\n410 towel"];
-  793 -> 2080;
-  57 -> 2080;
-  1 -> 2080;
-  410 -> 2080;
+  佩 [label = "佩\n2080 wear at the waist"];
+  人 [label = "人\n793 person"];
+  几 [label = "几\n57 how many?"];
+  一 [label = "一\n1 one"];
+  巾 [label = "巾\n410 towel"];
+  人 -> 佩;
+  几 -> 佩;
+  一 -> 佩;
+  巾 -> 佩;
 }

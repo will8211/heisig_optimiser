@@ -1,10 +1,11 @@
 blockdiag {
-  1425 [label = "宅\n1425 dwelling"];
-  None [label = "乇\nNone fur ball"];
-  1421 [label = "毛\n1421 fur"];
-  584 [label = "手\n584 hand"];
-  None -> 1425;
-  None -> 1425;
-  1421 -> None;
-  584 -> 1421;
+  宅 [label = "宅\n1425 dwelling"];
+  宀 [label = "宀\nNone house"];
+  乇 [label = "乇\nNone fur ball"];
+  毛 [label = "毛\n1421 fur"];
+  手 [label = "手\n584 hand"];
+  宀 -> 宅;
+  乇 -> 宅;
+  毛 -> 乇;
+  手 -> 毛;
 }

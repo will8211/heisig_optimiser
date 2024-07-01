@@ -1,13 +1,13 @@
 blockdiag {
-  2084 [label = "侮\n2084 insult"];
-  793 [label = "人\n793 person"];
-  467 [label = "每\n467 every"];
-  None [label = "𠂉\nNone reclining"];
-  105 [label = "母\n105 mother"];
-  102 [label = "女\n102 woman"];
-  793 -> 2084;
-  467 -> 2084;
-  None -> 467;
-  105 -> 467;
-  102 -> 105;
+  侮 [label = "侮\n2084 insult"];
+  人 [label = "人\n793 person"];
+  每 [label = "每\n467 every"];
+  𠂉 [label = "𠂉\nNone reclining"];
+  母 [label = "母\n105 mother"];
+  女 [label = "女\n102 woman"];
+  人 -> 侮;
+  每 -> 侮;
+  𠂉 -> 每;
+  母 -> 每;
+  女 -> 母;
 }

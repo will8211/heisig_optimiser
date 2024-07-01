@@ -1,13 +1,15 @@
 blockdiag {
-  2786 [label = "遍\n2786 everywhere"];
-  1367 [label = "扁\n1367 flat"];
-  None [label = "辶\nNone road"];
-  896 [label = "户\n896 door"];
-  882 [label = "尸\n882 corpse"];
-  1367 -> 2786;
-  None -> 1367;
-  896 -> 1367;
-  None -> 896;
-  882 -> 896;
-  None -> 2786;
+  遍 [label = "遍\n2786 everywhere"];
+  扁 [label = "扁\n1367 flat"];
+  冊 [label = "冊\nNone tome"];
+  户 [label = "户\n896 door"];
+  丶 [label = "丶\nNone a drop of"];
+  尸 [label = "尸\n882 corpse"];
+  辶 [label = "辶\nNone road"];
+  扁 -> 遍;
+  冊 -> 扁;
+  户 -> 扁;
+  丶 -> 户;
+  尸 -> 户;
+  辶 -> 遍;
 }

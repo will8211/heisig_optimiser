@@ -1,15 +1,16 @@
 blockdiag {
-  2834 [label = "氧\n2834 oxygen"];
-  1404 [label = "气\n1404 air"];
-  None [label = "丷\nNone horns"];
-  1 [label = "一\n1 one"];
-  95 [label = "乙\n95 second"];
-  528 [label = "羊\n528 sheep"];
-  1404 -> 2834;
-  None -> 1404;
-  1 -> 1404;
-  95 -> 1404;
-  528 -> 2834;
-  None -> 528;
-  1 -> None;
+  氧 [label = "氧\n2834 oxygen"];
+  气 [label = "气\n1404 air"];
+  𠂉 [label = "𠂉\nNone reclining"];
+  一 [label = "一\n1 one"];
+  乙 [label = "乙\n95 second"];
+  羊 [label = "羊\n528 sheep"];
+  丷 [label = "丷\nNone horns"];
+  气 -> 氧;
+  𠂉 -> 气;
+  一 -> 气;
+  乙 -> 气;
+  羊 -> 氧;
+  丷 -> 羊;
+  一 -> 丷;
 }

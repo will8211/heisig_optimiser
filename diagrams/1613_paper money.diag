@@ -1,18 +1,19 @@
 blockdiag {
-  1613 [label = "钞\n1613 paper money"];
-  279 [label = "金\n279 gold"];
-  None [label = "丶\nNone a drop of"];
-  265 [label = "王\n265 king"];
-  76 [label = "工\n76 work"];
-  110 [label = "少\n110 few"];
-  109 [label = "小\n109 small"];
-  279 -> 1613;
-  None -> 279;
-  265 -> 279;
-  76 -> 265;
-  None -> 279;
-  110 -> 1613;
-  None -> 110;
-  109 -> 110;
-  None -> 109;
+  钞 [label = "钞\n1613 paper money"];
+  金 [label = "金\n279 gold"];
+  𠆢 [label = "𠆢\nNone umbrella"];
+  王 [label = "王\n265 king"];
+  工 [label = "工\n76 work"];
+  丶 [label = "丶\nNone a drop of"];
+  少 [label = "少\n110 few"];
+  小 [label = "小\n109 small"];
+  金 -> 钞;
+  𠆢 -> 金;
+  王 -> 金;
+  工 -> 王;
+  丶 -> 金;
+  少 -> 钞;
+  丶 -> 少;
+  小 -> 少;
+  丶 -> 小;
 }

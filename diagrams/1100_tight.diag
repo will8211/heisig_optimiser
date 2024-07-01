@@ -1,16 +1,19 @@
 blockdiag {
-  1100 [label = "紧\n1100 tight"];
-  1011 [label = "坚\n1011 firm"];
-  None [label = "丶\nNone a drop of"];
-  633 [label = "又\n633 again"];
-  158 [label = "土\n158 soil"];
-  109 [label = "小\n109 small"];
-  1011 -> 1100;
-  None -> 1011;
-  633 -> 1011;
-  158 -> 1011;
-  None -> 1100;
-  None -> None;
-  109 -> None;
-  None -> 109;
+  紧 [label = "紧\n1100 tight"];
+  坚 [label = "坚\n1011 firm"];
+  囧坚－圣 [label = "囧坚－圣\nNone fencing foil"];
+  又 [label = "又\n633 again"];
+  土 [label = "土\n158 soil"];
+  糸 [label = "糸\nNone floss"];
+  幺 [label = "幺\nNone cocoon"];
+  小 [label = "小\n109 small"];
+  丶 [label = "丶\nNone a drop of"];
+  坚 -> 紧;
+  囧坚－圣 -> 坚;
+  又 -> 坚;
+  土 -> 坚;
+  糸 -> 紧;
+  幺 -> 糸;
+  小 -> 糸;
+  丶 -> 小;
 }

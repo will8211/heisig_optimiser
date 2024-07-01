@@ -1,9 +1,9 @@
 blockdiag {
-  130 [label = "光\n130 ray"];
-  109 [label = "小\n109 small"];
-  None [label = "丶\nNone a drop of"];
-  56 [label = "儿\n56 youngster"];
-  109 -> 130;
-  None -> 109;
-  56 -> 130;
+  光 [label = "光\n130 ray"];
+  小 [label = "小\n109 small"];
+  丶 [label = "丶\nNone a drop of"];
+  儿 [label = "儿\n56 youngster"];
+  小 -> 光;
+  丶 -> 小;
+  儿 -> 光;
 }

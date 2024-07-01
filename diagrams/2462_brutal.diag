@@ -1,11 +1,11 @@
 blockdiag {
-  2462 [label = "酷\n2462 brutal"];
-  None [label = "酉\nNone whiskey bottle"];
-  254 [label = "告\n254 declare"];
-  252 [label = "牛\n252 cow"];
-  11 [label = "口\n11 mouth"];
-  None -> 2462;
-  254 -> 2462;
-  252 -> 254;
-  11 -> 254;
+  酷 [label = "酷\n2462 brutal"];
+  酉 [label = "酉\nNone whiskey bottle"];
+  告 [label = "告\n254 declare"];
+  牛 [label = "牛\n252 cow"];
+  口 [label = "口\n11 mouth"];
+  酉 -> 酷;
+  告 -> 酷;
+  牛 -> 告;
+  口 -> 告;
 }

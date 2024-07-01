@@ -1,9 +1,9 @@
 blockdiag {
-  2581 [label = "契\n2581 contract"];
-  1223 [label = "丰\n1223 plentiful"];
-  83 [label = "刀\n83 sword"];
-  113 [label = "大\n113 large"];
-  1223 -> 2581;
-  83 -> 2581;
-  113 -> 2581;
+  契 [label = "契\n2581 contract"];
+  丰 [label = "丰\n1223 plentiful"];
+  刀 [label = "刀\n83 sword"];
+  大 [label = "大\n113 large"];
+  丰 -> 契;
+  刀 -> 契;
+  大 -> 契;
 }

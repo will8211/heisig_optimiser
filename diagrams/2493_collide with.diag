@@ -1,16 +1,17 @@
 blockdiag {
-  2493 [label = "磕\n2493 collide with"];
-  125 [label = "石\n125 stone"];
-  11 [label = "口\n11 mouth"];
-  121 [label = "厂\n121 factory"];
-  675 [label = "去\n675 go"];
-  158 [label = "土\n158 soil"];
-  None [label = "皿\nNone dish"];
-  125 -> 2493;
-  11 -> 125;
-  121 -> 125;
-  675 -> 2493;
-  158 -> 675;
-  None -> 675;
-  None -> 2493;
+  磕 [label = "磕\n2493 collide with"];
+  石 [label = "石\n125 stone"];
+  口 [label = "口\n11 mouth"];
+  厂 [label = "厂\n121 factory"];
+  去 [label = "去\n675 go"];
+  土 [label = "土\n158 soil"];
+  厶 [label = "厶\nNone elbow"];
+  皿 [label = "皿\nNone dish"];
+  石 -> 磕;
+  口 -> 石;
+  厂 -> 石;
+  去 -> 磕;
+  土 -> 去;
+  厶 -> 去;
+  皿 -> 磕;
 }

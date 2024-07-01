@@ -1,6 +1,7 @@
 blockdiag {
-  1111 [label = "节\n1111 holiday"];
-  None [label = "囧节－艹\nNone chop"];
-  None -> 1111;
-  None -> 1111;
+  节 [label = "节\n1111 holiday"];
+  艹 [label = "艹\nNone flower"];
+  囧节－艹 [label = "囧节－艹\nNone chop"];
+  艹 -> 节;
+  囧节－艹 -> 节;
 }

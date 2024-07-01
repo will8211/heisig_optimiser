@@ -1,7 +1,7 @@
 blockdiag {
-  908 [label = "宗\n908 religion"];
-  None [label = "宀\nNone house"];
-  900 [label = "示\n900 show"];
-  None -> 908;
-  900 -> 908;
+  宗 [label = "宗\n908 religion"];
+  宀 [label = "宀\nNone house"];
+  示 [label = "示\n900 show"];
+  宀 -> 宗;
+  示 -> 宗;
 }

@@ -1,15 +1,15 @@
 blockdiag {
-  2101 [label = "荷\n2101 Holland"];
-  None [label = "艹\nNone flower"];
-  835 [label = "何\n835 whatwhichwhowherewhy?"];
-  793 [label = "人\n793 person"];
-  92 [label = "可\n92 can"];
-  90 [label = "丁\n90 fourth"];
-  11 [label = "口\n11 mouth"];
-  None -> 2101;
-  835 -> 2101;
-  793 -> 835;
-  92 -> 835;
-  90 -> 92;
-  11 -> 92;
+  荷 [label = "荷\n2101 Holland"];
+  艹 [label = "艹\nNone flower"];
+  何 [label = "何\n835 whatwhichwhowherewhy?"];
+  人 [label = "人\n793 person"];
+  可 [label = "可\n92 can"];
+  丁 [label = "丁\n90 fourth"];
+  口 [label = "口\n11 mouth"];
+  艹 -> 荷;
+  何 -> 荷;
+  人 -> 何;
+  可 -> 何;
+  丁 -> 可;
+  口 -> 可;
 }

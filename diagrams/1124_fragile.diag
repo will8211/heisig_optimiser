@@ -1,12 +1,13 @@
 blockdiag {
-  1124 [label = "脆\n1124 fragile"];
-  13 [label = "月\n13 month"];
-  1123 [label = "危\n1123 danger"];
-  None [label = "㔾\nNone fingerprint"];
-  121 [label = "厂\n121 factory"];
-  13 -> 1124;
-  1123 -> 1124;
-  None -> 1123;
-  121 -> 1123;
-  None -> 1123;
+  脆 [label = "脆\n1124 fragile"];
+  月 [label = "月\n13 month"];
+  危 [label = "危\n1123 danger"];
+  勹 [label = "勹\nNone bound up"];
+  厂 [label = "厂\n121 factory"];
+  㔾 [label = "㔾\nNone fingerprint"];
+  月 -> 脆;
+  危 -> 脆;
+  勹 -> 危;
+  厂 -> 危;
+  㔾 -> 危;
 }

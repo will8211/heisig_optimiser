@@ -1,14 +1,15 @@
 blockdiag {
-  2321 [label = "践\n2321 tread on"];
-  1048 [label = "足\n1048 lower leg"];
-  11 [label = "口\n11 mouth"];
-  379 [label = "止\n379 stop"];
-  None [label = "弋\nNone arrow"];
-  361 [label = "戈\n361 halberd"];
-  1048 -> 2321;
-  11 -> 1048;
-  379 -> 1048;
-  None -> 2321;
-  361 -> None;
-  None -> 361;
+  践 [label = "践\n2321 tread on"];
+  足 [label = "足\n1048 lower leg"];
+  口 [label = "口\n11 mouth"];
+  止 [label = "止\n379 stop"];
+  戋 [label = "戋\nNone float"];
+  戈 [label = "戈\n361 halberd"];
+  弋 [label = "弋\nNone arrow"];
+  足 -> 践;
+  口 -> 足;
+  止 -> 足;
+  戋 -> 践;
+  戈 -> 戋;
+  弋 -> 戈;
 }

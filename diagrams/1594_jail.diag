@@ -1,7 +1,7 @@
 blockdiag {
-  1594 [label = "牢\n1594 jail"];
-  None [label = "宀\nNone house"];
-  252 [label = "牛\n252 cow"];
-  None -> 1594;
-  252 -> 1594;
+  牢 [label = "牢\n1594 jail"];
+  宀 [label = "宀\nNone house"];
+  牛 [label = "牛\n252 cow"];
+  宀 -> 牢;
+  牛 -> 牢;
 }

@@ -1,9 +1,9 @@
 blockdiag {
-  1978 [label = "扶\n1978 lend a hand"];
-  None [label = "扌\nNone fingers"];
-  726 [label = "夫\n726 husband"];
-  113 [label = "大\n113 large"];
-  None -> 1978;
-  726 -> 1978;
-  113 -> 726;
+  扶 [label = "扶\n1978 lend a hand"];
+  扌 [label = "扌\nNone fingers"];
+  夫 [label = "夫\n726 husband"];
+  大 [label = "大\n113 large"];
+  扌 -> 扶;
+  夫 -> 扶;
+  大 -> 夫;
 }

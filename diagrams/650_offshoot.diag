@@ -1,7 +1,7 @@
 blockdiag {
-  650 [label = "支\n650 offshoot"];
-  10 [label = "十\n10 ten"];
-  633 [label = "又\n633 again"];
-  10 -> 650;
-  633 -> 650;
+  支 [label = "支\n650 offshoot"];
+  十 [label = "十\n10 ten"];
+  又 [label = "又\n633 again"];
+  十 -> 支;
+  又 -> 支;
 }

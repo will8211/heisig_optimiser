@@ -1,12 +1,13 @@
 blockdiag {
-  704 [label = "党\n704 political party"];
-  56 [label = "儿\n56 youngster"];
-  None [label = "丶\nNone a drop of"];
-  109 [label = "小\n109 small"];
-  11 [label = "口\n11 mouth"];
-  56 -> 704;
-  None -> 704;
-  109 -> None;
-  None -> 109;
-  11 -> None;
+  党 [label = "党\n704 political party"];
+  儿 [label = "儿\n56 youngster"];
+  囧赏－贝 [label = "囧赏－贝\nNone outhouse"];
+  小 [label = "小\n109 small"];
+  丶 [label = "丶\nNone a drop of"];
+  口 [label = "口\n11 mouth"];
+  儿 -> 党;
+  囧赏－贝 -> 党;
+  小 -> 囧赏－贝;
+  丶 -> 小;
+  口 -> 囧赏－贝;
 }

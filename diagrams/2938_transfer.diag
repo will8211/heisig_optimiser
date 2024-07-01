@@ -1,11 +1,13 @@
 blockdiag {
-  2938 [label = "挪\n2938 transfer"];
-  1476 [label = "那\n1476 that"];
-  None [label = "扌\nNone fingers"];
-  83 [label = "刀\n83 sword"];
-  1476 -> 2938;
-  None -> 1476;
-  83 -> None;
-  None -> 1476;
-  None -> 2938;
+  挪 [label = "挪\n2938 transfer"];
+  那 [label = "那\n1476 that"];
+  囧那－阝 [label = "囧那－阝\nNone razor wire"];
+  刀 [label = "刀\n83 sword"];
+  阝 [label = "阝\nNone pinnacle"];
+  扌 [label = "扌\nNone fingers"];
+  那 -> 挪;
+  囧那－阝 -> 那;
+  刀 -> 囧那－阝;
+  阝 -> 那;
+  扌 -> 挪;
 }

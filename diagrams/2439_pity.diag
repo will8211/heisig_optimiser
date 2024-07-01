@@ -1,11 +1,13 @@
 blockdiag {
-  2439 [label = "怜\n2439 pity"];
-  563 [label = "心\n563 heart"];
-  1113 [label = "令\n1113 orders"];
-  None [label = "囧节－艹\nNone chop"];
-  563 -> 2439;
-  1113 -> 2439;
-  None -> 1113;
-  None -> None;
-  None -> 1113;
+  怜 [label = "怜\n2439 pity"];
+  心 [label = "心\n563 heart"];
+  令 [label = "令\n1113 orders"];
+  亼 [label = "亼\nNone meeting"];
+  𠆢 [label = "𠆢\nNone umbrella"];
+  囧节－艹 [label = "囧节－艹\nNone chop"];
+  心 -> 怜;
+  令 -> 怜;
+  亼 -> 令;
+  𠆢 -> 亼;
+  囧节－艹 -> 令;
 }

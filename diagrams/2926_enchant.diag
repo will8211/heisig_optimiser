@@ -1,16 +1,17 @@
 blockdiag {
-  2926 [label = "魅\n2926 enchant"];
-  1472 [label = "鬼\n1472 ghost"];
-  None [label = "厶\nNone elbow"];
-  14 [label = "田\n14 rice field"];
-  56 [label = "儿\n56 youngster"];
-  215 [label = "未\n215 not yet"];
-  202 [label = "木\n202 tree"];
-  1472 -> 2926;
-  None -> 1472;
-  14 -> 1472;
-  56 -> 1472;
-  None -> 1472;
-  215 -> 2926;
-  202 -> 215;
+  魅 [label = "魅\n2926 enchant"];
+  鬼 [label = "鬼\n1472 ghost"];
+  丶 [label = "丶\nNone a drop of"];
+  田 [label = "田\n14 rice field"];
+  儿 [label = "儿\n56 youngster"];
+  厶 [label = "厶\nNone elbow"];
+  未 [label = "未\n215 not yet"];
+  木 [label = "木\n202 tree"];
+  鬼 -> 魅;
+  丶 -> 鬼;
+  田 -> 鬼;
+  儿 -> 鬼;
+  厶 -> 鬼;
+  未 -> 魅;
+  木 -> 未;
 }

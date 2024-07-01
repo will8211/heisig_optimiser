@@ -1,13 +1,15 @@
 blockdiag {
-  2477 [label = "俊\n2477 handsome"];
-  793 [label = "人\n793 person"];
-  None [label = "夂\nNone walking legs"];
-  1905 [label = "允\n1905 consent"];
-  56 [label = "儿\n56 youngster"];
-  793 -> 2477;
-  None -> 2477;
-  1905 -> None;
-  None -> 1905;
-  56 -> 1905;
-  None -> None;
+  俊 [label = "俊\n2477 handsome"];
+  人 [label = "人\n793 person"];
+  夋 [label = "夋\nNone streetwalker"];
+  允 [label = "允\n1905 consent"];
+  厶 [label = "厶\nNone elbow"];
+  儿 [label = "儿\n56 youngster"];
+  夂 [label = "夂\nNone walking legs"];
+  人 -> 俊;
+  夋 -> 俊;
+  允 -> 夋;
+  厶 -> 允;
+  儿 -> 允;
+  夂 -> 夋;
 }

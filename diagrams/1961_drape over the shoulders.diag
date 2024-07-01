@@ -1,13 +1,13 @@
 blockdiag {
-  1961 [label = "披\n1961 drape over the shoulders"];
-  None [label = "扌\nNone fingers"];
-  707 [label = "皮\n707 covering"];
-  650 [label = "支\n650 offshoot"];
-  10 [label = "十\n10 ten"];
-  633 [label = "又\n633 again"];
-  None -> 1961;
-  707 -> 1961;
-  650 -> 707;
-  10 -> 650;
-  633 -> 650;
+  披 [label = "披\n1961 drape over the shoulders"];
+  扌 [label = "扌\nNone fingers"];
+  皮 [label = "皮\n707 covering"];
+  支 [label = "支\n650 offshoot"];
+  十 [label = "十\n10 ten"];
+  又 [label = "又\n633 again"];
+  扌 -> 披;
+  皮 -> 披;
+  支 -> 皮;
+  十 -> 支;
+  又 -> 支;
 }

@@ -1,11 +1,11 @@
 blockdiag {
-  2053 [label = "筋\n2053 tendon"];
-  786 [label = "竹\n786 bamboo"];
-  90 [label = "丁\n90 fourth"];
-  13 [label = "月\n13 month"];
-  732 [label = "力\n732 power"];
-  786 -> 2053;
-  90 -> 786;
-  13 -> 2053;
-  732 -> 2053;
+  筋 [label = "筋\n2053 tendon"];
+  竹 [label = "竹\n786 bamboo"];
+  丁 [label = "丁\n90 fourth"];
+  月 [label = "月\n13 month"];
+  力 [label = "力\n732 power"];
+  竹 -> 筋;
+  丁 -> 竹;
+  月 -> 筋;
+  力 -> 筋;
 }

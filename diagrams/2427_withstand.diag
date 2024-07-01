@@ -1,13 +1,13 @@
 blockdiag {
-  2427 [label = "御\n2427 withstand"];
-  754 [label = "行\n754 line of business"];
-  2426 [label = "卸\n2426 unload"];
-  542 [label = "午\n542 noon"];
-  379 [label = "止\n379 stop"];
-  None [label = "卩\nNone stamp"];
-  754 -> 2427;
-  2426 -> 2427;
-  542 -> 2426;
-  379 -> 2426;
-  None -> 2426;
+  御 [label = "御\n2427 withstand"];
+  行 [label = "行\n754 line of business"];
+  卸 [label = "卸\n2426 unload"];
+  午 [label = "午\n542 noon"];
+  止 [label = "止\n379 stop"];
+  卩 [label = "卩\nNone stamp"];
+  行 -> 御;
+  卸 -> 御;
+  午 -> 卸;
+  止 -> 卸;
+  卩 -> 卸;
 }

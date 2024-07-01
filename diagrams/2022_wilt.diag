@@ -1,11 +1,11 @@
 blockdiag {
-  2022 [label = "萎\n2022 wilt"];
-  None [label = "艹\nNone flower"];
-  774 [label = "委\n774 committee"];
-  762 [label = "禾\n762 standing grain"];
-  102 [label = "女\n102 woman"];
-  None -> 2022;
-  774 -> 2022;
-  762 -> 774;
-  102 -> 774;
+  萎 [label = "萎\n2022 wilt"];
+  艹 [label = "艹\nNone flower"];
+  委 [label = "委\n774 committee"];
+  禾 [label = "禾\n762 standing grain"];
+  女 [label = "女\n102 woman"];
+  艹 -> 萎;
+  委 -> 萎;
+  禾 -> 委;
+  女 -> 委;
 }

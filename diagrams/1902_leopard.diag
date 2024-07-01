@@ -1,13 +1,17 @@
 blockdiag {
-  1902 [label = "豹\n1902 leopard"];
-  None [label = "丶\nNone a drop of"];
-  663 [label = "爪\n663 claw"];
-  69 [label = "勺\n69 ladle"];
-  None -> 1902;
-  663 -> None;
-  None -> 663;
-  None -> None;
-  69 -> 1902;
-  None -> 69;
-  None -> 69;
+  豹 [label = "豹\n1902 leopard"];
+  豸 [label = "豸\nNone leopard"];
+  爪 [label = "爪\n663 claw"];
+  𠂆 [label = "𠂆\nNone drag"];
+  豕 [label = "豕\nNone sow"];
+  勺 [label = "勺\n69 ladle"];
+  勹 [label = "勹\nNone bound up"];
+  丶 [label = "丶\nNone a drop of"];
+  豸 -> 豹;
+  爪 -> 豸;
+  𠂆 -> 爪;
+  豕 -> 豸;
+  勺 -> 豹;
+  勹 -> 勺;
+  丶 -> 勺;
 }

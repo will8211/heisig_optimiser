@@ -1,19 +1,21 @@
 blockdiag {
-  1046 [label = "较\n1046 relatively"];
-  300 [label = "车\n300 car"];
-  1044 [label = "交\n1044 mingle"];
-  None [label = "丶\nNone a drop of"];
-  6 [label = "六\n6 six"];
-  8 [label = "八\n8 eight"];
-  1043 [label = "父\n1043 father"];
-  300 -> 1046;
-  1044 -> 1046;
-  None -> 1044;
-  6 -> None;
-  None -> 6;
-  8 -> None;
-  None -> None;
-  8 -> None;
-  1043 -> 1044;
-  None -> 1043;
+  较 [label = "较\n1046 relatively"];
+  车 [label = "车\n300 car"];
+  交 [label = "交\n1044 mingle"];
+  亠 [label = "亠\nNone top hat"];
+  六 [label = "六\n6 six"];
+  囧只－口 [label = "囧只－口\nNone animal legs"];
+  八 [label = "八\n8 eight"];
+  父 [label = "父\n1043 father"];
+  丶 [label = "丶\nNone a drop of"];
+  车 -> 较;
+  交 -> 较;
+  亠 -> 交;
+  六 -> 亠;
+  囧只－口 -> 六;
+  八 -> 囧只－口;
+  囧只－口 -> 亠;
+  八 -> 囧只－口;
+  父 -> 交;
+  丶 -> 父;
 }
