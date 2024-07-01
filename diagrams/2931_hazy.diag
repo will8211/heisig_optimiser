@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   胧 [label = "胧\n2931 hazy"];
   月 [label = "月\n13 month"];
   龙 [label = "龙\n1474 dragon"];
@@ -6,10 +12,11 @@ blockdiag {
   大 [label = "大\n113 large"];
   丶 [label = "丶\n* a drop of"];
   匕 [label = "匕\n453 ancient spoon"];
-  月 -> 胧;
-  龙 -> 胧;
-  犬 -> 龙;
-  大 -> 犬;
-  丶 -> 犬;
-  匕 -> 龙;
+
+  月 -> 胧 [thick];
+  龙 -> 胧 [thick];
+  犬 -> 龙 [thick];
+  大 -> 犬 [thick];
+  丶 -> 犬 [thick];
+  匕 -> 龙 [thick];
 }

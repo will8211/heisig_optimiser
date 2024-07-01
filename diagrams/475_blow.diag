@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   吹 [label = "吹\n475 blow"];
   口 [label = "口\n11 mouth"];
   欠 [label = "欠\n474 lack"];
-  口 -> 吹;
-  欠 -> 吹;
+
+  口 -> 吹 [thick];
+  欠 -> 吹 [thick];
 }

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   硬 [label = "硬\n632 hard"];
   石 [label = "石\n125 stone"];
   口 [label = "口\n11 mouth"];
@@ -7,11 +13,12 @@ blockdiag {
   一 [label = "一\n1 one"];
   日 [label = "日\n12 day"];
   囧史－口 [label = "囧史－口\n* tucked under the arm"];
-  石 -> 硬;
-  口 -> 石;
-  厂 -> 石;
-  更 -> 硬;
-  一 -> 更;
-  日 -> 更;
-  囧史－口 -> 更;
+
+  石 -> 硬 [thick];
+  口 -> 石 [thick];
+  厂 -> 石 [thick];
+  更 -> 硬 [thick];
+  一 -> 更 [thick];
+  日 -> 更 [thick];
+  囧史－口 -> 更 [thick];
 }

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   诸 [label = "诸\n2308 various"];
   言 [label = "言\n346 say"];
   二 [label = "二\n2 two"];
@@ -14,21 +20,22 @@ blockdiag {
   丨 [label = "丨\n* walking stick"];
   匕 [label = "匕\n453 ancient spoon"];
   日 [label = "日\n12 day"];
-  言 -> 诸;
-  二 -> 言;
-  一 -> 二;
-  口 -> 言;
-  亠 -> 言;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  者 -> 诸;
-  老 -> 者;
-  土 -> 老;
-  丨 -> 老;
-  一 -> 丨;
-  匕 -> 老;
-  日 -> 者;
+
+  言 -> 诸 [thick];
+  二 -> 言 [thick];
+  一 -> 二 [thick];
+  口 -> 言 [thick];
+  亠 -> 言 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  者 -> 诸 [thick];
+  老 -> 者 [thick];
+  土 -> 老 [thick];
+  丨 -> 老 [thick];
+  一 -> 丨 [thick];
+  匕 -> 老 [thick];
+  日 -> 者 [thick];
 }

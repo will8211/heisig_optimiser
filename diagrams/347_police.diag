@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   警 [label = "警\n347 police"];
   敬 [label = "敬\n344 revere"];
   艹 [label = "艹\n* flower"];
@@ -13,20 +19,21 @@ blockdiag {
   六 [label = "六\n6 six"];
   囧只－口 [label = "囧只－口\n* animal legs"];
   八 [label = "八\n8 eight"];
-  敬 -> 警;
-  艹 -> 敬;
-  句 -> 敬;
-  勹 -> 句;
-  口 -> 句;
-  攵 -> 敬;
-  言 -> 警;
-  二 -> 言;
-  一 -> 二;
-  口 -> 言;
-  亠 -> 言;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
+
+  敬 -> 警 [thick];
+  艹 -> 敬 [thick];
+  句 -> 敬 [thick];
+  勹 -> 句 [thick];
+  口 -> 句 [thick];
+  攵 -> 敬 [thick];
+  言 -> 警 [thick];
+  二 -> 言 [thick];
+  一 -> 二 [thick];
+  口 -> 言 [thick];
+  亠 -> 言 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
 }

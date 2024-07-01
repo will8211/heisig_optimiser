@@ -1,0 +1,16 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  更 [label = "更\n631 even more"];
+  一 [label = "一\n1 one"];
+  日 [label = "日\n12 day"];
+  囧史－口 [label = "囧史－口\n* tucked under the arm"];
+
+  一 -> 更 [thick];
+  日 -> 更 [thick];
+  囧史－口 -> 更 [thick];
+}

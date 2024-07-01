@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   洪 [label = "洪\n2763 deluge"];
   水 [label = "水\n137 water"];
   丨 [label = "丨\n* walking stick"];
@@ -9,13 +15,14 @@ blockdiag {
   艹 [label = "艹\n* flower"];
   囧只－口 [label = "囧只－口\n* animal legs"];
   八 [label = "八\n8 eight"];
-  水 -> 洪;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  共 -> 洪;
-  囧昔－日 -> 共;
-  艹 -> 囧昔－日;
-  囧只－口 -> 共;
-  八 -> 囧只－口;
+
+  水 -> 洪 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  共 -> 洪 [thick];
+  囧昔－日 -> 共 [thick];
+  艹 -> 囧昔－日 [thick];
+  囧只－口 -> 共 [thick];
+  八 -> 囧只－口 [thick];
 }

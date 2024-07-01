@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   艰 [label = "艰\n2508 arduous"];
   又 [label = "又\n633 again"];
   艮 [label = "艮\n* silver"];
-  又 -> 艰;
-  艮 -> 艰;
+
+  又 -> 艰 [thick];
+  艮 -> 艰 [thick];
 }

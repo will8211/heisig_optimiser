@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   像 [label = "像\n1452 likeness"];
   人 [label = "人\n793 person"];
   象 [label = "象\n1451 elephant"];
@@ -8,12 +14,13 @@ blockdiag {
   儿 [label = "儿\n56 youngster"];
   丶 [label = "丶\n* a drop of"];
   豕 [label = "豕\n* sow"];
-  人 -> 像;
-  象 -> 像;
-  兔 -> 象;
-  勹 -> 兔;
-  口 -> 兔;
-  儿 -> 兔;
-  丶 -> 兔;
-  豕 -> 象;
+
+  人 -> 像 [thick];
+  象 -> 像 [thick];
+  兔 -> 象 [thick];
+  勹 -> 兔 [thick];
+  口 -> 兔 [thick];
+  儿 -> 兔 [thick];
+  丶 -> 兔 [thick];
+  豕 -> 象 [thick];
 }

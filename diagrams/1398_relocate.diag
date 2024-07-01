@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   搬 [label = "搬\n1398 relocate"];
   扌 [label = "扌\n* fingers"];
   般 [label = "般\n1396 sort"];
@@ -8,13 +14,14 @@ blockdiag {
   几 [label = "几\n57 how many?"];
   殳 [label = "殳\n* missile"];
   又 [label = "又\n633 again"];
-  扌 -> 搬;
-  般 -> 搬;
-  舟 -> 般;
-  丶 -> 舟;
-  冂 -> 舟;
-  几 -> 冂;
-  殳 -> 般;
-  几 -> 殳;
-  又 -> 殳;
+
+  扌 -> 搬 [thick];
+  般 -> 搬 [thick];
+  舟 -> 般 [thick];
+  丶 -> 舟 [thick];
+  冂 -> 舟 [thick];
+  几 -> 冂 [thick];
+  殳 -> 般 [thick];
+  几 -> 殳 [thick];
+  又 -> 殳 [thick];
 }

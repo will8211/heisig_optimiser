@@ -1,12 +1,19 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   系 [label = "系\n1099 lineage"];
   丶 [label = "丶\n* a drop of"];
   糸 [label = "糸\n* floss"];
   幺 [label = "幺\n* cocoon"];
   小 [label = "小\n109 small"];
-  丶 -> 系;
-  糸 -> 系;
-  幺 -> 糸;
-  小 -> 糸;
-  丶 -> 小;
+
+  丶 -> 系 [thick];
+  糸 -> 系 [thick];
+  幺 -> 糸 [thick];
+  小 -> 糸 [thick];
+  丶 -> 小 [thick];
 }

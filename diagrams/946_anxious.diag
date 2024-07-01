@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   急 [label = "急\n946 anxious"];
   勹 [label = "勹\n* bound up"];
   彐 [label = "彐\n* broom"];
   心 [label = "心\n563 heart"];
-  勹 -> 急;
-  彐 -> 急;
-  心 -> 急;
+
+  勹 -> 急 [thick];
+  彐 -> 急 [thick];
+  心 -> 急 [thick];
 }

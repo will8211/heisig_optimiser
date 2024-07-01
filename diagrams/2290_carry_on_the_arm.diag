@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  挎 [label = "挎\n2290 carry on the arm"];
+  扌 [label = "扌\n* fingers"];
+  夸 [label = "夸\n2288 brag"];
+  大 [label = "大\n113 large"];
+  亏 [label = "亏\n2286 loss"];
+  丂 [label = "丂\n* snare"];
+
+  扌 -> 挎 [thick];
+  夸 -> 挎 [thick];
+  大 -> 夸 [thick];
+  亏 -> 夸 [thick];
+  丂 -> 亏 [thick];
+}

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   酸 [label = "酸\n2474 sour"];
   酉 [label = "酉\n* whiskey bottle"];
   夋 [label = "夋\n* streetwalker"];
@@ -6,10 +12,11 @@ blockdiag {
   厶 [label = "厶\n* elbow"];
   儿 [label = "儿\n56 youngster"];
   夂 [label = "夂\n* walking legs"];
-  酉 -> 酸;
-  夋 -> 酸;
-  允 -> 夋;
-  厶 -> 允;
-  儿 -> 允;
-  夂 -> 夋;
+
+  酉 -> 酸 [thick];
+  夋 -> 酸 [thick];
+  允 -> 夋 [thick];
+  厶 -> 允 [thick];
+  儿 -> 允 [thick];
+  夂 -> 夋 [thick];
 }

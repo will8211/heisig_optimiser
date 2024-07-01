@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   窃 [label = "窃\n2353 pilfer"];
   穴 [label = "穴\n1070 hole"];
   宀 [label = "宀\n* house"];
@@ -7,12 +13,13 @@ blockdiag {
   切 [label = "切\n85 cut"];
   刀 [label = "刀\n83 sword"];
   七 [label = "七\n7 seven"];
-  穴 -> 窃;
-  宀 -> 穴;
-  八 -> 穴;
-  囧只－口 -> 穴;
-  八 -> 囧只－口;
-  切 -> 窃;
-  刀 -> 切;
-  七 -> 切;
+
+  穴 -> 窃 [thick];
+  宀 -> 穴 [thick];
+  八 -> 穴 [thick];
+  囧只－口 -> 穴 [thick];
+  八 -> 囧只－口 [thick];
+  切 -> 窃 [thick];
+  刀 -> 切 [thick];
+  七 -> 切 [thick];
 }

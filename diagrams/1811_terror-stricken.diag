@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   怔 [label = "怔\n1811 terror-stricken"];
   心 [label = "心\n563 heart"];
   正 [label = "正\n387 correct"];
   一 [label = "一\n1 one"];
   止 [label = "止\n379 stop"];
-  心 -> 怔;
-  正 -> 怔;
-  一 -> 正;
-  止 -> 正;
+
+  心 -> 怔 [thick];
+  正 -> 怔 [thick];
+  一 -> 正 [thick];
+  止 -> 正 [thick];
 }

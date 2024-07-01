@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   礼 [label = "礼\n902 ceremony"];
   示 [label = "示\n900 show"];
   乙 [label = "乙\n95 second"];
-  示 -> 礼;
-  乙 -> 礼;
+
+  示 -> 礼 [thick];
+  乙 -> 礼 [thick];
 }

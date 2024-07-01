@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   附 [label = "附\n1062 attach"];
   阝 [label = "阝\n* pinnacle"];
   付 [label = "付\n825 pay"];
@@ -6,10 +12,11 @@ blockdiag {
   寸 [label = "寸\n166 Chinese inch"];
   丶 [label = "丶\n* a drop of"];
   十 [label = "十\n10 ten"];
-  阝 -> 附;
-  付 -> 附;
-  人 -> 付;
-  寸 -> 付;
-  丶 -> 寸;
-  十 -> 寸;
+
+  阝 -> 附 [thick];
+  付 -> 附 [thick];
+  人 -> 付 [thick];
+  寸 -> 付 [thick];
+  丶 -> 寸 [thick];
+  十 -> 寸 [thick];
 }

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   匠 [label = "匠\n2677 artisan"];
   箱 [label = "箱\n788 box"];
   竹 [label = "竹\n786 bamboo"];
@@ -7,11 +13,12 @@ blockdiag {
   木 [label = "木\n202 tree"];
   目 [label = "目\n15 eye"];
   斤 [label = "斤\n924 catty"];
-  箱 -> 匠;
-  竹 -> 箱;
-  丁 -> 竹;
-  相 -> 箱;
-  木 -> 相;
-  目 -> 相;
-  斤 -> 匠;
+
+  箱 -> 匠 [thick];
+  竹 -> 箱 [thick];
+  丁 -> 竹 [thick];
+  相 -> 箱 [thick];
+  木 -> 相 [thick];
+  目 -> 相 [thick];
+  斤 -> 匠 [thick];
 }

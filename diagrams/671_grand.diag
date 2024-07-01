@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   雄 [label = "雄\n671 grand"];
-  131207 [label = "𠂇\n* by one’s side"];
+  "𠂇" [label = "𠂇\n* by one’s side"];
   十 [label = "十\n10 ten"];
   厶 [label = "厶\n* elbow"];
   隹 [label = "隹\n* turkey"];
-  131207 -> 雄;
-  十 -> 131207;
-  厶 -> 雄;
-  隹 -> 雄;
+
+  "𠂇" -> 雄 [thick];
+  十 -> "𠂇" [thick];
+  厶 -> 雄 [thick];
+  隹 -> 雄 [thick];
 }

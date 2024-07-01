@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   趋 [label = "趋\n2199 hasten"];
   走 [label = "走\n391 walk"];
   囧走－十 [label = "囧走－十\n* mending"];
@@ -9,13 +15,14 @@ blockdiag {
   刍 [label = "刍\n* hairnet"];
   勹 [label = "勹\n* bound up"];
   彐 [label = "彐\n* broom"];
-  走 -> 趋;
-  囧走－十 -> 走;
-  正 -> 囧走－十;
-  一 -> 正;
-  止 -> 正;
-  土 -> 走;
-  刍 -> 趋;
-  勹 -> 刍;
-  彐 -> 刍;
+
+  走 -> 趋 [thick];
+  囧走－十 -> 走 [thick];
+  正 -> 囧走－十 [thick];
+  一 -> 正 [thick];
+  止 -> 正 [thick];
+  土 -> 走 [thick];
+  刍 -> 趋 [thick];
+  勹 -> 刍 [thick];
+  彐 -> 刍 [thick];
 }

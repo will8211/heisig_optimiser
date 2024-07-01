@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   蛙 [label = "蛙\n1741 frog"];
   虫 [label = "虫\n509 insect"];
   圭 [label = "圭\n* bricks"];
   土 [label = "土\n158 soil"];
-  虫 -> 蛙;
-  圭 -> 蛙;
-  土 -> 圭;
+
+  虫 -> 蛙 [thick];
+  圭 -> 蛙 [thick];
+  土 -> 圭 [thick];
 }

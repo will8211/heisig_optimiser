@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   叠 [label = "叠\n2753 heap"];
   又 [label = "又\n633 again"];
   冖 [label = "冖\n* crown"];
@@ -9,13 +15,14 @@ blockdiag {
   月 [label = "月\n13 month"];
   口 [label = "口\n11 mouth"];
   木 [label = "木\n202 tree"];
-  又 -> 叠;
-  冖 -> 叠;
-  架 -> 叠;
-  加 -> 架;
-  肌 -> 加;
-  几 -> 肌;
-  月 -> 肌;
-  口 -> 加;
-  木 -> 架;
+
+  又 -> 叠 [thick];
+  冖 -> 叠 [thick];
+  架 -> 叠 [thick];
+  加 -> 架 [thick];
+  肌 -> 加 [thick];
+  几 -> 肌 [thick];
+  月 -> 肌 [thick];
+  口 -> 加 [thick];
+  木 -> 架 [thick];
 }

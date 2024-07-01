@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   囧登 [label = "囧登\n* stepladder"];
   登 [label = "登\n1301 ascend"];
   桌 [label = "桌\n224 table"];
@@ -9,13 +15,14 @@ blockdiag {
   一 [label = "一\n1 one"];
   丶 [label = "丶\n* a drop of"];
   癶 [label = "癶\n* teepee"];
-  登 -> 囧登;
-  桌 -> 登;
-  木 -> 桌;
-  日 -> 桌;
-  卜 -> 桌;
-  丨 -> 卜;
-  一 -> 丨;
-  丶 -> 卜;
-  癶 -> 登;
+
+  登 -> 囧登 [thick];
+  桌 -> 登 [thick];
+  木 -> 桌 [thick];
+  日 -> 桌 [thick];
+  卜 -> 桌 [thick];
+  丨 -> 卜 [thick];
+  一 -> 丨 [thick];
+  丶 -> 卜 [thick];
+  癶 -> 登 [thick];
 }

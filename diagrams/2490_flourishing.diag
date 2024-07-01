@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   盛 [label = "盛\n2490 flourishing"];
   成 [label = "成\n368 turn into"];
   戊 [label = "戊\n* parade"];
@@ -6,10 +12,11 @@ blockdiag {
   弋 [label = "弋\n* arrow"];
   刀 [label = "刀\n83 sword"];
   皿 [label = "皿\n* dish"];
-  成 -> 盛;
-  戊 -> 成;
-  戈 -> 戊;
-  弋 -> 戈;
-  刀 -> 成;
-  皿 -> 盛;
+
+  成 -> 盛 [thick];
+  戊 -> 成 [thick];
+  戈 -> 戊 [thick];
+  弋 -> 戈 [thick];
+  刀 -> 成 [thick];
+  皿 -> 盛 [thick];
 }

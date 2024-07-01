@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   诚 [label = "诚\n370 sincere"];
   言 [label = "言\n346 say"];
   二 [label = "二\n2 two"];
@@ -13,19 +19,20 @@ blockdiag {
   戈 [label = "戈\n361 halberd"];
   弋 [label = "弋\n* arrow"];
   刀 [label = "刀\n83 sword"];
-  言 -> 诚;
-  二 -> 言;
-  一 -> 二;
-  口 -> 言;
-  亠 -> 言;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  成 -> 诚;
-  戊 -> 成;
-  戈 -> 戊;
-  弋 -> 戈;
-  刀 -> 成;
+
+  言 -> 诚 [thick];
+  二 -> 言 [thick];
+  一 -> 二 [thick];
+  口 -> 言 [thick];
+  亠 -> 言 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  成 -> 诚 [thick];
+  戊 -> 成 [thick];
+  戈 -> 戊 [thick];
+  弋 -> 戈 [thick];
+  刀 -> 成 [thick];
 }

@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   呐 [label = "呐\n841 holler"];
   口 [label = "口\n11 mouth"];
   内 [label = "内\n840 internal"];
   囧冂 [label = "囧冂\n* belt"];
   巾 [label = "巾\n410 towel"];
   人 [label = "人\n793 person"];
-  口 -> 呐;
-  内 -> 呐;
-  囧冂 -> 内;
-  巾 -> 囧冂;
-  人 -> 内;
+
+  口 -> 呐 [thick];
+  内 -> 呐 [thick];
+  囧冂 -> 内 [thick];
+  巾 -> 囧冂 [thick];
+  人 -> 内 [thick];
 }

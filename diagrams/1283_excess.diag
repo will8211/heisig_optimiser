@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   余 [label = "余\n1283 excess"];
-  131490 [label = "𠆢\n* umbrella"];
+  "𠆢" [label = "𠆢\n* umbrella"];
   于 [label = "于\n1281 Yu"];
   干 [label = "干\n1277 dry"];
   小 [label = "小\n109 small"];
   丶 [label = "丶\n* a drop of"];
-  131490 -> 余;
-  于 -> 余;
-  干 -> 于;
-  小 -> 余;
-  丶 -> 小;
+
+  "𠆢" -> 余 [thick];
+  于 -> 余 [thick];
+  干 -> 于 [thick];
+  小 -> 余 [thick];
+  丶 -> 小 [thick];
 }

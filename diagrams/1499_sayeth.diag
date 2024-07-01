@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   曰 [label = "曰\n1499 sayeth"];
   囗 [label = "囗\n* pent in"];
   一 [label = "一\n1 one"];
-  囗 -> 曰;
-  一 -> 曰;
+
+  囗 -> 曰 [thick];
+  一 -> 曰 [thick];
 }

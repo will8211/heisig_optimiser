@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   暂 [label = "暂\n929 temporary"];
   斩 [label = "斩\n928 hew"];
   车 [label = "车\n300 car"];
   斤 [label = "斤\n924 catty"];
   日 [label = "日\n12 day"];
-  斩 -> 暂;
-  车 -> 斩;
-  斤 -> 斩;
-  日 -> 暂;
+
+  斩 -> 暂 [thick];
+  车 -> 斩 [thick];
+  斤 -> 斩 [thick];
+  日 -> 暂 [thick];
 }

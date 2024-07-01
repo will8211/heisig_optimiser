@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   缝 [label = "缝\n2585 sew"];
   纟 [label = "纟\n* thread"];
   厶 [label = "厶\n* elbow"];
@@ -7,11 +13,12 @@ blockdiag {
   丰 [label = "丰\n1223 plentiful"];
   夂 [label = "夂\n* walking legs"];
   辶 [label = "辶\n* road"];
-  纟 -> 缝;
-  厶 -> 纟;
-  逢 -> 缝;
-  夆 -> 逢;
-  丰 -> 夆;
-  夂 -> 夆;
-  辶 -> 逢;
+
+  纟 -> 缝 [thick];
+  厶 -> 纟 [thick];
+  逢 -> 缝 [thick];
+  夆 -> 逢 [thick];
+  丰 -> 夆 [thick];
+  夂 -> 夆 [thick];
+  辶 -> 逢 [thick];
 }

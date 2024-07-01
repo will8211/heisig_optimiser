@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   拐 [label = "拐\n740 turn"];
   扌 [label = "扌\n* fingers"];
   另 [label = "另\n738 another"];
@@ -6,10 +12,11 @@ blockdiag {
   肌 [label = "肌\n63 muscle"];
   几 [label = "几\n57 how many?"];
   月 [label = "月\n13 month"];
-  扌 -> 拐;
-  另 -> 拐;
-  口 -> 另;
-  肌 -> 另;
-  几 -> 肌;
-  月 -> 肌;
+
+  扌 -> 拐 [thick];
+  另 -> 拐 [thick];
+  口 -> 另 [thick];
+  肌 -> 另 [thick];
+  几 -> 肌 [thick];
+  月 -> 肌 [thick];
 }

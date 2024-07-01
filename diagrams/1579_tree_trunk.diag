@@ -1,0 +1,19 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  株 [label = "株\n1579 tree trunk"];
+  木 [label = "木\n202 tree"];
+  朱 [label = "朱\n1578 vermilion"];
+  丶 [label = "丶\n* a drop of"];
+  未 [label = "未\n215 not yet"];
+
+  木 -> 株 [thick];
+  朱 -> 株 [thick];
+  丶 -> 朱 [thick];
+  未 -> 朱 [thick];
+  木 -> 未 [thick];
+}

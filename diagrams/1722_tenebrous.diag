@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   黯 [label = "黯\n1722 tenebrous"];
   黑 [label = "黑\n182 black"];
   里 [label = "里\n179 li"];
@@ -10,15 +16,16 @@ blockdiag {
   音 [label = "音\n484 sound"];
   立 [label = "立\n444 standing up"];
   日 [label = "日\n12 day"];
-  黑 -> 黯;
-  里 -> 黑;
-  田 -> 里;
-  土 -> 里;
-  田 -> 黑;
-  丷 -> 黑;
-  一 -> 丷;
-  火 -> 黑;
-  音 -> 黯;
-  立 -> 音;
-  日 -> 音;
+
+  黑 -> 黯 [thick];
+  里 -> 黑 [thick];
+  田 -> 里 [thick];
+  土 -> 里 [thick];
+  田 -> 黑 [thick];
+  丷 -> 黑 [thick];
+  一 -> 丷 [thick];
+  火 -> 黑 [thick];
+  音 -> 黯 [thick];
+  立 -> 音 [thick];
+  日 -> 音 [thick];
 }

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   纸 [label = "纸\n1372 paper"];
   纟 [label = "纟\n* thread"];
   厶 [label = "厶\n* elbow"];
@@ -7,11 +13,12 @@ blockdiag {
   囧以－丶人 [label = "囧以－丶人\n* plow"];
   一 [label = "一\n1 one"];
   乙 [label = "乙\n95 second"];
-  纟 -> 纸;
-  厶 -> 纟;
-  氏 -> 纸;
-  丶 -> 氏;
-  囧以－丶人 -> 氏;
-  一 -> 氏;
-  乙 -> 氏;
+
+  纟 -> 纸 [thick];
+  厶 -> 纟 [thick];
+  氏 -> 纸 [thick];
+  丶 -> 氏 [thick];
+  囧以－丶人 -> 氏 [thick];
+  一 -> 氏 [thick];
+  乙 -> 氏 [thick];
 }

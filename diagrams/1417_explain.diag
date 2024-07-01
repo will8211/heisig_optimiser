@@ -1,15 +1,22 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   释 [label = "释\n1417 explain"];
   釆 [label = "釆\n* droppings"];
   丶 [label = "丶\n* a drop of"];
   米 [label = "米\n778 rice"];
   又 [label = "又\n633 again"];
-  247060 [label = "囧奉－𡗗\n* cornstalk"];
+  "囧奉－𡗗" [label = "囧奉－𡗗\n* cornstalk"];
   丰 [label = "丰\n1223 plentiful"];
-  釆 -> 释;
-  丶 -> 釆;
-  米 -> 釆;
-  又 -> 释;
-  247060 -> 释;
-  丰 -> 247060;
+
+  釆 -> 释 [thick];
+  丶 -> 釆 [thick];
+  米 -> 釆 [thick];
+  又 -> 释 [thick];
+  "囧奉－𡗗" -> 释 [thick];
+  丰 -> "囧奉－𡗗" [thick];
 }

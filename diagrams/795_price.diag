@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   价 [label = "价\n795 price"];
   人 [label = "人\n793 person"];
   介 [label = "介\n259 introduce"];
-  131490 [label = "𠆢\n* umbrella"];
-  239201 [label = "囧介－𠆢\n* crutches"];
-  人 -> 价;
-  介 -> 价;
-  131490 -> 介;
-  239201 -> 介;
+  "𠆢" [label = "𠆢\n* umbrella"];
+  "囧介－𠆢" [label = "囧介－𠆢\n* crutches"];
+
+  人 -> 价 [thick];
+  介 -> 价 [thick];
+  "𠆢" -> 介 [thick];
+  "囧介－𠆢" -> 介 [thick];
 }

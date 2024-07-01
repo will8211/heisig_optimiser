@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   凯 [label = "凯\n1935 triumphant"];
   山 [label = "山\n688 mountain"];
   己 [label = "己\n515 self"];
   几 [label = "几\n57 how many?"];
-  山 -> 凯;
-  己 -> 凯;
-  几 -> 凯;
+
+  山 -> 凯 [thick];
+  己 -> 凯 [thick];
+  几 -> 凯 [thick];
 }

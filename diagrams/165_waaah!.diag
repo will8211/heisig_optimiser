@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   哇 [label = "哇\n165 waaah!"];
   口 [label = "口\n11 mouth"];
   圭 [label = "圭\n* bricks"];
   土 [label = "土\n158 soil"];
-  口 -> 哇;
-  圭 -> 哇;
-  土 -> 圭;
+
+  口 -> 哇 [thick];
+  圭 -> 哇 [thick];
+  土 -> 圭 [thick];
 }

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   南 [label = "南\n1259 south"];
   囧冂 [label = "囧冂\n* belt"];
   巾 [label = "巾\n410 towel"];
@@ -6,10 +12,11 @@ blockdiag {
   辛 [label = "辛\n1183 peppery"];
   立 [label = "立\n444 standing up"];
   十 [label = "十\n10 ten"];
-  囧冂 -> 南;
-  巾 -> 囧冂;
-  幸 -> 南;
-  辛 -> 幸;
-  立 -> 辛;
-  十 -> 辛;
+
+  囧冂 -> 南 [thick];
+  巾 -> 囧冂 [thick];
+  幸 -> 南 [thick];
+  辛 -> 幸 [thick];
+  立 -> 辛 [thick];
+  十 -> 辛 [thick];
 }

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   湾 [label = "湾\n1493 bay"];
   水 [label = "水\n137 water"];
   丨 [label = "丨\n* walking stick"];
@@ -12,20 +18,21 @@ blockdiag {
   八 [label = "八\n8 eight"];
   刀 [label = "刀\n83 sword"];
   弓 [label = "弓\n1013 bow"];
-  水 -> 湾;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  弯 -> 湾;
-  亦 -> 弯;
-  亠 -> 亦;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  囧只－口 -> 亦;
-  八 -> 囧只－口;
-  刀 -> 亦;
-  弓 -> 弯;
+
+  水 -> 湾 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  弯 -> 湾 [thick];
+  亦 -> 弯 [thick];
+  亠 -> 亦 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亦 [thick];
+  八 -> 囧只－口 [thick];
+  刀 -> 亦 [thick];
+  弓 -> 弯 [thick];
 }

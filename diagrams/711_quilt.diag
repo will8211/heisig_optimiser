@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   被 [label = "被\n711 quilt"];
   衣 [label = "衣\n400 clothing"];
   亠 [label = "亠\n* top hat"];
@@ -9,15 +15,16 @@ blockdiag {
   支 [label = "支\n650 offshoot"];
   十 [label = "十\n10 ten"];
   又 [label = "又\n633 again"];
-  衣 -> 被;
-  亠 -> 衣;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  皮 -> 被;
-  支 -> 皮;
-  十 -> 支;
-  又 -> 支;
+
+  衣 -> 被 [thick];
+  亠 -> 衣 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  皮 -> 被 [thick];
+  支 -> 皮 [thick];
+  十 -> 支 [thick];
+  又 -> 支 [thick];
 }

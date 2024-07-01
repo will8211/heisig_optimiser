@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   聪 [label = "聪\n1974 smart"];
   耳 [label = "耳\n717 ear"];
   总 [label = "总\n566 general"];
@@ -6,10 +12,11 @@ blockdiag {
   一 [label = "一\n1 one"];
   口 [label = "口\n11 mouth"];
   心 [label = "心\n563 heart"];
-  耳 -> 聪;
-  总 -> 聪;
-  丷 -> 总;
-  一 -> 丷;
-  口 -> 总;
-  心 -> 总;
+
+  耳 -> 聪 [thick];
+  总 -> 聪 [thick];
+  丷 -> 总 [thick];
+  一 -> 丷 [thick];
+  口 -> 总 [thick];
+  心 -> 总 [thick];
 }

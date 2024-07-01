@@ -1,0 +1,30 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  翠 [label = "翠\n2472 emerald green"];
+  羽 [label = "羽\n544 feathers"];
+  卒 [label = "卒\n* foot soldiers"];
+  从 [label = "从\n846 follow"];
+  人 [label = "人\n793 person"];
+  亠 [label = "亠\n* top hat"];
+  六 [label = "六\n6 six"];
+  囧只－口 [label = "囧只－口\n* animal legs"];
+  八 [label = "八\n8 eight"];
+  十 [label = "十\n10 ten"];
+
+  羽 -> 翠 [thick];
+  卒 -> 翠 [thick];
+  从 -> 卒 [thick];
+  人 -> 从 [thick];
+  亠 -> 卒 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  十 -> 卒 [thick];
+}

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   逛 [label = "逛\n299 stroll"];
   狂 [label = "狂\n271 crazy"];
   王 [label = "王\n265 king"];
@@ -7,11 +13,12 @@ blockdiag {
   大 [label = "大\n113 large"];
   丶 [label = "丶\n* a drop of"];
   辶 [label = "辶\n* road"];
-  狂 -> 逛;
-  王 -> 狂;
-  工 -> 王;
-  犬 -> 狂;
-  大 -> 犬;
-  丶 -> 犬;
-  辶 -> 逛;
+
+  狂 -> 逛 [thick];
+  王 -> 狂 [thick];
+  工 -> 王 [thick];
+  犬 -> 狂 [thick];
+  大 -> 犬 [thick];
+  丶 -> 犬 [thick];
+  辶 -> 逛 [thick];
 }

@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   刁 [label = "刁\n2814 wily"];
-  131276 [label = "𠃌\n* clothes hanger"];
+  "𠃌" [label = "𠃌\n* clothes hanger"];
   丶 [label = "丶\n* a drop of"];
-  131276 -> 刁;
-  丶 -> 刁;
+
+  "𠃌" -> 刁 [thick];
+  丶 -> 刁 [thick];
 }

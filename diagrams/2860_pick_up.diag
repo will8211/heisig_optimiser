@@ -1,0 +1,31 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  捡 [label = "捡\n2860 pick up"];
+  扌 [label = "扌\n* fingers"];
+  佥 [label = "佥\n* hootenanny"];
+  亼 [label = "亼\n* meeting"];
+  "𠆢" [label = "𠆢\n* umbrella"];
+  囧应－广 [label = "囧应－广\n* owl"];
+  一 [label = "一\n1 one"];
+  指 [label = "指\n594 finger"];
+  旨 [label = "旨\n463 purpose"];
+  匕 [label = "匕\n453 ancient spoon"];
+  日 [label = "日\n12 day"];
+
+  扌 -> 捡 [thick];
+  佥 -> 捡 [thick];
+  亼 -> 佥 [thick];
+  "𠆢" -> 亼 [thick];
+  囧应－广 -> 佥 [thick];
+  一 -> 佥 [thick];
+  指 -> 捡 [thick];
+  扌 -> 指 [thick];
+  旨 -> 指 [thick];
+  匕 -> 旨 [thick];
+  日 -> 旨 [thick];
+}

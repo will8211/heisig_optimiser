@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   事 [label = "事\n953 matter"];
   一 [label = "一\n1 one"];
   口 [label = "口\n11 mouth"];
   肀 [label = "肀\n* rake"];
   彐 [label = "彐\n* broom"];
-  一 -> 事;
-  口 -> 事;
-  肀 -> 事;
-  彐 -> 肀;
+
+  一 -> 事 [thick];
+  口 -> 事 [thick];
+  肀 -> 事 [thick];
+  彐 -> 肀 [thick];
 }

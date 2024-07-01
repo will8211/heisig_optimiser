@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   杨 [label = "杨\n1755 poplar"];
   木 [label = "木\n202 tree"];
-  131283 [label = "𠃓\n* piglets"];
+  "𠃓" [label = "𠃓\n* piglets"];
   豕 [label = "豕\n* sow"];
-  木 -> 杨;
-  131283 -> 杨;
-  豕 -> 131283;
+
+  木 -> 杨 [thick];
+  "𠃓" -> 杨 [thick];
+  豕 -> "𠃓" [thick];
 }

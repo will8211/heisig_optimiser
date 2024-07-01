@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   梨 [label = "梨\n2020 pear"];
   利 [label = "利\n771 profit"];
   禾 [label = "禾\n762 standing grain"];
   刀 [label = "刀\n83 sword"];
   木 [label = "木\n202 tree"];
-  利 -> 梨;
-  禾 -> 利;
-  刀 -> 利;
-  木 -> 梨;
+
+  利 -> 梨 [thick];
+  禾 -> 利 [thick];
+  刀 -> 利 [thick];
+  木 -> 梨 [thick];
 }

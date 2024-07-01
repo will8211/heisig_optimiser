@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   污 [label = "污\n2287 filthy"];
   水 [label = "水\n137 water"];
   丨 [label = "丨\n* walking stick"];
@@ -6,10 +12,11 @@ blockdiag {
   丶 [label = "丶\n* a drop of"];
   亏 [label = "亏\n2286 loss"];
   丂 [label = "丂\n* snare"];
-  水 -> 污;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  亏 -> 污;
-  丂 -> 亏;
+
+  水 -> 污 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  亏 -> 污 [thick];
+  丂 -> 亏 [thick];
 }

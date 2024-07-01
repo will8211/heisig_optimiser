@@ -1,5 +1,12 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   乛 [label = "乛\n* beret"];
   冖 [label = "冖\n* crown"];
-  冖 -> 乛;
+
+  冖 -> 乛 [thick];
 }

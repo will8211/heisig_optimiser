@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   瑞 [label = "瑞\n965 auspicious"];
   玉 [label = "玉\n266 jade"];
   王 [label = "王\n265 king"];
   工 [label = "工\n76 work"];
   丶 [label = "丶\n* a drop of"];
   耑 [label = "耑\n* prospector"];
-  玉 -> 瑞;
-  王 -> 玉;
-  工 -> 王;
-  丶 -> 玉;
-  耑 -> 瑞;
+
+  玉 -> 瑞 [thick];
+  王 -> 玉 [thick];
+  工 -> 王 [thick];
+  丶 -> 玉 [thick];
+  耑 -> 瑞 [thick];
 }

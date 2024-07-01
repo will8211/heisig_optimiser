@@ -1,5 +1,12 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   习 [label = "习\n545 learn"];
   羽 [label = "羽\n544 feathers"];
-  羽 -> 习;
+
+  羽 -> 习 [thick];
 }

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   熟 [label = "熟\n327 ripe"];
   享 [label = "享\n326 enjoy"];
   子 [label = "子\n97 child"];
@@ -15,24 +21,25 @@ blockdiag {
   丸 [label = "丸\n42 pill"];
   九 [label = "九\n9 nine"];
   火 [label = "火\n170 fire"];
-  享 -> 熟;
-  子 -> 享;
-  高 -> 享;
-  向 -> 高;
-  丶 -> 向;
-  冂 -> 向;
-  几 -> 冂;
-  口 -> 向;
-  口 -> 高;
-  冂 -> 高;
-  几 -> 冂;
-  亠 -> 高;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  丸 -> 熟;
-  九 -> 丸;
-  火 -> 熟;
+
+  享 -> 熟 [thick];
+  子 -> 享 [thick];
+  高 -> 享 [thick];
+  向 -> 高 [thick];
+  丶 -> 向 [thick];
+  冂 -> 向 [thick];
+  几 -> 冂 [thick];
+  口 -> 向 [thick];
+  口 -> 高 [thick];
+  冂 -> 高 [thick];
+  几 -> 冂 [thick];
+  亠 -> 高 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  丸 -> 熟 [thick];
+  九 -> 丸 [thick];
+  火 -> 熟 [thick];
 }

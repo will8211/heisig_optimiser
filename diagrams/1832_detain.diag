@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   拘 [label = "拘\n1832 detain"];
   扌 [label = "扌\n* fingers"];
   句 [label = "句\n67 sentence"];
   勹 [label = "勹\n* bound up"];
   口 [label = "口\n11 mouth"];
-  扌 -> 拘;
-  句 -> 拘;
-  勹 -> 句;
-  口 -> 句;
+
+  扌 -> 拘 [thick];
+  句 -> 拘 [thick];
+  勹 -> 句 [thick];
+  口 -> 句 [thick];
 }

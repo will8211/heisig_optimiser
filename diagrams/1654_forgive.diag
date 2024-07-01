@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   谅 [label = "谅\n1654 forgive"];
   言 [label = "言\n346 say"];
   二 [label = "二\n2 two"];
@@ -15,32 +21,33 @@ blockdiag {
   冂 [label = "冂\n* hood"];
   几 [label = "几\n57 how many?"];
   小 [label = "小\n109 small"];
-  言 -> 谅;
-  二 -> 言;
-  一 -> 二;
-  口 -> 言;
-  亠 -> 言;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  京 -> 谅;
-  高 -> 京;
-  向 -> 高;
-  丶 -> 向;
-  冂 -> 向;
-  几 -> 冂;
-  口 -> 向;
-  口 -> 高;
-  冂 -> 高;
-  几 -> 冂;
-  亠 -> 高;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  小 -> 京;
-  丶 -> 小;
+
+  言 -> 谅 [thick];
+  二 -> 言 [thick];
+  一 -> 二 [thick];
+  口 -> 言 [thick];
+  亠 -> 言 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  京 -> 谅 [thick];
+  高 -> 京 [thick];
+  向 -> 高 [thick];
+  丶 -> 向 [thick];
+  冂 -> 向 [thick];
+  几 -> 冂 [thick];
+  口 -> 向 [thick];
+  口 -> 高 [thick];
+  冂 -> 高 [thick];
+  几 -> 冂 [thick];
+  亠 -> 高 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  小 -> 京 [thick];
+  丶 -> 小 [thick];
 }

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   射 [label = "射\n1027 shoot"];
   寸 [label = "寸\n166 Chinese inch"];
   丶 [label = "丶\n* a drop of"];
@@ -6,11 +12,12 @@ blockdiag {
   身 [label = "身\n1026 somebody"];
   自 [label = "自\n33 oneself"];
   目 [label = "目\n15 eye"];
-  寸 -> 射;
-  丶 -> 寸;
-  十 -> 寸;
-  身 -> 射;
-  自 -> 身;
-  丶 -> 自;
-  目 -> 自;
+
+  寸 -> 射 [thick];
+  丶 -> 寸 [thick];
+  十 -> 寸 [thick];
+  身 -> 射 [thick];
+  自 -> 身 [thick];
+  丶 -> 自 [thick];
+  目 -> 自 [thick];
 }

@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   酋 [label = "酋\n1128 chieftain"];
   丷 [label = "丷\n* horns"];
   一 [label = "一\n1 one"];
   酉 [label = "酉\n* whiskey bottle"];
-  丷 -> 酋;
-  一 -> 丷;
-  酉 -> 酋;
+
+  丷 -> 酋 [thick];
+  一 -> 丷 [thick];
+  酉 -> 酋 [thick];
 }

@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   职 [label = "职\n721 job"];
   耳 [label = "耳\n717 ear"];
   只 [label = "只\n51 only"];
   口 [label = "口\n11 mouth"];
   囧只－口 [label = "囧只－口\n* animal legs"];
   八 [label = "八\n8 eight"];
-  耳 -> 职;
-  只 -> 职;
-  口 -> 只;
-  囧只－口 -> 只;
-  八 -> 囧只－口;
+
+  耳 -> 职 [thick];
+  只 -> 职 [thick];
+  口 -> 只 [thick];
+  囧只－口 -> 只 [thick];
+  八 -> 囧只－口 [thick];
 }

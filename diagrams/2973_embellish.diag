@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   缀 [label = "缀\n2973 embellish"];
   纟 [label = "纟\n* thread"];
   厶 [label = "厶\n* elbow"];
-  15898 [label = "㸚\n* stitching"];
-  纟 -> 缀;
-  厶 -> 纟;
-  15898 -> 缀;
+  "㸚" [label = "㸚\n* stitching"];
+
+  纟 -> 缀 [thick];
+  厶 -> 纟 [thick];
+  "㸚" -> 缀 [thick];
 }

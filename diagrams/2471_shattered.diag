@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   碎 [label = "碎\n2471 shattered"];
   石 [label = "石\n125 stone"];
   口 [label = "口\n11 mouth"];
@@ -11,17 +17,18 @@ blockdiag {
   囧只－口 [label = "囧只－口\n* animal legs"];
   八 [label = "八\n8 eight"];
   十 [label = "十\n10 ten"];
-  石 -> 碎;
-  口 -> 石;
-  厂 -> 石;
-  卒 -> 碎;
-  从 -> 卒;
-  人 -> 从;
-  亠 -> 卒;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  十 -> 卒;
+
+  石 -> 碎 [thick];
+  口 -> 石 [thick];
+  厂 -> 石 [thick];
+  卒 -> 碎 [thick];
+  从 -> 卒 [thick];
+  人 -> 从 [thick];
+  亠 -> 卒 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  十 -> 卒 [thick];
 }

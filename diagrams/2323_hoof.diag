@@ -1,19 +1,26 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   蹄 [label = "蹄\n2323 hoof"];
   足 [label = "足\n1048 lower leg"];
   口 [label = "口\n11 mouth"];
   止 [label = "止\n379 stop"];
   帝 [label = "帝\n449 sovereign"];
   立 [label = "立\n444 standing up"];
-  132486 [label = "囧冖＋巾\n* apron"];
+  "囧冖＋巾" [label = "囧冖＋巾\n* apron"];
   巾 [label = "巾\n410 towel"];
   冖 [label = "冖\n* crown"];
-  足 -> 蹄;
-  口 -> 足;
-  止 -> 足;
-  帝 -> 蹄;
-  立 -> 帝;
-  132486 -> 帝;
-  巾 -> 132486;
-  冖 -> 132486;
+
+  足 -> 蹄 [thick];
+  口 -> 足 [thick];
+  止 -> 足 [thick];
+  帝 -> 蹄 [thick];
+  立 -> 帝 [thick];
+  "囧冖＋巾" -> 帝 [thick];
+  巾 -> "囧冖＋巾" [thick];
+  冖 -> "囧冖＋巾" [thick];
 }

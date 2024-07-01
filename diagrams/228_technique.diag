@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   艺 [label = "艺\n228 technique"];
   乙 [label = "乙\n95 second"];
   艹 [label = "艹\n* flower"];
-  乙 -> 艺;
-  艹 -> 艺;
+
+  乙 -> 艺 [thick];
+  艹 -> 艺 [thick];
 }

@@ -1,20 +1,27 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   髓 [label = "髓\n2337 marrow"];
   骨 [label = "骨\n1053 skeleton"];
   月 [label = "月\n13 month"];
   冖 [label = "冖\n* crown"];
   左 [label = "左\n77 left"];
-  131207 [label = "𠂇\n* by one’s side"];
+  "𠂇" [label = "𠂇\n* by one’s side"];
   十 [label = "十\n10 ten"];
   工 [label = "工\n76 work"];
   辶 [label = "辶\n* road"];
-  骨 -> 髓;
-  月 -> 骨;
-  冖 -> 骨;
-  左 -> 髓;
-  131207 -> 左;
-  十 -> 131207;
-  工 -> 左;
-  月 -> 髓;
-  辶 -> 髓;
+
+  骨 -> 髓 [thick];
+  月 -> 骨 [thick];
+  冖 -> 骨 [thick];
+  左 -> 髓 [thick];
+  "𠂇" -> 左 [thick];
+  十 -> "𠂇" [thick];
+  工 -> 左 [thick];
+  月 -> 髓 [thick];
+  辶 -> 髓 [thick];
 }

@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   菊 [label = "菊\n2034 chrysanthemum"];
   艹 [label = "艹\n* flower"];
   勹 [label = "勹\n* bound up"];
   米 [label = "米\n778 rice"];
-  艹 -> 菊;
-  勹 -> 菊;
-  米 -> 菊;
+
+  艹 -> 菊 [thick];
+  勹 -> 菊 [thick];
+  米 -> 菊 [thick];
 }

@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  辣 [label = "辣\n1288 spicy hot"];
+  辛 [label = "辛\n1183 peppery"];
+  立 [label = "立\n444 standing up"];
+  十 [label = "十\n10 ten"];
+  束 [label = "束\n1286 bundle up"];
+  木 [label = "木\n202 tree"];
+  口 [label = "口\n11 mouth"];
+
+  辛 -> 辣 [thick];
+  立 -> 辛 [thick];
+  十 -> 辛 [thick];
+  束 -> 辣 [thick];
+  木 -> 束 [thick];
+  口 -> 束 [thick];
+}

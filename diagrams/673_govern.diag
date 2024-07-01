@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   治 [label = "治\n673 govern"];
   水 [label = "水\n137 water"];
   丨 [label = "丨\n* walking stick"];
@@ -7,11 +13,12 @@ blockdiag {
   台 [label = "台\n672 platform"];
   厶 [label = "厶\n* elbow"];
   口 [label = "口\n11 mouth"];
-  水 -> 治;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  台 -> 治;
-  厶 -> 台;
-  口 -> 台;
+
+  水 -> 治 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  台 -> 治 [thick];
+  厶 -> 台 [thick];
+  口 -> 台 [thick];
 }

@@ -1,15 +1,22 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   检 [label = "检\n1435 examine"];
   木 [label = "木\n202 tree"];
   佥 [label = "佥\n* hootenanny"];
   亼 [label = "亼\n* meeting"];
-  131490 [label = "𠆢\n* umbrella"];
+  "𠆢" [label = "𠆢\n* umbrella"];
   囧应－广 [label = "囧应－广\n* owl"];
   一 [label = "一\n1 one"];
-  木 -> 检;
-  佥 -> 检;
-  亼 -> 佥;
-  131490 -> 亼;
-  囧应－广 -> 佥;
-  一 -> 佥;
+
+  木 -> 检 [thick];
+  佥 -> 检 [thick];
+  亼 -> 佥 [thick];
+  "𠆢" -> 亼 [thick];
+  囧应－广 -> 佥 [thick];
+  一 -> 佥 [thick];
 }

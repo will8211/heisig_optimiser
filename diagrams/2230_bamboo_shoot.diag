@@ -1,0 +1,16 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  笋 [label = "笋\n2230 bamboo shoot"];
+  竹 [label = "竹\n786 bamboo"];
+  丁 [label = "丁\n90 fourth"];
+  尹 [label = "尹\n957 overseer"];
+
+  竹 -> 笋 [thick];
+  丁 -> 竹 [thick];
+  尹 -> 笋 [thick];
+}

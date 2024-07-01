@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   矿 [label = "矿\n1783 mine"];
   石 [label = "石\n125 stone"];
   口 [label = "口\n11 mouth"];
@@ -11,17 +17,18 @@ blockdiag {
   水 [label = "水\n137 water"];
   丨 [label = "丨\n* walking stick"];
   丶 [label = "丶\n* a drop of"];
-  石 -> 矿;
-  口 -> 石;
-  厂 -> 石;
-  洞 -> 矿;
-  同 -> 洞;
-  一 -> 同;
-  口 -> 同;
-  冂 -> 同;
-  几 -> 冂;
-  水 -> 洞;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
+
+  石 -> 矿 [thick];
+  口 -> 石 [thick];
+  厂 -> 石 [thick];
+  洞 -> 矿 [thick];
+  同 -> 洞 [thick];
+  一 -> 同 [thick];
+  口 -> 同 [thick];
+  冂 -> 同 [thick];
+  几 -> 冂 [thick];
+  水 -> 洞 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
 }

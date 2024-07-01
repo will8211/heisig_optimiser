@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   君 [label = "君\n959 monarch"];
   尹 [label = "尹\n957 overseer"];
   口 [label = "口\n11 mouth"];
-  尹 -> 君;
-  口 -> 君;
+
+  尹 -> 君 [thick];
+  口 -> 君 [thick];
 }

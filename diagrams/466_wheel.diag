@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   轮 [label = "轮\n466 wheel"];
   仑 [label = "仑\n* lifeguard"];
   匕 [label = "匕\n453 ancient spoon"];
-  131490 [label = "𠆢\n* umbrella"];
+  "𠆢" [label = "𠆢\n* umbrella"];
   车 [label = "车\n300 car"];
-  仑 -> 轮;
-  匕 -> 仑;
-  131490 -> 仑;
-  车 -> 轮;
+
+  仑 -> 轮 [thick];
+  匕 -> 仑 [thick];
+  "𠆢" -> 仑 [thick];
+  车 -> 轮 [thick];
 }

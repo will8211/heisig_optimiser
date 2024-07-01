@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   缸 [label = "缸\n2879 vat"];
   缶 [label = "缶\n* tin can"];
   午 [label = "午\n542 noon"];
   山 [label = "山\n688 mountain"];
   工 [label = "工\n76 work"];
-  缶 -> 缸;
-  午 -> 缶;
-  山 -> 缶;
-  工 -> 缸;
+
+  缶 -> 缸 [thick];
+  午 -> 缶 [thick];
+  山 -> 缶 [thick];
+  工 -> 缸 [thick];
 }

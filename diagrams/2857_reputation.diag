@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   誉 [label = "誉\n2857 reputation"];
   兴 [label = "兴\n1433 excitement"];
   囧应－广 [label = "囧应－广\n* owl"];
@@ -10,19 +16,20 @@ blockdiag {
   口 [label = "口\n11 mouth"];
   亠 [label = "亠\n* top hat"];
   六 [label = "六\n6 six"];
-  兴 -> 誉;
-  囧应－广 -> 兴;
-  一 -> 兴;
-  囧只－口 -> 兴;
-  八 -> 囧只－口;
-  言 -> 誉;
-  二 -> 言;
-  一 -> 二;
-  口 -> 言;
-  亠 -> 言;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
+
+  兴 -> 誉 [thick];
+  囧应－广 -> 兴 [thick];
+  一 -> 兴 [thick];
+  囧只－口 -> 兴 [thick];
+  八 -> 囧只－口 [thick];
+  言 -> 誉 [thick];
+  二 -> 言 [thick];
+  一 -> 二 [thick];
+  口 -> 言 [thick];
+  亠 -> 言 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
 }

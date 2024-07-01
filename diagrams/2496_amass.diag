@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   蕴 [label = "蕴\n2496 amass"];
   艹 [label = "艹\n* flower"];
   纟 [label = "纟\n* thread"];
   厶 [label = "厶\n* elbow"];
   日 [label = "日\n12 day"];
   皿 [label = "皿\n* dish"];
-  艹 -> 蕴;
-  纟 -> 蕴;
-  厶 -> 纟;
-  日 -> 蕴;
-  皿 -> 蕴;
+
+  艹 -> 蕴 [thick];
+  纟 -> 蕴 [thick];
+  厶 -> 纟 [thick];
+  日 -> 蕴 [thick];
+  皿 -> 蕴 [thick];
 }

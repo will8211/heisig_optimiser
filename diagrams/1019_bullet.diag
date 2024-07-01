@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   弹 [label = "弹\n1019 bullet"];
   弓 [label = "弓\n1013 bow"];
   单 [label = "单\n1018 list"];
@@ -6,10 +12,11 @@ blockdiag {
   一 [label = "一\n1 one"];
   田 [label = "田\n14 rice field"];
   十 [label = "十\n10 ten"];
-  弓 -> 弹;
-  单 -> 弹;
-  丷 -> 单;
-  一 -> 丷;
-  田 -> 单;
-  十 -> 单;
+
+  弓 -> 弹 [thick];
+  单 -> 弹 [thick];
+  丷 -> 单 [thick];
+  一 -> 丷 [thick];
+  田 -> 单 [thick];
+  十 -> 单 [thick];
 }

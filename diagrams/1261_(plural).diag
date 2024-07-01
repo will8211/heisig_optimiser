@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   们 [label = "们\n1261 (plural)"];
   人 [label = "人\n793 person"];
   门 [label = "门\n1260 gate"];
-  人 -> 们;
-  门 -> 们;
+
+  人 -> 们 [thick];
+  门 -> 们 [thick];
 }

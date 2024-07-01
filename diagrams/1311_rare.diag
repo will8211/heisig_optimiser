@@ -1,17 +1,24 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   珍 [label = "珍\n1311 rare"];
   玉 [label = "玉\n266 jade"];
   王 [label = "王\n265 king"];
   工 [label = "工\n76 work"];
   丶 [label = "丶\n* a drop of"];
-  13361 [label = "㐱\n* cocktail"];
-  131490 [label = "𠆢\n* umbrella"];
+  "㐱" [label = "㐱\n* cocktail"];
+  "𠆢" [label = "𠆢\n* umbrella"];
   彡 [label = "彡\n* rooster tail"];
-  玉 -> 珍;
-  王 -> 玉;
-  工 -> 王;
-  丶 -> 玉;
-  13361 -> 珍;
-  131490 -> 13361;
-  彡 -> 13361;
+
+  玉 -> 珍 [thick];
+  王 -> 玉 [thick];
+  工 -> 王 [thick];
+  丶 -> 玉 [thick];
+  "㐱" -> 珍 [thick];
+  "𠆢" -> "㐱" [thick];
+  彡 -> "㐱" [thick];
 }

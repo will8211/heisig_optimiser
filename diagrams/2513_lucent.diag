@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   朗 [label = "朗\n2513 lucent"];
   良 [label = "良\n1151 high-quality"];
   丶 [label = "丶\n* a drop of"];
   艮 [label = "艮\n* silver"];
   月 [label = "月\n13 month"];
-  良 -> 朗;
-  丶 -> 良;
-  艮 -> 良;
-  月 -> 朗;
+
+  良 -> 朗 [thick];
+  丶 -> 良 [thick];
+  艮 -> 良 [thick];
+  月 -> 朗 [thick];
 }

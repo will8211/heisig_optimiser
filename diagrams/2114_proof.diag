@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   凭 [label = "凭\n2114 proof"];
   任 [label = "任\n853 appoint"];
   人 [label = "人\n793 person"];
   壬 [label = "壬\n* porter"];
   士 [label = "士\n334 soldier"];
   几 [label = "几\n57 how many?"];
-  任 -> 凭;
-  人 -> 任;
-  壬 -> 任;
-  士 -> 壬;
-  几 -> 凭;
+
+  任 -> 凭 [thick];
+  人 -> 任 [thick];
+  壬 -> 任 [thick];
+  士 -> 壬 [thick];
+  几 -> 凭 [thick];
 }

@@ -1,19 +1,26 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   刘 [label = "刘\n2712 Liu"];
   文 [label = "文\n1315 literature"];
   亠 [label = "亠\n* top hat"];
   六 [label = "六\n6 six"];
   囧只－口 [label = "囧只－口\n* animal legs"];
   八 [label = "八\n8 eight"];
-  13317 [label = "㐅\n* sheaf"];
+  "㐅" [label = "㐅\n* sheaf"];
   刀 [label = "刀\n83 sword"];
-  文 -> 刘;
-  亠 -> 文;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  13317 -> 文;
-  刀 -> 刘;
+
+  文 -> 刘 [thick];
+  亠 -> 文 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  "㐅" -> 文 [thick];
+  刀 -> 刘 [thick];
 }

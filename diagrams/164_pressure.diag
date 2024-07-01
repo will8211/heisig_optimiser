@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   压 [label = "压\n164 pressure"];
   土 [label = "土\n158 soil"];
   厂 [label = "厂\n121 factory"];
   丶 [label = "丶\n* a drop of"];
-  土 -> 压;
-  厂 -> 压;
-  丶 -> 压;
+
+  土 -> 压 [thick];
+  厂 -> 压 [thick];
+  丶 -> 压 [thick];
 }

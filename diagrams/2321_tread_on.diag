@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  践 [label = "践\n2321 tread on"];
+  足 [label = "足\n1048 lower leg"];
+  口 [label = "口\n11 mouth"];
+  止 [label = "止\n379 stop"];
+  戋 [label = "戋\n* float"];
+  戈 [label = "戈\n361 halberd"];
+  弋 [label = "弋\n* arrow"];
+
+  足 -> 践 [thick];
+  口 -> 足 [thick];
+  止 -> 足 [thick];
+  戋 -> 践 [thick];
+  戈 -> 戋 [thick];
+  弋 -> 戈 [thick];
+}

@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  挡 [label = "挡\n2206 fend off"];
+  扌 [label = "扌\n* fingers"];
+  当 [label = "当\n947 work as"];
+  小 [label = "小\n109 small"];
+  丶 [label = "丶\n* a drop of"];
+  彐 [label = "彐\n* broom"];
+
+  扌 -> 挡 [thick];
+  当 -> 挡 [thick];
+  小 -> 当 [thick];
+  丶 -> 小 [thick];
+  彐 -> 当 [thick];
+}

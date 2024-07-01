@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   香 [label = "香\n772 perfume"];
   禾 [label = "禾\n762 standing grain"];
   日 [label = "日\n12 day"];
-  禾 -> 香;
-  日 -> 香;
+
+  禾 -> 香 [thick];
+  日 -> 香 [thick];
 }

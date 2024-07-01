@@ -1,19 +1,26 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   惹 [label = "惹\n1797 provoke"];
   囧若 [label = "囧若\n* Disneyland"];
   若 [label = "若\n226 as if"];
   艹 [label = "艹\n* flower"];
   右 [label = "右\n78 right"];
   口 [label = "口\n11 mouth"];
-  131207 [label = "𠂇\n* by one’s side"];
+  "𠂇" [label = "𠂇\n* by one’s side"];
   十 [label = "十\n10 ten"];
   心 [label = "心\n563 heart"];
-  囧若 -> 惹;
-  若 -> 囧若;
-  艹 -> 若;
-  右 -> 若;
-  口 -> 右;
-  131207 -> 右;
-  十 -> 131207;
-  心 -> 惹;
+
+  囧若 -> 惹 [thick];
+  若 -> 囧若 [thick];
+  艹 -> 若 [thick];
+  右 -> 若 [thick];
+  口 -> 右 [thick];
+  "𠂇" -> 右 [thick];
+  十 -> "𠂇" [thick];
+  心 -> 惹 [thick];
 }

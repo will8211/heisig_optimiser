@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   越 [label = "越\n393 surpass"];
   戊 [label = "戊\n* parade"];
   戈 [label = "戈\n361 halberd"];
@@ -9,13 +15,14 @@ blockdiag {
   一 [label = "一\n1 one"];
   止 [label = "止\n379 stop"];
   土 [label = "土\n158 soil"];
-  戊 -> 越;
-  戈 -> 戊;
-  弋 -> 戈;
-  走 -> 越;
-  囧走－十 -> 走;
-  正 -> 囧走－十;
-  一 -> 正;
-  止 -> 正;
-  土 -> 走;
+
+  戊 -> 越 [thick];
+  戈 -> 戊 [thick];
+  弋 -> 戈 [thick];
+  走 -> 越 [thick];
+  囧走－十 -> 走 [thick];
+  正 -> 囧走－十 [thick];
+  一 -> 正 [thick];
+  止 -> 正 [thick];
+  土 -> 走 [thick];
 }

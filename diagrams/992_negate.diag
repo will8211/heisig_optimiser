@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   否 [label = "否\n992 negate"];
   不 [label = "不\n991 no"];
   一 [label = "一\n1 one"];
   人 [label = "人\n793 person"];
   丶 [label = "丶\n* a drop of"];
   口 [label = "口\n11 mouth"];
-  不 -> 否;
-  一 -> 不;
-  人 -> 不;
-  丶 -> 不;
-  口 -> 否;
+
+  不 -> 否 [thick];
+  一 -> 不 [thick];
+  人 -> 不 [thick];
+  丶 -> 不 [thick];
+  口 -> 否 [thick];
 }

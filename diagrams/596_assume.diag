@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   担 [label = "担\n596 assume"];
   扌 [label = "扌\n* fingers"];
   旦 [label = "旦\n30 daybreak"];
   日 [label = "日\n12 day"];
   一 [label = "一\n1 one"];
-  扌 -> 担;
-  旦 -> 担;
-  日 -> 旦;
-  一 -> 旦;
+
+  扌 -> 担 [thick];
+  旦 -> 担 [thick];
+  日 -> 旦 [thick];
+  一 -> 旦 [thick];
 }

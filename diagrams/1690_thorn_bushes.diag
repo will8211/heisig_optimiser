@@ -1,0 +1,18 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  棘 [label = "棘\n1690 thorn bushes"];
+  朿 [label = "朿\n* thorn"];
+  囧冂 [label = "囧冂\n* belt"];
+  巾 [label = "巾\n410 towel"];
+  木 [label = "木\n202 tree"];
+
+  朿 -> 棘 [thick];
+  囧冂 -> 朿 [thick];
+  巾 -> 囧冂 [thick];
+  木 -> 朿 [thick];
+}

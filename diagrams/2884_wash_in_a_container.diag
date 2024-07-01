@@ -1,0 +1,28 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  淘 [label = "淘\n2884 wash in a container"];
+  水 [label = "水\n137 water"];
+  丨 [label = "丨\n* walking stick"];
+  一 [label = "一\n1 one"];
+  丶 [label = "丶\n* a drop of"];
+  匋 [label = "匋\n* canteen"];
+  勹 [label = "勹\n* bound up"];
+  缶 [label = "缶\n* tin can"];
+  午 [label = "午\n542 noon"];
+  山 [label = "山\n688 mountain"];
+
+  水 -> 淘 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  匋 -> 淘 [thick];
+  勹 -> 匋 [thick];
+  缶 -> 匋 [thick];
+  午 -> 缶 [thick];
+  山 -> 缶 [thick];
+}

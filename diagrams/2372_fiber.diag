@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   纤 [label = "纤\n2372 fiber"];
   纟 [label = "纟\n* thread"];
   厶 [label = "厶\n* elbow"];
   千 [label = "千\n39 thousand"];
   丶 [label = "丶\n* a drop of"];
   十 [label = "十\n10 ten"];
-  纟 -> 纤;
-  厶 -> 纟;
-  千 -> 纤;
-  丶 -> 千;
-  十 -> 千;
+
+  纟 -> 纤 [thick];
+  厶 -> 纟 [thick];
+  千 -> 纤 [thick];
+  丶 -> 千 [thick];
+  十 -> 千 [thick];
 }

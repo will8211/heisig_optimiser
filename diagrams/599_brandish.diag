@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   挥 [label = "挥\n599 brandish"];
   扌 [label = "扌\n* fingers"];
   军 [label = "军\n320 army"];
   冖 [label = "冖\n* crown"];
   车 [label = "车\n300 car"];
-  扌 -> 挥;
-  军 -> 挥;
-  冖 -> 军;
-  车 -> 军;
+
+  扌 -> 挥 [thick];
+  军 -> 挥 [thick];
+  冖 -> 军 [thick];
+  车 -> 军 [thick];
 }

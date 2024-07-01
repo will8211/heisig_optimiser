@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   英 [label = "英\n1323 England"];
   艹 [label = "艹\n* flower"];
   央 [label = "央\n1322 center"];
   大 [label = "大\n113 large"];
-  艹 -> 英;
-  央 -> 英;
-  大 -> 央;
+
+  艹 -> 英 [thick];
+  央 -> 英 [thick];
+  大 -> 央 [thick];
 }

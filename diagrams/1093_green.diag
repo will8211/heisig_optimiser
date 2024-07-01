@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   绿 [label = "绿\n1093 green"];
   纟 [label = "纟\n* thread"];
   厶 [label = "厶\n* elbow"];
@@ -8,12 +14,13 @@ blockdiag {
   丨 [label = "丨\n* walking stick"];
   一 [label = "一\n1 one"];
   丶 [label = "丶\n* a drop of"];
-  纟 -> 绿;
-  厶 -> 纟;
-  录 -> 绿;
-  彐 -> 录;
-  水 -> 录;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
+
+  纟 -> 绿 [thick];
+  厶 -> 纟 [thick];
+  录 -> 绿 [thick];
+  彐 -> 录 [thick];
+  水 -> 录 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
 }

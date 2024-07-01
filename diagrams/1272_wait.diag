@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   候 [label = "候\n1272 wait"];
   侯 [label = "侯\n1271 marquis"];
   人 [label = "人\n793 person"];
@@ -9,14 +15,15 @@ blockdiag {
   大 [label = "大\n113 large"];
   丶 [label = "丶\n* a drop of"];
   丨 [label = "丨\n* walking stick"];
-  侯 -> 候;
-  人 -> 侯;
-  囧侯－亻－矢 -> 侯;
-  矢 -> 侯;
-  天 -> 矢;
-  一 -> 天;
-  大 -> 天;
-  丶 -> 矢;
-  丨 -> 候;
-  一 -> 丨;
+
+  侯 -> 候 [thick];
+  人 -> 侯 [thick];
+  囧侯－亻－矢 -> 侯 [thick];
+  矢 -> 侯 [thick];
+  天 -> 矢 [thick];
+  一 -> 天 [thick];
+  大 -> 天 [thick];
+  丶 -> 矢 [thick];
+  丨 -> 候 [thick];
+  一 -> 丨 [thick];
 }

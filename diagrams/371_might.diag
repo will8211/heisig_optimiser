@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   威 [label = "威\n371 might"];
   戌 [label = "戌\n* march"];
   戊 [label = "戊\n* parade"];
@@ -6,10 +12,11 @@ blockdiag {
   弋 [label = "弋\n* arrow"];
   一 [label = "一\n1 one"];
   女 [label = "女\n102 woman"];
-  戌 -> 威;
-  戊 -> 戌;
-  戈 -> 戊;
-  弋 -> 戈;
-  一 -> 戌;
-  女 -> 威;
+
+  戌 -> 威 [thick];
+  戊 -> 戌 [thick];
+  戈 -> 戊 [thick];
+  弋 -> 戈 [thick];
+  一 -> 戌 [thick];
+  女 -> 威 [thick];
 }

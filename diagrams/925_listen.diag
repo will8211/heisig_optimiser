@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   听 [label = "听\n925 listen"];
   口 [label = "口\n11 mouth"];
   斤 [label = "斤\n924 catty"];
-  口 -> 听;
-  斤 -> 听;
+
+  口 -> 听 [thick];
+  斤 -> 听 [thick];
 }

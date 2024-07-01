@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   豫 [label = "豫\n2892 pleased"];
   予 [label = "予\n1005 bestow"];
   矛 [label = "矛\n1002 spear"];
@@ -9,13 +15,14 @@ blockdiag {
   儿 [label = "儿\n56 youngster"];
   丶 [label = "丶\n* a drop of"];
   豕 [label = "豕\n* sow"];
-  予 -> 豫;
-  矛 -> 予;
-  象 -> 豫;
-  兔 -> 象;
-  勹 -> 兔;
-  口 -> 兔;
-  儿 -> 兔;
-  丶 -> 兔;
-  豕 -> 象;
+
+  予 -> 豫 [thick];
+  矛 -> 予 [thick];
+  象 -> 豫 [thick];
+  兔 -> 象 [thick];
+  勹 -> 兔 [thick];
+  口 -> 兔 [thick];
+  儿 -> 兔 [thick];
+  丶 -> 兔 [thick];
+  豕 -> 象 [thick];
 }

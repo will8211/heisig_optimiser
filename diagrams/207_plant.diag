@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   植 [label = "植\n207 plant"];
   木 [label = "木\n202 tree"];
   直 [label = "直\n72 straight"];
   十 [label = "十\n10 ten"];
   目 [label = "目\n15 eye"];
   一 [label = "一\n1 one"];
-  木 -> 植;
-  直 -> 植;
-  十 -> 直;
-  目 -> 直;
-  一 -> 直;
+
+  木 -> 植 [thick];
+  直 -> 植 [thick];
+  十 -> 直 [thick];
+  目 -> 直 [thick];
+  一 -> 直 [thick];
 }

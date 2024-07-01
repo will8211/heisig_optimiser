@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   微 [label = "微\n759 tiny"];
   行 [label = "行\n754 line of business"];
   山 [label = "山\n688 mountain"];
   一 [label = "一\n1 one"];
   几 [label = "几\n57 how many?"];
   攵 [label = "攵\n* taskmaster"];
-  行 -> 微;
-  山 -> 微;
-  一 -> 微;
-  几 -> 微;
-  攵 -> 微;
+
+  行 -> 微 [thick];
+  山 -> 微 [thick];
+  一 -> 微 [thick];
+  几 -> 微 [thick];
+  攵 -> 微 [thick];
 }

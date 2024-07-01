@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   徘 [label = "徘\n2635 irresolute"];
   行 [label = "行\n754 line of business"];
   非 [label = "非\n1267 non-"];
-  行 -> 徘;
-  非 -> 徘;
+
+  行 -> 徘 [thick];
+  非 -> 徘 [thick];
 }

@@ -1,0 +1,18 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  再 [label = "再\n1366 once more"];
+  一 [label = "一\n1 one"];
+  冂 [label = "冂\n* hood"];
+  几 [label = "几\n57 how many?"];
+  土 [label = "土\n158 soil"];
+
+  一 -> 再 [thick];
+  冂 -> 再 [thick];
+  几 -> 冂 [thick];
+  土 -> 再 [thick];
+}

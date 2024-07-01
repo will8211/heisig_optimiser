@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   萨 [label = "萨\n2711 Samoa"];
   艹 [label = "艹\n* flower"];
   阝 [label = "阝\n* pinnacle"];
   产 [label = "产\n1312 products"];
   立 [label = "立\n444 standing up"];
   厂 [label = "厂\n121 factory"];
-  艹 -> 萨;
-  阝 -> 萨;
-  产 -> 萨;
-  立 -> 产;
-  厂 -> 产;
+
+  艹 -> 萨 [thick];
+  阝 -> 萨 [thick];
+  产 -> 萨 [thick];
+  立 -> 产 [thick];
+  厂 -> 产 [thick];
 }

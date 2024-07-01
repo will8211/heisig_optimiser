@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   巷 [label = "巷\n1356 lane"];
   共 [label = "共\n1354 together"];
   囧昔－日 [label = "囧昔－日\n* salad"];
@@ -7,11 +13,12 @@ blockdiag {
   八 [label = "八\n8 eight"];
   已 [label = "已\n519 already"];
   己 [label = "己\n515 self"];
-  共 -> 巷;
-  囧昔－日 -> 共;
-  艹 -> 囧昔－日;
-  囧只－口 -> 共;
-  八 -> 囧只－口;
-  已 -> 巷;
-  己 -> 已;
+
+  共 -> 巷 [thick];
+  囧昔－日 -> 共 [thick];
+  艹 -> 囧昔－日 [thick];
+  囧只－口 -> 共 [thick];
+  八 -> 囧只－口 [thick];
+  已 -> 巷 [thick];
+  己 -> 已 [thick];
 }

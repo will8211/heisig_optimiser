@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   首 [label = "首\n71 heads"];
   丷 [label = "丷\n* horns"];
   一 [label = "一\n1 one"];
   自 [label = "自\n33 oneself"];
   丶 [label = "丶\n* a drop of"];
   目 [label = "目\n15 eye"];
-  丷 -> 首;
-  一 -> 丷;
-  自 -> 首;
-  丶 -> 自;
-  目 -> 自;
+
+  丷 -> 首 [thick];
+  一 -> 丷 [thick];
+  自 -> 首 [thick];
+  丶 -> 自 [thick];
+  目 -> 自 [thick];
 }

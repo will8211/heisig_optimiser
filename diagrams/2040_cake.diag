@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   糕 [label = "糕\n2040 cake"];
   米 [label = "米\n778 rice"];
   羊 [label = "羊\n528 sheep"];
   丷 [label = "丷\n* horns"];
   一 [label = "一\n1 one"];
   火 [label = "火\n170 fire"];
-  米 -> 糕;
-  羊 -> 糕;
-  丷 -> 羊;
-  一 -> 丷;
-  火 -> 糕;
+
+  米 -> 糕 [thick];
+  羊 -> 糕 [thick];
+  丷 -> 羊 [thick];
+  一 -> 丷 [thick];
+  火 -> 糕 [thick];
 }

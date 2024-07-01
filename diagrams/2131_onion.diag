@@ -1,17 +1,24 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   葱 [label = "葱\n2131 onion"];
   艹 [label = "艹\n* flower"];
   匆 [label = "匆\n2130 hurriedly"];
   勿 [label = "勿\n877 not"];
-  131283 [label = "𠃓\n* piglets"];
+  "𠃓" [label = "𠃓\n* piglets"];
   豕 [label = "豕\n* sow"];
   丶 [label = "丶\n* a drop of"];
   心 [label = "心\n563 heart"];
-  艹 -> 葱;
-  匆 -> 葱;
-  勿 -> 匆;
-  131283 -> 勿;
-  豕 -> 131283;
-  丶 -> 匆;
-  心 -> 葱;
+
+  艹 -> 葱 [thick];
+  匆 -> 葱 [thick];
+  勿 -> 匆 [thick];
+  "𠃓" -> 勿 [thick];
+  豕 -> "𠃓" [thick];
+  丶 -> 匆 [thick];
+  心 -> 葱 [thick];
 }

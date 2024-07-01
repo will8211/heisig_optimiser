@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   筛 [label = "筛\n2052 sift"];
   竹 [label = "竹\n786 bamboo"];
   丁 [label = "丁\n90 fourth"];
@@ -7,11 +13,12 @@ blockdiag {
   刀 [label = "刀\n83 sword"];
   巾 [label = "巾\n410 towel"];
   一 [label = "一\n1 one"];
-  竹 -> 筛;
-  丁 -> 竹;
-  师 -> 筛;
-  帅 -> 师;
-  刀 -> 帅;
-  巾 -> 帅;
-  一 -> 师;
+
+  竹 -> 筛 [thick];
+  丁 -> 竹 [thick];
+  师 -> 筛 [thick];
+  帅 -> 师 [thick];
+  刀 -> 帅 [thick];
+  巾 -> 帅 [thick];
+  一 -> 师 [thick];
 }

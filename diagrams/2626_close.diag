@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   闭 [label = "闭\n2626 close"];
   门 [label = "门\n1260 gate"];
   才 [label = "才\n620 genius"];
-  门 -> 闭;
-  才 -> 闭;
+
+  门 -> 闭 [thick];
+  才 -> 闭 [thick];
 }

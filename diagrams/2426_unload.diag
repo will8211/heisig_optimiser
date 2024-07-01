@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   卸 [label = "卸\n2426 unload"];
   午 [label = "午\n542 noon"];
   止 [label = "止\n379 stop"];
   卩 [label = "卩\n* stamp"];
-  午 -> 卸;
-  止 -> 卸;
-  卩 -> 卸;
+
+  午 -> 卸 [thick];
+  止 -> 卸 [thick];
+  卩 -> 卸 [thick];
 }

@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   师 [label = "师\n412 teacher"];
   帅 [label = "帅\n411 commander"];
   刀 [label = "刀\n83 sword"];
   巾 [label = "巾\n410 towel"];
   一 [label = "一\n1 one"];
-  帅 -> 师;
-  刀 -> 帅;
-  巾 -> 帅;
-  一 -> 师;
+
+  帅 -> 师 [thick];
+  刀 -> 帅 [thick];
+  巾 -> 帅 [thick];
+  一 -> 师 [thick];
 }

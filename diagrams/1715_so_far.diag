@@ -1,0 +1,18 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  迄 [label = "迄\n1715 so far"];
+  乞 [label = "乞\n470 beg"];
+  "𠂉" [label = "𠂉\n* reclining"];
+  乙 [label = "乙\n95 second"];
+  辶 [label = "辶\n* road"];
+
+  乞 -> 迄 [thick];
+  "𠂉" -> 乞 [thick];
+  乙 -> 乞 [thick];
+  辶 -> 迄 [thick];
+}

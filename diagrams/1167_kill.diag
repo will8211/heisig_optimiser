@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   杀 [label = "杀\n1167 kill"];
-  13317 [label = "㐅\n* sheaf"];
+  "㐅" [label = "㐅\n* sheaf"];
   木 [label = "木\n202 tree"];
-  13317 -> 杀;
-  木 -> 杀;
+
+  "㐅" -> 杀 [thick];
+  木 -> 杀 [thick];
 }

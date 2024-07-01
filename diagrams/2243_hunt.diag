@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   猎 [label = "猎\n2243 hunt"];
   犬 [label = "犬\n239 pooch"];
   大 [label = "大\n113 large"];
@@ -7,11 +13,12 @@ blockdiag {
   囧昔－日 [label = "囧昔－日\n* salad"];
   艹 [label = "艹\n* flower"];
   日 [label = "日\n12 day"];
-  犬 -> 猎;
-  大 -> 犬;
-  丶 -> 犬;
-  昔 -> 猎;
-  囧昔－日 -> 昔;
-  艹 -> 囧昔－日;
-  日 -> 昔;
+
+  犬 -> 猎 [thick];
+  大 -> 犬 [thick];
+  丶 -> 犬 [thick];
+  昔 -> 猎 [thick];
+  囧昔－日 -> 昔 [thick];
+  艹 -> 囧昔－日 [thick];
+  日 -> 昔 [thick];
 }

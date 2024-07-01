@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   枣 [label = "枣\n1694 jujube"];
   朿 [label = "朿\n* thorn"];
   囧冂 [label = "囧冂\n* belt"];
@@ -9,13 +15,14 @@ blockdiag {
   丨 [label = "丨\n* walking stick"];
   一 [label = "一\n1 one"];
   丶 [label = "丶\n* a drop of"];
-  朿 -> 枣;
-  囧冂 -> 朿;
-  巾 -> 囧冂;
-  木 -> 朿;
-  冫 -> 枣;
-  水 -> 冫;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
+
+  朿 -> 枣 [thick];
+  囧冂 -> 朿 [thick];
+  巾 -> 囧冂 [thick];
+  木 -> 朿 [thick];
+  冫 -> 枣 [thick];
+  水 -> 冫 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
 }

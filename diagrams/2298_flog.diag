@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   拷 [label = "拷\n2298 flog"];
   扌 [label = "扌\n* fingers"];
   考 [label = "考\n1030 take an exam"];
@@ -9,13 +15,14 @@ blockdiag {
   匕 [label = "匕\n453 ancient spoon"];
   囧与－一 [label = "囧与－一\n* slingshot"];
   弓 [label = "弓\n1013 bow"];
-  扌 -> 拷;
-  考 -> 拷;
-  老 -> 考;
-  土 -> 老;
-  丨 -> 老;
-  一 -> 丨;
-  匕 -> 老;
-  囧与－一 -> 考;
-  弓 -> 囧与－一;
+
+  扌 -> 拷 [thick];
+  考 -> 拷 [thick];
+  老 -> 考 [thick];
+  土 -> 老 [thick];
+  丨 -> 老 [thick];
+  一 -> 丨 [thick];
+  匕 -> 老 [thick];
+  囧与－一 -> 考 [thick];
+  弓 -> 囧与－一 [thick];
 }

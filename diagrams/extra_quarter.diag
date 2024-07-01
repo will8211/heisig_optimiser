@@ -1,5 +1,12 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   囧眷－目 [label = "囧眷－目\n* quarter"];
   半 [label = "半\n980 half"];
-  半 -> 囧眷－目;
+
+  半 -> 囧眷－目 [thick];
 }

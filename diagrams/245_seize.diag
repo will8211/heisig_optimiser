@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   获 [label = "获\n245 seize"];
   艹 [label = "艹\n* flower"];
   犬 [label = "犬\n239 pooch"];
   大 [label = "大\n113 large"];
   丶 [label = "丶\n* a drop of"];
-  艹 -> 获;
-  犬 -> 获;
-  大 -> 犬;
-  丶 -> 犬;
+
+  艹 -> 获 [thick];
+  犬 -> 获 [thick];
+  大 -> 犬 [thick];
+  丶 -> 犬 [thick];
 }

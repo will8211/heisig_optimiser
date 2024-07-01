@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   谣 [label = "谣\n2886 rumor"];
   言 [label = "言\n346 say"];
   二 [label = "二\n2 two"];
@@ -8,26 +14,27 @@ blockdiag {
   六 [label = "六\n6 six"];
   囧只－口 [label = "囧只－口\n* animal legs"];
   八 [label = "八\n8 eight"];
-  17219 [label = "䍃\n* can opener"];
+  "䍃" [label = "䍃\n* can opener"];
   爪 [label = "爪\n663 claw"];
-  131206 [label = "𠂆\n* drag"];
+  "𠂆" [label = "𠂆\n* drag"];
   缶 [label = "缶\n* tin can"];
   午 [label = "午\n542 noon"];
   山 [label = "山\n688 mountain"];
-  言 -> 谣;
-  二 -> 言;
-  一 -> 二;
-  口 -> 言;
-  亠 -> 言;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  17219 -> 谣;
-  爪 -> 17219;
-  131206 -> 爪;
-  缶 -> 17219;
-  午 -> 缶;
-  山 -> 缶;
+
+  言 -> 谣 [thick];
+  二 -> 言 [thick];
+  一 -> 二 [thick];
+  口 -> 言 [thick];
+  亠 -> 言 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  "䍃" -> 谣 [thick];
+  爪 -> "䍃" [thick];
+  "𠂆" -> 爪 [thick];
+  缶 -> "䍃" [thick];
+  午 -> 缶 [thick];
+  山 -> 缶 [thick];
 }

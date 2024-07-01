@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   么 [label = "么\n670 (suffix)"];
   丶 [label = "丶\n* a drop of"];
   厶 [label = "厶\n* elbow"];
-  丶 -> 么;
-  厶 -> 么;
+
+  丶 -> 么 [thick];
+  厶 -> 么 [thick];
 }

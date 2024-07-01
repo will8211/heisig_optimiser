@@ -1,17 +1,24 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   缔 [label = "缔\n2382 conclude"];
   纟 [label = "纟\n* thread"];
   厶 [label = "厶\n* elbow"];
   帝 [label = "帝\n449 sovereign"];
   立 [label = "立\n444 standing up"];
-  132486 [label = "囧冖＋巾\n* apron"];
+  "囧冖＋巾" [label = "囧冖＋巾\n* apron"];
   巾 [label = "巾\n410 towel"];
   冖 [label = "冖\n* crown"];
-  纟 -> 缔;
-  厶 -> 纟;
-  帝 -> 缔;
-  立 -> 帝;
-  132486 -> 帝;
-  巾 -> 132486;
-  冖 -> 132486;
+
+  纟 -> 缔 [thick];
+  厶 -> 纟 [thick];
+  帝 -> 缔 [thick];
+  立 -> 帝 [thick];
+  "囧冖＋巾" -> 帝 [thick];
+  巾 -> "囧冖＋巾" [thick];
+  冖 -> "囧冖＋巾" [thick];
 }

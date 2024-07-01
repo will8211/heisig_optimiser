@@ -1,12 +1,19 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   兽 [label = "兽\n1509 beast"];
   丷 [label = "丷\n* horns"];
   一 [label = "一\n1 one"];
   田 [label = "田\n14 rice field"];
   口 [label = "口\n11 mouth"];
-  丷 -> 兽;
-  一 -> 丷;
-  田 -> 兽;
-  一 -> 兽;
-  口 -> 兽;
+
+  丷 -> 兽 [thick];
+  一 -> 丷 [thick];
+  田 -> 兽 [thick];
+  一 -> 兽 [thick];
+  口 -> 兽 [thick];
 }

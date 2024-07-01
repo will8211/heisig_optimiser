@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   院 [label = "院\n1065 Inst."];
   阝 [label = "阝\n* pinnacle"];
   完 [label = "完\n193 finish"];
@@ -7,11 +13,12 @@ blockdiag {
   二 [label = "二\n2 two"];
   一 [label = "一\n1 one"];
   儿 [label = "儿\n56 youngster"];
-  阝 -> 院;
-  完 -> 院;
-  宀 -> 完;
-  元 -> 完;
-  二 -> 元;
-  一 -> 二;
-  儿 -> 元;
+
+  阝 -> 院 [thick];
+  完 -> 院 [thick];
+  宀 -> 完 [thick];
+  元 -> 完 [thick];
+  二 -> 元 [thick];
+  一 -> 二 [thick];
+  儿 -> 元 [thick];
 }

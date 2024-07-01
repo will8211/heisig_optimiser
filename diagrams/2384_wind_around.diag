@@ -1,0 +1,39 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  缠 [label = "缠\n2384 wind around"];
+  纟 [label = "纟\n* thread"];
+  厶 [label = "厶\n* elbow"];
+  洞 [label = "洞\n186 cave"];
+  同 [label = "同\n185 same"];
+  一 [label = "一\n1 one"];
+  口 [label = "口\n11 mouth"];
+  冂 [label = "冂\n* hood"];
+  几 [label = "几\n57 how many?"];
+  水 [label = "水\n137 water"];
+  丨 [label = "丨\n* walking stick"];
+  丶 [label = "丶\n* a drop of"];
+  里 [label = "里\n179 li"];
+  田 [label = "田\n14 rice field"];
+  土 [label = "土\n158 soil"];
+
+  纟 -> 缠 [thick];
+  厶 -> 纟 [thick];
+  洞 -> 缠 [thick];
+  同 -> 洞 [thick];
+  一 -> 同 [thick];
+  口 -> 同 [thick];
+  冂 -> 同 [thick];
+  几 -> 冂 [thick];
+  水 -> 洞 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  里 -> 缠 [thick];
+  田 -> 里 [thick];
+  土 -> 里 [thick];
+}

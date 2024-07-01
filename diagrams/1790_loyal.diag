@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   忠 [label = "忠\n1790 loyal"];
   中 [label = "中\n38 middle"];
   丨 [label = "丨\n* walking stick"];
   一 [label = "一\n1 one"];
   口 [label = "口\n11 mouth"];
   心 [label = "心\n563 heart"];
-  中 -> 忠;
-  丨 -> 中;
-  一 -> 丨;
-  口 -> 中;
-  心 -> 忠;
+
+  中 -> 忠 [thick];
+  丨 -> 中 [thick];
+  一 -> 丨 [thick];
+  口 -> 中 [thick];
+  心 -> 忠 [thick];
 }

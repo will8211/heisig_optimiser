@@ -1,0 +1,18 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  叼 [label = "叼\n2815 hold in the mouth"];
+  口 [label = "口\n11 mouth"];
+  刁 [label = "刁\n2814 wily"];
+  "𠃌" [label = "𠃌\n* clothes hanger"];
+  丶 [label = "丶\n* a drop of"];
+
+  口 -> 叼 [thick];
+  刁 -> 叼 [thick];
+  "𠃌" -> 刁 [thick];
+  丶 -> 刁 [thick];
+}

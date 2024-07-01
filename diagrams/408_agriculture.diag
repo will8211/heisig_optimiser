@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   农 [label = "农\n408 agriculture"];
   冖 [label = "冖\n* crown"];
   衣 [label = "衣\n400 clothing"];
@@ -6,12 +12,13 @@ blockdiag {
   六 [label = "六\n6 six"];
   囧只－口 [label = "囧只－口\n* animal legs"];
   八 [label = "八\n8 eight"];
-  冖 -> 农;
-  衣 -> 农;
-  亠 -> 衣;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
+
+  冖 -> 农 [thick];
+  衣 -> 农 [thick];
+  亠 -> 衣 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
 }

@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   垮 [label = "垮\n2289 collapse"];
   土 [label = "土\n158 soil"];
   夸 [label = "夸\n2288 brag"];
   大 [label = "大\n113 large"];
   亏 [label = "亏\n2286 loss"];
   丂 [label = "丂\n* snare"];
-  土 -> 垮;
-  夸 -> 垮;
-  大 -> 夸;
-  亏 -> 夸;
-  丂 -> 亏;
+
+  土 -> 垮 [thick];
+  夸 -> 垮 [thick];
+  大 -> 夸 [thick];
+  亏 -> 夸 [thick];
+  丂 -> 亏 [thick];
 }

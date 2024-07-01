@@ -1,21 +1,28 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   钙 [label = "钙\n2816 calcium"];
   金 [label = "金\n279 gold"];
-  131490 [label = "𠆢\n* umbrella"];
+  "𠆢" [label = "𠆢\n* umbrella"];
   王 [label = "王\n265 king"];
   工 [label = "工\n76 work"];
   丶 [label = "丶\n* a drop of"];
   正 [label = "正\n387 correct"];
   一 [label = "一\n1 one"];
   止 [label = "止\n379 stop"];
-  131276 [label = "𠃌\n* clothes hanger"];
-  金 -> 钙;
-  131490 -> 金;
-  王 -> 金;
-  工 -> 王;
-  丶 -> 金;
-  正 -> 钙;
-  一 -> 正;
-  止 -> 正;
-  131276 -> 钙;
+  "𠃌" [label = "𠃌\n* clothes hanger"];
+
+  金 -> 钙 [thick];
+  "𠆢" -> 金 [thick];
+  王 -> 金 [thick];
+  工 -> 王 [thick];
+  丶 -> 金 [thick];
+  正 -> 钙 [thick];
+  一 -> 正 [thick];
+  止 -> 正 [thick];
+  "𠃌" -> 钙 [thick];
 }

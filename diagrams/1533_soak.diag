@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   沾 [label = "沾\n1533 soak"];
   水 [label = "水\n137 water"];
   丨 [label = "丨\n* walking stick"];
@@ -7,14 +13,15 @@ blockdiag {
   占 [label = "占\n44 tell fortunes"];
   卜 [label = "卜\n43 divination"];
   口 [label = "口\n11 mouth"];
-  水 -> 沾;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  占 -> 沾;
-  卜 -> 占;
-  丨 -> 卜;
-  一 -> 丨;
-  丶 -> 卜;
-  口 -> 占;
+
+  水 -> 沾 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  占 -> 沾 [thick];
+  卜 -> 占 [thick];
+  丨 -> 卜 [thick];
+  一 -> 丨 [thick];
+  丶 -> 卜 [thick];
+  口 -> 占 [thick];
 }

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   沿 [label = "沿\n2826 along"];
   水 [label = "水\n137 water"];
   丨 [label = "丨\n* walking stick"];
@@ -7,11 +13,12 @@ blockdiag {
   囧船－舟 [label = "囧船－舟\n* belch"];
   几 [label = "几\n57 how many?"];
   口 [label = "口\n11 mouth"];
-  水 -> 沿;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  囧船－舟 -> 沿;
-  几 -> 囧船－舟;
-  口 -> 囧船－舟;
+
+  水 -> 沿 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  囧船－舟 -> 沿 [thick];
+  几 -> 囧船－舟 [thick];
+  口 -> 囧船－舟 [thick];
 }

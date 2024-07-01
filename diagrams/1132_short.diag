@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   短 [label = "短\n1132 short"];
   矢 [label = "矢\n998 dart"];
   天 [label = "天\n436 heavens"];
@@ -10,16 +16,17 @@ blockdiag {
   日 [label = "日\n12 day"];
   卜 [label = "卜\n43 divination"];
   丨 [label = "丨\n* walking stick"];
-  矢 -> 短;
-  天 -> 矢;
-  一 -> 天;
-  大 -> 天;
-  丶 -> 矢;
-  桌 -> 短;
-  木 -> 桌;
-  日 -> 桌;
-  卜 -> 桌;
-  丨 -> 卜;
-  一 -> 丨;
-  丶 -> 卜;
+
+  矢 -> 短 [thick];
+  天 -> 矢 [thick];
+  一 -> 天 [thick];
+  大 -> 天 [thick];
+  丶 -> 矢 [thick];
+  桌 -> 短 [thick];
+  木 -> 桌 [thick];
+  日 -> 桌 [thick];
+  卜 -> 桌 [thick];
+  丨 -> 卜 [thick];
+  一 -> 丨 [thick];
+  丶 -> 卜 [thick];
 }

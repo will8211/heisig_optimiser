@@ -1,5 +1,12 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   双 [label = "双\n636 pair"];
   又 [label = "又\n633 again"];
-  又 -> 双;
+
+  又 -> 双 [thick];
 }

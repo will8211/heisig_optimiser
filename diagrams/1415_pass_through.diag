@@ -1,0 +1,35 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  穿 [label = "穿\n1415 pass through"];
+  穴 [label = "穴\n1070 hole"];
+  宀 [label = "宀\n* house"];
+  八 [label = "八\n8 eight"];
+  囧只－口 [label = "囧只－口\n* animal legs"];
+  牙 [label = "牙\n1414 tooth"];
+  箱 [label = "箱\n788 box"];
+  竹 [label = "竹\n786 bamboo"];
+  丁 [label = "丁\n90 fourth"];
+  相 [label = "相\n212 one another"];
+  木 [label = "木\n202 tree"];
+  目 [label = "目\n15 eye"];
+  矛 [label = "矛\n1002 spear"];
+
+  穴 -> 穿 [thick];
+  宀 -> 穴 [thick];
+  八 -> 穴 [thick];
+  囧只－口 -> 穴 [thick];
+  八 -> 囧只－口 [thick];
+  牙 -> 穿 [thick];
+  箱 -> 牙 [thick];
+  竹 -> 箱 [thick];
+  丁 -> 竹 [thick];
+  相 -> 箱 [thick];
+  木 -> 相 [thick];
+  目 -> 相 [thick];
+  矛 -> 牙 [thick];
+}

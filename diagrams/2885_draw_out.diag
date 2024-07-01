@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  掏 [label = "掏\n2885 draw out"];
+  扌 [label = "扌\n* fingers"];
+  匋 [label = "匋\n* canteen"];
+  勹 [label = "勹\n* bound up"];
+  缶 [label = "缶\n* tin can"];
+  午 [label = "午\n542 noon"];
+  山 [label = "山\n688 mountain"];
+
+  扌 -> 掏 [thick];
+  匋 -> 掏 [thick];
+  勹 -> 匋 [thick];
+  缶 -> 匋 [thick];
+  午 -> 缶 [thick];
+  山 -> 缶 [thick];
+}

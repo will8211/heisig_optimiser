@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   彦 [label = "彦\n1313 erudite"];
   产 [label = "产\n1312 products"];
   立 [label = "立\n444 standing up"];
   厂 [label = "厂\n121 factory"];
   彡 [label = "彡\n* rooster tail"];
-  产 -> 彦;
-  立 -> 产;
-  厂 -> 产;
-  彡 -> 彦;
+
+  产 -> 彦 [thick];
+  立 -> 产 [thick];
+  厂 -> 产 [thick];
+  彡 -> 彦 [thick];
 }

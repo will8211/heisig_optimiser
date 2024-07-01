@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   丝 [label = "丝\n1079 silk"];
   纟 [label = "纟\n* thread"];
   厶 [label = "厶\n* elbow"];
-  纟 -> 丝;
-  厶 -> 纟;
+
+  纟 -> 丝 [thick];
+  厶 -> 纟 [thick];
 }

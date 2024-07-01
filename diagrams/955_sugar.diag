@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   糖 [label = "糖\n955 sugar"];
   米 [label = "米\n778 rice"];
   唐 [label = "唐\n954 Tang"];
@@ -13,19 +19,20 @@ blockdiag {
   丶 [label = "丶\n* a drop of"];
   肀 [label = "肀\n* rake"];
   彐 [label = "彐\n* broom"];
-  米 -> 糖;
-  唐 -> 糖;
-  洞 -> 唐;
-  同 -> 洞;
-  一 -> 同;
-  口 -> 同;
-  冂 -> 同;
-  几 -> 冂;
-  水 -> 洞;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  肀 -> 唐;
-  彐 -> 肀;
-  口 -> 唐;
+
+  米 -> 糖 [thick];
+  唐 -> 糖 [thick];
+  洞 -> 唐 [thick];
+  同 -> 洞 [thick];
+  一 -> 同 [thick];
+  口 -> 同 [thick];
+  冂 -> 同 [thick];
+  几 -> 冂 [thick];
+  水 -> 洞 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  肀 -> 唐 [thick];
+  彐 -> 肀 [thick];
+  口 -> 唐 [thick];
 }

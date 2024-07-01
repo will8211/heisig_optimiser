@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   斧 [label = "斧\n2313 axe"];
   父 [label = "父\n1043 father"];
   丶 [label = "丶\n* a drop of"];
   斤 [label = "斤\n924 catty"];
-  父 -> 斧;
-  丶 -> 父;
-  斤 -> 斧;
+
+  父 -> 斧 [thick];
+  丶 -> 父 [thick];
+  斤 -> 斧 [thick];
 }

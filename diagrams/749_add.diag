@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   加 [label = "加\n749 add"];
   肌 [label = "肌\n63 muscle"];
   几 [label = "几\n57 how many?"];
   月 [label = "月\n13 month"];
   口 [label = "口\n11 mouth"];
-  肌 -> 加;
-  几 -> 肌;
-  月 -> 肌;
-  口 -> 加;
+
+  肌 -> 加 [thick];
+  几 -> 肌 [thick];
+  月 -> 肌 [thick];
+  口 -> 加 [thick];
 }

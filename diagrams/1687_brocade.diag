@@ -1,7 +1,13 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   锦 [label = "锦\n1687 brocade"];
   金 [label = "金\n279 gold"];
-  131490 [label = "𠆢\n* umbrella"];
+  "𠆢" [label = "𠆢\n* umbrella"];
   王 [label = "王\n265 king"];
   工 [label = "工\n76 work"];
   丶 [label = "丶\n* a drop of"];
@@ -9,14 +15,15 @@ blockdiag {
   白 [label = "白\n34 white"];
   日 [label = "日\n12 day"];
   巾 [label = "巾\n410 towel"];
-  金 -> 锦;
-  131490 -> 金;
-  王 -> 金;
-  工 -> 王;
-  丶 -> 金;
-  帛 -> 锦;
-  白 -> 帛;
-  日 -> 白;
-  丶 -> 白;
-  巾 -> 帛;
+
+  金 -> 锦 [thick];
+  "𠆢" -> 金 [thick];
+  王 -> 金 [thick];
+  工 -> 王 [thick];
+  丶 -> 金 [thick];
+  帛 -> 锦 [thick];
+  白 -> 帛 [thick];
+  日 -> 白 [thick];
+  丶 -> 白 [thick];
+  巾 -> 帛 [thick];
 }

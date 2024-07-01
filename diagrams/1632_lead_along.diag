@@ -1,0 +1,16 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  牵 [label = "牵\n1632 lead along"];
+  大 [label = "大\n113 large"];
+  冖 [label = "冖\n* crown"];
+  牛 [label = "牛\n252 cow"];
+
+  大 -> 牵 [thick];
+  冖 -> 牵 [thick];
+  牛 -> 牵 [thick];
+}

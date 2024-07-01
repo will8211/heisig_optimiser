@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   谊 [label = "谊\n2747 friendship"];
   言 [label = "言\n346 say"];
   二 [label = "二\n2 two"];
@@ -11,17 +17,18 @@ blockdiag {
   宜 [label = "宜\n2746 fitting"];
   宀 [label = "宀\n* house"];
   且 [label = "且\n1343 moreover"];
-  言 -> 谊;
-  二 -> 言;
-  一 -> 二;
-  口 -> 言;
-  亠 -> 言;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  宜 -> 谊;
-  宀 -> 宜;
-  且 -> 宜;
+
+  言 -> 谊 [thick];
+  二 -> 言 [thick];
+  一 -> 二 [thick];
+  口 -> 言 [thick];
+  亠 -> 言 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  宜 -> 谊 [thick];
+  宀 -> 宜 [thick];
+  且 -> 宜 [thick];
 }

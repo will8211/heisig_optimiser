@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   掩 [label = "掩\n1485 conceal"];
   扌 [label = "扌\n* fingers"];
   奄 [label = "奄\n* hang glider"];
   电 [label = "电\n1484 electricity"];
   大 [label = "大\n113 large"];
-  扌 -> 掩;
-  奄 -> 掩;
-  电 -> 奄;
-  大 -> 奄;
+
+  扌 -> 掩 [thick];
+  奄 -> 掩 [thick];
+  电 -> 奄 [thick];
+  大 -> 奄 [thick];
 }

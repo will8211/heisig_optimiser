@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   瓷 [label = "瓷\n2118 porcelain"];
   次 [label = "次\n478 next"];
   欠 [label = "欠\n474 lack"];
@@ -10,16 +16,17 @@ blockdiag {
   瓦 [label = "瓦\n2117 tile"];
   囧以－丶人 [label = "囧以－丶人\n* plow"];
   乙 [label = "乙\n95 second"];
-  次 -> 瓷;
-  欠 -> 次;
-  冫 -> 次;
-  水 -> 冫;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  瓦 -> 瓷;
-  一 -> 瓦;
-  囧以－丶人 -> 瓦;
-  乙 -> 瓦;
-  丶 -> 瓦;
+
+  次 -> 瓷 [thick];
+  欠 -> 次 [thick];
+  冫 -> 次 [thick];
+  水 -> 冫 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  瓦 -> 瓷 [thick];
+  一 -> 瓦 [thick];
+  囧以－丶人 -> 瓦 [thick];
+  乙 -> 瓦 [thick];
+  丶 -> 瓦 [thick];
 }

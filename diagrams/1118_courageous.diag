@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   勇 [label = "勇\n1118 courageous"];
   甬 [label = "甬\n* chop-rack"];
   月 [label = "月\n13 month"];
@@ -7,12 +13,13 @@ blockdiag {
   囧节－艹 [label = "囧节－艹\n* chop"];
   肌 [label = "肌\n63 muscle"];
   几 [label = "几\n57 how many?"];
-  甬 -> 勇;
-  月 -> 甬;
-  丨 -> 甬;
-  一 -> 丨;
-  囧节－艹 -> 甬;
-  肌 -> 勇;
-  几 -> 肌;
-  月 -> 肌;
+
+  甬 -> 勇 [thick];
+  月 -> 甬 [thick];
+  丨 -> 甬 [thick];
+  一 -> 丨 [thick];
+  囧节－艹 -> 甬 [thick];
+  肌 -> 勇 [thick];
+  几 -> 肌 [thick];
+  月 -> 肌 [thick];
 }

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   舆 [label = "舆\n2459 popular"];
   囧舆－车 [label = "囧舆－车\n* zipper"];
   囧具－目 [label = "囧具－目\n* tool"];
@@ -6,10 +12,11 @@ blockdiag {
   八 [label = "八\n8 eight"];
   囧印－卩 [label = "囧印－卩\n* staples"];
   车 [label = "车\n300 car"];
-  囧舆－车 -> 舆;
-  囧具－目 -> 囧舆－车;
-  囧只－口 -> 囧具－目;
-  八 -> 囧只－口;
-  囧印－卩 -> 囧舆－车;
-  车 -> 舆;
+
+  囧舆－车 -> 舆 [thick];
+  囧具－目 -> 囧舆－车 [thick];
+  囧只－口 -> 囧具－目 [thick];
+  八 -> 囧只－口 [thick];
+  囧印－卩 -> 囧舆－车 [thick];
+  车 -> 舆 [thick];
 }

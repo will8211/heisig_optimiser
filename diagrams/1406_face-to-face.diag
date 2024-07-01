@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   面 [label = "面\n1406 face-to-face"];
   百 [label = "百\n35 hundred"];
   白 [label = "白\n34 white"];
@@ -6,10 +12,11 @@ blockdiag {
   丶 [label = "丶\n* a drop of"];
   一 [label = "一\n1 one"];
   目 [label = "目\n15 eye"];
-  百 -> 面;
-  白 -> 百;
-  日 -> 白;
-  丶 -> 白;
-  一 -> 百;
-  目 -> 面;
+
+  百 -> 面 [thick];
+  白 -> 百 [thick];
+  日 -> 白 [thick];
+  丶 -> 白 [thick];
+  一 -> 百 [thick];
+  目 -> 面 [thick];
 }

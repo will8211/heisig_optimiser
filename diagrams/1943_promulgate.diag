@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   颁 [label = "颁\n1943 promulgate"];
   分 [label = "分\n694 part"];
   八 [label = "八\n8 eight"];
@@ -9,14 +15,15 @@ blockdiag {
   囧只－口 [label = "囧只－口\n* animal legs"];
   一 [label = "一\n1 one"];
   丶 [label = "丶\n* a drop of"];
-  分 -> 颁;
-  八 -> 分;
-  刀 -> 分;
-  页 -> 颁;
-  贝 -> 页;
-  目 -> 贝;
-  囧只－口 -> 贝;
-  八 -> 囧只－口;
-  一 -> 页;
-  丶 -> 页;
+
+  分 -> 颁 [thick];
+  八 -> 分 [thick];
+  刀 -> 分 [thick];
+  页 -> 颁 [thick];
+  贝 -> 页 [thick];
+  目 -> 贝 [thick];
+  囧只－口 -> 贝 [thick];
+  八 -> 囧只－口 [thick];
+  一 -> 页 [thick];
+  丶 -> 页 [thick];
 }

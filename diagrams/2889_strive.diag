@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   勉 [label = "勉\n2889 strive"];
   免 [label = "免\n1449 avoid"];
   兔 [label = "兔\n1447 rabbit"];
@@ -9,13 +15,14 @@ blockdiag {
   肌 [label = "肌\n63 muscle"];
   几 [label = "几\n57 how many?"];
   月 [label = "月\n13 month"];
-  免 -> 勉;
-  兔 -> 免;
-  勹 -> 兔;
-  口 -> 兔;
-  儿 -> 兔;
-  丶 -> 兔;
-  肌 -> 勉;
-  几 -> 肌;
-  月 -> 肌;
+
+  免 -> 勉 [thick];
+  兔 -> 免 [thick];
+  勹 -> 兔 [thick];
+  口 -> 兔 [thick];
+  儿 -> 兔 [thick];
+  丶 -> 兔 [thick];
+  肌 -> 勉 [thick];
+  几 -> 肌 [thick];
+  月 -> 肌 [thick];
 }

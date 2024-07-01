@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   吟 [label = "吟\n2606 recite"];
   口 [label = "口\n11 mouth"];
   今 [label = "今\n1244 now"];
   亼 [label = "亼\n* meeting"];
-  131490 [label = "𠆢\n* umbrella"];
-  口 -> 吟;
-  今 -> 吟;
-  亼 -> 今;
-  131490 -> 亼;
+  "𠆢" [label = "𠆢\n* umbrella"];
+
+  口 -> 吟 [thick];
+  今 -> 吟 [thick];
+  亼 -> 今 [thick];
+  "𠆢" -> 亼 [thick];
 }

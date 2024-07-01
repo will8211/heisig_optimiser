@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   捐 [label = "捐\n2399 contribute"];
   扌 [label = "扌\n* fingers"];
   肙 [label = "肙\n* canker sore"];
   口 [label = "口\n11 mouth"];
   月 [label = "月\n13 month"];
-  扌 -> 捐;
-  肙 -> 捐;
-  口 -> 肙;
-  月 -> 肙;
+
+  扌 -> 捐 [thick];
+  肙 -> 捐 [thick];
+  口 -> 肙 [thick];
+  月 -> 肙 [thick];
 }

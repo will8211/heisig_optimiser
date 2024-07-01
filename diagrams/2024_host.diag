@@ -1,20 +1,27 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   黎 [label = "黎\n2024 host"];
   黍 [label = "黍\n* Rumpelbrella"];
-  131490 [label = "𠆢\n* umbrella"];
+  "𠆢" [label = "𠆢\n* umbrella"];
   禾 [label = "禾\n762 standing grain"];
   水 [label = "水\n137 water"];
   丨 [label = "丨\n* walking stick"];
   一 [label = "一\n1 one"];
   丶 [label = "丶\n* a drop of"];
   勹 [label = "勹\n* bound up"];
-  黍 -> 黎;
-  131490 -> 黍;
-  禾 -> 黍;
-  水 -> 黍;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  勹 -> 黎;
-  丶 -> 黎;
+
+  黍 -> 黎 [thick];
+  "𠆢" -> 黍 [thick];
+  禾 -> 黍 [thick];
+  水 -> 黍 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  勹 -> 黎 [thick];
+  丶 -> 黎 [thick];
 }

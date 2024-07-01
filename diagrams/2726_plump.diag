@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   肥 [label = "肥\n2726 plump"];
   月 [label = "月\n13 month"];
   巴 [label = "巴\n1326 crust"];
-  月 -> 肥;
-  巴 -> 肥;
+
+  月 -> 肥 [thick];
+  巴 -> 肥 [thick];
 }

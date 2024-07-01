@@ -1,0 +1,18 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  佩 [label = "佩\n2080 wear at the waist"];
+  人 [label = "人\n793 person"];
+  几 [label = "几\n57 how many?"];
+  一 [label = "一\n1 one"];
+  巾 [label = "巾\n410 towel"];
+
+  人 -> 佩 [thick];
+  几 -> 佩 [thick];
+  一 -> 佩 [thick];
+  巾 -> 佩 [thick];
+}

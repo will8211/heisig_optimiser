@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   任 [label = "任\n853 appoint"];
   人 [label = "人\n793 person"];
   壬 [label = "壬\n* porter"];
   士 [label = "士\n334 soldier"];
-  人 -> 任;
-  壬 -> 任;
-  士 -> 壬;
+
+  人 -> 任 [thick];
+  壬 -> 任 [thick];
+  士 -> 壬 [thick];
 }

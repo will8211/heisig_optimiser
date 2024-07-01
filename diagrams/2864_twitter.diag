@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   鸣 [label = "鸣\n2864 twitter"];
   口 [label = "口\n11 mouth"];
   鸟 [label = "鸟\n1438 bird"];
@@ -7,13 +13,14 @@ blockdiag {
   冂 [label = "冂\n* hood"];
   几 [label = "几\n57 how many?"];
   囧与－丨一 [label = "囧与－丨一\n* pointed tail"];
-  口 -> 鸣;
-  鸟 -> 鸣;
-  向 -> 鸟;
-  丶 -> 向;
-  冂 -> 向;
-  几 -> 冂;
-  口 -> 向;
-  丶 -> 鸟;
-  囧与－丨一 -> 鸟;
+
+  口 -> 鸣 [thick];
+  鸟 -> 鸣 [thick];
+  向 -> 鸟 [thick];
+  丶 -> 向 [thick];
+  冂 -> 向 [thick];
+  几 -> 冂 [thick];
+  口 -> 向 [thick];
+  丶 -> 鸟 [thick];
+  囧与－丨一 -> 鸟 [thick];
 }

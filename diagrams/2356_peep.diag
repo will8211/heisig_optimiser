@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   窥 [label = "窥\n2356 peep"];
   规 [label = "规\n727 regulations"];
   夫 [label = "夫\n726 husband"];
@@ -10,15 +16,16 @@ blockdiag {
   宀 [label = "宀\n* house"];
   八 [label = "八\n8 eight"];
   囧只－口 [label = "囧只－口\n* animal legs"];
-  规 -> 窥;
-  夫 -> 规;
-  大 -> 夫;
-  见 -> 规;
-  目 -> 见;
-  儿 -> 见;
-  穴 -> 窥;
-  宀 -> 穴;
-  八 -> 穴;
-  囧只－口 -> 穴;
-  八 -> 囧只－口;
+
+  规 -> 窥 [thick];
+  夫 -> 规 [thick];
+  大 -> 夫 [thick];
+  见 -> 规 [thick];
+  目 -> 见 [thick];
+  儿 -> 见 [thick];
+  穴 -> 窥 [thick];
+  宀 -> 穴 [thick];
+  八 -> 穴 [thick];
+  囧只－口 -> 穴 [thick];
+  八 -> 囧只－口 [thick];
 }

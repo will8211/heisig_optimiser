@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   确 [label = "确\n1363 reliable"];
   石 [label = "石\n125 stone"];
   口 [label = "口\n11 mouth"];
@@ -6,10 +12,11 @@ blockdiag {
   角 [label = "角\n1362 angle"];
   勹 [label = "勹\n* bound up"];
   用 [label = "用\n1361 utilize"];
-  石 -> 确;
-  口 -> 石;
-  厂 -> 石;
-  角 -> 确;
-  勹 -> 角;
-  用 -> 角;
+
+  石 -> 确 [thick];
+  口 -> 石 [thick];
+  厂 -> 石 [thick];
+  角 -> 确 [thick];
+  勹 -> 角 [thick];
+  用 -> 角 [thick];
 }

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   珠 [label = "珠\n1607 pearl"];
   玉 [label = "玉\n266 jade"];
   王 [label = "王\n265 king"];
@@ -7,12 +13,13 @@ blockdiag {
   朱 [label = "朱\n1578 vermilion"];
   未 [label = "未\n215 not yet"];
   木 [label = "木\n202 tree"];
-  玉 -> 珠;
-  王 -> 玉;
-  工 -> 王;
-  丶 -> 玉;
-  朱 -> 珠;
-  丶 -> 朱;
-  未 -> 朱;
-  木 -> 未;
+
+  玉 -> 珠 [thick];
+  王 -> 玉 [thick];
+  工 -> 王 [thick];
+  丶 -> 玉 [thick];
+  朱 -> 珠 [thick];
+  丶 -> 朱 [thick];
+  未 -> 朱 [thick];
+  木 -> 未 [thick];
 }

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   隆 [label = "隆\n2571 impressive"];
   阝 [label = "阝\n* pinnacle"];
   夂 [label = "夂\n* walking legs"];
@@ -6,10 +12,11 @@ blockdiag {
   生 [label = "生\n1218 life"];
   丶 [label = "丶\n* a drop of"];
   囧毒－母 [label = "囧毒－母\n* grow up"];
-  阝 -> 隆;
-  夂 -> 隆;
-  一 -> 隆;
-  生 -> 隆;
-  丶 -> 生;
-  囧毒－母 -> 生;
+
+  阝 -> 隆 [thick];
+  夂 -> 隆 [thick];
+  一 -> 隆 [thick];
+  生 -> 隆 [thick];
+  丶 -> 生 [thick];
+  囧毒－母 -> 生 [thick];
 }

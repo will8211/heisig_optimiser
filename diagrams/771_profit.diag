@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   利 [label = "利\n771 profit"];
   禾 [label = "禾\n762 standing grain"];
   刀 [label = "刀\n83 sword"];
-  禾 -> 利;
-  刀 -> 利;
+
+  禾 -> 利 [thick];
+  刀 -> 利 [thick];
 }

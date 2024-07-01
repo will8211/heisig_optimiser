@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   跌 [label = "跌\n2326 slump"];
   足 [label = "足\n1048 lower leg"];
   口 [label = "口\n11 mouth"];
@@ -7,11 +13,12 @@ blockdiag {
   夫 [label = "夫\n726 husband"];
   大 [label = "大\n113 large"];
   丶 [label = "丶\n* a drop of"];
-  足 -> 跌;
-  口 -> 足;
-  止 -> 足;
-  失 -> 跌;
-  夫 -> 失;
-  大 -> 夫;
-  丶 -> 失;
+
+  足 -> 跌 [thick];
+  口 -> 足 [thick];
+  止 -> 足 [thick];
+  失 -> 跌 [thick];
+  夫 -> 失 [thick];
+  大 -> 夫 [thick];
+  丶 -> 失 [thick];
 }

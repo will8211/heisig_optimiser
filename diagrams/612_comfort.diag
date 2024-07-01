@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   抚 [label = "抚\n612 comfort"];
   扌 [label = "扌\n* fingers"];
   无 [label = "无\n611 nothing"];
-  扌 -> 抚;
-  无 -> 抚;
+
+  扌 -> 抚 [thick];
+  无 -> 抚 [thick];
 }

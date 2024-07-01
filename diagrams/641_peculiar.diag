@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   怪 [label = "怪\n641 peculiar"];
   心 [label = "心\n563 heart"];
   圣 [label = "圣\n634 holy"];
   又 [label = "又\n633 again"];
   土 [label = "土\n158 soil"];
-  心 -> 怪;
-  圣 -> 怪;
-  又 -> 圣;
-  土 -> 圣;
+
+  心 -> 怪 [thick];
+  圣 -> 怪 [thick];
+  又 -> 圣 [thick];
+  土 -> 圣 [thick];
 }

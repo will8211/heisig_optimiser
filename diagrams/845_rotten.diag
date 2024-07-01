@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   腐 [label = "腐\n845 rotten"];
   府 [label = "府\n826 government office"];
   洞 [label = "洞\n186 cave"];
@@ -16,23 +22,24 @@ blockdiag {
   十 [label = "十\n10 ten"];
   肉 [label = "肉\n844 meat"];
   月 [label = "月\n13 month"];
-  府 -> 腐;
-  洞 -> 府;
-  同 -> 洞;
-  一 -> 同;
-  口 -> 同;
-  冂 -> 同;
-  几 -> 冂;
-  水 -> 洞;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  付 -> 府;
-  人 -> 付;
-  寸 -> 付;
-  丶 -> 寸;
-  十 -> 寸;
-  肉 -> 腐;
-  月 -> 肉;
-  人 -> 肉;
+
+  府 -> 腐 [thick];
+  洞 -> 府 [thick];
+  同 -> 洞 [thick];
+  一 -> 同 [thick];
+  口 -> 同 [thick];
+  冂 -> 同 [thick];
+  几 -> 冂 [thick];
+  水 -> 洞 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  付 -> 府 [thick];
+  人 -> 付 [thick];
+  寸 -> 付 [thick];
+  丶 -> 寸 [thick];
+  十 -> 寸 [thick];
+  肉 -> 腐 [thick];
+  月 -> 肉 [thick];
+  人 -> 肉 [thick];
 }

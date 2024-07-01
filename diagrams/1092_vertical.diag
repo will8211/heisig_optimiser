@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   纵 [label = "纵\n1092 vertical"];
   纟 [label = "纟\n* thread"];
   厶 [label = "厶\n* elbow"];
   从 [label = "从\n846 follow"];
   人 [label = "人\n793 person"];
-  纟 -> 纵;
-  厶 -> 纟;
-  从 -> 纵;
-  人 -> 从;
+
+  纟 -> 纵 [thick];
+  厶 -> 纟 [thick];
+  从 -> 纵 [thick];
+  人 -> 从 [thick];
 }

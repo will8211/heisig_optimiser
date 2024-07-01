@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  陕 [label = "陕\n2346 Shaanxi Province"];
+  阝 [label = "阝\n* pinnacle"];
+  夹 [label = "夹\n1523 press from both sides"];
+  夫 [label = "夫\n726 husband"];
+  大 [label = "大\n113 large"];
+  丷 [label = "丷\n* horns"];
+  一 [label = "一\n1 one"];
+
+  阝 -> 陕 [thick];
+  夹 -> 陕 [thick];
+  夫 -> 夹 [thick];
+  大 -> 夫 [thick];
+  丷 -> 夹 [thick];
+  一 -> 丷 [thick];
+}

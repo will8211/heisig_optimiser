@@ -1,0 +1,12 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  墨 [label = "墨\n183 black ink"];
+  土 [label = "土\n158 soil"];
+
+  土 -> 墨 [thick];
+}

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   损 [label = "损\n1833 damage"];
   扌 [label = "扌\n* fingers"];
   员 [label = "员\n55 employee"];
@@ -7,11 +13,12 @@ blockdiag {
   目 [label = "目\n15 eye"];
   囧只－口 [label = "囧只－口\n* animal legs"];
   八 [label = "八\n8 eight"];
-  扌 -> 损;
-  员 -> 损;
-  口 -> 员;
-  贝 -> 员;
-  目 -> 贝;
-  囧只－口 -> 贝;
-  八 -> 囧只－口;
+
+  扌 -> 损 [thick];
+  员 -> 损 [thick];
+  口 -> 员 [thick];
+  贝 -> 员 [thick];
+  目 -> 贝 [thick];
+  囧只－口 -> 贝 [thick];
+  八 -> 囧只－口 [thick];
 }

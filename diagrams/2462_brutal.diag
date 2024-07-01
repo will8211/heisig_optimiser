@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   酷 [label = "酷\n2462 brutal"];
   酉 [label = "酉\n* whiskey bottle"];
   告 [label = "告\n254 declare"];
   牛 [label = "牛\n252 cow"];
   口 [label = "口\n11 mouth"];
-  酉 -> 酷;
-  告 -> 酷;
-  牛 -> 告;
-  口 -> 告;
+
+  酉 -> 酷 [thick];
+  告 -> 酷 [thick];
+  牛 -> 告 [thick];
+  口 -> 告 [thick];
 }

@@ -1,0 +1,16 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  屰 [label = "屰\n* mountain goat"];
+  丷 [label = "丷\n* horns"];
+  一 [label = "一\n1 one"];
+  山 [label = "山\n688 mountain"];
+
+  丷 -> 屰 [thick];
+  一 -> 丷 [thick];
+  山 -> 屰 [thick];
+}

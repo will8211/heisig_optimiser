@@ -1,19 +1,26 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   饭 [label = "饭\n1155 meal"];
   食 [label = "食\n1154 food"];
   良 [label = "良\n1151 high-quality"];
   丶 [label = "丶\n* a drop of"];
   艮 [label = "艮\n* silver"];
-  131490 [label = "𠆢\n* umbrella"];
+  "𠆢" [label = "𠆢\n* umbrella"];
   反 [label = "反\n656 against"];
-  131206 [label = "𠂆\n* drag"];
+  "𠂆" [label = "𠂆\n* drag"];
   又 [label = "又\n633 again"];
-  食 -> 饭;
-  良 -> 食;
-  丶 -> 良;
-  艮 -> 良;
-  131490 -> 食;
-  反 -> 饭;
-  131206 -> 反;
-  又 -> 反;
+
+  食 -> 饭 [thick];
+  良 -> 食 [thick];
+  丶 -> 良 [thick];
+  艮 -> 良 [thick];
+  "𠆢" -> 食 [thick];
+  反 -> 饭 [thick];
+  "𠂆" -> 反 [thick];
+  又 -> 反 [thick];
 }

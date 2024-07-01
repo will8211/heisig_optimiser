@@ -1,22 +1,29 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   涕 [label = "涕\n2282 snot"];
   弟 [label = "弟\n1022 younger brother"];
   丷 [label = "丷\n* horns"];
   一 [label = "一\n1 one"];
   弗 [label = "弗\n* dollar sign"];
-  239201 [label = "囧介－𠆢\n* crutches"];
+  "囧介－𠆢" [label = "囧介－𠆢\n* crutches"];
   弓 [label = "弓\n1013 bow"];
   水 [label = "水\n137 water"];
   丨 [label = "丨\n* walking stick"];
   丶 [label = "丶\n* a drop of"];
-  弟 -> 涕;
-  丷 -> 弟;
-  一 -> 丷;
-  弗 -> 弟;
-  239201 -> 弗;
-  弓 -> 弗;
-  水 -> 涕;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
+
+  弟 -> 涕 [thick];
+  丷 -> 弟 [thick];
+  一 -> 丷 [thick];
+  弗 -> 弟 [thick];
+  "囧介－𠆢" -> 弗 [thick];
+  弓 -> 弗 [thick];
+  水 -> 涕 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
 }

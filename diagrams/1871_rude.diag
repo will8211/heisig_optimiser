@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   莽 [label = "莽\n1871 rude"];
   艹 [label = "艹\n* flower"];
   犬 [label = "犬\n239 pooch"];
@@ -7,11 +13,12 @@ blockdiag {
   开 [label = "开\n613 open"];
   二 [label = "二\n2 two"];
   一 [label = "一\n1 one"];
-  艹 -> 莽;
-  犬 -> 莽;
-  大 -> 犬;
-  丶 -> 犬;
-  开 -> 莽;
-  二 -> 开;
-  一 -> 二;
+
+  艹 -> 莽 [thick];
+  犬 -> 莽 [thick];
+  大 -> 犬 [thick];
+  丶 -> 犬 [thick];
+  开 -> 莽 [thick];
+  二 -> 开 [thick];
+  一 -> 二 [thick];
 }

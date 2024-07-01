@@ -1,17 +1,24 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   贪 [label = "贪\n2607 greedy"];
   今 [label = "今\n1244 now"];
   亼 [label = "亼\n* meeting"];
-  131490 [label = "𠆢\n* umbrella"];
+  "𠆢" [label = "𠆢\n* umbrella"];
   贝 [label = "贝\n52 shellfish"];
   目 [label = "目\n15 eye"];
   囧只－口 [label = "囧只－口\n* animal legs"];
   八 [label = "八\n8 eight"];
-  今 -> 贪;
-  亼 -> 今;
-  131490 -> 亼;
-  贝 -> 贪;
-  目 -> 贝;
-  囧只－口 -> 贝;
-  八 -> 囧只－口;
+
+  今 -> 贪 [thick];
+  亼 -> 今 [thick];
+  "𠆢" -> 亼 [thick];
+  贝 -> 贪 [thick];
+  目 -> 贝 [thick];
+  囧只－口 -> 贝 [thick];
+  八 -> 囧只－口 [thick];
 }

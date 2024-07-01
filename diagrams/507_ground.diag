@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   地 [label = "地\n507 ground"];
   土 [label = "土\n158 soil"];
   也 [label = "也\n505 also"];
   乙 [label = "乙\n95 second"];
-  土 -> 地;
-  也 -> 地;
-  乙 -> 也;
+
+  土 -> 地 [thick];
+  也 -> 地 [thick];
+  乙 -> 也 [thick];
 }

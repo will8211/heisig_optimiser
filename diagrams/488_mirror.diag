@@ -1,7 +1,13 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   镜 [label = "镜\n488 mirror"];
   金 [label = "金\n279 gold"];
-  131490 [label = "𠆢\n* umbrella"];
+  "𠆢" [label = "𠆢\n* umbrella"];
   王 [label = "王\n265 king"];
   工 [label = "工\n76 work"];
   丶 [label = "丶\n* a drop of"];
@@ -9,13 +15,14 @@ blockdiag {
   立 [label = "立\n444 standing up"];
   儿 [label = "儿\n56 youngster"];
   日 [label = "日\n12 day"];
-  金 -> 镜;
-  131490 -> 金;
-  王 -> 金;
-  工 -> 王;
-  丶 -> 金;
-  竟 -> 镜;
-  立 -> 竟;
-  儿 -> 竟;
-  日 -> 竟;
+
+  金 -> 镜 [thick];
+  "𠆢" -> 金 [thick];
+  王 -> 金 [thick];
+  工 -> 王 [thick];
+  丶 -> 金 [thick];
+  竟 -> 镜 [thick];
+  立 -> 竟 [thick];
+  儿 -> 竟 [thick];
+  日 -> 竟 [thick];
 }

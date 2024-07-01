@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   坚 [label = "坚\n1011 firm"];
   囧坚－圣 [label = "囧坚－圣\n* fencing foil"];
   又 [label = "又\n633 again"];
   土 [label = "土\n158 soil"];
-  囧坚－圣 -> 坚;
-  又 -> 坚;
-  土 -> 坚;
+
+  囧坚－圣 -> 坚 [thick];
+  又 -> 坚 [thick];
+  土 -> 坚 [thick];
 }

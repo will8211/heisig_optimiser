@@ -1,0 +1,14 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  畏 [label = "畏\n2853 be afraid of"];
+  田 [label = "田\n14 rice field"];
+  囧丧－十－丷 [label = "囧丧－十－丷\n* barrette"];
+
+  田 -> 畏 [thick];
+  囧丧－十－丷 -> 畏 [thick];
+}

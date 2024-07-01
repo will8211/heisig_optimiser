@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   聚 [label = "聚\n2098 assemble"];
   取 [label = "取\n718 take"];
   耳 [label = "耳\n717 ear"];
   又 [label = "又\n633 again"];
   人 [label = "人\n793 person"];
-  取 -> 聚;
-  耳 -> 取;
-  又 -> 取;
-  人 -> 聚;
+
+  取 -> 聚 [thick];
+  耳 -> 取 [thick];
+  又 -> 取 [thick];
+  人 -> 聚 [thick];
 }

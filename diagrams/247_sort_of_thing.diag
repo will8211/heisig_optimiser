@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  然 [label = "然\n247 sort of thing"];
+  月 [label = "月\n13 month"];
+  犬 [label = "犬\n239 pooch"];
+  大 [label = "大\n113 large"];
+  丶 [label = "丶\n* a drop of"];
+  火 [label = "火\n170 fire"];
+
+  月 -> 然 [thick];
+  犬 -> 然 [thick];
+  大 -> 犬 [thick];
+  丶 -> 犬 [thick];
+  火 -> 然 [thick];
+}

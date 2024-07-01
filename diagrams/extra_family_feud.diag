@@ -1,0 +1,14 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  畺 [label = "畺\n* family feud"];
+  田 [label = "田\n14 rice field"];
+  一 [label = "一\n1 one"];
+
+  田 -> 畺 [thick];
+  一 -> 畺 [thick];
+}

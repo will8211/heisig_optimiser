@@ -1,0 +1,37 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  诵 [label = "诵\n2444 read aloud"];
+  言 [label = "言\n346 say"];
+  二 [label = "二\n2 two"];
+  一 [label = "一\n1 one"];
+  口 [label = "口\n11 mouth"];
+  亠 [label = "亠\n* top hat"];
+  六 [label = "六\n6 six"];
+  囧只－口 [label = "囧只－口\n* animal legs"];
+  八 [label = "八\n8 eight"];
+  甬 [label = "甬\n* chop-rack"];
+  月 [label = "月\n13 month"];
+  丨 [label = "丨\n* walking stick"];
+  囧节－艹 [label = "囧节－艹\n* chop"];
+
+  言 -> 诵 [thick];
+  二 -> 言 [thick];
+  一 -> 二 [thick];
+  口 -> 言 [thick];
+  亠 -> 言 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  甬 -> 诵 [thick];
+  月 -> 甬 [thick];
+  丨 -> 甬 [thick];
+  一 -> 丨 [thick];
+  囧节－艹 -> 甬 [thick];
+}

@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   线 [label = "线\n1081 line"];
   纟 [label = "纟\n* thread"];
   厶 [label = "厶\n* elbow"];
   戋 [label = "戋\n* float"];
   戈 [label = "戈\n361 halberd"];
   弋 [label = "弋\n* arrow"];
-  纟 -> 线;
-  厶 -> 纟;
-  戋 -> 线;
-  戈 -> 戋;
-  弋 -> 戈;
+
+  纟 -> 线 [thick];
+  厶 -> 纟 [thick];
+  戋 -> 线 [thick];
+  戈 -> 戋 [thick];
+  弋 -> 戈 [thick];
 }

@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   轰 [label = "轰\n1887 rumble"];
   车 [label = "车\n300 car"];
   双 [label = "双\n636 pair"];
   又 [label = "又\n633 again"];
-  车 -> 轰;
-  双 -> 轰;
-  又 -> 双;
+
+  车 -> 轰 [thick];
+  双 -> 轰 [thick];
+  又 -> 双 [thick];
 }

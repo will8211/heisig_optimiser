@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   毁 [label = "毁\n2959 ruin"];
   工 [label = "工\n76 work"];
   臼 [label = "臼\n* mortar"];
   殳 [label = "殳\n* missile"];
   几 [label = "几\n57 how many?"];
   又 [label = "又\n633 again"];
-  工 -> 毁;
-  臼 -> 毁;
-  殳 -> 毁;
-  几 -> 殳;
-  又 -> 殳;
+
+  工 -> 毁 [thick];
+  臼 -> 毁 [thick];
+  殳 -> 毁 [thick];
+  几 -> 殳 [thick];
+  又 -> 殳 [thick];
 }

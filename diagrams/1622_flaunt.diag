@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   逞 [label = "逞\n1622 flaunt"];
   呈 [label = "呈\n274 submit"];
   王 [label = "王\n265 king"];
   工 [label = "工\n76 work"];
   口 [label = "口\n11 mouth"];
   辶 [label = "辶\n* road"];
-  呈 -> 逞;
-  王 -> 呈;
-  工 -> 王;
-  口 -> 呈;
-  辶 -> 逞;
+
+  呈 -> 逞 [thick];
+  王 -> 呈 [thick];
+  工 -> 王 [thick];
+  口 -> 呈 [thick];
+  辶 -> 逞 [thick];
 }

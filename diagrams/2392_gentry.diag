@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   绅 [label = "绅\n2392 gentry"];
   纟 [label = "纟\n* thread"];
   厶 [label = "厶\n* elbow"];
@@ -6,10 +12,11 @@ blockdiag {
   日 [label = "日\n12 day"];
   丨 [label = "丨\n* walking stick"];
   一 [label = "一\n1 one"];
-  纟 -> 绅;
-  厶 -> 纟;
-  申 -> 绅;
-  日 -> 申;
-  丨 -> 申;
-  一 -> 丨;
+
+  纟 -> 绅 [thick];
+  厶 -> 纟 [thick];
+  申 -> 绅 [thick];
+  日 -> 申 [thick];
+  丨 -> 申 [thick];
+  一 -> 丨 [thick];
 }

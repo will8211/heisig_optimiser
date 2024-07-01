@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   疗 [label = "疗\n2658 cure"];
   疒 [label = "疒\n* sickness"];
   洞 [label = "洞\n186 cave"];
@@ -13,22 +19,23 @@ blockdiag {
   冫 [label = "冫\n* ice"];
   了 [label = "了\n101 -ed"];
   子 [label = "子\n97 child"];
-  疒 -> 疗;
-  洞 -> 疒;
-  同 -> 洞;
-  一 -> 同;
-  口 -> 同;
-  冂 -> 同;
-  几 -> 冂;
-  水 -> 洞;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  冫 -> 疒;
-  水 -> 冫;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  了 -> 疗;
-  子 -> 了;
+
+  疒 -> 疗 [thick];
+  洞 -> 疒 [thick];
+  同 -> 洞 [thick];
+  一 -> 同 [thick];
+  口 -> 同 [thick];
+  冂 -> 同 [thick];
+  几 -> 冂 [thick];
+  水 -> 洞 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  冫 -> 疒 [thick];
+  水 -> 冫 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  了 -> 疗 [thick];
+  子 -> 了 [thick];
 }

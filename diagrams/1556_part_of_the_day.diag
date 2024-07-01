@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  晌 [label = "晌\n1556 part of the day"];
+  日 [label = "日\n12 day"];
+  向 [label = "向\n188 orientation"];
+  丶 [label = "丶\n* a drop of"];
+  冂 [label = "冂\n* hood"];
+  几 [label = "几\n57 how many?"];
+  口 [label = "口\n11 mouth"];
+
+  日 -> 晌 [thick];
+  向 -> 晌 [thick];
+  丶 -> 向 [thick];
+  冂 -> 向 [thick];
+  几 -> 冂 [thick];
+  口 -> 向 [thick];
+}

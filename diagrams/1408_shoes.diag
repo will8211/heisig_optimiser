@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   鞋 [label = "鞋\n1408 shoes"];
   革 [label = "革\n1407 leather"];
   廿 [label = "廿\n976 twenty"];
@@ -6,11 +12,12 @@ blockdiag {
   口 [label = "口\n11 mouth"];
   圭 [label = "圭\n* bricks"];
   土 [label = "土\n158 soil"];
-  革 -> 鞋;
-  廿 -> 革;
-  十 -> 廿;
-  口 -> 革;
-  十 -> 革;
-  圭 -> 鞋;
-  土 -> 圭;
+
+  革 -> 鞋 [thick];
+  廿 -> 革 [thick];
+  十 -> 廿 [thick];
+  口 -> 革 [thick];
+  十 -> 革 [thick];
+  圭 -> 鞋 [thick];
+  土 -> 圭 [thick];
 }

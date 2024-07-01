@@ -1,21 +1,28 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   瞬 [label = "瞬\n2915 instant"];
   目 [label = "目\n15 eye"];
   爪 [label = "爪\n663 claw"];
-  131206 [label = "𠂆\n* drag"];
+  "𠂆" [label = "𠂆\n* drag"];
   冖 [label = "冖\n* crown"];
   舛 [label = "舛\n* sunglasses"];
   夕 [label = "夕\n115 evening"];
   月 [label = "月\n13 month"];
   年 [label = "年\n871 year"];
   午 [label = "午\n542 noon"];
-  目 -> 瞬;
-  爪 -> 瞬;
-  131206 -> 爪;
-  冖 -> 瞬;
-  舛 -> 瞬;
-  夕 -> 舛;
-  月 -> 夕;
-  年 -> 舛;
-  午 -> 年;
+
+  目 -> 瞬 [thick];
+  爪 -> 瞬 [thick];
+  "𠂆" -> 爪 [thick];
+  冖 -> 瞬 [thick];
+  舛 -> 瞬 [thick];
+  夕 -> 舛 [thick];
+  月 -> 夕 [thick];
+  年 -> 舛 [thick];
+  午 -> 年 [thick];
 }

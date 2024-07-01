@@ -1,14 +1,21 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   路 [label = "路\n1051 path"];
   足 [label = "足\n1048 lower leg"];
   口 [label = "口\n11 mouth"];
   止 [label = "止\n379 stop"];
   各 [label = "各\n309 each"];
   夂 [label = "夂\n* walking legs"];
-  足 -> 路;
-  口 -> 足;
-  止 -> 足;
-  各 -> 路;
-  口 -> 各;
-  夂 -> 各;
+
+  足 -> 路 [thick];
+  口 -> 足 [thick];
+  止 -> 足 [thick];
+  各 -> 路 [thick];
+  口 -> 各 [thick];
+  夂 -> 各 [thick];
 }

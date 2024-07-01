@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   慕 [label = "慕\n1819 admire"];
   莫 [label = "莫\n231 nobody"];
   艹 [label = "艹\n* flower"];
   日 [label = "日\n12 day"];
   大 [label = "大\n113 large"];
   心 [label = "心\n563 heart"];
-  莫 -> 慕;
-  艹 -> 莫;
-  日 -> 莫;
-  大 -> 莫;
-  心 -> 慕;
+
+  莫 -> 慕 [thick];
+  艹 -> 莫 [thick];
+  日 -> 莫 [thick];
+  大 -> 莫 [thick];
+  心 -> 慕 [thick];
 }

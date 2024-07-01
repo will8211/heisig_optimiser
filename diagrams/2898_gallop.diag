@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   驰 [label = "驰\n2898 gallop"];
   马 [label = "马\n1453 horse"];
   囧与－丨一 [label = "囧与－丨一\n* pointed tail"];
   也 [label = "也\n505 also"];
   乙 [label = "乙\n95 second"];
-  马 -> 驰;
-  囧与－丨一 -> 马;
-  也 -> 驰;
-  乙 -> 也;
+
+  马 -> 驰 [thick];
+  囧与－丨一 -> 马 [thick];
+  也 -> 驰 [thick];
+  乙 -> 也 [thick];
 }

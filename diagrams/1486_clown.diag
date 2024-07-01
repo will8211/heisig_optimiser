@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   丑 [label = "丑\n1486 clown"];
   十 [label = "十\n10 ten"];
   囧侯－亻－矢 [label = "囧侯－亻－矢\n* key"];
-  十 -> 丑;
-  囧侯－亻－矢 -> 丑;
+
+  十 -> 丑 [thick];
+  囧侯－亻－矢 -> 丑 [thick];
 }

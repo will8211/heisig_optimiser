@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   达 [label = "达\n288 reach"];
   辶 [label = "辶\n* road"];
   大 [label = "大\n113 large"];
-  辶 -> 达;
-  大 -> 达;
+
+  辶 -> 达 [thick];
+  大 -> 达 [thick];
 }

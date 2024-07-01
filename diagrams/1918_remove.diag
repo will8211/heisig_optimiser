@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   撤 [label = "撤\n1918 remove"];
   扌 [label = "扌\n* fingers"];
   育 [label = "育\n683 education"];
@@ -9,13 +15,14 @@ blockdiag {
   丶 [label = "丶\n* a drop of"];
   月 [label = "月\n13 month"];
   攵 [label = "攵\n* taskmaster"];
-  扌 -> 撤;
-  育 -> 撤;
-  囧充－儿 -> 育;
-  囧会－亼 -> 囧充－儿;
-  厶 -> 囧会－亼;
-  一 -> 囧会－亼;
-  丶 -> 囧充－儿;
-  月 -> 育;
-  攵 -> 撤;
+
+  扌 -> 撤 [thick];
+  育 -> 撤 [thick];
+  囧充－儿 -> 育 [thick];
+  囧会－亼 -> 囧充－儿 [thick];
+  厶 -> 囧会－亼 [thick];
+  一 -> 囧会－亼 [thick];
+  丶 -> 囧充－儿 [thick];
+  月 -> 育 [thick];
+  攵 -> 撤 [thick];
 }

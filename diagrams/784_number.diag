@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   数 [label = "数\n784 number"];
   娄 [label = "娄\n* bride"];
   女 [label = "女\n102 woman"];
   米 [label = "米\n778 rice"];
   攵 [label = "攵\n* taskmaster"];
-  娄 -> 数;
-  女 -> 娄;
-  米 -> 娄;
-  攵 -> 数;
+
+  娄 -> 数 [thick];
+  女 -> 娄 [thick];
+  米 -> 娄 [thick];
+  攵 -> 数 [thick];
 }

@@ -1,21 +1,28 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   钢 [label = "钢\n2539 steel"];
   金 [label = "金\n279 gold"];
-  131490 [label = "𠆢\n* umbrella"];
+  "𠆢" [label = "𠆢\n* umbrella"];
   王 [label = "王\n265 king"];
   工 [label = "工\n76 work"];
   丶 [label = "丶\n* a drop of"];
   冈 [label = "冈\n1170 ridge of a hill"];
   冂 [label = "冂\n* hood"];
   几 [label = "几\n57 how many?"];
-  13317 [label = "㐅\n* sheaf"];
-  金 -> 钢;
-  131490 -> 金;
-  王 -> 金;
-  工 -> 王;
-  丶 -> 金;
-  冈 -> 钢;
-  冂 -> 冈;
-  几 -> 冂;
-  13317 -> 冈;
+  "㐅" [label = "㐅\n* sheaf"];
+
+  金 -> 钢 [thick];
+  "𠆢" -> 金 [thick];
+  王 -> 金 [thick];
+  工 -> 王 [thick];
+  丶 -> 金 [thick];
+  冈 -> 钢 [thick];
+  冂 -> 冈 [thick];
+  几 -> 冂 [thick];
+  "㐅" -> 冈 [thick];
 }

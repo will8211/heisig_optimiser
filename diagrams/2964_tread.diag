@@ -1,17 +1,24 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   蹈 [label = "蹈\n2964 tread"];
   足 [label = "足\n1048 lower leg"];
   口 [label = "口\n11 mouth"];
   止 [label = "止\n379 stop"];
   舀 [label = "舀\n* scoop"];
   爪 [label = "爪\n663 claw"];
-  131206 [label = "𠂆\n* drag"];
+  "𠂆" [label = "𠂆\n* drag"];
   臼 [label = "臼\n* mortar"];
-  足 -> 蹈;
-  口 -> 足;
-  止 -> 足;
-  舀 -> 蹈;
-  爪 -> 舀;
-  131206 -> 爪;
-  臼 -> 舀;
+
+  足 -> 蹈 [thick];
+  口 -> 足 [thick];
+  止 -> 足 [thick];
+  舀 -> 蹈 [thick];
+  爪 -> 舀 [thick];
+  "𠂆" -> 爪 [thick];
+  臼 -> 舀 [thick];
 }

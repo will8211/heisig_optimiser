@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   囚 [label = "囚\n2089 prisoner"];
   囗 [label = "囗\n* pent in"];
   人 [label = "人\n793 person"];
-  囗 -> 囚;
-  人 -> 囚;
+
+  囗 -> 囚 [thick];
+  人 -> 囚 [thick];
 }

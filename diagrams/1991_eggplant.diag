@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   茄 [label = "茄\n1991 eggplant"];
   艹 [label = "艹\n* flower"];
   加 [label = "加\n749 add"];
@@ -6,10 +12,11 @@ blockdiag {
   几 [label = "几\n57 how many?"];
   月 [label = "月\n13 month"];
   口 [label = "口\n11 mouth"];
-  艹 -> 茄;
-  加 -> 茄;
-  肌 -> 加;
-  几 -> 肌;
-  月 -> 肌;
-  口 -> 加;
+
+  艹 -> 茄 [thick];
+  加 -> 茄 [thick];
+  肌 -> 加 [thick];
+  几 -> 肌 [thick];
+  月 -> 肌 [thick];
+  口 -> 加 [thick];
 }

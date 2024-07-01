@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   际 [label = "际\n1063 occasion"];
   阝 [label = "阝\n* pinnacle"];
   示 [label = "示\n900 show"];
-  阝 -> 际;
-  示 -> 际;
+
+  阝 -> 际 [thick];
+  示 -> 际 [thick];
 }

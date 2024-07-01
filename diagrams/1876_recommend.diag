@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   荐 [label = "荐\n1876 recommend"];
   艹 [label = "艹\n* flower"];
   存 [label = "存\n623 deposit"];
   才 [label = "才\n620 genius"];
   子 [label = "子\n97 child"];
-  艹 -> 荐;
-  存 -> 荐;
-  才 -> 存;
-  子 -> 存;
+
+  艹 -> 荐 [thick];
+  存 -> 荐 [thick];
+  才 -> 存 [thick];
+  子 -> 存 [thick];
 }

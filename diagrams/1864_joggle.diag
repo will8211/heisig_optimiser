@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   撼 [label = "撼\n1864 joggle"];
   扌 [label = "扌\n* fingers"];
   感 [label = "感\n576 feel"];
@@ -10,14 +16,15 @@ blockdiag {
   弋 [label = "弋\n* arrow"];
   一 [label = "一\n1 one"];
   心 [label = "心\n563 heart"];
-  扌 -> 撼;
-  感 -> 撼;
-  咸 -> 感;
-  口 -> 咸;
-  戌 -> 咸;
-  戊 -> 戌;
-  戈 -> 戊;
-  弋 -> 戈;
-  一 -> 戌;
-  心 -> 感;
+
+  扌 -> 撼 [thick];
+  感 -> 撼 [thick];
+  咸 -> 感 [thick];
+  口 -> 咸 [thick];
+  戌 -> 咸 [thick];
+  戊 -> 戌 [thick];
+  戈 -> 戊 [thick];
+  弋 -> 戈 [thick];
+  一 -> 戌 [thick];
+  心 -> 感 [thick];
 }

@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   白 [label = "白\n34 white"];
   日 [label = "日\n12 day"];
   丶 [label = "丶\n* a drop of"];
-  日 -> 白;
-  丶 -> 白;
+
+  日 -> 白 [thick];
+  丶 -> 白 [thick];
 }

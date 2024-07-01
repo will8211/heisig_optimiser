@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   纷 [label = "纷\n2386 disorderly"];
   纟 [label = "纟\n* thread"];
   厶 [label = "厶\n* elbow"];
   分 [label = "分\n694 part"];
   八 [label = "八\n8 eight"];
   刀 [label = "刀\n83 sword"];
-  纟 -> 纷;
-  厶 -> 纟;
-  分 -> 纷;
-  八 -> 分;
-  刀 -> 分;
+
+  纟 -> 纷 [thick];
+  厶 -> 纟 [thick];
+  分 -> 纷 [thick];
+  八 -> 分 [thick];
+  刀 -> 分 [thick];
 }

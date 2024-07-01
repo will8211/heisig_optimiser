@@ -1,0 +1,26 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  埃 [label = "埃\n2259 fine dust"];
+  土 [label = "土\n158 soil"];
+  矣 [label = "矣\n* crossbow"];
+  厶 [label = "厶\n* elbow"];
+  矢 [label = "矢\n998 dart"];
+  天 [label = "天\n436 heavens"];
+  一 [label = "一\n1 one"];
+  大 [label = "大\n113 large"];
+  丶 [label = "丶\n* a drop of"];
+
+  土 -> 埃 [thick];
+  矣 -> 埃 [thick];
+  厶 -> 矣 [thick];
+  矢 -> 矣 [thick];
+  天 -> 矢 [thick];
+  一 -> 天 [thick];
+  大 -> 天 [thick];
+  丶 -> 矢 [thick];
+}

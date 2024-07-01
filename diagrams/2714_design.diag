@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   纹 [label = "纹\n2714 design"];
   纟 [label = "纟\n* thread"];
   厶 [label = "厶\n* elbow"];
@@ -7,15 +13,16 @@ blockdiag {
   六 [label = "六\n6 six"];
   囧只－口 [label = "囧只－口\n* animal legs"];
   八 [label = "八\n8 eight"];
-  13317 [label = "㐅\n* sheaf"];
-  纟 -> 纹;
-  厶 -> 纟;
-  文 -> 纹;
-  亠 -> 文;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  13317 -> 文;
+  "㐅" [label = "㐅\n* sheaf"];
+
+  纟 -> 纹 [thick];
+  厶 -> 纟 [thick];
+  文 -> 纹 [thick];
+  亠 -> 文 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  "㐅" -> 文 [thick];
 }

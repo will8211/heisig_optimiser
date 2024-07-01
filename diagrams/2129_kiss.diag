@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   吻 [label = "吻\n2129 kiss"];
   口 [label = "口\n11 mouth"];
   勿 [label = "勿\n877 not"];
-  131283 [label = "𠃓\n* piglets"];
+  "𠃓" [label = "𠃓\n* piglets"];
   豕 [label = "豕\n* sow"];
-  口 -> 吻;
-  勿 -> 吻;
-  131283 -> 勿;
-  豕 -> 131283;
+
+  口 -> 吻 [thick];
+  勿 -> 吻 [thick];
+  "𠃓" -> 勿 [thick];
+  豕 -> "𠃓" [thick];
 }

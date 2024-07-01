@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   秦 [label = "秦\n2598 Qin"];
-  136663 [label = "𡗗\n* bonsai"];
+  "𡗗" [label = "𡗗\n* bonsai"];
   丰 [label = "丰\n1223 plentiful"];
   禾 [label = "禾\n762 standing grain"];
-  136663 -> 秦;
-  丰 -> 136663;
-  禾 -> 秦;
+
+  "𡗗" -> 秦 [thick];
+  丰 -> "𡗗" [thick];
+  禾 -> 秦 [thick];
 }

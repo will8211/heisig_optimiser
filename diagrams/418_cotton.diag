@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   棉 [label = "棉\n418 cotton"];
   木 [label = "木\n202 tree"];
   帛 [label = "帛\n* white towel"];
@@ -6,10 +12,11 @@ blockdiag {
   日 [label = "日\n12 day"];
   丶 [label = "丶\n* a drop of"];
   巾 [label = "巾\n410 towel"];
-  木 -> 棉;
-  帛 -> 棉;
-  白 -> 帛;
-  日 -> 白;
-  丶 -> 白;
-  巾 -> 帛;
+
+  木 -> 棉 [thick];
+  帛 -> 棉 [thick];
+  白 -> 帛 [thick];
+  日 -> 白 [thick];
+  丶 -> 白 [thick];
+  巾 -> 帛 [thick];
 }

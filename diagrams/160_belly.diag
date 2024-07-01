@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   肚 [label = "肚\n160 belly"];
   月 [label = "月\n13 month"];
   土 [label = "土\n158 soil"];
-  月 -> 肚;
-  土 -> 肚;
+
+  月 -> 肚 [thick];
+  土 -> 肚 [thick];
 }

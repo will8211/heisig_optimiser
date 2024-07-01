@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  驼 [label = "驼\n2980 camel (back end)"];
+  马 [label = "马\n1453 horse"];
+  囧与－丨一 [label = "囧与－丨一\n* pointed tail"];
+  它 [label = "它\n462 it"];
+  宀 [label = "宀\n* house"];
+  匕 [label = "匕\n453 ancient spoon"];
+
+  马 -> 驼 [thick];
+  囧与－丨一 -> 马 [thick];
+  它 -> 驼 [thick];
+  宀 -> 它 [thick];
+  匕 -> 它 [thick];
+}

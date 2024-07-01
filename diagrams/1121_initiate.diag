@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   创 [label = "创\n1121 initiate"];
   仓 [label = "仓\n1119 storehouse"];
-  131490 [label = "𠆢\n* umbrella"];
-  13630 [label = "㔾\n* fingerprint"];
+  "𠆢" [label = "𠆢\n* umbrella"];
+  "㔾" [label = "㔾\n* fingerprint"];
   刀 [label = "刀\n83 sword"];
-  仓 -> 创;
-  131490 -> 仓;
-  13630 -> 仓;
-  刀 -> 创;
+
+  仓 -> 创 [thick];
+  "𠆢" -> 仓 [thick];
+  "㔾" -> 仓 [thick];
+  刀 -> 创 [thick];
 }

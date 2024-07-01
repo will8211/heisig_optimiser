@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   稠 [label = "稠\n2009 dense"];
   禾 [label = "禾\n762 standing grain"];
   周 [label = "周\n333 circumference"];
@@ -7,11 +13,12 @@ blockdiag {
   口 [label = "口\n11 mouth"];
   冂 [label = "冂\n* hood"];
   几 [label = "几\n57 how many?"];
-  禾 -> 稠;
-  周 -> 稠;
-  囧周－冂 -> 周;
-  土 -> 囧周－冂;
-  口 -> 囧周－冂;
-  冂 -> 周;
-  几 -> 冂;
+
+  禾 -> 稠 [thick];
+  周 -> 稠 [thick];
+  囧周－冂 -> 周 [thick];
+  土 -> 囧周－冂 [thick];
+  口 -> 囧周－冂 [thick];
+  冂 -> 周 [thick];
+  几 -> 冂 [thick];
 }

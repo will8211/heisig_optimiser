@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   陌 [label = "陌\n2338 footpath"];
   阝 [label = "阝\n* pinnacle"];
   百 [label = "百\n35 hundred"];
@@ -6,10 +12,11 @@ blockdiag {
   日 [label = "日\n12 day"];
   丶 [label = "丶\n* a drop of"];
   一 [label = "一\n1 one"];
-  阝 -> 陌;
-  百 -> 陌;
-  白 -> 百;
-  日 -> 白;
-  丶 -> 白;
-  一 -> 百;
+
+  阝 -> 陌 [thick];
+  百 -> 陌 [thick];
+  白 -> 百 [thick];
+  日 -> 白 [thick];
+  丶 -> 白 [thick];
+  一 -> 百 [thick];
 }

@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   星 [label = "星\n1219 star"];
   日 [label = "日\n12 day"];
   生 [label = "生\n1218 life"];
   丶 [label = "丶\n* a drop of"];
   囧毒－母 [label = "囧毒－母\n* grow up"];
-  日 -> 星;
-  生 -> 星;
-  丶 -> 生;
-  囧毒－母 -> 生;
+
+  日 -> 星 [thick];
+  生 -> 星 [thick];
+  丶 -> 生 [thick];
+  囧毒－母 -> 生 [thick];
 }

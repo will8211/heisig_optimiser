@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   焰 [label = "焰\n2969 flame"];
   火 [label = "火\n170 fire"];
   臽 [label = "臽\n* pothole"];
   臼 [label = "臼\n* mortar"];
   勹 [label = "勹\n* bound up"];
-  火 -> 焰;
-  臽 -> 焰;
-  臼 -> 臽;
-  勹 -> 臽;
+
+  火 -> 焰 [thick];
+  臽 -> 焰 [thick];
+  臼 -> 臽 [thick];
+  勹 -> 臽 [thick];
 }

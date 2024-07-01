@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   谎 [label = "谎\n1726 lie"];
   言 [label = "言\n346 say"];
   二 [label = "二\n2 two"];
@@ -14,26 +20,27 @@ blockdiag {
   亡 [label = "亡\n490 deceased"];
   乙 [label = "乙\n95 second"];
   川 [label = "川\n134 stream"];
-  言 -> 谎;
-  二 -> 言;
-  一 -> 二;
-  口 -> 言;
-  亠 -> 言;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  荒 -> 谎;
-  芒 -> 荒;
-  艹 -> 芒;
-  亡 -> 芒;
-  亠 -> 亡;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  乙 -> 亡;
-  川 -> 荒;
+
+  言 -> 谎 [thick];
+  二 -> 言 [thick];
+  一 -> 二 [thick];
+  口 -> 言 [thick];
+  亠 -> 言 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  荒 -> 谎 [thick];
+  芒 -> 荒 [thick];
+  艹 -> 芒 [thick];
+  亡 -> 芒 [thick];
+  亠 -> 亡 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  乙 -> 亡 [thick];
+  川 -> 荒 [thick];
 }

@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   绳 [label = "绳\n2943 rope"];
   纟 [label = "纟\n* thread"];
   厶 [label = "厶\n* elbow"];
   黾 [label = "黾\n* electrical outlet"];
   口 [label = "口\n11 mouth"];
   电 [label = "电\n1484 electricity"];
-  纟 -> 绳;
-  厶 -> 纟;
-  黾 -> 绳;
-  口 -> 黾;
-  电 -> 黾;
+
+  纟 -> 绳 [thick];
+  厶 -> 纟 [thick];
+  黾 -> 绳 [thick];
+  口 -> 黾 [thick];
+  电 -> 黾 [thick];
 }

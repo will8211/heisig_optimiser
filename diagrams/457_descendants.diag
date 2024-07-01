@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   昆 [label = "昆\n457 descendants"];
   日 [label = "日\n12 day"];
   比 [label = "比\n456 compare"];
   匕 [label = "匕\n453 ancient spoon"];
-  日 -> 昆;
-  比 -> 昆;
-  匕 -> 比;
+
+  日 -> 昆 [thick];
+  比 -> 昆 [thick];
+  匕 -> 比 [thick];
 }

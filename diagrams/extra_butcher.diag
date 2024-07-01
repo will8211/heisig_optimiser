@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   刖 [label = "刖\n* butcher"];
   月 [label = "月\n13 month"];
   刀 [label = "刀\n83 sword"];
-  月 -> 刖;
-  刀 -> 刖;
+
+  月 -> 刖 [thick];
+  刀 -> 刖 [thick];
 }

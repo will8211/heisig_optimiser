@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   但 [label = "但\n805 however"];
   人 [label = "人\n793 person"];
   旦 [label = "旦\n30 daybreak"];
   日 [label = "日\n12 day"];
   一 [label = "一\n1 one"];
-  人 -> 但;
-  旦 -> 但;
-  日 -> 旦;
-  一 -> 旦;
+
+  人 -> 但 [thick];
+  旦 -> 但 [thick];
+  日 -> 旦 [thick];
+  一 -> 旦 [thick];
 }

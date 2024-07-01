@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   笑 [label = "笑\n787 laugh"];
   竹 [label = "竹\n786 bamboo"];
   丁 [label = "丁\n90 fourth"];
   夭 [label = "夭\n440 die young"];
   大 [label = "大\n113 large"];
   丶 [label = "丶\n* a drop of"];
-  竹 -> 笑;
-  丁 -> 竹;
-  夭 -> 笑;
-  大 -> 夭;
-  丶 -> 夭;
+
+  竹 -> 笑 [thick];
+  丁 -> 竹 [thick];
+  夭 -> 笑 [thick];
+  大 -> 夭 [thick];
+  丶 -> 夭 [thick];
 }

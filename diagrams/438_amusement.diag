@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   娱 [label = "娱\n438 amusement"];
   吴 [label = "吴\n437 Wu"];
   天 [label = "天\n436 heavens"];
@@ -6,10 +12,11 @@ blockdiag {
   大 [label = "大\n113 large"];
   口 [label = "口\n11 mouth"];
   女 [label = "女\n102 woman"];
-  吴 -> 娱;
-  天 -> 吴;
-  一 -> 天;
-  大 -> 天;
-  口 -> 吴;
-  女 -> 娱;
+
+  吴 -> 娱 [thick];
+  天 -> 吴 [thick];
+  一 -> 天 [thick];
+  大 -> 天 [thick];
+  口 -> 吴 [thick];
+  女 -> 娱 [thick];
 }

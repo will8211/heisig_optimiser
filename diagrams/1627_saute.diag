@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   煎 [label = "煎\n1627 saute"];
   前 [label = "前\n303 in front"];
   丷 [label = "丷\n* horns"];
@@ -7,11 +13,12 @@ blockdiag {
   月 [label = "月\n13 month"];
   刀 [label = "刀\n83 sword"];
   火 [label = "火\n170 fire"];
-  前 -> 煎;
-  丷 -> 前;
-  一 -> 丷;
-  刖 -> 前;
-  月 -> 刖;
-  刀 -> 刖;
-  火 -> 煎;
+
+  前 -> 煎 [thick];
+  丷 -> 前 [thick];
+  一 -> 丷 [thick];
+  刖 -> 前 [thick];
+  月 -> 刖 [thick];
+  刀 -> 刖 [thick];
+  火 -> 煎 [thick];
 }

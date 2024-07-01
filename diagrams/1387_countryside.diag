@@ -1,5 +1,12 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   乡 [label = "乡\n1387 countryside"];
   幺 [label = "幺\n* cocoon"];
-  幺 -> 乡;
+
+  幺 -> 乡 [thick];
 }

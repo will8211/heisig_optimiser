@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   悟 [label = "悟\n1799 realize"];
   心 [label = "心\n563 heart"];
   吾 [label = "吾\n19 I (literary)"];
   五 [label = "五\n5 five"];
   口 [label = "口\n11 mouth"];
-  心 -> 悟;
-  吾 -> 悟;
-  五 -> 吾;
-  口 -> 吾;
+
+  心 -> 悟 [thick];
+  吾 -> 悟 [thick];
+  五 -> 吾 [thick];
+  口 -> 吾 [thick];
 }

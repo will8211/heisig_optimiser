@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   尾 [label = "尾\n1422 tail"];
   尸 [label = "尸\n882 corpse"];
   毛 [label = "毛\n1421 fur"];
   手 [label = "手\n584 hand"];
-  尸 -> 尾;
-  毛 -> 尾;
-  手 -> 毛;
+
+  尸 -> 尾 [thick];
+  毛 -> 尾 [thick];
+  手 -> 毛 [thick];
 }

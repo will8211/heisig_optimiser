@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   雾 [label = "雾\n753 fog"];
   雨 [label = "雨\n425 rain"];
   务 [label = "务\n752 tasks"];
   夂 [label = "夂\n* walking legs"];
   力 [label = "力\n732 power"];
-  雨 -> 雾;
-  务 -> 雾;
-  夂 -> 务;
-  力 -> 务;
+
+  雨 -> 雾 [thick];
+  务 -> 雾 [thick];
+  夂 -> 务 [thick];
+  力 -> 务 [thick];
 }

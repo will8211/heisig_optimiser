@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   刹 [label = "刹\n2537 brake"];
   杀 [label = "杀\n1167 kill"];
-  13317 [label = "㐅\n* sheaf"];
+  "㐅" [label = "㐅\n* sheaf"];
   木 [label = "木\n202 tree"];
   刀 [label = "刀\n83 sword"];
-  杀 -> 刹;
-  13317 -> 杀;
-  木 -> 杀;
-  刀 -> 刹;
+
+  杀 -> 刹 [thick];
+  "㐅" -> 杀 [thick];
+  木 -> 杀 [thick];
+  刀 -> 刹 [thick];
 }

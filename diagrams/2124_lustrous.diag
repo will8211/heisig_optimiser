@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   莹 [label = "莹\n2124 lustrous"];
   囧荣－木 [label = "囧荣－木\n* greenhouse"];
   宀 [label = "宀\n* house"];
@@ -7,11 +13,12 @@ blockdiag {
   王 [label = "王\n265 king"];
   工 [label = "工\n76 work"];
   丶 [label = "丶\n* a drop of"];
-  囧荣－木 -> 莹;
-  宀 -> 囧荣－木;
-  艹 -> 囧荣－木;
-  玉 -> 莹;
-  王 -> 玉;
-  工 -> 王;
-  丶 -> 玉;
+
+  囧荣－木 -> 莹 [thick];
+  宀 -> 囧荣－木 [thick];
+  艹 -> 囧荣－木 [thick];
+  玉 -> 莹 [thick];
+  王 -> 玉 [thick];
+  工 -> 王 [thick];
+  丶 -> 玉 [thick];
 }

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   魔 [label = "魔\n1473 demon"];
   麻 [label = "麻\n561 hemp"];
   洞 [label = "洞\n186 cave"];
@@ -16,22 +22,23 @@ blockdiag {
   田 [label = "田\n14 rice field"];
   儿 [label = "儿\n56 youngster"];
   厶 [label = "厶\n* elbow"];
-  麻 -> 魔;
-  洞 -> 麻;
-  同 -> 洞;
-  一 -> 同;
-  口 -> 同;
-  冂 -> 同;
-  几 -> 冂;
-  水 -> 洞;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  林 -> 麻;
-  木 -> 林;
-  鬼 -> 魔;
-  丶 -> 鬼;
-  田 -> 鬼;
-  儿 -> 鬼;
-  厶 -> 鬼;
+
+  麻 -> 魔 [thick];
+  洞 -> 麻 [thick];
+  同 -> 洞 [thick];
+  一 -> 同 [thick];
+  口 -> 同 [thick];
+  冂 -> 同 [thick];
+  几 -> 冂 [thick];
+  水 -> 洞 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  林 -> 麻 [thick];
+  木 -> 林 [thick];
+  鬼 -> 魔 [thick];
+  丶 -> 鬼 [thick];
+  田 -> 鬼 [thick];
+  儿 -> 鬼 [thick];
+  厶 -> 鬼 [thick];
 }

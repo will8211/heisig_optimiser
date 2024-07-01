@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   帆 [label = "帆\n1685 sail"];
   巾 [label = "巾\n410 towel"];
   凡 [label = "凡\n62 ordinary"];
   丶 [label = "丶\n* a drop of"];
   几 [label = "几\n57 how many?"];
-  巾 -> 帆;
-  凡 -> 帆;
-  丶 -> 凡;
-  几 -> 凡;
+
+  巾 -> 帆 [thick];
+  凡 -> 帆 [thick];
+  丶 -> 凡 [thick];
+  几 -> 凡 [thick];
 }

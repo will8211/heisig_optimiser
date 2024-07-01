@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   存 [label = "存\n623 deposit"];
   才 [label = "才\n620 genius"];
   子 [label = "子\n97 child"];
-  才 -> 存;
-  子 -> 存;
+
+  才 -> 存 [thick];
+  子 -> 存 [thick];
 }

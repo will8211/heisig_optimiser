@@ -1,8 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   领 [label = "领\n1116 collar"];
   令 [label = "令\n1113 orders"];
   亼 [label = "亼\n* meeting"];
-  131490 [label = "𠆢\n* umbrella"];
+  "𠆢" [label = "𠆢\n* umbrella"];
   囧节－艹 [label = "囧节－艹\n* chop"];
   页 [label = "页\n60 page"];
   贝 [label = "贝\n52 shellfish"];
@@ -11,15 +17,16 @@ blockdiag {
   八 [label = "八\n8 eight"];
   一 [label = "一\n1 one"];
   丶 [label = "丶\n* a drop of"];
-  令 -> 领;
-  亼 -> 令;
-  131490 -> 亼;
-  囧节－艹 -> 令;
-  页 -> 领;
-  贝 -> 页;
-  目 -> 贝;
-  囧只－口 -> 贝;
-  八 -> 囧只－口;
-  一 -> 页;
-  丶 -> 页;
+
+  令 -> 领 [thick];
+  亼 -> 令 [thick];
+  "𠆢" -> 亼 [thick];
+  囧节－艹 -> 令 [thick];
+  页 -> 领 [thick];
+  贝 -> 页 [thick];
+  目 -> 贝 [thick];
+  囧只－口 -> 贝 [thick];
+  八 -> 囧只－口 [thick];
+  一 -> 页 [thick];
+  丶 -> 页 [thick];
 }

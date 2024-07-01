@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   鸡 [label = "鸡\n1439 chicken"];
   又 [label = "又\n633 again"];
   鸟 [label = "鸟\n1438 bird"];
@@ -8,13 +14,14 @@ blockdiag {
   几 [label = "几\n57 how many?"];
   口 [label = "口\n11 mouth"];
   囧与－丨一 [label = "囧与－丨一\n* pointed tail"];
-  又 -> 鸡;
-  鸟 -> 鸡;
-  向 -> 鸟;
-  丶 -> 向;
-  冂 -> 向;
-  几 -> 冂;
-  口 -> 向;
-  丶 -> 鸟;
-  囧与－丨一 -> 鸟;
+
+  又 -> 鸡 [thick];
+  鸟 -> 鸡 [thick];
+  向 -> 鸟 [thick];
+  丶 -> 向 [thick];
+  冂 -> 向 [thick];
+  几 -> 冂 [thick];
+  口 -> 向 [thick];
+  丶 -> 鸟 [thick];
+  囧与－丨一 -> 鸟 [thick];
 }

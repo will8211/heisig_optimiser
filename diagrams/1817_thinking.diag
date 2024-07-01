@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   惟 [label = "惟\n1817 thinking"];
   心 [label = "心\n563 heart"];
   隹 [label = "隹\n* turkey"];
-  心 -> 惟;
-  隹 -> 惟;
+
+  心 -> 惟 [thick];
+  隹 -> 惟 [thick];
 }

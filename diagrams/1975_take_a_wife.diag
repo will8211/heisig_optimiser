@@ -1,0 +1,18 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  娶 [label = "娶\n1975 take a wife"];
+  取 [label = "取\n718 take"];
+  耳 [label = "耳\n717 ear"];
+  又 [label = "又\n633 again"];
+  女 [label = "女\n102 woman"];
+
+  取 -> 娶 [thick];
+  耳 -> 取 [thick];
+  又 -> 取 [thick];
+  女 -> 娶 [thick];
+}

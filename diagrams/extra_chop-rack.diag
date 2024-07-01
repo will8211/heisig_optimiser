@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   甬 [label = "甬\n* chop-rack"];
   月 [label = "月\n13 month"];
   丨 [label = "丨\n* walking stick"];
   一 [label = "一\n1 one"];
   囧节－艹 [label = "囧节－艹\n* chop"];
-  月 -> 甬;
-  丨 -> 甬;
-  一 -> 丨;
-  囧节－艹 -> 甬;
+
+  月 -> 甬 [thick];
+  丨 -> 甬 [thick];
+  一 -> 丨 [thick];
+  囧节－艹 -> 甬 [thick];
 }

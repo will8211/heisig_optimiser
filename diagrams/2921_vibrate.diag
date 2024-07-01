@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   振 [label = "振\n2921 vibrate"];
   扌 [label = "扌\n* fingers"];
   辰 [label = "辰\n1467 sign of the dragon"];
@@ -6,10 +12,11 @@ blockdiag {
   二 [label = "二\n2 two"];
   一 [label = "一\n1 one"];
   囧丧－十－丷 [label = "囧丧－十－丷\n* barrette"];
-  扌 -> 振;
-  辰 -> 振;
-  厂 -> 辰;
-  二 -> 辰;
-  一 -> 二;
-  囧丧－十－丷 -> 辰;
+
+  扌 -> 振 [thick];
+  辰 -> 振 [thick];
+  厂 -> 辰 [thick];
+  二 -> 辰 [thick];
+  一 -> 二 [thick];
+  囧丧－十－丷 -> 辰 [thick];
 }

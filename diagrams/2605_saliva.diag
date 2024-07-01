@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   唾 [label = "唾\n2605 saliva"];
   口 [label = "口\n11 mouth"];
   垂 [label = "垂\n1241 droop"];
   壬 [label = "壬\n* porter"];
   士 [label = "士\n334 soldier"];
   囧垂－一－一 [label = "囧垂－一－一\n* silage"];
-  口 -> 唾;
-  垂 -> 唾;
-  壬 -> 垂;
-  士 -> 壬;
-  囧垂－一－一 -> 垂;
+
+  口 -> 唾 [thick];
+  垂 -> 唾 [thick];
+  壬 -> 垂 [thick];
+  士 -> 壬 [thick];
+  囧垂－一－一 -> 垂 [thick];
 }

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   勃 [label = "勃\n2425 vibrant"];
   孛 [label = "孛\n* Sunday school"];
   囧索－糸 [label = "囧索－糸\n* chapel"];
@@ -7,11 +13,12 @@ blockdiag {
   肌 [label = "肌\n63 muscle"];
   几 [label = "几\n57 how many?"];
   月 [label = "月\n13 month"];
-  孛 -> 勃;
-  囧索－糸 -> 孛;
-  宀 -> 囧索－糸;
-  子 -> 孛;
-  肌 -> 勃;
-  几 -> 肌;
-  月 -> 肌;
+
+  孛 -> 勃 [thick];
+  囧索－糸 -> 孛 [thick];
+  宀 -> 囧索－糸 [thick];
+  子 -> 孛 [thick];
+  肌 -> 勃 [thick];
+  几 -> 肌 [thick];
+  月 -> 肌 [thick];
 }

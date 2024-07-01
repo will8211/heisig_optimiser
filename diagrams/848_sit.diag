@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   坐 [label = "坐\n848 sit"];
   从 [label = "从\n846 follow"];
   人 [label = "人\n793 person"];
   土 [label = "土\n158 soil"];
-  从 -> 坐;
-  人 -> 从;
-  土 -> 坐;
+
+  从 -> 坐 [thick];
+  人 -> 从 [thick];
+  土 -> 坐 [thick];
 }

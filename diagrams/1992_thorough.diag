@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   彻 [label = "彻\n1992 thorough"];
   行 [label = "行\n754 line of business"];
   切 [label = "切\n85 cut"];
   刀 [label = "刀\n83 sword"];
   七 [label = "七\n7 seven"];
-  行 -> 彻;
-  切 -> 彻;
-  刀 -> 切;
-  七 -> 切;
+
+  行 -> 彻 [thick];
+  切 -> 彻 [thick];
+  刀 -> 切 [thick];
+  七 -> 切 [thick];
 }

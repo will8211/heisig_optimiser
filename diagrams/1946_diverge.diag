@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   岔 [label = "岔\n1946 diverge"];
   分 [label = "分\n694 part"];
   八 [label = "八\n8 eight"];
   刀 [label = "刀\n83 sword"];
   山 [label = "山\n688 mountain"];
-  分 -> 岔;
-  八 -> 分;
-  刀 -> 分;
-  山 -> 岔;
+
+  分 -> 岔 [thick];
+  八 -> 分 [thick];
+  刀 -> 分 [thick];
+  山 -> 岔 [thick];
 }

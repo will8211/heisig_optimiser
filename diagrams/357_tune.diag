@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   调 [label = "调\n357 tune"];
   周 [label = "周\n333 circumference"];
   囧周－冂 [label = "囧周－冂\n* lidded crock"];
@@ -13,20 +19,21 @@ blockdiag {
   六 [label = "六\n6 six"];
   囧只－口 [label = "囧只－口\n* animal legs"];
   八 [label = "八\n8 eight"];
-  周 -> 调;
-  囧周－冂 -> 周;
-  土 -> 囧周－冂;
-  口 -> 囧周－冂;
-  冂 -> 周;
-  几 -> 冂;
-  言 -> 调;
-  二 -> 言;
-  一 -> 二;
-  口 -> 言;
-  亠 -> 言;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
+
+  周 -> 调 [thick];
+  囧周－冂 -> 周 [thick];
+  土 -> 囧周－冂 [thick];
+  口 -> 囧周－冂 [thick];
+  冂 -> 周 [thick];
+  几 -> 冂 [thick];
+  言 -> 调 [thick];
+  二 -> 言 [thick];
+  一 -> 二 [thick];
+  口 -> 言 [thick];
+  亠 -> 言 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
 }

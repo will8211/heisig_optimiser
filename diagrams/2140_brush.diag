@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   刷 [label = "刷\n2140 brush"];
   尸 [label = "尸\n882 corpse"];
   巾 [label = "巾\n410 towel"];
   刀 [label = "刀\n83 sword"];
-  尸 -> 刷;
-  巾 -> 刷;
-  刀 -> 刷;
+
+  尸 -> 刷 [thick];
+  巾 -> 刷 [thick];
+  刀 -> 刷 [thick];
 }

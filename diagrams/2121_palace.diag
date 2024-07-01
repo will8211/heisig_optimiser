@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   宫 [label = "宫\n2121 palace"];
   宀 [label = "宀\n* house"];
   吕 [label = "吕\n865 spine"];
-  宀 -> 宫;
-  吕 -> 宫;
+
+  宀 -> 宫 [thick];
+  吕 -> 宫 [thick];
 }

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   废 [label = "废\n1303 discard"];
   洞 [label = "洞\n186 cave"];
   同 [label = "同\n185 same"];
@@ -11,27 +17,28 @@ blockdiag {
   丶 [label = "丶\n* a drop of"];
   发 [label = "发\n1302 send out"];
   友 [label = "友\n635 friend"];
-  131207 [label = "𠂇\n* by one’s side"];
+  "𠂇" [label = "𠂇\n* by one’s side"];
   十 [label = "十\n10 ten"];
   又 [label = "又\n633 again"];
   犬 [label = "犬\n239 pooch"];
   大 [label = "大\n113 large"];
-  洞 -> 废;
-  同 -> 洞;
-  一 -> 同;
-  口 -> 同;
-  冂 -> 同;
-  几 -> 冂;
-  水 -> 洞;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  发 -> 废;
-  友 -> 发;
-  131207 -> 友;
-  十 -> 131207;
-  又 -> 友;
-  犬 -> 发;
-  大 -> 犬;
-  丶 -> 犬;
+
+  洞 -> 废 [thick];
+  同 -> 洞 [thick];
+  一 -> 同 [thick];
+  口 -> 同 [thick];
+  冂 -> 同 [thick];
+  几 -> 冂 [thick];
+  水 -> 洞 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  发 -> 废 [thick];
+  友 -> 发 [thick];
+  "𠂇" -> 友 [thick];
+  十 -> "𠂇" [thick];
+  又 -> 友 [thick];
+  犬 -> 发 [thick];
+  大 -> 犬 [thick];
+  丶 -> 犬 [thick];
 }

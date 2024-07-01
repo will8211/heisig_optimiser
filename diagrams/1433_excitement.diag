@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   兴 [label = "兴\n1433 excitement"];
   囧应－广 [label = "囧应－广\n* owl"];
   一 [label = "一\n1 one"];
   囧只－口 [label = "囧只－口\n* animal legs"];
   八 [label = "八\n8 eight"];
-  囧应－广 -> 兴;
-  一 -> 兴;
-  囧只－口 -> 兴;
-  八 -> 囧只－口;
+
+  囧应－广 -> 兴 [thick];
+  一 -> 兴 [thick];
+  囧只－口 -> 兴 [thick];
+  八 -> 囧只－口 [thick];
 }

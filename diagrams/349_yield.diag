@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   让 [label = "让\n349 yield"];
   上 [label = "上\n45 above"];
   卜 [label = "卜\n43 divination"];
@@ -12,20 +18,21 @@ blockdiag {
   六 [label = "六\n6 six"];
   囧只－口 [label = "囧只－口\n* animal legs"];
   八 [label = "八\n8 eight"];
-  上 -> 让;
-  卜 -> 上;
-  丨 -> 卜;
-  一 -> 丨;
-  丶 -> 卜;
-  一 -> 上;
-  言 -> 让;
-  二 -> 言;
-  一 -> 二;
-  口 -> 言;
-  亠 -> 言;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
+
+  上 -> 让 [thick];
+  卜 -> 上 [thick];
+  丨 -> 卜 [thick];
+  一 -> 丨 [thick];
+  丶 -> 卜 [thick];
+  一 -> 上 [thick];
+  言 -> 让 [thick];
+  二 -> 言 [thick];
+  一 -> 二 [thick];
+  口 -> 言 [thick];
+  亠 -> 言 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
 }

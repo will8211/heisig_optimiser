@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  致 [label = "致\n1916 bring about"];
+  至 [label = "至\n678 until"];
+  囧会－亼 [label = "囧会－亼\n* wall"];
+  厶 [label = "厶\n* elbow"];
+  一 [label = "一\n1 one"];
+  土 [label = "土\n158 soil"];
+  攵 [label = "攵\n* taskmaster"];
+
+  至 -> 致 [thick];
+  囧会－亼 -> 至 [thick];
+  厶 -> 囧会－亼 [thick];
+  一 -> 囧会－亼 [thick];
+  土 -> 至 [thick];
+  攵 -> 致 [thick];
+}

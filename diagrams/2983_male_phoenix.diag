@@ -1,0 +1,14 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  凤 [label = "凤\n2983 male phoenix"];
+  几 [label = "几\n57 how many?"];
+  又 [label = "又\n633 again"];
+
+  几 -> 凤 [thick];
+  又 -> 凤 [thick];
+}

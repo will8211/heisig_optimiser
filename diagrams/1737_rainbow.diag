@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   虹 [label = "虹\n1737 rainbow"];
   虫 [label = "虫\n509 insect"];
   工 [label = "工\n76 work"];
-  虫 -> 虹;
-  工 -> 虹;
+
+  虫 -> 虹 [thick];
+  工 -> 虹 [thick];
 }

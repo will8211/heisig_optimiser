@@ -1,5 +1,12 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   竹 [label = "竹\n786 bamboo"];
   丁 [label = "丁\n90 fourth"];
-  丁 -> 竹;
+
+  丁 -> 竹 [thick];
 }

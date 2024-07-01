@@ -1,16 +1,23 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   氧 [label = "氧\n2834 oxygen"];
   气 [label = "气\n1404 air"];
-  131209 [label = "𠂉\n* reclining"];
+  "𠂉" [label = "𠂉\n* reclining"];
   一 [label = "一\n1 one"];
   乙 [label = "乙\n95 second"];
   羊 [label = "羊\n528 sheep"];
   丷 [label = "丷\n* horns"];
-  气 -> 氧;
-  131209 -> 气;
-  一 -> 气;
-  乙 -> 气;
-  羊 -> 氧;
-  丷 -> 羊;
-  一 -> 丷;
+
+  气 -> 氧 [thick];
+  "𠂉" -> 气 [thick];
+  一 -> 气 [thick];
+  乙 -> 气 [thick];
+  羊 -> 氧 [thick];
+  丷 -> 羊 [thick];
+  一 -> 丷 [thick];
 }

@@ -1,0 +1,18 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  叟 [label = "叟\n* cake mixer"];
+  臼 [label = "臼\n* mortar"];
+  又 [label = "又\n633 again"];
+  丨 [label = "丨\n* walking stick"];
+  一 [label = "一\n1 one"];
+
+  臼 -> 叟 [thick];
+  又 -> 叟 [thick];
+  丨 -> 叟 [thick];
+  一 -> 丨 [thick];
+}

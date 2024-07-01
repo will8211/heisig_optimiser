@@ -1,0 +1,24 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  喻 [label = "喻\n1628 figure of speech"];
+  俞 [label = "俞\n* slaughterhouse"];
+  亼 [label = "亼\n* meeting"];
+  "𠆢" [label = "𠆢\n* umbrella"];
+  刖 [label = "刖\n* butcher"];
+  月 [label = "月\n13 month"];
+  刀 [label = "刀\n83 sword"];
+  口 [label = "口\n11 mouth"];
+
+  俞 -> 喻 [thick];
+  亼 -> 俞 [thick];
+  "𠆢" -> 亼 [thick];
+  刖 -> 俞 [thick];
+  月 -> 刖 [thick];
+  刀 -> 刖 [thick];
+  口 -> 喻 [thick];
+}

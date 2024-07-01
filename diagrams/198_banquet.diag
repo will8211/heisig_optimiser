@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   宴 [label = "宴\n198 banquet"];
   日 [label = "日\n12 day"];
   女 [label = "女\n102 woman"];
   宀 [label = "宀\n* house"];
   安 [label = "安\n197 peaceful"];
-  日 -> 宴;
-  女 -> 宴;
-  宀 -> 宴;
-  安 -> 宴;
-  女 -> 安;
-  宀 -> 安;
+
+  日 -> 宴 [thick];
+  女 -> 宴 [thick];
+  宀 -> 宴 [thick];
+  安 -> 宴 [thick];
+  女 -> 安 [thick];
+  宀 -> 安 [thick];
 }

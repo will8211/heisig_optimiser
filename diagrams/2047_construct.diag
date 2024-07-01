@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   筑 [label = "筑\n2047 construct"];
   竹 [label = "竹\n786 bamboo"];
   丁 [label = "丁\n90 fourth"];
@@ -6,10 +12,11 @@ blockdiag {
   凡 [label = "凡\n62 ordinary"];
   丶 [label = "丶\n* a drop of"];
   几 [label = "几\n57 how many?"];
-  竹 -> 筑;
-  丁 -> 竹;
-  工 -> 筑;
-  凡 -> 筑;
-  丶 -> 凡;
-  几 -> 凡;
+
+  竹 -> 筑 [thick];
+  丁 -> 竹 [thick];
+  工 -> 筑 [thick];
+  凡 -> 筑 [thick];
+  丶 -> 凡 [thick];
+  几 -> 凡 [thick];
 }

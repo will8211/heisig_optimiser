@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   宋 [label = "宋\n1572 Song"];
   宀 [label = "宀\n* house"];
   木 [label = "木\n202 tree"];
-  宀 -> 宋;
-  木 -> 宋;
+
+  宀 -> 宋 [thick];
+  木 -> 宋 [thick];
 }

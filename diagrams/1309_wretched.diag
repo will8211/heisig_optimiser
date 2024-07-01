@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   惨 [label = "惨\n1309 wretched"];
   心 [label = "心\n563 heart"];
   参 [label = "参\n1308 participate"];
   大 [label = "大\n113 large"];
   厶 [label = "厶\n* elbow"];
   彡 [label = "彡\n* rooster tail"];
-  心 -> 惨;
-  参 -> 惨;
-  大 -> 参;
-  厶 -> 参;
-  彡 -> 参;
+
+  心 -> 惨 [thick];
+  参 -> 惨 [thick];
+  大 -> 参 [thick];
+  厶 -> 参 [thick];
+  彡 -> 参 [thick];
 }

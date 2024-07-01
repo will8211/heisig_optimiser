@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   港 [label = "港\n1357 port"];
   水 [label = "水\n137 water"];
   丨 [label = "丨\n* walking stick"];
@@ -12,16 +18,17 @@ blockdiag {
   八 [label = "八\n8 eight"];
   已 [label = "已\n519 already"];
   己 [label = "己\n515 self"];
-  水 -> 港;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  巷 -> 港;
-  共 -> 巷;
-  囧昔－日 -> 共;
-  艹 -> 囧昔－日;
-  囧只－口 -> 共;
-  八 -> 囧只－口;
-  已 -> 巷;
-  己 -> 已;
+
+  水 -> 港 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  巷 -> 港 [thick];
+  共 -> 巷 [thick];
+  囧昔－日 -> 共 [thick];
+  艹 -> 囧昔－日 [thick];
+  囧只－口 -> 共 [thick];
+  八 -> 囧只－口 [thick];
+  已 -> 巷 [thick];
+  己 -> 已 [thick];
 }

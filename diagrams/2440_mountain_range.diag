@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  岭 [label = "岭\n2440 mountain range"];
+  山 [label = "山\n688 mountain"];
+  令 [label = "令\n1113 orders"];
+  亼 [label = "亼\n* meeting"];
+  "𠆢" [label = "𠆢\n* umbrella"];
+  囧节－艹 [label = "囧节－艹\n* chop"];
+
+  山 -> 岭 [thick];
+  令 -> 岭 [thick];
+  亼 -> 令 [thick];
+  "𠆢" -> 亼 [thick];
+  囧节－艹 -> 令 [thick];
+}

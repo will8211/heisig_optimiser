@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   唉 [label = "唉\n2258 sigh-ay-ay"];
   口 [label = "口\n11 mouth"];
   矣 [label = "矣\n* crossbow"];
@@ -8,12 +14,13 @@ blockdiag {
   一 [label = "一\n1 one"];
   大 [label = "大\n113 large"];
   丶 [label = "丶\n* a drop of"];
-  口 -> 唉;
-  矣 -> 唉;
-  厶 -> 矣;
-  矢 -> 矣;
-  天 -> 矢;
-  一 -> 天;
-  大 -> 天;
-  丶 -> 矢;
+
+  口 -> 唉 [thick];
+  矣 -> 唉 [thick];
+  厶 -> 矣 [thick];
+  矢 -> 矣 [thick];
+  天 -> 矢 [thick];
+  一 -> 天 [thick];
+  大 -> 天 [thick];
+  丶 -> 矢 [thick];
 }

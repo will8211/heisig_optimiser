@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   滩 [label = "滩\n1888 beach"];
   水 [label = "水\n137 water"];
   丨 [label = "丨\n* walking stick"];
@@ -7,11 +13,12 @@ blockdiag {
   难 [label = "难\n644 difficult"];
   又 [label = "又\n633 again"];
   隹 [label = "隹\n* turkey"];
-  水 -> 滩;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  难 -> 滩;
-  又 -> 难;
-  隹 -> 难;
+
+  水 -> 滩 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  难 -> 滩 [thick];
+  又 -> 难 [thick];
+  隹 -> 难 [thick];
 }

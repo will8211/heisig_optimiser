@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   苏 [label = "苏\n745 revive"];
   艹 [label = "艹\n* flower"];
   办 [label = "办\n743 manage"];
@@ -6,10 +12,11 @@ blockdiag {
   几 [label = "几\n57 how many?"];
   月 [label = "月\n13 month"];
   丶 [label = "丶\n* a drop of"];
-  艹 -> 苏;
-  办 -> 苏;
-  肌 -> 办;
-  几 -> 肌;
-  月 -> 肌;
-  丶 -> 办;
+
+  艹 -> 苏 [thick];
+  办 -> 苏 [thick];
+  肌 -> 办 [thick];
+  几 -> 肌 [thick];
+  月 -> 肌 [thick];
+  丶 -> 办 [thick];
 }

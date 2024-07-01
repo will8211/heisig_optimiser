@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   窟 [label = "窟\n2360 den"];
   穴 [label = "穴\n1070 hole"];
   宀 [label = "宀\n* house"];
@@ -8,13 +14,14 @@ blockdiag {
   尸 [label = "尸\n882 corpse"];
   出 [label = "出\n689 exit"];
   山 [label = "山\n688 mountain"];
-  穴 -> 窟;
-  宀 -> 穴;
-  八 -> 穴;
-  囧只－口 -> 穴;
-  八 -> 囧只－口;
-  屈 -> 窟;
-  尸 -> 屈;
-  出 -> 屈;
-  山 -> 出;
+
+  穴 -> 窟 [thick];
+  宀 -> 穴 [thick];
+  八 -> 穴 [thick];
+  囧只－口 -> 穴 [thick];
+  八 -> 囧只－口 [thick];
+  屈 -> 窟 [thick];
+  尸 -> 屈 [thick];
+  出 -> 屈 [thick];
+  山 -> 出 [thick];
 }

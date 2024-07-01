@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   谴 [label = "谴\n2743 censure"];
   言 [label = "言\n346 say"];
   二 [label = "二\n2 two"];
@@ -9,29 +15,30 @@ blockdiag {
   囧只－口 [label = "囧只－口\n* animal legs"];
   八 [label = "八\n8 eight"];
   遣 [label = "遣\n2742 dispatch"];
-  131088 [label = "𠀐\n* purse"];
+  "𠀐" [label = "𠀐\n* purse"];
   中 [label = "中\n38 middle"];
   丨 [label = "丨\n* walking stick"];
-  131236 [label = "𠂤\n* maestro"];
+  "𠂤" [label = "𠂤\n* maestro"];
   丶 [label = "丶\n* a drop of"];
   辶 [label = "辶\n* road"];
-  言 -> 谴;
-  二 -> 言;
-  一 -> 二;
-  口 -> 言;
-  亠 -> 言;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  遣 -> 谴;
-  131088 -> 遣;
-  中 -> 131088;
-  丨 -> 中;
-  一 -> 丨;
-  口 -> 中;
-  131236 -> 遣;
-  丶 -> 131236;
-  辶 -> 遣;
+
+  言 -> 谴 [thick];
+  二 -> 言 [thick];
+  一 -> 二 [thick];
+  口 -> 言 [thick];
+  亠 -> 言 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  遣 -> 谴 [thick];
+  "𠀐" -> 遣 [thick];
+  中 -> "𠀐" [thick];
+  丨 -> 中 [thick];
+  一 -> 丨 [thick];
+  口 -> 中 [thick];
+  "𠂤" -> 遣 [thick];
+  丶 -> "𠂤" [thick];
+  辶 -> 遣 [thick];
 }

@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   耸 [label = "耸\n2105 shrug"];
   从 [label = "从\n846 follow"];
   人 [label = "人\n793 person"];
   耳 [label = "耳\n717 ear"];
-  从 -> 耸;
-  人 -> 从;
-  耳 -> 耸;
+
+  从 -> 耸 [thick];
+  人 -> 从 [thick];
+  耳 -> 耸 [thick];
 }

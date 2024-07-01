@@ -1,5 +1,12 @@
 blockdiag {
-  131283 [label = "𠃓\n* piglets"];
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  "𠃓" [label = "𠃓\n* piglets"];
   豕 [label = "豕\n* sow"];
-  豕 -> 131283;
+
+  豕 -> "𠃓" [thick];
 }

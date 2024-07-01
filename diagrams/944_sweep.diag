@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   扫 [label = "扫\n944 sweep"];
   扌 [label = "扌\n* fingers"];
   彐 [label = "彐\n* broom"];
-  扌 -> 扫;
-  彐 -> 扫;
+
+  扌 -> 扫 [thick];
+  彐 -> 扫 [thick];
 }

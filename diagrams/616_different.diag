@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   异 [label = "异\n616 different"];
   已 [label = "已\n519 already"];
   己 [label = "己\n515 self"];
   开 [label = "开\n613 open"];
   二 [label = "二\n2 two"];
   一 [label = "一\n1 one"];
-  已 -> 异;
-  己 -> 已;
-  开 -> 异;
-  二 -> 开;
-  一 -> 二;
+
+  已 -> 异 [thick];
+  己 -> 已 [thick];
+  开 -> 异 [thick];
+  二 -> 开 [thick];
+  一 -> 二 [thick];
 }

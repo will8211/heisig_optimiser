@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   譬 [label = "譬\n2558 analogy"];
   辟 [label = "辟\n1185 repudiate"];
   尸 [label = "尸\n882 corpse"];
@@ -13,20 +19,21 @@ blockdiag {
   六 [label = "六\n6 six"];
   囧只－口 [label = "囧只－口\n* animal legs"];
   八 [label = "八\n8 eight"];
-  辟 -> 譬;
-  尸 -> 辟;
-  口 -> 辟;
-  辛 -> 辟;
-  立 -> 辛;
-  十 -> 辛;
-  言 -> 譬;
-  二 -> 言;
-  一 -> 二;
-  口 -> 言;
-  亠 -> 言;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
+
+  辟 -> 譬 [thick];
+  尸 -> 辟 [thick];
+  口 -> 辟 [thick];
+  辛 -> 辟 [thick];
+  立 -> 辛 [thick];
+  十 -> 辛 [thick];
+  言 -> 譬 [thick];
+  二 -> 言 [thick];
+  一 -> 二 [thick];
+  口 -> 言 [thick];
+  亠 -> 言 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
 }

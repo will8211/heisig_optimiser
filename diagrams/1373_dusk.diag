@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   昏 [label = "昏\n1373 dusk"];
   氏 [label = "氏\n1371 family name"];
   丶 [label = "丶\n* a drop of"];
@@ -6,10 +12,11 @@ blockdiag {
   一 [label = "一\n1 one"];
   乙 [label = "乙\n95 second"];
   日 [label = "日\n12 day"];
-  氏 -> 昏;
-  丶 -> 氏;
-  囧以－丶人 -> 氏;
-  一 -> 氏;
-  乙 -> 氏;
-  日 -> 昏;
+
+  氏 -> 昏 [thick];
+  丶 -> 氏 [thick];
+  囧以－丶人 -> 氏 [thick];
+  一 -> 氏 [thick];
+  乙 -> 氏 [thick];
+  日 -> 昏 [thick];
 }

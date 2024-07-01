@@ -1,0 +1,21 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  的 [label = "的\n70 bull’s eye"];
+  白 [label = "白\n34 white"];
+  日 [label = "日\n12 day"];
+  丶 [label = "丶\n* a drop of"];
+  勺 [label = "勺\n69 ladle"];
+  勹 [label = "勹\n* bound up"];
+
+  白 -> 的 [thick];
+  日 -> 白 [thick];
+  丶 -> 白 [thick];
+  勺 -> 的 [thick];
+  勹 -> 勺 [thick];
+  丶 -> 勺 [thick];
+}

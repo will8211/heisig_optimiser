@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   殳 [label = "殳\n* missile"];
   几 [label = "几\n57 how many?"];
   又 [label = "又\n633 again"];
-  几 -> 殳;
-  又 -> 殳;
+
+  几 -> 殳 [thick];
+  又 -> 殳 [thick];
 }

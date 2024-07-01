@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   藻 [label = "藻\n2333 algae"];
   艹 [label = "艹\n* flower"];
   澡 [label = "澡\n2332 bath"];
@@ -12,16 +18,17 @@ blockdiag {
   日 [label = "日\n12 day"];
   口 [label = "口\n11 mouth"];
   木 [label = "木\n202 tree"];
-  艹 -> 藻;
-  澡 -> 藻;
-  水 -> 澡;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  喿 -> 澡;
-  品 -> 喿;
-  晶 -> 品;
-  日 -> 晶;
-  口 -> 品;
-  木 -> 喿;
+
+  艹 -> 藻 [thick];
+  澡 -> 藻 [thick];
+  水 -> 澡 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  喿 -> 澡 [thick];
+  品 -> 喿 [thick];
+  晶 -> 品 [thick];
+  日 -> 晶 [thick];
+  口 -> 品 [thick];
+  木 -> 喿 [thick];
 }

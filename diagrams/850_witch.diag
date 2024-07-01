@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   巫 [label = "巫\n850 witch"];
   工 [label = "工\n76 work"];
   从 [label = "从\n846 follow"];
   人 [label = "人\n793 person"];
-  工 -> 巫;
-  从 -> 巫;
-  人 -> 从;
+
+  工 -> 巫 [thick];
+  从 -> 巫 [thick];
+  人 -> 从 [thick];
 }

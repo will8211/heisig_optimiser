@@ -1,15 +1,22 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   给 [label = "给\n1084 give"];
   纟 [label = "纟\n* thread"];
   厶 [label = "厶\n* elbow"];
   合 [label = "合\n262 fit"];
   亼 [label = "亼\n* meeting"];
-  131490 [label = "𠆢\n* umbrella"];
+  "𠆢" [label = "𠆢\n* umbrella"];
   口 [label = "口\n11 mouth"];
-  纟 -> 给;
-  厶 -> 纟;
-  合 -> 给;
-  亼 -> 合;
-  131490 -> 亼;
-  口 -> 合;
+
+  纟 -> 给 [thick];
+  厶 -> 纟 [thick];
+  合 -> 给 [thick];
+  亼 -> 合 [thick];
+  "𠆢" -> 亼 [thick];
+  口 -> 合 [thick];
 }

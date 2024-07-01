@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   净 [label = "净\n952 clean"];
   冫 [label = "冫\n* ice"];
   水 [label = "水\n137 water"];
@@ -9,13 +15,14 @@ blockdiag {
   勹 [label = "勹\n* bound up"];
   肀 [label = "肀\n* rake"];
   彐 [label = "彐\n* broom"];
-  冫 -> 净;
-  水 -> 冫;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  争 -> 净;
-  勹 -> 争;
-  肀 -> 争;
-  彐 -> 肀;
+
+  冫 -> 净 [thick];
+  水 -> 冫 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  争 -> 净 [thick];
+  勹 -> 争 [thick];
+  肀 -> 争 [thick];
+  彐 -> 肀 [thick];
 }

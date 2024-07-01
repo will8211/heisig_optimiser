@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   挂 [label = "挂\n605 hang"];
   扌 [label = "扌\n* fingers"];
   圭 [label = "圭\n* bricks"];
   土 [label = "土\n158 soil"];
-  扌 -> 挂;
-  圭 -> 挂;
-  土 -> 圭;
+
+  扌 -> 挂 [thick];
+  圭 -> 挂 [thick];
+  土 -> 圭 [thick];
 }

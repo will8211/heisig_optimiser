@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   柏 [label = "柏\n1562 cypress"];
   木 [label = "木\n202 tree"];
   白 [label = "白\n34 white"];
   日 [label = "日\n12 day"];
   丶 [label = "丶\n* a drop of"];
-  木 -> 柏;
-  白 -> 柏;
-  日 -> 白;
-  丶 -> 白;
+
+  木 -> 柏 [thick];
+  白 -> 柏 [thick];
+  日 -> 白 [thick];
+  丶 -> 白 [thick];
 }

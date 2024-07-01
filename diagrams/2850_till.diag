@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   耕 [label = "耕\n2850 till"];
   耒 [label = "耒\n* Christmas tree"];
   一 [label = "一\n1 one"];
   未 [label = "未\n215 not yet"];
   木 [label = "木\n202 tree"];
   井 [label = "井\n1358 well"];
-  耒 -> 耕;
-  一 -> 耒;
-  未 -> 耒;
-  木 -> 未;
-  井 -> 耕;
+
+  耒 -> 耕 [thick];
+  一 -> 耒 [thick];
+  未 -> 耒 [thick];
+  木 -> 未 [thick];
+  井 -> 耕 [thick];
 }

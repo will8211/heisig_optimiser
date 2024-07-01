@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   涵 [label = "涵\n2721 culvert"];
   水 [label = "水\n137 water"];
   丨 [label = "丨\n* walking stick"];
@@ -16,22 +22,23 @@ blockdiag {
   八 [label = "八\n8 eight"];
   几 [label = "几\n57 how many?"];
   土 [label = "土\n158 soil"];
-  水 -> 涵;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  函 -> 涵;
-  了 -> 函;
-  子 -> 了;
-  囧率－玄－十 -> 函;
-  坑 -> 函;
-  亢 -> 坑;
-  亠 -> 亢;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  几 -> 亢;
-  土 -> 坑;
+
+  水 -> 涵 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  函 -> 涵 [thick];
+  了 -> 函 [thick];
+  子 -> 了 [thick];
+  囧率－玄－十 -> 函 [thick];
+  坑 -> 函 [thick];
+  亢 -> 坑 [thick];
+  亠 -> 亢 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  几 -> 亢 [thick];
+  土 -> 坑 [thick];
 }

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   绑 [label = "绑\n2809 truss"];
   纟 [label = "纟\n* thread"];
   厶 [label = "厶\n* elbow"];
@@ -6,10 +12,11 @@ blockdiag {
   丰 [label = "丰\n1223 plentiful"];
   囧阝 [label = "囧阝\n* city walls"];
   阝 [label = "阝\n* pinnacle"];
-  纟 -> 绑;
-  厶 -> 纟;
-  邦 -> 绑;
-  丰 -> 邦;
-  囧阝 -> 邦;
-  阝 -> 囧阝;
+
+  纟 -> 绑 [thick];
+  厶 -> 纟 [thick];
+  邦 -> 绑 [thick];
+  丰 -> 邦 [thick];
+  囧阝 -> 邦 [thick];
+  阝 -> 囧阝 [thick];
 }

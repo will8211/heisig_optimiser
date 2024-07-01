@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   呼 [label = "呼\n1164 shout"];
   口 [label = "口\n11 mouth"];
   乎 [label = "乎\n1163 ooh!"];
   平 [label = "平\n1160 even"];
-  口 -> 呼;
-  乎 -> 呼;
-  平 -> 乎;
+
+  口 -> 呼 [thick];
+  乎 -> 呼 [thick];
+  平 -> 乎 [thick];
 }

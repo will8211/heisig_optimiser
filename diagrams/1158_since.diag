@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   既 [label = "既\n1158 since"];
   艮 [label = "艮\n* silver"];
   旡 [label = "旡\n* waitress"];
   儿 [label = "儿\n56 youngster"];
-  艮 -> 既;
-  旡 -> 既;
-  儿 -> 旡;
+
+  艮 -> 既 [thick];
+  旡 -> 既 [thick];
+  儿 -> 旡 [thick];
 }

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   窗 [label = "窗\n1483 window"];
   穴 [label = "穴\n1070 hole"];
   宀 [label = "宀\n* house"];
@@ -6,11 +12,12 @@ blockdiag {
   囧只－口 [label = "囧只－口\n* animal legs"];
   囱 [label = "囱\n* GPS"];
   夂 [label = "夂\n* walking legs"];
-  穴 -> 窗;
-  宀 -> 穴;
-  八 -> 穴;
-  囧只－口 -> 穴;
-  八 -> 囧只－口;
-  囱 -> 窗;
-  夂 -> 囱;
+
+  穴 -> 窗 [thick];
+  宀 -> 穴 [thick];
+  八 -> 穴 [thick];
+  囧只－口 -> 穴 [thick];
+  八 -> 囧只－口 [thick];
+  囱 -> 窗 [thick];
+  夂 -> 囱 [thick];
 }

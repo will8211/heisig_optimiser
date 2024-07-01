@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   组 [label = "组\n1345 group"];
   纟 [label = "纟\n* thread"];
   厶 [label = "厶\n* elbow"];
   且 [label = "且\n1343 moreover"];
-  纟 -> 组;
-  厶 -> 纟;
-  且 -> 组;
+
+  纟 -> 组 [thick];
+  厶 -> 纟 [thick];
+  且 -> 组 [thick];
 }

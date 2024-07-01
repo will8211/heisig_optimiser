@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   助 [label = "助\n1347 assist"];
   且 [label = "且\n1343 moreover"];
   力 [label = "力\n732 power"];
-  且 -> 助;
-  力 -> 助;
+
+  且 -> 助 [thick];
+  力 -> 助 [thick];
 }

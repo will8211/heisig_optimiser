@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   邮 [label = "邮\n2807 post"];
   由 [label = "由\n913 wherefore"];
   田 [label = "田\n14 rice field"];
   囧阝 [label = "囧阝\n* city walls"];
   阝 [label = "阝\n* pinnacle"];
-  由 -> 邮;
-  田 -> 由;
-  囧阝 -> 邮;
-  阝 -> 囧阝;
+
+  由 -> 邮 [thick];
+  田 -> 由 [thick];
+  囧阝 -> 邮 [thick];
+  阝 -> 囧阝 [thick];
 }

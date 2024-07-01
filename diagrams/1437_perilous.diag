@@ -1,15 +1,22 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   险 [label = "险\n1437 perilous"];
   阝 [label = "阝\n* pinnacle"];
   佥 [label = "佥\n* hootenanny"];
   亼 [label = "亼\n* meeting"];
-  131490 [label = "𠆢\n* umbrella"];
+  "𠆢" [label = "𠆢\n* umbrella"];
   囧应－广 [label = "囧应－广\n* owl"];
   一 [label = "一\n1 one"];
-  阝 -> 险;
-  佥 -> 险;
-  亼 -> 佥;
-  131490 -> 亼;
-  囧应－广 -> 佥;
-  一 -> 佥;
+
+  阝 -> 险 [thick];
+  佥 -> 险 [thick];
+  亼 -> 佥 [thick];
+  "𠆢" -> 亼 [thick];
+  囧应－广 -> 佥 [thick];
+  一 -> 佥 [thick];
 }

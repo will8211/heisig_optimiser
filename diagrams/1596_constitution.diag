@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   宪 [label = "宪\n1596 constitution"];
   宀 [label = "宀\n* house"];
   先 [label = "先\n256 before"];
   牛 [label = "牛\n252 cow"];
   儿 [label = "儿\n56 youngster"];
-  宀 -> 宪;
-  先 -> 宪;
-  牛 -> 先;
-  儿 -> 先;
+
+  宀 -> 宪 [thick];
+  先 -> 宪 [thick];
+  牛 -> 先 [thick];
+  儿 -> 先 [thick];
 }

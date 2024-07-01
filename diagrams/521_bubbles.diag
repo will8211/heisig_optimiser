@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   泡 [label = "泡\n521 bubbles"];
   水 [label = "水\n137 water"];
   丨 [label = "丨\n* walking stick"];
@@ -8,12 +14,13 @@ blockdiag {
   勹 [label = "勹\n* bound up"];
   已 [label = "已\n519 already"];
   己 [label = "己\n515 self"];
-  水 -> 泡;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  包 -> 泡;
-  勹 -> 包;
-  已 -> 包;
-  己 -> 已;
+
+  水 -> 泡 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  包 -> 泡 [thick];
+  勹 -> 包 [thick];
+  已 -> 包 [thick];
+  己 -> 已 [thick];
 }

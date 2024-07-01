@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   焚 [label = "焚\n1575 burn"];
   林 [label = "林\n203 woods"];
   木 [label = "木\n202 tree"];
   火 [label = "火\n170 fire"];
-  林 -> 焚;
-  木 -> 林;
-  火 -> 焚;
+
+  林 -> 焚 [thick];
+  木 -> 林 [thick];
+  火 -> 焚 [thick];
 }

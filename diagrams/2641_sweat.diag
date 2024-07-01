@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   汗 [label = "汗\n2641 sweat"];
   水 [label = "水\n137 water"];
   丨 [label = "丨\n* walking stick"];
   一 [label = "一\n1 one"];
   丶 [label = "丶\n* a drop of"];
   干 [label = "干\n1277 dry"];
-  水 -> 汗;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  干 -> 汗;
+
+  水 -> 汗 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  干 -> 汗 [thick];
 }

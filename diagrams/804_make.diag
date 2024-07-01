@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   做 [label = "做\n804 make"];
   人 [label = "人\n793 person"];
   故 [label = "故\n342 deliberately"];
@@ -6,10 +12,11 @@ blockdiag {
   十 [label = "十\n10 ten"];
   口 [label = "口\n11 mouth"];
   攵 [label = "攵\n* taskmaster"];
-  人 -> 做;
-  故 -> 做;
-  古 -> 故;
-  十 -> 古;
-  口 -> 古;
-  攵 -> 故;
+
+  人 -> 做 [thick];
+  故 -> 做 [thick];
+  古 -> 故 [thick];
+  十 -> 古 [thick];
+  口 -> 古 [thick];
+  攵 -> 故 [thick];
 }

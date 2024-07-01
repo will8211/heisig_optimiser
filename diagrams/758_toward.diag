@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   往 [label = "往\n758 toward"];
   行 [label = "行\n754 line of business"];
   主 [label = "主\n277 lord"];
@@ -6,13 +12,14 @@ blockdiag {
   王 [label = "王\n265 king"];
   工 [label = "工\n76 work"];
   玉 [label = "玉\n266 jade"];
-  行 -> 往;
-  主 -> 往;
-  丶 -> 主;
-  王 -> 主;
-  工 -> 王;
-  玉 -> 主;
-  王 -> 玉;
-  工 -> 王;
-  丶 -> 玉;
+
+  行 -> 往 [thick];
+  主 -> 往 [thick];
+  丶 -> 主 [thick];
+  王 -> 主 [thick];
+  工 -> 王 [thick];
+  玉 -> 主 [thick];
+  王 -> 玉 [thick];
+  工 -> 王 [thick];
+  丶 -> 玉 [thick];
 }

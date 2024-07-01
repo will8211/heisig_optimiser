@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   嗓 [label = "嗓\n2752 voicebox"];
   口 [label = "口\n11 mouth"];
   桑 [label = "桑\n2751 mulberry tree"];
   又 [label = "又\n633 again"];
   木 [label = "木\n202 tree"];
-  口 -> 嗓;
-  桑 -> 嗓;
-  又 -> 桑;
-  木 -> 桑;
+
+  口 -> 嗓 [thick];
+  桑 -> 嗓 [thick];
+  又 -> 桑 [thick];
+  木 -> 桑 [thick];
 }

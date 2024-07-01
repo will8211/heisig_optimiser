@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   囧受－又 [label = "囧受－又\n* birdhouse"];
   爪 [label = "爪\n663 claw"];
-  131206 [label = "𠂆\n* drag"];
+  "𠂆" [label = "𠂆\n* drag"];
   宀 [label = "宀\n* house"];
-  爪 -> 囧受－又;
-  131206 -> 爪;
-  宀 -> 囧受－又;
+
+  爪 -> 囧受－又 [thick];
+  "𠂆" -> 爪 [thick];
+  宀 -> 囧受－又 [thick];
 }

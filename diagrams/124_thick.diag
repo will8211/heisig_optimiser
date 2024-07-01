@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   厚 [label = "厚\n124 thick"];
   子 [label = "子\n97 child"];
   厂 [label = "厂\n121 factory"];
   日 [label = "日\n12 day"];
-  子 -> 厚;
-  厂 -> 厚;
-  日 -> 厚;
+
+  子 -> 厚 [thick];
+  厂 -> 厚 [thick];
+  日 -> 厚 [thick];
 }

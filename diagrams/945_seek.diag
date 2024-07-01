@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   寻 [label = "寻\n945 seek"];
   彐 [label = "彐\n* broom"];
   寸 [label = "寸\n166 Chinese inch"];
   丶 [label = "丶\n* a drop of"];
   十 [label = "十\n10 ten"];
-  彐 -> 寻;
-  寸 -> 寻;
-  丶 -> 寸;
-  十 -> 寸;
+
+  彐 -> 寻 [thick];
+  寸 -> 寻 [thick];
+  丶 -> 寸 [thick];
+  十 -> 寸 [thick];
 }

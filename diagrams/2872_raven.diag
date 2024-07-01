@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   鸦 [label = "鸦\n2872 raven"];
   牙 [label = "牙\n1414 tooth"];
   箱 [label = "箱\n788 box"];
@@ -16,30 +22,31 @@ blockdiag {
   口 [label = "口\n11 mouth"];
   囧与－丨一 [label = "囧与－丨一\n* pointed tail"];
   乌 [label = "乌\n2873 crow"];
-  牙 -> 鸦;
-  箱 -> 牙;
-  竹 -> 箱;
-  丁 -> 竹;
-  相 -> 箱;
-  木 -> 相;
-  目 -> 相;
-  矛 -> 牙;
-  鸟 -> 鸦;
-  向 -> 鸟;
-  丶 -> 向;
-  冂 -> 向;
-  几 -> 冂;
-  口 -> 向;
-  丶 -> 鸟;
-  囧与－丨一 -> 鸟;
-  乌 -> 鸦;
-  鸟 -> 乌;
-  向 -> 鸟;
-  丶 -> 向;
-  冂 -> 向;
-  几 -> 冂;
-  口 -> 向;
-  丶 -> 鸟;
-  囧与－丨一 -> 鸟;
-  丶 -> 乌;
+
+  牙 -> 鸦 [thick];
+  箱 -> 牙 [thick];
+  竹 -> 箱 [thick];
+  丁 -> 竹 [thick];
+  相 -> 箱 [thick];
+  木 -> 相 [thick];
+  目 -> 相 [thick];
+  矛 -> 牙 [thick];
+  鸟 -> 鸦 [thick];
+  向 -> 鸟 [thick];
+  丶 -> 向 [thick];
+  冂 -> 向 [thick];
+  几 -> 冂 [thick];
+  口 -> 向 [thick];
+  丶 -> 鸟 [thick];
+  囧与－丨一 -> 鸟 [thick];
+  乌 -> 鸦 [thick];
+  鸟 -> 乌 [thick];
+  向 -> 鸟 [thick];
+  丶 -> 向 [thick];
+  冂 -> 向 [thick];
+  几 -> 冂 [thick];
+  口 -> 向 [thick];
+  丶 -> 鸟 [thick];
+  囧与－丨一 -> 鸟 [thick];
+  丶 -> 乌 [thick];
 }

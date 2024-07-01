@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   红 [label = "红\n1089 red"];
   纟 [label = "纟\n* thread"];
   厶 [label = "厶\n* elbow"];
   工 [label = "工\n76 work"];
-  纟 -> 红;
-  厶 -> 纟;
-  工 -> 红;
+
+  纟 -> 红 [thick];
+  厶 -> 纟 [thick];
+  工 -> 红 [thick];
 }

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   贾 [label = "贾\n1258 merchant"];
   西 [label = "西\n1253 west"];
   四 [label = "四\n4 four"];
@@ -9,15 +15,16 @@ blockdiag {
   目 [label = "目\n15 eye"];
   囧只－口 [label = "囧只－口\n* animal legs"];
   八 [label = "八\n8 eight"];
-  西 -> 贾;
-  四 -> 西;
-  口 -> 四;
-  儿 -> 四;
-  一 -> 西;
-  儿 -> 西;
-  口 -> 西;
-  贝 -> 贾;
-  目 -> 贝;
-  囧只－口 -> 贝;
-  八 -> 囧只－口;
+
+  西 -> 贾 [thick];
+  四 -> 西 [thick];
+  口 -> 四 [thick];
+  儿 -> 四 [thick];
+  一 -> 西 [thick];
+  儿 -> 西 [thick];
+  口 -> 西 [thick];
+  贝 -> 贾 [thick];
+  目 -> 贝 [thick];
+  囧只－口 -> 贝 [thick];
+  八 -> 囧只－口 [thick];
 }

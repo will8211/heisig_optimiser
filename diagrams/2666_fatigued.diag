@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   疲 [label = "疲\n2666 fatigued"];
   疒 [label = "疒\n* sickness"];
   洞 [label = "洞\n186 cave"];
@@ -15,24 +21,25 @@ blockdiag {
   支 [label = "支\n650 offshoot"];
   十 [label = "十\n10 ten"];
   又 [label = "又\n633 again"];
-  疒 -> 疲;
-  洞 -> 疒;
-  同 -> 洞;
-  一 -> 同;
-  口 -> 同;
-  冂 -> 同;
-  几 -> 冂;
-  水 -> 洞;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  冫 -> 疒;
-  水 -> 冫;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  皮 -> 疲;
-  支 -> 皮;
-  十 -> 支;
-  又 -> 支;
+
+  疒 -> 疲 [thick];
+  洞 -> 疒 [thick];
+  同 -> 洞 [thick];
+  一 -> 同 [thick];
+  口 -> 同 [thick];
+  冂 -> 同 [thick];
+  几 -> 冂 [thick];
+  水 -> 洞 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  冫 -> 疒 [thick];
+  水 -> 冫 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  皮 -> 疲 [thick];
+  支 -> 皮 [thick];
+  十 -> 支 [thick];
+  又 -> 支 [thick];
 }

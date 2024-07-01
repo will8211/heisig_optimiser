@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   顽 [label = "顽\n61 stubborn"];
   页 [label = "页\n60 page"];
   贝 [label = "贝\n52 shellfish"];
@@ -10,15 +16,16 @@ blockdiag {
   元 [label = "元\n59 beginning"];
   二 [label = "二\n2 two"];
   儿 [label = "儿\n56 youngster"];
-  页 -> 顽;
-  贝 -> 页;
-  目 -> 贝;
-  囧只－口 -> 贝;
-  八 -> 囧只－口;
-  一 -> 页;
-  丶 -> 页;
-  元 -> 顽;
-  二 -> 元;
-  一 -> 二;
-  儿 -> 元;
+
+  页 -> 顽 [thick];
+  贝 -> 页 [thick];
+  目 -> 贝 [thick];
+  囧只－口 -> 贝 [thick];
+  八 -> 囧只－口 [thick];
+  一 -> 页 [thick];
+  丶 -> 页 [thick];
+  元 -> 顽 [thick];
+  二 -> 元 [thick];
+  一 -> 二 [thick];
+  儿 -> 元 [thick];
 }

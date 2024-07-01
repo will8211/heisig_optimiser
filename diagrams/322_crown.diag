@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   冠 [label = "冠\n322 crown"];
   冖 [label = "冖\n* crown"];
   寸 [label = "寸\n166 Chinese inch"];
@@ -8,12 +14,13 @@ blockdiag {
   二 [label = "二\n2 two"];
   一 [label = "一\n1 one"];
   儿 [label = "儿\n56 youngster"];
-  冖 -> 冠;
-  寸 -> 冠;
-  丶 -> 寸;
-  十 -> 寸;
-  元 -> 冠;
-  二 -> 元;
-  一 -> 二;
-  儿 -> 元;
+
+  冖 -> 冠 [thick];
+  寸 -> 冠 [thick];
+  丶 -> 寸 [thick];
+  十 -> 寸 [thick];
+  元 -> 冠 [thick];
+  二 -> 元 [thick];
+  一 -> 二 [thick];
+  儿 -> 元 [thick];
 }

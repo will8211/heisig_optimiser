@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   凛 [label = "凛\n2160 chilly"];
   冫 [label = "冫\n* ice"];
   水 [label = "水\n137 water"];
@@ -13,19 +19,20 @@ blockdiag {
   囗 [label = "囗\n* pent in"];
   口 [label = "口\n11 mouth"];
   示 [label = "示\n900 show"];
-  冫 -> 凛;
-  水 -> 冫;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  亠 -> 凛;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  回 -> 凛;
-  囗 -> 回;
-  口 -> 回;
-  示 -> 凛;
+
+  冫 -> 凛 [thick];
+  水 -> 冫 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  亠 -> 凛 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  回 -> 凛 [thick];
+  囗 -> 回 [thick];
+  口 -> 回 [thick];
+  示 -> 凛 [thick];
 }

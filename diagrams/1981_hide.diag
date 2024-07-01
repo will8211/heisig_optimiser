@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   藏 [label = "藏\n1981 hide"];
   艹 [label = "艹\n* flower"];
   爿 [label = "爿\n* bunk beds"];
@@ -6,10 +12,11 @@ blockdiag {
   戈 [label = "戈\n361 halberd"];
   弋 [label = "弋\n* arrow"];
   臣 [label = "臣\n731 feudal official"];
-  艹 -> 藏;
-  爿 -> 藏;
-  戊 -> 藏;
-  戈 -> 戊;
-  弋 -> 戈;
-  臣 -> 藏;
+
+  艹 -> 藏 [thick];
+  爿 -> 藏 [thick];
+  戊 -> 藏 [thick];
+  戈 -> 戊 [thick];
+  弋 -> 戈 [thick];
+  臣 -> 藏 [thick];
 }

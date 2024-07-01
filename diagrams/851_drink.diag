@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   喝 [label = "喝\n851 drink"];
   口 [label = "口\n11 mouth"];
   曷 [label = "曷\n* siesta"];
@@ -6,10 +12,11 @@ blockdiag {
   勹 [label = "勹\n* bound up"];
   乙 [label = "乙\n95 second"];
   日 [label = "日\n12 day"];
-  口 -> 喝;
-  曷 -> 喝;
-  人 -> 曷;
-  勹 -> 曷;
-  乙 -> 曷;
-  日 -> 曷;
+
+  口 -> 喝 [thick];
+  曷 -> 喝 [thick];
+  人 -> 曷 [thick];
+  勹 -> 曷 [thick];
+  乙 -> 曷 [thick];
+  日 -> 曷 [thick];
 }

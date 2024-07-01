@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   祖 [label = "祖\n1346 ancestor"];
   示 [label = "示\n900 show"];
   且 [label = "且\n1343 moreover"];
-  示 -> 祖;
-  且 -> 祖;
+
+  示 -> 祖 [thick];
+  且 -> 祖 [thick];
 }

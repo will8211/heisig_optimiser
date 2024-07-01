@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   豁 [label = "豁\n2592 breach"];
   害 [label = "害\n1224 harm"];
   宀 [label = "宀\n* house"];
@@ -7,14 +13,15 @@ blockdiag {
   谷 [label = "谷\n698 valley"];
   囧只－口 [label = "囧只－口\n* animal legs"];
   八 [label = "八\n8 eight"];
-  131490 [label = "𠆢\n* umbrella"];
-  害 -> 豁;
-  宀 -> 害;
-  丰 -> 害;
-  口 -> 害;
-  谷 -> 豁;
-  囧只－口 -> 谷;
-  八 -> 囧只－口;
-  131490 -> 谷;
-  口 -> 谷;
+  "𠆢" [label = "𠆢\n* umbrella"];
+
+  害 -> 豁 [thick];
+  宀 -> 害 [thick];
+  丰 -> 害 [thick];
+  口 -> 害 [thick];
+  谷 -> 豁 [thick];
+  囧只－口 -> 谷 [thick];
+  八 -> 囧只－口 [thick];
+  "𠆢" -> 谷 [thick];
+  口 -> 谷 [thick];
 }

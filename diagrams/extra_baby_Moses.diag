@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  "㐬" [label = "㐬\n* baby Moses"];
+  囧充－儿 [label = "囧充－儿\n* infant"];
+  囧会－亼 [label = "囧会－亼\n* wall"];
+  厶 [label = "厶\n* elbow"];
+  一 [label = "一\n1 one"];
+  丶 [label = "丶\n* a drop of"];
+  川 [label = "川\n134 stream"];
+
+  囧充－儿 -> "㐬" [thick];
+  囧会－亼 -> 囧充－儿 [thick];
+  厶 -> 囧会－亼 [thick];
+  一 -> 囧会－亼 [thick];
+  丶 -> 囧充－儿 [thick];
+  川 -> "㐬" [thick];
+}

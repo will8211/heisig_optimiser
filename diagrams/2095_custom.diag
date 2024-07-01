@@ -1,15 +1,22 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   俗 [label = "俗\n2095 custom"];
   人 [label = "人\n793 person"];
   谷 [label = "谷\n698 valley"];
   囧只－口 [label = "囧只－口\n* animal legs"];
   八 [label = "八\n8 eight"];
-  131490 [label = "𠆢\n* umbrella"];
+  "𠆢" [label = "𠆢\n* umbrella"];
   口 [label = "口\n11 mouth"];
-  人 -> 俗;
-  谷 -> 俗;
-  囧只－口 -> 谷;
-  八 -> 囧只－口;
-  131490 -> 谷;
-  口 -> 谷;
+
+  人 -> 俗 [thick];
+  谷 -> 俗 [thick];
+  囧只－口 -> 谷 [thick];
+  八 -> 囧只－口 [thick];
+  "𠆢" -> 谷 [thick];
+  口 -> 谷 [thick];
 }

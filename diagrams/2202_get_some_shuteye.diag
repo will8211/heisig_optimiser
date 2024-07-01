@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  寝 [label = "寝\n2202 get some shuteye"];
+  宀 [label = "宀\n* house"];
+  兆 [label = "兆\n237 portent"];
+  囧浸－氵 [label = "囧浸－氵\n* dunce"];
+  彐 [label = "彐\n* broom"];
+  冖 [label = "冖\n* crown"];
+  又 [label = "又\n633 again"];
+
+  宀 -> 寝 [thick];
+  兆 -> 寝 [thick];
+  囧浸－氵 -> 寝 [thick];
+  彐 -> 囧浸－氵 [thick];
+  冖 -> 囧浸－氵 [thick];
+  又 -> 囧浸－氵 [thick];
+}

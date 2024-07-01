@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   馨 [label = "馨\n1410 fragrant"];
   殸 [label = "殸\n* civil war"];
   士 [label = "士\n334 soldier"];
@@ -9,13 +15,14 @@ blockdiag {
   香 [label = "香\n772 perfume"];
   禾 [label = "禾\n762 standing grain"];
   日 [label = "日\n12 day"];
-  殸 -> 馨;
-  士 -> 殸;
-  尸 -> 殸;
-  殳 -> 殸;
-  几 -> 殳;
-  又 -> 殳;
-  香 -> 馨;
-  禾 -> 香;
-  日 -> 香;
+
+  殸 -> 馨 [thick];
+  士 -> 殸 [thick];
+  尸 -> 殸 [thick];
+  殳 -> 殸 [thick];
+  几 -> 殳 [thick];
+  又 -> 殳 [thick];
+  香 -> 馨 [thick];
+  禾 -> 香 [thick];
+  日 -> 香 [thick];
 }

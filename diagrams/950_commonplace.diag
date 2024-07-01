@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   碌 [label = "碌\n950 commonplace"];
   石 [label = "石\n125 stone"];
   口 [label = "口\n11 mouth"];
@@ -9,13 +15,14 @@ blockdiag {
   丨 [label = "丨\n* walking stick"];
   一 [label = "一\n1 one"];
   丶 [label = "丶\n* a drop of"];
-  石 -> 碌;
-  口 -> 石;
-  厂 -> 石;
-  录 -> 碌;
-  彐 -> 录;
-  水 -> 录;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
+
+  石 -> 碌 [thick];
+  口 -> 石 [thick];
+  厂 -> 石 [thick];
+  录 -> 碌 [thick];
+  彐 -> 录 [thick];
+  水 -> 录 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
 }

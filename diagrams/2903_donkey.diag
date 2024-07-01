@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   驴 [label = "驴\n2903 donkey"];
   马 [label = "马\n1453 horse"];
   囧与－丨一 [label = "囧与－丨一\n* pointed tail"];
   户 [label = "户\n896 door"];
   丶 [label = "丶\n* a drop of"];
   尸 [label = "尸\n882 corpse"];
-  马 -> 驴;
-  囧与－丨一 -> 马;
-  户 -> 驴;
-  丶 -> 户;
-  尸 -> 户;
+
+  马 -> 驴 [thick];
+  囧与－丨一 -> 马 [thick];
+  户 -> 驴 [thick];
+  丶 -> 户 [thick];
+  尸 -> 户 [thick];
 }

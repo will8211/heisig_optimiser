@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   玛 [label = "玛\n2895 Matteo"];
   玉 [label = "玉\n266 jade"];
   王 [label = "王\n265 king"];
@@ -6,10 +12,11 @@ blockdiag {
   丶 [label = "丶\n* a drop of"];
   马 [label = "马\n1453 horse"];
   囧与－丨一 [label = "囧与－丨一\n* pointed tail"];
-  玉 -> 玛;
-  王 -> 玉;
-  工 -> 王;
-  丶 -> 玉;
-  马 -> 玛;
-  囧与－丨一 -> 马;
+
+  玉 -> 玛 [thick];
+  王 -> 玉 [thick];
+  工 -> 王 [thick];
+  丶 -> 玉 [thick];
+  马 -> 玛 [thick];
+  囧与－丨一 -> 马 [thick];
 }

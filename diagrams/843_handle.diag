@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   柄 [label = "柄\n843 handle"];
   木 [label = "木\n202 tree"];
   丙 [label = "丙\n842 third"];
@@ -7,11 +13,12 @@ blockdiag {
   囧冂 [label = "囧冂\n* belt"];
   巾 [label = "巾\n410 towel"];
   人 [label = "人\n793 person"];
-  木 -> 柄;
-  丙 -> 柄;
-  一 -> 丙;
-  内 -> 丙;
-  囧冂 -> 内;
-  巾 -> 囧冂;
-  人 -> 内;
+
+  木 -> 柄 [thick];
+  丙 -> 柄 [thick];
+  一 -> 丙 [thick];
+  内 -> 丙 [thick];
+  囧冂 -> 内 [thick];
+  巾 -> 囧冂 [thick];
+  人 -> 内 [thick];
 }

@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   吸 [label = "吸\n628 inhale"];
   口 [label = "口\n11 mouth"];
   及 [label = "及\n627 catch up with"];
   乃 [label = "乃\n625 only then"];
-  口 -> 吸;
-  及 -> 吸;
-  乃 -> 及;
+
+  口 -> 吸 [thick];
+  及 -> 吸 [thick];
+  乃 -> 及 [thick];
 }

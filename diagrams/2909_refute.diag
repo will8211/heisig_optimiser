@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   驳 [label = "驳\n2909 refute"];
   马 [label = "马\n1453 horse"];
   囧与－丨一 [label = "囧与－丨一\n* pointed tail"];
-  13317 [label = "㐅\n* sheaf"];
-  马 -> 驳;
-  囧与－丨一 -> 马;
-  13317 -> 驳;
+  "㐅" [label = "㐅\n* sheaf"];
+
+  马 -> 驳 [thick];
+  囧与－丨一 -> 马 [thick];
+  "㐅" -> 驳 [thick];
 }

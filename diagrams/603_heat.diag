@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   热 [label = "热\n603 heat"];
   执 [label = "执\n602 clench"];
   扌 [label = "扌\n* fingers"];
   丸 [label = "丸\n42 pill"];
   九 [label = "九\n9 nine"];
   火 [label = "火\n170 fire"];
-  执 -> 热;
-  扌 -> 执;
-  丸 -> 执;
-  九 -> 丸;
-  火 -> 热;
+
+  执 -> 热 [thick];
+  扌 -> 执 [thick];
+  丸 -> 执 [thick];
+  九 -> 丸 [thick];
+  火 -> 热 [thick];
 }

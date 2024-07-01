@@ -1,0 +1,18 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  姨 [label = "姨\n2271 maternal aunt"];
+  女 [label = "女\n102 woman"];
+  夷 [label = "夷\n2270 barbarian"];
+  大 [label = "大\n113 large"];
+  弓 [label = "弓\n1013 bow"];
+
+  女 -> 姨 [thick];
+  夷 -> 姨 [thick];
+  大 -> 夷 [thick];
+  弓 -> 夷 [thick];
+}

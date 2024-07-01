@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   椅 [label = "椅\n1566 chair"];
   木 [label = "木\n202 tree"];
   奇 [label = "奇\n133 strange"];
@@ -6,12 +12,13 @@ blockdiag {
   可 [label = "可\n92 can"];
   丁 [label = "丁\n90 fourth"];
   口 [label = "口\n11 mouth"];
-  木 -> 椅;
-  奇 -> 椅;
-  大 -> 奇;
-  可 -> 奇;
-  丁 -> 可;
-  口 -> 可;
-  口 -> 奇;
-  丁 -> 奇;
+
+  木 -> 椅 [thick];
+  奇 -> 椅 [thick];
+  大 -> 奇 [thick];
+  可 -> 奇 [thick];
+  丁 -> 可 [thick];
+  口 -> 可 [thick];
+  口 -> 奇 [thick];
+  丁 -> 奇 [thick];
 }

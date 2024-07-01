@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   男 [label = "男\n741 male"];
   田 [label = "田\n14 rice field"];
   力 [label = "力\n732 power"];
-  田 -> 男;
-  力 -> 男;
+
+  田 -> 男 [thick];
+  力 -> 男 [thick];
 }

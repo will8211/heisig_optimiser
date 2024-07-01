@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   赞 [label = "赞\n1597 succor"];
   贝 [label = "贝\n52 shellfish"];
   目 [label = "目\n15 eye"];
@@ -7,11 +13,12 @@ blockdiag {
   先 [label = "先\n256 before"];
   牛 [label = "牛\n252 cow"];
   儿 [label = "儿\n56 youngster"];
-  贝 -> 赞;
-  目 -> 贝;
-  囧只－口 -> 贝;
-  八 -> 囧只－口;
-  先 -> 赞;
-  牛 -> 先;
-  儿 -> 先;
+
+  贝 -> 赞 [thick];
+  目 -> 贝 [thick];
+  囧只－口 -> 贝 [thick];
+  八 -> 囧只－口 [thick];
+  先 -> 赞 [thick];
+  牛 -> 先 [thick];
+  儿 -> 先 [thick];
 }

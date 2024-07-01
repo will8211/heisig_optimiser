@@ -1,7 +1,14 @@
 blockdiag {
-  132486 [label = "囧冖＋巾\n* apron"];
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  "囧冖＋巾" [label = "囧冖＋巾\n* apron"];
   巾 [label = "巾\n410 towel"];
   冖 [label = "冖\n* crown"];
-  巾 -> 132486;
-  冖 -> 132486;
+
+  巾 -> "囧冖＋巾" [thick];
+  冖 -> "囧冖＋巾" [thick];
 }

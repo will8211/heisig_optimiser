@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   抖 [label = "抖\n2238 quiver"];
   扌 [label = "扌\n* fingers"];
   斗 [label = "斗\n968 Big Dipper"];
@@ -8,12 +14,13 @@ blockdiag {
   一 [label = "一\n1 one"];
   丶 [label = "丶\n* a drop of"];
   十 [label = "十\n10 ten"];
-  扌 -> 抖;
-  斗 -> 抖;
-  冫 -> 斗;
-  水 -> 冫;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  十 -> 斗;
+
+  扌 -> 抖 [thick];
+  斗 -> 抖 [thick];
+  冫 -> 斗 [thick];
+  水 -> 冫 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  十 -> 斗 [thick];
 }

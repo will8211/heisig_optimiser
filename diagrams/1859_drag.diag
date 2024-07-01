@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   拖 [label = "拖\n1859 drag"];
   扌 [label = "扌\n* fingers"];
-  131209 [label = "𠂉\n* reclining"];
+  "𠂉" [label = "𠂉\n* reclining"];
   也 [label = "也\n505 also"];
   乙 [label = "乙\n95 second"];
-  扌 -> 拖;
-  131209 -> 拖;
-  也 -> 拖;
-  乙 -> 也;
+
+  扌 -> 拖 [thick];
+  "𠂉" -> 拖 [thick];
+  也 -> 拖 [thick];
+  乙 -> 也 [thick];
 }

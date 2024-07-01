@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   票 [label = "票\n1256 ticket"];
   西 [label = "西\n1253 west"];
   四 [label = "四\n4 four"];
@@ -6,12 +12,13 @@ blockdiag {
   儿 [label = "儿\n56 youngster"];
   一 [label = "一\n1 one"];
   示 [label = "示\n900 show"];
-  西 -> 票;
-  四 -> 西;
-  口 -> 四;
-  儿 -> 四;
-  一 -> 西;
-  儿 -> 西;
-  口 -> 西;
-  示 -> 票;
+
+  西 -> 票 [thick];
+  四 -> 西 [thick];
+  口 -> 四 [thick];
+  儿 -> 四 [thick];
+  一 -> 西 [thick];
+  儿 -> 西 [thick];
+  口 -> 西 [thick];
+  示 -> 票 [thick];
 }

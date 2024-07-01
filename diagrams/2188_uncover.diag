@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   掀 [label = "掀\n2188 uncover"];
   扌 [label = "扌\n* fingers"];
   欣 [label = "欣\n2187 elated"];
   斤 [label = "斤\n924 catty"];
   欠 [label = "欠\n474 lack"];
-  扌 -> 掀;
-  欣 -> 掀;
-  斤 -> 欣;
-  欠 -> 欣;
+
+  扌 -> 掀 [thick];
+  欣 -> 掀 [thick];
+  斤 -> 欣 [thick];
+  欠 -> 欣 [thick];
 }

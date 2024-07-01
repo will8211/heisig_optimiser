@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   滚 [label = "滚\n1949 trundle"];
   水 [label = "水\n137 water"];
   丨 [label = "丨\n* walking stick"];
@@ -11,18 +17,19 @@ blockdiag {
   八 [label = "八\n8 eight"];
   公 [label = "公\n696 public"];
   厶 [label = "厶\n* elbow"];
-  水 -> 滚;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  衣 -> 滚;
-  亠 -> 衣;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  公 -> 滚;
-  八 -> 公;
-  厶 -> 公;
+
+  水 -> 滚 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  衣 -> 滚 [thick];
+  亠 -> 衣 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  公 -> 滚 [thick];
+  八 -> 公 [thick];
+  厶 -> 公 [thick];
 }

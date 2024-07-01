@@ -1,15 +1,22 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   瓣 [label = "瓣\n2829 petal"];
   辛 [label = "辛\n1183 peppery"];
   立 [label = "立\n444 standing up"];
   十 [label = "十\n10 ten"];
   瓜 [label = "瓜\n1399 melon"];
   爪 [label = "爪\n663 claw"];
-  131206 [label = "𠂆\n* drag"];
-  辛 -> 瓣;
-  立 -> 辛;
-  十 -> 辛;
-  瓜 -> 瓣;
-  爪 -> 瓜;
-  131206 -> 爪;
+  "𠂆" [label = "𠂆\n* drag"];
+
+  辛 -> 瓣 [thick];
+  立 -> 辛 [thick];
+  十 -> 辛 [thick];
+  瓜 -> 瓣 [thick];
+  爪 -> 瓜 [thick];
+  "𠂆" -> 爪 [thick];
 }

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   都 [label = "都\n1383 metropolis"];
   者 [label = "者\n1037 someone"];
   老 [label = "老\n1029 old man"];
@@ -9,13 +15,14 @@ blockdiag {
   日 [label = "日\n12 day"];
   囧阝 [label = "囧阝\n* city walls"];
   阝 [label = "阝\n* pinnacle"];
-  者 -> 都;
-  老 -> 者;
-  土 -> 老;
-  丨 -> 老;
-  一 -> 丨;
-  匕 -> 老;
-  日 -> 者;
-  囧阝 -> 都;
-  阝 -> 囧阝;
+
+  者 -> 都 [thick];
+  老 -> 者 [thick];
+  土 -> 老 [thick];
+  丨 -> 老 [thick];
+  一 -> 丨 [thick];
+  匕 -> 老 [thick];
+  日 -> 者 [thick];
+  囧阝 -> 都 [thick];
+  阝 -> 囧阝 [thick];
 }

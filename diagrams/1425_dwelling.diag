@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   宅 [label = "宅\n1425 dwelling"];
   宀 [label = "宀\n* house"];
   乇 [label = "乇\n* fur ball"];
   毛 [label = "毛\n1421 fur"];
   手 [label = "手\n584 hand"];
-  宀 -> 宅;
-  乇 -> 宅;
-  毛 -> 乇;
-  手 -> 毛;
+
+  宀 -> 宅 [thick];
+  乇 -> 宅 [thick];
+  毛 -> 乇 [thick];
+  手 -> 毛 [thick];
 }

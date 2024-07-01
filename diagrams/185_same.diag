@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   同 [label = "同\n185 same"];
   一 [label = "一\n1 one"];
   口 [label = "口\n11 mouth"];
   冂 [label = "冂\n* hood"];
   几 [label = "几\n57 how many?"];
-  一 -> 同;
-  口 -> 同;
-  冂 -> 同;
-  几 -> 冂;
+
+  一 -> 同 [thick];
+  口 -> 同 [thick];
+  冂 -> 同 [thick];
+  几 -> 冂 [thick];
 }

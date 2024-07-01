@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   况 [label = "况\n431 situation"];
   兄 [label = "兄\n107 elder brother"];
   口 [label = "口\n11 mouth"];
@@ -8,12 +14,13 @@ blockdiag {
   丨 [label = "丨\n* walking stick"];
   一 [label = "一\n1 one"];
   丶 [label = "丶\n* a drop of"];
-  兄 -> 况;
-  口 -> 兄;
-  儿 -> 兄;
-  冫 -> 况;
-  水 -> 冫;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
+
+  兄 -> 况 [thick];
+  口 -> 兄 [thick];
+  儿 -> 兄 [thick];
+  冫 -> 况 [thick];
+  水 -> 冫 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
 }

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   梭 [label = "梭\n2475 shuttle"];
   木 [label = "木\n202 tree"];
   夋 [label = "夋\n* streetwalker"];
@@ -6,10 +12,11 @@ blockdiag {
   厶 [label = "厶\n* elbow"];
   儿 [label = "儿\n56 youngster"];
   夂 [label = "夂\n* walking legs"];
-  木 -> 梭;
-  夋 -> 梭;
-  允 -> 夋;
-  厶 -> 允;
-  儿 -> 允;
-  夂 -> 夋;
+
+  木 -> 梭 [thick];
+  夋 -> 梭 [thick];
+  允 -> 夋 [thick];
+  厶 -> 允 [thick];
+  儿 -> 允 [thick];
+  夂 -> 夋 [thick];
 }

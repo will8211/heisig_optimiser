@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   皆 [label = "皆\n459 all"];
   比 [label = "比\n456 compare"];
   匕 [label = "匕\n453 ancient spoon"];
   白 [label = "白\n34 white"];
   日 [label = "日\n12 day"];
   丶 [label = "丶\n* a drop of"];
-  比 -> 皆;
-  匕 -> 比;
-  白 -> 皆;
-  日 -> 白;
-  丶 -> 白;
+
+  比 -> 皆 [thick];
+  匕 -> 比 [thick];
+  白 -> 皆 [thick];
+  日 -> 白 [thick];
+  丶 -> 白 [thick];
 }

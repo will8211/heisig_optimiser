@@ -1,0 +1,21 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  氐 [label = "氐\n* calling card"];
+  氏 [label = "氏\n1371 family name"];
+  丶 [label = "丶\n* a drop of"];
+  囧以－丶人 [label = "囧以－丶人\n* plow"];
+  一 [label = "一\n1 one"];
+  乙 [label = "乙\n95 second"];
+
+  氏 -> 氐 [thick];
+  丶 -> 氏 [thick];
+  囧以－丶人 -> 氏 [thick];
+  一 -> 氏 [thick];
+  乙 -> 氏 [thick];
+  丶 -> 氐 [thick];
+}

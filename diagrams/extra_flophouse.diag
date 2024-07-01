@@ -1,5 +1,12 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   囧家 [label = "囧家\n* flophouse"];
   宀 [label = "宀\n* house"];
-  宀 -> 囧家;
+
+  宀 -> 囧家 [thick];
 }

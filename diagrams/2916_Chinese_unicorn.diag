@@ -1,0 +1,51 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  麟 [label = "麟\n2916 Chinese unicorn"];
+  鹿 [label = "鹿\n1462 deer"];
+  洞 [label = "洞\n186 cave"];
+  同 [label = "同\n185 same"];
+  一 [label = "一\n1 one"];
+  口 [label = "口\n11 mouth"];
+  冂 [label = "冂\n* hood"];
+  几 [label = "几\n57 how many?"];
+  水 [label = "水\n137 water"];
+  丨 [label = "丨\n* walking stick"];
+  丶 [label = "丶\n* a drop of"];
+  比 [label = "比\n456 compare"];
+  匕 [label = "匕\n453 ancient spoon"];
+  囧侯－亻－矢 [label = "囧侯－亻－矢\n* key"];
+  粦 [label = "粦\n* jack-o’-lantern"];
+  米 [label = "米\n778 rice"];
+  舛 [label = "舛\n* sunglasses"];
+  夕 [label = "夕\n115 evening"];
+  月 [label = "月\n13 month"];
+  年 [label = "年\n871 year"];
+  午 [label = "午\n542 noon"];
+
+  鹿 -> 麟 [thick];
+  洞 -> 鹿 [thick];
+  同 -> 洞 [thick];
+  一 -> 同 [thick];
+  口 -> 同 [thick];
+  冂 -> 同 [thick];
+  几 -> 冂 [thick];
+  水 -> 洞 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  比 -> 鹿 [thick];
+  匕 -> 比 [thick];
+  囧侯－亻－矢 -> 鹿 [thick];
+  粦 -> 麟 [thick];
+  米 -> 粦 [thick];
+  舛 -> 粦 [thick];
+  夕 -> 舛 [thick];
+  月 -> 夕 [thick];
+  年 -> 舛 [thick];
+  午 -> 年 [thick];
+}

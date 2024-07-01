@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   村 [label = "村\n211 village"];
   木 [label = "木\n202 tree"];
   寸 [label = "寸\n166 Chinese inch"];
   丶 [label = "丶\n* a drop of"];
   十 [label = "十\n10 ten"];
-  木 -> 村;
-  寸 -> 村;
-  丶 -> 寸;
-  十 -> 寸;
+
+  木 -> 村 [thick];
+  寸 -> 村 [thick];
+  丶 -> 寸 [thick];
+  十 -> 寸 [thick];
 }

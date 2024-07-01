@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   激 [label = "激\n497 excite"];
   攵 [label = "攵\n* taskmaster"];
   白 [label = "白\n34 white"];
@@ -13,20 +19,21 @@ blockdiag {
   六 [label = "六\n6 six"];
   囧只－口 [label = "囧只－口\n* animal legs"];
   八 [label = "八\n8 eight"];
-  攵 -> 激;
-  白 -> 激;
-  日 -> 白;
-  丶 -> 白;
-  水 -> 激;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  方 -> 激;
-  刀 -> 方;
-  亠 -> 方;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
+
+  攵 -> 激 [thick];
+  白 -> 激 [thick];
+  日 -> 白 [thick];
+  丶 -> 白 [thick];
+  水 -> 激 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  方 -> 激 [thick];
+  刀 -> 方 [thick];
+  亠 -> 方 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
 }

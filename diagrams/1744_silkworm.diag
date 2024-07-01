@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   蚕 [label = "蚕\n1744 silkworm"];
   天 [label = "天\n436 heavens"];
   一 [label = "一\n1 one"];
   大 [label = "大\n113 large"];
   虫 [label = "虫\n509 insect"];
-  天 -> 蚕;
-  一 -> 天;
-  大 -> 天;
-  虫 -> 蚕;
+
+  天 -> 蚕 [thick];
+  一 -> 天 [thick];
+  大 -> 天 [thick];
+  虫 -> 蚕 [thick];
 }

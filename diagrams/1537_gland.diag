@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   腺 [label = "腺\n1537 gland"];
   月 [label = "月\n13 month"];
   泉 [label = "泉\n141 spring"];
@@ -9,16 +15,17 @@ blockdiag {
   白 [label = "白\n34 white"];
   日 [label = "日\n12 day"];
   小 [label = "小\n109 small"];
-  月 -> 腺;
-  泉 -> 腺;
-  水 -> 泉;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  白 -> 泉;
-  日 -> 白;
-  丶 -> 白;
-  丶 -> 泉;
-  小 -> 泉;
-  丶 -> 小;
+
+  月 -> 腺 [thick];
+  泉 -> 腺 [thick];
+  水 -> 泉 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  白 -> 泉 [thick];
+  日 -> 白 [thick];
+  丶 -> 白 [thick];
+  丶 -> 泉 [thick];
+  小 -> 泉 [thick];
+  丶 -> 小 [thick];
 }

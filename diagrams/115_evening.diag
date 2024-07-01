@@ -1,5 +1,12 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   夕 [label = "夕\n115 evening"];
   月 [label = "月\n13 month"];
-  月 -> 夕;
+
+  月 -> 夕 [thick];
 }

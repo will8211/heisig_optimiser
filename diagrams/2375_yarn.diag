@@ -1,14 +1,21 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   纱 [label = "纱\n2375 yarn"];
   纟 [label = "纟\n* thread"];
   厶 [label = "厶\n* elbow"];
   少 [label = "少\n110 few"];
   丶 [label = "丶\n* a drop of"];
   小 [label = "小\n109 small"];
-  纟 -> 纱;
-  厶 -> 纟;
-  少 -> 纱;
-  丶 -> 少;
-  小 -> 少;
-  丶 -> 小;
+
+  纟 -> 纱 [thick];
+  厶 -> 纟 [thick];
+  少 -> 纱 [thick];
+  丶 -> 少 [thick];
+  小 -> 少 [thick];
+  丶 -> 小 [thick];
 }

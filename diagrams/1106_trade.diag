@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   贸 [label = "贸\n1106 trade"];
   囧贸－贝 [label = "囧贸－贝\n* letter opener"];
   卩 [label = "卩\n* stamp"];
@@ -7,11 +13,12 @@ blockdiag {
   目 [label = "目\n15 eye"];
   囧只－口 [label = "囧只－口\n* animal legs"];
   八 [label = "八\n8 eight"];
-  囧贸－贝 -> 贸;
-  卩 -> 囧贸－贝;
-  刀 -> 囧贸－贝;
-  贝 -> 贸;
-  目 -> 贝;
-  囧只－口 -> 贝;
-  八 -> 囧只－口;
+
+  囧贸－贝 -> 贸 [thick];
+  卩 -> 囧贸－贝 [thick];
+  刀 -> 囧贸－贝 [thick];
+  贝 -> 贸 [thick];
+  目 -> 贝 [thick];
+  囧只－口 -> 贝 [thick];
+  八 -> 囧只－口 [thick];
 }

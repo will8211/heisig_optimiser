@@ -1,19 +1,26 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   溪 [label = "溪\n2409 creek"];
   水 [label = "水\n137 water"];
   丨 [label = "丨\n* walking stick"];
   一 [label = "一\n1 one"];
   丶 [label = "丶\n* a drop of"];
   爪 [label = "爪\n663 claw"];
-  131206 [label = "𠂆\n* drag"];
+  "𠂆" [label = "𠂆\n* drag"];
   幺 [label = "幺\n* cocoon"];
   大 [label = "大\n113 large"];
-  水 -> 溪;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  爪 -> 溪;
-  131206 -> 爪;
-  幺 -> 溪;
-  大 -> 溪;
+
+  水 -> 溪 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  爪 -> 溪 [thick];
+  "𠂆" -> 爪 [thick];
+  幺 -> 溪 [thick];
+  大 -> 溪 [thick];
 }

@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   丙 [label = "丙\n842 third"];
   一 [label = "一\n1 one"];
   内 [label = "内\n840 internal"];
   囧冂 [label = "囧冂\n* belt"];
   巾 [label = "巾\n410 towel"];
   人 [label = "人\n793 person"];
-  一 -> 丙;
-  内 -> 丙;
-  囧冂 -> 内;
-  巾 -> 囧冂;
-  人 -> 内;
+
+  一 -> 丙 [thick];
+  内 -> 丙 [thick];
+  囧冂 -> 内 [thick];
+  巾 -> 囧冂 [thick];
+  人 -> 内 [thick];
 }

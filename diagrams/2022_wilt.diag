@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   萎 [label = "萎\n2022 wilt"];
   艹 [label = "艹\n* flower"];
   委 [label = "委\n774 committee"];
   禾 [label = "禾\n762 standing grain"];
   女 [label = "女\n102 woman"];
-  艹 -> 萎;
-  委 -> 萎;
-  禾 -> 委;
-  女 -> 委;
+
+  艹 -> 萎 [thick];
+  委 -> 萎 [thick];
+  禾 -> 委 [thick];
+  女 -> 委 [thick];
 }

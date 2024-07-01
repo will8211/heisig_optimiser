@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   忍 [label = "忍\n565 endure"];
   刃 [label = "刃\n84 blade"];
   刀 [label = "刀\n83 sword"];
   丶 [label = "丶\n* a drop of"];
   心 [label = "心\n563 heart"];
-  刃 -> 忍;
-  刀 -> 刃;
-  丶 -> 刃;
-  心 -> 忍;
+
+  刃 -> 忍 [thick];
+  刀 -> 刃 [thick];
+  丶 -> 刃 [thick];
+  心 -> 忍 [thick];
 }

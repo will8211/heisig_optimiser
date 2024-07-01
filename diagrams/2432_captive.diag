@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   俘 [label = "俘\n2432 captive"];
   人 [label = "人\n793 person"];
   孚 [label = "孚\n* fledglings"];
   爪 [label = "爪\n663 claw"];
-  131206 [label = "𠂆\n* drag"];
+  "𠂆" [label = "𠂆\n* drag"];
   子 [label = "子\n97 child"];
-  人 -> 俘;
-  孚 -> 俘;
-  爪 -> 孚;
-  131206 -> 爪;
-  子 -> 孚;
+
+  人 -> 俘 [thick];
+  孚 -> 俘 [thick];
+  爪 -> 孚 [thick];
+  "𠂆" -> 爪 [thick];
+  子 -> 孚 [thick];
 }

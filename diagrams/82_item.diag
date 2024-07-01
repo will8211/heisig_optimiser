@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   项 [label = "项\n82 item"];
   页 [label = "页\n60 page"];
   贝 [label = "贝\n52 shellfish"];
@@ -8,12 +14,13 @@ blockdiag {
   一 [label = "一\n1 one"];
   丶 [label = "丶\n* a drop of"];
   工 [label = "工\n76 work"];
-  页 -> 项;
-  贝 -> 页;
-  目 -> 贝;
-  囧只－口 -> 贝;
-  八 -> 囧只－口;
-  一 -> 页;
-  丶 -> 页;
-  工 -> 项;
+
+  页 -> 项 [thick];
+  贝 -> 页 [thick];
+  目 -> 贝 [thick];
+  囧只－口 -> 贝 [thick];
+  八 -> 囧只－口 [thick];
+  一 -> 页 [thick];
+  丶 -> 页 [thick];
+  工 -> 项 [thick];
 }

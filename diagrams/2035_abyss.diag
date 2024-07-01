@@ -1,15 +1,22 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   渊 [label = "渊\n2035 abyss"];
   水 [label = "水\n137 water"];
   丨 [label = "丨\n* walking stick"];
   一 [label = "一\n1 one"];
   丶 [label = "丶\n* a drop of"];
-  239201 [label = "囧介－𠆢\n* crutches"];
+  "囧介－𠆢" [label = "囧介－𠆢\n* crutches"];
   米 [label = "米\n778 rice"];
-  水 -> 渊;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  239201 -> 渊;
-  米 -> 渊;
+
+  水 -> 渊 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  "囧介－𠆢" -> 渊 [thick];
+  米 -> 渊 [thick];
 }

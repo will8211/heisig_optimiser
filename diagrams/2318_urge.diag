@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   促 [label = "促\n2318 urge"];
   人 [label = "人\n793 person"];
   足 [label = "足\n1048 lower leg"];
   口 [label = "口\n11 mouth"];
   止 [label = "止\n379 stop"];
-  人 -> 促;
-  足 -> 促;
-  口 -> 足;
-  止 -> 足;
+
+  人 -> 促 [thick];
+  足 -> 促 [thick];
+  口 -> 足 [thick];
+  止 -> 足 [thick];
 }

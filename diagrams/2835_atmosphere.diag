@@ -1,17 +1,24 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   氛 [label = "氛\n2835 atmosphere"];
   气 [label = "气\n1404 air"];
-  131209 [label = "𠂉\n* reclining"];
+  "𠂉" [label = "𠂉\n* reclining"];
   一 [label = "一\n1 one"];
   乙 [label = "乙\n95 second"];
   分 [label = "分\n694 part"];
   八 [label = "八\n8 eight"];
   刀 [label = "刀\n83 sword"];
-  气 -> 氛;
-  131209 -> 气;
-  一 -> 气;
-  乙 -> 气;
-  分 -> 氛;
-  八 -> 分;
-  刀 -> 分;
+
+  气 -> 氛 [thick];
+  "𠂉" -> 气 [thick];
+  一 -> 气 [thick];
+  乙 -> 气 [thick];
+  分 -> 氛 [thick];
+  八 -> 分 [thick];
+  刀 -> 分 [thick];
 }

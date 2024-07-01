@@ -1,19 +1,26 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   貌 [label = "貌\n1903 mien"];
   豸 [label = "豸\n* leopard"];
   爪 [label = "爪\n663 claw"];
-  131206 [label = "𠂆\n* drag"];
+  "𠂆" [label = "𠂆\n* drag"];
   豕 [label = "豕\n* sow"];
   白 [label = "白\n34 white"];
   日 [label = "日\n12 day"];
   丶 [label = "丶\n* a drop of"];
   儿 [label = "儿\n56 youngster"];
-  豸 -> 貌;
-  爪 -> 豸;
-  131206 -> 爪;
-  豕 -> 豸;
-  白 -> 貌;
-  日 -> 白;
-  丶 -> 白;
-  儿 -> 貌;
+
+  豸 -> 貌 [thick];
+  爪 -> 豸 [thick];
+  "𠂆" -> 爪 [thick];
+  豕 -> 豸 [thick];
+  白 -> 貌 [thick];
+  日 -> 白 [thick];
+  丶 -> 白 [thick];
+  儿 -> 貌 [thick];
 }

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   蹲 [label = "蹲\n2479 squat"];
   足 [label = "足\n1048 lower leg"];
   口 [label = "口\n11 mouth"];
@@ -10,14 +16,15 @@ blockdiag {
   寸 [label = "寸\n166 Chinese inch"];
   丶 [label = "丶\n* a drop of"];
   十 [label = "十\n10 ten"];
-  足 -> 蹲;
-  口 -> 足;
-  止 -> 足;
-  酋 -> 蹲;
-  丷 -> 酋;
-  一 -> 丷;
-  酉 -> 酋;
-  寸 -> 蹲;
-  丶 -> 寸;
-  十 -> 寸;
+
+  足 -> 蹲 [thick];
+  口 -> 足 [thick];
+  止 -> 足 [thick];
+  酋 -> 蹲 [thick];
+  丷 -> 酋 [thick];
+  一 -> 丷 [thick];
+  酉 -> 酋 [thick];
+  寸 -> 蹲 [thick];
+  丶 -> 寸 [thick];
+  十 -> 寸 [thick];
 }

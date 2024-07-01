@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   尘 [label = "尘\n161 dust"];
   小 [label = "小\n109 small"];
   丶 [label = "丶\n* a drop of"];
   土 [label = "土\n158 soil"];
-  小 -> 尘;
-  丶 -> 小;
-  土 -> 尘;
+
+  小 -> 尘 [thick];
+  丶 -> 小 [thick];
+  土 -> 尘 [thick];
 }

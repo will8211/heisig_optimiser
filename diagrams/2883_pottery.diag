@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   陶 [label = "陶\n2883 pottery"];
   阝 [label = "阝\n* pinnacle"];
   匋 [label = "匋\n* canteen"];
@@ -6,10 +12,11 @@ blockdiag {
   缶 [label = "缶\n* tin can"];
   午 [label = "午\n542 noon"];
   山 [label = "山\n688 mountain"];
-  阝 -> 陶;
-  匋 -> 陶;
-  勹 -> 匋;
-  缶 -> 匋;
-  午 -> 缶;
-  山 -> 缶;
+
+  阝 -> 陶 [thick];
+  匋 -> 陶 [thick];
+  勹 -> 匋 [thick];
+  缶 -> 匋 [thick];
+  午 -> 缶 [thick];
+  山 -> 缶 [thick];
 }

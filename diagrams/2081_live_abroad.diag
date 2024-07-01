@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  侨 [label = "侨\n2081 live abroad"];
+  人 [label = "人\n793 person"];
+  乔 [label = "乔\n441 pretend"];
+  "囧介－𠆢" [label = "囧介－𠆢\n* crutches"];
+  夭 [label = "夭\n440 die young"];
+  大 [label = "大\n113 large"];
+  丶 [label = "丶\n* a drop of"];
+
+  人 -> 侨 [thick];
+  乔 -> 侨 [thick];
+  "囧介－𠆢" -> 乔 [thick];
+  夭 -> 乔 [thick];
+  大 -> 夭 [thick];
+  丶 -> 夭 [thick];
+}

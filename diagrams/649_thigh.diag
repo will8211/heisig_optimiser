@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   股 [label = "股\n649 thigh"];
   月 [label = "月\n13 month"];
   殳 [label = "殳\n* missile"];
   几 [label = "几\n57 how many?"];
   又 [label = "又\n633 again"];
-  月 -> 股;
-  殳 -> 股;
-  几 -> 殳;
-  又 -> 殳;
+
+  月 -> 股 [thick];
+  殳 -> 股 [thick];
+  几 -> 殳 [thick];
+  又 -> 殳 [thick];
 }

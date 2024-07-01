@@ -1,0 +1,34 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  炸 [label = "炸\n2194 blow up"];
+  火 [label = "火\n170 fire"];
+  锯 [label = "锯\n889 saw"];
+  金 [label = "金\n279 gold"];
+  "𠆢" [label = "𠆢\n* umbrella"];
+  王 [label = "王\n265 king"];
+  工 [label = "工\n76 work"];
+  丶 [label = "丶\n* a drop of"];
+  居 [label = "居\n888 reside"];
+  尸 [label = "尸\n882 corpse"];
+  古 [label = "古\n16 ancient"];
+  十 [label = "十\n10 ten"];
+  口 [label = "口\n11 mouth"];
+
+  火 -> 炸 [thick];
+  锯 -> 炸 [thick];
+  金 -> 锯 [thick];
+  "𠆢" -> 金 [thick];
+  王 -> 金 [thick];
+  工 -> 王 [thick];
+  丶 -> 金 [thick];
+  居 -> 锯 [thick];
+  尸 -> 居 [thick];
+  古 -> 居 [thick];
+  十 -> 古 [thick];
+  口 -> 古 [thick];
+}

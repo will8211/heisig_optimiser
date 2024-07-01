@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   策 [label = "策\n792 strategy"];
   竹 [label = "竹\n786 bamboo"];
   丁 [label = "丁\n90 fourth"];
@@ -6,10 +12,11 @@ blockdiag {
   囧冂 [label = "囧冂\n* belt"];
   巾 [label = "巾\n410 towel"];
   木 [label = "木\n202 tree"];
-  竹 -> 策;
-  丁 -> 竹;
-  朿 -> 策;
-  囧冂 -> 朿;
-  巾 -> 囧冂;
-  木 -> 朿;
+
+  竹 -> 策 [thick];
+  丁 -> 竹 [thick];
+  朿 -> 策 [thick];
+  囧冂 -> 朿 [thick];
+  巾 -> 囧冂 [thick];
+  木 -> 朿 [thick];
 }

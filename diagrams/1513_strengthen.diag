@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   巩 [label = "巩\n1513 strengthen"];
   工 [label = "工\n76 work"];
   凡 [label = "凡\n62 ordinary"];
   丶 [label = "丶\n* a drop of"];
   几 [label = "几\n57 how many?"];
-  工 -> 巩;
-  凡 -> 巩;
-  丶 -> 凡;
-  几 -> 凡;
+
+  工 -> 巩 [thick];
+  凡 -> 巩 [thick];
+  丶 -> 凡 [thick];
+  几 -> 凡 [thick];
 }

@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   拟 [label = "拟\n2119 simulate"];
   扌 [label = "扌\n* fingers"];
   以 [label = "以\n861 by means of"];
   人 [label = "人\n793 person"];
   囧以－丶人 [label = "囧以－丶人\n* plow"];
   丶 [label = "丶\n* a drop of"];
-  扌 -> 拟;
-  以 -> 拟;
-  人 -> 以;
-  囧以－丶人 -> 以;
-  丶 -> 以;
+
+  扌 -> 拟 [thick];
+  以 -> 拟 [thick];
+  人 -> 以 [thick];
+  囧以－丶人 -> 以 [thick];
+  丶 -> 以 [thick];
 }

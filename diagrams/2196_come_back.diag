@@ -1,0 +1,14 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  归 [label = "归\n2196 come back"];
+  刀 [label = "刀\n83 sword"];
+  彐 [label = "彐\n* broom"];
+
+  刀 -> 归 [thick];
+  彐 -> 归 [thick];
+}

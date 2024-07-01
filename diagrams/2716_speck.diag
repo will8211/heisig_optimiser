@@ -1,25 +1,32 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   斑 [label = "斑\n2716 speck"];
   文 [label = "文\n1315 literature"];
   亠 [label = "亠\n* top hat"];
   六 [label = "六\n6 six"];
   囧只－口 [label = "囧只－口\n* animal legs"];
   八 [label = "八\n8 eight"];
-  13317 [label = "㐅\n* sheaf"];
+  "㐅" [label = "㐅\n* sheaf"];
   玉 [label = "玉\n266 jade"];
   王 [label = "王\n265 king"];
   工 [label = "工\n76 work"];
   丶 [label = "丶\n* a drop of"];
-  文 -> 斑;
-  亠 -> 文;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  13317 -> 文;
-  玉 -> 斑;
-  王 -> 玉;
-  工 -> 王;
-  丶 -> 玉;
+
+  文 -> 斑 [thick];
+  亠 -> 文 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  "㐅" -> 文 [thick];
+  玉 -> 斑 [thick];
+  王 -> 玉 [thick];
+  工 -> 王 [thick];
+  丶 -> 玉 [thick];
 }

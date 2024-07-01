@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   群 [label = "群\n961 crowd"];
   君 [label = "君\n959 monarch"];
   尹 [label = "尹\n957 overseer"];
@@ -6,10 +12,11 @@ blockdiag {
   羊 [label = "羊\n528 sheep"];
   丷 [label = "丷\n* horns"];
   一 [label = "一\n1 one"];
-  君 -> 群;
-  尹 -> 君;
-  口 -> 君;
-  羊 -> 群;
-  丷 -> 羊;
-  一 -> 丷;
+
+  君 -> 群 [thick];
+  尹 -> 君 [thick];
+  口 -> 君 [thick];
+  羊 -> 群 [thick];
+  丷 -> 羊 [thick];
+  一 -> 丷 [thick];
 }

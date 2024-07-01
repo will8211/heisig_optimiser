@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   颜 [label = "颜\n1314 countenance"];
   彦 [label = "彦\n1313 erudite"];
   产 [label = "产\n1312 products"];
@@ -12,16 +18,17 @@ blockdiag {
   八 [label = "八\n8 eight"];
   一 [label = "一\n1 one"];
   丶 [label = "丶\n* a drop of"];
-  彦 -> 颜;
-  产 -> 彦;
-  立 -> 产;
-  厂 -> 产;
-  彡 -> 彦;
-  页 -> 颜;
-  贝 -> 页;
-  目 -> 贝;
-  囧只－口 -> 贝;
-  八 -> 囧只－口;
-  一 -> 页;
-  丶 -> 页;
+
+  彦 -> 颜 [thick];
+  产 -> 彦 [thick];
+  立 -> 产 [thick];
+  厂 -> 产 [thick];
+  彡 -> 彦 [thick];
+  页 -> 颜 [thick];
+  贝 -> 页 [thick];
+  目 -> 贝 [thick];
+  囧只－口 -> 贝 [thick];
+  八 -> 囧只－口 [thick];
+  一 -> 页 [thick];
+  丶 -> 页 [thick];
 }

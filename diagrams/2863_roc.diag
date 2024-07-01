@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   鹏 [label = "鹏\n2863 roc"];
   鸟 [label = "鸟\n1438 bird"];
   向 [label = "向\n188 orientation"];
@@ -9,14 +15,15 @@ blockdiag {
   囧与－丨一 [label = "囧与－丨一\n* pointed tail"];
   朋 [label = "朋\n20 companion"];
   月 [label = "月\n13 month"];
-  鸟 -> 鹏;
-  向 -> 鸟;
-  丶 -> 向;
-  冂 -> 向;
-  几 -> 冂;
-  口 -> 向;
-  丶 -> 鸟;
-  囧与－丨一 -> 鸟;
-  朋 -> 鹏;
-  月 -> 朋;
+
+  鸟 -> 鹏 [thick];
+  向 -> 鸟 [thick];
+  丶 -> 向 [thick];
+  冂 -> 向 [thick];
+  几 -> 冂 [thick];
+  口 -> 向 [thick];
+  丶 -> 鸟 [thick];
+  囧与－丨一 -> 鸟 [thick];
+  朋 -> 鹏 [thick];
+  月 -> 朋 [thick];
 }

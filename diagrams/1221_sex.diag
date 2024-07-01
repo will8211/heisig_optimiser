@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   性 [label = "性\n1221 sex"];
   心 [label = "心\n563 heart"];
   生 [label = "生\n1218 life"];
   丶 [label = "丶\n* a drop of"];
   囧毒－母 [label = "囧毒－母\n* grow up"];
-  心 -> 性;
-  生 -> 性;
-  丶 -> 生;
-  囧毒－母 -> 生;
+
+  心 -> 性 [thick];
+  生 -> 性 [thick];
+  丶 -> 生 [thick];
+  囧毒－母 -> 生 [thick];
 }

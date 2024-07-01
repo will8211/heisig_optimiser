@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   哭 [label = "哭\n248 cry"];
   吅 [label = "吅\n* chatterbox"];
   口 [label = "口\n11 mouth"];
   犬 [label = "犬\n239 pooch"];
   大 [label = "大\n113 large"];
   丶 [label = "丶\n* a drop of"];
-  吅 -> 哭;
-  口 -> 吅;
-  犬 -> 哭;
-  大 -> 犬;
-  丶 -> 犬;
+
+  吅 -> 哭 [thick];
+  口 -> 吅 [thick];
+  犬 -> 哭 [thick];
+  大 -> 犬 [thick];
+  丶 -> 犬 [thick];
 }

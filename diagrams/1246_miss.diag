@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   念 [label = "念\n1246 miss"];
   今 [label = "今\n1244 now"];
   亼 [label = "亼\n* meeting"];
-  131490 [label = "𠆢\n* umbrella"];
+  "𠆢" [label = "𠆢\n* umbrella"];
   心 [label = "心\n563 heart"];
-  今 -> 念;
-  亼 -> 今;
-  131490 -> 亼;
-  心 -> 念;
+
+  今 -> 念 [thick];
+  亼 -> 今 [thick];
+  "𠆢" -> 亼 [thick];
+  心 -> 念 [thick];
 }

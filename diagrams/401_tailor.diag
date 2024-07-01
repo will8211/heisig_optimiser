@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   裁 [label = "裁\n401 tailor"];
   衣 [label = "衣\n400 clothing"];
   亠 [label = "亠\n* top hat"];
@@ -9,15 +15,16 @@ blockdiag {
   土 [label = "土\n158 soil"];
   戈 [label = "戈\n361 halberd"];
   弋 [label = "弋\n* arrow"];
-  衣 -> 裁;
-  亠 -> 衣;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  囧载－车 -> 裁;
-  土 -> 囧载－车;
-  戈 -> 囧载－车;
-  弋 -> 戈;
+
+  衣 -> 裁 [thick];
+  亠 -> 衣 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  囧载－车 -> 裁 [thick];
+  土 -> 囧载－车 [thick];
+  戈 -> 囧载－车 [thick];
+  弋 -> 戈 [thick];
 }

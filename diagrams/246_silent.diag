@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   默 [label = "默\n246 silent"];
   黑 [label = "黑\n182 black"];
   里 [label = "里\n179 li"];
@@ -10,15 +16,16 @@ blockdiag {
   犬 [label = "犬\n239 pooch"];
   大 [label = "大\n113 large"];
   丶 [label = "丶\n* a drop of"];
-  黑 -> 默;
-  里 -> 黑;
-  田 -> 里;
-  土 -> 里;
-  田 -> 黑;
-  丷 -> 黑;
-  一 -> 丷;
-  火 -> 黑;
-  犬 -> 默;
-  大 -> 犬;
-  丶 -> 犬;
+
+  黑 -> 默 [thick];
+  里 -> 黑 [thick];
+  田 -> 里 [thick];
+  土 -> 里 [thick];
+  田 -> 黑 [thick];
+  丷 -> 黑 [thick];
+  一 -> 丷 [thick];
+  火 -> 黑 [thick];
+  犬 -> 默 [thick];
+  大 -> 犬 [thick];
+  丶 -> 犬 [thick];
 }

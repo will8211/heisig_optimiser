@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   滤 [label = "滤\n2914 filter"];
   水 [label = "水\n137 water"];
   丨 [label = "丨\n* walking stick"];
@@ -14,22 +20,23 @@ blockdiag {
   正 [label = "正\n387 correct"];
   止 [label = "止\n379 stop"];
   心 [label = "心\n563 heart"];
-  水 -> 滤;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  虑 -> 滤;
-  虎 -> 虑;
-  卜 -> 虎;
-  丨 -> 卜;
-  一 -> 丨;
-  丶 -> 卜;
-  七 -> 虎;
-  几 -> 虎;
-  疋 -> 虎;
-  囧走－十 -> 疋;
-  正 -> 囧走－十;
-  一 -> 正;
-  止 -> 正;
-  心 -> 虑;
+
+  水 -> 滤 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  虑 -> 滤 [thick];
+  虎 -> 虑 [thick];
+  卜 -> 虎 [thick];
+  丨 -> 卜 [thick];
+  一 -> 丨 [thick];
+  丶 -> 卜 [thick];
+  七 -> 虎 [thick];
+  几 -> 虎 [thick];
+  疋 -> 虎 [thick];
+  囧走－十 -> 疋 [thick];
+  正 -> 囧走－十 [thick];
+  一 -> 正 [thick];
+  止 -> 正 [thick];
+  心 -> 虑 [thick];
 }

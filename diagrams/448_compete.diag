@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   竞 [label = "竞\n448 compete"];
   兄 [label = "兄\n107 elder brother"];
   口 [label = "口\n11 mouth"];
   儿 [label = "儿\n56 youngster"];
   立 [label = "立\n444 standing up"];
-  兄 -> 竞;
-  口 -> 兄;
-  儿 -> 兄;
-  立 -> 竞;
+
+  兄 -> 竞 [thick];
+  口 -> 兄 [thick];
+  儿 -> 兄 [thick];
+  立 -> 竞 [thick];
 }

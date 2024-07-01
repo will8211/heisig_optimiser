@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   退 [label = "退\n1147 retreat"];
   艮 [label = "艮\n* silver"];
   辶 [label = "辶\n* road"];
-  艮 -> 退;
-  辶 -> 退;
+
+  艮 -> 退 [thick];
+  辶 -> 退 [thick];
 }

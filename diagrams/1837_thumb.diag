@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   拇 [label = "拇\n1837 thumb"];
   扌 [label = "扌\n* fingers"];
   母 [label = "母\n105 mother"];
   女 [label = "女\n102 woman"];
-  扌 -> 拇;
-  母 -> 拇;
-  女 -> 母;
+
+  扌 -> 拇 [thick];
+  母 -> 拇 [thick];
+  女 -> 母 [thick];
 }

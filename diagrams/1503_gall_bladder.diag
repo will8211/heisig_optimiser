@@ -1,0 +1,18 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  胆 [label = "胆\n1503 gall bladder"];
+  月 [label = "月\n13 month"];
+  旦 [label = "旦\n30 daybreak"];
+  日 [label = "日\n12 day"];
+  一 [label = "一\n1 one"];
+
+  月 -> 胆 [thick];
+  旦 -> 胆 [thick];
+  日 -> 旦 [thick];
+  一 -> 旦 [thick];
+}

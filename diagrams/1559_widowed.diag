@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   寡 [label = "寡\n1559 widowed"];
   宀 [label = "宀\n* house"];
   一 [label = "一\n1 one"];
@@ -9,13 +15,14 @@ blockdiag {
   囧只－口 [label = "囧只－口\n* animal legs"];
   八 [label = "八\n8 eight"];
   刀 [label = "刀\n83 sword"];
-  宀 -> 寡;
-  一 -> 寡;
-  自 -> 寡;
-  丶 -> 自;
-  目 -> 自;
-  囧具－目 -> 寡;
-  囧只－口 -> 囧具－目;
-  八 -> 囧只－口;
-  刀 -> 寡;
+
+  宀 -> 寡 [thick];
+  一 -> 寡 [thick];
+  自 -> 寡 [thick];
+  丶 -> 自 [thick];
+  目 -> 自 [thick];
+  囧具－目 -> 寡 [thick];
+  囧只－口 -> 囧具－目 [thick];
+  八 -> 囧只－口 [thick];
+  刀 -> 寡 [thick];
 }

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   搅 [label = "搅\n601 stir"];
   扌 [label = "扌\n* fingers"];
   觉 [label = "觉\n338 senses"];
@@ -6,10 +12,11 @@ blockdiag {
   见 [label = "见\n58 see"];
   目 [label = "目\n15 eye"];
   儿 [label = "儿\n56 youngster"];
-  扌 -> 搅;
-  觉 -> 搅;
-  囧学－子 -> 觉;
-  见 -> 觉;
-  目 -> 见;
-  儿 -> 见;
+
+  扌 -> 搅 [thick];
+  觉 -> 搅 [thick];
+  囧学－子 -> 觉 [thick];
+  见 -> 觉 [thick];
+  目 -> 见 [thick];
+  儿 -> 见 [thick];
 }

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   贤 [label = "贤\n1012 worthy"];
   坚 [label = "坚\n1011 firm"];
   囧坚－圣 [label = "囧坚－圣\n* fencing foil"];
@@ -8,12 +14,13 @@ blockdiag {
   目 [label = "目\n15 eye"];
   囧只－口 [label = "囧只－口\n* animal legs"];
   八 [label = "八\n8 eight"];
-  坚 -> 贤;
-  囧坚－圣 -> 坚;
-  又 -> 坚;
-  土 -> 坚;
-  贝 -> 贤;
-  目 -> 贝;
-  囧只－口 -> 贝;
-  八 -> 囧只－口;
+
+  坚 -> 贤 [thick];
+  囧坚－圣 -> 坚 [thick];
+  又 -> 坚 [thick];
+  土 -> 坚 [thick];
+  贝 -> 贤 [thick];
+  目 -> 贝 [thick];
+  囧只－口 -> 贝 [thick];
+  八 -> 囧只－口 [thick];
 }

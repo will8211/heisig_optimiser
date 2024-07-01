@@ -1,5 +1,12 @@
 blockdiag {
-  131236 [label = "𠂤\n* maestro"];
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  "𠂤" [label = "𠂤\n* maestro"];
   丶 [label = "丶\n* a drop of"];
-  丶 -> 131236;
+
+  丶 -> "𠂤" [thick];
 }

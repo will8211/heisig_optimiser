@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   骡 [label = "骡\n2905 mule"];
   马 [label = "马\n1453 horse"];
   囧与－丨一 [label = "囧与－丨一\n* pointed tail"];
@@ -8,12 +14,13 @@ blockdiag {
   幺 [label = "幺\n* cocoon"];
   小 [label = "小\n109 small"];
   丶 [label = "丶\n* a drop of"];
-  马 -> 骡;
-  囧与－丨一 -> 马;
-  累 -> 骡;
-  田 -> 累;
-  糸 -> 累;
-  幺 -> 糸;
-  小 -> 糸;
-  丶 -> 小;
+
+  马 -> 骡 [thick];
+  囧与－丨一 -> 马 [thick];
+  累 -> 骡 [thick];
+  田 -> 累 [thick];
+  糸 -> 累 [thick];
+  幺 -> 糸 [thick];
+  小 -> 糸 [thick];
+  丶 -> 小 [thick];
 }

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   踢 [label = "踢\n2327 kick"];
   足 [label = "足\n1048 lower leg"];
   口 [label = "口\n11 mouth"];
@@ -6,14 +12,15 @@ blockdiag {
   易 [label = "易\n880 easy"];
   日 [label = "日\n12 day"];
   勿 [label = "勿\n877 not"];
-  131283 [label = "𠃓\n* piglets"];
+  "𠃓" [label = "𠃓\n* piglets"];
   豕 [label = "豕\n* sow"];
-  足 -> 踢;
-  口 -> 足;
-  止 -> 足;
-  易 -> 踢;
-  日 -> 易;
-  勿 -> 易;
-  131283 -> 勿;
-  豕 -> 131283;
+
+  足 -> 踢 [thick];
+  口 -> 足 [thick];
+  止 -> 足 [thick];
+  易 -> 踢 [thick];
+  日 -> 易 [thick];
+  勿 -> 易 [thick];
+  "𠃓" -> 勿 [thick];
+  豕 -> "𠃓" [thick];
 }

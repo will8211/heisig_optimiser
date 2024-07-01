@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   留 [label = "留\n1107 stay"];
   囧贸－贝 [label = "囧贸－贝\n* letter opener"];
   卩 [label = "卩\n* stamp"];
   刀 [label = "刀\n83 sword"];
   田 [label = "田\n14 rice field"];
-  囧贸－贝 -> 留;
-  卩 -> 囧贸－贝;
-  刀 -> 囧贸－贝;
-  田 -> 留;
+
+  囧贸－贝 -> 留 [thick];
+  卩 -> 囧贸－贝 [thick];
+  刀 -> 囧贸－贝 [thick];
+  田 -> 留 [thick];
 }

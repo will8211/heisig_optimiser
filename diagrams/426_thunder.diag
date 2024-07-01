@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   雷 [label = "雷\n426 thunder"];
   田 [label = "田\n14 rice field"];
   雨 [label = "雨\n425 rain"];
-  田 -> 雷;
-  雨 -> 雷;
+
+  田 -> 雷 [thick];
+  雨 -> 雷 [thick];
 }

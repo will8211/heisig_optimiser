@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   虑 [label = "虑\n1460 ponder"];
   虎 [label = "虎\n1459 tiger"];
   卜 [label = "卜\n43 divination"];
@@ -12,17 +18,18 @@ blockdiag {
   正 [label = "正\n387 correct"];
   止 [label = "止\n379 stop"];
   心 [label = "心\n563 heart"];
-  虎 -> 虑;
-  卜 -> 虎;
-  丨 -> 卜;
-  一 -> 丨;
-  丶 -> 卜;
-  七 -> 虎;
-  几 -> 虎;
-  疋 -> 虎;
-  囧走－十 -> 疋;
-  正 -> 囧走－十;
-  一 -> 正;
-  止 -> 正;
-  心 -> 虑;
+
+  虎 -> 虑 [thick];
+  卜 -> 虎 [thick];
+  丨 -> 卜 [thick];
+  一 -> 丨 [thick];
+  丶 -> 卜 [thick];
+  七 -> 虎 [thick];
+  几 -> 虎 [thick];
+  疋 -> 虎 [thick];
+  囧走－十 -> 疋 [thick];
+  正 -> 囧走－十 [thick];
+  一 -> 正 [thick];
+  止 -> 正 [thick];
+  心 -> 虑 [thick];
 }

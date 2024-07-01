@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   寇 [label = "寇\n1885 outlaw"];
   完 [label = "完\n193 finish"];
   宀 [label = "宀\n* house"];
@@ -10,15 +16,16 @@ blockdiag {
   丨 [label = "丨\n* walking stick"];
   丶 [label = "丶\n* a drop of"];
   又 [label = "又\n633 again"];
-  完 -> 寇;
-  宀 -> 完;
-  元 -> 完;
-  二 -> 元;
-  一 -> 二;
-  儿 -> 元;
-  卜 -> 寇;
-  丨 -> 卜;
-  一 -> 丨;
-  丶 -> 卜;
-  又 -> 寇;
+
+  完 -> 寇 [thick];
+  宀 -> 完 [thick];
+  元 -> 完 [thick];
+  二 -> 元 [thick];
+  一 -> 二 [thick];
+  儿 -> 元 [thick];
+  卜 -> 寇 [thick];
+  丨 -> 卜 [thick];
+  一 -> 丨 [thick];
+  丶 -> 卜 [thick];
+  又 -> 寇 [thick];
 }

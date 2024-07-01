@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   陡 [label = "陡\n2340 steep"];
   阝 [label = "阝\n* pinnacle"];
   走 [label = "走\n391 walk"];
@@ -7,11 +13,12 @@ blockdiag {
   一 [label = "一\n1 one"];
   止 [label = "止\n379 stop"];
   土 [label = "土\n158 soil"];
-  阝 -> 陡;
-  走 -> 陡;
-  囧走－十 -> 走;
-  正 -> 囧走－十;
-  一 -> 正;
-  止 -> 正;
-  土 -> 走;
+
+  阝 -> 陡 [thick];
+  走 -> 陡 [thick];
+  囧走－十 -> 走 [thick];
+  正 -> 囧走－十 [thick];
+  一 -> 正 [thick];
+  止 -> 正 [thick];
+  土 -> 走 [thick];
 }

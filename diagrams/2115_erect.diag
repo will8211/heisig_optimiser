@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   挺 [label = "挺\n2115 erect"];
   扌 [label = "扌\n* fingers"];
   廷 [label = "廷\n854 royal court"];
   壬 [label = "壬\n* porter"];
   士 [label = "士\n334 soldier"];
   廴 [label = "廴\n* stretch"];
-  扌 -> 挺;
-  廷 -> 挺;
-  壬 -> 廷;
-  士 -> 壬;
-  廴 -> 廷;
+
+  扌 -> 挺 [thick];
+  廷 -> 挺 [thick];
+  壬 -> 廷 [thick];
+  士 -> 壬 [thick];
+  廴 -> 廷 [thick];
 }

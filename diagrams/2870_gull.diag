@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   鸥 [label = "鸥\n2870 gull"];
   区 [label = "区\n1295 region"];
   箱 [label = "箱\n788 box"];
@@ -7,7 +13,7 @@ blockdiag {
   相 [label = "相\n212 one another"];
   木 [label = "木\n202 tree"];
   目 [label = "目\n15 eye"];
-  13317 [label = "㐅\n* sheaf"];
+  "㐅" [label = "㐅\n* sheaf"];
   鸟 [label = "鸟\n1438 bird"];
   向 [label = "向\n188 orientation"];
   丶 [label = "丶\n* a drop of"];
@@ -15,20 +21,21 @@ blockdiag {
   几 [label = "几\n57 how many?"];
   口 [label = "口\n11 mouth"];
   囧与－丨一 [label = "囧与－丨一\n* pointed tail"];
-  区 -> 鸥;
-  箱 -> 区;
-  竹 -> 箱;
-  丁 -> 竹;
-  相 -> 箱;
-  木 -> 相;
-  目 -> 相;
-  13317 -> 区;
-  鸟 -> 鸥;
-  向 -> 鸟;
-  丶 -> 向;
-  冂 -> 向;
-  几 -> 冂;
-  口 -> 向;
-  丶 -> 鸟;
-  囧与－丨一 -> 鸟;
+
+  区 -> 鸥 [thick];
+  箱 -> 区 [thick];
+  竹 -> 箱 [thick];
+  丁 -> 竹 [thick];
+  相 -> 箱 [thick];
+  木 -> 相 [thick];
+  目 -> 相 [thick];
+  "㐅" -> 区 [thick];
+  鸟 -> 鸥 [thick];
+  向 -> 鸟 [thick];
+  丶 -> 向 [thick];
+  冂 -> 向 [thick];
+  几 -> 冂 [thick];
+  口 -> 向 [thick];
+  丶 -> 鸟 [thick];
+  囧与－丨一 -> 鸟 [thick];
 }

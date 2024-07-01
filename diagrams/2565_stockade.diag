@@ -1,15 +1,22 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   寨 [label = "寨\n2565 stockade"];
   囧赛－贝 [label = "囧赛－贝\n* hamster cage"];
   宀 [label = "宀\n* house"];
-  131086 [label = "𠀎\n* wire mesh"];
+  "𠀎" [label = "𠀎\n* wire mesh"];
   囧只－口 [label = "囧只－口\n* animal legs"];
   八 [label = "八\n8 eight"];
   木 [label = "木\n202 tree"];
-  囧赛－贝 -> 寨;
-  宀 -> 囧赛－贝;
-  131086 -> 囧赛－贝;
-  囧只－口 -> 囧赛－贝;
-  八 -> 囧只－口;
-  木 -> 寨;
+
+  囧赛－贝 -> 寨 [thick];
+  宀 -> 囧赛－贝 [thick];
+  "𠀎" -> 囧赛－贝 [thick];
+  囧只－口 -> 囧赛－贝 [thick];
+  八 -> 囧只－口 [thick];
+  木 -> 寨 [thick];
 }

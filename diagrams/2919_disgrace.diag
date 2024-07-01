@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   辱 [label = "辱\n2919 disgrace"];
   辰 [label = "辰\n1467 sign of the dragon"];
   厂 [label = "厂\n121 factory"];
@@ -8,12 +14,13 @@ blockdiag {
   寸 [label = "寸\n166 Chinese inch"];
   丶 [label = "丶\n* a drop of"];
   十 [label = "十\n10 ten"];
-  辰 -> 辱;
-  厂 -> 辰;
-  二 -> 辰;
-  一 -> 二;
-  囧丧－十－丷 -> 辰;
-  寸 -> 辱;
-  丶 -> 寸;
-  十 -> 寸;
+
+  辰 -> 辱 [thick];
+  厂 -> 辰 [thick];
+  二 -> 辰 [thick];
+  一 -> 二 [thick];
+  囧丧－十－丷 -> 辰 [thick];
+  寸 -> 辱 [thick];
+  丶 -> 寸 [thick];
+  十 -> 寸 [thick];
 }

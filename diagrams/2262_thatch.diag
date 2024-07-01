@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   茅 [label = "茅\n2262 thatch"];
   艹 [label = "艹\n* flower"];
   矛 [label = "矛\n1002 spear"];
-  艹 -> 茅;
-  矛 -> 茅;
+
+  艹 -> 茅 [thick];
+  矛 -> 茅 [thick];
 }

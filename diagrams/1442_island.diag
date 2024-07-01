@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   岛 [label = "岛\n1442 island"];
   鸟 [label = "鸟\n1438 bird"];
   向 [label = "向\n188 orientation"];
@@ -8,13 +14,14 @@ blockdiag {
   口 [label = "口\n11 mouth"];
   囧与－丨一 [label = "囧与－丨一\n* pointed tail"];
   山 [label = "山\n688 mountain"];
-  鸟 -> 岛;
-  向 -> 鸟;
-  丶 -> 向;
-  冂 -> 向;
-  几 -> 冂;
-  口 -> 向;
-  丶 -> 鸟;
-  囧与－丨一 -> 鸟;
-  山 -> 岛;
+
+  鸟 -> 岛 [thick];
+  向 -> 鸟 [thick];
+  丶 -> 向 [thick];
+  冂 -> 向 [thick];
+  几 -> 冂 [thick];
+  口 -> 向 [thick];
+  丶 -> 鸟 [thick];
+  囧与－丨一 -> 鸟 [thick];
+  山 -> 岛 [thick];
 }

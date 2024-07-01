@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   兼 [label = "兼\n2215 double"];
   丷 [label = "丷\n* horns"];
   一 [label = "一\n1 one"];
   肀 [label = "肀\n* rake"];
   彐 [label = "彐\n* broom"];
-  丷 -> 兼;
-  一 -> 丷;
-  肀 -> 兼;
-  彐 -> 肀;
+
+  丷 -> 兼 [thick];
+  一 -> 丷 [thick];
+  肀 -> 兼 [thick];
+  彐 -> 肀 [thick];
 }

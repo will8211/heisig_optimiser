@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   冻 [label = "冻\n1249 freeze"];
   冫 [label = "冫\n* ice"];
   水 [label = "水\n137 water"];
@@ -7,12 +13,13 @@ blockdiag {
   丶 [label = "丶\n* a drop of"];
   东 [label = "东\n1247 east"];
   车 [label = "车\n300 car"];
-  冫 -> 冻;
-  水 -> 冫;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  东 -> 冻;
-  车 -> 东;
-  丶 -> 东;
+
+  冫 -> 冻 [thick];
+  水 -> 冫 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  东 -> 冻 [thick];
+  车 -> 东 [thick];
+  丶 -> 东 [thick];
 }

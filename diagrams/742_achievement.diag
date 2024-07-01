@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   功 [label = "功\n742 achievement"];
   工 [label = "工\n76 work"];
   力 [label = "力\n732 power"];
-  工 -> 功;
-  力 -> 功;
+
+  工 -> 功 [thick];
+  力 -> 功 [thick];
 }

@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  绕 [label = "绕\n2379 go around"];
+  纟 [label = "纟\n* thread"];
+  厶 [label = "厶\n* elbow"];
+  尧 [label = "尧\n376 Yao"];
+  戈 [label = "戈\n361 halberd"];
+  弋 [label = "弋\n* arrow"];
+  儿 [label = "儿\n56 youngster"];
+
+  纟 -> 绕 [thick];
+  厶 -> 纟 [thick];
+  尧 -> 绕 [thick];
+  戈 -> 尧 [thick];
+  弋 -> 戈 [thick];
+  儿 -> 尧 [thick];
+}

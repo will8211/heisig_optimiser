@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   秧 [label = "秧\n2724 youngling"];
   禾 [label = "禾\n762 standing grain"];
   央 [label = "央\n1322 center"];
   大 [label = "大\n113 large"];
-  禾 -> 秧;
-  央 -> 秧;
-  大 -> 央;
+
+  禾 -> 秧 [thick];
+  央 -> 秧 [thick];
+  大 -> 央 [thick];
 }

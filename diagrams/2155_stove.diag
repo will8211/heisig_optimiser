@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   炉 [label = "炉\n2155 stove"];
   火 [label = "火\n170 fire"];
   户 [label = "户\n896 door"];
   丶 [label = "丶\n* a drop of"];
   尸 [label = "尸\n882 corpse"];
-  火 -> 炉;
-  户 -> 炉;
-  丶 -> 户;
-  尸 -> 户;
+
+  火 -> 炉 [thick];
+  户 -> 炉 [thick];
+  丶 -> 户 [thick];
+  尸 -> 户 [thick];
 }

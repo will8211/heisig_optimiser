@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   猜 [label = "猜\n2567 guess"];
   犬 [label = "犬\n239 pooch"];
   大 [label = "大\n113 large"];
@@ -6,10 +12,11 @@ blockdiag {
   青 [label = "青\n1208 blue or green"];
   囧毒－母 [label = "囧毒－母\n* grow up"];
   月 [label = "月\n13 month"];
-  犬 -> 猜;
-  大 -> 犬;
-  丶 -> 犬;
-  青 -> 猜;
-  囧毒－母 -> 青;
-  月 -> 青;
+
+  犬 -> 猜 [thick];
+  大 -> 犬 [thick];
+  丶 -> 犬 [thick];
+  青 -> 猜 [thick];
+  囧毒－母 -> 青 [thick];
+  月 -> 青 [thick];
 }

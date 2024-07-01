@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   著 [label = "著\n1038 author"];
   艹 [label = "艹\n* flower"];
   者 [label = "者\n1037 someone"];
@@ -8,12 +14,13 @@ blockdiag {
   一 [label = "一\n1 one"];
   匕 [label = "匕\n453 ancient spoon"];
   日 [label = "日\n12 day"];
-  艹 -> 著;
-  者 -> 著;
-  老 -> 者;
-  土 -> 老;
-  丨 -> 老;
-  一 -> 丨;
-  匕 -> 老;
-  日 -> 者;
+
+  艹 -> 著 [thick];
+  者 -> 著 [thick];
+  老 -> 者 [thick];
+  土 -> 老 [thick];
+  丨 -> 老 [thick];
+  一 -> 丨 [thick];
+  匕 -> 老 [thick];
+  日 -> 者 [thick];
 }

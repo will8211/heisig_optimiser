@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   桃 [label = "桃\n238 peach"];
   兆 [label = "兆\n237 portent"];
   木 [label = "木\n202 tree"];
-  兆 -> 桃;
-  木 -> 桃;
+
+  兆 -> 桃 [thick];
+  木 -> 桃 [thick];
 }

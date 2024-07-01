@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   挑 [label = "挑\n1847 foment"];
   扌 [label = "扌\n* fingers"];
   兆 [label = "兆\n237 portent"];
-  扌 -> 挑;
-  兆 -> 挑;
+
+  扌 -> 挑 [thick];
+  兆 -> 挑 [thick];
 }

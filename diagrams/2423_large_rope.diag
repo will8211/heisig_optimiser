@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  索 [label = "索\n2423 large rope"];
+  囧索－糸 [label = "囧索－糸\n* chapel"];
+  宀 [label = "宀\n* house"];
+  糸 [label = "糸\n* floss"];
+  幺 [label = "幺\n* cocoon"];
+  小 [label = "小\n109 small"];
+  丶 [label = "丶\n* a drop of"];
+
+  囧索－糸 -> 索 [thick];
+  宀 -> 囧索－糸 [thick];
+  糸 -> 索 [thick];
+  幺 -> 糸 [thick];
+  小 -> 糸 [thick];
+  丶 -> 小 [thick];
+}

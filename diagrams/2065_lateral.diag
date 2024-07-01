@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   侧 [label = "侧\n2065 lateral"];
   人 [label = "人\n793 person"];
   则 [label = "则\n88 rule"];
@@ -7,11 +13,12 @@ blockdiag {
   囧只－口 [label = "囧只－口\n* animal legs"];
   八 [label = "八\n8 eight"];
   刀 [label = "刀\n83 sword"];
-  人 -> 侧;
-  则 -> 侧;
-  贝 -> 则;
-  目 -> 贝;
-  囧只－口 -> 贝;
-  八 -> 囧只－口;
-  刀 -> 则;
+
+  人 -> 侧 [thick];
+  则 -> 侧 [thick];
+  贝 -> 则 [thick];
+  目 -> 贝 [thick];
+  囧只－口 -> 贝 [thick];
+  八 -> 囧只－口 [thick];
+  刀 -> 则 [thick];
 }

@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   轻 [label = "轻\n1095 lightweight"];
   车 [label = "车\n300 car"];
-  139286 [label = "𢀖\n* spool"];
+  "𢀖" [label = "𢀖\n* spool"];
   工 [label = "工\n76 work"];
   人 [label = "人\n793 person"];
-  车 -> 轻;
-  139286 -> 轻;
-  工 -> 139286;
-  人 -> 139286;
+
+  车 -> 轻 [thick];
+  "𢀖" -> 轻 [thick];
+  工 -> "𢀖" [thick];
+  人 -> "𢀖" [thick];
 }

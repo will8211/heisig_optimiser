@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   健 [label = "健\n817 healthy"];
   人 [label = "人\n793 person"];
   建 [label = "建\n398 build"];
   聿 [label = "聿\n* brush"];
   廴 [label = "廴\n* stretch"];
-  人 -> 健;
-  建 -> 健;
-  聿 -> 建;
-  廴 -> 建;
+
+  人 -> 健 [thick];
+  建 -> 健 [thick];
+  聿 -> 建 [thick];
+  廴 -> 建 [thick];
 }

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   狗 [label = "狗\n251 dog"];
   犬 [label = "犬\n239 pooch"];
   大 [label = "大\n113 large"];
@@ -6,10 +12,11 @@ blockdiag {
   句 [label = "句\n67 sentence"];
   勹 [label = "勹\n* bound up"];
   口 [label = "口\n11 mouth"];
-  犬 -> 狗;
-  大 -> 犬;
-  丶 -> 犬;
-  句 -> 狗;
-  勹 -> 句;
-  口 -> 句;
+
+  犬 -> 狗 [thick];
+  大 -> 犬 [thick];
+  丶 -> 犬 [thick];
+  句 -> 狗 [thick];
+  勹 -> 句 [thick];
+  口 -> 句 [thick];
 }

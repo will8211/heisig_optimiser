@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   察 [label = "察\n911 scrutinize"];
   宀 [label = "宀\n* house"];
   祭 [label = "祭\n910 offer sacrifice"];
   月 [label = "月\n13 month"];
   又 [label = "又\n633 again"];
   示 [label = "示\n900 show"];
-  宀 -> 察;
-  祭 -> 察;
-  月 -> 祭;
-  又 -> 祭;
-  示 -> 祭;
+
+  宀 -> 察 [thick];
+  祭 -> 察 [thick];
+  月 -> 祭 [thick];
+  又 -> 祭 [thick];
+  示 -> 祭 [thick];
 }

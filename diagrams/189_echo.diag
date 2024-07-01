@@ -1,14 +1,21 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   响 [label = "响\n189 echo"];
   向 [label = "向\n188 orientation"];
   丶 [label = "丶\n* a drop of"];
   冂 [label = "冂\n* hood"];
   几 [label = "几\n57 how many?"];
   口 [label = "口\n11 mouth"];
-  向 -> 响;
-  丶 -> 向;
-  冂 -> 向;
-  几 -> 冂;
-  口 -> 向;
-  口 -> 响;
+
+  向 -> 响 [thick];
+  丶 -> 向 [thick];
+  冂 -> 向 [thick];
+  几 -> 冂 [thick];
+  口 -> 向 [thick];
+  口 -> 响 [thick];
 }

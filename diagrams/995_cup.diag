@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   杯 [label = "杯\n995 cup"];
   木 [label = "木\n202 tree"];
   不 [label = "不\n991 no"];
   一 [label = "一\n1 one"];
   人 [label = "人\n793 person"];
   丶 [label = "丶\n* a drop of"];
-  木 -> 杯;
-  不 -> 杯;
-  一 -> 不;
-  人 -> 不;
-  丶 -> 不;
+
+  木 -> 杯 [thick];
+  不 -> 杯 [thick];
+  一 -> 不 [thick];
+  人 -> 不 [thick];
+  丶 -> 不 [thick];
 }

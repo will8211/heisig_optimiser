@@ -1,5 +1,12 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   之 [label = "之\n988 of"];
   丶 [label = "丶\n* a drop of"];
-  丶 -> 之;
+
+  丶 -> 之 [thick];
 }

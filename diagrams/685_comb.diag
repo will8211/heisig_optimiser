@@ -1,19 +1,26 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   梳 [label = "梳\n685 comb"];
   木 [label = "木\n202 tree"];
-  13356 [label = "㐬\n* baby Moses"];
+  "㐬" [label = "㐬\n* baby Moses"];
   囧充－儿 [label = "囧充－儿\n* infant"];
   囧会－亼 [label = "囧会－亼\n* wall"];
   厶 [label = "厶\n* elbow"];
   一 [label = "一\n1 one"];
   丶 [label = "丶\n* a drop of"];
   川 [label = "川\n134 stream"];
-  木 -> 梳;
-  13356 -> 梳;
-  囧充－儿 -> 13356;
-  囧会－亼 -> 囧充－儿;
-  厶 -> 囧会－亼;
-  一 -> 囧会－亼;
-  丶 -> 囧充－儿;
-  川 -> 13356;
+
+  木 -> 梳 [thick];
+  "㐬" -> 梳 [thick];
+  囧充－儿 -> "㐬" [thick];
+  囧会－亼 -> 囧充－儿 [thick];
+  厶 -> 囧会－亼 [thick];
+  一 -> 囧会－亼 [thick];
+  丶 -> 囧充－儿 [thick];
+  川 -> "㐬" [thick];
 }

@@ -1,15 +1,22 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   履 [label = "履\n2145 footwear"];
   尸 [label = "尸\n882 corpse"];
   行 [label = "行\n754 line of business"];
   复 [label = "复\n472 duplicate"];
-  131209 [label = "𠂉\n* reclining"];
+  "𠂉" [label = "𠂉\n* reclining"];
   日 [label = "日\n12 day"];
   夂 [label = "夂\n* walking legs"];
-  尸 -> 履;
-  行 -> 履;
-  复 -> 履;
-  131209 -> 复;
-  日 -> 复;
-  夂 -> 复;
+
+  尸 -> 履 [thick];
+  行 -> 履 [thick];
+  复 -> 履 [thick];
+  "𠂉" -> 复 [thick];
+  日 -> 复 [thick];
+  夂 -> 复 [thick];
 }

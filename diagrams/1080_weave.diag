@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   织 [label = "织\n1080 weave"];
   纟 [label = "纟\n* thread"];
   厶 [label = "厶\n* elbow"];
   口 [label = "口\n11 mouth"];
   囧只－口 [label = "囧只－口\n* animal legs"];
   八 [label = "八\n8 eight"];
-  纟 -> 织;
-  厶 -> 纟;
-  口 -> 织;
-  囧只－口 -> 织;
-  八 -> 囧只－口;
+
+  纟 -> 织 [thick];
+  厶 -> 纟 [thick];
+  口 -> 织 [thick];
+  囧只－口 -> 织 [thick];
+  八 -> 囧只－口 [thick];
 }

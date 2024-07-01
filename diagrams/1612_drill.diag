@@ -1,7 +1,13 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   钻 [label = "钻\n1612 drill"];
   金 [label = "金\n279 gold"];
-  131490 [label = "𠆢\n* umbrella"];
+  "𠆢" [label = "𠆢\n* umbrella"];
   王 [label = "王\n265 king"];
   工 [label = "工\n76 work"];
   丶 [label = "丶\n* a drop of"];
@@ -10,15 +16,16 @@ blockdiag {
   丨 [label = "丨\n* walking stick"];
   一 [label = "一\n1 one"];
   口 [label = "口\n11 mouth"];
-  金 -> 钻;
-  131490 -> 金;
-  王 -> 金;
-  工 -> 王;
-  丶 -> 金;
-  占 -> 钻;
-  卜 -> 占;
-  丨 -> 卜;
-  一 -> 丨;
-  丶 -> 卜;
-  口 -> 占;
+
+  金 -> 钻 [thick];
+  "𠆢" -> 金 [thick];
+  王 -> 金 [thick];
+  工 -> 王 [thick];
+  丶 -> 金 [thick];
+  占 -> 钻 [thick];
+  卜 -> 占 [thick];
+  丨 -> 卜 [thick];
+  一 -> 丨 [thick];
+  丶 -> 卜 [thick];
+  口 -> 占 [thick];
 }

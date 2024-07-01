@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   耶 [label = "耶\n2806 Jerusalem"];
   耳 [label = "耳\n717 ear"];
   囧阝 [label = "囧阝\n* city walls"];
   阝 [label = "阝\n* pinnacle"];
-  耳 -> 耶;
-  囧阝 -> 耶;
-  阝 -> 囧阝;
+
+  耳 -> 耶 [thick];
+  囧阝 -> 耶 [thick];
+  阝 -> 囧阝 [thick];
 }

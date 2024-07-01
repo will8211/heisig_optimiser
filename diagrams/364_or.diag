@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   或 [label = "或\n364 or"];
   口 [label = "口\n11 mouth"];
   一 [label = "一\n1 one"];
   戈 [label = "戈\n361 halberd"];
   弋 [label = "弋\n* arrow"];
-  口 -> 或;
-  一 -> 或;
-  戈 -> 或;
-  弋 -> 戈;
+
+  口 -> 或 [thick];
+  一 -> 或 [thick];
+  戈 -> 或 [thick];
+  弋 -> 戈 [thick];
 }

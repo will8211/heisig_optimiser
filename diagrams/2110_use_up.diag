@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  竭 [label = "竭\n2110 use up"];
+  立 [label = "立\n444 standing up"];
+  曷 [label = "曷\n* siesta"];
+  人 [label = "人\n793 person"];
+  勹 [label = "勹\n* bound up"];
+  乙 [label = "乙\n95 second"];
+  日 [label = "日\n12 day"];
+
+  立 -> 竭 [thick];
+  曷 -> 竭 [thick];
+  人 -> 曷 [thick];
+  勹 -> 曷 [thick];
+  乙 -> 曷 [thick];
+  日 -> 曷 [thick];
+}

@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   戋 [label = "戋\n* float"];
   戈 [label = "戈\n361 halberd"];
   弋 [label = "弋\n* arrow"];
-  戈 -> 戋;
-  弋 -> 戈;
+
+  戈 -> 戋 [thick];
+  弋 -> 戈 [thick];
 }

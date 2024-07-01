@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   翟 [label = "翟\n* headdress"];
   羽 [label = "羽\n544 feathers"];
   隹 [label = "隹\n* turkey"];
-  羽 -> 翟;
-  隹 -> 翟;
+
+  羽 -> 翟 [thick];
+  隹 -> 翟 [thick];
 }

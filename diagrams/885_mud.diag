@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   泥 [label = "泥\n885 mud"];
   水 [label = "水\n137 water"];
   丨 [label = "丨\n* walking stick"];
@@ -7,11 +13,12 @@ blockdiag {
   尼 [label = "尼\n883 nun"];
   尸 [label = "尸\n882 corpse"];
   匕 [label = "匕\n453 ancient spoon"];
-  水 -> 泥;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  尼 -> 泥;
-  尸 -> 尼;
-  匕 -> 尼;
+
+  水 -> 泥 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  尼 -> 泥 [thick];
+  尸 -> 尼 [thick];
+  匕 -> 尼 [thick];
 }

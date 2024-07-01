@@ -1,5 +1,12 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   爪 [label = "爪\n663 claw"];
-  131206 [label = "𠂆\n* drag"];
-  131206 -> 爪;
+  "𠂆" [label = "𠂆\n* drag"];
+
+  "𠂆" -> 爪 [thick];
 }

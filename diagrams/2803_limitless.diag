@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   廓 [label = "廓\n2803 limitless"];
   洞 [label = "洞\n186 cave"];
   同 [label = "同\n185 same"];
@@ -20,34 +26,35 @@ blockdiag {
   八 [label = "八\n8 eight"];
   囧阝 [label = "囧阝\n* city walls"];
   阝 [label = "阝\n* pinnacle"];
-  洞 -> 廓;
-  同 -> 洞;
-  一 -> 同;
-  口 -> 同;
-  冂 -> 同;
-  几 -> 冂;
-  水 -> 洞;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  郭 -> 廓;
-  享 -> 郭;
-  子 -> 享;
-  高 -> 享;
-  向 -> 高;
-  丶 -> 向;
-  冂 -> 向;
-  几 -> 冂;
-  口 -> 向;
-  口 -> 高;
-  冂 -> 高;
-  几 -> 冂;
-  亠 -> 高;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  囧阝 -> 郭;
-  阝 -> 囧阝;
+
+  洞 -> 廓 [thick];
+  同 -> 洞 [thick];
+  一 -> 同 [thick];
+  口 -> 同 [thick];
+  冂 -> 同 [thick];
+  几 -> 冂 [thick];
+  水 -> 洞 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  郭 -> 廓 [thick];
+  享 -> 郭 [thick];
+  子 -> 享 [thick];
+  高 -> 享 [thick];
+  向 -> 高 [thick];
+  丶 -> 向 [thick];
+  冂 -> 向 [thick];
+  几 -> 冂 [thick];
+  口 -> 向 [thick];
+  口 -> 高 [thick];
+  冂 -> 高 [thick];
+  几 -> 冂 [thick];
+  亠 -> 高 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  囧阝 -> 郭 [thick];
+  阝 -> 囧阝 [thick];
 }

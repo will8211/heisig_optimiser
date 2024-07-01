@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   煞 [label = "煞\n2198 goblin"];
   刍 [label = "刍\n* hairnet"];
   勹 [label = "勹\n* bound up"];
   彐 [label = "彐\n* broom"];
   攵 [label = "攵\n* taskmaster"];
   火 [label = "火\n170 fire"];
-  刍 -> 煞;
-  勹 -> 刍;
-  彐 -> 刍;
-  攵 -> 煞;
-  火 -> 煞;
+
+  刍 -> 煞 [thick];
+  勹 -> 刍 [thick];
+  彐 -> 刍 [thick];
+  攵 -> 煞 [thick];
+  火 -> 煞 [thick];
 }

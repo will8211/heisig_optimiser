@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  拾 [label = "拾\n1851 tidy up"];
+  扌 [label = "扌\n* fingers"];
+  合 [label = "合\n262 fit"];
+  亼 [label = "亼\n* meeting"];
+  "𠆢" [label = "𠆢\n* umbrella"];
+  口 [label = "口\n11 mouth"];
+
+  扌 -> 拾 [thick];
+  合 -> 拾 [thick];
+  亼 -> 合 [thick];
+  "𠆢" -> 亼 [thick];
+  口 -> 合 [thick];
+}

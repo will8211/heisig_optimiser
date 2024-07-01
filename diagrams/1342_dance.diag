@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   舞 [label = "舞\n1342 dance"];
-  131209 [label = "𠂉\n* reclining"];
+  "𠂉" [label = "𠂉\n* reclining"];
   夕 [label = "夕\n115 evening"];
   月 [label = "月\n13 month"];
   年 [label = "年\n871 year"];
   午 [label = "午\n542 noon"];
-  131209 -> 舞;
-  夕 -> 舞;
-  月 -> 夕;
-  年 -> 舞;
-  午 -> 年;
+
+  "𠂉" -> 舞 [thick];
+  夕 -> 舞 [thick];
+  月 -> 夕 [thick];
+  年 -> 舞 [thick];
+  午 -> 年 [thick];
 }

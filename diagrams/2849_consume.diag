@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   耗 [label = "耗\n2849 consume"];
   耒 [label = "耒\n* Christmas tree"];
   一 [label = "一\n1 one"];
@@ -6,10 +12,11 @@ blockdiag {
   木 [label = "木\n202 tree"];
   毛 [label = "毛\n1421 fur"];
   手 [label = "手\n584 hand"];
-  耒 -> 耗;
-  一 -> 耒;
-  未 -> 耒;
-  木 -> 未;
-  毛 -> 耗;
-  手 -> 毛;
+
+  耒 -> 耗 [thick];
+  一 -> 耒 [thick];
+  未 -> 耒 [thick];
+  木 -> 未 [thick];
+  毛 -> 耗 [thick];
+  手 -> 毛 [thick];
 }

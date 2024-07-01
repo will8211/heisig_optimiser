@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   避 [label = "避\n1187 evade"];
   辟 [label = "辟\n1185 repudiate"];
   尸 [label = "尸\n882 corpse"];
@@ -7,11 +13,12 @@ blockdiag {
   立 [label = "立\n444 standing up"];
   十 [label = "十\n10 ten"];
   辶 [label = "辶\n* road"];
-  辟 -> 避;
-  尸 -> 辟;
-  口 -> 辟;
-  辛 -> 辟;
-  立 -> 辛;
-  十 -> 辛;
-  辶 -> 避;
+
+  辟 -> 避 [thick];
+  尸 -> 辟 [thick];
+  口 -> 辟 [thick];
+  辛 -> 辟 [thick];
+  立 -> 辛 [thick];
+  十 -> 辛 [thick];
+  辶 -> 避 [thick];
 }

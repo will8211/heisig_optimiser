@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   量 [label = "量\n180 quantity"];
   旦 [label = "旦\n30 daybreak"];
   日 [label = "日\n12 day"];
@@ -6,10 +12,11 @@ blockdiag {
   里 [label = "里\n179 li"];
   田 [label = "田\n14 rice field"];
   土 [label = "土\n158 soil"];
-  旦 -> 量;
-  日 -> 旦;
-  一 -> 旦;
-  里 -> 量;
-  田 -> 里;
-  土 -> 里;
+
+  旦 -> 量 [thick];
+  日 -> 旦 [thick];
+  一 -> 旦 [thick];
+  里 -> 量 [thick];
+  田 -> 里 [thick];
+  土 -> 里 [thick];
 }

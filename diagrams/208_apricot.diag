@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   杏 [label = "杏\n208 apricot"];
   木 [label = "木\n202 tree"];
   口 [label = "口\n11 mouth"];
-  木 -> 杏;
-  口 -> 杏;
+
+  木 -> 杏 [thick];
+  口 -> 杏 [thick];
 }

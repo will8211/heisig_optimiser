@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   敏 [label = "敏\n1713 quick-witted"];
   每 [label = "每\n467 every"];
-  131209 [label = "𠂉\n* reclining"];
+  "𠂉" [label = "𠂉\n* reclining"];
   母 [label = "母\n105 mother"];
   女 [label = "女\n102 woman"];
   攵 [label = "攵\n* taskmaster"];
-  每 -> 敏;
-  131209 -> 每;
-  母 -> 每;
-  女 -> 母;
-  攵 -> 敏;
+
+  每 -> 敏 [thick];
+  "𠂉" -> 每 [thick];
+  母 -> 每 [thick];
+  女 -> 母 [thick];
+  攵 -> 敏 [thick];
 }

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   溜 [label = "溜\n1108 slide"];
   水 [label = "水\n137 water"];
   丨 [label = "丨\n* walking stick"];
@@ -9,13 +15,14 @@ blockdiag {
   卩 [label = "卩\n* stamp"];
   刀 [label = "刀\n83 sword"];
   田 [label = "田\n14 rice field"];
-  水 -> 溜;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  留 -> 溜;
-  囧贸－贝 -> 留;
-  卩 -> 囧贸－贝;
-  刀 -> 囧贸－贝;
-  田 -> 留;
+
+  水 -> 溜 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  留 -> 溜 [thick];
+  囧贸－贝 -> 留 [thick];
+  卩 -> 囧贸－贝 [thick];
+  刀 -> 囧贸－贝 [thick];
+  田 -> 留 [thick];
 }

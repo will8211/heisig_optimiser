@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   魄 [label = "魄\n2924 vigor"];
   白 [label = "白\n34 white"];
   日 [label = "日\n12 day"];
@@ -7,12 +13,13 @@ blockdiag {
   田 [label = "田\n14 rice field"];
   儿 [label = "儿\n56 youngster"];
   厶 [label = "厶\n* elbow"];
-  白 -> 魄;
-  日 -> 白;
-  丶 -> 白;
-  鬼 -> 魄;
-  丶 -> 鬼;
-  田 -> 鬼;
-  儿 -> 鬼;
-  厶 -> 鬼;
+
+  白 -> 魄 [thick];
+  日 -> 白 [thick];
+  丶 -> 白 [thick];
+  鬼 -> 魄 [thick];
+  丶 -> 鬼 [thick];
+  田 -> 鬼 [thick];
+  儿 -> 鬼 [thick];
+  厶 -> 鬼 [thick];
 }

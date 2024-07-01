@@ -1,12 +1,19 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   炒 [label = "炒\n1547 stir-fry"];
   火 [label = "火\n170 fire"];
   少 [label = "少\n110 few"];
   丶 [label = "丶\n* a drop of"];
   小 [label = "小\n109 small"];
-  火 -> 炒;
-  少 -> 炒;
-  丶 -> 少;
-  小 -> 少;
-  丶 -> 小;
+
+  火 -> 炒 [thick];
+  少 -> 炒 [thick];
+  丶 -> 少 [thick];
+  小 -> 少 [thick];
+  丶 -> 小 [thick];
 }

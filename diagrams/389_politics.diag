@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   政 [label = "政\n389 politics"];
   正 [label = "正\n387 correct"];
   一 [label = "一\n1 one"];
   止 [label = "止\n379 stop"];
   攵 [label = "攵\n* taskmaster"];
-  正 -> 政;
-  一 -> 正;
-  止 -> 正;
-  攵 -> 政;
+
+  正 -> 政 [thick];
+  一 -> 正 [thick];
+  止 -> 正 [thick];
+  攵 -> 政 [thick];
 }

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   优 [label = "优\n821 excellent"];
   人 [label = "人\n793 person"];
   尤 [label = "尤\n240 remarkable"];
@@ -6,10 +12,11 @@ blockdiag {
   大 [label = "大\n113 large"];
   丶 [label = "丶\n* a drop of"];
   儿 [label = "儿\n56 youngster"];
-  人 -> 优;
-  尤 -> 优;
-  犬 -> 尤;
-  大 -> 犬;
-  丶 -> 犬;
-  儿 -> 尤;
+
+  人 -> 优 [thick];
+  尤 -> 优 [thick];
+  犬 -> 尤 [thick];
+  大 -> 犬 [thick];
+  丶 -> 犬 [thick];
+  儿 -> 尤 [thick];
 }

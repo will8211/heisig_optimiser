@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   滥 [label = "滥\n2498 indiscriminate"];
   水 [label = "水\n137 water"];
   丨 [label = "丨\n* walking stick"];
@@ -6,7 +12,7 @@ blockdiag {
   丶 [label = "丶\n* a drop of"];
   监 [label = "监\n1139 supervise"];
   囧坚－圣 [label = "囧坚－圣\n* fencing foil"];
-  131209 [label = "𠂉\n* reclining"];
+  "𠂉" [label = "𠂉\n* reclining"];
   掉 [label = "掉\n607 drop"];
   扌 [label = "扌\n* fingers"];
   卓 [label = "卓\n48 eminent"];
@@ -15,22 +21,23 @@ blockdiag {
   日 [label = "日\n12 day"];
   十 [label = "十\n10 ten"];
   皿 [label = "皿\n* dish"];
-  水 -> 滥;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  监 -> 滥;
-  囧坚－圣 -> 监;
-  131209 -> 监;
-  掉 -> 监;
-  扌 -> 掉;
-  卓 -> 掉;
-  卜 -> 卓;
-  丨 -> 卜;
-  一 -> 丨;
-  丶 -> 卜;
-  早 -> 卓;
-  日 -> 早;
-  十 -> 早;
-  皿 -> 监;
+
+  水 -> 滥 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  监 -> 滥 [thick];
+  囧坚－圣 -> 监 [thick];
+  "𠂉" -> 监 [thick];
+  掉 -> 监 [thick];
+  扌 -> 掉 [thick];
+  卓 -> 掉 [thick];
+  卜 -> 卓 [thick];
+  丨 -> 卜 [thick];
+  一 -> 丨 [thick];
+  丶 -> 卜 [thick];
+  早 -> 卓 [thick];
+  日 -> 早 [thick];
+  十 -> 早 [thick];
+  皿 -> 监 [thick];
 }

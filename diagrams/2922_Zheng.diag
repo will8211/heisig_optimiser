@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   郑 [label = "郑\n2922 Zheng"];
   关 [label = "关\n1469 shut"];
   丷 [label = "丷\n* horns"];
@@ -7,12 +13,13 @@ blockdiag {
   大 [label = "大\n113 large"];
   囧阝 [label = "囧阝\n* city walls"];
   阝 [label = "阝\n* pinnacle"];
-  关 -> 郑;
-  丷 -> 关;
-  一 -> 丷;
-  天 -> 关;
-  一 -> 天;
-  大 -> 天;
-  囧阝 -> 郑;
-  阝 -> 囧阝;
+
+  关 -> 郑 [thick];
+  丷 -> 关 [thick];
+  一 -> 丷 [thick];
+  天 -> 关 [thick];
+  一 -> 天 [thick];
+  大 -> 天 [thick];
+  囧阝 -> 郑 [thick];
+  阝 -> 囧阝 [thick];
 }

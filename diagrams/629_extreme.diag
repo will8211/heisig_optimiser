@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   极 [label = "极\n629 extreme"];
   木 [label = "木\n202 tree"];
   及 [label = "及\n627 catch up with"];
   乃 [label = "乃\n625 only then"];
-  木 -> 极;
-  及 -> 极;
-  乃 -> 及;
+
+  木 -> 极 [thick];
+  及 -> 极 [thick];
+  乃 -> 及 [thick];
 }

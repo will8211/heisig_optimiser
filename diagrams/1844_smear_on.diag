@@ -1,0 +1,16 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  抹 [label = "抹\n1844 smear on"];
+  扌 [label = "扌\n* fingers"];
+  末 [label = "末\n216 last"];
+  木 [label = "木\n202 tree"];
+
+  扌 -> 抹 [thick];
+  末 -> 抹 [thick];
+  木 -> 末 [thick];
+}

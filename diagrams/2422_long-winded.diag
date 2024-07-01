@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   絮 [label = "絮\n2422 long-winded"];
   如 [label = "如\n104 be like"];
   口 [label = "口\n11 mouth"];
@@ -7,11 +13,12 @@ blockdiag {
   幺 [label = "幺\n* cocoon"];
   小 [label = "小\n109 small"];
   丶 [label = "丶\n* a drop of"];
-  如 -> 絮;
-  口 -> 如;
-  女 -> 如;
-  糸 -> 絮;
-  幺 -> 糸;
-  小 -> 糸;
-  丶 -> 小;
+
+  如 -> 絮 [thick];
+  口 -> 如 [thick];
+  女 -> 如 [thick];
+  糸 -> 絮 [thick];
+  幺 -> 糸 [thick];
+  小 -> 糸 [thick];
+  丶 -> 小 [thick];
 }

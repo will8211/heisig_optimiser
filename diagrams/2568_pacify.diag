@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   靖 [label = "靖\n2568 pacify"];
   立 [label = "立\n444 standing up"];
   青 [label = "青\n1208 blue or green"];
   囧毒－母 [label = "囧毒－母\n* grow up"];
   月 [label = "月\n13 month"];
-  立 -> 靖;
-  青 -> 靖;
-  囧毒－母 -> 青;
-  月 -> 青;
+
+  立 -> 靖 [thick];
+  青 -> 靖 [thick];
+  囧毒－母 -> 青 [thick];
+  月 -> 青 [thick];
 }

@@ -1,0 +1,14 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  代 [label = "代\n828 substitute for"];
+  人 [label = "人\n793 person"];
+  弋 [label = "弋\n* arrow"];
+
+  人 -> 代 [thick];
+  弋 -> 代 [thick];
+}

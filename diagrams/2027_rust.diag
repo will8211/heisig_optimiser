@@ -1,19 +1,26 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   锈 [label = "锈\n2027 rust"];
   金 [label = "金\n279 gold"];
-  131490 [label = "𠆢\n* umbrella"];
+  "𠆢" [label = "𠆢\n* umbrella"];
   王 [label = "王\n265 king"];
   工 [label = "工\n76 work"];
   丶 [label = "丶\n* a drop of"];
   秀 [label = "秀\n775 elegant"];
   禾 [label = "禾\n762 standing grain"];
   乃 [label = "乃\n625 only then"];
-  金 -> 锈;
-  131490 -> 金;
-  王 -> 金;
-  工 -> 王;
-  丶 -> 金;
-  秀 -> 锈;
-  禾 -> 秀;
-  乃 -> 秀;
+
+  金 -> 锈 [thick];
+  "𠆢" -> 金 [thick];
+  王 -> 金 [thick];
+  工 -> 王 [thick];
+  丶 -> 金 [thick];
+  秀 -> 锈 [thick];
+  禾 -> 秀 [thick];
+  乃 -> 秀 [thick];
 }

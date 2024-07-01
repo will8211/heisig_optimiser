@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   阶 [label = "阶\n1064 stairs"];
   阝 [label = "阝\n* pinnacle"];
   介 [label = "介\n259 introduce"];
-  131490 [label = "𠆢\n* umbrella"];
-  239201 [label = "囧介－𠆢\n* crutches"];
-  阝 -> 阶;
-  介 -> 阶;
-  131490 -> 介;
-  239201 -> 介;
+  "𠆢" [label = "𠆢\n* umbrella"];
+  "囧介－𠆢" [label = "囧介－𠆢\n* crutches"];
+
+  阝 -> 阶 [thick];
+  介 -> 阶 [thick];
+  "𠆢" -> 介 [thick];
+  "囧介－𠆢" -> 介 [thick];
 }

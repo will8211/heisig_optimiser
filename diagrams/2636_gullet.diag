@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   喉 [label = "喉\n2636 gullet"];
   口 [label = "口\n11 mouth"];
   侯 [label = "侯\n1271 marquis"];
@@ -9,13 +15,14 @@ blockdiag {
   一 [label = "一\n1 one"];
   大 [label = "大\n113 large"];
   丶 [label = "丶\n* a drop of"];
-  口 -> 喉;
-  侯 -> 喉;
-  人 -> 侯;
-  囧侯－亻－矢 -> 侯;
-  矢 -> 侯;
-  天 -> 矢;
-  一 -> 天;
-  大 -> 天;
-  丶 -> 矢;
+
+  口 -> 喉 [thick];
+  侯 -> 喉 [thick];
+  人 -> 侯 [thick];
+  囧侯－亻－矢 -> 侯 [thick];
+  矢 -> 侯 [thick];
+  天 -> 矢 [thick];
+  一 -> 天 [thick];
+  大 -> 天 [thick];
+  丶 -> 矢 [thick];
 }

@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   仇 [label = "仇\n2055 animosity"];
   人 [label = "人\n793 person"];
   九 [label = "九\n9 nine"];
-  人 -> 仇;
-  九 -> 仇;
+
+  人 -> 仇 [thick];
+  九 -> 仇 [thick];
 }

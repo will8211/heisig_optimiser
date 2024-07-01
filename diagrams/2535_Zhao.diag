@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   赵 [label = "赵\n2535 Zhao"];
   走 [label = "走\n391 walk"];
   囧走－十 [label = "囧走－十\n* mending"];
@@ -6,12 +12,13 @@ blockdiag {
   一 [label = "一\n1 one"];
   止 [label = "止\n379 stop"];
   土 [label = "土\n158 soil"];
-  13317 [label = "㐅\n* sheaf"];
-  走 -> 赵;
-  囧走－十 -> 走;
-  正 -> 囧走－十;
-  一 -> 正;
-  止 -> 正;
-  土 -> 走;
-  13317 -> 赵;
+  "㐅" [label = "㐅\n* sheaf"];
+
+  走 -> 赵 [thick];
+  囧走－十 -> 走 [thick];
+  正 -> 囧走－十 [thick];
+  一 -> 正 [thick];
+  止 -> 正 [thick];
+  土 -> 走 [thick];
+  "㐅" -> 赵 [thick];
 }

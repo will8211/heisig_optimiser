@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   浑 [label = "浑\n1633 muddled"];
   水 [label = "水\n137 water"];
   丨 [label = "丨\n* walking stick"];
@@ -7,11 +13,12 @@ blockdiag {
   军 [label = "军\n320 army"];
   冖 [label = "冖\n* crown"];
   车 [label = "车\n300 car"];
-  水 -> 浑;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  军 -> 浑;
-  冖 -> 军;
-  车 -> 军;
+
+  水 -> 浑 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  军 -> 浑 [thick];
+  冖 -> 军 [thick];
+  车 -> 军 [thick];
 }

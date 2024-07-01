@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   卿 [label = "卿\n2511 minister"];
   囧贸－贝 [label = "囧贸－贝\n* letter opener"];
   卩 [label = "卩\n* stamp"];
   刀 [label = "刀\n83 sword"];
   艮 [label = "艮\n* silver"];
-  囧贸－贝 -> 卿;
-  卩 -> 囧贸－贝;
-  刀 -> 囧贸－贝;
-  艮 -> 卿;
+
+  囧贸－贝 -> 卿 [thick];
+  卩 -> 囧贸－贝 [thick];
+  刀 -> 囧贸－贝 [thick];
+  艮 -> 卿 [thick];
 }

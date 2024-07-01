@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   细 [label = "细\n1091 fine"];
   纟 [label = "纟\n* thread"];
   厶 [label = "厶\n* elbow"];
   田 [label = "田\n14 rice field"];
-  纟 -> 细;
-  厶 -> 纟;
-  田 -> 细;
+
+  纟 -> 细 [thick];
+  厶 -> 纟 [thick];
+  田 -> 细 [thick];
 }

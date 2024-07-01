@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   蕉 [label = "蕉\n1773 banana"];
   艹 [label = "艹\n* flower"];
   焦 [label = "焦\n1770 apprehensive"];
   隹 [label = "隹\n* turkey"];
   火 [label = "火\n170 fire"];
-  艹 -> 蕉;
-  焦 -> 蕉;
-  隹 -> 焦;
-  火 -> 焦;
+
+  艹 -> 蕉 [thick];
+  焦 -> 蕉 [thick];
+  隹 -> 焦 [thick];
+  火 -> 焦 [thick];
 }

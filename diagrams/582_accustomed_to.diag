@@ -1,0 +1,26 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  惯 [label = "惯\n582 accustomed to"];
+  心 [label = "心\n563 heart"];
+  贯 [label = "贯\n106 pierce"];
+  母 [label = "母\n105 mother"];
+  女 [label = "女\n102 woman"];
+  贝 [label = "贝\n52 shellfish"];
+  目 [label = "目\n15 eye"];
+  囧只－口 [label = "囧只－口\n* animal legs"];
+  八 [label = "八\n8 eight"];
+
+  心 -> 惯 [thick];
+  贯 -> 惯 [thick];
+  母 -> 贯 [thick];
+  女 -> 母 [thick];
+  贝 -> 贯 [thick];
+  目 -> 贝 [thick];
+  囧只－口 -> 贝 [thick];
+  八 -> 囧只－口 [thick];
+}

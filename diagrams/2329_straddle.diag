@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   跨 [label = "跨\n2329 straddle"];
   足 [label = "足\n1048 lower leg"];
   口 [label = "口\n11 mouth"];
@@ -7,11 +13,12 @@ blockdiag {
   大 [label = "大\n113 large"];
   亏 [label = "亏\n2286 loss"];
   丂 [label = "丂\n* snare"];
-  足 -> 跨;
-  口 -> 足;
-  止 -> 足;
-  夸 -> 跨;
-  大 -> 夸;
-  亏 -> 夸;
-  丂 -> 亏;
+
+  足 -> 跨 [thick];
+  口 -> 足 [thick];
+  止 -> 足 [thick];
+  夸 -> 跨 [thick];
+  大 -> 夸 [thick];
+  亏 -> 夸 [thick];
+  丂 -> 亏 [thick];
 }

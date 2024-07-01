@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   剪 [label = "剪\n304 shears"];
   刀 [label = "刀\n83 sword"];
   前 [label = "前\n303 in front"];
@@ -6,11 +12,12 @@ blockdiag {
   一 [label = "一\n1 one"];
   刖 [label = "刖\n* butcher"];
   月 [label = "月\n13 month"];
-  刀 -> 剪;
-  前 -> 剪;
-  丷 -> 前;
-  一 -> 丷;
-  刖 -> 前;
-  月 -> 刖;
-  刀 -> 刖;
+
+  刀 -> 剪 [thick];
+  前 -> 剪 [thick];
+  丷 -> 前 [thick];
+  一 -> 丷 [thick];
+  刖 -> 前 [thick];
+  月 -> 刖 [thick];
+  刀 -> 刖 [thick];
 }

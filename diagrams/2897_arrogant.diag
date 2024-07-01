@@ -1,17 +1,24 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   骄 [label = "骄\n2897 arrogant"];
   马 [label = "马\n1453 horse"];
   囧与－丨一 [label = "囧与－丨一\n* pointed tail"];
   乔 [label = "乔\n441 pretend"];
-  239201 [label = "囧介－𠆢\n* crutches"];
+  "囧介－𠆢" [label = "囧介－𠆢\n* crutches"];
   夭 [label = "夭\n440 die young"];
   大 [label = "大\n113 large"];
   丶 [label = "丶\n* a drop of"];
-  马 -> 骄;
-  囧与－丨一 -> 马;
-  乔 -> 骄;
-  239201 -> 乔;
-  夭 -> 乔;
-  大 -> 夭;
-  丶 -> 夭;
+
+  马 -> 骄 [thick];
+  囧与－丨一 -> 马 [thick];
+  乔 -> 骄 [thick];
+  "囧介－𠆢" -> 乔 [thick];
+  夭 -> 乔 [thick];
+  大 -> 夭 [thick];
+  丶 -> 夭 [thick];
 }

@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   伍 [label = "伍\n2054 V"];
   人 [label = "人\n793 person"];
   五 [label = "五\n5 five"];
-  人 -> 伍;
-  五 -> 伍;
+
+  人 -> 伍 [thick];
+  五 -> 伍 [thick];
 }

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   薪 [label = "薪\n1190 fuel"];
   艹 [label = "艹\n* flower"];
   新 [label = "新\n1189 new"];
@@ -9,13 +15,14 @@ blockdiag {
   小 [label = "小\n109 small"];
   丶 [label = "丶\n* a drop of"];
   斤 [label = "斤\n924 catty"];
-  艹 -> 薪;
-  新 -> 薪;
-  亲 -> 新;
-  辛 -> 亲;
-  立 -> 辛;
-  十 -> 辛;
-  小 -> 亲;
-  丶 -> 小;
-  斤 -> 新;
+
+  艹 -> 薪 [thick];
+  新 -> 薪 [thick];
+  亲 -> 新 [thick];
+  辛 -> 亲 [thick];
+  立 -> 辛 [thick];
+  十 -> 辛 [thick];
+  小 -> 亲 [thick];
+  丶 -> 小 [thick];
+  斤 -> 新 [thick];
 }

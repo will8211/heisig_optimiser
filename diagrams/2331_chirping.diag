@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   噪 [label = "噪\n2331 chirping"];
   口 [label = "口\n11 mouth"];
   喿 [label = "喿\n* wood pulp"];
@@ -6,12 +12,13 @@ blockdiag {
   晶 [label = "晶\n23 sparkling"];
   日 [label = "日\n12 day"];
   木 [label = "木\n202 tree"];
-  口 -> 噪;
-  喿 -> 噪;
-  品 -> 喿;
-  晶 -> 品;
-  日 -> 晶;
-  口 -> 品;
-  木 -> 喿;
-  木 -> 噪;
+
+  口 -> 噪 [thick];
+  喿 -> 噪 [thick];
+  品 -> 喿 [thick];
+  晶 -> 品 [thick];
+  日 -> 晶 [thick];
+  口 -> 品 [thick];
+  木 -> 喿 [thick];
+  木 -> 噪 [thick];
 }

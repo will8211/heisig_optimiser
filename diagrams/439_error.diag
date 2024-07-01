@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   误 [label = "误\n439 error"];
   言 [label = "言\n346 say"];
   二 [label = "二\n2 two"];
@@ -11,19 +17,20 @@ blockdiag {
   吴 [label = "吴\n437 Wu"];
   天 [label = "天\n436 heavens"];
   大 [label = "大\n113 large"];
-  言 -> 误;
-  二 -> 言;
-  一 -> 二;
-  口 -> 言;
-  亠 -> 言;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  吴 -> 误;
-  天 -> 吴;
-  一 -> 天;
-  大 -> 天;
-  口 -> 吴;
+
+  言 -> 误 [thick];
+  二 -> 言 [thick];
+  一 -> 二 [thick];
+  口 -> 言 [thick];
+  亠 -> 言 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  吴 -> 误 [thick];
+  天 -> 吴 [thick];
+  一 -> 天 [thick];
+  大 -> 天 [thick];
+  口 -> 吴 [thick];
 }

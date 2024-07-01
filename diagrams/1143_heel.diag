@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   跟 [label = "跟\n1143 heel"];
   足 [label = "足\n1048 lower leg"];
   口 [label = "口\n11 mouth"];
   止 [label = "止\n379 stop"];
   艮 [label = "艮\n* silver"];
-  足 -> 跟;
-  口 -> 足;
-  止 -> 足;
-  艮 -> 跟;
+
+  足 -> 跟 [thick];
+  口 -> 足 [thick];
+  止 -> 足 [thick];
+  艮 -> 跟 [thick];
 }

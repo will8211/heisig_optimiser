@@ -1,7 +1,13 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   黏 [label = "黏\n2023 sticky"];
   黍 [label = "黍\n* Rumpelbrella"];
-  131490 [label = "𠆢\n* umbrella"];
+  "𠆢" [label = "𠆢\n* umbrella"];
   禾 [label = "禾\n762 standing grain"];
   水 [label = "水\n137 water"];
   丨 [label = "丨\n* walking stick"];
@@ -10,17 +16,18 @@ blockdiag {
   占 [label = "占\n44 tell fortunes"];
   卜 [label = "卜\n43 divination"];
   口 [label = "口\n11 mouth"];
-  黍 -> 黏;
-  131490 -> 黍;
-  禾 -> 黍;
-  水 -> 黍;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  占 -> 黏;
-  卜 -> 占;
-  丨 -> 卜;
-  一 -> 丨;
-  丶 -> 卜;
-  口 -> 占;
+
+  黍 -> 黏 [thick];
+  "𠆢" -> 黍 [thick];
+  禾 -> 黍 [thick];
+  水 -> 黍 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  占 -> 黏 [thick];
+  卜 -> 占 [thick];
+  丨 -> 卜 [thick];
+  一 -> 丨 [thick];
+  丶 -> 卜 [thick];
+  口 -> 占 [thick];
 }

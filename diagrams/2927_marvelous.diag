@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   瑰 [label = "瑰\n2927 marvelous"];
   玉 [label = "玉\n266 jade"];
   王 [label = "王\n265 king"];
@@ -8,13 +14,14 @@ blockdiag {
   田 [label = "田\n14 rice field"];
   儿 [label = "儿\n56 youngster"];
   厶 [label = "厶\n* elbow"];
-  玉 -> 瑰;
-  王 -> 玉;
-  工 -> 王;
-  丶 -> 玉;
-  鬼 -> 瑰;
-  丶 -> 鬼;
-  田 -> 鬼;
-  儿 -> 鬼;
-  厶 -> 鬼;
+
+  玉 -> 瑰 [thick];
+  王 -> 玉 [thick];
+  工 -> 王 [thick];
+  丶 -> 玉 [thick];
+  鬼 -> 瑰 [thick];
+  丶 -> 鬼 [thick];
+  田 -> 鬼 [thick];
+  儿 -> 鬼 [thick];
+  厶 -> 鬼 [thick];
 }

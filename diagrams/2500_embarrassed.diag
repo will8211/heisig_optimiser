@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   尬 [label = "尬\n2500 embarrassed"];
   囧尴－监 [label = "囧尴－监\n* Frankenbowser"];
   大 [label = "大\n113 large"];
   介 [label = "介\n259 introduce"];
-  131490 [label = "𠆢\n* umbrella"];
-  239201 [label = "囧介－𠆢\n* crutches"];
-  囧尴－监 -> 尬;
-  大 -> 囧尴－监;
-  介 -> 尬;
-  131490 -> 介;
-  239201 -> 介;
+  "𠆢" [label = "𠆢\n* umbrella"];
+  "囧介－𠆢" [label = "囧介－𠆢\n* crutches"];
+
+  囧尴－监 -> 尬 [thick];
+  大 -> 囧尴－监 [thick];
+  介 -> 尬 [thick];
+  "𠆢" -> 介 [thick];
+  "囧介－𠆢" -> 介 [thick];
 }

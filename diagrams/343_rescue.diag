@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   救 [label = "救\n343 rescue"];
   攵 [label = "攵\n* taskmaster"];
   求 [label = "求\n140 request"];
@@ -6,12 +12,13 @@ blockdiag {
   丨 [label = "丨\n* walking stick"];
   一 [label = "一\n1 one"];
   丶 [label = "丶\n* a drop of"];
-  攵 -> 救;
-  求 -> 救;
-  水 -> 求;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  丶 -> 求;
-  一 -> 求;
+
+  攵 -> 救 [thick];
+  求 -> 救 [thick];
+  水 -> 求 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  丶 -> 求 [thick];
+  一 -> 求 [thick];
 }

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   通 [label = "通\n1117 communicate"];
   甬 [label = "甬\n* chop-rack"];
   月 [label = "月\n13 month"];
@@ -6,10 +12,11 @@ blockdiag {
   一 [label = "一\n1 one"];
   囧节－艹 [label = "囧节－艹\n* chop"];
   辶 [label = "辶\n* road"];
-  甬 -> 通;
-  月 -> 甬;
-  丨 -> 甬;
-  一 -> 丨;
-  囧节－艹 -> 甬;
-  辶 -> 通;
+
+  甬 -> 通 [thick];
+  月 -> 甬 [thick];
+  丨 -> 甬 [thick];
+  一 -> 丨 [thick];
+  囧节－艹 -> 甬 [thick];
+  辶 -> 通 [thick];
 }

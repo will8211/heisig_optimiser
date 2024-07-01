@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   撕 [label = "撕\n2739 rip"];
   扌 [label = "扌\n* fingers"];
   斯 [label = "斯\n1339 Sphinx"];
@@ -7,11 +13,12 @@ blockdiag {
   囧只－口 [label = "囧只－口\n* animal legs"];
   八 [label = "八\n8 eight"];
   斤 [label = "斤\n924 catty"];
-  扌 -> 撕;
-  斯 -> 撕;
-  其 -> 斯;
-  甘 -> 其;
-  囧只－口 -> 其;
-  八 -> 囧只－口;
-  斤 -> 斯;
+
+  扌 -> 撕 [thick];
+  斯 -> 撕 [thick];
+  其 -> 斯 [thick];
+  甘 -> 其 [thick];
+  囧只－口 -> 其 [thick];
+  八 -> 囧只－口 [thick];
+  斤 -> 斯 [thick];
 }

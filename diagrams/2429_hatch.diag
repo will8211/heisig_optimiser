@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   孵 [label = "孵\n2429 hatch"];
   卵 [label = "卵\n2428 nest eggs"];
   囧贸－贝 [label = "囧贸－贝\n* letter opener"];
@@ -7,15 +13,16 @@ blockdiag {
   丶 [label = "丶\n* a drop of"];
   孚 [label = "孚\n* fledglings"];
   爪 [label = "爪\n663 claw"];
-  131206 [label = "𠂆\n* drag"];
+  "𠂆" [label = "𠂆\n* drag"];
   子 [label = "子\n97 child"];
-  卵 -> 孵;
-  囧贸－贝 -> 卵;
-  卩 -> 囧贸－贝;
-  刀 -> 囧贸－贝;
-  丶 -> 卵;
-  孚 -> 孵;
-  爪 -> 孚;
-  131206 -> 爪;
-  子 -> 孚;
+
+  卵 -> 孵 [thick];
+  囧贸－贝 -> 卵 [thick];
+  卩 -> 囧贸－贝 [thick];
+  刀 -> 囧贸－贝 [thick];
+  丶 -> 卵 [thick];
+  孚 -> 孵 [thick];
+  爪 -> 孚 [thick];
+  "𠂆" -> 爪 [thick];
+  子 -> 孚 [thick];
 }

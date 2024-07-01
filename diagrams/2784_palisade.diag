@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   栅 [label = "栅\n2784 palisade"];
   木 [label = "木\n202 tree"];
   册 [label = "册\n2782 Vol."];
-  木 -> 栅;
-  册 -> 栅;
+
+  木 -> 栅 [thick];
+  册 -> 栅 [thick];
 }

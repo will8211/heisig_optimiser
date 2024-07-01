@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   牡 [label = "牡\n1595 dude"];
   牛 [label = "牛\n252 cow"];
   土 [label = "土\n158 soil"];
-  牛 -> 牡;
-  土 -> 牡;
+
+  牛 -> 牡 [thick];
+  土 -> 牡 [thick];
 }

@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   术 [label = "术\n1199 art"];
   丶 [label = "丶\n* a drop of"];
   木 [label = "木\n202 tree"];
-  丶 -> 术;
-  木 -> 术;
+
+  丶 -> 术 [thick];
+  木 -> 术 [thick];
 }

@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   筋 [label = "筋\n2053 tendon"];
   竹 [label = "竹\n786 bamboo"];
   丁 [label = "丁\n90 fourth"];
   月 [label = "月\n13 month"];
   力 [label = "力\n732 power"];
-  竹 -> 筋;
-  丁 -> 竹;
-  月 -> 筋;
-  力 -> 筋;
+
+  竹 -> 筋 [thick];
+  丁 -> 竹 [thick];
+  月 -> 筋 [thick];
+  力 -> 筋 [thick];
 }

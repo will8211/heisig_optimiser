@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   窄 [label = "窄\n2358 strait"];
   穴 [label = "穴\n1070 hole"];
   宀 [label = "宀\n* house"];
@@ -6,7 +12,7 @@ blockdiag {
   囧只－口 [label = "囧只－口\n* animal legs"];
   锯 [label = "锯\n889 saw"];
   金 [label = "金\n279 gold"];
-  131490 [label = "𠆢\n* umbrella"];
+  "𠆢" [label = "𠆢\n* umbrella"];
   王 [label = "王\n265 king"];
   工 [label = "工\n76 work"];
   丶 [label = "丶\n* a drop of"];
@@ -15,20 +21,21 @@ blockdiag {
   古 [label = "古\n16 ancient"];
   十 [label = "十\n10 ten"];
   口 [label = "口\n11 mouth"];
-  穴 -> 窄;
-  宀 -> 穴;
-  八 -> 穴;
-  囧只－口 -> 穴;
-  八 -> 囧只－口;
-  锯 -> 窄;
-  金 -> 锯;
-  131490 -> 金;
-  王 -> 金;
-  工 -> 王;
-  丶 -> 金;
-  居 -> 锯;
-  尸 -> 居;
-  古 -> 居;
-  十 -> 古;
-  口 -> 古;
+
+  穴 -> 窄 [thick];
+  宀 -> 穴 [thick];
+  八 -> 穴 [thick];
+  囧只－口 -> 穴 [thick];
+  八 -> 囧只－口 [thick];
+  锯 -> 窄 [thick];
+  金 -> 锯 [thick];
+  "𠆢" -> 金 [thick];
+  王 -> 金 [thick];
+  工 -> 王 [thick];
+  丶 -> 金 [thick];
+  居 -> 锯 [thick];
+  尸 -> 居 [thick];
+  古 -> 居 [thick];
+  十 -> 古 [thick];
+  口 -> 古 [thick];
 }

@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   去 [label = "去\n675 go"];
   土 [label = "土\n158 soil"];
   厶 [label = "厶\n* elbow"];
-  土 -> 去;
-  厶 -> 去;
+
+  土 -> 去 [thick];
+  厶 -> 去 [thick];
 }

@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   辑 [label = "辑\n1971 edit"];
   车 [label = "车\n300 car"];
   口 [label = "口\n11 mouth"];
   耳 [label = "耳\n717 ear"];
-  车 -> 辑;
-  口 -> 辑;
-  耳 -> 辑;
+
+  车 -> 辑 [thick];
+  口 -> 辑 [thick];
+  耳 -> 辑 [thick];
 }

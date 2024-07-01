@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  轿 [label = "轿\n1699 sedan chair"];
+  车 [label = "车\n300 car"];
+  乔 [label = "乔\n441 pretend"];
+  "囧介－𠆢" [label = "囧介－𠆢\n* crutches"];
+  夭 [label = "夭\n440 die young"];
+  大 [label = "大\n113 large"];
+  丶 [label = "丶\n* a drop of"];
+
+  车 -> 轿 [thick];
+  乔 -> 轿 [thick];
+  "囧介－𠆢" -> 乔 [thick];
+  夭 -> 乔 [thick];
+  大 -> 夭 [thick];
+  丶 -> 夭 [thick];
+}

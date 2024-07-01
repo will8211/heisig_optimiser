@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   却 [label = "却\n1101 withdraw"];
   去 [label = "去\n675 go"];
   土 [label = "土\n158 soil"];
   厶 [label = "厶\n* elbow"];
   卩 [label = "卩\n* stamp"];
-  去 -> 却;
-  土 -> 去;
-  厶 -> 去;
-  卩 -> 却;
+
+  去 -> 却 [thick];
+  土 -> 去 [thick];
+  厶 -> 去 [thick];
+  卩 -> 却 [thick];
 }

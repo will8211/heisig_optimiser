@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   笼 [label = "笼\n2937 cage"];
   竹 [label = "竹\n786 bamboo"];
   丁 [label = "丁\n90 fourth"];
@@ -7,11 +13,12 @@ blockdiag {
   大 [label = "大\n113 large"];
   丶 [label = "丶\n* a drop of"];
   匕 [label = "匕\n453 ancient spoon"];
-  竹 -> 笼;
-  丁 -> 竹;
-  龙 -> 笼;
-  犬 -> 龙;
-  大 -> 犬;
-  丶 -> 犬;
-  匕 -> 龙;
+
+  竹 -> 笼 [thick];
+  丁 -> 竹 [thick];
+  龙 -> 笼 [thick];
+  犬 -> 龙 [thick];
+  大 -> 犬 [thick];
+  丶 -> 犬 [thick];
+  匕 -> 龙 [thick];
 }

@@ -1,12 +1,19 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   关 [label = "关\n1469 shut"];
   丷 [label = "丷\n* horns"];
   一 [label = "一\n1 one"];
   天 [label = "天\n436 heavens"];
   大 [label = "大\n113 large"];
-  丷 -> 关;
-  一 -> 丷;
-  天 -> 关;
-  一 -> 天;
-  大 -> 天;
+
+  丷 -> 关 [thick];
+  一 -> 丷 [thick];
+  天 -> 关 [thick];
+  一 -> 天 [thick];
+  大 -> 天 [thick];
 }

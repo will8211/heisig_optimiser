@@ -1,0 +1,30 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  襟 [label = "襟\n907 front of a garment"];
+  衣 [label = "衣\n400 clothing"];
+  亠 [label = "亠\n* top hat"];
+  六 [label = "六\n6 six"];
+  囧只－口 [label = "囧只－口\n* animal legs"];
+  八 [label = "八\n8 eight"];
+  禁 [label = "禁\n906 prohibit"];
+  林 [label = "林\n203 woods"];
+  木 [label = "木\n202 tree"];
+  示 [label = "示\n900 show"];
+
+  衣 -> 襟 [thick];
+  亠 -> 衣 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  禁 -> 襟 [thick];
+  林 -> 禁 [thick];
+  木 -> 林 [thick];
+  示 -> 禁 [thick];
+}

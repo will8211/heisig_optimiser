@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   仍 [label = "仍\n809 still"];
   人 [label = "人\n793 person"];
   乃 [label = "乃\n625 only then"];
-  人 -> 仍;
-  乃 -> 仍;
+
+  人 -> 仍 [thick];
+  乃 -> 仍 [thick];
 }

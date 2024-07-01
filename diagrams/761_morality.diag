@@ -1,15 +1,22 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   德 [label = "德\n761 morality"];
   行 [label = "行\n754 line of business"];
-  141043 [label = "𢛳\n* 10 commandments"];
+  "𢛳" [label = "𢛳\n* 10 commandments"];
   十 [label = "十\n10 ten"];
   目 [label = "目\n15 eye"];
   一 [label = "一\n1 one"];
   心 [label = "心\n563 heart"];
-  行 -> 德;
-  141043 -> 德;
-  十 -> 141043;
-  目 -> 141043;
-  一 -> 141043;
-  心 -> 141043;
+
+  行 -> 德 [thick];
+  "𢛳" -> 德 [thick];
+  十 -> "𢛳" [thick];
+  目 -> "𢛳" [thick];
+  一 -> "𢛳" [thick];
+  心 -> "𢛳" [thick];
 }

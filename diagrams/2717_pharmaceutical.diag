@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   剂 [label = "剂\n2717 pharmaceutical"];
   齐 [label = "齐\n1318 identical"];
   文 [label = "文\n1315 literature"];
@@ -6,18 +12,19 @@ blockdiag {
   六 [label = "六\n6 six"];
   囧只－口 [label = "囧只－口\n* animal legs"];
   八 [label = "八\n8 eight"];
-  13317 [label = "㐅\n* sheaf"];
-  239201 [label = "囧介－𠆢\n* crutches"];
+  "㐅" [label = "㐅\n* sheaf"];
+  "囧介－𠆢" [label = "囧介－𠆢\n* crutches"];
   刀 [label = "刀\n83 sword"];
-  齐 -> 剂;
-  文 -> 齐;
-  亠 -> 文;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  13317 -> 文;
-  239201 -> 齐;
-  刀 -> 剂;
+
+  齐 -> 剂 [thick];
+  文 -> 齐 [thick];
+  亠 -> 文 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  "㐅" -> 文 [thick];
+  "囧介－𠆢" -> 齐 [thick];
+  刀 -> 剂 [thick];
 }

@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   爹 [label = "爹\n2312 dad"];
   父 [label = "父\n1043 father"];
   丶 [label = "丶\n* a drop of"];
   多 [label = "多\n116 many"];
   月 [label = "月\n13 month"];
-  父 -> 爹;
-  丶 -> 父;
-  多 -> 爹;
-  月 -> 多;
+
+  父 -> 爹 [thick];
+  丶 -> 父 [thick];
+  多 -> 爹 [thick];
+  月 -> 多 [thick];
 }

@@ -1,5 +1,11 @@
 blockdiag {
-  87528 [label = "囧！\n50001 Biang"];
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  "囧！" [label = "囧！\n50001 Biang"];
   辶 [label = "辶\n* road"];
   马 [label = "马\n1453 horse"];
   囧与－丨一 [label = "囧与－丨一\n* pointed tail"];
@@ -20,33 +26,34 @@ blockdiag {
   亠 [label = "亠\n* top hat"];
   六 [label = "六\n6 six"];
   幺 [label = "幺\n* cocoon"];
-  辶 -> 87528;
-  马 -> 87528;
-  囧与－丨一 -> 马;
-  长 -> 87528;
-  囧以－丶人 -> 长;
-  一 -> 长;
-  丷 -> 长;
-  一 -> 丷;
-  囧只－口 -> 长;
-  八 -> 囧只－口;
-  刀 -> 87528;
-  穴 -> 87528;
-  宀 -> 穴;
-  八 -> 穴;
-  囧只－口 -> 穴;
-  八 -> 囧只－口;
-  月 -> 87528;
-  心 -> 87528;
-  言 -> 87528;
-  二 -> 言;
-  一 -> 二;
-  口 -> 言;
-  亠 -> 言;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  幺 -> 87528;
+
+  辶 -> "囧！" [thick];
+  马 -> "囧！" [thick];
+  囧与－丨一 -> 马 [thick];
+  长 -> "囧！" [thick];
+  囧以－丶人 -> 长 [thick];
+  一 -> 长 [thick];
+  丷 -> 长 [thick];
+  一 -> 丷 [thick];
+  囧只－口 -> 长 [thick];
+  八 -> 囧只－口 [thick];
+  刀 -> "囧！" [thick];
+  穴 -> "囧！" [thick];
+  宀 -> 穴 [thick];
+  八 -> 穴 [thick];
+  囧只－口 -> 穴 [thick];
+  八 -> 囧只－口 [thick];
+  月 -> "囧！" [thick];
+  心 -> "囧！" [thick];
+  言 -> "囧！" [thick];
+  二 -> 言 [thick];
+  一 -> 二 [thick];
+  口 -> 言 [thick];
+  亠 -> 言 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  幺 -> "囧！" [thick];
 }

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   恭 [label = "恭\n2767 respectful"];
   共 [label = "共\n1354 together"];
   囧昔－日 [label = "囧昔－日\n* salad"];
@@ -6,10 +12,11 @@ blockdiag {
   囧只－口 [label = "囧只－口\n* animal legs"];
   八 [label = "八\n8 eight"];
   心 [label = "心\n563 heart"];
-  共 -> 恭;
-  囧昔－日 -> 共;
-  艹 -> 囧昔－日;
-  囧只－口 -> 共;
-  八 -> 囧只－口;
-  心 -> 恭;
+
+  共 -> 恭 [thick];
+  囧昔－日 -> 共 [thick];
+  艹 -> 囧昔－日 [thick];
+  囧只－口 -> 共 [thick];
+  八 -> 囧只－口 [thick];
+  心 -> 恭 [thick];
 }

@@ -1,24 +1,31 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   深 [label = "深\n1075 deep"];
   水 [label = "水\n137 water"];
   丨 [label = "丨\n* walking stick"];
   一 [label = "一\n1 one"];
   丶 [label = "丶\n* a drop of"];
-  13505 [label = "㓁\n* paper punch"];
+  "㓁" [label = "㓁\n* paper punch"];
   穴 [label = "穴\n1070 hole"];
   宀 [label = "宀\n* house"];
   八 [label = "八\n8 eight"];
   囧只－口 [label = "囧只－口\n* animal legs"];
   木 [label = "木\n202 tree"];
-  水 -> 深;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  13505 -> 深;
-  穴 -> 13505;
-  宀 -> 穴;
-  八 -> 穴;
-  囧只－口 -> 穴;
-  八 -> 囧只－口;
-  木 -> 深;
+
+  水 -> 深 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  "㓁" -> 深 [thick];
+  穴 -> "㓁" [thick];
+  宀 -> 穴 [thick];
+  八 -> 穴 [thick];
+  囧只－口 -> 穴 [thick];
+  八 -> 囧只－口 [thick];
+  木 -> 深 [thick];
 }

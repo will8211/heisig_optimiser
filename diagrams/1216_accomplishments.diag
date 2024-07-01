@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   绩 [label = "绩\n1216 accomplishments"];
   纟 [label = "纟\n* thread"];
   厶 [label = "厶\n* elbow"];
@@ -8,12 +14,13 @@ blockdiag {
   目 [label = "目\n15 eye"];
   囧只－口 [label = "囧只－口\n* animal legs"];
   八 [label = "八\n8 eight"];
-  纟 -> 绩;
-  厶 -> 纟;
-  责 -> 绩;
-  囧毒－母 -> 责;
-  贝 -> 责;
-  目 -> 贝;
-  囧只－口 -> 贝;
-  八 -> 囧只－口;
+
+  纟 -> 绩 [thick];
+  厶 -> 纟 [thick];
+  责 -> 绩 [thick];
+  囧毒－母 -> 责 [thick];
+  贝 -> 责 [thick];
+  目 -> 贝 [thick];
+  囧只－口 -> 贝 [thick];
+  八 -> 囧只－口 [thick];
 }

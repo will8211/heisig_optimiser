@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   侵 [label = "侵\n2203 invade"];
   人 [label = "人\n793 person"];
   囧浸－氵 [label = "囧浸－氵\n* dunce"];
   彐 [label = "彐\n* broom"];
   冖 [label = "冖\n* crown"];
   又 [label = "又\n633 again"];
-  人 -> 侵;
-  囧浸－氵 -> 侵;
-  彐 -> 囧浸－氵;
-  冖 -> 囧浸－氵;
-  又 -> 囧浸－氵;
+
+  人 -> 侵 [thick];
+  囧浸－氵 -> 侵 [thick];
+  彐 -> 囧浸－氵 [thick];
+  冖 -> 囧浸－氵 [thick];
+  又 -> 囧浸－氵 [thick];
 }

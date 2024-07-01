@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   鳄 [label = "鳄\n2291 crocodile"];
   鱼 [label = "鱼\n154 fish"];
   勹 [label = "勹\n* bound up"];
@@ -8,12 +14,13 @@ blockdiag {
   口 [label = "口\n11 mouth"];
   亏 [label = "亏\n2286 loss"];
   丂 [label = "丂\n* snare"];
-  鱼 -> 鳄;
-  勹 -> 鱼;
-  田 -> 鱼;
-  一 -> 鱼;
-  吅 -> 鳄;
-  口 -> 吅;
-  亏 -> 鳄;
-  丂 -> 亏;
+
+  鱼 -> 鳄 [thick];
+  勹 -> 鱼 [thick];
+  田 -> 鱼 [thick];
+  一 -> 鱼 [thick];
+  吅 -> 鳄 [thick];
+  口 -> 吅 [thick];
+  亏 -> 鳄 [thick];
+  丂 -> 亏 [thick];
 }

@@ -1,0 +1,24 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  琴 [label = "琴\n2608 stringed instrument"];
+  玉 [label = "玉\n266 jade"];
+  王 [label = "王\n265 king"];
+  工 [label = "工\n76 work"];
+  丶 [label = "丶\n* a drop of"];
+  今 [label = "今\n1244 now"];
+  亼 [label = "亼\n* meeting"];
+  "𠆢" [label = "𠆢\n* umbrella"];
+
+  玉 -> 琴 [thick];
+  王 -> 玉 [thick];
+  工 -> 王 [thick];
+  丶 -> 玉 [thick];
+  今 -> 琴 [thick];
+  亼 -> 今 [thick];
+  "𠆢" -> 亼 [thick];
+}

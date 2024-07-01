@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   桌 [label = "桌\n224 table"];
   木 [label = "木\n202 tree"];
   日 [label = "日\n12 day"];
@@ -6,10 +12,11 @@ blockdiag {
   丨 [label = "丨\n* walking stick"];
   一 [label = "一\n1 one"];
   丶 [label = "丶\n* a drop of"];
-  木 -> 桌;
-  日 -> 桌;
-  卜 -> 桌;
-  丨 -> 卜;
-  一 -> 丨;
-  丶 -> 卜;
+
+  木 -> 桌 [thick];
+  日 -> 桌 [thick];
+  卜 -> 桌 [thick];
+  丨 -> 卜 [thick];
+  一 -> 丨 [thick];
+  丶 -> 卜 [thick];
 }

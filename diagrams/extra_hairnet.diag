@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   刍 [label = "刍\n* hairnet"];
   勹 [label = "勹\n* bound up"];
   彐 [label = "彐\n* broom"];
-  勹 -> 刍;
-  彐 -> 刍;
+
+  勹 -> 刍 [thick];
+  彐 -> 刍 [thick];
 }

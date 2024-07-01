@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   醉 [label = "醉\n2470 drunk"];
   酉 [label = "酉\n* whiskey bottle"];
   卒 [label = "卒\n* foot soldiers"];
@@ -9,15 +15,16 @@ blockdiag {
   囧只－口 [label = "囧只－口\n* animal legs"];
   八 [label = "八\n8 eight"];
   十 [label = "十\n10 ten"];
-  酉 -> 醉;
-  卒 -> 醉;
-  从 -> 卒;
-  人 -> 从;
-  亠 -> 卒;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  十 -> 卒;
+
+  酉 -> 醉 [thick];
+  卒 -> 醉 [thick];
+  从 -> 卒 [thick];
+  人 -> 从 [thick];
+  亠 -> 卒 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  十 -> 卒 [thick];
 }

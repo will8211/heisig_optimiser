@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   魅 [label = "魅\n2926 enchant"];
   鬼 [label = "鬼\n1472 ghost"];
   丶 [label = "丶\n* a drop of"];
@@ -7,11 +13,12 @@ blockdiag {
   厶 [label = "厶\n* elbow"];
   未 [label = "未\n215 not yet"];
   木 [label = "木\n202 tree"];
-  鬼 -> 魅;
-  丶 -> 鬼;
-  田 -> 鬼;
-  儿 -> 鬼;
-  厶 -> 鬼;
-  未 -> 魅;
-  木 -> 未;
+
+  鬼 -> 魅 [thick];
+  丶 -> 鬼 [thick];
+  田 -> 鬼 [thick];
+  儿 -> 鬼 [thick];
+  厶 -> 鬼 [thick];
+  未 -> 魅 [thick];
+  木 -> 未 [thick];
 }

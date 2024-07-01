@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   膛 [label = "膛\n1958 chest"];
   月 [label = "月\n13 month"];
   堂 [label = "堂\n706 main room"];
@@ -7,11 +13,12 @@ blockdiag {
   丶 [label = "丶\n* a drop of"];
   口 [label = "口\n11 mouth"];
   土 [label = "土\n158 soil"];
-  月 -> 膛;
-  堂 -> 膛;
-  囧赏－贝 -> 堂;
-  小 -> 囧赏－贝;
-  丶 -> 小;
-  口 -> 囧赏－贝;
-  土 -> 堂;
+
+  月 -> 膛 [thick];
+  堂 -> 膛 [thick];
+  囧赏－贝 -> 堂 [thick];
+  小 -> 囧赏－贝 [thick];
+  丶 -> 小 [thick];
+  口 -> 囧赏－贝 [thick];
+  土 -> 堂 [thick];
 }

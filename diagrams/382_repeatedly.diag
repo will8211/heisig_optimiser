@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   频 [label = "频\n382 repeatedly"];
   页 [label = "页\n60 page"];
   贝 [label = "贝\n52 shellfish"];
@@ -11,17 +17,18 @@ blockdiag {
   止 [label = "止\n379 stop"];
   少 [label = "少\n110 few"];
   小 [label = "小\n109 small"];
-  页 -> 频;
-  贝 -> 页;
-  目 -> 贝;
-  囧只－口 -> 贝;
-  八 -> 囧只－口;
-  一 -> 页;
-  丶 -> 页;
-  步 -> 频;
-  止 -> 步;
-  少 -> 步;
-  丶 -> 少;
-  小 -> 少;
-  丶 -> 小;
+
+  页 -> 频 [thick];
+  贝 -> 页 [thick];
+  目 -> 贝 [thick];
+  囧只－口 -> 贝 [thick];
+  八 -> 囧只－口 [thick];
+  一 -> 页 [thick];
+  丶 -> 页 [thick];
+  步 -> 频 [thick];
+  止 -> 步 [thick];
+  少 -> 步 [thick];
+  丶 -> 少 [thick];
+  小 -> 少 [thick];
+  丶 -> 小 [thick];
 }

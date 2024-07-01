@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   音 [label = "音\n484 sound"];
   立 [label = "立\n444 standing up"];
   日 [label = "日\n12 day"];
-  立 -> 音;
-  日 -> 音;
+
+  立 -> 音 [thick];
+  日 -> 音 [thick];
 }

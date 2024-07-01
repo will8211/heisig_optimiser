@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   场 [label = "场\n526 site"];
   土 [label = "土\n158 soil"];
-  131283 [label = "𠃓\n* piglets"];
+  "𠃓" [label = "𠃓\n* piglets"];
   豕 [label = "豕\n* sow"];
-  土 -> 场;
-  131283 -> 场;
-  豕 -> 131283;
+
+  土 -> 场 [thick];
+  "𠃓" -> 场 [thick];
+  豕 -> "𠃓" [thick];
 }

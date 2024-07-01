@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   经 [label = "经\n1094 scripture"];
   纟 [label = "纟\n* thread"];
   厶 [label = "厶\n* elbow"];
-  139286 [label = "𢀖\n* spool"];
+  "𢀖" [label = "𢀖\n* spool"];
   工 [label = "工\n76 work"];
   人 [label = "人\n793 person"];
-  纟 -> 经;
-  厶 -> 纟;
-  139286 -> 经;
-  工 -> 139286;
-  人 -> 139286;
+
+  纟 -> 经 [thick];
+  厶 -> 纟 [thick];
+  "𢀖" -> 经 [thick];
+  工 -> "𢀖" [thick];
+  人 -> "𢀖" [thick];
 }

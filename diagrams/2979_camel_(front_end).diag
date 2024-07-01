@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  骆 [label = "骆\n2979 camel (front end)"];
+  马 [label = "马\n1453 horse"];
+  囧与－丨一 [label = "囧与－丨一\n* pointed tail"];
+  各 [label = "各\n309 each"];
+  口 [label = "口\n11 mouth"];
+  夂 [label = "夂\n* walking legs"];
+
+  马 -> 骆 [thick];
+  囧与－丨一 -> 马 [thick];
+  各 -> 骆 [thick];
+  口 -> 各 [thick];
+  夂 -> 各 [thick];
+}

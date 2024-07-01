@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   快 [label = "快\n1274 fast"];
   心 [label = "心\n563 heart"];
   夬 [label = "夬\n* guillotine"];
   囧侯－亻－矢 [label = "囧侯－亻－矢\n* key"];
   大 [label = "大\n113 large"];
-  心 -> 快;
-  夬 -> 快;
-  囧侯－亻－矢 -> 夬;
-  大 -> 夬;
+
+  心 -> 快 [thick];
+  夬 -> 快 [thick];
+  囧侯－亻－矢 -> 夬 [thick];
+  大 -> 夬 [thick];
 }

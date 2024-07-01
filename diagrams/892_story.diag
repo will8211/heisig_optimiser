@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   层 [label = "层\n892 story"];
   尸 [label = "尸\n882 corpse"];
   云 [label = "云\n428 cloud"];
-  尸 -> 层;
-  云 -> 层;
+
+  尸 -> 层 [thick];
+  云 -> 层 [thick];
 }

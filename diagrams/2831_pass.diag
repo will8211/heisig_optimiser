@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   隘 [label = "隘\n2831 pass"];
   阝 [label = "阝\n* pinnacle"];
   益 [label = "益\n1401 benefit"];
@@ -8,13 +14,14 @@ blockdiag {
   丷 [label = "丷\n* horns"];
   囧只－口 [label = "囧只－口\n* animal legs"];
   八 [label = "八\n8 eight"];
-  阝 -> 隘;
-  益 -> 隘;
-  皿 -> 益;
-  囧率－玄－十 -> 益;
-  一 -> 益;
-  丷 -> 益;
-  一 -> 丷;
-  囧只－口 -> 益;
-  八 -> 囧只－口;
+
+  阝 -> 隘 [thick];
+  益 -> 隘 [thick];
+  皿 -> 益 [thick];
+  囧率－玄－十 -> 益 [thick];
+  一 -> 益 [thick];
+  丷 -> 益 [thick];
+  一 -> 丷 [thick];
+  囧只－口 -> 益 [thick];
+  八 -> 囧只－口 [thick];
 }

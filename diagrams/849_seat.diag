@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   座 [label = "座\n849 seat"];
   洞 [label = "洞\n186 cave"];
   同 [label = "同\n185 same"];
@@ -13,18 +19,19 @@ blockdiag {
   从 [label = "从\n846 follow"];
   人 [label = "人\n793 person"];
   土 [label = "土\n158 soil"];
-  洞 -> 座;
-  同 -> 洞;
-  一 -> 同;
-  口 -> 同;
-  冂 -> 同;
-  几 -> 冂;
-  水 -> 洞;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  坐 -> 座;
-  从 -> 坐;
-  人 -> 从;
-  土 -> 坐;
+
+  洞 -> 座 [thick];
+  同 -> 洞 [thick];
+  一 -> 同 [thick];
+  口 -> 同 [thick];
+  冂 -> 同 [thick];
+  几 -> 冂 [thick];
+  水 -> 洞 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  坐 -> 座 [thick];
+  从 -> 坐 [thick];
+  人 -> 从 [thick];
+  土 -> 坐 [thick];
 }

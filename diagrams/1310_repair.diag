@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   修 [label = "修\n1310 repair"];
   人 [label = "人\n793 person"];
   丨 [label = "丨\n* walking stick"];
   一 [label = "一\n1 one"];
   夂 [label = "夂\n* walking legs"];
   彡 [label = "彡\n* rooster tail"];
-  人 -> 修;
-  丨 -> 修;
-  一 -> 丨;
-  夂 -> 修;
-  彡 -> 修;
+
+  人 -> 修 [thick];
+  丨 -> 修 [thick];
+  一 -> 丨 [thick];
+  夂 -> 修 [thick];
+  彡 -> 修 [thick];
 }

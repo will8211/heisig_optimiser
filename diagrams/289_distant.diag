@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   远 [label = "远\n289 distant"];
   辶 [label = "辶\n* road"];
   元 [label = "元\n59 beginning"];
   二 [label = "二\n2 two"];
   一 [label = "一\n1 one"];
   儿 [label = "儿\n56 youngster"];
-  辶 -> 远;
-  元 -> 远;
-  二 -> 元;
-  一 -> 二;
-  儿 -> 元;
+
+  辶 -> 远 [thick];
+  元 -> 远 [thick];
+  二 -> 元 [thick];
+  一 -> 二 [thick];
+  儿 -> 元 [thick];
 }

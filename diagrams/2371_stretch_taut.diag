@@ -1,0 +1,18 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  绷 [label = "绷\n2371 stretch taut"];
+  纟 [label = "纟\n* thread"];
+  厶 [label = "厶\n* elbow"];
+  朋 [label = "朋\n20 companion"];
+  月 [label = "月\n13 month"];
+
+  纟 -> 绷 [thick];
+  厶 -> 纟 [thick];
+  朋 -> 绷 [thick];
+  月 -> 朋 [thick];
+}

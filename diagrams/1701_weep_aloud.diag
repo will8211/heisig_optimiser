@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  啼 [label = "啼\n1701 weep aloud"];
+  口 [label = "口\n11 mouth"];
+  帝 [label = "帝\n449 sovereign"];
+  立 [label = "立\n444 standing up"];
+  "囧冖＋巾" [label = "囧冖＋巾\n* apron"];
+  巾 [label = "巾\n410 towel"];
+  冖 [label = "冖\n* crown"];
+
+  口 -> 啼 [thick];
+  帝 -> 啼 [thick];
+  立 -> 帝 [thick];
+  "囧冖＋巾" -> 帝 [thick];
+  巾 -> "囧冖＋巾" [thick];
+  冖 -> "囧冖＋巾" [thick];
+}

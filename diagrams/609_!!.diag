@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   啦 [label = "啦\n609 !!"];
   口 [label = "口\n11 mouth"];
   拉 [label = "拉\n608 pull"];
   扌 [label = "扌\n* fingers"];
   立 [label = "立\n444 standing up"];
-  口 -> 啦;
-  拉 -> 啦;
-  扌 -> 拉;
-  立 -> 拉;
+
+  口 -> 啦 [thick];
+  拉 -> 啦 [thick];
+  扌 -> 拉 [thick];
+  立 -> 拉 [thick];
 }

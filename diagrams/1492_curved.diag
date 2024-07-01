@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   弯 [label = "弯\n1492 curved"];
   亦 [label = "亦\n1491 likewise"];
   亠 [label = "亠\n* top hat"];
@@ -7,15 +13,16 @@ blockdiag {
   八 [label = "八\n8 eight"];
   刀 [label = "刀\n83 sword"];
   弓 [label = "弓\n1013 bow"];
-  亦 -> 弯;
-  亠 -> 亦;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  囧只－口 -> 亦;
-  八 -> 囧只－口;
-  刀 -> 亦;
-  弓 -> 弯;
+
+  亦 -> 弯 [thick];
+  亠 -> 亦 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亦 [thick];
+  八 -> 囧只－口 [thick];
+  刀 -> 亦 [thick];
+  弓 -> 弯 [thick];
 }

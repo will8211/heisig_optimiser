@@ -1,0 +1,14 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  囧贸－贝 [label = "囧贸－贝\n* letter opener"];
+  卩 [label = "卩\n* stamp"];
+  刀 [label = "刀\n83 sword"];
+
+  卩 -> 囧贸－贝 [thick];
+  刀 -> 囧贸－贝 [thick];
+}

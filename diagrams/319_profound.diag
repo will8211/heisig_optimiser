@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   沉 [label = "沉\n319 profound"];
   水 [label = "水\n137 water"];
   丨 [label = "丨\n* walking stick"];
@@ -7,11 +13,12 @@ blockdiag {
   冗 [label = "冗\n318 superfluous"];
   冖 [label = "冖\n* crown"];
   几 [label = "几\n57 how many?"];
-  水 -> 沉;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  冗 -> 沉;
-  冖 -> 冗;
-  几 -> 冗;
+
+  水 -> 沉 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  冗 -> 沉 [thick];
+  冖 -> 冗 [thick];
+  几 -> 冗 [thick];
 }

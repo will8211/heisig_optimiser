@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   笔 [label = "笔\n1423 pen"];
   竹 [label = "竹\n786 bamboo"];
   丁 [label = "丁\n90 fourth"];
   毛 [label = "毛\n1421 fur"];
   手 [label = "手\n584 hand"];
-  竹 -> 笔;
-  丁 -> 竹;
-  毛 -> 笔;
-  手 -> 毛;
+
+  竹 -> 笔 [thick];
+  丁 -> 竹 [thick];
+  毛 -> 笔 [thick];
+  手 -> 毛 [thick];
 }

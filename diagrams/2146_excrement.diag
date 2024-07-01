@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   屎 [label = "屎\n2146 excrement"];
   尸 [label = "尸\n882 corpse"];
   米 [label = "米\n778 rice"];
-  尸 -> 屎;
-  米 -> 屎;
+
+  尸 -> 屎 [thick];
+  米 -> 屎 [thick];
 }

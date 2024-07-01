@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   飘 [label = "飘\n2617 flutter"];
   票 [label = "票\n1256 ticket"];
   西 [label = "西\n1253 west"];
@@ -9,17 +15,18 @@ blockdiag {
   示 [label = "示\n900 show"];
   风 [label = "风\n1168 wind"];
   几 [label = "几\n57 how many?"];
-  13317 [label = "㐅\n* sheaf"];
-  票 -> 飘;
-  西 -> 票;
-  四 -> 西;
-  口 -> 四;
-  儿 -> 四;
-  一 -> 西;
-  儿 -> 西;
-  口 -> 西;
-  示 -> 票;
-  风 -> 飘;
-  几 -> 风;
-  13317 -> 风;
+  "㐅" [label = "㐅\n* sheaf"];
+
+  票 -> 飘 [thick];
+  西 -> 票 [thick];
+  四 -> 西 [thick];
+  口 -> 四 [thick];
+  儿 -> 四 [thick];
+  一 -> 西 [thick];
+  儿 -> 西 [thick];
+  口 -> 西 [thick];
+  示 -> 票 [thick];
+  风 -> 飘 [thick];
+  几 -> 风 [thick];
+  "㐅" -> 风 [thick];
 }

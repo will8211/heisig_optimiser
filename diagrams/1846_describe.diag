@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   描 [label = "描\n1846 describe"];
   扌 [label = "扌\n* fingers"];
   苗 [label = "苗\n235 seedling"];
   田 [label = "田\n14 rice field"];
   艹 [label = "艹\n* flower"];
-  扌 -> 描;
-  苗 -> 描;
-  田 -> 苗;
-  艹 -> 苗;
+
+  扌 -> 描 [thick];
+  苗 -> 描 [thick];
+  田 -> 苗 [thick];
+  艹 -> 苗 [thick];
 }

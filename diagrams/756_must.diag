@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   得 [label = "得\n756 must"];
   行 [label = "行\n754 line of business"];
   旦 [label = "旦\n30 daybreak"];
@@ -7,11 +13,12 @@ blockdiag {
   寸 [label = "寸\n166 Chinese inch"];
   丶 [label = "丶\n* a drop of"];
   十 [label = "十\n10 ten"];
-  行 -> 得;
-  旦 -> 得;
-  日 -> 旦;
-  一 -> 旦;
-  寸 -> 得;
-  丶 -> 寸;
-  十 -> 寸;
+
+  行 -> 得 [thick];
+  旦 -> 得 [thick];
+  日 -> 旦 [thick];
+  一 -> 旦 [thick];
+  寸 -> 得 [thick];
+  丶 -> 寸 [thick];
+  十 -> 寸 [thick];
 }

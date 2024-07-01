@@ -1,0 +1,18 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  翏 [label = "翏\n* kiddie cocktail"];
+  羽 [label = "羽\n544 feathers"];
+  "㐱" [label = "㐱\n* cocktail"];
+  "𠆢" [label = "𠆢\n* umbrella"];
+  彡 [label = "彡\n* rooster tail"];
+
+  羽 -> 翏 [thick];
+  "㐱" -> 翏 [thick];
+  "𠆢" -> "㐱" [thick];
+  彡 -> "㐱" [thick];
+}

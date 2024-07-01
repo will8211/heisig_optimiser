@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  腾 [label = "腾\n2904 take flight"];
+  月 [label = "月\n13 month"];
+  囧眷－目 [label = "囧眷－目\n* quarter"];
+  半 [label = "半\n980 half"];
+  马 [label = "马\n1453 horse"];
+  囧与－丨一 [label = "囧与－丨一\n* pointed tail"];
+
+  月 -> 腾 [thick];
+  囧眷－目 -> 腾 [thick];
+  半 -> 囧眷－目 [thick];
+  马 -> 腾 [thick];
+  囧与－丨一 -> 马 [thick];
+}

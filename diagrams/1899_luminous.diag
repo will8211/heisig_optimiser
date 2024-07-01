@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   烁 [label = "烁\n1899 luminous"];
   火 [label = "火\n170 fire"];
   乐 [label = "乐\n662 music"];
-  131206 [label = "𠂆\n* drag"];
+  "𠂆" [label = "𠂆\n* drag"];
   木 [label = "木\n202 tree"];
-  火 -> 烁;
-  乐 -> 烁;
-  131206 -> 乐;
-  木 -> 乐;
+
+  火 -> 烁 [thick];
+  乐 -> 烁 [thick];
+  "𠂆" -> 乐 [thick];
+  木 -> 乐 [thick];
 }

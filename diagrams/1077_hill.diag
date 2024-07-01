@@ -1,5 +1,12 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   丘 [label = "丘\n1077 hill"];
   斤 [label = "斤\n924 catty"];
-  斤 -> 丘;
+
+  斤 -> 丘 [thick];
 }

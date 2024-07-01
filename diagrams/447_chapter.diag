@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   章 [label = "章\n447 chapter"];
   早 [label = "早\n26 early"];
   日 [label = "日\n12 day"];
   十 [label = "十\n10 ten"];
   立 [label = "立\n444 standing up"];
-  早 -> 章;
-  日 -> 早;
-  十 -> 早;
-  立 -> 章;
+
+  早 -> 章 [thick];
+  日 -> 早 [thick];
+  十 -> 早 [thick];
+  立 -> 章 [thick];
 }

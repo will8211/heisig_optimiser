@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   罩 [label = "罩\n1508 overspread"];
   目 [label = "目\n15 eye"];
   卓 [label = "卓\n48 eminent"];
@@ -9,13 +15,14 @@ blockdiag {
   早 [label = "早\n26 early"];
   日 [label = "日\n12 day"];
   十 [label = "十\n10 ten"];
-  目 -> 罩;
-  卓 -> 罩;
-  卜 -> 卓;
-  丨 -> 卜;
-  一 -> 丨;
-  丶 -> 卜;
-  早 -> 卓;
-  日 -> 早;
-  十 -> 早;
+
+  目 -> 罩 [thick];
+  卓 -> 罩 [thick];
+  卜 -> 卓 [thick];
+  丨 -> 卜 [thick];
+  一 -> 丨 [thick];
+  丶 -> 卜 [thick];
+  早 -> 卓 [thick];
+  日 -> 早 [thick];
+  十 -> 早 [thick];
 }

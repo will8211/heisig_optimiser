@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   萤 [label = "萤\n2123 firefly"];
   囧荣－木 [label = "囧荣－木\n* greenhouse"];
   宀 [label = "宀\n* house"];
   艹 [label = "艹\n* flower"];
   虫 [label = "虫\n509 insect"];
-  囧荣－木 -> 萤;
-  宀 -> 囧荣－木;
-  艹 -> 囧荣－木;
-  虫 -> 萤;
+
+  囧荣－木 -> 萤 [thick];
+  宀 -> 囧荣－木 [thick];
+  艹 -> 囧荣－木 [thick];
+  虫 -> 萤 [thick];
 }

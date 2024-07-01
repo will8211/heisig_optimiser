@@ -1,12 +1,19 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   嗽 [label = "嗽\n2653 hack"];
   口 [label = "口\n11 mouth"];
   束 [label = "束\n1286 bundle up"];
   木 [label = "木\n202 tree"];
   欠 [label = "欠\n474 lack"];
-  口 -> 嗽;
-  束 -> 嗽;
-  木 -> 束;
-  口 -> 束;
-  欠 -> 嗽;
+
+  口 -> 嗽 [thick];
+  束 -> 嗽 [thick];
+  木 -> 束 [thick];
+  口 -> 束 [thick];
+  欠 -> 嗽 [thick];
 }

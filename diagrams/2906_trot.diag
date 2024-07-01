@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   骤 [label = "骤\n2906 trot"];
   马 [label = "马\n1453 horse"];
   囧与－丨一 [label = "囧与－丨一\n* pointed tail"];
@@ -7,11 +13,12 @@ blockdiag {
   耳 [label = "耳\n717 ear"];
   又 [label = "又\n633 again"];
   人 [label = "人\n793 person"];
-  马 -> 骤;
-  囧与－丨一 -> 马;
-  聚 -> 骤;
-  取 -> 聚;
-  耳 -> 取;
-  又 -> 取;
-  人 -> 聚;
+
+  马 -> 骤 [thick];
+  囧与－丨一 -> 马 [thick];
+  聚 -> 骤 [thick];
+  取 -> 聚 [thick];
+  耳 -> 取 [thick];
+  又 -> 取 [thick];
+  人 -> 聚 [thick];
 }

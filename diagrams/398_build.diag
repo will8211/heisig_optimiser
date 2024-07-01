@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   建 [label = "建\n398 build"];
   聿 [label = "聿\n* brush"];
   廴 [label = "廴\n* stretch"];
-  聿 -> 建;
-  廴 -> 建;
+
+  聿 -> 建 [thick];
+  廴 -> 建 [thick];
 }

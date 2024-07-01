@@ -1,8 +1,15 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   三 [label = "三\n3 three"];
   一 [label = "一\n1 one"];
   二 [label = "二\n2 two"];
-  一 -> 三;
-  二 -> 三;
-  一 -> 二;
+
+  一 -> 三 [thick];
+  二 -> 三 [thick];
+  一 -> 二 [thick];
 }

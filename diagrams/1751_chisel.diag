@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   琢 [label = "琢\n1751 chisel"];
   玉 [label = "玉\n266 jade"];
   王 [label = "王\n265 king"];
@@ -6,10 +12,11 @@ blockdiag {
   丶 [label = "丶\n* a drop of"];
   豖 [label = "豖\n* hog-tied"];
   豕 [label = "豕\n* sow"];
-  玉 -> 琢;
-  王 -> 玉;
-  工 -> 王;
-  丶 -> 玉;
-  豖 -> 琢;
-  豕 -> 豖;
+
+  玉 -> 琢 [thick];
+  王 -> 玉 [thick];
+  工 -> 王 [thick];
+  丶 -> 玉 [thick];
+  豖 -> 琢 [thick];
+  豕 -> 豖 [thick];
 }

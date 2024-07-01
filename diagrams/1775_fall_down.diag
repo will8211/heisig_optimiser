@@ -1,0 +1,16 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  塌 [label = "塌\n1775 fall down"];
+  土 [label = "土\n158 soil"];
+  日 [label = "日\n12 day"];
+  羽 [label = "羽\n544 feathers"];
+
+  土 -> 塌 [thick];
+  日 -> 塌 [thick];
+  羽 -> 塌 [thick];
+}

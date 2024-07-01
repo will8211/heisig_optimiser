@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   赚 [label = "赚\n2216 earn"];
   贝 [label = "贝\n52 shellfish"];
   目 [label = "目\n15 eye"];
@@ -9,13 +15,14 @@ blockdiag {
   一 [label = "一\n1 one"];
   肀 [label = "肀\n* rake"];
   彐 [label = "彐\n* broom"];
-  贝 -> 赚;
-  目 -> 贝;
-  囧只－口 -> 贝;
-  八 -> 囧只－口;
-  兼 -> 赚;
-  丷 -> 兼;
-  一 -> 丷;
-  肀 -> 兼;
-  彐 -> 肀;
+
+  贝 -> 赚 [thick];
+  目 -> 贝 [thick];
+  囧只－口 -> 贝 [thick];
+  八 -> 囧只－口 [thick];
+  兼 -> 赚 [thick];
+  丷 -> 兼 [thick];
+  一 -> 丷 [thick];
+  肀 -> 兼 [thick];
+  彐 -> 肀 [thick];
 }

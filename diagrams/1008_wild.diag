@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   野 [label = "野\n1008 wild"];
   里 [label = "里\n179 li"];
   田 [label = "田\n14 rice field"];
   土 [label = "土\n158 soil"];
   予 [label = "予\n1005 bestow"];
   矛 [label = "矛\n1002 spear"];
-  里 -> 野;
-  田 -> 里;
-  土 -> 里;
-  予 -> 野;
-  矛 -> 予;
+
+  里 -> 野 [thick];
+  田 -> 里 [thick];
+  土 -> 里 [thick];
+  予 -> 野 [thick];
+  矛 -> 予 [thick];
 }

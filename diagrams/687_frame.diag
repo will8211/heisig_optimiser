@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   构 [label = "构\n687 frame"];
   木 [label = "木\n202 tree"];
   囧勾 [label = "囧勾\n* cast"];
   勹 [label = "勹\n* bound up"];
   厶 [label = "厶\n* elbow"];
-  木 -> 构;
-  囧勾 -> 构;
-  勹 -> 囧勾;
-  厶 -> 囧勾;
+
+  木 -> 构 [thick];
+  囧勾 -> 构 [thick];
+  勹 -> 囧勾 [thick];
+  厶 -> 囧勾 [thick];
 }

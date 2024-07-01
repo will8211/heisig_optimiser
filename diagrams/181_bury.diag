@@ -1,10 +1,17 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   埋 [label = "埋\n181 bury"];
   土 [label = "土\n158 soil"];
   里 [label = "里\n179 li"];
   田 [label = "田\n14 rice field"];
-  土 -> 埋;
-  里 -> 埋;
-  田 -> 里;
-  土 -> 里;
+
+  土 -> 埋 [thick];
+  里 -> 埋 [thick];
+  田 -> 里 [thick];
+  土 -> 里 [thick];
 }

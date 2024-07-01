@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   驯 [label = "驯\n2894 tame"];
   马 [label = "马\n1453 horse"];
   囧与－丨一 [label = "囧与－丨一\n* pointed tail"];
   川 [label = "川\n134 stream"];
-  马 -> 驯;
-  囧与－丨一 -> 马;
-  川 -> 驯;
+
+  马 -> 驯 [thick];
+  囧与－丨一 -> 马 [thick];
+  川 -> 驯 [thick];
 }

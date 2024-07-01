@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   沃 [label = "沃\n1697 fertile"];
   水 [label = "水\n137 water"];
   丨 [label = "丨\n* walking stick"];
@@ -6,11 +12,12 @@ blockdiag {
   丶 [label = "丶\n* a drop of"];
   夭 [label = "夭\n440 die young"];
   大 [label = "大\n113 large"];
-  水 -> 沃;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  夭 -> 沃;
-  大 -> 夭;
-  丶 -> 夭;
+
+  水 -> 沃 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  夭 -> 沃 [thick];
+  大 -> 夭 [thick];
+  丶 -> 夭 [thick];
 }

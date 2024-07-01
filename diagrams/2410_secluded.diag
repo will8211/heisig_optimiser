@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   幽 [label = "幽\n2410 secluded"];
   山 [label = "山\n688 mountain"];
   幺 [label = "幺\n* cocoon"];
-  山 -> 幽;
-  幺 -> 幽;
+
+  山 -> 幽 [thick];
+  幺 -> 幽 [thick];
 }

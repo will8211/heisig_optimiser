@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   瓦 [label = "瓦\n2117 tile"];
   一 [label = "一\n1 one"];
   囧以－丶人 [label = "囧以－丶人\n* plow"];
   乙 [label = "乙\n95 second"];
   丶 [label = "丶\n* a drop of"];
-  一 -> 瓦;
-  囧以－丶人 -> 瓦;
-  乙 -> 瓦;
-  丶 -> 瓦;
+
+  一 -> 瓦 [thick];
+  囧以－丶人 -> 瓦 [thick];
+  乙 -> 瓦 [thick];
+  丶 -> 瓦 [thick];
 }

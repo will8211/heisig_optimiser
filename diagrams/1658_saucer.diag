@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   碟 [label = "碟\n1658 saucer"];
   石 [label = "石\n125 stone"];
   口 [label = "口\n11 mouth"];
@@ -7,11 +13,12 @@ blockdiag {
   世 [label = "世\n28 generation"];
   十 [label = "十\n10 ten"];
   木 [label = "木\n202 tree"];
-  石 -> 碟;
-  口 -> 石;
-  厂 -> 石;
-  枼 -> 碟;
-  世 -> 枼;
-  十 -> 世;
-  木 -> 枼;
+
+  石 -> 碟 [thick];
+  口 -> 石 [thick];
+  厂 -> 石 [thick];
+  枼 -> 碟 [thick];
+  世 -> 枼 [thick];
+  十 -> 世 [thick];
+  木 -> 枼 [thick];
 }

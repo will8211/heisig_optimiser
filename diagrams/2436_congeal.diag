@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   凝 [label = "凝\n2436 congeal"];
   冫 [label = "冫\n* ice"];
   水 [label = "水\n137 water"];
@@ -15,22 +21,23 @@ blockdiag {
   天 [label = "天\n436 heavens"];
   大 [label = "大\n113 large"];
   囧节－艹 [label = "囧节－艹\n* chop"];
-  冫 -> 凝;
-  水 -> 冫;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  疑 -> 凝;
-  匕 -> 疑;
-  疋 -> 疑;
-  囧走－十 -> 疋;
-  正 -> 囧走－十;
-  一 -> 正;
-  止 -> 正;
-  矢 -> 疑;
-  天 -> 矢;
-  一 -> 天;
-  大 -> 天;
-  丶 -> 矢;
-  囧节－艹 -> 疑;
+
+  冫 -> 凝 [thick];
+  水 -> 冫 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  疑 -> 凝 [thick];
+  匕 -> 疑 [thick];
+  疋 -> 疑 [thick];
+  囧走－十 -> 疋 [thick];
+  正 -> 囧走－十 [thick];
+  一 -> 正 [thick];
+  止 -> 正 [thick];
+  矢 -> 疑 [thick];
+  天 -> 矢 [thick];
+  一 -> 天 [thick];
+  大 -> 天 [thick];
+  丶 -> 矢 [thick];
+  囧节－艹 -> 疑 [thick];
 }

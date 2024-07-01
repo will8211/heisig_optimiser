@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   欺 [label = "欺\n2736 dupe"];
   其 [label = "其\n1335 his-hers-its-theirs"];
   甘 [label = "甘\n1333 sweet"];
   囧只－口 [label = "囧只－口\n* animal legs"];
   八 [label = "八\n8 eight"];
   欠 [label = "欠\n474 lack"];
-  其 -> 欺;
-  甘 -> 其;
-  囧只－口 -> 其;
-  八 -> 囧只－口;
-  欠 -> 欺;
+
+  其 -> 欺 [thick];
+  甘 -> 其 [thick];
+  囧只－口 -> 其 [thick];
+  八 -> 囧只－口 [thick];
+  欠 -> 欺 [thick];
 }

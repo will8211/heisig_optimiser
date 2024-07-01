@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   粮 [label = "粮\n2515 provisions"];
   米 [label = "米\n778 rice"];
   良 [label = "良\n1151 high-quality"];
   丶 [label = "丶\n* a drop of"];
   艮 [label = "艮\n* silver"];
-  米 -> 粮;
-  良 -> 粮;
-  丶 -> 良;
-  艮 -> 良;
+
+  米 -> 粮 [thick];
+  良 -> 粮 [thick];
+  丶 -> 良 [thick];
+  艮 -> 良 [thick];
 }

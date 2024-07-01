@@ -1,7 +1,13 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   锅 [label = "锅\n2366 pot"];
   金 [label = "金\n279 gold"];
-  131490 [label = "𠆢\n* umbrella"];
+  "𠆢" [label = "𠆢\n* umbrella"];
   王 [label = "王\n265 king"];
   工 [label = "工\n76 work"];
   丶 [label = "丶\n* a drop of"];
@@ -11,15 +17,16 @@ blockdiag {
   囧冂 [label = "囧冂\n* belt"];
   巾 [label = "巾\n410 towel"];
   人 [label = "人\n793 person"];
-  金 -> 锅;
-  131490 -> 金;
-  王 -> 金;
-  工 -> 王;
-  丶 -> 金;
-  呙 -> 锅;
-  口 -> 呙;
-  内 -> 呙;
-  囧冂 -> 内;
-  巾 -> 囧冂;
-  人 -> 内;
+
+  金 -> 锅 [thick];
+  "𠆢" -> 金 [thick];
+  王 -> 金 [thick];
+  工 -> 王 [thick];
+  丶 -> 金 [thick];
+  呙 -> 锅 [thick];
+  口 -> 呙 [thick];
+  内 -> 呙 [thick];
+  囧冂 -> 内 [thick];
+  巾 -> 囧冂 [thick];
+  人 -> 内 [thick];
 }

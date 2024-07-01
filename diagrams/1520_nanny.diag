@@ -1,8 +1,15 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   姆 [label = "姆\n1520 nanny"];
   女 [label = "女\n102 woman"];
   母 [label = "母\n105 mother"];
-  女 -> 姆;
-  母 -> 姆;
-  女 -> 母;
+
+  女 -> 姆 [thick];
+  母 -> 姆 [thick];
+  女 -> 母 [thick];
 }

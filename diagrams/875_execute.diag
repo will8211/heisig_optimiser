@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   施 [label = "施\n875 execute"];
   囧施－也 [label = "囧施－也\n* banner"];
   方 [label = "方\n494 direction"];
@@ -7,19 +13,20 @@ blockdiag {
   六 [label = "六\n6 six"];
   囧只－口 [label = "囧只－口\n* animal legs"];
   八 [label = "八\n8 eight"];
-  131209 [label = "𠂉\n* reclining"];
+  "𠂉" [label = "𠂉\n* reclining"];
   也 [label = "也\n505 also"];
   乙 [label = "乙\n95 second"];
-  囧施－也 -> 施;
-  方 -> 囧施－也;
-  刀 -> 方;
-  亠 -> 方;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  131209 -> 囧施－也;
-  也 -> 施;
-  乙 -> 也;
+
+  囧施－也 -> 施 [thick];
+  方 -> 囧施－也 [thick];
+  刀 -> 方 [thick];
+  亠 -> 方 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  "𠂉" -> 囧施－也 [thick];
+  也 -> 施 [thick];
+  乙 -> 也 [thick];
 }

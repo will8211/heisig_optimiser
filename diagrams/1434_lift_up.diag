@@ -1,0 +1,24 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  举 [label = "举\n1434 lift up"];
+  兴 [label = "兴\n1433 excitement"];
+  囧应－广 [label = "囧应－广\n* owl"];
+  一 [label = "一\n1 one"];
+  囧只－口 [label = "囧只－口\n* animal legs"];
+  八 [label = "八\n8 eight"];
+  "囧奉－𡗗" [label = "囧奉－𡗗\n* cornstalk"];
+  丰 [label = "丰\n1223 plentiful"];
+
+  兴 -> 举 [thick];
+  囧应－广 -> 兴 [thick];
+  一 -> 兴 [thick];
+  囧只－口 -> 兴 [thick];
+  八 -> 囧只－口 [thick];
+  "囧奉－𡗗" -> 举 [thick];
+  丰 -> "囧奉－𡗗" [thick];
+}

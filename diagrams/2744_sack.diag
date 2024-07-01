@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   囊 [label = "囊\n2744 sack"];
   襄 [label = "襄\n1201 aid"];
   衣 [label = "衣\n400 clothing"];
@@ -8,33 +14,34 @@ blockdiag {
   八 [label = "八\n8 eight"];
   吅 [label = "吅\n* chatterbox"];
   口 [label = "口\n11 mouth"];
-  131086 [label = "𠀎\n* wire mesh"];
-  131088 [label = "𠀐\n* purse"];
+  "𠀎" [label = "𠀎\n* wire mesh"];
+  "𠀐" [label = "𠀐\n* purse"];
   中 [label = "中\n38 middle"];
   丨 [label = "丨\n* walking stick"];
   一 [label = "一\n1 one"];
   冖 [label = "冖\n* crown"];
-  襄 -> 囊;
-  衣 -> 襄;
-  亠 -> 衣;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  吅 -> 襄;
-  口 -> 吅;
-  131086 -> 襄;
-  131088 -> 囊;
-  中 -> 131088;
-  丨 -> 中;
-  一 -> 丨;
-  口 -> 中;
-  冖 -> 囊;
-  亠 -> 囊;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
+
+  襄 -> 囊 [thick];
+  衣 -> 襄 [thick];
+  亠 -> 衣 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  吅 -> 襄 [thick];
+  口 -> 吅 [thick];
+  "𠀎" -> 襄 [thick];
+  "𠀐" -> 囊 [thick];
+  中 -> "𠀐" [thick];
+  丨 -> 中 [thick];
+  一 -> 丨 [thick];
+  口 -> 中 [thick];
+  冖 -> 囊 [thick];
+  亠 -> 囊 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
 }

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   慌 [label = "慌\n1813 nervous"];
   心 [label = "心\n563 heart"];
   荒 [label = "荒\n1725 wasteland"];
@@ -11,17 +17,18 @@ blockdiag {
   八 [label = "八\n8 eight"];
   乙 [label = "乙\n95 second"];
   川 [label = "川\n134 stream"];
-  心 -> 慌;
-  荒 -> 慌;
-  芒 -> 荒;
-  艹 -> 芒;
-  亡 -> 芒;
-  亠 -> 亡;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  乙 -> 亡;
-  川 -> 荒;
+
+  心 -> 慌 [thick];
+  荒 -> 慌 [thick];
+  芒 -> 荒 [thick];
+  艹 -> 芒 [thick];
+  亡 -> 芒 [thick];
+  亠 -> 亡 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  乙 -> 亡 [thick];
+  川 -> 荒 [thick];
 }

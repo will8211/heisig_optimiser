@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   伤 [label = "伤\n822 wound"];
   人 [label = "人\n793 person"];
-  131209 [label = "𠂉\n* reclining"];
+  "𠂉" [label = "𠂉\n* reclining"];
   肌 [label = "肌\n63 muscle"];
   几 [label = "几\n57 how many?"];
   月 [label = "月\n13 month"];
-  人 -> 伤;
-  131209 -> 伤;
-  肌 -> 伤;
-  几 -> 肌;
-  月 -> 肌;
+
+  人 -> 伤 [thick];
+  "𠂉" -> 伤 [thick];
+  肌 -> 伤 [thick];
+  几 -> 肌 [thick];
+  月 -> 肌 [thick];
 }

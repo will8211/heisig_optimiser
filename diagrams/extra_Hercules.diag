@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   囧甚 [label = "囧甚\n* Hercules"];
   甚 [label = "甚\n1338 tremendously"];
   其 [label = "其\n1335 his-hers-its-theirs"];
@@ -6,10 +12,11 @@ blockdiag {
   囧只－口 [label = "囧只－口\n* animal legs"];
   八 [label = "八\n8 eight"];
   乙 [label = "乙\n95 second"];
-  甚 -> 囧甚;
-  其 -> 甚;
-  甘 -> 其;
-  囧只－口 -> 其;
-  八 -> 囧只－口;
-  乙 -> 甚;
+
+  甚 -> 囧甚 [thick];
+  其 -> 甚 [thick];
+  甘 -> 其 [thick];
+  囧只－口 -> 其 [thick];
+  八 -> 囧只－口 [thick];
+  乙 -> 甚 [thick];
 }

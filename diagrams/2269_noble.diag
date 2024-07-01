@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   弘 [label = "弘\n2269 noble"];
   弓 [label = "弓\n1013 bow"];
   厶 [label = "厶\n* elbow"];
-  弓 -> 弘;
-  厶 -> 弘;
+
+  弓 -> 弘 [thick];
+  厶 -> 弘 [thick];
 }

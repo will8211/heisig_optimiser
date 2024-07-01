@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   酬 [label = "酬\n2461 reward"];
   酉 [label = "酉\n* whiskey bottle"];
   州 [label = "州\n135 state"];
   丶 [label = "丶\n* a drop of"];
   川 [label = "川\n134 stream"];
-  酉 -> 酬;
-  州 -> 酬;
-  丶 -> 州;
-  川 -> 州;
+
+  酉 -> 酬 [thick];
+  州 -> 酬 [thick];
+  丶 -> 州 [thick];
+  川 -> 州 [thick];
 }

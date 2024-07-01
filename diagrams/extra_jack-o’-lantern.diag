@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   粦 [label = "粦\n* jack-o’-lantern"];
   米 [label = "米\n778 rice"];
   舛 [label = "舛\n* sunglasses"];
@@ -6,10 +12,11 @@ blockdiag {
   月 [label = "月\n13 month"];
   年 [label = "年\n871 year"];
   午 [label = "午\n542 noon"];
-  米 -> 粦;
-  舛 -> 粦;
-  夕 -> 舛;
-  月 -> 夕;
-  年 -> 舛;
-  午 -> 年;
+
+  米 -> 粦 [thick];
+  舛 -> 粦 [thick];
+  夕 -> 舛 [thick];
+  月 -> 夕 [thick];
+  年 -> 舛 [thick];
+  午 -> 年 [thick];
 }

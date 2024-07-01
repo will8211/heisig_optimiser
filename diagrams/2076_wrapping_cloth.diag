@@ -1,0 +1,32 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  袱 [label = "袱\n2076 wrapping cloth"];
+  衣 [label = "衣\n400 clothing"];
+  亠 [label = "亠\n* top hat"];
+  六 [label = "六\n6 six"];
+  囧只－口 [label = "囧只－口\n* animal legs"];
+  八 [label = "八\n8 eight"];
+  伏 [label = "伏\n2075 bend over"];
+  人 [label = "人\n793 person"];
+  犬 [label = "犬\n239 pooch"];
+  大 [label = "大\n113 large"];
+  丶 [label = "丶\n* a drop of"];
+
+  衣 -> 袱 [thick];
+  亠 -> 衣 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  伏 -> 袱 [thick];
+  人 -> 伏 [thick];
+  犬 -> 伏 [thick];
+  大 -> 犬 [thick];
+  丶 -> 犬 [thick];
+}

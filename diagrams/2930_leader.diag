@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   魁 [label = "魁\n2930 leader"];
   鬼 [label = "鬼\n1472 ghost"];
   丶 [label = "丶\n* a drop of"];
@@ -11,16 +17,17 @@ blockdiag {
   丨 [label = "丨\n* walking stick"];
   一 [label = "一\n1 one"];
   十 [label = "十\n10 ten"];
-  鬼 -> 魁;
-  丶 -> 鬼;
-  田 -> 鬼;
-  儿 -> 鬼;
-  厶 -> 鬼;
-  斗 -> 魁;
-  冫 -> 斗;
-  水 -> 冫;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  十 -> 斗;
+
+  鬼 -> 魁 [thick];
+  丶 -> 鬼 [thick];
+  田 -> 鬼 [thick];
+  儿 -> 鬼 [thick];
+  厶 -> 鬼 [thick];
+  斗 -> 魁 [thick];
+  冫 -> 斗 [thick];
+  水 -> 冫 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  十 -> 斗 [thick];
 }

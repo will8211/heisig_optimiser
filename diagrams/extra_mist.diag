@@ -1,10 +1,17 @@
 blockdiag {
-  133533 [label = "𠦝\n* mist"];
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  "𠦝" [label = "𠦝\n* mist"];
   早 [label = "早\n26 early"];
   日 [label = "日\n12 day"];
   十 [label = "十\n10 ten"];
-  早 -> 133533;
-  日 -> 早;
-  十 -> 早;
-  十 -> 133533;
+
+  早 -> "𠦝" [thick];
+  日 -> 早 [thick];
+  十 -> 早 [thick];
+  十 -> "𠦝" [thick];
 }

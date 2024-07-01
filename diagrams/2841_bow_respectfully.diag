@@ -1,0 +1,23 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  鞠 [label = "鞠\n2841 bow respectfully"];
+  革 [label = "革\n1407 leather"];
+  廿 [label = "廿\n976 twenty"];
+  十 [label = "十\n10 ten"];
+  口 [label = "口\n11 mouth"];
+  勹 [label = "勹\n* bound up"];
+  米 [label = "米\n778 rice"];
+
+  革 -> 鞠 [thick];
+  廿 -> 革 [thick];
+  十 -> 廿 [thick];
+  口 -> 革 [thick];
+  十 -> 革 [thick];
+  勹 -> 鞠 [thick];
+  米 -> 鞠 [thick];
+}

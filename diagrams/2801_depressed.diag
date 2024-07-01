@@ -1,15 +1,22 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   郁 [label = "郁\n2801 depressed"];
   有 [label = "有\n79 possess"];
   月 [label = "月\n13 month"];
-  131207 [label = "𠂇\n* by one’s side"];
+  "𠂇" [label = "𠂇\n* by one’s side"];
   十 [label = "十\n10 ten"];
   囧阝 [label = "囧阝\n* city walls"];
   阝 [label = "阝\n* pinnacle"];
-  有 -> 郁;
-  月 -> 有;
-  131207 -> 有;
-  十 -> 131207;
-  囧阝 -> 郁;
-  阝 -> 囧阝;
+
+  有 -> 郁 [thick];
+  月 -> 有 [thick];
+  "𠂇" -> 有 [thick];
+  十 -> "𠂇" [thick];
+  囧阝 -> 郁 [thick];
+  阝 -> 囧阝 [thick];
 }

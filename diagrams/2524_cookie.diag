@@ -1,24 +1,31 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   饼 [label = "饼\n2524 cookie"];
   食 [label = "食\n1154 food"];
   良 [label = "良\n1151 high-quality"];
   丶 [label = "丶\n* a drop of"];
   艮 [label = "艮\n* silver"];
-  131490 [label = "𠆢\n* umbrella"];
+  "𠆢" [label = "𠆢\n* umbrella"];
   并 [label = "并\n863 combine"];
   丷 [label = "丷\n* horns"];
   一 [label = "一\n1 one"];
   开 [label = "开\n613 open"];
   二 [label = "二\n2 two"];
-  食 -> 饼;
-  良 -> 食;
-  丶 -> 良;
-  艮 -> 良;
-  131490 -> 食;
-  并 -> 饼;
-  丷 -> 并;
-  一 -> 丷;
-  开 -> 并;
-  二 -> 开;
-  一 -> 二;
+
+  食 -> 饼 [thick];
+  良 -> 食 [thick];
+  丶 -> 良 [thick];
+  艮 -> 良 [thick];
+  "𠆢" -> 食 [thick];
+  并 -> 饼 [thick];
+  丷 -> 并 [thick];
+  一 -> 丷 [thick];
+  开 -> 并 [thick];
+  二 -> 开 [thick];
+  一 -> 二 [thick];
 }

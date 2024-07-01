@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   宽 [label = "宽\n230 wide"];
   宀 [label = "宀\n* house"];
   见 [label = "见\n58 see"];
   目 [label = "目\n15 eye"];
   儿 [label = "儿\n56 youngster"];
   艹 [label = "艹\n* flower"];
-  宀 -> 宽;
-  见 -> 宽;
-  目 -> 见;
-  儿 -> 见;
-  艹 -> 宽;
+
+  宀 -> 宽 [thick];
+  见 -> 宽 [thick];
+  目 -> 见 [thick];
+  儿 -> 见 [thick];
+  艹 -> 宽 [thick];
 }

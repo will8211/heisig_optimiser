@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   魂 [label = "魂\n2928 soul"];
   云 [label = "云\n428 cloud"];
   鬼 [label = "鬼\n1472 ghost"];
@@ -6,10 +12,11 @@ blockdiag {
   田 [label = "田\n14 rice field"];
   儿 [label = "儿\n56 youngster"];
   厶 [label = "厶\n* elbow"];
-  云 -> 魂;
-  鬼 -> 魂;
-  丶 -> 鬼;
-  田 -> 鬼;
-  儿 -> 鬼;
-  厶 -> 鬼;
+
+  云 -> 魂 [thick];
+  鬼 -> 魂 [thick];
+  丶 -> 鬼 [thick];
+  田 -> 鬼 [thick];
+  儿 -> 鬼 [thick];
+  厶 -> 鬼 [thick];
 }

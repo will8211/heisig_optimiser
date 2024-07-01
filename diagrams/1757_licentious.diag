@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   荡 [label = "荡\n1757 licentious"];
   艹 [label = "艹\n* flower"];
   汤 [label = "汤\n527 soup"];
@@ -6,14 +12,15 @@ blockdiag {
   丨 [label = "丨\n* walking stick"];
   一 [label = "一\n1 one"];
   丶 [label = "丶\n* a drop of"];
-  131283 [label = "𠃓\n* piglets"];
+  "𠃓" [label = "𠃓\n* piglets"];
   豕 [label = "豕\n* sow"];
-  艹 -> 荡;
-  汤 -> 荡;
-  水 -> 汤;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  131283 -> 汤;
-  豕 -> 131283;
+
+  艹 -> 荡 [thick];
+  汤 -> 荡 [thick];
+  水 -> 汤 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  "𠃓" -> 汤 [thick];
+  豕 -> "𠃓" [thick];
 }

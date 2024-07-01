@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   渗 [label = "渗\n2705 seep"];
   水 [label = "水\n137 water"];
   丨 [label = "丨\n* walking stick"];
@@ -8,12 +14,13 @@ blockdiag {
   大 [label = "大\n113 large"];
   厶 [label = "厶\n* elbow"];
   彡 [label = "彡\n* rooster tail"];
-  水 -> 渗;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  参 -> 渗;
-  大 -> 参;
-  厶 -> 参;
-  彡 -> 参;
+
+  水 -> 渗 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  参 -> 渗 [thick];
+  大 -> 参 [thick];
+  厶 -> 参 [thick];
+  彡 -> 参 [thick];
 }

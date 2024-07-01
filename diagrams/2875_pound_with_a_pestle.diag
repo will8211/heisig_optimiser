@@ -1,0 +1,31 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  捣 [label = "捣\n2875 pound with a pestle"];
+  扌 [label = "扌\n* fingers"];
+  岛 [label = "岛\n1442 island"];
+  鸟 [label = "鸟\n1438 bird"];
+  向 [label = "向\n188 orientation"];
+  丶 [label = "丶\n* a drop of"];
+  冂 [label = "冂\n* hood"];
+  几 [label = "几\n57 how many?"];
+  口 [label = "口\n11 mouth"];
+  囧与－丨一 [label = "囧与－丨一\n* pointed tail"];
+  山 [label = "山\n688 mountain"];
+
+  扌 -> 捣 [thick];
+  岛 -> 捣 [thick];
+  鸟 -> 岛 [thick];
+  向 -> 鸟 [thick];
+  丶 -> 向 [thick];
+  冂 -> 向 [thick];
+  几 -> 冂 [thick];
+  口 -> 向 [thick];
+  丶 -> 鸟 [thick];
+  囧与－丨一 -> 鸟 [thick];
+  山 -> 岛 [thick];
+}

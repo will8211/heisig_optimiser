@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   服 [label = "服\n1103 apparel"];
   月 [label = "月\n13 month"];
   卩 [label = "卩\n* stamp"];
   又 [label = "又\n633 again"];
-  月 -> 服;
-  卩 -> 服;
-  又 -> 服;
+
+  月 -> 服 [thick];
+  卩 -> 服 [thick];
+  又 -> 服 [thick];
 }

@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   丧 [label = "丧\n1427 funeral"];
   土 [label = "土\n158 soil"];
   丷 [label = "丷\n* horns"];
   一 [label = "一\n1 one"];
   囧丧－十－丷 [label = "囧丧－十－丷\n* barrette"];
-  土 -> 丧;
-  丷 -> 丧;
-  一 -> 丷;
-  囧丧－十－丷 -> 丧;
+
+  土 -> 丧 [thick];
+  丷 -> 丧 [thick];
+  一 -> 丷 [thick];
+  囧丧－十－丷 -> 丧 [thick];
 }

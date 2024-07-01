@@ -1,0 +1,23 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  犹 [label = "犹\n1590 just like"];
+  犬 [label = "犬\n239 pooch"];
+  大 [label = "大\n113 large"];
+  丶 [label = "丶\n* a drop of"];
+  尤 [label = "尤\n240 remarkable"];
+  儿 [label = "儿\n56 youngster"];
+
+  犬 -> 犹 [thick];
+  大 -> 犬 [thick];
+  丶 -> 犬 [thick];
+  尤 -> 犹 [thick];
+  犬 -> 尤 [thick];
+  大 -> 犬 [thick];
+  丶 -> 犬 [thick];
+  儿 -> 尤 [thick];
+}

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   舶 [label = "舶\n2820 liner"];
   舟 [label = "舟\n1394 boat"];
   丶 [label = "丶\n* a drop of"];
@@ -6,11 +12,12 @@ blockdiag {
   几 [label = "几\n57 how many?"];
   白 [label = "白\n34 white"];
   日 [label = "日\n12 day"];
-  舟 -> 舶;
-  丶 -> 舟;
-  冂 -> 舟;
-  几 -> 冂;
-  白 -> 舶;
-  日 -> 白;
-  丶 -> 白;
+
+  舟 -> 舶 [thick];
+  丶 -> 舟 [thick];
+  冂 -> 舟 [thick];
+  几 -> 冂 [thick];
+  白 -> 舶 [thick];
+  日 -> 白 [thick];
+  丶 -> 白 [thick];
 }

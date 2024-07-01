@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   晰 [label = "晰\n2184 distinct"];
   日 [label = "日\n12 day"];
   析 [label = "析\n2183 analyze"];
   木 [label = "木\n202 tree"];
   斤 [label = "斤\n924 catty"];
-  日 -> 晰;
-  析 -> 晰;
-  木 -> 析;
-  斤 -> 析;
+
+  日 -> 晰 [thick];
+  析 -> 晰 [thick];
+  木 -> 析 [thick];
+  斤 -> 析 [thick];
 }

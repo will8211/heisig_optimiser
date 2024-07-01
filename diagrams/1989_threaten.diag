@@ -1,14 +1,21 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   胁 [label = "胁\n1989 threaten"];
   月 [label = "月\n13 month"];
   办 [label = "办\n743 manage"];
   肌 [label = "肌\n63 muscle"];
   几 [label = "几\n57 how many?"];
   丶 [label = "丶\n* a drop of"];
-  月 -> 胁;
-  办 -> 胁;
-  肌 -> 办;
-  几 -> 肌;
-  月 -> 肌;
-  丶 -> 办;
+
+  月 -> 胁 [thick];
+  办 -> 胁 [thick];
+  肌 -> 办 [thick];
+  几 -> 肌 [thick];
+  月 -> 肌 [thick];
+  丶 -> 办 [thick];
 }

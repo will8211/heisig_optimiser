@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   展 [label = "展\n1426 unfold"];
   尸 [label = "尸\n882 corpse"];
   囧昔－日 [label = "囧昔－日\n* salad"];
   艹 [label = "艹\n* flower"];
   囧丧－十－丷 [label = "囧丧－十－丷\n* barrette"];
-  尸 -> 展;
-  囧昔－日 -> 展;
-  艹 -> 囧昔－日;
-  囧丧－十－丷 -> 展;
+
+  尸 -> 展 [thick];
+  囧昔－日 -> 展 [thick];
+  艹 -> 囧昔－日 [thick];
+  囧丧－十－丷 -> 展 [thick];
 }

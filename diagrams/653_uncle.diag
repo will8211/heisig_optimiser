@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   叔 [label = "叔\n653 uncle"];
   上 [label = "上\n45 above"];
   卜 [label = "卜\n43 divination"];
@@ -7,13 +13,14 @@ blockdiag {
   丶 [label = "丶\n* a drop of"];
   小 [label = "小\n109 small"];
   又 [label = "又\n633 again"];
-  上 -> 叔;
-  卜 -> 上;
-  丨 -> 卜;
-  一 -> 丨;
-  丶 -> 卜;
-  一 -> 上;
-  小 -> 叔;
-  丶 -> 小;
-  又 -> 叔;
+
+  上 -> 叔 [thick];
+  卜 -> 上 [thick];
+  丨 -> 卜 [thick];
+  一 -> 丨 [thick];
+  丶 -> 卜 [thick];
+  一 -> 上 [thick];
+  小 -> 叔 [thick];
+  丶 -> 小 [thick];
+  又 -> 叔 [thick];
 }

@@ -1,8 +1,15 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   乏 [label = "乏\n989 weary"];
   丶 [label = "丶\n* a drop of"];
   之 [label = "之\n988 of"];
-  丶 -> 乏;
-  之 -> 乏;
-  丶 -> 之;
+
+  丶 -> 乏 [thick];
+  之 -> 乏 [thick];
+  丶 -> 之 [thick];
 }

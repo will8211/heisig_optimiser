@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   其 [label = "其\n1335 his-hers-its-theirs"];
   甘 [label = "甘\n1333 sweet"];
   囧只－口 [label = "囧只－口\n* animal legs"];
   八 [label = "八\n8 eight"];
-  甘 -> 其;
-  囧只－口 -> 其;
-  八 -> 囧只－口;
+
+  甘 -> 其 [thick];
+  囧只－口 -> 其 [thick];
+  八 -> 囧只－口 [thick];
 }

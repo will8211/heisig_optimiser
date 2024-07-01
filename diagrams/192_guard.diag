@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   守 [label = "守\n192 guard"];
   寸 [label = "寸\n166 Chinese inch"];
   丶 [label = "丶\n* a drop of"];
   十 [label = "十\n10 ten"];
   宀 [label = "宀\n* house"];
-  寸 -> 守;
-  丶 -> 寸;
-  十 -> 寸;
-  宀 -> 守;
+
+  寸 -> 守 [thick];
+  丶 -> 寸 [thick];
+  十 -> 寸 [thick];
+  宀 -> 守 [thick];
 }

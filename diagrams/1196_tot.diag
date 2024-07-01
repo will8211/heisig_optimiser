@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   孩 [label = "孩\n1196 tot"];
   子 [label = "子\n97 child"];
   亥 [label = "亥\n1194 sign of the pig"];
@@ -8,14 +14,15 @@ blockdiag {
   八 [label = "八\n8 eight"];
   厶 [label = "厶\n* elbow"];
   人 [label = "人\n793 person"];
-  子 -> 孩;
-  亥 -> 孩;
-  亠 -> 亥;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  厶 -> 亥;
-  人 -> 亥;
+
+  子 -> 孩 [thick];
+  亥 -> 孩 [thick];
+  亠 -> 亥 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  厶 -> 亥 [thick];
+  人 -> 亥 [thick];
 }

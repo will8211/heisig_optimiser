@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   姿 [label = "姿\n480 looks"];
   女 [label = "女\n102 woman"];
   次 [label = "次\n478 next"];
@@ -8,12 +14,13 @@ blockdiag {
   丨 [label = "丨\n* walking stick"];
   一 [label = "一\n1 one"];
   丶 [label = "丶\n* a drop of"];
-  女 -> 姿;
-  次 -> 姿;
-  欠 -> 次;
-  冫 -> 次;
-  水 -> 冫;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
+
+  女 -> 姿 [thick];
+  次 -> 姿 [thick];
+  欠 -> 次 [thick];
+  冫 -> 次 [thick];
+  水 -> 冫 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
 }

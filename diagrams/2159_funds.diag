@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   款 [label = "款\n2159 funds"];
   士 [label = "士\n334 soldier"];
   示 [label = "示\n900 show"];
   欠 [label = "欠\n474 lack"];
-  士 -> 款;
-  示 -> 款;
-  欠 -> 款;
+
+  士 -> 款 [thick];
+  示 -> 款 [thick];
+  欠 -> 款 [thick];
 }

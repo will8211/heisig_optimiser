@@ -1,17 +1,24 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   遥 [label = "遥\n1445 remote"];
-  17219 [label = "䍃\n* can opener"];
+  "䍃" [label = "䍃\n* can opener"];
   爪 [label = "爪\n663 claw"];
-  131206 [label = "𠂆\n* drag"];
+  "𠂆" [label = "𠂆\n* drag"];
   缶 [label = "缶\n* tin can"];
   午 [label = "午\n542 noon"];
   山 [label = "山\n688 mountain"];
   辶 [label = "辶\n* road"];
-  17219 -> 遥;
-  爪 -> 17219;
-  131206 -> 爪;
-  缶 -> 17219;
-  午 -> 缶;
-  山 -> 缶;
-  辶 -> 遥;
+
+  "䍃" -> 遥 [thick];
+  爪 -> "䍃" [thick];
+  "𠂆" -> 爪 [thick];
+  缶 -> "䍃" [thick];
+  午 -> 缶 [thick];
+  山 -> 缶 [thick];
+  辶 -> 遥 [thick];
 }

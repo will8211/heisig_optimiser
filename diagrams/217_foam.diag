@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   沫 [label = "沫\n217 foam"];
   末 [label = "末\n216 last"];
   木 [label = "木\n202 tree"];
@@ -6,10 +12,11 @@ blockdiag {
   丨 [label = "丨\n* walking stick"];
   一 [label = "一\n1 one"];
   丶 [label = "丶\n* a drop of"];
-  末 -> 沫;
-  木 -> 末;
-  水 -> 沫;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
+
+  末 -> 沫 [thick];
+  木 -> 末 [thick];
+  水 -> 沫 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
 }

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   哟 [label = "哟\n2403 Oh!"];
   口 [label = "口\n11 mouth"];
   约 [label = "约\n1090 make an appointment"];
@@ -7,11 +13,12 @@ blockdiag {
   勺 [label = "勺\n69 ladle"];
   勹 [label = "勹\n* bound up"];
   丶 [label = "丶\n* a drop of"];
-  口 -> 哟;
-  约 -> 哟;
-  纟 -> 约;
-  厶 -> 纟;
-  勺 -> 约;
-  勹 -> 勺;
-  丶 -> 勺;
+
+  口 -> 哟 [thick];
+  约 -> 哟 [thick];
+  纟 -> 约 [thick];
+  厶 -> 纟 [thick];
+  勺 -> 约 [thick];
+  勹 -> 勺 [thick];
+  丶 -> 勺 [thick];
 }

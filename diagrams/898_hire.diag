@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   雇 [label = "雇\n898 hire"];
   户 [label = "户\n896 door"];
   丶 [label = "丶\n* a drop of"];
   尸 [label = "尸\n882 corpse"];
   隹 [label = "隹\n* turkey"];
-  户 -> 雇;
-  丶 -> 户;
-  尸 -> 户;
-  隹 -> 雇;
+
+  户 -> 雇 [thick];
+  丶 -> 户 [thick];
+  尸 -> 户 [thick];
+  隹 -> 雇 [thick];
 }

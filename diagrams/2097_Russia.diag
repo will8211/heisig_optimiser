@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   俄 [label = "俄\n2097 Russia"];
   人 [label = "人\n793 person"];
   囧我 [label = "囧我\n* miser"];
@@ -6,10 +12,11 @@ blockdiag {
   手 [label = "手\n584 hand"];
   戈 [label = "戈\n361 halberd"];
   弋 [label = "弋\n* arrow"];
-  人 -> 俄;
-  囧我 -> 俄;
-  我 -> 囧我;
-  手 -> 我;
-  戈 -> 我;
-  弋 -> 戈;
+
+  人 -> 俄 [thick];
+  囧我 -> 俄 [thick];
+  我 -> 囧我 [thick];
+  手 -> 我 [thick];
+  戈 -> 我 [thick];
+  弋 -> 戈 [thick];
 }

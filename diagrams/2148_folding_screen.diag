@@ -1,0 +1,23 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  屏 [label = "屏\n2148 folding screen"];
+  尸 [label = "尸\n882 corpse"];
+  并 [label = "并\n863 combine"];
+  丷 [label = "丷\n* horns"];
+  一 [label = "一\n1 one"];
+  开 [label = "开\n613 open"];
+  二 [label = "二\n2 two"];
+
+  尸 -> 屏 [thick];
+  并 -> 屏 [thick];
+  丷 -> 并 [thick];
+  一 -> 丷 [thick];
+  开 -> 并 [thick];
+  二 -> 开 [thick];
+  一 -> 二 [thick];
+}

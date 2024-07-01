@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   环 [label = "环\n994 ring"];
   玉 [label = "玉\n266 jade"];
   王 [label = "王\n265 king"];
@@ -7,12 +13,13 @@ blockdiag {
   不 [label = "不\n991 no"];
   一 [label = "一\n1 one"];
   人 [label = "人\n793 person"];
-  玉 -> 环;
-  王 -> 玉;
-  工 -> 王;
-  丶 -> 玉;
-  不 -> 环;
-  一 -> 不;
-  人 -> 不;
-  丶 -> 不;
+
+  玉 -> 环 [thick];
+  王 -> 玉 [thick];
+  工 -> 王 [thick];
+  丶 -> 玉 [thick];
+  不 -> 环 [thick];
+  一 -> 不 [thick];
+  人 -> 不 [thick];
+  丶 -> 不 [thick];
 }

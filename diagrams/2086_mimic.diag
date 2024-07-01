@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   仿 [label = "仿\n2086 mimic"];
   人 [label = "人\n793 person"];
   方 [label = "方\n494 direction"];
@@ -7,13 +13,14 @@ blockdiag {
   六 [label = "六\n6 six"];
   囧只－口 [label = "囧只－口\n* animal legs"];
   八 [label = "八\n8 eight"];
-  人 -> 仿;
-  方 -> 仿;
-  刀 -> 方;
-  亠 -> 方;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
+
+  人 -> 仿 [thick];
+  方 -> 仿 [thick];
+  刀 -> 方 [thick];
+  亠 -> 方 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
 }

@@ -1,15 +1,22 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   畅 [label = "畅\n2178 smooth"];
   申 [label = "申\n918 express"];
   日 [label = "日\n12 day"];
   丨 [label = "丨\n* walking stick"];
   一 [label = "一\n1 one"];
-  131283 [label = "𠃓\n* piglets"];
+  "𠃓" [label = "𠃓\n* piglets"];
   豕 [label = "豕\n* sow"];
-  申 -> 畅;
-  日 -> 申;
-  丨 -> 申;
-  一 -> 丨;
-  131283 -> 畅;
-  豕 -> 131283;
+
+  申 -> 畅 [thick];
+  日 -> 申 [thick];
+  丨 -> 申 [thick];
+  一 -> 丨 [thick];
+  "𠃓" -> 畅 [thick];
+  豕 -> "𠃓" [thick];
 }

@@ -1,15 +1,22 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   欲 [label = "欲\n700 desire"];
   谷 [label = "谷\n698 valley"];
   囧只－口 [label = "囧只－口\n* animal legs"];
   八 [label = "八\n8 eight"];
-  131490 [label = "𠆢\n* umbrella"];
+  "𠆢" [label = "𠆢\n* umbrella"];
   口 [label = "口\n11 mouth"];
   欠 [label = "欠\n474 lack"];
-  谷 -> 欲;
-  囧只－口 -> 谷;
-  八 -> 囧只－口;
-  131490 -> 谷;
-  口 -> 谷;
-  欠 -> 欲;
+
+  谷 -> 欲 [thick];
+  囧只－口 -> 谷 [thick];
+  八 -> 囧只－口 [thick];
+  "𠆢" -> 谷 [thick];
+  口 -> 谷 [thick];
+  欠 -> 欲 [thick];
 }

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   剩 [label = "剩\n1707 leftover"];
   乘 [label = "乘\n1706 hitch a ride"];
   乖 [label = "乖\n1705 well-behaved"];
@@ -7,15 +13,16 @@ blockdiag {
   十 [label = "十\n10 ten"];
   北 [label = "北\n454 north"];
   匕 [label = "匕\n453 ancient spoon"];
-  131490 [label = "𠆢\n* umbrella"];
+  "𠆢" [label = "𠆢\n* umbrella"];
   刀 [label = "刀\n83 sword"];
-  乘 -> 剩;
-  乖 -> 乘;
-  千 -> 乖;
-  丶 -> 千;
-  十 -> 千;
-  北 -> 乖;
-  匕 -> 北;
-  131490 -> 乘;
-  刀 -> 剩;
+
+  乘 -> 剩 [thick];
+  乖 -> 乘 [thick];
+  千 -> 乖 [thick];
+  丶 -> 千 [thick];
+  十 -> 千 [thick];
+  北 -> 乖 [thick];
+  匕 -> 北 [thick];
+  "𠆢" -> 乘 [thick];
+  刀 -> 剩 [thick];
 }

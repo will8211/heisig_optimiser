@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   嘻 [label = "嘻\n2482 giggling"];
   口 [label = "口\n11 mouth"];
   喜 [label = "喜\n1135 joyful"];
@@ -11,16 +17,17 @@ blockdiag {
   丨 [label = "丨\n* walking stick"];
   一 [label = "一\n1 one"];
   丶 [label = "丶\n* a drop of"];
-  口 -> 嘻;
-  喜 -> 嘻;
-  壴 -> 喜;
-  士 -> 壴;
-  桌 -> 壴;
-  木 -> 桌;
-  日 -> 桌;
-  卜 -> 桌;
-  丨 -> 卜;
-  一 -> 丨;
-  丶 -> 卜;
-  口 -> 喜;
+
+  口 -> 嘻 [thick];
+  喜 -> 嘻 [thick];
+  壴 -> 喜 [thick];
+  士 -> 壴 [thick];
+  桌 -> 壴 [thick];
+  木 -> 桌 [thick];
+  日 -> 桌 [thick];
+  卜 -> 桌 [thick];
+  丨 -> 卜 [thick];
+  一 -> 丨 [thick];
+  丶 -> 卜 [thick];
+  口 -> 喜 [thick];
 }

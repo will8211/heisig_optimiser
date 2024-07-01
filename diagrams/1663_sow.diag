@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   栽 [label = "栽\n1663 sow"];
   囧载－车 [label = "囧载－车\n* Thanksgiving"];
   土 [label = "土\n158 soil"];
   戈 [label = "戈\n361 halberd"];
   弋 [label = "弋\n* arrow"];
   木 [label = "木\n202 tree"];
-  囧载－车 -> 栽;
-  土 -> 囧载－车;
-  戈 -> 囧载－车;
-  弋 -> 戈;
-  木 -> 栽;
+
+  囧载－车 -> 栽 [thick];
+  土 -> 囧载－车 [thick];
+  戈 -> 囧载－车 [thick];
+  弋 -> 戈 [thick];
+  木 -> 栽 [thick];
 }

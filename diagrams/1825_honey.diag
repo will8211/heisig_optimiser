@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   蜜 [label = "蜜\n1825 honey"];
   宀 [label = "宀\n* house"];
   必 [label = "必\n583 certainly"];
   心 [label = "心\n563 heart"];
   虫 [label = "虫\n509 insect"];
-  宀 -> 蜜;
-  必 -> 蜜;
-  心 -> 必;
-  虫 -> 蜜;
+
+  宀 -> 蜜 [thick];
+  必 -> 蜜 [thick];
+  心 -> 必 [thick];
+  虫 -> 蜜 [thick];
 }

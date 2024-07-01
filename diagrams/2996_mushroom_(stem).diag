@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  菇 [label = "菇\n2996 mushroom (stem)"];
+  艹 [label = "艹\n* flower"];
+  姑 [label = "姑\n1518 father’s sister"];
+  女 [label = "女\n102 woman"];
+  古 [label = "古\n16 ancient"];
+  十 [label = "十\n10 ten"];
+  口 [label = "口\n11 mouth"];
+
+  艹 -> 菇 [thick];
+  姑 -> 菇 [thick];
+  女 -> 姑 [thick];
+  古 -> 姑 [thick];
+  十 -> 古 [thick];
+  口 -> 古 [thick];
+}

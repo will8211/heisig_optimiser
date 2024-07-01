@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   昭 [label = "昭\n87 evident"];
   召 [label = "召\n86 summon"];
   刀 [label = "刀\n83 sword"];
   口 [label = "口\n11 mouth"];
   日 [label = "日\n12 day"];
-  召 -> 昭;
-  刀 -> 召;
-  口 -> 召;
-  日 -> 昭;
+
+  召 -> 昭 [thick];
+  刀 -> 召 [thick];
+  口 -> 召 [thick];
+  日 -> 昭 [thick];
 }

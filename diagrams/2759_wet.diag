@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   湿 [label = "湿\n2759 wet"];
   水 [label = "水\n137 water"];
   丨 [label = "丨\n* walking stick"];
@@ -7,11 +13,12 @@ blockdiag {
   日 [label = "日\n12 day"];
   业 [label = "业\n1349 profession"];
   並 [label = "並\n* side by side"];
-  水 -> 湿;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  日 -> 湿;
-  业 -> 湿;
-  並 -> 业;
+
+  水 -> 湿 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  日 -> 湿 [thick];
+  业 -> 湿 [thick];
+  並 -> 业 [thick];
 }

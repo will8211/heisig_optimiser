@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   外 [label = "外\n118 outside"];
   夕 [label = "夕\n115 evening"];
   月 [label = "月\n13 month"];
@@ -6,10 +12,11 @@ blockdiag {
   丨 [label = "丨\n* walking stick"];
   一 [label = "一\n1 one"];
   丶 [label = "丶\n* a drop of"];
-  夕 -> 外;
-  月 -> 夕;
-  卜 -> 外;
-  丨 -> 卜;
-  一 -> 丨;
-  丶 -> 卜;
+
+  夕 -> 外 [thick];
+  月 -> 夕 [thick];
+  卜 -> 外 [thick];
+  丨 -> 卜 [thick];
+  一 -> 丨 [thick];
+  丶 -> 卜 [thick];
 }

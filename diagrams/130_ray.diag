@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   光 [label = "光\n130 ray"];
   小 [label = "小\n109 small"];
   丶 [label = "丶\n* a drop of"];
   儿 [label = "儿\n56 youngster"];
-  小 -> 光;
-  丶 -> 小;
-  儿 -> 光;
+
+  小 -> 光 [thick];
+  丶 -> 小 [thick];
+  儿 -> 光 [thick];
 }

@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  稣 [label = "稣\n2007 rise again"];
+  鱼 [label = "鱼\n154 fish"];
+  勹 [label = "勹\n* bound up"];
+  田 [label = "田\n14 rice field"];
+  一 [label = "一\n1 one"];
+  禾 [label = "禾\n762 standing grain"];
+
+  鱼 -> 稣 [thick];
+  勹 -> 鱼 [thick];
+  田 -> 鱼 [thick];
+  一 -> 鱼 [thick];
+  禾 -> 稣 [thick];
+}

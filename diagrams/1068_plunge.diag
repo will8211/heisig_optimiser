@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   坠 [label = "坠\n1068 plunge"];
   队 [label = "队\n1067 team"];
   阝 [label = "阝\n* pinnacle"];
   人 [label = "人\n793 person"];
   土 [label = "土\n158 soil"];
-  队 -> 坠;
-  阝 -> 队;
-  人 -> 队;
-  土 -> 坠;
+
+  队 -> 坠 [thick];
+  阝 -> 队 [thick];
+  人 -> 队 [thick];
+  土 -> 坠 [thick];
 }

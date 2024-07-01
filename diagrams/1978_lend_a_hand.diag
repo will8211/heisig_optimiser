@@ -1,0 +1,16 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  扶 [label = "扶\n1978 lend a hand"];
+  扌 [label = "扌\n* fingers"];
+  夫 [label = "夫\n726 husband"];
+  大 [label = "大\n113 large"];
+
+  扌 -> 扶 [thick];
+  夫 -> 扶 [thick];
+  大 -> 夫 [thick];
+}

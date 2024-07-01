@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   仁 [label = "仁\n820 benevolence"];
   二 [label = "二\n2 two"];
   一 [label = "一\n1 one"];
   人 [label = "人\n793 person"];
-  二 -> 仁;
-  一 -> 二;
-  人 -> 仁;
+
+  二 -> 仁 [thick];
+  一 -> 二 [thick];
+  人 -> 仁 [thick];
 }

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   蔑 [label = "蔑\n1665 despise"];
   艹 [label = "艹\n* flower"];
   目 [label = "目\n15 eye"];
@@ -7,11 +13,12 @@ blockdiag {
   戈 [label = "戈\n361 halberd"];
   弋 [label = "弋\n* arrow"];
   一 [label = "一\n1 one"];
-  艹 -> 蔑;
-  目 -> 蔑;
-  戌 -> 蔑;
-  戊 -> 戌;
-  戈 -> 戊;
-  弋 -> 戈;
-  一 -> 戌;
+
+  艹 -> 蔑 [thick];
+  目 -> 蔑 [thick];
+  戌 -> 蔑 [thick];
+  戊 -> 戌 [thick];
+  戈 -> 戊 [thick];
+  弋 -> 戈 [thick];
+  一 -> 戌 [thick];
 }

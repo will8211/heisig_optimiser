@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   秉 [label = "秉\n2208 wield"];
   肀 [label = "肀\n* rake"];
   彐 [label = "彐\n* broom"];
   禾 [label = "禾\n762 standing grain"];
-  肀 -> 秉;
-  彐 -> 肀;
-  禾 -> 秉;
+
+  肀 -> 秉 [thick];
+  彐 -> 肀 [thick];
+  禾 -> 秉 [thick];
 }

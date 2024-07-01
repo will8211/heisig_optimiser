@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   维 [label = "维\n1082 maintain"];
   纟 [label = "纟\n* thread"];
   厶 [label = "厶\n* elbow"];
   隹 [label = "隹\n* turkey"];
-  纟 -> 维;
-  厶 -> 纟;
-  隹 -> 维;
+
+  纟 -> 维 [thick];
+  厶 -> 纟 [thick];
+  隹 -> 维 [thick];
 }

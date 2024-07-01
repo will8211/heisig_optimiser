@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   拜 [label = "拜\n2582 adore"];
   手 [label = "手\n584 hand"];
   一 [label = "一\n1 one"];
   丰 [label = "丰\n1223 plentiful"];
-  手 -> 拜;
-  一 -> 拜;
-  丰 -> 拜;
+
+  手 -> 拜 [thick];
+  一 -> 拜 [thick];
+  丰 -> 拜 [thick];
 }

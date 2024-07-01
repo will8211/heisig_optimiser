@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   破 [label = "破\n710 break"];
   岩 [label = "岩\n1927 rock"];
   山 [label = "山\n688 mountain"];
@@ -9,13 +15,14 @@ blockdiag {
   支 [label = "支\n650 offshoot"];
   十 [label = "十\n10 ten"];
   又 [label = "又\n633 again"];
-  岩 -> 破;
-  山 -> 岩;
-  石 -> 岩;
-  口 -> 石;
-  厂 -> 石;
-  皮 -> 破;
-  支 -> 皮;
-  十 -> 支;
-  又 -> 支;
+
+  岩 -> 破 [thick];
+  山 -> 岩 [thick];
+  石 -> 岩 [thick];
+  口 -> 石 [thick];
+  厂 -> 石 [thick];
+  皮 -> 破 [thick];
+  支 -> 皮 [thick];
+  十 -> 支 [thick];
+  又 -> 支 [thick];
 }

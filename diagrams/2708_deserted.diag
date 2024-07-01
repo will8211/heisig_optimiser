@@ -1,15 +1,22 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   寥 [label = "寥\n2708 deserted"];
   宀 [label = "宀\n* house"];
   翏 [label = "翏\n* kiddie cocktail"];
   羽 [label = "羽\n544 feathers"];
-  13361 [label = "㐱\n* cocktail"];
-  131490 [label = "𠆢\n* umbrella"];
+  "㐱" [label = "㐱\n* cocktail"];
+  "𠆢" [label = "𠆢\n* umbrella"];
   彡 [label = "彡\n* rooster tail"];
-  宀 -> 寥;
-  翏 -> 寥;
-  羽 -> 翏;
-  13361 -> 翏;
-  131490 -> 13361;
-  彡 -> 13361;
+
+  宀 -> 寥 [thick];
+  翏 -> 寥 [thick];
+  羽 -> 翏 [thick];
+  "㐱" -> 翏 [thick];
+  "𠆢" -> "㐱" [thick];
+  彡 -> "㐱" [thick];
 }

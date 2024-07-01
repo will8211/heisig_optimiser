@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   戳 [label = "戳\n1778 jab"];
   翟 [label = "翟\n* headdress"];
   羽 [label = "羽\n544 feathers"];
   隹 [label = "隹\n* turkey"];
   戈 [label = "戈\n361 halberd"];
   弋 [label = "弋\n* arrow"];
-  翟 -> 戳;
-  羽 -> 翟;
-  隹 -> 翟;
-  戈 -> 戳;
-  弋 -> 戈;
+
+  翟 -> 戳 [thick];
+  羽 -> 翟 [thick];
+  隹 -> 翟 [thick];
+  戈 -> 戳 [thick];
+  弋 -> 戈 [thick];
 }

@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   犁 [label = "犁\n2021 plow"];
   利 [label = "利\n771 profit"];
   禾 [label = "禾\n762 standing grain"];
   刀 [label = "刀\n83 sword"];
   牛 [label = "牛\n252 cow"];
-  利 -> 犁;
-  禾 -> 利;
-  刀 -> 利;
-  牛 -> 犁;
+
+  利 -> 犁 [thick];
+  禾 -> 利 [thick];
+  刀 -> 利 [thick];
+  牛 -> 犁 [thick];
 }

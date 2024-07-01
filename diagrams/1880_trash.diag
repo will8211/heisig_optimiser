@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   圾 [label = "圾\n1880 trash"];
   土 [label = "土\n158 soil"];
   及 [label = "及\n627 catch up with"];
   乃 [label = "乃\n625 only then"];
-  土 -> 圾;
-  及 -> 圾;
-  乃 -> 及;
+
+  土 -> 圾 [thick];
+  及 -> 圾 [thick];
+  乃 -> 及 [thick];
 }

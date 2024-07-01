@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   屉 [label = "屉\n2135 drawer"];
   尸 [label = "尸\n882 corpse"];
   世 [label = "世\n28 generation"];
   十 [label = "十\n10 ten"];
-  尸 -> 屉;
-  世 -> 屉;
-  十 -> 世;
+
+  尸 -> 屉 [thick];
+  世 -> 屉 [thick];
+  十 -> 世 [thick];
 }

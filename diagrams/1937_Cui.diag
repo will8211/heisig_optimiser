@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   崔 [label = "崔\n1937 Cui"];
   山 [label = "山\n688 mountain"];
   隹 [label = "隹\n* turkey"];
-  山 -> 崔;
-  隹 -> 崔;
+
+  山 -> 崔 [thick];
+  隹 -> 崔 [thick];
 }

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   涡 [label = "涡\n2365 whirlpool"];
   水 [label = "水\n137 water"];
   丨 [label = "丨\n* walking stick"];
@@ -10,14 +16,15 @@ blockdiag {
   囧冂 [label = "囧冂\n* belt"];
   巾 [label = "巾\n410 towel"];
   人 [label = "人\n793 person"];
-  水 -> 涡;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  呙 -> 涡;
-  口 -> 呙;
-  内 -> 呙;
-  囧冂 -> 内;
-  巾 -> 囧冂;
-  人 -> 内;
+
+  水 -> 涡 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  呙 -> 涡 [thick];
+  口 -> 呙 [thick];
+  内 -> 呙 [thick];
+  囧冂 -> 内 [thick];
+  巾 -> 囧冂 [thick];
+  人 -> 内 [thick];
 }

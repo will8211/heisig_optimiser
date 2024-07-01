@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   灾 [label = "灾\n194 disaster"];
   宀 [label = "宀\n* house"];
   火 [label = "火\n170 fire"];
-  宀 -> 灾;
-  火 -> 灾;
+
+  宀 -> 灾 [thick];
+  火 -> 灾 [thick];
 }

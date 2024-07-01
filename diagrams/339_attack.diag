@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   攻 [label = "攻\n339 attack"];
   攵 [label = "攵\n* taskmaster"];
   工 [label = "工\n76 work"];
-  攵 -> 攻;
-  工 -> 攻;
+
+  攵 -> 攻 [thick];
+  工 -> 攻 [thick];
 }

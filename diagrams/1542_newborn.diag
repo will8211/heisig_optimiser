@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   娃 [label = "娃\n1542 newborn"];
   女 [label = "女\n102 woman"];
   圭 [label = "圭\n* bricks"];
   土 [label = "土\n158 soil"];
-  女 -> 娃;
-  圭 -> 娃;
-  土 -> 圭;
+
+  女 -> 娃 [thick];
+  圭 -> 娃 [thick];
+  土 -> 圭 [thick];
 }

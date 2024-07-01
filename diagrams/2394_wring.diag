@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   绞 [label = "绞\n2394 wring"];
   纟 [label = "纟\n* thread"];
   厶 [label = "厶\n* elbow"];
@@ -9,15 +15,16 @@ blockdiag {
   八 [label = "八\n8 eight"];
   父 [label = "父\n1043 father"];
   丶 [label = "丶\n* a drop of"];
-  纟 -> 绞;
-  厶 -> 纟;
-  交 -> 绞;
-  亠 -> 交;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  父 -> 交;
-  丶 -> 父;
+
+  纟 -> 绞 [thick];
+  厶 -> 纟 [thick];
+  交 -> 绞 [thick];
+  亠 -> 交 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  父 -> 交 [thick];
+  丶 -> 父 [thick];
 }

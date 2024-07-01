@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   牢 [label = "牢\n1594 jail"];
   宀 [label = "宀\n* house"];
   牛 [label = "牛\n252 cow"];
-  宀 -> 牢;
-  牛 -> 牢;
+
+  宀 -> 牢 [thick];
+  牛 -> 牢 [thick];
 }

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   树 [label = "树\n643 timber"];
   木 [label = "木\n202 tree"];
   对 [label = "对\n642 that’s right"];
@@ -6,10 +12,11 @@ blockdiag {
   寸 [label = "寸\n166 Chinese inch"];
   丶 [label = "丶\n* a drop of"];
   十 [label = "十\n10 ten"];
-  木 -> 树;
-  对 -> 树;
-  又 -> 对;
-  寸 -> 对;
-  丶 -> 寸;
-  十 -> 寸;
+
+  木 -> 树 [thick];
+  对 -> 树 [thick];
+  又 -> 对 [thick];
+  寸 -> 对 [thick];
+  丶 -> 寸 [thick];
+  十 -> 寸 [thick];
 }

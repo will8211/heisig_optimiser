@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   级 [label = "级\n1087 rank"];
   纟 [label = "纟\n* thread"];
   厶 [label = "厶\n* elbow"];
   及 [label = "及\n627 catch up with"];
   乃 [label = "乃\n625 only then"];
-  纟 -> 级;
-  厶 -> 纟;
-  及 -> 级;
-  乃 -> 及;
+
+  纟 -> 级 [thick];
+  厶 -> 纟 [thick];
+  及 -> 级 [thick];
+  乃 -> 及 [thick];
 }

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   猾 [label = "猾\n2336 cunning"];
   犬 [label = "犬\n239 pooch"];
   大 [label = "大\n113 large"];
@@ -6,10 +12,11 @@ blockdiag {
   骨 [label = "骨\n1053 skeleton"];
   月 [label = "月\n13 month"];
   冖 [label = "冖\n* crown"];
-  犬 -> 猾;
-  大 -> 犬;
-  丶 -> 犬;
-  骨 -> 猾;
-  月 -> 骨;
-  冖 -> 骨;
+
+  犬 -> 猾 [thick];
+  大 -> 犬 [thick];
+  丶 -> 犬 [thick];
+  骨 -> 猾 [thick];
+  月 -> 骨 [thick];
+  冖 -> 骨 [thick];
 }

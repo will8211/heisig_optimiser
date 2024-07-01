@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   保 [label = "保\n823 safeguard"];
   人 [label = "人\n793 person"];
   呆 [label = "呆\n209 dim-witted"];
   木 [label = "木\n202 tree"];
   口 [label = "口\n11 mouth"];
-  人 -> 保;
-  呆 -> 保;
-  木 -> 呆;
-  口 -> 呆;
+
+  人 -> 保 [thick];
+  呆 -> 保 [thick];
+  木 -> 呆 [thick];
+  口 -> 呆 [thick];
 }

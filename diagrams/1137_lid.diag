@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   盖 [label = "盖\n1137 lid"];
   羊 [label = "羊\n528 sheep"];
   丷 [label = "丷\n* horns"];
   一 [label = "一\n1 one"];
   皿 [label = "皿\n* dish"];
-  羊 -> 盖;
-  丷 -> 羊;
-  一 -> 丷;
-  皿 -> 盖;
+
+  羊 -> 盖 [thick];
+  丷 -> 羊 [thick];
+  一 -> 丷 [thick];
+  皿 -> 盖 [thick];
 }

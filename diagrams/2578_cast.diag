@@ -1,7 +1,13 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   铸 [label = "铸\n2578 cast"];
   金 [label = "金\n279 gold"];
-  131490 [label = "𠆢\n* umbrella"];
+  "𠆢" [label = "𠆢\n* umbrella"];
   王 [label = "王\n265 king"];
   工 [label = "工\n76 work"];
   丶 [label = "丶\n* a drop of"];
@@ -9,14 +15,15 @@ blockdiag {
   丰 [label = "丰\n1223 plentiful"];
   寸 [label = "寸\n166 Chinese inch"];
   十 [label = "十\n10 ten"];
-  金 -> 铸;
-  131490 -> 金;
-  王 -> 金;
-  工 -> 王;
-  丶 -> 金;
-  寿 -> 铸;
-  丰 -> 寿;
-  寸 -> 寿;
-  丶 -> 寸;
-  十 -> 寸;
+
+  金 -> 铸 [thick];
+  "𠆢" -> 金 [thick];
+  王 -> 金 [thick];
+  工 -> 王 [thick];
+  丶 -> 金 [thick];
+  寿 -> 铸 [thick];
+  丰 -> 寿 [thick];
+  寸 -> 寿 [thick];
+  丶 -> 寸 [thick];
+  十 -> 寸 [thick];
 }

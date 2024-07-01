@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   趣 [label = "趣\n719 interest"];
   走 [label = "走\n391 walk"];
   囧走－十 [label = "囧走－十\n* mending"];
@@ -9,13 +15,14 @@ blockdiag {
   取 [label = "取\n718 take"];
   耳 [label = "耳\n717 ear"];
   又 [label = "又\n633 again"];
-  走 -> 趣;
-  囧走－十 -> 走;
-  正 -> 囧走－十;
-  一 -> 正;
-  止 -> 正;
-  土 -> 走;
-  取 -> 趣;
-  耳 -> 取;
-  又 -> 取;
+
+  走 -> 趣 [thick];
+  囧走－十 -> 走 [thick];
+  正 -> 囧走－十 [thick];
+  一 -> 正 [thick];
+  止 -> 正 [thick];
+  土 -> 走 [thick];
+  取 -> 趣 [thick];
+  耳 -> 取 [thick];
+  又 -> 取 [thick];
 }

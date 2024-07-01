@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   窘 [label = "窘\n2361 poverty-stricken"];
   穴 [label = "穴\n1070 hole"];
   宀 [label = "宀\n* house"];
@@ -7,12 +13,13 @@ blockdiag {
   君 [label = "君\n959 monarch"];
   尹 [label = "尹\n957 overseer"];
   口 [label = "口\n11 mouth"];
-  穴 -> 窘;
-  宀 -> 穴;
-  八 -> 穴;
-  囧只－口 -> 穴;
-  八 -> 囧只－口;
-  君 -> 窘;
-  尹 -> 君;
-  口 -> 君;
+
+  穴 -> 窘 [thick];
+  宀 -> 穴 [thick];
+  八 -> 穴 [thick];
+  囧只－口 -> 穴 [thick];
+  八 -> 囧只－口 [thick];
+  君 -> 窘 [thick];
+  尹 -> 君 [thick];
+  口 -> 君 [thick];
 }

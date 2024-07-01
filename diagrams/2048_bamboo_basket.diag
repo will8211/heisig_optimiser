@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  箩 [label = "箩\n2048 bamboo basket"];
+  竹 [label = "竹\n786 bamboo"];
+  丁 [label = "丁\n90 fourth"];
+  罗 [label = "罗\n120 silk gauze"];
+  目 [label = "目\n15 eye"];
+  夕 [label = "夕\n115 evening"];
+  月 [label = "月\n13 month"];
+
+  竹 -> 箩 [thick];
+  丁 -> 竹 [thick];
+  罗 -> 箩 [thick];
+  目 -> 罗 [thick];
+  夕 -> 罗 [thick];
+  月 -> 夕 [thick];
+}

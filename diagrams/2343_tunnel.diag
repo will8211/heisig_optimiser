@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   隧 [label = "隧\n2343 tunnel"];
   阝 [label = "阝\n* pinnacle"];
   遂 [label = "遂\n1752 satisfy"];
@@ -6,10 +12,11 @@ blockdiag {
   一 [label = "一\n1 one"];
   豕 [label = "豕\n* sow"];
   辶 [label = "辶\n* road"];
-  阝 -> 隧;
-  遂 -> 隧;
-  丷 -> 遂;
-  一 -> 丷;
-  豕 -> 遂;
-  辶 -> 遂;
+
+  阝 -> 隧 [thick];
+  遂 -> 隧 [thick];
+  丷 -> 遂 [thick];
+  一 -> 丷 [thick];
+  豕 -> 遂 [thick];
+  辶 -> 遂 [thick];
 }

@@ -1,17 +1,24 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   饰 [label = "饰\n2519 ornaments"];
   食 [label = "食\n1154 food"];
   良 [label = "良\n1151 high-quality"];
   丶 [label = "丶\n* a drop of"];
   艮 [label = "艮\n* silver"];
-  131490 [label = "𠆢\n* umbrella"];
-  131209 [label = "𠂉\n* reclining"];
+  "𠆢" [label = "𠆢\n* umbrella"];
+  "𠂉" [label = "𠂉\n* reclining"];
   巾 [label = "巾\n410 towel"];
-  食 -> 饰;
-  良 -> 食;
-  丶 -> 良;
-  艮 -> 良;
-  131490 -> 食;
-  131209 -> 饰;
-  巾 -> 饰;
+
+  食 -> 饰 [thick];
+  良 -> 食 [thick];
+  丶 -> 良 [thick];
+  艮 -> 良 [thick];
+  "𠆢" -> 食 [thick];
+  "𠂉" -> 饰 [thick];
+  巾 -> 饰 [thick];
 }

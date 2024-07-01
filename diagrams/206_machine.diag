@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   机 [label = "机\n206 machine"];
   木 [label = "木\n202 tree"];
   几 [label = "几\n57 how many?"];
-  木 -> 机;
-  几 -> 机;
+
+  木 -> 机 [thick];
+  几 -> 机 [thick];
 }

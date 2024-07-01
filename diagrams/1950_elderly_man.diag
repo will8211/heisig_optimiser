@@ -1,0 +1,18 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  翁 [label = "翁\n1950 elderly man"];
+  公 [label = "公\n696 public"];
+  八 [label = "八\n8 eight"];
+  厶 [label = "厶\n* elbow"];
+  羽 [label = "羽\n544 feathers"];
+
+  公 -> 翁 [thick];
+  八 -> 公 [thick];
+  厶 -> 公 [thick];
+  羽 -> 翁 [thick];
+}

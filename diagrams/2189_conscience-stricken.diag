@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   惭 [label = "惭\n2189 conscience-stricken"];
   心 [label = "心\n563 heart"];
   斩 [label = "斩\n928 hew"];
   车 [label = "车\n300 car"];
   斤 [label = "斤\n924 catty"];
-  心 -> 惭;
-  斩 -> 惭;
-  车 -> 斩;
-  斤 -> 斩;
+
+  心 -> 惭 [thick];
+  斩 -> 惭 [thick];
+  车 -> 斩 [thick];
+  斤 -> 斩 [thick];
 }

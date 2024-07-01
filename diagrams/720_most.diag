@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   最 [label = "最\n720 most"];
   日 [label = "日\n12 day"];
   取 [label = "取\n718 take"];
   耳 [label = "耳\n717 ear"];
   又 [label = "又\n633 again"];
-  日 -> 最;
-  取 -> 最;
-  耳 -> 取;
-  又 -> 取;
+
+  日 -> 最 [thick];
+  取 -> 最 [thick];
+  耳 -> 取 [thick];
+  又 -> 取 [thick];
 }

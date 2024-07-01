@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   雕 [label = "雕\n1766 sculpture"];
   周 [label = "周\n333 circumference"];
   囧周－冂 [label = "囧周－冂\n* lidded crock"];
@@ -7,11 +13,12 @@ blockdiag {
   冂 [label = "冂\n* hood"];
   几 [label = "几\n57 how many?"];
   隹 [label = "隹\n* turkey"];
-  周 -> 雕;
-  囧周－冂 -> 周;
-  土 -> 囧周－冂;
-  口 -> 囧周－冂;
-  冂 -> 周;
-  几 -> 冂;
-  隹 -> 雕;
+
+  周 -> 雕 [thick];
+  囧周－冂 -> 周 [thick];
+  土 -> 囧周－冂 [thick];
+  口 -> 囧周－冂 [thick];
+  冂 -> 周 [thick];
+  几 -> 冂 [thick];
+  隹 -> 雕 [thick];
 }

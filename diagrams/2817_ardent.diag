@@ -1,19 +1,26 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   殷 [label = "殷\n2817 ardent"];
-  131206 [label = "𠂆\n* drag"];
+  "𠂆" [label = "𠂆\n* drag"];
   白 [label = "白\n34 white"];
   日 [label = "日\n12 day"];
   丶 [label = "丶\n* a drop of"];
-  131276 [label = "𠃌\n* clothes hanger"];
+  "𠃌" [label = "𠃌\n* clothes hanger"];
   殳 [label = "殳\n* missile"];
   几 [label = "几\n57 how many?"];
   又 [label = "又\n633 again"];
-  131206 -> 殷;
-  白 -> 殷;
-  日 -> 白;
-  丶 -> 白;
-  131276 -> 殷;
-  殳 -> 殷;
-  几 -> 殳;
-  又 -> 殳;
+
+  "𠂆" -> 殷 [thick];
+  白 -> 殷 [thick];
+  日 -> 白 [thick];
+  丶 -> 白 [thick];
+  "𠃌" -> 殷 [thick];
+  殳 -> 殷 [thick];
+  几 -> 殳 [thick];
+  又 -> 殳 [thick];
 }

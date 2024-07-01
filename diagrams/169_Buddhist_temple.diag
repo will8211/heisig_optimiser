@@ -1,0 +1,18 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  寺 [label = "寺\n169 Buddhist temple"];
+  土 [label = "土\n158 soil"];
+  寸 [label = "寸\n166 Chinese inch"];
+  丶 [label = "丶\n* a drop of"];
+  十 [label = "十\n10 ten"];
+
+  土 -> 寺 [thick];
+  寸 -> 寺 [thick];
+  丶 -> 寸 [thick];
+  十 -> 寸 [thick];
+}

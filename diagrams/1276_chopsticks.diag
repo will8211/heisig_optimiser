@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   筷 [label = "筷\n1276 chopsticks"];
   竹 [label = "竹\n786 bamboo"];
   丁 [label = "丁\n90 fourth"];
@@ -7,11 +13,12 @@ blockdiag {
   夬 [label = "夬\n* guillotine"];
   囧侯－亻－矢 [label = "囧侯－亻－矢\n* key"];
   大 [label = "大\n113 large"];
-  竹 -> 筷;
-  丁 -> 竹;
-  快 -> 筷;
-  心 -> 快;
-  夬 -> 快;
-  囧侯－亻－矢 -> 夬;
-  大 -> 夬;
+
+  竹 -> 筷 [thick];
+  丁 -> 竹 [thick];
+  快 -> 筷 [thick];
+  心 -> 快 [thick];
+  夬 -> 快 [thick];
+  囧侯－亻－矢 -> 夬 [thick];
+  大 -> 夬 [thick];
 }

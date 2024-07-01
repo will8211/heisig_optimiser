@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   覆 [label = "覆\n2616 overturn"];
   西 [label = "西\n1253 west"];
   四 [label = "四\n4 four"];
@@ -7,19 +13,20 @@ blockdiag {
   一 [label = "一\n1 one"];
   行 [label = "行\n754 line of business"];
   复 [label = "复\n472 duplicate"];
-  131209 [label = "𠂉\n* reclining"];
+  "𠂉" [label = "𠂉\n* reclining"];
   日 [label = "日\n12 day"];
   夂 [label = "夂\n* walking legs"];
-  西 -> 覆;
-  四 -> 西;
-  口 -> 四;
-  儿 -> 四;
-  一 -> 西;
-  儿 -> 西;
-  口 -> 西;
-  行 -> 覆;
-  复 -> 覆;
-  131209 -> 复;
-  日 -> 复;
-  夂 -> 复;
+
+  西 -> 覆 [thick];
+  四 -> 西 [thick];
+  口 -> 四 [thick];
+  儿 -> 四 [thick];
+  一 -> 西 [thick];
+  儿 -> 西 [thick];
+  口 -> 西 [thick];
+  行 -> 覆 [thick];
+  复 -> 覆 [thick];
+  "𠂉" -> 复 [thick];
+  日 -> 复 [thick];
+  夂 -> 复 [thick];
 }

@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   个 [label = "个\n258 individual"];
-  131490 [label = "𠆢\n* umbrella"];
+  "𠆢" [label = "𠆢\n* umbrella"];
   丨 [label = "丨\n* walking stick"];
   一 [label = "一\n1 one"];
-  131490 -> 个;
-  丨 -> 个;
-  一 -> 丨;
+
+  "𠆢" -> 个 [thick];
+  丨 -> 个 [thick];
+  一 -> 丨 [thick];
 }

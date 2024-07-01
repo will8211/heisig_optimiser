@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   腿 [label = "腿\n1148 leg"];
   月 [label = "月\n13 month"];
   退 [label = "退\n1147 retreat"];
   艮 [label = "艮\n* silver"];
   辶 [label = "辶\n* road"];
-  月 -> 腿;
-  退 -> 腿;
-  艮 -> 退;
-  辶 -> 退;
+
+  月 -> 腿 [thick];
+  退 -> 腿 [thick];
+  艮 -> 退 [thick];
+  辶 -> 退 [thick];
 }

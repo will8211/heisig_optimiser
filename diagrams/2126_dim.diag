@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   朦 [label = "朦\n2126 dim"];
   月 [label = "月\n13 month"];
   蒙 [label = "蒙\n2125 Mongolia"];
@@ -7,11 +13,12 @@ blockdiag {
   艹 [label = "艹\n* flower"];
   一 [label = "一\n1 one"];
   豕 [label = "豕\n* sow"];
-  月 -> 朦;
-  蒙 -> 朦;
-  囧荣－木 -> 蒙;
-  宀 -> 囧荣－木;
-  艹 -> 囧荣－木;
-  一 -> 蒙;
-  豕 -> 蒙;
+
+  月 -> 朦 [thick];
+  蒙 -> 朦 [thick];
+  囧荣－木 -> 蒙 [thick];
+  宀 -> 囧荣－木 [thick];
+  艹 -> 囧荣－木 [thick];
+  一 -> 蒙 [thick];
+  豕 -> 蒙 [thick];
 }

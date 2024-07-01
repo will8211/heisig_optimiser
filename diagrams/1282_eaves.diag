@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   宇 [label = "宇\n1282 eaves"];
   宀 [label = "宀\n* house"];
   于 [label = "于\n1281 Yu"];
   干 [label = "干\n1277 dry"];
-  宀 -> 宇;
-  于 -> 宇;
-  干 -> 于;
+
+  宀 -> 宇 [thick];
+  于 -> 宇 [thick];
+  干 -> 于 [thick];
 }

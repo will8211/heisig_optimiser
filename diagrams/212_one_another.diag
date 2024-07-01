@@ -1,0 +1,14 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  相 [label = "相\n212 one another"];
+  木 [label = "木\n202 tree"];
+  目 [label = "目\n15 eye"];
+
+  木 -> 相 [thick];
+  目 -> 相 [thick];
+}

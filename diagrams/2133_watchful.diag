@@ -1,15 +1,22 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   惕 [label = "惕\n2133 watchful"];
   心 [label = "心\n563 heart"];
   易 [label = "易\n880 easy"];
   日 [label = "日\n12 day"];
   勿 [label = "勿\n877 not"];
-  131283 [label = "𠃓\n* piglets"];
+  "𠃓" [label = "𠃓\n* piglets"];
   豕 [label = "豕\n* sow"];
-  心 -> 惕;
-  易 -> 惕;
-  日 -> 易;
-  勿 -> 易;
-  131283 -> 勿;
-  豕 -> 131283;
+
+  心 -> 惕 [thick];
+  易 -> 惕 [thick];
+  日 -> 易 [thick];
+  勿 -> 易 [thick];
+  "𠃓" -> 勿 [thick];
+  豕 -> "𠃓" [thick];
 }

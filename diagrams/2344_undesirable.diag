@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   陋 [label = "陋\n2344 undesirable"];
   阝 [label = "阝\n* pinnacle"];
   丙 [label = "丙\n842 third"];
@@ -8,12 +14,13 @@ blockdiag {
   巾 [label = "巾\n410 towel"];
   人 [label = "人\n793 person"];
   乙 [label = "乙\n95 second"];
-  阝 -> 陋;
-  丙 -> 陋;
-  一 -> 丙;
-  内 -> 丙;
-  囧冂 -> 内;
-  巾 -> 囧冂;
-  人 -> 内;
-  乙 -> 陋;
+
+  阝 -> 陋 [thick];
+  丙 -> 陋 [thick];
+  一 -> 丙 [thick];
+  内 -> 丙 [thick];
+  囧冂 -> 内 [thick];
+  巾 -> 囧冂 [thick];
+  人 -> 内 [thick];
+  乙 -> 陋 [thick];
 }

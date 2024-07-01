@@ -1,12 +1,19 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   暮 [label = "暮\n1585 sunset"];
   莫 [label = "莫\n231 nobody"];
   艹 [label = "艹\n* flower"];
   日 [label = "日\n12 day"];
   大 [label = "大\n113 large"];
-  莫 -> 暮;
-  艹 -> 莫;
-  日 -> 莫;
-  大 -> 莫;
-  日 -> 暮;
+
+  莫 -> 暮 [thick];
+  艹 -> 莫 [thick];
+  日 -> 莫 [thick];
+  大 -> 莫 [thick];
+  日 -> 暮 [thick];
 }

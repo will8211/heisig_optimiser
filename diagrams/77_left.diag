@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   左 [label = "左\n77 left"];
-  131207 [label = "𠂇\n* by one’s side"];
+  "𠂇" [label = "𠂇\n* by one’s side"];
   十 [label = "十\n10 ten"];
   工 [label = "工\n76 work"];
-  131207 -> 左;
-  十 -> 131207;
-  工 -> 左;
+
+  "𠂇" -> 左 [thick];
+  十 -> "𠂇" [thick];
+  工 -> 左 [thick];
 }

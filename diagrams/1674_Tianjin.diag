@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   津 [label = "津\n1674 Tianjin"];
   水 [label = "水\n137 water"];
   丨 [label = "丨\n* walking stick"];
   一 [label = "一\n1 one"];
   丶 [label = "丶\n* a drop of"];
   聿 [label = "聿\n* brush"];
-  水 -> 津;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  聿 -> 津;
+
+  水 -> 津 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  聿 -> 津 [thick];
 }

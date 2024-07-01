@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   棱 [label = "棱\n2348 edge"];
   木 [label = "木\n202 tree"];
   夌 [label = "夌\n* Minuteclods"];
@@ -6,10 +12,11 @@ blockdiag {
   囧只－口 [label = "囧只－口\n* animal legs"];
   八 [label = "八\n8 eight"];
   夂 [label = "夂\n* walking legs"];
-  木 -> 棱;
-  夌 -> 棱;
-  土 -> 夌;
-  囧只－口 -> 夌;
-  八 -> 囧只－口;
-  夂 -> 夌;
+
+  木 -> 棱 [thick];
+  夌 -> 棱 [thick];
+  土 -> 夌 [thick];
+  囧只－口 -> 夌 [thick];
+  八 -> 囧只－口 [thick];
+  夂 -> 夌 [thick];
 }

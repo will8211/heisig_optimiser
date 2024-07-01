@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  蝶 [label = "蝶\n2976 butterfly (back end)"];
+  虫 [label = "虫\n509 insect"];
+  枼 [label = "枼\n* family tree"];
+  世 [label = "世\n28 generation"];
+  十 [label = "十\n10 ten"];
+  木 [label = "木\n202 tree"];
+
+  虫 -> 蝶 [thick];
+  枼 -> 蝶 [thick];
+  世 -> 枼 [thick];
+  十 -> 世 [thick];
+  木 -> 枼 [thick];
+}

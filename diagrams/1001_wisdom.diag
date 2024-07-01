@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   智 [label = "智\n1001 wisdom"];
   知 [label = "知\n1000 know"];
   矢 [label = "矢\n998 dart"];
@@ -8,12 +14,13 @@ blockdiag {
   丶 [label = "丶\n* a drop of"];
   口 [label = "口\n11 mouth"];
   日 [label = "日\n12 day"];
-  知 -> 智;
-  矢 -> 知;
-  天 -> 矢;
-  一 -> 天;
-  大 -> 天;
-  丶 -> 矢;
-  口 -> 知;
-  日 -> 智;
+
+  知 -> 智 [thick];
+  矢 -> 知 [thick];
+  天 -> 矢 [thick];
+  一 -> 天 [thick];
+  大 -> 天 [thick];
+  丶 -> 矢 [thick];
+  口 -> 知 [thick];
+  日 -> 智 [thick];
 }

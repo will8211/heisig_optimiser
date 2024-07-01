@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  稻 [label = "稻\n2963 unhulled rice"];
+  禾 [label = "禾\n762 standing grain"];
+  舀 [label = "舀\n* scoop"];
+  爪 [label = "爪\n663 claw"];
+  "𠂆" [label = "𠂆\n* drag"];
+  臼 [label = "臼\n* mortar"];
+
+  禾 -> 稻 [thick];
+  舀 -> 稻 [thick];
+  爪 -> 舀 [thick];
+  "𠂆" -> 爪 [thick];
+  臼 -> 舀 [thick];
+}

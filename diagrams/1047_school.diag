@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   校 [label = "校\n1047 school"];
   木 [label = "木\n202 tree"];
   交 [label = "交\n1044 mingle"];
@@ -8,14 +14,15 @@ blockdiag {
   八 [label = "八\n8 eight"];
   父 [label = "父\n1043 father"];
   丶 [label = "丶\n* a drop of"];
-  木 -> 校;
-  交 -> 校;
-  亠 -> 交;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  父 -> 交;
-  丶 -> 父;
+
+  木 -> 校 [thick];
+  交 -> 校 [thick];
+  亠 -> 交 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  父 -> 交 [thick];
+  丶 -> 父 [thick];
 }

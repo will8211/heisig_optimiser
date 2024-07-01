@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   癌 [label = "癌\n2665 cancer"];
   疒 [label = "疒\n* sickness"];
   洞 [label = "洞\n186 cave"];
@@ -15,25 +21,26 @@ blockdiag {
   晶 [label = "晶\n23 sparkling"];
   日 [label = "日\n12 day"];
   山 [label = "山\n688 mountain"];
-  疒 -> 癌;
-  洞 -> 疒;
-  同 -> 洞;
-  一 -> 同;
-  口 -> 同;
-  冂 -> 同;
-  几 -> 冂;
-  水 -> 洞;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  冫 -> 疒;
-  水 -> 冫;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  品 -> 癌;
-  晶 -> 品;
-  日 -> 晶;
-  口 -> 品;
-  山 -> 癌;
+
+  疒 -> 癌 [thick];
+  洞 -> 疒 [thick];
+  同 -> 洞 [thick];
+  一 -> 同 [thick];
+  口 -> 同 [thick];
+  冂 -> 同 [thick];
+  几 -> 冂 [thick];
+  水 -> 洞 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  冫 -> 疒 [thick];
+  水 -> 冫 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  品 -> 癌 [thick];
+  晶 -> 品 [thick];
+  日 -> 晶 [thick];
+  口 -> 品 [thick];
+  山 -> 癌 [thick];
 }

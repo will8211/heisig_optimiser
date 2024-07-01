@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   善 [label = "善\n870 virtuous"];
   羊 [label = "羊\n528 sheep"];
   丷 [label = "丷\n* horns"];
   一 [label = "一\n1 one"];
   口 [label = "口\n11 mouth"];
-  羊 -> 善;
-  丷 -> 羊;
-  一 -> 丷;
-  丷 -> 善;
-  一 -> 丷;
-  口 -> 善;
+
+  羊 -> 善 [thick];
+  丷 -> 羊 [thick];
+  一 -> 丷 [thick];
+  丷 -> 善 [thick];
+  一 -> 丷 [thick];
+  口 -> 善 [thick];
 }

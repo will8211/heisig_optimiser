@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   休 [label = "休\n812 rest"];
   人 [label = "人\n793 person"];
   木 [label = "木\n202 tree"];
-  人 -> 休;
-  木 -> 休;
+
+  人 -> 休 [thick];
+  木 -> 休 [thick];
 }

@@ -1,0 +1,42 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  斋 [label = "斋\n2715 abstain from food"];
+  文 [label = "文\n1315 literature"];
+  亠 [label = "亠\n* top hat"];
+  六 [label = "六\n6 six"];
+  囧只－口 [label = "囧只－口\n* animal legs"];
+  八 [label = "八\n8 eight"];
+  "㐅" [label = "㐅\n* sheaf"];
+  梳 [label = "梳\n685 comb"];
+  木 [label = "木\n202 tree"];
+  "㐬" [label = "㐬\n* baby Moses"];
+  囧充－儿 [label = "囧充－儿\n* infant"];
+  囧会－亼 [label = "囧会－亼\n* wall"];
+  厶 [label = "厶\n* elbow"];
+  一 [label = "一\n1 one"];
+  丶 [label = "丶\n* a drop of"];
+  川 [label = "川\n134 stream"];
+
+  文 -> 斋 [thick];
+  亠 -> 文 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  "㐅" -> 文 [thick];
+  梳 -> 斋 [thick];
+  木 -> 梳 [thick];
+  "㐬" -> 梳 [thick];
+  囧充－儿 -> "㐬" [thick];
+  囧会－亼 -> 囧充－儿 [thick];
+  厶 -> 囧会－亼 [thick];
+  一 -> 囧会－亼 [thick];
+  丶 -> 囧充－儿 [thick];
+  川 -> "㐬" [thick];
+}

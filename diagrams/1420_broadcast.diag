@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   播 [label = "播\n1420 broadcast"];
   扌 [label = "扌\n* fingers"];
   番 [label = "番\n1418 try"];
@@ -6,10 +12,11 @@ blockdiag {
   丶 [label = "丶\n* a drop of"];
   米 [label = "米\n778 rice"];
   田 [label = "田\n14 rice field"];
-  扌 -> 播;
-  番 -> 播;
-  釆 -> 番;
-  丶 -> 釆;
-  米 -> 釆;
-  田 -> 番;
+
+  扌 -> 播 [thick];
+  番 -> 播 [thick];
+  釆 -> 番 [thick];
+  丶 -> 釆 [thick];
+  米 -> 釆 [thick];
+  田 -> 番 [thick];
 }

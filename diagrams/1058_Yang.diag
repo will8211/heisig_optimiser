@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   阳 [label = "阳\n1058 Yang"];
   阝 [label = "阝\n* pinnacle"];
   日 [label = "日\n12 day"];
-  阝 -> 阳;
-  日 -> 阳;
+
+  阝 -> 阳 [thick];
+  日 -> 阳 [thick];
 }

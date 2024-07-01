@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   拦 [label = "拦\n1762 impede"];
   扌 [label = "扌\n* fingers"];
   兰 [label = "兰\n533 orchid"];
   羊 [label = "羊\n528 sheep"];
   丷 [label = "丷\n* horns"];
   一 [label = "一\n1 one"];
-  扌 -> 拦;
-  兰 -> 拦;
-  羊 -> 兰;
-  丷 -> 羊;
-  一 -> 丷;
+
+  扌 -> 拦 [thick];
+  兰 -> 拦 [thick];
+  羊 -> 兰 [thick];
+  丷 -> 羊 [thick];
+  一 -> 丷 [thick];
 }

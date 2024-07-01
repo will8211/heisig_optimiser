@@ -1,0 +1,18 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  剖 [label = "剖\n1720 cut open"];
+  咅 [label = "咅\n* muzzle"];
+  立 [label = "立\n444 standing up"];
+  口 [label = "口\n11 mouth"];
+  刀 [label = "刀\n83 sword"];
+
+  咅 -> 剖 [thick];
+  立 -> 咅 [thick];
+  口 -> 咅 [thick];
+  刀 -> 剖 [thick];
+}

@@ -1,0 +1,18 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  牲 [label = "牲\n2570 domestic animal"];
+  牛 [label = "牛\n252 cow"];
+  生 [label = "生\n1218 life"];
+  丶 [label = "丶\n* a drop of"];
+  囧毒－母 [label = "囧毒－母\n* grow up"];
+
+  牛 -> 牲 [thick];
+  生 -> 牲 [thick];
+  丶 -> 生 [thick];
+  囧毒－母 -> 生 [thick];
+}

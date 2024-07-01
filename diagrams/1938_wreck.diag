@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   摧 [label = "摧\n1938 wreck"];
   指 [label = "指\n594 finger"];
   扌 [label = "扌\n* fingers"];
@@ -8,12 +14,13 @@ blockdiag {
   崔 [label = "崔\n1937 Cui"];
   山 [label = "山\n688 mountain"];
   隹 [label = "隹\n* turkey"];
-  指 -> 摧;
-  扌 -> 指;
-  旨 -> 指;
-  匕 -> 旨;
-  日 -> 旨;
-  崔 -> 摧;
-  山 -> 崔;
-  隹 -> 崔;
+
+  指 -> 摧 [thick];
+  扌 -> 指 [thick];
+  旨 -> 指 [thick];
+  匕 -> 旨 [thick];
+  日 -> 旨 [thick];
+  崔 -> 摧 [thick];
+  山 -> 崔 [thick];
+  隹 -> 崔 [thick];
 }

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   慷 [label = "慷\n2228 generous"];
   心 [label = "心\n563 heart"];
   康 [label = "康\n956 hale"];
@@ -13,22 +19,23 @@ blockdiag {
   丶 [label = "丶\n* a drop of"];
   肀 [label = "肀\n* rake"];
   彐 [label = "彐\n* broom"];
-  心 -> 慷;
-  康 -> 慷;
-  洞 -> 康;
-  同 -> 洞;
-  一 -> 同;
-  口 -> 同;
-  冂 -> 同;
-  几 -> 冂;
-  水 -> 洞;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  肀 -> 康;
-  彐 -> 肀;
-  水 -> 康;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
+
+  心 -> 慷 [thick];
+  康 -> 慷 [thick];
+  洞 -> 康 [thick];
+  同 -> 洞 [thick];
+  一 -> 同 [thick];
+  口 -> 同 [thick];
+  冂 -> 同 [thick];
+  几 -> 冂 [thick];
+  水 -> 洞 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  肀 -> 康 [thick];
+  彐 -> 肀 [thick];
+  水 -> 康 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
 }

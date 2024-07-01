@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   潜 [label = "潜\n1979 submerge"];
   水 [label = "水\n137 water"];
   丨 [label = "丨\n* walking stick"];
@@ -8,12 +14,13 @@ blockdiag {
   夫 [label = "夫\n726 husband"];
   大 [label = "大\n113 large"];
   日 [label = "日\n12 day"];
-  水 -> 潜;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  替 -> 潜;
-  夫 -> 替;
-  大 -> 夫;
-  日 -> 替;
+
+  水 -> 潜 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  替 -> 潜 [thick];
+  夫 -> 替 [thick];
+  大 -> 夫 [thick];
+  日 -> 替 [thick];
 }

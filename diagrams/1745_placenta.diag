@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   胞 [label = "胞\n1745 placenta"];
   月 [label = "月\n13 month"];
   包 [label = "包\n520 wrap"];
   勹 [label = "勹\n* bound up"];
   已 [label = "已\n519 already"];
   己 [label = "己\n515 self"];
-  月 -> 胞;
-  包 -> 胞;
-  勹 -> 包;
-  已 -> 包;
-  己 -> 已;
+
+  月 -> 胞 [thick];
+  包 -> 胞 [thick];
+  勹 -> 包 [thick];
+  已 -> 包 [thick];
+  己 -> 已 [thick];
 }

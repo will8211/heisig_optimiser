@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   吁 [label = "吁\n2647 plead"];
   口 [label = "口\n11 mouth"];
   于 [label = "于\n1281 Yu"];
   干 [label = "干\n1277 dry"];
-  口 -> 吁;
-  于 -> 吁;
-  干 -> 于;
+
+  口 -> 吁 [thick];
+  于 -> 吁 [thick];
+  干 -> 于 [thick];
 }

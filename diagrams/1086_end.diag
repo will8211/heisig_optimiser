@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   终 [label = "终\n1086 end"];
   纟 [label = "纟\n* thread"];
   厶 [label = "厶\n* elbow"];
@@ -9,13 +15,14 @@ blockdiag {
   丨 [label = "丨\n* walking stick"];
   一 [label = "一\n1 one"];
   丶 [label = "丶\n* a drop of"];
-  纟 -> 终;
-  厶 -> 纟;
-  冬 -> 终;
-  夂 -> 冬;
-  冫 -> 冬;
-  水 -> 冫;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
+
+  纟 -> 终 [thick];
+  厶 -> 纟 [thick];
+  冬 -> 终 [thick];
+  夂 -> 冬 [thick];
+  冫 -> 冬 [thick];
+  水 -> 冫 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
 }

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   婿 [label = "婿\n1676 son-in-law"];
   女 [label = "女\n102 woman"];
   疋 [label = "疋\n* zoo"];
@@ -7,11 +13,12 @@ blockdiag {
   一 [label = "一\n1 one"];
   止 [label = "止\n379 stop"];
   月 [label = "月\n13 month"];
-  女 -> 婿;
-  疋 -> 婿;
-  囧走－十 -> 疋;
-  正 -> 囧走－十;
-  一 -> 正;
-  止 -> 正;
-  月 -> 婿;
+
+  女 -> 婿 [thick];
+  疋 -> 婿 [thick];
+  囧走－十 -> 疋 [thick];
+  正 -> 囧走－十 [thick];
+  一 -> 正 [thick];
+  止 -> 正 [thick];
+  月 -> 婿 [thick];
 }

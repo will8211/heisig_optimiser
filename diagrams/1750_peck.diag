@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   啄 [label = "啄\n1750 peck"];
   口 [label = "口\n11 mouth"];
   豖 [label = "豖\n* hog-tied"];
   豕 [label = "豕\n* sow"];
-  口 -> 啄;
-  豖 -> 啄;
-  豕 -> 豖;
+
+  口 -> 啄 [thick];
+  豖 -> 啄 [thick];
+  豕 -> 豖 [thick];
 }

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   懊 [label = "懊\n2033 remorseful"];
   心 [label = "心\n563 heart"];
   奥 [label = "奥\n2031 of great depth"];
@@ -7,11 +13,12 @@ blockdiag {
   几 [label = "几\n57 how many?"];
   米 [label = "米\n778 rice"];
   大 [label = "大\n113 large"];
-  心 -> 懊;
-  奥 -> 懊;
-  丶 -> 奥;
-  冂 -> 奥;
-  几 -> 冂;
-  米 -> 奥;
-  大 -> 奥;
+
+  心 -> 懊 [thick];
+  奥 -> 懊 [thick];
+  丶 -> 奥 [thick];
+  冂 -> 奥 [thick];
+  几 -> 冂 [thick];
+  米 -> 奥 [thick];
+  大 -> 奥 [thick];
 }

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   卡 [label = "卡\n47 card"];
   上 [label = "上\n45 above"];
   卜 [label = "卜\n43 divination"];
@@ -6,16 +12,17 @@ blockdiag {
   一 [label = "一\n1 one"];
   丶 [label = "丶\n* a drop of"];
   下 [label = "下\n46 below"];
-  上 -> 卡;
-  卜 -> 上;
-  丨 -> 卜;
-  一 -> 丨;
-  丶 -> 卜;
-  一 -> 上;
-  下 -> 卡;
-  卜 -> 下;
-  丨 -> 卜;
-  一 -> 丨;
-  丶 -> 卜;
-  一 -> 下;
+
+  上 -> 卡 [thick];
+  卜 -> 上 [thick];
+  丨 -> 卜 [thick];
+  一 -> 丨 [thick];
+  丶 -> 卜 [thick];
+  一 -> 上 [thick];
+  下 -> 卡 [thick];
+  卜 -> 下 [thick];
+  丨 -> 卜 [thick];
+  一 -> 丨 [thick];
+  丶 -> 卜 [thick];
+  一 -> 下 [thick];
 }

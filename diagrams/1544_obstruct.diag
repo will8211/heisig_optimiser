@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   碍 [label = "碍\n1544 obstruct"];
   石 [label = "石\n125 stone"];
   口 [label = "口\n11 mouth"];
@@ -9,13 +15,14 @@ blockdiag {
   寸 [label = "寸\n166 Chinese inch"];
   丶 [label = "丶\n* a drop of"];
   十 [label = "十\n10 ten"];
-  石 -> 碍;
-  口 -> 石;
-  厂 -> 石;
-  旦 -> 碍;
-  日 -> 旦;
-  一 -> 旦;
-  寸 -> 碍;
-  丶 -> 寸;
-  十 -> 寸;
+
+  石 -> 碍 [thick];
+  口 -> 石 [thick];
+  厂 -> 石 [thick];
+  旦 -> 碍 [thick];
+  日 -> 旦 [thick];
+  一 -> 旦 [thick];
+  寸 -> 碍 [thick];
+  丶 -> 寸 [thick];
+  十 -> 寸 [thick];
 }

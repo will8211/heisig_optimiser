@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   驾 [label = "驾\n2902 drive"];
   加 [label = "加\n749 add"];
   肌 [label = "肌\n63 muscle"];
@@ -7,11 +13,12 @@ blockdiag {
   口 [label = "口\n11 mouth"];
   马 [label = "马\n1453 horse"];
   囧与－丨一 [label = "囧与－丨一\n* pointed tail"];
-  加 -> 驾;
-  肌 -> 加;
-  几 -> 肌;
-  月 -> 肌;
-  口 -> 加;
-  马 -> 驾;
-  囧与－丨一 -> 马;
+
+  加 -> 驾 [thick];
+  肌 -> 加 [thick];
+  几 -> 肌 [thick];
+  月 -> 肌 [thick];
+  口 -> 加 [thick];
+  马 -> 驾 [thick];
+  囧与－丨一 -> 马 [thick];
 }

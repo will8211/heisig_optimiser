@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   嘱 [label = "嘱\n2956 admonish"];
   口 [label = "口\n11 mouth"];
   属 [label = "属\n1500 belong to"];
@@ -7,11 +13,12 @@ blockdiag {
   囧冂 [label = "囧冂\n* belt"];
   巾 [label = "巾\n410 towel"];
   虫 [label = "虫\n509 insect"];
-  口 -> 嘱;
-  属 -> 嘱;
-  尸 -> 属;
-  丶 -> 属;
-  囧冂 -> 属;
-  巾 -> 囧冂;
-  虫 -> 属;
+
+  口 -> 嘱 [thick];
+  属 -> 嘱 [thick];
+  尸 -> 属 [thick];
+  丶 -> 属 [thick];
+  囧冂 -> 属 [thick];
+  巾 -> 囧冂 [thick];
+  虫 -> 属 [thick];
 }

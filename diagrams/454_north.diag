@@ -1,5 +1,12 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   北 [label = "北\n454 north"];
   匕 [label = "匕\n453 ancient spoon"];
-  匕 -> 北;
+
+  匕 -> 北 [thick];
 }

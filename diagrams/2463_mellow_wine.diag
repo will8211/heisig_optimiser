@@ -1,0 +1,41 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  醇 [label = "醇\n2463 mellow wine"];
+  酉 [label = "酉\n* whiskey bottle"];
+  享 [label = "享\n326 enjoy"];
+  子 [label = "子\n97 child"];
+  高 [label = "高\n325 tall"];
+  向 [label = "向\n188 orientation"];
+  丶 [label = "丶\n* a drop of"];
+  冂 [label = "冂\n* hood"];
+  几 [label = "几\n57 how many?"];
+  口 [label = "口\n11 mouth"];
+  亠 [label = "亠\n* top hat"];
+  六 [label = "六\n6 six"];
+  囧只－口 [label = "囧只－口\n* animal legs"];
+  八 [label = "八\n8 eight"];
+
+  酉 -> 醇 [thick];
+  享 -> 醇 [thick];
+  子 -> 享 [thick];
+  高 -> 享 [thick];
+  向 -> 高 [thick];
+  丶 -> 向 [thick];
+  冂 -> 向 [thick];
+  几 -> 冂 [thick];
+  口 -> 向 [thick];
+  口 -> 高 [thick];
+  冂 -> 高 [thick];
+  几 -> 冂 [thick];
+  亠 -> 高 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+}

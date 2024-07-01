@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   望 [label = "望\n493 expect"];
   王 [label = "王\n265 king"];
   工 [label = "工\n76 work"];
@@ -9,15 +15,16 @@ blockdiag {
   八 [label = "八\n8 eight"];
   乙 [label = "乙\n95 second"];
   月 [label = "月\n13 month"];
-  王 -> 望;
-  工 -> 王;
-  亡 -> 望;
-  亠 -> 亡;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  乙 -> 亡;
-  月 -> 望;
+
+  王 -> 望 [thick];
+  工 -> 王 [thick];
+  亡 -> 望 [thick];
+  亠 -> 亡 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  乙 -> 亡 [thick];
+  月 -> 望 [thick];
 }

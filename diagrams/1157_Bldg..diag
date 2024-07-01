@@ -1,21 +1,28 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   馆 [label = "馆\n1157 Bldg."];
   食 [label = "食\n1154 food"];
   良 [label = "良\n1151 high-quality"];
   丶 [label = "丶\n* a drop of"];
   艮 [label = "艮\n* silver"];
-  131490 [label = "𠆢\n* umbrella"];
+  "𠆢" [label = "𠆢\n* umbrella"];
   官 [label = "官\n1041 bureaucrat"];
-  131236 [label = "𠂤\n* maestro"];
+  "𠂤" [label = "𠂤\n* maestro"];
   宀 [label = "宀\n* house"];
-  食 -> 馆;
-  良 -> 食;
-  丶 -> 良;
-  艮 -> 良;
-  131490 -> 食;
-  官 -> 馆;
-  131236 -> 官;
-  丶 -> 131236;
-  丶 -> 官;
-  宀 -> 官;
+
+  食 -> 馆 [thick];
+  良 -> 食 [thick];
+  丶 -> 良 [thick];
+  艮 -> 良 [thick];
+  "𠆢" -> 食 [thick];
+  官 -> 馆 [thick];
+  "𠂤" -> 官 [thick];
+  丶 -> "𠂤" [thick];
+  丶 -> 官 [thick];
+  宀 -> 官 [thick];
 }

@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   叭 [label = "叭\n1501 trumpet"];
   八 [label = "八\n8 eight"];
   口 [label = "口\n11 mouth"];
-  八 -> 叭;
-  口 -> 叭;
+
+  八 -> 叭 [thick];
+  口 -> 叭 [thick];
 }

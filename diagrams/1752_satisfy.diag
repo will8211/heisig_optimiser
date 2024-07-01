@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   遂 [label = "遂\n1752 satisfy"];
   丷 [label = "丷\n* horns"];
   一 [label = "一\n1 one"];
   豕 [label = "豕\n* sow"];
   辶 [label = "辶\n* road"];
-  丷 -> 遂;
-  一 -> 丷;
-  豕 -> 遂;
-  辶 -> 遂;
+
+  丷 -> 遂 [thick];
+  一 -> 丷 [thick];
+  豕 -> 遂 [thick];
+  辶 -> 遂 [thick];
 }

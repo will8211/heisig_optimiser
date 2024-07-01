@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   盲 [label = "盲\n491 blind"];
   目 [label = "目\n15 eye"];
   亡 [label = "亡\n490 deceased"];
@@ -7,13 +13,14 @@ blockdiag {
   囧只－口 [label = "囧只－口\n* animal legs"];
   八 [label = "八\n8 eight"];
   乙 [label = "乙\n95 second"];
-  目 -> 盲;
-  亡 -> 盲;
-  亠 -> 亡;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  乙 -> 亡;
+
+  目 -> 盲 [thick];
+  亡 -> 盲 [thick];
+  亠 -> 亡 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  乙 -> 亡 [thick];
 }

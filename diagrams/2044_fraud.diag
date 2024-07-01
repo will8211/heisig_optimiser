@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   弊 [label = "弊\n2044 fraud"];
   敝 [label = "敝\n* shredder"];
   冂 [label = "冂\n* hood"];
@@ -8,12 +14,13 @@ blockdiag {
   开 [label = "开\n613 open"];
   二 [label = "二\n2 two"];
   一 [label = "一\n1 one"];
-  敝 -> 弊;
-  冂 -> 敝;
-  几 -> 冂;
-  米 -> 敝;
-  攵 -> 敝;
-  开 -> 弊;
-  二 -> 开;
-  一 -> 二;
+
+  敝 -> 弊 [thick];
+  冂 -> 敝 [thick];
+  几 -> 冂 [thick];
+  米 -> 敝 [thick];
+  攵 -> 敝 [thick];
+  开 -> 弊 [thick];
+  二 -> 开 [thick];
+  一 -> 二 [thick];
 }

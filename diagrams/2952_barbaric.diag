@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   蛮 [label = "蛮\n2952 barbaric"];
   亦 [label = "亦\n1491 likewise"];
   亠 [label = "亠\n* top hat"];
@@ -7,15 +13,16 @@ blockdiag {
   八 [label = "八\n8 eight"];
   刀 [label = "刀\n83 sword"];
   虫 [label = "虫\n509 insect"];
-  亦 -> 蛮;
-  亠 -> 亦;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  囧只－口 -> 亦;
-  八 -> 囧只－口;
-  刀 -> 亦;
-  虫 -> 蛮;
+
+  亦 -> 蛮 [thick];
+  亠 -> 亦 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亦 [thick];
+  八 -> 囧只－口 [thick];
+  刀 -> 亦 [thick];
+  虫 -> 蛮 [thick];
 }

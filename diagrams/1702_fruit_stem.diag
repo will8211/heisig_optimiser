@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  蒂 [label = "蒂\n1702 fruit stem"];
+  艹 [label = "艹\n* flower"];
+  帝 [label = "帝\n449 sovereign"];
+  立 [label = "立\n444 standing up"];
+  "囧冖＋巾" [label = "囧冖＋巾\n* apron"];
+  巾 [label = "巾\n410 towel"];
+  冖 [label = "冖\n* crown"];
+
+  艹 -> 蒂 [thick];
+  帝 -> 蒂 [thick];
+  立 -> 帝 [thick];
+  "囧冖＋巾" -> 帝 [thick];
+  巾 -> "囧冖＋巾" [thick];
+  冖 -> "囧冖＋巾" [thick];
+}

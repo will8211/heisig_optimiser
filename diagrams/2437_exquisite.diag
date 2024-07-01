@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   玲 [label = "玲\n2437 exquisite"];
   玉 [label = "玉\n266 jade"];
   王 [label = "王\n265 king"];
@@ -6,14 +12,15 @@ blockdiag {
   丶 [label = "丶\n* a drop of"];
   令 [label = "令\n1113 orders"];
   亼 [label = "亼\n* meeting"];
-  131490 [label = "𠆢\n* umbrella"];
+  "𠆢" [label = "𠆢\n* umbrella"];
   囧节－艹 [label = "囧节－艹\n* chop"];
-  玉 -> 玲;
-  王 -> 玉;
-  工 -> 王;
-  丶 -> 玉;
-  令 -> 玲;
-  亼 -> 令;
-  131490 -> 亼;
-  囧节－艹 -> 令;
+
+  玉 -> 玲 [thick];
+  王 -> 玉 [thick];
+  工 -> 王 [thick];
+  丶 -> 玉 [thick];
+  令 -> 玲 [thick];
+  亼 -> 令 [thick];
+  "𠆢" -> 亼 [thick];
+  囧节－艹 -> 令 [thick];
 }

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   蒸 [label = "蒸\n1413 steam"];
   艹 [label = "艹\n* flower"];
   一 [label = "一\n1 one"];
@@ -8,13 +14,14 @@ blockdiag {
   水 [label = "水\n137 water"];
   丨 [label = "丨\n* walking stick"];
   丶 [label = "丶\n* a drop of"];
-  艹 -> 蒸;
-  一 -> 蒸;
-  火 -> 蒸;
-  了 -> 蒸;
-  子 -> 了;
-  水 -> 蒸;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
+
+  艹 -> 蒸 [thick];
+  一 -> 蒸 [thick];
+  火 -> 蒸 [thick];
+  了 -> 蒸 [thick];
+  子 -> 了 [thick];
+  水 -> 蒸 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
 }

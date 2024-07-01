@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   蚁 [label = "蚁\n1182 ant"];
   虫 [label = "虫\n509 insect"];
   义 [label = "义\n1180 righteousness"];
-  13317 [label = "㐅\n* sheaf"];
+  "㐅" [label = "㐅\n* sheaf"];
   丶 [label = "丶\n* a drop of"];
-  虫 -> 蚁;
-  义 -> 蚁;
-  13317 -> 义;
-  丶 -> 义;
+
+  虫 -> 蚁 [thick];
+  义 -> 蚁 [thick];
+  "㐅" -> 义 [thick];
+  丶 -> 义 [thick];
 }

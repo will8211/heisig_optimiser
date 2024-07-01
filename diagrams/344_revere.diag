@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   敬 [label = "敬\n344 revere"];
   艹 [label = "艹\n* flower"];
   句 [label = "句\n67 sentence"];
   勹 [label = "勹\n* bound up"];
   口 [label = "口\n11 mouth"];
   攵 [label = "攵\n* taskmaster"];
-  艹 -> 敬;
-  句 -> 敬;
-  勹 -> 句;
-  口 -> 句;
-  攵 -> 敬;
+
+  艹 -> 敬 [thick];
+  句 -> 敬 [thick];
+  勹 -> 句 [thick];
+  口 -> 句 [thick];
+  攵 -> 敬 [thick];
 }

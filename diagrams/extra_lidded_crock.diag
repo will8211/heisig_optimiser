@@ -1,0 +1,14 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  囧周－冂 [label = "囧周－冂\n* lidded crock"];
+  土 [label = "土\n158 soil"];
+  口 [label = "口\n11 mouth"];
+
+  土 -> 囧周－冂 [thick];
+  口 -> 囧周－冂 [thick];
+}

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   墙 [label = "墙\n1781 wall"];
   土 [label = "土\n158 soil"];
   丷 [label = "丷\n* horns"];
@@ -6,10 +12,11 @@ blockdiag {
   回 [label = "回\n554 return"];
   囗 [label = "囗\n* pent in"];
   口 [label = "口\n11 mouth"];
-  土 -> 墙;
-  丷 -> 墙;
-  一 -> 丷;
-  回 -> 墙;
-  囗 -> 回;
-  口 -> 回;
+
+  土 -> 墙 [thick];
+  丷 -> 墙 [thick];
+  一 -> 丷 [thick];
+  回 -> 墙 [thick];
+  囗 -> 回 [thick];
+  口 -> 回 [thick];
 }

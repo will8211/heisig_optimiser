@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   裂 [label = "裂\n1968 crack"];
   列 [label = "列\n713 line up"];
   歹 [label = "歹\n712 malicious"];
@@ -8,14 +14,15 @@ blockdiag {
   六 [label = "六\n6 six"];
   囧只－口 [label = "囧只－口\n* animal legs"];
   八 [label = "八\n8 eight"];
-  列 -> 裂;
-  歹 -> 列;
-  刀 -> 列;
-  衣 -> 裂;
-  亠 -> 衣;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
+
+  列 -> 裂 [thick];
+  歹 -> 列 [thick];
+  刀 -> 列 [thick];
+  衣 -> 裂 [thick];
+  亠 -> 衣 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
 }

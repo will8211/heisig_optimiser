@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   堪 [label = "堪\n2740 tolerate"];
   土 [label = "土\n158 soil"];
   囧甚 [label = "囧甚\n* Hercules"];
@@ -8,12 +14,13 @@ blockdiag {
   囧只－口 [label = "囧只－口\n* animal legs"];
   八 [label = "八\n8 eight"];
   乙 [label = "乙\n95 second"];
-  土 -> 堪;
-  囧甚 -> 堪;
-  甚 -> 囧甚;
-  其 -> 甚;
-  甘 -> 其;
-  囧只－口 -> 其;
-  八 -> 囧只－口;
-  乙 -> 甚;
+
+  土 -> 堪 [thick];
+  囧甚 -> 堪 [thick];
+  甚 -> 囧甚 [thick];
+  其 -> 甚 [thick];
+  甘 -> 其 [thick];
+  囧只－口 -> 其 [thick];
+  八 -> 囧只－口 [thick];
+  乙 -> 甚 [thick];
 }

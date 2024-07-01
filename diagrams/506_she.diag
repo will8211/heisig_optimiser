@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   她 [label = "她\n506 she"];
   女 [label = "女\n102 woman"];
   也 [label = "也\n505 also"];
   乙 [label = "乙\n95 second"];
-  女 -> 她;
-  也 -> 她;
-  乙 -> 也;
+
+  女 -> 她 [thick];
+  也 -> 她 [thick];
+  乙 -> 也 [thick];
 }

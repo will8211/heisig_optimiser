@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   招 [label = "招\n592 beckon"];
   扌 [label = "扌\n* fingers"];
   召 [label = "召\n86 summon"];
   刀 [label = "刀\n83 sword"];
   口 [label = "口\n11 mouth"];
-  扌 -> 招;
-  召 -> 招;
-  刀 -> 召;
-  口 -> 召;
+
+  扌 -> 招 [thick];
+  召 -> 招 [thick];
+  刀 -> 召 [thick];
+  口 -> 召 [thick];
 }

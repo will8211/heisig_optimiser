@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   形 [label = "形\n1304 shape"];
   开 [label = "开\n613 open"];
   二 [label = "二\n2 two"];
   一 [label = "一\n1 one"];
   彡 [label = "彡\n* rooster tail"];
-  开 -> 形;
-  二 -> 开;
-  一 -> 二;
-  彡 -> 形;
+
+  开 -> 形 [thick];
+  二 -> 开 [thick];
+  一 -> 二 [thick];
+  彡 -> 形 [thick];
 }

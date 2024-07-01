@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   宙 [label = "宙\n2168 universe"];
   宀 [label = "宀\n* house"];
   由 [label = "由\n913 wherefore"];
   田 [label = "田\n14 rice field"];
-  宀 -> 宙;
-  由 -> 宙;
-  田 -> 由;
+
+  宀 -> 宙 [thick];
+  由 -> 宙 [thick];
+  田 -> 由 [thick];
 }

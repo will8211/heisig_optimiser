@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   迅 [label = "迅\n293 speedy"];
   乙 [label = "乙\n95 second"];
   十 [label = "十\n10 ten"];
   辶 [label = "辶\n* road"];
-  乙 -> 迅;
-  十 -> 迅;
-  辶 -> 迅;
+
+  乙 -> 迅 [thick];
+  十 -> 迅 [thick];
+  辶 -> 迅 [thick];
 }

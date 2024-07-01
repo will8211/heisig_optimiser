@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   航 [label = "航\n2822 navigate"];
   舟 [label = "舟\n1394 boat"];
   丶 [label = "丶\n* a drop of"];
@@ -9,16 +15,17 @@ blockdiag {
   六 [label = "六\n6 six"];
   囧只－口 [label = "囧只－口\n* animal legs"];
   八 [label = "八\n8 eight"];
-  舟 -> 航;
-  丶 -> 舟;
-  冂 -> 舟;
-  几 -> 冂;
-  亢 -> 航;
-  亠 -> 亢;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  几 -> 亢;
+
+  舟 -> 航 [thick];
+  丶 -> 舟 [thick];
+  冂 -> 舟 [thick];
+  几 -> 冂 [thick];
+  亢 -> 航 [thick];
+  亠 -> 亢 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  几 -> 亢 [thick];
 }

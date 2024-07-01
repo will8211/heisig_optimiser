@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   篷 [label = "篷\n2587 awning"];
   竹 [label = "竹\n786 bamboo"];
   丁 [label = "丁\n90 fourth"];
@@ -7,11 +13,12 @@ blockdiag {
   丰 [label = "丰\n1223 plentiful"];
   夂 [label = "夂\n* walking legs"];
   辶 [label = "辶\n* road"];
-  竹 -> 篷;
-  丁 -> 竹;
-  逢 -> 篷;
-  夆 -> 逢;
-  丰 -> 夆;
-  夂 -> 夆;
-  辶 -> 逢;
+
+  竹 -> 篷 [thick];
+  丁 -> 竹 [thick];
+  逢 -> 篷 [thick];
+  夆 -> 逢 [thick];
+  丰 -> 夆 [thick];
+  夂 -> 夆 [thick];
+  辶 -> 逢 [thick];
 }

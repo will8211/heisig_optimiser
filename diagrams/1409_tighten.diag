@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   勒 [label = "勒\n1409 tighten"];
   革 [label = "革\n1407 leather"];
   廿 [label = "廿\n976 twenty"];
@@ -7,12 +13,13 @@ blockdiag {
   肌 [label = "肌\n63 muscle"];
   几 [label = "几\n57 how many?"];
   月 [label = "月\n13 month"];
-  革 -> 勒;
-  廿 -> 革;
-  十 -> 廿;
-  口 -> 革;
-  十 -> 革;
-  肌 -> 勒;
-  几 -> 肌;
-  月 -> 肌;
+
+  革 -> 勒 [thick];
+  廿 -> 革 [thick];
+  十 -> 廿 [thick];
+  口 -> 革 [thick];
+  十 -> 革 [thick];
+  肌 -> 勒 [thick];
+  几 -> 肌 [thick];
+  月 -> 肌 [thick];
 }

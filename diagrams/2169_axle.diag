@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   轴 [label = "轴\n2169 axle"];
   车 [label = "车\n300 car"];
   由 [label = "由\n913 wherefore"];
   田 [label = "田\n14 rice field"];
-  车 -> 轴;
-  由 -> 轴;
-  田 -> 由;
+
+  车 -> 轴 [thick];
+  由 -> 轴 [thick];
+  田 -> 由 [thick];
 }

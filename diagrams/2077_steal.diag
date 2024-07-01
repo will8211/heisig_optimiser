@@ -1,17 +1,24 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   偷 [label = "偷\n2077 steal"];
   人 [label = "人\n793 person"];
   俞 [label = "俞\n* slaughterhouse"];
   亼 [label = "亼\n* meeting"];
-  131490 [label = "𠆢\n* umbrella"];
+  "𠆢" [label = "𠆢\n* umbrella"];
   刖 [label = "刖\n* butcher"];
   月 [label = "月\n13 month"];
   刀 [label = "刀\n83 sword"];
-  人 -> 偷;
-  俞 -> 偷;
-  亼 -> 俞;
-  131490 -> 亼;
-  刖 -> 俞;
-  月 -> 刖;
-  刀 -> 刖;
+
+  人 -> 偷 [thick];
+  俞 -> 偷 [thick];
+  亼 -> 俞 [thick];
+  "𠆢" -> 亼 [thick];
+  刖 -> 俞 [thick];
+  月 -> 刖 [thick];
+  刀 -> 刖 [thick];
 }

@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   秀 [label = "秀\n775 elegant"];
   禾 [label = "禾\n762 standing grain"];
   乃 [label = "乃\n625 only then"];
-  禾 -> 秀;
-  乃 -> 秀;
+
+  禾 -> 秀 [thick];
+  乃 -> 秀 [thick];
 }

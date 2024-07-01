@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  穗 [label = "穗\n2015 ear of grain"];
+  禾 [label = "禾\n762 standing grain"];
+  惠 [label = "惠\n1794 favor"];
+  一 [label = "一\n1 one"];
+  日 [label = "日\n12 day"];
+  虫 [label = "虫\n509 insect"];
+  心 [label = "心\n563 heart"];
+
+  禾 -> 穗 [thick];
+  惠 -> 穗 [thick];
+  一 -> 惠 [thick];
+  日 -> 惠 [thick];
+  虫 -> 惠 [thick];
+  心 -> 惠 [thick];
+}

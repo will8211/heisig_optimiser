@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   闯 [label = "闯\n2907 rush"];
   门 [label = "门\n1260 gate"];
   马 [label = "马\n1453 horse"];
   囧与－丨一 [label = "囧与－丨一\n* pointed tail"];
-  门 -> 闯;
-  马 -> 闯;
-  囧与－丨一 -> 马;
+
+  门 -> 闯 [thick];
+  马 -> 闯 [thick];
+  囧与－丨一 -> 马 [thick];
 }

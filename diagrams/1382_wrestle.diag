@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   搏 [label = "搏\n1382 wrestle"];
   扌 [label = "扌\n* fingers"];
   尃 [label = "尃\n* gummed label"];
@@ -7,13 +13,14 @@ blockdiag {
   月 [label = "月\n13 month"];
   丶 [label = "丶\n* a drop of"];
   寸 [label = "寸\n166 Chinese inch"];
-  扌 -> 搏;
-  尃 -> 搏;
-  甫 -> 尃;
-  十 -> 甫;
-  月 -> 甫;
-  丶 -> 甫;
-  寸 -> 尃;
-  丶 -> 寸;
-  十 -> 寸;
+
+  扌 -> 搏 [thick];
+  尃 -> 搏 [thick];
+  甫 -> 尃 [thick];
+  十 -> 甫 [thick];
+  月 -> 甫 [thick];
+  丶 -> 甫 [thick];
+  寸 -> 尃 [thick];
+  丶 -> 寸 [thick];
+  十 -> 寸 [thick];
 }

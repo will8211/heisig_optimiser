@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   罐 [label = "罐\n2881 jar"];
   缶 [label = "缶\n* tin can"];
   午 [label = "午\n542 noon"];
@@ -8,12 +14,13 @@ blockdiag {
   吅 [label = "吅\n* chatterbox"];
   口 [label = "口\n11 mouth"];
   艹 [label = "艹\n* flower"];
-  缶 -> 罐;
-  午 -> 缶;
-  山 -> 缶;
-  雚 -> 罐;
-  隹 -> 雚;
-  吅 -> 雚;
-  口 -> 吅;
-  艹 -> 雚;
+
+  缶 -> 罐 [thick];
+  午 -> 缶 [thick];
+  山 -> 缶 [thick];
+  雚 -> 罐 [thick];
+  隹 -> 雚 [thick];
+  吅 -> 雚 [thick];
+  口 -> 吅 [thick];
+  艹 -> 雚 [thick];
 }

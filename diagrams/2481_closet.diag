@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   橱 [label = "橱\n2481 closet"];
   木 [label = "木\n202 tree"];
   厨 [label = "厨\n1133 kitchen"];
@@ -11,17 +17,18 @@ blockdiag {
   丶 [label = "丶\n* a drop of"];
   寸 [label = "寸\n166 Chinese inch"];
   十 [label = "十\n10 ten"];
-  木 -> 橱;
-  厨 -> 橱;
-  厂 -> 厨;
-  桌 -> 厨;
-  木 -> 桌;
-  日 -> 桌;
-  卜 -> 桌;
-  丨 -> 卜;
-  一 -> 丨;
-  丶 -> 卜;
-  寸 -> 厨;
-  丶 -> 寸;
-  十 -> 寸;
+
+  木 -> 橱 [thick];
+  厨 -> 橱 [thick];
+  厂 -> 厨 [thick];
+  桌 -> 厨 [thick];
+  木 -> 桌 [thick];
+  日 -> 桌 [thick];
+  卜 -> 桌 [thick];
+  丨 -> 卜 [thick];
+  一 -> 丨 [thick];
+  丶 -> 卜 [thick];
+  寸 -> 厨 [thick];
+  丶 -> 寸 [thick];
+  十 -> 寸 [thick];
 }

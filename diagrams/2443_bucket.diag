@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   桶 [label = "桶\n2443 bucket"];
   木 [label = "木\n202 tree"];
   甬 [label = "甬\n* chop-rack"];
@@ -6,10 +12,11 @@ blockdiag {
   丨 [label = "丨\n* walking stick"];
   一 [label = "一\n1 one"];
   囧节－艹 [label = "囧节－艹\n* chop"];
-  木 -> 桶;
-  甬 -> 桶;
-  月 -> 甬;
-  丨 -> 甬;
-  一 -> 丨;
-  囧节－艹 -> 甬;
+
+  木 -> 桶 [thick];
+  甬 -> 桶 [thick];
+  月 -> 甬 [thick];
+  丨 -> 甬 [thick];
+  一 -> 丨 [thick];
+  囧节－艹 -> 甬 [thick];
 }

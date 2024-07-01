@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   萍 [label = "萍\n2530 duckweed"];
   亦 [label = "亦\n1491 likewise"];
   亠 [label = "亠\n* top hat"];
@@ -10,18 +16,19 @@ blockdiag {
   丨 [label = "丨\n* walking stick"];
   一 [label = "一\n1 one"];
   丶 [label = "丶\n* a drop of"];
-  亦 -> 萍;
-  亠 -> 亦;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  囧只－口 -> 亦;
-  八 -> 囧只－口;
-  刀 -> 亦;
-  水 -> 萍;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
+
+  亦 -> 萍 [thick];
+  亠 -> 亦 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亦 [thick];
+  八 -> 囧只－口 [thick];
+  刀 -> 亦 [thick];
+  水 -> 萍 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
 }

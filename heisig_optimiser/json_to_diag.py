@@ -7,7 +7,8 @@ def sanitize_cjk(string):
         return string
     for char in string:
         if not char == "－" and not "\u4E00" <= char <= "\u9FFF":
-            return str(sum([ord(x) for x in string]))
+            # return str(sum([ord(x) for x in string]))
+            return f'"{string}"'
     return string
 
 
@@ -26,7 +27,7 @@ def parse_requirements(node, parent_id=None, connections=None, labels=None):
     labels[safe_current_character] = current_label
 
     if parent_id:
-        connections.append(f"{safe_current_character} -> {safe_parent_id};")
+        connections.append(f"{safe_current_character} -> {safe_parent_id} [thick];")
 
     if "requirements" in node:
         for req in node["requirements"]:
@@ -58,8 +59,16 @@ for filename in os.listdir(input_dir):
         # Write the blockdiag output
         with open(output_path, "w", encoding="utf-8") as f:
             f.write("blockdiag {\n")
+            f.write("  default_fontsize = 110\n")  # default value is 11
+            f.write("  node_width = 1280\n")  # default value is 128
+            f.write("  node_height = 400\n")  # default value is 40
+            f.write("  span_width = 640\n")  # default value is 64
+            f.write("  span_height = 400\n")  # default value is 40
+            f.write("\n")
             for node_id, label in labels.items():
                 f.write(f'  {node_id} [label = "{label}"];\n')
+            if len(connections):
+                f.write("\n")
             for connection in connections:
                 f.write(f"  {connection}\n")
             f.write("}")

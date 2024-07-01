@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   栋 [label = "栋\n1248 building"];
   木 [label = "木\n202 tree"];
   东 [label = "东\n1247 east"];
   车 [label = "车\n300 car"];
   丶 [label = "丶\n* a drop of"];
-  木 -> 栋;
-  东 -> 栋;
-  车 -> 东;
-  丶 -> 东;
+
+  木 -> 栋 [thick];
+  东 -> 栋 [thick];
+  车 -> 东 [thick];
+  丶 -> 东 [thick];
 }

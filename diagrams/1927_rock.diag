@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   岩 [label = "岩\n1927 rock"];
   山 [label = "山\n688 mountain"];
   石 [label = "石\n125 stone"];
   口 [label = "口\n11 mouth"];
   厂 [label = "厂\n121 factory"];
-  山 -> 岩;
-  石 -> 岩;
-  口 -> 石;
-  厂 -> 石;
+
+  山 -> 岩 [thick];
+  石 -> 岩 [thick];
+  口 -> 石 [thick];
+  厂 -> 石 [thick];
 }

@@ -1,17 +1,24 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   授 [label = "授\n668 confer"];
   扌 [label = "扌\n* fingers"];
   受 [label = "受\n667 accept"];
   囧受－又 [label = "囧受－又\n* birdhouse"];
   爪 [label = "爪\n663 claw"];
-  131206 [label = "𠂆\n* drag"];
+  "𠂆" [label = "𠂆\n* drag"];
   宀 [label = "宀\n* house"];
   又 [label = "又\n633 again"];
-  扌 -> 授;
-  受 -> 授;
-  囧受－又 -> 受;
-  爪 -> 囧受－又;
-  131206 -> 爪;
-  宀 -> 囧受－又;
-  又 -> 受;
+
+  扌 -> 授 [thick];
+  受 -> 授 [thick];
+  囧受－又 -> 受 [thick];
+  爪 -> 囧受－又 [thick];
+  "𠂆" -> 爪 [thick];
+  宀 -> 囧受－又 [thick];
+  又 -> 受 [thick];
 }

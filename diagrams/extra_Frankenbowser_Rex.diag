@@ -1,0 +1,16 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  冘 [label = "冘\n* Frankenbowser Rex"];
+  囧尴－监 [label = "囧尴－监\n* Frankenbowser"];
+  大 [label = "大\n113 large"];
+  冖 [label = "冖\n* crown"];
+
+  囧尴－监 -> 冘 [thick];
+  大 -> 囧尴－监 [thick];
+  冖 -> 冘 [thick];
+}

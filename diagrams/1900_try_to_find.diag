@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  觅 [label = "觅\n1900 try to find"];
+  爪 [label = "爪\n663 claw"];
+  "𠂆" [label = "𠂆\n* drag"];
+  见 [label = "见\n58 see"];
+  目 [label = "目\n15 eye"];
+  儿 [label = "儿\n56 youngster"];
+
+  爪 -> 觅 [thick];
+  "𠂆" -> 爪 [thick];
+  见 -> 觅 [thick];
+  目 -> 见 [thick];
+  儿 -> 见 [thick];
+}

@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   苛 [label = "苛\n1582 exacting"];
   艹 [label = "艹\n* flower"];
   可 [label = "可\n92 can"];
   丁 [label = "丁\n90 fourth"];
   口 [label = "口\n11 mouth"];
-  艹 -> 苛;
-  可 -> 苛;
-  丁 -> 可;
-  口 -> 可;
+
+  艹 -> 苛 [thick];
+  可 -> 苛 [thick];
+  丁 -> 可 [thick];
+  口 -> 可 [thick];
 }

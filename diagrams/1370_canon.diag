@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   典 [label = "典\n1370 canon"];
   曲 [label = "曲\n967 bent"];
   田 [label = "田\n14 rice field"];
   囧具－目 [label = "囧具－目\n* tool"];
   囧只－口 [label = "囧只－口\n* animal legs"];
   八 [label = "八\n8 eight"];
-  曲 -> 典;
-  田 -> 曲;
-  囧具－目 -> 典;
-  囧只－口 -> 囧具－目;
-  八 -> 囧只－口;
+
+  曲 -> 典 [thick];
+  田 -> 曲 [thick];
+  囧具－目 -> 典 [thick];
+  囧只－口 -> 囧具－目 [thick];
+  八 -> 囧只－口 [thick];
 }

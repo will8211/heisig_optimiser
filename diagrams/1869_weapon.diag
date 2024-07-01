@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   械 [label = "械\n1869 weapon"];
   木 [label = "木\n202 tree"];
   戒 [label = "戒\n1868 take precautions against"];
@@ -7,11 +13,12 @@ blockdiag {
   一 [label = "一\n1 one"];
   戈 [label = "戈\n361 halberd"];
   弋 [label = "弋\n* arrow"];
-  木 -> 械;
-  戒 -> 械;
-  开 -> 戒;
-  二 -> 开;
-  一 -> 二;
-  戈 -> 戒;
-  弋 -> 戈;
+
+  木 -> 械 [thick];
+  戒 -> 械 [thick];
+  开 -> 戒 [thick];
+  二 -> 开 [thick];
+  一 -> 二 [thick];
+  戈 -> 戒 [thick];
+  弋 -> 戈 [thick];
 }

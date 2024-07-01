@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   瞒 [label = "瞒\n2940 dissemble"];
   目 [label = "目\n15 eye"];
   艹 [label = "艹\n* flower"];
@@ -6,10 +12,11 @@ blockdiag {
   人 [label = "人\n793 person"];
   囧冂 [label = "囧冂\n* belt"];
   巾 [label = "巾\n410 towel"];
-  目 -> 瞒;
-  艹 -> 瞒;
-  两 -> 瞒;
-  人 -> 两;
-  囧冂 -> 两;
-  巾 -> 囧冂;
+
+  目 -> 瞒 [thick];
+  艹 -> 瞒 [thick];
+  两 -> 瞒 [thick];
+  人 -> 两 [thick];
+  囧冂 -> 两 [thick];
+  巾 -> 囧冂 [thick];
 }

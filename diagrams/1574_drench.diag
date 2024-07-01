@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   淋 [label = "淋\n1574 drench"];
   水 [label = "水\n137 water"];
   丨 [label = "丨\n* walking stick"];
@@ -6,10 +12,11 @@ blockdiag {
   丶 [label = "丶\n* a drop of"];
   林 [label = "林\n203 woods"];
   木 [label = "木\n202 tree"];
-  水 -> 淋;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  林 -> 淋;
-  木 -> 林;
+
+  水 -> 淋 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  林 -> 淋 [thick];
+  木 -> 林 [thick];
 }

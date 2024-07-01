@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  卧 [label = "卧\n1980 for sleeping"];
+  臣 [label = "臣\n731 feudal official"];
+  卜 [label = "卜\n43 divination"];
+  丨 [label = "丨\n* walking stick"];
+  一 [label = "一\n1 one"];
+  丶 [label = "丶\n* a drop of"];
+
+  臣 -> 卧 [thick];
+  卜 -> 卧 [thick];
+  丨 -> 卜 [thick];
+  一 -> 丨 [thick];
+  丶 -> 卜 [thick];
+}

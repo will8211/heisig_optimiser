@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   懂 [label = "懂\n1291 understand"];
   心 [label = "心\n563 heart"];
   艹 [label = "艹\n* flower"];
@@ -9,13 +15,14 @@ blockdiag {
   里 [label = "里\n179 li"];
   田 [label = "田\n14 rice field"];
   土 [label = "土\n158 soil"];
-  心 -> 懂;
-  艹 -> 懂;
-  重 -> 懂;
-  千 -> 重;
-  丶 -> 千;
-  十 -> 千;
-  里 -> 重;
-  田 -> 里;
-  土 -> 里;
+
+  心 -> 懂 [thick];
+  艹 -> 懂 [thick];
+  重 -> 懂 [thick];
+  千 -> 重 [thick];
+  丶 -> 千 [thick];
+  十 -> 千 [thick];
+  里 -> 重 [thick];
+  田 -> 里 [thick];
+  土 -> 里 [thick];
 }

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   痒 [label = "痒\n2662 itch"];
   疒 [label = "疒\n* sickness"];
   洞 [label = "洞\n186 cave"];
@@ -13,23 +19,24 @@ blockdiag {
   冫 [label = "冫\n* ice"];
   羊 [label = "羊\n528 sheep"];
   丷 [label = "丷\n* horns"];
-  疒 -> 痒;
-  洞 -> 疒;
-  同 -> 洞;
-  一 -> 同;
-  口 -> 同;
-  冂 -> 同;
-  几 -> 冂;
-  水 -> 洞;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  冫 -> 疒;
-  水 -> 冫;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  羊 -> 痒;
-  丷 -> 羊;
-  一 -> 丷;
+
+  疒 -> 痒 [thick];
+  洞 -> 疒 [thick];
+  同 -> 洞 [thick];
+  一 -> 同 [thick];
+  口 -> 同 [thick];
+  冂 -> 同 [thick];
+  几 -> 冂 [thick];
+  水 -> 洞 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  冫 -> 疒 [thick];
+  水 -> 冫 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  羊 -> 痒 [thick];
+  丷 -> 羊 [thick];
+  一 -> 丷 [thick];
 }

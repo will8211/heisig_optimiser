@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   嘴 [label = "嘴\n1365 orifice"];
   口 [label = "口\n11 mouth"];
   此 [label = "此\n460 this (literary)"];
@@ -7,11 +13,12 @@ blockdiag {
   角 [label = "角\n1362 angle"];
   勹 [label = "勹\n* bound up"];
   用 [label = "用\n1361 utilize"];
-  口 -> 嘴;
-  此 -> 嘴;
-  止 -> 此;
-  匕 -> 此;
-  角 -> 嘴;
-  勹 -> 角;
-  用 -> 角;
+
+  口 -> 嘴 [thick];
+  此 -> 嘴 [thick];
+  止 -> 此 [thick];
+  匕 -> 此 [thick];
+  角 -> 嘴 [thick];
+  勹 -> 角 [thick];
+  用 -> 角 [thick];
 }

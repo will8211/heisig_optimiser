@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   理 [label = "理\n276 logic"];
   玉 [label = "玉\n266 jade"];
   王 [label = "王\n265 king"];
@@ -7,11 +13,12 @@ blockdiag {
   里 [label = "里\n179 li"];
   田 [label = "田\n14 rice field"];
   土 [label = "土\n158 soil"];
-  玉 -> 理;
-  王 -> 玉;
-  工 -> 王;
-  丶 -> 玉;
-  里 -> 理;
-  田 -> 里;
-  土 -> 里;
+
+  玉 -> 理 [thick];
+  王 -> 玉 [thick];
+  工 -> 王 [thick];
+  丶 -> 玉 [thick];
+  里 -> 理 [thick];
+  田 -> 里 [thick];
+  土 -> 里 [thick];
 }

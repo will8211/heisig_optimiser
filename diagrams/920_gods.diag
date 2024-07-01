@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   神 [label = "神\n920 gods"];
   示 [label = "示\n900 show"];
   申 [label = "申\n918 express"];
   日 [label = "日\n12 day"];
   丨 [label = "丨\n* walking stick"];
   一 [label = "一\n1 one"];
-  示 -> 神;
-  申 -> 神;
-  日 -> 申;
-  丨 -> 申;
-  一 -> 丨;
+
+  示 -> 神 [thick];
+  申 -> 神 [thick];
+  日 -> 申 [thick];
+  丨 -> 申 [thick];
+  一 -> 丨 [thick];
 }

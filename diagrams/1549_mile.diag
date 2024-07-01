@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   哩 [label = "哩\n1549 mile"];
   口 [label = "口\n11 mouth"];
   里 [label = "里\n179 li"];
   田 [label = "田\n14 rice field"];
   土 [label = "土\n158 soil"];
-  口 -> 哩;
-  里 -> 哩;
-  田 -> 里;
-  土 -> 里;
+
+  口 -> 哩 [thick];
+  里 -> 哩 [thick];
+  田 -> 里 [thick];
+  土 -> 里 [thick];
 }

@@ -1,0 +1,30 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  榄 [label = "榄\n2988 olive (B)"];
+  木 [label = "木\n202 tree"];
+  览 [label = "览\n2265 view"];
+  临 [label = "临\n1010 be about to"];
+  囧坚－圣 [label = "囧坚－圣\n* fencing foil"];
+  丶 [label = "丶\n* a drop of"];
+  "𠂉" [label = "𠂉\n* reclining"];
+  日 [label = "日\n12 day"];
+  见 [label = "见\n58 see"];
+  目 [label = "目\n15 eye"];
+  儿 [label = "儿\n56 youngster"];
+
+  木 -> 榄 [thick];
+  览 -> 榄 [thick];
+  临 -> 览 [thick];
+  囧坚－圣 -> 临 [thick];
+  丶 -> 临 [thick];
+  "𠂉" -> 临 [thick];
+  日 -> 临 [thick];
+  见 -> 览 [thick];
+  目 -> 见 [thick];
+  儿 -> 见 [thick];
+}

@@ -1,15 +1,22 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   饥 [label = "饥\n2517 starving"];
   食 [label = "食\n1154 food"];
   良 [label = "良\n1151 high-quality"];
   丶 [label = "丶\n* a drop of"];
   艮 [label = "艮\n* silver"];
-  131490 [label = "𠆢\n* umbrella"];
+  "𠆢" [label = "𠆢\n* umbrella"];
   几 [label = "几\n57 how many?"];
-  食 -> 饥;
-  良 -> 食;
-  丶 -> 良;
-  艮 -> 良;
-  131490 -> 食;
-  几 -> 饥;
+
+  食 -> 饥 [thick];
+  良 -> 食 [thick];
+  丶 -> 良 [thick];
+  艮 -> 良 [thick];
+  "𠆢" -> 食 [thick];
+  几 -> 饥 [thick];
 }

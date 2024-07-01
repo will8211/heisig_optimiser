@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   芽 [label = "芽\n2842 sprout"];
   艹 [label = "艹\n* flower"];
   牙 [label = "牙\n1414 tooth"];
@@ -9,13 +15,14 @@ blockdiag {
   木 [label = "木\n202 tree"];
   目 [label = "目\n15 eye"];
   矛 [label = "矛\n1002 spear"];
-  艹 -> 芽;
-  牙 -> 芽;
-  箱 -> 牙;
-  竹 -> 箱;
-  丁 -> 竹;
-  相 -> 箱;
-  木 -> 相;
-  目 -> 相;
-  矛 -> 牙;
+
+  艹 -> 芽 [thick];
+  牙 -> 芽 [thick];
+  箱 -> 牙 [thick];
+  竹 -> 箱 [thick];
+  丁 -> 竹 [thick];
+  相 -> 箱 [thick];
+  木 -> 相 [thick];
+  目 -> 相 [thick];
+  矛 -> 牙 [thick];
 }

@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   后 [label = "后\n659 behind"];
-  131206 [label = "𠂆\n* drag"];
+  "𠂆" [label = "𠂆\n* drag"];
   一 [label = "一\n1 one"];
   口 [label = "口\n11 mouth"];
-  131206 -> 后;
-  一 -> 后;
-  口 -> 后;
+
+  "𠂆" -> 后 [thick];
+  一 -> 后 [thick];
+  口 -> 后 [thick];
 }

@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   投 [label = "投\n646 throw"];
   扌 [label = "扌\n* fingers"];
   殳 [label = "殳\n* missile"];
   几 [label = "几\n57 how many?"];
   又 [label = "又\n633 again"];
-  扌 -> 投;
-  殳 -> 投;
-  几 -> 殳;
-  又 -> 殳;
+
+  扌 -> 投 [thick];
+  殳 -> 投 [thick];
+  几 -> 殳 [thick];
+  又 -> 殳 [thick];
 }

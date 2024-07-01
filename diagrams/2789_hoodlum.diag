@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   氓 [label = "氓\n2789 hoodlum"];
   亡 [label = "亡\n490 deceased"];
   亠 [label = "亠\n* top hat"];
@@ -12,19 +18,20 @@ blockdiag {
   囧以－丶人 [label = "囧以－丶人\n* plow"];
   一 [label = "一\n1 one"];
   口 [label = "口\n11 mouth"];
-  亡 -> 氓;
-  亠 -> 亡;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  乙 -> 亡;
-  民 -> 氓;
-  氏 -> 民;
-  丶 -> 氏;
-  囧以－丶人 -> 氏;
-  一 -> 氏;
-  乙 -> 氏;
-  口 -> 民;
+
+  亡 -> 氓 [thick];
+  亠 -> 亡 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  乙 -> 亡 [thick];
+  民 -> 氓 [thick];
+  氏 -> 民 [thick];
+  丶 -> 氏 [thick];
+  囧以－丶人 -> 氏 [thick];
+  一 -> 氏 [thick];
+  乙 -> 氏 [thick];
+  口 -> 民 [thick];
 }

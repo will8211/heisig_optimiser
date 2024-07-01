@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   剧 [label = "剧\n890 drama"];
   居 [label = "居\n888 reside"];
   尸 [label = "尸\n882 corpse"];
@@ -6,10 +12,11 @@ blockdiag {
   十 [label = "十\n10 ten"];
   口 [label = "口\n11 mouth"];
   刀 [label = "刀\n83 sword"];
-  居 -> 剧;
-  尸 -> 居;
-  古 -> 居;
-  十 -> 古;
-  口 -> 古;
-  刀 -> 剧;
+
+  居 -> 剧 [thick];
+  尸 -> 居 [thick];
+  古 -> 居 [thick];
+  十 -> 古 [thick];
+  口 -> 古 [thick];
+  刀 -> 剧 [thick];
 }

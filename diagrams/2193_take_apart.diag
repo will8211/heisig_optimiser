@@ -1,0 +1,18 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  拆 [label = "拆\n2193 take apart"];
+  扌 [label = "扌\n* fingers"];
+  斥 [label = "斥\n935 reprimand"];
+  斤 [label = "斤\n924 catty"];
+  丶 [label = "丶\n* a drop of"];
+
+  扌 -> 拆 [thick];
+  斥 -> 拆 [thick];
+  斤 -> 斥 [thick];
+  丶 -> 斥 [thick];
+}

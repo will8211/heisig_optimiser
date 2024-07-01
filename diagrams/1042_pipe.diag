@@ -1,16 +1,23 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   管 [label = "管\n1042 pipe"];
   竹 [label = "竹\n786 bamboo"];
   丁 [label = "丁\n90 fourth"];
   官 [label = "官\n1041 bureaucrat"];
-  131236 [label = "𠂤\n* maestro"];
+  "𠂤" [label = "𠂤\n* maestro"];
   丶 [label = "丶\n* a drop of"];
   宀 [label = "宀\n* house"];
-  竹 -> 管;
-  丁 -> 竹;
-  官 -> 管;
-  131236 -> 官;
-  丶 -> 131236;
-  丶 -> 官;
-  宀 -> 官;
+
+  竹 -> 管 [thick];
+  丁 -> 竹 [thick];
+  官 -> 管 [thick];
+  "𠂤" -> 官 [thick];
+  丶 -> "𠂤" [thick];
+  丶 -> 官 [thick];
+  宀 -> 官 [thick];
 }

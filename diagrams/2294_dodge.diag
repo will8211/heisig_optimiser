@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   躲 [label = "躲\n2294 dodge"];
   身 [label = "身\n1026 somebody"];
   自 [label = "自\n33 oneself"];
@@ -7,11 +13,12 @@ blockdiag {
   朵 [label = "朵\n1564 flouds"];
   几 [label = "几\n57 how many?"];
   木 [label = "木\n202 tree"];
-  身 -> 躲;
-  自 -> 身;
-  丶 -> 自;
-  目 -> 自;
-  朵 -> 躲;
-  几 -> 朵;
-  木 -> 朵;
+
+  身 -> 躲 [thick];
+  自 -> 身 [thick];
+  丶 -> 自 [thick];
+  目 -> 自 [thick];
+  朵 -> 躲 [thick];
+  几 -> 朵 [thick];
+  木 -> 朵 [thick];
 }

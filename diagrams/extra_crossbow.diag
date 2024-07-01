@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   矣 [label = "矣\n* crossbow"];
   厶 [label = "厶\n* elbow"];
   矢 [label = "矢\n998 dart"];
@@ -6,10 +12,11 @@ blockdiag {
   一 [label = "一\n1 one"];
   大 [label = "大\n113 large"];
   丶 [label = "丶\n* a drop of"];
-  厶 -> 矣;
-  矢 -> 矣;
-  天 -> 矢;
-  一 -> 天;
-  大 -> 天;
-  丶 -> 矢;
+
+  厶 -> 矣 [thick];
+  矢 -> 矣 [thick];
+  天 -> 矢 [thick];
+  一 -> 天 [thick];
+  大 -> 天 [thick];
+  丶 -> 矢 [thick];
 }

@@ -1,0 +1,21 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  捧 [label = "捧\n2603 carry in both hands"];
+  扌 [label = "扌\n* fingers"];
+  奉 [label = "奉\n1232 proffer"];
+  "𡗗" [label = "𡗗\n* bonsai"];
+  丰 [label = "丰\n1223 plentiful"];
+  "囧奉－𡗗" [label = "囧奉－𡗗\n* cornstalk"];
+
+  扌 -> 捧 [thick];
+  奉 -> 捧 [thick];
+  "𡗗" -> 奉 [thick];
+  丰 -> "𡗗" [thick];
+  "囧奉－𡗗" -> 奉 [thick];
+  丰 -> "囧奉－𡗗" [thick];
+}

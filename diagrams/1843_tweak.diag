@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   拧 [label = "拧\n1843 tweak"];
   扌 [label = "扌\n* fingers"];
   宁 [label = "宁\n1558 calm"];
   宀 [label = "宀\n* house"];
   丁 [label = "丁\n90 fourth"];
-  扌 -> 拧;
-  宁 -> 拧;
-  宀 -> 宁;
-  丁 -> 宁;
+
+  扌 -> 拧 [thick];
+  宁 -> 拧 [thick];
+  宀 -> 宁 [thick];
+  丁 -> 宁 [thick];
 }

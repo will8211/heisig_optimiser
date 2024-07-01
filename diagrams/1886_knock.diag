@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   敲 [label = "敲\n1886 knock"];
   囧高 [label = "囧高\n* Eiffel Tower"];
   卜 [label = "卜\n43 divination"];
@@ -6,10 +12,11 @@ blockdiag {
   一 [label = "一\n1 one"];
   丶 [label = "丶\n* a drop of"];
   又 [label = "又\n633 again"];
-  囧高 -> 敲;
-  卜 -> 敲;
-  丨 -> 卜;
-  一 -> 丨;
-  丶 -> 卜;
-  又 -> 敲;
+
+  囧高 -> 敲 [thick];
+  卜 -> 敲 [thick];
+  丨 -> 卜 [thick];
+  一 -> 丨 [thick];
+  丶 -> 卜 [thick];
+  又 -> 敲 [thick];
 }

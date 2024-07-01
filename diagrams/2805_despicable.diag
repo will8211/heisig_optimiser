@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   鄙 [label = "鄙\n2805 despicable"];
   口 [label = "口\n11 mouth"];
   十 [label = "十\n10 ten"];
@@ -6,11 +12,12 @@ blockdiag {
   囗 [label = "囗\n* pent in"];
   囧阝 [label = "囧阝\n* city walls"];
   阝 [label = "阝\n* pinnacle"];
-  口 -> 鄙;
-  十 -> 鄙;
-  回 -> 鄙;
-  囗 -> 回;
-  口 -> 回;
-  囧阝 -> 鄙;
-  阝 -> 囧阝;
+
+  口 -> 鄙 [thick];
+  十 -> 鄙 [thick];
+  回 -> 鄙 [thick];
+  囗 -> 回 [thick];
+  口 -> 回 [thick];
+  囧阝 -> 鄙 [thick];
+  阝 -> 囧阝 [thick];
 }

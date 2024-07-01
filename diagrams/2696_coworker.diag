@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   僚 [label = "僚\n2696 coworker"];
   人 [label = "人\n793 person"];
   尞 [label = "尞\n* pup tent"];
@@ -7,11 +13,12 @@ blockdiag {
   日 [label = "日\n12 day"];
   小 [label = "小\n109 small"];
   丶 [label = "丶\n* a drop of"];
-  人 -> 僚;
-  尞 -> 僚;
-  大 -> 尞;
-  癶 -> 尞;
-  日 -> 尞;
-  小 -> 尞;
-  丶 -> 小;
+
+  人 -> 僚 [thick];
+  尞 -> 僚 [thick];
+  大 -> 尞 [thick];
+  癶 -> 尞 [thick];
+  日 -> 尞 [thick];
+  小 -> 尞 [thick];
+  丶 -> 小 [thick];
 }

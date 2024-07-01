@@ -1,5 +1,12 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   予 [label = "予\n1005 bestow"];
   矛 [label = "矛\n1002 spear"];
-  矛 -> 予;
+
+  矛 -> 予 [thick];
 }

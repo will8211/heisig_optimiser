@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   贿 [label = "贿\n80 bribe"];
   贝 [label = "贝\n52 shellfish"];
   目 [label = "目\n15 eye"];
@@ -6,14 +12,15 @@ blockdiag {
   八 [label = "八\n8 eight"];
   有 [label = "有\n79 possess"];
   月 [label = "月\n13 month"];
-  131207 [label = "𠂇\n* by one’s side"];
+  "𠂇" [label = "𠂇\n* by one’s side"];
   十 [label = "十\n10 ten"];
-  贝 -> 贿;
-  目 -> 贝;
-  囧只－口 -> 贝;
-  八 -> 囧只－口;
-  有 -> 贿;
-  月 -> 有;
-  131207 -> 有;
-  十 -> 131207;
+
+  贝 -> 贿 [thick];
+  目 -> 贝 [thick];
+  囧只－口 -> 贝 [thick];
+  八 -> 囧只－口 [thick];
+  有 -> 贿 [thick];
+  月 -> 有 [thick];
+  "𠂇" -> 有 [thick];
+  十 -> "𠂇" [thick];
 }

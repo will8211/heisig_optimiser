@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   恕 [label = "恕\n1791 pardon"];
   如 [label = "如\n104 be like"];
   口 [label = "口\n11 mouth"];
   女 [label = "女\n102 woman"];
   心 [label = "心\n563 heart"];
-  如 -> 恕;
-  口 -> 如;
-  女 -> 如;
-  心 -> 恕;
+
+  如 -> 恕 [thick];
+  口 -> 如 [thick];
+  女 -> 如 [thick];
+  心 -> 恕 [thick];
 }

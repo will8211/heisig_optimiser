@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   鸿 [label = "鸿\n2865 swan"];
   江 [label = "江\n147 Yangtze"];
   水 [label = "水\n137 water"];
@@ -12,18 +18,19 @@ blockdiag {
   几 [label = "几\n57 how many?"];
   口 [label = "口\n11 mouth"];
   囧与－丨一 [label = "囧与－丨一\n* pointed tail"];
-  江 -> 鸿;
-  水 -> 江;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  工 -> 江;
-  鸟 -> 鸿;
-  向 -> 鸟;
-  丶 -> 向;
-  冂 -> 向;
-  几 -> 冂;
-  口 -> 向;
-  丶 -> 鸟;
-  囧与－丨一 -> 鸟;
+
+  江 -> 鸿 [thick];
+  水 -> 江 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  工 -> 江 [thick];
+  鸟 -> 鸿 [thick];
+  向 -> 鸟 [thick];
+  丶 -> 向 [thick];
+  冂 -> 向 [thick];
+  几 -> 冂 [thick];
+  口 -> 向 [thick];
+  丶 -> 鸟 [thick];
+  囧与－丨一 -> 鸟 [thick];
 }

@@ -1,15 +1,22 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   纲 [label = "纲\n2541 guidelines"];
   纟 [label = "纟\n* thread"];
   厶 [label = "厶\n* elbow"];
   冈 [label = "冈\n1170 ridge of a hill"];
   冂 [label = "冂\n* hood"];
   几 [label = "几\n57 how many?"];
-  13317 [label = "㐅\n* sheaf"];
-  纟 -> 纲;
-  厶 -> 纟;
-  冈 -> 纲;
-  冂 -> 冈;
-  几 -> 冂;
-  13317 -> 冈;
+  "㐅" [label = "㐅\n* sheaf"];
+
+  纟 -> 纲 [thick];
+  厶 -> 纟 [thick];
+  冈 -> 纲 [thick];
+  冂 -> 冈 [thick];
+  几 -> 冂 [thick];
+  "㐅" -> 冈 [thick];
 }

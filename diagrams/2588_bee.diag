@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   蜂 [label = "蜂\n2588 bee"];
   虫 [label = "虫\n509 insect"];
   夆 [label = "夆\n* briar"];
   丰 [label = "丰\n1223 plentiful"];
   夂 [label = "夂\n* walking legs"];
-  虫 -> 蜂;
-  夆 -> 蜂;
-  丰 -> 夆;
-  夂 -> 夆;
+
+  虫 -> 蜂 [thick];
+  夆 -> 蜂 [thick];
+  丰 -> 夆 [thick];
+  夂 -> 夆 [thick];
 }

@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   查 [label = "查\n220 investigate"];
   旦 [label = "旦\n30 daybreak"];
   日 [label = "日\n12 day"];
   一 [label = "一\n1 one"];
   木 [label = "木\n202 tree"];
-  旦 -> 查;
-  日 -> 旦;
-  一 -> 旦;
-  木 -> 查;
+
+  旦 -> 查 [thick];
+  日 -> 旦 [thick];
+  一 -> 旦 [thick];
+  木 -> 查 [thick];
 }

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   辉 [label = "辉\n321 radiance"];
   光 [label = "光\n130 ray"];
   小 [label = "小\n109 small"];
@@ -7,11 +13,12 @@ blockdiag {
   军 [label = "军\n320 army"];
   冖 [label = "冖\n* crown"];
   车 [label = "车\n300 car"];
-  光 -> 辉;
-  小 -> 光;
-  丶 -> 小;
-  儿 -> 光;
-  军 -> 辉;
-  冖 -> 军;
-  车 -> 军;
+
+  光 -> 辉 [thick];
+  小 -> 光 [thick];
+  丶 -> 小 [thick];
+  儿 -> 光 [thick];
+  军 -> 辉 [thick];
+  冖 -> 军 [thick];
+  车 -> 军 [thick];
 }

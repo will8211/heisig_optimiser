@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   炯 [label = "炯\n1555 shining"];
   火 [label = "火\n170 fire"];
   向 [label = "向\n188 orientation"];
@@ -6,10 +12,11 @@ blockdiag {
   冂 [label = "冂\n* hood"];
   几 [label = "几\n57 how many?"];
   口 [label = "口\n11 mouth"];
-  火 -> 炯;
-  向 -> 炯;
-  丶 -> 向;
-  冂 -> 向;
-  几 -> 冂;
-  口 -> 向;
+
+  火 -> 炯 [thick];
+  向 -> 炯 [thick];
+  丶 -> 向 [thick];
+  冂 -> 向 [thick];
+  几 -> 冂 [thick];
+  口 -> 向 [thick];
 }

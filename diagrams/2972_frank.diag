@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   爽 [label = "爽\n2972 frank"];
   大 [label = "大\n113 large"];
-  15898 [label = "㸚\n* stitching"];
-  大 -> 爽;
-  15898 -> 爽;
+  "㸚" [label = "㸚\n* stitching"];
+
+  大 -> 爽 [thick];
+  "㸚" -> 爽 [thick];
 }

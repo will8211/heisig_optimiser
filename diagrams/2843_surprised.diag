@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   讶 [label = "讶\n2843 surprised"];
   言 [label = "言\n346 say"];
   二 [label = "二\n2 two"];
@@ -16,22 +22,23 @@ blockdiag {
   木 [label = "木\n202 tree"];
   目 [label = "目\n15 eye"];
   矛 [label = "矛\n1002 spear"];
-  言 -> 讶;
-  二 -> 言;
-  一 -> 二;
-  口 -> 言;
-  亠 -> 言;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  牙 -> 讶;
-  箱 -> 牙;
-  竹 -> 箱;
-  丁 -> 竹;
-  相 -> 箱;
-  木 -> 相;
-  目 -> 相;
-  矛 -> 牙;
+
+  言 -> 讶 [thick];
+  二 -> 言 [thick];
+  一 -> 二 [thick];
+  口 -> 言 [thick];
+  亠 -> 言 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  牙 -> 讶 [thick];
+  箱 -> 牙 [thick];
+  竹 -> 箱 [thick];
+  丁 -> 竹 [thick];
+  相 -> 箱 [thick];
+  木 -> 相 [thick];
+  目 -> 相 [thick];
+  矛 -> 牙 [thick];
 }

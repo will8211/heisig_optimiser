@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   楚 [label = "楚\n399 clear"];
   疋 [label = "疋\n* zoo"];
   囧走－十 [label = "囧走－十\n* mending"];
@@ -7,11 +13,12 @@ blockdiag {
   止 [label = "止\n379 stop"];
   林 [label = "林\n203 woods"];
   木 [label = "木\n202 tree"];
-  疋 -> 楚;
-  囧走－十 -> 疋;
-  正 -> 囧走－十;
-  一 -> 正;
-  止 -> 正;
-  林 -> 楚;
-  木 -> 林;
+
+  疋 -> 楚 [thick];
+  囧走－十 -> 疋 [thick];
+  正 -> 囧走－十 [thick];
+  一 -> 正 [thick];
+  止 -> 正 [thick];
+  林 -> 楚 [thick];
+  木 -> 林 [thick];
 }

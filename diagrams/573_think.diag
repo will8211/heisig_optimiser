@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   想 [label = "想\n573 think"];
   相 [label = "相\n212 one another"];
   木 [label = "木\n202 tree"];
   目 [label = "目\n15 eye"];
   心 [label = "心\n563 heart"];
-  相 -> 想;
-  木 -> 相;
-  目 -> 相;
-  心 -> 想;
+
+  相 -> 想 [thick];
+  木 -> 相 [thick];
+  目 -> 相 [thick];
+  心 -> 想 [thick];
 }

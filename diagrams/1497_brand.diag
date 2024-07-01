@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   牌 [label = "牌\n1497 brand"];
   片 [label = "片\n986 slice"];
   卑 [label = "卑\n1496 lowly"];
   丶 [label = "丶\n* a drop of"];
   田 [label = "田\n14 rice field"];
   十 [label = "十\n10 ten"];
-  片 -> 牌;
-  卑 -> 牌;
-  丶 -> 卑;
-  田 -> 卑;
-  十 -> 卑;
+
+  片 -> 牌 [thick];
+  卑 -> 牌 [thick];
+  丶 -> 卑 [thick];
+  田 -> 卑 [thick];
+  十 -> 卑 [thick];
 }

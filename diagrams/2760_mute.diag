@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   哑 [label = "哑\n2760 mute"];
   口 [label = "口\n11 mouth"];
   亚 [label = "亚\n1351 Asia"];
   一 [label = "一\n1 one"];
   业 [label = "业\n1349 profession"];
   並 [label = "並\n* side by side"];
-  口 -> 哑;
-  亚 -> 哑;
-  一 -> 亚;
-  业 -> 亚;
-  並 -> 业;
+
+  口 -> 哑 [thick];
+  亚 -> 哑 [thick];
+  一 -> 亚 [thick];
+  业 -> 亚 [thick];
+  並 -> 业 [thick];
 }

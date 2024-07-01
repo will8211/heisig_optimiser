@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   献 [label = "献\n2618 donate"];
   南 [label = "南\n1259 south"];
   囧冂 [label = "囧冂\n* belt"];
@@ -10,14 +16,15 @@ blockdiag {
   犬 [label = "犬\n239 pooch"];
   大 [label = "大\n113 large"];
   丶 [label = "丶\n* a drop of"];
-  南 -> 献;
-  囧冂 -> 南;
-  巾 -> 囧冂;
-  幸 -> 南;
-  辛 -> 幸;
-  立 -> 辛;
-  十 -> 辛;
-  犬 -> 献;
-  大 -> 犬;
-  丶 -> 犬;
+
+  南 -> 献 [thick];
+  囧冂 -> 南 [thick];
+  巾 -> 囧冂 [thick];
+  幸 -> 南 [thick];
+  辛 -> 幸 [thick];
+  立 -> 辛 [thick];
+  十 -> 辛 [thick];
+  犬 -> 献 [thick];
+  大 -> 犬 [thick];
+  丶 -> 犬 [thick];
 }

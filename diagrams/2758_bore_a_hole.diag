@@ -1,0 +1,38 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  凿 [label = "凿\n2758 bore a hole"];
+  业 [label = "业\n1349 profession"];
+  並 [label = "並\n* side by side"];
+  坑 [label = "坑\n323 pit"];
+  亢 [label = "亢\n* whirlwind"];
+  亠 [label = "亠\n* top hat"];
+  六 [label = "六\n6 six"];
+  囧只－口 [label = "囧只－口\n* animal legs"];
+  八 [label = "八\n8 eight"];
+  几 [label = "几\n57 how many?"];
+  土 [label = "土\n158 soil"];
+  丷 [label = "丷\n* horns"];
+  一 [label = "一\n1 one"];
+  干 [label = "干\n1277 dry"];
+
+  业 -> 凿 [thick];
+  並 -> 业 [thick];
+  坑 -> 凿 [thick];
+  亢 -> 坑 [thick];
+  亠 -> 亢 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  几 -> 亢 [thick];
+  土 -> 坑 [thick];
+  丷 -> 凿 [thick];
+  一 -> 丷 [thick];
+  干 -> 凿 [thick];
+}

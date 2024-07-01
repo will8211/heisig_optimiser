@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   你 [label = "你\n799 you"];
   人 [label = "人\n793 person"];
   尔 [label = "尔\n798 you (literary)"];
   小 [label = "小\n109 small"];
   丶 [label = "丶\n* a drop of"];
-  人 -> 你;
-  尔 -> 你;
-  小 -> 尔;
-  丶 -> 小;
+
+  人 -> 你 [thick];
+  尔 -> 你 [thick];
+  小 -> 尔 [thick];
+  丶 -> 小 [thick];
 }

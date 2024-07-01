@@ -1,0 +1,32 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  浙 [label = "浙\n2191 Zhejian Province"];
+  水 [label = "水\n137 water"];
+  丨 [label = "丨\n* walking stick"];
+  一 [label = "一\n1 one"];
+  丶 [label = "丶\n* a drop of"];
+  折 [label = "折\n932 discount"];
+  指 [label = "指\n594 finger"];
+  扌 [label = "扌\n* fingers"];
+  旨 [label = "旨\n463 purpose"];
+  匕 [label = "匕\n453 ancient spoon"];
+  日 [label = "日\n12 day"];
+  斤 [label = "斤\n924 catty"];
+
+  水 -> 浙 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  折 -> 浙 [thick];
+  指 -> 折 [thick];
+  扌 -> 指 [thick];
+  旨 -> 指 [thick];
+  匕 -> 旨 [thick];
+  日 -> 旨 [thick];
+  斤 -> 折 [thick];
+}

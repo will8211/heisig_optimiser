@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   辖 [label = "辖\n2591 administer"];
   车 [label = "车\n300 car"];
   害 [label = "害\n1224 harm"];
   宀 [label = "宀\n* house"];
   丰 [label = "丰\n1223 plentiful"];
   口 [label = "口\n11 mouth"];
-  车 -> 辖;
-  害 -> 辖;
-  宀 -> 害;
-  丰 -> 害;
-  口 -> 害;
+
+  车 -> 辖 [thick];
+  害 -> 辖 [thick];
+  宀 -> 害 [thick];
+  丰 -> 害 [thick];
+  口 -> 害 [thick];
 }

@@ -1,0 +1,23 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  翰 [label = "翰\n1776 writing brush"];
+  "𠦝" [label = "𠦝\n* mist"];
+  早 [label = "早\n26 early"];
+  日 [label = "日\n12 day"];
+  十 [label = "十\n10 ten"];
+  "𠆢" [label = "𠆢\n* umbrella"];
+  羽 [label = "羽\n544 feathers"];
+
+  "𠦝" -> 翰 [thick];
+  早 -> "𠦝" [thick];
+  日 -> 早 [thick];
+  十 -> 早 [thick];
+  十 -> "𠦝" [thick];
+  "𠆢" -> 翰 [thick];
+  羽 -> 翰 [thick];
+}

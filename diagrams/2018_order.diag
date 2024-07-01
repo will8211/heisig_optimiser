@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   秩 [label = "秩\n2018 order"];
   禾 [label = "禾\n762 standing grain"];
   失 [label = "失\n729 lose"];
   夫 [label = "夫\n726 husband"];
   大 [label = "大\n113 large"];
   丶 [label = "丶\n* a drop of"];
-  禾 -> 秩;
-  失 -> 秩;
-  夫 -> 失;
-  大 -> 夫;
-  丶 -> 失;
+
+  禾 -> 秩 [thick];
+  失 -> 秩 [thick];
+  夫 -> 失 [thick];
+  大 -> 夫 [thick];
+  丶 -> 失 [thick];
 }

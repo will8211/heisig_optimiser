@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   旬 [label = "旬\n68 decameron"];
   日 [label = "日\n12 day"];
   勹 [label = "勹\n* bound up"];
-  日 -> 旬;
-  勹 -> 旬;
+
+  日 -> 旬 [thick];
+  勹 -> 旬 [thick];
 }

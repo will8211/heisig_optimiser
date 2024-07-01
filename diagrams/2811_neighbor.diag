@@ -1,15 +1,22 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   邻 [label = "邻\n2811 neighbor"];
   令 [label = "令\n1113 orders"];
   亼 [label = "亼\n* meeting"];
-  131490 [label = "𠆢\n* umbrella"];
+  "𠆢" [label = "𠆢\n* umbrella"];
   囧节－艹 [label = "囧节－艹\n* chop"];
   囧阝 [label = "囧阝\n* city walls"];
   阝 [label = "阝\n* pinnacle"];
-  令 -> 邻;
-  亼 -> 令;
-  131490 -> 亼;
-  囧节－艹 -> 令;
-  囧阝 -> 邻;
-  阝 -> 囧阝;
+
+  令 -> 邻 [thick];
+  亼 -> 令 [thick];
+  "𠆢" -> 亼 [thick];
+  囧节－艹 -> 令 [thick];
+  囧阝 -> 邻 [thick];
+  阝 -> 囧阝 [thick];
 }

@@ -1,0 +1,16 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  卷 [label = "卷\n2447 exam paper"];
+  囧眷－目 [label = "囧眷－目\n* quarter"];
+  半 [label = "半\n980 half"];
+  "㔾" [label = "㔾\n* fingerprint"];
+
+  囧眷－目 -> 卷 [thick];
+  半 -> 囧眷－目 [thick];
+  "㔾" -> 卷 [thick];
+}

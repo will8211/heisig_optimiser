@@ -1,0 +1,16 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  孛 [label = "孛\n* Sunday school"];
+  囧索－糸 [label = "囧索－糸\n* chapel"];
+  宀 [label = "宀\n* house"];
+  子 [label = "子\n97 child"];
+
+  囧索－糸 -> 孛 [thick];
+  宀 -> 囧索－糸 [thick];
+  子 -> 孛 [thick];
+}

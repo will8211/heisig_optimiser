@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   缺 [label = "缺\n1444 deficient"];
   缶 [label = "缶\n* tin can"];
   午 [label = "午\n542 noon"];
@@ -6,10 +12,11 @@ blockdiag {
   夬 [label = "夬\n* guillotine"];
   囧侯－亻－矢 [label = "囧侯－亻－矢\n* key"];
   大 [label = "大\n113 large"];
-  缶 -> 缺;
-  午 -> 缶;
-  山 -> 缶;
-  夬 -> 缺;
-  囧侯－亻－矢 -> 夬;
-  大 -> 夬;
+
+  缶 -> 缺 [thick];
+  午 -> 缶 [thick];
+  山 -> 缶 [thick];
+  夬 -> 缺 [thick];
+  囧侯－亻－矢 -> 夬 [thick];
+  大 -> 夬 [thick];
 }

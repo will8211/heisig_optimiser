@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   羞 [label = "羞\n2947 shy"];
   囧差－工 [label = "囧差－工\n* wool"];
   羊 [label = "羊\n528 sheep"];
@@ -7,11 +13,12 @@ blockdiag {
   丑 [label = "丑\n1486 clown"];
   十 [label = "十\n10 ten"];
   囧侯－亻－矢 [label = "囧侯－亻－矢\n* key"];
-  囧差－工 -> 羞;
-  羊 -> 囧差－工;
-  丷 -> 羊;
-  一 -> 丷;
-  丑 -> 羞;
-  十 -> 丑;
-  囧侯－亻－矢 -> 丑;
+
+  囧差－工 -> 羞 [thick];
+  羊 -> 囧差－工 [thick];
+  丷 -> 羊 [thick];
+  一 -> 丷 [thick];
+  丑 -> 羞 [thick];
+  十 -> 丑 [thick];
+  囧侯－亻－矢 -> 丑 [thick];
 }

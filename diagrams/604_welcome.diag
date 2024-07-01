@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   接 [label = "接\n604 welcome"];
   扌 [label = "扌\n* fingers"];
   立 [label = "立\n444 standing up"];
   女 [label = "女\n102 woman"];
-  扌 -> 接;
-  立 -> 接;
-  女 -> 接;
+
+  扌 -> 接 [thick];
+  立 -> 接 [thick];
+  女 -> 接 [thick];
 }

@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   乞 [label = "乞\n470 beg"];
-  131209 [label = "𠂉\n* reclining"];
+  "𠂉" [label = "𠂉\n* reclining"];
   乙 [label = "乙\n95 second"];
-  131209 -> 乞;
-  乙 -> 乞;
+
+  "𠂉" -> 乞 [thick];
+  乙 -> 乞 [thick];
 }

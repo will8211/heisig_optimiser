@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   摔 [label = "摔\n1321 tumble"];
   扌 [label = "扌\n* fingers"];
   率 [label = "率\n1320 rate"];
@@ -9,15 +15,16 @@ blockdiag {
   幺 [label = "幺\n* cocoon"];
   囧率－玄－十 [label = "囧率－玄－十\n* sparkler"];
   十 [label = "十\n10 ten"];
-  扌 -> 摔;
-  率 -> 摔;
-  亠 -> 率;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  幺 -> 率;
-  囧率－玄－十 -> 率;
-  十 -> 率;
+
+  扌 -> 摔 [thick];
+  率 -> 摔 [thick];
+  亠 -> 率 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  幺 -> 率 [thick];
+  囧率－玄－十 -> 率 [thick];
+  十 -> 率 [thick];
 }

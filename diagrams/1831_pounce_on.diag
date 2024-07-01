@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  扑 [label = "扑\n1831 pounce on"];
+  扌 [label = "扌\n* fingers"];
+  卜 [label = "卜\n43 divination"];
+  丨 [label = "丨\n* walking stick"];
+  一 [label = "一\n1 one"];
+  丶 [label = "丶\n* a drop of"];
+
+  扌 -> 扑 [thick];
+  卜 -> 扑 [thick];
+  丨 -> 卜 [thick];
+  一 -> 丨 [thick];
+  丶 -> 卜 [thick];
+}

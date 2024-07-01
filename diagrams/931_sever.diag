@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   断 [label = "断\n931 sever"];
   米 [label = "米\n778 rice"];
   乙 [label = "乙\n95 second"];
   斤 [label = "斤\n924 catty"];
-  米 -> 断;
-  乙 -> 断;
-  斤 -> 断;
+
+  米 -> 断 [thick];
+  乙 -> 断 [thick];
+  斤 -> 断 [thick];
 }

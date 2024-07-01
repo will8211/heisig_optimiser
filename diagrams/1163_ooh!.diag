@@ -1,5 +1,12 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   乎 [label = "乎\n1163 ooh!"];
   平 [label = "平\n1160 even"];
-  平 -> 乎;
+
+  平 -> 乎 [thick];
 }

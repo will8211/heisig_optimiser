@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   克 [label = "克\n108 overcome"];
   兄 [label = "兄\n107 elder brother"];
   口 [label = "口\n11 mouth"];
   儿 [label = "儿\n56 youngster"];
   十 [label = "十\n10 ten"];
-  兄 -> 克;
-  口 -> 兄;
-  儿 -> 兄;
-  十 -> 克;
+
+  兄 -> 克 [thick];
+  口 -> 兄 [thick];
+  儿 -> 兄 [thick];
+  十 -> 克 [thick];
 }

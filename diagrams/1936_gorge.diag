@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   峡 [label = "峡\n1936 gorge"];
   山 [label = "山\n688 mountain"];
   夹 [label = "夹\n1523 press from both sides"];
@@ -6,10 +12,11 @@ blockdiag {
   大 [label = "大\n113 large"];
   丷 [label = "丷\n* horns"];
   一 [label = "一\n1 one"];
-  山 -> 峡;
-  夹 -> 峡;
-  夫 -> 夹;
-  大 -> 夫;
-  丷 -> 夹;
-  一 -> 丷;
+
+  山 -> 峡 [thick];
+  夹 -> 峡 [thick];
+  夫 -> 夹 [thick];
+  大 -> 夫 [thick];
+  丷 -> 夹 [thick];
+  一 -> 丷 [thick];
 }

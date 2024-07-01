@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   詹 [label = "詹\n* snitch"];
   勹 [label = "勹\n* bound up"];
   囧只－口 [label = "囧只－口\n* animal legs"];
@@ -10,18 +16,19 @@ blockdiag {
   口 [label = "口\n11 mouth"];
   亠 [label = "亠\n* top hat"];
   六 [label = "六\n6 six"];
-  勹 -> 詹;
-  囧只－口 -> 詹;
-  八 -> 囧只－口;
-  厂 -> 詹;
-  言 -> 詹;
-  二 -> 言;
-  一 -> 二;
-  口 -> 言;
-  亠 -> 言;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
+
+  勹 -> 詹 [thick];
+  囧只－口 -> 詹 [thick];
+  八 -> 囧只－口 [thick];
+  厂 -> 詹 [thick];
+  言 -> 詹 [thick];
+  二 -> 言 [thick];
+  一 -> 二 [thick];
+  口 -> 言 [thick];
+  亠 -> 言 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
 }

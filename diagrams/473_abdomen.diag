@@ -1,19 +1,26 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   腹 [label = "腹\n473 abdomen"];
   体 [label = "体\n813 body"];
   人 [label = "人\n793 person"];
   本 [label = "本\n213 notebook"];
   木 [label = "木\n202 tree"];
   复 [label = "复\n472 duplicate"];
-  131209 [label = "𠂉\n* reclining"];
+  "𠂉" [label = "𠂉\n* reclining"];
   日 [label = "日\n12 day"];
   夂 [label = "夂\n* walking legs"];
-  体 -> 腹;
-  人 -> 体;
-  本 -> 体;
-  木 -> 本;
-  复 -> 腹;
-  131209 -> 复;
-  日 -> 复;
-  夂 -> 复;
+
+  体 -> 腹 [thick];
+  人 -> 体 [thick];
+  本 -> 体 [thick];
+  木 -> 本 [thick];
+  复 -> 腹 [thick];
+  "𠂉" -> 复 [thick];
+  日 -> 复 [thick];
+  夂 -> 复 [thick];
 }

@@ -1,0 +1,28 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  趁 [label = "趁\n2707 take advantage of"];
+  "㐱" [label = "㐱\n* cocktail"];
+  "𠆢" [label = "𠆢\n* umbrella"];
+  彡 [label = "彡\n* rooster tail"];
+  走 [label = "走\n391 walk"];
+  囧走－十 [label = "囧走－十\n* mending"];
+  正 [label = "正\n387 correct"];
+  一 [label = "一\n1 one"];
+  止 [label = "止\n379 stop"];
+  土 [label = "土\n158 soil"];
+
+  "㐱" -> 趁 [thick];
+  "𠆢" -> "㐱" [thick];
+  彡 -> "㐱" [thick];
+  走 -> 趁 [thick];
+  囧走－十 -> 走 [thick];
+  正 -> 囧走－十 [thick];
+  一 -> 正 [thick];
+  止 -> 正 [thick];
+  土 -> 走 [thick];
+}

@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   壳 [label = "壳\n1641 shell"];
   士 [label = "士\n334 soldier"];
   冖 [label = "冖\n* crown"];
   几 [label = "几\n57 how many?"];
-  士 -> 壳;
-  冖 -> 壳;
-  几 -> 壳;
+
+  士 -> 壳 [thick];
+  冖 -> 壳 [thick];
+  几 -> 壳 [thick];
 }

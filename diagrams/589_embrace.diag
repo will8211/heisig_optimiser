@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   抱 [label = "抱\n589 embrace"];
   扌 [label = "扌\n* fingers"];
   包 [label = "包\n520 wrap"];
   勹 [label = "勹\n* bound up"];
   已 [label = "已\n519 already"];
   己 [label = "己\n515 self"];
-  扌 -> 抱;
-  包 -> 抱;
-  勹 -> 包;
-  已 -> 包;
-  己 -> 已;
+
+  扌 -> 抱 [thick];
+  包 -> 抱 [thick];
+  勹 -> 包 [thick];
+  已 -> 包 [thick];
+  己 -> 已 [thick];
 }

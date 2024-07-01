@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   印 [label = "印\n1125 print"];
   囧印－卩 [label = "囧印－卩\n* staples"];
   卩 [label = "卩\n* stamp"];
-  囧印－卩 -> 印;
-  卩 -> 印;
+
+  囧印－卩 -> 印 [thick];
+  卩 -> 印 [thick];
 }

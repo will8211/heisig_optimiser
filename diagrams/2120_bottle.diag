@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   瓶 [label = "瓶\n2120 bottle"];
   并 [label = "并\n863 combine"];
   丷 [label = "丷\n* horns"];
@@ -9,15 +15,16 @@ blockdiag {
   囧以－丶人 [label = "囧以－丶人\n* plow"];
   乙 [label = "乙\n95 second"];
   丶 [label = "丶\n* a drop of"];
-  并 -> 瓶;
-  丷 -> 并;
-  一 -> 丷;
-  开 -> 并;
-  二 -> 开;
-  一 -> 二;
-  瓦 -> 瓶;
-  一 -> 瓦;
-  囧以－丶人 -> 瓦;
-  乙 -> 瓦;
-  丶 -> 瓦;
+
+  并 -> 瓶 [thick];
+  丷 -> 并 [thick];
+  一 -> 丷 [thick];
+  开 -> 并 [thick];
+  二 -> 开 [thick];
+  一 -> 二 [thick];
+  瓦 -> 瓶 [thick];
+  一 -> 瓦 [thick];
+  囧以－丶人 -> 瓦 [thick];
+  乙 -> 瓦 [thick];
+  丶 -> 瓦 [thick];
 }

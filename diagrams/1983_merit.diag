@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   勋 [label = "勋\n1983 merit"];
   员 [label = "员\n55 employee"];
   口 [label = "口\n11 mouth"];
@@ -9,13 +15,14 @@ blockdiag {
   肌 [label = "肌\n63 muscle"];
   几 [label = "几\n57 how many?"];
   月 [label = "月\n13 month"];
-  员 -> 勋;
-  口 -> 员;
-  贝 -> 员;
-  目 -> 贝;
-  囧只－口 -> 贝;
-  八 -> 囧只－口;
-  肌 -> 勋;
-  几 -> 肌;
-  月 -> 肌;
+
+  员 -> 勋 [thick];
+  口 -> 员 [thick];
+  贝 -> 员 [thick];
+  目 -> 贝 [thick];
+  囧只－口 -> 贝 [thick];
+  八 -> 囧只－口 [thick];
+  肌 -> 勋 [thick];
+  几 -> 肌 [thick];
+  月 -> 肌 [thick];
 }

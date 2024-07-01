@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  槐 [label = "槐\n2925 scholar tree"];
+  木 [label = "木\n202 tree"];
+  鬼 [label = "鬼\n1472 ghost"];
+  丶 [label = "丶\n* a drop of"];
+  田 [label = "田\n14 rice field"];
+  儿 [label = "儿\n56 youngster"];
+  厶 [label = "厶\n* elbow"];
+
+  木 -> 槐 [thick];
+  鬼 -> 槐 [thick];
+  丶 -> 鬼 [thick];
+  田 -> 鬼 [thick];
+  儿 -> 鬼 [thick];
+  厶 -> 鬼 [thick];
+}

@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   委 [label = "委\n774 committee"];
   禾 [label = "禾\n762 standing grain"];
   女 [label = "女\n102 woman"];
-  禾 -> 委;
-  女 -> 委;
+
+  禾 -> 委 [thick];
+  女 -> 委 [thick];
 }

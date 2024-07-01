@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   完 [label = "完\n193 finish"];
   宀 [label = "宀\n* house"];
   元 [label = "元\n59 beginning"];
   二 [label = "二\n2 two"];
   一 [label = "一\n1 one"];
   儿 [label = "儿\n56 youngster"];
-  宀 -> 完;
-  元 -> 完;
-  二 -> 元;
-  一 -> 二;
-  儿 -> 元;
+
+  宀 -> 完 [thick];
+  元 -> 完 [thick];
+  二 -> 元 [thick];
+  一 -> 二 [thick];
+  儿 -> 元 [thick];
 }

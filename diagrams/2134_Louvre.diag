@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   卢 [label = "卢\n2134 Louvre"];
   卜 [label = "卜\n43 divination"];
   丨 [label = "丨\n* walking stick"];
   一 [label = "一\n1 one"];
   丶 [label = "丶\n* a drop of"];
   尸 [label = "尸\n882 corpse"];
-  卜 -> 卢;
-  丨 -> 卜;
-  一 -> 丨;
-  丶 -> 卜;
-  尸 -> 卢;
+
+  卜 -> 卢 [thick];
+  丨 -> 卜 [thick];
+  一 -> 丨 [thick];
+  丶 -> 卜 [thick];
+  尸 -> 卢 [thick];
 }

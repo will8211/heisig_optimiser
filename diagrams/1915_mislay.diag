@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   丢 [label = "丢\n1915 mislay"];
   千 [label = "千\n39 thousand"];
   丶 [label = "丶\n* a drop of"];
@@ -6,10 +12,11 @@ blockdiag {
   囧会－亼 [label = "囧会－亼\n* wall"];
   厶 [label = "厶\n* elbow"];
   一 [label = "一\n1 one"];
-  千 -> 丢;
-  丶 -> 千;
-  十 -> 千;
-  囧会－亼 -> 丢;
-  厶 -> 囧会－亼;
-  一 -> 囧会－亼;
+
+  千 -> 丢 [thick];
+  丶 -> 千 [thick];
+  十 -> 千 [thick];
+  囧会－亼 -> 丢 [thick];
+  厶 -> 囧会－亼 [thick];
+  一 -> 囧会－亼 [thick];
 }

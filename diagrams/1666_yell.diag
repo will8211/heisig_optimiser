@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   喊 [label = "喊\n1666 yell"];
   口 [label = "口\n11 mouth"];
   咸 [label = "咸\n372 salty"];
@@ -7,12 +13,13 @@ blockdiag {
   戈 [label = "戈\n361 halberd"];
   弋 [label = "弋\n* arrow"];
   一 [label = "一\n1 one"];
-  口 -> 喊;
-  咸 -> 喊;
-  口 -> 咸;
-  戌 -> 咸;
-  戊 -> 戌;
-  戈 -> 戊;
-  弋 -> 戈;
-  一 -> 戌;
+
+  口 -> 喊 [thick];
+  咸 -> 喊 [thick];
+  口 -> 咸 [thick];
+  戌 -> 咸 [thick];
+  戊 -> 戌 [thick];
+  戈 -> 戊 [thick];
+  弋 -> 戈 [thick];
+  一 -> 戌 [thick];
 }

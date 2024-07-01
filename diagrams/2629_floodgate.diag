@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   闸 [label = "闸\n2629 floodgate"];
   门 [label = "门\n1260 gate"];
   甲 [label = "甲\n916 first"];
   田 [label = "田\n14 rice field"];
-  门 -> 闸;
-  甲 -> 闸;
-  田 -> 甲;
+
+  门 -> 闸 [thick];
+  甲 -> 闸 [thick];
+  田 -> 甲 [thick];
 }

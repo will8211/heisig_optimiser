@@ -1,17 +1,24 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   砖 [label = "砖\n2604 brick"];
   石 [label = "石\n125 stone"];
   口 [label = "口\n11 mouth"];
   厂 [label = "厂\n121 factory"];
   专 [label = "专\n1236 specialty"];
-  247060 [label = "囧奉－𡗗\n* cornstalk"];
+  "囧奉－𡗗" [label = "囧奉－𡗗\n* cornstalk"];
   丰 [label = "丰\n1223 plentiful"];
   囧节－艹 [label = "囧节－艹\n* chop"];
-  石 -> 砖;
-  口 -> 石;
-  厂 -> 石;
-  专 -> 砖;
-  247060 -> 专;
-  丰 -> 247060;
-  囧节－艹 -> 专;
+
+  石 -> 砖 [thick];
+  口 -> 石 [thick];
+  厂 -> 石 [thick];
+  专 -> 砖 [thick];
+  "囧奉－𡗗" -> 专 [thick];
+  丰 -> "囧奉－𡗗" [thick];
+  囧节－艹 -> 专 [thick];
 }

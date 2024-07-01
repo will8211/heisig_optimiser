@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   妈 [label = "妈\n1454 mama"];
   女 [label = "女\n102 woman"];
   马 [label = "马\n1453 horse"];
   囧与－丨一 [label = "囧与－丨一\n* pointed tail"];
-  女 -> 妈;
-  马 -> 妈;
-  囧与－丨一 -> 马;
+
+  女 -> 妈 [thick];
+  马 -> 妈 [thick];
+  囧与－丨一 -> 马 [thick];
 }

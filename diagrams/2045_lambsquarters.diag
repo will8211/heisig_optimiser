@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   莱 [label = "莱\n2045 lambsquarters"];
   艹 [label = "艹\n* flower"];
   来 [label = "来\n783 come"];
   一 [label = "一\n1 one"];
   米 [label = "米\n778 rice"];
-  艹 -> 莱;
-  来 -> 莱;
-  一 -> 来;
-  米 -> 来;
+
+  艹 -> 莱 [thick];
+  来 -> 莱 [thick];
+  一 -> 来 [thick];
+  米 -> 来 [thick];
 }

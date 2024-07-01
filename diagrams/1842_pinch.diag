@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   捏 [label = "捏\n1842 pinch"];
   扌 [label = "扌\n* fingers"];
   日 [label = "日\n12 day"];
   土 [label = "土\n158 soil"];
-  扌 -> 捏;
-  日 -> 捏;
-  土 -> 捏;
+
+  扌 -> 捏 [thick];
+  日 -> 捏 [thick];
+  土 -> 捏 [thick];
 }

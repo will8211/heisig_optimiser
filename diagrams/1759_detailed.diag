@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   详 [label = "详\n1759 detailed"];
   言 [label = "言\n346 say"];
   二 [label = "二\n2 two"];
@@ -10,17 +16,18 @@ blockdiag {
   八 [label = "八\n8 eight"];
   羊 [label = "羊\n528 sheep"];
   丷 [label = "丷\n* horns"];
-  言 -> 详;
-  二 -> 言;
-  一 -> 二;
-  口 -> 言;
-  亠 -> 言;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  羊 -> 详;
-  丷 -> 羊;
-  一 -> 丷;
+
+  言 -> 详 [thick];
+  二 -> 言 [thick];
+  一 -> 二 [thick];
+  口 -> 言 [thick];
+  亠 -> 言 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  羊 -> 详 [thick];
+  丷 -> 羊 [thick];
+  一 -> 丷 [thick];
 }

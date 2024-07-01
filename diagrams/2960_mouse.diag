@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   鼠 [label = "鼠\n2960 mouse"];
   臼 [label = "臼\n* mortar"];
   囧以－丶人 [label = "囧以－丶人\n* plow"];
   雨 [label = "雨\n425 rain"];
   乙 [label = "乙\n95 second"];
-  臼 -> 鼠;
-  囧以－丶人 -> 鼠;
-  雨 -> 鼠;
-  乙 -> 鼠;
+
+  臼 -> 鼠 [thick];
+  囧以－丶人 -> 鼠 [thick];
+  雨 -> 鼠 [thick];
+  乙 -> 鼠 [thick];
 }

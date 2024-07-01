@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   昧 [label = "昧\n1577 obscure"];
   日 [label = "日\n12 day"];
   未 [label = "未\n215 not yet"];
   木 [label = "木\n202 tree"];
-  日 -> 昧;
-  未 -> 昧;
-  木 -> 未;
+
+  日 -> 昧 [thick];
+  未 -> 昧 [thick];
+  木 -> 未 [thick];
 }

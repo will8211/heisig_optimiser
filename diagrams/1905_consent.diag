@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   允 [label = "允\n1905 consent"];
   厶 [label = "厶\n* elbow"];
   儿 [label = "儿\n56 youngster"];
-  厶 -> 允;
-  儿 -> 允;
+
+  厶 -> 允 [thick];
+  儿 -> 允 [thick];
 }

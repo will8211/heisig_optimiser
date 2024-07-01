@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   划 [label = "划\n363 scratch"];
   戈 [label = "戈\n361 halberd"];
   弋 [label = "弋\n* arrow"];
   刀 [label = "刀\n83 sword"];
-  戈 -> 划;
-  弋 -> 戈;
-  刀 -> 划;
+
+  戈 -> 划 [thick];
+  弋 -> 戈 [thick];
+  刀 -> 划 [thick];
 }

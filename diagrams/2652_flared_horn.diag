@@ -1,0 +1,19 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  喇 [label = "喇\n2652 flared horn"];
+  口 [label = "口\n11 mouth"];
+  束 [label = "束\n1286 bundle up"];
+  木 [label = "木\n202 tree"];
+  刀 [label = "刀\n83 sword"];
+
+  口 -> 喇 [thick];
+  束 -> 喇 [thick];
+  木 -> 束 [thick];
+  口 -> 束 [thick];
+  刀 -> 喇 [thick];
+}

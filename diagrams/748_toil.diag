@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   努 [label = "努\n748 toil"];
   奴 [label = "奴\n747 slave"];
   女 [label = "女\n102 woman"];
@@ -6,10 +12,11 @@ blockdiag {
   肌 [label = "肌\n63 muscle"];
   几 [label = "几\n57 how many?"];
   月 [label = "月\n13 month"];
-  奴 -> 努;
-  女 -> 奴;
-  又 -> 奴;
-  肌 -> 努;
-  几 -> 肌;
-  月 -> 肌;
+
+  奴 -> 努 [thick];
+  女 -> 奴 [thick];
+  又 -> 奴 [thick];
+  肌 -> 努 [thick];
+  几 -> 肌 [thick];
+  月 -> 肌 [thick];
 }

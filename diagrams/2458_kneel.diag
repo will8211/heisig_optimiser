@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   跪 [label = "跪\n2458 kneel"];
   足 [label = "足\n1048 lower leg"];
   口 [label = "口\n11 mouth"];
@@ -6,12 +12,13 @@ blockdiag {
   危 [label = "危\n1123 danger"];
   勹 [label = "勹\n* bound up"];
   厂 [label = "厂\n121 factory"];
-  13630 [label = "㔾\n* fingerprint"];
-  足 -> 跪;
-  口 -> 足;
-  止 -> 足;
-  危 -> 跪;
-  勹 -> 危;
-  厂 -> 危;
-  13630 -> 危;
+  "㔾" [label = "㔾\n* fingerprint"];
+
+  足 -> 跪 [thick];
+  口 -> 足 [thick];
+  止 -> 足 [thick];
+  危 -> 跪 [thick];
+  勹 -> 危 [thick];
+  厂 -> 危 [thick];
+  "㔾" -> 危 [thick];
 }

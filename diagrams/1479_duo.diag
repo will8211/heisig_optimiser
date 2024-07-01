@@ -1,12 +1,19 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   俩 [label = "俩\n1479 duo"];
   人 [label = "人\n793 person"];
   两 [label = "两\n1478 dos"];
   囧冂 [label = "囧冂\n* belt"];
   巾 [label = "巾\n410 towel"];
-  人 -> 俩;
-  两 -> 俩;
-  人 -> 两;
-  囧冂 -> 两;
-  巾 -> 囧冂;
+
+  人 -> 俩 [thick];
+  两 -> 俩 [thick];
+  人 -> 两 [thick];
+  囧冂 -> 两 [thick];
+  巾 -> 囧冂 [thick];
 }

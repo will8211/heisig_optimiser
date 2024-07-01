@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   瞎 [label = "瞎\n2590 visionless"];
   目 [label = "目\n15 eye"];
   害 [label = "害\n1224 harm"];
   宀 [label = "宀\n* house"];
   丰 [label = "丰\n1223 plentiful"];
   口 [label = "口\n11 mouth"];
-  目 -> 瞎;
-  害 -> 瞎;
-  宀 -> 害;
-  丰 -> 害;
-  口 -> 害;
+
+  目 -> 瞎 [thick];
+  害 -> 瞎 [thick];
+  宀 -> 害 [thick];
+  丰 -> 害 [thick];
+  口 -> 害 [thick];
 }

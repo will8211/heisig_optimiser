@@ -1,14 +1,21 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   棺 [label = "棺\n2311 coffin"];
   木 [label = "木\n202 tree"];
   官 [label = "官\n1041 bureaucrat"];
-  131236 [label = "𠂤\n* maestro"];
+  "𠂤" [label = "𠂤\n* maestro"];
   丶 [label = "丶\n* a drop of"];
   宀 [label = "宀\n* house"];
-  木 -> 棺;
-  官 -> 棺;
-  131236 -> 官;
-  丶 -> 131236;
-  丶 -> 官;
-  宀 -> 官;
+
+  木 -> 棺 [thick];
+  官 -> 棺 [thick];
+  "𠂤" -> 官 [thick];
+  丶 -> "𠂤" [thick];
+  丶 -> 官 [thick];
+  宀 -> 官 [thick];
 }

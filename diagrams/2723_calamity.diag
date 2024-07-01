@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   殃 [label = "殃\n2723 calamity"];
   歹 [label = "歹\n712 malicious"];
   央 [label = "央\n1322 center"];
   大 [label = "大\n113 large"];
-  歹 -> 殃;
-  央 -> 殃;
-  大 -> 央;
+
+  歹 -> 殃 [thick];
+  央 -> 殃 [thick];
+  大 -> 央 [thick];
 }

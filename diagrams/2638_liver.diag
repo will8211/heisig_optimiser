@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   肝 [label = "肝\n2638 liver"];
   月 [label = "月\n13 month"];
   干 [label = "干\n1277 dry"];
-  月 -> 肝;
-  干 -> 肝;
+
+  月 -> 肝 [thick];
+  干 -> 肝 [thick];
 }

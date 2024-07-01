@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   慎 [label = "慎\n1802 prudent"];
   心 [label = "心\n563 heart"];
   真 [label = "真\n75 true"];
@@ -6,10 +12,11 @@ blockdiag {
   囧具－目 [label = "囧具－目\n* tool"];
   囧只－口 [label = "囧只－口\n* animal legs"];
   八 [label = "八\n8 eight"];
-  心 -> 慎;
-  真 -> 慎;
-  十 -> 真;
-  囧具－目 -> 真;
-  囧只－口 -> 囧具－目;
-  八 -> 囧只－口;
+
+  心 -> 慎 [thick];
+  真 -> 慎 [thick];
+  十 -> 真 [thick];
+  囧具－目 -> 真 [thick];
+  囧只－口 -> 囧具－目 [thick];
+  八 -> 囧只－口 [thick];
 }

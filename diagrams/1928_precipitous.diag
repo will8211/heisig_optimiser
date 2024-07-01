@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   峭 [label = "峭\n1928 precipitous"];
   山 [label = "山\n688 mountain"];
   肖 [label = "肖\n128 resemble"];
   小 [label = "小\n109 small"];
   丶 [label = "丶\n* a drop of"];
   月 [label = "月\n13 month"];
-  山 -> 峭;
-  肖 -> 峭;
-  小 -> 肖;
-  丶 -> 小;
-  月 -> 肖;
+
+  山 -> 峭 [thick];
+  肖 -> 峭 [thick];
+  小 -> 肖 [thick];
+  丶 -> 小 [thick];
+  月 -> 肖 [thick];
 }

@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   倍 [label = "倍\n2085 times"];
   人 [label = "人\n793 person"];
   咅 [label = "咅\n* muzzle"];
   立 [label = "立\n444 standing up"];
   口 [label = "口\n11 mouth"];
-  人 -> 倍;
-  咅 -> 倍;
-  立 -> 咅;
-  口 -> 咅;
+
+  人 -> 倍 [thick];
+  咅 -> 倍 [thick];
+  立 -> 咅 [thick];
+  口 -> 咅 [thick];
 }

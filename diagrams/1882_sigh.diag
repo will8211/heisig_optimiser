@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   叹 [label = "叹\n1882 sigh"];
   口 [label = "口\n11 mouth"];
   又 [label = "又\n633 again"];
-  口 -> 叹;
-  又 -> 叹;
+
+  口 -> 叹 [thick];
+  又 -> 叹 [thick];
 }

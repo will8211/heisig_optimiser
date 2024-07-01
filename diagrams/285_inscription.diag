@@ -1,21 +1,28 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   铭 [label = "铭\n285 inscription"];
   名 [label = "名\n119 name"];
   夕 [label = "夕\n115 evening"];
   月 [label = "月\n13 month"];
   口 [label = "口\n11 mouth"];
   金 [label = "金\n279 gold"];
-  131490 [label = "𠆢\n* umbrella"];
+  "𠆢" [label = "𠆢\n* umbrella"];
   王 [label = "王\n265 king"];
   工 [label = "工\n76 work"];
   丶 [label = "丶\n* a drop of"];
-  名 -> 铭;
-  夕 -> 名;
-  月 -> 夕;
-  口 -> 名;
-  金 -> 铭;
-  131490 -> 金;
-  王 -> 金;
-  工 -> 王;
-  丶 -> 金;
+
+  名 -> 铭 [thick];
+  夕 -> 名 [thick];
+  月 -> 夕 [thick];
+  口 -> 名 [thick];
+  金 -> 铭 [thick];
+  "𠆢" -> 金 [thick];
+  王 -> 金 [thick];
+  工 -> 王 [thick];
+  丶 -> 金 [thick];
 }

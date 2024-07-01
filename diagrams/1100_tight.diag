@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   紧 [label = "紧\n1100 tight"];
   坚 [label = "坚\n1011 firm"];
   囧坚－圣 [label = "囧坚－圣\n* fencing foil"];
@@ -8,12 +14,13 @@ blockdiag {
   幺 [label = "幺\n* cocoon"];
   小 [label = "小\n109 small"];
   丶 [label = "丶\n* a drop of"];
-  坚 -> 紧;
-  囧坚－圣 -> 坚;
-  又 -> 坚;
-  土 -> 坚;
-  糸 -> 紧;
-  幺 -> 糸;
-  小 -> 糸;
-  丶 -> 小;
+
+  坚 -> 紧 [thick];
+  囧坚－圣 -> 坚 [thick];
+  又 -> 坚 [thick];
+  土 -> 坚 [thick];
+  糸 -> 紧 [thick];
+  幺 -> 糸 [thick];
+  小 -> 糸 [thick];
+  丶 -> 小 [thick];
 }

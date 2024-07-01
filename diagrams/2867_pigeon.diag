@@ -1,8 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   鸽 [label = "鸽\n2867 pigeon"];
   合 [label = "合\n262 fit"];
   亼 [label = "亼\n* meeting"];
-  131490 [label = "𠆢\n* umbrella"];
+  "𠆢" [label = "𠆢\n* umbrella"];
   口 [label = "口\n11 mouth"];
   鸟 [label = "鸟\n1438 bird"];
   向 [label = "向\n188 orientation"];
@@ -10,16 +16,17 @@ blockdiag {
   冂 [label = "冂\n* hood"];
   几 [label = "几\n57 how many?"];
   囧与－丨一 [label = "囧与－丨一\n* pointed tail"];
-  合 -> 鸽;
-  亼 -> 合;
-  131490 -> 亼;
-  口 -> 合;
-  鸟 -> 鸽;
-  向 -> 鸟;
-  丶 -> 向;
-  冂 -> 向;
-  几 -> 冂;
-  口 -> 向;
-  丶 -> 鸟;
-  囧与－丨一 -> 鸟;
+
+  合 -> 鸽 [thick];
+  亼 -> 合 [thick];
+  "𠆢" -> 亼 [thick];
+  口 -> 合 [thick];
+  鸟 -> 鸽 [thick];
+  向 -> 鸟 [thick];
+  丶 -> 向 [thick];
+  冂 -> 向 [thick];
+  几 -> 冂 [thick];
+  口 -> 向 [thick];
+  丶 -> 鸟 [thick];
+  囧与－丨一 -> 鸟 [thick];
 }

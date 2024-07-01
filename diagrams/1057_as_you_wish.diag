@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  随 [label = "随\n1057 as you wish"];
+  阝 [label = "阝\n* pinnacle"];
+  有 [label = "有\n79 possess"];
+  月 [label = "月\n13 month"];
+  "𠂇" [label = "𠂇\n* by one’s side"];
+  十 [label = "十\n10 ten"];
+  辶 [label = "辶\n* road"];
+
+  阝 -> 随 [thick];
+  有 -> 随 [thick];
+  月 -> 有 [thick];
+  "𠂇" -> 有 [thick];
+  十 -> "𠂇" [thick];
+  辶 -> 随 [thick];
+}

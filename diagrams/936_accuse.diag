@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   诉 [label = "诉\n936 accuse"];
   言 [label = "言\n346 say"];
   二 [label = "二\n2 two"];
@@ -11,17 +17,18 @@ blockdiag {
   斥 [label = "斥\n935 reprimand"];
   斤 [label = "斤\n924 catty"];
   丶 [label = "丶\n* a drop of"];
-  言 -> 诉;
-  二 -> 言;
-  一 -> 二;
-  口 -> 言;
-  亠 -> 言;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  斥 -> 诉;
-  斤 -> 斥;
-  丶 -> 斥;
+
+  言 -> 诉 [thick];
+  二 -> 言 [thick];
+  一 -> 二 [thick];
+  口 -> 言 [thick];
+  亠 -> 言 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  斥 -> 诉 [thick];
+  斤 -> 斥 [thick];
+  丶 -> 斥 [thick];
 }

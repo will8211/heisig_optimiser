@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   募 [label = "募\n1985 recruit"];
   莫 [label = "莫\n231 nobody"];
   艹 [label = "艹\n* flower"];
@@ -7,11 +13,12 @@ blockdiag {
   肌 [label = "肌\n63 muscle"];
   几 [label = "几\n57 how many?"];
   月 [label = "月\n13 month"];
-  莫 -> 募;
-  艹 -> 莫;
-  日 -> 莫;
-  大 -> 莫;
-  肌 -> 募;
-  几 -> 肌;
-  月 -> 肌;
+
+  莫 -> 募 [thick];
+  艹 -> 莫 [thick];
+  日 -> 莫 [thick];
+  大 -> 莫 [thick];
+  肌 -> 募 [thick];
+  几 -> 肌 [thick];
+  月 -> 肌 [thick];
 }

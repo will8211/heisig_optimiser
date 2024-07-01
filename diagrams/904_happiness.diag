@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   福 [label = "福\n904 happiness"];
   示 [label = "示\n900 show"];
   畐 [label = "畐\n* wealth"];
   一 [label = "一\n1 one"];
   口 [label = "口\n11 mouth"];
   田 [label = "田\n14 rice field"];
-  示 -> 福;
-  畐 -> 福;
-  一 -> 畐;
-  口 -> 畐;
-  田 -> 畐;
+
+  示 -> 福 [thick];
+  畐 -> 福 [thick];
+  一 -> 畐 [thick];
+  口 -> 畐 [thick];
+  田 -> 畐 [thick];
 }

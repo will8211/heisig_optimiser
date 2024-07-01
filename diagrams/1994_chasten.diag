@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   惩 [label = "惩\n1994 chasten"];
   征 [label = "征\n1993 solicit"];
   行 [label = "行\n754 line of business"];
@@ -6,10 +12,11 @@ blockdiag {
   一 [label = "一\n1 one"];
   止 [label = "止\n379 stop"];
   心 [label = "心\n563 heart"];
-  征 -> 惩;
-  行 -> 征;
-  正 -> 征;
-  一 -> 正;
-  止 -> 正;
-  心 -> 惩;
+
+  征 -> 惩 [thick];
+  行 -> 征 [thick];
+  正 -> 征 [thick];
+  一 -> 正 [thick];
+  止 -> 正 [thick];
+  心 -> 惩 [thick];
 }

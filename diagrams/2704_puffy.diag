@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   膨 [label = "膨\n2704 puffy"];
   月 [label = "月\n13 month"];
   壴 [label = "壴\n* drum"];
@@ -11,15 +17,16 @@ blockdiag {
   一 [label = "一\n1 one"];
   丶 [label = "丶\n* a drop of"];
   彡 [label = "彡\n* rooster tail"];
-  月 -> 膨;
-  壴 -> 膨;
-  士 -> 壴;
-  桌 -> 壴;
-  木 -> 桌;
-  日 -> 桌;
-  卜 -> 桌;
-  丨 -> 卜;
-  一 -> 丨;
-  丶 -> 卜;
-  彡 -> 膨;
+
+  月 -> 膨 [thick];
+  壴 -> 膨 [thick];
+  士 -> 壴 [thick];
+  桌 -> 壴 [thick];
+  木 -> 桌 [thick];
+  日 -> 桌 [thick];
+  卜 -> 桌 [thick];
+  丨 -> 卜 [thick];
+  一 -> 丨 [thick];
+  丶 -> 卜 [thick];
+  彡 -> 膨 [thick];
 }

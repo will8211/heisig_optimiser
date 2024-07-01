@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   肤 [label = "肤\n1977 skin"];
   月 [label = "月\n13 month"];
   夫 [label = "夫\n726 husband"];
   大 [label = "大\n113 large"];
-  月 -> 肤;
-  夫 -> 肤;
-  大 -> 夫;
+
+  月 -> 肤 [thick];
+  夫 -> 肤 [thick];
+  大 -> 夫 [thick];
 }

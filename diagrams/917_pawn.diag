@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   押 [label = "押\n917 pawn"];
   扌 [label = "扌\n* fingers"];
   甲 [label = "甲\n916 first"];
   田 [label = "田\n14 rice field"];
-  扌 -> 押;
-  甲 -> 押;
-  田 -> 甲;
+
+  扌 -> 押 [thick];
+  甲 -> 押 [thick];
+  田 -> 甲 [thick];
 }

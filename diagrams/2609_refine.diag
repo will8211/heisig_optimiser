@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   炼 [label = "炼\n2609 refine"];
   火 [label = "火\n170 fire"];
   东 [label = "东\n1247 east"];
   车 [label = "车\n300 car"];
   丶 [label = "丶\n* a drop of"];
-  火 -> 炼;
-  东 -> 炼;
-  车 -> 东;
-  丶 -> 东;
+
+  火 -> 炼 [thick];
+  东 -> 炼 [thick];
+  车 -> 东 [thick];
+  丶 -> 东 [thick];
 }

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   憋 [label = "憋\n2042 suppress"];
   敝 [label = "敝\n* shredder"];
   冂 [label = "冂\n* hood"];
@@ -6,10 +12,11 @@ blockdiag {
   米 [label = "米\n778 rice"];
   攵 [label = "攵\n* taskmaster"];
   心 [label = "心\n563 heart"];
-  敝 -> 憋;
-  冂 -> 敝;
-  几 -> 冂;
-  米 -> 敝;
-  攵 -> 敝;
-  心 -> 憋;
+
+  敝 -> 憋 [thick];
+  冂 -> 敝 [thick];
+  几 -> 冂 [thick];
+  米 -> 敝 [thick];
+  攵 -> 敝 [thick];
+  心 -> 憋 [thick];
 }

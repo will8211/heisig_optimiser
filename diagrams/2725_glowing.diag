@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   焕 [label = "焕\n2725 glowing"];
   火 [label = "火\n170 fire"];
   奂 [label = "奂\n* Victorian lady"];
   勹 [label = "勹\n* bound up"];
   央 [label = "央\n1322 center"];
   大 [label = "大\n113 large"];
-  火 -> 焕;
-  奂 -> 焕;
-  勹 -> 奂;
-  央 -> 奂;
-  大 -> 央;
+
+  火 -> 焕 [thick];
+  奂 -> 焕 [thick];
+  勹 -> 奂 [thick];
+  央 -> 奂 [thick];
+  大 -> 央 [thick];
 }

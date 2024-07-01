@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  奏 [label = "奏\n2596 play an instrument"];
+  "𡗗" [label = "𡗗\n* bonsai"];
+  丰 [label = "丰\n1223 plentiful"];
+  天 [label = "天\n436 heavens"];
+  一 [label = "一\n1 one"];
+  大 [label = "大\n113 large"];
+
+  "𡗗" -> 奏 [thick];
+  丰 -> "𡗗" [thick];
+  天 -> 奏 [thick];
+  一 -> 天 [thick];
+  大 -> 天 [thick];
+}

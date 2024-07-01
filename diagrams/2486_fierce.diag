@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   猛 [label = "猛\n2486 fierce"];
   犬 [label = "犬\n239 pooch"];
   大 [label = "大\n113 large"];
@@ -6,10 +12,11 @@ blockdiag {
   孟 [label = "孟\n2485 Mencius"];
   子 [label = "子\n97 child"];
   皿 [label = "皿\n* dish"];
-  犬 -> 猛;
-  大 -> 犬;
-  丶 -> 犬;
-  孟 -> 猛;
-  子 -> 孟;
-  皿 -> 孟;
+
+  犬 -> 猛 [thick];
+  大 -> 犬 [thick];
+  丶 -> 犬 [thick];
+  孟 -> 猛 [thick];
+  子 -> 孟 [thick];
+  皿 -> 孟 [thick];
 }

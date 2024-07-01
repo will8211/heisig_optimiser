@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   莺 [label = "莺\n2866 oriole"];
   囧荣－木 [label = "囧荣－木\n* greenhouse"];
   宀 [label = "宀\n* house"];
@@ -10,15 +16,16 @@ blockdiag {
   几 [label = "几\n57 how many?"];
   口 [label = "口\n11 mouth"];
   囧与－丨一 [label = "囧与－丨一\n* pointed tail"];
-  囧荣－木 -> 莺;
-  宀 -> 囧荣－木;
-  艹 -> 囧荣－木;
-  鸟 -> 莺;
-  向 -> 鸟;
-  丶 -> 向;
-  冂 -> 向;
-  几 -> 冂;
-  口 -> 向;
-  丶 -> 鸟;
-  囧与－丨一 -> 鸟;
+
+  囧荣－木 -> 莺 [thick];
+  宀 -> 囧荣－木 [thick];
+  艹 -> 囧荣－木 [thick];
+  鸟 -> 莺 [thick];
+  向 -> 鸟 [thick];
+  丶 -> 向 [thick];
+  冂 -> 向 [thick];
+  几 -> 冂 [thick];
+  口 -> 向 [thick];
+  丶 -> 鸟 [thick];
+  囧与－丨一 -> 鸟 [thick];
 }

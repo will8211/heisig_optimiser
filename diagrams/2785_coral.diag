@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   珊 [label = "珊\n2785 coral"];
   玉 [label = "玉\n266 jade"];
   王 [label = "王\n265 king"];
   工 [label = "工\n76 work"];
   丶 [label = "丶\n* a drop of"];
   册 [label = "册\n2782 Vol."];
-  玉 -> 珊;
-  王 -> 玉;
-  工 -> 王;
-  丶 -> 玉;
-  册 -> 珊;
+
+  玉 -> 珊 [thick];
+  王 -> 玉 [thick];
+  工 -> 王 [thick];
+  丶 -> 玉 [thick];
+  册 -> 珊 [thick];
 }

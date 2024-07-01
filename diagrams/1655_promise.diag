@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   诺 [label = "诺\n1655 promise"];
   言 [label = "言\n346 say"];
   二 [label = "二\n2 two"];
@@ -12,23 +18,24 @@ blockdiag {
   若 [label = "若\n226 as if"];
   艹 [label = "艹\n* flower"];
   右 [label = "右\n78 right"];
-  131207 [label = "𠂇\n* by one’s side"];
+  "𠂇" [label = "𠂇\n* by one’s side"];
   十 [label = "十\n10 ten"];
-  言 -> 诺;
-  二 -> 言;
-  一 -> 二;
-  口 -> 言;
-  亠 -> 言;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  囧若 -> 诺;
-  若 -> 囧若;
-  艹 -> 若;
-  右 -> 若;
-  口 -> 右;
-  131207 -> 右;
-  十 -> 131207;
+
+  言 -> 诺 [thick];
+  二 -> 言 [thick];
+  一 -> 二 [thick];
+  口 -> 言 [thick];
+  亠 -> 言 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  囧若 -> 诺 [thick];
+  若 -> 囧若 [thick];
+  艹 -> 若 [thick];
+  右 -> 若 [thick];
+  口 -> 右 [thick];
+  "𠂇" -> 右 [thick];
+  十 -> "𠂇" [thick];
 }

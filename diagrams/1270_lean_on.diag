@@ -1,0 +1,18 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  靠 [label = "靠\n1270 lean on"];
+  告 [label = "告\n254 declare"];
+  牛 [label = "牛\n252 cow"];
+  口 [label = "口\n11 mouth"];
+  非 [label = "非\n1267 non-"];
+
+  告 -> 靠 [thick];
+  牛 -> 告 [thick];
+  口 -> 告 [thick];
+  非 -> 靠 [thick];
+}

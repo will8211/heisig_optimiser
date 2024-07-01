@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   硕 [label = "硕\n1526 big"];
   石 [label = "石\n125 stone"];
   口 [label = "口\n11 mouth"];
@@ -10,14 +16,15 @@ blockdiag {
   八 [label = "八\n8 eight"];
   一 [label = "一\n1 one"];
   丶 [label = "丶\n* a drop of"];
-  石 -> 硕;
-  口 -> 石;
-  厂 -> 石;
-  页 -> 硕;
-  贝 -> 页;
-  目 -> 贝;
-  囧只－口 -> 贝;
-  八 -> 囧只－口;
-  一 -> 页;
-  丶 -> 页;
+
+  石 -> 硕 [thick];
+  口 -> 石 [thick];
+  厂 -> 石 [thick];
+  页 -> 硕 [thick];
+  贝 -> 页 [thick];
+  目 -> 贝 [thick];
+  囧只－口 -> 贝 [thick];
+  八 -> 囧只－口 [thick];
+  一 -> 页 [thick];
+  丶 -> 页 [thick];
 }

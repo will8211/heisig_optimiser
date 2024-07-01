@@ -1,14 +1,21 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   能 [label = "能\n1464 ability"];
   熊 [label = "熊\n1463 bear"];
   厶 [label = "厶\n* elbow"];
   月 [label = "月\n13 month"];
   匕 [label = "匕\n453 ancient spoon"];
   火 [label = "火\n170 fire"];
-  熊 -> 能;
-  厶 -> 熊;
-  月 -> 熊;
-  匕 -> 熊;
-  火 -> 熊;
-  火 -> 能;
+
+  熊 -> 能 [thick];
+  厶 -> 熊 [thick];
+  月 -> 熊 [thick];
+  匕 -> 熊 [thick];
+  火 -> 熊 [thick];
+  火 -> 能 [thick];
 }

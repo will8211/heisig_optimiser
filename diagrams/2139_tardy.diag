@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   迟 [label = "迟\n2139 tardy"];
   尸 [label = "尸\n882 corpse"];
   丶 [label = "丶\n* a drop of"];
   辶 [label = "辶\n* road"];
-  尸 -> 迟;
-  丶 -> 迟;
-  辶 -> 迟;
+
+  尸 -> 迟 [thick];
+  丶 -> 迟 [thick];
+  辶 -> 迟 [thick];
 }

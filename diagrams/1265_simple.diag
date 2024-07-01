@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   简 [label = "简\n1265 simple"];
   竹 [label = "竹\n786 bamboo"];
   丁 [label = "丁\n90 fourth"];
   间 [label = "间\n1264 interval"];
   门 [label = "门\n1260 gate"];
   日 [label = "日\n12 day"];
-  竹 -> 简;
-  丁 -> 竹;
-  间 -> 简;
-  门 -> 间;
-  日 -> 间;
+
+  竹 -> 简 [thick];
+  丁 -> 竹 [thick];
+  间 -> 简 [thick];
+  门 -> 间 [thick];
+  日 -> 间 [thick];
 }

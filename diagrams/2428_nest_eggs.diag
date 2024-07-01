@@ -1,0 +1,18 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  卵 [label = "卵\n2428 nest eggs"];
+  囧贸－贝 [label = "囧贸－贝\n* letter opener"];
+  卩 [label = "卩\n* stamp"];
+  刀 [label = "刀\n83 sword"];
+  丶 [label = "丶\n* a drop of"];
+
+  囧贸－贝 -> 卵 [thick];
+  卩 -> 囧贸－贝 [thick];
+  刀 -> 囧贸－贝 [thick];
+  丶 -> 卵 [thick];
+}

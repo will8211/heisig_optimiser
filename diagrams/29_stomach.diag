@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   胃 [label = "胃\n29 stomach"];
   月 [label = "月\n13 month"];
   田 [label = "田\n14 rice field"];
-  月 -> 胃;
-  田 -> 胃;
+
+  月 -> 胃 [thick];
+  田 -> 胃 [thick];
 }

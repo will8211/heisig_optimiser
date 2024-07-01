@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   搜 [label = "搜\n2966 search"];
   扌 [label = "扌\n* fingers"];
   叟 [label = "叟\n* cake mixer"];
@@ -6,10 +12,11 @@ blockdiag {
   又 [label = "又\n633 again"];
   丨 [label = "丨\n* walking stick"];
   一 [label = "一\n1 one"];
-  扌 -> 搜;
-  叟 -> 搜;
-  臼 -> 叟;
-  又 -> 叟;
-  丨 -> 叟;
-  一 -> 丨;
+
+  扌 -> 搜 [thick];
+  叟 -> 搜 [thick];
+  臼 -> 叟 [thick];
+  又 -> 叟 [thick];
+  丨 -> 叟 [thick];
+  一 -> 丨 [thick];
 }

@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  若 [label = "若\n226 as if"];
+  艹 [label = "艹\n* flower"];
+  右 [label = "右\n78 right"];
+  口 [label = "口\n11 mouth"];
+  "𠂇" [label = "𠂇\n* by one’s side"];
+  十 [label = "十\n10 ten"];
+
+  艹 -> 若 [thick];
+  右 -> 若 [thick];
+  口 -> 右 [thick];
+  "𠂇" -> 右 [thick];
+  十 -> "𠂇" [thick];
+}

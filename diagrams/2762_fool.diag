@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   哄 [label = "哄\n2762 fool"];
   口 [label = "口\n11 mouth"];
   共 [label = "共\n1354 together"];
@@ -6,10 +12,11 @@ blockdiag {
   艹 [label = "艹\n* flower"];
   囧只－口 [label = "囧只－口\n* animal legs"];
   八 [label = "八\n8 eight"];
-  口 -> 哄;
-  共 -> 哄;
-  囧昔－日 -> 共;
-  艹 -> 囧昔－日;
-  囧只－口 -> 共;
-  八 -> 囧只－口;
+
+  口 -> 哄 [thick];
+  共 -> 哄 [thick];
+  囧昔－日 -> 共 [thick];
+  艹 -> 囧昔－日 [thick];
+  囧只－口 -> 共 [thick];
+  八 -> 囧只－口 [thick];
 }

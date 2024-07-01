@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   赔 [label = "赔\n482 compensate"];
   贝 [label = "贝\n52 shellfish"];
   目 [label = "目\n15 eye"];
@@ -7,11 +13,12 @@ blockdiag {
   咅 [label = "咅\n* muzzle"];
   立 [label = "立\n444 standing up"];
   口 [label = "口\n11 mouth"];
-  贝 -> 赔;
-  目 -> 贝;
-  囧只－口 -> 贝;
-  八 -> 囧只－口;
-  咅 -> 赔;
-  立 -> 咅;
-  口 -> 咅;
+
+  贝 -> 赔 [thick];
+  目 -> 贝 [thick];
+  囧只－口 -> 贝 [thick];
+  八 -> 囧只－口 [thick];
+  咅 -> 赔 [thick];
+  立 -> 咅 [thick];
+  口 -> 咅 [thick];
 }

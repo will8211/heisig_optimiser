@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   姜 [label = "姜\n1758 ginger"];
   羊 [label = "羊\n528 sheep"];
   丷 [label = "丷\n* horns"];
   一 [label = "一\n1 one"];
   女 [label = "女\n102 woman"];
-  羊 -> 姜;
-  丷 -> 羊;
-  一 -> 丷;
-  女 -> 姜;
+
+  羊 -> 姜 [thick];
+  丷 -> 羊 [thick];
+  一 -> 丷 [thick];
+  女 -> 姜 [thick];
 }

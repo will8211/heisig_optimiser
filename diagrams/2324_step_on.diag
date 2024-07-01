@@ -1,0 +1,24 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  踩 [label = "踩\n2324 step on"];
+  足 [label = "足\n1048 lower leg"];
+  口 [label = "口\n11 mouth"];
+  止 [label = "止\n379 stop"];
+  采 [label = "采\n665 pick"];
+  爪 [label = "爪\n663 claw"];
+  "𠂆" [label = "𠂆\n* drag"];
+  木 [label = "木\n202 tree"];
+
+  足 -> 踩 [thick];
+  口 -> 足 [thick];
+  止 -> 足 [thick];
+  采 -> 踩 [thick];
+  爪 -> 采 [thick];
+  "𠂆" -> 爪 [thick];
+  木 -> 采 [thick];
+}

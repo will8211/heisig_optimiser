@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   紫 [label = "紫\n2420 purple"];
   此 [label = "此\n460 this (literary)"];
   止 [label = "止\n379 stop"];
@@ -7,11 +13,12 @@ blockdiag {
   幺 [label = "幺\n* cocoon"];
   小 [label = "小\n109 small"];
   丶 [label = "丶\n* a drop of"];
-  此 -> 紫;
-  止 -> 此;
-  匕 -> 此;
-  糸 -> 紫;
-  幺 -> 糸;
-  小 -> 糸;
-  丶 -> 小;
+
+  此 -> 紫 [thick];
+  止 -> 此 [thick];
+  匕 -> 此 [thick];
+  糸 -> 紫 [thick];
+  幺 -> 糸 [thick];
+  小 -> 糸 [thick];
+  丶 -> 小 [thick];
 }

@@ -1,0 +1,49 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  就 [label = "就\n332 at once"];
+  尤 [label = "尤\n240 remarkable"];
+  犬 [label = "犬\n239 pooch"];
+  大 [label = "大\n113 large"];
+  丶 [label = "丶\n* a drop of"];
+  儿 [label = "儿\n56 youngster"];
+  京 [label = "京\n330 capital"];
+  高 [label = "高\n325 tall"];
+  向 [label = "向\n188 orientation"];
+  冂 [label = "冂\n* hood"];
+  几 [label = "几\n57 how many?"];
+  口 [label = "口\n11 mouth"];
+  亠 [label = "亠\n* top hat"];
+  六 [label = "六\n6 six"];
+  囧只－口 [label = "囧只－口\n* animal legs"];
+  八 [label = "八\n8 eight"];
+  小 [label = "小\n109 small"];
+
+  尤 -> 就 [thick];
+  犬 -> 尤 [thick];
+  大 -> 犬 [thick];
+  丶 -> 犬 [thick];
+  儿 -> 尤 [thick];
+  京 -> 就 [thick];
+  高 -> 京 [thick];
+  向 -> 高 [thick];
+  丶 -> 向 [thick];
+  冂 -> 向 [thick];
+  几 -> 冂 [thick];
+  口 -> 向 [thick];
+  口 -> 高 [thick];
+  冂 -> 高 [thick];
+  几 -> 冂 [thick];
+  亠 -> 高 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  小 -> 京 [thick];
+  丶 -> 小 [thick];
+}

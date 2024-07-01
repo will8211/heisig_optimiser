@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   踪 [label = "踪\n2328 tracks"];
   足 [label = "足\n1048 lower leg"];
   口 [label = "口\n11 mouth"];
@@ -6,10 +12,11 @@ blockdiag {
   宗 [label = "宗\n908 religion"];
   宀 [label = "宀\n* house"];
   示 [label = "示\n900 show"];
-  足 -> 踪;
-  口 -> 足;
-  止 -> 足;
-  宗 -> 踪;
-  宀 -> 宗;
-  示 -> 宗;
+
+  足 -> 踪 [thick];
+  口 -> 足 [thick];
+  止 -> 足 [thick];
+  宗 -> 踪 [thick];
+  宀 -> 宗 [thick];
+  示 -> 宗 [thick];
 }

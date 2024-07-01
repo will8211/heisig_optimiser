@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   衅 [label = "衅\n2504 quarrel"];
   血 [label = "血\n1136 blood"];
   丶 [label = "丶\n* a drop of"];
   皿 [label = "皿\n* dish"];
   半 [label = "半\n980 half"];
-  血 -> 衅;
-  丶 -> 血;
-  皿 -> 血;
-  半 -> 衅;
+
+  血 -> 衅 [thick];
+  丶 -> 血 [thick];
+  皿 -> 血 [thick];
+  半 -> 衅 [thick];
 }

@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   套 [label = "套\n1498 cover"];
   大 [label = "大\n113 large"];
   囧印－卩 [label = "囧印－卩\n* staples"];
   囧会－亼 [label = "囧会－亼\n* wall"];
   厶 [label = "厶\n* elbow"];
   一 [label = "一\n1 one"];
-  大 -> 套;
-  囧印－卩 -> 套;
-  囧会－亼 -> 套;
-  厶 -> 囧会－亼;
-  一 -> 囧会－亼;
+
+  大 -> 套 [thick];
+  囧印－卩 -> 套 [thick];
+  囧会－亼 -> 套 [thick];
+  厶 -> 囧会－亼 [thick];
+  一 -> 囧会－亼 [thick];
 }

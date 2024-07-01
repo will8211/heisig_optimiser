@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   化 [label = "化\n830 transform"];
   人 [label = "人\n793 person"];
   匕 [label = "匕\n453 ancient spoon"];
-  人 -> 化;
-  匕 -> 化;
+
+  人 -> 化 [thick];
+  匕 -> 化 [thick];
 }

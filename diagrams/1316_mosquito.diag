@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   蚊 [label = "蚊\n1316 mosquito"];
   虫 [label = "虫\n509 insect"];
   文 [label = "文\n1315 literature"];
@@ -6,14 +12,15 @@ blockdiag {
   六 [label = "六\n6 six"];
   囧只－口 [label = "囧只－口\n* animal legs"];
   八 [label = "八\n8 eight"];
-  13317 [label = "㐅\n* sheaf"];
-  虫 -> 蚊;
-  文 -> 蚊;
-  亠 -> 文;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  13317 -> 文;
+  "㐅" [label = "㐅\n* sheaf"];
+
+  虫 -> 蚊 [thick];
+  文 -> 蚊 [thick];
+  亠 -> 文 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  "㐅" -> 文 [thick];
 }

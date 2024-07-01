@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   薄 [label = "薄\n2793 slight"];
   蒲 [label = "蒲\n2792 cattail"];
   浦 [label = "浦\n2791 river mouth"];
@@ -11,18 +17,19 @@ blockdiag {
   月 [label = "月\n13 month"];
   艹 [label = "艹\n* flower"];
   寸 [label = "寸\n166 Chinese inch"];
-  蒲 -> 薄;
-  浦 -> 蒲;
-  水 -> 浦;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  甫 -> 浦;
-  十 -> 甫;
-  月 -> 甫;
-  丶 -> 甫;
-  艹 -> 蒲;
-  寸 -> 薄;
-  丶 -> 寸;
-  十 -> 寸;
+
+  蒲 -> 薄 [thick];
+  浦 -> 蒲 [thick];
+  水 -> 浦 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  甫 -> 浦 [thick];
+  十 -> 甫 [thick];
+  月 -> 甫 [thick];
+  丶 -> 甫 [thick];
+  艹 -> 蒲 [thick];
+  寸 -> 薄 [thick];
+  丶 -> 寸 [thick];
+  十 -> 寸 [thick];
 }

@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   棚 [label = "棚\n1561 shed"];
   木 [label = "木\n202 tree"];
   朋 [label = "朋\n20 companion"];
   月 [label = "月\n13 month"];
-  木 -> 棚;
-  朋 -> 棚;
-  月 -> 朋;
+
+  木 -> 棚 [thick];
+  朋 -> 棚 [thick];
+  月 -> 朋 [thick];
 }

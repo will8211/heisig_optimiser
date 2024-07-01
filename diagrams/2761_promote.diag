@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   晋 [label = "晋\n2761 promote"];
   亚 [label = "亚\n1351 Asia"];
   一 [label = "一\n1 one"];
   业 [label = "业\n1349 profession"];
   並 [label = "並\n* side by side"];
   日 [label = "日\n12 day"];
-  亚 -> 晋;
-  一 -> 亚;
-  业 -> 亚;
-  並 -> 业;
-  日 -> 晋;
+
+  亚 -> 晋 [thick];
+  一 -> 亚 [thick];
+  业 -> 亚 [thick];
+  並 -> 业 [thick];
+  日 -> 晋 [thick];
 }

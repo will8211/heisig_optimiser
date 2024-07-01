@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   倾 [label = "倾\n2082 incline"];
   人 [label = "人\n793 person"];
   顷 [label = "顷\n1703 100 Chinese acres"];
@@ -10,14 +16,15 @@ blockdiag {
   八 [label = "八\n8 eight"];
   一 [label = "一\n1 one"];
   丶 [label = "丶\n* a drop of"];
-  人 -> 倾;
-  顷 -> 倾;
-  七 -> 顷;
-  页 -> 顷;
-  贝 -> 页;
-  目 -> 贝;
-  囧只－口 -> 贝;
-  八 -> 囧只－口;
-  一 -> 页;
-  丶 -> 页;
+
+  人 -> 倾 [thick];
+  顷 -> 倾 [thick];
+  七 -> 顷 [thick];
+  页 -> 顷 [thick];
+  贝 -> 页 [thick];
+  目 -> 贝 [thick];
+  囧只－口 -> 贝 [thick];
+  八 -> 囧只－口 [thick];
+  一 -> 页 [thick];
+  丶 -> 页 [thick];
 }

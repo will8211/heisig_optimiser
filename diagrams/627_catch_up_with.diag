@@ -1,0 +1,12 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  及 [label = "及\n627 catch up with"];
+  乃 [label = "乃\n625 only then"];
+
+  乃 -> 及 [thick];
+}

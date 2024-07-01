@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   佳 [label = "佳\n2070 superb"];
   人 [label = "人\n793 person"];
   圭 [label = "圭\n* bricks"];
   土 [label = "土\n158 soil"];
-  人 -> 佳;
-  圭 -> 佳;
-  土 -> 圭;
+
+  人 -> 佳 [thick];
+  圭 -> 佳 [thick];
+  土 -> 圭 [thick];
 }

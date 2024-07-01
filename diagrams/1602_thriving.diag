@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   旺 [label = "旺\n1602 thriving"];
   王 [label = "王\n265 king"];
   工 [label = "工\n76 work"];
   日 [label = "日\n12 day"];
-  王 -> 旺;
-  工 -> 王;
-  日 -> 旺;
+
+  王 -> 旺 [thick];
+  工 -> 王 [thick];
+  日 -> 旺 [thick];
 }

@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   姻 [label = "姻\n1780 in-law"];
   女 [label = "女\n102 woman"];
   囧因 [label = "囧因\n* dog kennel"];
   囗 [label = "囗\n* pent in"];
   大 [label = "大\n113 large"];
-  女 -> 姻;
-  囧因 -> 姻;
-  囗 -> 囧因;
-  大 -> 囧因;
+
+  女 -> 姻 [thick];
+  囧因 -> 姻 [thick];
+  囗 -> 囧因 [thick];
+  大 -> 囧因 [thick];
 }

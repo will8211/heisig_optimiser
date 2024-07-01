@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   超 [label = "超\n392 transcend"];
   召 [label = "召\n86 summon"];
   刀 [label = "刀\n83 sword"];
@@ -9,13 +15,14 @@ blockdiag {
   一 [label = "一\n1 one"];
   止 [label = "止\n379 stop"];
   土 [label = "土\n158 soil"];
-  召 -> 超;
-  刀 -> 召;
-  口 -> 召;
-  走 -> 超;
-  囧走－十 -> 走;
-  正 -> 囧走－十;
-  一 -> 正;
-  止 -> 正;
-  土 -> 走;
+
+  召 -> 超 [thick];
+  刀 -> 召 [thick];
+  口 -> 召 [thick];
+  走 -> 超 [thick];
+  囧走－十 -> 走 [thick];
+  正 -> 囧走－十 [thick];
+  一 -> 正 [thick];
+  止 -> 正 [thick];
+  土 -> 走 [thick];
 }

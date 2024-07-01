@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   精 [label = "精\n1209 refined"];
   米 [label = "米\n778 rice"];
   青 [label = "青\n1208 blue or green"];
   囧毒－母 [label = "囧毒－母\n* grow up"];
   月 [label = "月\n13 month"];
-  米 -> 精;
-  青 -> 精;
-  囧毒－母 -> 青;
-  月 -> 青;
+
+  米 -> 精 [thick];
+  青 -> 精 [thick];
+  囧毒－母 -> 青 [thick];
+  月 -> 青 [thick];
 }

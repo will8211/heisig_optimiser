@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   粒 [label = "粒\n2039 grain"];
   米 [label = "米\n778 rice"];
   立 [label = "立\n444 standing up"];
-  米 -> 粒;
-  立 -> 粒;
+
+  米 -> 粒 [thick];
+  立 -> 粒 [thick];
 }

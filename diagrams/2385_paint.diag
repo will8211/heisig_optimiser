@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   绘 [label = "绘\n2385 paint"];
   纟 [label = "纟\n* thread"];
   厶 [label = "厶\n* elbow"];
   亼 [label = "亼\n* meeting"];
-  131490 [label = "𠆢\n* umbrella"];
-  纟 -> 绘;
-  厶 -> 纟;
-  亼 -> 绘;
-  131490 -> 亼;
+  "𠆢" [label = "𠆢\n* umbrella"];
+
+  纟 -> 绘 [thick];
+  厶 -> 纟 [thick];
+  亼 -> 绘 [thick];
+  "𠆢" -> 亼 [thick];
 }

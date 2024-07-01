@@ -1,0 +1,16 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  鼎 [label = "鼎\n2251 old cooking pot"];
+  目 [label = "目\n15 eye"];
+  爿 [label = "爿\n* bunk beds"];
+  片 [label = "片\n986 slice"];
+
+  目 -> 鼎 [thick];
+  爿 -> 鼎 [thick];
+  片 -> 鼎 [thick];
+}

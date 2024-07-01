@@ -1,0 +1,14 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  垒 [label = "垒\n1907 baseball base"];
+  厶 [label = "厶\n* elbow"];
+  土 [label = "土\n158 soil"];
+
+  厶 -> 垒 [thick];
+  土 -> 垒 [thick];
+}

@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   名 [label = "名\n119 name"];
   夕 [label = "夕\n115 evening"];
   月 [label = "月\n13 month"];
   口 [label = "口\n11 mouth"];
-  夕 -> 名;
-  月 -> 夕;
-  口 -> 名;
+
+  夕 -> 名 [thick];
+  月 -> 夕 [thick];
+  口 -> 名 [thick];
 }

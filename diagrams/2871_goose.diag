@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   鹅 [label = "鹅\n2871 goose"];
   囧我 [label = "囧我\n* miser"];
   我 [label = "我\n588 I"];
@@ -12,17 +18,18 @@ blockdiag {
   几 [label = "几\n57 how many?"];
   口 [label = "口\n11 mouth"];
   囧与－丨一 [label = "囧与－丨一\n* pointed tail"];
-  囧我 -> 鹅;
-  我 -> 囧我;
-  手 -> 我;
-  戈 -> 我;
-  弋 -> 戈;
-  鸟 -> 鹅;
-  向 -> 鸟;
-  丶 -> 向;
-  冂 -> 向;
-  几 -> 冂;
-  口 -> 向;
-  丶 -> 鸟;
-  囧与－丨一 -> 鸟;
+
+  囧我 -> 鹅 [thick];
+  我 -> 囧我 [thick];
+  手 -> 我 [thick];
+  戈 -> 我 [thick];
+  弋 -> 戈 [thick];
+  鸟 -> 鹅 [thick];
+  向 -> 鸟 [thick];
+  丶 -> 向 [thick];
+  冂 -> 向 [thick];
+  几 -> 冂 [thick];
+  口 -> 向 [thick];
+  丶 -> 鸟 [thick];
+  囧与－丨一 -> 鸟 [thick];
 }

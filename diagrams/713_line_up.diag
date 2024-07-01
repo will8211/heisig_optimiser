@@ -1,0 +1,14 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  列 [label = "列\n713 line up"];
+  歹 [label = "歹\n712 malicious"];
+  刀 [label = "刀\n83 sword"];
+
+  歹 -> 列 [thick];
+  刀 -> 列 [thick];
+}

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   靴 [label = "靴\n2839 boots"];
   革 [label = "革\n1407 leather"];
   廿 [label = "廿\n976 twenty"];
@@ -12,21 +18,22 @@ blockdiag {
   八 [label = "八\n8 eight"];
   刀 [label = "刀\n83 sword"];
   又 [label = "又\n633 again"];
-  革 -> 靴;
-  廿 -> 革;
-  十 -> 廿;
-  口 -> 革;
-  十 -> 革;
-  变 -> 靴;
-  亦 -> 变;
-  亠 -> 亦;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  囧只－口 -> 亦;
-  八 -> 囧只－口;
-  刀 -> 亦;
-  又 -> 变;
+
+  革 -> 靴 [thick];
+  廿 -> 革 [thick];
+  十 -> 廿 [thick];
+  口 -> 革 [thick];
+  十 -> 革 [thick];
+  变 -> 靴 [thick];
+  亦 -> 变 [thick];
+  亠 -> 亦 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亦 [thick];
+  八 -> 囧只－口 [thick];
+  刀 -> 亦 [thick];
+  又 -> 变 [thick];
 }

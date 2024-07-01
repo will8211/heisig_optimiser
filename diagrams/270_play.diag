@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   玩 [label = "玩\n270 play"];
   元 [label = "元\n59 beginning"];
   二 [label = "二\n2 two"];
@@ -8,12 +14,13 @@ blockdiag {
   王 [label = "王\n265 king"];
   工 [label = "工\n76 work"];
   丶 [label = "丶\n* a drop of"];
-  元 -> 玩;
-  二 -> 元;
-  一 -> 二;
-  儿 -> 元;
-  玉 -> 玩;
-  王 -> 玉;
-  工 -> 王;
-  丶 -> 玉;
+
+  元 -> 玩 [thick];
+  二 -> 元 [thick];
+  一 -> 二 [thick];
+  儿 -> 元 [thick];
+  玉 -> 玩 [thick];
+  王 -> 玉 [thick];
+  工 -> 王 [thick];
+  丶 -> 玉 [thick];
 }

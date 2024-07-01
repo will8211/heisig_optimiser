@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   刺 [label = "刺\n423 thorn"];
   朿 [label = "朿\n* thorn"];
   囧冂 [label = "囧冂\n* belt"];
   巾 [label = "巾\n410 towel"];
   木 [label = "木\n202 tree"];
   刀 [label = "刀\n83 sword"];
-  朿 -> 刺;
-  囧冂 -> 朿;
-  巾 -> 囧冂;
-  木 -> 朿;
-  刀 -> 刺;
+
+  朿 -> 刺 [thick];
+  囧冂 -> 朿 [thick];
+  巾 -> 囧冂 [thick];
+  木 -> 朿 [thick];
+  刀 -> 刺 [thick];
 }

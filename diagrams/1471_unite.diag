@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   联 [label = "联\n1471 unite"];
   耳 [label = "耳\n717 ear"];
   关 [label = "关\n1469 shut"];
@@ -6,11 +12,12 @@ blockdiag {
   一 [label = "一\n1 one"];
   天 [label = "天\n436 heavens"];
   大 [label = "大\n113 large"];
-  耳 -> 联;
-  关 -> 联;
-  丷 -> 关;
-  一 -> 丷;
-  天 -> 关;
-  一 -> 天;
-  大 -> 天;
+
+  耳 -> 联 [thick];
+  关 -> 联 [thick];
+  丷 -> 关 [thick];
+  一 -> 丷 [thick];
+  天 -> 关 [thick];
+  一 -> 天 [thick];
+  大 -> 天 [thick];
 }

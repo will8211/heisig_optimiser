@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   翔 [label = "翔\n546 soar"];
   羊 [label = "羊\n528 sheep"];
   丷 [label = "丷\n* horns"];
   一 [label = "一\n1 one"];
   羽 [label = "羽\n544 feathers"];
-  羊 -> 翔;
-  丷 -> 羊;
-  一 -> 丷;
-  羽 -> 翔;
+
+  羊 -> 翔 [thick];
+  丷 -> 羊 [thick];
+  一 -> 丷 [thick];
+  羽 -> 翔 [thick];
 }

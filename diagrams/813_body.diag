@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   体 [label = "体\n813 body"];
   人 [label = "人\n793 person"];
   本 [label = "本\n213 notebook"];
   木 [label = "木\n202 tree"];
-  人 -> 体;
-  本 -> 体;
-  木 -> 本;
+
+  人 -> 体 [thick];
+  本 -> 体 [thick];
+  木 -> 本 [thick];
 }

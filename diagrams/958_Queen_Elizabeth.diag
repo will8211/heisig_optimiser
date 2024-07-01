@@ -1,0 +1,14 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  伊 [label = "伊\n958 Queen Elizabeth"];
+  人 [label = "人\n793 person"];
+  尹 [label = "尹\n957 overseer"];
+
+  人 -> 伊 [thick];
+  尹 -> 伊 [thick];
+}

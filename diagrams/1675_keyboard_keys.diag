@@ -1,0 +1,26 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  键 [label = "键\n1675 keyboard keys"];
+  金 [label = "金\n279 gold"];
+  "𠆢" [label = "𠆢\n* umbrella"];
+  王 [label = "王\n265 king"];
+  工 [label = "工\n76 work"];
+  丶 [label = "丶\n* a drop of"];
+  建 [label = "建\n398 build"];
+  聿 [label = "聿\n* brush"];
+  廴 [label = "廴\n* stretch"];
+
+  金 -> 键 [thick];
+  "𠆢" -> 金 [thick];
+  王 -> 金 [thick];
+  工 -> 王 [thick];
+  丶 -> 金 [thick];
+  建 -> 键 [thick];
+  聿 -> 建 [thick];
+  廴 -> 建 [thick];
+}

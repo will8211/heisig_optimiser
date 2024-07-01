@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   露 [label = "露\n1052 dew"];
   雨 [label = "雨\n425 rain"];
   路 [label = "路\n1051 path"];
@@ -7,12 +13,13 @@ blockdiag {
   止 [label = "止\n379 stop"];
   各 [label = "各\n309 each"];
   夂 [label = "夂\n* walking legs"];
-  雨 -> 露;
-  路 -> 露;
-  足 -> 路;
-  口 -> 足;
-  止 -> 足;
-  各 -> 路;
-  口 -> 各;
-  夂 -> 各;
+
+  雨 -> 露 [thick];
+  路 -> 露 [thick];
+  足 -> 路 [thick];
+  口 -> 足 [thick];
+  止 -> 足 [thick];
+  各 -> 路 [thick];
+  口 -> 各 [thick];
+  夂 -> 各 [thick];
 }

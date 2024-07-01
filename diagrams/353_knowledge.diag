@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   识 [label = "识\n353 knowledge"];
   只 [label = "只\n51 only"];
   口 [label = "口\n11 mouth"];
@@ -11,24 +17,25 @@ blockdiag {
   亠 [label = "亠\n* top hat"];
   六 [label = "六\n6 six"];
   司 [label = "司\n1391 take charge of"];
-  131276 [label = "𠃌\n* clothes hanger"];
-  只 -> 识;
-  口 -> 只;
-  囧只－口 -> 只;
-  八 -> 囧只－口;
-  词 -> 识;
-  言 -> 词;
-  二 -> 言;
-  一 -> 二;
-  口 -> 言;
-  亠 -> 言;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  司 -> 词;
-  131276 -> 司;
-  一 -> 司;
-  口 -> 司;
+  "𠃌" [label = "𠃌\n* clothes hanger"];
+
+  只 -> 识 [thick];
+  口 -> 只 [thick];
+  囧只－口 -> 只 [thick];
+  八 -> 囧只－口 [thick];
+  词 -> 识 [thick];
+  言 -> 词 [thick];
+  二 -> 言 [thick];
+  一 -> 二 [thick];
+  口 -> 言 [thick];
+  亠 -> 言 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  司 -> 词 [thick];
+  "𠃌" -> 司 [thick];
+  一 -> 司 [thick];
+  口 -> 司 [thick];
 }

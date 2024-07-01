@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   鹤 [label = "鹤\n2868 crane"];
   鸟 [label = "鸟\n1438 bird"];
   向 [label = "向\n188 orientation"];
@@ -9,14 +15,15 @@ blockdiag {
   囧与－丨一 [label = "囧与－丨一\n* pointed tail"];
   宀 [label = "宀\n* house"];
   隹 [label = "隹\n* turkey"];
-  鸟 -> 鹤;
-  向 -> 鸟;
-  丶 -> 向;
-  冂 -> 向;
-  几 -> 冂;
-  口 -> 向;
-  丶 -> 鸟;
-  囧与－丨一 -> 鸟;
-  宀 -> 鹤;
-  隹 -> 鹤;
+
+  鸟 -> 鹤 [thick];
+  向 -> 鸟 [thick];
+  丶 -> 向 [thick];
+  冂 -> 向 [thick];
+  几 -> 冂 [thick];
+  口 -> 向 [thick];
+  丶 -> 鸟 [thick];
+  囧与－丨一 -> 鸟 [thick];
+  宀 -> 鹤 [thick];
+  隹 -> 鹤 [thick];
 }

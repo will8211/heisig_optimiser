@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   咧 [label = "咧\n1967 grin"];
   口 [label = "口\n11 mouth"];
   列 [label = "列\n713 line up"];
   歹 [label = "歹\n712 malicious"];
   刀 [label = "刀\n83 sword"];
-  口 -> 咧;
-  列 -> 咧;
-  歹 -> 列;
-  刀 -> 列;
+
+  口 -> 咧 [thick];
+  列 -> 咧 [thick];
+  歹 -> 列 [thick];
+  刀 -> 列 [thick];
 }

@@ -1,0 +1,26 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  蜘 [label = "蜘\n2977 spider (front end)"];
+  虫 [label = "虫\n509 insect"];
+  知 [label = "知\n1000 know"];
+  矢 [label = "矢\n998 dart"];
+  天 [label = "天\n436 heavens"];
+  一 [label = "一\n1 one"];
+  大 [label = "大\n113 large"];
+  丶 [label = "丶\n* a drop of"];
+  口 [label = "口\n11 mouth"];
+
+  虫 -> 蜘 [thick];
+  知 -> 蜘 [thick];
+  矢 -> 知 [thick];
+  天 -> 矢 [thick];
+  一 -> 天 [thick];
+  大 -> 天 [thick];
+  丶 -> 矢 [thick];
+  口 -> 知 [thick];
+}

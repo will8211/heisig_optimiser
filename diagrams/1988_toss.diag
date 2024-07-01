@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   抛 [label = "抛\n1988 toss"];
   扌 [label = "扌\n* fingers"];
   九 [label = "九\n9 nine"];
   肌 [label = "肌\n63 muscle"];
   几 [label = "几\n57 how many?"];
   月 [label = "月\n13 month"];
-  扌 -> 抛;
-  九 -> 抛;
-  肌 -> 抛;
-  几 -> 肌;
-  月 -> 肌;
+
+  扌 -> 抛 [thick];
+  九 -> 抛 [thick];
+  肌 -> 抛 [thick];
+  几 -> 肌 [thick];
+  月 -> 肌 [thick];
 }

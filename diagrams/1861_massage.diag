@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   搓 [label = "搓\n1861 massage"];
   扌 [label = "扌\n* fingers"];
   差 [label = "差\n535 fall short of"];
@@ -7,11 +13,12 @@ blockdiag {
   丷 [label = "丷\n* horns"];
   一 [label = "一\n1 one"];
   工 [label = "工\n76 work"];
-  扌 -> 搓;
-  差 -> 搓;
-  囧差－工 -> 差;
-  羊 -> 囧差－工;
-  丷 -> 羊;
-  一 -> 丷;
-  工 -> 差;
+
+  扌 -> 搓 [thick];
+  差 -> 搓 [thick];
+  囧差－工 -> 差 [thick];
+  羊 -> 囧差－工 [thick];
+  丷 -> 羊 [thick];
+  一 -> 丷 [thick];
+  工 -> 差 [thick];
 }

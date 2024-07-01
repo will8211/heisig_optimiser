@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   羊 [label = "羊\n528 sheep"];
   丷 [label = "丷\n* horns"];
   一 [label = "一\n1 one"];
-  丷 -> 羊;
-  一 -> 丷;
+
+  丷 -> 羊 [thick];
+  一 -> 丷 [thick];
 }

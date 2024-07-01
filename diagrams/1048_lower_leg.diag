@@ -1,0 +1,14 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  足 [label = "足\n1048 lower leg"];
+  口 [label = "口\n11 mouth"];
+  止 [label = "止\n379 stop"];
+
+  口 -> 足 [thick];
+  止 -> 足 [thick];
+}

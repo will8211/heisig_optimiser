@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   厉 [label = "厉\n123 stern"];
   厂 [label = "厂\n121 factory"];
   万 [label = "万\n65 ten thousand"];
   勹 [label = "勹\n* bound up"];
   一 [label = "一\n1 one"];
-  厂 -> 厉;
-  万 -> 厉;
-  勹 -> 万;
-  一 -> 万;
+
+  厂 -> 厉 [thick];
+  万 -> 厉 [thick];
+  勹 -> 万 [thick];
+  一 -> 万 [thick];
 }

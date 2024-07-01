@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   幻 [label = "幻\n1390 unreal"];
   幺 [label = "幺\n* cocoon"];
-  131276 [label = "𠃌\n* clothes hanger"];
-  幺 -> 幻;
-  131276 -> 幻;
+  "𠃌" [label = "𠃌\n* clothes hanger"];
+
+  幺 -> 幻 [thick];
+  "𠃌" -> 幻 [thick];
 }

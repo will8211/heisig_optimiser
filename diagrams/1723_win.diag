@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   赢 [label = "赢\n1723 win"];
   亡 [label = "亡\n490 deceased"];
   亠 [label = "亠\n* top hat"];
@@ -13,21 +19,22 @@ blockdiag {
   凡 [label = "凡\n62 ordinary"];
   丶 [label = "丶\n* a drop of"];
   几 [label = "几\n57 how many?"];
-  亡 -> 赢;
-  亠 -> 亡;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  乙 -> 亡;
-  口 -> 赢;
-  月 -> 赢;
-  贝 -> 赢;
-  目 -> 贝;
-  囧只－口 -> 贝;
-  八 -> 囧只－口;
-  凡 -> 赢;
-  丶 -> 凡;
-  几 -> 凡;
+
+  亡 -> 赢 [thick];
+  亠 -> 亡 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  乙 -> 亡 [thick];
+  口 -> 赢 [thick];
+  月 -> 赢 [thick];
+  贝 -> 赢 [thick];
+  目 -> 贝 [thick];
+  囧只－口 -> 贝 [thick];
+  八 -> 囧只－口 [thick];
+  凡 -> 赢 [thick];
+  丶 -> 凡 [thick];
+  几 -> 凡 [thick];
 }

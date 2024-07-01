@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   吨 [label = "吨\n2543 ton"];
   口 [label = "口\n11 mouth"];
   屯 [label = "屯\n2542 stockpile"];
@@ -12,18 +18,19 @@ blockdiag {
   几 [label = "几\n57 how many?"];
   土 [label = "土\n158 soil"];
   乙 [label = "乙\n95 second"];
-  口 -> 吨;
-  屯 -> 吨;
-  一 -> 屯;
-  坑 -> 屯;
-  亢 -> 坑;
-  亠 -> 亢;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  几 -> 亢;
-  土 -> 坑;
-  乙 -> 屯;
+
+  口 -> 吨 [thick];
+  屯 -> 吨 [thick];
+  一 -> 屯 [thick];
+  坑 -> 屯 [thick];
+  亢 -> 坑 [thick];
+  亠 -> 亢 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  几 -> 亢 [thick];
+  土 -> 坑 [thick];
+  乙 -> 屯 [thick];
 }

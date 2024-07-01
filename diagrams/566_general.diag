@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   总 [label = "总\n566 general"];
   丷 [label = "丷\n* horns"];
   一 [label = "一\n1 one"];
   口 [label = "口\n11 mouth"];
   心 [label = "心\n563 heart"];
-  丷 -> 总;
-  一 -> 丷;
-  口 -> 总;
-  心 -> 总;
+
+  丷 -> 总 [thick];
+  一 -> 丷 [thick];
+  口 -> 总 [thick];
+  心 -> 总 [thick];
 }

@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   皇 [label = "皇\n272 emperor"];
   王 [label = "王\n265 king"];
   工 [label = "工\n76 work"];
   白 [label = "白\n34 white"];
   日 [label = "日\n12 day"];
   丶 [label = "丶\n* a drop of"];
-  王 -> 皇;
-  工 -> 王;
-  白 -> 皇;
-  日 -> 白;
-  丶 -> 白;
+
+  王 -> 皇 [thick];
+  工 -> 王 [thick];
+  白 -> 皇 [thick];
+  日 -> 白 [thick];
+  丶 -> 白 [thick];
 }

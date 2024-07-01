@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   演 [label = "演\n1466 perform"];
   水 [label = "水\n137 water"];
   丨 [label = "丨\n* walking stick"];
@@ -10,15 +16,16 @@ blockdiag {
   田 [label = "田\n14 rice field"];
   囧只－口 [label = "囧只－口\n* animal legs"];
   八 [label = "八\n8 eight"];
-  水 -> 演;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  寅 -> 演;
-  宀 -> 寅;
-  一 -> 寅;
-  由 -> 寅;
-  田 -> 由;
-  囧只－口 -> 寅;
-  八 -> 囧只－口;
+
+  水 -> 演 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  寅 -> 演 [thick];
+  宀 -> 寅 [thick];
+  一 -> 寅 [thick];
+  由 -> 寅 [thick];
+  田 -> 由 [thick];
+  囧只－口 -> 寅 [thick];
+  八 -> 囧只－口 [thick];
 }

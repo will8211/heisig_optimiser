@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   猩 [label = "猩\n2573 orangutan"];
   犬 [label = "犬\n239 pooch"];
   大 [label = "大\n113 large"];
@@ -7,12 +13,13 @@ blockdiag {
   日 [label = "日\n12 day"];
   生 [label = "生\n1218 life"];
   囧毒－母 [label = "囧毒－母\n* grow up"];
-  犬 -> 猩;
-  大 -> 犬;
-  丶 -> 犬;
-  星 -> 猩;
-  日 -> 星;
-  生 -> 星;
-  丶 -> 生;
-  囧毒－母 -> 生;
+
+  犬 -> 猩 [thick];
+  大 -> 犬 [thick];
+  丶 -> 犬 [thick];
+  星 -> 猩 [thick];
+  日 -> 星 [thick];
+  生 -> 星 [thick];
+  丶 -> 生 [thick];
+  囧毒－母 -> 生 [thick];
 }

@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   笛 [label = "笛\n2172 flute"];
   竹 [label = "竹\n786 bamboo"];
   丁 [label = "丁\n90 fourth"];
   由 [label = "由\n913 wherefore"];
   田 [label = "田\n14 rice field"];
-  竹 -> 笛;
-  丁 -> 竹;
-  由 -> 笛;
-  田 -> 由;
+
+  竹 -> 笛 [thick];
+  丁 -> 竹 [thick];
+  由 -> 笛 [thick];
+  田 -> 由 [thick];
 }

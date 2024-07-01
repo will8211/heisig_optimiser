@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  葵 [label = "葵\n2692 large-flowered plants"];
+  艹 [label = "艹\n* flower"];
+  癶 [label = "癶\n* teepee"];
+  天 [label = "天\n436 heavens"];
+  一 [label = "一\n1 one"];
+  大 [label = "大\n113 large"];
+
+  艹 -> 葵 [thick];
+  癶 -> 葵 [thick];
+  天 -> 葵 [thick];
+  一 -> 天 [thick];
+  大 -> 天 [thick];
+}

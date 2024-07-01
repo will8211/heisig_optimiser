@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  郎 [label = "郎\n1385 young man"];
+  良 [label = "良\n1151 high-quality"];
+  丶 [label = "丶\n* a drop of"];
+  艮 [label = "艮\n* silver"];
+  囧阝 [label = "囧阝\n* city walls"];
+  阝 [label = "阝\n* pinnacle"];
+
+  良 -> 郎 [thick];
+  丶 -> 良 [thick];
+  艮 -> 良 [thick];
+  囧阝 -> 郎 [thick];
+  阝 -> 囧阝 [thick];
+}

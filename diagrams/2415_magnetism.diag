@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   磁 [label = "磁\n2415 magnetism"];
   石 [label = "石\n125 stone"];
   口 [label = "口\n11 mouth"];
@@ -10,16 +16,17 @@ blockdiag {
   囧只－口 [label = "囧只－口\n* animal legs"];
   八 [label = "八\n8 eight"];
   幺 [label = "幺\n* cocoon"];
-  石 -> 磁;
-  口 -> 石;
-  厂 -> 石;
-  兹 -> 磁;
-  玄 -> 兹;
-  亠 -> 玄;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  幺 -> 玄;
+
+  石 -> 磁 [thick];
+  口 -> 石 [thick];
+  厂 -> 石 [thick];
+  兹 -> 磁 [thick];
+  玄 -> 兹 [thick];
+  亠 -> 玄 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  幺 -> 玄 [thick];
 }

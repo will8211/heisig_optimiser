@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   问 [label = "问\n1263 ask"];
   门 [label = "门\n1260 gate"];
   口 [label = "口\n11 mouth"];
-  门 -> 问;
-  口 -> 问;
+
+  门 -> 问 [thick];
+  口 -> 问 [thick];
 }

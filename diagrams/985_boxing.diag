@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   拳 [label = "拳\n985 boxing"];
   囧眷－目 [label = "囧眷－目\n* quarter"];
   半 [label = "半\n980 half"];
   手 [label = "手\n584 hand"];
-  囧眷－目 -> 拳;
-  半 -> 囧眷－目;
-  手 -> 拳;
+
+  囧眷－目 -> 拳 [thick];
+  半 -> 囧眷－目 [thick];
+  手 -> 拳 [thick];
 }

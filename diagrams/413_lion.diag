@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   狮 [label = "狮\n413 lion"];
   师 [label = "师\n412 teacher"];
   帅 [label = "帅\n411 commander"];
@@ -8,12 +14,13 @@ blockdiag {
   犬 [label = "犬\n239 pooch"];
   大 [label = "大\n113 large"];
   丶 [label = "丶\n* a drop of"];
-  师 -> 狮;
-  帅 -> 师;
-  刀 -> 帅;
-  巾 -> 帅;
-  一 -> 师;
-  犬 -> 狮;
-  大 -> 犬;
-  丶 -> 犬;
+
+  师 -> 狮 [thick];
+  帅 -> 师 [thick];
+  刀 -> 帅 [thick];
+  巾 -> 帅 [thick];
+  一 -> 师 [thick];
+  犬 -> 狮 [thick];
+  大 -> 犬 [thick];
+  丶 -> 犬 [thick];
 }

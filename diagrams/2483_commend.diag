@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   嘉 [label = "嘉\n2483 commend"];
   壴 [label = "壴\n* drum"];
   士 [label = "士\n334 soldier"];
@@ -14,18 +20,19 @@ blockdiag {
   几 [label = "几\n57 how many?"];
   月 [label = "月\n13 month"];
   口 [label = "口\n11 mouth"];
-  壴 -> 嘉;
-  士 -> 壴;
-  桌 -> 壴;
-  木 -> 桌;
-  日 -> 桌;
-  卜 -> 桌;
-  丨 -> 卜;
-  一 -> 丨;
-  丶 -> 卜;
-  加 -> 嘉;
-  肌 -> 加;
-  几 -> 肌;
-  月 -> 肌;
-  口 -> 加;
+
+  壴 -> 嘉 [thick];
+  士 -> 壴 [thick];
+  桌 -> 壴 [thick];
+  木 -> 桌 [thick];
+  日 -> 桌 [thick];
+  卜 -> 桌 [thick];
+  丨 -> 卜 [thick];
+  一 -> 丨 [thick];
+  丶 -> 卜 [thick];
+  加 -> 嘉 [thick];
+  肌 -> 加 [thick];
+  几 -> 肌 [thick];
+  月 -> 肌 [thick];
+  口 -> 加 [thick];
 }

@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   网 [label = "网\n1172 net"];
   冂 [label = "冂\n* hood"];
   几 [label = "几\n57 how many?"];
-  13317 [label = "㐅\n* sheaf"];
-  冂 -> 网;
-  几 -> 冂;
-  13317 -> 网;
+  "㐅" [label = "㐅\n* sheaf"];
+
+  冂 -> 网 [thick];
+  几 -> 冂 [thick];
+  "㐅" -> 网 [thick];
 }

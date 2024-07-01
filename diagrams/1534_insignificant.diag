@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   渺 [label = "渺\n1534 insignificant"];
   泪 [label = "泪\n1530 tears"];
   水 [label = "水\n137 water"];
@@ -8,14 +14,15 @@ blockdiag {
   目 [label = "目\n15 eye"];
   少 [label = "少\n110 few"];
   小 [label = "小\n109 small"];
-  泪 -> 渺;
-  水 -> 泪;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  目 -> 泪;
-  少 -> 渺;
-  丶 -> 少;
-  小 -> 少;
-  丶 -> 小;
+
+  泪 -> 渺 [thick];
+  水 -> 泪 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  目 -> 泪 [thick];
+  少 -> 渺 [thick];
+  丶 -> 少 [thick];
+  小 -> 少 [thick];
+  丶 -> 小 [thick];
 }

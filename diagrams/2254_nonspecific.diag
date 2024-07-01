@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   泛 [label = "泛\n2254 nonspecific"];
   水 [label = "水\n137 water"];
   丨 [label = "丨\n* walking stick"];
@@ -6,12 +12,13 @@ blockdiag {
   丶 [label = "丶\n* a drop of"];
   乏 [label = "乏\n989 weary"];
   之 [label = "之\n988 of"];
-  水 -> 泛;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  乏 -> 泛;
-  丶 -> 乏;
-  之 -> 乏;
-  丶 -> 之;
+
+  水 -> 泛 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  乏 -> 泛 [thick];
+  丶 -> 乏 [thick];
+  之 -> 乏 [thick];
+  丶 -> 之 [thick];
 }

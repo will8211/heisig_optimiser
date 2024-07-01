@@ -1,15 +1,22 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   惰 [label = "惰\n1803 indolent"];
   心 [label = "心\n563 heart"];
   左 [label = "左\n77 left"];
-  131207 [label = "𠂇\n* by one’s side"];
+  "𠂇" [label = "𠂇\n* by one’s side"];
   十 [label = "十\n10 ten"];
   工 [label = "工\n76 work"];
   月 [label = "月\n13 month"];
-  心 -> 惰;
-  左 -> 惰;
-  131207 -> 左;
-  十 -> 131207;
-  工 -> 左;
-  月 -> 惰;
+
+  心 -> 惰 [thick];
+  左 -> 惰 [thick];
+  "𠂇" -> 左 [thick];
+  十 -> "𠂇" [thick];
+  工 -> 左 [thick];
+  月 -> 惰 [thick];
 }

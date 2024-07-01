@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   哼 [label = "哼\n1639 hum"];
   口 [label = "口\n11 mouth"];
   亨 [label = "亨\n1638 go smoothly"];
@@ -13,23 +19,24 @@ blockdiag {
   八 [label = "八\n8 eight"];
   了 [label = "了\n101 -ed"];
   子 [label = "子\n97 child"];
-  口 -> 哼;
-  亨 -> 哼;
-  高 -> 亨;
-  向 -> 高;
-  丶 -> 向;
-  冂 -> 向;
-  几 -> 冂;
-  口 -> 向;
-  口 -> 高;
-  冂 -> 高;
-  几 -> 冂;
-  亠 -> 高;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  了 -> 亨;
-  子 -> 了;
+
+  口 -> 哼 [thick];
+  亨 -> 哼 [thick];
+  高 -> 亨 [thick];
+  向 -> 高 [thick];
+  丶 -> 向 [thick];
+  冂 -> 向 [thick];
+  几 -> 冂 [thick];
+  口 -> 向 [thick];
+  口 -> 高 [thick];
+  冂 -> 高 [thick];
+  几 -> 冂 [thick];
+  亠 -> 高 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  了 -> 亨 [thick];
+  子 -> 了 [thick];
 }

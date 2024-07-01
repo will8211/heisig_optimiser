@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   浮 [label = "浮\n2431 float"];
   水 [label = "水\n137 water"];
   丨 [label = "丨\n* walking stick"];
@@ -6,14 +12,15 @@ blockdiag {
   丶 [label = "丶\n* a drop of"];
   孚 [label = "孚\n* fledglings"];
   爪 [label = "爪\n663 claw"];
-  131206 [label = "𠂆\n* drag"];
+  "𠂆" [label = "𠂆\n* drag"];
   子 [label = "子\n97 child"];
-  水 -> 浮;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  孚 -> 浮;
-  爪 -> 孚;
-  131206 -> 爪;
-  子 -> 孚;
+
+  水 -> 浮 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  孚 -> 浮 [thick];
+  爪 -> 孚 [thick];
+  "𠂆" -> 爪 [thick];
+  子 -> 孚 [thick];
 }

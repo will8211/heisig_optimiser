@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   蹦 [label = "蹦\n2325 hop"];
   足 [label = "足\n1048 lower leg"];
   口 [label = "口\n11 mouth"];
@@ -7,11 +13,12 @@ blockdiag {
   山 [label = "山\n688 mountain"];
   朋 [label = "朋\n20 companion"];
   月 [label = "月\n13 month"];
-  足 -> 蹦;
-  口 -> 足;
-  止 -> 足;
-  崩 -> 蹦;
-  山 -> 崩;
-  朋 -> 崩;
-  月 -> 朋;
+
+  足 -> 蹦 [thick];
+  口 -> 足 [thick];
+  止 -> 足 [thick];
+  崩 -> 蹦 [thick];
+  山 -> 崩 [thick];
+  朋 -> 崩 [thick];
+  月 -> 朋 [thick];
 }

@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   啤 [label = "啤\n2953 beer"];
   口 [label = "口\n11 mouth"];
   卑 [label = "卑\n1496 lowly"];
   丶 [label = "丶\n* a drop of"];
   田 [label = "田\n14 rice field"];
   十 [label = "十\n10 ten"];
-  口 -> 啤;
-  卑 -> 啤;
-  丶 -> 卑;
-  田 -> 卑;
-  十 -> 卑;
+
+  口 -> 啤 [thick];
+  卑 -> 啤 [thick];
+  丶 -> 卑 [thick];
+  田 -> 卑 [thick];
+  十 -> 卑 [thick];
 }

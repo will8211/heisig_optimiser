@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   缩 [label = "缩\n2389 shrink"];
   纟 [label = "纟\n* thread"];
   厶 [label = "厶\n* elbow"];
@@ -10,14 +16,15 @@ blockdiag {
   日 [label = "日\n12 day"];
   丶 [label = "丶\n* a drop of"];
   一 [label = "一\n1 one"];
-  纟 -> 缩;
-  厶 -> 纟;
-  宿 -> 缩;
-  宀 -> 宿;
-  人 -> 宿;
-  百 -> 宿;
-  白 -> 百;
-  日 -> 白;
-  丶 -> 白;
-  一 -> 百;
+
+  纟 -> 缩 [thick];
+  厶 -> 纟 [thick];
+  宿 -> 缩 [thick];
+  宀 -> 宿 [thick];
+  人 -> 宿 [thick];
+  百 -> 宿 [thick];
+  白 -> 百 [thick];
+  日 -> 白 [thick];
+  丶 -> 白 [thick];
+  一 -> 百 [thick];
 }

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   窝 [label = "窝\n2364 hollow"];
   穴 [label = "穴\n1070 hole"];
   宀 [label = "宀\n* house"];
@@ -10,15 +16,16 @@ blockdiag {
   囧冂 [label = "囧冂\n* belt"];
   巾 [label = "巾\n410 towel"];
   人 [label = "人\n793 person"];
-  穴 -> 窝;
-  宀 -> 穴;
-  八 -> 穴;
-  囧只－口 -> 穴;
-  八 -> 囧只－口;
-  呙 -> 窝;
-  口 -> 呙;
-  内 -> 呙;
-  囧冂 -> 内;
-  巾 -> 囧冂;
-  人 -> 内;
+
+  穴 -> 窝 [thick];
+  宀 -> 穴 [thick];
+  八 -> 穴 [thick];
+  囧只－口 -> 穴 [thick];
+  八 -> 囧只－口 [thick];
+  呙 -> 窝 [thick];
+  口 -> 呙 [thick];
+  内 -> 呙 [thick];
+  囧冂 -> 内 [thick];
+  巾 -> 囧冂 [thick];
+  人 -> 内 [thick];
 }

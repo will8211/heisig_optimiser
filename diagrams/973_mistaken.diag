@@ -1,7 +1,13 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   错 [label = "错\n973 mistaken"];
   金 [label = "金\n279 gold"];
-  131490 [label = "𠆢\n* umbrella"];
+  "𠆢" [label = "𠆢\n* umbrella"];
   王 [label = "王\n265 king"];
   工 [label = "工\n76 work"];
   丶 [label = "丶\n* a drop of"];
@@ -9,13 +15,14 @@ blockdiag {
   囧昔－日 [label = "囧昔－日\n* salad"];
   艹 [label = "艹\n* flower"];
   日 [label = "日\n12 day"];
-  金 -> 错;
-  131490 -> 金;
-  王 -> 金;
-  工 -> 王;
-  丶 -> 金;
-  昔 -> 错;
-  囧昔－日 -> 昔;
-  艹 -> 囧昔－日;
-  日 -> 昔;
+
+  金 -> 错 [thick];
+  "𠆢" -> 金 [thick];
+  王 -> 金 [thick];
+  工 -> 王 [thick];
+  丶 -> 金 [thick];
+  昔 -> 错 [thick];
+  囧昔－日 -> 昔 [thick];
+  艹 -> 囧昔－日 [thick];
+  日 -> 昔 [thick];
 }

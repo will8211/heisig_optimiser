@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   会 [label = "会\n677 meeting"];
   亼 [label = "亼\n* meeting"];
-  131490 [label = "𠆢\n* umbrella"];
+  "𠆢" [label = "𠆢\n* umbrella"];
   囧会－亼 [label = "囧会－亼\n* wall"];
   厶 [label = "厶\n* elbow"];
   一 [label = "一\n1 one"];
-  亼 -> 会;
-  131490 -> 亼;
-  囧会－亼 -> 会;
-  厶 -> 囧会－亼;
-  一 -> 囧会－亼;
+
+  亼 -> 会 [thick];
+  "𠆢" -> 亼 [thick];
+  囧会－亼 -> 会 [thick];
+  厶 -> 囧会－亼 [thick];
+  一 -> 囧会－亼 [thick];
 }

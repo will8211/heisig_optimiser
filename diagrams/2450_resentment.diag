@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   怨 [label = "怨\n2450 resentment"];
   夗 [label = "夗\n* nameplate"];
   夕 [label = "夕\n115 evening"];
   月 [label = "月\n13 month"];
-  13630 [label = "㔾\n* fingerprint"];
+  "㔾" [label = "㔾\n* fingerprint"];
   心 [label = "心\n563 heart"];
-  夗 -> 怨;
-  夕 -> 夗;
-  月 -> 夕;
-  13630 -> 夗;
-  心 -> 怨;
+
+  夗 -> 怨 [thick];
+  夕 -> 夗 [thick];
+  月 -> 夕 [thick];
+  "㔾" -> 夗 [thick];
+  心 -> 怨 [thick];
 }

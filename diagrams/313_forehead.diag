@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   额 [label = "额\n313 forehead"];
   客 [label = "客\n312 guest"];
   宀 [label = "宀\n* house"];
@@ -12,16 +18,17 @@ blockdiag {
   八 [label = "八\n8 eight"];
   一 [label = "一\n1 one"];
   丶 [label = "丶\n* a drop of"];
-  客 -> 额;
-  宀 -> 客;
-  各 -> 客;
-  口 -> 各;
-  夂 -> 各;
-  页 -> 额;
-  贝 -> 页;
-  目 -> 贝;
-  囧只－口 -> 贝;
-  八 -> 囧只－口;
-  一 -> 页;
-  丶 -> 页;
+
+  客 -> 额 [thick];
+  宀 -> 客 [thick];
+  各 -> 客 [thick];
+  口 -> 各 [thick];
+  夂 -> 各 [thick];
+  页 -> 额 [thick];
+  贝 -> 页 [thick];
+  目 -> 贝 [thick];
+  囧只－口 -> 贝 [thick];
+  八 -> 囧只－口 [thick];
+  一 -> 页 [thick];
+  丶 -> 页 [thick];
 }

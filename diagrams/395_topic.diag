@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   题 [label = "题\n395 topic"];
   页 [label = "页\n60 page"];
   贝 [label = "贝\n52 shellfish"];
@@ -12,17 +18,18 @@ blockdiag {
   正 [label = "正\n387 correct"];
   止 [label = "止\n379 stop"];
   日 [label = "日\n12 day"];
-  页 -> 题;
-  贝 -> 页;
-  目 -> 贝;
-  囧只－口 -> 贝;
-  八 -> 囧只－口;
-  一 -> 页;
-  丶 -> 页;
-  是 -> 题;
-  囧走－十 -> 是;
-  正 -> 囧走－十;
-  一 -> 正;
-  止 -> 正;
-  日 -> 是;
+
+  页 -> 题 [thick];
+  贝 -> 页 [thick];
+  目 -> 贝 [thick];
+  囧只－口 -> 贝 [thick];
+  八 -> 囧只－口 [thick];
+  一 -> 页 [thick];
+  丶 -> 页 [thick];
+  是 -> 题 [thick];
+  囧走－十 -> 是 [thick];
+  正 -> 囧走－十 [thick];
+  一 -> 正 [thick];
+  止 -> 正 [thick];
+  日 -> 是 [thick];
 }

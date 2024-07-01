@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   街 [label = "街\n760 street"];
   行 [label = "行\n754 line of business"];
   圭 [label = "圭\n* bricks"];
   土 [label = "土\n158 soil"];
-  行 -> 街;
-  圭 -> 街;
-  土 -> 圭;
+
+  行 -> 街 [thick];
+  圭 -> 街 [thick];
+  土 -> 圭 [thick];
 }

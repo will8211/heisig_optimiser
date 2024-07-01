@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   咽 [label = "咽\n1779 throat"];
   口 [label = "口\n11 mouth"];
   囧因 [label = "囧因\n* dog kennel"];
   囗 [label = "囗\n* pent in"];
   大 [label = "大\n113 large"];
-  口 -> 咽;
-  囧因 -> 咽;
-  囗 -> 囧因;
-  大 -> 囧因;
+
+  口 -> 咽 [thick];
+  囧因 -> 咽 [thick];
+  囗 -> 囧因 [thick];
+  大 -> 囧因 [thick];
 }

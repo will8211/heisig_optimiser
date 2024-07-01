@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   芳 [label = "芳\n1729 aromatic"];
   方 [label = "方\n494 direction"];
   刀 [label = "刀\n83 sword"];
@@ -7,13 +13,14 @@ blockdiag {
   囧只－口 [label = "囧只－口\n* animal legs"];
   八 [label = "八\n8 eight"];
   艹 [label = "艹\n* flower"];
-  方 -> 芳;
-  刀 -> 方;
-  亠 -> 方;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  艹 -> 芳;
+
+  方 -> 芳 [thick];
+  刀 -> 方 [thick];
+  亠 -> 方 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  艹 -> 芳 [thick];
 }

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   碑 [label = "碑\n2955 stele"];
   石 [label = "石\n125 stone"];
   口 [label = "口\n11 mouth"];
@@ -7,11 +13,12 @@ blockdiag {
   丶 [label = "丶\n* a drop of"];
   田 [label = "田\n14 rice field"];
   十 [label = "十\n10 ten"];
-  石 -> 碑;
-  口 -> 石;
-  厂 -> 石;
-  卑 -> 碑;
-  丶 -> 卑;
-  田 -> 卑;
-  十 -> 卑;
+
+  石 -> 碑 [thick];
+  口 -> 石 [thick];
+  厂 -> 石 [thick];
+  卑 -> 碑 [thick];
+  丶 -> 卑 [thick];
+  田 -> 卑 [thick];
+  十 -> 卑 [thick];
 }

@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   毅 [label = "毅\n1889 resolute"];
   立 [label = "立\n444 standing up"];
   豕 [label = "豕\n* sow"];
   殳 [label = "殳\n* missile"];
   几 [label = "几\n57 how many?"];
   又 [label = "又\n633 again"];
-  立 -> 毅;
-  豕 -> 毅;
-  殳 -> 毅;
-  几 -> 殳;
-  又 -> 殳;
+
+  立 -> 毅 [thick];
+  豕 -> 毅 [thick];
+  殳 -> 毅 [thick];
+  几 -> 殳 [thick];
+  又 -> 殳 [thick];
 }

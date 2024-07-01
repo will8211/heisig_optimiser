@@ -1,0 +1,24 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  沸 [label = "沸\n2277 bring to a boil"];
+  水 [label = "水\n137 water"];
+  丨 [label = "丨\n* walking stick"];
+  一 [label = "一\n1 one"];
+  丶 [label = "丶\n* a drop of"];
+  弗 [label = "弗\n* dollar sign"];
+  "囧介－𠆢" [label = "囧介－𠆢\n* crutches"];
+  弓 [label = "弓\n1013 bow"];
+
+  水 -> 沸 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  弗 -> 沸 [thick];
+  "囧介－𠆢" -> 弗 [thick];
+  弓 -> 弗 [thick];
+}

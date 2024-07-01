@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   燥 [label = "燥\n2334 parched"];
   火 [label = "火\n170 fire"];
   喿 [label = "喿\n* wood pulp"];
@@ -7,11 +13,12 @@ blockdiag {
   日 [label = "日\n12 day"];
   口 [label = "口\n11 mouth"];
   木 [label = "木\n202 tree"];
-  火 -> 燥;
-  喿 -> 燥;
-  品 -> 喿;
-  晶 -> 品;
-  日 -> 晶;
-  口 -> 品;
-  木 -> 喿;
+
+  火 -> 燥 [thick];
+  喿 -> 燥 [thick];
+  品 -> 喿 [thick];
+  晶 -> 品 [thick];
+  日 -> 晶 [thick];
+  口 -> 品 [thick];
+  木 -> 喿 [thick];
 }

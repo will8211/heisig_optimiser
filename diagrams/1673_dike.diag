@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   堤 [label = "堤\n1673 dike"];
   土 [label = "土\n158 soil"];
   是 [label = "是\n394 be"];
@@ -7,11 +13,12 @@ blockdiag {
   一 [label = "一\n1 one"];
   止 [label = "止\n379 stop"];
   日 [label = "日\n12 day"];
-  土 -> 堤;
-  是 -> 堤;
-  囧走－十 -> 是;
-  正 -> 囧走－十;
-  一 -> 正;
-  止 -> 正;
-  日 -> 是;
+
+  土 -> 堤 [thick];
+  是 -> 堤 [thick];
+  囧走－十 -> 是 [thick];
+  正 -> 囧走－十 [thick];
+  一 -> 正 [thick];
+  止 -> 正 [thick];
+  日 -> 是 [thick];
 }

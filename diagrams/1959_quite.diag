@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   颇 [label = "颇\n1959 quite"];
   皮 [label = "皮\n707 covering"];
   支 [label = "支\n650 offshoot"];
@@ -11,15 +17,16 @@ blockdiag {
   八 [label = "八\n8 eight"];
   一 [label = "一\n1 one"];
   丶 [label = "丶\n* a drop of"];
-  皮 -> 颇;
-  支 -> 皮;
-  十 -> 支;
-  又 -> 支;
-  页 -> 颇;
-  贝 -> 页;
-  目 -> 贝;
-  囧只－口 -> 贝;
-  八 -> 囧只－口;
-  一 -> 页;
-  丶 -> 页;
+
+  皮 -> 颇 [thick];
+  支 -> 皮 [thick];
+  十 -> 支 [thick];
+  又 -> 支 [thick];
+  页 -> 颇 [thick];
+  贝 -> 页 [thick];
+  目 -> 贝 [thick];
+  囧只－口 -> 贝 [thick];
+  八 -> 囧只－口 [thick];
+  一 -> 页 [thick];
+  丶 -> 页 [thick];
 }

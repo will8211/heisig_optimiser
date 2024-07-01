@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   国 [label = "国\n549 country"];
   囗 [label = "囗\n* pent in"];
   玉 [label = "玉\n266 jade"];
   王 [label = "王\n265 king"];
   工 [label = "工\n76 work"];
   丶 [label = "丶\n* a drop of"];
-  囗 -> 国;
-  玉 -> 国;
-  王 -> 玉;
-  工 -> 王;
-  丶 -> 玉;
+
+  囗 -> 国 [thick];
+  玉 -> 国 [thick];
+  王 -> 玉 [thick];
+  工 -> 王 [thick];
+  丶 -> 玉 [thick];
 }

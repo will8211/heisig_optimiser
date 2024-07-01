@@ -1,11 +1,18 @@
 blockdiag {
-  131088 [label = "𠀐\n* purse"];
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  "𠀐" [label = "𠀐\n* purse"];
   中 [label = "中\n38 middle"];
   丨 [label = "丨\n* walking stick"];
   一 [label = "一\n1 one"];
   口 [label = "口\n11 mouth"];
-  中 -> 131088;
-  丨 -> 中;
-  一 -> 丨;
-  口 -> 中;
+
+  中 -> "𠀐" [thick];
+  丨 -> 中 [thick];
+  一 -> 丨 [thick];
+  口 -> 中 [thick];
 }

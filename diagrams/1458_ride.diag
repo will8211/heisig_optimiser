@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   骑 [label = "骑\n1458 ride"];
   马 [label = "马\n1453 horse"];
   囧与－丨一 [label = "囧与－丨一\n* pointed tail"];
@@ -7,13 +13,14 @@ blockdiag {
   可 [label = "可\n92 can"];
   丁 [label = "丁\n90 fourth"];
   口 [label = "口\n11 mouth"];
-  马 -> 骑;
-  囧与－丨一 -> 马;
-  奇 -> 骑;
-  大 -> 奇;
-  可 -> 奇;
-  丁 -> 可;
-  口 -> 可;
-  口 -> 奇;
-  丁 -> 奇;
+
+  马 -> 骑 [thick];
+  囧与－丨一 -> 马 [thick];
+  奇 -> 骑 [thick];
+  大 -> 奇 [thick];
+  可 -> 奇 [thick];
+  丁 -> 可 [thick];
+  口 -> 可 [thick];
+  口 -> 奇 [thick];
+  丁 -> 奇 [thick];
 }

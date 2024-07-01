@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   匀 [label = "匀\n66 uniform"];
   勹 [label = "勹\n* bound up"];
   二 [label = "二\n2 two"];
   一 [label = "一\n1 one"];
-  勹 -> 匀;
-  二 -> 匀;
-  一 -> 二;
+
+  勹 -> 匀 [thick];
+  二 -> 匀 [thick];
+  一 -> 二 [thick];
 }

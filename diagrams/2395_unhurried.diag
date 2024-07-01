@@ -1,21 +1,28 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   缓 [label = "缓\n2395 unhurried"];
   纟 [label = "纟\n* thread"];
   厶 [label = "厶\n* elbow"];
   爰 [label = "爰\n* migrating ducks"];
   爪 [label = "爪\n663 claw"];
-  131206 [label = "𠂆\n* drag"];
+  "𠂆" [label = "𠂆\n* drag"];
   友 [label = "友\n635 friend"];
-  131207 [label = "𠂇\n* by one’s side"];
+  "𠂇" [label = "𠂇\n* by one’s side"];
   十 [label = "十\n10 ten"];
   又 [label = "又\n633 again"];
-  纟 -> 缓;
-  厶 -> 纟;
-  爰 -> 缓;
-  爪 -> 爰;
-  131206 -> 爪;
-  友 -> 爰;
-  131207 -> 友;
-  十 -> 131207;
-  又 -> 友;
+
+  纟 -> 缓 [thick];
+  厶 -> 纟 [thick];
+  爰 -> 缓 [thick];
+  爪 -> 爰 [thick];
+  "𠂆" -> 爪 [thick];
+  友 -> 爰 [thick];
+  "𠂇" -> 友 [thick];
+  十 -> "𠂇" [thick];
+  又 -> 友 [thick];
 }

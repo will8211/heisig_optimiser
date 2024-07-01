@@ -1,10 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   馋 [label = "馋\n2890 gluttonous"];
   食 [label = "食\n1154 food"];
   良 [label = "良\n1151 high-quality"];
   丶 [label = "丶\n* a drop of"];
   艮 [label = "艮\n* silver"];
-  131490 [label = "𠆢\n* umbrella"];
+  "𠆢" [label = "𠆢\n* umbrella"];
   免 [label = "免\n1449 avoid"];
   兔 [label = "兔\n1447 rabbit"];
   勹 [label = "勹\n* bound up"];
@@ -14,20 +20,21 @@ blockdiag {
   水 [label = "水\n137 water"];
   丨 [label = "丨\n* walking stick"];
   一 [label = "一\n1 one"];
-  食 -> 馋;
-  良 -> 食;
-  丶 -> 良;
-  艮 -> 良;
-  131490 -> 食;
-  免 -> 馋;
-  兔 -> 免;
-  勹 -> 兔;
-  口 -> 兔;
-  儿 -> 兔;
-  丶 -> 兔;
-  冫 -> 馋;
-  水 -> 冫;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
+
+  食 -> 馋 [thick];
+  良 -> 食 [thick];
+  丶 -> 良 [thick];
+  艮 -> 良 [thick];
+  "𠆢" -> 食 [thick];
+  免 -> 馋 [thick];
+  兔 -> 免 [thick];
+  勹 -> 兔 [thick];
+  口 -> 兔 [thick];
+  儿 -> 兔 [thick];
+  丶 -> 兔 [thick];
+  冫 -> 馋 [thick];
+  水 -> 冫 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
 }

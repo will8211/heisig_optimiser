@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   簇 [label = "簇\n2261 cluster"];
   竹 [label = "竹\n786 bamboo"];
   丁 [label = "丁\n90 fourth"];
@@ -10,28 +16,29 @@ blockdiag {
   六 [label = "六\n6 six"];
   囧只－口 [label = "囧只－口\n* animal legs"];
   八 [label = "八\n8 eight"];
-  131209 [label = "𠂉\n* reclining"];
+  "𠂉" [label = "𠂉\n* reclining"];
   矢 [label = "矢\n998 dart"];
   天 [label = "天\n436 heavens"];
   一 [label = "一\n1 one"];
   大 [label = "大\n113 large"];
   丶 [label = "丶\n* a drop of"];
-  竹 -> 簇;
-  丁 -> 竹;
-  族 -> 簇;
-  囧施－也 -> 族;
-  方 -> 囧施－也;
-  刀 -> 方;
-  亠 -> 方;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  131209 -> 囧施－也;
-  矢 -> 族;
-  天 -> 矢;
-  一 -> 天;
-  大 -> 天;
-  丶 -> 矢;
+
+  竹 -> 簇 [thick];
+  丁 -> 竹 [thick];
+  族 -> 簇 [thick];
+  囧施－也 -> 族 [thick];
+  方 -> 囧施－也 [thick];
+  刀 -> 方 [thick];
+  亠 -> 方 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  "𠂉" -> 囧施－也 [thick];
+  矢 -> 族 [thick];
+  天 -> 矢 [thick];
+  一 -> 天 [thick];
+  大 -> 天 [thick];
+  丶 -> 矢 [thick];
 }

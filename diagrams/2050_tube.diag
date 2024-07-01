@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   筒 [label = "筒\n2050 tube"];
   竹 [label = "竹\n786 bamboo"];
   丁 [label = "丁\n90 fourth"];
@@ -7,11 +13,12 @@ blockdiag {
   口 [label = "口\n11 mouth"];
   冂 [label = "冂\n* hood"];
   几 [label = "几\n57 how many?"];
-  竹 -> 筒;
-  丁 -> 竹;
-  同 -> 筒;
-  一 -> 同;
-  口 -> 同;
-  冂 -> 同;
-  几 -> 冂;
+
+  竹 -> 筒 [thick];
+  丁 -> 竹 [thick];
+  同 -> 筒 [thick];
+  一 -> 同 [thick];
+  口 -> 同 [thick];
+  冂 -> 同 [thick];
+  几 -> 冂 [thick];
 }

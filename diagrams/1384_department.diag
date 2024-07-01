@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   部 [label = "部\n1384 department"];
   咅 [label = "咅\n* muzzle"];
   立 [label = "立\n444 standing up"];
   口 [label = "口\n11 mouth"];
   囧阝 [label = "囧阝\n* city walls"];
   阝 [label = "阝\n* pinnacle"];
-  咅 -> 部;
-  立 -> 咅;
-  口 -> 咅;
-  囧阝 -> 部;
-  阝 -> 囧阝;
+
+  咅 -> 部 [thick];
+  立 -> 咅 [thick];
+  口 -> 咅 [thick];
+  囧阝 -> 部 [thick];
+  阝 -> 囧阝 [thick];
 }

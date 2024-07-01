@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   疑 [label = "疑\n2435 doubt"];
   匕 [label = "匕\n453 ancient spoon"];
   疋 [label = "疋\n* zoo"];
@@ -11,16 +17,17 @@ blockdiag {
   大 [label = "大\n113 large"];
   丶 [label = "丶\n* a drop of"];
   囧节－艹 [label = "囧节－艹\n* chop"];
-  匕 -> 疑;
-  疋 -> 疑;
-  囧走－十 -> 疋;
-  正 -> 囧走－十;
-  一 -> 正;
-  止 -> 正;
-  矢 -> 疑;
-  天 -> 矢;
-  一 -> 天;
-  大 -> 天;
-  丶 -> 矢;
-  囧节－艹 -> 疑;
+
+  匕 -> 疑 [thick];
+  疋 -> 疑 [thick];
+  囧走－十 -> 疋 [thick];
+  正 -> 囧走－十 [thick];
+  一 -> 正 [thick];
+  止 -> 正 [thick];
+  矢 -> 疑 [thick];
+  天 -> 矢 [thick];
+  一 -> 天 [thick];
+  大 -> 天 [thick];
+  丶 -> 矢 [thick];
+  囧节－艹 -> 疑 [thick];
 }

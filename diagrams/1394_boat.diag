@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   舟 [label = "舟\n1394 boat"];
   丶 [label = "丶\n* a drop of"];
   冂 [label = "冂\n* hood"];
   几 [label = "几\n57 how many?"];
-  丶 -> 舟;
-  冂 -> 舟;
-  几 -> 冂;
+
+  丶 -> 舟 [thick];
+  冂 -> 舟 [thick];
+  几 -> 冂 [thick];
 }

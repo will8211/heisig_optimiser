@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   障 [label = "障\n2342 barrier"];
   阝 [label = "阝\n* pinnacle"];
   章 [label = "章\n447 chapter"];
@@ -6,10 +12,11 @@ blockdiag {
   日 [label = "日\n12 day"];
   十 [label = "十\n10 ten"];
   立 [label = "立\n444 standing up"];
-  阝 -> 障;
-  章 -> 障;
-  早 -> 章;
-  日 -> 早;
-  十 -> 早;
-  立 -> 章;
+
+  阝 -> 障 [thick];
+  章 -> 障 [thick];
+  早 -> 章 [thick];
+  日 -> 早 [thick];
+  十 -> 早 [thick];
+  立 -> 章 [thick];
 }

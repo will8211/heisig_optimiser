@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   折 [label = "折\n932 discount"];
   指 [label = "指\n594 finger"];
   扌 [label = "扌\n* fingers"];
@@ -6,10 +12,11 @@ blockdiag {
   匕 [label = "匕\n453 ancient spoon"];
   日 [label = "日\n12 day"];
   斤 [label = "斤\n924 catty"];
-  指 -> 折;
-  扌 -> 指;
-  旨 -> 指;
-  匕 -> 旨;
-  日 -> 旨;
-  斤 -> 折;
+
+  指 -> 折 [thick];
+  扌 -> 指 [thick];
+  旨 -> 指 [thick];
+  匕 -> 旨 [thick];
+  日 -> 旨 [thick];
+  斤 -> 折 [thick];
 }

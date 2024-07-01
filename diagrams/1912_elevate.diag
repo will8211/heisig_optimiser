@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   抬 [label = "抬\n1912 elevate"];
   扌 [label = "扌\n* fingers"];
   台 [label = "台\n672 platform"];
   厶 [label = "厶\n* elbow"];
   口 [label = "口\n11 mouth"];
-  扌 -> 抬;
-  台 -> 抬;
-  厶 -> 台;
-  口 -> 台;
+
+  扌 -> 抬 [thick];
+  台 -> 抬 [thick];
+  厶 -> 台 [thick];
+  口 -> 台 [thick];
 }

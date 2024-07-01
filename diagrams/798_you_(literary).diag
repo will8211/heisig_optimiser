@@ -1,0 +1,14 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  尔 [label = "尔\n798 you (literary)"];
+  小 [label = "小\n109 small"];
+  丶 [label = "丶\n* a drop of"];
+
+  小 -> 尔 [thick];
+  丶 -> 小 [thick];
+}

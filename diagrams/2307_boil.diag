@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   煮 [label = "煮\n2307 boil"];
   者 [label = "者\n1037 someone"];
   老 [label = "老\n1029 old man"];
@@ -8,12 +14,13 @@ blockdiag {
   匕 [label = "匕\n453 ancient spoon"];
   日 [label = "日\n12 day"];
   火 [label = "火\n170 fire"];
-  者 -> 煮;
-  老 -> 者;
-  土 -> 老;
-  丨 -> 老;
-  一 -> 丨;
-  匕 -> 老;
-  日 -> 者;
-  火 -> 煮;
+
+  者 -> 煮 [thick];
+  老 -> 者 [thick];
+  土 -> 老 [thick];
+  丨 -> 老 [thick];
+  一 -> 丨 [thick];
+  匕 -> 老 [thick];
+  日 -> 者 [thick];
+  火 -> 煮 [thick];
 }

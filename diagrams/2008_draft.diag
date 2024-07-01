@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   稿 [label = "稿\n2008 draft"];
   禾 [label = "禾\n762 standing grain"];
   囧高 [label = "囧高\n* Eiffel Tower"];
-  禾 -> 稿;
-  囧高 -> 稿;
+
+  禾 -> 稿 [thick];
+  囧高 -> 稿 [thick];
 }

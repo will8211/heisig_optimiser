@@ -1,0 +1,26 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  艇 [label = "艇\n2825 light boat"];
+  舟 [label = "舟\n1394 boat"];
+  丶 [label = "丶\n* a drop of"];
+  冂 [label = "冂\n* hood"];
+  几 [label = "几\n57 how many?"];
+  廷 [label = "廷\n854 royal court"];
+  壬 [label = "壬\n* porter"];
+  士 [label = "士\n334 soldier"];
+  廴 [label = "廴\n* stretch"];
+
+  舟 -> 艇 [thick];
+  丶 -> 舟 [thick];
+  冂 -> 舟 [thick];
+  几 -> 冂 [thick];
+  廷 -> 艇 [thick];
+  壬 -> 廷 [thick];
+  士 -> 壬 [thick];
+  廴 -> 廷 [thick];
+}

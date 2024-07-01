@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   浇 [label = "浇\n1668 sprinkle"];
   水 [label = "水\n137 water"];
   丨 [label = "丨\n* walking stick"];
@@ -8,12 +14,13 @@ blockdiag {
   戈 [label = "戈\n361 halberd"];
   弋 [label = "弋\n* arrow"];
   儿 [label = "儿\n56 youngster"];
-  水 -> 浇;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  尧 -> 浇;
-  戈 -> 尧;
-  弋 -> 戈;
-  儿 -> 尧;
+
+  水 -> 浇 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  尧 -> 浇 [thick];
+  戈 -> 尧 [thick];
+  弋 -> 戈 [thick];
+  儿 -> 尧 [thick];
 }

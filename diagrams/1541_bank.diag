@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   涯 [label = "涯\n1541 bank"];
   厂 [label = "厂\n121 factory"];
   圭 [label = "圭\n* bricks"];
@@ -7,11 +13,12 @@ blockdiag {
   丨 [label = "丨\n* walking stick"];
   一 [label = "一\n1 one"];
   丶 [label = "丶\n* a drop of"];
-  厂 -> 涯;
-  圭 -> 涯;
-  土 -> 圭;
-  水 -> 涯;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
+
+  厂 -> 涯 [thick];
+  圭 -> 涯 [thick];
+  土 -> 圭 [thick];
+  水 -> 涯 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
 }

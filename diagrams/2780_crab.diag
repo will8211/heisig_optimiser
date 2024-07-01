@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   蟹 [label = "蟹\n2780 crab"];
   解 [label = "解\n1364 untie"];
   角 [label = "角\n1362 angle"];
@@ -7,11 +13,12 @@ blockdiag {
   刀 [label = "刀\n83 sword"];
   牛 [label = "牛\n252 cow"];
   虫 [label = "虫\n509 insect"];
-  解 -> 蟹;
-  角 -> 解;
-  勹 -> 角;
-  用 -> 角;
-  刀 -> 解;
-  牛 -> 解;
-  虫 -> 蟹;
+
+  解 -> 蟹 [thick];
+  角 -> 解 [thick];
+  勹 -> 角 [thick];
+  用 -> 角 [thick];
+  刀 -> 解 [thick];
+  牛 -> 解 [thick];
+  虫 -> 蟹 [thick];
 }

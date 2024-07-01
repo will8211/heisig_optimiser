@@ -1,0 +1,28 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  筐 [label = "筐\n2675 rectangular basket"];
+  竹 [label = "竹\n786 bamboo"];
+  丁 [label = "丁\n90 fourth"];
+  箱 [label = "箱\n788 box"];
+  相 [label = "相\n212 one another"];
+  木 [label = "木\n202 tree"];
+  目 [label = "目\n15 eye"];
+  王 [label = "王\n265 king"];
+  工 [label = "工\n76 work"];
+
+  竹 -> 筐 [thick];
+  丁 -> 竹 [thick];
+  箱 -> 筐 [thick];
+  竹 -> 箱 [thick];
+  丁 -> 竹 [thick];
+  相 -> 箱 [thick];
+  木 -> 相 [thick];
+  目 -> 相 [thick];
+  王 -> 筐 [thick];
+  工 -> 王 [thick];
+}

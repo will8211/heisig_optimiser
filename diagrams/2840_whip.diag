@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   鞭 [label = "鞭\n2840 whip"];
   革 [label = "革\n1407 leather"];
   廿 [label = "廿\n976 twenty"];
@@ -10,15 +16,16 @@ blockdiag {
   一 [label = "一\n1 one"];
   日 [label = "日\n12 day"];
   囧史－口 [label = "囧史－口\n* tucked under the arm"];
-  革 -> 鞭;
-  廿 -> 革;
-  十 -> 廿;
-  口 -> 革;
-  十 -> 革;
-  便 -> 鞭;
-  人 -> 便;
-  更 -> 便;
-  一 -> 更;
-  日 -> 更;
-  囧史－口 -> 更;
+
+  革 -> 鞭 [thick];
+  廿 -> 革 [thick];
+  十 -> 廿 [thick];
+  口 -> 革 [thick];
+  十 -> 革 [thick];
+  便 -> 鞭 [thick];
+  人 -> 便 [thick];
+  更 -> 便 [thick];
+  一 -> 更 [thick];
+  日 -> 更 [thick];
+  囧史－口 -> 更 [thick];
 }

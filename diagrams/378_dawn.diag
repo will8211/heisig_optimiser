@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   晓 [label = "晓\n378 dawn"];
   日 [label = "日\n12 day"];
   尧 [label = "尧\n376 Yao"];
   戈 [label = "戈\n361 halberd"];
   弋 [label = "弋\n* arrow"];
   儿 [label = "儿\n56 youngster"];
-  日 -> 晓;
-  尧 -> 晓;
-  戈 -> 尧;
-  弋 -> 戈;
-  儿 -> 尧;
+
+  日 -> 晓 [thick];
+  尧 -> 晓 [thick];
+  戈 -> 尧 [thick];
+  弋 -> 戈 [thick];
+  儿 -> 尧 [thick];
 }

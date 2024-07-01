@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   夜 [label = "夜\n872 night"];
   亠 [label = "亠\n* top hat"];
   六 [label = "六\n6 six"];
@@ -16,22 +22,23 @@ blockdiag {
   早 [label = "早\n26 early"];
   日 [label = "日\n12 day"];
   十 [label = "十\n10 ten"];
-  亠 -> 夜;
-  六 -> 亠;
-  囧只－口 -> 六;
-  八 -> 囧只－口;
-  囧只－口 -> 亠;
-  八 -> 囧只－口;
-  人 -> 夜;
-  夂 -> 夜;
-  掉 -> 夜;
-  扌 -> 掉;
-  卓 -> 掉;
-  卜 -> 卓;
-  丨 -> 卜;
-  一 -> 丨;
-  丶 -> 卜;
-  早 -> 卓;
-  日 -> 早;
-  十 -> 早;
+
+  亠 -> 夜 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  人 -> 夜 [thick];
+  夂 -> 夜 [thick];
+  掉 -> 夜 [thick];
+  扌 -> 掉 [thick];
+  卓 -> 掉 [thick];
+  卜 -> 卓 [thick];
+  丨 -> 卜 [thick];
+  一 -> 丨 [thick];
+  丶 -> 卜 [thick];
+  早 -> 卓 [thick];
+  日 -> 早 [thick];
+  十 -> 早 [thick];
 }

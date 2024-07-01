@@ -1,23 +1,30 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   饿 [label = "饿\n2526 hungry"];
   食 [label = "食\n1154 food"];
   良 [label = "良\n1151 high-quality"];
   丶 [label = "丶\n* a drop of"];
   艮 [label = "艮\n* silver"];
-  131490 [label = "𠆢\n* umbrella"];
+  "𠆢" [label = "𠆢\n* umbrella"];
   囧我 [label = "囧我\n* miser"];
   我 [label = "我\n588 I"];
   手 [label = "手\n584 hand"];
   戈 [label = "戈\n361 halberd"];
   弋 [label = "弋\n* arrow"];
-  食 -> 饿;
-  良 -> 食;
-  丶 -> 良;
-  艮 -> 良;
-  131490 -> 食;
-  囧我 -> 饿;
-  我 -> 囧我;
-  手 -> 我;
-  戈 -> 我;
-  弋 -> 戈;
+
+  食 -> 饿 [thick];
+  良 -> 食 [thick];
+  丶 -> 良 [thick];
+  艮 -> 良 [thick];
+  "𠆢" -> 食 [thick];
+  囧我 -> 饿 [thick];
+  我 -> 囧我 [thick];
+  手 -> 我 [thick];
+  戈 -> 我 [thick];
+  弋 -> 戈 [thick];
 }

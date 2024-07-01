@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   延 [label = "延\n396 prolong"];
   廴 [label = "廴\n* stretch"];
   丶 [label = "丶\n* a drop of"];
   止 [label = "止\n379 stop"];
-  廴 -> 延;
-  丶 -> 延;
-  止 -> 延;
+
+  廴 -> 延 [thick];
+  丶 -> 延 [thick];
+  止 -> 延 [thick];
 }

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   融 [label = "融\n2351 melt"];
   鬲 [label = "鬲\n* cauldron"];
   丁 [label = "丁\n90 fourth"];
@@ -8,13 +14,14 @@ blockdiag {
   几 [label = "几\n57 how many?"];
   口 [label = "口\n11 mouth"];
   虫 [label = "虫\n509 insect"];
-  鬲 -> 融;
-  丁 -> 鬲;
-  丷 -> 鬲;
-  一 -> 丷;
-  冂 -> 鬲;
-  几 -> 冂;
-  一 -> 鬲;
-  口 -> 鬲;
-  虫 -> 融;
+
+  鬲 -> 融 [thick];
+  丁 -> 鬲 [thick];
+  丷 -> 鬲 [thick];
+  一 -> 丷 [thick];
+  冂 -> 鬲 [thick];
+  几 -> 冂 [thick];
+  一 -> 鬲 [thick];
+  口 -> 鬲 [thick];
+  虫 -> 融 [thick];
 }

@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   枫 [label = "枫\n2538 maple"];
   木 [label = "木\n202 tree"];
   风 [label = "风\n1168 wind"];
   几 [label = "几\n57 how many?"];
-  13317 [label = "㐅\n* sheaf"];
-  木 -> 枫;
-  风 -> 枫;
-  几 -> 风;
-  13317 -> 风;
+  "㐅" [label = "㐅\n* sheaf"];
+
+  木 -> 枫 [thick];
+  风 -> 枫 [thick];
+  几 -> 风 [thick];
+  "㐅" -> 风 [thick];
 }

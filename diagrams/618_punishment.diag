@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   刑 [label = "刑\n618 punishment"];
   开 [label = "开\n613 open"];
   二 [label = "二\n2 two"];
   一 [label = "一\n1 one"];
   刀 [label = "刀\n83 sword"];
-  开 -> 刑;
-  二 -> 开;
-  一 -> 二;
-  刀 -> 刑;
+
+  开 -> 刑 [thick];
+  二 -> 开 [thick];
+  一 -> 二 [thick];
+  刀 -> 刑 [thick];
 }

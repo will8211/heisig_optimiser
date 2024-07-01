@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   扣 [label = "扣\n1828 button"];
   扌 [label = "扌\n* fingers"];
   口 [label = "口\n11 mouth"];
-  扌 -> 扣;
-  口 -> 扣;
+
+  扌 -> 扣 [thick];
+  口 -> 扣 [thick];
 }

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   涌 [label = "涌\n2442 gush"];
   水 [label = "水\n137 water"];
   丨 [label = "丨\n* walking stick"];
@@ -7,13 +13,14 @@ blockdiag {
   甬 [label = "甬\n* chop-rack"];
   月 [label = "月\n13 month"];
   囧节－艹 [label = "囧节－艹\n* chop"];
-  水 -> 涌;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  甬 -> 涌;
-  月 -> 甬;
-  丨 -> 甬;
-  一 -> 丨;
-  囧节－艹 -> 甬;
+
+  水 -> 涌 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  甬 -> 涌 [thick];
+  月 -> 甬 [thick];
+  丨 -> 甬 [thick];
+  一 -> 丨 [thick];
+  囧节－艹 -> 甬 [thick];
 }

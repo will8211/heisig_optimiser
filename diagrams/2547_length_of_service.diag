@@ -1,0 +1,42 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  龄 [label = "龄\n2547 length of service"];
+  齿 [label = "齿\n2546 teeth"];
+  止 [label = "止\n379 stop"];
+  人 [label = "人\n793 person"];
+  坑 [label = "坑\n323 pit"];
+  亢 [label = "亢\n* whirlwind"];
+  亠 [label = "亠\n* top hat"];
+  六 [label = "六\n6 six"];
+  囧只－口 [label = "囧只－口\n* animal legs"];
+  八 [label = "八\n8 eight"];
+  几 [label = "几\n57 how many?"];
+  土 [label = "土\n158 soil"];
+  令 [label = "令\n1113 orders"];
+  亼 [label = "亼\n* meeting"];
+  "𠆢" [label = "𠆢\n* umbrella"];
+  囧节－艹 [label = "囧节－艹\n* chop"];
+
+  齿 -> 龄 [thick];
+  止 -> 齿 [thick];
+  人 -> 齿 [thick];
+  坑 -> 齿 [thick];
+  亢 -> 坑 [thick];
+  亠 -> 亢 [thick];
+  六 -> 亠 [thick];
+  囧只－口 -> 六 [thick];
+  八 -> 囧只－口 [thick];
+  囧只－口 -> 亠 [thick];
+  八 -> 囧只－口 [thick];
+  几 -> 亢 [thick];
+  土 -> 坑 [thick];
+  令 -> 龄 [thick];
+  亼 -> 令 [thick];
+  "𠆢" -> 亼 [thick];
+  囧节－艹 -> 令 [thick];
+}

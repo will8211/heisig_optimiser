@@ -1,0 +1,18 @@
+blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  悉 [label = "悉\n2846 be informed"];
+  釆 [label = "釆\n* droppings"];
+  丶 [label = "丶\n* a drop of"];
+  米 [label = "米\n778 rice"];
+  心 [label = "心\n563 heart"];
+
+  釆 -> 悉 [thick];
+  丶 -> 釆 [thick];
+  米 -> 釆 [thick];
+  心 -> 悉 [thick];
+}

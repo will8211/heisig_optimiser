@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   赋 [label = "赋\n386 levy"];
   贝 [label = "贝\n52 shellfish"];
   目 [label = "目\n15 eye"];
@@ -8,12 +14,13 @@ blockdiag {
   一 [label = "一\n1 one"];
   弋 [label = "弋\n* arrow"];
   止 [label = "止\n379 stop"];
-  贝 -> 赋;
-  目 -> 贝;
-  囧只－口 -> 贝;
-  八 -> 囧只－口;
-  武 -> 赋;
-  一 -> 武;
-  弋 -> 武;
-  止 -> 武;
+
+  贝 -> 赋 [thick];
+  目 -> 贝 [thick];
+  囧只－口 -> 贝 [thick];
+  八 -> 囧只－口 [thick];
+  武 -> 赋 [thick];
+  一 -> 武 [thick];
+  弋 -> 武 [thick];
+  止 -> 武 [thick];
 }

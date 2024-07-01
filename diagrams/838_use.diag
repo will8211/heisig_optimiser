@@ -1,9 +1,16 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   使 [label = "使\n838 use"];
   人 [label = "人\n793 person"];
   丈 [label = "丈\n837 100 Chinese inches"];
   口 [label = "口\n11 mouth"];
-  人 -> 使;
-  丈 -> 使;
-  口 -> 使;
+
+  人 -> 使 [thick];
+  丈 -> 使 [thick];
+  口 -> 使 [thick];
 }

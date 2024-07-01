@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   岗 [label = "岗\n2540 hillock"];
   山 [label = "山\n688 mountain"];
   冈 [label = "冈\n1170 ridge of a hill"];
   冂 [label = "冂\n* hood"];
   几 [label = "几\n57 how many?"];
-  13317 [label = "㐅\n* sheaf"];
-  山 -> 岗;
-  冈 -> 岗;
-  冂 -> 冈;
-  几 -> 冂;
-  13317 -> 冈;
+  "㐅" [label = "㐅\n* sheaf"];
+
+  山 -> 岗 [thick];
+  冈 -> 岗 [thick];
+  冂 -> 冈 [thick];
+  几 -> 冂 [thick];
+  "㐅" -> 冈 [thick];
 }

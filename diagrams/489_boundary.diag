@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   境 [label = "境\n489 boundary"];
   土 [label = "土\n158 soil"];
   竟 [label = "竟\n487 unexpectedly"];
   立 [label = "立\n444 standing up"];
   儿 [label = "儿\n56 youngster"];
   日 [label = "日\n12 day"];
-  土 -> 境;
-  竟 -> 境;
-  立 -> 竟;
-  儿 -> 竟;
-  日 -> 竟;
+
+  土 -> 境 [thick];
+  竟 -> 境 [thick];
+  立 -> 竟 [thick];
+  儿 -> 竟 [thick];
+  日 -> 竟 [thick];
 }

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   偿 [label = "偿\n2078 repay"];
   人 [label = "人\n793 person"];
   尝 [label = "尝\n1692 taste"];
@@ -6,10 +12,11 @@ blockdiag {
   丶 [label = "丶\n* a drop of"];
   冖 [label = "冖\n* crown"];
   云 [label = "云\n428 cloud"];
-  人 -> 偿;
-  尝 -> 偿;
-  小 -> 尝;
-  丶 -> 小;
-  冖 -> 尝;
-  云 -> 尝;
+
+  人 -> 偿 [thick];
+  尝 -> 偿 [thick];
+  小 -> 尝 [thick];
+  丶 -> 小 [thick];
+  冖 -> 尝 [thick];
+  云 -> 尝 [thick];
 }

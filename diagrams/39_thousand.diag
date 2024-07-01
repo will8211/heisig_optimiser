@@ -1,7 +1,14 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   千 [label = "千\n39 thousand"];
   丶 [label = "丶\n* a drop of"];
   十 [label = "十\n10 ten"];
-  丶 -> 千;
-  十 -> 千;
+
+  丶 -> 千 [thick];
+  十 -> 千 [thick];
 }

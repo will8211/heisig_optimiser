@@ -1,5 +1,12 @@
 blockdiag {
-  247060 [label = "囧奉－𡗗\n* cornstalk"];
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  "囧奉－𡗗" [label = "囧奉－𡗗\n* cornstalk"];
   丰 [label = "丰\n1223 plentiful"];
-  丰 -> 247060;
+
+  丰 -> "囧奉－𡗗" [thick];
 }

@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   扳 [label = "扳\n1898 tug"];
   扌 [label = "扌\n* fingers"];
   反 [label = "反\n656 against"];
-  131206 [label = "𠂆\n* drag"];
+  "𠂆" [label = "𠂆\n* drag"];
   又 [label = "又\n633 again"];
-  扌 -> 扳;
-  反 -> 扳;
-  131206 -> 反;
-  又 -> 反;
+
+  扌 -> 扳 [thick];
+  反 -> 扳 [thick];
+  "𠂆" -> 反 [thick];
+  又 -> 反 [thick];
 }

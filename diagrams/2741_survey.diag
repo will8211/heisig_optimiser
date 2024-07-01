@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   勘 [label = "勘\n2741 survey"];
   囧甚 [label = "囧甚\n* Hercules"];
   甚 [label = "甚\n1338 tremendously"];
@@ -10,14 +16,15 @@ blockdiag {
   肌 [label = "肌\n63 muscle"];
   几 [label = "几\n57 how many?"];
   月 [label = "月\n13 month"];
-  囧甚 -> 勘;
-  甚 -> 囧甚;
-  其 -> 甚;
-  甘 -> 其;
-  囧只－口 -> 其;
-  八 -> 囧只－口;
-  乙 -> 甚;
-  肌 -> 勘;
-  几 -> 肌;
-  月 -> 肌;
+
+  囧甚 -> 勘 [thick];
+  甚 -> 囧甚 [thick];
+  其 -> 甚 [thick];
+  甘 -> 其 [thick];
+  囧只－口 -> 其 [thick];
+  八 -> 囧只－口 [thick];
+  乙 -> 甚 [thick];
+  肌 -> 勘 [thick];
+  几 -> 肌 [thick];
+  月 -> 肌 [thick];
 }

@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   绍 [label = "绍\n2374 acquaint"];
   纟 [label = "纟\n* thread"];
   厶 [label = "厶\n* elbow"];
   召 [label = "召\n86 summon"];
   刀 [label = "刀\n83 sword"];
   口 [label = "口\n11 mouth"];
-  纟 -> 绍;
-  厶 -> 纟;
-  召 -> 绍;
-  刀 -> 召;
-  口 -> 召;
+
+  纟 -> 绍 [thick];
+  厶 -> 纟 [thick];
+  召 -> 绍 [thick];
+  刀 -> 召 [thick];
+  口 -> 召 [thick];
 }

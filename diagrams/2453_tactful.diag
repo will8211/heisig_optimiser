@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   婉 [label = "婉\n2453 tactful"];
   女 [label = "女\n102 woman"];
   宛 [label = "宛\n2451 winding"];
@@ -6,12 +12,13 @@ blockdiag {
   夗 [label = "夗\n* nameplate"];
   夕 [label = "夕\n115 evening"];
   月 [label = "月\n13 month"];
-  13630 [label = "㔾\n* fingerprint"];
-  女 -> 婉;
-  宛 -> 婉;
-  宀 -> 宛;
-  夗 -> 宛;
-  夕 -> 夗;
-  月 -> 夕;
-  13630 -> 夗;
+  "㔾" [label = "㔾\n* fingerprint"];
+
+  女 -> 婉 [thick];
+  宛 -> 婉 [thick];
+  宀 -> 宛 [thick];
+  夗 -> 宛 [thick];
+  夕 -> 夗 [thick];
+  月 -> 夕 [thick];
+  "㔾" -> 夗 [thick];
 }

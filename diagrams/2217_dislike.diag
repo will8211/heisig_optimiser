@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   嫌 [label = "嫌\n2217 dislike"];
   女 [label = "女\n102 woman"];
   兼 [label = "兼\n2215 double"];
@@ -6,10 +12,11 @@ blockdiag {
   一 [label = "一\n1 one"];
   肀 [label = "肀\n* rake"];
   彐 [label = "彐\n* broom"];
-  女 -> 嫌;
-  兼 -> 嫌;
-  丷 -> 兼;
-  一 -> 丷;
-  肀 -> 兼;
-  彐 -> 肀;
+
+  女 -> 嫌 [thick];
+  兼 -> 嫌 [thick];
+  丷 -> 兼 [thick];
+  一 -> 丷 [thick];
+  肀 -> 兼 [thick];
+  彐 -> 肀 [thick];
 }

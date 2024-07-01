@@ -1,7 +1,14 @@
 blockdiag {
-  13361 [label = "㐱\n* cocktail"];
-  131490 [label = "𠆢\n* umbrella"];
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
+  "㐱" [label = "㐱\n* cocktail"];
+  "𠆢" [label = "𠆢\n* umbrella"];
   彡 [label = "彡\n* rooster tail"];
-  131490 -> 13361;
-  彡 -> 13361;
+
+  "𠆢" -> "㐱" [thick];
+  彡 -> "㐱" [thick];
 }

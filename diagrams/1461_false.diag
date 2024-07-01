@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   虚 [label = "虚\n1461 false"];
   虎 [label = "虎\n1459 tiger"];
   卜 [label = "卜\n43 divination"];
@@ -13,18 +19,19 @@ blockdiag {
   止 [label = "止\n379 stop"];
   业 [label = "业\n1349 profession"];
   並 [label = "並\n* side by side"];
-  虎 -> 虚;
-  卜 -> 虎;
-  丨 -> 卜;
-  一 -> 丨;
-  丶 -> 卜;
-  七 -> 虎;
-  几 -> 虎;
-  疋 -> 虎;
-  囧走－十 -> 疋;
-  正 -> 囧走－十;
-  一 -> 正;
-  止 -> 正;
-  业 -> 虚;
-  並 -> 业;
+
+  虎 -> 虚 [thick];
+  卜 -> 虎 [thick];
+  丨 -> 卜 [thick];
+  一 -> 丨 [thick];
+  丶 -> 卜 [thick];
+  七 -> 虎 [thick];
+  几 -> 虎 [thick];
+  疋 -> 虎 [thick];
+  囧走－十 -> 疋 [thick];
+  正 -> 囧走－十 [thick];
+  一 -> 正 [thick];
+  止 -> 正 [thick];
+  业 -> 虚 [thick];
+  並 -> 业 [thick];
 }

@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   辆 [label = "辆\n2939 vehicles"];
   车 [label = "车\n300 car"];
   两 [label = "两\n1478 dos"];
   人 [label = "人\n793 person"];
   囧冂 [label = "囧冂\n* belt"];
   巾 [label = "巾\n410 towel"];
-  车 -> 辆;
-  两 -> 辆;
-  人 -> 两;
-  囧冂 -> 两;
-  巾 -> 囧冂;
+
+  车 -> 辆 [thick];
+  两 -> 辆 [thick];
+  人 -> 两 [thick];
+  囧冂 -> 两 [thick];
+  巾 -> 囧冂 [thick];
 }

@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   医 [label = "医\n1298 physician"];
   箱 [label = "箱\n788 box"];
   竹 [label = "竹\n786 bamboo"];
@@ -11,15 +17,16 @@ blockdiag {
   一 [label = "一\n1 one"];
   大 [label = "大\n113 large"];
   丶 [label = "丶\n* a drop of"];
-  箱 -> 医;
-  竹 -> 箱;
-  丁 -> 竹;
-  相 -> 箱;
-  木 -> 相;
-  目 -> 相;
-  矢 -> 医;
-  天 -> 矢;
-  一 -> 天;
-  大 -> 天;
-  丶 -> 矢;
+
+  箱 -> 医 [thick];
+  竹 -> 箱 [thick];
+  丁 -> 竹 [thick];
+  相 -> 箱 [thick];
+  木 -> 相 [thick];
+  目 -> 相 [thick];
+  矢 -> 医 [thick];
+  天 -> 矢 [thick];
+  一 -> 天 [thick];
+  大 -> 天 [thick];
+  丶 -> 矢 [thick];
 }

@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   坡 [label = "坡\n1960 slope"];
   土 [label = "土\n158 soil"];
   皮 [label = "皮\n707 covering"];
   支 [label = "支\n650 offshoot"];
   十 [label = "十\n10 ten"];
   又 [label = "又\n633 again"];
-  土 -> 坡;
-  皮 -> 坡;
-  支 -> 皮;
-  十 -> 支;
-  又 -> 支;
+
+  土 -> 坡 [thick];
+  皮 -> 坡 [thick];
+  支 -> 皮 [thick];
+  十 -> 支 [thick];
+  又 -> 支 [thick];
 }

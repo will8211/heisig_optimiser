@@ -1,13 +1,20 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   恐 [label = "恐\n575 fear"];
   工 [label = "工\n76 work"];
   凡 [label = "凡\n62 ordinary"];
   丶 [label = "丶\n* a drop of"];
   几 [label = "几\n57 how many?"];
   心 [label = "心\n563 heart"];
-  工 -> 恐;
-  凡 -> 恐;
-  丶 -> 凡;
-  几 -> 凡;
-  心 -> 恐;
+
+  工 -> 恐 [thick];
+  凡 -> 恐 [thick];
+  丶 -> 凡 [thick];
+  几 -> 凡 [thick];
+  心 -> 恐 [thick];
 }

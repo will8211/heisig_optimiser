@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   隔 [label = "隔\n2352 separate"];
   阝 [label = "阝\n* pinnacle"];
   鬲 [label = "鬲\n* cauldron"];
@@ -8,13 +14,14 @@ blockdiag {
   冂 [label = "冂\n* hood"];
   几 [label = "几\n57 how many?"];
   口 [label = "口\n11 mouth"];
-  阝 -> 隔;
-  鬲 -> 隔;
-  丁 -> 鬲;
-  丷 -> 鬲;
-  一 -> 丷;
-  冂 -> 鬲;
-  几 -> 冂;
-  一 -> 鬲;
-  口 -> 鬲;
+
+  阝 -> 隔 [thick];
+  鬲 -> 隔 [thick];
+  丁 -> 鬲 [thick];
+  丷 -> 鬲 [thick];
+  一 -> 丷 [thick];
+  冂 -> 鬲 [thick];
+  几 -> 冂 [thick];
+  一 -> 鬲 [thick];
+  口 -> 鬲 [thick];
 }

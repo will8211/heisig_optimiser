@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   泻 [label = "泻\n1034 diarrhea"];
   水 [label = "水\n137 water"];
   丨 [label = "丨\n* walking stick"];
@@ -10,14 +16,15 @@ blockdiag {
   囧与－丨一 [label = "囧与－丨一\n* pointed tail"];
   囧与－一 [label = "囧与－一\n* slingshot"];
   弓 [label = "弓\n1013 bow"];
-  水 -> 泻;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
-  写 -> 泻;
-  冖 -> 写;
-  与 -> 写;
-  囧与－丨一 -> 与;
-  囧与－一 -> 与;
-  弓 -> 囧与－一;
+
+  水 -> 泻 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
+  写 -> 泻 [thick];
+  冖 -> 写 [thick];
+  与 -> 写 [thick];
+  囧与－丨一 -> 与 [thick];
+  囧与－一 -> 与 [thick];
+  弓 -> 囧与－一 [thick];
 }

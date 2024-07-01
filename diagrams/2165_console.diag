@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   慰 [label = "慰\n2165 console"];
   尉 [label = "尉\n* Cardinal Richelieu"];
   尸 [label = "尸\n882 corpse"];
@@ -7,11 +13,12 @@ blockdiag {
   十 [label = "十\n10 ten"];
   示 [label = "示\n900 show"];
   心 [label = "心\n563 heart"];
-  尉 -> 慰;
-  尸 -> 尉;
-  寸 -> 尉;
-  丶 -> 寸;
-  十 -> 寸;
-  示 -> 尉;
-  心 -> 慰;
+
+  尉 -> 慰 [thick];
+  尸 -> 尉 [thick];
+  寸 -> 尉 [thick];
+  丶 -> 寸 [thick];
+  十 -> 寸 [thick];
+  示 -> 尉 [thick];
+  心 -> 慰 [thick];
 }

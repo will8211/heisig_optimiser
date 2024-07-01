@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   商 [label = "商\n451 salesman"];
   立 [label = "立\n444 standing up"];
   冂 [label = "冂\n* hood"];
@@ -6,10 +12,11 @@ blockdiag {
   囧只－口 [label = "囧只－口\n* animal legs"];
   八 [label = "八\n8 eight"];
   口 [label = "口\n11 mouth"];
-  立 -> 商;
-  冂 -> 商;
-  几 -> 冂;
-  囧只－口 -> 商;
-  八 -> 囧只－口;
-  口 -> 商;
+
+  立 -> 商 [thick];
+  冂 -> 商 [thick];
+  几 -> 冂 [thick];
+  囧只－口 -> 商 [thick];
+  八 -> 囧只－口 [thick];
+  口 -> 商 [thick];
 }

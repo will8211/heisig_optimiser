@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   婚 [label = "婚\n1374 marriage"];
   女 [label = "女\n102 woman"];
   氏 [label = "氏\n1371 family name"];
@@ -7,11 +13,12 @@ blockdiag {
   一 [label = "一\n1 one"];
   乙 [label = "乙\n95 second"];
   日 [label = "日\n12 day"];
-  女 -> 婚;
-  氏 -> 婚;
-  丶 -> 氏;
-  囧以－丶人 -> 氏;
-  一 -> 氏;
-  乙 -> 氏;
-  日 -> 婚;
+
+  女 -> 婚 [thick];
+  氏 -> 婚 [thick];
+  丶 -> 氏 [thick];
+  囧以－丶人 -> 氏 [thick];
+  一 -> 氏 [thick];
+  乙 -> 氏 [thick];
+  日 -> 婚 [thick];
 }

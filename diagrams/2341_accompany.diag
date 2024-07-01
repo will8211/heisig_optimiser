@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   陪 [label = "陪\n2341 accompany"];
   阝 [label = "阝\n* pinnacle"];
   咅 [label = "咅\n* muzzle"];
   立 [label = "立\n444 standing up"];
   口 [label = "口\n11 mouth"];
-  阝 -> 陪;
-  咅 -> 陪;
-  立 -> 咅;
-  口 -> 咅;
+
+  阝 -> 陪 [thick];
+  咅 -> 陪 [thick];
+  立 -> 咅 [thick];
+  口 -> 咅 [thick];
 }

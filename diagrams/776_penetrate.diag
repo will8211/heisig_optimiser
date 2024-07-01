@@ -1,11 +1,18 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   透 [label = "透\n776 penetrate"];
   秀 [label = "秀\n775 elegant"];
   禾 [label = "禾\n762 standing grain"];
   乃 [label = "乃\n625 only then"];
   辶 [label = "辶\n* road"];
-  秀 -> 透;
-  禾 -> 秀;
-  乃 -> 秀;
-  辶 -> 透;
+
+  秀 -> 透 [thick];
+  禾 -> 秀 [thick];
+  乃 -> 秀 [thick];
+  辶 -> 透 [thick];
 }

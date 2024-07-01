@@ -1,4 +1,10 @@
 blockdiag {
+  default_fontsize = 110
+  node_width = 1280
+  node_height = 400
+  span_width = 640
+  span_height = 400
+
   活 [label = "活\n151 lively"];
   舌 [label = "舌\n40 tongue"];
   口 [label = "口\n11 mouth"];
@@ -8,13 +14,14 @@ blockdiag {
   水 [label = "水\n137 water"];
   丨 [label = "丨\n* walking stick"];
   一 [label = "一\n1 one"];
-  舌 -> 活;
-  口 -> 舌;
-  千 -> 舌;
-  丶 -> 千;
-  十 -> 千;
-  水 -> 活;
-  丨 -> 水;
-  一 -> 丨;
-  丶 -> 水;
+
+  舌 -> 活 [thick];
+  口 -> 舌 [thick];
+  千 -> 舌 [thick];
+  丶 -> 千 [thick];
+  十 -> 千 [thick];
+  水 -> 活 [thick];
+  丨 -> 水 [thick];
+  一 -> 丨 [thick];
+  丶 -> 水 [thick];
 }
