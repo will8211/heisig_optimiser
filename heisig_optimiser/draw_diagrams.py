@@ -22,3 +22,4 @@ for filename in filenames:
         print(f"Successfully processed {filename}")
     except subprocess.CalledProcessError as e:
         print(f"Error processing {filename}: {e.stderr.decode('utf-8')}")
+        exit(1)

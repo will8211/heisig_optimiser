@@ -1,14 +1,14 @@
 blockdiag {
   朝 [label = "朝\n49 dynasty"];
   月 [label = "月\n13 month"];
-  𠦝 [label = "𠦝\n* mist"];
+  133533 [label = "𠦝\n* mist"];
   早 [label = "早\n26 early"];
   日 [label = "日\n12 day"];
   十 [label = "十\n10 ten"];
   月 -> 朝;
-  𠦝 -> 朝;
-  早 -> 𠦝;
+  133533 -> 朝;
+  早 -> 133533;
   日 -> 早;
   十 -> 早;
-  十 -> 𠦝;
+  十 -> 133533;
 }

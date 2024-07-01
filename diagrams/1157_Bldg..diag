@@ -4,18 +4,18 @@ blockdiag {
   良 [label = "良\n1151 high-quality"];
   丶 [label = "丶\n* a drop of"];
   艮 [label = "艮\n* silver"];
-  ^ [label = "𠆢\n* umbrella"];
+  131490 [label = "𠆢\n* umbrella"];
   官 [label = "官\n1041 bureaucrat"];
-  𠂤 [label = "𠂤\n* maestro"];
+  131236 [label = "𠂤\n* maestro"];
   宀 [label = "宀\n* house"];
   食 -> 馆;
   良 -> 食;
   丶 -> 良;
   艮 -> 良;
-  ^ -> 食;
+  131490 -> 食;
   官 -> 馆;
-  𠂤 -> 官;
-  丶 -> 𠂤;
+  131236 -> 官;
+  丶 -> 131236;
   丶 -> 官;
   宀 -> 官;
 }

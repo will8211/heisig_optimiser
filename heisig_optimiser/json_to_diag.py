@@ -2,6 +2,15 @@ import json
 import os
 
 
+def sanitize_cjk(string):
+    if not string:
+        return string
+    for char in string:
+        if not char == "－" and not "\u4E00" <= char <= "\u9FFF":
+            return str(sum([ord(x) for x in string]))
+    return string
+
+
 # Function to recursively parse requirements
 def parse_requirements(node, parent_id=None, connections=None, labels=None):
     if connections is None:
@@ -10,13 +19,14 @@ def parse_requirements(node, parent_id=None, connections=None, labels=None):
         labels = {}
 
     current_character = node["character"]
-    safe_current_character = current_character.replace("𠆢", "^")
+    safe_current_character = sanitize_cjk(current_character)
+    safe_parent_id = sanitize_cjk(parent_id)
     number = str(node["number"]) if node["number"] else "*"
     current_label = f"{node['character']}\\n{number} {node['keyword']}"
     labels[safe_current_character] = current_label
 
     if parent_id:
-        connections.append(f"{safe_current_character} -> {parent_id};")
+        connections.append(f"{safe_current_character} -> {safe_parent_id};")
 
     if "requirements" in node:
         for req in node["requirements"]:

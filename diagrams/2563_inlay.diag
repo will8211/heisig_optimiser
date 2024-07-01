@@ -1,7 +1,7 @@
 blockdiag {
   镶 [label = "镶\n2563 inlay"];
   金 [label = "金\n279 gold"];
-  ^ [label = "𠆢\n* umbrella"];
+  131490 [label = "𠆢\n* umbrella"];
   王 [label = "王\n265 king"];
   工 [label = "工\n76 work"];
   丶 [label = "丶\n* a drop of"];
@@ -13,9 +13,9 @@ blockdiag {
   八 [label = "八\n8 eight"];
   吅 [label = "吅\n* chatterbox"];
   口 [label = "口\n11 mouth"];
-  𠀎 [label = "𠀎\n* wire mesh"];
+  131086 [label = "𠀎\n* wire mesh"];
   金 -> 镶;
-  ^ -> 金;
+  131490 -> 金;
   王 -> 金;
   工 -> 王;
   丶 -> 金;
@@ -29,5 +29,5 @@ blockdiag {
   八 -> 囧只－口;
   吅 -> 襄;
   口 -> 吅;
-  𠀎 -> 襄;
+  131086 -> 襄;
 }
