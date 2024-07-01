@@ -1,9 +1,18 @@
 import json
 import os
 
+id = "A"
+
+
+def increment(letter: str):
+    byte_val = bytes(letter, "utf-8")
+    incremented = bytes([byte_val[0] + 1])
+    return incremented.decode("utf-8")
+
 
 # Function to recursively build the hierarchy
 def build_hierarchy(character, character_map, visited=None):
+    global id
     if visited is None:
         visited = set()
 
@@ -31,10 +40,12 @@ def build_hierarchy(character, character_map, visited=None):
 
     visited.remove(character)  # Remove character from visited after processing
 
+    id = increment(id)
     return {
         "number": str(character_data["Number"]) if character_data["Number"] else None,
         "character": character_data["Character"],
         "keyword": character_data["Keywords"][0],
+        "id": id,
         "requirements": requirements,
     }
 
@@ -52,6 +63,7 @@ os.makedirs(output_dir, exist_ok=True)
 
 # Process each character and write the hierarchy to a file
 for character_data in data:
+    id = "A"
     character = character_data["Character"]
     number = character_data["Number"]
     first_keyword = character_data["Keywords"][0]
