@@ -5,28 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  M [label = "暇\nspare time (1403)"];
+  H [label = "暇\nspare time (1403)"];
   B [label = "日\nday (12)"];
-  L [label = "叚\nbraces (*)"];
+  G [label = "叚\nbraces (*)"];
   C [label = "口\nmouth (11)"];
-  D [label = "囧印－卩\nstaples (*)"];
-  J [label = "箱\nbox (788)"];
-  F [label = "竹\nbamboo (786)"];
-  E [label = "丁\nfourth (90)"];
-  I [label = "相\none another (212)"];
-  G [label = "木\ntree (202)"];
-  H [label = "目\neye (15)"];
-  K [label = "又\nagain (633)"];
+  D [label = "印minus卩\nstaples (*)"];
+  E [label = "匚\nbox (*)"];
+  F [label = "又\nagain (633)"];
 
-  B -> M [thick];
-  L -> M [thick];
-  C -> L [thick];
-  D -> L [thick];
-  J -> L [thick];
-  F -> J [thick];
-  E -> F [thick];
-  I -> J [thick];
-  G -> I [thick];
-  H -> I [thick];
-  K -> L [thick];
+  B -> H [thick];
+  G -> H [thick];
+  C -> G [thick];
+  D -> G [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

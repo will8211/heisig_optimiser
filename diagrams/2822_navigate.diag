@@ -5,30 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  N [label = "航\nnavigate (2822)"];
+  I [label = "航\nnavigate (2822)"];
   E [label = "舟\nboat (1394)"];
   B [label = "丶\na drop of (*)"];
   D [label = "冂\nhood (*)"];
   C [label = "几\nhow many? (57)"];
-  M [label = "亢\nwhirlwind (*)"];
-  K [label = "亠\ntop hat (*)"];
-  H [label = "六\nsix (6)"];
-  G [label = "囧只－口\nanimal legs (*)"];
-  F [label = "八\neight (8)"];
-  J [label = "囧只－口\nanimal legs (*)"];
-  I [label = "八\neight (8)"];
-  L [label = "几\nhow many? (57)"];
+  H [label = "亢\nwhirlwind (*)"];
+  F [label = "亠\ntop hat (*)"];
+  G [label = "几\nhow many? (57)"];
 
-  E -> N [thick];
+  E -> I [thick];
   B -> E [thick];
   D -> E [thick];
   C -> D [thick];
-  M -> N [thick];
-  K -> M [thick];
-  H -> K [thick];
+  H -> I [thick];
+  F -> H [thick];
   G -> H [thick];
-  F -> G [thick];
-  J -> K [thick];
-  I -> J [thick];
-  L -> M [thick];
 }

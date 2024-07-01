@@ -5,7 +5,7 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  S [label = "誓\nvow (2192)"];
+  N [label = "誓\nvow (2192)"];
   H [label = "折\ndiscount (932)"];
   F [label = "指\nfinger (594)"];
   B [label = "扌\nfingers (*)"];
@@ -13,32 +13,22 @@ blockdiag {
   C [label = "匕\nancient spoon (453)"];
   D [label = "日\nday (12)"];
   G [label = "斤\ncatty (924)"];
-  R [label = "言\nsay (346)"];
+  M [label = "言\nsay (346)"];
   J [label = "二\ntwo (2)"];
   I [label = "一\none (1)"];
   K [label = "口\nmouth (11)"];
-  Q [label = "亠\ntop hat (*)"];
-  N [label = "六\nsix (6)"];
-  M [label = "囧只－口\nanimal legs (*)"];
-  L [label = "八\neight (8)"];
-  P [label = "囧只－口\nanimal legs (*)"];
-  O [label = "八\neight (8)"];
+  L [label = "亠\ntop hat (*)"];
 
-  H -> S [thick];
+  H -> N [thick];
   F -> H [thick];
   B -> F [thick];
   E -> F [thick];
   C -> E [thick];
   D -> E [thick];
   G -> H [thick];
-  R -> S [thick];
-  J -> R [thick];
-  I -> J [thick];
-  K -> R [thick];
-  Q -> R [thick];
-  N -> Q [thick];
   M -> N [thick];
+  J -> M [thick];
+  I -> J [thick];
+  K -> M [thick];
   L -> M [thick];
-  P -> Q [thick];
-  O -> P [thick];
 }

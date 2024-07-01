@@ -5,38 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  R [label = "鸥\ngull (2870)"];
-  I [label = "区\nregion (1295)"];
-  G [label = "箱\nbox (788)"];
-  C [label = "竹\nbamboo (786)"];
-  B [label = "丁\nfourth (90)"];
-  F [label = "相\none another (212)"];
-  D [label = "木\ntree (202)"];
-  E [label = "目\neye (15)"];
-  H [label = "㐅\nsheaf (*)"];
-  Q [label = "鸟\nbird (1438)"];
-  N [label = "向\norientation (188)"];
+  M [label = "鸥\ngull (2870)"];
+  D [label = "区\nregion (1295)"];
+  B [label = "匚\nbox (*)"];
+  C [label = "㐅\nsheaf (*)"];
+  L [label = "鸟\nbird (1438)"];
+  I [label = "向\norientation (188)"];
+  E [label = "丶\na drop of (*)"];
+  G [label = "冂\nhood (*)"];
+  F [label = "几\nhow many? (57)"];
+  H [label = "口\nmouth (11)"];
   J [label = "丶\na drop of (*)"];
-  L [label = "冂\nhood (*)"];
-  K [label = "几\nhow many? (57)"];
-  M [label = "口\nmouth (11)"];
-  O [label = "丶\na drop of (*)"];
-  P [label = "囧与－丨一\npointed tail (*)"];
+  K [label = "与minus丨一\npointed tail (*)"];
 
-  I -> R [thick];
+  D -> M [thick];
+  B -> D [thick];
+  C -> D [thick];
+  L -> M [thick];
+  I -> L [thick];
+  E -> I [thick];
   G -> I [thick];
-  C -> G [thick];
-  B -> C [thick];
   F -> G [thick];
-  D -> F [thick];
-  E -> F [thick];
   H -> I [thick];
-  Q -> R [thick];
-  N -> Q [thick];
-  J -> N [thick];
-  L -> N [thick];
+  J -> L [thick];
   K -> L [thick];
-  M -> N [thick];
-  O -> Q [thick];
-  P -> Q [thick];
 }

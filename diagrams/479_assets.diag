@@ -5,28 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  M [label = "资\nassets (479)"];
-  E [label = "贝\nshellfish (52)"];
+  L [label = "资\nassets (479)"];
+  D [label = "贝\nshellfish (52)"];
   B [label = "目\neye (15)"];
-  D [label = "囧只－口\nanimal legs (*)"];
-  C [label = "八\neight (8)"];
-  L [label = "次\nnext (478)"];
-  F [label = "欠\nlack (474)"];
-  K [label = "冫\nice (*)"];
-  J [label = "水\nwater (137)"];
-  H [label = "丨\nwalking stick (*)"];
-  G [label = "一\none (1)"];
-  I [label = "丶\na drop of (*)"];
+  C [label = "只minus口\nanimal legs (*)"];
+  K [label = "次\nnext (478)"];
+  E [label = "欠\nlack (474)"];
+  J [label = "冫\nice (*)"];
+  I [label = "水\nwater (137)"];
+  G [label = "丨\nwalking stick (*)"];
+  F [label = "一\none (1)"];
+  H [label = "丶\na drop of (*)"];
 
-  E -> M [thick];
-  B -> E [thick];
-  D -> E [thick];
+  D -> L [thick];
+  B -> D [thick];
   C -> D [thick];
-  L -> M [thick];
-  F -> L [thick];
   K -> L [thick];
+  E -> K [thick];
   J -> K [thick];
-  H -> J [thick];
-  G -> H [thick];
   I -> J [thick];
+  G -> I [thick];
+  F -> G [thick];
+  H -> I [thick];
 }

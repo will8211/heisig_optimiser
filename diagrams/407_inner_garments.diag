@@ -5,26 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  L [label = "衬\ninner garments (407)"];
+  G [label = "衬\ninner garments (407)"];
   D [label = "寸\nChinese inch (166)"];
   B [label = "丶\na drop of (*)"];
   C [label = "十\nten (10)"];
-  K [label = "衣\nclothing (400)"];
-  J [label = "亠\ntop hat (*)"];
-  G [label = "六\nsix (6)"];
-  F [label = "囧只－口\nanimal legs (*)"];
-  E [label = "八\neight (8)"];
-  I [label = "囧只－口\nanimal legs (*)"];
-  H [label = "八\neight (8)"];
+  F [label = "衣\nclothing (400)"];
+  E [label = "亠\ntop hat (*)"];
 
-  D -> L [thick];
+  D -> G [thick];
   B -> D [thick];
   C -> D [thick];
-  K -> L [thick];
-  J -> K [thick];
-  G -> J [thick];
   F -> G [thick];
   E -> F [thick];
-  I -> J [thick];
-  H -> I [thick];
 }

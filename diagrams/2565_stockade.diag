@@ -5,18 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  H [label = "寨\nstockade (2565)"];
-  F [label = "囧赛－贝\nhamster cage (*)"];
+  G [label = "寨\nstockade (2565)"];
+  E [label = "赛minus贝\nhamster cage (*)"];
   B [label = "宀\nhouse (*)"];
   C [label = "𠀎\nwire mesh (*)"];
-  E [label = "囧只－口\nanimal legs (*)"];
-  D [label = "八\neight (8)"];
-  G [label = "木\ntree (202)"];
+  D [label = "只minus口\nanimal legs (*)"];
+  F [label = "木\ntree (202)"];
 
-  F -> H [thick];
-  B -> F [thick];
-  C -> F [thick];
-  E -> F [thick];
+  E -> G [thick];
+  B -> E [thick];
+  C -> E [thick];
   D -> E [thick];
-  G -> H [thick];
+  F -> G [thick];
 }

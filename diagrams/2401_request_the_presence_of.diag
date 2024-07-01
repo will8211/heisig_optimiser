@@ -5,36 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  Q [label = "邀\nrequest the presence of (2401)"];
-  O [label = "敫\nhoming pigeon (*)"];
+  L [label = "邀\nrequest the presence of (2401)"];
+  J [label = "敫\nhoming pigeon (*)"];
   D [label = "白\nwhite (34)"];
   B [label = "日\nday (12)"];
   C [label = "丶\na drop of (*)"];
-  N [label = "放\nrelease (496)"];
+  I [label = "放\nrelease (496)"];
   E [label = "攵\ntaskmaster (*)"];
-  M [label = "方\ndirection (494)"];
+  H [label = "方\ndirection (494)"];
   F [label = "刀\nsword (83)"];
-  L [label = "亠\ntop hat (*)"];
-  I [label = "六\nsix (6)"];
-  H [label = "囧只－口\nanimal legs (*)"];
-  G [label = "八\neight (8)"];
-  K [label = "囧只－口\nanimal legs (*)"];
-  J [label = "八\neight (8)"];
-  P [label = "辶\nroad (*)"];
+  G [label = "亠\ntop hat (*)"];
+  K [label = "辶\nroad (*)"];
 
-  O -> Q [thick];
-  D -> O [thick];
+  J -> L [thick];
+  D -> J [thick];
   B -> D [thick];
   C -> D [thick];
-  N -> O [thick];
-  E -> N [thick];
-  M -> N [thick];
-  F -> M [thick];
-  L -> M [thick];
-  I -> L [thick];
+  I -> J [thick];
+  E -> I [thick];
   H -> I [thick];
+  F -> H [thick];
   G -> H [thick];
   K -> L [thick];
-  J -> K [thick];
-  P -> Q [thick];
 }

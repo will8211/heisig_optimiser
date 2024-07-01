@@ -5,30 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  N [label = "爆\nexplode (2774)"];
+  M [label = "爆\nexplode (2774)"];
   B [label = "火\nfire (170)"];
-  M [label = "暴\nviolent (2772)"];
+  L [label = "暴\nviolent (2772)"];
   C [label = "日\nday (12)"];
-  H [label = "共\ntogether (1354)"];
-  E [label = "囧昔－日\nsalad (*)"];
+  G [label = "共\ntogether (1354)"];
+  E [label = "昔minus日\nsalad (*)"];
   D [label = "艹\nflower (*)"];
-  G [label = "囧只－口\nanimal legs (*)"];
-  F [label = "八\neight (8)"];
-  L [label = "水\nwater (137)"];
-  J [label = "丨\nwalking stick (*)"];
-  I [label = "一\none (1)"];
-  K [label = "丶\na drop of (*)"];
+  F [label = "只minus口\nanimal legs (*)"];
+  K [label = "水\nwater (137)"];
+  I [label = "丨\nwalking stick (*)"];
+  H [label = "一\none (1)"];
+  J [label = "丶\na drop of (*)"];
 
-  B -> N [thick];
-  M -> N [thick];
-  C -> M [thick];
-  H -> M [thick];
-  E -> H [thick];
-  D -> E [thick];
-  G -> H [thick];
-  F -> G [thick];
+  B -> M [thick];
   L -> M [thick];
-  J -> L [thick];
-  I -> J [thick];
+  C -> L [thick];
+  G -> L [thick];
+  E -> G [thick];
+  D -> E [thick];
+  F -> G [thick];
   K -> L [thick];
+  I -> K [thick];
+  H -> I [thick];
+  J -> K [thick];
 }

@@ -5,40 +5,30 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  S [label = "斋\nabstain from food (2715)"];
-  I [label = "文\nliterature (1315)"];
-  G [label = "亠\ntop hat (*)"];
-  D [label = "六\nsix (6)"];
-  C [label = "囧只－口\nanimal legs (*)"];
-  B [label = "八\neight (8)"];
-  F [label = "囧只－口\nanimal legs (*)"];
-  E [label = "八\neight (8)"];
-  H [label = "㐅\nsheaf (*)"];
-  R [label = "梳\ncomb (685)"];
-  J [label = "木\ntree (202)"];
-  Q [label = "㐬\nbaby Moses (*)"];
-  O [label = "囧充－儿\ninfant (*)"];
-  M [label = "囧会－亼\nwall (*)"];
-  K [label = "厶\nelbow (*)"];
-  L [label = "一\none (1)"];
-  N [label = "丶\na drop of (*)"];
-  P [label = "川\nstream (134)"];
+  N [label = "斋\nabstain from food (2715)"];
+  D [label = "文\nliterature (1315)"];
+  B [label = "亠\ntop hat (*)"];
+  C [label = "㐅\nsheaf (*)"];
+  M [label = "梳\ncomb (685)"];
+  E [label = "木\ntree (202)"];
+  L [label = "㐬\nbaby Moses (*)"];
+  J [label = "充minus儿\ninfant (*)"];
+  H [label = "会minus亼\nwall (*)"];
+  F [label = "厶\nelbow (*)"];
+  G [label = "一\none (1)"];
+  I [label = "丶\na drop of (*)"];
+  K [label = "川\nstream (134)"];
 
-  I -> S [thick];
-  G -> I [thick];
-  D -> G [thick];
+  D -> N [thick];
+  B -> D [thick];
   C -> D [thick];
-  B -> C [thick];
-  F -> G [thick];
-  E -> F [thick];
-  H -> I [thick];
-  R -> S [thick];
-  J -> R [thick];
-  Q -> R [thick];
-  O -> Q [thick];
-  M -> O [thick];
-  K -> M [thick];
+  M -> N [thick];
+  E -> M [thick];
   L -> M [thick];
-  N -> O [thick];
-  P -> Q [thick];
+  J -> L [thick];
+  H -> J [thick];
+  F -> H [thick];
+  G -> H [thick];
+  I -> J [thick];
+  K -> L [thick];
 }

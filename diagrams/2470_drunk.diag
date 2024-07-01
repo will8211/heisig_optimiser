@@ -5,28 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  M [label = "醉\ndrunk (2470)"];
+  H [label = "醉\ndrunk (2470)"];
   B [label = "酉\nwhiskey bottle (*)"];
-  L [label = "卒\nfoot soldiers (*)"];
+  G [label = "卒\nfoot soldiers (*)"];
   D [label = "从\nfollow (846)"];
   C [label = "人\nperson (793)"];
-  J [label = "亠\ntop hat (*)"];
-  G [label = "六\nsix (6)"];
-  F [label = "囧只－口\nanimal legs (*)"];
-  E [label = "八\neight (8)"];
-  I [label = "囧只－口\nanimal legs (*)"];
-  H [label = "八\neight (8)"];
-  K [label = "十\nten (10)"];
+  E [label = "亠\ntop hat (*)"];
+  F [label = "十\nten (10)"];
 
-  B -> M [thick];
-  L -> M [thick];
-  D -> L [thick];
+  B -> H [thick];
+  G -> H [thick];
+  D -> G [thick];
   C -> D [thick];
-  J -> L [thick];
-  G -> J [thick];
+  E -> G [thick];
   F -> G [thick];
-  E -> F [thick];
-  I -> J [thick];
-  H -> I [thick];
-  K -> L [thick];
 }

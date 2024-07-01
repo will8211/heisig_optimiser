@@ -5,24 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  K [label = "卒\nfoot soldiers (*)"];
+  F [label = "卒\nfoot soldiers (*)"];
   C [label = "从\nfollow (846)"];
   B [label = "人\nperson (793)"];
-  I [label = "亠\ntop hat (*)"];
-  F [label = "六\nsix (6)"];
-  E [label = "囧只－口\nanimal legs (*)"];
-  D [label = "八\neight (8)"];
-  H [label = "囧只－口\nanimal legs (*)"];
-  G [label = "八\neight (8)"];
-  J [label = "十\nten (10)"];
+  D [label = "亠\ntop hat (*)"];
+  E [label = "十\nten (10)"];
 
-  C -> K [thick];
+  C -> F [thick];
   B -> C [thick];
-  I -> K [thick];
-  F -> I [thick];
+  D -> F [thick];
   E -> F [thick];
-  D -> E [thick];
-  H -> I [thick];
-  G -> H [thick];
-  J -> K [thick];
 }

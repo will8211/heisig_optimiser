@@ -5,14 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  F [label = "谷\nvalley (698)"];
-  C [label = "囧只－口\nanimal legs (*)"];
-  B [label = "八\neight (8)"];
-  D [label = "𠆢\numbrella (*)"];
-  E [label = "口\nmouth (11)"];
+  E [label = "谷\nvalley (698)"];
+  B [label = "只minus口\nanimal legs (*)"];
+  C [label = "𠆢\numbrella (*)"];
+  D [label = "口\nmouth (11)"];
 
-  C -> F [thick];
-  B -> C [thick];
-  D -> F [thick];
-  E -> F [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

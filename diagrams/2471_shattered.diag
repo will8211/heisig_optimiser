@@ -5,32 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  O [label = "碎\nshattered (2471)"];
+  J [label = "碎\nshattered (2471)"];
   D [label = "石\nstone (125)"];
   B [label = "口\nmouth (11)"];
   C [label = "厂\nfactory (121)"];
-  N [label = "卒\nfoot soldiers (*)"];
+  I [label = "卒\nfoot soldiers (*)"];
   F [label = "从\nfollow (846)"];
   E [label = "人\nperson (793)"];
-  L [label = "亠\ntop hat (*)"];
-  I [label = "六\nsix (6)"];
-  H [label = "囧只－口\nanimal legs (*)"];
-  G [label = "八\neight (8)"];
-  K [label = "囧只－口\nanimal legs (*)"];
-  J [label = "八\neight (8)"];
-  M [label = "十\nten (10)"];
+  G [label = "亠\ntop hat (*)"];
+  H [label = "十\nten (10)"];
 
-  D -> O [thick];
+  D -> J [thick];
   B -> D [thick];
   C -> D [thick];
-  N -> O [thick];
-  F -> N [thick];
+  I -> J [thick];
+  F -> I [thick];
   E -> F [thick];
-  L -> N [thick];
-  I -> L [thick];
+  G -> I [thick];
   H -> I [thick];
-  G -> H [thick];
-  K -> L [thick];
-  J -> K [thick];
-  M -> N [thick];
 }

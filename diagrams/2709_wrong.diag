@@ -5,36 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  Q [label = "谬\nwrong (2709)"];
-  K [label = "言\nsay (346)"];
+  L [label = "谬\nwrong (2709)"];
+  F [label = "言\nsay (346)"];
   C [label = "二\ntwo (2)"];
   B [label = "一\none (1)"];
   D [label = "口\nmouth (11)"];
-  J [label = "亠\ntop hat (*)"];
-  G [label = "六\nsix (6)"];
-  F [label = "囧只－口\nanimal legs (*)"];
-  E [label = "八\neight (8)"];
-  I [label = "囧只－口\nanimal legs (*)"];
-  H [label = "八\neight (8)"];
-  P [label = "翏\nkiddie cocktail (*)"];
-  L [label = "羽\nfeathers (544)"];
-  O [label = "㐱\ncocktail (*)"];
-  M [label = "𠆢\numbrella (*)"];
-  N [label = "彡\nrooster tail (*)"];
+  E [label = "亠\ntop hat (*)"];
+  K [label = "翏\nkiddie cocktail (*)"];
+  G [label = "羽\nfeathers (544)"];
+  J [label = "㐱\ncocktail (*)"];
+  H [label = "𠆢\numbrella (*)"];
+  I [label = "彡\nrooster tail (*)"];
 
-  K -> Q [thick];
-  C -> K [thick];
+  F -> L [thick];
+  C -> F [thick];
   B -> C [thick];
-  D -> K [thick];
-  J -> K [thick];
-  G -> J [thick];
-  F -> G [thick];
+  D -> F [thick];
   E -> F [thick];
+  K -> L [thick];
+  G -> K [thick];
+  J -> K [thick];
+  H -> J [thick];
   I -> J [thick];
-  H -> I [thick];
-  P -> Q [thick];
-  L -> P [thick];
-  O -> P [thick];
-  M -> O [thick];
-  N -> O [thick];
 }

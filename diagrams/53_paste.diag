@@ -5,26 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  L [label = "贴\npaste (53)"];
-  E [label = "贝\nshellfish (52)"];
+  K [label = "贴\npaste (53)"];
+  D [label = "贝\nshellfish (52)"];
   B [label = "目\neye (15)"];
-  D [label = "囧只－口\nanimal legs (*)"];
-  C [label = "八\neight (8)"];
-  K [label = "占\ntell fortunes (44)"];
-  I [label = "卜\ndivination (43)"];
-  G [label = "丨\nwalking stick (*)"];
-  F [label = "一\none (1)"];
-  H [label = "丶\na drop of (*)"];
-  J [label = "口\nmouth (11)"];
+  C [label = "只minus口\nanimal legs (*)"];
+  J [label = "占\ntell fortunes (44)"];
+  H [label = "卜\ndivination (43)"];
+  F [label = "丨\nwalking stick (*)"];
+  E [label = "一\none (1)"];
+  G [label = "丶\na drop of (*)"];
+  I [label = "口\nmouth (11)"];
 
-  E -> L [thick];
-  B -> E [thick];
-  D -> E [thick];
+  D -> K [thick];
+  B -> D [thick];
   C -> D [thick];
-  K -> L [thick];
-  I -> K [thick];
-  G -> I [thick];
-  F -> G [thick];
-  H -> I [thick];
   J -> K [thick];
+  H -> J [thick];
+  F -> H [thick];
+  E -> F [thick];
+  G -> H [thick];
+  I -> J [thick];
 }

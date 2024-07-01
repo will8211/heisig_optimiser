@@ -5,34 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  P [label = "擅\nact without authority (1866)"];
+  K [label = "擅\nact without authority (1866)"];
   B [label = "扌\nfingers (*)"];
-  O [label = "亶\nMr. Hyde (*)"];
-  H [label = "亠\ntop hat (*)"];
-  E [label = "六\nsix (6)"];
-  D [label = "囧只－口\nanimal legs (*)"];
-  C [label = "八\neight (8)"];
-  G [label = "囧只－口\nanimal legs (*)"];
-  F [label = "八\neight (8)"];
-  K [label = "回\nreturn (554)"];
-  I [label = "囗\npent in (*)"];
-  J [label = "口\nmouth (11)"];
-  N [label = "旦\ndaybreak (30)"];
-  L [label = "日\nday (12)"];
-  M [label = "一\none (1)"];
+  J [label = "亶\nMr. Hyde (*)"];
+  C [label = "亠\ntop hat (*)"];
+  F [label = "回\nreturn (554)"];
+  D [label = "囗\npent in (*)"];
+  E [label = "口\nmouth (11)"];
+  I [label = "旦\ndaybreak (30)"];
+  G [label = "日\nday (12)"];
+  H [label = "一\none (1)"];
 
-  B -> P [thick];
-  O -> P [thick];
-  H -> O [thick];
-  E -> H [thick];
-  D -> E [thick];
-  C -> D [thick];
-  G -> H [thick];
-  F -> G [thick];
-  K -> O [thick];
-  I -> K [thick];
+  B -> K [thick];
   J -> K [thick];
-  N -> O [thick];
-  L -> N [thick];
-  M -> N [thick];
+  C -> J [thick];
+  F -> J [thick];
+  D -> F [thick];
+  E -> F [thick];
+  I -> J [thick];
+  G -> I [thick];
+  H -> I [thick];
 }

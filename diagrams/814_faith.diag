@@ -5,28 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  M [label = "信\nfaith (814)"];
+  H [label = "信\nfaith (814)"];
   B [label = "人\nperson (793)"];
-  L [label = "言\nsay (346)"];
+  G [label = "言\nsay (346)"];
   D [label = "二\ntwo (2)"];
   C [label = "一\none (1)"];
   E [label = "口\nmouth (11)"];
-  K [label = "亠\ntop hat (*)"];
-  H [label = "六\nsix (6)"];
-  G [label = "囧只－口\nanimal legs (*)"];
-  F [label = "八\neight (8)"];
-  J [label = "囧只－口\nanimal legs (*)"];
-  I [label = "八\neight (8)"];
+  F [label = "亠\ntop hat (*)"];
 
-  B -> M [thick];
-  L -> M [thick];
-  D -> L [thick];
-  C -> D [thick];
-  E -> L [thick];
-  K -> L [thick];
-  H -> K [thick];
+  B -> H [thick];
   G -> H [thick];
+  D -> G [thick];
+  C -> D [thick];
+  E -> G [thick];
   F -> G [thick];
-  J -> K [thick];
-  I -> J [thick];
 }

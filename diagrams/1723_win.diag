@@ -5,40 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  S [label = "赢\nwin (1723)"];
-  I [label = "亡\ndeceased (490)"];
-  G [label = "亠\ntop hat (*)"];
-  D [label = "六\nsix (6)"];
-  C [label = "囧只－口\nanimal legs (*)"];
-  B [label = "八\neight (8)"];
-  F [label = "囧只－口\nanimal legs (*)"];
-  E [label = "八\neight (8)"];
-  H [label = "乙\nsecond (95)"];
-  J [label = "口\nmouth (11)"];
-  K [label = "月\nmonth (13)"];
-  O [label = "贝\nshellfish (52)"];
-  L [label = "目\neye (15)"];
-  N [label = "囧只－口\nanimal legs (*)"];
-  M [label = "八\neight (8)"];
-  R [label = "凡\nordinary (62)"];
-  P [label = "丶\na drop of (*)"];
-  Q [label = "几\nhow many? (57)"];
+  M [label = "赢\nwin (1723)"];
+  D [label = "亡\ndeceased (490)"];
+  B [label = "亠\ntop hat (*)"];
+  C [label = "乙\nsecond (95)"];
+  E [label = "口\nmouth (11)"];
+  F [label = "月\nmonth (13)"];
+  I [label = "贝\nshellfish (52)"];
+  G [label = "目\neye (15)"];
+  H [label = "只minus口\nanimal legs (*)"];
+  L [label = "凡\nordinary (62)"];
+  J [label = "丶\na drop of (*)"];
+  K [label = "几\nhow many? (57)"];
 
-  I -> S [thick];
-  G -> I [thick];
-  D -> G [thick];
+  D -> M [thick];
+  B -> D [thick];
   C -> D [thick];
-  B -> C [thick];
-  F -> G [thick];
-  E -> F [thick];
+  E -> M [thick];
+  F -> M [thick];
+  I -> M [thick];
+  G -> I [thick];
   H -> I [thick];
-  J -> S [thick];
-  K -> S [thick];
-  O -> S [thick];
-  L -> O [thick];
-  N -> O [thick];
-  M -> N [thick];
-  R -> S [thick];
-  P -> R [thick];
-  Q -> R [thick];
+  L -> M [thick];
+  J -> L [thick];
+  K -> L [thick];
 }

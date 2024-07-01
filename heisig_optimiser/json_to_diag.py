@@ -16,7 +16,9 @@ def parse_requirements(node, parent_id=None, connections=None, labels=None):
         labels = {}
 
     number = str(node["number"]) if node["number"] else "*"
-    current_label = f"{node['character']}\\n{node['keyword']} ({number})"
+    keyword = node["keyword"].replace("‡", "")
+    character = node["character"].replace("囧", "").replace("－", "minus")
+    current_label = f"{character}\\n{keyword} ({number})"
     current_id = node["id"]
     labels[current_id] = current_label
 

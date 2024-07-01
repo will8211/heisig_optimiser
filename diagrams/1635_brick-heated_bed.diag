@@ -5,24 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  K [label = "炕\nbrick-heated bed (1635)"];
+  F [label = "炕\nbrick-heated bed (1635)"];
   B [label = "火\nfire (170)"];
-  J [label = "亢\nwhirlwind (*)"];
-  H [label = "亠\ntop hat (*)"];
-  E [label = "六\nsix (6)"];
-  D [label = "囧只－口\nanimal legs (*)"];
-  C [label = "八\neight (8)"];
-  G [label = "囧只－口\nanimal legs (*)"];
-  F [label = "八\neight (8)"];
-  I [label = "几\nhow many? (57)"];
+  E [label = "亢\nwhirlwind (*)"];
+  C [label = "亠\ntop hat (*)"];
+  D [label = "几\nhow many? (57)"];
 
-  B -> K [thick];
-  J -> K [thick];
-  H -> J [thick];
-  E -> H [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
   D -> E [thick];
-  C -> D [thick];
-  G -> H [thick];
-  F -> G [thick];
-  I -> J [thick];
 }

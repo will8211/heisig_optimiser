@@ -5,26 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  L [label = "较\nrelatively (1046)"];
+  G [label = "较\nrelatively (1046)"];
   B [label = "车\ncar (300)"];
-  K [label = "交\nmingle (1044)"];
-  H [label = "亠\ntop hat (*)"];
-  E [label = "六\nsix (6)"];
-  D [label = "囧只－口\nanimal legs (*)"];
-  C [label = "八\neight (8)"];
-  G [label = "囧只－口\nanimal legs (*)"];
-  F [label = "八\neight (8)"];
-  J [label = "父\nfather (1043)"];
-  I [label = "丶\na drop of (*)"];
+  F [label = "交\nmingle (1044)"];
+  C [label = "亠\ntop hat (*)"];
+  E [label = "父\nfather (1043)"];
+  D [label = "丶\na drop of (*)"];
 
-  B -> L [thick];
-  K -> L [thick];
-  H -> K [thick];
-  E -> H [thick];
-  D -> E [thick];
-  C -> D [thick];
-  G -> H [thick];
+  B -> G [thick];
   F -> G [thick];
-  J -> K [thick];
-  I -> J [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
 }

@@ -5,20 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  I [label = "撕\nrip (2739)"];
+  H [label = "撕\nrip (2739)"];
   B [label = "扌\nfingers (*)"];
-  H [label = "斯\nSphinx (1339)"];
-  F [label = "其\nhis-hers-its-theirs (1335)"];
+  G [label = "斯\nSphinx (1339)"];
+  E [label = "其\nhis-hers-its-theirs (1335)"];
   C [label = "甘\nsweet (1333)"];
-  E [label = "囧只－口\nanimal legs (*)"];
-  D [label = "八\neight (8)"];
-  G [label = "斤\ncatty (924)"];
+  D [label = "只minus口\nanimal legs (*)"];
+  F [label = "斤\ncatty (924)"];
 
-  B -> I [thick];
-  H -> I [thick];
-  F -> H [thick];
-  C -> F [thick];
-  E -> F [thick];
-  D -> E [thick];
+  B -> H [thick];
   G -> H [thick];
+  E -> G [thick];
+  C -> E [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

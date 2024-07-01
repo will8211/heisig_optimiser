@@ -5,40 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  S [label = "底\nbottom (1376)"];
-  K [label = "洞\ncave (186)"];
-  F [label = "同\nsame (185)"];
-  B [label = "一\none (1)"];
-  C [label = "口\nmouth (11)"];
-  E [label = "冂\nhood (*)"];
-  D [label = "几\nhow many? (57)"];
-  J [label = "水\nwater (137)"];
-  H [label = "丨\nwalking stick (*)"];
+  L [label = "底\nbottom (1376)"];
+  D [label = "广\nextensive (556)"];
+  B [label = "厂\nfactory (121)"];
+  C [label = "宀\nhouse (*)"];
+  K [label = "氐\ncalling card (*)"];
+  I [label = "氏\nfamily name (1371)"];
+  E [label = "丶\na drop of (*)"];
+  F [label = "以minus丶人\nplow (*)"];
   G [label = "一\none (1)"];
-  I [label = "丶\na drop of (*)"];
-  R [label = "氐\ncalling card (*)"];
-  P [label = "氏\nfamily name (1371)"];
-  L [label = "丶\na drop of (*)"];
-  M [label = "囧以－丶人\nplow (*)"];
-  N [label = "一\none (1)"];
-  O [label = "乙\nsecond (95)"];
-  Q [label = "丶\na drop of (*)"];
+  H [label = "乙\nsecond (95)"];
+  J [label = "丶\na drop of (*)"];
 
-  K -> S [thick];
-  F -> K [thick];
-  B -> F [thick];
-  C -> F [thick];
-  E -> F [thick];
-  D -> E [thick];
+  D -> L [thick];
+  B -> D [thick];
+  C -> D [thick];
+  K -> L [thick];
+  I -> K [thick];
+  E -> I [thick];
+  F -> I [thick];
+  G -> I [thick];
+  H -> I [thick];
   J -> K [thick];
-  H -> J [thick];
-  G -> H [thick];
-  I -> J [thick];
-  R -> S [thick];
-  P -> R [thick];
-  L -> P [thick];
-  M -> P [thick];
-  N -> P [thick];
-  O -> P [thick];
-  Q -> R [thick];
 }

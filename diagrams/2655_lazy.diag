@@ -5,28 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  M [label = "懒\nlazy (2655)"];
+  L [label = "懒\nlazy (2655)"];
   B [label = "心\nheart (563)"];
-  L [label = "赖\nrely on (2654)"];
+  K [label = "赖\nrely on (2654)"];
   E [label = "束\nbundle up (1286)"];
   C [label = "木\ntree (202)"];
   D [label = "口\nmouth (11)"];
-  K [label = "负\ndefeated (64)"];
+  J [label = "负\ndefeated (64)"];
   F [label = "勹\nbound up (*)"];
-  J [label = "贝\nshellfish (52)"];
+  I [label = "贝\nshellfish (52)"];
   G [label = "目\neye (15)"];
-  I [label = "囧只－口\nanimal legs (*)"];
-  H [label = "八\neight (8)"];
+  H [label = "只minus口\nanimal legs (*)"];
 
-  B -> M [thick];
-  L -> M [thick];
-  E -> L [thick];
+  B -> L [thick];
+  K -> L [thick];
+  E -> K [thick];
   C -> E [thick];
   D -> E [thick];
-  K -> L [thick];
-  F -> K [thick];
   J -> K [thick];
-  G -> J [thick];
+  F -> J [thick];
   I -> J [thick];
+  G -> I [thick];
   H -> I [thick];
 }

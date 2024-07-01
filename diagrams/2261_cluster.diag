@@ -5,42 +5,32 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  T [label = "簇\ncluster (2261)"];
+  O [label = "簇\ncluster (2261)"];
   C [label = "竹\nbamboo (786)"];
   B [label = "丁\nfourth (90)"];
-  S [label = "族\ntribe (999)"];
-  M [label = "囧施－也\nbanner (*)"];
-  K [label = "方\ndirection (494)"];
+  N [label = "族\ntribe (999)"];
+  H [label = "施minus也\nbanner (*)"];
+  F [label = "方\ndirection (494)"];
   D [label = "刀\nsword (83)"];
-  J [label = "亠\ntop hat (*)"];
-  G [label = "六\nsix (6)"];
-  F [label = "囧只－口\nanimal legs (*)"];
-  E [label = "八\neight (8)"];
-  I [label = "囧只－口\nanimal legs (*)"];
-  H [label = "八\neight (8)"];
-  L [label = "𠂉\nreclining (*)"];
-  R [label = "矢\ndart (998)"];
-  P [label = "天\nheavens (436)"];
-  N [label = "一\none (1)"];
-  O [label = "大\nlarge (113)"];
-  Q [label = "丶\na drop of (*)"];
+  E [label = "亠\ntop hat (*)"];
+  G [label = "𠂉\nreclining (*)"];
+  M [label = "矢\ndart (998)"];
+  K [label = "天\nheavens (436)"];
+  I [label = "一\none (1)"];
+  J [label = "大\nlarge (113)"];
+  L [label = "丶\na drop of (*)"];
 
-  C -> T [thick];
+  C -> O [thick];
   B -> C [thick];
-  S -> T [thick];
-  M -> S [thick];
-  K -> M [thick];
-  D -> K [thick];
-  J -> K [thick];
-  G -> J [thick];
-  F -> G [thick];
+  N -> O [thick];
+  H -> N [thick];
+  F -> H [thick];
+  D -> F [thick];
   E -> F [thick];
-  I -> J [thick];
-  H -> I [thick];
+  G -> H [thick];
+  M -> N [thick];
+  K -> M [thick];
+  I -> K [thick];
+  J -> K [thick];
   L -> M [thick];
-  R -> S [thick];
-  P -> R [thick];
-  N -> P [thick];
-  O -> P [thick];
-  Q -> R [thick];
 }

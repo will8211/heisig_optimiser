@@ -5,42 +5,32 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  T [label = "夜\nnight (872)"];
-  G [label = "亠\ntop hat (*)"];
-  D [label = "六\nsix (6)"];
-  C [label = "囧只－口\nanimal legs (*)"];
-  B [label = "八\neight (8)"];
-  F [label = "囧只－口\nanimal legs (*)"];
-  E [label = "八\neight (8)"];
-  H [label = "人\nperson (793)"];
-  I [label = "夂\nwalking legs (*)"];
-  S [label = "掉\ndrop (607)"];
-  J [label = "扌\nfingers (*)"];
-  R [label = "卓\neminent (48)"];
-  N [label = "卜\ndivination (43)"];
-  L [label = "丨\nwalking stick (*)"];
-  K [label = "一\none (1)"];
-  M [label = "丶\na drop of (*)"];
-  Q [label = "早\nearly (26)"];
-  O [label = "日\nday (12)"];
-  P [label = "十\nten (10)"];
+  O [label = "夜\nnight (872)"];
+  B [label = "亠\ntop hat (*)"];
+  C [label = "人\nperson (793)"];
+  D [label = "夂\nwalking legs (*)"];
+  N [label = "掉\ndrop (607)"];
+  E [label = "扌\nfingers (*)"];
+  M [label = "卓\neminent (48)"];
+  I [label = "卜\ndivination (43)"];
+  G [label = "丨\nwalking stick (*)"];
+  F [label = "一\none (1)"];
+  H [label = "丶\na drop of (*)"];
+  L [label = "早\nearly (26)"];
+  J [label = "日\nday (12)"];
+  K [label = "十\nten (10)"];
 
-  G -> T [thick];
-  D -> G [thick];
-  C -> D [thick];
-  B -> C [thick];
-  F -> G [thick];
-  E -> F [thick];
-  H -> T [thick];
-  I -> T [thick];
-  S -> T [thick];
-  J -> S [thick];
-  R -> S [thick];
-  N -> R [thick];
-  L -> N [thick];
-  K -> L [thick];
+  B -> O [thick];
+  C -> O [thick];
+  D -> O [thick];
+  N -> O [thick];
+  E -> N [thick];
   M -> N [thick];
-  Q -> R [thick];
-  O -> Q [thick];
-  P -> Q [thick];
+  I -> M [thick];
+  G -> I [thick];
+  F -> G [thick];
+  H -> I [thick];
+  L -> M [thick];
+  J -> L [thick];
+  K -> L [thick];
 }

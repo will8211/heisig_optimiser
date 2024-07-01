@@ -5,38 +5,36 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  R [label = "赎\nredeem (2116)"];
-  E [label = "贝\nshellfish (52)"];
+  Q [label = "赎\nredeem (2116)"];
+  D [label = "贝\nshellfish (52)"];
   B [label = "目\neye (15)"];
-  D [label = "囧只－口\nanimal legs (*)"];
-  C [label = "八\neight (8)"];
-  Q [label = "卖\nsell (859)"];
-  F [label = "十\nten (10)"];
-  P [label = "买\nbuy (858)"];
-  H [label = "乛\nberet (*)"];
-  G [label = "冖\ncrown (*)"];
-  O [label = "头\nhead (856)"];
-  I [label = "大\nlarge (113)"];
-  N [label = "冫\nice (*)"];
-  M [label = "水\nwater (137)"];
-  K [label = "丨\nwalking stick (*)"];
-  J [label = "一\none (1)"];
-  L [label = "丶\na drop of (*)"];
+  C [label = "只minus口\nanimal legs (*)"];
+  P [label = "卖\nsell (859)"];
+  E [label = "十\nten (10)"];
+  O [label = "买\nbuy (858)"];
+  G [label = "乛\nberet (*)"];
+  F [label = "冖\ncrown (*)"];
+  N [label = "头\nhead (856)"];
+  H [label = "大\nlarge (113)"];
+  M [label = "冫\nice (*)"];
+  L [label = "水\nwater (137)"];
+  J [label = "丨\nwalking stick (*)"];
+  I [label = "一\none (1)"];
+  K [label = "丶\na drop of (*)"];
 
-  E -> R [thick];
-  B -> E [thick];
-  D -> E [thick];
+  D -> Q [thick];
+  B -> D [thick];
   C -> D [thick];
-  Q -> R [thick];
-  F -> Q [thick];
   P -> Q [thick];
-  H -> P [thick];
-  G -> H [thick];
+  E -> P [thick];
   O -> P [thick];
-  I -> O [thick];
+  G -> O [thick];
+  F -> G [thick];
   N -> O [thick];
+  H -> N [thick];
   M -> N [thick];
-  K -> M [thick];
-  J -> K [thick];
   L -> M [thick];
+  J -> L [thick];
+  I -> J [thick];
+  K -> L [thick];
 }

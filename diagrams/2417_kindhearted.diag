@@ -5,26 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  L [label = "慈\nkindhearted (2417)"];
-  J [label = "兹\nMona Lisa (*)"];
-  I [label = "玄\nmysterious (2411)"];
-  G [label = "亠\ntop hat (*)"];
-  D [label = "六\nsix (6)"];
-  C [label = "囧只－口\nanimal legs (*)"];
-  B [label = "八\neight (8)"];
-  F [label = "囧只－口\nanimal legs (*)"];
-  E [label = "八\neight (8)"];
-  H [label = "幺\ncocoon (*)"];
-  K [label = "心\nheart (563)"];
+  G [label = "慈\nkindhearted (2417)"];
+  E [label = "兹\nMona Lisa (*)"];
+  D [label = "玄\nmysterious (2411)"];
+  B [label = "亠\ntop hat (*)"];
+  C [label = "幺\ncocoon (*)"];
+  F [label = "心\nheart (563)"];
 
-  J -> L [thick];
-  I -> J [thick];
-  G -> I [thick];
-  D -> G [thick];
+  E -> G [thick];
+  D -> E [thick];
+  B -> D [thick];
   C -> D [thick];
-  B -> C [thick];
   F -> G [thick];
-  E -> F [thick];
-  H -> I [thick];
-  K -> L [thick];
 }

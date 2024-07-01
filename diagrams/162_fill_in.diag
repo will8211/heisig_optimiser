@@ -5,18 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  H [label = "填\nfill in (162)"];
-  F [label = "真\ntrue (75)"];
+  G [label = "填\nfill in (162)"];
+  E [label = "真\ntrue (75)"];
   B [label = "十\nten (10)"];
-  E [label = "囧具－目\ntool (*)"];
-  D [label = "囧只－口\nanimal legs (*)"];
-  C [label = "八\neight (8)"];
-  G [label = "土\nsoil (158)"];
+  D [label = "具minus目\ntool (*)"];
+  C [label = "只minus口\nanimal legs (*)"];
+  F [label = "土\nsoil (158)"];
 
-  F -> H [thick];
-  B -> F [thick];
-  E -> F [thick];
+  E -> G [thick];
+  B -> E [thick];
   D -> E [thick];
   C -> D [thick];
-  G -> H [thick];
+  F -> G [thick];
 }

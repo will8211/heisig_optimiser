@@ -74,6 +74,7 @@ for character_data in data:
             .replace(" ", "_")
             .replace("?", "")
             .replace("'", "_")
+            .replace("‡", "")
         )
         with open(output_file, "w", encoding="utf-8") as f:
             json.dump(hierarchy, f, ensure_ascii=False, indent=2)

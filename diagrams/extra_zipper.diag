@@ -5,14 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  F [label = "囧舆－车\nzipper (*)"];
-  D [label = "囧具－目\ntool (*)"];
-  C [label = "囧只－口\nanimal legs (*)"];
-  B [label = "八\neight (8)"];
-  E [label = "囧印－卩\nstaples (*)"];
+  E [label = "舆minus车\nzipper (*)"];
+  C [label = "具minus目\ntool (*)"];
+  B [label = "只minus口\nanimal legs (*)"];
+  D [label = "印minus卩\nstaples (*)"];
 
-  D -> F [thick];
-  C -> D [thick];
+  C -> E [thick];
   B -> C [thick];
-  E -> F [thick];
+  D -> E [thick];
 }

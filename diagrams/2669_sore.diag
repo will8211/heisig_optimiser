@@ -5,44 +5,30 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  U [label = "疮\nsore (2669)"];
-  Q [label = "疒\nsickness (*)"];
-  K [label = "洞\ncave (186)"];
-  F [label = "同\nsame (185)"];
-  B [label = "一\none (1)"];
-  C [label = "口\nmouth (11)"];
-  E [label = "冂\nhood (*)"];
-  D [label = "几\nhow many? (57)"];
-  J [label = "水\nwater (137)"];
-  H [label = "丨\nwalking stick (*)"];
-  G [label = "一\none (1)"];
-  I [label = "丶\na drop of (*)"];
-  P [label = "冫\nice (*)"];
-  O [label = "水\nwater (137)"];
-  M [label = "丨\nwalking stick (*)"];
-  L [label = "一\none (1)"];
-  N [label = "丶\na drop of (*)"];
-  T [label = "仓\nstorehouse (1119)"];
-  R [label = "𠆢\numbrella (*)"];
-  S [label = "㔾\nfingerprint (*)"];
+  N [label = "疮\nsore (2669)"];
+  J [label = "疒\nsickness (*)"];
+  D [label = "广\nextensive (556)"];
+  B [label = "厂\nfactory (121)"];
+  C [label = "宀\nhouse (*)"];
+  I [label = "冫\nice (*)"];
+  H [label = "水\nwater (137)"];
+  F [label = "丨\nwalking stick (*)"];
+  E [label = "一\none (1)"];
+  G [label = "丶\na drop of (*)"];
+  M [label = "仓\nstorehouse (1119)"];
+  K [label = "𠆢\numbrella (*)"];
+  L [label = "㔾\nfingerprint (*)"];
 
-  Q -> U [thick];
-  K -> Q [thick];
-  F -> K [thick];
-  B -> F [thick];
-  C -> F [thick];
-  E -> F [thick];
-  D -> E [thick];
-  J -> K [thick];
-  H -> J [thick];
-  G -> H [thick];
+  J -> N [thick];
+  D -> J [thick];
+  B -> D [thick];
+  C -> D [thick];
   I -> J [thick];
-  P -> Q [thick];
-  O -> P [thick];
-  M -> O [thick];
+  H -> I [thick];
+  F -> H [thick];
+  E -> F [thick];
+  G -> H [thick];
+  M -> N [thick];
+  K -> M [thick];
   L -> M [thick];
-  N -> O [thick];
-  T -> U [thick];
-  R -> T [thick];
-  S -> T [thick];
 }

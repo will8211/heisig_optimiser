@@ -5,24 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  K [label = "殿\nceremonial hall (2771)"];
+  J [label = "殿\nceremonial hall (2771)"];
   B [label = "尸\ncorpse (882)"];
-  G [label = "共\ntogether (1354)"];
-  D [label = "囧昔－日\nsalad (*)"];
+  F [label = "共\ntogether (1354)"];
+  D [label = "昔minus日\nsalad (*)"];
   C [label = "艹\nflower (*)"];
-  F [label = "囧只－口\nanimal legs (*)"];
-  E [label = "八\neight (8)"];
-  J [label = "殳\nmissile (*)"];
-  H [label = "几\nhow many? (57)"];
-  I [label = "又\nagain (633)"];
+  E [label = "只minus口\nanimal legs (*)"];
+  I [label = "殳\nmissile (*)"];
+  G [label = "几\nhow many? (57)"];
+  H [label = "又\nagain (633)"];
 
-  B -> K [thick];
-  G -> K [thick];
-  D -> G [thick];
+  B -> J [thick];
+  F -> J [thick];
+  D -> F [thick];
   C -> D [thick];
-  F -> G [thick];
   E -> F [thick];
-  J -> K [thick];
-  H -> J [thick];
   I -> J [thick];
+  G -> I [thick];
+  H -> I [thick];
 }

@@ -5,34 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  P [label = "庭\ncourt of law (855)"];
-  K [label = "洞\ncave (186)"];
-  F [label = "同\nsame (185)"];
-  B [label = "一\none (1)"];
-  C [label = "口\nmouth (11)"];
-  E [label = "冂\nhood (*)"];
-  D [label = "几\nhow many? (57)"];
-  J [label = "水\nwater (137)"];
-  H [label = "丨\nwalking stick (*)"];
-  G [label = "一\none (1)"];
-  I [label = "丶\na drop of (*)"];
-  O [label = "廷\nroyal court (854)"];
-  M [label = "壬\nporter (*)"];
-  L [label = "士\nsoldier (334)"];
-  N [label = "廴\nstretch (*)"];
+  I [label = "庭\ncourt of law (855)"];
+  D [label = "广\nextensive (556)"];
+  B [label = "厂\nfactory (121)"];
+  C [label = "宀\nhouse (*)"];
+  H [label = "廷\nroyal court (854)"];
+  F [label = "壬\nporter (*)"];
+  E [label = "士\nsoldier (334)"];
+  G [label = "廴\nstretch (*)"];
 
-  K -> P [thick];
-  F -> K [thick];
-  B -> F [thick];
-  C -> F [thick];
+  D -> I [thick];
+  B -> D [thick];
+  C -> D [thick];
+  H -> I [thick];
+  F -> H [thick];
   E -> F [thick];
-  D -> E [thick];
-  J -> K [thick];
-  H -> J [thick];
   G -> H [thick];
-  I -> J [thick];
-  O -> P [thick];
-  M -> O [thick];
-  L -> M [thick];
-  N -> O [thick];
 }

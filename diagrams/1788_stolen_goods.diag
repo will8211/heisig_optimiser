@@ -5,38 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  R [label = "赃\nstolen goods (1788)"];
-  E [label = "贝\nshellfish (52)"];
+  J [label = "赃\nstolen goods (1788)"];
+  D [label = "贝\nshellfish (52)"];
   B [label = "目\neye (15)"];
-  D [label = "囧只－口\nanimal legs (*)"];
-  C [label = "八\neight (8)"];
-  Q [label = "庄\nhamlet (562)"];
-  O [label = "洞\ncave (186)"];
-  J [label = "同\nsame (185)"];
-  F [label = "一\none (1)"];
-  G [label = "口\nmouth (11)"];
-  I [label = "冂\nhood (*)"];
-  H [label = "几\nhow many? (57)"];
-  N [label = "水\nwater (137)"];
-  L [label = "丨\nwalking stick (*)"];
-  K [label = "一\none (1)"];
-  M [label = "丶\na drop of (*)"];
-  P [label = "土\nsoil (158)"];
+  C [label = "只minus口\nanimal legs (*)"];
+  I [label = "庄\nhamlet (562)"];
+  G [label = "广\nextensive (556)"];
+  E [label = "厂\nfactory (121)"];
+  F [label = "宀\nhouse (*)"];
+  H [label = "土\nsoil (158)"];
 
-  E -> R [thick];
-  B -> E [thick];
-  D -> E [thick];
+  D -> J [thick];
+  B -> D [thick];
   C -> D [thick];
-  Q -> R [thick];
-  O -> Q [thick];
-  J -> O [thick];
-  F -> J [thick];
-  G -> J [thick];
   I -> J [thick];
+  G -> I [thick];
+  E -> G [thick];
+  F -> G [thick];
   H -> I [thick];
-  N -> O [thick];
-  L -> N [thick];
-  K -> L [thick];
-  M -> N [thick];
-  P -> Q [thick];
 }

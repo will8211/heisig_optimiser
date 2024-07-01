@@ -5,22 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  J [label = "依\ndepend on (815)"];
+  E [label = "依\ndepend on (815)"];
   B [label = "人\nperson (793)"];
-  I [label = "衣\nclothing (400)"];
-  H [label = "亠\ntop hat (*)"];
-  E [label = "六\nsix (6)"];
-  D [label = "囧只－口\nanimal legs (*)"];
-  C [label = "八\neight (8)"];
-  G [label = "囧只－口\nanimal legs (*)"];
-  F [label = "八\neight (8)"];
+  D [label = "衣\nclothing (400)"];
+  C [label = "亠\ntop hat (*)"];
 
-  B -> J [thick];
-  I -> J [thick];
-  H -> I [thick];
-  E -> H [thick];
+  B -> E [thick];
   D -> E [thick];
   C -> D [thick];
-  G -> H [thick];
-  F -> G [thick];
 }

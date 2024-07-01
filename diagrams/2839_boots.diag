@@ -5,40 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  S [label = "靴\nboots (2839)"];
+  M [label = "靴\nboots (2839)"];
   F [label = "革\nleather (1407)"];
   C [label = "廿\ntwenty (976)"];
   B [label = "十\nten (10)"];
   D [label = "口\nmouth (11)"];
   E [label = "十\nten (10)"];
-  R [label = "变\nchange (1495)"];
-  P [label = "亦\nlikewise (1491)"];
-  L [label = "亠\ntop hat (*)"];
-  I [label = "六\nsix (6)"];
-  H [label = "囧只－口\nanimal legs (*)"];
-  G [label = "八\neight (8)"];
-  K [label = "囧只－口\nanimal legs (*)"];
-  J [label = "八\neight (8)"];
-  N [label = "囧只－口\nanimal legs (*)"];
-  M [label = "八\neight (8)"];
-  O [label = "刀\nsword (83)"];
-  Q [label = "又\nagain (633)"];
+  L [label = "变\nchange (1495)"];
+  J [label = "亦\nlikewise (1491)"];
+  G [label = "亠\ntop hat (*)"];
+  H [label = "只minus口\nanimal legs (*)"];
+  I [label = "刀\nsword (83)"];
+  K [label = "又\nagain (633)"];
 
-  F -> S [thick];
+  F -> M [thick];
   C -> F [thick];
   B -> C [thick];
   D -> F [thick];
   E -> F [thick];
-  R -> S [thick];
-  P -> R [thick];
-  L -> P [thick];
-  I -> L [thick];
-  H -> I [thick];
-  G -> H [thick];
+  L -> M [thick];
+  J -> L [thick];
+  G -> J [thick];
+  H -> J [thick];
+  I -> J [thick];
   K -> L [thick];
-  J -> K [thick];
-  N -> P [thick];
-  M -> N [thick];
-  O -> P [thick];
-  Q -> R [thick];
 }

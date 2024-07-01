@@ -5,32 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  O [label = "矿\nmine (1783)"];
+  H [label = "矿\nmine (1783)"];
   D [label = "石\nstone (125)"];
   B [label = "口\nmouth (11)"];
   C [label = "厂\nfactory (121)"];
-  N [label = "洞\ncave (186)"];
-  I [label = "同\nsame (185)"];
-  E [label = "一\none (1)"];
-  F [label = "口\nmouth (11)"];
-  H [label = "冂\nhood (*)"];
-  G [label = "几\nhow many? (57)"];
-  M [label = "水\nwater (137)"];
-  K [label = "丨\nwalking stick (*)"];
-  J [label = "一\none (1)"];
-  L [label = "丶\na drop of (*)"];
+  G [label = "广\nextensive (556)"];
+  E [label = "厂\nfactory (121)"];
+  F [label = "宀\nhouse (*)"];
 
-  D -> O [thick];
+  D -> H [thick];
   B -> D [thick];
   C -> D [thick];
-  N -> O [thick];
-  I -> N [thick];
-  E -> I [thick];
-  F -> I [thick];
-  H -> I [thick];
   G -> H [thick];
-  M -> N [thick];
-  K -> M [thick];
-  J -> K [thick];
-  L -> M [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

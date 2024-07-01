@@ -5,28 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  M [label = "绞\nwring (2394)"];
+  H [label = "绞\nwring (2394)"];
   C [label = "纟\nthread (*)"];
   B [label = "厶\nelbow (*)"];
-  L [label = "交\nmingle (1044)"];
-  I [label = "亠\ntop hat (*)"];
-  F [label = "六\nsix (6)"];
-  E [label = "囧只－口\nanimal legs (*)"];
-  D [label = "八\neight (8)"];
-  H [label = "囧只－口\nanimal legs (*)"];
-  G [label = "八\neight (8)"];
-  K [label = "父\nfather (1043)"];
-  J [label = "丶\na drop of (*)"];
+  G [label = "交\nmingle (1044)"];
+  D [label = "亠\ntop hat (*)"];
+  F [label = "父\nfather (1043)"];
+  E [label = "丶\na drop of (*)"];
 
-  C -> M [thick];
+  C -> H [thick];
   B -> C [thick];
-  L -> M [thick];
-  I -> L [thick];
-  F -> I [thick];
-  E -> F [thick];
-  D -> E [thick];
-  H -> I [thick];
   G -> H [thick];
-  K -> L [thick];
-  J -> K [thick];
+  D -> G [thick];
+  F -> G [thick];
+  E -> F [thick];
 }

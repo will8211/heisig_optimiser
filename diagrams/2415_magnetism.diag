@@ -5,30 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  N [label = "磁\nmagnetism (2415)"];
+  I [label = "磁\nmagnetism (2415)"];
   D [label = "石\nstone (125)"];
   B [label = "口\nmouth (11)"];
   C [label = "厂\nfactory (121)"];
-  M [label = "兹\nMona Lisa (*)"];
-  L [label = "玄\nmysterious (2411)"];
-  J [label = "亠\ntop hat (*)"];
-  G [label = "六\nsix (6)"];
-  F [label = "囧只－口\nanimal legs (*)"];
-  E [label = "八\neight (8)"];
-  I [label = "囧只－口\nanimal legs (*)"];
-  H [label = "八\neight (8)"];
-  K [label = "幺\ncocoon (*)"];
+  H [label = "兹\nMona Lisa (*)"];
+  G [label = "玄\nmysterious (2411)"];
+  E [label = "亠\ntop hat (*)"];
+  F [label = "幺\ncocoon (*)"];
 
-  D -> N [thick];
+  D -> I [thick];
   B -> D [thick];
   C -> D [thick];
-  M -> N [thick];
-  L -> M [thick];
-  J -> L [thick];
-  G -> J [thick];
-  F -> G [thick];
-  E -> F [thick];
-  I -> J [thick];
   H -> I [thick];
-  K -> L [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

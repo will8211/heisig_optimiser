@@ -5,20 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  I [label = "橘\ntangerine (2263)"];
+  H [label = "橘\ntangerine (2263)"];
   B [label = "木\ntree (202)"];
   C [label = "矛\nspear (1002)"];
   E [label = "冂\nhood (*)"];
   D [label = "几\nhow many? (57)"];
-  G [label = "囧只－口\nanimal legs (*)"];
-  F [label = "八\neight (8)"];
-  H [label = "口\nmouth (11)"];
+  F [label = "只minus口\nanimal legs (*)"];
+  G [label = "口\nmouth (11)"];
 
-  B -> I [thick];
-  C -> I [thick];
-  E -> I [thick];
+  B -> H [thick];
+  C -> H [thick];
+  E -> H [thick];
   D -> E [thick];
-  G -> I [thick];
-  F -> G [thick];
-  H -> I [thick];
+  F -> H [thick];
+  G -> H [thick];
 }

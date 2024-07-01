@@ -5,28 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  M [label = "窥\npeep (2356)"];
+  L [label = "窥\npeep (2356)"];
   G [label = "规\nregulations (727)"];
   C [label = "夫\nhusband (726)"];
   B [label = "大\nlarge (113)"];
   F [label = "见\nsee (58)"];
   D [label = "目\neye (15)"];
   E [label = "儿\nyoungster (56)"];
-  L [label = "穴\nhole (1070)"];
+  K [label = "穴\nhole (1070)"];
   H [label = "宀\nhouse (*)"];
   I [label = "八\neight (8)"];
-  K [label = "囧只－口\nanimal legs (*)"];
-  J [label = "八\neight (8)"];
+  J [label = "只minus口\nanimal legs (*)"];
 
-  G -> M [thick];
+  G -> L [thick];
   C -> G [thick];
   B -> C [thick];
   F -> G [thick];
   D -> F [thick];
   E -> F [thick];
-  L -> M [thick];
-  H -> L [thick];
-  I -> L [thick];
   K -> L [thick];
+  H -> K [thick];
+  I -> K [thick];
   J -> K [thick];
 }

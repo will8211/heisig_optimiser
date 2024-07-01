@@ -5,44 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  U [label = "裤\ntrousers (559)"];
-  H [label = "衣\nclothing (400)"];
-  G [label = "亠\ntop hat (*)"];
-  D [label = "六\nsix (6)"];
-  C [label = "囧只－口\nanimal legs (*)"];
-  B [label = "八\neight (8)"];
-  F [label = "囧只－口\nanimal legs (*)"];
-  E [label = "八\neight (8)"];
-  T [label = "库\nwarehouse (558)"];
-  R [label = "洞\ncave (186)"];
-  M [label = "同\nsame (185)"];
-  I [label = "一\none (1)"];
-  J [label = "口\nmouth (11)"];
-  L [label = "冂\nhood (*)"];
-  K [label = "几\nhow many? (57)"];
-  Q [label = "水\nwater (137)"];
-  O [label = "丨\nwalking stick (*)"];
-  N [label = "一\none (1)"];
-  P [label = "丶\na drop of (*)"];
-  S [label = "车\ncar (300)"];
+  I [label = "裤\ntrousers (559)"];
+  C [label = "衣\nclothing (400)"];
+  B [label = "亠\ntop hat (*)"];
+  H [label = "库\nwarehouse (558)"];
+  F [label = "广\nextensive (556)"];
+  D [label = "厂\nfactory (121)"];
+  E [label = "宀\nhouse (*)"];
+  G [label = "车\ncar (300)"];
 
-  H -> U [thick];
-  G -> H [thick];
-  D -> G [thick];
-  C -> D [thick];
+  C -> I [thick];
   B -> C [thick];
-  F -> G [thick];
+  H -> I [thick];
+  F -> H [thick];
+  D -> F [thick];
   E -> F [thick];
-  T -> U [thick];
-  R -> T [thick];
-  M -> R [thick];
-  I -> M [thick];
-  J -> M [thick];
-  L -> M [thick];
-  K -> L [thick];
-  Q -> R [thick];
-  O -> Q [thick];
-  N -> O [thick];
-  P -> Q [thick];
-  S -> T [thick];
+  G -> H [thick];
 }

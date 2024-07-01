@@ -5,28 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  M [label = "医\nphysician (1298)"];
-  G [label = "箱\nbox (788)"];
-  C [label = "竹\nbamboo (786)"];
-  B [label = "丁\nfourth (90)"];
-  F [label = "相\none another (212)"];
-  D [label = "木\ntree (202)"];
-  E [label = "目\neye (15)"];
-  L [label = "矢\ndart (998)"];
-  J [label = "天\nheavens (436)"];
-  H [label = "一\none (1)"];
-  I [label = "大\nlarge (113)"];
-  K [label = "丶\na drop of (*)"];
+  H [label = "医\nphysician (1298)"];
+  B [label = "匚\nbox (*)"];
+  G [label = "矢\ndart (998)"];
+  E [label = "天\nheavens (436)"];
+  C [label = "一\none (1)"];
+  D [label = "大\nlarge (113)"];
+  F [label = "丶\na drop of (*)"];
 
-  G -> M [thick];
-  C -> G [thick];
-  B -> C [thick];
+  B -> H [thick];
+  G -> H [thick];
+  E -> G [thick];
+  C -> E [thick];
+  D -> E [thick];
   F -> G [thick];
-  D -> F [thick];
-  E -> F [thick];
-  L -> M [thick];
-  J -> L [thick];
-  H -> J [thick];
-  I -> J [thick];
-  K -> L [thick];
 }

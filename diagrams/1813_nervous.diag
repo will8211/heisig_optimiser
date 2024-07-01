@@ -5,32 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  O [label = "慌\nnervous (1813)"];
+  J [label = "慌\nnervous (1813)"];
   B [label = "心\nheart (563)"];
-  N [label = "荒\nwasteland (1725)"];
-  L [label = "芒\nmango (1724)"];
+  I [label = "荒\nwasteland (1725)"];
+  G [label = "芒\nmango (1724)"];
   C [label = "艹\nflower (*)"];
-  K [label = "亡\ndeceased (490)"];
-  I [label = "亠\ntop hat (*)"];
-  F [label = "六\nsix (6)"];
-  E [label = "囧只－口\nanimal legs (*)"];
-  D [label = "八\neight (8)"];
-  H [label = "囧只－口\nanimal legs (*)"];
-  G [label = "八\neight (8)"];
-  J [label = "乙\nsecond (95)"];
-  M [label = "川\nstream (134)"];
+  F [label = "亡\ndeceased (490)"];
+  D [label = "亠\ntop hat (*)"];
+  E [label = "乙\nsecond (95)"];
+  H [label = "川\nstream (134)"];
 
-  B -> O [thick];
-  N -> O [thick];
-  L -> N [thick];
-  C -> L [thick];
-  K -> L [thick];
-  I -> K [thick];
-  F -> I [thick];
+  B -> J [thick];
+  I -> J [thick];
+  G -> I [thick];
+  C -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
   E -> F [thick];
-  D -> E [thick];
   H -> I [thick];
-  G -> H [thick];
-  J -> K [thick];
-  M -> N [thick];
 }

@@ -5,26 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  L [label = "勘\nsurvey (2741)"];
-  H [label = "囧甚\nHercules (*)"];
-  G [label = "甚\ntremendously (1338)"];
-  E [label = "其\nhis-hers-its-theirs (1335)"];
+  K [label = "勘\nsurvey (2741)"];
+  G [label = "甚\nHercules (*)"];
+  F [label = "甚\ntremendously (1338)"];
+  D [label = "其\nhis-hers-its-theirs (1335)"];
   B [label = "甘\nsweet (1333)"];
-  D [label = "囧只－口\nanimal legs (*)"];
-  C [label = "八\neight (8)"];
-  F [label = "乙\nsecond (95)"];
-  K [label = "肌\nmuscle (63)"];
-  I [label = "几\nhow many? (57)"];
-  J [label = "月\nmonth (13)"];
+  C [label = "只minus口\nanimal legs (*)"];
+  E [label = "乙\nsecond (95)"];
+  J [label = "肌\nmuscle (63)"];
+  H [label = "几\nhow many? (57)"];
+  I [label = "月\nmonth (13)"];
 
-  H -> L [thick];
-  G -> H [thick];
-  E -> G [thick];
-  B -> E [thick];
-  D -> E [thick];
-  C -> D [thick];
+  G -> K [thick];
   F -> G [thick];
-  K -> L [thick];
-  I -> K [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
   J -> K [thick];
+  H -> J [thick];
+  I -> J [thick];
 }

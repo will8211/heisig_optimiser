@@ -5,24 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  K [label = "勋\nmerit (1983)"];
-  G [label = "员\nemployee (55)"];
+  J [label = "勋\nmerit (1983)"];
+  F [label = "员\nemployee (55)"];
   B [label = "口\nmouth (11)"];
-  F [label = "贝\nshellfish (52)"];
+  E [label = "贝\nshellfish (52)"];
   C [label = "目\neye (15)"];
-  E [label = "囧只－口\nanimal legs (*)"];
-  D [label = "八\neight (8)"];
-  J [label = "肌\nmuscle (63)"];
-  H [label = "几\nhow many? (57)"];
-  I [label = "月\nmonth (13)"];
+  D [label = "只minus口\nanimal legs (*)"];
+  I [label = "肌\nmuscle (63)"];
+  G [label = "几\nhow many? (57)"];
+  H [label = "月\nmonth (13)"];
 
-  G -> K [thick];
-  B -> G [thick];
-  F -> G [thick];
-  C -> F [thick];
+  F -> J [thick];
+  B -> F [thick];
   E -> F [thick];
+  C -> E [thick];
   D -> E [thick];
-  J -> K [thick];
-  H -> J [thick];
   I -> J [thick];
+  G -> I [thick];
+  H -> I [thick];
 }

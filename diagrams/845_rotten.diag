@@ -5,44 +5,30 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  U [label = "腐\nrotten (845)"];
-  Q [label = "府\ngovernment office (826)"];
-  K [label = "洞\ncave (186)"];
-  F [label = "同\nsame (185)"];
-  B [label = "一\none (1)"];
-  C [label = "口\nmouth (11)"];
-  E [label = "冂\nhood (*)"];
-  D [label = "几\nhow many? (57)"];
-  J [label = "水\nwater (137)"];
-  H [label = "丨\nwalking stick (*)"];
-  G [label = "一\none (1)"];
-  I [label = "丶\na drop of (*)"];
-  P [label = "付\npay (825)"];
+  N [label = "腐\nrotten (845)"];
+  J [label = "府\ngovernment office (826)"];
+  D [label = "广\nextensive (556)"];
+  B [label = "厂\nfactory (121)"];
+  C [label = "宀\nhouse (*)"];
+  I [label = "付\npay (825)"];
+  E [label = "人\nperson (793)"];
+  H [label = "寸\nChinese inch (166)"];
+  F [label = "丶\na drop of (*)"];
+  G [label = "十\nten (10)"];
+  M [label = "肉\nmeat (844)"];
+  K [label = "月\nmonth (13)"];
   L [label = "人\nperson (793)"];
-  O [label = "寸\nChinese inch (166)"];
-  M [label = "丶\na drop of (*)"];
-  N [label = "十\nten (10)"];
-  T [label = "肉\nmeat (844)"];
-  R [label = "月\nmonth (13)"];
-  S [label = "人\nperson (793)"];
 
-  Q -> U [thick];
-  K -> Q [thick];
-  F -> K [thick];
-  B -> F [thick];
-  C -> F [thick];
-  E -> F [thick];
-  D -> E [thick];
-  J -> K [thick];
-  H -> J [thick];
-  G -> H [thick];
+  J -> N [thick];
+  D -> J [thick];
+  B -> D [thick];
+  C -> D [thick];
   I -> J [thick];
-  P -> Q [thick];
-  L -> P [thick];
-  O -> P [thick];
-  M -> O [thick];
-  N -> O [thick];
-  T -> U [thick];
-  R -> T [thick];
-  S -> T [thick];
+  E -> I [thick];
+  H -> I [thick];
+  F -> H [thick];
+  G -> H [thick];
+  M -> N [thick];
+  K -> M [thick];
+  L -> M [thick];
 }

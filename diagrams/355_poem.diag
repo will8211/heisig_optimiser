@@ -5,36 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  Q [label = "诗\npoem (355)"];
+  L [label = "诗\npoem (355)"];
   F [label = "寺\nBuddhist temple (169)"];
   B [label = "土\nsoil (158)"];
   E [label = "寸\nChinese inch (166)"];
   C [label = "丶\na drop of (*)"];
   D [label = "十\nten (10)"];
-  P [label = "言\nsay (346)"];
+  K [label = "言\nsay (346)"];
   H [label = "二\ntwo (2)"];
   G [label = "一\none (1)"];
   I [label = "口\nmouth (11)"];
-  O [label = "亠\ntop hat (*)"];
-  L [label = "六\nsix (6)"];
-  K [label = "囧只－口\nanimal legs (*)"];
-  J [label = "八\neight (8)"];
-  N [label = "囧只－口\nanimal legs (*)"];
-  M [label = "八\neight (8)"];
+  J [label = "亠\ntop hat (*)"];
 
-  F -> Q [thick];
+  F -> L [thick];
   B -> F [thick];
   E -> F [thick];
   C -> E [thick];
   D -> E [thick];
-  P -> Q [thick];
-  H -> P [thick];
-  G -> H [thick];
-  I -> P [thick];
-  O -> P [thick];
-  L -> O [thick];
   K -> L [thick];
+  H -> K [thick];
+  G -> H [thick];
+  I -> K [thick];
   J -> K [thick];
-  N -> O [thick];
-  M -> N [thick];
 }

@@ -5,22 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  J [label = "探\nspy (1076)"];
+  I [label = "探\nspy (1076)"];
   B [label = "扌\nfingers (*)"];
-  H [label = "㓁\npaper punch (*)"];
-  G [label = "穴\nhole (1070)"];
+  G [label = "㓁\npaper punch (*)"];
+  F [label = "穴\nhole (1070)"];
   C [label = "宀\nhouse (*)"];
   D [label = "八\neight (8)"];
-  F [label = "囧只－口\nanimal legs (*)"];
-  E [label = "八\neight (8)"];
-  I [label = "木\ntree (202)"];
+  E [label = "只minus口\nanimal legs (*)"];
+  H [label = "木\ntree (202)"];
 
-  B -> J [thick];
-  H -> J [thick];
-  G -> H [thick];
-  C -> G [thick];
-  D -> G [thick];
+  B -> I [thick];
+  G -> I [thick];
   F -> G [thick];
+  C -> F [thick];
+  D -> F [thick];
   E -> F [thick];
-  I -> J [thick];
+  H -> I [thick];
 }

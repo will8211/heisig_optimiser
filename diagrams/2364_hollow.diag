@@ -5,28 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  M [label = "窝\nhollow (2364)"];
-  F [label = "穴\nhole (1070)"];
+  L [label = "窝\nhollow (2364)"];
+  E [label = "穴\nhole (1070)"];
   B [label = "宀\nhouse (*)"];
   C [label = "八\neight (8)"];
-  E [label = "囧只－口\nanimal legs (*)"];
-  D [label = "八\neight (8)"];
-  L [label = "呙\nesophagus (*)"];
-  G [label = "口\nmouth (11)"];
-  K [label = "内\ninternal (840)"];
-  I [label = "囧冂\nbelt (*)"];
-  H [label = "巾\ntowel (410)"];
-  J [label = "人\nperson (793)"];
+  D [label = "只minus口\nanimal legs (*)"];
+  K [label = "呙\nesophagus (*)"];
+  F [label = "口\nmouth (11)"];
+  J [label = "内\ninternal (840)"];
+  H [label = "冂\nbelt (*)"];
+  G [label = "巾\ntowel (410)"];
+  I [label = "人\nperson (793)"];
 
-  F -> M [thick];
-  B -> F [thick];
-  C -> F [thick];
-  E -> F [thick];
+  E -> L [thick];
+  B -> E [thick];
+  C -> E [thick];
   D -> E [thick];
-  L -> M [thick];
-  G -> L [thick];
   K -> L [thick];
-  I -> K [thick];
-  H -> I [thick];
+  F -> K [thick];
   J -> K [thick];
+  H -> J [thick];
+  G -> H [thick];
+  I -> J [thick];
 }

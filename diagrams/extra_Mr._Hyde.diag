@@ -5,30 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  N [label = "亶\nMr. Hyde (*)"];
-  G [label = "亠\ntop hat (*)"];
-  D [label = "六\nsix (6)"];
-  C [label = "囧只－口\nanimal legs (*)"];
-  B [label = "八\neight (8)"];
-  F [label = "囧只－口\nanimal legs (*)"];
-  E [label = "八\neight (8)"];
-  J [label = "回\nreturn (554)"];
-  H [label = "囗\npent in (*)"];
-  I [label = "口\nmouth (11)"];
-  M [label = "旦\ndaybreak (30)"];
-  K [label = "日\nday (12)"];
-  L [label = "一\none (1)"];
+  I [label = "亶\nMr. Hyde (*)"];
+  B [label = "亠\ntop hat (*)"];
+  E [label = "回\nreturn (554)"];
+  C [label = "囗\npent in (*)"];
+  D [label = "口\nmouth (11)"];
+  H [label = "旦\ndaybreak (30)"];
+  F [label = "日\nday (12)"];
+  G [label = "一\none (1)"];
 
-  G -> N [thick];
-  D -> G [thick];
-  C -> D [thick];
-  B -> C [thick];
-  F -> G [thick];
-  E -> F [thick];
-  J -> N [thick];
-  H -> J [thick];
-  I -> J [thick];
-  M -> N [thick];
-  K -> M [thick];
-  L -> M [thick];
+  B -> I [thick];
+  E -> I [thick];
+  C -> E [thick];
+  D -> E [thick];
+  H -> I [thick];
+  F -> H [thick];
+  G -> H [thick];
 }

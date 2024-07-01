@@ -5,28 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  M [label = "溶\ndissolve (702)"];
+  L [label = "溶\ndissolve (702)"];
   E [label = "水\nwater (137)"];
   C [label = "丨\nwalking stick (*)"];
   B [label = "一\none (1)"];
   D [label = "丶\na drop of (*)"];
-  L [label = "容\ncontain (701)"];
+  K [label = "容\ncontain (701)"];
   F [label = "宀\nhouse (*)"];
-  K [label = "谷\nvalley (698)"];
-  H [label = "囧只－口\nanimal legs (*)"];
-  G [label = "八\neight (8)"];
-  I [label = "𠆢\numbrella (*)"];
-  J [label = "口\nmouth (11)"];
+  J [label = "谷\nvalley (698)"];
+  G [label = "只minus口\nanimal legs (*)"];
+  H [label = "𠆢\numbrella (*)"];
+  I [label = "口\nmouth (11)"];
 
-  E -> M [thick];
+  E -> L [thick];
   C -> E [thick];
   B -> C [thick];
   D -> E [thick];
-  L -> M [thick];
-  F -> L [thick];
   K -> L [thick];
-  H -> K [thick];
-  G -> H [thick];
-  I -> K [thick];
+  F -> K [thick];
   J -> K [thick];
+  G -> J [thick];
+  H -> J [thick];
+  I -> J [thick];
 }

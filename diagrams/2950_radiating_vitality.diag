@@ -5,28 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  M [label = "奕\nradiating vitality (2950)"];
-  K [label = "亦\nlikewise (1491)"];
-  G [label = "亠\ntop hat (*)"];
-  D [label = "六\nsix (6)"];
-  C [label = "囧只－口\nanimal legs (*)"];
-  B [label = "八\neight (8)"];
-  F [label = "囧只－口\nanimal legs (*)"];
-  E [label = "八\neight (8)"];
-  I [label = "囧只－口\nanimal legs (*)"];
-  H [label = "八\neight (8)"];
-  J [label = "刀\nsword (83)"];
-  L [label = "大\nlarge (113)"];
+  G [label = "奕\nradiating vitality (2950)"];
+  E [label = "亦\nlikewise (1491)"];
+  B [label = "亠\ntop hat (*)"];
+  C [label = "只minus口\nanimal legs (*)"];
+  D [label = "刀\nsword (83)"];
+  F [label = "大\nlarge (113)"];
 
-  K -> M [thick];
-  G -> K [thick];
-  D -> G [thick];
-  C -> D [thick];
-  B -> C [thick];
+  E -> G [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
   F -> G [thick];
-  E -> F [thick];
-  I -> K [thick];
-  H -> I [thick];
-  J -> K [thick];
-  L -> M [thick];
 }

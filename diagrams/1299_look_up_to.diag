@@ -5,24 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  K [label = "仰\nlook up to (1299)"];
+  F [label = "仰\nlook up to (1299)"];
   B [label = "人\nperson (793)"];
-  J [label = "卬\nstamp collection (*)"];
-  H [label = "箱\nbox (788)"];
-  D [label = "竹\nbamboo (786)"];
-  C [label = "丁\nfourth (90)"];
-  G [label = "相\none another (212)"];
-  E [label = "木\ntree (202)"];
-  F [label = "目\neye (15)"];
-  I [label = "卩\nstamp (*)"];
+  E [label = "卬\nstamp collection (*)"];
+  C [label = "匚\nbox (*)"];
+  D [label = "卩\nstamp (*)"];
 
-  B -> K [thick];
-  J -> K [thick];
-  H -> J [thick];
-  D -> H [thick];
-  C -> D [thick];
-  G -> H [thick];
-  E -> G [thick];
-  F -> G [thick];
-  I -> J [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
 }

@@ -5,30 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  N [label = "矩\nsquare (2685)"];
+  I [label = "矩\nsquare (2685)"];
   F [label = "矢\ndart (998)"];
   D [label = "天\nheavens (436)"];
   B [label = "一\none (1)"];
   C [label = "大\nlarge (113)"];
   E [label = "丶\na drop of (*)"];
-  M [label = "巨\ngigantic (2681)"];
-  L [label = "箱\nbox (788)"];
-  H [label = "竹\nbamboo (786)"];
-  G [label = "丁\nfourth (90)"];
-  K [label = "相\none another (212)"];
-  I [label = "木\ntree (202)"];
-  J [label = "目\neye (15)"];
+  H [label = "巨\ngigantic (2681)"];
+  G [label = "匚\nbox (*)"];
 
-  F -> N [thick];
+  F -> I [thick];
   D -> F [thick];
   B -> D [thick];
   C -> D [thick];
   E -> F [thick];
-  M -> N [thick];
-  L -> M [thick];
-  H -> L [thick];
+  H -> I [thick];
   G -> H [thick];
-  K -> L [thick];
-  I -> K [thick];
-  J -> K [thick];
 }

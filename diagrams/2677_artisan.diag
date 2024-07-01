@@ -5,20 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  I [label = "匠\nartisan (2677)"];
-  G [label = "箱\nbox (788)"];
-  C [label = "竹\nbamboo (786)"];
-  B [label = "丁\nfourth (90)"];
-  F [label = "相\none another (212)"];
-  D [label = "木\ntree (202)"];
-  E [label = "目\neye (15)"];
-  H [label = "斤\ncatty (924)"];
+  D [label = "匠\nartisan (2677)"];
+  B [label = "匚\nbox (*)"];
+  C [label = "斤\ncatty (924)"];
 
-  G -> I [thick];
-  C -> G [thick];
-  B -> C [thick];
-  F -> G [thick];
-  D -> F [thick];
-  E -> F [thick];
-  H -> I [thick];
+  B -> D [thick];
+  C -> D [thick];
 }

@@ -5,26 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  L [label = "寒\nfrigid (1203)"];
-  F [label = "囧赛－贝\nhamster cage (*)"];
+  K [label = "寒\nfrigid (1203)"];
+  E [label = "赛minus贝\nhamster cage (*)"];
   B [label = "宀\nhouse (*)"];
   C [label = "𠀎\nwire mesh (*)"];
-  E [label = "囧只－口\nanimal legs (*)"];
-  D [label = "八\neight (8)"];
-  K [label = "冫\nice (*)"];
-  J [label = "水\nwater (137)"];
-  H [label = "丨\nwalking stick (*)"];
-  G [label = "一\none (1)"];
-  I [label = "丶\na drop of (*)"];
+  D [label = "只minus口\nanimal legs (*)"];
+  J [label = "冫\nice (*)"];
+  I [label = "水\nwater (137)"];
+  G [label = "丨\nwalking stick (*)"];
+  F [label = "一\none (1)"];
+  H [label = "丶\na drop of (*)"];
 
-  F -> L [thick];
-  B -> F [thick];
-  C -> F [thick];
-  E -> F [thick];
+  E -> K [thick];
+  B -> E [thick];
+  C -> E [thick];
   D -> E [thick];
-  K -> L [thick];
   J -> K [thick];
-  H -> J [thick];
-  G -> H [thick];
   I -> J [thick];
+  G -> I [thick];
+  F -> G [thick];
+  H -> I [thick];
 }

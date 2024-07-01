@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  U [label = "哼\nhum (1639)"];
+  P [label = "哼\nhum (1639)"];
   B [label = "口\nmouth (11)"];
-  T [label = "亨\ngo smoothly (1638)"];
-  Q [label = "高\ntall (325)"];
+  O [label = "亨\ngo smoothly (1638)"];
+  L [label = "高\ntall (325)"];
   G [label = "向\norientation (188)"];
   C [label = "丶\na drop of (*)"];
   E [label = "冂\nhood (*)"];
@@ -17,32 +17,22 @@ blockdiag {
   H [label = "口\nmouth (11)"];
   J [label = "冂\nhood (*)"];
   I [label = "几\nhow many? (57)"];
-  P [label = "亠\ntop hat (*)"];
-  M [label = "六\nsix (6)"];
-  L [label = "囧只－口\nanimal legs (*)"];
-  K [label = "八\neight (8)"];
-  O [label = "囧只－口\nanimal legs (*)"];
-  N [label = "八\neight (8)"];
-  S [label = "了\n-ed (101)"];
-  R [label = "子\nchild (97)"];
+  K [label = "亠\ntop hat (*)"];
+  N [label = "了\n-ed (101)"];
+  M [label = "子\nchild (97)"];
 
-  B -> U [thick];
-  T -> U [thick];
-  Q -> T [thick];
-  G -> Q [thick];
+  B -> P [thick];
+  O -> P [thick];
+  L -> O [thick];
+  G -> L [thick];
   C -> G [thick];
   E -> G [thick];
   D -> E [thick];
   F -> G [thick];
-  H -> Q [thick];
-  J -> Q [thick];
+  H -> L [thick];
+  J -> L [thick];
   I -> J [thick];
-  P -> Q [thick];
-  M -> P [thick];
-  L -> M [thick];
   K -> L [thick];
-  O -> P [thick];
   N -> O [thick];
-  S -> T [thick];
-  R -> S [thick];
+  M -> N [thick];
 }

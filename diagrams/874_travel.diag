@@ -5,40 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  S [label = "旅\ntravel (874)"];
-  K [label = "囧施－也\nbanner (*)"];
-  I [label = "方\ndirection (494)"];
+  I [label = "旅\ntravel (874)"];
+  F [label = "施minus也\nbanner (*)"];
+  D [label = "方\ndirection (494)"];
   B [label = "刀\nsword (83)"];
-  H [label = "亠\ntop hat (*)"];
-  E [label = "六\nsix (6)"];
-  D [label = "囧只－口\nanimal legs (*)"];
-  C [label = "八\neight (8)"];
-  G [label = "囧只－口\nanimal legs (*)"];
-  F [label = "八\neight (8)"];
-  J [label = "𠂉\nreclining (*)"];
-  R [label = "衣\nclothing (400)"];
-  Q [label = "亠\ntop hat (*)"];
-  N [label = "六\nsix (6)"];
-  M [label = "囧只－口\nanimal legs (*)"];
-  L [label = "八\neight (8)"];
-  P [label = "囧只－口\nanimal legs (*)"];
-  O [label = "八\neight (8)"];
+  C [label = "亠\ntop hat (*)"];
+  E [label = "𠂉\nreclining (*)"];
+  H [label = "衣\nclothing (400)"];
+  G [label = "亠\ntop hat (*)"];
 
-  K -> S [thick];
-  I -> K [thick];
-  B -> I [thick];
-  H -> I [thick];
-  E -> H [thick];
-  D -> E [thick];
+  F -> I [thick];
+  D -> F [thick];
+  B -> D [thick];
   C -> D [thick];
+  E -> F [thick];
+  H -> I [thick];
   G -> H [thick];
-  F -> G [thick];
-  J -> K [thick];
-  R -> S [thick];
-  Q -> R [thick];
-  N -> Q [thick];
-  M -> N [thick];
-  L -> M [thick];
-  P -> Q [thick];
-  O -> P [thick];
 }

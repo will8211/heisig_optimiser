@@ -5,28 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  M [label = "衷\ninnermost feelings (1679)"];
+  H [label = "衷\ninnermost feelings (1679)"];
   C [label = "丨\nwalking stick (*)"];
   B [label = "一\none (1)"];
-  L [label = "哀\ngrief (403)"];
-  J [label = "衣\nclothing (400)"];
-  I [label = "亠\ntop hat (*)"];
-  F [label = "六\nsix (6)"];
-  E [label = "囧只－口\nanimal legs (*)"];
-  D [label = "八\neight (8)"];
-  H [label = "囧只－口\nanimal legs (*)"];
-  G [label = "八\neight (8)"];
-  K [label = "口\nmouth (11)"];
+  G [label = "哀\ngrief (403)"];
+  E [label = "衣\nclothing (400)"];
+  D [label = "亠\ntop hat (*)"];
+  F [label = "口\nmouth (11)"];
 
-  C -> M [thick];
+  C -> H [thick];
   B -> C [thick];
-  L -> M [thick];
-  J -> L [thick];
-  I -> J [thick];
-  F -> I [thick];
-  E -> F [thick];
-  D -> E [thick];
-  H -> I [thick];
   G -> H [thick];
-  K -> L [thick];
+  E -> G [thick];
+  D -> E [thick];
+  F -> G [thick];
 }

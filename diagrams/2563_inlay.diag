@@ -5,38 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  R [label = "镶\ninlay (2563)"];
+  M [label = "镶\ninlay (2563)"];
   F [label = "金\ngold (279)"];
   B [label = "𠆢\numbrella (*)"];
   D [label = "王\nking (265)"];
   C [label = "工\nwork (76)"];
   E [label = "丶\na drop of (*)"];
-  Q [label = "襄\naid (1201)"];
-  M [label = "衣\nclothing (400)"];
-  L [label = "亠\ntop hat (*)"];
-  I [label = "六\nsix (6)"];
-  H [label = "囧只－口\nanimal legs (*)"];
-  G [label = "八\neight (8)"];
-  K [label = "囧只－口\nanimal legs (*)"];
-  J [label = "八\neight (8)"];
-  O [label = "吅\nchatterbox (*)"];
-  N [label = "口\nmouth (11)"];
-  P [label = "𠀎\nwire mesh (*)"];
+  L [label = "襄\naid (1201)"];
+  H [label = "衣\nclothing (400)"];
+  G [label = "亠\ntop hat (*)"];
+  J [label = "吅\nchatterbox (*)"];
+  I [label = "口\nmouth (11)"];
+  K [label = "𠀎\nwire mesh (*)"];
 
-  F -> R [thick];
+  F -> M [thick];
   B -> F [thick];
   D -> F [thick];
   C -> D [thick];
   E -> F [thick];
-  Q -> R [thick];
-  M -> Q [thick];
   L -> M [thick];
-  I -> L [thick];
-  H -> I [thick];
+  H -> L [thick];
   G -> H [thick];
+  J -> L [thick];
+  I -> J [thick];
   K -> L [thick];
-  J -> K [thick];
-  O -> Q [thick];
-  N -> O [thick];
-  P -> Q [thick];
 }

@@ -5,26 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  L [label = "邪\nwicked (2845)"];
-  I [label = "牙\ntooth (1414)"];
-  G [label = "箱\nbox (788)"];
-  C [label = "竹\nbamboo (786)"];
-  B [label = "丁\nfourth (90)"];
-  F [label = "相\none another (212)"];
-  D [label = "木\ntree (202)"];
-  E [label = "目\neye (15)"];
-  H [label = "矛\nspear (1002)"];
-  K [label = "囧阝\ncity walls (*)"];
-  J [label = "阝\npinnacle (*)"];
+  G [label = "邪\nwicked (2845)"];
+  D [label = "牙\ntooth (1414)"];
+  B [label = "匚\nbox (*)"];
+  C [label = "矛\nspear (1002)"];
+  F [label = "阝\ncity walls (*)"];
+  E [label = "阝\npinnacle (*)"];
 
-  I -> L [thick];
-  G -> I [thick];
-  C -> G [thick];
-  B -> C [thick];
+  D -> G [thick];
+  B -> D [thick];
+  C -> D [thick];
   F -> G [thick];
-  D -> F [thick];
   E -> F [thick];
-  H -> I [thick];
-  K -> L [thick];
-  J -> K [thick];
 }

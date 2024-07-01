@@ -5,38 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  R [label = "警\npolice (347)"];
+  M [label = "警\npolice (347)"];
   G [label = "敬\nrevere (344)"];
   B [label = "艹\nflower (*)"];
   E [label = "句\nsentence (67)"];
   C [label = "勹\nbound up (*)"];
   D [label = "口\nmouth (11)"];
   F [label = "攵\ntaskmaster (*)"];
-  Q [label = "言\nsay (346)"];
+  L [label = "言\nsay (346)"];
   I [label = "二\ntwo (2)"];
   H [label = "一\none (1)"];
   J [label = "口\nmouth (11)"];
-  P [label = "亠\ntop hat (*)"];
-  M [label = "六\nsix (6)"];
-  L [label = "囧只－口\nanimal legs (*)"];
-  K [label = "八\neight (8)"];
-  O [label = "囧只－口\nanimal legs (*)"];
-  N [label = "八\neight (8)"];
+  K [label = "亠\ntop hat (*)"];
 
-  G -> R [thick];
+  G -> M [thick];
   B -> G [thick];
   E -> G [thick];
   C -> E [thick];
   D -> E [thick];
   F -> G [thick];
-  Q -> R [thick];
-  I -> Q [thick];
-  H -> I [thick];
-  J -> Q [thick];
-  P -> Q [thick];
-  M -> P [thick];
   L -> M [thick];
+  I -> L [thick];
+  H -> I [thick];
+  J -> L [thick];
   K -> L [thick];
-  O -> P [thick];
-  N -> O [thick];
 }

@@ -5,26 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  L [label = "驱\ndrive away (2908)"];
+  G [label = "驱\ndrive away (2908)"];
   C [label = "马\nhorse (1453)"];
-  B [label = "囧与－丨一\npointed tail (*)"];
-  K [label = "区\nregion (1295)"];
-  I [label = "箱\nbox (788)"];
-  E [label = "竹\nbamboo (786)"];
-  D [label = "丁\nfourth (90)"];
-  H [label = "相\none another (212)"];
-  F [label = "木\ntree (202)"];
-  G [label = "目\neye (15)"];
-  J [label = "㐅\nsheaf (*)"];
+  B [label = "与minus丨一\npointed tail (*)"];
+  F [label = "区\nregion (1295)"];
+  D [label = "匚\nbox (*)"];
+  E [label = "㐅\nsheaf (*)"];
 
-  C -> L [thick];
+  C -> G [thick];
   B -> C [thick];
-  K -> L [thick];
-  I -> K [thick];
-  E -> I [thick];
-  D -> E [thick];
-  H -> I [thick];
-  F -> H [thick];
-  G -> H [thick];
-  J -> K [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

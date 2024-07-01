@@ -5,26 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  L [label = "兜\npocket (2680)"];
+  G [label = "兜\npocket (2680)"];
   D [label = "白\nwhite (34)"];
   B [label = "日\nday (12)"];
   C [label = "丶\na drop of (*)"];
-  J [label = "箱\nbox (788)"];
-  F [label = "竹\nbamboo (786)"];
-  E [label = "丁\nfourth (90)"];
-  I [label = "相\none another (212)"];
-  G [label = "木\ntree (202)"];
-  H [label = "目\neye (15)"];
-  K [label = "儿\nyoungster (56)"];
+  E [label = "匚\nbox (*)"];
+  F [label = "儿\nyoungster (56)"];
 
-  D -> L [thick];
+  D -> G [thick];
   B -> D [thick];
   C -> D [thick];
-  J -> L [thick];
-  F -> J [thick];
-  E -> F [thick];
-  I -> J [thick];
-  G -> I [thick];
-  H -> I [thick];
-  K -> L [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

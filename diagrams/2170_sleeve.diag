@@ -5,24 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  K [label = "袖\nsleeve (2170)"];
-  H [label = "衣\nclothing (400)"];
-  G [label = "亠\ntop hat (*)"];
-  D [label = "六\nsix (6)"];
-  C [label = "囧只－口\nanimal legs (*)"];
-  B [label = "八\neight (8)"];
-  F [label = "囧只－口\nanimal legs (*)"];
-  E [label = "八\neight (8)"];
-  J [label = "由\nwherefore (913)"];
-  I [label = "田\nrice field (14)"];
+  F [label = "袖\nsleeve (2170)"];
+  C [label = "衣\nclothing (400)"];
+  B [label = "亠\ntop hat (*)"];
+  E [label = "由\nwherefore (913)"];
+  D [label = "田\nrice field (14)"];
 
-  H -> K [thick];
-  G -> H [thick];
-  D -> G [thick];
-  C -> D [thick];
+  C -> F [thick];
   B -> C [thick];
-  F -> G [thick];
   E -> F [thick];
-  J -> K [thick];
-  I -> J [thick];
+  D -> E [thick];
 }

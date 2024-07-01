@@ -5,44 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  U [label = "该\nshould (1198)"];
-  K [label = "言\nsay (346)"];
+  K [label = "该\nshould (1198)"];
+  F [label = "言\nsay (346)"];
   C [label = "二\ntwo (2)"];
   B [label = "一\none (1)"];
   D [label = "口\nmouth (11)"];
-  J [label = "亠\ntop hat (*)"];
-  G [label = "六\nsix (6)"];
-  F [label = "囧只－口\nanimal legs (*)"];
-  E [label = "八\neight (8)"];
-  I [label = "囧只－口\nanimal legs (*)"];
-  H [label = "八\neight (8)"];
-  T [label = "亥\nsign of the pig (1194)"];
-  Q [label = "亠\ntop hat (*)"];
-  N [label = "六\nsix (6)"];
-  M [label = "囧只－口\nanimal legs (*)"];
-  L [label = "八\neight (8)"];
-  P [label = "囧只－口\nanimal legs (*)"];
-  O [label = "八\neight (8)"];
-  R [label = "厶\nelbow (*)"];
-  S [label = "人\nperson (793)"];
+  E [label = "亠\ntop hat (*)"];
+  J [label = "亥\nsign of the pig (1194)"];
+  G [label = "亠\ntop hat (*)"];
+  H [label = "厶\nelbow (*)"];
+  I [label = "人\nperson (793)"];
 
-  K -> U [thick];
-  C -> K [thick];
+  F -> K [thick];
+  C -> F [thick];
   B -> C [thick];
-  D -> K [thick];
+  D -> F [thick];
+  E -> F [thick];
   J -> K [thick];
   G -> J [thick];
-  F -> G [thick];
-  E -> F [thick];
+  H -> J [thick];
   I -> J [thick];
-  H -> I [thick];
-  T -> U [thick];
-  Q -> T [thick];
-  N -> Q [thick];
-  M -> N [thick];
-  L -> M [thick];
-  P -> Q [thick];
-  O -> P [thick];
-  R -> T [thick];
-  S -> T [thick];
 }

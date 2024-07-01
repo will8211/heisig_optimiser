@@ -5,24 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  K [label = "贺\ncongratulate (750)"];
+  J [label = "贺\ncongratulate (750)"];
   F [label = "加\nadd (749)"];
   D [label = "肌\nmuscle (63)"];
   B [label = "几\nhow many? (57)"];
   C [label = "月\nmonth (13)"];
   E [label = "口\nmouth (11)"];
-  J [label = "贝\nshellfish (52)"];
+  I [label = "贝\nshellfish (52)"];
   G [label = "目\neye (15)"];
-  I [label = "囧只－口\nanimal legs (*)"];
-  H [label = "八\neight (8)"];
+  H [label = "只minus口\nanimal legs (*)"];
 
-  F -> K [thick];
+  F -> J [thick];
   D -> F [thick];
   B -> D [thick];
   C -> D [thick];
   E -> F [thick];
-  J -> K [thick];
-  G -> J [thick];
   I -> J [thick];
+  G -> I [thick];
   H -> I [thick];
 }

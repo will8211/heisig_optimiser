@@ -5,36 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  Q [label = "诵\nread aloud (2444)"];
-  K [label = "言\nsay (346)"];
+  L [label = "诵\nread aloud (2444)"];
+  F [label = "言\nsay (346)"];
   C [label = "二\ntwo (2)"];
   B [label = "一\none (1)"];
   D [label = "口\nmouth (11)"];
-  J [label = "亠\ntop hat (*)"];
-  G [label = "六\nsix (6)"];
-  F [label = "囧只－口\nanimal legs (*)"];
-  E [label = "八\neight (8)"];
-  I [label = "囧只－口\nanimal legs (*)"];
-  H [label = "八\neight (8)"];
-  P [label = "甬\nchop-rack (*)"];
-  L [label = "月\nmonth (13)"];
-  N [label = "丨\nwalking stick (*)"];
-  M [label = "一\none (1)"];
-  O [label = "囧节－艹\nchop (*)"];
+  E [label = "亠\ntop hat (*)"];
+  K [label = "甬\nchop-rack (*)"];
+  G [label = "月\nmonth (13)"];
+  I [label = "丨\nwalking stick (*)"];
+  H [label = "一\none (1)"];
+  J [label = "节minus艹\nchop (*)"];
 
-  K -> Q [thick];
-  C -> K [thick];
+  F -> L [thick];
+  C -> F [thick];
   B -> C [thick];
-  D -> K [thick];
-  J -> K [thick];
-  G -> J [thick];
-  F -> G [thick];
+  D -> F [thick];
   E -> F [thick];
-  I -> J [thick];
+  K -> L [thick];
+  G -> K [thick];
+  I -> K [thick];
   H -> I [thick];
-  P -> Q [thick];
-  L -> P [thick];
-  N -> P [thick];
-  M -> N [thick];
-  O -> P [thick];
+  J -> K [thick];
 }

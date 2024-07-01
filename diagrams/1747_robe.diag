@@ -5,28 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  M [label = "袍\nrobe (1747)"];
-  H [label = "衣\nclothing (400)"];
-  G [label = "亠\ntop hat (*)"];
-  D [label = "六\nsix (6)"];
-  C [label = "囧只－口\nanimal legs (*)"];
-  B [label = "八\neight (8)"];
-  F [label = "囧只－口\nanimal legs (*)"];
-  E [label = "八\neight (8)"];
-  L [label = "包\nwrap (520)"];
-  I [label = "勹\nbound up (*)"];
-  K [label = "已\nalready (519)"];
-  J [label = "己\nself (515)"];
+  H [label = "袍\nrobe (1747)"];
+  C [label = "衣\nclothing (400)"];
+  B [label = "亠\ntop hat (*)"];
+  G [label = "包\nwrap (520)"];
+  D [label = "勹\nbound up (*)"];
+  F [label = "已\nalready (519)"];
+  E [label = "己\nself (515)"];
 
-  H -> M [thick];
+  C -> H [thick];
+  B -> C [thick];
   G -> H [thick];
   D -> G [thick];
-  C -> D [thick];
-  B -> C [thick];
   F -> G [thick];
   E -> F [thick];
-  L -> M [thick];
-  I -> L [thick];
-  K -> L [thick];
-  J -> K [thick];
 }

@@ -5,44 +5,34 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  U [label = "储\nput in storage (2309)"];
+  P [label = "储\nput in storage (2309)"];
   B [label = "人\nperson (793)"];
-  T [label = "诸\nvarious (2308)"];
-  L [label = "言\nsay (346)"];
+  O [label = "诸\nvarious (2308)"];
+  G [label = "言\nsay (346)"];
   D [label = "二\ntwo (2)"];
   C [label = "一\none (1)"];
   E [label = "口\nmouth (11)"];
-  K [label = "亠\ntop hat (*)"];
-  H [label = "六\nsix (6)"];
-  G [label = "囧只－口\nanimal legs (*)"];
-  F [label = "八\neight (8)"];
-  J [label = "囧只－口\nanimal legs (*)"];
-  I [label = "八\neight (8)"];
-  S [label = "者\nsomeone (1037)"];
-  Q [label = "老\nold man (1029)"];
-  M [label = "土\nsoil (158)"];
-  O [label = "丨\nwalking stick (*)"];
-  N [label = "一\none (1)"];
-  P [label = "匕\nancient spoon (453)"];
-  R [label = "日\nday (12)"];
+  F [label = "亠\ntop hat (*)"];
+  N [label = "者\nsomeone (1037)"];
+  L [label = "老\nold man (1029)"];
+  H [label = "土\nsoil (158)"];
+  J [label = "丨\nwalking stick (*)"];
+  I [label = "一\none (1)"];
+  K [label = "匕\nancient spoon (453)"];
+  M [label = "日\nday (12)"];
 
-  B -> U [thick];
-  T -> U [thick];
-  L -> T [thick];
-  D -> L [thick];
+  B -> P [thick];
+  O -> P [thick];
+  G -> O [thick];
+  D -> G [thick];
   C -> D [thick];
-  E -> L [thick];
-  K -> L [thick];
-  H -> K [thick];
-  G -> H [thick];
+  E -> G [thick];
   F -> G [thick];
-  J -> K [thick];
-  I -> J [thick];
-  S -> T [thick];
-  Q -> S [thick];
-  M -> Q [thick];
-  O -> Q [thick];
   N -> O [thick];
-  P -> Q [thick];
-  R -> S [thick];
+  L -> N [thick];
+  H -> L [thick];
+  J -> L [thick];
+  I -> J [thick];
+  K -> L [thick];
+  M -> N [thick];
 }

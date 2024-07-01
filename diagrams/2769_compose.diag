@@ -5,22 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  J [label = "撰\ncompose (2769)"];
+  I [label = "撰\ncompose (2769)"];
   B [label = "扌\nfingers (*)"];
   D [label = "已\nalready (519)"];
   C [label = "己\nself (515)"];
-  I [label = "共\ntogether (1354)"];
-  F [label = "囧昔－日\nsalad (*)"];
+  H [label = "共\ntogether (1354)"];
+  F [label = "昔minus日\nsalad (*)"];
   E [label = "艹\nflower (*)"];
-  H [label = "囧只－口\nanimal legs (*)"];
-  G [label = "八\neight (8)"];
+  G [label = "只minus口\nanimal legs (*)"];
 
-  B -> J [thick];
-  D -> J [thick];
+  B -> I [thick];
+  D -> I [thick];
   C -> D [thick];
-  I -> J [thick];
-  F -> I [thick];
-  E -> F [thick];
   H -> I [thick];
+  F -> H [thick];
+  E -> F [thick];
   G -> H [thick];
 }

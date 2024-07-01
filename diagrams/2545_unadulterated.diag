@@ -5,36 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  Q [label = "纯\nunadulterated (2545)"];
+  L [label = "纯\nunadulterated (2545)"];
   C [label = "纟\nthread (*)"];
   B [label = "厶\nelbow (*)"];
-  P [label = "屯\nstockpile (2542)"];
+  K [label = "屯\nstockpile (2542)"];
   D [label = "一\none (1)"];
-  N [label = "坑\npit (323)"];
-  L [label = "亢\nwhirlwind (*)"];
-  J [label = "亠\ntop hat (*)"];
-  G [label = "六\nsix (6)"];
-  F [label = "囧只－口\nanimal legs (*)"];
-  E [label = "八\neight (8)"];
-  I [label = "囧只－口\nanimal legs (*)"];
-  H [label = "八\neight (8)"];
-  K [label = "几\nhow many? (57)"];
-  M [label = "土\nsoil (158)"];
-  O [label = "乙\nsecond (95)"];
+  I [label = "坑\npit (323)"];
+  G [label = "亢\nwhirlwind (*)"];
+  E [label = "亠\ntop hat (*)"];
+  F [label = "几\nhow many? (57)"];
+  H [label = "土\nsoil (158)"];
+  J [label = "乙\nsecond (95)"];
 
-  C -> Q [thick];
+  C -> L [thick];
   B -> C [thick];
-  P -> Q [thick];
-  D -> P [thick];
-  N -> P [thick];
-  L -> N [thick];
-  J -> L [thick];
-  G -> J [thick];
-  F -> G [thick];
-  E -> F [thick];
-  I -> J [thick];
-  H -> I [thick];
   K -> L [thick];
-  M -> N [thick];
-  O -> P [thick];
+  D -> K [thick];
+  I -> K [thick];
+  G -> I [thick];
+  E -> G [thick];
+  F -> G [thick];
+  H -> I [thick];
+  J -> K [thick];
 }

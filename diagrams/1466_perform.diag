@@ -5,28 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  M [label = "演\nperform (1466)"];
+  L [label = "演\nperform (1466)"];
   E [label = "水\nwater (137)"];
   C [label = "丨\nwalking stick (*)"];
   B [label = "一\none (1)"];
   D [label = "丶\na drop of (*)"];
-  L [label = "寅\nsign of the tiger (1465)"];
+  K [label = "寅\nsign of the tiger (1465)"];
   F [label = "宀\nhouse (*)"];
   G [label = "一\none (1)"];
   I [label = "由\nwherefore (913)"];
   H [label = "田\nrice field (14)"];
-  K [label = "囧只－口\nanimal legs (*)"];
-  J [label = "八\neight (8)"];
+  J [label = "只minus口\nanimal legs (*)"];
 
-  E -> M [thick];
+  E -> L [thick];
   C -> E [thick];
   B -> C [thick];
   D -> E [thick];
-  L -> M [thick];
-  F -> L [thick];
-  G -> L [thick];
-  I -> L [thick];
-  H -> I [thick];
   K -> L [thick];
+  F -> K [thick];
+  G -> K [thick];
+  I -> K [thick];
+  H -> I [thick];
   J -> K [thick];
 }

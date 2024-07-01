@@ -5,26 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  L [label = "汇\nconverge (2673)"];
+  G [label = "汇\nconverge (2673)"];
   E [label = "水\nwater (137)"];
   C [label = "丨\nwalking stick (*)"];
   B [label = "一\none (1)"];
   D [label = "丶\na drop of (*)"];
-  K [label = "箱\nbox (788)"];
-  G [label = "竹\nbamboo (786)"];
-  F [label = "丁\nfourth (90)"];
-  J [label = "相\none another (212)"];
-  H [label = "木\ntree (202)"];
-  I [label = "目\neye (15)"];
+  F [label = "匚\nbox (*)"];
 
-  E -> L [thick];
+  E -> G [thick];
   C -> E [thick];
   B -> C [thick];
   D -> E [thick];
-  K -> L [thick];
-  G -> K [thick];
   F -> G [thick];
-  J -> K [thick];
-  H -> J [thick];
-  I -> J [thick];
 }

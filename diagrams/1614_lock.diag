@@ -5,7 +5,7 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  M [label = "锁\nlock (1614)"];
+  L [label = "锁\nlock (1614)"];
   F [label = "金\ngold (279)"];
   B [label = "𠆢\numbrella (*)"];
   D [label = "王\nking (265)"];
@@ -13,20 +13,18 @@ blockdiag {
   E [label = "丶\na drop of (*)"];
   H [label = "小\nsmall (109)"];
   G [label = "丶\na drop of (*)"];
-  L [label = "贝\nshellfish (52)"];
+  K [label = "贝\nshellfish (52)"];
   I [label = "目\neye (15)"];
-  K [label = "囧只－口\nanimal legs (*)"];
-  J [label = "八\neight (8)"];
+  J [label = "只minus口\nanimal legs (*)"];
 
-  F -> M [thick];
+  F -> L [thick];
   B -> F [thick];
   D -> F [thick];
   C -> D [thick];
   E -> F [thick];
-  H -> M [thick];
+  H -> L [thick];
   G -> H [thick];
-  L -> M [thick];
-  I -> L [thick];
   K -> L [thick];
+  I -> K [thick];
   J -> K [thick];
 }

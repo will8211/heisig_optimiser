@@ -5,48 +5,34 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  W [label = "疾\nrapid (2670)"];
+  P [label = "疾\nrapid (2670)"];
   F [label = "矢\ndart (998)"];
   D [label = "天\nheavens (436)"];
   B [label = "一\none (1)"];
   C [label = "大\nlarge (113)"];
   E [label = "丶\na drop of (*)"];
-  V [label = "疒\nsickness (*)"];
-  P [label = "洞\ncave (186)"];
-  K [label = "同\nsame (185)"];
-  G [label = "一\none (1)"];
-  H [label = "口\nmouth (11)"];
-  J [label = "冂\nhood (*)"];
-  I [label = "几\nhow many? (57)"];
-  O [label = "水\nwater (137)"];
-  M [label = "丨\nwalking stick (*)"];
-  L [label = "一\none (1)"];
-  N [label = "丶\na drop of (*)"];
-  U [label = "冫\nice (*)"];
-  T [label = "水\nwater (137)"];
-  R [label = "丨\nwalking stick (*)"];
-  Q [label = "一\none (1)"];
-  S [label = "丶\na drop of (*)"];
+  O [label = "疒\nsickness (*)"];
+  I [label = "广\nextensive (556)"];
+  G [label = "厂\nfactory (121)"];
+  H [label = "宀\nhouse (*)"];
+  N [label = "冫\nice (*)"];
+  M [label = "水\nwater (137)"];
+  K [label = "丨\nwalking stick (*)"];
+  J [label = "一\none (1)"];
+  L [label = "丶\na drop of (*)"];
 
-  F -> W [thick];
+  F -> P [thick];
   D -> F [thick];
   B -> D [thick];
   C -> D [thick];
   E -> F [thick];
-  V -> W [thick];
-  P -> V [thick];
-  K -> P [thick];
-  G -> K [thick];
-  H -> K [thick];
-  J -> K [thick];
-  I -> J [thick];
   O -> P [thick];
-  M -> O [thick];
-  L -> M [thick];
+  I -> O [thick];
+  G -> I [thick];
+  H -> I [thick];
   N -> O [thick];
-  U -> V [thick];
-  T -> U [thick];
-  R -> T [thick];
-  Q -> R [thick];
-  S -> T [thick];
+  M -> N [thick];
+  K -> M [thick];
+  J -> K [thick];
+  L -> M [thick];
 }

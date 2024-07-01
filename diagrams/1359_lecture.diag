@@ -5,28 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  M [label = "讲\nlecture (1359)"];
-  K [label = "言\nsay (346)"];
+  H [label = "讲\nlecture (1359)"];
+  F [label = "言\nsay (346)"];
   C [label = "二\ntwo (2)"];
   B [label = "一\none (1)"];
   D [label = "口\nmouth (11)"];
-  J [label = "亠\ntop hat (*)"];
-  G [label = "六\nsix (6)"];
-  F [label = "囧只－口\nanimal legs (*)"];
-  E [label = "八\neight (8)"];
-  I [label = "囧只－口\nanimal legs (*)"];
-  H [label = "八\neight (8)"];
-  L [label = "井\nwell (1358)"];
+  E [label = "亠\ntop hat (*)"];
+  G [label = "井\nwell (1358)"];
 
-  K -> M [thick];
-  C -> K [thick];
+  F -> H [thick];
+  C -> F [thick];
   B -> C [thick];
-  D -> K [thick];
-  J -> K [thick];
-  G -> J [thick];
-  F -> G [thick];
+  D -> F [thick];
   E -> F [thick];
-  I -> J [thick];
-  H -> I [thick];
-  L -> M [thick];
+  G -> H [thick];
 }

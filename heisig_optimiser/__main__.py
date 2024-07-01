@@ -16,6 +16,7 @@ def main():
     chars = calculate_required_characters(chars, "Advanced")
     output_to_json(chars)
     output_to_csv(chars)
+    print("Done")
 
 
 def load_hsk_characters() -> Dict[HskLevel, List[str]]:
@@ -38,7 +39,7 @@ def load_heisig_data() -> List[Dict[str, any]]:
     """
     Read in the Heisig data from the .xml file
     """
-    tree = ET.parse("data/rsh.xml")
+    tree = ET.parse("data/rsh_modified.xml")
     root = tree.getroot()
     chars: List[Dict[str, any]] = []
     for book in root.iter("book"):
@@ -122,3 +123,6 @@ def calculate_required_characters(
                         requirements[depth].update(c["Requires"])
         depth += 1
     return chars
+
+
+main()

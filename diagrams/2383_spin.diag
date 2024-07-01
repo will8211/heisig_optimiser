@@ -5,26 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  L [label = "纺\nspin (2383)"];
+  G [label = "纺\nspin (2383)"];
   C [label = "纟\nthread (*)"];
   B [label = "厶\nelbow (*)"];
-  K [label = "方\ndirection (494)"];
+  F [label = "方\ndirection (494)"];
   D [label = "刀\nsword (83)"];
-  J [label = "亠\ntop hat (*)"];
-  G [label = "六\nsix (6)"];
-  F [label = "囧只－口\nanimal legs (*)"];
-  E [label = "八\neight (8)"];
-  I [label = "囧只－口\nanimal legs (*)"];
-  H [label = "八\neight (8)"];
+  E [label = "亠\ntop hat (*)"];
 
-  C -> L [thick];
+  C -> G [thick];
   B -> C [thick];
-  K -> L [thick];
-  D -> K [thick];
-  J -> K [thick];
-  G -> J [thick];
   F -> G [thick];
+  D -> F [thick];
   E -> F [thick];
-  I -> J [thick];
-  H -> I [thick];
 }

@@ -5,36 +5,34 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  Q [label = "瀑\nwaterfall (2773)"];
+  P [label = "瀑\nwaterfall (2773)"];
   E [label = "水\nwater (137)"];
   C [label = "丨\nwalking stick (*)"];
   B [label = "一\none (1)"];
   D [label = "丶\na drop of (*)"];
-  P [label = "暴\nviolent (2772)"];
+  O [label = "暴\nviolent (2772)"];
   F [label = "日\nday (12)"];
-  K [label = "共\ntogether (1354)"];
-  H [label = "囧昔－日\nsalad (*)"];
+  J [label = "共\ntogether (1354)"];
+  H [label = "昔minus日\nsalad (*)"];
   G [label = "艹\nflower (*)"];
-  J [label = "囧只－口\nanimal legs (*)"];
-  I [label = "八\neight (8)"];
-  O [label = "水\nwater (137)"];
-  M [label = "丨\nwalking stick (*)"];
-  L [label = "一\none (1)"];
-  N [label = "丶\na drop of (*)"];
+  I [label = "只minus口\nanimal legs (*)"];
+  N [label = "水\nwater (137)"];
+  L [label = "丨\nwalking stick (*)"];
+  K [label = "一\none (1)"];
+  M [label = "丶\na drop of (*)"];
 
-  E -> Q [thick];
+  E -> P [thick];
   C -> E [thick];
   B -> C [thick];
   D -> E [thick];
-  P -> Q [thick];
-  F -> P [thick];
-  K -> P [thick];
-  H -> K [thick];
-  G -> H [thick];
-  J -> K [thick];
-  I -> J [thick];
   O -> P [thick];
-  M -> O [thick];
-  L -> M [thick];
+  F -> O [thick];
+  J -> O [thick];
+  H -> J [thick];
+  G -> H [thick];
+  I -> J [thick];
   N -> O [thick];
+  L -> N [thick];
+  K -> L [thick];
+  M -> N [thick];
 }

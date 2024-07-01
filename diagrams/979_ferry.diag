@@ -5,44 +5,30 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  U [label = "渡\nferry (979)"];
+  N [label = "渡\nferry (979)"];
   E [label = "水\nwater (137)"];
   C [label = "丨\nwalking stick (*)"];
   B [label = "一\none (1)"];
   D [label = "丶\na drop of (*)"];
-  T [label = "度\ndegrees (978)"];
-  R [label = "囧席－巾\ncaverns (*)"];
-  O [label = "洞\ncave (186)"];
-  J [label = "同\nsame (185)"];
-  F [label = "一\none (1)"];
-  G [label = "口\nmouth (11)"];
-  I [label = "冂\nhood (*)"];
-  H [label = "几\nhow many? (57)"];
-  N [label = "水\nwater (137)"];
-  L [label = "丨\nwalking stick (*)"];
-  K [label = "一\none (1)"];
-  M [label = "丶\na drop of (*)"];
-  Q [label = "廿\ntwenty (976)"];
-  P [label = "十\nten (10)"];
-  S [label = "又\nagain (633)"];
+  M [label = "度\ndegrees (978)"];
+  K [label = "席minus巾\ncaverns (*)"];
+  H [label = "广\nextensive (556)"];
+  F [label = "厂\nfactory (121)"];
+  G [label = "宀\nhouse (*)"];
+  J [label = "廿\ntwenty (976)"];
+  I [label = "十\nten (10)"];
+  L [label = "又\nagain (633)"];
 
-  E -> U [thick];
+  E -> N [thick];
   C -> E [thick];
   B -> C [thick];
   D -> E [thick];
-  T -> U [thick];
-  R -> T [thick];
-  O -> R [thick];
-  J -> O [thick];
-  F -> J [thick];
-  G -> J [thick];
-  I -> J [thick];
-  H -> I [thick];
-  N -> O [thick];
-  L -> N [thick];
-  K -> L [thick];
   M -> N [thick];
-  Q -> R [thick];
-  P -> Q [thick];
-  S -> T [thick];
+  K -> M [thick];
+  H -> K [thick];
+  F -> H [thick];
+  G -> H [thick];
+  J -> K [thick];
+  I -> J [thick];
+  L -> M [thick];
 }

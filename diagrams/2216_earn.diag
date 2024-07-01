@@ -5,24 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  K [label = "赚\nearn (2216)"];
-  E [label = "贝\nshellfish (52)"];
+  J [label = "赚\nearn (2216)"];
+  D [label = "贝\nshellfish (52)"];
   B [label = "目\neye (15)"];
-  D [label = "囧只－口\nanimal legs (*)"];
-  C [label = "八\neight (8)"];
-  J [label = "兼\ndouble (2215)"];
-  G [label = "丷\nhorns (*)"];
-  F [label = "一\none (1)"];
-  I [label = "肀\nrake (*)"];
-  H [label = "彐\nbroom (*)"];
+  C [label = "只minus口\nanimal legs (*)"];
+  I [label = "兼\ndouble (2215)"];
+  F [label = "丷\nhorns (*)"];
+  E [label = "一\none (1)"];
+  H [label = "肀\nrake (*)"];
+  G [label = "彐\nbroom (*)"];
 
-  E -> K [thick];
-  B -> E [thick];
-  D -> E [thick];
+  D -> J [thick];
+  B -> D [thick];
   C -> D [thick];
-  J -> K [thick];
-  G -> J [thick];
-  F -> G [thick];
   I -> J [thick];
+  F -> I [thick];
+  E -> F [thick];
   H -> I [thick];
+  G -> H [thick];
 }

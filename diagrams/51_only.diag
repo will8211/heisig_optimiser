@@ -5,12 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  E [label = "只\nonly (51)"];
+  D [label = "只\nonly (51)"];
   B [label = "口\nmouth (11)"];
-  D [label = "囧只－口\nanimal legs (*)"];
-  C [label = "八\neight (8)"];
+  C [label = "只minus口\nanimal legs (*)"];
 
-  B -> E [thick];
-  D -> E [thick];
+  B -> D [thick];
   C -> D [thick];
 }

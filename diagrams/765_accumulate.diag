@@ -5,16 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  G [label = "积\naccumulate (765)"];
+  F [label = "积\naccumulate (765)"];
   B [label = "禾\nstanding grain (762)"];
-  F [label = "只\nonly (51)"];
+  E [label = "只\nonly (51)"];
   C [label = "口\nmouth (11)"];
-  E [label = "囧只－口\nanimal legs (*)"];
-  D [label = "八\neight (8)"];
+  D [label = "只minus口\nanimal legs (*)"];
 
-  B -> G [thick];
-  F -> G [thick];
-  C -> F [thick];
+  B -> F [thick];
   E -> F [thick];
+  C -> E [thick];
   D -> E [thick];
 }

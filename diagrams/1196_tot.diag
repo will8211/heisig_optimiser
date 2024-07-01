@@ -5,26 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  L [label = "孩\ntot (1196)"];
+  G [label = "孩\ntot (1196)"];
   B [label = "子\nchild (97)"];
-  K [label = "亥\nsign of the pig (1194)"];
-  H [label = "亠\ntop hat (*)"];
-  E [label = "六\nsix (6)"];
-  D [label = "囧只－口\nanimal legs (*)"];
-  C [label = "八\neight (8)"];
-  G [label = "囧只－口\nanimal legs (*)"];
-  F [label = "八\neight (8)"];
-  I [label = "厶\nelbow (*)"];
-  J [label = "人\nperson (793)"];
+  F [label = "亥\nsign of the pig (1194)"];
+  C [label = "亠\ntop hat (*)"];
+  D [label = "厶\nelbow (*)"];
+  E [label = "人\nperson (793)"];
 
-  B -> L [thick];
-  K -> L [thick];
-  H -> K [thick];
-  E -> H [thick];
-  D -> E [thick];
-  C -> D [thick];
-  G -> H [thick];
+  B -> G [thick];
   F -> G [thick];
-  I -> K [thick];
-  J -> K [thick];
+  C -> F [thick];
+  D -> F [thick];
+  E -> F [thick];
 }

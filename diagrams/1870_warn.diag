@@ -5,38 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  R [label = "诫\nwarn (1870)"];
-  K [label = "言\nsay (346)"];
+  M [label = "诫\nwarn (1870)"];
+  F [label = "言\nsay (346)"];
   C [label = "二\ntwo (2)"];
   B [label = "一\none (1)"];
   D [label = "口\nmouth (11)"];
-  J [label = "亠\ntop hat (*)"];
-  G [label = "六\nsix (6)"];
-  F [label = "囧只－口\nanimal legs (*)"];
-  E [label = "八\neight (8)"];
-  I [label = "囧只－口\nanimal legs (*)"];
-  H [label = "八\neight (8)"];
-  Q [label = "戒\ntake precautions against (1868)"];
-  N [label = "开\nopen (613)"];
-  M [label = "二\ntwo (2)"];
-  L [label = "一\none (1)"];
-  P [label = "戈\nhalberd (361)"];
-  O [label = "弋\narrow (*)"];
+  E [label = "亠\ntop hat (*)"];
+  L [label = "戒\ntake precautions against (1868)"];
+  I [label = "开\nopen (613)"];
+  H [label = "二\ntwo (2)"];
+  G [label = "一\none (1)"];
+  K [label = "戈\nhalberd (361)"];
+  J [label = "弋\narrow (*)"];
 
-  K -> R [thick];
-  C -> K [thick];
+  F -> M [thick];
+  C -> F [thick];
   B -> C [thick];
-  D -> K [thick];
-  J -> K [thick];
-  G -> J [thick];
-  F -> G [thick];
+  D -> F [thick];
   E -> F [thick];
-  I -> J [thick];
-  H -> I [thick];
-  Q -> R [thick];
-  N -> Q [thick];
-  M -> N [thick];
   L -> M [thick];
-  P -> Q [thick];
-  O -> P [thick];
+  I -> L [thick];
+  H -> I [thick];
+  G -> H [thick];
+  K -> L [thick];
+  J -> K [thick];
 }

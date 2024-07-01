@@ -5,38 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  R [label = "调\ntune (357)"];
+  M [label = "调\ntune (357)"];
   G [label = "周\ncircumference (333)"];
-  D [label = "囧周－冂\nlidded crock (*)"];
+  D [label = "周minus冂\nlidded crock (*)"];
   B [label = "土\nsoil (158)"];
   C [label = "口\nmouth (11)"];
   F [label = "冂\nhood (*)"];
   E [label = "几\nhow many? (57)"];
-  Q [label = "言\nsay (346)"];
+  L [label = "言\nsay (346)"];
   I [label = "二\ntwo (2)"];
   H [label = "一\none (1)"];
   J [label = "口\nmouth (11)"];
-  P [label = "亠\ntop hat (*)"];
-  M [label = "六\nsix (6)"];
-  L [label = "囧只－口\nanimal legs (*)"];
-  K [label = "八\neight (8)"];
-  O [label = "囧只－口\nanimal legs (*)"];
-  N [label = "八\neight (8)"];
+  K [label = "亠\ntop hat (*)"];
 
-  G -> R [thick];
+  G -> M [thick];
   D -> G [thick];
   B -> D [thick];
   C -> D [thick];
   F -> G [thick];
   E -> F [thick];
-  Q -> R [thick];
-  I -> Q [thick];
-  H -> I [thick];
-  J -> Q [thick];
-  P -> Q [thick];
-  M -> P [thick];
   L -> M [thick];
+  I -> L [thick];
+  H -> I [thick];
+  J -> L [thick];
   K -> L [thick];
-  O -> P [thick];
-  N -> O [thick];
 }

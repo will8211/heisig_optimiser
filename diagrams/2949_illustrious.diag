@@ -5,16 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  G [label = "赫\nillustrious (2949)"];
-  F [label = "赤\ncrimson (1490)"];
+  F [label = "赫\nillustrious (2949)"];
+  E [label = "赤\ncrimson (1490)"];
   B [label = "土\nsoil (158)"];
   C [label = "刀\nsword (83)"];
-  E [label = "囧只－口\nanimal legs (*)"];
-  D [label = "八\neight (8)"];
+  D [label = "只minus口\nanimal legs (*)"];
 
-  F -> G [thick];
-  B -> F [thick];
-  C -> F [thick];
   E -> F [thick];
+  B -> E [thick];
+  C -> E [thick];
   D -> E [thick];
 }

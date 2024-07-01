@@ -5,32 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  O [label = "穿\npass through (1415)"];
-  F [label = "穴\nhole (1070)"];
+  I [label = "穿\npass through (1415)"];
+  E [label = "穴\nhole (1070)"];
   B [label = "宀\nhouse (*)"];
   C [label = "八\neight (8)"];
-  E [label = "囧只－口\nanimal legs (*)"];
-  D [label = "八\neight (8)"];
-  N [label = "牙\ntooth (1414)"];
-  L [label = "箱\nbox (788)"];
-  H [label = "竹\nbamboo (786)"];
-  G [label = "丁\nfourth (90)"];
-  K [label = "相\none another (212)"];
-  I [label = "木\ntree (202)"];
-  J [label = "目\neye (15)"];
-  M [label = "矛\nspear (1002)"];
+  D [label = "只minus口\nanimal legs (*)"];
+  H [label = "牙\ntooth (1414)"];
+  F [label = "匚\nbox (*)"];
+  G [label = "矛\nspear (1002)"];
 
-  F -> O [thick];
-  B -> F [thick];
-  C -> F [thick];
-  E -> F [thick];
+  E -> I [thick];
+  B -> E [thick];
+  C -> E [thick];
   D -> E [thick];
-  N -> O [thick];
-  L -> N [thick];
-  H -> L [thick];
+  H -> I [thick];
+  F -> H [thick];
   G -> H [thick];
-  K -> L [thick];
-  I -> K [thick];
-  J -> K [thick];
-  M -> N [thick];
 }

@@ -5,18 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  H [label = "页\npage (60)"];
-  E [label = "贝\nshellfish (52)"];
+  G [label = "页\npage (60)"];
+  D [label = "贝\nshellfish (52)"];
   B [label = "目\neye (15)"];
-  D [label = "囧只－口\nanimal legs (*)"];
-  C [label = "八\neight (8)"];
-  F [label = "一\none (1)"];
-  G [label = "丶\na drop of (*)"];
+  C [label = "只minus口\nanimal legs (*)"];
+  E [label = "一\none (1)"];
+  F [label = "丶\na drop of (*)"];
 
-  E -> H [thick];
-  B -> E [thick];
-  D -> E [thick];
+  D -> G [thick];
+  B -> D [thick];
   C -> D [thick];
-  F -> H [thick];
-  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

@@ -5,22 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  J [label = "熔\nfuse (1954)"];
+  I [label = "熔\nfuse (1954)"];
   B [label = "火\nfire (170)"];
-  I [label = "容\ncontain (701)"];
+  H [label = "容\ncontain (701)"];
   C [label = "宀\nhouse (*)"];
-  H [label = "谷\nvalley (698)"];
-  E [label = "囧只－口\nanimal legs (*)"];
-  D [label = "八\neight (8)"];
-  F [label = "𠆢\numbrella (*)"];
-  G [label = "口\nmouth (11)"];
+  G [label = "谷\nvalley (698)"];
+  D [label = "只minus口\nanimal legs (*)"];
+  E [label = "𠆢\numbrella (*)"];
+  F [label = "口\nmouth (11)"];
 
-  B -> J [thick];
-  I -> J [thick];
-  C -> I [thick];
+  B -> I [thick];
   H -> I [thick];
-  E -> H [thick];
-  D -> E [thick];
-  F -> H [thick];
+  C -> H [thick];
   G -> H [thick];
+  D -> G [thick];
+  E -> G [thick];
+  F -> G [thick];
 }

@@ -5,40 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  S [label = "俯\nbow one’s head (827)"];
+  L [label = "俯\nbow one’s head (827)"];
   B [label = "人\nperson (793)"];
-  R [label = "府\ngovernment office (826)"];
-  L [label = "洞\ncave (186)"];
-  G [label = "同\nsame (185)"];
-  C [label = "一\none (1)"];
-  D [label = "口\nmouth (11)"];
-  F [label = "冂\nhood (*)"];
-  E [label = "几\nhow many? (57)"];
-  K [label = "水\nwater (137)"];
-  I [label = "丨\nwalking stick (*)"];
-  H [label = "一\none (1)"];
-  J [label = "丶\na drop of (*)"];
-  Q [label = "付\npay (825)"];
-  M [label = "人\nperson (793)"];
-  P [label = "寸\nChinese inch (166)"];
-  N [label = "丶\na drop of (*)"];
-  O [label = "十\nten (10)"];
+  K [label = "府\ngovernment office (826)"];
+  E [label = "广\nextensive (556)"];
+  C [label = "厂\nfactory (121)"];
+  D [label = "宀\nhouse (*)"];
+  J [label = "付\npay (825)"];
+  F [label = "人\nperson (793)"];
+  I [label = "寸\nChinese inch (166)"];
+  G [label = "丶\na drop of (*)"];
+  H [label = "十\nten (10)"];
 
-  B -> S [thick];
-  R -> S [thick];
-  L -> R [thick];
-  G -> L [thick];
-  C -> G [thick];
-  D -> G [thick];
-  F -> G [thick];
-  E -> F [thick];
+  B -> L [thick];
   K -> L [thick];
-  I -> K [thick];
-  H -> I [thick];
+  E -> K [thick];
+  C -> E [thick];
+  D -> E [thick];
   J -> K [thick];
-  Q -> R [thick];
-  M -> Q [thick];
-  P -> Q [thick];
-  N -> P [thick];
-  O -> P [thick];
+  F -> J [thick];
+  I -> J [thick];
+  G -> I [thick];
+  H -> I [thick];
 }

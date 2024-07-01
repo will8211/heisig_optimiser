@@ -5,34 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  P [label = "席\nmat (977)"];
-  N [label = "囧席－巾\ncaverns (*)"];
-  K [label = "洞\ncave (186)"];
-  F [label = "同\nsame (185)"];
-  B [label = "一\none (1)"];
-  C [label = "口\nmouth (11)"];
-  E [label = "冂\nhood (*)"];
-  D [label = "几\nhow many? (57)"];
-  J [label = "水\nwater (137)"];
-  H [label = "丨\nwalking stick (*)"];
-  G [label = "一\none (1)"];
-  I [label = "丶\na drop of (*)"];
-  M [label = "廿\ntwenty (976)"];
-  L [label = "十\nten (10)"];
-  O [label = "巾\ntowel (410)"];
+  I [label = "席\nmat (977)"];
+  G [label = "席minus巾\ncaverns (*)"];
+  D [label = "广\nextensive (556)"];
+  B [label = "厂\nfactory (121)"];
+  C [label = "宀\nhouse (*)"];
+  F [label = "廿\ntwenty (976)"];
+  E [label = "十\nten (10)"];
+  H [label = "巾\ntowel (410)"];
 
-  N -> P [thick];
-  K -> N [thick];
-  F -> K [thick];
-  B -> F [thick];
-  C -> F [thick];
+  G -> I [thick];
+  D -> G [thick];
+  B -> D [thick];
+  C -> D [thick];
+  F -> G [thick];
   E -> F [thick];
-  D -> E [thick];
-  J -> K [thick];
-  H -> J [thick];
-  G -> H [thick];
-  I -> J [thick];
-  M -> N [thick];
-  L -> M [thick];
-  O -> P [thick];
+  H -> I [thick];
 }

@@ -5,42 +5,32 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  T [label = "淤\nsilt (1731)"];
+  O [label = "淤\nsilt (1731)"];
   E [label = "水\nwater (137)"];
   C [label = "丨\nwalking stick (*)"];
   B [label = "一\none (1)"];
   D [label = "丶\na drop of (*)"];
-  M [label = "方\ndirection (494)"];
+  H [label = "方\ndirection (494)"];
   F [label = "刀\nsword (83)"];
-  L [label = "亠\ntop hat (*)"];
-  I [label = "六\nsix (6)"];
-  H [label = "囧只－口\nanimal legs (*)"];
-  G [label = "八\neight (8)"];
-  K [label = "囧只－口\nanimal legs (*)"];
-  J [label = "八\neight (8)"];
-  N [label = "𠆢\numbrella (*)"];
-  S [label = "冫\nice (*)"];
-  R [label = "水\nwater (137)"];
-  P [label = "丨\nwalking stick (*)"];
-  O [label = "一\none (1)"];
-  Q [label = "丶\na drop of (*)"];
+  G [label = "亠\ntop hat (*)"];
+  I [label = "𠆢\numbrella (*)"];
+  N [label = "冫\nice (*)"];
+  M [label = "水\nwater (137)"];
+  K [label = "丨\nwalking stick (*)"];
+  J [label = "一\none (1)"];
+  L [label = "丶\na drop of (*)"];
 
-  E -> T [thick];
+  E -> O [thick];
   C -> E [thick];
   B -> C [thick];
   D -> E [thick];
-  M -> T [thick];
-  F -> M [thick];
-  L -> M [thick];
-  I -> L [thick];
-  H -> I [thick];
+  H -> O [thick];
+  F -> H [thick];
   G -> H [thick];
-  K -> L [thick];
+  I -> O [thick];
+  N -> O [thick];
+  M -> N [thick];
+  K -> M [thick];
   J -> K [thick];
-  N -> T [thick];
-  S -> T [thick];
-  R -> S [thick];
-  P -> R [thick];
-  O -> P [thick];
-  Q -> R [thick];
+  L -> M [thick];
 }

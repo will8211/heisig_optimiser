@@ -5,46 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  V [label = "脑\nbrain (1176)"];
+  L [label = "脑\nbrain (1176)"];
   B [label = "月\nmonth (13)"];
-  U [label = "㐫\nFagin (*)"];
-  H [label = "亠\ntop hat (*)"];
-  E [label = "六\nsix (6)"];
-  D [label = "囧只－口\nanimal legs (*)"];
-  C [label = "八\neight (8)"];
-  G [label = "囧只－口\nanimal legs (*)"];
-  F [label = "八\neight (8)"];
-  T [label = "凶\ncruel (1174)"];
-  I [label = "㐅\nsheaf (*)"];
-  S [label = "坑\npit (323)"];
-  Q [label = "亢\nwhirlwind (*)"];
-  O [label = "亠\ntop hat (*)"];
-  L [label = "六\nsix (6)"];
-  K [label = "囧只－口\nanimal legs (*)"];
-  J [label = "八\neight (8)"];
-  N [label = "囧只－口\nanimal legs (*)"];
-  M [label = "八\neight (8)"];
-  P [label = "几\nhow many? (57)"];
-  R [label = "土\nsoil (158)"];
+  K [label = "㐫\nFagin (*)"];
+  C [label = "亠\ntop hat (*)"];
+  J [label = "凶\ncruel (1174)"];
+  D [label = "㐅\nsheaf (*)"];
+  I [label = "坑\npit (323)"];
+  G [label = "亢\nwhirlwind (*)"];
+  E [label = "亠\ntop hat (*)"];
+  F [label = "几\nhow many? (57)"];
+  H [label = "土\nsoil (158)"];
 
-  B -> V [thick];
-  U -> V [thick];
-  H -> U [thick];
-  E -> H [thick];
-  D -> E [thick];
-  C -> D [thick];
-  G -> H [thick];
-  F -> G [thick];
-  T -> U [thick];
-  I -> T [thick];
-  S -> T [thick];
-  Q -> S [thick];
-  O -> Q [thick];
-  L -> O [thick];
+  B -> L [thick];
   K -> L [thick];
+  C -> K [thick];
   J -> K [thick];
-  N -> O [thick];
-  M -> N [thick];
-  P -> Q [thick];
-  R -> S [thick];
+  D -> J [thick];
+  I -> J [thick];
+  G -> I [thick];
+  E -> G [thick];
+  F -> G [thick];
+  H -> I [thick];
 }

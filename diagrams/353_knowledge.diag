@@ -5,44 +5,32 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  U [label = "识\nknowledge (353)"];
-  E [label = "只\nonly (51)"];
+  O [label = "识\nknowledge (353)"];
+  D [label = "只\nonly (51)"];
   B [label = "口\nmouth (11)"];
-  D [label = "囧只－口\nanimal legs (*)"];
-  C [label = "八\neight (8)"];
-  T [label = "词\nword (1392)"];
-  O [label = "言\nsay (346)"];
-  G [label = "二\ntwo (2)"];
-  F [label = "一\none (1)"];
-  H [label = "口\nmouth (11)"];
-  N [label = "亠\ntop hat (*)"];
-  K [label = "六\nsix (6)"];
-  J [label = "囧只－口\nanimal legs (*)"];
-  I [label = "八\neight (8)"];
-  M [label = "囧只－口\nanimal legs (*)"];
-  L [label = "八\neight (8)"];
-  S [label = "司\ntake charge of (1391)"];
-  P [label = "𠃌\nclothes hanger (*)"];
-  Q [label = "一\none (1)"];
-  R [label = "口\nmouth (11)"];
+  C [label = "只minus口\nanimal legs (*)"];
+  N [label = "词\nword (1392)"];
+  I [label = "言\nsay (346)"];
+  F [label = "二\ntwo (2)"];
+  E [label = "一\none (1)"];
+  G [label = "口\nmouth (11)"];
+  H [label = "亠\ntop hat (*)"];
+  M [label = "司\ntake charge of (1391)"];
+  J [label = "𠃌\nclothes hanger (*)"];
+  K [label = "一\none (1)"];
+  L [label = "口\nmouth (11)"];
 
-  E -> U [thick];
-  B -> E [thick];
-  D -> E [thick];
+  D -> O [thick];
+  B -> D [thick];
   C -> D [thick];
-  T -> U [thick];
-  O -> T [thick];
-  G -> O [thick];
-  F -> G [thick];
-  H -> O [thick];
   N -> O [thick];
-  K -> N [thick];
-  J -> K [thick];
-  I -> J [thick];
+  I -> N [thick];
+  F -> I [thick];
+  E -> F [thick];
+  G -> I [thick];
+  H -> I [thick];
   M -> N [thick];
+  J -> M [thick];
+  K -> M [thick];
   L -> M [thick];
-  S -> T [thick];
-  P -> S [thick];
-  Q -> S [thick];
-  R -> S [thick];
 }
