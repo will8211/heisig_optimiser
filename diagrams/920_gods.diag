@@ -1,0 +1,13 @@
+blockdiag {
+  920 [label = "神\n920 gods"];
+  900 [label = "示\n900 show"];
+  918 [label = "申\n918 express"];
+  12 [label = "日\n12 day"];
+  None [label = "丨\nNone walking stick"];
+  1 [label = "一\n1 one"];
+  900 -> 920;
+  918 -> 920;
+  12 -> 918;
+  None -> 918;
+  1 -> None;
+}

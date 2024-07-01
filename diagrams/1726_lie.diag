@@ -1,0 +1,37 @@
+blockdiag {
+  1726 [label = "谎\n1726 lie"];
+  346 [label = "言\n346 say"];
+  2 [label = "二\n2 two"];
+  1 [label = "一\n1 one"];
+  11 [label = "口\n11 mouth"];
+  None [label = "囧只－口\nNone animal legs"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  1725 [label = "荒\n1725 wasteland"];
+  1724 [label = "芒\n1724 mango"];
+  490 [label = "亡\n490 deceased"];
+  95 [label = "乙\n95 second"];
+  134 [label = "川\n134 stream"];
+  346 -> 1726;
+  2 -> 346;
+  1 -> 2;
+  11 -> 346;
+  None -> 346;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+  1725 -> 1726;
+  1724 -> 1725;
+  None -> 1724;
+  490 -> 1724;
+  None -> 490;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+  95 -> 490;
+  134 -> 1725;
+}

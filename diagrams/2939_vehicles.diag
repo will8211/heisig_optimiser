@@ -1,0 +1,13 @@
+blockdiag {
+  2939 [label = "辆\n2939 vehicles"];
+  300 [label = "车\n300 car"];
+  1478 [label = "两\n1478 dos"];
+  793 [label = "人\n793 person"];
+  None [label = "囧冂\nNone belt"];
+  410 [label = "巾\n410 towel"];
+  300 -> 2939;
+  1478 -> 2939;
+  793 -> 1478;
+  None -> 1478;
+  410 -> None;
+}

@@ -1,0 +1,14 @@
+blockdiag {
+  255 [label = "浩\n255 vast"];
+  137 [label = "水\n137 water"];
+  None [label = "丶\nNone a drop of"];
+  1 [label = "一\n1 one"];
+  11 [label = "口\n11 mouth"];
+  252 [label = "牛\n252 cow"];
+  137 -> 255;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  11 -> 255;
+  252 -> 255;
+}

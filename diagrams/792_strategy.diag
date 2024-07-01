@@ -1,0 +1,14 @@
+blockdiag {
+  792 [label = "策\n792 strategy"];
+  786 [label = "竹\n786 bamboo"];
+  90 [label = "丁\n90 fourth"];
+  None [label = "囧冂\nNone belt"];
+  410 [label = "巾\n410 towel"];
+  202 [label = "木\n202 tree"];
+  786 -> 792;
+  90 -> 786;
+  None -> 792;
+  None -> None;
+  410 -> None;
+  202 -> None;
+}

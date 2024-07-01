@@ -1,0 +1,14 @@
+blockdiag {
+  2369 [label = "宾\n2369 visitor"];
+  1078 [label = "兵\n1078 troops"];
+  1077 [label = "丘\n1077 hill"];
+  924 [label = "斤\n924 catty"];
+  None [label = "宀\nNone house"];
+  8 [label = "八\n8 eight"];
+  1078 -> 2369;
+  1077 -> 1078;
+  924 -> 1077;
+  None -> 1078;
+  8 -> None;
+  None -> 2369;
+}

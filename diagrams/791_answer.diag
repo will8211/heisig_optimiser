@@ -1,0 +1,14 @@
+blockdiag {
+  791 [label = "答\n791 answer"];
+  786 [label = "竹\n786 bamboo"];
+  90 [label = "丁\n90 fourth"];
+  262 [label = "合\n262 fit"];
+  None [label = "𠆢\nNone umbrella"];
+  11 [label = "口\n11 mouth"];
+  786 -> 791;
+  90 -> 786;
+  262 -> 791;
+  None -> 262;
+  None -> None;
+  11 -> 262;
+}

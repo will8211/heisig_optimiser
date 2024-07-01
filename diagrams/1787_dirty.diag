@@ -1,0 +1,26 @@
+blockdiag {
+  1787 [label = "脏\n1787 dirty"];
+  13 [label = "月\n13 month"];
+  562 [label = "庄\n562 hamlet"];
+  186 [label = "洞\n186 cave"];
+  185 [label = "同\n185 same"];
+  1 [label = "一\n1 one"];
+  11 [label = "口\n11 mouth"];
+  None [label = "丶\nNone a drop of"];
+  57 [label = "几\n57 how many?"];
+  137 [label = "水\n137 water"];
+  158 [label = "土\n158 soil"];
+  13 -> 1787;
+  562 -> 1787;
+  186 -> 562;
+  185 -> 186;
+  1 -> 185;
+  11 -> 185;
+  None -> 185;
+  57 -> None;
+  137 -> 186;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  158 -> 562;
+}

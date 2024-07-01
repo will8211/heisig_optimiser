@@ -1,0 +1,17 @@
+blockdiag {
+  199 [label = "寄\n199 mail"];
+  133 [label = "奇\n133 strange"];
+  113 [label = "大\n113 large"];
+  92 [label = "可\n92 can"];
+  90 [label = "丁\n90 fourth"];
+  11 [label = "口\n11 mouth"];
+  None [label = "宀\nNone house"];
+  133 -> 199;
+  113 -> 133;
+  92 -> 133;
+  90 -> 92;
+  11 -> 92;
+  11 -> 133;
+  90 -> 133;
+  None -> 199;
+}

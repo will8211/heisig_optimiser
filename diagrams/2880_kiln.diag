@@ -1,0 +1,16 @@
+blockdiag {
+  2880 [label = "窑\n2880 kiln"];
+  1070 [label = "穴\n1070 hole"];
+  None [label = "缶\nNone tin can"];
+  8 [label = "八\n8 eight"];
+  542 [label = "午\n542 noon"];
+  688 [label = "山\n688 mountain"];
+  1070 -> 2880;
+  None -> 1070;
+  8 -> 1070;
+  None -> 1070;
+  8 -> None;
+  None -> 2880;
+  542 -> None;
+  688 -> None;
+}

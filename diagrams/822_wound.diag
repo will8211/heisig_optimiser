@@ -1,0 +1,13 @@
+blockdiag {
+  822 [label = "伤\n822 wound"];
+  793 [label = "人\n793 person"];
+  None [label = "𠂉\nNone reclining"];
+  63 [label = "肌\n63 muscle"];
+  57 [label = "几\n57 how many?"];
+  13 [label = "月\n13 month"];
+  793 -> 822;
+  None -> 822;
+  63 -> 822;
+  57 -> 63;
+  13 -> 63;
+}

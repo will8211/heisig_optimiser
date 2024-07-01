@@ -1,0 +1,11 @@
+blockdiag {
+  2098 [label = "聚\n2098 assemble"];
+  718 [label = "取\n718 take"];
+  717 [label = "耳\n717 ear"];
+  633 [label = "又\n633 again"];
+  793 [label = "人\n793 person"];
+  718 -> 2098;
+  717 -> 718;
+  633 -> 718;
+  793 -> 2098;
+}

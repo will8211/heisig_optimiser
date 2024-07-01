@@ -1,0 +1,17 @@
+blockdiag {
+  2780 [label = "蟹\n2780 crab"];
+  1364 [label = "解\n1364 untie"];
+  1362 [label = "角\n1362 angle"];
+  None [label = "勹\nNone bound up"];
+  1361 [label = "用\n1361 utilize"];
+  83 [label = "刀\n83 sword"];
+  252 [label = "牛\n252 cow"];
+  509 [label = "虫\n509 insect"];
+  1364 -> 2780;
+  1362 -> 1364;
+  None -> 1362;
+  1361 -> 1362;
+  83 -> 1364;
+  252 -> 1364;
+  509 -> 2780;
+}

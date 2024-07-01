@@ -1,0 +1,11 @@
+blockdiag {
+  529 [label = "美\n529 beautiful"];
+  113 [label = "大\n113 large"];
+  528 [label = "羊\n528 sheep"];
+  None [label = "丷\nNone horns"];
+  1 [label = "一\n1 one"];
+  113 -> 529;
+  528 -> 529;
+  None -> 528;
+  1 -> None;
+}

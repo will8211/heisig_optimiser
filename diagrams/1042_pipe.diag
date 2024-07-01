@@ -1,0 +1,14 @@
+blockdiag {
+  1042 [label = "管\n1042 pipe"];
+  786 [label = "竹\n786 bamboo"];
+  90 [label = "丁\n90 fourth"];
+  1041 [label = "官\n1041 bureaucrat"];
+  None [label = "宀\nNone house"];
+  786 -> 1042;
+  90 -> 786;
+  1041 -> 1042;
+  None -> 1041;
+  None -> None;
+  None -> 1041;
+  None -> 1041;
+}

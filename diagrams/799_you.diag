@@ -1,0 +1,11 @@
+blockdiag {
+  799 [label = "你\n799 you"];
+  793 [label = "人\n793 person"];
+  798 [label = "尔\n798 you (literary)"];
+  109 [label = "小\n109 small"];
+  None [label = "丶\nNone a drop of"];
+  793 -> 799;
+  798 -> 799;
+  109 -> 798;
+  None -> 109;
+}

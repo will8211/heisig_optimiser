@@ -1,0 +1,17 @@
+blockdiag {
+  None [label = "囧只－口\nNone animal legs"];
+  846 [label = "从\n846 follow"];
+  793 [label = "人\n793 person"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  10 [label = "十\n10 ten"];
+  846 -> None;
+  793 -> 846;
+  None -> None;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+  10 -> None;
+}

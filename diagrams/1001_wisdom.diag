@@ -1,0 +1,19 @@
+blockdiag {
+  1001 [label = "智\n1001 wisdom"];
+  1000 [label = "知\n1000 know"];
+  998 [label = "矢\n998 dart"];
+  436 [label = "天\n436 heavens"];
+  1 [label = "一\n1 one"];
+  113 [label = "大\n113 large"];
+  None [label = "丶\nNone a drop of"];
+  11 [label = "口\n11 mouth"];
+  12 [label = "日\n12 day"];
+  1000 -> 1001;
+  998 -> 1000;
+  436 -> 998;
+  1 -> 436;
+  113 -> 436;
+  None -> 998;
+  11 -> 1000;
+  12 -> 1001;
+}

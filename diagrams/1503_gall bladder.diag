@@ -1,0 +1,11 @@
+blockdiag {
+  1503 [label = "胆\n1503 gall bladder"];
+  13 [label = "月\n13 month"];
+  30 [label = "旦\n30 daybreak"];
+  12 [label = "日\n12 day"];
+  1 [label = "一\n1 one"];
+  13 -> 1503;
+  30 -> 1503;
+  12 -> 30;
+  1 -> 30;
+}

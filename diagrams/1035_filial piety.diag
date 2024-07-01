@@ -1,0 +1,15 @@
+blockdiag {
+  1035 [label = "孝\n1035 filial piety"];
+  1029 [label = "老\n1029 old man"];
+  158 [label = "土\n158 soil"];
+  None [label = "丨\nNone walking stick"];
+  1 [label = "一\n1 one"];
+  453 [label = "匕\n453 ancient spoon"];
+  97 [label = "子\n97 child"];
+  1029 -> 1035;
+  158 -> 1029;
+  None -> 1029;
+  1 -> None;
+  453 -> 1029;
+  97 -> 1035;
+}

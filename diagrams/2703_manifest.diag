@@ -1,0 +1,15 @@
+blockdiag {
+  2703 [label = "彰\n2703 manifest"];
+  447 [label = "章\n447 chapter"];
+  26 [label = "早\n26 early"];
+  12 [label = "日\n12 day"];
+  10 [label = "十\n10 ten"];
+  444 [label = "立\n444 standing up"];
+  None [label = "彡\nNone rooster tail"];
+  447 -> 2703;
+  26 -> 447;
+  12 -> 26;
+  10 -> 26;
+  444 -> 447;
+  None -> 2703;
+}

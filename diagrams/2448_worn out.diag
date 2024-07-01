@@ -1,0 +1,12 @@
+blockdiag {
+  2448 [label = "倦\n2448 worn out"];
+  793 [label = "人\n793 person"];
+  2447 [label = "卷\n2447 exam paper"];
+  None [label = "㔾\nNone fingerprint"];
+  980 [label = "半\n980 half"];
+  793 -> 2448;
+  2447 -> 2448;
+  None -> 2447;
+  980 -> None;
+  None -> 2447;
+}

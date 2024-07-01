@@ -1,0 +1,16 @@
+blockdiag {
+  321 [label = "辉\n321 radiance"];
+  130 [label = "光\n130 ray"];
+  109 [label = "小\n109 small"];
+  None [label = "冖\nNone crown"];
+  56 [label = "儿\n56 youngster"];
+  320 [label = "军\n320 army"];
+  300 [label = "车\n300 car"];
+  130 -> 321;
+  109 -> 130;
+  None -> 109;
+  56 -> 130;
+  320 -> 321;
+  None -> 320;
+  300 -> 320;
+}

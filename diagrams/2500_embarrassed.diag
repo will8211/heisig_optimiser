@@ -1,0 +1,11 @@
+blockdiag {
+  2500 [label = "尬\n2500 embarrassed"];
+  None [label = "囧介－𠆢\nNone crutches"];
+  113 [label = "大\n113 large"];
+  259 [label = "介\n259 introduce"];
+  None -> 2500;
+  113 -> None;
+  259 -> 2500;
+  None -> 259;
+  None -> 259;
+}

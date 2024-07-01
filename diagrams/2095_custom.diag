@@ -1,0 +1,14 @@
+blockdiag {
+  2095 [label = "俗\n2095 custom"];
+  793 [label = "人\n793 person"];
+  698 [label = "谷\n698 valley"];
+  None [label = "𠆢\nNone umbrella"];
+  8 [label = "八\n8 eight"];
+  11 [label = "口\n11 mouth"];
+  793 -> 2095;
+  698 -> 2095;
+  None -> 698;
+  8 -> None;
+  None -> 698;
+  11 -> 698;
+}

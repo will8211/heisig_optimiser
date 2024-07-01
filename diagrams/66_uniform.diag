@@ -1,0 +1,9 @@
+blockdiag {
+  66 [label = "匀\n66 uniform"];
+  None [label = "勹\nNone bound up"];
+  2 [label = "二\n2 two"];
+  1 [label = "一\n1 one"];
+  None -> 66;
+  2 -> 66;
+  1 -> 2;
+}

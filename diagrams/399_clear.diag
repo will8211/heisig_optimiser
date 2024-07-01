@@ -1,0 +1,16 @@
+blockdiag {
+  399 [label = "楚\n399 clear"];
+  None [label = "囧走－十\nNone mending"];
+  387 [label = "正\n387 correct"];
+  1 [label = "一\n1 one"];
+  379 [label = "止\n379 stop"];
+  203 [label = "林\n203 woods"];
+  202 [label = "木\n202 tree"];
+  None -> 399;
+  None -> None;
+  387 -> None;
+  1 -> 387;
+  379 -> 387;
+  203 -> 399;
+  202 -> 203;
+}

@@ -1,0 +1,31 @@
+blockdiag {
+  1710 [label = "谐\n1710 in accord"];
+  346 [label = "言\n346 say"];
+  2 [label = "二\n2 two"];
+  1 [label = "一\n1 one"];
+  11 [label = "口\n11 mouth"];
+  None [label = "丶\nNone a drop of"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  459 [label = "皆\n459 all"];
+  456 [label = "比\n456 compare"];
+  453 [label = "匕\n453 ancient spoon"];
+  34 [label = "白\n34 white"];
+  12 [label = "日\n12 day"];
+  346 -> 1710;
+  2 -> 346;
+  1 -> 2;
+  11 -> 346;
+  None -> 346;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+  459 -> 1710;
+  456 -> 459;
+  453 -> 456;
+  34 -> 459;
+  12 -> 34;
+  None -> 34;
+}

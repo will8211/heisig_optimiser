@@ -1,0 +1,8 @@
+blockdiag {
+  2971 [label = "陷\n2971 get stuck"];
+  None [label = "勹\nNone bound up"];
+  None -> 2971;
+  None -> 2971;
+  None -> None;
+  None -> None;
+}

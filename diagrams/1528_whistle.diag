@@ -1,0 +1,13 @@
+blockdiag {
+  1528 [label = "哨\n1528 whistle"];
+  11 [label = "口\n11 mouth"];
+  128 [label = "肖\n128 resemble"];
+  109 [label = "小\n109 small"];
+  None [label = "丶\nNone a drop of"];
+  13 [label = "月\n13 month"];
+  11 -> 1528;
+  128 -> 1528;
+  109 -> 128;
+  None -> 109;
+  13 -> 128;
+}

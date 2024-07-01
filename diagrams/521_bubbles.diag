@@ -1,0 +1,17 @@
+blockdiag {
+  521 [label = "泡\n521 bubbles"];
+  137 [label = "水\n137 water"];
+  None [label = "勹\nNone bound up"];
+  1 [label = "一\n1 one"];
+  520 [label = "包\n520 wrap"];
+  519 [label = "已\n519 already"];
+  515 [label = "己\n515 self"];
+  137 -> 521;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  520 -> 521;
+  None -> 520;
+  519 -> 520;
+  515 -> 519;
+}

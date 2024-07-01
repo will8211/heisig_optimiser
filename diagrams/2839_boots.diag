@@ -1,0 +1,31 @@
+blockdiag {
+  2839 [label = "靴\n2839 boots"];
+  1407 [label = "革\n1407 leather"];
+  976 [label = "廿\n976 twenty"];
+  10 [label = "十\n10 ten"];
+  11 [label = "口\n11 mouth"];
+  1495 [label = "变\n1495 change"];
+  1491 [label = "亦\n1491 likewise"];
+  None [label = "囧只－口\nNone animal legs"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  83 [label = "刀\n83 sword"];
+  633 [label = "又\n633 again"];
+  1407 -> 2839;
+  976 -> 1407;
+  10 -> 976;
+  11 -> 1407;
+  10 -> 1407;
+  1495 -> 2839;
+  1491 -> 1495;
+  None -> 1491;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+  None -> 1491;
+  8 -> None;
+  83 -> 1491;
+  633 -> 1495;
+}

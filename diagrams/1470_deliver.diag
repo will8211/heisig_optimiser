@@ -1,0 +1,15 @@
+blockdiag {
+  1470 [label = "送\n1470 deliver"];
+  1469 [label = "关\n1469 shut"];
+  None [label = "辶\nNone road"];
+  1 [label = "一\n1 one"];
+  436 [label = "天\n436 heavens"];
+  113 [label = "大\n113 large"];
+  1469 -> 1470;
+  None -> 1469;
+  1 -> None;
+  436 -> 1469;
+  1 -> 436;
+  113 -> 436;
+  None -> 1470;
+}

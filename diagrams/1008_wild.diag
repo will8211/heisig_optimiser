@@ -1,0 +1,13 @@
+blockdiag {
+  1008 [label = "野\n1008 wild"];
+  179 [label = "里\n179 li"];
+  14 [label = "田\n14 rice field"];
+  158 [label = "土\n158 soil"];
+  1005 [label = "予\n1005 bestow"];
+  1002 [label = "矛\n1002 spear"];
+  179 -> 1008;
+  14 -> 179;
+  158 -> 179;
+  1005 -> 1008;
+  1002 -> 1005;
+}

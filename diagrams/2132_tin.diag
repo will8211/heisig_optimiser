@@ -1,0 +1,20 @@
+blockdiag {
+  2132 [label = "锡\n2132 tin"];
+  279 [label = "金\n279 gold"];
+  None [label = "豕\nNone sow"];
+  265 [label = "王\n265 king"];
+  76 [label = "工\n76 work"];
+  880 [label = "易\n880 easy"];
+  12 [label = "日\n12 day"];
+  877 [label = "勿\n877 not"];
+  279 -> 2132;
+  None -> 279;
+  265 -> 279;
+  76 -> 265;
+  None -> 279;
+  880 -> 2132;
+  12 -> 880;
+  877 -> 880;
+  None -> 877;
+  None -> None;
+}

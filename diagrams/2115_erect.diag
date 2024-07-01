@@ -1,0 +1,11 @@
+blockdiag {
+  2115 [label = "挺\n2115 erect"];
+  None [label = "廴\nNone stretch"];
+  854 [label = "廷\n854 royal court"];
+  334 [label = "士\n334 soldier"];
+  None -> 2115;
+  854 -> 2115;
+  None -> 854;
+  334 -> None;
+  None -> 854;
+}

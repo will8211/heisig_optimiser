@@ -1,0 +1,12 @@
+blockdiag {
+  2540 [label = "岗\n2540 hillock"];
+  688 [label = "山\n688 mountain"];
+  1170 [label = "冈\n1170 ridge of a hill"];
+  None [label = "㐅\nNone sheaf"];
+  57 [label = "几\n57 how many?"];
+  688 -> 2540;
+  1170 -> 2540;
+  None -> 1170;
+  57 -> None;
+  None -> 1170;
+}

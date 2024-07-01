@@ -1,0 +1,26 @@
+blockdiag {
+  2444 [label = "诵\n2444 read aloud"];
+  346 [label = "言\n346 say"];
+  2 [label = "二\n2 two"];
+  1 [label = "一\n1 one"];
+  11 [label = "口\n11 mouth"];
+  None [label = "囧节－艹\nNone chop"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  13 [label = "月\n13 month"];
+  346 -> 2444;
+  2 -> 346;
+  1 -> 2;
+  11 -> 346;
+  None -> 346;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+  None -> 2444;
+  13 -> None;
+  None -> None;
+  1 -> None;
+  None -> None;
+}

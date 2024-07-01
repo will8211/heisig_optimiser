@@ -1,0 +1,14 @@
+blockdiag {
+  2970 [label = "馅\n2970 filling"];
+  1154 [label = "食\n1154 food"];
+  1151 [label = "良\n1151 high-quality"];
+  None [label = "勹\nNone bound up"];
+  1154 -> 2970;
+  1151 -> 1154;
+  None -> 1151;
+  None -> 1151;
+  None -> 1154;
+  None -> 2970;
+  None -> None;
+  None -> None;
+}

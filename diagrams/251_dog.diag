@@ -1,0 +1,14 @@
+blockdiag {
+  251 [label = "狗\n251 dog"];
+  239 [label = "犬\n239 pooch"];
+  113 [label = "大\n113 large"];
+  None [label = "勹\nNone bound up"];
+  67 [label = "句\n67 sentence"];
+  11 [label = "口\n11 mouth"];
+  239 -> 251;
+  113 -> 239;
+  None -> 239;
+  67 -> 251;
+  None -> 67;
+  11 -> 67;
+}

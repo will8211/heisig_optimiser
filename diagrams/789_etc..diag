@@ -1,0 +1,17 @@
+blockdiag {
+  789 [label = "等\n789 etc."];
+  786 [label = "竹\n786 bamboo"];
+  90 [label = "丁\n90 fourth"];
+  169 [label = "寺\n169 Buddhist temple"];
+  158 [label = "土\n158 soil"];
+  166 [label = "寸\n166 Chinese inch"];
+  None [label = "丶\nNone a drop of"];
+  10 [label = "十\n10 ten"];
+  786 -> 789;
+  90 -> 786;
+  169 -> 789;
+  158 -> 169;
+  166 -> 169;
+  None -> 166;
+  10 -> 166;
+}

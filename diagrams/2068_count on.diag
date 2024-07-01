@@ -1,0 +1,17 @@
+blockdiag {
+  2068 [label = "倚\n2068 count on"];
+  793 [label = "人\n793 person"];
+  133 [label = "奇\n133 strange"];
+  113 [label = "大\n113 large"];
+  92 [label = "可\n92 can"];
+  90 [label = "丁\n90 fourth"];
+  11 [label = "口\n11 mouth"];
+  793 -> 2068;
+  133 -> 2068;
+  113 -> 133;
+  92 -> 133;
+  90 -> 92;
+  11 -> 92;
+  11 -> 133;
+  90 -> 133;
+}

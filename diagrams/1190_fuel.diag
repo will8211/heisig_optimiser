@@ -1,0 +1,20 @@
+blockdiag {
+  1190 [label = "薪\n1190 fuel"];
+  None [label = "丶\nNone a drop of"];
+  1189 [label = "新\n1189 new"];
+  1188 [label = "亲\n1188 relatives"];
+  1183 [label = "辛\n1183 peppery"];
+  444 [label = "立\n444 standing up"];
+  10 [label = "十\n10 ten"];
+  109 [label = "小\n109 small"];
+  924 [label = "斤\n924 catty"];
+  None -> 1190;
+  1189 -> 1190;
+  1188 -> 1189;
+  1183 -> 1188;
+  444 -> 1183;
+  10 -> 1183;
+  109 -> 1188;
+  None -> 109;
+  924 -> 1189;
+}

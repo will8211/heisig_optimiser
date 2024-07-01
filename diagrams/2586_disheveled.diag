@@ -1,0 +1,12 @@
+blockdiag {
+  2586 [label = "蓬\n2586 disheveled"];
+  None [label = "辶\nNone road"];
+  2584 [label = "逢\n2584 chance upon"];
+  1223 [label = "丰\n1223 plentiful"];
+  None -> 2586;
+  2584 -> 2586;
+  None -> 2584;
+  1223 -> None;
+  None -> None;
+  None -> 2584;
+}

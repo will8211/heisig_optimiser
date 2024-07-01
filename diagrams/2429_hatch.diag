@@ -1,0 +1,17 @@
+blockdiag {
+  2429 [label = "孵\n2429 hatch"];
+  2428 [label = "卵\n2428 nest eggs"];
+  None [label = "𠂆\nNone drag"];
+  83 [label = "刀\n83 sword"];
+  663 [label = "爪\n663 claw"];
+  97 [label = "子\n97 child"];
+  2428 -> 2429;
+  None -> 2428;
+  None -> None;
+  83 -> None;
+  None -> 2428;
+  None -> 2429;
+  663 -> None;
+  None -> 663;
+  97 -> None;
+}

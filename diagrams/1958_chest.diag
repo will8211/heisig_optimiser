@@ -1,0 +1,16 @@
+blockdiag {
+  1958 [label = "膛\n1958 chest"];
+  13 [label = "月\n13 month"];
+  706 [label = "堂\n706 main room"];
+  None [label = "丶\nNone a drop of"];
+  109 [label = "小\n109 small"];
+  11 [label = "口\n11 mouth"];
+  158 [label = "土\n158 soil"];
+  13 -> 1958;
+  706 -> 1958;
+  None -> 706;
+  109 -> None;
+  None -> 109;
+  11 -> None;
+  158 -> 706;
+}

@@ -1,0 +1,14 @@
+blockdiag {
+  1214 [label = "静\n1214 quiet"];
+  1208 [label = "青\n1208 blue or green"];
+  None [label = "彐\nNone broom"];
+  13 [label = "月\n13 month"];
+  951 [label = "争\n951 contend"];
+  1208 -> 1214;
+  None -> 1208;
+  13 -> 1208;
+  951 -> 1214;
+  None -> 951;
+  None -> 951;
+  None -> None;
+}

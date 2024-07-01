@@ -1,0 +1,9 @@
+blockdiag {
+  2426 [label = "卸\n2426 unload"];
+  542 [label = "午\n542 noon"];
+  379 [label = "止\n379 stop"];
+  None [label = "卩\nNone stamp"];
+  542 -> 2426;
+  379 -> 2426;
+  None -> 2426;
+}

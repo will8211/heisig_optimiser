@@ -1,0 +1,20 @@
+blockdiag {
+  2266 [label = "揽\n2266 take on"];
+  None [label = "𠂉\nNone reclining"];
+  2265 [label = "览\n2265 view"];
+  1010 [label = "临\n1010 be about to"];
+  12 [label = "日\n12 day"];
+  58 [label = "见\n58 see"];
+  15 [label = "目\n15 eye"];
+  56 [label = "儿\n56 youngster"];
+  None -> 2266;
+  2265 -> 2266;
+  1010 -> 2265;
+  None -> 1010;
+  None -> 1010;
+  None -> 1010;
+  12 -> 1010;
+  58 -> 2265;
+  15 -> 58;
+  56 -> 58;
+}

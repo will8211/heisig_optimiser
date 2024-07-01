@@ -1,0 +1,18 @@
+blockdiag {
+  973 [label = "错\n973 mistaken"];
+  279 [label = "金\n279 gold"];
+  None [label = "艹\nNone flower"];
+  265 [label = "王\n265 king"];
+  76 [label = "工\n76 work"];
+  971 [label = "昔\n971 times past"];
+  12 [label = "日\n12 day"];
+  279 -> 973;
+  None -> 279;
+  265 -> 279;
+  76 -> 265;
+  None -> 279;
+  971 -> 973;
+  None -> 971;
+  None -> None;
+  12 -> 971;
+}

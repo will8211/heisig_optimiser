@@ -1,0 +1,25 @@
+blockdiag {
+  2747 [label = "谊\n2747 friendship"];
+  346 [label = "言\n346 say"];
+  2 [label = "二\n2 two"];
+  1 [label = "一\n1 one"];
+  11 [label = "口\n11 mouth"];
+  None [label = "宀\nNone house"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  2746 [label = "宜\n2746 fitting"];
+  1343 [label = "且\n1343 moreover"];
+  346 -> 2747;
+  2 -> 346;
+  1 -> 2;
+  11 -> 346;
+  None -> 346;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+  2746 -> 2747;
+  None -> 2746;
+  1343 -> 2746;
+}

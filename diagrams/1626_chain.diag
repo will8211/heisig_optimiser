@@ -1,0 +1,17 @@
+blockdiag {
+  1626 [label = "链\n1626 chain"];
+  279 [label = "金\n279 gold"];
+  None [label = "辶\nNone road"];
+  265 [label = "王\n265 king"];
+  76 [label = "工\n76 work"];
+  301 [label = "连\n301 one after another"];
+  300 [label = "车\n300 car"];
+  279 -> 1626;
+  None -> 279;
+  265 -> 279;
+  76 -> 265;
+  None -> 279;
+  301 -> 1626;
+  300 -> 301;
+  None -> 301;
+}

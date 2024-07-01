@@ -1,0 +1,12 @@
+blockdiag {
+  539 [label = "准\n539 standard"];
+  None [label = "隹\nNone turkey"];
+  137 [label = "水\n137 water"];
+  1 [label = "一\n1 one"];
+  None -> 539;
+  137 -> None;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  None -> 539;
+}

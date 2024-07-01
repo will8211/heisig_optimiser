@@ -1,0 +1,16 @@
+blockdiag {
+  2833 [label = "氨\n2833 ammonia"];
+  1404 [label = "气\n1404 air"];
+  None [label = "宀\nNone house"];
+  1 [label = "一\n1 one"];
+  95 [label = "乙\n95 second"];
+  197 [label = "安\n197 peaceful"];
+  102 [label = "女\n102 woman"];
+  1404 -> 2833;
+  None -> 1404;
+  1 -> 1404;
+  95 -> 1404;
+  197 -> 2833;
+  102 -> 197;
+  None -> 197;
+}

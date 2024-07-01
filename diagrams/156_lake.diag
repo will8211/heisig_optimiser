@@ -1,0 +1,18 @@
+blockdiag {
+  156 [label = "湖\n156 lake"];
+  137 [label = "水\n137 water"];
+  None [label = "丶\nNone a drop of"];
+  1 [label = "一\n1 one"];
+  16 [label = "古\n16 ancient"];
+  10 [label = "十\n10 ten"];
+  11 [label = "口\n11 mouth"];
+  13 [label = "月\n13 month"];
+  137 -> 156;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  16 -> 156;
+  10 -> 16;
+  11 -> 16;
+  13 -> 156;
+}

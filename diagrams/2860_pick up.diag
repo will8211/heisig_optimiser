@@ -1,0 +1,20 @@
+blockdiag {
+  2860 [label = "捡\n2860 pick up"];
+  None [label = "扌\nNone fingers"];
+  1 [label = "一\n1 one"];
+  594 [label = "指\n594 finger"];
+  463 [label = "旨\n463 purpose"];
+  453 [label = "匕\n453 ancient spoon"];
+  12 [label = "日\n12 day"];
+  None -> 2860;
+  None -> 2860;
+  None -> None;
+  None -> None;
+  None -> None;
+  1 -> None;
+  594 -> 2860;
+  None -> 594;
+  463 -> 594;
+  453 -> 463;
+  12 -> 463;
+}

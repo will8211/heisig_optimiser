@@ -1,0 +1,18 @@
+blockdiag {
+  2819 [label = "饲\n2819 rear"];
+  1154 [label = "食\n1154 food"];
+  1151 [label = "良\n1151 high-quality"];
+  None [label = "𠃌\nNone clothes hanger"];
+  1391 [label = "司\n1391 take charge of"];
+  1 [label = "一\n1 one"];
+  11 [label = "口\n11 mouth"];
+  1154 -> 2819;
+  1151 -> 1154;
+  None -> 1151;
+  None -> 1151;
+  None -> 1154;
+  1391 -> 2819;
+  None -> 1391;
+  1 -> 1391;
+  11 -> 1391;
+}

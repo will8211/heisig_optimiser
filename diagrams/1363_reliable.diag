@@ -1,0 +1,15 @@
+blockdiag {
+  1363 [label = "确\n1363 reliable"];
+  125 [label = "石\n125 stone"];
+  11 [label = "口\n11 mouth"];
+  121 [label = "厂\n121 factory"];
+  1362 [label = "角\n1362 angle"];
+  None [label = "勹\nNone bound up"];
+  1361 [label = "用\n1361 utilize"];
+  125 -> 1363;
+  11 -> 125;
+  121 -> 125;
+  1362 -> 1363;
+  None -> 1362;
+  1361 -> 1362;
+}

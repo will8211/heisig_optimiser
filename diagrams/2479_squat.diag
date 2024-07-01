@@ -1,0 +1,21 @@
+blockdiag {
+  2479 [label = "蹲\n2479 squat"];
+  1048 [label = "足\n1048 lower leg"];
+  11 [label = "口\n11 mouth"];
+  379 [label = "止\n379 stop"];
+  1128 [label = "酋\n1128 chieftain"];
+  None [label = "丶\nNone a drop of"];
+  1 [label = "一\n1 one"];
+  166 [label = "寸\n166 Chinese inch"];
+  10 [label = "十\n10 ten"];
+  1048 -> 2479;
+  11 -> 1048;
+  379 -> 1048;
+  1128 -> 2479;
+  None -> 1128;
+  1 -> None;
+  None -> 1128;
+  166 -> 2479;
+  None -> 166;
+  10 -> 166;
+}

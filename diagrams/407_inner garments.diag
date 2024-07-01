@@ -1,0 +1,19 @@
+blockdiag {
+  407 [label = "衬\n407 inner garments"];
+  166 [label = "寸\n166 Chinese inch"];
+  None [label = "囧只－口\nNone animal legs"];
+  10 [label = "十\n10 ten"];
+  400 [label = "衣\n400 clothing"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  166 -> 407;
+  None -> 166;
+  10 -> 166;
+  400 -> 407;
+  None -> 400;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+}

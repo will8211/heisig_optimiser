@@ -1,0 +1,24 @@
+blockdiag {
+  1733 [label = "膀\n1733 upper arm"];
+  13 [label = "月\n13 month"];
+  None [label = "囧只－口\nNone animal legs"];
+  498 [label = "旁\n498 side"];
+  444 [label = "立\n444 standing up"];
+  494 [label = "方\n494 direction"];
+  83 [label = "刀\n83 sword"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  13 -> 1733;
+  None -> 1733;
+  498 -> None;
+  444 -> 498;
+  None -> 498;
+  494 -> 498;
+  83 -> 494;
+  None -> 494;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+}

@@ -1,0 +1,18 @@
+blockdiag {
+  2522 [label = "饱\n2522 sated"];
+  1154 [label = "食\n1154 food"];
+  1151 [label = "良\n1151 high-quality"];
+  None [label = "勹\nNone bound up"];
+  520 [label = "包\n520 wrap"];
+  519 [label = "已\n519 already"];
+  515 [label = "己\n515 self"];
+  1154 -> 2522;
+  1151 -> 1154;
+  None -> 1151;
+  None -> 1151;
+  None -> 1154;
+  520 -> 2522;
+  None -> 520;
+  519 -> 520;
+  515 -> 519;
+}

@@ -1,0 +1,15 @@
+blockdiag {
+  2696 [label = "僚\n2696 coworker"];
+  793 [label = "人\n793 person"];
+  None [label = "丶\nNone a drop of"];
+  113 [label = "大\n113 large"];
+  12 [label = "日\n12 day"];
+  109 [label = "小\n109 small"];
+  793 -> 2696;
+  None -> 2696;
+  113 -> None;
+  None -> None;
+  12 -> None;
+  109 -> None;
+  None -> 109;
+}

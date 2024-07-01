@@ -1,0 +1,15 @@
+blockdiag {
+  430 [label = "冰\n430 ice"];
+  137 [label = "水\n137 water"];
+  None [label = "丶\nNone a drop of"];
+  1 [label = "一\n1 one"];
+  137 -> 430;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  None -> 430;
+  137 -> None;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+}

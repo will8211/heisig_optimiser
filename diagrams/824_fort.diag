@@ -1,0 +1,15 @@
+blockdiag {
+  824 [label = "堡\n824 fort"];
+  823 [label = "保\n823 safeguard"];
+  793 [label = "人\n793 person"];
+  209 [label = "呆\n209 dim-witted"];
+  202 [label = "木\n202 tree"];
+  11 [label = "口\n11 mouth"];
+  158 [label = "土\n158 soil"];
+  823 -> 824;
+  793 -> 823;
+  209 -> 823;
+  202 -> 209;
+  11 -> 209;
+  158 -> 824;
+}

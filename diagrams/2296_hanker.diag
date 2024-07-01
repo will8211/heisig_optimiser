@@ -1,0 +1,17 @@
+blockdiag {
+  2296 [label = "嗜\n2296 hanker"];
+  11 [label = "口\n11 mouth"];
+  1029 [label = "老\n1029 old man"];
+  158 [label = "土\n158 soil"];
+  None [label = "丨\nNone walking stick"];
+  1 [label = "一\n1 one"];
+  453 [label = "匕\n453 ancient spoon"];
+  12 [label = "日\n12 day"];
+  11 -> 2296;
+  1029 -> 2296;
+  158 -> 1029;
+  None -> 1029;
+  1 -> None;
+  453 -> 1029;
+  12 -> 2296;
+}

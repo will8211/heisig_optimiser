@@ -1,0 +1,20 @@
+blockdiag {
+  1031 [label = "烤\n1031 roast"];
+  170 [label = "火\n170 fire"];
+  1030 [label = "考\n1030 take an exam"];
+  1029 [label = "老\n1029 old man"];
+  158 [label = "土\n158 soil"];
+  None [label = "囧与－一\nNone slingshot"];
+  1 [label = "一\n1 one"];
+  453 [label = "匕\n453 ancient spoon"];
+  1013 [label = "弓\n1013 bow"];
+  170 -> 1031;
+  1030 -> 1031;
+  1029 -> 1030;
+  158 -> 1029;
+  None -> 1029;
+  1 -> None;
+  453 -> 1029;
+  None -> 1030;
+  1013 -> None;
+}

@@ -1,0 +1,25 @@
+blockdiag {
+  1672 [label = "趟\n1672 trip"];
+  391 [label = "走\n391 walk"];
+  None [label = "冂\nNone hood"];
+  387 [label = "正\n387 correct"];
+  1 [label = "一\n1 one"];
+  379 [label = "止\n379 stop"];
+  158 [label = "土\n158 soil"];
+  190 [label = "尚\n190 esteem"];
+  109 [label = "小\n109 small"];
+  57 [label = "几\n57 how many?"];
+  11 [label = "口\n11 mouth"];
+  391 -> 1672;
+  None -> 391;
+  387 -> None;
+  1 -> 387;
+  379 -> 387;
+  158 -> 391;
+  190 -> 1672;
+  109 -> 190;
+  None -> 109;
+  None -> 190;
+  57 -> None;
+  11 -> 190;
+}

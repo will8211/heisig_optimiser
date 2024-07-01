@@ -1,0 +1,13 @@
+blockdiag {
+  603 [label = "热\n603 heat"];
+  602 [label = "执\n602 clench"];
+  None [label = "扌\nNone fingers"];
+  42 [label = "丸\n42 pill"];
+  9 [label = "九\n9 nine"];
+  170 [label = "火\n170 fire"];
+  602 -> 603;
+  None -> 602;
+  42 -> 602;
+  9 -> 42;
+  170 -> 603;
+}

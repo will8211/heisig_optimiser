@@ -1,0 +1,18 @@
+blockdiag {
+  852 [label = "渴\n852 thirsty"];
+  137 [label = "水\n137 water"];
+  None [label = "勹\nNone bound up"];
+  1 [label = "一\n1 one"];
+  793 [label = "人\n793 person"];
+  95 [label = "乙\n95 second"];
+  12 [label = "日\n12 day"];
+  137 -> 852;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  None -> 852;
+  793 -> None;
+  None -> None;
+  95 -> None;
+  12 -> None;
+}

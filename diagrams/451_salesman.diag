@@ -1,0 +1,14 @@
+blockdiag {
+  451 [label = "商\n451 salesman"];
+  444 [label = "立\n444 standing up"];
+  None [label = "囧只－口\nNone animal legs"];
+  57 [label = "几\n57 how many?"];
+  8 [label = "八\n8 eight"];
+  11 [label = "口\n11 mouth"];
+  444 -> 451;
+  None -> 451;
+  57 -> None;
+  None -> 451;
+  8 -> None;
+  11 -> 451;
+}

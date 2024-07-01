@@ -1,0 +1,19 @@
+blockdiag {
+  2301 [label = "睹\n2301 behold"];
+  15 [label = "目\n15 eye"];
+  1037 [label = "者\n1037 someone"];
+  1029 [label = "老\n1029 old man"];
+  158 [label = "土\n158 soil"];
+  None [label = "丨\nNone walking stick"];
+  1 [label = "一\n1 one"];
+  453 [label = "匕\n453 ancient spoon"];
+  12 [label = "日\n12 day"];
+  15 -> 2301;
+  1037 -> 2301;
+  1029 -> 1037;
+  158 -> 1029;
+  None -> 1029;
+  1 -> None;
+  453 -> 1029;
+  12 -> 1037;
+}

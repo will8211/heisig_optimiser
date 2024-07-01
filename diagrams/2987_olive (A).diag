@@ -1,0 +1,13 @@
+blockdiag {
+  2987 [label = "橄\n2987 olive (A)"];
+  202 [label = "木\n202 tree"];
+  722 [label = "敢\n722 brave"];
+  90 [label = "丁\n90 fourth"];
+  717 [label = "耳\n717 ear"];
+  None [label = "攵\nNone taskmaster"];
+  202 -> 2987;
+  722 -> 2987;
+  90 -> 722;
+  717 -> 722;
+  None -> 722;
+}

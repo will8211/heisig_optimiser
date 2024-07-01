@@ -1,0 +1,12 @@
+blockdiag {
+  2432 [label = "俘\n2432 captive"];
+  793 [label = "人\n793 person"];
+  None [label = "𠂆\nNone drag"];
+  663 [label = "爪\n663 claw"];
+  97 [label = "子\n97 child"];
+  793 -> 2432;
+  None -> 2432;
+  663 -> None;
+  None -> 663;
+  97 -> None;
+}

@@ -1,0 +1,31 @@
+blockdiag {
+  1788 [label = "赃\n1788 stolen goods"];
+  52 [label = "贝\n52 shellfish"];
+  15 [label = "目\n15 eye"];
+  None [label = "丶\nNone a drop of"];
+  8 [label = "八\n8 eight"];
+  562 [label = "庄\n562 hamlet"];
+  186 [label = "洞\n186 cave"];
+  185 [label = "同\n185 same"];
+  1 [label = "一\n1 one"];
+  11 [label = "口\n11 mouth"];
+  57 [label = "几\n57 how many?"];
+  137 [label = "水\n137 water"];
+  158 [label = "土\n158 soil"];
+  52 -> 1788;
+  15 -> 52;
+  None -> 52;
+  8 -> None;
+  562 -> 1788;
+  186 -> 562;
+  185 -> 186;
+  1 -> 185;
+  11 -> 185;
+  None -> 185;
+  57 -> None;
+  137 -> 186;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  158 -> 562;
+}

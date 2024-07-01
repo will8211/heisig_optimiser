@@ -1,0 +1,22 @@
+blockdiag {
+  709 [label = "婆\n709 old woman"];
+  708 [label = "波\n708 waves"];
+  137 [label = "水\n137 water"];
+  None [label = "丶\nNone a drop of"];
+  1 [label = "一\n1 one"];
+  707 [label = "皮\n707 covering"];
+  650 [label = "支\n650 offshoot"];
+  10 [label = "十\n10 ten"];
+  633 [label = "又\n633 again"];
+  102 [label = "女\n102 woman"];
+  708 -> 709;
+  137 -> 708;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  707 -> 708;
+  650 -> 707;
+  10 -> 650;
+  633 -> 650;
+  102 -> 709;
+}

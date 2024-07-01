@@ -1,0 +1,18 @@
+blockdiag {
+  2216 [label = "赚\n2216 earn"];
+  52 [label = "贝\n52 shellfish"];
+  15 [label = "目\n15 eye"];
+  None [label = "彐\nNone broom"];
+  8 [label = "八\n8 eight"];
+  2215 [label = "兼\n2215 double"];
+  1 [label = "一\n1 one"];
+  52 -> 2216;
+  15 -> 52;
+  None -> 52;
+  8 -> None;
+  2215 -> 2216;
+  None -> 2215;
+  1 -> None;
+  None -> 2215;
+  None -> None;
+}

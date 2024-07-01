@@ -1,0 +1,9 @@
+blockdiag {
+  1620 [label = "辽\n1620 far away"];
+  101 [label = "了\n101 -ed"];
+  97 [label = "子\n97 child"];
+  None [label = "辶\nNone road"];
+  101 -> 1620;
+  97 -> 101;
+  None -> 1620;
+}

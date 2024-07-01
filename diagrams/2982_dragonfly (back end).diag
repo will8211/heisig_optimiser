@@ -1,0 +1,12 @@
+blockdiag {
+  2982 [label = "蜓\n2982 dragonfly (back end)"];
+  509 [label = "虫\n509 insect"];
+  854 [label = "廷\n854 royal court"];
+  None [label = "廴\nNone stretch"];
+  334 [label = "士\n334 soldier"];
+  509 -> 2982;
+  854 -> 2982;
+  None -> 854;
+  334 -> None;
+  None -> 854;
+}

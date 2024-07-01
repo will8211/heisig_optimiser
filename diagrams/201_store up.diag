@@ -1,0 +1,14 @@
+blockdiag {
+  201 [label = "贮\n201 store up"];
+  52 [label = "贝\n52 shellfish"];
+  15 [label = "目\n15 eye"];
+  None [label = "宀\nNone house"];
+  8 [label = "八\n8 eight"];
+  1 [label = "一\n1 one"];
+  52 -> 201;
+  15 -> 52;
+  None -> 52;
+  8 -> None;
+  None -> 201;
+  1 -> 201;
+}

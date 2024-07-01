@@ -1,0 +1,13 @@
+blockdiag {
+  2392 [label = "绅\n2392 gentry"];
+  None [label = "丨\nNone walking stick"];
+  918 [label = "申\n918 express"];
+  12 [label = "日\n12 day"];
+  1 [label = "一\n1 one"];
+  None -> 2392;
+  None -> None;
+  918 -> 2392;
+  12 -> 918;
+  None -> 918;
+  1 -> None;
+}

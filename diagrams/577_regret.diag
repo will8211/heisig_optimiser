@@ -1,0 +1,20 @@
+blockdiag {
+  577 [label = "憾\n577 regret"];
+  563 [label = "心\n563 heart"];
+  576 [label = "感\n576 feel"];
+  372 [label = "咸\n372 salty"];
+  11 [label = "口\n11 mouth"];
+  None [label = "弋\nNone arrow"];
+  361 [label = "戈\n361 halberd"];
+  1 [label = "一\n1 one"];
+  563 -> 577;
+  576 -> 577;
+  372 -> 576;
+  11 -> 372;
+  None -> 372;
+  None -> None;
+  361 -> None;
+  None -> 361;
+  1 -> None;
+  563 -> 576;
+}

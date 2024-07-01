@@ -1,0 +1,16 @@
+blockdiag {
+  1317 [label = "这\n1317 this"];
+  1315 [label = "文\n1315 literature"];
+  None [label = "辶\nNone road"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  1315 -> 1317;
+  None -> 1315;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+  None -> 1315;
+  None -> 1317;
+}

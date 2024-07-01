@@ -1,0 +1,11 @@
+blockdiag {
+  753 [label = "雾\n753 fog"];
+  425 [label = "雨\n425 rain"];
+  752 [label = "务\n752 tasks"];
+  None [label = "夂\nNone walking legs"];
+  732 [label = "力\n732 power"];
+  425 -> 753;
+  752 -> 753;
+  None -> 752;
+  732 -> 752;
+}

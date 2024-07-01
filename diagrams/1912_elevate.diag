@@ -1,0 +1,10 @@
+blockdiag {
+  1912 [label = "抬\n1912 elevate"];
+  None [label = "厶\nNone elbow"];
+  672 [label = "台\n672 platform"];
+  11 [label = "口\n11 mouth"];
+  None -> 1912;
+  672 -> 1912;
+  None -> 672;
+  11 -> 672;
+}

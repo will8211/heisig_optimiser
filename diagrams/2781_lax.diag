@@ -1,0 +1,17 @@
+blockdiag {
+  2781 [label = "懈\n2781 lax"];
+  563 [label = "心\n563 heart"];
+  1364 [label = "解\n1364 untie"];
+  1362 [label = "角\n1362 angle"];
+  None [label = "勹\nNone bound up"];
+  1361 [label = "用\n1361 utilize"];
+  83 [label = "刀\n83 sword"];
+  252 [label = "牛\n252 cow"];
+  563 -> 2781;
+  1364 -> 2781;
+  1362 -> 1364;
+  None -> 1362;
+  1361 -> 1362;
+  83 -> 1364;
+  252 -> 1364;
+}

@@ -1,0 +1,14 @@
+blockdiag {
+  2805 [label = "鄙\n2805 despicable"];
+  11 [label = "口\n11 mouth"];
+  10 [label = "十\n10 ten"];
+  554 [label = "回\n554 return"];
+  None [label = "阝\nNone pinnacle"];
+  11 -> 2805;
+  10 -> 2805;
+  554 -> 2805;
+  None -> 554;
+  11 -> 554;
+  None -> 2805;
+  None -> None;
+}

@@ -1,0 +1,36 @@
+blockdiag {
+  2221 [label = "镰\n2221 sickle"];
+  279 [label = "金\n279 gold"];
+  None [label = "彐\nNone broom"];
+  265 [label = "王\n265 king"];
+  76 [label = "工\n76 work"];
+  2220 [label = "廉\n2220 inexpensive"];
+  186 [label = "洞\n186 cave"];
+  185 [label = "同\n185 same"];
+  1 [label = "一\n1 one"];
+  11 [label = "口\n11 mouth"];
+  57 [label = "几\n57 how many?"];
+  137 [label = "水\n137 water"];
+  2215 [label = "兼\n2215 double"];
+  279 -> 2221;
+  None -> 279;
+  265 -> 279;
+  76 -> 265;
+  None -> 279;
+  2220 -> 2221;
+  186 -> 2220;
+  185 -> 186;
+  1 -> 185;
+  11 -> 185;
+  None -> 185;
+  57 -> None;
+  137 -> 186;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  2215 -> 2220;
+  None -> 2215;
+  1 -> None;
+  None -> 2215;
+  None -> None;
+}

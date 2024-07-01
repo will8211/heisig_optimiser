@@ -1,0 +1,15 @@
+blockdiag {
+  2501 [label = "沈\n2501 Shen"];
+  137 [label = "水\n137 water"];
+  None [label = "冖\nNone crown"];
+  1 [label = "一\n1 one"];
+  113 [label = "大\n113 large"];
+  137 -> 2501;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  None -> 2501;
+  None -> None;
+  113 -> None;
+  None -> None;
+}

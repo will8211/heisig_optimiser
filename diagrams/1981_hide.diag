@@ -1,0 +1,12 @@
+blockdiag {
+  1981 [label = "藏\n1981 hide"];
+  None [label = "弋\nNone arrow"];
+  361 [label = "戈\n361 halberd"];
+  731 [label = "臣\n731 feudal official"];
+  None -> 1981;
+  None -> 1981;
+  None -> 1981;
+  361 -> None;
+  None -> 361;
+  731 -> 1981;
+}

@@ -1,0 +1,12 @@
+blockdiag {
+  298 [label = "逊\n298 modest"];
+  112 [label = "孙\n112 grandchild"];
+  97 [label = "子\n97 child"];
+  109 [label = "小\n109 small"];
+  None [label = "辶\nNone road"];
+  112 -> 298;
+  97 -> 112;
+  109 -> 112;
+  None -> 109;
+  None -> 298;
+}

@@ -1,0 +1,13 @@
+blockdiag {
+  904 [label = "福\n904 happiness"];
+  900 [label = "示\n900 show"];
+  None [label = "畐\nNone wealth"];
+  1 [label = "一\n1 one"];
+  11 [label = "口\n11 mouth"];
+  14 [label = "田\n14 rice field"];
+  900 -> 904;
+  None -> 904;
+  1 -> None;
+  11 -> None;
+  14 -> None;
+}

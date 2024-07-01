@@ -1,0 +1,12 @@
+blockdiag {
+  2127 [label = "捞\n2127 scoop up"];
+  None [label = "艹\nNone flower"];
+  868 [label = "劳\n868 labor"];
+  732 [label = "力\n732 power"];
+  None -> 2127;
+  868 -> 2127;
+  None -> 868;
+  None -> None;
+  None -> None;
+  732 -> 868;
+}

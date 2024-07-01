@@ -1,0 +1,20 @@
+blockdiag {
+  285 [label = "铭\n285 inscription"];
+  119 [label = "名\n119 name"];
+  115 [label = "夕\n115 evening"];
+  13 [label = "月\n13 month"];
+  11 [label = "口\n11 mouth"];
+  279 [label = "金\n279 gold"];
+  None [label = "丶\nNone a drop of"];
+  265 [label = "王\n265 king"];
+  76 [label = "工\n76 work"];
+  119 -> 285;
+  115 -> 119;
+  13 -> 115;
+  11 -> 119;
+  279 -> 285;
+  None -> 279;
+  265 -> 279;
+  76 -> 265;
+  None -> 279;
+}

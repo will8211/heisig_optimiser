@@ -1,0 +1,13 @@
+blockdiag {
+  1098 [label = "药\n1098 medicine"];
+  None [label = "丶\nNone a drop of"];
+  1090 [label = "约\n1090 make an appointment"];
+  69 [label = "勺\n69 ladle"];
+  None -> 1098;
+  1090 -> 1098;
+  None -> 1090;
+  None -> None;
+  69 -> 1090;
+  None -> 69;
+  None -> 69;
+}

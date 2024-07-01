@@ -1,0 +1,14 @@
+blockdiag {
+  374 [label = "浅\n374 shallow"];
+  None [label = "丶\nNone a drop of"];
+  361 [label = "戈\n361 halberd"];
+  137 [label = "水\n137 water"];
+  1 [label = "一\n1 one"];
+  None -> 374;
+  361 -> None;
+  None -> 361;
+  137 -> 374;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+}

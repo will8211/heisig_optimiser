@@ -1,0 +1,16 @@
+blockdiag {
+  2409 [label = "溪\n2409 creek"];
+  137 [label = "水\n137 water"];
+  None [label = "幺\nNone cocoon"];
+  1 [label = "一\n1 one"];
+  663 [label = "爪\n663 claw"];
+  113 [label = "大\n113 large"];
+  137 -> 2409;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  663 -> 2409;
+  None -> 663;
+  None -> 2409;
+  113 -> 2409;
+}

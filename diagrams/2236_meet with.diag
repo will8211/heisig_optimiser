@@ -1,0 +1,14 @@
+blockdiag {
+  2236 [label = "遭\n2236 meet with"];
+  None [label = "辶\nNone road"];
+  1 [label = "一\n1 one"];
+  967 [label = "曲\n967 bent"];
+  14 [label = "田\n14 rice field"];
+  12 [label = "日\n12 day"];
+  None -> 2236;
+  1 -> None;
+  967 -> None;
+  14 -> 967;
+  12 -> None;
+  None -> 2236;
+}

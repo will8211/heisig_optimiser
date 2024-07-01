@@ -1,0 +1,11 @@
+blockdiag {
+  2206 [label = "挡\n2206 fend off"];
+  None [label = "彐\nNone broom"];
+  947 [label = "当\n947 work as"];
+  109 [label = "小\n109 small"];
+  None -> 2206;
+  947 -> 2206;
+  109 -> 947;
+  None -> 109;
+  None -> 947;
+}

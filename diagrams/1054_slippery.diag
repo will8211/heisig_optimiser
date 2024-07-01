@@ -1,0 +1,15 @@
+blockdiag {
+  1054 [label = "滑\n1054 slippery"];
+  137 [label = "水\n137 water"];
+  None [label = "冖\nNone crown"];
+  1 [label = "一\n1 one"];
+  1053 [label = "骨\n1053 skeleton"];
+  13 [label = "月\n13 month"];
+  137 -> 1054;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  1053 -> 1054;
+  13 -> 1053;
+  None -> 1053;
+}

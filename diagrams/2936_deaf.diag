@@ -1,0 +1,15 @@
+blockdiag {
+  2936 [label = "聋\n2936 deaf"];
+  1474 [label = "龙\n1474 dragon"];
+  239 [label = "犬\n239 pooch"];
+  113 [label = "大\n113 large"];
+  None [label = "丶\nNone a drop of"];
+  453 [label = "匕\n453 ancient spoon"];
+  717 [label = "耳\n717 ear"];
+  1474 -> 2936;
+  239 -> 1474;
+  113 -> 239;
+  None -> 239;
+  453 -> 1474;
+  717 -> 2936;
+}

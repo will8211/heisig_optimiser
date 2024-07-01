@@ -1,0 +1,15 @@
+blockdiag {
+  1776 [label = "翰\n1776 writing brush"];
+  None [label = "𠆢\nNone umbrella"];
+  26 [label = "早\n26 early"];
+  12 [label = "日\n12 day"];
+  10 [label = "十\n10 ten"];
+  544 [label = "羽\n544 feathers"];
+  None -> 1776;
+  26 -> None;
+  12 -> 26;
+  10 -> 26;
+  10 -> None;
+  None -> 1776;
+  544 -> 1776;
+}

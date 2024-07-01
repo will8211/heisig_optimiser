@@ -1,0 +1,13 @@
+blockdiag {
+  2151 [label = "昼\n2151 daylight"];
+  894 [label = "尺\n894 ruler"];
+  882 [label = "尸\n882 corpse"];
+  30 [label = "旦\n30 daybreak"];
+  12 [label = "日\n12 day"];
+  1 [label = "一\n1 one"];
+  894 -> 2151;
+  882 -> 894;
+  30 -> 2151;
+  12 -> 30;
+  1 -> 30;
+}

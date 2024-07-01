@@ -1,0 +1,17 @@
+blockdiag {
+  1704 [label = "匙\n1704 spoon"];
+  394 [label = "是\n394 be"];
+  None [label = "囧走－十\nNone mending"];
+  387 [label = "正\n387 correct"];
+  1 [label = "一\n1 one"];
+  379 [label = "止\n379 stop"];
+  12 [label = "日\n12 day"];
+  453 [label = "匕\n453 ancient spoon"];
+  394 -> 1704;
+  None -> 394;
+  387 -> None;
+  1 -> 387;
+  379 -> 387;
+  12 -> 394;
+  453 -> 1704;
+}

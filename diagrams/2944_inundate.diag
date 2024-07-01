@@ -1,0 +1,15 @@
+blockdiag {
+  2944 [label = "淹\n2944 inundate"];
+  137 [label = "水\n137 water"];
+  None [label = "奄\nNone hang glider"];
+  1 [label = "一\n1 one"];
+  1484 [label = "电\n1484 electricity"];
+  113 [label = "大\n113 large"];
+  137 -> 2944;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  None -> 2944;
+  1484 -> None;
+  113 -> None;
+}

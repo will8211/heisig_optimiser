@@ -1,0 +1,11 @@
+blockdiag {
+  220 [label = "查\n220 investigate"];
+  30 [label = "旦\n30 daybreak"];
+  12 [label = "日\n12 day"];
+  1 [label = "一\n1 one"];
+  202 [label = "木\n202 tree"];
+  30 -> 220;
+  12 -> 30;
+  1 -> 30;
+  202 -> 220;
+}

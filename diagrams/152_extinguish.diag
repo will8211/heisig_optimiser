@@ -1,0 +1,17 @@
+blockdiag {
+  152 [label = "消\n152 extinguish"];
+  137 [label = "水\n137 water"];
+  None [label = "丶\nNone a drop of"];
+  1 [label = "一\n1 one"];
+  128 [label = "肖\n128 resemble"];
+  109 [label = "小\n109 small"];
+  13 [label = "月\n13 month"];
+  137 -> 152;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  128 -> 152;
+  109 -> 128;
+  None -> 109;
+  13 -> 128;
+}

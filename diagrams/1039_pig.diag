@@ -1,0 +1,22 @@
+blockdiag {
+  1039 [label = "猪\n1039 pig"];
+  239 [label = "犬\n239 pooch"];
+  113 [label = "大\n113 large"];
+  None [label = "丨\nNone walking stick"];
+  1037 [label = "者\n1037 someone"];
+  1029 [label = "老\n1029 old man"];
+  158 [label = "土\n158 soil"];
+  1 [label = "一\n1 one"];
+  453 [label = "匕\n453 ancient spoon"];
+  12 [label = "日\n12 day"];
+  239 -> 1039;
+  113 -> 239;
+  None -> 239;
+  1037 -> 1039;
+  1029 -> 1037;
+  158 -> 1029;
+  None -> 1029;
+  1 -> None;
+  453 -> 1029;
+  12 -> 1037;
+}

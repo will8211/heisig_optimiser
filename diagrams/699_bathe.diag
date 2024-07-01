@@ -1,0 +1,18 @@
+blockdiag {
+  699 [label = "浴\n699 bathe"];
+  137 [label = "水\n137 water"];
+  None [label = "𠆢\nNone umbrella"];
+  1 [label = "一\n1 one"];
+  698 [label = "谷\n698 valley"];
+  8 [label = "八\n8 eight"];
+  11 [label = "口\n11 mouth"];
+  137 -> 699;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  698 -> 699;
+  None -> 698;
+  8 -> None;
+  None -> 698;
+  11 -> 698;
+}

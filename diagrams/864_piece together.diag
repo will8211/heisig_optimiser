@@ -1,0 +1,15 @@
+blockdiag {
+  864 [label = "拼\n864 piece together"];
+  None [label = "丷\nNone horns"];
+  863 [label = "并\n863 combine"];
+  1 [label = "一\n1 one"];
+  613 [label = "开\n613 open"];
+  2 [label = "二\n2 two"];
+  None -> 864;
+  863 -> 864;
+  None -> 863;
+  1 -> None;
+  613 -> 863;
+  2 -> 613;
+  1 -> 2;
+}

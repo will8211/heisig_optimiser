@@ -1,0 +1,11 @@
+blockdiag {
+  344 [label = "敬\n344 revere"];
+  None [label = "攵\nNone taskmaster"];
+  67 [label = "句\n67 sentence"];
+  11 [label = "口\n11 mouth"];
+  None -> 344;
+  67 -> 344;
+  None -> 67;
+  11 -> 67;
+  None -> 344;
+}

@@ -1,0 +1,14 @@
+blockdiag {
+  660 [label = "质\n660 quality"];
+  None [label = "囧只－口\nNone animal legs"];
+  10 [label = "十\n10 ten"];
+  52 [label = "贝\n52 shellfish"];
+  15 [label = "目\n15 eye"];
+  8 [label = "八\n8 eight"];
+  None -> 660;
+  10 -> 660;
+  52 -> 660;
+  15 -> 52;
+  None -> 52;
+  8 -> None;
+}

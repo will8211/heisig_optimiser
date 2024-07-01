@@ -1,0 +1,21 @@
+blockdiag {
+  1962 [label = "菠\n1962 spinach"];
+  None [label = "丶\nNone a drop of"];
+  708 [label = "波\n708 waves"];
+  137 [label = "水\n137 water"];
+  1 [label = "一\n1 one"];
+  707 [label = "皮\n707 covering"];
+  650 [label = "支\n650 offshoot"];
+  10 [label = "十\n10 ten"];
+  633 [label = "又\n633 again"];
+  None -> 1962;
+  708 -> 1962;
+  137 -> 708;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  707 -> 708;
+  650 -> 707;
+  10 -> 650;
+  633 -> 650;
+}

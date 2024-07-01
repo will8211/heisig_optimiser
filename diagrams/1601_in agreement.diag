@@ -1,0 +1,16 @@
+blockdiag {
+  1601 [label = "洽\n1601 in agreement"];
+  137 [label = "水\n137 water"];
+  None [label = "𠆢\nNone umbrella"];
+  1 [label = "一\n1 one"];
+  262 [label = "合\n262 fit"];
+  11 [label = "口\n11 mouth"];
+  137 -> 1601;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  262 -> 1601;
+  None -> 262;
+  None -> None;
+  11 -> 262;
+}

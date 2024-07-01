@@ -1,0 +1,10 @@
+blockdiag {
+  1137 [label = "盖\n1137 lid"];
+  528 [label = "羊\n528 sheep"];
+  None [label = "皿\nNone dish"];
+  1 [label = "一\n1 one"];
+  528 -> 1137;
+  None -> 528;
+  1 -> None;
+  None -> 1137;
+}

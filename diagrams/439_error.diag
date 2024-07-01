@@ -1,0 +1,28 @@
+blockdiag {
+  439 [label = "误\n439 error"];
+  346 [label = "言\n346 say"];
+  2 [label = "二\n2 two"];
+  1 [label = "一\n1 one"];
+  11 [label = "口\n11 mouth"];
+  None [label = "囧只－口\nNone animal legs"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  437 [label = "吴\n437 Wu"];
+  436 [label = "天\n436 heavens"];
+  113 [label = "大\n113 large"];
+  346 -> 439;
+  2 -> 346;
+  1 -> 2;
+  11 -> 346;
+  None -> 346;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+  437 -> 439;
+  436 -> 437;
+  1 -> 436;
+  113 -> 436;
+  11 -> 437;
+}

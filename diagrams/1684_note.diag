@@ -1,0 +1,16 @@
+blockdiag {
+  1684 [label = "帖\n1684 note"];
+  410 [label = "巾\n410 towel"];
+  44 [label = "占\n44 tell fortunes"];
+  43 [label = "卜\n43 divination"];
+  None [label = "丶\nNone a drop of"];
+  1 [label = "一\n1 one"];
+  11 [label = "口\n11 mouth"];
+  410 -> 1684;
+  44 -> 1684;
+  43 -> 44;
+  None -> 43;
+  1 -> None;
+  None -> 43;
+  11 -> 44;
+}

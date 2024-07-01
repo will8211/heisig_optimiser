@@ -1,0 +1,14 @@
+blockdiag {
+  2097 [label = "俄\n2097 Russia"];
+  793 [label = "人\n793 person"];
+  None [label = "弋\nNone arrow"];
+  588 [label = "我\n588 I"];
+  584 [label = "手\n584 hand"];
+  361 [label = "戈\n361 halberd"];
+  793 -> 2097;
+  None -> 2097;
+  588 -> None;
+  584 -> 588;
+  361 -> 588;
+  None -> 361;
+}

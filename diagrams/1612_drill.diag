@@ -1,0 +1,22 @@
+blockdiag {
+  1612 [label = "钻\n1612 drill"];
+  279 [label = "金\n279 gold"];
+  None [label = "丶\nNone a drop of"];
+  265 [label = "王\n265 king"];
+  76 [label = "工\n76 work"];
+  44 [label = "占\n44 tell fortunes"];
+  43 [label = "卜\n43 divination"];
+  1 [label = "一\n1 one"];
+  11 [label = "口\n11 mouth"];
+  279 -> 1612;
+  None -> 279;
+  265 -> 279;
+  76 -> 265;
+  None -> 279;
+  44 -> 1612;
+  43 -> 44;
+  None -> 43;
+  1 -> None;
+  None -> 43;
+  11 -> 44;
+}

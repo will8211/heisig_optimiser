@@ -1,0 +1,24 @@
+blockdiag {
+  2333 [label = "藻\n2333 algae"];
+  None [label = "喿\nNone wood pulp"];
+  2332 [label = "澡\n2332 bath"];
+  137 [label = "水\n137 water"];
+  1 [label = "一\n1 one"];
+  24 [label = "品\n24 goods"];
+  23 [label = "晶\n23 sparkling"];
+  12 [label = "日\n12 day"];
+  11 [label = "口\n11 mouth"];
+  202 [label = "木\n202 tree"];
+  None -> 2333;
+  2332 -> 2333;
+  137 -> 2332;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  None -> 2332;
+  24 -> None;
+  23 -> 24;
+  12 -> 23;
+  11 -> 24;
+  202 -> None;
+}

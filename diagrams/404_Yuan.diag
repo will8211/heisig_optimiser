@@ -1,0 +1,19 @@
+blockdiag {
+  404 [label = "袁\n404 Yuan"];
+  None [label = "囧只－口\nNone animal legs"];
+  158 [label = "土\n158 soil"];
+  11 [label = "口\n11 mouth"];
+  400 [label = "衣\n400 clothing"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  None -> 404;
+  158 -> None;
+  11 -> None;
+  400 -> 404;
+  None -> 400;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+}

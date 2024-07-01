@@ -1,0 +1,13 @@
+blockdiag {
+  371 [label = "威\n371 might"];
+  None [label = "弋\nNone arrow"];
+  361 [label = "戈\n361 halberd"];
+  1 [label = "一\n1 one"];
+  102 [label = "女\n102 woman"];
+  None -> 371;
+  None -> None;
+  361 -> None;
+  None -> 361;
+  1 -> None;
+  102 -> 371;
+}

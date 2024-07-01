@@ -1,0 +1,20 @@
+blockdiag {
+  None [label = "囧印－卩\nNone staples"];
+  11 [label = "口\n11 mouth"];
+  788 [label = "箱\n788 box"];
+  786 [label = "竹\n786 bamboo"];
+  90 [label = "丁\n90 fourth"];
+  212 [label = "相\n212 one another"];
+  202 [label = "木\n202 tree"];
+  15 [label = "目\n15 eye"];
+  633 [label = "又\n633 again"];
+  11 -> None;
+  None -> None;
+  788 -> None;
+  786 -> 788;
+  90 -> 786;
+  212 -> 788;
+  202 -> 212;
+  15 -> 212;
+  633 -> None;
+}

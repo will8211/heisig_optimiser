@@ -1,0 +1,18 @@
+blockdiag {
+  1607 [label = "珠\n1607 pearl"];
+  266 [label = "玉\n266 jade"];
+  265 [label = "王\n265 king"];
+  76 [label = "工\n76 work"];
+  None [label = "丶\nNone a drop of"];
+  1578 [label = "朱\n1578 vermilion"];
+  215 [label = "未\n215 not yet"];
+  202 [label = "木\n202 tree"];
+  266 -> 1607;
+  265 -> 266;
+  76 -> 265;
+  None -> 266;
+  1578 -> 1607;
+  None -> 1578;
+  215 -> 1578;
+  202 -> 215;
+}

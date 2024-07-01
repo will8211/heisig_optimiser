@@ -1,0 +1,13 @@
+blockdiag {
+  1138 [label = "温\n1138 temperature"];
+  137 [label = "水\n137 water"];
+  None [label = "皿\nNone dish"];
+  1 [label = "一\n1 one"];
+  12 [label = "日\n12 day"];
+  137 -> 1138;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  12 -> 1138;
+  None -> 1138;
+}

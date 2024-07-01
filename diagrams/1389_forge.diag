@@ -1,0 +1,20 @@
+blockdiag {
+  1389 [label = "锻\n1389 forge"];
+  279 [label = "金\n279 gold"];
+  None [label = "殳\nNone missile"];
+  265 [label = "王\n265 king"];
+  76 [label = "工\n76 work"];
+  1388 [label = "段\n1388 section"];
+  57 [label = "几\n57 how many?"];
+  633 [label = "又\n633 again"];
+  279 -> 1389;
+  None -> 279;
+  265 -> 279;
+  76 -> 265;
+  None -> 279;
+  1388 -> 1389;
+  None -> 1388;
+  None -> 1388;
+  57 -> None;
+  633 -> None;
+}

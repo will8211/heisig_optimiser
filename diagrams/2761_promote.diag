@@ -1,0 +1,13 @@
+blockdiag {
+  2761 [label = "晋\n2761 promote"];
+  1351 [label = "亚\n1351 Asia"];
+  1 [label = "一\n1 one"];
+  1349 [label = "业\n1349 profession"];
+  None [label = "並\nNone side by side"];
+  12 [label = "日\n12 day"];
+  1351 -> 2761;
+  1 -> 1351;
+  1349 -> 1351;
+  None -> 1349;
+  12 -> 2761;
+}

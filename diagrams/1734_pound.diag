@@ -1,0 +1,28 @@
+blockdiag {
+  1734 [label = "磅\n1734 pound"];
+  None [label = "囧只－口\nNone animal legs"];
+  498 [label = "旁\n498 side"];
+  444 [label = "立\n444 standing up"];
+  494 [label = "方\n494 direction"];
+  83 [label = "刀\n83 sword"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  125 [label = "石\n125 stone"];
+  11 [label = "口\n11 mouth"];
+  121 [label = "厂\n121 factory"];
+  None -> 1734;
+  498 -> None;
+  444 -> 498;
+  None -> 498;
+  494 -> 498;
+  83 -> 494;
+  None -> 494;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+  125 -> 1734;
+  11 -> 125;
+  121 -> 125;
+}

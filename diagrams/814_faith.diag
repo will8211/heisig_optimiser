@@ -1,0 +1,22 @@
+blockdiag {
+  814 [label = "信\n814 faith"];
+  793 [label = "人\n793 person"];
+  346 [label = "言\n346 say"];
+  2 [label = "二\n2 two"];
+  1 [label = "一\n1 one"];
+  11 [label = "口\n11 mouth"];
+  None [label = "囧只－口\nNone animal legs"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  793 -> 814;
+  346 -> 814;
+  2 -> 346;
+  1 -> 2;
+  11 -> 346;
+  None -> 346;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+}

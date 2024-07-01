@@ -1,0 +1,15 @@
+blockdiag {
+  2962 [label = "滔\n2962 surging"];
+  137 [label = "水\n137 water"];
+  None [label = "臼\nNone mortar"];
+  1 [label = "一\n1 one"];
+  663 [label = "爪\n663 claw"];
+  137 -> 2962;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  None -> 2962;
+  663 -> None;
+  None -> 663;
+  None -> None;
+}

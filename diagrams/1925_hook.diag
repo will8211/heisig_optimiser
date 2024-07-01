@@ -1,0 +1,15 @@
+blockdiag {
+  1925 [label = "钩\n1925 hook"];
+  279 [label = "金\n279 gold"];
+  None [label = "厶\nNone elbow"];
+  265 [label = "王\n265 king"];
+  76 [label = "工\n76 work"];
+  279 -> 1925;
+  None -> 279;
+  265 -> 279;
+  76 -> 265;
+  None -> 279;
+  None -> 1925;
+  None -> None;
+  None -> None;
+}

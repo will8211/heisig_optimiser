@@ -1,0 +1,15 @@
+blockdiag {
+  2243 [label = "猎\n2243 hunt"];
+  239 [label = "犬\n239 pooch"];
+  113 [label = "大\n113 large"];
+  None [label = "艹\nNone flower"];
+  971 [label = "昔\n971 times past"];
+  12 [label = "日\n12 day"];
+  239 -> 2243;
+  113 -> 239;
+  None -> 239;
+  971 -> 2243;
+  None -> 971;
+  None -> None;
+  12 -> 971;
+}

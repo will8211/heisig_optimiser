@@ -1,0 +1,28 @@
+blockdiag {
+  2890 [label = "馋\n2890 gluttonous"];
+  1154 [label = "食\n1154 food"];
+  1151 [label = "良\n1151 high-quality"];
+  None [label = "丶\nNone a drop of"];
+  1449 [label = "免\n1449 avoid"];
+  1447 [label = "兔\n1447 rabbit"];
+  11 [label = "口\n11 mouth"];
+  56 [label = "儿\n56 youngster"];
+  137 [label = "水\n137 water"];
+  1 [label = "一\n1 one"];
+  1154 -> 2890;
+  1151 -> 1154;
+  None -> 1151;
+  None -> 1151;
+  None -> 1154;
+  1449 -> 2890;
+  1447 -> 1449;
+  None -> 1447;
+  11 -> 1447;
+  56 -> 1447;
+  None -> 1447;
+  None -> 2890;
+  137 -> None;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+}

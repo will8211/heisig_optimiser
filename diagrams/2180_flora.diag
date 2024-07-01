@@ -1,0 +1,10 @@
+blockdiag {
+  2180 [label = "棵\n2180 flora"];
+  202 [label = "木\n202 tree"];
+  921 [label = "果\n921 fruit"];
+  14 [label = "田\n14 rice field"];
+  202 -> 2180;
+  921 -> 2180;
+  202 -> 921;
+  14 -> 921;
+}

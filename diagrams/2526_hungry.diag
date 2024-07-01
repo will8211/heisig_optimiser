@@ -1,0 +1,19 @@
+blockdiag {
+  2526 [label = "饿\n2526 hungry"];
+  1154 [label = "食\n1154 food"];
+  1151 [label = "良\n1151 high-quality"];
+  None [label = "弋\nNone arrow"];
+  588 [label = "我\n588 I"];
+  584 [label = "手\n584 hand"];
+  361 [label = "戈\n361 halberd"];
+  1154 -> 2526;
+  1151 -> 1154;
+  None -> 1151;
+  None -> 1151;
+  None -> 1154;
+  None -> 2526;
+  588 -> None;
+  584 -> 588;
+  361 -> 588;
+  None -> 361;
+}

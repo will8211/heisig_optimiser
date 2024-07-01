@@ -1,0 +1,12 @@
+blockdiag {
+  1619 [label = "逼\n1619 press"];
+  None [label = "辶\nNone road"];
+  1 [label = "一\n1 one"];
+  11 [label = "口\n11 mouth"];
+  14 [label = "田\n14 rice field"];
+  None -> 1619;
+  1 -> None;
+  11 -> None;
+  14 -> None;
+  None -> 1619;
+}

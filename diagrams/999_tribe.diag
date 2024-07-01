@@ -1,0 +1,27 @@
+blockdiag {
+  999 [label = "族\n999 tribe"];
+  None [label = "丶\nNone a drop of"];
+  494 [label = "方\n494 direction"];
+  83 [label = "刀\n83 sword"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  998 [label = "矢\n998 dart"];
+  436 [label = "天\n436 heavens"];
+  1 [label = "一\n1 one"];
+  113 [label = "大\n113 large"];
+  None -> 999;
+  494 -> None;
+  83 -> 494;
+  None -> 494;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+  None -> None;
+  998 -> 999;
+  436 -> 998;
+  1 -> 436;
+  113 -> 436;
+  None -> 998;
+}

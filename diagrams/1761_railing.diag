@@ -1,0 +1,13 @@
+blockdiag {
+  1761 [label = "栏\n1761 railing"];
+  202 [label = "木\n202 tree"];
+  533 [label = "兰\n533 orchid"];
+  528 [label = "羊\n528 sheep"];
+  None [label = "丷\nNone horns"];
+  1 [label = "一\n1 one"];
+  202 -> 1761;
+  533 -> 1761;
+  528 -> 533;
+  None -> 528;
+  1 -> None;
+}

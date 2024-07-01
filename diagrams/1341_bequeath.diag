@@ -1,0 +1,22 @@
+blockdiag {
+  1341 [label = "遗\n1341 bequeath"];
+  1340 [label = "贵\n1340 expensive"];
+  None [label = "辶\nNone road"];
+  38 [label = "中\n38 middle"];
+  1 [label = "一\n1 one"];
+  11 [label = "口\n11 mouth"];
+  52 [label = "贝\n52 shellfish"];
+  15 [label = "目\n15 eye"];
+  8 [label = "八\n8 eight"];
+  1340 -> 1341;
+  None -> 1340;
+  38 -> None;
+  None -> 38;
+  1 -> None;
+  11 -> 38;
+  52 -> 1340;
+  15 -> 52;
+  None -> 52;
+  8 -> None;
+  None -> 1341;
+}

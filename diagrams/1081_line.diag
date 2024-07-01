@@ -1,0 +1,10 @@
+blockdiag {
+  1081 [label = "线\n1081 line"];
+  None [label = "弋\nNone arrow"];
+  361 [label = "戈\n361 halberd"];
+  None -> 1081;
+  None -> None;
+  None -> 1081;
+  361 -> None;
+  None -> 361;
+}

@@ -1,0 +1,15 @@
+blockdiag {
+  647 [label = "没\n647 not have"];
+  137 [label = "水\n137 water"];
+  None [label = "殳\nNone missile"];
+  1 [label = "一\n1 one"];
+  57 [label = "几\n57 how many?"];
+  633 [label = "又\n633 again"];
+  137 -> 647;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  None -> 647;
+  57 -> None;
+  633 -> None;
+}

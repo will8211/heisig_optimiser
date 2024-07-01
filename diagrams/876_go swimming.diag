@@ -1,0 +1,26 @@
+blockdiag {
+  876 [label = "游\n876 go swimming"];
+  137 [label = "水\n137 water"];
+  None [label = "𠂉\nNone reclining"];
+  1 [label = "一\n1 one"];
+  494 [label = "方\n494 direction"];
+  83 [label = "刀\n83 sword"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  97 [label = "子\n97 child"];
+  137 -> 876;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  None -> 876;
+  494 -> None;
+  83 -> 494;
+  None -> 494;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+  None -> None;
+  97 -> 876;
+}

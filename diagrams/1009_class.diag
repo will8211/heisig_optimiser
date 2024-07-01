@@ -1,0 +1,13 @@
+blockdiag {
+  1009 [label = "班\n1009 class"];
+  83 [label = "刀\n83 sword"];
+  266 [label = "玉\n266 jade"];
+  265 [label = "王\n265 king"];
+  76 [label = "工\n76 work"];
+  None [label = "丶\nNone a drop of"];
+  83 -> 1009;
+  266 -> 1009;
+  265 -> 266;
+  76 -> 265;
+  None -> 266;
+}

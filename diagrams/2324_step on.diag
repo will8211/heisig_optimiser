@@ -1,0 +1,17 @@
+blockdiag {
+  2324 [label = "踩\n2324 step on"];
+  1048 [label = "足\n1048 lower leg"];
+  11 [label = "口\n11 mouth"];
+  379 [label = "止\n379 stop"];
+  665 [label = "采\n665 pick"];
+  663 [label = "爪\n663 claw"];
+  None [label = "𠂆\nNone drag"];
+  202 [label = "木\n202 tree"];
+  1048 -> 2324;
+  11 -> 1048;
+  379 -> 1048;
+  665 -> 2324;
+  663 -> 665;
+  None -> 663;
+  202 -> 665;
+}

@@ -1,0 +1,16 @@
+blockdiag {
+  2340 [label = "陡\n2340 steep"];
+  None [label = "囧走－十\nNone mending"];
+  391 [label = "走\n391 walk"];
+  387 [label = "正\n387 correct"];
+  1 [label = "一\n1 one"];
+  379 [label = "止\n379 stop"];
+  158 [label = "土\n158 soil"];
+  None -> 2340;
+  391 -> 2340;
+  None -> 391;
+  387 -> None;
+  1 -> 387;
+  379 -> 387;
+  158 -> 391;
+}

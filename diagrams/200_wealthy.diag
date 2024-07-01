@@ -1,0 +1,12 @@
+blockdiag {
+  200 [label = "富\n200 wealthy"];
+  None [label = "宀\nNone house"];
+  1 [label = "一\n1 one"];
+  11 [label = "口\n11 mouth"];
+  14 [label = "田\n14 rice field"];
+  None -> 200;
+  1 -> None;
+  11 -> None;
+  14 -> None;
+  None -> 200;
+}

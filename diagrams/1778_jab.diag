@@ -1,0 +1,11 @@
+blockdiag {
+  1778 [label = "戳\n1778 jab"];
+  None [label = "弋\nNone arrow"];
+  544 [label = "羽\n544 feathers"];
+  361 [label = "戈\n361 halberd"];
+  None -> 1778;
+  544 -> None;
+  None -> None;
+  361 -> 1778;
+  None -> 361;
+}

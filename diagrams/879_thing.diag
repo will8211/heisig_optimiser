@@ -1,0 +1,10 @@
+blockdiag {
+  879 [label = "物\n879 thing"];
+  252 [label = "牛\n252 cow"];
+  877 [label = "勿\n877 not"];
+  None [label = "豕\nNone sow"];
+  252 -> 879;
+  877 -> 879;
+  None -> 877;
+  None -> None;
+}

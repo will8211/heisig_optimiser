@@ -1,0 +1,13 @@
+blockdiag {
+  198 [label = "宴\n198 banquet"];
+  12 [label = "日\n12 day"];
+  102 [label = "女\n102 woman"];
+  None [label = "宀\nNone house"];
+  197 [label = "安\n197 peaceful"];
+  12 -> 198;
+  102 -> 198;
+  None -> 198;
+  197 -> 198;
+  102 -> 197;
+  None -> 197;
+}

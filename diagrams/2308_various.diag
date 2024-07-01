@@ -1,0 +1,32 @@
+blockdiag {
+  2308 [label = "诸\n2308 various"];
+  346 [label = "言\n346 say"];
+  2 [label = "二\n2 two"];
+  1 [label = "一\n1 one"];
+  11 [label = "口\n11 mouth"];
+  None [label = "丨\nNone walking stick"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  1037 [label = "者\n1037 someone"];
+  1029 [label = "老\n1029 old man"];
+  158 [label = "土\n158 soil"];
+  453 [label = "匕\n453 ancient spoon"];
+  12 [label = "日\n12 day"];
+  346 -> 2308;
+  2 -> 346;
+  1 -> 2;
+  11 -> 346;
+  None -> 346;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+  1037 -> 2308;
+  1029 -> 1037;
+  158 -> 1029;
+  None -> 1029;
+  1 -> None;
+  453 -> 1029;
+  12 -> 1037;
+}

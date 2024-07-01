@@ -1,0 +1,14 @@
+blockdiag {
+  1802 [label = "慎\n1802 prudent"];
+  563 [label = "心\n563 heart"];
+  75 [label = "真\n75 true"];
+  10 [label = "十\n10 ten"];
+  None [label = "囧只－口\nNone animal legs"];
+  8 [label = "八\n8 eight"];
+  563 -> 1802;
+  75 -> 1802;
+  10 -> 75;
+  None -> 75;
+  None -> None;
+  8 -> None;
+}

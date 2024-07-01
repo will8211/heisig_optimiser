@@ -1,0 +1,12 @@
+blockdiag {
+  400 [label = "衣\n400 clothing"];
+  None [label = "囧只－口\nNone animal legs"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  None -> 400;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+}

@@ -1,0 +1,12 @@
+blockdiag {
+  2488 [label = "盔\n2488 helmet"];
+  172 [label = "灰\n172 ashes"];
+  170 [label = "火\n170 fire"];
+  None [label = "皿\nNone dish"];
+  10 [label = "十\n10 ten"];
+  172 -> 2488;
+  170 -> 172;
+  None -> 172;
+  10 -> None;
+  None -> 2488;
+}

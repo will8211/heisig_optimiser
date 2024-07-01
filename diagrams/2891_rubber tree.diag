@@ -1,0 +1,17 @@
+blockdiag {
+  2891 [label = "橡\n2891 rubber tree"];
+  202 [label = "木\n202 tree"];
+  1451 [label = "象\n1451 elephant"];
+  1447 [label = "兔\n1447 rabbit"];
+  None [label = "豕\nNone sow"];
+  11 [label = "口\n11 mouth"];
+  56 [label = "儿\n56 youngster"];
+  202 -> 2891;
+  1451 -> 2891;
+  1447 -> 1451;
+  None -> 1447;
+  11 -> 1447;
+  56 -> 1447;
+  None -> 1447;
+  None -> 1451;
+}

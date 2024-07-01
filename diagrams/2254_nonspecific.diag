@@ -1,0 +1,16 @@
+blockdiag {
+  2254 [label = "泛\n2254 nonspecific"];
+  137 [label = "水\n137 water"];
+  None [label = "丶\nNone a drop of"];
+  1 [label = "一\n1 one"];
+  989 [label = "乏\n989 weary"];
+  988 [label = "之\n988 of"];
+  137 -> 2254;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  989 -> 2254;
+  None -> 989;
+  988 -> 989;
+  None -> 988;
+}

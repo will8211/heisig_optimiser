@@ -1,0 +1,17 @@
+blockdiag {
+  432 [label = "冲\n432 collide"];
+  38 [label = "中\n38 middle"];
+  None [label = "丶\nNone a drop of"];
+  1 [label = "一\n1 one"];
+  11 [label = "口\n11 mouth"];
+  137 [label = "水\n137 water"];
+  38 -> 432;
+  None -> 38;
+  1 -> None;
+  11 -> 38;
+  None -> 432;
+  137 -> None;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+}

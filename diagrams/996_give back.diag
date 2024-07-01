@@ -1,0 +1,12 @@
+blockdiag {
+  996 [label = "还\n996 give back"];
+  991 [label = "不\n991 no"];
+  1 [label = "一\n1 one"];
+  793 [label = "人\n793 person"];
+  None [label = "辶\nNone road"];
+  991 -> 996;
+  1 -> 991;
+  793 -> 991;
+  None -> 991;
+  None -> 996;
+}

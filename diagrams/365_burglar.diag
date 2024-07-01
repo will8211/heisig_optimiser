@@ -1,0 +1,16 @@
+blockdiag {
+  365 [label = "贼\n365 burglar"];
+  361 [label = "戈\n361 halberd"];
+  None [label = "囧只－口\nNone animal legs"];
+  10 [label = "十\n10 ten"];
+  52 [label = "贝\n52 shellfish"];
+  15 [label = "目\n15 eye"];
+  8 [label = "八\n8 eight"];
+  361 -> 365;
+  None -> 361;
+  10 -> 365;
+  52 -> 365;
+  15 -> 52;
+  None -> 52;
+  8 -> None;
+}

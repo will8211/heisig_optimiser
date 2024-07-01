@@ -1,0 +1,18 @@
+blockdiag {
+  2320 [label = "踏\n2320 trample"];
+  1048 [label = "足\n1048 lower leg"];
+  11 [label = "口\n11 mouth"];
+  379 [label = "止\n379 stop"];
+  137 [label = "水\n137 water"];
+  None [label = "丶\nNone a drop of"];
+  1 [label = "一\n1 one"];
+  12 [label = "日\n12 day"];
+  1048 -> 2320;
+  11 -> 1048;
+  379 -> 1048;
+  137 -> 2320;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  12 -> 2320;
+}

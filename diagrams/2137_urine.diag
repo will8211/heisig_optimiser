@@ -1,0 +1,12 @@
+blockdiag {
+  2137 [label = "尿\n2137 urine"];
+  137 [label = "水\n137 water"];
+  None [label = "丶\nNone a drop of"];
+  1 [label = "一\n1 one"];
+  882 [label = "尸\n882 corpse"];
+  137 -> 2137;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  882 -> 2137;
+}

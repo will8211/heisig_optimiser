@@ -1,0 +1,16 @@
+blockdiag {
+  1276 [label = "筷\n1276 chopsticks"];
+  786 [label = "竹\n786 bamboo"];
+  90 [label = "丁\n90 fourth"];
+  1274 [label = "快\n1274 fast"];
+  563 [label = "心\n563 heart"];
+  None [label = "囧侯－亻－矢\nNone key"];
+  113 [label = "大\n113 large"];
+  786 -> 1276;
+  90 -> 786;
+  1274 -> 1276;
+  563 -> 1274;
+  None -> 1274;
+  None -> None;
+  113 -> None;
+}

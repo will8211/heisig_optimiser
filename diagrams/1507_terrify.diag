@@ -1,0 +1,15 @@
+blockdiag {
+  1507 [label = "吓\n1507 terrify"];
+  11 [label = "口\n11 mouth"];
+  46 [label = "下\n46 below"];
+  43 [label = "卜\n43 divination"];
+  None [label = "丶\nNone a drop of"];
+  1 [label = "一\n1 one"];
+  11 -> 1507;
+  46 -> 1507;
+  43 -> 46;
+  None -> 43;
+  1 -> None;
+  None -> 43;
+  1 -> 46;
+}

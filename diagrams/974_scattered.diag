@@ -1,0 +1,9 @@
+blockdiag {
+  974 [label = "散\n974 scattered"];
+  None [label = "攵\nNone taskmaster"];
+  13 [label = "月\n13 month"];
+  None -> 974;
+  None -> None;
+  13 -> 974;
+  None -> 974;
+}

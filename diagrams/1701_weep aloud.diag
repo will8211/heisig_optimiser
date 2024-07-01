@@ -1,0 +1,14 @@
+blockdiag {
+  1701 [label = "啼\n1701 weep aloud"];
+  11 [label = "口\n11 mouth"];
+  449 [label = "帝\n449 sovereign"];
+  444 [label = "立\n444 standing up"];
+  None [label = "冖\nNone crown"];
+  410 [label = "巾\n410 towel"];
+  11 -> 1701;
+  449 -> 1701;
+  444 -> 449;
+  None -> 449;
+  410 -> None;
+  None -> None;
+}

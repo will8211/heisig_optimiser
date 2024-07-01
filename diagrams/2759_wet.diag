@@ -1,0 +1,15 @@
+blockdiag {
+  2759 [label = "湿\n2759 wet"];
+  137 [label = "水\n137 water"];
+  None [label = "並\nNone side by side"];
+  1 [label = "一\n1 one"];
+  12 [label = "日\n12 day"];
+  1349 [label = "业\n1349 profession"];
+  137 -> 2759;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  12 -> 2759;
+  1349 -> 2759;
+  None -> 1349;
+}

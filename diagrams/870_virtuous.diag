@@ -1,0 +1,13 @@
+blockdiag {
+  870 [label = "善\n870 virtuous"];
+  528 [label = "羊\n528 sheep"];
+  None [label = "丷\nNone horns"];
+  1 [label = "一\n1 one"];
+  11 [label = "口\n11 mouth"];
+  528 -> 870;
+  None -> 528;
+  1 -> None;
+  None -> 870;
+  1 -> None;
+  11 -> 870;
+}

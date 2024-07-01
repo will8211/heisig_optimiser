@@ -1,0 +1,21 @@
+blockdiag {
+  1678 [label = "衰\n1678 decline"];
+  403 [label = "哀\n403 grief"];
+  400 [label = "衣\n400 clothing"];
+  None [label = "丨\nNone walking stick"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  11 [label = "口\n11 mouth"];
+  1 [label = "一\n1 one"];
+  403 -> 1678;
+  400 -> 403;
+  None -> 400;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+  11 -> 403;
+  None -> 1678;
+  1 -> None;
+}

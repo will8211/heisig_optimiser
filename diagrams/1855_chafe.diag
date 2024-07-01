@@ -1,0 +1,12 @@
+blockdiag {
+  1855 [label = "挠\n1855 chafe"];
+  None [label = "弋\nNone arrow"];
+  376 [label = "尧\n376 Yao"];
+  361 [label = "戈\n361 halberd"];
+  56 [label = "儿\n56 youngster"];
+  None -> 1855;
+  376 -> 1855;
+  361 -> 376;
+  None -> 361;
+  56 -> 376;
+}

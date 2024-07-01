@@ -1,0 +1,20 @@
+blockdiag {
+  1955 [label = "裳\n1955 raiment"];
+  None [label = "囧只－口\nNone animal legs"];
+  109 [label = "小\n109 small"];
+  11 [label = "口\n11 mouth"];
+  400 [label = "衣\n400 clothing"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  None -> 1955;
+  109 -> None;
+  None -> 109;
+  11 -> None;
+  400 -> 1955;
+  None -> 400;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+}

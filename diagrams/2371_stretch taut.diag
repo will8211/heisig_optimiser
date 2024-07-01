@@ -1,0 +1,10 @@
+blockdiag {
+  2371 [label = "绷\n2371 stretch taut"];
+  None [label = "厶\nNone elbow"];
+  20 [label = "朋\n20 companion"];
+  13 [label = "月\n13 month"];
+  None -> 2371;
+  None -> None;
+  20 -> 2371;
+  13 -> 20;
+}

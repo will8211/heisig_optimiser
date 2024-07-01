@@ -1,0 +1,20 @@
+blockdiag {
+  1534 [label = "渺\n1534 insignificant"];
+  1530 [label = "泪\n1530 tears"];
+  137 [label = "水\n137 water"];
+  None [label = "丶\nNone a drop of"];
+  1 [label = "一\n1 one"];
+  15 [label = "目\n15 eye"];
+  110 [label = "少\n110 few"];
+  109 [label = "小\n109 small"];
+  1530 -> 1534;
+  137 -> 1530;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  15 -> 1530;
+  110 -> 1534;
+  None -> 110;
+  109 -> 110;
+  None -> 109;
+}

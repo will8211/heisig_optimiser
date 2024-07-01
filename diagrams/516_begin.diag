@@ -1,0 +1,17 @@
+blockdiag {
+  516 [label = "起\n516 begin"];
+  391 [label = "走\n391 walk"];
+  None [label = "囧走－十\nNone mending"];
+  387 [label = "正\n387 correct"];
+  1 [label = "一\n1 one"];
+  379 [label = "止\n379 stop"];
+  158 [label = "土\n158 soil"];
+  515 [label = "己\n515 self"];
+  391 -> 516;
+  None -> 391;
+  387 -> None;
+  1 -> 387;
+  379 -> 387;
+  158 -> 391;
+  515 -> 516;
+}

@@ -1,0 +1,19 @@
+blockdiag {
+  1383 [label = "都\n1383 metropolis"];
+  1037 [label = "者\n1037 someone"];
+  1029 [label = "老\n1029 old man"];
+  158 [label = "土\n158 soil"];
+  None [label = "阝\nNone pinnacle"];
+  1 [label = "一\n1 one"];
+  453 [label = "匕\n453 ancient spoon"];
+  12 [label = "日\n12 day"];
+  1037 -> 1383;
+  1029 -> 1037;
+  158 -> 1029;
+  None -> 1029;
+  1 -> None;
+  453 -> 1029;
+  12 -> 1037;
+  None -> 1383;
+  None -> None;
+}

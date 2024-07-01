@@ -1,0 +1,13 @@
+blockdiag {
+  534 [label = "烂\n534 spoiled"];
+  170 [label = "火\n170 fire"];
+  533 [label = "兰\n533 orchid"];
+  528 [label = "羊\n528 sheep"];
+  None [label = "丷\nNone horns"];
+  1 [label = "一\n1 one"];
+  170 -> 534;
+  533 -> 534;
+  528 -> 533;
+  None -> 528;
+  1 -> None;
+}

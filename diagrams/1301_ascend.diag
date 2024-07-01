@@ -1,0 +1,17 @@
+blockdiag {
+  1301 [label = "登\n1301 ascend"];
+  224 [label = "桌\n224 table"];
+  202 [label = "木\n202 tree"];
+  12 [label = "日\n12 day"];
+  43 [label = "卜\n43 divination"];
+  None [label = "癶\nNone teepee"];
+  1 [label = "一\n1 one"];
+  224 -> 1301;
+  202 -> 224;
+  12 -> 224;
+  43 -> 224;
+  None -> 43;
+  1 -> None;
+  None -> 43;
+  None -> 1301;
+}

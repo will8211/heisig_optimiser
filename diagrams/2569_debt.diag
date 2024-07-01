@@ -1,0 +1,16 @@
+blockdiag {
+  2569 [label = "债\n2569 debt"];
+  793 [label = "人\n793 person"];
+  1215 [label = "责\n1215 responsibility"];
+  None [label = "囧只－口\nNone animal legs"];
+  52 [label = "贝\n52 shellfish"];
+  15 [label = "目\n15 eye"];
+  8 [label = "八\n8 eight"];
+  793 -> 2569;
+  1215 -> 2569;
+  None -> 1215;
+  52 -> 1215;
+  15 -> 52;
+  None -> 52;
+  8 -> None;
+}

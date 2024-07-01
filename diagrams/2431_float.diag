@@ -1,0 +1,16 @@
+blockdiag {
+  2431 [label = "浮\n2431 float"];
+  137 [label = "水\n137 water"];
+  None [label = "𠂆\nNone drag"];
+  1 [label = "一\n1 one"];
+  663 [label = "爪\n663 claw"];
+  97 [label = "子\n97 child"];
+  137 -> 2431;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  None -> 2431;
+  663 -> None;
+  None -> 663;
+  97 -> None;
+}

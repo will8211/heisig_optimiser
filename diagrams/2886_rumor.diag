@@ -1,0 +1,29 @@
+blockdiag {
+  2886 [label = "谣\n2886 rumor"];
+  346 [label = "言\n346 say"];
+  2 [label = "二\n2 two"];
+  1 [label = "一\n1 one"];
+  11 [label = "口\n11 mouth"];
+  None [label = "缶\nNone tin can"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  663 [label = "爪\n663 claw"];
+  542 [label = "午\n542 noon"];
+  688 [label = "山\n688 mountain"];
+  346 -> 2886;
+  2 -> 346;
+  1 -> 2;
+  11 -> 346;
+  None -> 346;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+  None -> 2886;
+  663 -> None;
+  None -> 663;
+  None -> None;
+  542 -> None;
+  688 -> None;
+}

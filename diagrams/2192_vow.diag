@@ -1,0 +1,33 @@
+blockdiag {
+  2192 [label = "誓\n2192 vow"];
+  932 [label = "折\n932 discount"];
+  594 [label = "指\n594 finger"];
+  None [label = "囧只－口\nNone animal legs"];
+  463 [label = "旨\n463 purpose"];
+  453 [label = "匕\n453 ancient spoon"];
+  12 [label = "日\n12 day"];
+  924 [label = "斤\n924 catty"];
+  346 [label = "言\n346 say"];
+  2 [label = "二\n2 two"];
+  1 [label = "一\n1 one"];
+  11 [label = "口\n11 mouth"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  932 -> 2192;
+  594 -> 932;
+  None -> 594;
+  463 -> 594;
+  453 -> 463;
+  12 -> 463;
+  924 -> 932;
+  346 -> 2192;
+  2 -> 346;
+  1 -> 2;
+  11 -> 346;
+  None -> 346;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+}

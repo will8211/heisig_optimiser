@@ -1,0 +1,12 @@
+blockdiag {
+  2292 [label = "愕\n2292 stunned"];
+  563 [label = "心\n563 heart"];
+  None [label = "丂\nNone snare"];
+  11 [label = "口\n11 mouth"];
+  2286 [label = "亏\n2286 loss"];
+  563 -> 2292;
+  None -> 2292;
+  11 -> None;
+  2286 -> 2292;
+  None -> 2286;
+}

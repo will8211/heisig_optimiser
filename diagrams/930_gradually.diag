@@ -1,0 +1,16 @@
+blockdiag {
+  930 [label = "渐\n930 gradually"];
+  137 [label = "水\n137 water"];
+  None [label = "丶\nNone a drop of"];
+  1 [label = "一\n1 one"];
+  928 [label = "斩\n928 hew"];
+  300 [label = "车\n300 car"];
+  924 [label = "斤\n924 catty"];
+  137 -> 930;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  928 -> 930;
+  300 -> 928;
+  924 -> 928;
+}

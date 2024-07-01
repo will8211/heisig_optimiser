@@ -1,0 +1,15 @@
+blockdiag {
+  345 [label = "敞\n345 spacious"];
+  190 [label = "尚\n190 esteem"];
+  109 [label = "小\n109 small"];
+  None [label = "攵\nNone taskmaster"];
+  57 [label = "几\n57 how many?"];
+  11 [label = "口\n11 mouth"];
+  190 -> 345;
+  109 -> 190;
+  None -> 109;
+  None -> 190;
+  57 -> None;
+  11 -> 190;
+  None -> 345;
+}

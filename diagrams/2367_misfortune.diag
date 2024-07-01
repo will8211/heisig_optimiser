@@ -1,0 +1,16 @@
+blockdiag {
+  2367 [label = "祸\n2367 misfortune"];
+  900 [label = "示\n900 show"];
+  None [label = "囧冂\nNone belt"];
+  11 [label = "口\n11 mouth"];
+  840 [label = "内\n840 internal"];
+  410 [label = "巾\n410 towel"];
+  793 [label = "人\n793 person"];
+  900 -> 2367;
+  None -> 2367;
+  11 -> None;
+  840 -> None;
+  None -> 840;
+  410 -> None;
+  793 -> 840;
+}

@@ -1,0 +1,16 @@
+blockdiag {
+  2100 [label = "贷\n2100 loan"];
+  828 [label = "代\n828 substitute for"];
+  793 [label = "人\n793 person"];
+  None [label = "囧只－口\nNone animal legs"];
+  52 [label = "贝\n52 shellfish"];
+  15 [label = "目\n15 eye"];
+  8 [label = "八\n8 eight"];
+  828 -> 2100;
+  793 -> 828;
+  None -> 828;
+  52 -> 2100;
+  15 -> 52;
+  None -> 52;
+  8 -> None;
+}

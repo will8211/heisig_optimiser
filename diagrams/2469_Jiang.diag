@@ -1,0 +1,18 @@
+blockdiag {
+  2469 [label = "蒋\n2469 Jiang"];
+  244 [label = "将\n244 General"];
+  237 [label = "兆\n237 portent"];
+  115 [label = "夕\n115 evening"];
+  13 [label = "月\n13 month"];
+  166 [label = "寸\n166 Chinese inch"];
+  None [label = "艹\nNone flower"];
+  10 [label = "十\n10 ten"];
+  244 -> 2469;
+  237 -> 244;
+  115 -> 244;
+  13 -> 115;
+  166 -> 244;
+  None -> 166;
+  10 -> 166;
+  None -> 2469;
+}

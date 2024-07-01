@@ -1,0 +1,20 @@
+blockdiag {
+  960 [label = "裙\n960 skirt"];
+  400 [label = "衣\n400 clothing"];
+  None [label = "囧只－口\nNone animal legs"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  959 [label = "君\n959 monarch"];
+  957 [label = "尹\n957 overseer"];
+  11 [label = "口\n11 mouth"];
+  400 -> 960;
+  None -> 400;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+  959 -> 960;
+  957 -> 959;
+  11 -> 959;
+}

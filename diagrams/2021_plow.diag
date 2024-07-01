@@ -1,0 +1,11 @@
+blockdiag {
+  2021 [label = "犁\n2021 plow"];
+  771 [label = "利\n771 profit"];
+  762 [label = "禾\n762 standing grain"];
+  83 [label = "刀\n83 sword"];
+  252 [label = "牛\n252 cow"];
+  771 -> 2021;
+  762 -> 771;
+  83 -> 771;
+  252 -> 2021;
+}

@@ -1,0 +1,15 @@
+blockdiag {
+  1106 [label = "贸\n1106 trade"];
+  None [label = "囧只－口\nNone animal legs"];
+  83 [label = "刀\n83 sword"];
+  52 [label = "贝\n52 shellfish"];
+  15 [label = "目\n15 eye"];
+  8 [label = "八\n8 eight"];
+  None -> 1106;
+  None -> None;
+  83 -> None;
+  52 -> 1106;
+  15 -> 52;
+  None -> 52;
+  8 -> None;
+}

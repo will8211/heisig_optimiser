@@ -1,0 +1,21 @@
+blockdiag {
+  1952 [label = "裕\n1952 abundant"];
+  400 [label = "衣\n400 clothing"];
+  None [label = "𠆢\nNone umbrella"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  698 [label = "谷\n698 valley"];
+  11 [label = "口\n11 mouth"];
+  400 -> 1952;
+  None -> 400;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+  698 -> 1952;
+  None -> 698;
+  8 -> None;
+  None -> 698;
+  11 -> 698;
+}

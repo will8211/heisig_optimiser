@@ -1,0 +1,16 @@
+blockdiag {
+  2856 [label = "帐\n2856 tent"];
+  410 [label = "巾\n410 towel"];
+  1428 [label = "长\n1428 long"];
+  None [label = "囧只－口\nNone animal legs"];
+  1 [label = "一\n1 one"];
+  8 [label = "八\n8 eight"];
+  410 -> 2856;
+  1428 -> 2856;
+  None -> 1428;
+  1 -> 1428;
+  None -> 1428;
+  1 -> None;
+  None -> 1428;
+  8 -> None;
+}

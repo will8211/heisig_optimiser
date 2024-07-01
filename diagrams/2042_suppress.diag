@@ -1,0 +1,13 @@
+blockdiag {
+  2042 [label = "憋\n2042 suppress"];
+  None [label = "攵\nNone taskmaster"];
+  57 [label = "几\n57 how many?"];
+  778 [label = "米\n778 rice"];
+  563 [label = "心\n563 heart"];
+  None -> 2042;
+  None -> None;
+  57 -> None;
+  778 -> None;
+  None -> None;
+  563 -> 2042;
+}

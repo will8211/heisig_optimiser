@@ -1,0 +1,14 @@
+blockdiag {
+  2346 [label = "陕\n2346 Shaanxi Province"];
+  None [label = "丷\nNone horns"];
+  1523 [label = "夹\n1523 press from both sides"];
+  726 [label = "夫\n726 husband"];
+  113 [label = "大\n113 large"];
+  1 [label = "一\n1 one"];
+  None -> 2346;
+  1523 -> 2346;
+  726 -> 1523;
+  113 -> 726;
+  None -> 1523;
+  1 -> None;
+}

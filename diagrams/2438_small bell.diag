@@ -1,0 +1,17 @@
+blockdiag {
+  2438 [label = "铃\n2438 small bell"];
+  279 [label = "金\n279 gold"];
+  None [label = "囧节－艹\nNone chop"];
+  265 [label = "王\n265 king"];
+  76 [label = "工\n76 work"];
+  1113 [label = "令\n1113 orders"];
+  279 -> 2438;
+  None -> 279;
+  265 -> 279;
+  76 -> 265;
+  None -> 279;
+  1113 -> 2438;
+  None -> 1113;
+  None -> None;
+  None -> 1113;
+}

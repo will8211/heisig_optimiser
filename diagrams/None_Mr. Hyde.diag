@@ -1,0 +1,22 @@
+blockdiag {
+  None [label = "囗\nNone pent in"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  554 [label = "回\n554 return"];
+  11 [label = "口\n11 mouth"];
+  30 [label = "旦\n30 daybreak"];
+  12 [label = "日\n12 day"];
+  1 [label = "一\n1 one"];
+  None -> None;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+  554 -> None;
+  None -> 554;
+  11 -> 554;
+  30 -> None;
+  12 -> 30;
+  1 -> 30;
+}

@@ -1,0 +1,11 @@
+blockdiag {
+  2609 [label = "炼\n2609 refine"];
+  170 [label = "火\n170 fire"];
+  1247 [label = "东\n1247 east"];
+  300 [label = "车\n300 car"];
+  None [label = "丶\nNone a drop of"];
+  170 -> 2609;
+  1247 -> 2609;
+  300 -> 1247;
+  None -> 1247;
+}

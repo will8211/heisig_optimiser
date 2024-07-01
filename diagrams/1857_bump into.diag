@@ -1,0 +1,15 @@
+blockdiag {
+  1857 [label = "撞\n1857 bump into"];
+  450 [label = "童\n450 juvenile"];
+  444 [label = "立\n444 standing up"];
+  179 [label = "里\n179 li"];
+  14 [label = "田\n14 rice field"];
+  158 [label = "土\n158 soil"];
+  None [label = "扌\nNone fingers"];
+  450 -> 1857;
+  444 -> 450;
+  179 -> 450;
+  14 -> 179;
+  158 -> 179;
+  None -> 1857;
+}

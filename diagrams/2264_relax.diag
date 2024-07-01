@@ -1,0 +1,18 @@
+blockdiag {
+  2264 [label = "舒\n2264 relax"];
+  1599 [label = "舍\n1599 abode"];
+  None [label = "𠆢\nNone umbrella"];
+  16 [label = "古\n16 ancient"];
+  10 [label = "十\n10 ten"];
+  11 [label = "口\n11 mouth"];
+  1005 [label = "予\n1005 bestow"];
+  1002 [label = "矛\n1002 spear"];
+  1599 -> 2264;
+  None -> 1599;
+  None -> None;
+  16 -> 1599;
+  10 -> 16;
+  11 -> 16;
+  1005 -> 2264;
+  1002 -> 1005;
+}

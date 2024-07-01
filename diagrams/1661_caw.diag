@@ -1,0 +1,16 @@
+blockdiag {
+  1661 [label = "嘎\n1661 caw"];
+  11 [label = "口\n11 mouth"];
+  1 [label = "一\n1 one"];
+  33 [label = "自\n33 oneself"];
+  None [label = "弋\nNone arrow"];
+  15 [label = "目\n15 eye"];
+  361 [label = "戈\n361 halberd"];
+  11 -> 1661;
+  1 -> 1661;
+  33 -> 1661;
+  None -> 33;
+  15 -> 33;
+  361 -> 1661;
+  None -> 361;
+}

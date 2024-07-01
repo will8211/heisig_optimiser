@@ -1,0 +1,10 @@
+blockdiag {
+  2701 [label = "彬\n2701 well-mannered"];
+  202 [label = "木\n202 tree"];
+  2700 [label = "杉\n2700 fir tree"];
+  None [label = "彡\nNone rooster tail"];
+  202 -> 2701;
+  2700 -> 2701;
+  202 -> 2700;
+  None -> 2700;
+}

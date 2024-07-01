@@ -1,0 +1,21 @@
+blockdiag {
+  2562 [label = "嚷\n2562 cry out"];
+  11 [label = "口\n11 mouth"];
+  1201 [label = "襄\n1201 aid"];
+  400 [label = "衣\n400 clothing"];
+  None [label = "𠀎\nNone wire mesh"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  11 -> 2562;
+  1201 -> 2562;
+  400 -> 1201;
+  None -> 400;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+  None -> 1201;
+  11 -> None;
+  None -> 1201;
+}

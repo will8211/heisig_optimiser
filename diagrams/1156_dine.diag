@@ -1,0 +1,23 @@
+blockdiag {
+  1156 [label = "餐\n1156 dine"];
+  43 [label = "卜\n43 divination"];
+  None [label = "𠆢\nNone umbrella"];
+  1 [label = "一\n1 one"];
+  115 [label = "夕\n115 evening"];
+  13 [label = "月\n13 month"];
+  633 [label = "又\n633 again"];
+  1154 [label = "食\n1154 food"];
+  1151 [label = "良\n1151 high-quality"];
+  43 -> 1156;
+  None -> 43;
+  1 -> None;
+  None -> 43;
+  115 -> 1156;
+  13 -> 115;
+  633 -> 1156;
+  1154 -> 1156;
+  1151 -> 1154;
+  None -> 1151;
+  None -> 1151;
+  None -> 1154;
+}

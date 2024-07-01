@@ -1,0 +1,9 @@
+blockdiag {
+  906 [label = "禁\n906 prohibit"];
+  203 [label = "林\n203 woods"];
+  202 [label = "木\n202 tree"];
+  900 [label = "示\n900 show"];
+  203 -> 906;
+  202 -> 203;
+  900 -> 906;
+}

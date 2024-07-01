@@ -1,0 +1,20 @@
+blockdiag {
+  2365 [label = "涡\n2365 whirlpool"];
+  137 [label = "水\n137 water"];
+  None [label = "囧冂\nNone belt"];
+  1 [label = "一\n1 one"];
+  11 [label = "口\n11 mouth"];
+  840 [label = "内\n840 internal"];
+  410 [label = "巾\n410 towel"];
+  793 [label = "人\n793 person"];
+  137 -> 2365;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  None -> 2365;
+  11 -> None;
+  840 -> None;
+  None -> 840;
+  410 -> None;
+  793 -> 840;
+}

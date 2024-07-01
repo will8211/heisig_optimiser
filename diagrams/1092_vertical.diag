@@ -1,0 +1,10 @@
+blockdiag {
+  1092 [label = "纵\n1092 vertical"];
+  None [label = "厶\nNone elbow"];
+  846 [label = "从\n846 follow"];
+  793 [label = "人\n793 person"];
+  None -> 1092;
+  None -> None;
+  846 -> 1092;
+  793 -> 846;
+}

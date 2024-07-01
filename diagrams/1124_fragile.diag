@@ -1,0 +1,12 @@
+blockdiag {
+  1124 [label = "脆\n1124 fragile"];
+  13 [label = "月\n13 month"];
+  1123 [label = "危\n1123 danger"];
+  None [label = "㔾\nNone fingerprint"];
+  121 [label = "厂\n121 factory"];
+  13 -> 1124;
+  1123 -> 1124;
+  None -> 1123;
+  121 -> 1123;
+  None -> 1123;
+}

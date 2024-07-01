@@ -1,0 +1,11 @@
+blockdiag {
+  2179 [label = "巢\n2179 nest"];
+  134 [label = "川\n134 stream"];
+  921 [label = "果\n921 fruit"];
+  202 [label = "木\n202 tree"];
+  14 [label = "田\n14 rice field"];
+  134 -> 2179;
+  921 -> 2179;
+  202 -> 921;
+  14 -> 921;
+}

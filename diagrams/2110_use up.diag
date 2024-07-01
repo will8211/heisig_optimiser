@@ -1,0 +1,14 @@
+blockdiag {
+  2110 [label = "竭\n2110 use up"];
+  444 [label = "立\n444 standing up"];
+  None [label = "勹\nNone bound up"];
+  793 [label = "人\n793 person"];
+  95 [label = "乙\n95 second"];
+  12 [label = "日\n12 day"];
+  444 -> 2110;
+  None -> 2110;
+  793 -> None;
+  None -> None;
+  95 -> None;
+  12 -> None;
+}

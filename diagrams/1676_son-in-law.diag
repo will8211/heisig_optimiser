@@ -1,0 +1,16 @@
+blockdiag {
+  1676 [label = "婿\n1676 son-in-law"];
+  102 [label = "女\n102 woman"];
+  None [label = "囧走－十\nNone mending"];
+  387 [label = "正\n387 correct"];
+  1 [label = "一\n1 one"];
+  379 [label = "止\n379 stop"];
+  13 [label = "月\n13 month"];
+  102 -> 1676;
+  None -> 1676;
+  None -> None;
+  387 -> None;
+  1 -> 387;
+  379 -> 387;
+  13 -> 1676;
+}

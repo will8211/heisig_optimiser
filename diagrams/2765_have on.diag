@@ -1,0 +1,19 @@
+blockdiag {
+  2765 [label = "戴\n2765 have on"];
+  None [label = "囧只－口\nNone animal legs"];
+  158 [label = "土\n158 soil"];
+  361 [label = "戈\n361 halberd"];
+  14 [label = "田\n14 rice field"];
+  1354 [label = "共\n1354 together"];
+  8 [label = "八\n8 eight"];
+  None -> 2765;
+  158 -> None;
+  361 -> None;
+  None -> 361;
+  14 -> 2765;
+  1354 -> 2765;
+  None -> 1354;
+  None -> None;
+  None -> 1354;
+  8 -> None;
+}

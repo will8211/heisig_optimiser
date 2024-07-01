@@ -1,0 +1,23 @@
+blockdiag {
+  305 [label = "输\n305 transport"];
+  2939 [label = "辆\n2939 vehicles"];
+  300 [label = "车\n300 car"];
+  1478 [label = "两\n1478 dos"];
+  793 [label = "人\n793 person"];
+  None [label = "刖\nNone butcher"];
+  410 [label = "巾\n410 towel"];
+  13 [label = "月\n13 month"];
+  83 [label = "刀\n83 sword"];
+  2939 -> 305;
+  300 -> 2939;
+  1478 -> 2939;
+  793 -> 1478;
+  None -> 1478;
+  410 -> None;
+  None -> 305;
+  None -> None;
+  None -> None;
+  None -> None;
+  13 -> None;
+  83 -> None;
+}

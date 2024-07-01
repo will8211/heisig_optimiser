@@ -1,0 +1,28 @@
+blockdiag {
+  1493 [label = "湾\n1493 bay"];
+  137 [label = "水\n137 water"];
+  None [label = "囧只－口\nNone animal legs"];
+  1 [label = "一\n1 one"];
+  1492 [label = "弯\n1492 curved"];
+  1491 [label = "亦\n1491 likewise"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  83 [label = "刀\n83 sword"];
+  1013 [label = "弓\n1013 bow"];
+  137 -> 1493;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  1492 -> 1493;
+  1491 -> 1492;
+  None -> 1491;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+  None -> 1491;
+  8 -> None;
+  83 -> 1491;
+  1013 -> 1492;
+}

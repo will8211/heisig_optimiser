@@ -1,0 +1,24 @@
+blockdiag {
+  2530 [label = "萍\n2530 duckweed"];
+  1491 [label = "亦\n1491 likewise"];
+  None [label = "丶\nNone a drop of"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  83 [label = "刀\n83 sword"];
+  137 [label = "水\n137 water"];
+  1 [label = "一\n1 one"];
+  1491 -> 2530;
+  None -> 1491;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+  None -> 1491;
+  8 -> None;
+  83 -> 1491;
+  137 -> 2530;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+}

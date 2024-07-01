@@ -1,0 +1,17 @@
+blockdiag {
+  2065 [label = "侧\n2065 lateral"];
+  793 [label = "人\n793 person"];
+  88 [label = "则\n88 rule"];
+  52 [label = "贝\n52 shellfish"];
+  15 [label = "目\n15 eye"];
+  None [label = "囧只－口\nNone animal legs"];
+  8 [label = "八\n8 eight"];
+  83 [label = "刀\n83 sword"];
+  793 -> 2065;
+  88 -> 2065;
+  52 -> 88;
+  15 -> 52;
+  None -> 52;
+  8 -> None;
+  83 -> 88;
+}

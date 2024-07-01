@@ -1,0 +1,13 @@
+blockdiag {
+  2224 [label = "筝\n2224 Chinese zither"];
+  786 [label = "竹\n786 bamboo"];
+  90 [label = "丁\n90 fourth"];
+  951 [label = "争\n951 contend"];
+  None [label = "彐\nNone broom"];
+  786 -> 2224;
+  90 -> 786;
+  951 -> 2224;
+  None -> 951;
+  None -> 951;
+  None -> None;
+}

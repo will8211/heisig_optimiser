@@ -1,0 +1,18 @@
+blockdiag {
+  386 [label = "赋\n386 levy"];
+  52 [label = "贝\n52 shellfish"];
+  15 [label = "目\n15 eye"];
+  None [label = "弋\nNone arrow"];
+  8 [label = "八\n8 eight"];
+  385 [label = "武\n385 military"];
+  1 [label = "一\n1 one"];
+  379 [label = "止\n379 stop"];
+  52 -> 386;
+  15 -> 52;
+  None -> 52;
+  8 -> None;
+  385 -> 386;
+  1 -> 385;
+  None -> 385;
+  379 -> 385;
+}

@@ -1,0 +1,13 @@
+blockdiag {
+  461 [label = "些\n461 somewhat"];
+  460 [label = "此\n460 this (literary)"];
+  379 [label = "止\n379 stop"];
+  453 [label = "匕\n453 ancient spoon"];
+  2 [label = "二\n2 two"];
+  1 [label = "一\n1 one"];
+  460 -> 461;
+  379 -> 460;
+  453 -> 460;
+  2 -> 461;
+  1 -> 2;
+}

@@ -1,0 +1,18 @@
+blockdiag {
+  50 [label = "嘲\n50 ridicule"];
+  11 [label = "口\n11 mouth"];
+  49 [label = "朝\n49 dynasty"];
+  13 [label = "月\n13 month"];
+  None [label = "𠦝\nNone mist"];
+  26 [label = "早\n26 early"];
+  12 [label = "日\n12 day"];
+  10 [label = "十\n10 ten"];
+  11 -> 50;
+  49 -> 50;
+  13 -> 49;
+  None -> 49;
+  26 -> None;
+  12 -> 26;
+  10 -> 26;
+  10 -> None;
+}

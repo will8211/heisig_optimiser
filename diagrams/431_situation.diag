@@ -1,0 +1,17 @@
+blockdiag {
+  431 [label = "况\n431 situation"];
+  107 [label = "兄\n107 elder brother"];
+  11 [label = "口\n11 mouth"];
+  56 [label = "儿\n56 youngster"];
+  None [label = "丶\nNone a drop of"];
+  137 [label = "水\n137 water"];
+  1 [label = "一\n1 one"];
+  107 -> 431;
+  11 -> 107;
+  56 -> 107;
+  None -> 431;
+  137 -> None;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+}

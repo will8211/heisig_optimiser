@@ -1,0 +1,13 @@
+blockdiag {
+  2850 [label = "耕\n2850 till"];
+  None [label = "耒\nNone Christmas tree"];
+  1 [label = "一\n1 one"];
+  215 [label = "未\n215 not yet"];
+  202 [label = "木\n202 tree"];
+  1358 [label = "井\n1358 well"];
+  None -> 2850;
+  1 -> None;
+  215 -> None;
+  202 -> 215;
+  1358 -> 2850;
+}

@@ -1,0 +1,23 @@
+blockdiag {
+  964 [label = "儒\n964 Confucian"];
+  793 [label = "人\n793 person"];
+  963 [label = "需\n963 need"];
+  425 [label = "雨\n425 rain"];
+  685 [label = "梳\n685 comb"];
+  202 [label = "木\n202 tree"];
+  None [label = "丶\nNone a drop of"];
+  1 [label = "一\n1 one"];
+  134 [label = "川\n134 stream"];
+  793 -> 964;
+  963 -> 964;
+  425 -> 963;
+  685 -> 963;
+  202 -> 685;
+  None -> 685;
+  None -> None;
+  None -> None;
+  None -> None;
+  1 -> None;
+  None -> None;
+  134 -> None;
+}

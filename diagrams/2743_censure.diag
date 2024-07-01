@@ -1,0 +1,31 @@
+blockdiag {
+  2743 [label = "谴\n2743 censure"];
+  346 [label = "言\n346 say"];
+  2 [label = "二\n2 two"];
+  1 [label = "一\n1 one"];
+  11 [label = "口\n11 mouth"];
+  None [label = "辶\nNone road"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  2742 [label = "遣\n2742 dispatch"];
+  38 [label = "中\n38 middle"];
+  346 -> 2743;
+  2 -> 346;
+  1 -> 2;
+  11 -> 346;
+  None -> 346;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+  2742 -> 2743;
+  None -> 2742;
+  38 -> None;
+  None -> 38;
+  1 -> None;
+  11 -> 38;
+  None -> 2742;
+  None -> None;
+  None -> 2742;
+}

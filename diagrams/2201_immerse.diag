@@ -1,0 +1,15 @@
+blockdiag {
+  2201 [label = "浸\n2201 immerse"];
+  137 [label = "水\n137 water"];
+  None [label = "冖\nNone crown"];
+  1 [label = "一\n1 one"];
+  633 [label = "又\n633 again"];
+  137 -> 2201;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  None -> 2201;
+  None -> None;
+  None -> None;
+  633 -> None;
+}

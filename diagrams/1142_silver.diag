@@ -1,0 +1,13 @@
+blockdiag {
+  1142 [label = "银\n1142 silver"];
+  279 [label = "金\n279 gold"];
+  None [label = "艮\nNone silver"];
+  265 [label = "王\n265 king"];
+  76 [label = "工\n76 work"];
+  279 -> 1142;
+  None -> 279;
+  265 -> 279;
+  76 -> 265;
+  None -> 279;
+  None -> 1142;
+}

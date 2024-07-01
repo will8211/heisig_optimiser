@@ -1,0 +1,22 @@
+blockdiag {
+  1895 [label = "椒\n1895 spice plant"];
+  202 [label = "木\n202 tree"];
+  653 [label = "叔\n653 uncle"];
+  45 [label = "上\n45 above"];
+  43 [label = "卜\n43 divination"];
+  None [label = "丶\nNone a drop of"];
+  1 [label = "一\n1 one"];
+  109 [label = "小\n109 small"];
+  633 [label = "又\n633 again"];
+  202 -> 1895;
+  653 -> 1895;
+  45 -> 653;
+  43 -> 45;
+  None -> 43;
+  1 -> None;
+  None -> 43;
+  1 -> 45;
+  109 -> 653;
+  None -> 109;
+  633 -> 653;
+}

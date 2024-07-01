@@ -1,0 +1,13 @@
+blockdiag {
+  1714 [label = "霉\n1714 mildew"];
+  425 [label = "雨\n425 rain"];
+  467 [label = "每\n467 every"];
+  None [label = "𠂉\nNone reclining"];
+  105 [label = "母\n105 mother"];
+  102 [label = "女\n102 woman"];
+  425 -> 1714;
+  467 -> 1714;
+  None -> 467;
+  105 -> 467;
+  102 -> 105;
+}

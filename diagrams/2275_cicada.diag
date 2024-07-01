@@ -1,0 +1,15 @@
+blockdiag {
+  2275 [label = "蝉\n2275 cicada"];
+  509 [label = "虫\n509 insect"];
+  1018 [label = "单\n1018 list"];
+  None [label = "丷\nNone horns"];
+  1 [label = "一\n1 one"];
+  14 [label = "田\n14 rice field"];
+  10 [label = "十\n10 ten"];
+  509 -> 2275;
+  1018 -> 2275;
+  None -> 1018;
+  1 -> None;
+  14 -> 1018;
+  10 -> 1018;
+}

@@ -1,0 +1,16 @@
+blockdiag {
+  1666 [label = "喊\n1666 yell"];
+  11 [label = "口\n11 mouth"];
+  372 [label = "咸\n372 salty"];
+  None [label = "弋\nNone arrow"];
+  361 [label = "戈\n361 halberd"];
+  1 [label = "一\n1 one"];
+  11 -> 1666;
+  372 -> 1666;
+  11 -> 372;
+  None -> 372;
+  None -> None;
+  361 -> None;
+  None -> 361;
+  1 -> None;
+}

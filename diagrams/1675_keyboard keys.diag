@@ -1,0 +1,16 @@
+blockdiag {
+  1675 [label = "键\n1675 keyboard keys"];
+  279 [label = "金\n279 gold"];
+  None [label = "廴\nNone stretch"];
+  265 [label = "王\n265 king"];
+  76 [label = "工\n76 work"];
+  398 [label = "建\n398 build"];
+  279 -> 1675;
+  None -> 279;
+  265 -> 279;
+  76 -> 265;
+  None -> 279;
+  398 -> 1675;
+  None -> 398;
+  None -> 398;
+}

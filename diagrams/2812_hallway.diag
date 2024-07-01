@@ -1,0 +1,28 @@
+blockdiag {
+  2812 [label = "廊\n2812 hallway"];
+  186 [label = "洞\n186 cave"];
+  185 [label = "同\n185 same"];
+  1 [label = "一\n1 one"];
+  11 [label = "口\n11 mouth"];
+  None [label = "阝\nNone pinnacle"];
+  57 [label = "几\n57 how many?"];
+  137 [label = "水\n137 water"];
+  1385 [label = "郎\n1385 young man"];
+  1151 [label = "良\n1151 high-quality"];
+  186 -> 2812;
+  185 -> 186;
+  1 -> 185;
+  11 -> 185;
+  None -> 185;
+  57 -> None;
+  137 -> 186;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  1385 -> 2812;
+  1151 -> 1385;
+  None -> 1151;
+  None -> 1151;
+  None -> 1385;
+  None -> None;
+}

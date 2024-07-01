@@ -1,0 +1,20 @@
+blockdiag {
+  2330 [label = "躁\n2330 impetuous"];
+  1048 [label = "足\n1048 lower leg"];
+  11 [label = "口\n11 mouth"];
+  379 [label = "止\n379 stop"];
+  None [label = "喿\nNone wood pulp"];
+  24 [label = "品\n24 goods"];
+  23 [label = "晶\n23 sparkling"];
+  12 [label = "日\n12 day"];
+  202 [label = "木\n202 tree"];
+  1048 -> 2330;
+  11 -> 1048;
+  379 -> 1048;
+  None -> 2330;
+  24 -> None;
+  23 -> 24;
+  12 -> 23;
+  11 -> 24;
+  202 -> None;
+}

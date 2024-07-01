@@ -1,0 +1,14 @@
+blockdiag {
+  2091 [label = "侄\n2091 nephew"];
+  793 [label = "人\n793 person"];
+  678 [label = "至\n678 until"];
+  None [label = "厶\nNone elbow"];
+  1 [label = "一\n1 one"];
+  158 [label = "土\n158 soil"];
+  793 -> 2091;
+  678 -> 2091;
+  None -> 678;
+  None -> None;
+  1 -> None;
+  158 -> 678;
+}

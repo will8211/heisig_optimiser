@@ -1,0 +1,18 @@
+blockdiag {
+  2539 [label = "钢\n2539 steel"];
+  279 [label = "金\n279 gold"];
+  None [label = "㐅\nNone sheaf"];
+  265 [label = "王\n265 king"];
+  76 [label = "工\n76 work"];
+  1170 [label = "冈\n1170 ridge of a hill"];
+  57 [label = "几\n57 how many?"];
+  279 -> 2539;
+  None -> 279;
+  265 -> 279;
+  76 -> 265;
+  None -> 279;
+  1170 -> 2539;
+  None -> 1170;
+  57 -> None;
+  None -> 1170;
+}

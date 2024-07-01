@@ -1,0 +1,16 @@
+blockdiag {
+  177 [label = "点\n177 spot"];
+  170 [label = "火\n170 fire"];
+  44 [label = "占\n44 tell fortunes"];
+  43 [label = "卜\n43 divination"];
+  None [label = "丶\nNone a drop of"];
+  1 [label = "一\n1 one"];
+  11 [label = "口\n11 mouth"];
+  170 -> 177;
+  44 -> 177;
+  43 -> 44;
+  None -> 43;
+  1 -> None;
+  None -> 43;
+  11 -> 44;
+}

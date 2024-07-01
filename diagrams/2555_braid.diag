@@ -1,0 +1,12 @@
+blockdiag {
+  2555 [label = "辫\n2555 braid"];
+  1183 [label = "辛\n1183 peppery"];
+  444 [label = "立\n444 standing up"];
+  10 [label = "十\n10 ten"];
+  None [label = "厶\nNone elbow"];
+  1183 -> 2555;
+  444 -> 1183;
+  10 -> 1183;
+  None -> 2555;
+  None -> None;
+}

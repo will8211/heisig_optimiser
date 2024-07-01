@@ -1,0 +1,12 @@
+blockdiag {
+  1663 [label = "栽\n1663 sow"];
+  None [label = "弋\nNone arrow"];
+  158 [label = "土\n158 soil"];
+  361 [label = "戈\n361 halberd"];
+  202 [label = "木\n202 tree"];
+  None -> 1663;
+  158 -> None;
+  361 -> None;
+  None -> 361;
+  202 -> 1663;
+}

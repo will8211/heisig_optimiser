@@ -1,0 +1,16 @@
+blockdiag {
+  2037 [label = "梁\n2037 roof beam"];
+  None [label = "丶\nNone a drop of"];
+  137 [label = "水\n137 water"];
+  1 [label = "一\n1 one"];
+  83 [label = "刀\n83 sword"];
+  202 [label = "木\n202 tree"];
+  None -> 2037;
+  137 -> None;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  83 -> None;
+  None -> None;
+  202 -> 2037;
+}

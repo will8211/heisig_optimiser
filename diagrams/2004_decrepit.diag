@@ -1,0 +1,22 @@
+blockdiag {
+  2004 [label = "颓\n2004 decrepit"];
+  2003 [label = "秃\n2003 bald"];
+  762 [label = "禾\n762 standing grain"];
+  57 [label = "几\n57 how many?"];
+  60 [label = "页\n60 page"];
+  52 [label = "贝\n52 shellfish"];
+  15 [label = "目\n15 eye"];
+  None [label = "丶\nNone a drop of"];
+  8 [label = "八\n8 eight"];
+  1 [label = "一\n1 one"];
+  2003 -> 2004;
+  762 -> 2003;
+  57 -> 2003;
+  60 -> 2004;
+  52 -> 60;
+  15 -> 52;
+  None -> 52;
+  8 -> None;
+  1 -> 60;
+  None -> 60;
+}

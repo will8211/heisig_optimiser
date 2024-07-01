@@ -1,0 +1,25 @@
+blockdiag {
+  1096 [label = "续\n1096 continue"];
+  None [label = "丶\nNone a drop of"];
+  859 [label = "卖\n859 sell"];
+  10 [label = "十\n10 ten"];
+  858 [label = "买\n858 buy"];
+  856 [label = "头\n856 head"];
+  113 [label = "大\n113 large"];
+  137 [label = "水\n137 water"];
+  1 [label = "一\n1 one"];
+  None -> 1096;
+  None -> None;
+  859 -> 1096;
+  10 -> 859;
+  858 -> 859;
+  None -> 858;
+  None -> None;
+  856 -> 858;
+  113 -> 856;
+  None -> 856;
+  137 -> None;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+}

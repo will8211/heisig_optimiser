@@ -1,0 +1,21 @@
+blockdiag {
+  2851 [label = "籍\n2851 records"];
+  786 [label = "竹\n786 bamboo"];
+  90 [label = "丁\n90 fourth"];
+  None [label = "艹\nNone flower"];
+  1 [label = "一\n1 one"];
+  215 [label = "未\n215 not yet"];
+  202 [label = "木\n202 tree"];
+  971 [label = "昔\n971 times past"];
+  12 [label = "日\n12 day"];
+  786 -> 2851;
+  90 -> 786;
+  None -> 2851;
+  1 -> None;
+  215 -> None;
+  202 -> 215;
+  971 -> 2851;
+  None -> 971;
+  None -> None;
+  12 -> 971;
+}

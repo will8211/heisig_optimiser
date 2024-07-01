@@ -1,0 +1,11 @@
+blockdiag {
+  1716 [label = "砍\n1716 chop"];
+  125 [label = "石\n125 stone"];
+  11 [label = "口\n11 mouth"];
+  121 [label = "厂\n121 factory"];
+  474 [label = "欠\n474 lack"];
+  125 -> 1716;
+  11 -> 125;
+  121 -> 125;
+  474 -> 1716;
+}

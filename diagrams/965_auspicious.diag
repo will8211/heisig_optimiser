@@ -1,0 +1,12 @@
+blockdiag {
+  965 [label = "瑞\n965 auspicious"];
+  266 [label = "玉\n266 jade"];
+  265 [label = "王\n265 king"];
+  76 [label = "工\n76 work"];
+  None [label = "耑\nNone prospector"];
+  266 -> 965;
+  265 -> 266;
+  76 -> 265;
+  None -> 266;
+  None -> 965;
+}

@@ -1,0 +1,15 @@
+blockdiag {
+  315 [label = "洛\n315 L.A."];
+  309 [label = "各\n309 each"];
+  11 [label = "口\n11 mouth"];
+  None [label = "丶\nNone a drop of"];
+  137 [label = "水\n137 water"];
+  1 [label = "一\n1 one"];
+  309 -> 315;
+  11 -> 309;
+  None -> 309;
+  137 -> 315;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+}

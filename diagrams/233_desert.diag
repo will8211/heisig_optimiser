@@ -1,0 +1,17 @@
+blockdiag {
+  233 [label = "漠\n233 desert"];
+  137 [label = "水\n137 water"];
+  None [label = "艹\nNone flower"];
+  1 [label = "一\n1 one"];
+  231 [label = "莫\n231 nobody"];
+  12 [label = "日\n12 day"];
+  113 [label = "大\n113 large"];
+  137 -> 233;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  231 -> 233;
+  None -> 231;
+  12 -> 231;
+  113 -> 231;
+}

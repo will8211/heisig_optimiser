@@ -1,0 +1,22 @@
+blockdiag {
+  2415 [label = "磁\n2415 magnetism"];
+  125 [label = "石\n125 stone"];
+  11 [label = "口\n11 mouth"];
+  121 [label = "厂\n121 factory"];
+  None [label = "幺\nNone cocoon"];
+  2411 [label = "玄\n2411 mysterious"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  125 -> 2415;
+  11 -> 125;
+  121 -> 125;
+  None -> 2415;
+  2411 -> None;
+  None -> 2411;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+  None -> 2411;
+}

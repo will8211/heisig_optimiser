@@ -1,0 +1,15 @@
+blockdiag {
+  961 [label = "群\n961 crowd"];
+  959 [label = "君\n959 monarch"];
+  957 [label = "尹\n957 overseer"];
+  11 [label = "口\n11 mouth"];
+  528 [label = "羊\n528 sheep"];
+  None [label = "丷\nNone horns"];
+  1 [label = "一\n1 one"];
+  959 -> 961;
+  957 -> 959;
+  11 -> 959;
+  528 -> 961;
+  None -> 528;
+  1 -> None;
+}

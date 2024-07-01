@@ -1,0 +1,15 @@
+blockdiag {
+  1917 [label = "弃\n1917 forsake"];
+  None [label = "丶\nNone a drop of"];
+  1 [label = "一\n1 one"];
+  613 [label = "开\n613 open"];
+  2 [label = "二\n2 two"];
+  None -> 1917;
+  None -> None;
+  None -> None;
+  1 -> None;
+  None -> None;
+  613 -> 1917;
+  2 -> 613;
+  1 -> 2;
+}

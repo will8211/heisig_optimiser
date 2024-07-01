@@ -1,0 +1,15 @@
+blockdiag {
+  510 [label = "虾\n510 shrimp"];
+  509 [label = "虫\n509 insect"];
+  46 [label = "下\n46 below"];
+  43 [label = "卜\n43 divination"];
+  None [label = "丶\nNone a drop of"];
+  1 [label = "一\n1 one"];
+  509 -> 510;
+  46 -> 510;
+  43 -> 46;
+  None -> 43;
+  1 -> None;
+  None -> 43;
+  1 -> 46;
+}

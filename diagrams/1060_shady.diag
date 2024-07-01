@@ -1,0 +1,10 @@
+blockdiag {
+  1060 [label = "荫\n1060 shady"];
+  None [label = "阝\nNone pinnacle"];
+  1059 [label = "阴\n1059 Yin"];
+  13 [label = "月\n13 month"];
+  None -> 1060;
+  1059 -> 1060;
+  None -> 1059;
+  13 -> 1059;
+}

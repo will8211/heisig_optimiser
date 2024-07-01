@@ -1,0 +1,20 @@
+blockdiag {
+  1410 [label = "馨\n1410 fragrant"];
+  None [label = "殳\nNone missile"];
+  334 [label = "士\n334 soldier"];
+  882 [label = "尸\n882 corpse"];
+  57 [label = "几\n57 how many?"];
+  633 [label = "又\n633 again"];
+  772 [label = "香\n772 perfume"];
+  762 [label = "禾\n762 standing grain"];
+  12 [label = "日\n12 day"];
+  None -> 1410;
+  334 -> None;
+  882 -> None;
+  None -> None;
+  57 -> None;
+  633 -> None;
+  772 -> 1410;
+  762 -> 772;
+  12 -> 772;
+}

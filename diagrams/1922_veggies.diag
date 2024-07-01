@@ -1,0 +1,23 @@
+blockdiag {
+  1922 [label = "蔬\n1922 veggies"];
+  None [label = "丶\nNone a drop of"];
+  1921 [label = "疏\n1921 sparse"];
+  387 [label = "正\n387 correct"];
+  1 [label = "一\n1 one"];
+  379 [label = "止\n379 stop"];
+  134 [label = "川\n134 stream"];
+  None -> 1922;
+  1921 -> 1922;
+  None -> 1921;
+  None -> None;
+  387 -> None;
+  1 -> 387;
+  379 -> 387;
+  None -> 1921;
+  None -> None;
+  None -> None;
+  None -> None;
+  1 -> None;
+  None -> None;
+  134 -> None;
+}

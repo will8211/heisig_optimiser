@@ -1,0 +1,28 @@
+blockdiag {
+  2563 [label = "镶\n2563 inlay"];
+  279 [label = "金\n279 gold"];
+  None [label = "𠀎\nNone wire mesh"];
+  265 [label = "王\n265 king"];
+  76 [label = "工\n76 work"];
+  1201 [label = "襄\n1201 aid"];
+  400 [label = "衣\n400 clothing"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  11 [label = "口\n11 mouth"];
+  279 -> 2563;
+  None -> 279;
+  265 -> 279;
+  76 -> 265;
+  None -> 279;
+  1201 -> 2563;
+  400 -> 1201;
+  None -> 400;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+  None -> 1201;
+  11 -> None;
+  None -> 1201;
+}

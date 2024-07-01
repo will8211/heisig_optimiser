@@ -1,0 +1,14 @@
+blockdiag {
+  1587 [label = "猫\n1587 cat"];
+  239 [label = "犬\n239 pooch"];
+  113 [label = "大\n113 large"];
+  None [label = "艹\nNone flower"];
+  235 [label = "苗\n235 seedling"];
+  14 [label = "田\n14 rice field"];
+  239 -> 1587;
+  113 -> 239;
+  None -> 239;
+  235 -> 1587;
+  14 -> 235;
+  None -> 235;
+}

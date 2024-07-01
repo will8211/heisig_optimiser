@@ -1,0 +1,12 @@
+blockdiag {
+  2059 [label = "仆\n2059 servant"];
+  793 [label = "人\n793 person"];
+  43 [label = "卜\n43 divination"];
+  None [label = "丶\nNone a drop of"];
+  1 [label = "一\n1 one"];
+  793 -> 2059;
+  43 -> 2059;
+  None -> 43;
+  1 -> None;
+  None -> 43;
+}

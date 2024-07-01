@@ -1,0 +1,16 @@
+blockdiag {
+  2493 [label = "磕\n2493 collide with"];
+  125 [label = "石\n125 stone"];
+  11 [label = "口\n11 mouth"];
+  121 [label = "厂\n121 factory"];
+  675 [label = "去\n675 go"];
+  158 [label = "土\n158 soil"];
+  None [label = "皿\nNone dish"];
+  125 -> 2493;
+  11 -> 125;
+  121 -> 125;
+  675 -> 2493;
+  158 -> 675;
+  None -> 675;
+  None -> 2493;
+}

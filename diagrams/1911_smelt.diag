@@ -1,0 +1,16 @@
+blockdiag {
+  1911 [label = "冶\n1911 smelt"];
+  None [label = "厶\nNone elbow"];
+  137 [label = "水\n137 water"];
+  1 [label = "一\n1 one"];
+  672 [label = "台\n672 platform"];
+  11 [label = "口\n11 mouth"];
+  None -> 1911;
+  137 -> None;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  672 -> 1911;
+  None -> 672;
+  11 -> 672;
+}

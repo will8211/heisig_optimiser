@@ -1,0 +1,15 @@
+blockdiag {
+  175 [label = "淡\n175 thin"];
+  170 [label = "火\n170 fire"];
+  137 [label = "水\n137 water"];
+  None [label = "丶\nNone a drop of"];
+  1 [label = "一\n1 one"];
+  174 [label = "炎\n174 inflammation"];
+  170 -> 175;
+  137 -> 175;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  174 -> 175;
+  170 -> 174;
+}

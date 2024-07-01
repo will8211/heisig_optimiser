@@ -1,0 +1,17 @@
+blockdiag {
+  2738 [label = "嘶\n2738 hoarse"];
+  11 [label = "口\n11 mouth"];
+  1339 [label = "斯\n1339 Sphinx"];
+  1335 [label = "其\n1335 his-hers-its-theirs"];
+  1333 [label = "甘\n1333 sweet"];
+  None [label = "囧只－口\nNone animal legs"];
+  8 [label = "八\n8 eight"];
+  924 [label = "斤\n924 catty"];
+  11 -> 2738;
+  1339 -> 2738;
+  1335 -> 1339;
+  1333 -> 1335;
+  None -> 1335;
+  8 -> None;
+  924 -> 1339;
+}

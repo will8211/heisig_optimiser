@@ -1,0 +1,12 @@
+blockdiag {
+  527 [label = "汤\n527 soup"];
+  137 [label = "水\n137 water"];
+  None [label = "豕\nNone sow"];
+  1 [label = "一\n1 one"];
+  137 -> 527;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  None -> 527;
+  None -> None;
+}

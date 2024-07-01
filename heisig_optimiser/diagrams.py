@@ -1,4 +1,5 @@
 import json
+import os
 
 
 # Function to recursively parse requirements
@@ -27,20 +28,33 @@ def parse_requirements(node, parent_id=None, connections=None, labels=None):
     return connections, labels
 
 
-# Read the JSON input
-with open("diagrams/test.json", "r") as f:
-    data = json.load(f)
+# Directory containing the JSON input files
+input_dir = "out/decomposition"
+output_dir = "diagrams"
 
-# Generate connections and labels
-connections, labels = parse_requirements(data)
+# Ensure the output directory exists
+os.makedirs(output_dir, exist_ok=True)
 
-# Write the blockdiag output
-with open("diagrams/output.diag", "w") as f:
-    f.write("blockdiag {\n")
-    for node_id, label in labels.items():
-        f.write(f'  {node_id} [label = "{label}"];\n')
-    for connection in connections:
-        f.write(f"  {connection}\n")
-    f.write("}")
+# Process each JSON file in the input directory
+for filename in os.listdir(input_dir):
+    if filename.endswith(".json"):
+        input_path = os.path.join(input_dir, filename)
+        output_path = os.path.join(output_dir, f"{os.path.splitext(filename)[0]}.diag")
 
-print("blockdiag file generated successfully.")
+        # Read the JSON input
+        with open(input_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+
+        # Generate connections and labels
+        connections, labels = parse_requirements(data)
+
+        # Write the blockdiag output
+        with open(output_path, "w", encoding="utf-8") as f:
+            f.write("blockdiag {\n")
+            for node_id, label in labels.items():
+                f.write(f'  {node_id} [label = "{label}"];\n')
+            for connection in connections:
+                f.write(f"  {connection}\n")
+            f.write("}")
+
+        print(f"blockdiag file generated successfully for {filename}")

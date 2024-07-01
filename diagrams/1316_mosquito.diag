@@ -1,0 +1,17 @@
+blockdiag {
+  1316 [label = "蚊\n1316 mosquito"];
+  509 [label = "虫\n509 insect"];
+  1315 [label = "文\n1315 literature"];
+  None [label = "㐅\nNone sheaf"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  509 -> 1316;
+  1315 -> 1316;
+  None -> 1315;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+  None -> 1315;
+}

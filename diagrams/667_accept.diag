@@ -1,0 +1,11 @@
+blockdiag {
+  667 [label = "受\n667 accept"];
+  None [label = "宀\nNone house"];
+  663 [label = "爪\n663 claw"];
+  633 [label = "又\n633 again"];
+  None -> 667;
+  663 -> None;
+  None -> 663;
+  None -> None;
+  633 -> 667;
+}

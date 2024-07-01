@@ -1,0 +1,16 @@
+blockdiag {
+  2583 [label = "锋\n2583 cutting edge"];
+  279 [label = "金\n279 gold"];
+  None [label = "夂\nNone walking legs"];
+  265 [label = "王\n265 king"];
+  76 [label = "工\n76 work"];
+  1223 [label = "丰\n1223 plentiful"];
+  279 -> 2583;
+  None -> 279;
+  265 -> 279;
+  76 -> 265;
+  None -> 279;
+  None -> 2583;
+  1223 -> None;
+  None -> None;
+}

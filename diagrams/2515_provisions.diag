@@ -1,0 +1,10 @@
+blockdiag {
+  2515 [label = "粮\n2515 provisions"];
+  778 [label = "米\n778 rice"];
+  1151 [label = "良\n1151 high-quality"];
+  None [label = "艮\nNone silver"];
+  778 -> 2515;
+  1151 -> 2515;
+  None -> 1151;
+  None -> 1151;
+}

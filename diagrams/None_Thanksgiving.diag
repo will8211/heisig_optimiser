@@ -1,0 +1,8 @@
+blockdiag {
+  None [label = "弋\nNone arrow"];
+  158 [label = "土\n158 soil"];
+  361 [label = "戈\n361 halberd"];
+  158 -> None;
+  361 -> None;
+  None -> 361;
+}

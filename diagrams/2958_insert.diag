@@ -1,0 +1,11 @@
+blockdiag {
+  2958 [label = "插\n2958 insert"];
+  None [label = "臼\nNone mortar"];
+  39 [label = "千\n39 thousand"];
+  10 [label = "十\n10 ten"];
+  None -> 2958;
+  39 -> 2958;
+  None -> 39;
+  10 -> 39;
+  None -> 2958;
+}

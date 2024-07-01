@@ -1,0 +1,15 @@
+blockdiag {
+  1633 [label = "浑\n1633 muddled"];
+  137 [label = "水\n137 water"];
+  None [label = "冖\nNone crown"];
+  1 [label = "一\n1 one"];
+  320 [label = "军\n320 army"];
+  300 [label = "车\n300 car"];
+  137 -> 1633;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  320 -> 1633;
+  None -> 320;
+  300 -> 320;
+}

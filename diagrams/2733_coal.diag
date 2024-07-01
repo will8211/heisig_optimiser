@@ -1,0 +1,11 @@
+blockdiag {
+  2733 [label = "煤\n2733 coal"];
+  170 [label = "火\n170 fire"];
+  1334 [label = "某\n1334 such and such"];
+  1333 [label = "甘\n1333 sweet"];
+  202 [label = "木\n202 tree"];
+  170 -> 2733;
+  1334 -> 2733;
+  1333 -> 1334;
+  202 -> 1334;
+}

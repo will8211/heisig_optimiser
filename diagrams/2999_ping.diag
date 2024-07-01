@@ -1,0 +1,13 @@
+blockdiag {
+  2999 [label = "乒\n2999 ping"];
+  1078 [label = "兵\n1078 troops"];
+  1077 [label = "丘\n1077 hill"];
+  924 [label = "斤\n924 catty"];
+  None [label = "囧只－口\nNone animal legs"];
+  8 [label = "八\n8 eight"];
+  1078 -> 2999;
+  1077 -> 1078;
+  924 -> 1077;
+  None -> 1078;
+  8 -> None;
+}

@@ -1,0 +1,22 @@
+blockdiag {
+  907 [label = "襟\n907 front of a garment"];
+  400 [label = "衣\n400 clothing"];
+  None [label = "囧只－口\nNone animal legs"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  906 [label = "禁\n906 prohibit"];
+  203 [label = "林\n203 woods"];
+  202 [label = "木\n202 tree"];
+  900 [label = "示\n900 show"];
+  400 -> 907;
+  None -> 400;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+  906 -> 907;
+  203 -> 906;
+  202 -> 203;
+  900 -> 906;
+}

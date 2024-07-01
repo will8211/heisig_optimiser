@@ -1,0 +1,16 @@
+blockdiag {
+  146 [label = "沙\n146 sand"];
+  137 [label = "水\n137 water"];
+  None [label = "丶\nNone a drop of"];
+  1 [label = "一\n1 one"];
+  110 [label = "少\n110 few"];
+  109 [label = "小\n109 small"];
+  137 -> 146;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  110 -> 146;
+  None -> 110;
+  109 -> 110;
+  None -> 109;
+}

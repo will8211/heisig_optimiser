@@ -1,0 +1,18 @@
+blockdiag {
+  1108 [label = "溜\n1108 slide"];
+  137 [label = "水\n137 water"];
+  None [label = "卩\nNone stamp"];
+  1 [label = "一\n1 one"];
+  1107 [label = "留\n1107 stay"];
+  83 [label = "刀\n83 sword"];
+  14 [label = "田\n14 rice field"];
+  137 -> 1108;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  1107 -> 1108;
+  None -> 1107;
+  None -> None;
+  83 -> None;
+  14 -> 1107;
+}

@@ -1,0 +1,8 @@
+blockdiag {
+  2011 [label = "稼\n2011 crops"];
+  762 [label = "禾\n762 standing grain"];
+  None [label = "宀\nNone house"];
+  762 -> 2011;
+  None -> 2011;
+  None -> None;
+}

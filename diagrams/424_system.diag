@@ -1,0 +1,11 @@
+blockdiag {
+  424 [label = "制\n424 system"];
+  252 [label = "牛\n252 cow"];
+  83 [label = "刀\n83 sword"];
+  None [label = "囧冂\nNone belt"];
+  410 [label = "巾\n410 towel"];
+  252 -> 424;
+  83 -> 424;
+  None -> 424;
+  410 -> None;
+}

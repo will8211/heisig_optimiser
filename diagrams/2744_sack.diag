@@ -1,0 +1,34 @@
+blockdiag {
+  2744 [label = "囊\n2744 sack"];
+  1201 [label = "襄\n1201 aid"];
+  400 [label = "衣\n400 clothing"];
+  None [label = "囧只－口\nNone animal legs"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  11 [label = "口\n11 mouth"];
+  38 [label = "中\n38 middle"];
+  1 [label = "一\n1 one"];
+  1201 -> 2744;
+  400 -> 1201;
+  None -> 400;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+  None -> 1201;
+  11 -> None;
+  None -> 1201;
+  None -> 2744;
+  38 -> None;
+  None -> 38;
+  1 -> None;
+  11 -> 38;
+  None -> 2744;
+  None -> 2744;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+}

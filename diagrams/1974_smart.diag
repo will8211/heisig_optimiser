@@ -1,0 +1,15 @@
+blockdiag {
+  1974 [label = "聪\n1974 smart"];
+  717 [label = "耳\n717 ear"];
+  566 [label = "总\n566 general"];
+  None [label = "丷\nNone horns"];
+  1 [label = "一\n1 one"];
+  11 [label = "口\n11 mouth"];
+  563 [label = "心\n563 heart"];
+  717 -> 1974;
+  566 -> 1974;
+  None -> 566;
+  1 -> None;
+  11 -> 566;
+  563 -> 566;
+}

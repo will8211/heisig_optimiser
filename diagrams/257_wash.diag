@@ -1,0 +1,16 @@
+blockdiag {
+  257 [label = "洗\n257 wash"];
+  137 [label = "水\n137 water"];
+  None [label = "丶\nNone a drop of"];
+  1 [label = "一\n1 one"];
+  256 [label = "先\n256 before"];
+  252 [label = "牛\n252 cow"];
+  56 [label = "儿\n56 youngster"];
+  137 -> 257;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  256 -> 257;
+  252 -> 256;
+  56 -> 256;
+}

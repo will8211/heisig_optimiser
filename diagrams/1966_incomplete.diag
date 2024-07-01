@@ -1,0 +1,10 @@
+blockdiag {
+  1966 [label = "残\n1966 incomplete"];
+  712 [label = "歹\n712 malicious"];
+  None [label = "弋\nNone arrow"];
+  361 [label = "戈\n361 halberd"];
+  712 -> 1966;
+  None -> 1966;
+  361 -> None;
+  None -> 361;
+}

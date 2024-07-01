@@ -1,0 +1,17 @@
+blockdiag {
+  2612 [label = "栖\n2612 perch"];
+  202 [label = "木\n202 tree"];
+  1253 [label = "西\n1253 west"];
+  4 [label = "四\n4 four"];
+  11 [label = "口\n11 mouth"];
+  56 [label = "儿\n56 youngster"];
+  1 [label = "一\n1 one"];
+  202 -> 2612;
+  1253 -> 2612;
+  4 -> 1253;
+  11 -> 4;
+  56 -> 4;
+  1 -> 1253;
+  56 -> 1253;
+  11 -> 1253;
+}

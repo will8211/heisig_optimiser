@@ -1,0 +1,19 @@
+blockdiag {
+  2421 [label = "繁\n2421 numerous"];
+  1713 [label = "敏\n1713 quick-witted"];
+  467 [label = "每\n467 every"];
+  None [label = "丶\nNone a drop of"];
+  105 [label = "母\n105 mother"];
+  102 [label = "女\n102 woman"];
+  109 [label = "小\n109 small"];
+  1713 -> 2421;
+  467 -> 1713;
+  None -> 467;
+  105 -> 467;
+  102 -> 105;
+  None -> 1713;
+  None -> 2421;
+  None -> None;
+  109 -> None;
+  None -> 109;
+}

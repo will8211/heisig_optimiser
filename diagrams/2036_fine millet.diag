@@ -1,0 +1,16 @@
+blockdiag {
+  2036 [label = "粱\n2036 fine millet"];
+  None [label = "丶\nNone a drop of"];
+  137 [label = "水\n137 water"];
+  1 [label = "一\n1 one"];
+  83 [label = "刀\n83 sword"];
+  778 [label = "米\n778 rice"];
+  None -> 2036;
+  137 -> None;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  83 -> None;
+  None -> None;
+  778 -> 2036;
+}

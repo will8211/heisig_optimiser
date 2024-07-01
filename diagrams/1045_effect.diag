@@ -1,0 +1,18 @@
+blockdiag {
+  1045 [label = "效\n1045 effect"];
+  1044 [label = "交\n1044 mingle"];
+  None [label = "攵\nNone taskmaster"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  1043 [label = "父\n1043 father"];
+  1044 -> 1045;
+  None -> 1044;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+  1043 -> 1044;
+  None -> 1043;
+  None -> 1045;
+}

@@ -1,0 +1,24 @@
+blockdiag {
+  1959 [label = "颇\n1959 quite"];
+  707 [label = "皮\n707 covering"];
+  650 [label = "支\n650 offshoot"];
+  10 [label = "十\n10 ten"];
+  633 [label = "又\n633 again"];
+  60 [label = "页\n60 page"];
+  52 [label = "贝\n52 shellfish"];
+  15 [label = "目\n15 eye"];
+  None [label = "丶\nNone a drop of"];
+  8 [label = "八\n8 eight"];
+  1 [label = "一\n1 one"];
+  707 -> 1959;
+  650 -> 707;
+  10 -> 650;
+  633 -> 650;
+  60 -> 1959;
+  52 -> 60;
+  15 -> 52;
+  None -> 52;
+  8 -> None;
+  1 -> 60;
+  None -> 60;
+}

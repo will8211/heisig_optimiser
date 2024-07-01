@@ -1,0 +1,20 @@
+blockdiag {
+  1968 [label = "裂\n1968 crack"];
+  713 [label = "列\n713 line up"];
+  712 [label = "歹\n712 malicious"];
+  83 [label = "刀\n83 sword"];
+  400 [label = "衣\n400 clothing"];
+  None [label = "囧只－口\nNone animal legs"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  713 -> 1968;
+  712 -> 713;
+  83 -> 713;
+  400 -> 1968;
+  None -> 400;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+}

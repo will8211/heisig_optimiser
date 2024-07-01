@@ -1,0 +1,20 @@
+blockdiag {
+  1664 [label = "戚\n1664 kin"];
+  None [label = "丶\nNone a drop of"];
+  361 [label = "戈\n361 halberd"];
+  45 [label = "上\n45 above"];
+  43 [label = "卜\n43 divination"];
+  1 [label = "一\n1 one"];
+  109 [label = "小\n109 small"];
+  None -> 1664;
+  361 -> None;
+  None -> 361;
+  45 -> 1664;
+  43 -> 45;
+  None -> 43;
+  1 -> None;
+  None -> 43;
+  1 -> 45;
+  109 -> 1664;
+  None -> 109;
+}

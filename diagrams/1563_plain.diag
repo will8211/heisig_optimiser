@@ -1,0 +1,12 @@
+blockdiag {
+  1563 [label = "朴\n1563 plain"];
+  202 [label = "木\n202 tree"];
+  43 [label = "卜\n43 divination"];
+  None [label = "丶\nNone a drop of"];
+  1 [label = "一\n1 one"];
+  202 -> 1563;
+  43 -> 1563;
+  None -> 43;
+  1 -> None;
+  None -> 43;
+}

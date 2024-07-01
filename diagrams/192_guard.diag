@@ -1,0 +1,10 @@
+blockdiag {
+  192 [label = "守\n192 guard"];
+  166 [label = "寸\n166 Chinese inch"];
+  None [label = "宀\nNone house"];
+  10 [label = "十\n10 ten"];
+  166 -> 192;
+  None -> 166;
+  10 -> 166;
+  None -> 192;
+}

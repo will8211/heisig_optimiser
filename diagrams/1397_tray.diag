@@ -1,0 +1,11 @@
+blockdiag {
+  1397 [label = "盘\n1397 tray"];
+  1394 [label = "舟\n1394 boat"];
+  None [label = "皿\nNone dish"];
+  57 [label = "几\n57 how many?"];
+  1394 -> 1397;
+  None -> 1394;
+  None -> 1394;
+  57 -> None;
+  None -> 1397;
+}

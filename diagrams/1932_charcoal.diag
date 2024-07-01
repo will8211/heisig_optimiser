@@ -1,0 +1,13 @@
+blockdiag {
+  1932 [label = "炭\n1932 charcoal"];
+  688 [label = "山\n688 mountain"];
+  172 [label = "灰\n172 ashes"];
+  170 [label = "火\n170 fire"];
+  None [label = "𠂇\nNone by one’s side"];
+  10 [label = "十\n10 ten"];
+  688 -> 1932;
+  172 -> 1932;
+  170 -> 172;
+  None -> 172;
+  10 -> None;
+}

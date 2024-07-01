@@ -1,0 +1,16 @@
+blockdiag {
+  2882 [label = "灌\n2882 pour into"];
+  137 [label = "水\n137 water"];
+  None [label = "艹\nNone flower"];
+  1 [label = "一\n1 one"];
+  11 [label = "口\n11 mouth"];
+  137 -> 2882;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  None -> 2882;
+  None -> None;
+  None -> None;
+  11 -> None;
+  None -> None;
+}

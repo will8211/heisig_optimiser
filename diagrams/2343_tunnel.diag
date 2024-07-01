@@ -1,0 +1,12 @@
+blockdiag {
+  2343 [label = "隧\n2343 tunnel"];
+  None [label = "辶\nNone road"];
+  1752 [label = "遂\n1752 satisfy"];
+  1 [label = "一\n1 one"];
+  None -> 2343;
+  1752 -> 2343;
+  None -> 1752;
+  1 -> None;
+  None -> 1752;
+  None -> 1752;
+}

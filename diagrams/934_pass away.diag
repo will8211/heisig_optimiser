@@ -1,0 +1,18 @@
+blockdiag {
+  934 [label = "逝\n934 pass away"];
+  932 [label = "折\n932 discount"];
+  594 [label = "指\n594 finger"];
+  None [label = "辶\nNone road"];
+  463 [label = "旨\n463 purpose"];
+  453 [label = "匕\n453 ancient spoon"];
+  12 [label = "日\n12 day"];
+  924 [label = "斤\n924 catty"];
+  932 -> 934;
+  594 -> 932;
+  None -> 594;
+  463 -> 594;
+  453 -> 463;
+  12 -> 463;
+  924 -> 932;
+  None -> 934;
+}

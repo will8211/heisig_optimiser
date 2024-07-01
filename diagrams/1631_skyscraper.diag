@@ -1,0 +1,16 @@
+blockdiag {
+  1631 [label = "厦\n1631 skyscraper"];
+  121 [label = "厂\n121 factory"];
+  314 [label = "夏\n314 summer"];
+  33 [label = "自\n33 oneself"];
+  None [label = "夂\nNone walking legs"];
+  15 [label = "目\n15 eye"];
+  1 [label = "一\n1 one"];
+  121 -> 1631;
+  314 -> 1631;
+  33 -> 314;
+  None -> 33;
+  15 -> 33;
+  1 -> 314;
+  None -> 314;
+}

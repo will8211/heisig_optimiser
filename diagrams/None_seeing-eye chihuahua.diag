@@ -1,0 +1,15 @@
+blockdiag {
+  None [label = "𠂇\nNone by one’s side"];
+  239 [label = "犬\n239 pooch"];
+  113 [label = "大\n113 large"];
+  635 [label = "友\n635 friend"];
+  10 [label = "十\n10 ten"];
+  633 [label = "又\n633 again"];
+  239 -> None;
+  113 -> 239;
+  None -> 239;
+  635 -> None;
+  None -> 635;
+  10 -> None;
+  633 -> 635;
+}

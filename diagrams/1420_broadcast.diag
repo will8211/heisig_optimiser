@@ -1,0 +1,13 @@
+blockdiag {
+  1420 [label = "播\n1420 broadcast"];
+  None [label = "丶\nNone a drop of"];
+  1418 [label = "番\n1418 try"];
+  778 [label = "米\n778 rice"];
+  14 [label = "田\n14 rice field"];
+  None -> 1420;
+  1418 -> 1420;
+  None -> 1418;
+  None -> None;
+  778 -> None;
+  14 -> 1418;
+}

@@ -1,0 +1,18 @@
+blockdiag {
+  316 [label = "落\n316 fall"];
+  315 [label = "洛\n315 L.A."];
+  309 [label = "各\n309 each"];
+  11 [label = "口\n11 mouth"];
+  None [label = "艹\nNone flower"];
+  137 [label = "水\n137 water"];
+  1 [label = "一\n1 one"];
+  315 -> 316;
+  309 -> 315;
+  11 -> 309;
+  None -> 309;
+  137 -> 315;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  None -> 316;
+}

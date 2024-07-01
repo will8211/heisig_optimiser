@@ -1,0 +1,17 @@
+blockdiag {
+  276 [label = "理\n276 logic"];
+  266 [label = "玉\n266 jade"];
+  265 [label = "王\n265 king"];
+  76 [label = "工\n76 work"];
+  None [label = "丶\nNone a drop of"];
+  179 [label = "里\n179 li"];
+  14 [label = "田\n14 rice field"];
+  158 [label = "土\n158 soil"];
+  266 -> 276;
+  265 -> 266;
+  76 -> 265;
+  None -> 266;
+  179 -> 276;
+  14 -> 179;
+  158 -> 179;
+}

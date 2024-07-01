@@ -1,0 +1,16 @@
+blockdiag {
+  1897 [label = "贩\n1897 peddler"];
+  52 [label = "贝\n52 shellfish"];
+  15 [label = "目\n15 eye"];
+  None [label = "𠂆\nNone drag"];
+  8 [label = "八\n8 eight"];
+  656 [label = "反\n656 against"];
+  633 [label = "又\n633 again"];
+  52 -> 1897;
+  15 -> 52;
+  None -> 52;
+  8 -> None;
+  656 -> 1897;
+  None -> 656;
+  633 -> 656;
+}

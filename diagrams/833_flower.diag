@@ -1,0 +1,11 @@
+blockdiag {
+  833 [label = "花\n833 flower"];
+  None [label = "艹\nNone flower"];
+  830 [label = "化\n830 transform"];
+  793 [label = "人\n793 person"];
+  453 [label = "匕\n453 ancient spoon"];
+  None -> 833;
+  830 -> 833;
+  793 -> 830;
+  453 -> 830;
+}

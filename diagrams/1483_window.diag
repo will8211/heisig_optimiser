@@ -1,0 +1,13 @@
+blockdiag {
+  1483 [label = "窗\n1483 window"];
+  1070 [label = "穴\n1070 hole"];
+  None [label = "夂\nNone walking legs"];
+  8 [label = "八\n8 eight"];
+  1070 -> 1483;
+  None -> 1070;
+  8 -> 1070;
+  None -> 1070;
+  8 -> None;
+  None -> 1483;
+  None -> None;
+}

@@ -1,0 +1,14 @@
+blockdiag {
+  2519 [label = "饰\n2519 ornaments"];
+  1154 [label = "食\n1154 food"];
+  1151 [label = "良\n1151 high-quality"];
+  None [label = "𠂉\nNone reclining"];
+  410 [label = "巾\n410 towel"];
+  1154 -> 2519;
+  1151 -> 1154;
+  None -> 1151;
+  None -> 1151;
+  None -> 1154;
+  None -> 2519;
+  410 -> 2519;
+}

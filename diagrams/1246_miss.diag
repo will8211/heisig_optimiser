@@ -1,0 +1,10 @@
+blockdiag {
+  1246 [label = "念\n1246 miss"];
+  1244 [label = "今\n1244 now"];
+  None [label = "𠆢\nNone umbrella"];
+  563 [label = "心\n563 heart"];
+  1244 -> 1246;
+  None -> 1244;
+  None -> None;
+  563 -> 1246;
+}

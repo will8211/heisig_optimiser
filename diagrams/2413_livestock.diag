@@ -1,0 +1,17 @@
+blockdiag {
+  2413 [label = "畜\n2413 livestock"];
+  2411 [label = "玄\n2411 mysterious"];
+  None [label = "幺\nNone cocoon"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  14 [label = "田\n14 rice field"];
+  2411 -> 2413;
+  None -> 2411;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+  None -> 2411;
+  14 -> 2413;
+}

@@ -1,0 +1,17 @@
+blockdiag {
+  486 [label = "韵\n486 rhyme"];
+  484 [label = "音\n484 sound"];
+  444 [label = "立\n444 standing up"];
+  12 [label = "日\n12 day"];
+  66 [label = "匀\n66 uniform"];
+  None [label = "勹\nNone bound up"];
+  2 [label = "二\n2 two"];
+  1 [label = "一\n1 one"];
+  484 -> 486;
+  444 -> 484;
+  12 -> 484;
+  66 -> 486;
+  None -> 66;
+  2 -> 66;
+  1 -> 2;
+}

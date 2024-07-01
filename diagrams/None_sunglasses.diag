@@ -1,0 +1,11 @@
+blockdiag {
+  None [label = "舛\nNone sunglasses"];
+  115 [label = "夕\n115 evening"];
+  13 [label = "月\n13 month"];
+  871 [label = "年\n871 year"];
+  542 [label = "午\n542 noon"];
+  115 -> None;
+  13 -> 115;
+  871 -> None;
+  542 -> 871;
+}

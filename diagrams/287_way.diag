@@ -1,0 +1,15 @@
+blockdiag {
+  287 [label = "道\n287 way"];
+  71 [label = "首\n71 heads"];
+  None [label = "辶\nNone road"];
+  1 [label = "一\n1 one"];
+  33 [label = "自\n33 oneself"];
+  15 [label = "目\n15 eye"];
+  71 -> 287;
+  None -> 71;
+  1 -> None;
+  33 -> 71;
+  None -> 33;
+  15 -> 33;
+  None -> 287;
+}

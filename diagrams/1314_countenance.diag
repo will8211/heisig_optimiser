@@ -1,0 +1,25 @@
+blockdiag {
+  1314 [label = "颜\n1314 countenance"];
+  1313 [label = "彦\n1313 erudite"];
+  1312 [label = "产\n1312 products"];
+  444 [label = "立\n444 standing up"];
+  121 [label = "厂\n121 factory"];
+  None [label = "丶\nNone a drop of"];
+  60 [label = "页\n60 page"];
+  52 [label = "贝\n52 shellfish"];
+  15 [label = "目\n15 eye"];
+  8 [label = "八\n8 eight"];
+  1 [label = "一\n1 one"];
+  1313 -> 1314;
+  1312 -> 1313;
+  444 -> 1312;
+  121 -> 1312;
+  None -> 1313;
+  60 -> 1314;
+  52 -> 60;
+  15 -> 52;
+  None -> 52;
+  8 -> None;
+  1 -> 60;
+  None -> 60;
+}

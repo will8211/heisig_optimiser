@@ -1,0 +1,17 @@
+blockdiag {
+  469 [label = "海\n469 sea"];
+  467 [label = "每\n467 every"];
+  None [label = "丶\nNone a drop of"];
+  105 [label = "母\n105 mother"];
+  102 [label = "女\n102 woman"];
+  137 [label = "水\n137 water"];
+  1 [label = "一\n1 one"];
+  467 -> 469;
+  None -> 467;
+  105 -> 467;
+  102 -> 105;
+  137 -> 469;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+}

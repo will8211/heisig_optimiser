@@ -1,0 +1,22 @@
+blockdiag {
+  2366 [label = "锅\n2366 pot"];
+  279 [label = "金\n279 gold"];
+  None [label = "囧冂\nNone belt"];
+  265 [label = "王\n265 king"];
+  76 [label = "工\n76 work"];
+  11 [label = "口\n11 mouth"];
+  840 [label = "内\n840 internal"];
+  410 [label = "巾\n410 towel"];
+  793 [label = "人\n793 person"];
+  279 -> 2366;
+  None -> 279;
+  265 -> 279;
+  76 -> 265;
+  None -> 279;
+  None -> 2366;
+  11 -> None;
+  840 -> None;
+  None -> 840;
+  410 -> None;
+  793 -> 840;
+}

@@ -1,0 +1,19 @@
+blockdiag {
+  2561 [label = "咳\n2561 cough"];
+  11 [label = "口\n11 mouth"];
+  1194 [label = "亥\n1194 sign of the pig"];
+  None [label = "厶\nNone elbow"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  793 [label = "人\n793 person"];
+  11 -> 2561;
+  1194 -> 2561;
+  None -> 1194;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+  None -> 1194;
+  793 -> 1194;
+}

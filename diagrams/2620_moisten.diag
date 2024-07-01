@@ -1,0 +1,19 @@
+blockdiag {
+  2620 [label = "润\n2620 moisten"];
+  137 [label = "水\n137 water"];
+  None [label = "丶\nNone a drop of"];
+  1 [label = "一\n1 one"];
+  1260 [label = "门\n1260 gate"];
+  266 [label = "玉\n266 jade"];
+  265 [label = "王\n265 king"];
+  76 [label = "工\n76 work"];
+  137 -> 2620;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  1260 -> 2620;
+  266 -> 2620;
+  265 -> 266;
+  76 -> 265;
+  None -> 266;
+}

@@ -1,0 +1,15 @@
+blockdiag {
+  619 [label = "型\n619 mold"];
+  618 [label = "刑\n618 punishment"];
+  613 [label = "开\n613 open"];
+  2 [label = "二\n2 two"];
+  1 [label = "一\n1 one"];
+  83 [label = "刀\n83 sword"];
+  158 [label = "土\n158 soil"];
+  618 -> 619;
+  613 -> 618;
+  2 -> 613;
+  1 -> 2;
+  83 -> 618;
+  158 -> 619;
+}

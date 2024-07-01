@@ -1,0 +1,13 @@
+blockdiag {
+  2348 [label = "棱\n2348 edge"];
+  202 [label = "木\n202 tree"];
+  None [label = "夂\nNone walking legs"];
+  158 [label = "土\n158 soil"];
+  8 [label = "八\n8 eight"];
+  202 -> 2348;
+  None -> 2348;
+  158 -> None;
+  None -> None;
+  8 -> None;
+  None -> None;
+}

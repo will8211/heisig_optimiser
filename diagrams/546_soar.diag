@@ -1,0 +1,11 @@
+blockdiag {
+  546 [label = "翔\n546 soar"];
+  528 [label = "羊\n528 sheep"];
+  None [label = "丷\nNone horns"];
+  1 [label = "一\n1 one"];
+  544 [label = "羽\n544 feathers"];
+  528 -> 546;
+  None -> 528;
+  1 -> None;
+  544 -> 546;
+}

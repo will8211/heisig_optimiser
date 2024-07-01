@@ -1,0 +1,14 @@
+blockdiag {
+  2078 [label = "偿\n2078 repay"];
+  793 [label = "人\n793 person"];
+  1692 [label = "尝\n1692 taste"];
+  109 [label = "小\n109 small"];
+  None [label = "冖\nNone crown"];
+  428 [label = "云\n428 cloud"];
+  793 -> 2078;
+  1692 -> 2078;
+  109 -> 1692;
+  None -> 109;
+  None -> 1692;
+  428 -> 1692;
+}

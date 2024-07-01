@@ -1,0 +1,25 @@
+blockdiag {
+  1656 [label = "讯\n1656 interrogate"];
+  346 [label = "言\n346 say"];
+  2 [label = "二\n2 two"];
+  1 [label = "一\n1 one"];
+  11 [label = "口\n11 mouth"];
+  None [label = "卂\nNone crochet needles"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  95 [label = "乙\n95 second"];
+  10 [label = "十\n10 ten"];
+  346 -> 1656;
+  2 -> 346;
+  1 -> 2;
+  11 -> 346;
+  None -> 346;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+  None -> 1656;
+  95 -> None;
+  10 -> None;
+}

@@ -1,0 +1,12 @@
+blockdiag {
+  1645 [label = "玫\n1645 rose"];
+  266 [label = "玉\n266 jade"];
+  265 [label = "王\n265 king"];
+  76 [label = "工\n76 work"];
+  None [label = "攵\nNone taskmaster"];
+  266 -> 1645;
+  265 -> 266;
+  76 -> 265;
+  None -> 266;
+  None -> 1645;
+}

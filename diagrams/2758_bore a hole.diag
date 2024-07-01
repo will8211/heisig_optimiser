@@ -1,0 +1,27 @@
+blockdiag {
+  2758 [label = "凿\n2758 bore a hole"];
+  1349 [label = "业\n1349 profession"];
+  None [label = "丷\nNone horns"];
+  323 [label = "坑\n323 pit"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  57 [label = "几\n57 how many?"];
+  158 [label = "土\n158 soil"];
+  1 [label = "一\n1 one"];
+  1277 [label = "干\n1277 dry"];
+  1349 -> 2758;
+  None -> 1349;
+  323 -> 2758;
+  None -> 323;
+  None -> None;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+  57 -> None;
+  158 -> 323;
+  None -> 2758;
+  1 -> None;
+  1277 -> 2758;
+}

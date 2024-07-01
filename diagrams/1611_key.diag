@@ -1,0 +1,14 @@
+blockdiag {
+  1611 [label = "钥\n1611 key"];
+  279 [label = "金\n279 gold"];
+  None [label = "丶\nNone a drop of"];
+  265 [label = "王\n265 king"];
+  76 [label = "工\n76 work"];
+  13 [label = "月\n13 month"];
+  279 -> 1611;
+  None -> 279;
+  265 -> 279;
+  76 -> 265;
+  None -> 279;
+  13 -> 1611;
+}

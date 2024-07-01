@@ -1,0 +1,11 @@
+blockdiag {
+  1248 [label = "栋\n1248 building"];
+  202 [label = "木\n202 tree"];
+  1247 [label = "东\n1247 east"];
+  300 [label = "车\n300 car"];
+  None [label = "丶\nNone a drop of"];
+  202 -> 1248;
+  1247 -> 1248;
+  300 -> 1247;
+  None -> 1247;
+}

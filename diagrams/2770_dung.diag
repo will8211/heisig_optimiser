@@ -1,0 +1,13 @@
+blockdiag {
+  2770 [label = "粪\n2770 dung"];
+  778 [label = "米\n778 rice"];
+  1354 [label = "共\n1354 together"];
+  None [label = "囧只－口\nNone animal legs"];
+  8 [label = "八\n8 eight"];
+  778 -> 2770;
+  1354 -> 2770;
+  None -> 1354;
+  None -> None;
+  None -> 1354;
+  8 -> None;
+}

@@ -1,0 +1,15 @@
+blockdiag {
+  2276 [label = "禅\n2276 meditation"];
+  900 [label = "示\n900 show"];
+  1018 [label = "单\n1018 list"];
+  None [label = "丷\nNone horns"];
+  1 [label = "一\n1 one"];
+  14 [label = "田\n14 rice field"];
+  10 [label = "十\n10 ten"];
+  900 -> 2276;
+  1018 -> 2276;
+  None -> 1018;
+  1 -> None;
+  14 -> 1018;
+  10 -> 1018;
+}

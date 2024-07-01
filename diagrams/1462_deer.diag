@@ -1,0 +1,25 @@
+blockdiag {
+  1462 [label = "鹿\n1462 deer"];
+  186 [label = "洞\n186 cave"];
+  185 [label = "同\n185 same"];
+  1 [label = "一\n1 one"];
+  11 [label = "口\n11 mouth"];
+  None [label = "囧侯－亻－矢\nNone key"];
+  57 [label = "几\n57 how many?"];
+  137 [label = "水\n137 water"];
+  456 [label = "比\n456 compare"];
+  453 [label = "匕\n453 ancient spoon"];
+  186 -> 1462;
+  185 -> 186;
+  1 -> 185;
+  11 -> 185;
+  None -> 185;
+  57 -> None;
+  137 -> 186;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  456 -> 1462;
+  453 -> 456;
+  None -> 1462;
+}

@@ -1,0 +1,19 @@
+blockdiag {
+  2210 [label = "凄\n2210 miserable"];
+  None [label = "彐\nNone broom"];
+  137 [label = "水\n137 water"];
+  1 [label = "一\n1 one"];
+  2209 [label = "妻\n2209 wife"];
+  10 [label = "十\n10 ten"];
+  102 [label = "女\n102 woman"];
+  None -> 2210;
+  137 -> None;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  2209 -> 2210;
+  10 -> 2209;
+  None -> 2209;
+  None -> None;
+  102 -> 2209;
+}

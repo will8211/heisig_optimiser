@@ -1,0 +1,16 @@
+blockdiag {
+  1155 [label = "饭\n1155 meal"];
+  1154 [label = "食\n1154 food"];
+  1151 [label = "良\n1151 high-quality"];
+  None [label = "𠂆\nNone drag"];
+  656 [label = "反\n656 against"];
+  633 [label = "又\n633 again"];
+  1154 -> 1155;
+  1151 -> 1154;
+  None -> 1151;
+  None -> 1151;
+  None -> 1154;
+  656 -> 1155;
+  None -> 656;
+  633 -> 656;
+}

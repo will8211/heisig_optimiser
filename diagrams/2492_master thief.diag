@@ -1,0 +1,16 @@
+blockdiag {
+  2492 [label = "盗\n2492 master thief"];
+  478 [label = "次\n478 next"];
+  474 [label = "欠\n474 lack"];
+  None [label = "皿\nNone dish"];
+  137 [label = "水\n137 water"];
+  1 [label = "一\n1 one"];
+  478 -> 2492;
+  474 -> 478;
+  None -> 478;
+  137 -> None;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  None -> 2492;
+}

@@ -1,0 +1,16 @@
+blockdiag {
+  155 [label = "渔\n155 fishing"];
+  154 [label = "鱼\n154 fish"];
+  None [label = "丶\nNone a drop of"];
+  14 [label = "田\n14 rice field"];
+  1 [label = "一\n1 one"];
+  137 [label = "水\n137 water"];
+  154 -> 155;
+  None -> 154;
+  14 -> 154;
+  1 -> 154;
+  137 -> 155;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+}

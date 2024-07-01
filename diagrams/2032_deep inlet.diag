@@ -1,0 +1,20 @@
+blockdiag {
+  2032 [label = "澳\n2032 deep inlet"];
+  137 [label = "水\n137 water"];
+  None [label = "冂\nNone hood"];
+  1 [label = "一\n1 one"];
+  2031 [label = "奥\n2031 of great depth"];
+  57 [label = "几\n57 how many?"];
+  778 [label = "米\n778 rice"];
+  113 [label = "大\n113 large"];
+  137 -> 2032;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  2031 -> 2032;
+  None -> 2031;
+  None -> 2031;
+  57 -> None;
+  778 -> 2031;
+  113 -> 2031;
+}

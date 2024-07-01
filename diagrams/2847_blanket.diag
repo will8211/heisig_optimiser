@@ -1,0 +1,11 @@
+blockdiag {
+  2847 [label = "毯\n2847 blanket"];
+  1421 [label = "毛\n1421 fur"];
+  584 [label = "手\n584 hand"];
+  174 [label = "炎\n174 inflammation"];
+  170 [label = "火\n170 fire"];
+  1421 -> 2847;
+  584 -> 1421;
+  174 -> 2847;
+  170 -> 174;
+}

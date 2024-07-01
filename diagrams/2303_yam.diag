@@ -1,0 +1,22 @@
+blockdiag {
+  2303 [label = "薯\n2303 yam"];
+  None [label = "丨\nNone walking stick"];
+  2302 [label = "署\n2302 add your John Hancock"];
+  15 [label = "目\n15 eye"];
+  1037 [label = "者\n1037 someone"];
+  1029 [label = "老\n1029 old man"];
+  158 [label = "土\n158 soil"];
+  1 [label = "一\n1 one"];
+  453 [label = "匕\n453 ancient spoon"];
+  12 [label = "日\n12 day"];
+  None -> 2303;
+  2302 -> 2303;
+  15 -> 2302;
+  1037 -> 2302;
+  1029 -> 1037;
+  158 -> 1029;
+  None -> 1029;
+  1 -> None;
+  453 -> 1029;
+  12 -> 1037;
+}

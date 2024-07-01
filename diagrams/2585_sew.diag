@@ -1,0 +1,13 @@
+blockdiag {
+  2585 [label = "缝\n2585 sew"];
+  None [label = "辶\nNone road"];
+  2584 [label = "逢\n2584 chance upon"];
+  1223 [label = "丰\n1223 plentiful"];
+  None -> 2585;
+  None -> None;
+  2584 -> 2585;
+  None -> 2584;
+  1223 -> None;
+  None -> None;
+  None -> 2584;
+}

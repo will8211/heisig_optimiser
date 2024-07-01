@@ -1,0 +1,13 @@
+blockdiag {
+  159 [label = "均\n159 equal"];
+  158 [label = "土\n158 soil"];
+  66 [label = "匀\n66 uniform"];
+  None [label = "勹\nNone bound up"];
+  2 [label = "二\n2 two"];
+  1 [label = "一\n1 one"];
+  158 -> 159;
+  66 -> 159;
+  None -> 66;
+  2 -> 66;
+  1 -> 2;
+}

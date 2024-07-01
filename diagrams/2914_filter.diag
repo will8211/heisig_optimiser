@@ -1,0 +1,32 @@
+blockdiag {
+  2914 [label = "滤\n2914 filter"];
+  137 [label = "水\n137 water"];
+  None [label = "囧走－十\nNone mending"];
+  1 [label = "一\n1 one"];
+  1460 [label = "虑\n1460 ponder"];
+  1459 [label = "虎\n1459 tiger"];
+  43 [label = "卜\n43 divination"];
+  7 [label = "七\n7 seven"];
+  57 [label = "几\n57 how many?"];
+  387 [label = "正\n387 correct"];
+  379 [label = "止\n379 stop"];
+  563 [label = "心\n563 heart"];
+  137 -> 2914;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  1460 -> 2914;
+  1459 -> 1460;
+  43 -> 1459;
+  None -> 43;
+  1 -> None;
+  None -> 43;
+  7 -> 1459;
+  57 -> 1459;
+  None -> 1459;
+  None -> None;
+  387 -> None;
+  1 -> 387;
+  379 -> 387;
+  563 -> 1460;
+}

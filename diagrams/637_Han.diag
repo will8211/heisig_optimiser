@@ -1,0 +1,12 @@
+blockdiag {
+  637 [label = "汉\n637 Han"];
+  137 [label = "水\n137 water"];
+  None [label = "丶\nNone a drop of"];
+  1 [label = "一\n1 one"];
+  633 [label = "又\n633 again"];
+  137 -> 637;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  633 -> 637;
+}

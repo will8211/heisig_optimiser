@@ -1,0 +1,16 @@
+blockdiag {
+  2841 [label = "鞠\n2841 bow respectfully"];
+  1407 [label = "革\n1407 leather"];
+  976 [label = "廿\n976 twenty"];
+  10 [label = "十\n10 ten"];
+  11 [label = "口\n11 mouth"];
+  None [label = "勹\nNone bound up"];
+  778 [label = "米\n778 rice"];
+  1407 -> 2841;
+  976 -> 1407;
+  10 -> 976;
+  11 -> 1407;
+  10 -> 1407;
+  None -> 2841;
+  778 -> 2841;
+}

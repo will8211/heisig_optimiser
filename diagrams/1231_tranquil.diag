@@ -1,0 +1,13 @@
+blockdiag {
+  1231 [label = "泰\n1231 tranquil"];
+  None [label = "丶\nNone a drop of"];
+  1223 [label = "丰\n1223 plentiful"];
+  137 [label = "水\n137 water"];
+  1 [label = "一\n1 one"];
+  None -> 1231;
+  1223 -> None;
+  137 -> 1231;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+}

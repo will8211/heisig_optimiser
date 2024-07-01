@@ -1,0 +1,20 @@
+blockdiag {
+  406 [label = "补\n406 patch"];
+  400 [label = "衣\n400 clothing"];
+  None [label = "丶\nNone a drop of"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  43 [label = "卜\n43 divination"];
+  1 [label = "一\n1 one"];
+  400 -> 406;
+  None -> 400;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+  43 -> 406;
+  None -> 43;
+  1 -> None;
+  None -> 43;
+}

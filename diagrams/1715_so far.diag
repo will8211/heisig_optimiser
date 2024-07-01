@@ -1,0 +1,10 @@
+blockdiag {
+  1715 [label = "迄\n1715 so far"];
+  470 [label = "乞\n470 beg"];
+  None [label = "辶\nNone road"];
+  95 [label = "乙\n95 second"];
+  470 -> 1715;
+  None -> 470;
+  95 -> 470;
+  None -> 1715;
+}

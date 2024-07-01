@@ -1,0 +1,11 @@
+blockdiag {
+  2811 [label = "邻\n2811 neighbor"];
+  1113 [label = "令\n1113 orders"];
+  None [label = "阝\nNone pinnacle"];
+  1113 -> 2811;
+  None -> 1113;
+  None -> None;
+  None -> 1113;
+  None -> 2811;
+  None -> None;
+}

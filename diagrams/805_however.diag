@@ -1,0 +1,11 @@
+blockdiag {
+  805 [label = "但\n805 however"];
+  793 [label = "人\n793 person"];
+  30 [label = "旦\n30 daybreak"];
+  12 [label = "日\n12 day"];
+  1 [label = "一\n1 one"];
+  793 -> 805;
+  30 -> 805;
+  12 -> 30;
+  1 -> 30;
+}

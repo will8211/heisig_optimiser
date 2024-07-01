@@ -1,0 +1,17 @@
+blockdiag {
+  1954 [label = "熔\n1954 fuse"];
+  170 [label = "火\n170 fire"];
+  701 [label = "容\n701 contain"];
+  None [label = "𠆢\nNone umbrella"];
+  698 [label = "谷\n698 valley"];
+  8 [label = "八\n8 eight"];
+  11 [label = "口\n11 mouth"];
+  170 -> 1954;
+  701 -> 1954;
+  None -> 701;
+  698 -> 701;
+  None -> 698;
+  8 -> None;
+  None -> 698;
+  11 -> 698;
+}

@@ -1,0 +1,18 @@
+blockdiag {
+  2771 [label = "殿\n2771 ceremonial hall"];
+  882 [label = "尸\n882 corpse"];
+  1354 [label = "共\n1354 together"];
+  None [label = "殳\nNone missile"];
+  8 [label = "八\n8 eight"];
+  57 [label = "几\n57 how many?"];
+  633 [label = "又\n633 again"];
+  882 -> 2771;
+  1354 -> 2771;
+  None -> 1354;
+  None -> None;
+  None -> 1354;
+  8 -> None;
+  None -> 2771;
+  57 -> None;
+  633 -> None;
+}

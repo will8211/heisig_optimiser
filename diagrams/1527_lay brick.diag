@@ -1,0 +1,15 @@
+blockdiag {
+  1527 [label = "砌\n1527 lay brick"];
+  125 [label = "石\n125 stone"];
+  11 [label = "口\n11 mouth"];
+  121 [label = "厂\n121 factory"];
+  85 [label = "切\n85 cut"];
+  83 [label = "刀\n83 sword"];
+  7 [label = "七\n7 seven"];
+  125 -> 1527;
+  11 -> 125;
+  121 -> 125;
+  85 -> 1527;
+  83 -> 85;
+  7 -> 85;
+}

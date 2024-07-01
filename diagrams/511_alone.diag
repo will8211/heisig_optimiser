@@ -1,0 +1,11 @@
+blockdiag {
+  511 [label = "独\n511 alone"];
+  239 [label = "犬\n239 pooch"];
+  113 [label = "大\n113 large"];
+  None [label = "丶\nNone a drop of"];
+  509 [label = "虫\n509 insect"];
+  239 -> 511;
+  113 -> 239;
+  None -> 239;
+  509 -> 511;
+}

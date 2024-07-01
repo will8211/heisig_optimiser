@@ -1,0 +1,13 @@
+blockdiag {
+  1904 [label = "睬\n1904 notice"];
+  15 [label = "目\n15 eye"];
+  665 [label = "采\n665 pick"];
+  663 [label = "爪\n663 claw"];
+  None [label = "𠂆\nNone drag"];
+  202 [label = "木\n202 tree"];
+  15 -> 1904;
+  665 -> 1904;
+  663 -> 665;
+  None -> 663;
+  202 -> 665;
+}

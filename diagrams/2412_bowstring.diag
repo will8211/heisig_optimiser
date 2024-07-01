@@ -1,0 +1,17 @@
+blockdiag {
+  2412 [label = "弦\n2412 bowstring"];
+  2411 [label = "玄\n2411 mysterious"];
+  None [label = "幺\nNone cocoon"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  1013 [label = "弓\n1013 bow"];
+  2411 -> 2412;
+  None -> 2411;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+  None -> 2411;
+  1013 -> 2412;
+}

@@ -1,0 +1,23 @@
+blockdiag {
+  2023 [label = "黏\n2023 sticky"];
+  None [label = "丶\nNone a drop of"];
+  762 [label = "禾\n762 standing grain"];
+  137 [label = "水\n137 water"];
+  1 [label = "一\n1 one"];
+  44 [label = "占\n44 tell fortunes"];
+  43 [label = "卜\n43 divination"];
+  11 [label = "口\n11 mouth"];
+  None -> 2023;
+  None -> None;
+  762 -> None;
+  137 -> None;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  44 -> 2023;
+  43 -> 44;
+  None -> 43;
+  1 -> None;
+  None -> 43;
+  11 -> 44;
+}

@@ -1,0 +1,17 @@
+blockdiag {
+  1566 [label = "椅\n1566 chair"];
+  202 [label = "木\n202 tree"];
+  133 [label = "奇\n133 strange"];
+  113 [label = "大\n113 large"];
+  92 [label = "可\n92 can"];
+  90 [label = "丁\n90 fourth"];
+  11 [label = "口\n11 mouth"];
+  202 -> 1566;
+  133 -> 1566;
+  113 -> 133;
+  92 -> 133;
+  90 -> 92;
+  11 -> 92;
+  11 -> 133;
+  90 -> 133;
+}

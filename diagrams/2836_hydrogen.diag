@@ -1,0 +1,16 @@
+blockdiag {
+  2836 [label = "氢\n2836 hydrogen"];
+  1404 [label = "气\n1404 air"];
+  None [label = "𢀖\nNone spool"];
+  1 [label = "一\n1 one"];
+  95 [label = "乙\n95 second"];
+  76 [label = "工\n76 work"];
+  793 [label = "人\n793 person"];
+  1404 -> 2836;
+  None -> 1404;
+  1 -> 1404;
+  95 -> 1404;
+  None -> 2836;
+  76 -> None;
+  793 -> None;
+}

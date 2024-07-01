@@ -1,0 +1,15 @@
+blockdiag {
+  2237 [label = "糟\n2237 messed up"];
+  778 [label = "米\n778 rice"];
+  None [label = "囧曹\nNone cadet"];
+  1 [label = "一\n1 one"];
+  967 [label = "曲\n967 bent"];
+  14 [label = "田\n14 rice field"];
+  12 [label = "日\n12 day"];
+  778 -> 2237;
+  None -> 2237;
+  1 -> None;
+  967 -> None;
+  14 -> 967;
+  12 -> None;
+}

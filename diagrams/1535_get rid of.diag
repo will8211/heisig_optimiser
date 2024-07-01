@@ -1,0 +1,15 @@
+blockdiag {
+  1535 [label = "汰\n1535 get rid of"];
+  137 [label = "水\n137 water"];
+  None [label = "丶\nNone a drop of"];
+  1 [label = "一\n1 one"];
+  131 [label = "太\n131 overly"];
+  113 [label = "大\n113 large"];
+  137 -> 1535;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  131 -> 1535;
+  113 -> 131;
+  None -> 131;
+}

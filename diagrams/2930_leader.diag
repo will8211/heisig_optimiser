@@ -1,0 +1,23 @@
+blockdiag {
+  2930 [label = "魁\n2930 leader"];
+  1472 [label = "鬼\n1472 ghost"];
+  None [label = "丶\nNone a drop of"];
+  14 [label = "田\n14 rice field"];
+  56 [label = "儿\n56 youngster"];
+  968 [label = "斗\n968 Big Dipper"];
+  137 [label = "水\n137 water"];
+  1 [label = "一\n1 one"];
+  10 [label = "十\n10 ten"];
+  1472 -> 2930;
+  None -> 1472;
+  14 -> 1472;
+  56 -> 1472;
+  None -> 1472;
+  968 -> 2930;
+  None -> 968;
+  137 -> None;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  10 -> 968;
+}

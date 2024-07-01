@@ -1,0 +1,21 @@
+blockdiag {
+  710 [label = "破\n710 break"];
+  1927 [label = "岩\n1927 rock"];
+  688 [label = "山\n688 mountain"];
+  125 [label = "石\n125 stone"];
+  11 [label = "口\n11 mouth"];
+  121 [label = "厂\n121 factory"];
+  707 [label = "皮\n707 covering"];
+  650 [label = "支\n650 offshoot"];
+  10 [label = "十\n10 ten"];
+  633 [label = "又\n633 again"];
+  1927 -> 710;
+  688 -> 1927;
+  125 -> 1927;
+  11 -> 125;
+  121 -> 125;
+  707 -> 710;
+  650 -> 707;
+  10 -> 650;
+  633 -> 650;
+}

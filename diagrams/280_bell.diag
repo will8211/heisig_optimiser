@@ -1,0 +1,19 @@
+blockdiag {
+  280 [label = "钟\n280 bell"];
+  279 [label = "金\n279 gold"];
+  None [label = "丨\nNone walking stick"];
+  265 [label = "王\n265 king"];
+  76 [label = "工\n76 work"];
+  38 [label = "中\n38 middle"];
+  1 [label = "一\n1 one"];
+  11 [label = "口\n11 mouth"];
+  279 -> 280;
+  None -> 279;
+  265 -> 279;
+  76 -> 265;
+  None -> 279;
+  38 -> 280;
+  None -> 38;
+  1 -> None;
+  11 -> 38;
+}

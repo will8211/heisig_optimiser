@@ -1,0 +1,11 @@
+blockdiag {
+  1908 [label = "胎\n1908 fetus"];
+  13 [label = "月\n13 month"];
+  672 [label = "台\n672 platform"];
+  None [label = "厶\nNone elbow"];
+  11 [label = "口\n11 mouth"];
+  13 -> 1908;
+  672 -> 1908;
+  None -> 672;
+  11 -> 672;
+}

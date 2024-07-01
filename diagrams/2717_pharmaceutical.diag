@@ -1,0 +1,20 @@
+blockdiag {
+  2717 [label = "剂\n2717 pharmaceutical"];
+  1318 [label = "齐\n1318 identical"];
+  1315 [label = "文\n1315 literature"];
+  None [label = "囧介－𠆢\nNone crutches"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  83 [label = "刀\n83 sword"];
+  1318 -> 2717;
+  1315 -> 1318;
+  None -> 1315;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+  None -> 1315;
+  None -> 1318;
+  83 -> 2717;
+}

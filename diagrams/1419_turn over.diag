@@ -1,0 +1,14 @@
+blockdiag {
+  1419 [label = "翻\n1419 turn over"];
+  1418 [label = "番\n1418 try"];
+  None [label = "丶\nNone a drop of"];
+  778 [label = "米\n778 rice"];
+  14 [label = "田\n14 rice field"];
+  544 [label = "羽\n544 feathers"];
+  1418 -> 1419;
+  None -> 1418;
+  None -> None;
+  778 -> None;
+  14 -> 1418;
+  544 -> 1419;
+}

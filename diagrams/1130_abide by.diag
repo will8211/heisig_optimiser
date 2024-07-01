@@ -1,0 +1,18 @@
+blockdiag {
+  1130 [label = "遵\n1130 abide by"];
+  1129 [label = "尊\n1129 venerate"];
+  1128 [label = "酋\n1128 chieftain"];
+  None [label = "辶\nNone road"];
+  1 [label = "一\n1 one"];
+  166 [label = "寸\n166 Chinese inch"];
+  10 [label = "十\n10 ten"];
+  1129 -> 1130;
+  1128 -> 1129;
+  None -> 1128;
+  1 -> None;
+  None -> 1128;
+  166 -> 1129;
+  None -> 166;
+  10 -> 166;
+  None -> 1130;
+}

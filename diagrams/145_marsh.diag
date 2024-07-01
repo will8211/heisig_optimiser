@@ -1,0 +1,16 @@
+blockdiag {
+  145 [label = "沼\n145 marsh"];
+  137 [label = "水\n137 water"];
+  None [label = "丶\nNone a drop of"];
+  1 [label = "一\n1 one"];
+  86 [label = "召\n86 summon"];
+  83 [label = "刀\n83 sword"];
+  11 [label = "口\n11 mouth"];
+  137 -> 145;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  86 -> 145;
+  83 -> 86;
+  11 -> 86;
+}

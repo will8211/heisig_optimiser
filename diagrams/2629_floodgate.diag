@@ -1,0 +1,9 @@
+blockdiag {
+  2629 [label = "闸\n2629 floodgate"];
+  1260 [label = "门\n1260 gate"];
+  916 [label = "甲\n916 first"];
+  14 [label = "田\n14 rice field"];
+  1260 -> 2629;
+  916 -> 2629;
+  14 -> 916;
+}

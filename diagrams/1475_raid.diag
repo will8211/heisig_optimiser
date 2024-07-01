@@ -1,0 +1,23 @@
+blockdiag {
+  1475 [label = "袭\n1475 raid"];
+  1474 [label = "龙\n1474 dragon"];
+  239 [label = "犬\n239 pooch"];
+  113 [label = "大\n113 large"];
+  None [label = "囧只－口\nNone animal legs"];
+  453 [label = "匕\n453 ancient spoon"];
+  400 [label = "衣\n400 clothing"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  1474 -> 1475;
+  239 -> 1474;
+  113 -> 239;
+  None -> 239;
+  453 -> 1474;
+  400 -> 1475;
+  None -> 400;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+}

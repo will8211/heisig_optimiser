@@ -1,0 +1,12 @@
+blockdiag {
+  1713 [label = "敏\n1713 quick-witted"];
+  467 [label = "每\n467 every"];
+  None [label = "攵\nNone taskmaster"];
+  105 [label = "母\n105 mother"];
+  102 [label = "女\n102 woman"];
+  467 -> 1713;
+  None -> 467;
+  105 -> 467;
+  102 -> 105;
+  None -> 1713;
+}

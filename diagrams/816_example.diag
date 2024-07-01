@@ -1,0 +1,11 @@
+blockdiag {
+  816 [label = "例\n816 example"];
+  793 [label = "人\n793 person"];
+  713 [label = "列\n713 line up"];
+  712 [label = "歹\n712 malicious"];
+  83 [label = "刀\n83 sword"];
+  793 -> 816;
+  713 -> 816;
+  712 -> 713;
+  83 -> 713;
+}

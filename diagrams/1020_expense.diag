@@ -1,0 +1,15 @@
+blockdiag {
+  1020 [label = "费\n1020 expense"];
+  None [label = "囧只－口\nNone animal legs"];
+  1013 [label = "弓\n1013 bow"];
+  52 [label = "贝\n52 shellfish"];
+  15 [label = "目\n15 eye"];
+  8 [label = "八\n8 eight"];
+  None -> 1020;
+  None -> None;
+  1013 -> None;
+  52 -> 1020;
+  15 -> 52;
+  None -> 52;
+  8 -> None;
+}

@@ -1,0 +1,15 @@
+blockdiag {
+  343 [label = "救\n343 rescue"];
+  None [label = "丶\nNone a drop of"];
+  140 [label = "求\n140 request"];
+  137 [label = "水\n137 water"];
+  1 [label = "一\n1 one"];
+  None -> 343;
+  140 -> 343;
+  137 -> 140;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  None -> 140;
+  1 -> 140;
+}

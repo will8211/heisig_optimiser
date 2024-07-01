@@ -1,0 +1,20 @@
+blockdiag {
+  2182 [label = "裹\n2182 envelop"];
+  400 [label = "衣\n400 clothing"];
+  None [label = "囧只－口\nNone animal legs"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  921 [label = "果\n921 fruit"];
+  202 [label = "木\n202 tree"];
+  14 [label = "田\n14 rice field"];
+  400 -> 2182;
+  None -> 400;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+  921 -> 2182;
+  202 -> 921;
+  14 -> 921;
+}

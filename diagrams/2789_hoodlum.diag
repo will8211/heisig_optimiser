@@ -1,0 +1,27 @@
+blockdiag {
+  2789 [label = "氓\n2789 hoodlum"];
+  490 [label = "亡\n490 deceased"];
+  None [label = "囧以－丶人\nNone plow"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  95 [label = "乙\n95 second"];
+  1377 [label = "民\n1377 people"];
+  1371 [label = "氏\n1371 family name"];
+  1 [label = "一\n1 one"];
+  11 [label = "口\n11 mouth"];
+  490 -> 2789;
+  None -> 490;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+  95 -> 490;
+  1377 -> 2789;
+  1371 -> 1377;
+  None -> 1371;
+  None -> 1371;
+  1 -> 1371;
+  95 -> 1371;
+  11 -> 1377;
+}

@@ -1,0 +1,26 @@
+blockdiag {
+  2160 [label = "凛\n2160 chilly"];
+  None [label = "囗\nNone pent in"];
+  137 [label = "水\n137 water"];
+  1 [label = "一\n1 one"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  554 [label = "回\n554 return"];
+  11 [label = "口\n11 mouth"];
+  900 [label = "示\n900 show"];
+  None -> 2160;
+  137 -> None;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  None -> 2160;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+  554 -> 2160;
+  None -> 554;
+  11 -> 554;
+  900 -> 2160;
+}

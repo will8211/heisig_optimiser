@@ -1,0 +1,16 @@
+blockdiag {
+  1249 [label = "冻\n1249 freeze"];
+  None [label = "丶\nNone a drop of"];
+  137 [label = "水\n137 water"];
+  1 [label = "一\n1 one"];
+  1247 [label = "东\n1247 east"];
+  300 [label = "车\n300 car"];
+  None -> 1249;
+  137 -> None;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  1247 -> 1249;
+  300 -> 1247;
+  None -> 1247;
+}

@@ -1,0 +1,20 @@
+blockdiag {
+  2889 [label = "勉\n2889 strive"];
+  1449 [label = "免\n1449 avoid"];
+  1447 [label = "兔\n1447 rabbit"];
+  None [label = "丶\nNone a drop of"];
+  11 [label = "口\n11 mouth"];
+  56 [label = "儿\n56 youngster"];
+  63 [label = "肌\n63 muscle"];
+  57 [label = "几\n57 how many?"];
+  13 [label = "月\n13 month"];
+  1449 -> 2889;
+  1447 -> 1449;
+  None -> 1447;
+  11 -> 1447;
+  56 -> 1447;
+  None -> 1447;
+  63 -> 2889;
+  57 -> 63;
+  13 -> 63;
+}

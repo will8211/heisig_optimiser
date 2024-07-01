@@ -1,0 +1,14 @@
+blockdiag {
+  1556 [label = "晌\n1556 part of the day"];
+  12 [label = "日\n12 day"];
+  188 [label = "向\n188 orientation"];
+  None [label = "冂\nNone hood"];
+  57 [label = "几\n57 how many?"];
+  11 [label = "口\n11 mouth"];
+  12 -> 1556;
+  188 -> 1556;
+  None -> 188;
+  None -> 188;
+  57 -> None;
+  11 -> 188;
+}

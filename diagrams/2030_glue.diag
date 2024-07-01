@@ -1,0 +1,16 @@
+blockdiag {
+  2030 [label = "粘\n2030 glue"];
+  778 [label = "米\n778 rice"];
+  44 [label = "占\n44 tell fortunes"];
+  43 [label = "卜\n43 divination"];
+  None [label = "丶\nNone a drop of"];
+  1 [label = "一\n1 one"];
+  11 [label = "口\n11 mouth"];
+  778 -> 2030;
+  44 -> 2030;
+  43 -> 44;
+  None -> 43;
+  1 -> None;
+  None -> 43;
+  11 -> 44;
+}

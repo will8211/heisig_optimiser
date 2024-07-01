@@ -1,0 +1,29 @@
+blockdiag {
+  355 [label = "诗\n355 poem"];
+  169 [label = "寺\n169 Buddhist temple"];
+  158 [label = "土\n158 soil"];
+  166 [label = "寸\n166 Chinese inch"];
+  None [label = "囧只－口\nNone animal legs"];
+  10 [label = "十\n10 ten"];
+  346 [label = "言\n346 say"];
+  2 [label = "二\n2 two"];
+  1 [label = "一\n1 one"];
+  11 [label = "口\n11 mouth"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  169 -> 355;
+  158 -> 169;
+  166 -> 169;
+  None -> 166;
+  10 -> 166;
+  346 -> 355;
+  2 -> 346;
+  1 -> 2;
+  11 -> 346;
+  None -> 346;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+}

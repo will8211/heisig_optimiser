@@ -1,0 +1,30 @@
+blockdiag {
+  2547 [label = "龄\n2547 length of service"];
+  2546 [label = "齿\n2546 teeth"];
+  379 [label = "止\n379 stop"];
+  793 [label = "人\n793 person"];
+  323 [label = "坑\n323 pit"];
+  None [label = "囧节－艹\nNone chop"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  57 [label = "几\n57 how many?"];
+  158 [label = "土\n158 soil"];
+  1113 [label = "令\n1113 orders"];
+  2546 -> 2547;
+  379 -> 2546;
+  793 -> 2546;
+  323 -> 2546;
+  None -> 323;
+  None -> None;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+  57 -> None;
+  158 -> 323;
+  1113 -> 2547;
+  None -> 1113;
+  None -> None;
+  None -> 1113;
+}

@@ -1,0 +1,30 @@
+blockdiag {
+  1646 [label = "敦\n1646 candid"];
+  326 [label = "享\n326 enjoy"];
+  97 [label = "子\n97 child"];
+  325 [label = "高\n325 tall"];
+  188 [label = "向\n188 orientation"];
+  None [label = "攵\nNone taskmaster"];
+  57 [label = "几\n57 how many?"];
+  11 [label = "口\n11 mouth"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  326 -> 1646;
+  97 -> 326;
+  325 -> 326;
+  188 -> 325;
+  None -> 188;
+  None -> 188;
+  57 -> None;
+  11 -> 188;
+  11 -> 325;
+  None -> 325;
+  57 -> None;
+  None -> 325;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+  None -> 1646;
+}

@@ -1,0 +1,25 @@
+blockdiag {
+  350 [label = "狱\n350 prison"];
+  239 [label = "犬\n239 pooch"];
+  113 [label = "大\n113 large"];
+  None [label = "囧只－口\nNone animal legs"];
+  346 [label = "言\n346 say"];
+  2 [label = "二\n2 two"];
+  1 [label = "一\n1 one"];
+  11 [label = "口\n11 mouth"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  239 -> 350;
+  113 -> 239;
+  None -> 239;
+  346 -> 350;
+  2 -> 346;
+  1 -> 2;
+  11 -> 346;
+  None -> 346;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+}

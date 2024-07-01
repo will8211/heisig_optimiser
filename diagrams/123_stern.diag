@@ -1,0 +1,11 @@
+blockdiag {
+  123 [label = "厉\n123 stern"];
+  121 [label = "厂\n121 factory"];
+  65 [label = "万\n65 ten thousand"];
+  None [label = "勹\nNone bound up"];
+  1 [label = "一\n1 one"];
+  121 -> 123;
+  65 -> 123;
+  None -> 65;
+  1 -> 65;
+}

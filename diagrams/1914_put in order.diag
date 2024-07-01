@@ -1,0 +1,14 @@
+blockdiag {
+  1914 [label = "摆\n1914 put in order"];
+  None [label = "厶\nNone elbow"];
+  1913 [label = "罢\n1913 cease"];
+  15 [label = "目\n15 eye"];
+  675 [label = "去\n675 go"];
+  158 [label = "土\n158 soil"];
+  None -> 1914;
+  1913 -> 1914;
+  15 -> 1913;
+  675 -> 1913;
+  158 -> 675;
+  None -> 675;
+}

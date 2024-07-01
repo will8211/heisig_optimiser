@@ -1,0 +1,11 @@
+blockdiag {
+  2060 [label = "估\n2060 estimate"];
+  793 [label = "人\n793 person"];
+  16 [label = "古\n16 ancient"];
+  10 [label = "十\n10 ten"];
+  11 [label = "口\n11 mouth"];
+  793 -> 2060;
+  16 -> 2060;
+  10 -> 16;
+  11 -> 16;
+}

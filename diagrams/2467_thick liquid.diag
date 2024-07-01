@@ -1,0 +1,17 @@
+blockdiag {
+  2467 [label = "浆\n2467 thick liquid"];
+  None [label = "丶\nNone a drop of"];
+  237 [label = "兆\n237 portent"];
+  115 [label = "夕\n115 evening"];
+  13 [label = "月\n13 month"];
+  137 [label = "水\n137 water"];
+  1 [label = "一\n1 one"];
+  None -> 2467;
+  237 -> None;
+  115 -> None;
+  13 -> 115;
+  137 -> 2467;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+}

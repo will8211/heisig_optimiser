@@ -1,0 +1,11 @@
+blockdiag {
+  2449 [label = "圈\n2449 circle"];
+  None [label = "㔾\nNone fingerprint"];
+  2447 [label = "卷\n2447 exam paper"];
+  980 [label = "半\n980 half"];
+  None -> 2449;
+  2447 -> 2449;
+  None -> 2447;
+  980 -> None;
+  None -> 2447;
+}

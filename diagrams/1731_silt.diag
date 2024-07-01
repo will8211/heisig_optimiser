@@ -1,0 +1,28 @@
+blockdiag {
+  1731 [label = "淤\n1731 silt"];
+  137 [label = "水\n137 water"];
+  None [label = "丶\nNone a drop of"];
+  1 [label = "一\n1 one"];
+  494 [label = "方\n494 direction"];
+  83 [label = "刀\n83 sword"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  137 -> 1731;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  494 -> 1731;
+  83 -> 494;
+  None -> 494;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+  None -> 1731;
+  None -> 1731;
+  137 -> None;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+}

@@ -1,0 +1,18 @@
+blockdiag {
+  1677 [label = "袜\n1677 socks"];
+  400 [label = "衣\n400 clothing"];
+  None [label = "囧只－口\nNone animal legs"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  216 [label = "末\n216 last"];
+  202 [label = "木\n202 tree"];
+  400 -> 1677;
+  None -> 400;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+  216 -> 1677;
+  202 -> 216;
+}

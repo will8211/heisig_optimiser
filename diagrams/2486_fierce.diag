@@ -1,0 +1,14 @@
+blockdiag {
+  2486 [label = "猛\n2486 fierce"];
+  239 [label = "犬\n239 pooch"];
+  113 [label = "大\n113 large"];
+  None [label = "皿\nNone dish"];
+  2485 [label = "孟\n2485 Mencius"];
+  97 [label = "子\n97 child"];
+  239 -> 2486;
+  113 -> 239;
+  None -> 239;
+  2485 -> 2486;
+  97 -> 2485;
+  None -> 2485;
+}

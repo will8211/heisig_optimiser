@@ -1,0 +1,21 @@
+blockdiag {
+  1135 [label = "喜\n1135 joyful"];
+  None [label = "丶\nNone a drop of"];
+  334 [label = "士\n334 soldier"];
+  224 [label = "桌\n224 table"];
+  202 [label = "木\n202 tree"];
+  12 [label = "日\n12 day"];
+  43 [label = "卜\n43 divination"];
+  1 [label = "一\n1 one"];
+  11 [label = "口\n11 mouth"];
+  None -> 1135;
+  334 -> None;
+  224 -> None;
+  202 -> 224;
+  12 -> 224;
+  43 -> 224;
+  None -> 43;
+  1 -> None;
+  None -> 43;
+  11 -> 1135;
+}

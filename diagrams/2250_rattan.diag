@@ -1,0 +1,16 @@
+blockdiag {
+  2250 [label = "藤\n2250 rattan"];
+  None [label = "丶\nNone a drop of"];
+  13 [label = "月\n13 month"];
+  980 [label = "半\n980 half"];
+  137 [label = "水\n137 water"];
+  1 [label = "一\n1 one"];
+  None -> 2250;
+  13 -> 2250;
+  None -> 2250;
+  980 -> None;
+  137 -> 2250;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+}

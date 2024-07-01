@@ -1,0 +1,23 @@
+blockdiag {
+  2435 [label = "疑\n2435 doubt"];
+  453 [label = "匕\n453 ancient spoon"];
+  None [label = "囧节－艹\nNone chop"];
+  387 [label = "正\n387 correct"];
+  1 [label = "一\n1 one"];
+  379 [label = "止\n379 stop"];
+  998 [label = "矢\n998 dart"];
+  436 [label = "天\n436 heavens"];
+  113 [label = "大\n113 large"];
+  453 -> 2435;
+  None -> 2435;
+  None -> None;
+  387 -> None;
+  1 -> 387;
+  379 -> 387;
+  998 -> 2435;
+  436 -> 998;
+  1 -> 436;
+  113 -> 436;
+  None -> 998;
+  None -> 2435;
+}

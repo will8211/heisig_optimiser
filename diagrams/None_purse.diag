@@ -1,0 +1,10 @@
+blockdiag {
+  None [label = "丨\nNone walking stick"];
+  38 [label = "中\n38 middle"];
+  1 [label = "一\n1 one"];
+  11 [label = "口\n11 mouth"];
+  38 -> None;
+  None -> 38;
+  1 -> None;
+  11 -> 38;
+}

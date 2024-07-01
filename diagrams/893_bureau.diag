@@ -1,0 +1,11 @@
+blockdiag {
+  893 [label = "局\n893 bureau"];
+  882 [label = "尸\n882 corpse"];
+  67 [label = "句\n67 sentence"];
+  None [label = "勹\nNone bound up"];
+  11 [label = "口\n11 mouth"];
+  882 -> 893;
+  67 -> 893;
+  None -> 67;
+  11 -> 67;
+}

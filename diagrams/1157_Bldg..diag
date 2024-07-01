@@ -1,0 +1,17 @@
+blockdiag {
+  1157 [label = "馆\n1157 Bldg."];
+  1154 [label = "食\n1154 food"];
+  1151 [label = "良\n1151 high-quality"];
+  None [label = "宀\nNone house"];
+  1041 [label = "官\n1041 bureaucrat"];
+  1154 -> 1157;
+  1151 -> 1154;
+  None -> 1151;
+  None -> 1151;
+  None -> 1154;
+  1041 -> 1157;
+  None -> 1041;
+  None -> None;
+  None -> 1041;
+  None -> 1041;
+}

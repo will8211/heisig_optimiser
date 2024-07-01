@@ -1,0 +1,13 @@
+blockdiag {
+  264 [label = "塔\n264 pagoda"];
+  158 [label = "土\n158 soil"];
+  None [label = "𠆢\nNone umbrella"];
+  262 [label = "合\n262 fit"];
+  11 [label = "口\n11 mouth"];
+  158 -> 264;
+  None -> 264;
+  262 -> 264;
+  None -> 262;
+  None -> None;
+  11 -> 262;
+}

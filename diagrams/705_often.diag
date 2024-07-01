@@ -1,0 +1,12 @@
+blockdiag {
+  705 [label = "常\n705 often"];
+  None [label = "丶\nNone a drop of"];
+  109 [label = "小\n109 small"];
+  11 [label = "口\n11 mouth"];
+  410 [label = "巾\n410 towel"];
+  None -> 705;
+  109 -> None;
+  None -> 109;
+  11 -> None;
+  410 -> 705;
+}

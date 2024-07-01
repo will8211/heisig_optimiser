@@ -1,0 +1,13 @@
+blockdiag {
+  1915 [label = "丢\n1915 mislay"];
+  39 [label = "千\n39 thousand"];
+  None [label = "厶\nNone elbow"];
+  10 [label = "十\n10 ten"];
+  1 [label = "一\n1 one"];
+  39 -> 1915;
+  None -> 39;
+  10 -> 39;
+  None -> 1915;
+  None -> None;
+  1 -> None;
+}

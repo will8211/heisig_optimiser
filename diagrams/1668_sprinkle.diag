@@ -1,0 +1,17 @@
+blockdiag {
+  1668 [label = "浇\n1668 sprinkle"];
+  137 [label = "水\n137 water"];
+  None [label = "弋\nNone arrow"];
+  1 [label = "一\n1 one"];
+  376 [label = "尧\n376 Yao"];
+  361 [label = "戈\n361 halberd"];
+  56 [label = "儿\n56 youngster"];
+  137 -> 1668;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  376 -> 1668;
+  361 -> 376;
+  None -> 361;
+  56 -> 376;
+}

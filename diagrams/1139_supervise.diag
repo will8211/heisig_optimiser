@@ -1,0 +1,24 @@
+blockdiag {
+  1139 [label = "监\n1139 supervise"];
+  None [label = "皿\nNone dish"];
+  607 [label = "掉\n607 drop"];
+  48 [label = "卓\n48 eminent"];
+  43 [label = "卜\n43 divination"];
+  1 [label = "一\n1 one"];
+  26 [label = "早\n26 early"];
+  12 [label = "日\n12 day"];
+  10 [label = "十\n10 ten"];
+  None -> 1139;
+  None -> 1139;
+  607 -> 1139;
+  None -> 607;
+  48 -> 607;
+  43 -> 48;
+  None -> 43;
+  1 -> None;
+  None -> 43;
+  26 -> 48;
+  12 -> 26;
+  10 -> 26;
+  None -> 1139;
+}

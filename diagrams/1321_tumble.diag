@@ -1,0 +1,19 @@
+blockdiag {
+  1321 [label = "摔\n1321 tumble"];
+  None [label = "囧率－玄－十\nNone sparkler"];
+  1320 [label = "率\n1320 rate"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  10 [label = "十\n10 ten"];
+  None -> 1321;
+  1320 -> 1321;
+  None -> 1320;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+  None -> 1320;
+  None -> 1320;
+  10 -> 1320;
+}

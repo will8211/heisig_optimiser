@@ -1,0 +1,28 @@
+blockdiag {
+  849 [label = "座\n849 seat"];
+  186 [label = "洞\n186 cave"];
+  185 [label = "同\n185 same"];
+  1 [label = "一\n1 one"];
+  11 [label = "口\n11 mouth"];
+  None [label = "丶\nNone a drop of"];
+  57 [label = "几\n57 how many?"];
+  137 [label = "水\n137 water"];
+  848 [label = "坐\n848 sit"];
+  846 [label = "从\n846 follow"];
+  793 [label = "人\n793 person"];
+  158 [label = "土\n158 soil"];
+  186 -> 849;
+  185 -> 186;
+  1 -> 185;
+  11 -> 185;
+  None -> 185;
+  57 -> None;
+  137 -> 186;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  848 -> 849;
+  846 -> 848;
+  793 -> 846;
+  158 -> 848;
+}

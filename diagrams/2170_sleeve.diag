@@ -1,0 +1,18 @@
+blockdiag {
+  2170 [label = "袖\n2170 sleeve"];
+  400 [label = "衣\n400 clothing"];
+  None [label = "囧只－口\nNone animal legs"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  913 [label = "由\n913 wherefore"];
+  14 [label = "田\n14 rice field"];
+  400 -> 2170;
+  None -> 400;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+  913 -> 2170;
+  14 -> 913;
+}

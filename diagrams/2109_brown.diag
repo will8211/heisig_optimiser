@@ -1,0 +1,22 @@
+blockdiag {
+  2109 [label = "褐\n2109 brown"];
+  400 [label = "衣\n400 clothing"];
+  None [label = "勹\nNone bound up"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  793 [label = "人\n793 person"];
+  95 [label = "乙\n95 second"];
+  12 [label = "日\n12 day"];
+  400 -> 2109;
+  None -> 400;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+  None -> 2109;
+  793 -> None;
+  None -> None;
+  95 -> None;
+  12 -> None;
+}

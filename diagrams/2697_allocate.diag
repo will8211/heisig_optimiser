@@ -1,0 +1,19 @@
+blockdiag {
+  2697 [label = "拨\n2697 allocate"];
+  None [label = "丶\nNone a drop of"];
+  1302 [label = "发\n1302 send out"];
+  635 [label = "友\n635 friend"];
+  10 [label = "十\n10 ten"];
+  633 [label = "又\n633 again"];
+  239 [label = "犬\n239 pooch"];
+  113 [label = "大\n113 large"];
+  None -> 2697;
+  1302 -> 2697;
+  635 -> 1302;
+  None -> 635;
+  10 -> None;
+  633 -> 635;
+  239 -> 1302;
+  113 -> 239;
+  None -> 239;
+}

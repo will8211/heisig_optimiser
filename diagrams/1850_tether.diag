@@ -1,0 +1,12 @@
+blockdiag {
+  1850 [label = "拴\n1850 tether"];
+  None [label = "𠆢\nNone umbrella"];
+  275 [label = "全\n275 whole"];
+  265 [label = "王\n265 king"];
+  76 [label = "工\n76 work"];
+  None -> 1850;
+  275 -> 1850;
+  265 -> 275;
+  76 -> 265;
+  None -> 275;
+}

@@ -1,0 +1,13 @@
+blockdiag {
+  1265 [label = "简\n1265 simple"];
+  786 [label = "竹\n786 bamboo"];
+  90 [label = "丁\n90 fourth"];
+  1264 [label = "间\n1264 interval"];
+  1260 [label = "门\n1260 gate"];
+  12 [label = "日\n12 day"];
+  786 -> 1265;
+  90 -> 786;
+  1264 -> 1265;
+  1260 -> 1264;
+  12 -> 1264;
+}

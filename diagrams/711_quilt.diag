@@ -1,0 +1,22 @@
+blockdiag {
+  711 [label = "被\n711 quilt"];
+  400 [label = "衣\n400 clothing"];
+  None [label = "囧只－口\nNone animal legs"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  707 [label = "皮\n707 covering"];
+  650 [label = "支\n650 offshoot"];
+  10 [label = "十\n10 ten"];
+  633 [label = "又\n633 again"];
+  400 -> 711;
+  None -> 400;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+  707 -> 711;
+  650 -> 707;
+  10 -> 650;
+  633 -> 650;
+}

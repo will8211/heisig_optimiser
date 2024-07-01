@@ -1,0 +1,23 @@
+blockdiag {
+  1512 [label = "颠\n1512 invert"];
+  75 [label = "真\n75 true"];
+  10 [label = "十\n10 ten"];
+  None [label = "丶\nNone a drop of"];
+  8 [label = "八\n8 eight"];
+  60 [label = "页\n60 page"];
+  52 [label = "贝\n52 shellfish"];
+  15 [label = "目\n15 eye"];
+  1 [label = "一\n1 one"];
+  75 -> 1512;
+  10 -> 75;
+  None -> 75;
+  None -> None;
+  8 -> None;
+  60 -> 1512;
+  52 -> 60;
+  15 -> 52;
+  None -> 52;
+  8 -> None;
+  1 -> 60;
+  None -> 60;
+}

@@ -1,0 +1,16 @@
+blockdiag {
+  1591 [label = "燃\n1591 ignite"];
+  170 [label = "火\n170 fire"];
+  247 [label = "然\n247 sort of thing"];
+  13 [label = "月\n13 month"];
+  239 [label = "犬\n239 pooch"];
+  113 [label = "大\n113 large"];
+  None [label = "丶\nNone a drop of"];
+  170 -> 1591;
+  247 -> 1591;
+  13 -> 247;
+  239 -> 247;
+  113 -> 239;
+  None -> 239;
+  170 -> 247;
+}

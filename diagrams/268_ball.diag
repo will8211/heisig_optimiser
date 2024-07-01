@@ -1,0 +1,21 @@
+blockdiag {
+  268 [label = "球\n268 ball"];
+  266 [label = "玉\n266 jade"];
+  265 [label = "王\n265 king"];
+  76 [label = "工\n76 work"];
+  None [label = "丶\nNone a drop of"];
+  140 [label = "求\n140 request"];
+  137 [label = "水\n137 water"];
+  1 [label = "一\n1 one"];
+  266 -> 268;
+  265 -> 266;
+  76 -> 265;
+  None -> 266;
+  140 -> 268;
+  137 -> 140;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  None -> 140;
+  1 -> 140;
+}

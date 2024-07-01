@@ -1,0 +1,17 @@
+blockdiag {
+  1694 [label = "枣\n1694 jujube"];
+  None [label = "丶\nNone a drop of"];
+  410 [label = "巾\n410 towel"];
+  202 [label = "木\n202 tree"];
+  137 [label = "水\n137 water"];
+  1 [label = "一\n1 one"];
+  None -> 1694;
+  None -> None;
+  410 -> None;
+  202 -> None;
+  None -> 1694;
+  137 -> None;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+}

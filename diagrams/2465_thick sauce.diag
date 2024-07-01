@@ -1,0 +1,12 @@
+blockdiag {
+  2465 [label = "酱\n2465 thick sauce"];
+  None [label = "酉\nNone whiskey bottle"];
+  237 [label = "兆\n237 portent"];
+  115 [label = "夕\n115 evening"];
+  13 [label = "月\n13 month"];
+  None -> 2465;
+  237 -> None;
+  115 -> None;
+  13 -> 115;
+  None -> 2465;
+}

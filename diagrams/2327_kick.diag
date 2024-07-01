@@ -1,0 +1,18 @@
+blockdiag {
+  2327 [label = "踢\n2327 kick"];
+  1048 [label = "足\n1048 lower leg"];
+  11 [label = "口\n11 mouth"];
+  379 [label = "止\n379 stop"];
+  880 [label = "易\n880 easy"];
+  12 [label = "日\n12 day"];
+  877 [label = "勿\n877 not"];
+  None [label = "豕\nNone sow"];
+  1048 -> 2327;
+  11 -> 1048;
+  379 -> 1048;
+  880 -> 2327;
+  12 -> 880;
+  877 -> 880;
+  None -> 877;
+  None -> None;
+}

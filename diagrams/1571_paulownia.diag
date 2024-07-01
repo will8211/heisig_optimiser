@@ -1,0 +1,15 @@
+blockdiag {
+  1571 [label = "桐\n1571 paulownia"];
+  202 [label = "木\n202 tree"];
+  185 [label = "同\n185 same"];
+  1 [label = "一\n1 one"];
+  11 [label = "口\n11 mouth"];
+  None [label = "冂\nNone hood"];
+  57 [label = "几\n57 how many?"];
+  202 -> 1571;
+  185 -> 1571;
+  1 -> 185;
+  11 -> 185;
+  None -> 185;
+  57 -> None;
+}

@@ -1,0 +1,15 @@
+blockdiag {
+  2587 [label = "篷\n2587 awning"];
+  786 [label = "竹\n786 bamboo"];
+  90 [label = "丁\n90 fourth"];
+  2584 [label = "逢\n2584 chance upon"];
+  None [label = "辶\nNone road"];
+  1223 [label = "丰\n1223 plentiful"];
+  786 -> 2587;
+  90 -> 786;
+  2584 -> 2587;
+  None -> 2584;
+  1223 -> None;
+  None -> None;
+  None -> 2584;
+}

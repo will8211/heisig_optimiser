@@ -1,0 +1,11 @@
+blockdiag {
+  2345 [label = "隐\n2345 hidden"];
+  None [label = "彐\nNone broom"];
+  946 [label = "急\n946 anxious"];
+  563 [label = "心\n563 heart"];
+  None -> 2345;
+  946 -> 2345;
+  None -> 946;
+  None -> 946;
+  563 -> 946;
+}

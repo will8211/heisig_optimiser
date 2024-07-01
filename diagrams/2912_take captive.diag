@@ -1,0 +1,28 @@
+blockdiag {
+  2912 [label = "虏\n2912 take captive"];
+  1459 [label = "虎\n1459 tiger"];
+  43 [label = "卜\n43 divination"];
+  None [label = "囧走－十\nNone mending"];
+  1 [label = "一\n1 one"];
+  7 [label = "七\n7 seven"];
+  57 [label = "几\n57 how many?"];
+  387 [label = "正\n387 correct"];
+  379 [label = "止\n379 stop"];
+  63 [label = "肌\n63 muscle"];
+  13 [label = "月\n13 month"];
+  1459 -> 2912;
+  43 -> 1459;
+  None -> 43;
+  1 -> None;
+  None -> 43;
+  7 -> 1459;
+  57 -> 1459;
+  None -> 1459;
+  None -> None;
+  387 -> None;
+  1 -> 387;
+  379 -> 387;
+  63 -> 2912;
+  57 -> 63;
+  13 -> 63;
+}

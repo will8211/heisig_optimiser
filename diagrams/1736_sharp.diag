@@ -1,0 +1,23 @@
+blockdiag {
+  1736 [label = "锐\n1736 sharp"];
+  279 [label = "金\n279 gold"];
+  None [label = "丷\nNone horns"];
+  265 [label = "王\n265 king"];
+  76 [label = "工\n76 work"];
+  499 [label = "兑\n499 convert"];
+  107 [label = "兄\n107 elder brother"];
+  11 [label = "口\n11 mouth"];
+  56 [label = "儿\n56 youngster"];
+  1 [label = "一\n1 one"];
+  279 -> 1736;
+  None -> 279;
+  265 -> 279;
+  76 -> 265;
+  None -> 279;
+  499 -> 1736;
+  107 -> 499;
+  11 -> 107;
+  56 -> 107;
+  None -> 499;
+  1 -> None;
+}

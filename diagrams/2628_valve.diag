@@ -1,0 +1,13 @@
+blockdiag {
+  2628 [label = "阀\n2628 valve"];
+  1260 [label = "门\n1260 gate"];
+  2079 [label = "伐\n2079 fell"];
+  793 [label = "人\n793 person"];
+  361 [label = "戈\n361 halberd"];
+  None [label = "弋\nNone arrow"];
+  1260 -> 2628;
+  2079 -> 2628;
+  793 -> 2079;
+  361 -> 2079;
+  None -> 361;
+}

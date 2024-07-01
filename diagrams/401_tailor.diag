@@ -1,0 +1,20 @@
+blockdiag {
+  401 [label = "裁\n401 tailor"];
+  400 [label = "衣\n400 clothing"];
+  None [label = "弋\nNone arrow"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  158 [label = "土\n158 soil"];
+  361 [label = "戈\n361 halberd"];
+  400 -> 401;
+  None -> 400;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+  None -> 401;
+  158 -> None;
+  361 -> None;
+  None -> 361;
+}

@@ -1,0 +1,12 @@
+blockdiag {
+  1762 [label = "拦\n1762 impede"];
+  None [label = "丷\nNone horns"];
+  533 [label = "兰\n533 orchid"];
+  528 [label = "羊\n528 sheep"];
+  1 [label = "一\n1 one"];
+  None -> 1762;
+  533 -> 1762;
+  528 -> 533;
+  None -> 528;
+  1 -> None;
+}

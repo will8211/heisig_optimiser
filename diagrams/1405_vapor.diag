@@ -1,0 +1,16 @@
+blockdiag {
+  1405 [label = "汽\n1405 vapor"];
+  1404 [label = "气\n1404 air"];
+  None [label = "丶\nNone a drop of"];
+  1 [label = "一\n1 one"];
+  95 [label = "乙\n95 second"];
+  137 [label = "水\n137 water"];
+  1404 -> 1405;
+  None -> 1404;
+  1 -> 1404;
+  95 -> 1404;
+  137 -> 1405;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+}

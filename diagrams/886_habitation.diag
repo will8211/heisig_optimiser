@@ -1,0 +1,14 @@
+blockdiag {
+  886 [label = "屋\n886 habitation"];
+  882 [label = "尸\n882 corpse"];
+  678 [label = "至\n678 until"];
+  None [label = "厶\nNone elbow"];
+  1 [label = "一\n1 one"];
+  158 [label = "土\n158 soil"];
+  882 -> 886;
+  678 -> 886;
+  None -> 678;
+  None -> None;
+  1 -> None;
+  158 -> 678;
+}

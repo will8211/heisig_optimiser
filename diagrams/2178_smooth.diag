@@ -1,0 +1,13 @@
+blockdiag {
+  2178 [label = "畅\n2178 smooth"];
+  918 [label = "申\n918 express"];
+  12 [label = "日\n12 day"];
+  None [label = "豕\nNone sow"];
+  1 [label = "一\n1 one"];
+  918 -> 2178;
+  12 -> 918;
+  None -> 918;
+  1 -> None;
+  None -> 2178;
+  None -> None;
+}

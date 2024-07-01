@@ -1,0 +1,18 @@
+blockdiag {
+  1480 [label = "满\n1480 full"];
+  137 [label = "水\n137 water"];
+  None [label = "囧冂\nNone belt"];
+  1 [label = "一\n1 one"];
+  1478 [label = "两\n1478 dos"];
+  793 [label = "人\n793 person"];
+  410 [label = "巾\n410 towel"];
+  137 -> 1480;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  None -> 1480;
+  1478 -> 1480;
+  793 -> 1478;
+  None -> 1478;
+  410 -> None;
+}

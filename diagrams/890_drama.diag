@@ -1,0 +1,15 @@
+blockdiag {
+  890 [label = "剧\n890 drama"];
+  888 [label = "居\n888 reside"];
+  882 [label = "尸\n882 corpse"];
+  16 [label = "古\n16 ancient"];
+  10 [label = "十\n10 ten"];
+  11 [label = "口\n11 mouth"];
+  83 [label = "刀\n83 sword"];
+  888 -> 890;
+  882 -> 888;
+  16 -> 888;
+  10 -> 16;
+  11 -> 16;
+  83 -> 890;
+}

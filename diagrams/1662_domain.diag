@@ -1,0 +1,15 @@
+blockdiag {
+  1662 [label = "域\n1662 domain"];
+  158 [label = "土\n158 soil"];
+  364 [label = "或\n364 or"];
+  11 [label = "口\n11 mouth"];
+  1 [label = "一\n1 one"];
+  361 [label = "戈\n361 halberd"];
+  None [label = "弋\nNone arrow"];
+  158 -> 1662;
+  364 -> 1662;
+  11 -> 364;
+  1 -> 364;
+  361 -> 364;
+  None -> 361;
+}

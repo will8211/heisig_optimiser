@@ -1,0 +1,16 @@
+blockdiag {
+  126 [label = "砂\n126 gravel"];
+  110 [label = "少\n110 few"];
+  None [label = "丶\nNone a drop of"];
+  109 [label = "小\n109 small"];
+  125 [label = "石\n125 stone"];
+  11 [label = "口\n11 mouth"];
+  121 [label = "厂\n121 factory"];
+  110 -> 126;
+  None -> 110;
+  109 -> 110;
+  None -> 109;
+  125 -> 126;
+  11 -> 125;
+  121 -> 125;
+}

@@ -1,0 +1,18 @@
+blockdiag {
+  2852 [label = "藉\n2852 in disorder"];
+  None [label = "艹\nNone flower"];
+  1 [label = "一\n1 one"];
+  215 [label = "未\n215 not yet"];
+  202 [label = "木\n202 tree"];
+  971 [label = "昔\n971 times past"];
+  12 [label = "日\n12 day"];
+  None -> 2852;
+  None -> 2852;
+  1 -> None;
+  215 -> None;
+  202 -> 215;
+  971 -> 2852;
+  None -> 971;
+  None -> None;
+  12 -> 971;
+}

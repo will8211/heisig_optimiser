@@ -1,0 +1,20 @@
+blockdiag {
+  2010 [label = "颖\n2010 clever"];
+  453 [label = "匕\n453 ancient spoon"];
+  762 [label = "禾\n762 standing grain"];
+  60 [label = "页\n60 page"];
+  52 [label = "贝\n52 shellfish"];
+  15 [label = "目\n15 eye"];
+  None [label = "丶\nNone a drop of"];
+  8 [label = "八\n8 eight"];
+  1 [label = "一\n1 one"];
+  453 -> 2010;
+  762 -> 2010;
+  60 -> 2010;
+  52 -> 60;
+  15 -> 52;
+  None -> 52;
+  8 -> None;
+  1 -> 60;
+  None -> 60;
+}

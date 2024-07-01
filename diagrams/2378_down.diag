@@ -1,0 +1,11 @@
+blockdiag {
+  2378 [label = "绒\n2378 down"];
+  None [label = "弋\nNone arrow"];
+  361 [label = "戈\n361 halberd"];
+  10 [label = "十\n10 ten"];
+  None -> 2378;
+  None -> None;
+  361 -> 2378;
+  None -> 361;
+  10 -> 2378;
+}

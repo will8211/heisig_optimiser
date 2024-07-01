@@ -1,0 +1,10 @@
+blockdiag {
+  880 [label = "易\n880 easy"];
+  12 [label = "日\n12 day"];
+  877 [label = "勿\n877 not"];
+  None [label = "豕\nNone sow"];
+  12 -> 880;
+  877 -> 880;
+  None -> 877;
+  None -> None;
+}

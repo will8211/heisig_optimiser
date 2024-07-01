@@ -1,0 +1,14 @@
+blockdiag {
+  1102 [label = "脚\n1102 foot"];
+  13 [label = "月\n13 month"];
+  1101 [label = "却\n1101 withdraw"];
+  675 [label = "去\n675 go"];
+  158 [label = "土\n158 soil"];
+  None [label = "卩\nNone stamp"];
+  13 -> 1102;
+  1101 -> 1102;
+  675 -> 1101;
+  158 -> 675;
+  None -> 675;
+  None -> 1101;
+}

@@ -1,0 +1,15 @@
+blockdiag {
+  2766 [label = "翼\n2766 wings"];
+  544 [label = "羽\n544 feathers"];
+  14 [label = "田\n14 rice field"];
+  1354 [label = "共\n1354 together"];
+  None [label = "囧只－口\nNone animal legs"];
+  8 [label = "八\n8 eight"];
+  544 -> 2766;
+  14 -> 2766;
+  1354 -> 2766;
+  None -> 1354;
+  None -> None;
+  None -> 1354;
+  8 -> None;
+}

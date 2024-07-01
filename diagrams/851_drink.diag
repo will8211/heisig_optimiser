@@ -1,0 +1,14 @@
+blockdiag {
+  851 [label = "喝\n851 drink"];
+  11 [label = "口\n11 mouth"];
+  None [label = "勹\nNone bound up"];
+  793 [label = "人\n793 person"];
+  95 [label = "乙\n95 second"];
+  12 [label = "日\n12 day"];
+  11 -> 851;
+  None -> 851;
+  793 -> None;
+  None -> None;
+  95 -> None;
+  12 -> None;
+}

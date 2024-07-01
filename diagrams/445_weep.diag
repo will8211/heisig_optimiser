@@ -1,0 +1,12 @@
+blockdiag {
+  445 [label = "泣\n445 weep"];
+  444 [label = "立\n444 standing up"];
+  137 [label = "水\n137 water"];
+  None [label = "丶\nNone a drop of"];
+  1 [label = "一\n1 one"];
+  444 -> 445;
+  137 -> 445;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+}

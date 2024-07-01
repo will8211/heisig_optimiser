@@ -1,0 +1,23 @@
+blockdiag {
+  1357 [label = "港\n1357 port"];
+  137 [label = "水\n137 water"];
+  None [label = "囧只－口\nNone animal legs"];
+  1 [label = "一\n1 one"];
+  1356 [label = "巷\n1356 lane"];
+  1354 [label = "共\n1354 together"];
+  8 [label = "八\n8 eight"];
+  519 [label = "已\n519 already"];
+  515 [label = "己\n515 self"];
+  137 -> 1357;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  1356 -> 1357;
+  1354 -> 1356;
+  None -> 1354;
+  None -> None;
+  None -> 1354;
+  8 -> None;
+  519 -> 1356;
+  515 -> 519;
+}

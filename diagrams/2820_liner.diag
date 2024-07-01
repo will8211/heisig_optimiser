@@ -1,0 +1,15 @@
+blockdiag {
+  2820 [label = "舶\n2820 liner"];
+  1394 [label = "舟\n1394 boat"];
+  None [label = "丶\nNone a drop of"];
+  57 [label = "几\n57 how many?"];
+  34 [label = "白\n34 white"];
+  12 [label = "日\n12 day"];
+  1394 -> 2820;
+  None -> 1394;
+  None -> 1394;
+  57 -> None;
+  34 -> 2820;
+  12 -> 34;
+  None -> 34;
+}

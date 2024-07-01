@@ -1,0 +1,15 @@
+blockdiag {
+  2420 [label = "紫\n2420 purple"];
+  460 [label = "此\n460 this (literary)"];
+  379 [label = "止\n379 stop"];
+  453 [label = "匕\n453 ancient spoon"];
+  None [label = "丶\nNone a drop of"];
+  109 [label = "小\n109 small"];
+  460 -> 2420;
+  379 -> 460;
+  453 -> 460;
+  None -> 2420;
+  None -> None;
+  109 -> None;
+  None -> 109;
+}

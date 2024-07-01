@@ -1,0 +1,17 @@
+blockdiag {
+  2678 [label = "匪\n2678 bandit"];
+  788 [label = "箱\n788 box"];
+  786 [label = "竹\n786 bamboo"];
+  90 [label = "丁\n90 fourth"];
+  212 [label = "相\n212 one another"];
+  202 [label = "木\n202 tree"];
+  15 [label = "目\n15 eye"];
+  1267 [label = "非\n1267 non-"];
+  788 -> 2678;
+  786 -> 788;
+  90 -> 786;
+  212 -> 788;
+  202 -> 212;
+  15 -> 212;
+  1267 -> 2678;
+}

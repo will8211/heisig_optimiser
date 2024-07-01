@@ -1,0 +1,14 @@
+blockdiag {
+  None [label = "冂\nNone hood"];
+  444 [label = "立\n444 standing up"];
+  57 [label = "几\n57 how many?"];
+  16 [label = "古\n16 ancient"];
+  10 [label = "十\n10 ten"];
+  11 [label = "口\n11 mouth"];
+  444 -> None;
+  None -> None;
+  57 -> None;
+  16 -> None;
+  10 -> 16;
+  11 -> 16;
+}

@@ -1,0 +1,14 @@
+blockdiag {
+  1445 [label = "遥\n1445 remote"];
+  None [label = "辶\nNone road"];
+  663 [label = "爪\n663 claw"];
+  542 [label = "午\n542 noon"];
+  688 [label = "山\n688 mountain"];
+  None -> 1445;
+  663 -> None;
+  None -> 663;
+  None -> None;
+  542 -> None;
+  688 -> None;
+  None -> 1445;
+}

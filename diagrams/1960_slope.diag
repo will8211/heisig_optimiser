@@ -1,0 +1,13 @@
+blockdiag {
+  1960 [label = "坡\n1960 slope"];
+  158 [label = "土\n158 soil"];
+  707 [label = "皮\n707 covering"];
+  650 [label = "支\n650 offshoot"];
+  10 [label = "十\n10 ten"];
+  633 [label = "又\n633 again"];
+  158 -> 1960;
+  707 -> 1960;
+  650 -> 707;
+  10 -> 650;
+  633 -> 650;
+}

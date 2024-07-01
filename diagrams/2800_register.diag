@@ -1,0 +1,26 @@
+blockdiag {
+  2800 [label = "簿\n2800 register"];
+  786 [label = "竹\n786 bamboo"];
+  90 [label = "丁\n90 fourth"];
+  137 [label = "水\n137 water"];
+  None [label = "丶\nNone a drop of"];
+  1 [label = "一\n1 one"];
+  1379 [label = "甫\n1379 Fu"];
+  10 [label = "十\n10 ten"];
+  13 [label = "月\n13 month"];
+  166 [label = "寸\n166 Chinese inch"];
+  786 -> 2800;
+  90 -> 786;
+  137 -> 2800;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  None -> 2800;
+  1379 -> None;
+  10 -> 1379;
+  13 -> 1379;
+  None -> 1379;
+  166 -> None;
+  None -> 166;
+  10 -> 166;
+}

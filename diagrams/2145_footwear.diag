@@ -1,0 +1,14 @@
+blockdiag {
+  2145 [label = "履\n2145 footwear"];
+  882 [label = "尸\n882 corpse"];
+  754 [label = "行\n754 line of business"];
+  472 [label = "复\n472 duplicate"];
+  None [label = "夂\nNone walking legs"];
+  12 [label = "日\n12 day"];
+  882 -> 2145;
+  754 -> 2145;
+  472 -> 2145;
+  None -> 472;
+  12 -> 472;
+  None -> 472;
+}

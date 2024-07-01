@@ -1,0 +1,12 @@
+blockdiag {
+  1509 [label = "兽\n1509 beast"];
+  None [label = "丷\nNone horns"];
+  1 [label = "一\n1 one"];
+  14 [label = "田\n14 rice field"];
+  11 [label = "口\n11 mouth"];
+  None -> 1509;
+  1 -> None;
+  14 -> 1509;
+  1 -> 1509;
+  11 -> 1509;
+}

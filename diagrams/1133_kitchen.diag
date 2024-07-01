@@ -1,0 +1,23 @@
+blockdiag {
+  1133 [label = "厨\n1133 kitchen"];
+  121 [label = "厂\n121 factory"];
+  224 [label = "桌\n224 table"];
+  202 [label = "木\n202 tree"];
+  12 [label = "日\n12 day"];
+  43 [label = "卜\n43 divination"];
+  None [label = "丶\nNone a drop of"];
+  1 [label = "一\n1 one"];
+  166 [label = "寸\n166 Chinese inch"];
+  10 [label = "十\n10 ten"];
+  121 -> 1133;
+  224 -> 1133;
+  202 -> 224;
+  12 -> 224;
+  43 -> 224;
+  None -> 43;
+  1 -> None;
+  None -> 43;
+  166 -> 1133;
+  None -> 166;
+  10 -> 166;
+}

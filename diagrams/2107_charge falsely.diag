@@ -1,0 +1,28 @@
+blockdiag {
+  2107 [label = "诬\n2107 charge falsely"];
+  346 [label = "言\n346 say"];
+  2 [label = "二\n2 two"];
+  1 [label = "一\n1 one"];
+  11 [label = "口\n11 mouth"];
+  None [label = "囧只－口\nNone animal legs"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  850 [label = "巫\n850 witch"];
+  76 [label = "工\n76 work"];
+  846 [label = "从\n846 follow"];
+  793 [label = "人\n793 person"];
+  346 -> 2107;
+  2 -> 346;
+  1 -> 2;
+  11 -> 346;
+  None -> 346;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+  850 -> 2107;
+  76 -> 850;
+  846 -> 850;
+  793 -> 846;
+}

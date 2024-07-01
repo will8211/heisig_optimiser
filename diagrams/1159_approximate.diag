@@ -1,0 +1,12 @@
+blockdiag {
+  1159 [label = "概\n1159 approximate"];
+  1145 [label = "根\n1145 root"];
+  202 [label = "木\n202 tree"];
+  None [label = "旡\nNone waitress"];
+  56 [label = "儿\n56 youngster"];
+  1145 -> 1159;
+  202 -> 1145;
+  None -> 1145;
+  None -> 1159;
+  56 -> None;
+}

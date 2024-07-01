@@ -1,0 +1,15 @@
+blockdiag {
+  2342 [label = "障\n2342 barrier"];
+  None [label = "阝\nNone pinnacle"];
+  447 [label = "章\n447 chapter"];
+  26 [label = "早\n26 early"];
+  12 [label = "日\n12 day"];
+  10 [label = "十\n10 ten"];
+  444 [label = "立\n444 standing up"];
+  None -> 2342;
+  447 -> 2342;
+  26 -> 447;
+  12 -> 26;
+  10 -> 26;
+  444 -> 447;
+}

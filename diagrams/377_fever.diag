@@ -1,0 +1,13 @@
+blockdiag {
+  377 [label = "烧\n377 fever"];
+  170 [label = "火\n170 fire"];
+  376 [label = "尧\n376 Yao"];
+  361 [label = "戈\n361 halberd"];
+  None [label = "弋\nNone arrow"];
+  56 [label = "儿\n56 youngster"];
+  170 -> 377;
+  376 -> 377;
+  361 -> 376;
+  None -> 361;
+  56 -> 376;
+}

@@ -1,0 +1,11 @@
+blockdiag {
+  2859 [label = "敛\n2859 restrain"];
+  None [label = "攵\nNone taskmaster"];
+  1 [label = "一\n1 one"];
+  None -> 2859;
+  None -> None;
+  None -> None;
+  None -> None;
+  1 -> None;
+  None -> 2859;
+}

@@ -1,0 +1,21 @@
+blockdiag {
+  1544 [label = "碍\n1544 obstruct"];
+  125 [label = "石\n125 stone"];
+  11 [label = "口\n11 mouth"];
+  121 [label = "厂\n121 factory"];
+  30 [label = "旦\n30 daybreak"];
+  12 [label = "日\n12 day"];
+  1 [label = "一\n1 one"];
+  166 [label = "寸\n166 Chinese inch"];
+  None [label = "丶\nNone a drop of"];
+  10 [label = "十\n10 ten"];
+  125 -> 1544;
+  11 -> 125;
+  121 -> 125;
+  30 -> 1544;
+  12 -> 30;
+  1 -> 30;
+  166 -> 1544;
+  None -> 166;
+  10 -> 166;
+}

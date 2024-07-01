@@ -1,0 +1,15 @@
+blockdiag {
+  1600 [label = "啥\n1600 wha?"];
+  11 [label = "口\n11 mouth"];
+  1599 [label = "舍\n1599 abode"];
+  None [label = "𠆢\nNone umbrella"];
+  16 [label = "古\n16 ancient"];
+  10 [label = "十\n10 ten"];
+  11 -> 1600;
+  1599 -> 1600;
+  None -> 1599;
+  None -> None;
+  16 -> 1599;
+  10 -> 16;
+  11 -> 16;
+}

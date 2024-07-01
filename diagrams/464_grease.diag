@@ -1,0 +1,17 @@
+blockdiag {
+  464 [label = "脂\n464 grease"];
+  463 [label = "旨\n463 purpose"];
+  453 [label = "匕\n453 ancient spoon"];
+  12 [label = "日\n12 day"];
+  813 [label = "体\n813 body"];
+  793 [label = "人\n793 person"];
+  213 [label = "本\n213 notebook"];
+  202 [label = "木\n202 tree"];
+  463 -> 464;
+  453 -> 463;
+  12 -> 463;
+  813 -> 464;
+  793 -> 813;
+  213 -> 813;
+  202 -> 213;
+}

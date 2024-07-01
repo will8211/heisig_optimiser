@@ -1,0 +1,16 @@
+blockdiag {
+  598 [label = "提\n598 bring up"];
+  None [label = "囧走－十\nNone mending"];
+  394 [label = "是\n394 be"];
+  387 [label = "正\n387 correct"];
+  1 [label = "一\n1 one"];
+  379 [label = "止\n379 stop"];
+  12 [label = "日\n12 day"];
+  None -> 598;
+  394 -> 598;
+  None -> 394;
+  387 -> None;
+  1 -> 387;
+  379 -> 387;
+  12 -> 394;
+}

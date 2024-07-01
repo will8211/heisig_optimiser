@@ -1,0 +1,12 @@
+blockdiag {
+  1306 [label = "彩\n1306 hue"];
+  665 [label = "采\n665 pick"];
+  663 [label = "爪\n663 claw"];
+  None [label = "彡\nNone rooster tail"];
+  202 [label = "木\n202 tree"];
+  665 -> 1306;
+  663 -> 665;
+  None -> 663;
+  202 -> 665;
+  None -> 1306;
+}

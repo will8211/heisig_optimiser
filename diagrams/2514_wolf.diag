@@ -1,0 +1,13 @@
+blockdiag {
+  2514 [label = "狼\n2514 wolf"];
+  239 [label = "犬\n239 pooch"];
+  113 [label = "大\n113 large"];
+  None [label = "艮\nNone silver"];
+  1151 [label = "良\n1151 high-quality"];
+  239 -> 2514;
+  113 -> 239;
+  None -> 239;
+  1151 -> 2514;
+  None -> 1151;
+  None -> 1151;
+}

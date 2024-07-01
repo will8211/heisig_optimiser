@@ -1,0 +1,14 @@
+blockdiag {
+  2131 [label = "葱\n2131 onion"];
+  None [label = "丶\nNone a drop of"];
+  2130 [label = "匆\n2130 hurriedly"];
+  877 [label = "勿\n877 not"];
+  563 [label = "心\n563 heart"];
+  None -> 2131;
+  2130 -> 2131;
+  877 -> 2130;
+  None -> 877;
+  None -> None;
+  None -> 2130;
+  563 -> 2131;
+}

@@ -1,0 +1,13 @@
+blockdiag {
+  1448 [label = "逸\n1448 flee"];
+  1447 [label = "兔\n1447 rabbit"];
+  None [label = "辶\nNone road"];
+  11 [label = "口\n11 mouth"];
+  56 [label = "儿\n56 youngster"];
+  1447 -> 1448;
+  None -> 1447;
+  11 -> 1447;
+  56 -> 1447;
+  None -> 1447;
+  None -> 1448;
+}

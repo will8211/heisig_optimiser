@@ -1,0 +1,21 @@
+blockdiag {
+  433 [label = "减\n433 reduce"];
+  None [label = "皿\nNone dish"];
+  137 [label = "水\n137 water"];
+  1 [label = "一\n1 one"];
+  2487 [label = "盐\n2487 salt"];
+  158 [label = "土\n158 soil"];
+  43 [label = "卜\n43 divination"];
+  None -> 433;
+  137 -> None;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  2487 -> 433;
+  158 -> 2487;
+  43 -> 2487;
+  None -> 43;
+  1 -> None;
+  None -> 43;
+  None -> 2487;
+}

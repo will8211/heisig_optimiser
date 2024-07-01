@@ -1,0 +1,26 @@
+blockdiag {
+  2457 [label = "诡\n2457 deceitful"];
+  346 [label = "言\n346 say"];
+  2 [label = "二\n2 two"];
+  1 [label = "一\n1 one"];
+  11 [label = "口\n11 mouth"];
+  None [label = "㔾\nNone fingerprint"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  1123 [label = "危\n1123 danger"];
+  121 [label = "厂\n121 factory"];
+  346 -> 2457;
+  2 -> 346;
+  1 -> 2;
+  11 -> 346;
+  None -> 346;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+  1123 -> 2457;
+  None -> 1123;
+  121 -> 1123;
+  None -> 1123;
+}

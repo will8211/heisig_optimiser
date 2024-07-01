@@ -1,0 +1,11 @@
+blockdiag {
+  1325 [label = "换\n1325 exchange"];
+  None [label = "勹\nNone bound up"];
+  1322 [label = "央\n1322 center"];
+  113 [label = "大\n113 large"];
+  None -> 1325;
+  None -> 1325;
+  None -> None;
+  1322 -> None;
+  113 -> 1322;
+}

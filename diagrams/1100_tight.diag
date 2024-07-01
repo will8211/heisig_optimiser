@@ -1,0 +1,16 @@
+blockdiag {
+  1100 [label = "紧\n1100 tight"];
+  1011 [label = "坚\n1011 firm"];
+  None [label = "丶\nNone a drop of"];
+  633 [label = "又\n633 again"];
+  158 [label = "土\n158 soil"];
+  109 [label = "小\n109 small"];
+  1011 -> 1100;
+  None -> 1011;
+  633 -> 1011;
+  158 -> 1011;
+  None -> 1100;
+  None -> None;
+  109 -> None;
+  None -> 109;
+}

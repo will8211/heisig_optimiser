@@ -1,0 +1,12 @@
+blockdiag {
+  2900 [label = "驶\n2900 maneuver"];
+  1453 [label = "马\n1453 horse"];
+  None [label = "囧史－口\nNone tucked under the arm"];
+  630 [label = "史\n630 history"];
+  11 [label = "口\n11 mouth"];
+  1453 -> 2900;
+  None -> 1453;
+  630 -> 2900;
+  11 -> 630;
+  None -> 630;
+}

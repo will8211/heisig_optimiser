@@ -1,0 +1,12 @@
+blockdiag {
+  1117 [label = "通\n1117 communicate"];
+  None [label = "辶\nNone road"];
+  13 [label = "月\n13 month"];
+  1 [label = "一\n1 one"];
+  None -> 1117;
+  13 -> None;
+  None -> None;
+  1 -> None;
+  None -> None;
+  None -> 1117;
+}

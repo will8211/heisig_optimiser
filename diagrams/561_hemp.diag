@@ -1,0 +1,24 @@
+blockdiag {
+  561 [label = "麻\n561 hemp"];
+  186 [label = "洞\n186 cave"];
+  185 [label = "同\n185 same"];
+  1 [label = "一\n1 one"];
+  11 [label = "口\n11 mouth"];
+  None [label = "丶\nNone a drop of"];
+  57 [label = "几\n57 how many?"];
+  137 [label = "水\n137 water"];
+  203 [label = "林\n203 woods"];
+  202 [label = "木\n202 tree"];
+  186 -> 561;
+  185 -> 186;
+  1 -> 185;
+  11 -> 185;
+  None -> 185;
+  57 -> None;
+  137 -> 186;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  203 -> 561;
+  202 -> 203;
+}

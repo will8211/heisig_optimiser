@@ -1,0 +1,14 @@
+blockdiag {
+  2622 [label = "搁\n2622 put aside"];
+  None [label = "夂\nNone walking legs"];
+  2621 [label = "阁\n2621 cabinet"];
+  1260 [label = "门\n1260 gate"];
+  309 [label = "各\n309 each"];
+  11 [label = "口\n11 mouth"];
+  None -> 2622;
+  2621 -> 2622;
+  1260 -> 2621;
+  309 -> 2621;
+  11 -> 309;
+  None -> 309;
+}

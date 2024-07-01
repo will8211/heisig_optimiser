@@ -1,0 +1,12 @@
+blockdiag {
+  1085 [label = "结\n1085 tie"];
+  None [label = "厶\nNone elbow"];
+  335 [label = "吉\n335 lucky"];
+  334 [label = "士\n334 soldier"];
+  11 [label = "口\n11 mouth"];
+  None -> 1085;
+  None -> None;
+  335 -> 1085;
+  334 -> 335;
+  11 -> 335;
+}

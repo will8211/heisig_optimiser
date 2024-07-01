@@ -1,0 +1,14 @@
+blockdiag {
+  2141 [label = "漏\n2141 leak"];
+  137 [label = "水\n137 water"];
+  None [label = "丶\nNone a drop of"];
+  1 [label = "一\n1 one"];
+  882 [label = "尸\n882 corpse"];
+  425 [label = "雨\n425 rain"];
+  137 -> 2141;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  882 -> 2141;
+  425 -> 2141;
+}

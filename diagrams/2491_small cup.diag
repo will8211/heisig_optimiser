@@ -1,0 +1,9 @@
+blockdiag {
+  2491 [label = "盏\n2491 small cup"];
+  None [label = "皿\nNone dish"];
+  361 [label = "戈\n361 halberd"];
+  None -> 2491;
+  361 -> None;
+  None -> 361;
+  None -> 2491;
+}

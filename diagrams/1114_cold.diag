@@ -1,0 +1,16 @@
+blockdiag {
+  1114 [label = "冷\n1114 cold"];
+  None [label = "囧节－艹\nNone chop"];
+  137 [label = "水\n137 water"];
+  1 [label = "一\n1 one"];
+  1113 [label = "令\n1113 orders"];
+  None -> 1114;
+  137 -> None;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  1113 -> 1114;
+  None -> 1113;
+  None -> None;
+  None -> 1113;
+}

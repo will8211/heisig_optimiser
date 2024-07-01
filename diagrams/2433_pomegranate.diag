@@ -1,0 +1,14 @@
+blockdiag {
+  2433 [label = "榴\n2433 pomegranate"];
+  202 [label = "木\n202 tree"];
+  1107 [label = "留\n1107 stay"];
+  None [label = "卩\nNone stamp"];
+  83 [label = "刀\n83 sword"];
+  14 [label = "田\n14 rice field"];
+  202 -> 2433;
+  1107 -> 2433;
+  None -> 1107;
+  None -> None;
+  83 -> None;
+  14 -> 1107;
+}

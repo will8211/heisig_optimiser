@@ -1,0 +1,13 @@
+blockdiag {
+  234 [label = "墓\n234 grave"];
+  158 [label = "土\n158 soil"];
+  231 [label = "莫\n231 nobody"];
+  None [label = "艹\nNone flower"];
+  12 [label = "日\n12 day"];
+  113 [label = "大\n113 large"];
+  158 -> 234;
+  231 -> 234;
+  None -> 231;
+  12 -> 231;
+  113 -> 231;
+}

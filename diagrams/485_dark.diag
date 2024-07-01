@@ -1,0 +1,10 @@
+blockdiag {
+  485 [label = "暗\n485 dark"];
+  12 [label = "日\n12 day"];
+  484 [label = "音\n484 sound"];
+  444 [label = "立\n444 standing up"];
+  12 -> 485;
+  484 -> 485;
+  444 -> 484;
+  12 -> 484;
+}

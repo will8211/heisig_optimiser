@@ -1,0 +1,15 @@
+blockdiag {
+  2048 [label = "箩\n2048 bamboo basket"];
+  786 [label = "竹\n786 bamboo"];
+  90 [label = "丁\n90 fourth"];
+  120 [label = "罗\n120 silk gauze"];
+  15 [label = "目\n15 eye"];
+  115 [label = "夕\n115 evening"];
+  13 [label = "月\n13 month"];
+  786 -> 2048;
+  90 -> 786;
+  120 -> 2048;
+  15 -> 120;
+  115 -> 120;
+  13 -> 115;
+}

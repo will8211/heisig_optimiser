@@ -1,0 +1,29 @@
+blockdiag {
+  150 [label = "源\n150 source"];
+  137 [label = "水\n137 water"];
+  None [label = "丶\nNone a drop of"];
+  1 [label = "一\n1 one"];
+  142 [label = "原\n142 flatlands"];
+  141 [label = "泉\n141 spring"];
+  34 [label = "白\n34 white"];
+  12 [label = "日\n12 day"];
+  109 [label = "小\n109 small"];
+  121 [label = "厂\n121 factory"];
+  137 -> 150;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  142 -> 150;
+  141 -> 142;
+  137 -> 141;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  34 -> 141;
+  12 -> 34;
+  None -> 34;
+  None -> 141;
+  109 -> 141;
+  None -> 109;
+  121 -> 142;
+}

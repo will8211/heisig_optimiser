@@ -1,0 +1,16 @@
+blockdiag {
+  695 [label = "贫\n695 impoverished"];
+  694 [label = "分\n694 part"];
+  8 [label = "八\n8 eight"];
+  83 [label = "刀\n83 sword"];
+  52 [label = "贝\n52 shellfish"];
+  15 [label = "目\n15 eye"];
+  None [label = "囧只－口\nNone animal legs"];
+  694 -> 695;
+  8 -> 694;
+  83 -> 694;
+  52 -> 695;
+  15 -> 52;
+  None -> 52;
+  8 -> None;
+}

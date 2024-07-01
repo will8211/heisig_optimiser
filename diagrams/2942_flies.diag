@@ -1,0 +1,11 @@
+blockdiag {
+  2942 [label = "蝇\n2942 flies"];
+  509 [label = "虫\n509 insect"];
+  None [label = "黾\nNone electrical outlet"];
+  11 [label = "口\n11 mouth"];
+  1484 [label = "电\n1484 electricity"];
+  509 -> 2942;
+  None -> 2942;
+  11 -> None;
+  1484 -> None;
+}

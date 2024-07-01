@@ -1,0 +1,18 @@
+blockdiag {
+  1613 [label = "钞\n1613 paper money"];
+  279 [label = "金\n279 gold"];
+  None [label = "丶\nNone a drop of"];
+  265 [label = "王\n265 king"];
+  76 [label = "工\n76 work"];
+  110 [label = "少\n110 few"];
+  109 [label = "小\n109 small"];
+  279 -> 1613;
+  None -> 279;
+  265 -> 279;
+  76 -> 265;
+  None -> 279;
+  110 -> 1613;
+  None -> 110;
+  109 -> 110;
+  None -> 109;
+}

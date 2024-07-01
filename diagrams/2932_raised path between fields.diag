@@ -1,0 +1,15 @@
+blockdiag {
+  2932 [label = "垄\n2932 raised path between fields"];
+  158 [label = "土\n158 soil"];
+  1474 [label = "龙\n1474 dragon"];
+  239 [label = "犬\n239 pooch"];
+  113 [label = "大\n113 large"];
+  None [label = "丶\nNone a drop of"];
+  453 [label = "匕\n453 ancient spoon"];
+  158 -> 2932;
+  1474 -> 2932;
+  239 -> 1474;
+  113 -> 239;
+  None -> 239;
+  453 -> 1474;
+}

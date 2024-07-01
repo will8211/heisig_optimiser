@@ -1,0 +1,18 @@
+blockdiag {
+  2199 [label = "趋\n2199 hasten"];
+  391 [label = "走\n391 walk"];
+  None [label = "彐\nNone broom"];
+  387 [label = "正\n387 correct"];
+  1 [label = "一\n1 one"];
+  379 [label = "止\n379 stop"];
+  158 [label = "土\n158 soil"];
+  391 -> 2199;
+  None -> 391;
+  387 -> None;
+  1 -> 387;
+  379 -> 387;
+  158 -> 391;
+  None -> 2199;
+  None -> None;
+  None -> None;
+}

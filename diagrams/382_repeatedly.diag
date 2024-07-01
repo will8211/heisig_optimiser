@@ -1,0 +1,26 @@
+blockdiag {
+  382 [label = "频\n382 repeatedly"];
+  60 [label = "页\n60 page"];
+  52 [label = "贝\n52 shellfish"];
+  15 [label = "目\n15 eye"];
+  None [label = "丶\nNone a drop of"];
+  8 [label = "八\n8 eight"];
+  1 [label = "一\n1 one"];
+  380 [label = "步\n380 footstep"];
+  379 [label = "止\n379 stop"];
+  110 [label = "少\n110 few"];
+  109 [label = "小\n109 small"];
+  60 -> 382;
+  52 -> 60;
+  15 -> 52;
+  None -> 52;
+  8 -> None;
+  1 -> 60;
+  None -> 60;
+  380 -> 382;
+  379 -> 380;
+  110 -> 380;
+  None -> 110;
+  109 -> 110;
+  None -> 109;
+}

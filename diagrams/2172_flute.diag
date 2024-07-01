@@ -1,0 +1,11 @@
+blockdiag {
+  2172 [label = "笛\n2172 flute"];
+  786 [label = "竹\n786 bamboo"];
+  90 [label = "丁\n90 fourth"];
+  913 [label = "由\n913 wherefore"];
+  14 [label = "田\n14 rice field"];
+  786 -> 2172;
+  90 -> 786;
+  913 -> 2172;
+  14 -> 913;
+}

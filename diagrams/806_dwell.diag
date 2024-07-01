@@ -1,0 +1,18 @@
+blockdiag {
+  806 [label = "住\n806 dwell"];
+  793 [label = "人\n793 person"];
+  277 [label = "主\n277 lord"];
+  None [label = "丶\nNone a drop of"];
+  265 [label = "王\n265 king"];
+  76 [label = "工\n76 work"];
+  266 [label = "玉\n266 jade"];
+  793 -> 806;
+  277 -> 806;
+  None -> 277;
+  265 -> 277;
+  76 -> 265;
+  266 -> 277;
+  265 -> 266;
+  76 -> 265;
+  None -> 266;
+}

@@ -1,0 +1,15 @@
+blockdiag {
+  740 [label = "拐\n740 turn"];
+  None [label = "扌\nNone fingers"];
+  738 [label = "另\n738 another"];
+  11 [label = "口\n11 mouth"];
+  63 [label = "肌\n63 muscle"];
+  57 [label = "几\n57 how many?"];
+  13 [label = "月\n13 month"];
+  None -> 740;
+  738 -> 740;
+  11 -> 738;
+  63 -> 738;
+  57 -> 63;
+  13 -> 63;
+}

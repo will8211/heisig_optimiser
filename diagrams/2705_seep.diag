@@ -1,0 +1,16 @@
+blockdiag {
+  2705 [label = "渗\n2705 seep"];
+  137 [label = "水\n137 water"];
+  None [label = "彡\nNone rooster tail"];
+  1 [label = "一\n1 one"];
+  1308 [label = "参\n1308 participate"];
+  113 [label = "大\n113 large"];
+  137 -> 2705;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  1308 -> 2705;
+  113 -> 1308;
+  None -> 1308;
+  None -> 1308;
+}

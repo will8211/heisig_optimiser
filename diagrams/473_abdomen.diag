@@ -1,0 +1,18 @@
+blockdiag {
+  473 [label = "腹\n473 abdomen"];
+  813 [label = "体\n813 body"];
+  793 [label = "人\n793 person"];
+  213 [label = "本\n213 notebook"];
+  202 [label = "木\n202 tree"];
+  472 [label = "复\n472 duplicate"];
+  None [label = "夂\nNone walking legs"];
+  12 [label = "日\n12 day"];
+  813 -> 473;
+  793 -> 813;
+  213 -> 813;
+  202 -> 213;
+  472 -> 473;
+  None -> 472;
+  12 -> 472;
+  None -> 472;
+}

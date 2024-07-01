@@ -1,0 +1,11 @@
+blockdiag {
+  2600 [label = "泽\n2600 swamp"];
+  137 [label = "水\n137 water"];
+  None [label = "囧泽－氵\nNone scarecrow"];
+  1 [label = "一\n1 one"];
+  137 -> 2600;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  None -> 2600;
+}

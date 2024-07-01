@@ -1,0 +1,14 @@
+blockdiag {
+  1712 [label = "沦\n1712 sink"];
+  137 [label = "水\n137 water"];
+  None [label = "𠆢\nNone umbrella"];
+  1 [label = "一\n1 one"];
+  453 [label = "匕\n453 ancient spoon"];
+  137 -> 1712;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  None -> 1712;
+  453 -> None;
+  None -> None;
+}

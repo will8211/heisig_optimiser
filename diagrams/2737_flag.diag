@@ -1,0 +1,24 @@
+blockdiag {
+  2737 [label = "旗\n2737 flag"];
+  None [label = "囧只－口\nNone animal legs"];
+  494 [label = "方\n494 direction"];
+  83 [label = "刀\n83 sword"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  1335 [label = "其\n1335 his-hers-its-theirs"];
+  1333 [label = "甘\n1333 sweet"];
+  None -> 2737;
+  494 -> None;
+  83 -> 494;
+  None -> 494;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+  None -> None;
+  1335 -> 2737;
+  1333 -> 1335;
+  None -> 1335;
+  8 -> None;
+}

@@ -1,0 +1,14 @@
+blockdiag {
+  1311 [label = "珍\n1311 rare"];
+  266 [label = "玉\n266 jade"];
+  265 [label = "王\n265 king"];
+  76 [label = "工\n76 work"];
+  None [label = "彡\nNone rooster tail"];
+  266 -> 1311;
+  265 -> 266;
+  76 -> 265;
+  None -> 266;
+  None -> 1311;
+  None -> None;
+  None -> None;
+}

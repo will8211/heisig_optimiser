@@ -1,0 +1,16 @@
+blockdiag {
+  885 [label = "泥\n885 mud"];
+  137 [label = "水\n137 water"];
+  None [label = "丶\nNone a drop of"];
+  1 [label = "一\n1 one"];
+  883 [label = "尼\n883 nun"];
+  882 [label = "尸\n882 corpse"];
+  453 [label = "匕\n453 ancient spoon"];
+  137 -> 885;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  883 -> 885;
+  882 -> 883;
+  453 -> 883;
+}

@@ -1,0 +1,18 @@
+blockdiag {
+  1413 [label = "蒸\n1413 steam"];
+  None [label = "丶\nNone a drop of"];
+  1 [label = "一\n1 one"];
+  170 [label = "火\n170 fire"];
+  101 [label = "了\n101 -ed"];
+  97 [label = "子\n97 child"];
+  137 [label = "水\n137 water"];
+  None -> 1413;
+  1 -> 1413;
+  170 -> 1413;
+  101 -> 1413;
+  97 -> 101;
+  137 -> 1413;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+}

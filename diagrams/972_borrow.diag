@@ -1,0 +1,12 @@
+blockdiag {
+  972 [label = "借\n972 borrow"];
+  793 [label = "人\n793 person"];
+  971 [label = "昔\n971 times past"];
+  None [label = "艹\nNone flower"];
+  12 [label = "日\n12 day"];
+  793 -> 972;
+  971 -> 972;
+  None -> 971;
+  None -> None;
+  12 -> 971;
+}

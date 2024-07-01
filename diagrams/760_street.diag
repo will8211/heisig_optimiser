@@ -1,0 +1,9 @@
+blockdiag {
+  760 [label = "街\n760 street"];
+  754 [label = "行\n754 line of business"];
+  None [label = "圭\nNone bricks"];
+  158 [label = "土\n158 soil"];
+  754 -> 760;
+  None -> 760;
+  158 -> None;
+}

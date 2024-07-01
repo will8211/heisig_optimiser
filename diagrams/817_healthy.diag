@@ -1,0 +1,10 @@
+blockdiag {
+  817 [label = "健\n817 healthy"];
+  793 [label = "人\n793 person"];
+  398 [label = "建\n398 build"];
+  None [label = "廴\nNone stretch"];
+  793 -> 817;
+  398 -> 817;
+  None -> 398;
+  None -> 398;
+}

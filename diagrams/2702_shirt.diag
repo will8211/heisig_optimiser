@@ -1,0 +1,15 @@
+blockdiag {
+  2702 [label = "衫\n2702 shirt"];
+  400 [label = "衣\n400 clothing"];
+  None [label = "彡\nNone rooster tail"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  400 -> 2702;
+  None -> 400;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+  None -> 2702;
+}

@@ -1,0 +1,32 @@
+blockdiag {
+  2721 [label = "涵\n2721 culvert"];
+  137 [label = "水\n137 water"];
+  None [label = "囧只－口\nNone animal legs"];
+  1 [label = "一\n1 one"];
+  2720 [label = "函\n2720 letter"];
+  101 [label = "了\n101 -ed"];
+  97 [label = "子\n97 child"];
+  323 [label = "坑\n323 pit"];
+  6 [label = "六\n6 six"];
+  8 [label = "八\n8 eight"];
+  57 [label = "几\n57 how many?"];
+  158 [label = "土\n158 soil"];
+  137 -> 2721;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  2720 -> 2721;
+  101 -> 2720;
+  97 -> 101;
+  None -> 2720;
+  323 -> 2720;
+  None -> 323;
+  None -> None;
+  6 -> None;
+  None -> 6;
+  8 -> None;
+  None -> None;
+  8 -> None;
+  57 -> None;
+  158 -> 323;
+}

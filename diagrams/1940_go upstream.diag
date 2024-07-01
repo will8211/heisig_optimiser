@@ -1,0 +1,17 @@
+blockdiag {
+  1940 [label = "溯\n1940 go upstream"];
+  137 [label = "水\n137 water"];
+  None [label = "丷\nNone horns"];
+  1 [label = "一\n1 one"];
+  688 [label = "山\n688 mountain"];
+  13 [label = "月\n13 month"];
+  137 -> 1940;
+  None -> 137;
+  1 -> None;
+  None -> 137;
+  None -> 1940;
+  None -> None;
+  1 -> None;
+  688 -> None;
+  13 -> 1940;
+}
