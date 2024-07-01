@@ -7,13 +7,13 @@ readme = "README.md"
 packages = [{ include = "heisig_optimiser" }]
 
 [tool.poetry.dependencies]
-python = "^3.11"
-black = "^24.4.2"
-isort = "^5.13.2"
-tabulate = { version = "*", extras = ["widechars"] }
+python = ">=3.11,<3.12"
+blockdiag = "^3.0.0"
+pillow = ">9,<10"
 
 [tool.poetry.group.dev.dependencies]
-black = { version = "^24.4.2", allow-prereleases = true }
+black = "^24.4.2"
+isort = "^5.13.2"
 
 [build-system]
 requires = ["poetry-core"]
