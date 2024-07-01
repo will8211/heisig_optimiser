@@ -57,9 +57,12 @@ for character_data in data:
     first_keyword = character_data["Keywords"][0]
     hierarchy = build_hierarchy(character, character_map)
     if hierarchy:
-        output_file = os.path.join(
-            output_dir, f"{number or 'extra'}_{first_keyword}.json"
-        ).replace(" ", "_").replace("?", "")
+        output_file = (
+            os.path.join(output_dir, f"{number or 'extra'}_{first_keyword}.json")
+            .replace(" ", "_")
+            .replace("?", "")
+            .replace("'", "_")
+        )
         with open(output_file, "w", encoding="utf-8") as f:
             json.dump(hierarchy, f, ensure_ascii=False, indent=2)
 

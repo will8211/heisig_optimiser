@@ -1,6 +1,12 @@
 import json
 import os
 
+DEFAULT_FONTSIZE = 70  # default value is 11
+NODE_WIDTH = 800  # default value is 128
+NODE_HEIGHT = 250  # default value is 40
+SPAN_WIDTH = 250  # default value is 64
+SPAN_HEIGHT = 150  # default value is 40
+
 
 def sanitize_cjk(string):
     if not string:
@@ -59,11 +65,11 @@ for filename in os.listdir(input_dir):
         # Write the blockdiag output
         with open(output_path, "w", encoding="utf-8") as f:
             f.write("blockdiag {\n")
-            f.write("  default_fontsize = 110\n")  # default value is 11
-            f.write("  node_width = 1280\n")  # default value is 128
-            f.write("  node_height = 400\n")  # default value is 40
-            f.write("  span_width = 640\n")  # default value is 64
-            f.write("  span_height = 400\n")  # default value is 40
+            f.write(f"  default_fontsize = {DEFAULT_FONTSIZE}\n")
+            f.write(f"  node_width = {NODE_WIDTH}\n")
+            f.write(f"  node_height = {NODE_HEIGHT}\n")
+            f.write(f"  span_width = {SPAN_WIDTH}\n")
+            f.write(f"  span_height = {SPAN_HEIGHT}\n")
             f.write("\n")
             for node_id, label in labels.items():
                 f.write(f'  {node_id} [label = "{label}"];\n')
@@ -71,6 +77,6 @@ for filename in os.listdir(input_dir):
                 f.write("\n")
             for connection in connections:
                 f.write(f"  {connection}\n")
-            f.write("}")
+            f.write("}\n")
 
         print(f"blockdiag file generated successfully for {filename}")
