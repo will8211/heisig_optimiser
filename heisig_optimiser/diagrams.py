@@ -9,8 +9,13 @@ def parse_requirements(node, parent_id=None, connections=None, labels=None):
         labels = {}
 
     current_id = node["id"]
-    current_label = node.get("label", current_id).replace("\n", "\\n")
-    labels[current_id] = current_label
+    current_label = node.get("label", "")
+    if current_label:
+        parts = current_label.split("\n")
+        full_label = f"{parts[0]}\\n{current_id} {parts[1]}"
+    else:
+        full_label = str(current_id)
+    labels[current_id] = full_label
 
     if parent_id:
         connections.append(f"{current_id} -> {parent_id};")
