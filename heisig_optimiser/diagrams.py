@@ -9,7 +9,7 @@ def parse_requirements(node, parent_id=None, connections=None, labels=None):
         labels = {}
 
     current_id = node["id"]
-    current_label = node.get("label", current_id)
+    current_label = node.get("label", current_id).replace("\n", "\\n")
     labels[current_id] = current_label
 
     if parent_id:
