@@ -10,7 +10,7 @@ blockdiag {
   食 [label = "食\n1154 food"];
   良 [label = "良\n1151 high-quality"];
   艮 [label = "艮\n* silver"];
-  𠆢 [label = "𠆢\n* umbrella"];
+  ^ [label = "𠆢\n* umbrella"];
   卜 -> 餐;
   丨 -> 卜;
   一 -> 丨;
@@ -22,5 +22,5 @@ blockdiag {
   良 -> 食;
   丶 -> 良;
   艮 -> 良;
-  𠆢 -> 食;
+  ^ -> 食;
 }

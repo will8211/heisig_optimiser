@@ -5,13 +5,13 @@ blockdiag {
   丷 [label = "丷\n* horns"];
   一 [label = "一\n1 one"];
   介 [label = "介\n259 introduce"];
-  𠆢 [label = "𠆢\n* umbrella"];
-  囧介－𠆢 [label = "囧介－𠆢\n* crutches"];
+  ^ [label = "𠆢\n* umbrella"];
+  囧介－^ [label = "囧介－𠆢\n* crutches"];
   囧差－工 -> 养;
   羊 -> 囧差－工;
   丷 -> 羊;
   一 -> 丷;
   介 -> 养;
-  𠆢 -> 介;
-  囧介－𠆢 -> 介;
+  ^ -> 介;
+  囧介－^ -> 介;
 }

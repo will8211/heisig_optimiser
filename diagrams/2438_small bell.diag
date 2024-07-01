@@ -1,7 +1,7 @@
 blockdiag {
   铃 [label = "铃\n2438 small bell"];
   金 [label = "金\n279 gold"];
-  𠆢 [label = "𠆢\n* umbrella"];
+  ^ [label = "𠆢\n* umbrella"];
   王 [label = "王\n265 king"];
   工 [label = "工\n76 work"];
   丶 [label = "丶\n* a drop of"];
@@ -9,12 +9,12 @@ blockdiag {
   亼 [label = "亼\n* meeting"];
   囧节－艹 [label = "囧节－艹\n* chop"];
   金 -> 铃;
-  𠆢 -> 金;
+  ^ -> 金;
   王 -> 金;
   工 -> 王;
   丶 -> 金;
   令 -> 铃;
   亼 -> 令;
-  𠆢 -> 亼;
+  ^ -> 亼;
   囧节－艹 -> 令;
 }

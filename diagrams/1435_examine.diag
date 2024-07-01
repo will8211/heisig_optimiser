@@ -3,13 +3,13 @@ blockdiag {
   木 [label = "木\n202 tree"];
   佥 [label = "佥\n* hootenanny"];
   亼 [label = "亼\n* meeting"];
-  𠆢 [label = "𠆢\n* umbrella"];
+  ^ [label = "𠆢\n* umbrella"];
   囧应－广 [label = "囧应－广\n* owl"];
   一 [label = "一\n1 one"];
   木 -> 检;
   佥 -> 检;
   亼 -> 佥;
-  𠆢 -> 亼;
+  ^ -> 亼;
   囧应－广 -> 佥;
   一 -> 佥;
 }

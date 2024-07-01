@@ -1,11 +1,11 @@
 blockdiag {
   创 [label = "创\n1121 initiate"];
   仓 [label = "仓\n1119 storehouse"];
-  𠆢 [label = "𠆢\n* umbrella"];
+  ^ [label = "𠆢\n* umbrella"];
   㔾 [label = "㔾\n* fingerprint"];
   刀 [label = "刀\n83 sword"];
   仓 -> 创;
-  𠆢 -> 仓;
+  ^ -> 仓;
   㔾 -> 仓;
   刀 -> 创;
 }

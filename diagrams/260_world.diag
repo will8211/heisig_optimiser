@@ -1,11 +1,11 @@
 blockdiag {
   界 [label = "界\n260 world"];
   介 [label = "介\n259 introduce"];
-  𠆢 [label = "𠆢\n* umbrella"];
-  囧介－𠆢 [label = "囧介－𠆢\n* crutches"];
+  ^ [label = "𠆢\n* umbrella"];
+  囧介－^ [label = "囧介－𠆢\n* crutches"];
   田 [label = "田\n14 rice field"];
   介 -> 界;
-  𠆢 -> 介;
-  囧介－𠆢 -> 介;
+  ^ -> 介;
+  囧介－^ -> 介;
   田 -> 界;
 }

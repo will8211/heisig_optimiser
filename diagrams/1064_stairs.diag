@@ -2,10 +2,10 @@ blockdiag {
   阶 [label = "阶\n1064 stairs"];
   阝 [label = "阝\n* pinnacle"];
   介 [label = "介\n259 introduce"];
-  𠆢 [label = "𠆢\n* umbrella"];
-  囧介－𠆢 [label = "囧介－𠆢\n* crutches"];
+  ^ [label = "𠆢\n* umbrella"];
+  囧介－^ [label = "囧介－𠆢\n* crutches"];
   阝 -> 阶;
   介 -> 阶;
-  𠆢 -> 介;
-  囧介－𠆢 -> 介;
+  ^ -> 介;
+  囧介－^ -> 介;
 }

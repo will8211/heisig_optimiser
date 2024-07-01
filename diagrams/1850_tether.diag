@@ -4,10 +4,10 @@ blockdiag {
   全 [label = "全\n275 whole"];
   王 [label = "王\n265 king"];
   工 [label = "工\n76 work"];
-  𠆢 [label = "𠆢\n* umbrella"];
+  ^ [label = "𠆢\n* umbrella"];
   扌 -> 拴;
   全 -> 拴;
   王 -> 全;
   工 -> 王;
-  𠆢 -> 全;
+  ^ -> 全;
 }

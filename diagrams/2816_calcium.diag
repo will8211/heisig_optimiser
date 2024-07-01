@@ -1,7 +1,7 @@
 blockdiag {
   钙 [label = "钙\n2816 calcium"];
   金 [label = "金\n279 gold"];
-  𠆢 [label = "𠆢\n* umbrella"];
+  ^ [label = "𠆢\n* umbrella"];
   王 [label = "王\n265 king"];
   工 [label = "工\n76 work"];
   丶 [label = "丶\n* a drop of"];
@@ -10,7 +10,7 @@ blockdiag {
   止 [label = "止\n379 stop"];
   𠃌 [label = "𠃌\n* clothes hanger"];
   金 -> 钙;
-  𠆢 -> 金;
+  ^ -> 金;
   王 -> 金;
   工 -> 王;
   丶 -> 金;

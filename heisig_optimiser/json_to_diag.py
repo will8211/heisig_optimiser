@@ -10,12 +10,13 @@ def parse_requirements(node, parent_id=None, connections=None, labels=None):
         labels = {}
 
     current_character = node["character"]
+    safe_current_character = current_character.replace("𠆢", "^")
     number = str(node["number"]) if node["number"] else "*"
     current_label = f"{node['character']}\\n{number} {node['keyword']}"
-    labels[current_character] = current_label
+    labels[safe_current_character] = current_label
 
     if parent_id:
-        connections.append(f"{current_character} -> {parent_id};")
+        connections.append(f"{safe_current_character} -> {parent_id};")
 
     if "requirements" in node:
         for req in node["requirements"]:

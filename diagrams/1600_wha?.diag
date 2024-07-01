@@ -3,13 +3,13 @@ blockdiag {
   口 [label = "口\n11 mouth"];
   舍 [label = "舍\n1599 abode"];
   亼 [label = "亼\n* meeting"];
-  𠆢 [label = "𠆢\n* umbrella"];
+  ^ [label = "𠆢\n* umbrella"];
   古 [label = "古\n16 ancient"];
   十 [label = "十\n10 ten"];
   口 -> 啥;
   舍 -> 啥;
   亼 -> 舍;
-  𠆢 -> 亼;
+  ^ -> 亼;
   古 -> 舍;
   十 -> 古;
   口 -> 古;

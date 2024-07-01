@@ -3,14 +3,14 @@ blockdiag {
   人 [label = "人\n793 person"];
   俞 [label = "俞\n* slaughterhouse"];
   亼 [label = "亼\n* meeting"];
-  𠆢 [label = "𠆢\n* umbrella"];
+  ^ [label = "𠆢\n* umbrella"];
   刖 [label = "刖\n* butcher"];
   月 [label = "月\n13 month"];
   刀 [label = "刀\n83 sword"];
   人 -> 偷;
   俞 -> 偷;
   亼 -> 俞;
-  𠆢 -> 亼;
+  ^ -> 亼;
   刖 -> 俞;
   月 -> 刖;
   刀 -> 刖;
