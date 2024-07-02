@@ -1,0 +1,24 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  I [label = "贿\nbribe (80)"];
+  D [label = "贝\nshellfish (52)"];
+  B [label = "目\neye (15)"];
+  C [label = "只minus口\nanimal legs (*)"];
+  H [label = "有\npossess (79)"];
+  E [label = "月\nmonth (13)"];
+  G [label = "𠂇\nby one’s side (*)"];
+  F [label = "十\nten (10)"];
+
+  D -> I [thick];
+  B -> D [thick];
+  C -> D [thick];
+  H -> I [thick];
+  E -> H [thick];
+  G -> H [thick];
+  F -> G [thick];
+}

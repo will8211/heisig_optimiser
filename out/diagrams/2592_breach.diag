@@ -1,0 +1,26 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  J [label = "豁\nbreach (2592)"];
+  E [label = "害\nharm (1224)"];
+  B [label = "宀\nhouse (*)"];
+  C [label = "丰\nplentiful (1223)"];
+  D [label = "口\nmouth (11)"];
+  I [label = "谷\nvalley (698)"];
+  F [label = "只minus口\nanimal legs (*)"];
+  G [label = "𠆢\numbrella (*)"];
+  H [label = "口\nmouth (11)"];
+
+  E -> J [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
+  I -> J [thick];
+  F -> I [thick];
+  G -> I [thick];
+  H -> I [thick];
+}

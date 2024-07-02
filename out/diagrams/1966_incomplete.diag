@@ -1,0 +1,18 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  F [label = "残\nincomplete (1966)"];
+  B [label = "歹\nmalicious (712)"];
+  E [label = "戋\nfloat (*)"];
+  D [label = "戈\nhalberd (361)"];
+  C [label = "弋\narrow (*)"];
+
+  B -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
+  C -> D [thick];
+}

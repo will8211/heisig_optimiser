@@ -1,0 +1,32 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  M [label = "督\nsuperintend (654)"];
+  K [label = "叔\nuncle (653)"];
+  G [label = "上\nabove (45)"];
+  E [label = "卜\ndivination (43)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  F [label = "一\none (1)"];
+  I [label = "小\nsmall (109)"];
+  H [label = "丶\na drop of (*)"];
+  J [label = "又\nagain (633)"];
+  L [label = "目\neye (15)"];
+
+  K -> M [thick];
+  G -> K [thick];
+  E -> G [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  F -> G [thick];
+  I -> K [thick];
+  H -> I [thick];
+  J -> K [thick];
+  L -> M [thick];
+}

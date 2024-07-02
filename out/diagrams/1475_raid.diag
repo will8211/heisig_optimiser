@@ -1,0 +1,24 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  I [label = "袭\nraid (1475)"];
+  F [label = "龙\ndragon (1474)"];
+  D [label = "犬\npooch (239)"];
+  B [label = "大\nlarge (113)"];
+  C [label = "丶\na drop of (*)"];
+  E [label = "匕\nancient spoon (453)"];
+  H [label = "衣\nclothing (400)"];
+  G [label = "亠\ntop hat (*)"];
+
+  F -> I [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
+  H -> I [thick];
+  G -> H [thick];
+}

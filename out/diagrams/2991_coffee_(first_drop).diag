@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  H [label = "咖\ncoffee (first drop) (2991)"];
+  B [label = "口\nmouth (11)"];
+  G [label = "加\nadd (749)"];
+  E [label = "肌\nmuscle (63)"];
+  C [label = "几\nhow many? (57)"];
+  D [label = "月\nmonth (13)"];
+  F [label = "口\nmouth (11)"];
+
+  B -> H [thick];
+  G -> H [thick];
+  E -> G [thick];
+  C -> E [thick];
+  D -> E [thick];
+  F -> G [thick];
+}

@@ -1,0 +1,26 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  J [label = "混\nmix (458)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  I [label = "昆\ndescendants (457)"];
+  F [label = "日\nday (12)"];
+  H [label = "比\ncompare (456)"];
+  G [label = "匕\nancient spoon (453)"];
+
+  E -> J [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  I -> J [thick];
+  F -> I [thick];
+  H -> I [thick];
+  G -> H [thick];
+}

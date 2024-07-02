@@ -1,0 +1,24 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  I [label = "霸\ntyrant (2838)"];
+  B [label = "雨\nrain (425)"];
+  G [label = "革\nleather (1407)"];
+  D [label = "廿\ntwenty (976)"];
+  C [label = "十\nten (10)"];
+  E [label = "口\nmouth (11)"];
+  F [label = "十\nten (10)"];
+  H [label = "月\nmonth (13)"];
+
+  B -> I [thick];
+  G -> I [thick];
+  D -> G [thick];
+  C -> D [thick];
+  E -> G [thick];
+  F -> G [thick];
+  H -> I [thick];
+}

@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "烂\nspoiled (534)"];
+  B [label = "火\nfire (170)"];
+  F [label = "兰\norchid (533)"];
+  E [label = "羊\nsheep (528)"];
+  D [label = "丷\nhorns (*)"];
+  C [label = "一\none (1)"];
+
+  B -> G [thick];
+  F -> G [thick];
+  E -> F [thick];
+  D -> E [thick];
+  C -> D [thick];
+}

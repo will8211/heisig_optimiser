@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "神\ngods (920)"];
+  B [label = "示\nshow (900)"];
+  F [label = "申\nexpress (918)"];
+  C [label = "日\nday (12)"];
+  E [label = "丨\nwalking stick (*)"];
+  D [label = "一\none (1)"];
+
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
+}

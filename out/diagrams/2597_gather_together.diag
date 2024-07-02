@@ -1,0 +1,32 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  M [label = "凑\ngather together (2597)"];
+  F [label = "冫\nice (*)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  L [label = "奏\nplay an instrument (2596)"];
+  H [label = "𡗗\nbonsai (*)"];
+  G [label = "丰\nplentiful (1223)"];
+  K [label = "天\nheavens (436)"];
+  I [label = "一\none (1)"];
+  J [label = "大\nlarge (113)"];
+
+  F -> M [thick];
+  E -> F [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  L -> M [thick];
+  H -> L [thick];
+  G -> H [thick];
+  K -> L [thick];
+  I -> K [thick];
+  J -> K [thick];
+}

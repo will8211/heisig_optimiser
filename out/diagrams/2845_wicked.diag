@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "邪\nwicked (2845)"];
+  D [label = "牙\ntooth (1414)"];
+  B [label = "匚\nbox (*)"];
+  C [label = "矛\nspear (1002)"];
+  F [label = "阝\ncity walls (*)"];
+  E [label = "阝\npinnacle (*)"];
+
+  D -> G [thick];
+  B -> D [thick];
+  C -> D [thick];
+  F -> G [thick];
+  E -> F [thick];
+}

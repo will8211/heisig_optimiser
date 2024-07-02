@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "长\nlong (1428)"];
+  B [label = "以minus丶人\nplow (*)"];
+  C [label = "一\none (1)"];
+  E [label = "丷\nhorns (*)"];
+  D [label = "一\none (1)"];
+  F [label = "只minus口\nanimal legs (*)"];
+
+  B -> G [thick];
+  C -> G [thick];
+  E -> G [thick];
+  D -> E [thick];
+  F -> G [thick];
+}

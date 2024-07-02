@@ -1,0 +1,16 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  E [label = "农\nagriculture (408)"];
+  B [label = "冖\ncrown (*)"];
+  D [label = "衣\nclothing (400)"];
+  C [label = "亠\ntop hat (*)"];
+
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
+}

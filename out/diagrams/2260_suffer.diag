@@ -1,0 +1,26 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  J [label = "挨\nsuffer (2260)"];
+  B [label = "扌\nfingers (*)"];
+  I [label = "矣\ncrossbow (*)"];
+  C [label = "厶\nelbow (*)"];
+  H [label = "矢\ndart (998)"];
+  F [label = "天\nheavens (436)"];
+  D [label = "一\none (1)"];
+  E [label = "大\nlarge (113)"];
+  G [label = "丶\na drop of (*)"];
+
+  B -> J [thick];
+  I -> J [thick];
+  C -> I [thick];
+  H -> I [thick];
+  F -> H [thick];
+  D -> F [thick];
+  E -> F [thick];
+  G -> H [thick];
+}

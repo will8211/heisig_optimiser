@@ -1,0 +1,18 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  F [label = "弥\nfill (1015)"];
+  B [label = "弓\nbow (1013)"];
+  E [label = "尔\nyou (literary) (798)"];
+  D [label = "小\nsmall (109)"];
+  C [label = "丶\na drop of (*)"];
+
+  B -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
+  C -> D [thick];
+}

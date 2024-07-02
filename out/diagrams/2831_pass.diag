@@ -1,0 +1,26 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  J [label = "隘\npass (2831)"];
+  B [label = "阝\npinnacle (*)"];
+  I [label = "益\nbenefit (1401)"];
+  C [label = "皿\ndish (*)"];
+  D [label = "率minus玄minus十\nsparkler (*)"];
+  E [label = "一\none (1)"];
+  G [label = "丷\nhorns (*)"];
+  F [label = "一\none (1)"];
+  H [label = "只minus口\nanimal legs (*)"];
+
+  B -> J [thick];
+  I -> J [thick];
+  C -> I [thick];
+  D -> I [thick];
+  E -> I [thick];
+  G -> I [thick];
+  F -> G [thick];
+  H -> I [thick];
+}

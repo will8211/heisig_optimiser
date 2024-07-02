@@ -1,0 +1,26 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  J [label = "董\ndirector (2657)"];
+  B [label = "艹\nflower (*)"];
+  I [label = "重\nheavy (1290)"];
+  E [label = "千\nthousand (39)"];
+  C [label = "丶\na drop of (*)"];
+  D [label = "十\nten (10)"];
+  H [label = "里\nli (179)"];
+  F [label = "田\nrice field (14)"];
+  G [label = "土\nsoil (158)"];
+
+  B -> J [thick];
+  I -> J [thick];
+  E -> I [thick];
+  C -> E [thick];
+  D -> E [thick];
+  H -> I [thick];
+  F -> H [thick];
+  G -> H [thick];
+}

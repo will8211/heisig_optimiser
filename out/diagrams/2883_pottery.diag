@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  H [label = "陶\npottery (2883)"];
+  B [label = "阝\npinnacle (*)"];
+  G [label = "匋\ncanteen (*)"];
+  C [label = "勹\nbound up (*)"];
+  F [label = "缶\ntin can (*)"];
+  D [label = "午\nnoon (542)"];
+  E [label = "山\nmountain (688)"];
+
+  B -> H [thick];
+  G -> H [thick];
+  C -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
+}

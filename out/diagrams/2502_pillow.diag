@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "枕\npillow (2502)"];
+  B [label = "木\ntree (202)"];
+  F [label = "冘\nFrankenbowser Rex (*)"];
+  D [label = "尴minus监\nFrankenbowser (*)"];
+  C [label = "大\nlarge (113)"];
+  E [label = "冖\ncrown (*)"];
+
+  B -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
+}

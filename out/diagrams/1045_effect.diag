@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "效\neffect (1045)"];
+  E [label = "交\nmingle (1044)"];
+  B [label = "亠\ntop hat (*)"];
+  D [label = "父\nfather (1043)"];
+  C [label = "丶\na drop of (*)"];
+  F [label = "攵\ntaskmaster (*)"];
+
+  E -> G [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
+  F -> G [thick];
+}

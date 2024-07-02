@@ -1,0 +1,16 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  E [label = "冈\nridge of a hill (1170)"];
+  C [label = "冂\nhood (*)"];
+  B [label = "几\nhow many? (57)"];
+  D [label = "㐅\nsheaf (*)"];
+
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+}

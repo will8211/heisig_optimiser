@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  H [label = "敛\nrestrain (2859)"];
+  F [label = "佥\nhootenanny (*)"];
+  C [label = "亼\nmeeting (*)"];
+  B [label = "𠆢\numbrella (*)"];
+  D [label = "应minus广\nowl (*)"];
+  E [label = "一\none (1)"];
+  G [label = "攵\ntaskmaster (*)"];
+
+  F -> H [thick];
+  C -> F [thick];
+  B -> C [thick];
+  D -> F [thick];
+  E -> F [thick];
+  G -> H [thick];
+}

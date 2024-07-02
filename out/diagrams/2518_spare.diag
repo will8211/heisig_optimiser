@@ -1,0 +1,28 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  K [label = "饶\nspare (2518)"];
+  F [label = "食\nfood (1154)"];
+  D [label = "良\nhigh-quality (1151)"];
+  B [label = "丶\na drop of (*)"];
+  C [label = "艮\nsilver (*)"];
+  E [label = "𠆢\numbrella (*)"];
+  J [label = "尧\nYao (376)"];
+  H [label = "戈\nhalberd (361)"];
+  G [label = "弋\narrow (*)"];
+  I [label = "儿\nyoungster (56)"];
+
+  F -> K [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
+  J -> K [thick];
+  H -> J [thick];
+  G -> H [thick];
+  I -> J [thick];
+}

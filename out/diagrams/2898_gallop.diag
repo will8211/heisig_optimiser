@@ -1,0 +1,18 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  F [label = "驰\ngallop (2898)"];
+  C [label = "马\nhorse (1453)"];
+  B [label = "与minus丨一\npointed tail (*)"];
+  E [label = "也\nalso (505)"];
+  D [label = "乙\nsecond (95)"];
+
+  C -> F [thick];
+  B -> C [thick];
+  E -> F [thick];
+  D -> E [thick];
+}

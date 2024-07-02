@@ -1,0 +1,24 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  I [label = "梯\nladder (2281)"];
+  B [label = "木\ntree (202)"];
+  H [label = "弟\nyounger brother (1022)"];
+  D [label = "丷\nhorns (*)"];
+  C [label = "一\none (1)"];
+  G [label = "弗\ndollar sign (*)"];
+  E [label = "介minus𠆢\ncrutches (*)"];
+  F [label = "弓\nbow (1013)"];
+
+  B -> I [thick];
+  H -> I [thick];
+  D -> H [thick];
+  C -> D [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
+}

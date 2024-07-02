@@ -1,0 +1,28 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  K [label = "凌\nbully (2350)"];
+  F [label = "冫\nice (*)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  J [label = "夌\nMinuteclods (*)"];
+  G [label = "土\nsoil (158)"];
+  H [label = "只minus口\nanimal legs (*)"];
+  I [label = "夂\nwalking legs (*)"];
+
+  F -> K [thick];
+  E -> F [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  J -> K [thick];
+  G -> J [thick];
+  H -> J [thick];
+  I -> J [thick];
+}

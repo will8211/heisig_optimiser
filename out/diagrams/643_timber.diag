@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  H [label = "树\ntimber (643)"];
+  B [label = "木\ntree (202)"];
+  G [label = "对\nthat’s right (642)"];
+  C [label = "又\nagain (633)"];
+  F [label = "寸\nChinese inch (166)"];
+  D [label = "丶\na drop of (*)"];
+  E [label = "十\nten (10)"];
+
+  B -> H [thick];
+  G -> H [thick];
+  C -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
+}

@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  H [label = "宴\nbanquet (198)"];
+  B [label = "日\nday (12)"];
+  C [label = "女\nwoman (102)"];
+  D [label = "宀\nhouse (*)"];
+  G [label = "安\npeaceful (197)"];
+  E [label = "女\nwoman (102)"];
+  F [label = "宀\nhouse (*)"];
+
+  B -> H [thick];
+  C -> H [thick];
+  D -> H [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
+}

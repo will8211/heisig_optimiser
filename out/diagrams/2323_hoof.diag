@@ -1,0 +1,26 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  J [label = "蹄\nhoof (2323)"];
+  D [label = "足\nlower leg (1048)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "止\nstop (379)"];
+  I [label = "帝\nsovereign (449)"];
+  E [label = "立\nstanding up (444)"];
+  H [label = "冖＋巾\napron (*)"];
+  F [label = "巾\ntowel (410)"];
+  G [label = "冖\ncrown (*)"];
+
+  D -> J [thick];
+  B -> D [thick];
+  C -> D [thick];
+  I -> J [thick];
+  E -> I [thick];
+  H -> I [thick];
+  F -> H [thick];
+  G -> H [thick];
+}

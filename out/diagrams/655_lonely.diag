@@ -1,0 +1,32 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  M [label = "寂\nlonely (655)"];
+  B [label = "宀\nhouse (*)"];
+  L [label = "叔\nuncle (653)"];
+  H [label = "上\nabove (45)"];
+  F [label = "卜\ndivination (43)"];
+  D [label = "丨\nwalking stick (*)"];
+  C [label = "一\none (1)"];
+  E [label = "丶\na drop of (*)"];
+  G [label = "一\none (1)"];
+  J [label = "小\nsmall (109)"];
+  I [label = "丶\na drop of (*)"];
+  K [label = "又\nagain (633)"];
+
+  B -> M [thick];
+  L -> M [thick];
+  H -> L [thick];
+  F -> H [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
+  G -> H [thick];
+  J -> L [thick];
+  I -> J [thick];
+  K -> L [thick];
+}

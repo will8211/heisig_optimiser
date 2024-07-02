@@ -1,0 +1,28 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  K [label = "碗\nbowl (2454)"];
+  D [label = "石\nstone (125)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "厂\nfactory (121)"];
+  J [label = "宛\nwinding (2451)"];
+  E [label = "宀\nhouse (*)"];
+  I [label = "夗\nnameplate (*)"];
+  G [label = "夕\nevening (115)"];
+  F [label = "月\nmonth (13)"];
+  H [label = "㔾\nfingerprint (*)"];
+
+  D -> K [thick];
+  B -> D [thick];
+  C -> D [thick];
+  J -> K [thick];
+  E -> J [thick];
+  I -> J [thick];
+  G -> I [thick];
+  F -> G [thick];
+  H -> I [thick];
+}

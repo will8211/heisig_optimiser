@@ -1,0 +1,32 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  M [label = "饼\ncookie (2524)"];
+  F [label = "食\nfood (1154)"];
+  D [label = "良\nhigh-quality (1151)"];
+  B [label = "丶\na drop of (*)"];
+  C [label = "艮\nsilver (*)"];
+  E [label = "𠆢\numbrella (*)"];
+  L [label = "并\ncombine (863)"];
+  H [label = "丷\nhorns (*)"];
+  G [label = "一\none (1)"];
+  K [label = "开\nopen (613)"];
+  J [label = "二\ntwo (2)"];
+  I [label = "一\none (1)"];
+
+  F -> M [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
+  L -> M [thick];
+  H -> L [thick];
+  G -> H [thick];
+  K -> L [thick];
+  J -> K [thick];
+  I -> J [thick];
+}

@@ -1,0 +1,24 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  I [label = "嘎\ncaw (1661)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "一\none (1)"];
+  F [label = "自\noneself (33)"];
+  D [label = "丶\na drop of (*)"];
+  E [label = "目\neye (15)"];
+  H [label = "戈\nhalberd (361)"];
+  G [label = "弋\narrow (*)"];
+
+  B -> I [thick];
+  C -> I [thick];
+  F -> I [thick];
+  D -> F [thick];
+  E -> F [thick];
+  H -> I [thick];
+  G -> H [thick];
+}

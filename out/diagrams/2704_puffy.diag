@@ -1,0 +1,32 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  M [label = "膨\npuffy (2704)"];
+  B [label = "月\nmonth (13)"];
+  K [label = "壴\ndrum (*)"];
+  C [label = "士\nsoldier (334)"];
+  J [label = "桌\ntable (224)"];
+  D [label = "木\ntree (202)"];
+  E [label = "日\nday (12)"];
+  I [label = "卜\ndivination (43)"];
+  G [label = "丨\nwalking stick (*)"];
+  F [label = "一\none (1)"];
+  H [label = "丶\na drop of (*)"];
+  L [label = "彡\nrooster tail (*)"];
+
+  B -> M [thick];
+  K -> M [thick];
+  C -> K [thick];
+  J -> K [thick];
+  D -> J [thick];
+  E -> J [thick];
+  I -> J [thick];
+  G -> I [thick];
+  F -> G [thick];
+  H -> I [thick];
+  L -> M [thick];
+}

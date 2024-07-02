@@ -1,0 +1,54 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  X [label = "！\nBiang (50001)"];
+  B [label = "辶\nroad (*)"];
+  D [label = "马\nhorse (1453)"];
+  C [label = "与minus丨一\npointed tail (*)"];
+  J [label = "长\nlong (1428)"];
+  E [label = "以minus丶人\nplow (*)"];
+  F [label = "一\none (1)"];
+  H [label = "丷\nhorns (*)"];
+  G [label = "一\none (1)"];
+  I [label = "只minus口\nanimal legs (*)"];
+  K [label = "刀\nsword (83)"];
+  O [label = "穴\nhole (1070)"];
+  L [label = "宀\nhouse (*)"];
+  M [label = "八\neight (8)"];
+  N [label = "只minus口\nanimal legs (*)"];
+  P [label = "月\nmonth (13)"];
+  Q [label = "心\nheart (563)"];
+  V [label = "言\nsay (346)"];
+  S [label = "二\ntwo (2)"];
+  R [label = "一\none (1)"];
+  T [label = "口\nmouth (11)"];
+  U [label = "亠\ntop hat (*)"];
+  W [label = "幺\ncocoon (*)"];
+
+  B -> X [thick];
+  D -> X [thick];
+  C -> D [thick];
+  J -> X [thick];
+  E -> J [thick];
+  F -> J [thick];
+  H -> J [thick];
+  G -> H [thick];
+  I -> J [thick];
+  K -> X [thick];
+  O -> X [thick];
+  L -> O [thick];
+  M -> O [thick];
+  N -> O [thick];
+  P -> X [thick];
+  Q -> X [thick];
+  V -> X [thick];
+  S -> V [thick];
+  R -> S [thick];
+  T -> V [thick];
+  U -> V [thick];
+  W -> X [thick];
+}

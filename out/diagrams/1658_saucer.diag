@@ -1,0 +1,24 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  I [label = "碟\nsaucer (1658)"];
+  D [label = "石\nstone (125)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "厂\nfactory (121)"];
+  H [label = "枼\nfamily tree (*)"];
+  F [label = "世\ngeneration (28)"];
+  E [label = "十\nten (10)"];
+  G [label = "木\ntree (202)"];
+
+  D -> I [thick];
+  B -> D [thick];
+  C -> D [thick];
+  H -> I [thick];
+  F -> H [thick];
+  E -> F [thick];
+  G -> H [thick];
+}

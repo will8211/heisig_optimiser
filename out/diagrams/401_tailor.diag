@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  H [label = "裁\ntailor (401)"];
+  C [label = "衣\nclothing (400)"];
+  B [label = "亠\ntop hat (*)"];
+  G [label = "载minus车\nThanksgiving (*)"];
+  D [label = "土\nsoil (158)"];
+  F [label = "戈\nhalberd (361)"];
+  E [label = "弋\narrow (*)"];
+
+  C -> H [thick];
+  B -> C [thick];
+  G -> H [thick];
+  D -> G [thick];
+  F -> G [thick];
+  E -> F [thick];
+}

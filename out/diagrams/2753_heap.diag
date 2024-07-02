@@ -1,0 +1,28 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  K [label = "叠\nheap (2753)"];
+  B [label = "又\nagain (633)"];
+  C [label = "冖\ncrown (*)"];
+  J [label = "架\nshelf (751)"];
+  H [label = "加\nadd (749)"];
+  F [label = "肌\nmuscle (63)"];
+  D [label = "几\nhow many? (57)"];
+  E [label = "月\nmonth (13)"];
+  G [label = "口\nmouth (11)"];
+  I [label = "木\ntree (202)"];
+
+  B -> K [thick];
+  C -> K [thick];
+  J -> K [thick];
+  H -> J [thick];
+  F -> H [thick];
+  D -> F [thick];
+  E -> F [thick];
+  G -> H [thick];
+  I -> J [thick];
+}

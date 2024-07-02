@@ -1,0 +1,18 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  F [label = "再\nonce more (1366)"];
+  B [label = "一\none (1)"];
+  D [label = "冂\nhood (*)"];
+  C [label = "几\nhow many? (57)"];
+  E [label = "土\nsoil (158)"];
+
+  B -> F [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
+}

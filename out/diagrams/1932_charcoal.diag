@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "炭\ncharcoal (1932)"];
+  B [label = "山\nmountain (688)"];
+  F [label = "灰\nashes (172)"];
+  C [label = "火\nfire (170)"];
+  E [label = "𠂇\nby one’s side (*)"];
+  D [label = "十\nten (10)"];
+
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
+}

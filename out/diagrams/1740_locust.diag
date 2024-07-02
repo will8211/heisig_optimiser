@@ -1,0 +1,24 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  I [label = "蝗\nlocust (1740)"];
+  B [label = "虫\ninsect (509)"];
+  H [label = "皇\nemperor (272)"];
+  D [label = "王\nking (265)"];
+  C [label = "工\nwork (76)"];
+  G [label = "白\nwhite (34)"];
+  E [label = "日\nday (12)"];
+  F [label = "丶\na drop of (*)"];
+
+  B -> I [thick];
+  H -> I [thick];
+  D -> H [thick];
+  C -> D [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
+}

@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "恍\nall of a sudden (1808)"];
+  B [label = "心\nheart (563)"];
+  F [label = "光\nray (130)"];
+  D [label = "小\nsmall (109)"];
+  C [label = "丶\na drop of (*)"];
+  E [label = "儿\nyoungster (56)"];
+
+  B -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
+}

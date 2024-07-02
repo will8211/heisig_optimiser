@@ -1,0 +1,16 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  E [label = "尖\ntip (114)"];
+  C [label = "小\nsmall (109)"];
+  B [label = "丶\na drop of (*)"];
+  D [label = "大\nlarge (113)"];
+
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+}

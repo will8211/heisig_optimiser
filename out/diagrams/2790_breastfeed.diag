@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "哺\nbreastfeed (2790)"];
+  B [label = "口\nmouth (11)"];
+  F [label = "甫\nFu (1379)"];
+  C [label = "十\nten (10)"];
+  D [label = "月\nmonth (13)"];
+  E [label = "丶\na drop of (*)"];
+
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  D -> F [thick];
+  E -> F [thick];
+}

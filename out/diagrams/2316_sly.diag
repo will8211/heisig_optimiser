@@ -1,0 +1,24 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  I [label = "狡\nsly (2316)"];
+  D [label = "犬\npooch (239)"];
+  B [label = "大\nlarge (113)"];
+  C [label = "丶\na drop of (*)"];
+  H [label = "交\nmingle (1044)"];
+  E [label = "亠\ntop hat (*)"];
+  G [label = "父\nfather (1043)"];
+  F [label = "丶\na drop of (*)"];
+
+  D -> I [thick];
+  B -> D [thick];
+  C -> D [thick];
+  H -> I [thick];
+  E -> H [thick];
+  G -> H [thick];
+  F -> G [thick];
+}

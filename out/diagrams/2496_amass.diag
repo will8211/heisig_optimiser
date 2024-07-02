@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "蕴\namass (2496)"];
+  B [label = "艹\nflower (*)"];
+  D [label = "纟\nthread (*)"];
+  C [label = "厶\nelbow (*)"];
+  E [label = "日\nday (12)"];
+  F [label = "皿\ndish (*)"];
+
+  B -> G [thick];
+  D -> G [thick];
+  C -> D [thick];
+  E -> G [thick];
+  F -> G [thick];
+}

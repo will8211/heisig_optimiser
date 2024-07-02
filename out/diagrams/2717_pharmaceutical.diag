@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  H [label = "剂\npharmaceutical (2717)"];
+  F [label = "齐\nidentical (1318)"];
+  D [label = "文\nliterature (1315)"];
+  B [label = "亠\ntop hat (*)"];
+  C [label = "㐅\nsheaf (*)"];
+  E [label = "介minus𠆢\ncrutches (*)"];
+  G [label = "刀\nsword (83)"];
+
+  F -> H [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
+  G -> H [thick];
+}

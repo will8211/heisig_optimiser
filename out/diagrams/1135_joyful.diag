@@ -1,0 +1,30 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  L [label = "喜\njoyful (1135)"];
+  J [label = "壴\ndrum (*)"];
+  B [label = "士\nsoldier (334)"];
+  I [label = "桌\ntable (224)"];
+  C [label = "木\ntree (202)"];
+  D [label = "日\nday (12)"];
+  H [label = "卜\ndivination (43)"];
+  F [label = "丨\nwalking stick (*)"];
+  E [label = "一\none (1)"];
+  G [label = "丶\na drop of (*)"];
+  K [label = "口\nmouth (11)"];
+
+  J -> L [thick];
+  B -> J [thick];
+  I -> J [thick];
+  C -> I [thick];
+  D -> I [thick];
+  H -> I [thick];
+  F -> H [thick];
+  E -> F [thick];
+  G -> H [thick];
+  K -> L [thick];
+}

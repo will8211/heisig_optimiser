@@ -1,0 +1,30 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  L [label = "锦\nbrocade (1687)"];
+  F [label = "金\ngold (279)"];
+  B [label = "𠆢\numbrella (*)"];
+  D [label = "王\nking (265)"];
+  C [label = "工\nwork (76)"];
+  E [label = "丶\na drop of (*)"];
+  K [label = "帛\nwhite towel (*)"];
+  I [label = "白\nwhite (34)"];
+  G [label = "日\nday (12)"];
+  H [label = "丶\na drop of (*)"];
+  J [label = "巾\ntowel (410)"];
+
+  F -> L [thick];
+  B -> F [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
+  K -> L [thick];
+  I -> K [thick];
+  G -> I [thick];
+  H -> I [thick];
+  J -> K [thick];
+}

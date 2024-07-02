@@ -1,0 +1,18 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  F [label = "成\nturn into (368)"];
+  D [label = "戊\nparade (*)"];
+  C [label = "戈\nhalberd (361)"];
+  B [label = "弋\narrow (*)"];
+  E [label = "刀\nsword (83)"];
+
+  D -> F [thick];
+  C -> D [thick];
+  B -> C [thick];
+  E -> F [thick];
+}

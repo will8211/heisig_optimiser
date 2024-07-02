@@ -1,0 +1,26 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  J [label = "览\nview (2265)"];
+  F [label = "临\nbe about to (1010)"];
+  B [label = "坚minus圣\nfencing foil (*)"];
+  C [label = "丶\na drop of (*)"];
+  D [label = "𠂉\nreclining (*)"];
+  E [label = "日\nday (12)"];
+  I [label = "见\nsee (58)"];
+  G [label = "目\neye (15)"];
+  H [label = "儿\nyoungster (56)"];
+
+  F -> J [thick];
+  B -> F [thick];
+  C -> F [thick];
+  D -> F [thick];
+  E -> F [thick];
+  I -> J [thick];
+  G -> I [thick];
+  H -> I [thick];
+}

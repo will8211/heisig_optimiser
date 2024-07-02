@@ -1,0 +1,26 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  J [label = "纳\nlet in (2390)"];
+  C [label = "纟\nthread (*)"];
+  B [label = "厶\nelbow (*)"];
+  I [label = "丙\nthird (842)"];
+  D [label = "一\none (1)"];
+  H [label = "内\ninternal (840)"];
+  F [label = "冂\nbelt (*)"];
+  E [label = "巾\ntowel (410)"];
+  G [label = "人\nperson (793)"];
+
+  C -> J [thick];
+  B -> C [thick];
+  I -> J [thick];
+  D -> I [thick];
+  H -> I [thick];
+  F -> H [thick];
+  E -> F [thick];
+  G -> H [thick];
+}

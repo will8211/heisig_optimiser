@@ -1,0 +1,42 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  R [label = "痴\nidiotic (2667)"];
+  J [label = "疒\nsickness (*)"];
+  D [label = "广\nextensive (556)"];
+  B [label = "厂\nfactory (121)"];
+  C [label = "宀\nhouse (*)"];
+  I [label = "冫\nice (*)"];
+  H [label = "水\nwater (137)"];
+  F [label = "丨\nwalking stick (*)"];
+  E [label = "一\none (1)"];
+  G [label = "丶\na drop of (*)"];
+  Q [label = "知\nknow (1000)"];
+  O [label = "矢\ndart (998)"];
+  M [label = "天\nheavens (436)"];
+  K [label = "一\none (1)"];
+  L [label = "大\nlarge (113)"];
+  N [label = "丶\na drop of (*)"];
+  P [label = "口\nmouth (11)"];
+
+  J -> R [thick];
+  D -> J [thick];
+  B -> D [thick];
+  C -> D [thick];
+  I -> J [thick];
+  H -> I [thick];
+  F -> H [thick];
+  E -> F [thick];
+  G -> H [thick];
+  Q -> R [thick];
+  O -> Q [thick];
+  M -> O [thick];
+  K -> M [thick];
+  L -> M [thick];
+  N -> O [thick];
+  P -> Q [thick];
+}

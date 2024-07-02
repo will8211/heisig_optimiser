@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "蠢\nfoolish (2599)"];
+  E [label = "春\nspringtime (1230)"];
+  C [label = "𡗗\nbonsai (*)"];
+  B [label = "丰\nplentiful (1223)"];
+  D [label = "日\nday (12)"];
+  F [label = "虫\ninsect (509)"];
+
+  E -> G [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  F -> G [thick];
+}

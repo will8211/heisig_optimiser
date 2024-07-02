@@ -1,0 +1,26 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  J [label = "殿\nceremonial hall (2771)"];
+  B [label = "尸\ncorpse (882)"];
+  F [label = "共\ntogether (1354)"];
+  D [label = "昔minus日\nsalad (*)"];
+  C [label = "艹\nflower (*)"];
+  E [label = "只minus口\nanimal legs (*)"];
+  I [label = "殳\nmissile (*)"];
+  G [label = "几\nhow many? (57)"];
+  H [label = "又\nagain (633)"];
+
+  B -> J [thick];
+  F -> J [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
+  I -> J [thick];
+  G -> I [thick];
+  H -> I [thick];
+}

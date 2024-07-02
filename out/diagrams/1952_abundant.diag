@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  H [label = "裕\nabundant (1952)"];
+  C [label = "衣\nclothing (400)"];
+  B [label = "亠\ntop hat (*)"];
+  G [label = "谷\nvalley (698)"];
+  D [label = "只minus口\nanimal legs (*)"];
+  E [label = "𠆢\numbrella (*)"];
+  F [label = "口\nmouth (11)"];
+
+  C -> H [thick];
+  B -> C [thick];
+  G -> H [thick];
+  D -> G [thick];
+  E -> G [thick];
+  F -> G [thick];
+}

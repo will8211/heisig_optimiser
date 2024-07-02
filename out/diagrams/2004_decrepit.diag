@@ -1,0 +1,28 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  K [label = "颓\ndecrepit (2004)"];
+  D [label = "秃\nbald (2003)"];
+  B [label = "禾\nstanding grain (762)"];
+  C [label = "几\nhow many? (57)"];
+  J [label = "页\npage (60)"];
+  G [label = "贝\nshellfish (52)"];
+  E [label = "目\neye (15)"];
+  F [label = "只minus口\nanimal legs (*)"];
+  H [label = "一\none (1)"];
+  I [label = "丶\na drop of (*)"];
+
+  D -> K [thick];
+  B -> D [thick];
+  C -> D [thick];
+  J -> K [thick];
+  G -> J [thick];
+  E -> G [thick];
+  F -> G [thick];
+  H -> J [thick];
+  I -> J [thick];
+}

@@ -1,0 +1,24 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  I [label = "熬\nstew (1732)"];
+  B [label = "土\nsoil (158)"];
+  G [label = "放\nrelease (496)"];
+  C [label = "攵\ntaskmaster (*)"];
+  F [label = "方\ndirection (494)"];
+  D [label = "刀\nsword (83)"];
+  E [label = "亠\ntop hat (*)"];
+  H [label = "火\nfire (170)"];
+
+  B -> I [thick];
+  G -> I [thick];
+  C -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
+  H -> I [thick];
+}

@@ -1,0 +1,18 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  F [label = "宅\ndwelling (1425)"];
+  B [label = "宀\nhouse (*)"];
+  E [label = "乇\nfur ball (*)"];
+  D [label = "毛\nfur (1421)"];
+  C [label = "手\nhand (584)"];
+
+  B -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
+  C -> D [thick];
+}

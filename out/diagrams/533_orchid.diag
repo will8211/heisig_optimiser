@@ -1,0 +1,16 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  E [label = "兰\norchid (533)"];
+  D [label = "羊\nsheep (528)"];
+  C [label = "丷\nhorns (*)"];
+  B [label = "一\none (1)"];
+
+  D -> E [thick];
+  C -> D [thick];
+  B -> C [thick];
+}

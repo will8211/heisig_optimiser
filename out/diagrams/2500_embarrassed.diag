@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "尬\nembarrassed (2500)"];
+  C [label = "尴minus监\nFrankenbowser (*)"];
+  B [label = "大\nlarge (113)"];
+  F [label = "介\nintroduce (259)"];
+  D [label = "𠆢\numbrella (*)"];
+  E [label = "介minus𠆢\ncrutches (*)"];
+
+  C -> G [thick];
+  B -> C [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
+}

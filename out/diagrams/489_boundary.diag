@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "境\nboundary (489)"];
+  B [label = "土\nsoil (158)"];
+  F [label = "竟\nunexpectedly (487)"];
+  C [label = "立\nstanding up (444)"];
+  D [label = "儿\nyoungster (56)"];
+  E [label = "日\nday (12)"];
+
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  D -> F [thick];
+  E -> F [thick];
+}

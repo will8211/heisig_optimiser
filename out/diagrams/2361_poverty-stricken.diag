@@ -1,0 +1,24 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  I [label = "窘\npoverty-stricken (2361)"];
+  E [label = "穴\nhole (1070)"];
+  B [label = "宀\nhouse (*)"];
+  C [label = "八\neight (8)"];
+  D [label = "只minus口\nanimal legs (*)"];
+  H [label = "君\nmonarch (959)"];
+  F [label = "尹\noverseer (957)"];
+  G [label = "口\nmouth (11)"];
+
+  E -> I [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
+  H -> I [thick];
+  F -> H [thick];
+  G -> H [thick];
+}

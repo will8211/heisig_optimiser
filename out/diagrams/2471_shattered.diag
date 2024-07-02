@@ -1,0 +1,26 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  J [label = "碎\nshattered (2471)"];
+  D [label = "石\nstone (125)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "厂\nfactory (121)"];
+  I [label = "卒\nfoot soldiers (*)"];
+  F [label = "从\nfollow (846)"];
+  E [label = "人\nperson (793)"];
+  G [label = "亠\ntop hat (*)"];
+  H [label = "十\nten (10)"];
+
+  D -> J [thick];
+  B -> D [thick];
+  C -> D [thick];
+  I -> J [thick];
+  F -> I [thick];
+  E -> F [thick];
+  G -> I [thick];
+  H -> I [thick];
+}

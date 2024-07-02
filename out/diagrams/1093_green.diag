@@ -1,0 +1,26 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  J [label = "绿\ngreen (1093)"];
+  C [label = "纟\nthread (*)"];
+  B [label = "厶\nelbow (*)"];
+  I [label = "录\nrecord (949)"];
+  D [label = "彐\nbroom (*)"];
+  H [label = "水\nwater (137)"];
+  F [label = "丨\nwalking stick (*)"];
+  E [label = "一\none (1)"];
+  G [label = "丶\na drop of (*)"];
+
+  C -> J [thick];
+  B -> C [thick];
+  I -> J [thick];
+  D -> I [thick];
+  H -> I [thick];
+  F -> H [thick];
+  E -> F [thick];
+  G -> H [thick];
+}

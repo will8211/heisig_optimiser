@@ -1,0 +1,24 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  I [label = "递\nhand over (2280)"];
+  G [label = "弟\nyounger brother (1022)"];
+  C [label = "丷\nhorns (*)"];
+  B [label = "一\none (1)"];
+  F [label = "弗\ndollar sign (*)"];
+  D [label = "介minus𠆢\ncrutches (*)"];
+  E [label = "弓\nbow (1013)"];
+  H [label = "辶\nroad (*)"];
+
+  G -> I [thick];
+  C -> G [thick];
+  B -> C [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
+  H -> I [thick];
+}

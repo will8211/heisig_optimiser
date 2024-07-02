@@ -1,0 +1,16 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  E [label = "宇\neaves (1282)"];
+  B [label = "宀\nhouse (*)"];
+  D [label = "于\nYu (1281)"];
+  C [label = "干\ndry (1277)"];
+
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
+}

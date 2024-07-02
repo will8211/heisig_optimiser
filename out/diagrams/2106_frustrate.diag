@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "挫\nfrustrate (2106)"];
+  B [label = "扌\nfingers (*)"];
+  F [label = "坐\nsit (848)"];
+  D [label = "从\nfollow (846)"];
+  C [label = "人\nperson (793)"];
+  E [label = "土\nsoil (158)"];
+
+  B -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
+}

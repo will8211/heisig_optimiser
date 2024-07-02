@@ -1,0 +1,16 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  E [label = "拒\nrefuse (2684)"];
+  B [label = "扌\nfingers (*)"];
+  D [label = "巨\ngigantic (2681)"];
+  C [label = "匚\nbox (*)"];
+
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
+}

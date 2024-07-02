@@ -1,0 +1,24 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  I [label = "旅\ntravel (874)"];
+  F [label = "施minus也\nbanner (*)"];
+  D [label = "方\ndirection (494)"];
+  B [label = "刀\nsword (83)"];
+  C [label = "亠\ntop hat (*)"];
+  E [label = "𠂉\nreclining (*)"];
+  H [label = "衣\nclothing (400)"];
+  G [label = "亠\ntop hat (*)"];
+
+  F -> I [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
+  H -> I [thick];
+  G -> H [thick];
+}

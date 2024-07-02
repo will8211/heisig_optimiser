@@ -1,0 +1,36 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  O [label = "囊\nsack (2744)"];
+  G [label = "襄\naid (1201)"];
+  C [label = "衣\nclothing (400)"];
+  B [label = "亠\ntop hat (*)"];
+  E [label = "吅\nchatterbox (*)"];
+  D [label = "口\nmouth (11)"];
+  F [label = "𠀎\nwire mesh (*)"];
+  L [label = "𠀐\npurse (*)"];
+  K [label = "中\nmiddle (38)"];
+  I [label = "丨\nwalking stick (*)"];
+  H [label = "一\none (1)"];
+  J [label = "口\nmouth (11)"];
+  M [label = "冖\ncrown (*)"];
+  N [label = "亠\ntop hat (*)"];
+
+  G -> O [thick];
+  C -> G [thick];
+  B -> C [thick];
+  E -> G [thick];
+  D -> E [thick];
+  F -> G [thick];
+  L -> O [thick];
+  K -> L [thick];
+  I -> K [thick];
+  H -> I [thick];
+  J -> K [thick];
+  M -> O [thick];
+  N -> O [thick];
+}

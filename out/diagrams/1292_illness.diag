@@ -1,0 +1,40 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  Q [label = "病\nillness (1292)"];
+  J [label = "疒\nsickness (*)"];
+  D [label = "广\nextensive (556)"];
+  B [label = "厂\nfactory (121)"];
+  C [label = "宀\nhouse (*)"];
+  I [label = "冫\nice (*)"];
+  H [label = "水\nwater (137)"];
+  F [label = "丨\nwalking stick (*)"];
+  E [label = "一\none (1)"];
+  G [label = "丶\na drop of (*)"];
+  P [label = "丙\nthird (842)"];
+  K [label = "一\none (1)"];
+  O [label = "内\ninternal (840)"];
+  M [label = "冂\nbelt (*)"];
+  L [label = "巾\ntowel (410)"];
+  N [label = "人\nperson (793)"];
+
+  J -> Q [thick];
+  D -> J [thick];
+  B -> D [thick];
+  C -> D [thick];
+  I -> J [thick];
+  H -> I [thick];
+  F -> H [thick];
+  E -> F [thick];
+  G -> H [thick];
+  P -> Q [thick];
+  K -> P [thick];
+  O -> P [thick];
+  M -> O [thick];
+  L -> M [thick];
+  N -> O [thick];
+}

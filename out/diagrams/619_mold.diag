@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  H [label = "型\nmold (619)"];
+  F [label = "刑\npunishment (618)"];
+  D [label = "开\nopen (613)"];
+  C [label = "二\ntwo (2)"];
+  B [label = "一\none (1)"];
+  E [label = "刀\nsword (83)"];
+  G [label = "土\nsoil (158)"];
+
+  F -> H [thick];
+  D -> F [thick];
+  C -> D [thick];
+  B -> C [thick];
+  E -> F [thick];
+  G -> H [thick];
+}

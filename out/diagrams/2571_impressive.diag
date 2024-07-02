@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  H [label = "隆\nimpressive (2571)"];
+  B [label = "阝\npinnacle (*)"];
+  C [label = "夂\nwalking legs (*)"];
+  D [label = "一\none (1)"];
+  G [label = "生\nlife (1218)"];
+  E [label = "丶\na drop of (*)"];
+  F [label = "毒minus母\ngrow up (*)"];
+
+  B -> H [thick];
+  C -> H [thick];
+  D -> H [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
+}

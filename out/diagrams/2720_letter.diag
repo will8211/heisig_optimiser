@@ -1,0 +1,26 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  J [label = "函\nletter (2720)"];
+  C [label = "了\n-ed (101)"];
+  B [label = "子\nchild (97)"];
+  D [label = "率minus玄minus十\nsparkler (*)"];
+  I [label = "坑\npit (323)"];
+  G [label = "亢\nwhirlwind (*)"];
+  E [label = "亠\ntop hat (*)"];
+  F [label = "几\nhow many? (57)"];
+  H [label = "土\nsoil (158)"];
+
+  C -> J [thick];
+  B -> C [thick];
+  D -> J [thick];
+  I -> J [thick];
+  G -> I [thick];
+  E -> G [thick];
+  F -> G [thick];
+  H -> I [thick];
+}

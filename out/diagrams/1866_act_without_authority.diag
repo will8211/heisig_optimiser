@@ -1,0 +1,28 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  K [label = "擅\nact without authority (1866)"];
+  B [label = "扌\nfingers (*)"];
+  J [label = "亶\nMr. Hyde (*)"];
+  C [label = "亠\ntop hat (*)"];
+  F [label = "回\nreturn (554)"];
+  D [label = "囗\npent in (*)"];
+  E [label = "口\nmouth (11)"];
+  I [label = "旦\ndaybreak (30)"];
+  G [label = "日\nday (12)"];
+  H [label = "一\none (1)"];
+
+  B -> K [thick];
+  J -> K [thick];
+  C -> J [thick];
+  F -> J [thick];
+  D -> F [thick];
+  E -> F [thick];
+  I -> J [thick];
+  G -> I [thick];
+  H -> I [thick];
+}

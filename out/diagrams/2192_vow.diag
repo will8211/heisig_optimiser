@@ -1,0 +1,34 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  N [label = "誓\nvow (2192)"];
+  H [label = "折\ndiscount (932)"];
+  F [label = "指\nfinger (594)"];
+  B [label = "扌\nfingers (*)"];
+  E [label = "旨\npurpose (463)"];
+  C [label = "匕\nancient spoon (453)"];
+  D [label = "日\nday (12)"];
+  G [label = "斤\ncatty (924)"];
+  M [label = "言\nsay (346)"];
+  J [label = "二\ntwo (2)"];
+  I [label = "一\none (1)"];
+  K [label = "口\nmouth (11)"];
+  L [label = "亠\ntop hat (*)"];
+
+  H -> N [thick];
+  F -> H [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
+  G -> H [thick];
+  M -> N [thick];
+  J -> M [thick];
+  I -> J [thick];
+  K -> M [thick];
+  L -> M [thick];
+}

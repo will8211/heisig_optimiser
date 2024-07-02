@@ -1,0 +1,16 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  E [label = "圾\ntrash (1880)"];
+  B [label = "土\nsoil (158)"];
+  D [label = "及\ncatch up with (627)"];
+  C [label = "乃\nonly then (625)"];
+
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
+}

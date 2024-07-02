@@ -1,0 +1,14 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  D [label = "粗\ncoarse (2749)"];
+  B [label = "米\nrice (778)"];
+  C [label = "且\nmoreover (1343)"];
+
+  B -> D [thick];
+  C -> D [thick];
+}

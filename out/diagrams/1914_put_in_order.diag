@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  H [label = "摆\nput in order (1914)"];
+  B [label = "扌\nfingers (*)"];
+  G [label = "罢\ncease (1913)"];
+  C [label = "目\neye (15)"];
+  F [label = "去\ngo (675)"];
+  D [label = "土\nsoil (158)"];
+  E [label = "厶\nelbow (*)"];
+
+  B -> H [thick];
+  G -> H [thick];
+  C -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
+}

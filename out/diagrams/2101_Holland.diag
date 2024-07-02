@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  H [label = "荷\nHolland (2101)"];
+  B [label = "艹\nflower (*)"];
+  G [label = "何\nwhatwhichwhowherewhy? (835)"];
+  C [label = "人\nperson (793)"];
+  F [label = "可\ncan (92)"];
+  D [label = "丁\nfourth (90)"];
+  E [label = "口\nmouth (11)"];
+
+  B -> H [thick];
+  G -> H [thick];
+  C -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
+}

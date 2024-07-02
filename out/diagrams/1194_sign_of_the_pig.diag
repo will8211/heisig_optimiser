@@ -1,0 +1,16 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  E [label = "亥\nsign of the pig (1194)"];
+  B [label = "亠\ntop hat (*)"];
+  C [label = "厶\nelbow (*)"];
+  D [label = "人\nperson (793)"];
+
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
+}

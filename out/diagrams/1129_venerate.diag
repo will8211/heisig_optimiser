@@ -1,0 +1,24 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  I [label = "尊\nvenerate (1129)"];
+  E [label = "酋\nchieftain (1128)"];
+  C [label = "丷\nhorns (*)"];
+  B [label = "一\none (1)"];
+  D [label = "酉\nwhiskey bottle (*)"];
+  H [label = "寸\nChinese inch (166)"];
+  F [label = "丶\na drop of (*)"];
+  G [label = "十\nten (10)"];
+
+  E -> I [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  H -> I [thick];
+  F -> H [thick];
+  G -> H [thick];
+}

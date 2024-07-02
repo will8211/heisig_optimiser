@@ -1,0 +1,28 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  K [label = "康\nhale (956)"];
+  D [label = "广\nextensive (556)"];
+  B [label = "厂\nfactory (121)"];
+  C [label = "宀\nhouse (*)"];
+  F [label = "肀\nrake (*)"];
+  E [label = "彐\nbroom (*)"];
+  J [label = "水\nwater (137)"];
+  H [label = "丨\nwalking stick (*)"];
+  G [label = "一\none (1)"];
+  I [label = "丶\na drop of (*)"];
+
+  D -> K [thick];
+  B -> D [thick];
+  C -> D [thick];
+  F -> K [thick];
+  E -> F [thick];
+  J -> K [thick];
+  H -> J [thick];
+  G -> H [thick];
+  I -> J [thick];
+}

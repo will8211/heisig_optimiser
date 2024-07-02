@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "炒\nstir-fry (1547)"];
+  B [label = "火\nfire (170)"];
+  F [label = "少\nfew (110)"];
+  C [label = "丶\na drop of (*)"];
+  E [label = "小\nsmall (109)"];
+  D [label = "丶\na drop of (*)"];
+
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
+}

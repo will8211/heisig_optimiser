@@ -1,0 +1,32 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  M [label = "捡\npick up (2860)"];
+  B [label = "扌\nfingers (*)"];
+  G [label = "佥\nhootenanny (*)"];
+  D [label = "亼\nmeeting (*)"];
+  C [label = "𠆢\numbrella (*)"];
+  E [label = "应minus广\nowl (*)"];
+  F [label = "一\none (1)"];
+  L [label = "指\nfinger (594)"];
+  H [label = "扌\nfingers (*)"];
+  K [label = "旨\npurpose (463)"];
+  I [label = "匕\nancient spoon (453)"];
+  J [label = "日\nday (12)"];
+
+  B -> M [thick];
+  G -> M [thick];
+  D -> G [thick];
+  C -> D [thick];
+  E -> G [thick];
+  F -> G [thick];
+  L -> M [thick];
+  H -> L [thick];
+  K -> L [thick];
+  I -> K [thick];
+  J -> K [thick];
+}

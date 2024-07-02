@@ -1,0 +1,16 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  E [label = "闸\nfloodgate (2629)"];
+  B [label = "门\ngate (1260)"];
+  D [label = "甲\nfirst (916)"];
+  C [label = "田\nrice field (14)"];
+
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
+}

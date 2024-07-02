@@ -1,0 +1,26 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  J [label = "语\nlanguage (356)"];
+  D [label = "吾\nI (literary) (19)"];
+  B [label = "五\nfive (5)"];
+  C [label = "口\nmouth (11)"];
+  I [label = "言\nsay (346)"];
+  F [label = "二\ntwo (2)"];
+  E [label = "一\none (1)"];
+  G [label = "口\nmouth (11)"];
+  H [label = "亠\ntop hat (*)"];
+
+  D -> J [thick];
+  B -> D [thick];
+  C -> D [thick];
+  I -> J [thick];
+  F -> I [thick];
+  E -> F [thick];
+  G -> I [thick];
+  H -> I [thick];
+}

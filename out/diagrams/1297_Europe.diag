@@ -1,0 +1,18 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  F [label = "欧\nEurope (1297)"];
+  D [label = "区\nregion (1295)"];
+  B [label = "匚\nbox (*)"];
+  C [label = "㐅\nsheaf (*)"];
+  E [label = "欠\nlack (474)"];
+
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
+}

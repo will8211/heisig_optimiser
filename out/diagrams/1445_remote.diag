@@ -1,0 +1,24 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  I [label = "遥\nremote (1445)"];
+  G [label = "䍃\ncan opener (*)"];
+  C [label = "爪\nclaw (663)"];
+  B [label = "𠂆\ndrag (*)"];
+  F [label = "缶\ntin can (*)"];
+  D [label = "午\nnoon (542)"];
+  E [label = "山\nmountain (688)"];
+  H [label = "辶\nroad (*)"];
+
+  G -> I [thick];
+  C -> G [thick];
+  B -> C [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
+  H -> I [thick];
+}

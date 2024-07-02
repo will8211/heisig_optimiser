@@ -1,0 +1,34 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  N [label = "斋\nabstain from food (2715)"];
+  D [label = "文\nliterature (1315)"];
+  B [label = "亠\ntop hat (*)"];
+  C [label = "㐅\nsheaf (*)"];
+  M [label = "梳\ncomb (685)"];
+  E [label = "木\ntree (202)"];
+  L [label = "㐬\nbaby Moses (*)"];
+  J [label = "充minus儿\ninfant (*)"];
+  H [label = "会minus亼\nwall (*)"];
+  F [label = "厶\nelbow (*)"];
+  G [label = "一\none (1)"];
+  I [label = "丶\na drop of (*)"];
+  K [label = "川\nstream (134)"];
+
+  D -> N [thick];
+  B -> D [thick];
+  C -> D [thick];
+  M -> N [thick];
+  E -> M [thick];
+  L -> M [thick];
+  J -> L [thick];
+  H -> J [thick];
+  F -> H [thick];
+  G -> H [thick];
+  I -> J [thick];
+  K -> L [thick];
+}

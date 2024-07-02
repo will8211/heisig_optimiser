@@ -1,0 +1,26 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  J [label = "梁\nroof beam (2037)"];
+  H [label = "粱minus米\ndecapitation (*)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  F [label = "刀\nsword (83)"];
+  G [label = "丶\na drop of (*)"];
+  I [label = "木\ntree (202)"];
+
+  H -> J [thick];
+  E -> H [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  F -> H [thick];
+  G -> H [thick];
+  I -> J [thick];
+}

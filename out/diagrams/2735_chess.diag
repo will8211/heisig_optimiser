@@ -1,0 +1,18 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  F [label = "棋\nchess (2735)"];
+  B [label = "木\ntree (202)"];
+  E [label = "其\nhis-hers-its-theirs (1335)"];
+  C [label = "甘\nsweet (1333)"];
+  D [label = "只minus口\nanimal legs (*)"];
+
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
+}

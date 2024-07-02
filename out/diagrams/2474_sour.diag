@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  H [label = "酸\nsour (2474)"];
+  B [label = "酉\nwhiskey bottle (*)"];
+  G [label = "夋\nstreetwalker (*)"];
+  E [label = "允\nconsent (1905)"];
+  C [label = "厶\nelbow (*)"];
+  D [label = "儿\nyoungster (56)"];
+  F [label = "夂\nwalking legs (*)"];
+
+  B -> H [thick];
+  G -> H [thick];
+  E -> G [thick];
+  C -> E [thick];
+  D -> E [thick];
+  F -> G [thick];
+}

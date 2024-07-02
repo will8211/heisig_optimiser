@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "种\nspecies (766)"];
+  B [label = "禾\nstanding grain (762)"];
+  F [label = "中\nmiddle (38)"];
+  D [label = "丨\nwalking stick (*)"];
+  C [label = "一\none (1)"];
+  E [label = "口\nmouth (11)"];
+
+  B -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
+}

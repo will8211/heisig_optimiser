@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "书\nbook (1393)"];
+  B [label = "侯minus亻minus矢\nkey (*)"];
+  C [label = "𠃌\nclothes hanger (*)"];
+  E [label = "丨\nwalking stick (*)"];
+  D [label = "一\none (1)"];
+  F [label = "丶\na drop of (*)"];
+
+  B -> G [thick];
+  C -> G [thick];
+  E -> G [thick];
+  D -> E [thick];
+  F -> G [thick];
+}

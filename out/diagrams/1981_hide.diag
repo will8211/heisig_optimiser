@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  H [label = "藏\nhide (1981)"];
+  B [label = "艹\nflower (*)"];
+  C [label = "爿\nbunk beds (*)"];
+  F [label = "戊\nparade (*)"];
+  E [label = "戈\nhalberd (361)"];
+  D [label = "弋\narrow (*)"];
+  G [label = "臣\nfeudal official (731)"];
+
+  B -> H [thick];
+  C -> H [thick];
+  F -> H [thick];
+  E -> F [thick];
+  D -> E [thick];
+  G -> H [thick];
+}

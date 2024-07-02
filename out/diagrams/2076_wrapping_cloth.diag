@@ -1,0 +1,24 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  I [label = "袱\nwrapping cloth (2076)"];
+  C [label = "衣\nclothing (400)"];
+  B [label = "亠\ntop hat (*)"];
+  H [label = "伏\nbend over (2075)"];
+  D [label = "人\nperson (793)"];
+  G [label = "犬\npooch (239)"];
+  E [label = "大\nlarge (113)"];
+  F [label = "丶\na drop of (*)"];
+
+  C -> I [thick];
+  B -> C [thick];
+  H -> I [thick];
+  D -> H [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
+}

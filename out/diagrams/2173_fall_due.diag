@@ -1,0 +1,16 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  E [label = "届\nfall due (2173)"];
+  B [label = "尸\ncorpse (882)"];
+  D [label = "由\nwherefore (913)"];
+  C [label = "田\nrice field (14)"];
+
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
+}

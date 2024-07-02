@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  H [label = "贪\ngreedy (2607)"];
+  D [label = "今\nnow (1244)"];
+  C [label = "亼\nmeeting (*)"];
+  B [label = "𠆢\numbrella (*)"];
+  G [label = "贝\nshellfish (52)"];
+  E [label = "目\neye (15)"];
+  F [label = "只minus口\nanimal legs (*)"];
+
+  D -> H [thick];
+  C -> D [thick];
+  B -> C [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
+}

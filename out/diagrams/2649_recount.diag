@@ -1,0 +1,24 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  I [label = "叙\nrecount (2649)"];
+  G [label = "余\nexcess (1283)"];
+  B [label = "𠆢\numbrella (*)"];
+  D [label = "于\nYu (1281)"];
+  C [label = "干\ndry (1277)"];
+  F [label = "小\nsmall (109)"];
+  E [label = "丶\na drop of (*)"];
+  H [label = "又\nagain (633)"];
+
+  G -> I [thick];
+  B -> G [thick];
+  D -> G [thick];
+  C -> D [thick];
+  F -> G [thick];
+  E -> F [thick];
+  H -> I [thick];
+}

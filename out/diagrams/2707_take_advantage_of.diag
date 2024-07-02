@@ -1,0 +1,28 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  K [label = "趁\ntake advantage of (2707)"];
+  D [label = "㐱\ncocktail (*)"];
+  B [label = "𠆢\numbrella (*)"];
+  C [label = "彡\nrooster tail (*)"];
+  J [label = "走\nwalk (391)"];
+  H [label = "走minus十\nmending (*)"];
+  G [label = "正\ncorrect (387)"];
+  E [label = "一\none (1)"];
+  F [label = "止\nstop (379)"];
+  I [label = "土\nsoil (158)"];
+
+  D -> K [thick];
+  B -> D [thick];
+  C -> D [thick];
+  J -> K [thick];
+  H -> J [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
+  I -> J [thick];
+}

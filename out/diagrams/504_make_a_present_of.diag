@@ -1,0 +1,46 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  T [label = "赠\nmake a present of (504)"];
+  D [label = "贝\nshellfish (52)"];
+  B [label = "目\neye (15)"];
+  C [label = "只minus口\nanimal legs (*)"];
+  S [label = "曾\nformerly (502)"];
+  F [label = "丷\nhorns (*)"];
+  E [label = "一\none (1)"];
+  Q [label = "脑\nbrain (1176)"];
+  G [label = "月\nmonth (13)"];
+  P [label = "㐫\nFagin (*)"];
+  H [label = "亠\ntop hat (*)"];
+  O [label = "凶\ncruel (1174)"];
+  I [label = "㐅\nsheaf (*)"];
+  N [label = "坑\npit (323)"];
+  L [label = "亢\nwhirlwind (*)"];
+  J [label = "亠\ntop hat (*)"];
+  K [label = "几\nhow many? (57)"];
+  M [label = "土\nsoil (158)"];
+  R [label = "日\nday (12)"];
+
+  D -> T [thick];
+  B -> D [thick];
+  C -> D [thick];
+  S -> T [thick];
+  F -> S [thick];
+  E -> F [thick];
+  Q -> S [thick];
+  G -> Q [thick];
+  P -> Q [thick];
+  H -> P [thick];
+  O -> P [thick];
+  I -> O [thick];
+  N -> O [thick];
+  L -> N [thick];
+  J -> L [thick];
+  K -> L [thick];
+  M -> N [thick];
+  R -> S [thick];
+}

@@ -1,0 +1,26 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  J [label = "魄\nvigor (2924)"];
+  D [label = "白\nwhite (34)"];
+  B [label = "日\nday (12)"];
+  C [label = "丶\na drop of (*)"];
+  I [label = "鬼\nghost (1472)"];
+  E [label = "丶\na drop of (*)"];
+  F [label = "田\nrice field (14)"];
+  G [label = "儿\nyoungster (56)"];
+  H [label = "厶\nelbow (*)"];
+
+  D -> J [thick];
+  B -> D [thick];
+  C -> D [thick];
+  I -> J [thick];
+  E -> I [thick];
+  F -> I [thick];
+  G -> I [thick];
+  H -> I [thick];
+}

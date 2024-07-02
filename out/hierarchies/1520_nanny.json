@@ -1,0 +1,30 @@
+{
+  "number": "1520",
+  "character": "姆",
+  "keyword": "nanny",
+  "id": "E",
+  "requirements": [
+    {
+      "number": "102",
+      "character": "女",
+      "keyword": "woman",
+      "id": "B",
+      "requirements": []
+    },
+    {
+      "number": "105",
+      "character": "母",
+      "keyword": "mother",
+      "id": "D",
+      "requirements": [
+        {
+          "number": "102",
+          "character": "女",
+          "keyword": "woman",
+          "id": "C",
+          "requirements": []
+        }
+      ]
+    }
+  ]
+}

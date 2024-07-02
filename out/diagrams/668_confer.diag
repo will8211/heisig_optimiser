@@ -1,0 +1,24 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  I [label = "授\nconfer (668)"];
+  B [label = "扌\nfingers (*)"];
+  H [label = "受\naccept (667)"];
+  F [label = "受minus又\nbirdhouse (*)"];
+  D [label = "爪\nclaw (663)"];
+  C [label = "𠂆\ndrag (*)"];
+  E [label = "宀\nhouse (*)"];
+  G [label = "又\nagain (633)"];
+
+  B -> I [thick];
+  H -> I [thick];
+  F -> H [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
+  G -> H [thick];
+}

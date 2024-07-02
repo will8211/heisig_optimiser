@@ -1,0 +1,14 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  D [label = "啡\ncoffee (last drop) (2992)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "非\nnon- (1267)"];
+
+  B -> D [thick];
+  C -> D [thick];
+}

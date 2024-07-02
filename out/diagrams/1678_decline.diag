@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  H [label = "衰\ndecline (1678)"];
+  E [label = "哀\ngrief (403)"];
+  C [label = "衣\nclothing (400)"];
+  B [label = "亠\ntop hat (*)"];
+  D [label = "口\nmouth (11)"];
+  G [label = "丨\nwalking stick (*)"];
+  F [label = "一\none (1)"];
+
+  E -> H [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  G -> H [thick];
+  F -> G [thick];
+}

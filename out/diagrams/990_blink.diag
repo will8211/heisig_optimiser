@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "眨\nblink (990)"];
+  B [label = "目\neye (15)"];
+  F [label = "乏\nweary (989)"];
+  C [label = "丶\na drop of (*)"];
+  E [label = "之\nof (988)"];
+  D [label = "丶\na drop of (*)"];
+
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
+}

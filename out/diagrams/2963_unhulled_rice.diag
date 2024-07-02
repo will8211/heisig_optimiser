@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "稻\nunhulled rice (2963)"];
+  B [label = "禾\nstanding grain (762)"];
+  F [label = "舀\nscoop (*)"];
+  D [label = "爪\nclaw (663)"];
+  C [label = "𠂆\ndrag (*)"];
+  E [label = "臼\nmortar (*)"];
+
+  B -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
+}

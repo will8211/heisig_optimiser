@@ -1,0 +1,24 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  I [label = "跑\nrun (1049)"];
+  D [label = "足\nlower leg (1048)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "止\nstop (379)"];
+  H [label = "包\nwrap (520)"];
+  E [label = "勹\nbound up (*)"];
+  G [label = "已\nalready (519)"];
+  F [label = "己\nself (515)"];
+
+  D -> I [thick];
+  B -> D [thick];
+  C -> D [thick];
+  H -> I [thick];
+  E -> H [thick];
+  G -> H [thick];
+  F -> G [thick];
+}

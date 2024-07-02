@@ -1,0 +1,34 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  N [label = "谎\nlie (1726)"];
+  F [label = "言\nsay (346)"];
+  C [label = "二\ntwo (2)"];
+  B [label = "一\none (1)"];
+  D [label = "口\nmouth (11)"];
+  E [label = "亠\ntop hat (*)"];
+  M [label = "荒\nwasteland (1725)"];
+  K [label = "芒\nmango (1724)"];
+  G [label = "艹\nflower (*)"];
+  J [label = "亡\ndeceased (490)"];
+  H [label = "亠\ntop hat (*)"];
+  I [label = "乙\nsecond (95)"];
+  L [label = "川\nstream (134)"];
+
+  F -> N [thick];
+  C -> F [thick];
+  B -> C [thick];
+  D -> F [thick];
+  E -> F [thick];
+  M -> N [thick];
+  K -> M [thick];
+  G -> K [thick];
+  J -> K [thick];
+  H -> J [thick];
+  I -> J [thick];
+  L -> M [thick];
+}

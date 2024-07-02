@@ -1,0 +1,26 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  J [label = "逮\narrest (2227)"];
+  B [label = "辶\nroad (*)"];
+  I [label = "隶\nbondservant (2226)"];
+  F [label = "水\nwater (137)"];
+  D [label = "丨\nwalking stick (*)"];
+  C [label = "一\none (1)"];
+  E [label = "丶\na drop of (*)"];
+  H [label = "肀\nrake (*)"];
+  G [label = "彐\nbroom (*)"];
+
+  B -> J [thick];
+  I -> J [thick];
+  F -> I [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
+  H -> I [thick];
+  G -> H [thick];
+}

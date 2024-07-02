@@ -1,0 +1,28 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  K [label = "渴\nthirsty (852)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  J [label = "曷\nsiesta (*)"];
+  F [label = "人\nperson (793)"];
+  G [label = "勹\nbound up (*)"];
+  H [label = "乙\nsecond (95)"];
+  I [label = "日\nday (12)"];
+
+  E -> K [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  J -> K [thick];
+  F -> J [thick];
+  G -> J [thick];
+  H -> J [thick];
+  I -> J [thick];
+}

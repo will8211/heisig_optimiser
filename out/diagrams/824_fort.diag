@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  H [label = "堡\nfort (824)"];
+  F [label = "保\nsafeguard (823)"];
+  B [label = "人\nperson (793)"];
+  E [label = "呆\ndim-witted (209)"];
+  C [label = "木\ntree (202)"];
+  D [label = "口\nmouth (11)"];
+  G [label = "土\nsoil (158)"];
+
+  F -> H [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
+  G -> H [thick];
+}

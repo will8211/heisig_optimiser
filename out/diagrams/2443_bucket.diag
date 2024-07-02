@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  H [label = "桶\nbucket (2443)"];
+  B [label = "木\ntree (202)"];
+  G [label = "甬\nchop-rack (*)"];
+  C [label = "月\nmonth (13)"];
+  E [label = "丨\nwalking stick (*)"];
+  D [label = "一\none (1)"];
+  F [label = "节minus艹\nchop (*)"];
+
+  B -> H [thick];
+  G -> H [thick];
+  C -> G [thick];
+  E -> G [thick];
+  D -> E [thick];
+  F -> G [thick];
+}

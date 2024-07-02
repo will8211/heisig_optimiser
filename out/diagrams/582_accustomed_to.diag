@@ -1,0 +1,24 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  I [label = "惯\naccustomed to (582)"];
+  B [label = "心\nheart (563)"];
+  H [label = "贯\npierce (106)"];
+  D [label = "母\nmother (105)"];
+  C [label = "女\nwoman (102)"];
+  G [label = "贝\nshellfish (52)"];
+  E [label = "目\neye (15)"];
+  F [label = "只minus口\nanimal legs (*)"];
+
+  B -> I [thick];
+  H -> I [thick];
+  D -> H [thick];
+  C -> D [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
+}

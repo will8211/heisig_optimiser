@@ -1,0 +1,34 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  N [label = "餐\ndine (1156)"];
+  E [label = "卜\ndivination (43)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  G [label = "夕\nevening (115)"];
+  F [label = "月\nmonth (13)"];
+  H [label = "又\nagain (633)"];
+  M [label = "食\nfood (1154)"];
+  K [label = "良\nhigh-quality (1151)"];
+  I [label = "丶\na drop of (*)"];
+  J [label = "艮\nsilver (*)"];
+  L [label = "𠆢\numbrella (*)"];
+
+  E -> N [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  G -> N [thick];
+  F -> G [thick];
+  H -> N [thick];
+  M -> N [thick];
+  K -> M [thick];
+  I -> K [thick];
+  J -> K [thick];
+  L -> M [thick];
+}

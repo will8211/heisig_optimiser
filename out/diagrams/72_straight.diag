@@ -1,0 +1,16 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  E [label = "直\nstraight (72)"];
+  B [label = "十\nten (10)"];
+  C [label = "目\neye (15)"];
+  D [label = "一\none (1)"];
+
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
+}

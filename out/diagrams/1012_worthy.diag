@@ -1,0 +1,24 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  I [label = "贤\nworthy (1012)"];
+  E [label = "坚\nfirm (1011)"];
+  B [label = "坚minus圣\nfencing foil (*)"];
+  C [label = "又\nagain (633)"];
+  D [label = "土\nsoil (158)"];
+  H [label = "贝\nshellfish (52)"];
+  F [label = "目\neye (15)"];
+  G [label = "只minus口\nanimal legs (*)"];
+
+  E -> I [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
+  H -> I [thick];
+  F -> H [thick];
+  G -> H [thick];
+}

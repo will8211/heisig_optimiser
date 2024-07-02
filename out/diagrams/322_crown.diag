@@ -1,0 +1,26 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  J [label = "冠\ncrown (322)"];
+  B [label = "冖\ncrown (*)"];
+  E [label = "寸\nChinese inch (166)"];
+  C [label = "丶\na drop of (*)"];
+  D [label = "十\nten (10)"];
+  I [label = "元\nbeginning (59)"];
+  G [label = "二\ntwo (2)"];
+  F [label = "一\none (1)"];
+  H [label = "儿\nyoungster (56)"];
+
+  B -> J [thick];
+  E -> J [thick];
+  C -> E [thick];
+  D -> E [thick];
+  I -> J [thick];
+  G -> I [thick];
+  F -> G [thick];
+  H -> I [thick];
+}

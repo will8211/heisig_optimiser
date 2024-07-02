@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "差\nfall short of (535)"];
+  E [label = "差minus工\nwool (*)"];
+  D [label = "羊\nsheep (528)"];
+  C [label = "丷\nhorns (*)"];
+  B [label = "一\none (1)"];
+  F [label = "工\nwork (76)"];
+
+  E -> G [thick];
+  D -> E [thick];
+  C -> D [thick];
+  B -> C [thick];
+  F -> G [thick];
+}

@@ -1,0 +1,16 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  E [label = "轰\nrumble (1887)"];
+  B [label = "车\ncar (300)"];
+  D [label = "双\npair (636)"];
+  C [label = "又\nagain (633)"];
+
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
+}

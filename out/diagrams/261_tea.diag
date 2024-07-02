@@ -1,0 +1,16 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  E [label = "茶\ntea (261)"];
+  B [label = "艹\nflower (*)"];
+  C [label = "木\ntree (202)"];
+  D [label = "𠆢\numbrella (*)"];
+
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
+}

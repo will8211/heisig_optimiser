@@ -1,0 +1,24 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  I [label = "氧\noxygen (2834)"];
+  E [label = "气\nair (1404)"];
+  B [label = "𠂉\nreclining (*)"];
+  C [label = "一\none (1)"];
+  D [label = "乙\nsecond (95)"];
+  H [label = "羊\nsheep (528)"];
+  G [label = "丷\nhorns (*)"];
+  F [label = "一\none (1)"];
+
+  E -> I [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
+  H -> I [thick];
+  G -> H [thick];
+  F -> G [thick];
+}

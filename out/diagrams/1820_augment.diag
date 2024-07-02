@@ -1,0 +1,26 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  J [label = "添\naugment (1820)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  H [label = "天\nheavens (436)"];
+  F [label = "一\none (1)"];
+  G [label = "大\nlarge (113)"];
+  I [label = "心\nheart (563)"];
+
+  E -> J [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  H -> J [thick];
+  F -> H [thick];
+  G -> H [thick];
+  I -> J [thick];
+}

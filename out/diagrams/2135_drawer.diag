@@ -1,0 +1,16 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  E [label = "屉\ndrawer (2135)"];
+  B [label = "尸\ncorpse (882)"];
+  D [label = "世\ngeneration (28)"];
+  C [label = "十\nten (10)"];
+
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
+}

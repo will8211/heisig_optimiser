@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "睡\nsleep (1243)"];
+  B [label = "目\neye (15)"];
+  F [label = "垂\ndroop (1241)"];
+  D [label = "壬\nporter (*)"];
+  C [label = "士\nsoldier (334)"];
+  E [label = "垂minus一minus一\nsilage (*)"];
+
+  B -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
+}

@@ -1,0 +1,28 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  K [label = "勘\nsurvey (2741)"];
+  G [label = "甚\nHercules (*)"];
+  F [label = "甚\ntremendously (1338)"];
+  D [label = "其\nhis-hers-its-theirs (1335)"];
+  B [label = "甘\nsweet (1333)"];
+  C [label = "只minus口\nanimal legs (*)"];
+  E [label = "乙\nsecond (95)"];
+  J [label = "肌\nmuscle (63)"];
+  H [label = "几\nhow many? (57)"];
+  I [label = "月\nmonth (13)"];
+
+  G -> K [thick];
+  F -> G [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
+  J -> K [thick];
+  H -> J [thick];
+  I -> J [thick];
+}

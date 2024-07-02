@@ -1,0 +1,26 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  J [label = "救\nrescue (343)"];
+  B [label = "攵\ntaskmaster (*)"];
+  I [label = "求\nrequest (140)"];
+  F [label = "水\nwater (137)"];
+  D [label = "丨\nwalking stick (*)"];
+  C [label = "一\none (1)"];
+  E [label = "丶\na drop of (*)"];
+  G [label = "丶\na drop of (*)"];
+  H [label = "一\none (1)"];
+
+  B -> J [thick];
+  I -> J [thick];
+  F -> I [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
+  G -> I [thick];
+  H -> I [thick];
+}

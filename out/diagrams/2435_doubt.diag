@@ -1,0 +1,34 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  N [label = "疑\ndoubt (2435)"];
+  B [label = "匕\nancient spoon (453)"];
+  G [label = "疋\nzoo (*)"];
+  F [label = "走minus十\nmending (*)"];
+  E [label = "正\ncorrect (387)"];
+  C [label = "一\none (1)"];
+  D [label = "止\nstop (379)"];
+  L [label = "矢\ndart (998)"];
+  J [label = "天\nheavens (436)"];
+  H [label = "一\none (1)"];
+  I [label = "大\nlarge (113)"];
+  K [label = "丶\na drop of (*)"];
+  M [label = "节minus艹\nchop (*)"];
+
+  B -> N [thick];
+  G -> N [thick];
+  F -> G [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
+  L -> N [thick];
+  J -> L [thick];
+  H -> J [thick];
+  I -> J [thick];
+  K -> L [thick];
+  M -> N [thick];
+}

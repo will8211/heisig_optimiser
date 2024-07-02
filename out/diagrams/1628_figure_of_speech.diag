@@ -1,0 +1,24 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  I [label = "喻\nfigure of speech (1628)"];
+  G [label = "俞\nslaughterhouse (*)"];
+  C [label = "亼\nmeeting (*)"];
+  B [label = "𠆢\numbrella (*)"];
+  F [label = "刖\nbutcher (*)"];
+  D [label = "月\nmonth (13)"];
+  E [label = "刀\nsword (83)"];
+  H [label = "口\nmouth (11)"];
+
+  G -> I [thick];
+  C -> G [thick];
+  B -> C [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
+  H -> I [thick];
+}

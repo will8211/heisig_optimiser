@@ -1,0 +1,34 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  N [label = "题\ntopic (395)"];
+  G [label = "页\npage (60)"];
+  D [label = "贝\nshellfish (52)"];
+  B [label = "目\neye (15)"];
+  C [label = "只minus口\nanimal legs (*)"];
+  E [label = "一\none (1)"];
+  F [label = "丶\na drop of (*)"];
+  M [label = "是\nbe (394)"];
+  K [label = "走minus十\nmending (*)"];
+  J [label = "正\ncorrect (387)"];
+  H [label = "一\none (1)"];
+  I [label = "止\nstop (379)"];
+  L [label = "日\nday (12)"];
+
+  G -> N [thick];
+  D -> G [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> G [thick];
+  F -> G [thick];
+  M -> N [thick];
+  K -> M [thick];
+  J -> K [thick];
+  H -> J [thick];
+  I -> J [thick];
+  L -> M [thick];
+}

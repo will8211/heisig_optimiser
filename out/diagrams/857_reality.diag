@@ -1,0 +1,26 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  J [label = "实\nreality (857)"];
+  B [label = "宀\nhouse (*)"];
+  I [label = "头\nhead (856)"];
+  C [label = "大\nlarge (113)"];
+  H [label = "冫\nice (*)"];
+  G [label = "水\nwater (137)"];
+  E [label = "丨\nwalking stick (*)"];
+  D [label = "一\none (1)"];
+  F [label = "丶\na drop of (*)"];
+
+  B -> J [thick];
+  I -> J [thick];
+  C -> I [thick];
+  H -> I [thick];
+  G -> H [thick];
+  E -> G [thick];
+  D -> E [thick];
+  F -> G [thick];
+}

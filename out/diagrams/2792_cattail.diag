@@ -1,0 +1,30 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  L [label = "蒲\ncattail (2792)"];
+  J [label = "浦\nriver mouth (2791)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  I [label = "甫\nFu (1379)"];
+  F [label = "十\nten (10)"];
+  G [label = "月\nmonth (13)"];
+  H [label = "丶\na drop of (*)"];
+  K [label = "艹\nflower (*)"];
+
+  J -> L [thick];
+  E -> J [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  I -> J [thick];
+  F -> I [thick];
+  G -> I [thick];
+  H -> I [thick];
+  K -> L [thick];
+}

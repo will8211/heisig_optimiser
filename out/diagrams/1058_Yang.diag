@@ -1,0 +1,14 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  D [label = "阳\nYang (1058)"];
+  B [label = "阝\npinnacle (*)"];
+  C [label = "日\nday (12)"];
+
+  B -> D [thick];
+  C -> D [thick];
+}

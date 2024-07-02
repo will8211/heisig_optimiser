@@ -1,0 +1,32 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  M [label = "卖\nsell (859)"];
+  B [label = "十\nten (10)"];
+  L [label = "买\nbuy (858)"];
+  D [label = "乛\nberet (*)"];
+  C [label = "冖\ncrown (*)"];
+  K [label = "头\nhead (856)"];
+  E [label = "大\nlarge (113)"];
+  J [label = "冫\nice (*)"];
+  I [label = "水\nwater (137)"];
+  G [label = "丨\nwalking stick (*)"];
+  F [label = "一\none (1)"];
+  H [label = "丶\na drop of (*)"];
+
+  B -> M [thick];
+  L -> M [thick];
+  D -> L [thick];
+  C -> D [thick];
+  K -> L [thick];
+  E -> K [thick];
+  J -> K [thick];
+  I -> J [thick];
+  G -> I [thick];
+  F -> G [thick];
+  H -> I [thick];
+}

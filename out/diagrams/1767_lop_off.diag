@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "截\nlop off (1767)"];
+  E [label = "载minus车\nThanksgiving (*)"];
+  B [label = "土\nsoil (158)"];
+  D [label = "戈\nhalberd (361)"];
+  C [label = "弋\narrow (*)"];
+  F [label = "隹\nturkey (*)"];
+
+  E -> G [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
+  F -> G [thick];
+}

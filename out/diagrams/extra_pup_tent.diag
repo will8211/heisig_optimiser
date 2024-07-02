@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "尞\npup tent (*)"];
+  B [label = "大\nlarge (113)"];
+  C [label = "癶\nteepee (*)"];
+  D [label = "日\nday (12)"];
+  F [label = "小\nsmall (109)"];
+  E [label = "丶\na drop of (*)"];
+
+  B -> G [thick];
+  C -> G [thick];
+  D -> G [thick];
+  F -> G [thick];
+  E -> F [thick];
+}

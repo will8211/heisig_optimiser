@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "蝠\nbat (1738)"];
+  B [label = "虫\ninsect (509)"];
+  F [label = "畐\nwealth (*)"];
+  C [label = "一\none (1)"];
+  D [label = "口\nmouth (11)"];
+  E [label = "田\nrice field (14)"];
+
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  D -> F [thick];
+  E -> F [thick];
+}

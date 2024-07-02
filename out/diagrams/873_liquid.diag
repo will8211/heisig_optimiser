@@ -1,0 +1,46 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  T [label = "液\nliquid (873)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  S [label = "夜\nnight (872)"];
+  F [label = "亠\ntop hat (*)"];
+  G [label = "人\nperson (793)"];
+  H [label = "夂\nwalking legs (*)"];
+  R [label = "掉\ndrop (607)"];
+  I [label = "扌\nfingers (*)"];
+  Q [label = "卓\neminent (48)"];
+  M [label = "卜\ndivination (43)"];
+  K [label = "丨\nwalking stick (*)"];
+  J [label = "一\none (1)"];
+  L [label = "丶\na drop of (*)"];
+  P [label = "早\nearly (26)"];
+  N [label = "日\nday (12)"];
+  O [label = "十\nten (10)"];
+
+  E -> T [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  S -> T [thick];
+  F -> S [thick];
+  G -> S [thick];
+  H -> S [thick];
+  R -> S [thick];
+  I -> R [thick];
+  Q -> R [thick];
+  M -> Q [thick];
+  K -> M [thick];
+  J -> K [thick];
+  L -> M [thick];
+  P -> Q [thick];
+  N -> P [thick];
+  O -> P [thick];
+}

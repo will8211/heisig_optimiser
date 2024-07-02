@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "慈\nkindhearted (2417)"];
+  E [label = "兹\nMona Lisa (*)"];
+  D [label = "玄\nmysterious (2411)"];
+  B [label = "亠\ntop hat (*)"];
+  C [label = "幺\ncocoon (*)"];
+  F [label = "心\nheart (563)"];
+
+  E -> G [thick];
+  D -> E [thick];
+  B -> D [thick];
+  C -> D [thick];
+  F -> G [thick];
+}

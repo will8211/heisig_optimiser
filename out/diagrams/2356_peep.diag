@@ -1,0 +1,30 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  L [label = "窥\npeep (2356)"];
+  G [label = "规\nregulations (727)"];
+  C [label = "夫\nhusband (726)"];
+  B [label = "大\nlarge (113)"];
+  F [label = "见\nsee (58)"];
+  D [label = "目\neye (15)"];
+  E [label = "儿\nyoungster (56)"];
+  K [label = "穴\nhole (1070)"];
+  H [label = "宀\nhouse (*)"];
+  I [label = "八\neight (8)"];
+  J [label = "只minus口\nanimal legs (*)"];
+
+  G -> L [thick];
+  C -> G [thick];
+  B -> C [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
+  K -> L [thick];
+  H -> K [thick];
+  I -> K [thick];
+  J -> K [thick];
+}

@@ -1,0 +1,26 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  J [label = "蒋\nJiang (2469)"];
+  H [label = "将\nGeneral (244)"];
+  B [label = "兆\nportent (237)"];
+  D [label = "夕\nevening (115)"];
+  C [label = "月\nmonth (13)"];
+  G [label = "寸\nChinese inch (166)"];
+  E [label = "丶\na drop of (*)"];
+  F [label = "十\nten (10)"];
+  I [label = "艹\nflower (*)"];
+
+  H -> J [thick];
+  B -> H [thick];
+  D -> H [thick];
+  C -> D [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
+  I -> J [thick];
+}

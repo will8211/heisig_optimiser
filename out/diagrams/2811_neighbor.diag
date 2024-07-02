@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  H [label = "邻\nneighbor (2811)"];
+  E [label = "令\norders (1113)"];
+  C [label = "亼\nmeeting (*)"];
+  B [label = "𠆢\numbrella (*)"];
+  D [label = "节minus艹\nchop (*)"];
+  G [label = "阝\ncity walls (*)"];
+  F [label = "阝\npinnacle (*)"];
+
+  E -> H [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  G -> H [thick];
+  F -> G [thick];
+}

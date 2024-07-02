@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "往\ntoward (758)"];
+  B [label = "行\nline of business (754)"];
+  F [label = "主\nlord (277)"];
+  C [label = "丶\na drop of (*)"];
+  E [label = "王\nking (265)"];
+  D [label = "工\nwork (76)"];
+
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
+}

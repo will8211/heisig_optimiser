@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  H [label = "冤\ninjustice (2887)"];
+  B [label = "冖\ncrown (*)"];
+  G [label = "兔\nrabbit (1447)"];
+  C [label = "勹\nbound up (*)"];
+  D [label = "口\nmouth (11)"];
+  E [label = "儿\nyoungster (56)"];
+  F [label = "丶\na drop of (*)"];
+
+  B -> H [thick];
+  G -> H [thick];
+  C -> G [thick];
+  D -> G [thick];
+  E -> G [thick];
+  F -> G [thick];
+}

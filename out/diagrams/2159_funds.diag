@@ -1,0 +1,16 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  E [label = "款\nfunds (2159)"];
+  B [label = "士\nsoldier (334)"];
+  C [label = "示\nshow (900)"];
+  D [label = "欠\nlack (474)"];
+
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
+}

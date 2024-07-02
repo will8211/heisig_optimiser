@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "陆\nland (1235)"];
+  B [label = "阝\npinnacle (*)"];
+  F [label = "击\nbeat (1234)"];
+  D [label = "奉minus𡗗\ncornstalk (*)"];
+  C [label = "丰\nplentiful (1223)"];
+  E [label = "山\nmountain (688)"];
+
+  B -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
+}

@@ -1,0 +1,16 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  E [label = "辽\nfar away (1620)"];
+  C [label = "了\n-ed (101)"];
+  B [label = "子\nchild (97)"];
+  D [label = "辶\nroad (*)"];
+
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+}

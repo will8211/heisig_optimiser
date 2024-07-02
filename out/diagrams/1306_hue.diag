@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "彩\nhue (1306)"];
+  E [label = "采\npick (665)"];
+  C [label = "爪\nclaw (663)"];
+  B [label = "𠂆\ndrag (*)"];
+  D [label = "木\ntree (202)"];
+  F [label = "彡\nrooster tail (*)"];
+
+  E -> G [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  F -> G [thick];
+}

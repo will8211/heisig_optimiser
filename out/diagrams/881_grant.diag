@@ -1,0 +1,26 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  J [label = "赐\ngrant (881)"];
+  D [label = "贝\nshellfish (52)"];
+  B [label = "目\neye (15)"];
+  C [label = "只minus口\nanimal legs (*)"];
+  I [label = "易\neasy (880)"];
+  E [label = "日\nday (12)"];
+  H [label = "勿\nnot (877)"];
+  G [label = "𠃓\npiglets (*)"];
+  F [label = "豕\nsow (*)"];
+
+  D -> J [thick];
+  B -> D [thick];
+  C -> D [thick];
+  I -> J [thick];
+  E -> I [thick];
+  H -> I [thick];
+  G -> H [thick];
+  F -> G [thick];
+}

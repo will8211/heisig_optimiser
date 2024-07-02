@@ -1,0 +1,18 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  F [label = "芳\naromatic (1729)"];
+  D [label = "方\ndirection (494)"];
+  B [label = "刀\nsword (83)"];
+  C [label = "亠\ntop hat (*)"];
+  E [label = "艹\nflower (*)"];
+
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
+}

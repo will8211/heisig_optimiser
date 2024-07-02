@@ -1,0 +1,24 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  I [label = "擦\nscrub (912)"];
+  B [label = "扌\nfingers (*)"];
+  H [label = "察\nscrutinize (911)"];
+  C [label = "宀\nhouse (*)"];
+  G [label = "祭\noffer sacrifice (910)"];
+  D [label = "月\nmonth (13)"];
+  E [label = "又\nagain (633)"];
+  F [label = "示\nshow (900)"];
+
+  B -> I [thick];
+  H -> I [thick];
+  C -> H [thick];
+  G -> H [thick];
+  D -> G [thick];
+  E -> G [thick];
+  F -> G [thick];
+}

@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "庙\ntemple (2171)"];
+  D [label = "广\nextensive (556)"];
+  B [label = "厂\nfactory (121)"];
+  C [label = "宀\nhouse (*)"];
+  F [label = "由\nwherefore (913)"];
+  E [label = "田\nrice field (14)"];
+
+  D -> G [thick];
+  B -> D [thick];
+  C -> D [thick];
+  F -> G [thick];
+  E -> F [thick];
+}

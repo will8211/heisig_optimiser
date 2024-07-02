@@ -1,0 +1,38 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  P [label = "澄\ntransparent (2695)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  O [label = "登\nstepladder (*)"];
+  N [label = "登\nascend (1301)"];
+  L [label = "桌\ntable (224)"];
+  F [label = "木\ntree (202)"];
+  G [label = "日\nday (12)"];
+  K [label = "卜\ndivination (43)"];
+  I [label = "丨\nwalking stick (*)"];
+  H [label = "一\none (1)"];
+  J [label = "丶\na drop of (*)"];
+  M [label = "癶\nteepee (*)"];
+
+  E -> P [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  O -> P [thick];
+  N -> O [thick];
+  L -> N [thick];
+  F -> L [thick];
+  G -> L [thick];
+  K -> L [thick];
+  I -> K [thick];
+  H -> I [thick];
+  J -> K [thick];
+  M -> N [thick];
+}

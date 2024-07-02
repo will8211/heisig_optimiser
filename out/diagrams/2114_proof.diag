@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "凭\nproof (2114)"];
+  E [label = "任\nappoint (853)"];
+  B [label = "人\nperson (793)"];
+  D [label = "壬\nporter (*)"];
+  C [label = "士\nsoldier (334)"];
+  F [label = "几\nhow many? (57)"];
+
+  E -> G [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
+  F -> G [thick];
+}

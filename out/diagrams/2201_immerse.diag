@@ -1,0 +1,26 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  J [label = "浸\nimmerse (2201)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  I [label = "浸minus氵\ndunce (*)"];
+  F [label = "彐\nbroom (*)"];
+  G [label = "冖\ncrown (*)"];
+  H [label = "又\nagain (633)"];
+
+  E -> J [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  I -> J [thick];
+  F -> I [thick];
+  G -> I [thick];
+  H -> I [thick];
+}

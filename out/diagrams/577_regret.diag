@@ -1,0 +1,30 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  L [label = "憾\nregret (577)"];
+  B [label = "心\nheart (563)"];
+  K [label = "感\nfeel (576)"];
+  I [label = "咸\nsalty (372)"];
+  C [label = "口\nmouth (11)"];
+  H [label = "戌\nmarch (*)"];
+  F [label = "戊\nparade (*)"];
+  E [label = "戈\nhalberd (361)"];
+  D [label = "弋\narrow (*)"];
+  G [label = "一\none (1)"];
+  J [label = "心\nheart (563)"];
+
+  B -> L [thick];
+  K -> L [thick];
+  I -> K [thick];
+  C -> I [thick];
+  H -> I [thick];
+  F -> H [thick];
+  E -> F [thick];
+  D -> E [thick];
+  G -> H [thick];
+  J -> K [thick];
+}

@@ -1,0 +1,36 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  O [label = "监\nsupervise (1139)"];
+  B [label = "坚minus圣\nfencing foil (*)"];
+  C [label = "𠂉\nreclining (*)"];
+  M [label = "掉\ndrop (607)"];
+  D [label = "扌\nfingers (*)"];
+  L [label = "卓\neminent (48)"];
+  H [label = "卜\ndivination (43)"];
+  F [label = "丨\nwalking stick (*)"];
+  E [label = "一\none (1)"];
+  G [label = "丶\na drop of (*)"];
+  K [label = "早\nearly (26)"];
+  I [label = "日\nday (12)"];
+  J [label = "十\nten (10)"];
+  N [label = "皿\ndish (*)"];
+
+  B -> O [thick];
+  C -> O [thick];
+  M -> O [thick];
+  D -> M [thick];
+  L -> M [thick];
+  H -> L [thick];
+  F -> H [thick];
+  E -> F [thick];
+  G -> H [thick];
+  K -> L [thick];
+  I -> K [thick];
+  J -> K [thick];
+  N -> O [thick];
+}

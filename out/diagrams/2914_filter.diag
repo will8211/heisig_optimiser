@@ -1,0 +1,46 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  T [label = "滤\nfilter (2914)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  S [label = "虑\nponder (1460)"];
+  Q [label = "虎\ntiger (1459)"];
+  I [label = "卜\ndivination (43)"];
+  G [label = "丨\nwalking stick (*)"];
+  F [label = "一\none (1)"];
+  H [label = "丶\na drop of (*)"];
+  J [label = "七\nseven (7)"];
+  K [label = "几\nhow many? (57)"];
+  P [label = "疋\nzoo (*)"];
+  O [label = "走minus十\nmending (*)"];
+  N [label = "正\ncorrect (387)"];
+  L [label = "一\none (1)"];
+  M [label = "止\nstop (379)"];
+  R [label = "心\nheart (563)"];
+
+  E -> T [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  S -> T [thick];
+  Q -> S [thick];
+  I -> Q [thick];
+  G -> I [thick];
+  F -> G [thick];
+  H -> I [thick];
+  J -> Q [thick];
+  K -> Q [thick];
+  P -> Q [thick];
+  O -> P [thick];
+  N -> O [thick];
+  L -> N [thick];
+  M -> N [thick];
+  R -> S [thick];
+}

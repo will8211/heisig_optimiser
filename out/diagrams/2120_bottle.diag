@@ -1,0 +1,32 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  M [label = "瓶\nbottle (2120)"];
+  G [label = "并\ncombine (863)"];
+  C [label = "丷\nhorns (*)"];
+  B [label = "一\none (1)"];
+  F [label = "开\nopen (613)"];
+  E [label = "二\ntwo (2)"];
+  D [label = "一\none (1)"];
+  L [label = "瓦\ntile (2117)"];
+  H [label = "一\none (1)"];
+  I [label = "以minus丶人\nplow (*)"];
+  J [label = "乙\nsecond (95)"];
+  K [label = "丶\na drop of (*)"];
+
+  G -> M [thick];
+  C -> G [thick];
+  B -> C [thick];
+  F -> G [thick];
+  E -> F [thick];
+  D -> E [thick];
+  L -> M [thick];
+  H -> L [thick];
+  I -> L [thick];
+  J -> L [thick];
+  K -> L [thick];
+}

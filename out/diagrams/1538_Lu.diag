@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "鲁\nLu (1538)"];
+  E [label = "鱼\nfish (154)"];
+  B [label = "勹\nbound up (*)"];
+  C [label = "田\nrice field (14)"];
+  D [label = "一\none (1)"];
+  F [label = "日\nday (12)"];
+
+  E -> G [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
+  F -> G [thick];
+}

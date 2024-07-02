@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  H [label = "振\nvibrate (2921)"];
+  B [label = "扌\nfingers (*)"];
+  G [label = "辰\nsign of the dragon (1467)"];
+  C [label = "厂\nfactory (121)"];
+  E [label = "二\ntwo (2)"];
+  D [label = "一\none (1)"];
+  F [label = "丧minus十minus丷\nbarrette (*)"];
+
+  B -> H [thick];
+  G -> H [thick];
+  C -> G [thick];
+  E -> G [thick];
+  D -> E [thick];
+  F -> G [thick];
+}

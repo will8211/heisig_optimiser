@@ -1,0 +1,32 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  M [label = "废\ndiscard (1303)"];
+  D [label = "广\nextensive (556)"];
+  B [label = "厂\nfactory (121)"];
+  C [label = "宀\nhouse (*)"];
+  L [label = "发\nsend out (1302)"];
+  H [label = "友\nfriend (635)"];
+  F [label = "𠂇\nby one’s side (*)"];
+  E [label = "十\nten (10)"];
+  G [label = "又\nagain (633)"];
+  K [label = "犬\npooch (239)"];
+  I [label = "大\nlarge (113)"];
+  J [label = "丶\na drop of (*)"];
+
+  D -> M [thick];
+  B -> D [thick];
+  C -> D [thick];
+  L -> M [thick];
+  H -> L [thick];
+  F -> H [thick];
+  E -> F [thick];
+  G -> H [thick];
+  K -> L [thick];
+  I -> K [thick];
+  J -> K [thick];
+}

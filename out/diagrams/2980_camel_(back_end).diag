@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "驼\ncamel (back end) (2980)"];
+  C [label = "马\nhorse (1453)"];
+  B [label = "与minus丨一\npointed tail (*)"];
+  F [label = "它\nit (462)"];
+  D [label = "宀\nhouse (*)"];
+  E [label = "匕\nancient spoon (453)"];
+
+  C -> G [thick];
+  B -> C [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
+}

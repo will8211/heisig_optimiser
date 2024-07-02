@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "烘\nwarm by a fire (2764)"];
+  B [label = "火\nfire (170)"];
+  F [label = "共\ntogether (1354)"];
+  D [label = "昔minus日\nsalad (*)"];
+  C [label = "艹\nflower (*)"];
+  E [label = "只minus口\nanimal legs (*)"];
+
+  B -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
+}

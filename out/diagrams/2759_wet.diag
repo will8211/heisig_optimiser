@@ -1,0 +1,24 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  I [label = "湿\nwet (2759)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  F [label = "日\nday (12)"];
+  H [label = "业\nprofession (1349)"];
+  G [label = "並\nside by side (*)"];
+
+  E -> I [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  F -> I [thick];
+  H -> I [thick];
+  G -> H [thick];
+}

@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  H [label = "燕\nswallow (2244)"];
+  C [label = "廿\ntwenty (976)"];
+  B [label = "十\nten (10)"];
+  D [label = "口\nmouth (11)"];
+  F [label = "北\nnorth (454)"];
+  E [label = "匕\nancient spoon (453)"];
+  G [label = "火\nfire (170)"];
+
+  C -> H [thick];
+  B -> C [thick];
+  D -> H [thick];
+  F -> H [thick];
+  E -> F [thick];
+  G -> H [thick];
+}

@@ -1,0 +1,16 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  E [label = "纬\nlatitude (2595)"];
+  C [label = "纟\nthread (*)"];
+  B [label = "厶\nelbow (*)"];
+  D [label = "韦\ntanned hide (1227)"];
+
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+}

@@ -1,0 +1,30 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  L [label = "繁\nnumerous (2421)"];
+  G [label = "敏\nquick-witted (1713)"];
+  E [label = "每\nevery (467)"];
+  B [label = "𠂉\nreclining (*)"];
+  D [label = "母\nmother (105)"];
+  C [label = "女\nwoman (102)"];
+  F [label = "攵\ntaskmaster (*)"];
+  K [label = "糸\nfloss (*)"];
+  H [label = "幺\ncocoon (*)"];
+  J [label = "小\nsmall (109)"];
+  I [label = "丶\na drop of (*)"];
+
+  G -> L [thick];
+  E -> G [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
+  F -> G [thick];
+  K -> L [thick];
+  H -> K [thick];
+  J -> K [thick];
+  I -> J [thick];
+}

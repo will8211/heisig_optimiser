@@ -1,0 +1,24 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  I [label = "褐\nbrown (2109)"];
+  C [label = "衣\nclothing (400)"];
+  B [label = "亠\ntop hat (*)"];
+  H [label = "曷\nsiesta (*)"];
+  D [label = "人\nperson (793)"];
+  E [label = "勹\nbound up (*)"];
+  F [label = "乙\nsecond (95)"];
+  G [label = "日\nday (12)"];
+
+  C -> I [thick];
+  B -> C [thick];
+  H -> I [thick];
+  D -> H [thick];
+  E -> H [thick];
+  F -> H [thick];
+  G -> H [thick];
+}

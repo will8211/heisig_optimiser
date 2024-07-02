@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  H [label = "腥\nfishy smell (2572)"];
+  B [label = "月\nmonth (13)"];
+  G [label = "星\nstar (1219)"];
+  C [label = "日\nday (12)"];
+  F [label = "生\nlife (1218)"];
+  D [label = "丶\na drop of (*)"];
+  E [label = "毒minus母\ngrow up (*)"];
+
+  B -> H [thick];
+  G -> H [thick];
+  C -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
+}

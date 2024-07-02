@@ -1,0 +1,26 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  J [label = "波\nwaves (708)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  I [label = "皮\ncovering (707)"];
+  H [label = "支\noffshoot (650)"];
+  F [label = "十\nten (10)"];
+  G [label = "又\nagain (633)"];
+
+  E -> J [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  I -> J [thick];
+  H -> I [thick];
+  F -> H [thick];
+  G -> H [thick];
+}

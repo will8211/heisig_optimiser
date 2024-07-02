@@ -1,0 +1,42 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  R [label = "疼\nhurt (2661)"];
+  J [label = "疒\nsickness (*)"];
+  D [label = "广\nextensive (556)"];
+  B [label = "厂\nfactory (121)"];
+  C [label = "宀\nhouse (*)"];
+  I [label = "冫\nice (*)"];
+  H [label = "水\nwater (137)"];
+  F [label = "丨\nwalking stick (*)"];
+  E [label = "一\none (1)"];
+  G [label = "丶\na drop of (*)"];
+  Q [label = "冬\nwinter (435)"];
+  K [label = "夂\nwalking legs (*)"];
+  P [label = "冫\nice (*)"];
+  O [label = "水\nwater (137)"];
+  M [label = "丨\nwalking stick (*)"];
+  L [label = "一\none (1)"];
+  N [label = "丶\na drop of (*)"];
+
+  J -> R [thick];
+  D -> J [thick];
+  B -> D [thick];
+  C -> D [thick];
+  I -> J [thick];
+  H -> I [thick];
+  F -> H [thick];
+  E -> F [thick];
+  G -> H [thick];
+  Q -> R [thick];
+  K -> Q [thick];
+  P -> Q [thick];
+  O -> P [thick];
+  M -> O [thick];
+  L -> M [thick];
+  N -> O [thick];
+}

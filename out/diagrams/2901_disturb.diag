@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  H [label = "骚\ndisturb (2901)"];
+  B [label = "虫\ninsect (509)"];
+  D [label = "马\nhorse (1453)"];
+  C [label = "与minus丨一\npointed tail (*)"];
+  G [label = "叉\nfork (1883)"];
+  E [label = "又\nagain (633)"];
+  F [label = "丶\na drop of (*)"];
+
+  B -> H [thick];
+  D -> H [thick];
+  C -> D [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
+}

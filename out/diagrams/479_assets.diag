@@ -1,0 +1,30 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  L [label = "资\nassets (479)"];
+  D [label = "贝\nshellfish (52)"];
+  B [label = "目\neye (15)"];
+  C [label = "只minus口\nanimal legs (*)"];
+  K [label = "次\nnext (478)"];
+  E [label = "欠\nlack (474)"];
+  J [label = "冫\nice (*)"];
+  I [label = "水\nwater (137)"];
+  G [label = "丨\nwalking stick (*)"];
+  F [label = "一\none (1)"];
+  H [label = "丶\na drop of (*)"];
+
+  D -> L [thick];
+  B -> D [thick];
+  C -> D [thick];
+  K -> L [thick];
+  E -> K [thick];
+  J -> K [thick];
+  I -> J [thick];
+  G -> I [thick];
+  F -> G [thick];
+  H -> I [thick];
+}

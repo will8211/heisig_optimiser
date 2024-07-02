@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  H [label = "隧\ntunnel (2343)"];
+  B [label = "阝\npinnacle (*)"];
+  G [label = "遂\nsatisfy (1752)"];
+  D [label = "丷\nhorns (*)"];
+  C [label = "一\none (1)"];
+  E [label = "豕\nsow (*)"];
+  F [label = "辶\nroad (*)"];
+
+  B -> H [thick];
+  G -> H [thick];
+  D -> G [thick];
+  C -> D [thick];
+  E -> G [thick];
+  F -> G [thick];
+}

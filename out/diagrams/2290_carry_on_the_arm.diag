@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "挎\ncarry on the arm (2290)"];
+  B [label = "扌\nfingers (*)"];
+  F [label = "夸\nbrag (2288)"];
+  C [label = "大\nlarge (113)"];
+  E [label = "亏\nloss (2286)"];
+  D [label = "丂\nsnare (*)"];
+
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
+}

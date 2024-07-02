@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  H [label = "搜\nsearch (2966)"];
+  B [label = "扌\nfingers (*)"];
+  G [label = "叟\ncake mixer (*)"];
+  C [label = "臼\nmortar (*)"];
+  D [label = "又\nagain (633)"];
+  F [label = "丨\nwalking stick (*)"];
+  E [label = "一\none (1)"];
+
+  B -> H [thick];
+  G -> H [thick];
+  C -> G [thick];
+  D -> G [thick];
+  F -> G [thick];
+  E -> F [thick];
+}

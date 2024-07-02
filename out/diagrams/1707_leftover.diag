@@ -1,0 +1,28 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  K [label = "剩\nleftover (1707)"];
+  I [label = "乘\nhitch a ride (1706)"];
+  G [label = "乖\nwell-behaved (1705)"];
+  D [label = "千\nthousand (39)"];
+  B [label = "丶\na drop of (*)"];
+  C [label = "十\nten (10)"];
+  F [label = "北\nnorth (454)"];
+  E [label = "匕\nancient spoon (453)"];
+  H [label = "𠆢\numbrella (*)"];
+  J [label = "刀\nsword (83)"];
+
+  I -> K [thick];
+  G -> I [thick];
+  D -> G [thick];
+  B -> D [thick];
+  C -> D [thick];
+  F -> G [thick];
+  E -> F [thick];
+  H -> I [thick];
+  J -> K [thick];
+}

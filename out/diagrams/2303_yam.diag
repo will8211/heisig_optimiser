@@ -1,0 +1,30 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  L [label = "薯\nyam (2303)"];
+  B [label = "艹\nflower (*)"];
+  K [label = "署\nadd your John Hancock (2302)"];
+  C [label = "目\neye (15)"];
+  J [label = "者\nsomeone (1037)"];
+  H [label = "老\nold man (1029)"];
+  D [label = "土\nsoil (158)"];
+  F [label = "丨\nwalking stick (*)"];
+  E [label = "一\none (1)"];
+  G [label = "匕\nancient spoon (453)"];
+  I [label = "日\nday (12)"];
+
+  B -> L [thick];
+  K -> L [thick];
+  C -> K [thick];
+  J -> K [thick];
+  H -> J [thick];
+  D -> H [thick];
+  F -> H [thick];
+  E -> F [thick];
+  G -> H [thick];
+  I -> J [thick];
+}

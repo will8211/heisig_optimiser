@@ -1,0 +1,24 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  I [label = "螺\nspiral shell (2419)"];
+  B [label = "虫\ninsect (509)"];
+  H [label = "累\ntired (2418)"];
+  C [label = "田\nrice field (14)"];
+  G [label = "糸\nfloss (*)"];
+  D [label = "幺\ncocoon (*)"];
+  F [label = "小\nsmall (109)"];
+  E [label = "丶\na drop of (*)"];
+
+  B -> I [thick];
+  H -> I [thick];
+  C -> H [thick];
+  G -> H [thick];
+  D -> G [thick];
+  F -> G [thick];
+  E -> F [thick];
+}

@@ -1,0 +1,26 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  J [label = "贺\ncongratulate (750)"];
+  F [label = "加\nadd (749)"];
+  D [label = "肌\nmuscle (63)"];
+  B [label = "几\nhow many? (57)"];
+  C [label = "月\nmonth (13)"];
+  E [label = "口\nmouth (11)"];
+  I [label = "贝\nshellfish (52)"];
+  G [label = "目\neye (15)"];
+  H [label = "只minus口\nanimal legs (*)"];
+
+  F -> J [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
+  I -> J [thick];
+  G -> I [thick];
+  H -> I [thick];
+}

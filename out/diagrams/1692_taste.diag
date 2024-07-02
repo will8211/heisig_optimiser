@@ -1,0 +1,18 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  F [label = "尝\ntaste (1692)"];
+  C [label = "小\nsmall (109)"];
+  B [label = "丶\na drop of (*)"];
+  D [label = "冖\ncrown (*)"];
+  E [label = "云\ncloud (428)"];
+
+  C -> F [thick];
+  B -> C [thick];
+  D -> F [thick];
+  E -> F [thick];
+}

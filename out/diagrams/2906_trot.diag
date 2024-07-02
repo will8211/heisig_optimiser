@@ -1,0 +1,24 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  I [label = "骤\ntrot (2906)"];
+  C [label = "马\nhorse (1453)"];
+  B [label = "与minus丨一\npointed tail (*)"];
+  H [label = "聚\nassemble (2098)"];
+  F [label = "取\ntake (718)"];
+  D [label = "耳\near (717)"];
+  E [label = "又\nagain (633)"];
+  G [label = "人\nperson (793)"];
+
+  C -> I [thick];
+  B -> C [thick];
+  H -> I [thick];
+  F -> H [thick];
+  D -> F [thick];
+  E -> F [thick];
+  G -> H [thick];
+}

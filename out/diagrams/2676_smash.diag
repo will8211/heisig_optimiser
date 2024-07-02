@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "砸\nsmash (2676)"];
+  D [label = "石\nstone (125)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "厂\nfactory (121)"];
+  E [label = "匚\nbox (*)"];
+  F [label = "巾\ntowel (410)"];
+
+  D -> G [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> G [thick];
+  F -> G [thick];
+}

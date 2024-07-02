@@ -1,0 +1,18 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  F [label = "恕\npardon (1791)"];
+  D [label = "如\nbe like (104)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "女\nwoman (102)"];
+  E [label = "心\nheart (563)"];
+
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
+}

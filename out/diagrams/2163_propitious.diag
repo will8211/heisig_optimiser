@@ -1,0 +1,18 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  F [label = "祥\npropitious (2163)"];
+  B [label = "示\nshow (900)"];
+  E [label = "羊\nsheep (528)"];
+  D [label = "丷\nhorns (*)"];
+  C [label = "一\none (1)"];
+
+  B -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
+  C -> D [thick];
+}

@@ -1,0 +1,14 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  D [label = "判\njudge (983)"];
+  B [label = "半\nhalf (980)"];
+  C [label = "刀\nsword (83)"];
+
+  B -> D [thick];
+  C -> D [thick];
+}

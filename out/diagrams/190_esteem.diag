@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "尚\nesteem (190)"];
+  C [label = "小\nsmall (109)"];
+  B [label = "丶\na drop of (*)"];
+  E [label = "冂\nhood (*)"];
+  D [label = "几\nhow many? (57)"];
+  F [label = "口\nmouth (11)"];
+
+  C -> G [thick];
+  B -> C [thick];
+  E -> G [thick];
+  D -> E [thick];
+  F -> G [thick];
+}

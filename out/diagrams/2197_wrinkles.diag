@@ -1,0 +1,24 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  I [label = "皱\nwrinkles (2197)"];
+  D [label = "刍\nhairnet (*)"];
+  B [label = "勹\nbound up (*)"];
+  C [label = "彐\nbroom (*)"];
+  H [label = "皮\ncovering (707)"];
+  G [label = "支\noffshoot (650)"];
+  E [label = "十\nten (10)"];
+  F [label = "又\nagain (633)"];
+
+  D -> I [thick];
+  B -> D [thick];
+  C -> D [thick];
+  H -> I [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
+}

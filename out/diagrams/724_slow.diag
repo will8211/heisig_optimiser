@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "慢\nslow (724)"];
+  B [label = "心\nheart (563)"];
+  F [label = "曼\ndrawn out (723)"];
+  C [label = "日\nday (12)"];
+  D [label = "目\neye (15)"];
+  E [label = "又\nagain (633)"];
+
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  D -> F [thick];
+  E -> F [thick];
+}

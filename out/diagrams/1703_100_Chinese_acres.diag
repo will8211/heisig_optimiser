@@ -1,0 +1,24 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  I [label = "顷\n100 Chinese acres (1703)"];
+  B [label = "七\nseven (7)"];
+  H [label = "页\npage (60)"];
+  E [label = "贝\nshellfish (52)"];
+  C [label = "目\neye (15)"];
+  D [label = "只minus口\nanimal legs (*)"];
+  F [label = "一\none (1)"];
+  G [label = "丶\na drop of (*)"];
+
+  B -> I [thick];
+  H -> I [thick];
+  E -> H [thick];
+  C -> E [thick];
+  D -> E [thick];
+  F -> H [thick];
+  G -> H [thick];
+}

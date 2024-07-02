@@ -1,0 +1,32 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  M [label = "熏\ntreat with smoke (1553)"];
+  D [label = "千\nthousand (39)"];
+  B [label = "丶\na drop of (*)"];
+  C [label = "十\nten (10)"];
+  L [label = "黑\nblack (182)"];
+  G [label = "里\nli (179)"];
+  E [label = "田\nrice field (14)"];
+  F [label = "土\nsoil (158)"];
+  H [label = "田\nrice field (14)"];
+  J [label = "丷\nhorns (*)"];
+  I [label = "一\none (1)"];
+  K [label = "火\nfire (170)"];
+
+  D -> M [thick];
+  B -> D [thick];
+  C -> D [thick];
+  L -> M [thick];
+  G -> L [thick];
+  E -> G [thick];
+  F -> G [thick];
+  H -> L [thick];
+  J -> L [thick];
+  I -> J [thick];
+  K -> L [thick];
+}

@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "菱\nwater caltrop (2349)"];
+  B [label = "艹\nflower (*)"];
+  F [label = "夌\nMinuteclods (*)"];
+  C [label = "土\nsoil (158)"];
+  D [label = "只minus口\nanimal legs (*)"];
+  E [label = "夂\nwalking legs (*)"];
+
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  D -> F [thick];
+  E -> F [thick];
+}

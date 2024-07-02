@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "侵\ninvade (2203)"];
+  B [label = "人\nperson (793)"];
+  F [label = "浸minus氵\ndunce (*)"];
+  C [label = "彐\nbroom (*)"];
+  D [label = "冖\ncrown (*)"];
+  E [label = "又\nagain (633)"];
+
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  D -> F [thick];
+  E -> F [thick];
+}

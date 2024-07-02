@@ -1,0 +1,30 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  L [label = "矫\nrectify (2256)"];
+  F [label = "矢\ndart (998)"];
+  D [label = "天\nheavens (436)"];
+  B [label = "一\none (1)"];
+  C [label = "大\nlarge (113)"];
+  E [label = "丶\na drop of (*)"];
+  K [label = "乔\npretend (441)"];
+  G [label = "介minus𠆢\ncrutches (*)"];
+  J [label = "夭\ndie young (440)"];
+  H [label = "大\nlarge (113)"];
+  I [label = "丶\na drop of (*)"];
+
+  F -> L [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
+  K -> L [thick];
+  G -> K [thick];
+  J -> K [thick];
+  H -> J [thick];
+  I -> J [thick];
+}

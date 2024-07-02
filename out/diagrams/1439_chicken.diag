@@ -1,0 +1,28 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  K [label = "鸡\nchicken (1439)"];
+  B [label = "又\nagain (633)"];
+  J [label = "鸟\nbird (1438)"];
+  G [label = "向\norientation (188)"];
+  C [label = "丶\na drop of (*)"];
+  E [label = "冂\nhood (*)"];
+  D [label = "几\nhow many? (57)"];
+  F [label = "口\nmouth (11)"];
+  H [label = "丶\na drop of (*)"];
+  I [label = "与minus丨一\npointed tail (*)"];
+
+  B -> K [thick];
+  J -> K [thick];
+  G -> J [thick];
+  C -> G [thick];
+  E -> G [thick];
+  D -> E [thick];
+  F -> G [thick];
+  H -> J [thick];
+  I -> J [thick];
+}

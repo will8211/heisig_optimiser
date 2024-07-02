@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  H [label = "蝴\nbutterfly (front end) (2975)"];
+  B [label = "虫\ninsect (509)"];
+  G [label = "胡\nrecklessly (17)"];
+  C [label = "月\nmonth (13)"];
+  F [label = "古\nancient (16)"];
+  D [label = "十\nten (10)"];
+  E [label = "口\nmouth (11)"];
+
+  B -> H [thick];
+  G -> H [thick];
+  C -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
+}

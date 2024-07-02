@@ -1,0 +1,16 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  E [label = "受minus又\nbirdhouse (*)"];
+  C [label = "爪\nclaw (663)"];
+  B [label = "𠂆\ndrag (*)"];
+  D [label = "宀\nhouse (*)"];
+
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+}

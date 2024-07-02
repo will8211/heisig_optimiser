@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "挺\nerect (2115)"];
+  B [label = "扌\nfingers (*)"];
+  F [label = "廷\nroyal court (854)"];
+  D [label = "壬\nporter (*)"];
+  C [label = "士\nsoldier (334)"];
+  E [label = "廴\nstretch (*)"];
+
+  B -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
+}

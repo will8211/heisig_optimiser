@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "袁\nYuan (404)"];
+  D [label = "周minus冂\nlidded crock (*)"];
+  B [label = "土\nsoil (158)"];
+  C [label = "口\nmouth (11)"];
+  F [label = "衣\nclothing (400)"];
+  E [label = "亠\ntop hat (*)"];
+
+  D -> G [thick];
+  B -> D [thick];
+  C -> D [thick];
+  F -> G [thick];
+  E -> F [thick];
+}

@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "昼\ndaylight (2151)"];
+  C [label = "尺\nruler (894)"];
+  B [label = "尸\ncorpse (882)"];
+  F [label = "旦\ndaybreak (30)"];
+  D [label = "日\nday (12)"];
+  E [label = "一\none (1)"];
+
+  C -> G [thick];
+  B -> C [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
+}

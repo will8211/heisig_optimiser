@@ -1,0 +1,28 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  K [label = "暴\nviolent (2772)"];
+  B [label = "日\nday (12)"];
+  F [label = "共\ntogether (1354)"];
+  D [label = "昔minus日\nsalad (*)"];
+  C [label = "艹\nflower (*)"];
+  E [label = "只minus口\nanimal legs (*)"];
+  J [label = "水\nwater (137)"];
+  H [label = "丨\nwalking stick (*)"];
+  G [label = "一\none (1)"];
+  I [label = "丶\na drop of (*)"];
+
+  B -> K [thick];
+  F -> K [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
+  J -> K [thick];
+  H -> J [thick];
+  G -> H [thick];
+  I -> J [thick];
+}

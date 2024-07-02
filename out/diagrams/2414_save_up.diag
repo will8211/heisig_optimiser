@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  H [label = "蓄\nsave up (2414)"];
+  B [label = "艹\nflower (*)"];
+  G [label = "畜\nlivestock (2413)"];
+  E [label = "玄\nmysterious (2411)"];
+  C [label = "亠\ntop hat (*)"];
+  D [label = "幺\ncocoon (*)"];
+  F [label = "田\nrice field (14)"];
+
+  B -> H [thick];
+  G -> H [thick];
+  E -> G [thick];
+  C -> E [thick];
+  D -> E [thick];
+  F -> G [thick];
+}

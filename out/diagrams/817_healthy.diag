@@ -1,0 +1,18 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  F [label = "健\nhealthy (817)"];
+  B [label = "人\nperson (793)"];
+  E [label = "建\nbuild (398)"];
+  C [label = "聿\nbrush (*)"];
+  D [label = "廴\nstretch (*)"];
+
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
+}

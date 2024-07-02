@@ -1,0 +1,38 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  P [label = "镰\nsickle (2221)"];
+  F [label = "金\ngold (279)"];
+  B [label = "𠆢\numbrella (*)"];
+  D [label = "王\nking (265)"];
+  C [label = "工\nwork (76)"];
+  E [label = "丶\na drop of (*)"];
+  O [label = "廉\ninexpensive (2220)"];
+  I [label = "广\nextensive (556)"];
+  G [label = "厂\nfactory (121)"];
+  H [label = "宀\nhouse (*)"];
+  N [label = "兼\ndouble (2215)"];
+  K [label = "丷\nhorns (*)"];
+  J [label = "一\none (1)"];
+  M [label = "肀\nrake (*)"];
+  L [label = "彐\nbroom (*)"];
+
+  F -> P [thick];
+  B -> F [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
+  O -> P [thick];
+  I -> O [thick];
+  G -> I [thick];
+  H -> I [thick];
+  N -> O [thick];
+  K -> N [thick];
+  J -> K [thick];
+  M -> N [thick];
+  L -> M [thick];
+}

@@ -1,0 +1,30 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  L [label = "蹲\nsquat (2479)"];
+  D [label = "足\nlower leg (1048)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "止\nstop (379)"];
+  H [label = "酋\nchieftain (1128)"];
+  F [label = "丷\nhorns (*)"];
+  E [label = "一\none (1)"];
+  G [label = "酉\nwhiskey bottle (*)"];
+  K [label = "寸\nChinese inch (166)"];
+  I [label = "丶\na drop of (*)"];
+  J [label = "十\nten (10)"];
+
+  D -> L [thick];
+  B -> D [thick];
+  C -> D [thick];
+  H -> L [thick];
+  F -> H [thick];
+  E -> F [thick];
+  G -> H [thick];
+  K -> L [thick];
+  I -> K [thick];
+  J -> K [thick];
+}

@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "霉\nmildew (1714)"];
+  B [label = "雨\nrain (425)"];
+  F [label = "每\nevery (467)"];
+  C [label = "𠂉\nreclining (*)"];
+  E [label = "母\nmother (105)"];
+  D [label = "女\nwoman (102)"];
+
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
+}

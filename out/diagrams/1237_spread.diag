@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "传\nspread (1237)"];
+  B [label = "人\nperson (793)"];
+  F [label = "专\nspecialty (1236)"];
+  D [label = "奉minus𡗗\ncornstalk (*)"];
+  C [label = "丰\nplentiful (1223)"];
+  E [label = "节minus艹\nchop (*)"];
+
+  B -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
+}

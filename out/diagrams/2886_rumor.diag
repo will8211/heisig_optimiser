@@ -1,0 +1,32 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  M [label = "谣\nrumor (2886)"];
+  F [label = "言\nsay (346)"];
+  C [label = "二\ntwo (2)"];
+  B [label = "一\none (1)"];
+  D [label = "口\nmouth (11)"];
+  E [label = "亠\ntop hat (*)"];
+  L [label = "䍃\ncan opener (*)"];
+  H [label = "爪\nclaw (663)"];
+  G [label = "𠂆\ndrag (*)"];
+  K [label = "缶\ntin can (*)"];
+  I [label = "午\nnoon (542)"];
+  J [label = "山\nmountain (688)"];
+
+  F -> M [thick];
+  C -> F [thick];
+  B -> C [thick];
+  D -> F [thick];
+  E -> F [thick];
+  L -> M [thick];
+  H -> L [thick];
+  G -> H [thick];
+  K -> L [thick];
+  I -> K [thick];
+  J -> K [thick];
+}

@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "耕\ntill (2850)"];
+  E [label = "耒\nChristmas tree (*)"];
+  B [label = "一\none (1)"];
+  D [label = "未\nnot yet (215)"];
+  C [label = "木\ntree (202)"];
+  F [label = "井\nwell (1358)"];
+
+  E -> G [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
+  F -> G [thick];
+}

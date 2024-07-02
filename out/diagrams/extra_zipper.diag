@@ -1,0 +1,16 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  E [label = "舆minus车\nzipper (*)"];
+  C [label = "具minus目\ntool (*)"];
+  B [label = "只minus口\nanimal legs (*)"];
+  D [label = "印minus卩\nstaples (*)"];
+
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+}

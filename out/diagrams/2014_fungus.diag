@@ -1,0 +1,16 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  E [label = "菌\nfungus (2014)"];
+  B [label = "艹\nflower (*)"];
+  C [label = "囗\npent in (*)"];
+  D [label = "禾\nstanding grain (762)"];
+
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
+}

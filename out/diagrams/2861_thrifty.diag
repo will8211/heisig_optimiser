@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  H [label = "俭\nthrifty (2861)"];
+  B [label = "人\nperson (793)"];
+  G [label = "佥\nhootenanny (*)"];
+  D [label = "亼\nmeeting (*)"];
+  C [label = "𠆢\numbrella (*)"];
+  E [label = "应minus广\nowl (*)"];
+  F [label = "一\none (1)"];
+
+  B -> H [thick];
+  G -> H [thick];
+  D -> G [thick];
+  C -> D [thick];
+  E -> G [thick];
+  F -> G [thick];
+}

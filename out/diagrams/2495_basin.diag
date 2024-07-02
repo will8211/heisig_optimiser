@@ -1,0 +1,18 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  F [label = "盆\nbasin (2495)"];
+  D [label = "分\npart (694)"];
+  B [label = "八\neight (8)"];
+  C [label = "刀\nsword (83)"];
+  E [label = "皿\ndish (*)"];
+
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
+}

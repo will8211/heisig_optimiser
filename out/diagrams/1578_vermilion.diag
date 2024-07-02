@@ -1,0 +1,16 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  E [label = "朱\nvermilion (1578)"];
+  B [label = "丶\na drop of (*)"];
+  D [label = "未\nnot yet (215)"];
+  C [label = "木\ntree (202)"];
+
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
+}

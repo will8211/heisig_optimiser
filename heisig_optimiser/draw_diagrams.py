@@ -1,13 +1,8 @@
 import os
 import subprocess
 
-# Directory containing the .diag files
-diagrams_dir = "diagrams"
-
-# Change to the diagrams directory
+diagrams_dir = "out/diagrams"
 os.chdir(diagrams_dir)
-
-# Fetch all filenames in the directory
 filenames = [f for f in os.listdir() if f.endswith(".diag")]
 
 # Run `blockdiag [filename]` on all files

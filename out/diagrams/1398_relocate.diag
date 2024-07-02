@@ -1,0 +1,28 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  K [label = "搬\nrelocate (1398)"];
+  B [label = "扌\nfingers (*)"];
+  J [label = "般\nsort (1396)"];
+  F [label = "舟\nboat (1394)"];
+  C [label = "丶\na drop of (*)"];
+  E [label = "冂\nhood (*)"];
+  D [label = "几\nhow many? (57)"];
+  I [label = "殳\nmissile (*)"];
+  G [label = "几\nhow many? (57)"];
+  H [label = "又\nagain (633)"];
+
+  B -> K [thick];
+  J -> K [thick];
+  F -> J [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
+  I -> J [thick];
+  G -> I [thick];
+  H -> I [thick];
+}

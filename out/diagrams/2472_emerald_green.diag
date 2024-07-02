@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  H [label = "翠\nemerald green (2472)"];
+  B [label = "羽\nfeathers (544)"];
+  G [label = "卒\nfoot soldiers (*)"];
+  D [label = "从\nfollow (846)"];
+  C [label = "人\nperson (793)"];
+  E [label = "亠\ntop hat (*)"];
+  F [label = "十\nten (10)"];
+
+  B -> H [thick];
+  G -> H [thick];
+  D -> G [thick];
+  C -> D [thick];
+  E -> G [thick];
+  F -> G [thick];
+}

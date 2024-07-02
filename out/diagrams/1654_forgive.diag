@@ -1,0 +1,46 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  T [label = "谅\nforgive (1654)"];
+  F [label = "言\nsay (346)"];
+  C [label = "二\ntwo (2)"];
+  B [label = "一\none (1)"];
+  D [label = "口\nmouth (11)"];
+  E [label = "亠\ntop hat (*)"];
+  S [label = "京\ncapital (330)"];
+  P [label = "高\ntall (325)"];
+  K [label = "向\norientation (188)"];
+  G [label = "丶\na drop of (*)"];
+  I [label = "冂\nhood (*)"];
+  H [label = "几\nhow many? (57)"];
+  J [label = "口\nmouth (11)"];
+  L [label = "口\nmouth (11)"];
+  N [label = "冂\nhood (*)"];
+  M [label = "几\nhow many? (57)"];
+  O [label = "亠\ntop hat (*)"];
+  R [label = "小\nsmall (109)"];
+  Q [label = "丶\na drop of (*)"];
+
+  F -> T [thick];
+  C -> F [thick];
+  B -> C [thick];
+  D -> F [thick];
+  E -> F [thick];
+  S -> T [thick];
+  P -> S [thick];
+  K -> P [thick];
+  G -> K [thick];
+  I -> K [thick];
+  H -> I [thick];
+  J -> K [thick];
+  L -> P [thick];
+  N -> P [thick];
+  M -> N [thick];
+  O -> P [thick];
+  R -> S [thick];
+  Q -> R [thick];
+}

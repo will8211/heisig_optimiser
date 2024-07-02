@@ -1,0 +1,18 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  F [label = "霜\nfrost (427)"];
+  B [label = "雨\nrain (425)"];
+  E [label = "相\none another (212)"];
+  C [label = "木\ntree (202)"];
+  D [label = "目\neye (15)"];
+
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
+}

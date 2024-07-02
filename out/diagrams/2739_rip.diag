@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  H [label = "撕\nrip (2739)"];
+  B [label = "扌\nfingers (*)"];
+  G [label = "斯\nSphinx (1339)"];
+  E [label = "其\nhis-hers-its-theirs (1335)"];
+  C [label = "甘\nsweet (1333)"];
+  D [label = "只minus口\nanimal legs (*)"];
+  F [label = "斤\ncatty (924)"];
+
+  B -> H [thick];
+  G -> H [thick];
+  E -> G [thick];
+  C -> E [thick];
+  D -> E [thick];
+  F -> G [thick];
+}

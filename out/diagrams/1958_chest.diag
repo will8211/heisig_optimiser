@@ -1,0 +1,24 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  I [label = "膛\nchest (1958)"];
+  B [label = "月\nmonth (13)"];
+  H [label = "堂\nmain room (706)"];
+  F [label = "赏minus贝\nouthouse (*)"];
+  D [label = "小\nsmall (109)"];
+  C [label = "丶\na drop of (*)"];
+  E [label = "口\nmouth (11)"];
+  G [label = "土\nsoil (158)"];
+
+  B -> I [thick];
+  H -> I [thick];
+  F -> H [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
+  G -> H [thick];
+}

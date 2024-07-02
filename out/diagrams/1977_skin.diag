@@ -1,0 +1,16 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  E [label = "肤\nskin (1977)"];
+  B [label = "月\nmonth (13)"];
+  D [label = "夫\nhusband (726)"];
+  C [label = "大\nlarge (113)"];
+
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
+}

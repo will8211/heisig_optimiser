@@ -1,0 +1,28 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  K [label = "谍\nespionage (1657)"];
+  F [label = "言\nsay (346)"];
+  C [label = "二\ntwo (2)"];
+  B [label = "一\none (1)"];
+  D [label = "口\nmouth (11)"];
+  E [label = "亠\ntop hat (*)"];
+  J [label = "枼\nfamily tree (*)"];
+  H [label = "世\ngeneration (28)"];
+  G [label = "十\nten (10)"];
+  I [label = "木\ntree (202)"];
+
+  F -> K [thick];
+  C -> F [thick];
+  B -> C [thick];
+  D -> F [thick];
+  E -> F [thick];
+  J -> K [thick];
+  H -> J [thick];
+  G -> H [thick];
+  I -> J [thick];
+}

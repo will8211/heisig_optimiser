@@ -1,0 +1,16 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  E [label = "地\nground (507)"];
+  B [label = "土\nsoil (158)"];
+  D [label = "也\nalso (505)"];
+  C [label = "乙\nsecond (95)"];
+
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
+}

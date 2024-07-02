@@ -1,0 +1,24 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  I [label = "蔑\ndespise (1665)"];
+  B [label = "艹\nflower (*)"];
+  C [label = "目\neye (15)"];
+  H [label = "戌\nmarch (*)"];
+  F [label = "戊\nparade (*)"];
+  E [label = "戈\nhalberd (361)"];
+  D [label = "弋\narrow (*)"];
+  G [label = "一\none (1)"];
+
+  B -> I [thick];
+  C -> I [thick];
+  H -> I [thick];
+  F -> H [thick];
+  E -> F [thick];
+  D -> E [thick];
+  G -> H [thick];
+}

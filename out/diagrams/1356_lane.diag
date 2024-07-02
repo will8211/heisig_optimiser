@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  H [label = "巷\nlane (1356)"];
+  E [label = "共\ntogether (1354)"];
+  C [label = "昔minus日\nsalad (*)"];
+  B [label = "艹\nflower (*)"];
+  D [label = "只minus口\nanimal legs (*)"];
+  G [label = "已\nalready (519)"];
+  F [label = "己\nself (515)"];
+
+  E -> H [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  G -> H [thick];
+  F -> G [thick];
+}

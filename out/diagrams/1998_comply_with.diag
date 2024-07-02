@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "循\ncomply with (1998)"];
+  B [label = "行\nline of business (754)"];
+  F [label = "盾\nshield (1896)"];
+  C [label = "𠂆\ndrag (*)"];
+  D [label = "十\nten (10)"];
+  E [label = "目\neye (15)"];
+
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  D -> F [thick];
+  E -> F [thick];
+}

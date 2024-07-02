@@ -1,0 +1,28 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  K [label = "廊\nhallway (2812)"];
+  D [label = "广\nextensive (556)"];
+  B [label = "厂\nfactory (121)"];
+  C [label = "宀\nhouse (*)"];
+  J [label = "郎\nyoung man (1385)"];
+  G [label = "良\nhigh-quality (1151)"];
+  E [label = "丶\na drop of (*)"];
+  F [label = "艮\nsilver (*)"];
+  I [label = "阝\ncity walls (*)"];
+  H [label = "阝\npinnacle (*)"];
+
+  D -> K [thick];
+  B -> D [thick];
+  C -> D [thick];
+  J -> K [thick];
+  G -> J [thick];
+  E -> G [thick];
+  F -> G [thick];
+  I -> J [thick];
+  H -> I [thick];
+}

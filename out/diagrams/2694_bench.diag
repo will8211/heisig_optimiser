@@ -1,0 +1,32 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  M [label = "凳\nbench (2694)"];
+  K [label = "登\nstepladder (*)"];
+  J [label = "登\nascend (1301)"];
+  H [label = "桌\ntable (224)"];
+  B [label = "木\ntree (202)"];
+  C [label = "日\nday (12)"];
+  G [label = "卜\ndivination (43)"];
+  E [label = "丨\nwalking stick (*)"];
+  D [label = "一\none (1)"];
+  F [label = "丶\na drop of (*)"];
+  I [label = "癶\nteepee (*)"];
+  L [label = "几\nhow many? (57)"];
+
+  K -> M [thick];
+  J -> K [thick];
+  H -> J [thick];
+  B -> H [thick];
+  C -> H [thick];
+  G -> H [thick];
+  E -> G [thick];
+  D -> E [thick];
+  F -> G [thick];
+  I -> J [thick];
+  L -> M [thick];
+}

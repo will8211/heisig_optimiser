@@ -1,0 +1,26 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  J [label = "辞\nphraseology (2552)"];
+  F [label = "舌\ntongue (40)"];
+  B [label = "口\nmouth (11)"];
+  E [label = "千\nthousand (39)"];
+  C [label = "丶\na drop of (*)"];
+  D [label = "十\nten (10)"];
+  I [label = "辛\npeppery (1183)"];
+  G [label = "立\nstanding up (444)"];
+  H [label = "十\nten (10)"];
+
+  F -> J [thick];
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
+  I -> J [thick];
+  G -> I [thick];
+  H -> I [thick];
+}

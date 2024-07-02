@@ -1,0 +1,28 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  K [label = "贴\npaste (53)"];
+  D [label = "贝\nshellfish (52)"];
+  B [label = "目\neye (15)"];
+  C [label = "只minus口\nanimal legs (*)"];
+  J [label = "占\ntell fortunes (44)"];
+  H [label = "卜\ndivination (43)"];
+  F [label = "丨\nwalking stick (*)"];
+  E [label = "一\none (1)"];
+  G [label = "丶\na drop of (*)"];
+  I [label = "口\nmouth (11)"];
+
+  D -> K [thick];
+  B -> D [thick];
+  C -> D [thick];
+  J -> K [thick];
+  H -> J [thick];
+  F -> H [thick];
+  E -> F [thick];
+  G -> H [thick];
+  I -> J [thick];
+}

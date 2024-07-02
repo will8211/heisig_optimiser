@@ -1,0 +1,30 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  L [label = "泳\nswim (143)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  K [label = "永\neternity (138)"];
+  I [label = "水\nwater (137)"];
+  G [label = "丨\nwalking stick (*)"];
+  F [label = "一\none (1)"];
+  H [label = "丶\na drop of (*)"];
+  J [label = "丶\na drop of (*)"];
+
+  E -> L [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  K -> L [thick];
+  I -> K [thick];
+  G -> I [thick];
+  F -> G [thick];
+  H -> I [thick];
+  J -> K [thick];
+}

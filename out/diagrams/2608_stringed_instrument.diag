@@ -1,0 +1,24 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  I [label = "琴\nstringed instrument (2608)"];
+  E [label = "玉\njade (266)"];
+  C [label = "王\nking (265)"];
+  B [label = "工\nwork (76)"];
+  D [label = "丶\na drop of (*)"];
+  H [label = "今\nnow (1244)"];
+  G [label = "亼\nmeeting (*)"];
+  F [label = "𠆢\numbrella (*)"];
+
+  E -> I [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  H -> I [thick];
+  G -> H [thick];
+  F -> G [thick];
+}

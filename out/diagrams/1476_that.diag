@@ -1,0 +1,16 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  E [label = "那\nthat (1476)"];
+  C [label = "那minus阝\nrazor wire (*)"];
+  B [label = "刀\nsword (83)"];
+  D [label = "阝\npinnacle (*)"];
+
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+}

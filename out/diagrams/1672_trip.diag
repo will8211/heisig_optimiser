@@ -1,0 +1,34 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  N [label = "趟\ntrip (1672)"];
+  G [label = "走\nwalk (391)"];
+  E [label = "走minus十\nmending (*)"];
+  D [label = "正\ncorrect (387)"];
+  B [label = "一\none (1)"];
+  C [label = "止\nstop (379)"];
+  F [label = "土\nsoil (158)"];
+  M [label = "尚\nesteem (190)"];
+  I [label = "小\nsmall (109)"];
+  H [label = "丶\na drop of (*)"];
+  K [label = "冂\nhood (*)"];
+  J [label = "几\nhow many? (57)"];
+  L [label = "口\nmouth (11)"];
+
+  G -> N [thick];
+  E -> G [thick];
+  D -> E [thick];
+  B -> D [thick];
+  C -> D [thick];
+  F -> G [thick];
+  M -> N [thick];
+  I -> M [thick];
+  H -> I [thick];
+  K -> M [thick];
+  J -> K [thick];
+  L -> M [thick];
+}

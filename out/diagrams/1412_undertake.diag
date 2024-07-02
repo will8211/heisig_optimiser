@@ -1,0 +1,30 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  L [label = "承\nundertake (1412)"];
+  C [label = "了\n-ed (101)"];
+  B [label = "子\nchild (97)"];
+  G [label = "水\nwater (137)"];
+  E [label = "丨\nwalking stick (*)"];
+  D [label = "一\none (1)"];
+  F [label = "丶\na drop of (*)"];
+  K [label = "三\nthree (3)"];
+  H [label = "一\none (1)"];
+  J [label = "二\ntwo (2)"];
+  I [label = "一\none (1)"];
+
+  C -> L [thick];
+  B -> C [thick];
+  G -> L [thick];
+  E -> G [thick];
+  D -> E [thick];
+  F -> G [thick];
+  K -> L [thick];
+  H -> K [thick];
+  J -> K [thick];
+  I -> J [thick];
+}

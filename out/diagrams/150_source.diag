@@ -1,0 +1,44 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  S [label = "源\nsource (150)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  R [label = "原\nflatlands (142)"];
+  P [label = "泉\nspring (141)"];
+  I [label = "水\nwater (137)"];
+  G [label = "丨\nwalking stick (*)"];
+  F [label = "一\none (1)"];
+  H [label = "丶\na drop of (*)"];
+  L [label = "白\nwhite (34)"];
+  J [label = "日\nday (12)"];
+  K [label = "丶\na drop of (*)"];
+  M [label = "丶\na drop of (*)"];
+  O [label = "小\nsmall (109)"];
+  N [label = "丶\na drop of (*)"];
+  Q [label = "厂\nfactory (121)"];
+
+  E -> S [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  R -> S [thick];
+  P -> R [thick];
+  I -> P [thick];
+  G -> I [thick];
+  F -> G [thick];
+  H -> I [thick];
+  L -> P [thick];
+  J -> L [thick];
+  K -> L [thick];
+  M -> P [thick];
+  O -> P [thick];
+  N -> O [thick];
+  Q -> R [thick];
+}

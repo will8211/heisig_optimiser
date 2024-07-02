@@ -1,0 +1,28 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  K [label = "顾\nlook back (523)"];
+  B [label = "厂\nfactory (121)"];
+  D [label = "已\nalready (519)"];
+  C [label = "己\nself (515)"];
+  J [label = "页\npage (60)"];
+  G [label = "贝\nshellfish (52)"];
+  E [label = "目\neye (15)"];
+  F [label = "只minus口\nanimal legs (*)"];
+  H [label = "一\none (1)"];
+  I [label = "丶\na drop of (*)"];
+
+  B -> K [thick];
+  D -> K [thick];
+  C -> D [thick];
+  J -> K [thick];
+  G -> J [thick];
+  E -> G [thick];
+  F -> G [thick];
+  H -> J [thick];
+  I -> J [thick];
+}

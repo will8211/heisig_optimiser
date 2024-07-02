@@ -1,0 +1,18 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  F [label = "丧\nfuneral (1427)"];
+  B [label = "土\nsoil (158)"];
+  D [label = "丷\nhorns (*)"];
+  C [label = "一\none (1)"];
+  E [label = "丧minus十minus丷\nbarrette (*)"];
+
+  B -> F [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
+}

@@ -1,0 +1,14 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  D [label = "死\ndeath (715)"];
+  B [label = "歹\nmalicious (712)"];
+  C [label = "匕\nancient spoon (453)"];
+
+  B -> D [thick];
+  C -> D [thick];
+}

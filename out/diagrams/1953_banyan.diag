@@ -1,0 +1,24 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  I [label = "榕\nbanyan (1953)"];
+  B [label = "木\ntree (202)"];
+  H [label = "容\ncontain (701)"];
+  C [label = "宀\nhouse (*)"];
+  G [label = "谷\nvalley (698)"];
+  D [label = "只minus口\nanimal legs (*)"];
+  E [label = "𠆢\numbrella (*)"];
+  F [label = "口\nmouth (11)"];
+
+  B -> I [thick];
+  H -> I [thick];
+  C -> H [thick];
+  G -> H [thick];
+  D -> G [thick];
+  E -> G [thick];
+  F -> G [thick];
+}

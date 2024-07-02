@@ -1,0 +1,32 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  M [label = "锐\nsharp (1736)"];
+  F [label = "金\ngold (279)"];
+  B [label = "𠆢\numbrella (*)"];
+  D [label = "王\nking (265)"];
+  C [label = "工\nwork (76)"];
+  E [label = "丶\na drop of (*)"];
+  L [label = "兑\nconvert (499)"];
+  I [label = "兄\nelder brother (107)"];
+  G [label = "口\nmouth (11)"];
+  H [label = "儿\nyoungster (56)"];
+  K [label = "丷\nhorns (*)"];
+  J [label = "一\none (1)"];
+
+  F -> M [thick];
+  B -> F [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
+  L -> M [thick];
+  I -> L [thick];
+  G -> I [thick];
+  H -> I [thick];
+  K -> L [thick];
+  J -> K [thick];
+}

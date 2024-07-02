@@ -1,0 +1,36 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  O [label = "停\nhalt (818)"];
+  B [label = "人\nperson (793)"];
+  N [label = "亭\npavilion (328)"];
+  C [label = "丁\nfourth (90)"];
+  M [label = "高\ntall (325)"];
+  H [label = "向\norientation (188)"];
+  D [label = "丶\na drop of (*)"];
+  F [label = "冂\nhood (*)"];
+  E [label = "几\nhow many? (57)"];
+  G [label = "口\nmouth (11)"];
+  I [label = "口\nmouth (11)"];
+  K [label = "冂\nhood (*)"];
+  J [label = "几\nhow many? (57)"];
+  L [label = "亠\ntop hat (*)"];
+
+  B -> O [thick];
+  N -> O [thick];
+  C -> N [thick];
+  M -> N [thick];
+  H -> M [thick];
+  D -> H [thick];
+  F -> H [thick];
+  E -> F [thick];
+  G -> H [thick];
+  I -> M [thick];
+  K -> M [thick];
+  J -> K [thick];
+  L -> M [thick];
+}

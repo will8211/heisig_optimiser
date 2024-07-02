@@ -1,0 +1,26 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  J [label = "殷\nardent (2817)"];
+  B [label = "𠂆\ndrag (*)"];
+  E [label = "白\nwhite (34)"];
+  C [label = "日\nday (12)"];
+  D [label = "丶\na drop of (*)"];
+  F [label = "𠃌\nclothes hanger (*)"];
+  I [label = "殳\nmissile (*)"];
+  G [label = "几\nhow many? (57)"];
+  H [label = "又\nagain (633)"];
+
+  B -> J [thick];
+  E -> J [thick];
+  C -> E [thick];
+  D -> E [thick];
+  F -> J [thick];
+  I -> J [thick];
+  G -> I [thick];
+  H -> I [thick];
+}

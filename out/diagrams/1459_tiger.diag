@@ -1,0 +1,32 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  M [label = "虎\ntiger (1459)"];
+  E [label = "卜\ndivination (43)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  F [label = "七\nseven (7)"];
+  G [label = "几\nhow many? (57)"];
+  L [label = "疋\nzoo (*)"];
+  K [label = "走minus十\nmending (*)"];
+  J [label = "正\ncorrect (387)"];
+  H [label = "一\none (1)"];
+  I [label = "止\nstop (379)"];
+
+  E -> M [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  F -> M [thick];
+  G -> M [thick];
+  L -> M [thick];
+  K -> L [thick];
+  J -> K [thick];
+  H -> J [thick];
+  I -> J [thick];
+}

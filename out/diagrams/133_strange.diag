@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  H [label = "奇\nstrange (133)"];
+  B [label = "大\nlarge (113)"];
+  E [label = "可\ncan (92)"];
+  C [label = "丁\nfourth (90)"];
+  D [label = "口\nmouth (11)"];
+  F [label = "口\nmouth (11)"];
+  G [label = "丁\nfourth (90)"];
+
+  B -> H [thick];
+  E -> H [thick];
+  C -> E [thick];
+  D -> E [thick];
+  F -> H [thick];
+  G -> H [thick];
+}

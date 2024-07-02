@@ -3,6 +3,8 @@ from collections import defaultdict
 from typing import Dict, List, Literal, Set
 
 from .output import output_to_csv, output_to_json
+from .generate_hierarchies import generate_hierarchies
+from .json_to_diag import json_to_diag
 
 HskLevel = Literal["Elementary", "Medium", "Advanced"]
 
@@ -16,6 +18,8 @@ def main():
     chars = calculate_required_characters(chars, "Advanced")
     output_to_json(chars)
     output_to_csv(chars)
+    generate_hierarchies()
+    json_to_diag()
     print("Done")
 
 
@@ -27,7 +31,7 @@ def load_hsk_characters() -> Dict[HskLevel, List[str]]:
     levels: List[HskLevel] = ["Elementary", "Medium", "Advanced"]
     for level in levels:
         try:
-            with open(f"data/{level}.txt", "r") as file:
+            with open(f"data/hsk/{level}.txt", "r") as file:
                 hsk[level] = [line.strip() for line in file.readlines()]
         except FileNotFoundError:
             print(f"Warning: {level}.txt not found. Did you run `./data/populate.sh`?")
@@ -39,7 +43,7 @@ def load_heisig_data() -> List[Dict[str, any]]:
     """
     Read in the Heisig data from the .xml file
     """
-    tree = ET.parse("data/rsh_modified.xml")
+    tree = ET.parse("data/heisig/rsh_modified.xml")
     root = tree.getroot()
     chars: List[Dict[str, any]] = []
     for book in root.iter("book"):

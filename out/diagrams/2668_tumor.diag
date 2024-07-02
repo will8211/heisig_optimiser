@@ -1,0 +1,38 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  P [label = "瘤\ntumor (2668)"];
+  J [label = "疒\nsickness (*)"];
+  D [label = "广\nextensive (556)"];
+  B [label = "厂\nfactory (121)"];
+  C [label = "宀\nhouse (*)"];
+  I [label = "冫\nice (*)"];
+  H [label = "水\nwater (137)"];
+  F [label = "丨\nwalking stick (*)"];
+  E [label = "一\none (1)"];
+  G [label = "丶\na drop of (*)"];
+  O [label = "留\nstay (1107)"];
+  M [label = "贸minus贝\nletter opener (*)"];
+  K [label = "卩\nstamp (*)"];
+  L [label = "刀\nsword (83)"];
+  N [label = "田\nrice field (14)"];
+
+  J -> P [thick];
+  D -> J [thick];
+  B -> D [thick];
+  C -> D [thick];
+  I -> J [thick];
+  H -> I [thick];
+  F -> H [thick];
+  E -> F [thick];
+  G -> H [thick];
+  O -> P [thick];
+  M -> O [thick];
+  K -> M [thick];
+  L -> M [thick];
+  N -> O [thick];
+}

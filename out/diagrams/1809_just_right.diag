@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "恰\njust right (1809)"];
+  B [label = "心\nheart (563)"];
+  F [label = "合\nfit (262)"];
+  D [label = "亼\nmeeting (*)"];
+  C [label = "𠆢\numbrella (*)"];
+  E [label = "口\nmouth (11)"];
+
+  B -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
+}

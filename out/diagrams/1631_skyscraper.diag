@@ -1,0 +1,24 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  I [label = "厦\nskyscraper (1631)"];
+  B [label = "厂\nfactory (121)"];
+  H [label = "夏\nsummer (314)"];
+  E [label = "自\noneself (33)"];
+  C [label = "丶\na drop of (*)"];
+  D [label = "目\neye (15)"];
+  F [label = "一\none (1)"];
+  G [label = "夂\nwalking legs (*)"];
+
+  B -> I [thick];
+  H -> I [thick];
+  E -> H [thick];
+  C -> E [thick];
+  D -> E [thick];
+  F -> H [thick];
+  G -> H [thick];
+}

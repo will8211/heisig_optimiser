@@ -1,0 +1,24 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  I [label = "剪\nshears (304)"];
+  B [label = "刀\nsword (83)"];
+  H [label = "前\nin front (303)"];
+  D [label = "丷\nhorns (*)"];
+  C [label = "一\none (1)"];
+  G [label = "刖\nbutcher (*)"];
+  E [label = "月\nmonth (13)"];
+  F [label = "刀\nsword (83)"];
+
+  B -> I [thick];
+  H -> I [thick];
+  D -> H [thick];
+  C -> D [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
+}

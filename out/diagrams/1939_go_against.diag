@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "逆\ngo against (1939)"];
+  E [label = "屰\nmountain goat (*)"];
+  C [label = "丷\nhorns (*)"];
+  B [label = "一\none (1)"];
+  D [label = "山\nmountain (688)"];
+  F [label = "辶\nroad (*)"];
+
+  E -> G [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  F -> G [thick];
+}

@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "辟\nrepudiate (1185)"];
+  B [label = "尸\ncorpse (882)"];
+  C [label = "口\nmouth (11)"];
+  F [label = "辛\npeppery (1183)"];
+  D [label = "立\nstanding up (444)"];
+  E [label = "十\nten (10)"];
+
+  B -> G [thick];
+  C -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
+}

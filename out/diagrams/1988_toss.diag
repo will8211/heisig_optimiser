@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "抛\ntoss (1988)"];
+  B [label = "扌\nfingers (*)"];
+  C [label = "九\nnine (9)"];
+  F [label = "肌\nmuscle (63)"];
+  D [label = "几\nhow many? (57)"];
+  E [label = "月\nmonth (13)"];
+
+  B -> G [thick];
+  C -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
+}

@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "变\nchange (1495)"];
+  E [label = "亦\nlikewise (1491)"];
+  B [label = "亠\ntop hat (*)"];
+  C [label = "只minus口\nanimal legs (*)"];
+  D [label = "刀\nsword (83)"];
+  F [label = "又\nagain (633)"];
+
+  E -> G [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
+  F -> G [thick];
+}

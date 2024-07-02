@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "啤\nbeer (2953)"];
+  B [label = "口\nmouth (11)"];
+  F [label = "卑\nlowly (1496)"];
+  C [label = "丶\na drop of (*)"];
+  D [label = "田\nrice field (14)"];
+  E [label = "十\nten (10)"];
+
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  D -> F [thick];
+  E -> F [thick];
+}

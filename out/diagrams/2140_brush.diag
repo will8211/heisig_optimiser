@@ -1,0 +1,16 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  E [label = "刷\nbrush (2140)"];
+  B [label = "尸\ncorpse (882)"];
+  C [label = "巾\ntowel (410)"];
+  D [label = "刀\nsword (83)"];
+
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
+}

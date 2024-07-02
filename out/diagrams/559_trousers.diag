@@ -1,0 +1,24 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  I [label = "裤\ntrousers (559)"];
+  C [label = "衣\nclothing (400)"];
+  B [label = "亠\ntop hat (*)"];
+  H [label = "库\nwarehouse (558)"];
+  F [label = "广\nextensive (556)"];
+  D [label = "厂\nfactory (121)"];
+  E [label = "宀\nhouse (*)"];
+  G [label = "车\ncar (300)"];
+
+  C -> I [thick];
+  B -> C [thick];
+  H -> I [thick];
+  F -> H [thick];
+  D -> F [thick];
+  E -> F [thick];
+  G -> H [thick];
+}

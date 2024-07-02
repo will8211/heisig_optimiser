@@ -1,0 +1,18 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  F [label = "萤\nfirefly (2123)"];
+  D [label = "荣minus木\ngreenhouse (*)"];
+  B [label = "宀\nhouse (*)"];
+  C [label = "艹\nflower (*)"];
+  E [label = "虫\ninsect (509)"];
+
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
+}

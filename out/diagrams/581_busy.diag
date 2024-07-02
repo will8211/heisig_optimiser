@@ -1,0 +1,18 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  F [label = "忙\nbusy (581)"];
+  B [label = "心\nheart (563)"];
+  E [label = "亡\ndeceased (490)"];
+  C [label = "亠\ntop hat (*)"];
+  D [label = "乙\nsecond (95)"];
+
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
+}

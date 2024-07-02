@@ -1,0 +1,24 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  I [label = "鞋\nshoes (1408)"];
+  F [label = "革\nleather (1407)"];
+  C [label = "廿\ntwenty (976)"];
+  B [label = "十\nten (10)"];
+  D [label = "口\nmouth (11)"];
+  E [label = "十\nten (10)"];
+  H [label = "圭\nbricks (*)"];
+  G [label = "土\nsoil (158)"];
+
+  F -> I [thick];
+  C -> F [thick];
+  B -> C [thick];
+  D -> F [thick];
+  E -> F [thick];
+  H -> I [thick];
+  G -> H [thick];
+}

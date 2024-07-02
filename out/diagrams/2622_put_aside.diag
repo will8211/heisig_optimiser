@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  H [label = "搁\nput aside (2622)"];
+  B [label = "扌\nfingers (*)"];
+  G [label = "阁\ncabinet (2621)"];
+  C [label = "门\ngate (1260)"];
+  F [label = "各\neach (309)"];
+  D [label = "口\nmouth (11)"];
+  E [label = "夂\nwalking legs (*)"];
+
+  B -> H [thick];
+  G -> H [thick];
+  C -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
+}

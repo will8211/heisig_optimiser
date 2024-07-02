@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  H [label = "衡\nweight (2001)"];
+  B [label = "行\nline of business (754)"];
+  C [label = "大\nlarge (113)"];
+  G [label = "鱼\nfish (154)"];
+  D [label = "勹\nbound up (*)"];
+  E [label = "田\nrice field (14)"];
+  F [label = "一\none (1)"];
+
+  B -> H [thick];
+  C -> H [thick];
+  G -> H [thick];
+  D -> G [thick];
+  E -> G [thick];
+  F -> G [thick];
+}

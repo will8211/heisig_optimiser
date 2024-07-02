@@ -1,0 +1,24 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  I [label = "舰\nwarship (2821)"];
+  E [label = "舟\nboat (1394)"];
+  B [label = "丶\na drop of (*)"];
+  D [label = "冂\nhood (*)"];
+  C [label = "几\nhow many? (57)"];
+  H [label = "见\nsee (58)"];
+  F [label = "目\neye (15)"];
+  G [label = "儿\nyoungster (56)"];
+
+  E -> I [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
+  H -> I [thick];
+  F -> H [thick];
+  G -> H [thick];
+}

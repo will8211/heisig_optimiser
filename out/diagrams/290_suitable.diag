@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  H [label = "适\nsuitable (290)"];
+  B [label = "辶\nroad (*)"];
+  G [label = "舌\ntongue (40)"];
+  C [label = "口\nmouth (11)"];
+  F [label = "千\nthousand (39)"];
+  D [label = "丶\na drop of (*)"];
+  E [label = "十\nten (10)"];
+
+  B -> H [thick];
+  G -> H [thick];
+  C -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
+}

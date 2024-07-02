@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "寞\nsolitary (1586)"];
+  B [label = "宀\nhouse (*)"];
+  F [label = "莫\nnobody (231)"];
+  C [label = "艹\nflower (*)"];
+  D [label = "日\nday (12)"];
+  E [label = "大\nlarge (113)"];
+
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  D -> F [thick];
+  E -> F [thick];
+}

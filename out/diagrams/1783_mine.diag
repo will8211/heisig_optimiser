@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  H [label = "矿\nmine (1783)"];
+  D [label = "石\nstone (125)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "厂\nfactory (121)"];
+  G [label = "广\nextensive (556)"];
+  E [label = "厂\nfactory (121)"];
+  F [label = "宀\nhouse (*)"];
+
+  D -> H [thick];
+  B -> D [thick];
+  C -> D [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
+}

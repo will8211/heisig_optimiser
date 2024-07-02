@@ -1,0 +1,32 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  M [label = "溅\nsplatter (1667)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  L [label = "贱\ncheap (375)"];
+  H [label = "戋\nfloat (*)"];
+  G [label = "戈\nhalberd (361)"];
+  F [label = "弋\narrow (*)"];
+  K [label = "贝\nshellfish (52)"];
+  I [label = "目\neye (15)"];
+  J [label = "只minus口\nanimal legs (*)"];
+
+  E -> M [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  L -> M [thick];
+  H -> L [thick];
+  G -> H [thick];
+  F -> G [thick];
+  K -> L [thick];
+  I -> K [thick];
+  J -> K [thick];
+}

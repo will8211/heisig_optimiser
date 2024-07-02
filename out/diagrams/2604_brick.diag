@@ -1,0 +1,24 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  I [label = "砖\nbrick (2604)"];
+  D [label = "石\nstone (125)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "厂\nfactory (121)"];
+  H [label = "专\nspecialty (1236)"];
+  F [label = "奉minus𡗗\ncornstalk (*)"];
+  E [label = "丰\nplentiful (1223)"];
+  G [label = "节minus艹\nchop (*)"];
+
+  D -> I [thick];
+  B -> D [thick];
+  C -> D [thick];
+  H -> I [thick];
+  F -> H [thick];
+  E -> F [thick];
+  G -> H [thick];
+}

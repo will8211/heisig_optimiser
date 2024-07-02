@@ -1,0 +1,28 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  K [label = "孵\nhatch (2429)"];
+  F [label = "卵\nnest eggs (2428)"];
+  D [label = "贸minus贝\nletter opener (*)"];
+  B [label = "卩\nstamp (*)"];
+  C [label = "刀\nsword (83)"];
+  E [label = "丶\na drop of (*)"];
+  J [label = "孚\nfledglings (*)"];
+  H [label = "爪\nclaw (663)"];
+  G [label = "𠂆\ndrag (*)"];
+  I [label = "子\nchild (97)"];
+
+  F -> K [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
+  J -> K [thick];
+  H -> J [thick];
+  G -> H [thick];
+  I -> J [thick];
+}

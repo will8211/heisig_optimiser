@@ -1,0 +1,18 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  F [label = "呢\nwoolen cloth (884)"];
+  B [label = "口\nmouth (11)"];
+  E [label = "尼\nnun (883)"];
+  C [label = "尸\ncorpse (882)"];
+  D [label = "匕\nancient spoon (453)"];
+
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
+}

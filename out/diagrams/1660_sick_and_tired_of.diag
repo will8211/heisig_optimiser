@@ -1,0 +1,26 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  J [label = "腻\nsick and tired of (1660)"];
+  B [label = "月\nmonth (13)"];
+  I [label = "贰\nII (1659)"];
+  C [label = "弋\narrow (*)"];
+  E [label = "二\ntwo (2)"];
+  D [label = "一\none (1)"];
+  H [label = "贝\nshellfish (52)"];
+  F [label = "目\neye (15)"];
+  G [label = "只minus口\nanimal legs (*)"];
+
+  B -> J [thick];
+  I -> J [thick];
+  C -> I [thick];
+  E -> I [thick];
+  D -> E [thick];
+  H -> I [thick];
+  F -> H [thick];
+  G -> H [thick];
+}

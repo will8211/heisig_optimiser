@@ -1,0 +1,30 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  L [label = "磅\npound (1734)"];
+  H [label = "旁\nMagellan (*)"];
+  G [label = "旁\nside (498)"];
+  B [label = "立\nstanding up (444)"];
+  C [label = "冖\ncrown (*)"];
+  F [label = "方\ndirection (494)"];
+  D [label = "刀\nsword (83)"];
+  E [label = "亠\ntop hat (*)"];
+  K [label = "石\nstone (125)"];
+  I [label = "口\nmouth (11)"];
+  J [label = "厂\nfactory (121)"];
+
+  H -> L [thick];
+  G -> H [thick];
+  B -> G [thick];
+  C -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
+  K -> L [thick];
+  I -> K [thick];
+  J -> K [thick];
+}

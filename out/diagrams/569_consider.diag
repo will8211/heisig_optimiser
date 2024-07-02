@@ -1,0 +1,14 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  D [label = "思\nconsider (569)"];
+  B [label = "田\nrice field (14)"];
+  C [label = "心\nheart (563)"];
+
+  B -> D [thick];
+  C -> D [thick];
+}

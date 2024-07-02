@@ -1,0 +1,24 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  I [label = "篷\nawning (2587)"];
+  C [label = "竹\nbamboo (786)"];
+  B [label = "丁\nfourth (90)"];
+  H [label = "逢\nchance upon (2584)"];
+  F [label = "夆\nbriar (*)"];
+  D [label = "丰\nplentiful (1223)"];
+  E [label = "夂\nwalking legs (*)"];
+  G [label = "辶\nroad (*)"];
+
+  C -> I [thick];
+  B -> C [thick];
+  H -> I [thick];
+  F -> H [thick];
+  D -> F [thick];
+  E -> F [thick];
+  G -> H [thick];
+}

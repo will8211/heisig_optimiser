@@ -1,0 +1,18 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  F [label = "拧\ntweak (1843)"];
+  B [label = "扌\nfingers (*)"];
+  E [label = "宁\ncalm (1558)"];
+  C [label = "宀\nhouse (*)"];
+  D [label = "丁\nfourth (90)"];
+
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
+}

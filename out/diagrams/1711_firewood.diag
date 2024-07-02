@@ -1,0 +1,18 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  F [label = "柴\nfirewood (1711)"];
+  D [label = "此\nthis (literary) (460)"];
+  B [label = "止\nstop (379)"];
+  C [label = "匕\nancient spoon (453)"];
+  E [label = "木\ntree (202)"];
+
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
+}

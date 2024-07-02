@@ -1,0 +1,26 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  J [label = "汽\nvapor (1405)"];
+  E [label = "气\nair (1404)"];
+  B [label = "𠂉\nreclining (*)"];
+  C [label = "一\none (1)"];
+  D [label = "乙\nsecond (95)"];
+  I [label = "水\nwater (137)"];
+  G [label = "丨\nwalking stick (*)"];
+  F [label = "一\none (1)"];
+  H [label = "丶\na drop of (*)"];
+
+  E -> J [thick];
+  B -> E [thick];
+  C -> E [thick];
+  D -> E [thick];
+  I -> J [thick];
+  G -> I [thick];
+  F -> G [thick];
+  H -> I [thick];
+}

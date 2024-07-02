@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  H [label = "凶\ncruel (1174)"];
+  B [label = "㐅\nsheaf (*)"];
+  G [label = "坑\npit (323)"];
+  E [label = "亢\nwhirlwind (*)"];
+  C [label = "亠\ntop hat (*)"];
+  D [label = "几\nhow many? (57)"];
+  F [label = "土\nsoil (158)"];
+
+  B -> H [thick];
+  G -> H [thick];
+  E -> G [thick];
+  C -> E [thick];
+  D -> E [thick];
+  F -> G [thick];
+}

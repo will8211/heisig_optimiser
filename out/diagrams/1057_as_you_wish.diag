@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  H [label = "随\nas you wish (1057)"];
+  B [label = "阝\npinnacle (*)"];
+  F [label = "有\npossess (79)"];
+  C [label = "月\nmonth (13)"];
+  E [label = "𠂇\nby one’s side (*)"];
+  D [label = "十\nten (10)"];
+  G [label = "辶\nroad (*)"];
+
+  B -> H [thick];
+  F -> H [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
+  G -> H [thick];
+}

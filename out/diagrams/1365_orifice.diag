@@ -1,0 +1,24 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  I [label = "嘴\norifice (1365)"];
+  B [label = "口\nmouth (11)"];
+  E [label = "此\nthis (literary) (460)"];
+  C [label = "止\nstop (379)"];
+  D [label = "匕\nancient spoon (453)"];
+  H [label = "角\nangle (1362)"];
+  F [label = "勹\nbound up (*)"];
+  G [label = "用\nutilize (1361)"];
+
+  B -> I [thick];
+  E -> I [thick];
+  C -> E [thick];
+  D -> E [thick];
+  H -> I [thick];
+  F -> H [thick];
+  G -> H [thick];
+}

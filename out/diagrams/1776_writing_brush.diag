@@ -1,0 +1,24 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  I [label = "翰\nwriting brush (1776)"];
+  F [label = "𠦝\nmist (*)"];
+  D [label = "早\nearly (26)"];
+  B [label = "日\nday (12)"];
+  C [label = "十\nten (10)"];
+  E [label = "十\nten (10)"];
+  G [label = "𠆢\numbrella (*)"];
+  H [label = "羽\nfeathers (544)"];
+
+  F -> I [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
+  G -> I [thick];
+  H -> I [thick];
+}

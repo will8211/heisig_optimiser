@@ -1,0 +1,30 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  L [label = "湾\nbay (1493)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  K [label = "弯\ncurved (1492)"];
+  I [label = "亦\nlikewise (1491)"];
+  F [label = "亠\ntop hat (*)"];
+  G [label = "只minus口\nanimal legs (*)"];
+  H [label = "刀\nsword (83)"];
+  J [label = "弓\nbow (1013)"];
+
+  E -> L [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  K -> L [thick];
+  I -> K [thick];
+  F -> I [thick];
+  G -> I [thick];
+  H -> I [thick];
+  J -> K [thick];
+}

@@ -1,0 +1,30 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  L [label = "淌\ntrickle (1557)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  K [label = "尚\nesteem (190)"];
+  G [label = "小\nsmall (109)"];
+  F [label = "丶\na drop of (*)"];
+  I [label = "冂\nhood (*)"];
+  H [label = "几\nhow many? (57)"];
+  J [label = "口\nmouth (11)"];
+
+  E -> L [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  K -> L [thick];
+  G -> K [thick];
+  F -> G [thick];
+  I -> K [thick];
+  H -> I [thick];
+  J -> K [thick];
+}

@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  H [label = "照\nilluminate (178)"];
+  F [label = "昭\nevident (87)"];
+  D [label = "召\nsummon (86)"];
+  B [label = "刀\nsword (83)"];
+  C [label = "口\nmouth (11)"];
+  E [label = "日\nday (12)"];
+  G [label = "火\nfire (170)"];
+
+  F -> H [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
+  G -> H [thick];
+}

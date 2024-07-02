@@ -1,0 +1,18 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  F [label = "咽\nthroat (1779)"];
+  B [label = "口\nmouth (11)"];
+  E [label = "因\ndog kennel (*)"];
+  C [label = "囗\npent in (*)"];
+  D [label = "大\nlarge (113)"];
+
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
+}

@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  H [label = "伪\nbogus (797)"];
+  B [label = "人\nperson (793)"];
+  G [label = "为\nact (746)"];
+  C [label = "丶\na drop of (*)"];
+  F [label = "肌\nmuscle (63)"];
+  D [label = "几\nhow many? (57)"];
+  E [label = "月\nmonth (13)"];
+
+  B -> H [thick];
+  G -> H [thick];
+  C -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
+}

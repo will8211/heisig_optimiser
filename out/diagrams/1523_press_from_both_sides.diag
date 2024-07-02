@@ -1,0 +1,18 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  F [label = "夹\npress from both sides (1523)"];
+  C [label = "夫\nhusband (726)"];
+  B [label = "大\nlarge (113)"];
+  E [label = "丷\nhorns (*)"];
+  D [label = "一\none (1)"];
+
+  C -> F [thick];
+  B -> C [thick];
+  E -> F [thick];
+  D -> E [thick];
+}

@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  H [label = "贱\ncheap (375)"];
+  D [label = "戋\nfloat (*)"];
+  C [label = "戈\nhalberd (361)"];
+  B [label = "弋\narrow (*)"];
+  G [label = "贝\nshellfish (52)"];
+  E [label = "目\neye (15)"];
+  F [label = "只minus口\nanimal legs (*)"];
+
+  D -> H [thick];
+  C -> D [thick];
+  B -> C [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
+}

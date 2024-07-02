@@ -1,0 +1,14 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  D [label = "芹\ncelery (2185)"];
+  B [label = "艹\nflower (*)"];
+  C [label = "斤\ncatty (924)"];
+
+  B -> D [thick];
+  C -> D [thick];
+}

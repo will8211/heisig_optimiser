@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "驶\nmaneuver (2900)"];
+  C [label = "马\nhorse (1453)"];
+  B [label = "与minus丨一\npointed tail (*)"];
+  F [label = "史\nhistory (630)"];
+  D [label = "口\nmouth (11)"];
+  E [label = "史minus口\ntucked under the arm (*)"];
+
+  C -> G [thick];
+  B -> C [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
+}

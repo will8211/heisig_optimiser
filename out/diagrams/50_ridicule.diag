@@ -1,0 +1,26 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  J [label = "嘲\nridicule (50)"];
+  B [label = "口\nmouth (11)"];
+  I [label = "朝\ndynasty (49)"];
+  C [label = "月\nmonth (13)"];
+  H [label = "𠦝\nmist (*)"];
+  F [label = "早\nearly (26)"];
+  D [label = "日\nday (12)"];
+  E [label = "十\nten (10)"];
+  G [label = "十\nten (10)"];
+
+  B -> J [thick];
+  I -> J [thick];
+  C -> I [thick];
+  H -> I [thick];
+  F -> H [thick];
+  D -> F [thick];
+  E -> F [thick];
+  G -> H [thick];
+}

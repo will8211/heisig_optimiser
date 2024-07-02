@@ -1,0 +1,30 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  L [label = "瞻\nlook upward (1648)"];
+  B [label = "目\neye (15)"];
+  K [label = "詹\nsnitch (*)"];
+  C [label = "勹\nbound up (*)"];
+  D [label = "只minus口\nanimal legs (*)"];
+  E [label = "厂\nfactory (121)"];
+  J [label = "言\nsay (346)"];
+  G [label = "二\ntwo (2)"];
+  F [label = "一\none (1)"];
+  H [label = "口\nmouth (11)"];
+  I [label = "亠\ntop hat (*)"];
+
+  B -> L [thick];
+  K -> L [thick];
+  C -> K [thick];
+  D -> K [thick];
+  E -> K [thick];
+  J -> K [thick];
+  G -> J [thick];
+  F -> G [thick];
+  H -> J [thick];
+  I -> J [thick];
+}

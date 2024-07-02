@@ -1,0 +1,18 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  F [label = "巢\nnest (2179)"];
+  B [label = "川\nstream (134)"];
+  E [label = "果\nfruit (921)"];
+  C [label = "木\ntree (202)"];
+  D [label = "田\nrice field (14)"];
+
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
+}

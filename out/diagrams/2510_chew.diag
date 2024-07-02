@@ -1,0 +1,28 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  K [label = "嚼\nchew (2510)"];
+  B [label = "口\nmouth (11)"];
+  J [label = "爵\nupper crust (2509)"];
+  D [label = "爪\nclaw (663)"];
+  C [label = "𠂆\ndrag (*)"];
+  E [label = "目\neye (15)"];
+  F [label = "艮\nsilver (*)"];
+  I [label = "寸\nChinese inch (166)"];
+  G [label = "丶\na drop of (*)"];
+  H [label = "十\nten (10)"];
+
+  B -> K [thick];
+  J -> K [thick];
+  D -> J [thick];
+  C -> D [thick];
+  E -> J [thick];
+  F -> J [thick];
+  I -> J [thick];
+  G -> I [thick];
+  H -> I [thick];
+}

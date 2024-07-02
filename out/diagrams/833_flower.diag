@@ -1,0 +1,18 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  F [label = "花\nflower (833)"];
+  B [label = "艹\nflower (*)"];
+  E [label = "化\ntransform (830)"];
+  C [label = "人\nperson (793)"];
+  D [label = "匕\nancient spoon (453)"];
+
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
+}

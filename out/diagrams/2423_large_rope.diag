@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  H [label = "索\nlarge rope (2423)"];
+  C [label = "索minus糸\nchapel (*)"];
+  B [label = "宀\nhouse (*)"];
+  G [label = "糸\nfloss (*)"];
+  D [label = "幺\ncocoon (*)"];
+  F [label = "小\nsmall (109)"];
+  E [label = "丶\na drop of (*)"];
+
+  C -> H [thick];
+  B -> C [thick];
+  G -> H [thick];
+  D -> G [thick];
+  F -> G [thick];
+  E -> F [thick];
+}

@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "兢\ncautious (1521)"];
+  F [label = "克\novercome (108)"];
+  D [label = "兄\nelder brother (107)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "儿\nyoungster (56)"];
+  E [label = "十\nten (10)"];
+
+  F -> G [thick];
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
+}

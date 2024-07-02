@@ -1,0 +1,18 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  F [label = "雾\nfog (753)"];
+  B [label = "雨\nrain (425)"];
+  E [label = "务\ntasks (752)"];
+  C [label = "夂\nwalking legs (*)"];
+  D [label = "力\npower (732)"];
+
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
+}

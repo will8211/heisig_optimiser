@@ -1,0 +1,38 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  P [label = "禺\nTalking Cricket (*)"];
+  B [label = "虫\ninsect (509)"];
+  M [label = "脑\nbrain (1176)"];
+  C [label = "月\nmonth (13)"];
+  L [label = "㐫\nFagin (*)"];
+  D [label = "亠\ntop hat (*)"];
+  K [label = "凶\ncruel (1174)"];
+  E [label = "㐅\nsheaf (*)"];
+  J [label = "坑\npit (323)"];
+  H [label = "亢\nwhirlwind (*)"];
+  F [label = "亠\ntop hat (*)"];
+  G [label = "几\nhow many? (57)"];
+  I [label = "土\nsoil (158)"];
+  O [label = "冂\nbelt (*)"];
+  N [label = "巾\ntowel (410)"];
+
+  B -> P [thick];
+  M -> P [thick];
+  C -> M [thick];
+  L -> M [thick];
+  D -> L [thick];
+  K -> L [thick];
+  E -> K [thick];
+  J -> K [thick];
+  H -> J [thick];
+  F -> H [thick];
+  G -> H [thick];
+  I -> J [thick];
+  O -> P [thick];
+  N -> O [thick];
+}

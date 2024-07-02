@@ -1,0 +1,18 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  F [label = "昂\nhold one’s head high (2690)"];
+  B [label = "日\nday (12)"];
+  E [label = "卬\nstamp collection (*)"];
+  C [label = "匚\nbox (*)"];
+  D [label = "卩\nstamp (*)"];
+
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
+}

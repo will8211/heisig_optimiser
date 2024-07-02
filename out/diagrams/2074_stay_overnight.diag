@@ -1,0 +1,24 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  I [label = "宿\nstay overnight (2074)"];
+  B [label = "宀\nhouse (*)"];
+  C [label = "人\nperson (793)"];
+  H [label = "百\nhundred (35)"];
+  F [label = "白\nwhite (34)"];
+  D [label = "日\nday (12)"];
+  E [label = "丶\na drop of (*)"];
+  G [label = "一\none (1)"];
+
+  B -> I [thick];
+  C -> I [thick];
+  H -> I [thick];
+  F -> H [thick];
+  D -> F [thick];
+  E -> F [thick];
+  G -> H [thick];
+}

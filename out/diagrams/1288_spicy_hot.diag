@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  H [label = "辣\nspicy hot (1288)"];
+  D [label = "辛\npeppery (1183)"];
+  B [label = "立\nstanding up (444)"];
+  C [label = "十\nten (10)"];
+  G [label = "束\nbundle up (1286)"];
+  E [label = "木\ntree (202)"];
+  F [label = "口\nmouth (11)"];
+
+  D -> H [thick];
+  B -> D [thick];
+  C -> D [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
+}

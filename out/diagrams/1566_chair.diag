@@ -1,0 +1,26 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  J [label = "椅\nchair (1566)"];
+  B [label = "木\ntree (202)"];
+  I [label = "奇\nstrange (133)"];
+  C [label = "大\nlarge (113)"];
+  F [label = "可\ncan (92)"];
+  D [label = "丁\nfourth (90)"];
+  E [label = "口\nmouth (11)"];
+  G [label = "口\nmouth (11)"];
+  H [label = "丁\nfourth (90)"];
+
+  B -> J [thick];
+  I -> J [thick];
+  C -> I [thick];
+  F -> I [thick];
+  D -> F [thick];
+  E -> F [thick];
+  G -> I [thick];
+  H -> I [thick];
+}

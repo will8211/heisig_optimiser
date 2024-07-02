@@ -1,0 +1,26 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  J [label = "腹\nabdomen (473)"];
+  E [label = "体\nbody (813)"];
+  B [label = "人\nperson (793)"];
+  D [label = "本\nnotebook (213)"];
+  C [label = "木\ntree (202)"];
+  I [label = "复\nduplicate (472)"];
+  F [label = "𠂉\nreclining (*)"];
+  G [label = "日\nday (12)"];
+  H [label = "夂\nwalking legs (*)"];
+
+  E -> J [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
+  I -> J [thick];
+  F -> I [thick];
+  G -> I [thick];
+  H -> I [thick];
+}

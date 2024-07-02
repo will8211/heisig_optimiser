@@ -1,0 +1,18 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  F [label = "姑\nfather’s sister (1518)"];
+  B [label = "女\nwoman (102)"];
+  E [label = "古\nancient (16)"];
+  C [label = "十\nten (10)"];
+  D [label = "口\nmouth (11)"];
+
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
+}

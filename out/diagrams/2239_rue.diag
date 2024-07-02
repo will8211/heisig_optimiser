@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "惜\nrue (2239)"];
+  B [label = "心\nheart (563)"];
+  F [label = "昔\ntimes past (971)"];
+  D [label = "昔minus日\nsalad (*)"];
+  C [label = "艹\nflower (*)"];
+  E [label = "日\nday (12)"];
+
+  B -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
+}

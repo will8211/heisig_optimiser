@@ -1,0 +1,26 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  J [label = "廉\ninexpensive (2220)"];
+  D [label = "广\nextensive (556)"];
+  B [label = "厂\nfactory (121)"];
+  C [label = "宀\nhouse (*)"];
+  I [label = "兼\ndouble (2215)"];
+  F [label = "丷\nhorns (*)"];
+  E [label = "一\none (1)"];
+  H [label = "肀\nrake (*)"];
+  G [label = "彐\nbroom (*)"];
+
+  D -> J [thick];
+  B -> D [thick];
+  C -> D [thick];
+  I -> J [thick];
+  F -> I [thick];
+  E -> F [thick];
+  H -> I [thick];
+  G -> H [thick];
+}

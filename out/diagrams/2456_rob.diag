@@ -1,0 +1,18 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  F [label = "抢\nrob (2456)"];
+  B [label = "扌\nfingers (*)"];
+  E [label = "仓\nstorehouse (1119)"];
+  C [label = "𠆢\numbrella (*)"];
+  D [label = "㔾\nfingerprint (*)"];
+
+  B -> F [thick];
+  E -> F [thick];
+  C -> E [thick];
+  D -> E [thick];
+}

@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "宛\nwinding (2451)"];
+  B [label = "宀\nhouse (*)"];
+  F [label = "夗\nnameplate (*)"];
+  D [label = "夕\nevening (115)"];
+  C [label = "月\nmonth (13)"];
+  E [label = "㔾\nfingerprint (*)"];
+
+  B -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
+}

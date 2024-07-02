@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  H [label = "圆\nround (550)"];
+  B [label = "囗\npent in (*)"];
+  G [label = "员\nemployee (55)"];
+  C [label = "口\nmouth (11)"];
+  F [label = "贝\nshellfish (52)"];
+  D [label = "目\neye (15)"];
+  E [label = "只minus口\nanimal legs (*)"];
+
+  B -> H [thick];
+  G -> H [thick];
+  C -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
+}

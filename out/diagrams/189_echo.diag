@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  H [label = "响\necho (189)"];
+  F [label = "向\norientation (188)"];
+  B [label = "丶\na drop of (*)"];
+  D [label = "冂\nhood (*)"];
+  C [label = "几\nhow many? (57)"];
+  E [label = "口\nmouth (11)"];
+  G [label = "口\nmouth (11)"];
+
+  F -> H [thick];
+  B -> F [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
+  G -> H [thick];
+}

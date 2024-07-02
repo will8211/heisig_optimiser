@@ -1,0 +1,36 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  O [label = "斜\nslanting (2651)"];
+  G [label = "余\nexcess (1283)"];
+  B [label = "𠆢\numbrella (*)"];
+  D [label = "于\nYu (1281)"];
+  C [label = "干\ndry (1277)"];
+  F [label = "小\nsmall (109)"];
+  E [label = "丶\na drop of (*)"];
+  N [label = "斗\nBig Dipper (968)"];
+  L [label = "冫\nice (*)"];
+  K [label = "水\nwater (137)"];
+  I [label = "丨\nwalking stick (*)"];
+  H [label = "一\none (1)"];
+  J [label = "丶\na drop of (*)"];
+  M [label = "十\nten (10)"];
+
+  G -> O [thick];
+  B -> G [thick];
+  D -> G [thick];
+  C -> D [thick];
+  F -> G [thick];
+  E -> F [thick];
+  N -> O [thick];
+  L -> N [thick];
+  K -> L [thick];
+  I -> K [thick];
+  H -> I [thick];
+  J -> K [thick];
+  M -> N [thick];
+}

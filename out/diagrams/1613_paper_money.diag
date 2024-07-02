@@ -1,0 +1,28 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  K [label = "钞\npaper money (1613)"];
+  F [label = "金\ngold (279)"];
+  B [label = "𠆢\numbrella (*)"];
+  D [label = "王\nking (265)"];
+  C [label = "工\nwork (76)"];
+  E [label = "丶\na drop of (*)"];
+  J [label = "少\nfew (110)"];
+  G [label = "丶\na drop of (*)"];
+  I [label = "小\nsmall (109)"];
+  H [label = "丶\na drop of (*)"];
+
+  F -> K [thick];
+  B -> F [thick];
+  D -> F [thick];
+  C -> D [thick];
+  E -> F [thick];
+  J -> K [thick];
+  G -> J [thick];
+  I -> J [thick];
+  H -> I [thick];
+}

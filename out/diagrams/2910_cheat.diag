@@ -1,0 +1,24 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  I [label = "骗\ncheat (2910)"];
+  C [label = "马\nhorse (1453)"];
+  B [label = "与minus丨一\npointed tail (*)"];
+  H [label = "扁\nflat (1367)"];
+  D [label = "冊\ntome (*)"];
+  G [label = "户\ndoor (896)"];
+  E [label = "丶\na drop of (*)"];
+  F [label = "尸\ncorpse (882)"];
+
+  C -> I [thick];
+  B -> C [thick];
+  H -> I [thick];
+  D -> H [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
+}

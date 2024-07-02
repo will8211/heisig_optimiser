@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "傻\nthick-headed (2974)"];
+  B [label = "人\nperson (793)"];
+  D [label = "囟\nFarmer’s Almanac (*)"];
+  C [label = "㐅\nsheaf (*)"];
+  E [label = "只minus口\nanimal legs (*)"];
+  F [label = "夂\nwalking legs (*)"];
+
+  B -> G [thick];
+  D -> G [thick];
+  C -> D [thick];
+  E -> G [thick];
+  F -> G [thick];
+}

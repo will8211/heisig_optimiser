@@ -1,0 +1,32 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  M [label = "漆\nwall paint (2026)"];
+  E [label = "水\nwater (137)"];
+  C [label = "丨\nwalking stick (*)"];
+  B [label = "一\none (1)"];
+  D [label = "丶\na drop of (*)"];
+  L [label = "桼\nBaron von Rumpelbrella (*)"];
+  F [label = "𠆢\numbrella (*)"];
+  J [label = "水\nwater (137)"];
+  H [label = "丨\nwalking stick (*)"];
+  G [label = "一\none (1)"];
+  I [label = "丶\na drop of (*)"];
+  K [label = "木\ntree (202)"];
+
+  E -> M [thick];
+  C -> E [thick];
+  B -> C [thick];
+  D -> E [thick];
+  L -> M [thick];
+  F -> L [thick];
+  J -> L [thick];
+  H -> J [thick];
+  G -> H [thick];
+  I -> J [thick];
+  K -> L [thick];
+}

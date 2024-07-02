@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  H [label = "葡\ngrapes (A) (2993)"];
+  B [label = "艹\nflower (*)"];
+  C [label = "勹\nbound up (*)"];
+  G [label = "甫\nFu (1379)"];
+  D [label = "十\nten (10)"];
+  E [label = "月\nmonth (13)"];
+  F [label = "丶\na drop of (*)"];
+
+  B -> H [thick];
+  C -> H [thick];
+  G -> H [thick];
+  D -> G [thick];
+  E -> G [thick];
+  F -> G [thick];
+}

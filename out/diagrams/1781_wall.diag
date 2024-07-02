@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  H [label = "墙\nwall (1781)"];
+  B [label = "土\nsoil (158)"];
+  D [label = "丷\nhorns (*)"];
+  C [label = "一\none (1)"];
+  G [label = "回\nreturn (554)"];
+  E [label = "囗\npent in (*)"];
+  F [label = "口\nmouth (11)"];
+
+  B -> H [thick];
+  D -> H [thick];
+  C -> D [thick];
+  G -> H [thick];
+  E -> G [thick];
+  F -> G [thick];
+}

@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  H [label = "惑\nbe bewildered (1792)"];
+  F [label = "或\nor (364)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "一\none (1)"];
+  E [label = "戈\nhalberd (361)"];
+  D [label = "弋\narrow (*)"];
+  G [label = "心\nheart (563)"];
+
+  F -> H [thick];
+  B -> F [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
+  G -> H [thick];
+}

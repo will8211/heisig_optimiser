@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "纹\ndesign (2714)"];
+  C [label = "纟\nthread (*)"];
+  B [label = "厶\nelbow (*)"];
+  F [label = "文\nliterature (1315)"];
+  D [label = "亠\ntop hat (*)"];
+  E [label = "㐅\nsheaf (*)"];
+
+  C -> G [thick];
+  B -> C [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
+}

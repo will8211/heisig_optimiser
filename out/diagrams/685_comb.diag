@@ -1,0 +1,26 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  J [label = "梳\ncomb (685)"];
+  B [label = "木\ntree (202)"];
+  I [label = "㐬\nbaby Moses (*)"];
+  G [label = "充minus儿\ninfant (*)"];
+  E [label = "会minus亼\nwall (*)"];
+  C [label = "厶\nelbow (*)"];
+  D [label = "一\none (1)"];
+  F [label = "丶\na drop of (*)"];
+  H [label = "川\nstream (134)"];
+
+  B -> J [thick];
+  I -> J [thick];
+  G -> I [thick];
+  E -> G [thick];
+  C -> E [thick];
+  D -> E [thick];
+  F -> G [thick];
+  H -> I [thick];
+}

@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  H [label = "框\nrectangular frame (2674)"];
+  B [label = "木\ntree (202)"];
+  C [label = "匚\nbox (*)"];
+  G [label = "玉\njade (266)"];
+  E [label = "王\nking (265)"];
+  D [label = "工\nwork (76)"];
+  F [label = "丶\na drop of (*)"];
+
+  B -> H [thick];
+  C -> H [thick];
+  G -> H [thick];
+  E -> G [thick];
+  D -> E [thick];
+  F -> G [thick];
+}

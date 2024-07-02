@@ -1,0 +1,26 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  J [label = "骡\nmule (2905)"];
+  C [label = "马\nhorse (1453)"];
+  B [label = "与minus丨一\npointed tail (*)"];
+  I [label = "累\ntired (2418)"];
+  D [label = "田\nrice field (14)"];
+  H [label = "糸\nfloss (*)"];
+  E [label = "幺\ncocoon (*)"];
+  G [label = "小\nsmall (109)"];
+  F [label = "丶\na drop of (*)"];
+
+  C -> J [thick];
+  B -> C [thick];
+  I -> J [thick];
+  D -> I [thick];
+  H -> I [thick];
+  E -> H [thick];
+  G -> H [thick];
+  F -> G [thick];
+}

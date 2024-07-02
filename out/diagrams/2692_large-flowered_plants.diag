@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "葵\nlarge-flowered plants (2692)"];
+  B [label = "艹\nflower (*)"];
+  C [label = "癶\nteepee (*)"];
+  F [label = "天\nheavens (436)"];
+  D [label = "一\none (1)"];
+  E [label = "大\nlarge (113)"];
+
+  B -> G [thick];
+  C -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
+}

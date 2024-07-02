@@ -1,0 +1,24 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  I [label = "筒\ntube (2050)"];
+  C [label = "竹\nbamboo (786)"];
+  B [label = "丁\nfourth (90)"];
+  H [label = "同\nsame (185)"];
+  D [label = "一\none (1)"];
+  E [label = "口\nmouth (11)"];
+  G [label = "冂\nhood (*)"];
+  F [label = "几\nhow many? (57)"];
+
+  C -> I [thick];
+  B -> C [thick];
+  H -> I [thick];
+  D -> H [thick];
+  E -> H [thick];
+  G -> H [thick];
+  F -> G [thick];
+}

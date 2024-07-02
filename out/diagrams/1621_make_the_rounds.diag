@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "逻\nmake the rounds (1621)"];
+  B [label = "辶\nroad (*)"];
+  F [label = "罗\nsilk gauze (120)"];
+  C [label = "目\neye (15)"];
+  E [label = "夕\nevening (115)"];
+  D [label = "月\nmonth (13)"];
+
+  B -> G [thick];
+  F -> G [thick];
+  C -> F [thick];
+  E -> F [thick];
+  D -> E [thick];
+}

@@ -1,0 +1,20 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  G [label = "盔\nhelmet (2488)"];
+  E [label = "灰\nashes (172)"];
+  B [label = "火\nfire (170)"];
+  D [label = "𠂇\nby one’s side (*)"];
+  C [label = "十\nten (10)"];
+  F [label = "皿\ndish (*)"];
+
+  E -> G [thick];
+  B -> E [thick];
+  D -> E [thick];
+  C -> D [thick];
+  F -> G [thick];
+}

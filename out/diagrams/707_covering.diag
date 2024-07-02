@@ -1,0 +1,16 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  E [label = "皮\ncovering (707)"];
+  D [label = "支\noffshoot (650)"];
+  B [label = "十\nten (10)"];
+  C [label = "又\nagain (633)"];
+
+  D -> E [thick];
+  B -> D [thick];
+  C -> D [thick];
+}

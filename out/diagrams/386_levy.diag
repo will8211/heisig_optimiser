@@ -1,0 +1,24 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  I [label = "赋\nlevy (386)"];
+  D [label = "贝\nshellfish (52)"];
+  B [label = "目\neye (15)"];
+  C [label = "只minus口\nanimal legs (*)"];
+  H [label = "武\nmilitary (385)"];
+  E [label = "一\none (1)"];
+  F [label = "弋\narrow (*)"];
+  G [label = "止\nstop (379)"];
+
+  D -> I [thick];
+  B -> D [thick];
+  C -> D [thick];
+  H -> I [thick];
+  E -> H [thick];
+  F -> H [thick];
+  G -> H [thick];
+}

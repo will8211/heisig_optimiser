@@ -1,0 +1,36 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  O [label = "识\nknowledge (353)"];
+  D [label = "只\nonly (51)"];
+  B [label = "口\nmouth (11)"];
+  C [label = "只minus口\nanimal legs (*)"];
+  N [label = "词\nword (1392)"];
+  I [label = "言\nsay (346)"];
+  F [label = "二\ntwo (2)"];
+  E [label = "一\none (1)"];
+  G [label = "口\nmouth (11)"];
+  H [label = "亠\ntop hat (*)"];
+  M [label = "司\ntake charge of (1391)"];
+  J [label = "𠃌\nclothes hanger (*)"];
+  K [label = "一\none (1)"];
+  L [label = "口\nmouth (11)"];
+
+  D -> O [thick];
+  B -> D [thick];
+  C -> D [thick];
+  N -> O [thick];
+  I -> N [thick];
+  F -> I [thick];
+  E -> F [thick];
+  G -> I [thick];
+  H -> I [thick];
+  M -> N [thick];
+  J -> M [thick];
+  K -> M [thick];
+  L -> M [thick];
+}

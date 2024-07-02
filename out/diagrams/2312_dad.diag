@@ -1,0 +1,18 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  F [label = "爹\ndad (2312)"];
+  C [label = "父\nfather (1043)"];
+  B [label = "丶\na drop of (*)"];
+  E [label = "多\nmany (116)"];
+  D [label = "月\nmonth (13)"];
+
+  C -> F [thick];
+  B -> C [thick];
+  E -> F [thick];
+  D -> E [thick];
+}

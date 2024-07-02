@@ -1,0 +1,18 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  F [label = "肩\nshoulder (2153)"];
+  D [label = "户\ndoor (896)"];
+  B [label = "丶\na drop of (*)"];
+  C [label = "尸\ncorpse (882)"];
+  E [label = "月\nmonth (13)"];
+
+  D -> F [thick];
+  B -> D [thick];
+  C -> D [thick];
+  E -> F [thick];
+}

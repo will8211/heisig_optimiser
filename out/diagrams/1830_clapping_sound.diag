@@ -1,0 +1,22 @@
+blockdiag {
+  default_fontsize = 70
+  node_width = 800
+  node_height = 250
+  span_width = 250
+  span_height = 150
+
+  H [label = "啪\nclapping sound (1830)"];
+  B [label = "口\nmouth (11)"];
+  G [label = "拍\nracquet (1829)"];
+  C [label = "扌\nfingers (*)"];
+  F [label = "白\nwhite (34)"];
+  D [label = "日\nday (12)"];
+  E [label = "丶\na drop of (*)"];
+
+  B -> H [thick];
+  G -> H [thick];
+  C -> G [thick];
+  F -> G [thick];
+  D -> F [thick];
+  E -> F [thick];
+}
