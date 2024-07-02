@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  H [label = "树\ntimber (643)"];
-  B [label = "木\ntree (202)"];
-  G [label = "对\nthat’s right (642)"];
-  C [label = "又\nagain (633)"];
-  F [label = "寸\nChinese inch (166)"];
-  D [label = "丶\na drop of (*)"];
-  E [label = "十\nten (10)"];
+  H [label = "树\ntimber (643)", background = "../../assets/Elementary.png"];
+  B [label = "木\ntree (202)", background = "../../assets/Elementary.png"];
+  G [label = "对\nthat’s right (642)", background = "../../assets/Elementary.png"];
+  C [label = "又\nagain (633)", background = "../../assets/Elementary.png"];
+  F [label = "寸\nChinese inch (166)", background = "../../assets/Advanced.png"];
+  D [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  E [label = "十\nten (10)", background = "../../assets/Elementary.png"];
 
-  B -> H [thick];
-  G -> H [thick];
-  C -> G [thick];
-  F -> G [thick];
-  D -> F [thick];
-  E -> F [thick];
+  B -- H [thick];
+  G -- H [thick];
+  C -- G [thick];
+  F -- G [thick];
+  D -- F [thick];
+  E -- F [thick];
 }

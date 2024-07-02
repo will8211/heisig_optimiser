@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  I [label = "袭\nraid (1475)"];
-  F [label = "龙\ndragon (1474)"];
-  D [label = "犬\npooch (239)"];
-  B [label = "大\nlarge (113)"];
-  C [label = "丶\na drop of (*)"];
-  E [label = "匕\nancient spoon (453)"];
-  H [label = "衣\nclothing (400)"];
-  G [label = "亠\ntop hat (*)"];
+  I [label = "袭\nraid (1475)", background = "../../assets/None.png"];
+  F [label = "龙\ndragon (1474)", background = "../../assets/Medium.png"];
+  D [label = "犬\npooch (239)", background = "../../assets/None.png"];
+  B [label = "大\nlarge (113)", background = "../../assets/Elementary.png"];
+  C [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  E [label = "匕\nancient spoon (453)", background = "../../assets/None.png"];
+  H [label = "衣\nclothing (400)", background = "../../assets/Elementary.png"];
+  G [label = "亠\ntop hat (primitive)", background = "../../assets/None.png"];
 
-  F -> I [thick];
-  D -> F [thick];
-  B -> D [thick];
-  C -> D [thick];
-  E -> F [thick];
-  H -> I [thick];
-  G -> H [thick];
+  F -- I [thick];
+  D -- F [thick];
+  B -- D [thick];
+  C -- D [thick];
+  E -- F [thick];
+  H -- I [thick];
+  G -- H [thick];
 }

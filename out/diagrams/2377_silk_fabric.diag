@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  J [label = "绸\nsilk fabric (2377)"];
-  C [label = "纟\nthread (*)"];
-  B [label = "厶\nelbow (*)"];
-  I [label = "周\ncircumference (333)"];
-  F [label = "周minus冂\nlidded crock (*)"];
-  D [label = "土\nsoil (158)"];
-  E [label = "口\nmouth (11)"];
-  H [label = "冂\nhood (*)"];
-  G [label = "几\nhow many? (57)"];
+  J [label = "绸\nsilk fabric (2377)", background = "../../assets/None.png"];
+  C [label = "纟\nthread (primitive)", background = "../../assets/None.png"];
+  B [label = "厶\nelbow (primitive)", background = "../../assets/None.png"];
+  I [label = "周\ncircumference (333)", background = "../../assets/Medium.png"];
+  F [label = "周minus冂\nlidded crock (primitive)", background = "../../assets/None.png"];
+  D [label = "土\nsoil (158)", background = "../../assets/Medium.png"];
+  E [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  H [label = "冂\nhood (primitive)", background = "../../assets/None.png"];
+  G [label = "几\nhow many? (57)", background = "../../assets/Elementary.png"];
 
-  C -> J [thick];
-  B -> C [thick];
-  I -> J [thick];
-  F -> I [thick];
-  D -> F [thick];
-  E -> F [thick];
-  H -> I [thick];
-  G -> H [thick];
+  C -- J [thick];
+  B -- C [thick];
+  I -- J [thick];
+  F -- I [thick];
+  D -- F [thick];
+  E -- F [thick];
+  H -- I [thick];
+  G -- H [thick];
 }

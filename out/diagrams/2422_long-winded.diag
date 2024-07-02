@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  I [label = "絮\nlong-winded (2422)"];
-  D [label = "如\nbe like (104)"];
-  B [label = "口\nmouth (11)"];
-  C [label = "女\nwoman (102)"];
-  H [label = "糸\nfloss (*)"];
-  E [label = "幺\ncocoon (*)"];
-  G [label = "小\nsmall (109)"];
-  F [label = "丶\na drop of (*)"];
+  I [label = "絮\nlong-winded (2422)", background = "../../assets/None.png"];
+  D [label = "如\nbe like (104)", background = "../../assets/Medium.png"];
+  B [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  C [label = "女\nwoman (102)", background = "../../assets/Elementary.png"];
+  H [label = "糸\nfloss (primitive)", background = "../../assets/None.png"];
+  E [label = "幺\ncocoon (primitive)", background = "../../assets/None.png"];
+  G [label = "小\nsmall (109)", background = "../../assets/Elementary.png"];
+  F [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
 
-  D -> I [thick];
-  B -> D [thick];
-  C -> D [thick];
-  H -> I [thick];
-  E -> H [thick];
-  G -> H [thick];
-  F -> G [thick];
+  D -- I [thick];
+  B -- D [thick];
+  C -- D [thick];
+  H -- I [thick];
+  E -- H [thick];
+  G -- H [thick];
+  F -- G [thick];
 }

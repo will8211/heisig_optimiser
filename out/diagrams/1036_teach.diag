@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  J [label = "教\nteach (1036)"];
-  H [label = "孝\nfilial piety (1035)"];
-  F [label = "老\nold man (1029)"];
-  B [label = "土\nsoil (158)"];
-  D [label = "丨\nwalking stick (*)"];
-  C [label = "一\none (1)"];
-  E [label = "匕\nancient spoon (453)"];
-  G [label = "子\nchild (97)"];
-  I [label = "攵\ntaskmaster (*)"];
+  J [label = "教\nteach (1036)", background = "../../assets/Elementary.png"];
+  H [label = "孝\nfilial piety (1035)", background = "../../assets/None.png"];
+  F [label = "老\nold man (1029)", background = "../../assets/Elementary.png"];
+  B [label = "土\nsoil (158)", background = "../../assets/Medium.png"];
+  D [label = "丨\nwalking stick (primitive)", background = "../../assets/None.png"];
+  C [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  E [label = "匕\nancient spoon (453)", background = "../../assets/None.png"];
+  G [label = "子\nchild (97)", background = "../../assets/Elementary.png"];
+  I [label = "攵\ntaskmaster (primitive)", background = "../../assets/None.png"];
 
-  H -> J [thick];
-  F -> H [thick];
-  B -> F [thick];
-  D -> F [thick];
-  C -> D [thick];
-  E -> F [thick];
-  G -> H [thick];
-  I -> J [thick];
+  H -- J [thick];
+  F -- H [thick];
+  B -- F [thick];
+  D -- F [thick];
+  C -- D [thick];
+  E -- F [thick];
+  G -- H [thick];
+  I -- J [thick];
 }

@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  G [label = "翘\nturn upward (1774)"];
-  E [label = "尧\nYao (376)"];
-  C [label = "戈\nhalberd (361)"];
-  B [label = "弋\narrow (*)"];
-  D [label = "儿\nyoungster (56)"];
-  F [label = "羽\nfeathers (544)"];
+  G [label = "翘\nturn upward (1774)", background = "../../assets/None.png"];
+  E [label = "尧\nYao (376)", background = "../../assets/None.png"];
+  C [label = "戈\nhalberd (361)", background = "../../assets/None.png"];
+  B [label = "弋\narrow (primitive)", background = "../../assets/None.png"];
+  D [label = "儿\nyoungster (56)", background = "../../assets/Elementary.png"];
+  F [label = "羽\nfeathers (544)", background = "../../assets/None.png"];
 
-  E -> G [thick];
-  C -> E [thick];
-  B -> C [thick];
-  D -> E [thick];
-  F -> G [thick];
+  E -- G [thick];
+  C -- E [thick];
+  B -- C [thick];
+  D -- E [thick];
+  F -- G [thick];
 }

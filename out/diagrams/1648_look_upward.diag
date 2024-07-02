@@ -5,26 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  L [label = "瞻\nlook upward (1648)"];
-  B [label = "目\neye (15)"];
-  K [label = "詹\nsnitch (*)"];
-  C [label = "勹\nbound up (*)"];
-  D [label = "只minus口\nanimal legs (*)"];
-  E [label = "厂\nfactory (121)"];
-  J [label = "言\nsay (346)"];
-  G [label = "二\ntwo (2)"];
-  F [label = "一\none (1)"];
-  H [label = "口\nmouth (11)"];
-  I [label = "亠\ntop hat (*)"];
+  L [label = "瞻\nlook upward (1648)", background = "../../assets/None.png"];
+  B [label = "目\neye (15)", background = "../../assets/Medium.png"];
+  K [label = "詹\nsnitch (primitive)", background = "../../assets/None.png"];
+  C [label = "勹\nbound up (primitive)", background = "../../assets/None.png"];
+  D [label = "只minus口\nanimal legs (primitive)", background = "../../assets/None.png"];
+  E [label = "厂\nfactory (121)", background = "../../assets/Medium.png"];
+  J [label = "言\nsay (346)", background = "../../assets/Medium.png"];
+  G [label = "二\ntwo (2)", background = "../../assets/Elementary.png"];
+  F [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  H [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  I [label = "亠\ntop hat (primitive)", background = "../../assets/None.png"];
 
-  B -> L [thick];
-  K -> L [thick];
-  C -> K [thick];
-  D -> K [thick];
-  E -> K [thick];
-  J -> K [thick];
-  G -> J [thick];
-  F -> G [thick];
-  H -> J [thick];
-  I -> J [thick];
+  B -- L [thick];
+  K -- L [thick];
+  C -- K [thick];
+  D -- K [thick];
+  E -- K [thick];
+  J -- K [thick];
+  G -- J [thick];
+  F -- G [thick];
+  H -- J [thick];
+  I -- J [thick];
 }

@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  G [label = "盔\nhelmet (2488)"];
-  E [label = "灰\nashes (172)"];
-  B [label = "火\nfire (170)"];
-  D [label = "𠂇\nby one’s side (*)"];
-  C [label = "十\nten (10)"];
-  F [label = "皿\ndish (*)"];
+  G [label = "盔\nhelmet (2488)", background = "../../assets/None.png"];
+  E [label = "灰\nashes (172)", background = "../../assets/None.png"];
+  B [label = "火\nfire (170)", background = "../../assets/Elementary.png"];
+  D [label = "𠂇\nby one’s side (primitive)", background = "../../assets/None.png"];
+  C [label = "十\nten (10)", background = "../../assets/Elementary.png"];
+  F [label = "皿\ndish (primitive)", background = "../../assets/None.png"];
 
-  E -> G [thick];
-  B -> E [thick];
-  D -> E [thick];
-  C -> D [thick];
-  F -> G [thick];
+  E -- G [thick];
+  B -- E [thick];
+  D -- E [thick];
+  C -- D [thick];
+  F -- G [thick];
 }

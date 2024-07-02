@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  I [label = "摇\nshake (1446)"];
-  B [label = "扌\nfingers (*)"];
-  H [label = "䍃\ncan opener (*)"];
-  D [label = "爪\nclaw (663)"];
-  C [label = "𠂆\ndrag (*)"];
-  G [label = "缶\ntin can (*)"];
-  E [label = "午\nnoon (542)"];
-  F [label = "山\nmountain (688)"];
+  I [label = "摇\nshake (1446)", background = "../../assets/None.png"];
+  B [label = "扌\nfingers (primitive)", background = "../../assets/None.png"];
+  H [label = "䍃\ncan opener (primitive)", background = "../../assets/None.png"];
+  D [label = "爪\nclaw (663)", background = "../../assets/None.png"];
+  C [label = "𠂆\ndrag (primitive)", background = "../../assets/None.png"];
+  G [label = "缶\ntin can (primitive)", background = "../../assets/None.png"];
+  E [label = "午\nnoon (542)", background = "../../assets/Elementary.png"];
+  F [label = "山\nmountain (688)", background = "../../assets/Elementary.png"];
 
-  B -> I [thick];
-  H -> I [thick];
-  D -> H [thick];
-  C -> D [thick];
-  G -> H [thick];
-  E -> G [thick];
-  F -> G [thick];
+  B -- I [thick];
+  H -- I [thick];
+  D -- H [thick];
+  C -- D [thick];
+  G -- H [thick];
+  E -- G [thick];
+  F -- G [thick];
 }

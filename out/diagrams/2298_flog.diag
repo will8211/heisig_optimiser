@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  K [label = "拷\nflog (2298)"];
-  B [label = "扌\nfingers (*)"];
-  J [label = "考\ntake an exam (1030)"];
-  G [label = "老\nold man (1029)"];
-  C [label = "土\nsoil (158)"];
-  E [label = "丨\nwalking stick (*)"];
-  D [label = "一\none (1)"];
-  F [label = "匕\nancient spoon (453)"];
-  I [label = "与minus一\nslingshot (*)"];
-  H [label = "弓\nbow (1013)"];
+  K [label = "拷\nflog (2298)", background = "../../assets/None.png"];
+  B [label = "扌\nfingers (primitive)", background = "../../assets/None.png"];
+  J [label = "考\ntake an exam (1030)", background = "../../assets/Elementary.png"];
+  G [label = "老\nold man (1029)", background = "../../assets/Elementary.png"];
+  C [label = "土\nsoil (158)", background = "../../assets/Medium.png"];
+  E [label = "丨\nwalking stick (primitive)", background = "../../assets/None.png"];
+  D [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  F [label = "匕\nancient spoon (453)", background = "../../assets/None.png"];
+  I [label = "与minus一\nslingshot (primitive)", background = "../../assets/None.png"];
+  H [label = "弓\nbow (1013)", background = "../../assets/None.png"];
 
-  B -> K [thick];
-  J -> K [thick];
-  G -> J [thick];
-  C -> G [thick];
-  E -> G [thick];
-  D -> E [thick];
-  F -> G [thick];
-  I -> J [thick];
-  H -> I [thick];
+  B -- K [thick];
+  J -- K [thick];
+  G -- J [thick];
+  C -- G [thick];
+  E -- G [thick];
+  D -- E [thick];
+  F -- G [thick];
+  I -- J [thick];
+  H -- I [thick];
 }

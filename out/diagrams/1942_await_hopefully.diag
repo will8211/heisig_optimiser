@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  F [label = "盼\nawait hopefully (1942)"];
-  B [label = "目\neye (15)"];
-  E [label = "分\npart (694)"];
-  C [label = "八\neight (8)"];
-  D [label = "刀\nsword (83)"];
+  F [label = "盼\nawait hopefully (1942)", background = "../../assets/Advanced.png"];
+  B [label = "目\neye (15)", background = "../../assets/Medium.png"];
+  E [label = "分\npart (694)", background = "../../assets/Elementary.png"];
+  C [label = "八\neight (8)", background = "../../assets/Elementary.png"];
+  D [label = "刀\nsword (83)", background = "../../assets/Medium.png"];
 
-  B -> F [thick];
-  E -> F [thick];
-  C -> E [thick];
-  D -> E [thick];
+  B -- F [thick];
+  E -- F [thick];
+  C -- E [thick];
+  D -- E [thick];
 }

@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  I [label = "魅\nenchant (2926)"];
-  F [label = "鬼\nghost (1472)"];
-  B [label = "丶\na drop of (*)"];
-  C [label = "田\nrice field (14)"];
-  D [label = "儿\nyoungster (56)"];
-  E [label = "厶\nelbow (*)"];
-  H [label = "未\nnot yet (215)"];
-  G [label = "木\ntree (202)"];
+  I [label = "魅\nenchant (2926)", background = "../../assets/None.png"];
+  F [label = "鬼\nghost (1472)", background = "../../assets/Advanced.png"];
+  B [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  C [label = "田\nrice field (14)", background = "../../assets/Medium.png"];
+  D [label = "儿\nyoungster (56)", background = "../../assets/Elementary.png"];
+  E [label = "厶\nelbow (primitive)", background = "../../assets/None.png"];
+  H [label = "未\nnot yet (215)", background = "../../assets/Medium.png"];
+  G [label = "木\ntree (202)", background = "../../assets/Elementary.png"];
 
-  F -> I [thick];
-  B -> F [thick];
-  C -> F [thick];
-  D -> F [thick];
-  E -> F [thick];
-  H -> I [thick];
-  G -> H [thick];
+  F -- I [thick];
+  B -- F [thick];
+  C -- F [thick];
+  D -- F [thick];
+  E -- F [thick];
+  H -- I [thick];
+  G -- H [thick];
 }

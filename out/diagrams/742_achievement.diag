@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  D [label = "功\nachievement (742)"];
-  B [label = "工\nwork (76)"];
-  C [label = "力\npower (732)"];
+  D [label = "功\nachievement (742)", background = "../../assets/Advanced.png"];
+  B [label = "工\nwork (76)", background = "../../assets/Elementary.png"];
+  C [label = "力\npower (732)", background = "../../assets/Medium.png"];
 
-  B -> D [thick];
-  C -> D [thick];
+  B -- D [thick];
+  C -- D [thick];
 }

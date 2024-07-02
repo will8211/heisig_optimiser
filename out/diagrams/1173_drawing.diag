@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  I [label = "画\ndrawing (1173)"];
-  B [label = "一\none (1)"];
-  C [label = "田\nrice field (14)"];
-  H [label = "坑\npit (323)"];
-  F [label = "亢\nwhirlwind (*)"];
-  D [label = "亠\ntop hat (*)"];
-  E [label = "几\nhow many? (57)"];
-  G [label = "土\nsoil (158)"];
+  I [label = "画\ndrawing (1173)", background = "../../assets/Medium.png"];
+  B [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  C [label = "田\nrice field (14)", background = "../../assets/Medium.png"];
+  H [label = "坑\npit (323)", background = "../../assets/None.png"];
+  F [label = "亢\nwhirlwind (primitive)", background = "../../assets/None.png"];
+  D [label = "亠\ntop hat (primitive)", background = "../../assets/None.png"];
+  E [label = "几\nhow many? (57)", background = "../../assets/Elementary.png"];
+  G [label = "土\nsoil (158)", background = "../../assets/Medium.png"];
 
-  B -> I [thick];
-  C -> I [thick];
-  H -> I [thick];
-  F -> H [thick];
-  D -> F [thick];
-  E -> F [thick];
-  G -> H [thick];
+  B -- I [thick];
+  C -- I [thick];
+  H -- I [thick];
+  F -- H [thick];
+  D -- F [thick];
+  E -- F [thick];
+  G -- H [thick];
 }

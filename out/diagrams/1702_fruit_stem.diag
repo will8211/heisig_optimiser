@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  H [label = "蒂\nfruit stem (1702)"];
-  B [label = "艹\nflower (*)"];
-  G [label = "帝\nsovereign (449)"];
-  C [label = "立\nstanding up (444)"];
-  F [label = "冖＋巾\napron (*)"];
-  D [label = "巾\ntowel (410)"];
-  E [label = "冖\ncrown (*)"];
+  H [label = "蒂\nfruit stem (1702)", background = "../../assets/None.png"];
+  B [label = "艹\nflower (primitive)", background = "../../assets/None.png"];
+  G [label = "帝\nsovereign (449)", background = "../../assets/None.png"];
+  C [label = "立\nstanding up (444)", background = "../../assets/Advanced.png"];
+  F [label = "冖＋巾\napron (primitive)", background = "../../assets/None.png"];
+  D [label = "巾\ntowel (410)", background = "../../assets/Advanced.png"];
+  E [label = "冖\ncrown (primitive)", background = "../../assets/None.png"];
 
-  B -> H [thick];
-  G -> H [thick];
-  C -> G [thick];
-  F -> G [thick];
-  D -> F [thick];
-  E -> F [thick];
+  B -- H [thick];
+  G -- H [thick];
+  C -- G [thick];
+  F -- G [thick];
+  D -- F [thick];
+  E -- F [thick];
 }

@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  H [label = "唇\nlips (2918)"];
-  F [label = "辰\nsign of the dragon (1467)"];
-  B [label = "厂\nfactory (121)"];
-  D [label = "二\ntwo (2)"];
-  C [label = "一\none (1)"];
-  E [label = "丧minus十minus丷\nbarrette (*)"];
-  G [label = "口\nmouth (11)"];
+  H [label = "唇\nlips (2918)", background = "../../assets/None.png"];
+  F [label = "辰\nsign of the dragon (1467)", background = "../../assets/None.png"];
+  B [label = "厂\nfactory (121)", background = "../../assets/Medium.png"];
+  D [label = "二\ntwo (2)", background = "../../assets/Elementary.png"];
+  C [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  E [label = "丧minus十minus丷\nbarrette (primitive)", background = "../../assets/None.png"];
+  G [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
 
-  F -> H [thick];
-  B -> F [thick];
-  D -> F [thick];
-  C -> D [thick];
-  E -> F [thick];
-  G -> H [thick];
+  F -- H [thick];
+  B -- F [thick];
+  D -- F [thick];
+  C -- D [thick];
+  E -- F [thick];
+  G -- H [thick];
 }

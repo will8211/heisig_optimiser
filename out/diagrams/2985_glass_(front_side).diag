@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  J [label = "玻\nglass (front side) (2985)"];
-  E [label = "玉\njade (266)"];
-  C [label = "王\nking (265)"];
-  B [label = "工\nwork (76)"];
-  D [label = "丶\na drop of (*)"];
-  I [label = "皮\ncovering (707)"];
-  H [label = "支\noffshoot (650)"];
-  F [label = "十\nten (10)"];
-  G [label = "又\nagain (633)"];
+  J [label = "玻\nglass (front side) (2985)", background = "../../assets/None.png"];
+  E [label = "玉\njade (266)", background = "../../assets/Medium.png"];
+  C [label = "王\nking (265)", background = "../../assets/Medium.png"];
+  B [label = "工\nwork (76)", background = "../../assets/Elementary.png"];
+  D [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  I [label = "皮\ncovering (707)", background = "../../assets/Advanced.png"];
+  H [label = "支\noffshoot (650)", background = "../../assets/Medium.png"];
+  F [label = "十\nten (10)", background = "../../assets/Elementary.png"];
+  G [label = "又\nagain (633)", background = "../../assets/Elementary.png"];
 
-  E -> J [thick];
-  C -> E [thick];
-  B -> C [thick];
-  D -> E [thick];
-  I -> J [thick];
-  H -> I [thick];
-  F -> H [thick];
-  G -> H [thick];
+  E -- J [thick];
+  C -- E [thick];
+  B -- C [thick];
+  D -- E [thick];
+  I -- J [thick];
+  H -- I [thick];
+  F -- H [thick];
+  G -- H [thick];
 }

@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  J [label = "锈\nrust (2027)"];
-  F [label = "金\ngold (279)"];
-  B [label = "𠆢\numbrella (*)"];
-  D [label = "王\nking (265)"];
-  C [label = "工\nwork (76)"];
-  E [label = "丶\na drop of (*)"];
-  I [label = "秀\nelegant (775)"];
-  G [label = "禾\nstanding grain (762)"];
-  H [label = "乃\nonly then (625)"];
+  J [label = "锈\nrust (2027)", background = "../../assets/None.png"];
+  F [label = "金\ngold (279)", background = "../../assets/Advanced.png"];
+  B [label = "𠆢\numbrella (primitive)", background = "../../assets/None.png"];
+  D [label = "王\nking (265)", background = "../../assets/Medium.png"];
+  C [label = "工\nwork (76)", background = "../../assets/Elementary.png"];
+  E [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  I [label = "秀\nelegant (775)", background = "../../assets/Advanced.png"];
+  G [label = "禾\nstanding grain (762)", background = "../../assets/None.png"];
+  H [label = "乃\nonly then (625)", background = "../../assets/None.png"];
 
-  F -> J [thick];
-  B -> F [thick];
-  D -> F [thick];
-  C -> D [thick];
-  E -> F [thick];
-  I -> J [thick];
-  G -> I [thick];
-  H -> I [thick];
+  F -- J [thick];
+  B -- F [thick];
+  D -- F [thick];
+  C -- D [thick];
+  E -- F [thick];
+  I -- J [thick];
+  G -- I [thick];
+  H -- I [thick];
 }

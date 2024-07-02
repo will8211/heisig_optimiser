@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  I [label = "械\nweapon (1869)"];
-  B [label = "木\ntree (202)"];
-  H [label = "戒\ntake precautions against (1868)"];
-  E [label = "开\nopen (613)"];
-  D [label = "二\ntwo (2)"];
-  C [label = "一\none (1)"];
-  G [label = "戈\nhalberd (361)"];
-  F [label = "弋\narrow (*)"];
+  I [label = "械\nweapon (1869)", background = "../../assets/None.png"];
+  B [label = "木\ntree (202)", background = "../../assets/Elementary.png"];
+  H [label = "戒\ntake precautions against (1868)", background = "../../assets/None.png"];
+  E [label = "开\nopen (613)", background = "../../assets/Elementary.png"];
+  D [label = "二\ntwo (2)", background = "../../assets/Elementary.png"];
+  C [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  G [label = "戈\nhalberd (361)", background = "../../assets/None.png"];
+  F [label = "弋\narrow (primitive)", background = "../../assets/None.png"];
 
-  B -> I [thick];
-  H -> I [thick];
-  E -> H [thick];
-  D -> E [thick];
-  C -> D [thick];
-  G -> H [thick];
-  F -> G [thick];
+  B -- I [thick];
+  H -- I [thick];
+  E -- H [thick];
+  D -- E [thick];
+  C -- D [thick];
+  G -- H [thick];
+  F -- G [thick];
 }

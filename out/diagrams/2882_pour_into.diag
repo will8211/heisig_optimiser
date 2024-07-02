@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  K [label = "灌\npour into (2882)"];
-  E [label = "水\nwater (137)"];
-  C [label = "丨\nwalking stick (*)"];
-  B [label = "一\none (1)"];
-  D [label = "丶\na drop of (*)"];
-  J [label = "雚\nstork (*)"];
-  F [label = "隹\nturkey (*)"];
-  H [label = "吅\nchatterbox (*)"];
-  G [label = "口\nmouth (11)"];
-  I [label = "艹\nflower (*)"];
+  K [label = "灌\npour into (2882)", background = "../../assets/None.png"];
+  E [label = "水\nwater (137)", background = "../../assets/Elementary.png"];
+  C [label = "丨\nwalking stick (primitive)", background = "../../assets/None.png"];
+  B [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  D [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  J [label = "雚\nstork (primitive)", background = "../../assets/None.png"];
+  F [label = "隹\nturkey (primitive)", background = "../../assets/None.png"];
+  H [label = "吅\nchatterbox (primitive)", background = "../../assets/None.png"];
+  G [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  I [label = "艹\nflower (primitive)", background = "../../assets/None.png"];
 
-  E -> K [thick];
-  C -> E [thick];
-  B -> C [thick];
-  D -> E [thick];
-  J -> K [thick];
-  F -> J [thick];
-  H -> J [thick];
-  G -> H [thick];
-  I -> J [thick];
+  E -- K [thick];
+  C -- E [thick];
+  B -- C [thick];
+  D -- E [thick];
+  J -- K [thick];
+  F -- J [thick];
+  H -- J [thick];
+  G -- H [thick];
+  I -- J [thick];
 }

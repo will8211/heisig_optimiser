@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  F [label = "昂\nhold one’s head high (2690)"];
-  B [label = "日\nday (12)"];
-  E [label = "卬\nstamp collection (*)"];
-  C [label = "匚\nbox (*)"];
-  D [label = "卩\nstamp (*)"];
+  F [label = "昂\nhold one’s head high (2690)", background = "../../assets/None.png"];
+  B [label = "日\nday (12)", background = "../../assets/Elementary.png"];
+  E [label = "卬\nstamp collection (primitive)", background = "../../assets/None.png"];
+  C [label = "匚\nbox (primitive)", background = "../../assets/None.png"];
+  D [label = "卩\nstamp (primitive)", background = "../../assets/None.png"];
 
-  B -> F [thick];
-  E -> F [thick];
-  C -> E [thick];
-  D -> E [thick];
+  B -- F [thick];
+  E -- F [thick];
+  C -- E [thick];
+  D -- E [thick];
 }

@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  H [label = "葛\nkudzu (2108)"];
-  B [label = "艹\nflower (*)"];
-  G [label = "曷\nsiesta (*)"];
-  C [label = "人\nperson (793)"];
-  D [label = "勹\nbound up (*)"];
-  E [label = "乙\nsecond (95)"];
-  F [label = "日\nday (12)"];
+  H [label = "葛\nkudzu (2108)", background = "../../assets/None.png"];
+  B [label = "艹\nflower (primitive)", background = "../../assets/None.png"];
+  G [label = "曷\nsiesta (primitive)", background = "../../assets/None.png"];
+  C [label = "人\nperson (793)", background = "../../assets/Elementary.png"];
+  D [label = "勹\nbound up (primitive)", background = "../../assets/None.png"];
+  E [label = "乙\nsecond (95)", background = "../../assets/Medium.png"];
+  F [label = "日\nday (12)", background = "../../assets/Elementary.png"];
 
-  B -> H [thick];
-  G -> H [thick];
-  C -> G [thick];
-  D -> G [thick];
-  E -> G [thick];
-  F -> G [thick];
+  B -- H [thick];
+  G -- H [thick];
+  C -- G [thick];
+  D -- G [thick];
+  E -- G [thick];
+  F -- G [thick];
 }

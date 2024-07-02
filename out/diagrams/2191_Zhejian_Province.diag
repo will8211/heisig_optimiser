@@ -5,28 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  M [label = "浙\nZhejian Province (2191)"];
-  E [label = "水\nwater (137)"];
-  C [label = "丨\nwalking stick (*)"];
-  B [label = "一\none (1)"];
-  D [label = "丶\na drop of (*)"];
-  L [label = "折\ndiscount (932)"];
-  J [label = "指\nfinger (594)"];
-  F [label = "扌\nfingers (*)"];
-  I [label = "旨\npurpose (463)"];
-  G [label = "匕\nancient spoon (453)"];
-  H [label = "日\nday (12)"];
-  K [label = "斤\ncatty (924)"];
+  M [label = "浙\nZhejian Province (2191)", background = "../../assets/None.png"];
+  E [label = "水\nwater (137)", background = "../../assets/Elementary.png"];
+  C [label = "丨\nwalking stick (primitive)", background = "../../assets/None.png"];
+  B [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  D [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  L [label = "折\ndiscount (932)", background = "../../assets/Advanced.png"];
+  J [label = "指\nfinger (594)", background = "../../assets/Advanced.png"];
+  F [label = "扌\nfingers (primitive)", background = "../../assets/None.png"];
+  I [label = "旨\npurpose (463)", background = "../../assets/None.png"];
+  G [label = "匕\nancient spoon (453)", background = "../../assets/None.png"];
+  H [label = "日\nday (12)", background = "../../assets/Elementary.png"];
+  K [label = "斤\ncatty (924)", background = "../../assets/Medium.png"];
 
-  E -> M [thick];
-  C -> E [thick];
-  B -> C [thick];
-  D -> E [thick];
-  L -> M [thick];
-  J -> L [thick];
-  F -> J [thick];
-  I -> J [thick];
-  G -> I [thick];
-  H -> I [thick];
-  K -> L [thick];
+  E -- M [thick];
+  C -- E [thick];
+  B -- C [thick];
+  D -- E [thick];
+  L -- M [thick];
+  J -- L [thick];
+  F -- J [thick];
+  I -- J [thick];
+  G -- I [thick];
+  H -- I [thick];
+  K -- L [thick];
 }

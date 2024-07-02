@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  H [label = "确\nreliable (1363)"];
-  D [label = "石\nstone (125)"];
-  B [label = "口\nmouth (11)"];
-  C [label = "厂\nfactory (121)"];
-  G [label = "角\nangle (1362)"];
-  E [label = "勹\nbound up (*)"];
-  F [label = "用\nutilize (1361)"];
+  H [label = "确\nreliable (1363)", background = "../../assets/Medium.png"];
+  D [label = "石\nstone (125)", background = "../../assets/Advanced.png"];
+  B [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  C [label = "厂\nfactory (121)", background = "../../assets/Medium.png"];
+  G [label = "角\nangle (1362)", background = "../../assets/Medium.png"];
+  E [label = "勹\nbound up (primitive)", background = "../../assets/None.png"];
+  F [label = "用\nutilize (1361)", background = "../../assets/Elementary.png"];
 
-  D -> H [thick];
-  B -> D [thick];
-  C -> D [thick];
-  G -> H [thick];
-  E -> G [thick];
-  F -> G [thick];
+  D -- H [thick];
+  B -- D [thick];
+  C -- D [thick];
+  G -- H [thick];
+  E -- G [thick];
+  F -- G [thick];
 }

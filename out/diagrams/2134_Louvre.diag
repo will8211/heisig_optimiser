@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  G [label = "卢\nLouvre (2134)"];
-  E [label = "卜\ndivination (43)"];
-  C [label = "丨\nwalking stick (*)"];
-  B [label = "一\none (1)"];
-  D [label = "丶\na drop of (*)"];
-  F [label = "尸\ncorpse (882)"];
+  G [label = "卢\nLouvre (2134)", background = "../../assets/None.png"];
+  E [label = "卜\ndivination (43)", background = "../../assets/None.png"];
+  C [label = "丨\nwalking stick (primitive)", background = "../../assets/None.png"];
+  B [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  D [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  F [label = "尸\ncorpse (882)", background = "../../assets/None.png"];
 
-  E -> G [thick];
-  C -> E [thick];
-  B -> C [thick];
-  D -> E [thick];
-  F -> G [thick];
+  E -- G [thick];
+  C -- E [thick];
+  B -- C [thick];
+  D -- E [thick];
+  F -- G [thick];
 }

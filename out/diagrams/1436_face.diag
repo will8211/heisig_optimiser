@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  H [label = "脸\nface (1436)"];
-  B [label = "月\nmonth (13)"];
-  G [label = "佥\nhootenanny (*)"];
-  D [label = "亼\nmeeting (*)"];
-  C [label = "𠆢\numbrella (*)"];
-  E [label = "应minus广\nowl (*)"];
-  F [label = "一\none (1)"];
+  H [label = "脸\nface (1436)", background = "../../assets/Medium.png"];
+  B [label = "月\nmonth (13)", background = "../../assets/Elementary.png"];
+  G [label = "佥\nhootenanny (primitive)", background = "../../assets/None.png"];
+  D [label = "亼\nmeeting (primitive)", background = "../../assets/None.png"];
+  C [label = "𠆢\numbrella (primitive)", background = "../../assets/None.png"];
+  E [label = "应minus广\nowl (primitive)", background = "../../assets/None.png"];
+  F [label = "一\none (1)", background = "../../assets/Elementary.png"];
 
-  B -> H [thick];
-  G -> H [thick];
-  D -> G [thick];
-  C -> D [thick];
-  E -> G [thick];
-  F -> G [thick];
+  B -- H [thick];
+  G -- H [thick];
+  D -- G [thick];
+  C -- D [thick];
+  E -- G [thick];
+  F -- G [thick];
 }

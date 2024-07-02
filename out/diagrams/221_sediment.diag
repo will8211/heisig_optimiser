@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  K [label = "渣\nsediment (221)"];
-  F [label = "查\ninvestigate (220)"];
-  D [label = "旦\ndaybreak (30)"];
-  B [label = "日\nday (12)"];
-  C [label = "一\none (1)"];
-  E [label = "木\ntree (202)"];
-  J [label = "水\nwater (137)"];
-  H [label = "丨\nwalking stick (*)"];
-  G [label = "一\none (1)"];
-  I [label = "丶\na drop of (*)"];
+  K [label = "渣\nsediment (221)", background = "../../assets/None.png"];
+  F [label = "查\ninvestigate (220)", background = "../../assets/Medium.png"];
+  D [label = "旦\ndaybreak (30)", background = "../../assets/Medium.png"];
+  B [label = "日\nday (12)", background = "../../assets/Elementary.png"];
+  C [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  E [label = "木\ntree (202)", background = "../../assets/Elementary.png"];
+  J [label = "水\nwater (137)", background = "../../assets/Elementary.png"];
+  H [label = "丨\nwalking stick (primitive)", background = "../../assets/None.png"];
+  G [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  I [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
 
-  F -> K [thick];
-  D -> F [thick];
-  B -> D [thick];
-  C -> D [thick];
-  E -> F [thick];
-  J -> K [thick];
-  H -> J [thick];
-  G -> H [thick];
-  I -> J [thick];
+  F -- K [thick];
+  D -- F [thick];
+  B -- D [thick];
+  C -- D [thick];
+  E -- F [thick];
+  J -- K [thick];
+  H -- J [thick];
+  G -- H [thick];
+  I -- J [thick];
 }

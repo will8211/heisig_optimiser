@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  E [label = "眷\ndependents (984)"];
-  C [label = "眷minus目\nquarter (*)"];
-  B [label = "半\nhalf (980)"];
-  D [label = "目\neye (15)"];
+  E [label = "眷\ndependents (984)", background = "../../assets/None.png"];
+  C [label = "眷minus目\nquarter (primitive)", background = "../../assets/None.png"];
+  B [label = "半\nhalf (980)", background = "../../assets/Elementary.png"];
+  D [label = "目\neye (15)", background = "../../assets/Medium.png"];
 
-  C -> E [thick];
-  B -> C [thick];
-  D -> E [thick];
+  C -- E [thick];
+  B -- C [thick];
+  D -- E [thick];
 }

@@ -5,34 +5,34 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  P [label = "瀑\nwaterfall (2773)"];
-  E [label = "水\nwater (137)"];
-  C [label = "丨\nwalking stick (*)"];
-  B [label = "一\none (1)"];
-  D [label = "丶\na drop of (*)"];
-  O [label = "暴\nviolent (2772)"];
-  F [label = "日\nday (12)"];
-  J [label = "共\ntogether (1354)"];
-  H [label = "昔minus日\nsalad (*)"];
-  G [label = "艹\nflower (*)"];
-  I [label = "只minus口\nanimal legs (*)"];
-  N [label = "水\nwater (137)"];
-  L [label = "丨\nwalking stick (*)"];
-  K [label = "一\none (1)"];
-  M [label = "丶\na drop of (*)"];
+  P [label = "瀑\nwaterfall (2773)", background = "../../assets/None.png"];
+  E [label = "水\nwater (137)", background = "../../assets/Elementary.png"];
+  C [label = "丨\nwalking stick (primitive)", background = "../../assets/None.png"];
+  B [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  D [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  O [label = "暴\nviolent (2772)", background = "../../assets/None.png"];
+  F [label = "日\nday (12)", background = "../../assets/Elementary.png"];
+  J [label = "共\ntogether (1354)", background = "../../assets/Medium.png"];
+  H [label = "昔minus日\nsalad (primitive)", background = "../../assets/None.png"];
+  G [label = "艹\nflower (primitive)", background = "../../assets/None.png"];
+  I [label = "只minus口\nanimal legs (primitive)", background = "../../assets/None.png"];
+  N [label = "水\nwater (137)", background = "../../assets/Elementary.png"];
+  L [label = "丨\nwalking stick (primitive)", background = "../../assets/None.png"];
+  K [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  M [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
 
-  E -> P [thick];
-  C -> E [thick];
-  B -> C [thick];
-  D -> E [thick];
-  O -> P [thick];
-  F -> O [thick];
-  J -> O [thick];
-  H -> J [thick];
-  G -> H [thick];
-  I -> J [thick];
-  N -> O [thick];
-  L -> N [thick];
-  K -> L [thick];
-  M -> N [thick];
+  E -- P [thick];
+  C -- E [thick];
+  B -- C [thick];
+  D -- E [thick];
+  O -- P [thick];
+  F -- O [thick];
+  J -- O [thick];
+  H -- J [thick];
+  G -- H [thick];
+  I -- J [thick];
+  N -- O [thick];
+  L -- N [thick];
+  K -- L [thick];
+  M -- N [thick];
 }

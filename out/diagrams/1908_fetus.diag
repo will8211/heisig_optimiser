@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  F [label = "胎\nfetus (1908)"];
-  B [label = "月\nmonth (13)"];
-  E [label = "台\nplatform (672)"];
-  C [label = "厶\nelbow (*)"];
-  D [label = "口\nmouth (11)"];
+  F [label = "胎\nfetus (1908)", background = "../../assets/None.png"];
+  B [label = "月\nmonth (13)", background = "../../assets/Elementary.png"];
+  E [label = "台\nplatform (672)", background = "../../assets/Advanced.png"];
+  C [label = "厶\nelbow (primitive)", background = "../../assets/None.png"];
+  D [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
 
-  B -> F [thick];
-  E -> F [thick];
-  C -> E [thick];
-  D -> E [thick];
+  B -- F [thick];
+  E -- F [thick];
+  C -- E [thick];
+  D -- E [thick];
 }

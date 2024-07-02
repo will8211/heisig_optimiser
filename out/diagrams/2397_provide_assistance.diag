@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  J [label = "援\nprovide assistance (2397)"];
-  B [label = "扌\nfingers (*)"];
-  I [label = "爰\nmigrating ducks (*)"];
-  D [label = "爪\nclaw (663)"];
-  C [label = "𠂆\ndrag (*)"];
-  H [label = "友\nfriend (635)"];
-  F [label = "𠂇\nby one’s side (*)"];
-  E [label = "十\nten (10)"];
-  G [label = "又\nagain (633)"];
+  J [label = "援\nprovide assistance (2397)", background = "../../assets/None.png"];
+  B [label = "扌\nfingers (primitive)", background = "../../assets/None.png"];
+  I [label = "爰\nmigrating ducks (primitive)", background = "../../assets/None.png"];
+  D [label = "爪\nclaw (663)", background = "../../assets/None.png"];
+  C [label = "𠂆\ndrag (primitive)", background = "../../assets/None.png"];
+  H [label = "友\nfriend (635)", background = "../../assets/Elementary.png"];
+  F [label = "𠂇\nby one’s side (primitive)", background = "../../assets/None.png"];
+  E [label = "十\nten (10)", background = "../../assets/Elementary.png"];
+  G [label = "又\nagain (633)", background = "../../assets/Elementary.png"];
 
-  B -> J [thick];
-  I -> J [thick];
-  D -> I [thick];
-  C -> D [thick];
-  H -> I [thick];
-  F -> H [thick];
-  E -> F [thick];
-  G -> H [thick];
+  B -- J [thick];
+  I -- J [thick];
+  D -- I [thick];
+  C -- D [thick];
+  H -- I [thick];
+  F -- H [thick];
+  E -- F [thick];
+  G -- H [thick];
 }

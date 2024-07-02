@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  K [label = "洞\ncave (186)"];
-  F [label = "同\nsame (185)"];
-  B [label = "一\none (1)"];
-  C [label = "口\nmouth (11)"];
-  E [label = "冂\nhood (*)"];
-  D [label = "几\nhow many? (57)"];
-  J [label = "水\nwater (137)"];
-  H [label = "丨\nwalking stick (*)"];
-  G [label = "一\none (1)"];
-  I [label = "丶\na drop of (*)"];
+  K [label = "洞\ncave (186)", background = "../../assets/None.png"];
+  F [label = "同\nsame (185)", background = "../../assets/Elementary.png"];
+  B [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  C [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  E [label = "冂\nhood (primitive)", background = "../../assets/None.png"];
+  D [label = "几\nhow many? (57)", background = "../../assets/Elementary.png"];
+  J [label = "水\nwater (137)", background = "../../assets/Elementary.png"];
+  H [label = "丨\nwalking stick (primitive)", background = "../../assets/None.png"];
+  G [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  I [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
 
-  F -> K [thick];
-  B -> F [thick];
-  C -> F [thick];
-  E -> F [thick];
-  D -> E [thick];
-  J -> K [thick];
-  H -> J [thick];
-  G -> H [thick];
-  I -> J [thick];
+  F -- K [thick];
+  B -- F [thick];
+  C -- F [thick];
+  E -- F [thick];
+  D -- E [thick];
+  J -- K [thick];
+  H -- J [thick];
+  G -- H [thick];
+  I -- J [thick];
 }

@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  J [label = "玲\nexquisite (2437)"];
-  E [label = "玉\njade (266)"];
-  C [label = "王\nking (265)"];
-  B [label = "工\nwork (76)"];
-  D [label = "丶\na drop of (*)"];
-  I [label = "令\norders (1113)"];
-  G [label = "亼\nmeeting (*)"];
-  F [label = "𠆢\numbrella (*)"];
-  H [label = "节minus艹\nchop (*)"];
+  J [label = "玲\nexquisite (2437)", background = "../../assets/None.png"];
+  E [label = "玉\njade (266)", background = "../../assets/Medium.png"];
+  C [label = "王\nking (265)", background = "../../assets/Medium.png"];
+  B [label = "工\nwork (76)", background = "../../assets/Elementary.png"];
+  D [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  I [label = "令\norders (1113)", background = "../../assets/Medium.png"];
+  G [label = "亼\nmeeting (primitive)", background = "../../assets/None.png"];
+  F [label = "𠆢\numbrella (primitive)", background = "../../assets/None.png"];
+  H [label = "节minus艹\nchop (primitive)", background = "../../assets/None.png"];
 
-  E -> J [thick];
-  C -> E [thick];
-  B -> C [thick];
-  D -> E [thick];
-  I -> J [thick];
-  G -> I [thick];
-  F -> G [thick];
-  H -> I [thick];
+  E -- J [thick];
+  C -- E [thick];
+  B -- C [thick];
+  D -- E [thick];
+  I -- J [thick];
+  G -- I [thick];
+  F -- G [thick];
+  H -- I [thick];
 }

@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  D [label = "青\nblue or green (1208)"];
-  B [label = "毒minus母\ngrow up (*)"];
-  C [label = "月\nmonth (13)"];
+  D [label = "青\nblue or green (1208)", background = "../../assets/Medium.png"];
+  B [label = "毒minus母\ngrow up (primitive)", background = "../../assets/None.png"];
+  C [label = "月\nmonth (13)", background = "../../assets/Elementary.png"];
 
-  B -> D [thick];
-  C -> D [thick];
+  B -- D [thick];
+  C -- D [thick];
 }

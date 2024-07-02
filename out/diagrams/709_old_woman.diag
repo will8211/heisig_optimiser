@@ -5,26 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  L [label = "婆\nold woman (709)"];
-  J [label = "波\nwaves (708)"];
-  E [label = "水\nwater (137)"];
-  C [label = "丨\nwalking stick (*)"];
-  B [label = "一\none (1)"];
-  D [label = "丶\na drop of (*)"];
-  I [label = "皮\ncovering (707)"];
-  H [label = "支\noffshoot (650)"];
-  F [label = "十\nten (10)"];
-  G [label = "又\nagain (633)"];
-  K [label = "女\nwoman (102)"];
+  L [label = "婆\nold woman (709)", background = "../../assets/None.png"];
+  J [label = "波\nwaves (708)", background = "../../assets/None.png"];
+  E [label = "水\nwater (137)", background = "../../assets/Elementary.png"];
+  C [label = "丨\nwalking stick (primitive)", background = "../../assets/None.png"];
+  B [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  D [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  I [label = "皮\ncovering (707)", background = "../../assets/Advanced.png"];
+  H [label = "支\noffshoot (650)", background = "../../assets/Medium.png"];
+  F [label = "十\nten (10)", background = "../../assets/Elementary.png"];
+  G [label = "又\nagain (633)", background = "../../assets/Elementary.png"];
+  K [label = "女\nwoman (102)", background = "../../assets/Elementary.png"];
 
-  J -> L [thick];
-  E -> J [thick];
-  C -> E [thick];
-  B -> C [thick];
-  D -> E [thick];
-  I -> J [thick];
-  H -> I [thick];
-  F -> H [thick];
-  G -> H [thick];
-  K -> L [thick];
+  J -- L [thick];
+  E -- J [thick];
+  C -- E [thick];
+  B -- C [thick];
+  D -- E [thick];
+  I -- J [thick];
+  H -- I [thick];
+  F -- H [thick];
+  G -- H [thick];
+  K -- L [thick];
 }

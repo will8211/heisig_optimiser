@@ -5,26 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  L [label = "深\ndeep (1075)"];
-  E [label = "水\nwater (137)"];
-  C [label = "丨\nwalking stick (*)"];
-  B [label = "一\none (1)"];
-  D [label = "丶\na drop of (*)"];
-  J [label = "㓁\npaper punch (*)"];
-  I [label = "穴\nhole (1070)"];
-  F [label = "宀\nhouse (*)"];
-  G [label = "八\neight (8)"];
-  H [label = "只minus口\nanimal legs (*)"];
-  K [label = "木\ntree (202)"];
+  L [label = "深\ndeep (1075)", background = "../../assets/Medium.png"];
+  E [label = "水\nwater (137)", background = "../../assets/Elementary.png"];
+  C [label = "丨\nwalking stick (primitive)", background = "../../assets/None.png"];
+  B [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  D [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  J [label = "㓁\npaper punch (primitive)", background = "../../assets/None.png"];
+  I [label = "穴\nhole (1070)", background = "../../assets/None.png"];
+  F [label = "宀\nhouse (primitive)", background = "../../assets/None.png"];
+  G [label = "八\neight (8)", background = "../../assets/Elementary.png"];
+  H [label = "只minus口\nanimal legs (primitive)", background = "../../assets/None.png"];
+  K [label = "木\ntree (202)", background = "../../assets/Elementary.png"];
 
-  E -> L [thick];
-  C -> E [thick];
-  B -> C [thick];
-  D -> E [thick];
-  J -> L [thick];
-  I -> J [thick];
-  F -> I [thick];
-  G -> I [thick];
-  H -> I [thick];
-  K -> L [thick];
+  E -- L [thick];
+  C -- E [thick];
+  B -- C [thick];
+  D -- E [thick];
+  J -- L [thick];
+  I -- J [thick];
+  F -- I [thick];
+  G -- I [thick];
+  H -- I [thick];
+  K -- L [thick];
 }

@@ -5,26 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  L [label = "磷\nphosphorous (2917)"];
-  D [label = "石\nstone (125)"];
-  B [label = "口\nmouth (11)"];
-  C [label = "厂\nfactory (121)"];
-  K [label = "粦\njack-o’-lantern (*)"];
-  E [label = "米\nrice (778)"];
-  J [label = "舛\nsunglasses (*)"];
-  G [label = "夕\nevening (115)"];
-  F [label = "月\nmonth (13)"];
-  I [label = "年\nyear (871)"];
-  H [label = "午\nnoon (542)"];
+  L [label = "磷\nphosphorous (2917)", background = "../../assets/None.png"];
+  D [label = "石\nstone (125)", background = "../../assets/Advanced.png"];
+  B [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  C [label = "厂\nfactory (121)", background = "../../assets/Medium.png"];
+  K [label = "粦\njack-o’-lantern (primitive)", background = "../../assets/None.png"];
+  E [label = "米\nrice (778)", background = "../../assets/Medium.png"];
+  J [label = "舛\nsunglasses (primitive)", background = "../../assets/None.png"];
+  G [label = "夕\nevening (115)", background = "../../assets/Advanced.png"];
+  F [label = "月\nmonth (13)", background = "../../assets/Elementary.png"];
+  I [label = "年\nyear (871)", background = "../../assets/Elementary.png"];
+  H [label = "午\nnoon (542)", background = "../../assets/Elementary.png"];
 
-  D -> L [thick];
-  B -> D [thick];
-  C -> D [thick];
-  K -> L [thick];
-  E -> K [thick];
-  J -> K [thick];
-  G -> J [thick];
-  F -> G [thick];
-  I -> J [thick];
-  H -> I [thick];
+  D -- L [thick];
+  B -- D [thick];
+  C -- D [thick];
+  K -- L [thick];
+  E -- K [thick];
+  J -- K [thick];
+  G -- J [thick];
+  F -- G [thick];
+  I -- J [thick];
+  H -- I [thick];
 }

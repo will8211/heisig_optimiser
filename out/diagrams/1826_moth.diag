@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  H [label = "蛾\nmoth (1826)"];
-  B [label = "虫\ninsect (509)"];
-  G [label = "我\nmiser (*)"];
-  F [label = "我\nI (588)"];
-  C [label = "手\nhand (584)"];
-  E [label = "戈\nhalberd (361)"];
-  D [label = "弋\narrow (*)"];
+  H [label = "蛾\nmoth (1826)", background = "../../assets/None.png"];
+  B [label = "虫\ninsect (509)", background = "../../assets/Medium.png"];
+  G [label = "我\nmiser (primitive)", background = "../../assets/None.png"];
+  F [label = "我\nI (588)", background = "../../assets/Elementary.png"];
+  C [label = "手\nhand (584)", background = "../../assets/Elementary.png"];
+  E [label = "戈\nhalberd (361)", background = "../../assets/None.png"];
+  D [label = "弋\narrow (primitive)", background = "../../assets/None.png"];
 
-  B -> H [thick];
-  G -> H [thick];
-  F -> G [thick];
-  C -> F [thick];
-  E -> F [thick];
-  D -> E [thick];
+  B -- H [thick];
+  G -- H [thick];
+  F -- G [thick];
+  C -- F [thick];
+  E -- F [thick];
+  D -- E [thick];
 }

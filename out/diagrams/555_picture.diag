@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  J [label = "图\npicture (555)"];
-  B [label = "囗\npent in (*)"];
-  I [label = "冬\nwinter (435)"];
-  C [label = "夂\nwalking legs (*)"];
-  H [label = "冫\nice (*)"];
-  G [label = "水\nwater (137)"];
-  E [label = "丨\nwalking stick (*)"];
-  D [label = "一\none (1)"];
-  F [label = "丶\na drop of (*)"];
+  J [label = "图\npicture (555)", background = "../../assets/Medium.png"];
+  B [label = "囗\npent in (primitive)", background = "../../assets/None.png"];
+  I [label = "冬\nwinter (435)", background = "../../assets/Medium.png"];
+  C [label = "夂\nwalking legs (primitive)", background = "../../assets/None.png"];
+  H [label = "冫\nice (primitive)", background = "../../assets/None.png"];
+  G [label = "水\nwater (137)", background = "../../assets/Elementary.png"];
+  E [label = "丨\nwalking stick (primitive)", background = "../../assets/None.png"];
+  D [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  F [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
 
-  B -> J [thick];
-  I -> J [thick];
-  C -> I [thick];
-  H -> I [thick];
-  G -> H [thick];
-  E -> G [thick];
-  D -> E [thick];
-  F -> G [thick];
+  B -- J [thick];
+  I -- J [thick];
+  C -- I [thick];
+  H -- I [thick];
+  G -- H [thick];
+  E -- G [thick];
+  D -- E [thick];
+  F -- G [thick];
 }

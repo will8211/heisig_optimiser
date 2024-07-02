@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  I [label = "蓉\ncottonrose hibiscus (B) (2990)"];
-  B [label = "艹\nflower (*)"];
-  H [label = "容\ncontain (701)"];
-  C [label = "宀\nhouse (*)"];
-  G [label = "谷\nvalley (698)"];
-  D [label = "只minus口\nanimal legs (*)"];
-  E [label = "𠆢\numbrella (*)"];
-  F [label = "口\nmouth (11)"];
+  I [label = "蓉\ncottonrose hibiscus (B) (2990)", background = "../../assets/None.png"];
+  B [label = "艹\nflower (primitive)", background = "../../assets/None.png"];
+  H [label = "容\ncontain (701)", background = "../../assets/Advanced.png"];
+  C [label = "宀\nhouse (primitive)", background = "../../assets/None.png"];
+  G [label = "谷\nvalley (698)", background = "../../assets/Advanced.png"];
+  D [label = "只minus口\nanimal legs (primitive)", background = "../../assets/None.png"];
+  E [label = "𠆢\numbrella (primitive)", background = "../../assets/None.png"];
+  F [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
 
-  B -> I [thick];
-  H -> I [thick];
-  C -> H [thick];
-  G -> H [thick];
-  D -> G [thick];
-  E -> G [thick];
-  F -> G [thick];
+  B -- I [thick];
+  H -- I [thick];
+  C -- H [thick];
+  G -- H [thick];
+  D -- G [thick];
+  E -- G [thick];
+  F -- G [thick];
 }

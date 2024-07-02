@@ -5,28 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  M [label = "魔\ndemon (1473)"];
-  G [label = "麻\nhemp (561)"];
-  D [label = "广\nextensive (556)"];
-  B [label = "厂\nfactory (121)"];
-  C [label = "宀\nhouse (*)"];
-  F [label = "林\nwoods (203)"];
-  E [label = "木\ntree (202)"];
-  L [label = "鬼\nghost (1472)"];
-  H [label = "丶\na drop of (*)"];
-  I [label = "田\nrice field (14)"];
-  J [label = "儿\nyoungster (56)"];
-  K [label = "厶\nelbow (*)"];
+  M [label = "魔\ndemon (1473)", background = "../../assets/None.png"];
+  G [label = "麻\nhemp (561)", background = "../../assets/Medium.png"];
+  D [label = "广\nextensive (556)", background = "../../assets/Medium.png"];
+  B [label = "厂\nfactory (121)", background = "../../assets/Medium.png"];
+  C [label = "宀\nhouse (primitive)", background = "../../assets/None.png"];
+  F [label = "林\nwoods (203)", background = "../../assets/Advanced.png"];
+  E [label = "木\ntree (202)", background = "../../assets/Elementary.png"];
+  L [label = "鬼\nghost (1472)", background = "../../assets/Advanced.png"];
+  H [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  I [label = "田\nrice field (14)", background = "../../assets/Medium.png"];
+  J [label = "儿\nyoungster (56)", background = "../../assets/Elementary.png"];
+  K [label = "厶\nelbow (primitive)", background = "../../assets/None.png"];
 
-  G -> M [thick];
-  D -> G [thick];
-  B -> D [thick];
-  C -> D [thick];
-  F -> G [thick];
-  E -> F [thick];
-  L -> M [thick];
-  H -> L [thick];
-  I -> L [thick];
-  J -> L [thick];
-  K -> L [thick];
+  G -- M [thick];
+  D -- G [thick];
+  B -- D [thick];
+  C -- D [thick];
+  F -- G [thick];
+  E -- F [thick];
+  L -- M [thick];
+  H -- L [thick];
+  I -- L [thick];
+  J -- L [thick];
+  K -- L [thick];
 }

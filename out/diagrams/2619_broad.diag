@@ -5,28 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  M [label = "阔\nbroad (2619)"];
-  B [label = "门\ngate (1260)"];
-  L [label = "活\nlively (151)"];
-  G [label = "舌\ntongue (40)"];
-  C [label = "口\nmouth (11)"];
-  F [label = "千\nthousand (39)"];
-  D [label = "丶\na drop of (*)"];
-  E [label = "十\nten (10)"];
-  K [label = "水\nwater (137)"];
-  I [label = "丨\nwalking stick (*)"];
-  H [label = "一\none (1)"];
-  J [label = "丶\na drop of (*)"];
+  M [label = "阔\nbroad (2619)", background = "../../assets/None.png"];
+  B [label = "门\ngate (1260)", background = "../../assets/Elementary.png"];
+  L [label = "活\nlively (151)", background = "../../assets/Medium.png"];
+  G [label = "舌\ntongue (40)", background = "../../assets/Medium.png"];
+  C [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  F [label = "千\nthousand (39)", background = "../../assets/Medium.png"];
+  D [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  E [label = "十\nten (10)", background = "../../assets/Elementary.png"];
+  K [label = "水\nwater (137)", background = "../../assets/Elementary.png"];
+  I [label = "丨\nwalking stick (primitive)", background = "../../assets/None.png"];
+  H [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  J [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
 
-  B -> M [thick];
-  L -> M [thick];
-  G -> L [thick];
-  C -> G [thick];
-  F -> G [thick];
-  D -> F [thick];
-  E -> F [thick];
-  K -> L [thick];
-  I -> K [thick];
-  H -> I [thick];
-  J -> K [thick];
+  B -- M [thick];
+  L -- M [thick];
+  G -- L [thick];
+  C -- G [thick];
+  F -- G [thick];
+  D -- F [thick];
+  E -- F [thick];
+  K -- L [thick];
+  I -- K [thick];
+  H -- I [thick];
+  J -- K [thick];
 }

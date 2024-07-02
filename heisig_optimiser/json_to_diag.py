@@ -9,27 +9,31 @@ SPAN_HEIGHT = 150  # default value is 40
 
 
 # Function to recursively parse requirements
-def _parse_requirements(node, parent_id=None, connections=None, labels=None):
+def _parse_requirements(frame, parent_id=None, connections=None, nodes=None):
     if connections is None:
         connections = []
-    if labels is None:
-        labels = {}
+    if nodes is None:
+        nodes = {}
 
-    number = str(node["number"]) if node["number"] else "*"
-    keyword = node["keyword"].replace("‡", "")
-    character = node["character"].replace("囧", "").replace("－", "minus")
-    current_label = f"{character}\\n{keyword} ({number})"
-    current_id = node["id"]
-    labels[current_id] = current_label
+    number = str(frame["number"]) if frame["number"] else "primitive"
+    keyword = frame["keyword"].replace("‡", "")
+    character = frame["character"].replace("囧", "").replace("－", "minus")
+    level = frame["level"]
+    current_id = frame["id"]
+
+    label = f'"{character}\\n{keyword} ({number})"'
+    background = f'"../../assets/{level}.png"'
+
+    nodes[current_id] = {"label": label, "background": background}
 
     if parent_id:
-        connections.append(f"{current_id} -> {parent_id} [thick];")
+        connections.append(f"{current_id} -- {parent_id} [thick];")
 
-    if "requirements" in node:
-        for req in node["requirements"]:
-            _parse_requirements(req, current_id, connections, labels)
+    if "requirements" in frame:
+        for req in frame["requirements"]:
+            _parse_requirements(req, current_id, connections, nodes)
 
-    return connections, labels
+    return connections, nodes
 
 
 def json_to_diag():
@@ -53,7 +57,7 @@ def json_to_diag():
                 data = json.load(f)
 
             # Generate connections and labels
-            connections, labels = _parse_requirements(data)
+            connections, nodes = _parse_requirements(data)
 
             # Write the blockdiag output
             with open(output_path, "w", encoding="utf-8") as f:
@@ -64,8 +68,12 @@ def json_to_diag():
                 f.write(f"  span_width = {SPAN_WIDTH}\n")
                 f.write(f"  span_height = {SPAN_HEIGHT}\n")
                 f.write("\n")
-                for node_id, label in labels.items():
-                    f.write(f'  {node_id} [label = "{label}"];\n')
+                for node_id, node in nodes.items():
+                    label = node["label"]
+                    background = node["background"]
+                    f.write(
+                        f"  {node_id} [label = {label}, background = {background}];\n"
+                    )
                 if len(connections):
                     f.write("\n")
                 for connection in connections:

@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  D [label = "企\nlook forward to (384)"];
-  B [label = "止\nstop (379)"];
-  C [label = "𠆢\numbrella (*)"];
+  D [label = "企\nlook forward to (384)", background = "../../assets/None.png"];
+  B [label = "止\nstop (379)", background = "../../assets/Medium.png"];
+  C [label = "𠆢\numbrella (primitive)", background = "../../assets/None.png"];
 
-  B -> D [thick];
-  C -> D [thick];
+  B -- D [thick];
+  C -- D [thick];
 }

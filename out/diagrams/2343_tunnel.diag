@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  H [label = "隧\ntunnel (2343)"];
-  B [label = "阝\npinnacle (*)"];
-  G [label = "遂\nsatisfy (1752)"];
-  D [label = "丷\nhorns (*)"];
-  C [label = "一\none (1)"];
-  E [label = "豕\nsow (*)"];
-  F [label = "辶\nroad (*)"];
+  H [label = "隧\ntunnel (2343)", background = "../../assets/None.png"];
+  B [label = "阝\npinnacle (primitive)", background = "../../assets/None.png"];
+  G [label = "遂\nsatisfy (1752)", background = "../../assets/None.png"];
+  D [label = "丷\nhorns (primitive)", background = "../../assets/None.png"];
+  C [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  E [label = "豕\nsow (primitive)", background = "../../assets/None.png"];
+  F [label = "辶\nroad (primitive)", background = "../../assets/None.png"];
 
-  B -> H [thick];
-  G -> H [thick];
-  D -> G [thick];
-  C -> D [thick];
-  E -> G [thick];
-  F -> G [thick];
+  B -- H [thick];
+  G -- H [thick];
+  D -- G [thick];
+  C -- D [thick];
+  E -- G [thick];
+  F -- G [thick];
 }

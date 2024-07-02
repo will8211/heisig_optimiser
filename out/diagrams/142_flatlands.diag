@@ -5,30 +5,30 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  N [label = "原\nflatlands (142)"];
-  L [label = "泉\nspring (141)"];
-  E [label = "水\nwater (137)"];
-  C [label = "丨\nwalking stick (*)"];
-  B [label = "一\none (1)"];
-  D [label = "丶\na drop of (*)"];
-  H [label = "白\nwhite (34)"];
-  F [label = "日\nday (12)"];
-  G [label = "丶\na drop of (*)"];
-  I [label = "丶\na drop of (*)"];
-  K [label = "小\nsmall (109)"];
-  J [label = "丶\na drop of (*)"];
-  M [label = "厂\nfactory (121)"];
+  N [label = "原\nflatlands (142)", background = "../../assets/Medium.png"];
+  L [label = "泉\nspring (141)", background = "../../assets/None.png"];
+  E [label = "水\nwater (137)", background = "../../assets/Elementary.png"];
+  C [label = "丨\nwalking stick (primitive)", background = "../../assets/None.png"];
+  B [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  D [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  H [label = "白\nwhite (34)", background = "../../assets/Elementary.png"];
+  F [label = "日\nday (12)", background = "../../assets/Elementary.png"];
+  G [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  I [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  K [label = "小\nsmall (109)", background = "../../assets/Elementary.png"];
+  J [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  M [label = "厂\nfactory (121)", background = "../../assets/Medium.png"];
 
-  L -> N [thick];
-  E -> L [thick];
-  C -> E [thick];
-  B -> C [thick];
-  D -> E [thick];
-  H -> L [thick];
-  F -> H [thick];
-  G -> H [thick];
-  I -> L [thick];
-  K -> L [thick];
-  J -> K [thick];
-  M -> N [thick];
+  L -- N [thick];
+  E -- L [thick];
+  C -- E [thick];
+  B -- C [thick];
+  D -- E [thick];
+  H -- L [thick];
+  F -- H [thick];
+  G -- H [thick];
+  I -- L [thick];
+  K -- L [thick];
+  J -- K [thick];
+  M -- N [thick];
 }

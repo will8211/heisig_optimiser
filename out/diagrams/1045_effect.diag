@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  G [label = "效\neffect (1045)"];
-  E [label = "交\nmingle (1044)"];
-  B [label = "亠\ntop hat (*)"];
-  D [label = "父\nfather (1043)"];
-  C [label = "丶\na drop of (*)"];
-  F [label = "攵\ntaskmaster (*)"];
+  G [label = "效\neffect (1045)", background = "../../assets/Advanced.png"];
+  E [label = "交\nmingle (1044)", background = "../../assets/Medium.png"];
+  B [label = "亠\ntop hat (primitive)", background = "../../assets/None.png"];
+  D [label = "父\nfather (1043)", background = "../../assets/Medium.png"];
+  C [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  F [label = "攵\ntaskmaster (primitive)", background = "../../assets/None.png"];
 
-  E -> G [thick];
-  B -> E [thick];
-  D -> E [thick];
-  C -> D [thick];
-  F -> G [thick];
+  E -- G [thick];
+  B -- E [thick];
+  D -- E [thick];
+  C -- D [thick];
+  F -- G [thick];
 }

@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  I [label = "嘛\n(pause marker) (1785)"];
-  B [label = "口\nmouth (11)"];
-  H [label = "麻\nhemp (561)"];
-  E [label = "广\nextensive (556)"];
-  C [label = "厂\nfactory (121)"];
-  D [label = "宀\nhouse (*)"];
-  G [label = "林\nwoods (203)"];
-  F [label = "木\ntree (202)"];
+  I [label = "嘛\n(pause marker) (1785)", background = "../../assets/None.png"];
+  B [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  H [label = "麻\nhemp (561)", background = "../../assets/Medium.png"];
+  E [label = "广\nextensive (556)", background = "../../assets/Medium.png"];
+  C [label = "厂\nfactory (121)", background = "../../assets/Medium.png"];
+  D [label = "宀\nhouse (primitive)", background = "../../assets/None.png"];
+  G [label = "林\nwoods (203)", background = "../../assets/Advanced.png"];
+  F [label = "木\ntree (202)", background = "../../assets/Elementary.png"];
 
-  B -> I [thick];
-  H -> I [thick];
-  E -> H [thick];
-  C -> E [thick];
-  D -> E [thick];
-  G -> H [thick];
-  F -> G [thick];
+  B -- I [thick];
+  H -- I [thick];
+  E -- H [thick];
+  C -- E [thick];
+  D -- E [thick];
+  G -- H [thick];
+  F -- G [thick];
 }

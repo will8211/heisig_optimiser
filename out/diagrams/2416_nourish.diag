@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  J [label = "滋\nnourish (2416)"];
-  E [label = "水\nwater (137)"];
-  C [label = "丨\nwalking stick (*)"];
-  B [label = "一\none (1)"];
-  D [label = "丶\na drop of (*)"];
-  I [label = "兹\nMona Lisa (*)"];
-  H [label = "玄\nmysterious (2411)"];
-  F [label = "亠\ntop hat (*)"];
-  G [label = "幺\ncocoon (*)"];
+  J [label = "滋\nnourish (2416)", background = "../../assets/None.png"];
+  E [label = "水\nwater (137)", background = "../../assets/Elementary.png"];
+  C [label = "丨\nwalking stick (primitive)", background = "../../assets/None.png"];
+  B [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  D [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  I [label = "兹\nMona Lisa (primitive)", background = "../../assets/None.png"];
+  H [label = "玄\nmysterious (2411)", background = "../../assets/None.png"];
+  F [label = "亠\ntop hat (primitive)", background = "../../assets/None.png"];
+  G [label = "幺\ncocoon (primitive)", background = "../../assets/None.png"];
 
-  E -> J [thick];
-  C -> E [thick];
-  B -> C [thick];
-  D -> E [thick];
-  I -> J [thick];
-  H -> I [thick];
-  F -> H [thick];
-  G -> H [thick];
+  E -- J [thick];
+  C -- E [thick];
+  B -- C [thick];
+  D -- E [thick];
+  I -- J [thick];
+  H -- I [thick];
+  F -- H [thick];
+  G -- H [thick];
 }

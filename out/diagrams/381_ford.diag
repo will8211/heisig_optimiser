@@ -5,26 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  L [label = "涉\nford (381)"];
-  E [label = "水\nwater (137)"];
-  C [label = "丨\nwalking stick (*)"];
-  B [label = "一\none (1)"];
-  D [label = "丶\na drop of (*)"];
-  K [label = "步\nfootstep (380)"];
-  F [label = "止\nstop (379)"];
-  J [label = "少\nfew (110)"];
-  G [label = "丶\na drop of (*)"];
-  I [label = "小\nsmall (109)"];
-  H [label = "丶\na drop of (*)"];
+  L [label = "涉\nford (381)", background = "../../assets/None.png"];
+  E [label = "水\nwater (137)", background = "../../assets/Elementary.png"];
+  C [label = "丨\nwalking stick (primitive)", background = "../../assets/None.png"];
+  B [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  D [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  K [label = "步\nfootstep (380)", background = "../../assets/Medium.png"];
+  F [label = "止\nstop (379)", background = "../../assets/Medium.png"];
+  J [label = "少\nfew (110)", background = "../../assets/Elementary.png"];
+  G [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  I [label = "小\nsmall (109)", background = "../../assets/Elementary.png"];
+  H [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
 
-  E -> L [thick];
-  C -> E [thick];
-  B -> C [thick];
-  D -> E [thick];
-  K -> L [thick];
-  F -> K [thick];
-  J -> K [thick];
-  G -> J [thick];
-  I -> J [thick];
-  H -> I [thick];
+  E -- L [thick];
+  C -- E [thick];
+  B -- C [thick];
+  D -- E [thick];
+  K -- L [thick];
+  F -- K [thick];
+  J -- K [thick];
+  G -- J [thick];
+  I -- J [thick];
+  H -- I [thick];
 }

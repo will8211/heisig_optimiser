@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  E [label = "咒\ncurse (1592)"];
-  C [label = "吅\nchatterbox (*)"];
-  B [label = "口\nmouth (11)"];
-  D [label = "几\nhow many? (57)"];
+  E [label = "咒\ncurse (1592)", background = "../../assets/None.png"];
+  C [label = "吅\nchatterbox (primitive)", background = "../../assets/None.png"];
+  B [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  D [label = "几\nhow many? (57)", background = "../../assets/Elementary.png"];
 
-  C -> E [thick];
-  B -> C [thick];
-  D -> E [thick];
+  C -- E [thick];
+  B -- C [thick];
+  D -- E [thick];
 }

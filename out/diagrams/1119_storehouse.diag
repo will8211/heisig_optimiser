@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  D [label = "仓\nstorehouse (1119)"];
-  B [label = "𠆢\numbrella (*)"];
-  C [label = "㔾\nfingerprint (*)"];
+  D [label = "仓\nstorehouse (1119)", background = "../../assets/None.png"];
+  B [label = "𠆢\numbrella (primitive)", background = "../../assets/None.png"];
+  C [label = "㔾\nfingerprint (primitive)", background = "../../assets/None.png"];
 
-  B -> D [thick];
-  C -> D [thick];
+  B -- D [thick];
+  C -- D [thick];
 }

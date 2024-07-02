@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  J [label = "低\nlow (1375)"];
-  B [label = "人\nperson (793)"];
-  I [label = "氐\ncalling card (*)"];
-  G [label = "氏\nfamily name (1371)"];
-  C [label = "丶\na drop of (*)"];
-  D [label = "以minus丶人\nplow (*)"];
-  E [label = "一\none (1)"];
-  F [label = "乙\nsecond (95)"];
-  H [label = "丶\na drop of (*)"];
+  J [label = "低\nlow (1375)", background = "../../assets/Medium.png"];
+  B [label = "人\nperson (793)", background = "../../assets/Elementary.png"];
+  I [label = "氐\ncalling card (primitive)", background = "../../assets/None.png"];
+  G [label = "氏\nfamily name (1371)", background = "../../assets/None.png"];
+  C [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  D [label = "以minus丶人\nplow (primitive)", background = "../../assets/None.png"];
+  E [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  F [label = "乙\nsecond (95)", background = "../../assets/Medium.png"];
+  H [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
 
-  B -> J [thick];
-  I -> J [thick];
-  G -> I [thick];
-  C -> G [thick];
-  D -> G [thick];
-  E -> G [thick];
-  F -> G [thick];
-  H -> I [thick];
+  B -- J [thick];
+  I -- J [thick];
+  G -- I [thick];
+  C -- G [thick];
+  D -- G [thick];
+  E -- G [thick];
+  F -- G [thick];
+  H -- I [thick];
 }

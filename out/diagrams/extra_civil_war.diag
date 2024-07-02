@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  G [label = "殸\ncivil war (*)"];
-  B [label = "士\nsoldier (334)"];
-  C [label = "尸\ncorpse (882)"];
-  F [label = "殳\nmissile (*)"];
-  D [label = "几\nhow many? (57)"];
-  E [label = "又\nagain (633)"];
+  G [label = "殸\ncivil war (primitive)", background = "../../assets/None.png"];
+  B [label = "士\nsoldier (334)", background = "../../assets/Advanced.png"];
+  C [label = "尸\ncorpse (882)", background = "../../assets/None.png"];
+  F [label = "殳\nmissile (primitive)", background = "../../assets/None.png"];
+  D [label = "几\nhow many? (57)", background = "../../assets/Elementary.png"];
+  E [label = "又\nagain (633)", background = "../../assets/Elementary.png"];
 
-  B -> G [thick];
-  C -> G [thick];
-  F -> G [thick];
-  D -> F [thick];
-  E -> F [thick];
+  B -- G [thick];
+  C -- G [thick];
+  F -- G [thick];
+  D -- F [thick];
+  E -- F [thick];
 }

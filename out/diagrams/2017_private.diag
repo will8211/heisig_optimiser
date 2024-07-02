@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  D [label = "私\nprivate (2017)"];
-  B [label = "禾\nstanding grain (762)"];
-  C [label = "厶\nelbow (*)"];
+  D [label = "私\nprivate (2017)", background = "../../assets/Advanced.png"];
+  B [label = "禾\nstanding grain (762)", background = "../../assets/None.png"];
+  C [label = "厶\nelbow (primitive)", background = "../../assets/None.png"];
 
-  B -> D [thick];
-  C -> D [thick];
+  B -- D [thick];
+  C -- D [thick];
 }

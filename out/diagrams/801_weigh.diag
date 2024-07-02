@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  F [label = "称\nweigh (801)"];
-  B [label = "禾\nstanding grain (762)"];
-  E [label = "尔\nyou (literary) (798)"];
-  D [label = "小\nsmall (109)"];
-  C [label = "丶\na drop of (*)"];
+  F [label = "称\nweigh (801)", background = "../../assets/Medium.png"];
+  B [label = "禾\nstanding grain (762)", background = "../../assets/None.png"];
+  E [label = "尔\nyou (literary) (798)", background = "../../assets/None.png"];
+  D [label = "小\nsmall (109)", background = "../../assets/Elementary.png"];
+  C [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
 
-  B -> F [thick];
-  E -> F [thick];
-  D -> E [thick];
-  C -> D [thick];
+  B -- F [thick];
+  E -- F [thick];
+  D -- E [thick];
+  C -- D [thick];
 }

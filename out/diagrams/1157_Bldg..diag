@@ -5,26 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  L [label = "馆\nBldg. (1157)"];
-  F [label = "食\nfood (1154)"];
-  D [label = "良\nhigh-quality (1151)"];
-  B [label = "丶\na drop of (*)"];
-  C [label = "艮\nsilver (*)"];
-  E [label = "𠆢\numbrella (*)"];
-  K [label = "官\nbureaucrat (1041)"];
-  H [label = "𠂤\nmaestro (*)"];
-  G [label = "丶\na drop of (*)"];
-  I [label = "丶\na drop of (*)"];
-  J [label = "宀\nhouse (*)"];
+  L [label = "馆\nBldg. (1157)", background = "../../assets/Medium.png"];
+  F [label = "食\nfood (1154)", background = "../../assets/Medium.png"];
+  D [label = "良\nhigh-quality (1151)", background = "../../assets/Advanced.png"];
+  B [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  C [label = "艮\nsilver (primitive)", background = "../../assets/None.png"];
+  E [label = "𠆢\numbrella (primitive)", background = "../../assets/None.png"];
+  K [label = "官\nbureaucrat (1041)", background = "../../assets/Advanced.png"];
+  H [label = "𠂤\nmaestro (primitive)", background = "../../assets/None.png"];
+  G [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  I [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  J [label = "宀\nhouse (primitive)", background = "../../assets/None.png"];
 
-  F -> L [thick];
-  D -> F [thick];
-  B -> D [thick];
-  C -> D [thick];
-  E -> F [thick];
-  K -> L [thick];
-  H -> K [thick];
-  G -> H [thick];
-  I -> K [thick];
-  J -> K [thick];
+  F -- L [thick];
+  D -- F [thick];
+  B -- D [thick];
+  C -- D [thick];
+  E -- F [thick];
+  K -- L [thick];
+  H -- K [thick];
+  G -- H [thick];
+  I -- K [thick];
+  J -- K [thick];
 }

@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  D [label = "介\nintroduce (259)"];
-  B [label = "𠆢\numbrella (*)"];
-  C [label = "介minus𠆢\ncrutches (*)"];
+  D [label = "介\nintroduce (259)", background = "../../assets/Elementary.png"];
+  B [label = "𠆢\numbrella (primitive)", background = "../../assets/None.png"];
+  C [label = "介minus𠆢\ncrutches (primitive)", background = "../../assets/None.png"];
 
-  B -> D [thick];
-  C -> D [thick];
+  B -- D [thick];
+  C -- D [thick];
 }

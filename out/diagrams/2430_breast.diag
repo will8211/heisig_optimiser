@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  G [label = "乳\nbreast (2430)"];
-  E [label = "孚\nfledglings (*)"];
-  C [label = "爪\nclaw (663)"];
-  B [label = "𠂆\ndrag (*)"];
-  D [label = "子\nchild (97)"];
-  F [label = "乙\nsecond (95)"];
+  G [label = "乳\nbreast (2430)", background = "../../assets/None.png"];
+  E [label = "孚\nfledglings (primitive)", background = "../../assets/None.png"];
+  C [label = "爪\nclaw (663)", background = "../../assets/None.png"];
+  B [label = "𠂆\ndrag (primitive)", background = "../../assets/None.png"];
+  D [label = "子\nchild (97)", background = "../../assets/Elementary.png"];
+  F [label = "乙\nsecond (95)", background = "../../assets/Medium.png"];
 
-  E -> G [thick];
-  C -> E [thick];
-  B -> C [thick];
-  D -> E [thick];
-  F -> G [thick];
+  E -- G [thick];
+  C -- E [thick];
+  B -- C [thick];
+  D -- E [thick];
+  F -- G [thick];
 }

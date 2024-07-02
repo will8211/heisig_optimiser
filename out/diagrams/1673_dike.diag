@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  I [label = "堤\ndike (1673)"];
-  B [label = "土\nsoil (158)"];
-  H [label = "是\nbe (394)"];
-  F [label = "走minus十\nmending (*)"];
-  E [label = "正\ncorrect (387)"];
-  C [label = "一\none (1)"];
-  D [label = "止\nstop (379)"];
-  G [label = "日\nday (12)"];
+  I [label = "堤\ndike (1673)", background = "../../assets/None.png"];
+  B [label = "土\nsoil (158)", background = "../../assets/Medium.png"];
+  H [label = "是\nbe (394)", background = "../../assets/Elementary.png"];
+  F [label = "走minus十\nmending (primitive)", background = "../../assets/None.png"];
+  E [label = "正\ncorrect (387)", background = "../../assets/Elementary.png"];
+  C [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  D [label = "止\nstop (379)", background = "../../assets/Medium.png"];
+  G [label = "日\nday (12)", background = "../../assets/Elementary.png"];
 
-  B -> I [thick];
-  H -> I [thick];
-  F -> H [thick];
-  E -> F [thick];
-  C -> E [thick];
-  D -> E [thick];
-  G -> H [thick];
+  B -- I [thick];
+  H -- I [thick];
+  F -- H [thick];
+  E -- F [thick];
+  C -- E [thick];
+  D -- E [thick];
+  G -- H [thick];
 }

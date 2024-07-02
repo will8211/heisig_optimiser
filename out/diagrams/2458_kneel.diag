@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  I [label = "跪\nkneel (2458)"];
-  D [label = "足\nlower leg (1048)"];
-  B [label = "口\nmouth (11)"];
-  C [label = "止\nstop (379)"];
-  H [label = "危\ndanger (1123)"];
-  E [label = "勹\nbound up (*)"];
-  F [label = "厂\nfactory (121)"];
-  G [label = "㔾\nfingerprint (*)"];
+  I [label = "跪\nkneel (2458)", background = "../../assets/None.png"];
+  D [label = "足\nlower leg (1048)", background = "../../assets/Medium.png"];
+  B [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  C [label = "止\nstop (379)", background = "../../assets/Medium.png"];
+  H [label = "危\ndanger (1123)", background = "../../assets/Advanced.png"];
+  E [label = "勹\nbound up (primitive)", background = "../../assets/None.png"];
+  F [label = "厂\nfactory (121)", background = "../../assets/Medium.png"];
+  G [label = "㔾\nfingerprint (primitive)", background = "../../assets/None.png"];
 
-  D -> I [thick];
-  B -> D [thick];
-  C -> D [thick];
-  H -> I [thick];
-  E -> H [thick];
-  F -> H [thick];
-  G -> H [thick];
+  D -- I [thick];
+  B -- D [thick];
+  C -- D [thick];
+  H -- I [thick];
+  E -- H [thick];
+  F -- H [thick];
+  G -- H [thick];
 }

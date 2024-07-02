@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  H [label = "贰\nII (1659)"];
-  B [label = "弋\narrow (*)"];
-  D [label = "二\ntwo (2)"];
-  C [label = "一\none (1)"];
-  G [label = "贝\nshellfish (52)"];
-  E [label = "目\neye (15)"];
-  F [label = "只minus口\nanimal legs (*)"];
+  H [label = "贰\nII (1659)", background = "../../assets/None.png"];
+  B [label = "弋\narrow (primitive)", background = "../../assets/None.png"];
+  D [label = "二\ntwo (2)", background = "../../assets/Elementary.png"];
+  C [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  G [label = "贝\nshellfish (52)", background = "../../assets/Medium.png"];
+  E [label = "目\neye (15)", background = "../../assets/Medium.png"];
+  F [label = "只minus口\nanimal legs (primitive)", background = "../../assets/None.png"];
 
-  B -> H [thick];
-  D -> H [thick];
-  C -> D [thick];
-  G -> H [thick];
-  E -> G [thick];
-  F -> G [thick];
+  B -- H [thick];
+  D -- H [thick];
+  C -- D [thick];
+  G -- H [thick];
+  E -- G [thick];
+  F -- G [thick];
 }

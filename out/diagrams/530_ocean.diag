@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  I [label = "洋\nocean (530)"];
-  E [label = "水\nwater (137)"];
-  C [label = "丨\nwalking stick (*)"];
-  B [label = "一\none (1)"];
-  D [label = "丶\na drop of (*)"];
-  H [label = "羊\nsheep (528)"];
-  G [label = "丷\nhorns (*)"];
-  F [label = "一\none (1)"];
+  I [label = "洋\nocean (530)", background = "../../assets/None.png"];
+  E [label = "水\nwater (137)", background = "../../assets/Elementary.png"];
+  C [label = "丨\nwalking stick (primitive)", background = "../../assets/None.png"];
+  B [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  D [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  H [label = "羊\nsheep (528)", background = "../../assets/Medium.png"];
+  G [label = "丷\nhorns (primitive)", background = "../../assets/None.png"];
+  F [label = "一\none (1)", background = "../../assets/Elementary.png"];
 
-  E -> I [thick];
-  C -> E [thick];
-  B -> C [thick];
-  D -> E [thick];
-  H -> I [thick];
-  G -> H [thick];
-  F -> G [thick];
+  E -- I [thick];
+  C -- E [thick];
+  B -- C [thick];
+  D -- E [thick];
+  H -- I [thick];
+  G -- H [thick];
+  F -- G [thick];
 }

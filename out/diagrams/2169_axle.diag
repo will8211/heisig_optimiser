@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  E [label = "轴\naxle (2169)"];
-  B [label = "车\ncar (300)"];
-  D [label = "由\nwherefore (913)"];
-  C [label = "田\nrice field (14)"];
+  E [label = "轴\naxle (2169)", background = "../../assets/None.png"];
+  B [label = "车\ncar (300)", background = "../../assets/Elementary.png"];
+  D [label = "由\nwherefore (913)", background = "../../assets/Medium.png"];
+  C [label = "田\nrice field (14)", background = "../../assets/Medium.png"];
 
-  B -> E [thick];
-  D -> E [thick];
-  C -> D [thick];
+  B -- E [thick];
+  D -- E [thick];
+  C -- D [thick];
 }

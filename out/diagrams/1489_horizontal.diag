@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  K [label = "横\nhorizontal (1489)"];
-  B [label = "木\ntree (202)"];
-  J [label = "黄\nyellow (1488)"];
-  H [label = "寅\nsign of the tiger (1465)"];
-  C [label = "宀\nhouse (*)"];
-  D [label = "一\none (1)"];
-  F [label = "由\nwherefore (913)"];
-  E [label = "田\nrice field (14)"];
-  G [label = "只minus口\nanimal legs (*)"];
-  I [label = "艹\nflower (*)"];
+  K [label = "横\nhorizontal (1489)", background = "../../assets/None.png"];
+  B [label = "木\ntree (202)", background = "../../assets/Elementary.png"];
+  J [label = "黄\nyellow (1488)", background = "../../assets/Medium.png"];
+  H [label = "寅\nsign of the tiger (1465)", background = "../../assets/None.png"];
+  C [label = "宀\nhouse (primitive)", background = "../../assets/None.png"];
+  D [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  F [label = "由\nwherefore (913)", background = "../../assets/Medium.png"];
+  E [label = "田\nrice field (14)", background = "../../assets/Medium.png"];
+  G [label = "只minus口\nanimal legs (primitive)", background = "../../assets/None.png"];
+  I [label = "艹\nflower (primitive)", background = "../../assets/None.png"];
 
-  B -> K [thick];
-  J -> K [thick];
-  H -> J [thick];
-  C -> H [thick];
-  D -> H [thick];
-  F -> H [thick];
-  E -> F [thick];
-  G -> H [thick];
-  I -> J [thick];
+  B -- K [thick];
+  J -- K [thick];
+  H -- J [thick];
+  C -- H [thick];
+  D -- H [thick];
+  F -- H [thick];
+  E -- F [thick];
+  G -- H [thick];
+  I -- J [thick];
 }

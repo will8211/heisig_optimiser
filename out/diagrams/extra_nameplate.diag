@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  E [label = "夗\nnameplate (*)"];
-  C [label = "夕\nevening (115)"];
-  B [label = "月\nmonth (13)"];
-  D [label = "㔾\nfingerprint (*)"];
+  E [label = "夗\nnameplate (primitive)", background = "../../assets/None.png"];
+  C [label = "夕\nevening (115)", background = "../../assets/Advanced.png"];
+  B [label = "月\nmonth (13)", background = "../../assets/Elementary.png"];
+  D [label = "㔾\nfingerprint (primitive)", background = "../../assets/None.png"];
 
-  C -> E [thick];
-  B -> C [thick];
-  D -> E [thick];
+  C -- E [thick];
+  B -- C [thick];
+  D -- E [thick];
 }

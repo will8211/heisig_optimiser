@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  I [label = "搓\nmassage (1861)"];
-  B [label = "扌\nfingers (*)"];
-  H [label = "差\nfall short of (535)"];
-  F [label = "差minus工\nwool (*)"];
-  E [label = "羊\nsheep (528)"];
-  D [label = "丷\nhorns (*)"];
-  C [label = "一\none (1)"];
-  G [label = "工\nwork (76)"];
+  I [label = "搓\nmassage (1861)", background = "../../assets/None.png"];
+  B [label = "扌\nfingers (primitive)", background = "../../assets/None.png"];
+  H [label = "差\nfall short of (535)", background = "../../assets/Elementary.png"];
+  F [label = "差minus工\nwool (primitive)", background = "../../assets/None.png"];
+  E [label = "羊\nsheep (528)", background = "../../assets/Medium.png"];
+  D [label = "丷\nhorns (primitive)", background = "../../assets/None.png"];
+  C [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  G [label = "工\nwork (76)", background = "../../assets/Elementary.png"];
 
-  B -> I [thick];
-  H -> I [thick];
-  F -> H [thick];
-  E -> F [thick];
-  D -> E [thick];
-  C -> D [thick];
-  G -> H [thick];
+  B -- I [thick];
+  H -- I [thick];
+  F -- H [thick];
+  E -- F [thick];
+  D -- E [thick];
+  C -- D [thick];
+  G -- H [thick];
 }

@@ -5,34 +5,34 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  P [label = "癌\ncancer (2665)"];
-  J [label = "疒\nsickness (*)"];
-  D [label = "广\nextensive (556)"];
-  B [label = "厂\nfactory (121)"];
-  C [label = "宀\nhouse (*)"];
-  I [label = "冫\nice (*)"];
-  H [label = "水\nwater (137)"];
-  F [label = "丨\nwalking stick (*)"];
-  E [label = "一\none (1)"];
-  G [label = "丶\na drop of (*)"];
-  N [label = "品\ngoods (24)"];
-  L [label = "晶\nsparkling (23)"];
-  K [label = "日\nday (12)"];
-  M [label = "口\nmouth (11)"];
-  O [label = "山\nmountain (688)"];
+  P [label = "癌\ncancer (2665)", background = "../../assets/None.png"];
+  J [label = "疒\nsickness (primitive)", background = "../../assets/None.png"];
+  D [label = "广\nextensive (556)", background = "../../assets/Medium.png"];
+  B [label = "厂\nfactory (121)", background = "../../assets/Medium.png"];
+  C [label = "宀\nhouse (primitive)", background = "../../assets/None.png"];
+  I [label = "冫\nice (primitive)", background = "../../assets/None.png"];
+  H [label = "水\nwater (137)", background = "../../assets/Elementary.png"];
+  F [label = "丨\nwalking stick (primitive)", background = "../../assets/None.png"];
+  E [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  G [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  N [label = "品\ngoods (24)", background = "../../assets/Advanced.png"];
+  L [label = "晶\nsparkling (23)", background = "../../assets/None.png"];
+  K [label = "日\nday (12)", background = "../../assets/Elementary.png"];
+  M [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  O [label = "山\nmountain (688)", background = "../../assets/Elementary.png"];
 
-  J -> P [thick];
-  D -> J [thick];
-  B -> D [thick];
-  C -> D [thick];
-  I -> J [thick];
-  H -> I [thick];
-  F -> H [thick];
-  E -> F [thick];
-  G -> H [thick];
-  N -> P [thick];
-  L -> N [thick];
-  K -> L [thick];
-  M -> N [thick];
-  O -> P [thick];
+  J -- P [thick];
+  D -- J [thick];
+  B -- D [thick];
+  C -- D [thick];
+  I -- J [thick];
+  H -- I [thick];
+  F -- H [thick];
+  E -- F [thick];
+  G -- H [thick];
+  N -- P [thick];
+  L -- N [thick];
+  K -- L [thick];
+  M -- N [thick];
+  O -- P [thick];
 }

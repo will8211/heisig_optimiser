@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  G [label = "还\ngive back (996)"];
-  E [label = "不\nno (991)"];
-  B [label = "一\none (1)"];
-  C [label = "人\nperson (793)"];
-  D [label = "丶\na drop of (*)"];
-  F [label = "辶\nroad (*)"];
+  G [label = "还\ngive back (996)", background = "../../assets/Elementary.png"];
+  E [label = "不\nno (991)", background = "../../assets/Elementary.png"];
+  B [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  C [label = "人\nperson (793)", background = "../../assets/Elementary.png"];
+  D [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  F [label = "辶\nroad (primitive)", background = "../../assets/None.png"];
 
-  E -> G [thick];
-  B -> E [thick];
-  C -> E [thick];
-  D -> E [thick];
-  F -> G [thick];
+  E -- G [thick];
+  B -- E [thick];
+  C -- E [thick];
+  D -- E [thick];
+  F -- G [thick];
 }

@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  D [label = "堆\npile (1765)"];
-  B [label = "土\nsoil (158)"];
-  C [label = "隹\nturkey (*)"];
+  D [label = "堆\npile (1765)", background = "../../assets/Advanced.png"];
+  B [label = "土\nsoil (158)", background = "../../assets/Medium.png"];
+  C [label = "隹\nturkey (primitive)", background = "../../assets/None.png"];
 
-  B -> D [thick];
-  C -> D [thick];
+  B -- D [thick];
+  C -- D [thick];
 }

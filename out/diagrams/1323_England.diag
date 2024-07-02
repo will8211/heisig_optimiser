@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  E [label = "英\nEngland (1323)"];
-  B [label = "艹\nflower (*)"];
-  D [label = "央\ncenter (1322)"];
-  C [label = "大\nlarge (113)"];
+  E [label = "英\nEngland (1323)", background = "../../assets/Advanced.png"];
+  B [label = "艹\nflower (primitive)", background = "../../assets/None.png"];
+  D [label = "央\ncenter (1322)", background = "../../assets/Advanced.png"];
+  C [label = "大\nlarge (113)", background = "../../assets/Elementary.png"];
 
-  B -> E [thick];
-  D -> E [thick];
-  C -> D [thick];
+  B -- E [thick];
+  D -- E [thick];
+  C -- D [thick];
 }

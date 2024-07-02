@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  G [label = "披\ndrape over the shoulders (1961)"];
-  B [label = "扌\nfingers (*)"];
-  F [label = "皮\ncovering (707)"];
-  E [label = "支\noffshoot (650)"];
-  C [label = "十\nten (10)"];
-  D [label = "又\nagain (633)"];
+  G [label = "披\ndrape over the shoulders (1961)", background = "../../assets/None.png"];
+  B [label = "扌\nfingers (primitive)", background = "../../assets/None.png"];
+  F [label = "皮\ncovering (707)", background = "../../assets/Advanced.png"];
+  E [label = "支\noffshoot (650)", background = "../../assets/Medium.png"];
+  C [label = "十\nten (10)", background = "../../assets/Elementary.png"];
+  D [label = "又\nagain (633)", background = "../../assets/Elementary.png"];
 
-  B -> G [thick];
-  F -> G [thick];
-  E -> F [thick];
-  C -> E [thick];
-  D -> E [thick];
+  B -- G [thick];
+  F -- G [thick];
+  E -- F [thick];
+  C -- E [thick];
+  D -- E [thick];
 }

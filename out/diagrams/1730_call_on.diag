@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  J [label = "访\ncall on (1730)"];
-  F [label = "言\nsay (346)"];
-  C [label = "二\ntwo (2)"];
-  B [label = "一\none (1)"];
-  D [label = "口\nmouth (11)"];
-  E [label = "亠\ntop hat (*)"];
-  I [label = "方\ndirection (494)"];
-  G [label = "刀\nsword (83)"];
-  H [label = "亠\ntop hat (*)"];
+  J [label = "访\ncall on (1730)", background = "../../assets/Advanced.png"];
+  F [label = "言\nsay (346)", background = "../../assets/Medium.png"];
+  C [label = "二\ntwo (2)", background = "../../assets/Elementary.png"];
+  B [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  D [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  E [label = "亠\ntop hat (primitive)", background = "../../assets/None.png"];
+  I [label = "方\ndirection (494)", background = "../../assets/Elementary.png"];
+  G [label = "刀\nsword (83)", background = "../../assets/Medium.png"];
+  H [label = "亠\ntop hat (primitive)", background = "../../assets/None.png"];
 
-  F -> J [thick];
-  C -> F [thick];
-  B -> C [thick];
-  D -> F [thick];
-  E -> F [thick];
-  I -> J [thick];
-  G -> I [thick];
-  H -> I [thick];
+  F -- J [thick];
+  C -- F [thick];
+  B -- C [thick];
+  D -- F [thick];
+  E -- F [thick];
+  I -- J [thick];
+  G -- I [thick];
+  H -- I [thick];
 }

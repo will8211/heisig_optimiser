@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  H [label = "剑\nsaber (2858)"];
-  F [label = "佥\nhootenanny (*)"];
-  C [label = "亼\nmeeting (*)"];
-  B [label = "𠆢\numbrella (*)"];
-  D [label = "应minus广\nowl (*)"];
-  E [label = "一\none (1)"];
-  G [label = "刀\nsword (83)"];
+  H [label = "剑\nsaber (2858)", background = "../../assets/None.png"];
+  F [label = "佥\nhootenanny (primitive)", background = "../../assets/None.png"];
+  C [label = "亼\nmeeting (primitive)", background = "../../assets/None.png"];
+  B [label = "𠆢\numbrella (primitive)", background = "../../assets/None.png"];
+  D [label = "应minus广\nowl (primitive)", background = "../../assets/None.png"];
+  E [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  G [label = "刀\nsword (83)", background = "../../assets/Medium.png"];
 
-  F -> H [thick];
-  C -> F [thick];
-  B -> C [thick];
-  D -> F [thick];
-  E -> F [thick];
-  G -> H [thick];
+  F -- H [thick];
+  C -- F [thick];
+  B -- C [thick];
+  D -- F [thick];
+  E -- F [thick];
+  G -- H [thick];
 }

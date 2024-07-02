@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  I [label = "联\nunite (1471)"];
-  B [label = "耳\near (717)"];
-  H [label = "关\nshut (1469)"];
-  D [label = "丷\nhorns (*)"];
-  C [label = "一\none (1)"];
-  G [label = "天\nheavens (436)"];
-  E [label = "一\none (1)"];
-  F [label = "大\nlarge (113)"];
+  I [label = "联\nunite (1471)", background = "../../assets/Advanced.png"];
+  B [label = "耳\near (717)", background = "../../assets/Medium.png"];
+  H [label = "关\nshut (1469)", background = "../../assets/Elementary.png"];
+  D [label = "丷\nhorns (primitive)", background = "../../assets/None.png"];
+  C [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  G [label = "天\nheavens (436)", background = "../../assets/Elementary.png"];
+  E [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  F [label = "大\nlarge (113)", background = "../../assets/Elementary.png"];
 
-  B -> I [thick];
-  H -> I [thick];
-  D -> H [thick];
-  C -> D [thick];
-  G -> H [thick];
-  E -> G [thick];
-  F -> G [thick];
+  B -- I [thick];
+  H -- I [thick];
+  D -- H [thick];
+  C -- D [thick];
+  G -- H [thick];
+  E -- G [thick];
+  F -- G [thick];
 }

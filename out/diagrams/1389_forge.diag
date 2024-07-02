@@ -5,26 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  L [label = "锻\nforge (1389)"];
-  F [label = "金\ngold (279)"];
-  B [label = "𠆢\numbrella (*)"];
-  D [label = "王\nking (265)"];
-  C [label = "工\nwork (76)"];
-  E [label = "丶\na drop of (*)"];
-  K [label = "段\nsection (1388)"];
-  G [label = "印minus卩\nstaples (*)"];
-  J [label = "殳\nmissile (*)"];
-  H [label = "几\nhow many? (57)"];
-  I [label = "又\nagain (633)"];
+  L [label = "锻\nforge (1389)", background = "../../assets/Advanced.png"];
+  F [label = "金\ngold (279)", background = "../../assets/Advanced.png"];
+  B [label = "𠆢\numbrella (primitive)", background = "../../assets/None.png"];
+  D [label = "王\nking (265)", background = "../../assets/Medium.png"];
+  C [label = "工\nwork (76)", background = "../../assets/Elementary.png"];
+  E [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  K [label = "段\nsection (1388)", background = "../../assets/Medium.png"];
+  G [label = "印minus卩\nstaples (primitive)", background = "../../assets/None.png"];
+  J [label = "殳\nmissile (primitive)", background = "../../assets/None.png"];
+  H [label = "几\nhow many? (57)", background = "../../assets/Elementary.png"];
+  I [label = "又\nagain (633)", background = "../../assets/Elementary.png"];
 
-  F -> L [thick];
-  B -> F [thick];
-  D -> F [thick];
-  C -> D [thick];
-  E -> F [thick];
-  K -> L [thick];
-  G -> K [thick];
-  J -> K [thick];
-  H -> J [thick];
-  I -> J [thick];
+  F -- L [thick];
+  B -- F [thick];
+  D -- F [thick];
+  C -- D [thick];
+  E -- F [thick];
+  K -- L [thick];
+  G -- K [thick];
+  J -- K [thick];
+  H -- J [thick];
+  I -- J [thick];
 }

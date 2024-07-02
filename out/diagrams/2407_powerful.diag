@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  H [label = "劲\npowerful (2407)"];
-  D [label = "𢀖\nspool (*)"];
-  B [label = "工\nwork (76)"];
-  C [label = "人\nperson (793)"];
-  G [label = "肌\nmuscle (63)"];
-  E [label = "几\nhow many? (57)"];
-  F [label = "月\nmonth (13)"];
+  H [label = "劲\npowerful (2407)", background = "../../assets/None.png"];
+  D [label = "𢀖\nspool (primitive)", background = "../../assets/None.png"];
+  B [label = "工\nwork (76)", background = "../../assets/Elementary.png"];
+  C [label = "人\nperson (793)", background = "../../assets/Elementary.png"];
+  G [label = "肌\nmuscle (63)", background = "../../assets/None.png"];
+  E [label = "几\nhow many? (57)", background = "../../assets/Elementary.png"];
+  F [label = "月\nmonth (13)", background = "../../assets/Elementary.png"];
 
-  D -> H [thick];
-  B -> D [thick];
-  C -> D [thick];
-  G -> H [thick];
-  E -> G [thick];
-  F -> G [thick];
+  D -- H [thick];
+  B -- D [thick];
+  C -- D [thick];
+  G -- H [thick];
+  E -- G [thick];
+  F -- G [thick];
 }

@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  K [label = "碳\ncarbon (1933)"];
-  D [label = "石\nstone (125)"];
-  B [label = "口\nmouth (11)"];
-  C [label = "厂\nfactory (121)"];
-  J [label = "炭\ncharcoal (1932)"];
-  E [label = "山\nmountain (688)"];
-  I [label = "灰\nashes (172)"];
-  F [label = "火\nfire (170)"];
-  H [label = "𠂇\nby one’s side (*)"];
-  G [label = "十\nten (10)"];
+  K [label = "碳\ncarbon (1933)", background = "../../assets/None.png"];
+  D [label = "石\nstone (125)", background = "../../assets/Advanced.png"];
+  B [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  C [label = "厂\nfactory (121)", background = "../../assets/Medium.png"];
+  J [label = "炭\ncharcoal (1932)", background = "../../assets/None.png"];
+  E [label = "山\nmountain (688)", background = "../../assets/Elementary.png"];
+  I [label = "灰\nashes (172)", background = "../../assets/None.png"];
+  F [label = "火\nfire (170)", background = "../../assets/Elementary.png"];
+  H [label = "𠂇\nby one’s side (primitive)", background = "../../assets/None.png"];
+  G [label = "十\nten (10)", background = "../../assets/Elementary.png"];
 
-  D -> K [thick];
-  B -> D [thick];
-  C -> D [thick];
-  J -> K [thick];
-  E -> J [thick];
-  I -> J [thick];
-  F -> I [thick];
-  H -> I [thick];
-  G -> H [thick];
+  D -- K [thick];
+  B -- D [thick];
+  C -- D [thick];
+  J -- K [thick];
+  E -- J [thick];
+  I -- J [thick];
+  F -- I [thick];
+  H -- I [thick];
+  G -- H [thick];
 }

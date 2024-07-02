@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  G [label = "朴\nplain (1563)"];
-  B [label = "木\ntree (202)"];
-  F [label = "卜\ndivination (43)"];
-  D [label = "丨\nwalking stick (*)"];
-  C [label = "一\none (1)"];
-  E [label = "丶\na drop of (*)"];
+  G [label = "朴\nplain (1563)", background = "../../assets/None.png"];
+  B [label = "木\ntree (202)", background = "../../assets/Elementary.png"];
+  F [label = "卜\ndivination (43)", background = "../../assets/None.png"];
+  D [label = "丨\nwalking stick (primitive)", background = "../../assets/None.png"];
+  C [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  E [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
 
-  B -> G [thick];
-  F -> G [thick];
-  D -> F [thick];
-  C -> D [thick];
-  E -> F [thick];
+  B -- G [thick];
+  F -- G [thick];
+  D -- F [thick];
+  C -- D [thick];
+  E -- F [thick];
 }

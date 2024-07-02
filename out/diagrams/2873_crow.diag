@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  K [label = "乌\ncrow (2873)"];
-  I [label = "鸟\nbird (1438)"];
-  F [label = "向\norientation (188)"];
-  B [label = "丶\na drop of (*)"];
-  D [label = "冂\nhood (*)"];
-  C [label = "几\nhow many? (57)"];
-  E [label = "口\nmouth (11)"];
-  G [label = "丶\na drop of (*)"];
-  H [label = "与minus丨一\npointed tail (*)"];
-  J [label = "丶\na drop of (*)"];
+  K [label = "乌\ncrow (2873)", background = "../../assets/None.png"];
+  I [label = "鸟\nbird (1438)", background = "../../assets/Medium.png"];
+  F [label = "向\norientation (188)", background = "../../assets/Elementary.png"];
+  B [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  D [label = "冂\nhood (primitive)", background = "../../assets/None.png"];
+  C [label = "几\nhow many? (57)", background = "../../assets/Elementary.png"];
+  E [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  G [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  H [label = "与minus丨一\npointed tail (primitive)", background = "../../assets/None.png"];
+  J [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
 
-  I -> K [thick];
-  F -> I [thick];
-  B -> F [thick];
-  D -> F [thick];
-  C -> D [thick];
-  E -> F [thick];
-  G -> I [thick];
-  H -> I [thick];
-  J -> K [thick];
+  I -- K [thick];
+  F -- I [thick];
+  B -- F [thick];
+  D -- F [thick];
+  C -- D [thick];
+  E -- F [thick];
+  G -- I [thick];
+  H -- I [thick];
+  J -- K [thick];
 }

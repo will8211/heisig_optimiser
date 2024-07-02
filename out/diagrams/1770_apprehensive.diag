@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  D [label = "焦\napprehensive (1770)"];
-  B [label = "隹\nturkey (*)"];
-  C [label = "火\nfire (170)"];
+  D [label = "焦\napprehensive (1770)", background = "../../assets/None.png"];
+  B [label = "隹\nturkey (primitive)", background = "../../assets/None.png"];
+  C [label = "火\nfire (170)", background = "../../assets/Elementary.png"];
 
-  B -> D [thick];
-  C -> D [thick];
+  B -- D [thick];
+  C -- D [thick];
 }

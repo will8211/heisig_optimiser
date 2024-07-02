@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  G [label = "寨\nstockade (2565)"];
-  E [label = "赛minus贝\nhamster cage (*)"];
-  B [label = "宀\nhouse (*)"];
-  C [label = "𠀎\nwire mesh (*)"];
-  D [label = "只minus口\nanimal legs (*)"];
-  F [label = "木\ntree (202)"];
+  G [label = "寨\nstockade (2565)", background = "../../assets/None.png"];
+  E [label = "赛minus贝\nhamster cage (primitive)", background = "../../assets/None.png"];
+  B [label = "宀\nhouse (primitive)", background = "../../assets/None.png"];
+  C [label = "𠀎\nwire mesh (primitive)", background = "../../assets/None.png"];
+  D [label = "只minus口\nanimal legs (primitive)", background = "../../assets/None.png"];
+  F [label = "木\ntree (202)", background = "../../assets/Elementary.png"];
 
-  E -> G [thick];
-  B -> E [thick];
-  C -> E [thick];
-  D -> E [thick];
-  F -> G [thick];
+  E -- G [thick];
+  B -- E [thick];
+  C -- E [thick];
+  D -- E [thick];
+  F -- G [thick];
 }

@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  I [label = "递\nhand over (2280)"];
-  G [label = "弟\nyounger brother (1022)"];
-  C [label = "丷\nhorns (*)"];
-  B [label = "一\none (1)"];
-  F [label = "弗\ndollar sign (*)"];
-  D [label = "介minus𠆢\ncrutches (*)"];
-  E [label = "弓\nbow (1013)"];
-  H [label = "辶\nroad (*)"];
+  I [label = "递\nhand over (2280)", background = "../../assets/Advanced.png"];
+  G [label = "弟\nyounger brother (1022)", background = "../../assets/Medium.png"];
+  C [label = "丷\nhorns (primitive)", background = "../../assets/None.png"];
+  B [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  F [label = "弗\ndollar sign (primitive)", background = "../../assets/None.png"];
+  D [label = "介minus𠆢\ncrutches (primitive)", background = "../../assets/None.png"];
+  E [label = "弓\nbow (1013)", background = "../../assets/None.png"];
+  H [label = "辶\nroad (primitive)", background = "../../assets/None.png"];
 
-  G -> I [thick];
-  C -> G [thick];
-  B -> C [thick];
-  F -> G [thick];
-  D -> F [thick];
-  E -> F [thick];
-  H -> I [thick];
+  G -- I [thick];
+  C -- G [thick];
+  B -- C [thick];
+  F -- G [thick];
+  D -- F [thick];
+  E -- F [thick];
+  H -- I [thick];
 }

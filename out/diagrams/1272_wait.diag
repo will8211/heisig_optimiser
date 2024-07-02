@@ -5,26 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  L [label = "候\nwait (1272)"];
-  I [label = "侯\nmarquis (1271)"];
-  B [label = "人\nperson (793)"];
-  C [label = "侯minus亻minus矢\nkey (*)"];
-  H [label = "矢\ndart (998)"];
-  F [label = "天\nheavens (436)"];
-  D [label = "一\none (1)"];
-  E [label = "大\nlarge (113)"];
-  G [label = "丶\na drop of (*)"];
-  K [label = "丨\nwalking stick (*)"];
-  J [label = "一\none (1)"];
+  L [label = "候\nwait (1272)", background = "../../assets/Elementary.png"];
+  I [label = "侯\nmarquis (1271)", background = "../../assets/None.png"];
+  B [label = "人\nperson (793)", background = "../../assets/Elementary.png"];
+  C [label = "侯minus亻minus矢\nkey (primitive)", background = "../../assets/None.png"];
+  H [label = "矢\ndart (998)", background = "../../assets/None.png"];
+  F [label = "天\nheavens (436)", background = "../../assets/Elementary.png"];
+  D [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  E [label = "大\nlarge (113)", background = "../../assets/Elementary.png"];
+  G [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  K [label = "丨\nwalking stick (primitive)", background = "../../assets/None.png"];
+  J [label = "一\none (1)", background = "../../assets/Elementary.png"];
 
-  I -> L [thick];
-  B -> I [thick];
-  C -> I [thick];
-  H -> I [thick];
-  F -> H [thick];
-  D -> F [thick];
-  E -> F [thick];
-  G -> H [thick];
-  K -> L [thick];
-  J -> K [thick];
+  I -- L [thick];
+  B -- I [thick];
+  C -- I [thick];
+  H -- I [thick];
+  F -- H [thick];
+  D -- F [thick];
+  E -- F [thick];
+  G -- H [thick];
+  K -- L [thick];
+  J -- K [thick];
 }

@@ -5,26 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  L [label = "蹲\nsquat (2479)"];
-  D [label = "足\nlower leg (1048)"];
-  B [label = "口\nmouth (11)"];
-  C [label = "止\nstop (379)"];
-  H [label = "酋\nchieftain (1128)"];
-  F [label = "丷\nhorns (*)"];
-  E [label = "一\none (1)"];
-  G [label = "酉\nwhiskey bottle (*)"];
-  K [label = "寸\nChinese inch (166)"];
-  I [label = "丶\na drop of (*)"];
-  J [label = "十\nten (10)"];
+  L [label = "蹲\nsquat (2479)", background = "../../assets/None.png"];
+  D [label = "足\nlower leg (1048)", background = "../../assets/Medium.png"];
+  B [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  C [label = "止\nstop (379)", background = "../../assets/Medium.png"];
+  H [label = "酋\nchieftain (1128)", background = "../../assets/None.png"];
+  F [label = "丷\nhorns (primitive)", background = "../../assets/None.png"];
+  E [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  G [label = "酉\nwhiskey bottle (primitive)", background = "../../assets/None.png"];
+  K [label = "寸\nChinese inch (166)", background = "../../assets/Advanced.png"];
+  I [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  J [label = "十\nten (10)", background = "../../assets/Elementary.png"];
 
-  D -> L [thick];
-  B -> D [thick];
-  C -> D [thick];
-  H -> L [thick];
-  F -> H [thick];
-  E -> F [thick];
-  G -> H [thick];
-  K -> L [thick];
-  I -> K [thick];
-  J -> K [thick];
+  D -- L [thick];
+  B -- D [thick];
+  C -- D [thick];
+  H -- L [thick];
+  F -- H [thick];
+  E -- F [thick];
+  G -- H [thick];
+  K -- L [thick];
+  I -- K [thick];
+  J -- K [thick];
 }

@@ -5,8 +5,8 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  C [label = "豖\nhog-tied (*)"];
-  B [label = "豕\nsow (*)"];
+  C [label = "豖\nhog-tied (primitive)", background = "../../assets/None.png"];
+  B [label = "豕\nsow (primitive)", background = "../../assets/None.png"];
 
-  B -> C [thick];
+  B -- C [thick];
 }

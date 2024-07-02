@@ -5,28 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  M [label = "锅\npot (2366)"];
-  F [label = "金\ngold (279)"];
-  B [label = "𠆢\numbrella (*)"];
-  D [label = "王\nking (265)"];
-  C [label = "工\nwork (76)"];
-  E [label = "丶\na drop of (*)"];
-  L [label = "呙\nesophagus (*)"];
-  G [label = "口\nmouth (11)"];
-  K [label = "内\ninternal (840)"];
-  I [label = "冂\nbelt (*)"];
-  H [label = "巾\ntowel (410)"];
-  J [label = "人\nperson (793)"];
+  M [label = "锅\npot (2366)", background = "../../assets/None.png"];
+  F [label = "金\ngold (279)", background = "../../assets/Advanced.png"];
+  B [label = "𠆢\numbrella (primitive)", background = "../../assets/None.png"];
+  D [label = "王\nking (265)", background = "../../assets/Medium.png"];
+  C [label = "工\nwork (76)", background = "../../assets/Elementary.png"];
+  E [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  L [label = "呙\nesophagus (primitive)", background = "../../assets/None.png"];
+  G [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  K [label = "内\ninternal (840)", background = "../../assets/Advanced.png"];
+  I [label = "冂\nbelt (primitive)", background = "../../assets/None.png"];
+  H [label = "巾\ntowel (410)", background = "../../assets/Advanced.png"];
+  J [label = "人\nperson (793)", background = "../../assets/Elementary.png"];
 
-  F -> M [thick];
-  B -> F [thick];
-  D -> F [thick];
-  C -> D [thick];
-  E -> F [thick];
-  L -> M [thick];
-  G -> L [thick];
-  K -> L [thick];
-  I -> K [thick];
-  H -> I [thick];
-  J -> K [thick];
+  F -- M [thick];
+  B -- F [thick];
+  D -- F [thick];
+  C -- D [thick];
+  E -- F [thick];
+  L -- M [thick];
+  G -- L [thick];
+  K -- L [thick];
+  I -- K [thick];
+  H -- I [thick];
+  J -- K [thick];
 }

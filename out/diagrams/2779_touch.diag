@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  F [label = "触\ntouch (2779)"];
-  D [label = "角\nangle (1362)"];
-  B [label = "勹\nbound up (*)"];
-  C [label = "用\nutilize (1361)"];
-  E [label = "虫\ninsect (509)"];
+  F [label = "触\ntouch (2779)", background = "../../assets/None.png"];
+  D [label = "角\nangle (1362)", background = "../../assets/Medium.png"];
+  B [label = "勹\nbound up (primitive)", background = "../../assets/None.png"];
+  C [label = "用\nutilize (1361)", background = "../../assets/Elementary.png"];
+  E [label = "虫\ninsect (509)", background = "../../assets/Medium.png"];
 
-  D -> F [thick];
-  B -> D [thick];
-  C -> D [thick];
-  E -> F [thick];
+  D -- F [thick];
+  B -- D [thick];
+  C -- D [thick];
+  E -- F [thick];
 }

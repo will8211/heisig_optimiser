@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  K [label = "钙\ncalcium (2816)"];
-  F [label = "金\ngold (279)"];
-  B [label = "𠆢\numbrella (*)"];
-  D [label = "王\nking (265)"];
-  C [label = "工\nwork (76)"];
-  E [label = "丶\na drop of (*)"];
-  I [label = "正\ncorrect (387)"];
-  G [label = "一\none (1)"];
-  H [label = "止\nstop (379)"];
-  J [label = "𠃌\nclothes hanger (*)"];
+  K [label = "钙\ncalcium (2816)", background = "../../assets/None.png"];
+  F [label = "金\ngold (279)", background = "../../assets/Advanced.png"];
+  B [label = "𠆢\numbrella (primitive)", background = "../../assets/None.png"];
+  D [label = "王\nking (265)", background = "../../assets/Medium.png"];
+  C [label = "工\nwork (76)", background = "../../assets/Elementary.png"];
+  E [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  I [label = "正\ncorrect (387)", background = "../../assets/Elementary.png"];
+  G [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  H [label = "止\nstop (379)", background = "../../assets/Medium.png"];
+  J [label = "𠃌\nclothes hanger (primitive)", background = "../../assets/None.png"];
 
-  F -> K [thick];
-  B -> F [thick];
-  D -> F [thick];
-  C -> D [thick];
-  E -> F [thick];
-  I -> K [thick];
-  G -> I [thick];
-  H -> I [thick];
-  J -> K [thick];
+  F -- K [thick];
+  B -- F [thick];
+  D -- F [thick];
+  C -- D [thick];
+  E -- F [thick];
+  I -- K [thick];
+  G -- I [thick];
+  H -- I [thick];
+  J -- K [thick];
 }

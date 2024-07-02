@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  D [label = "君\nmonarch (959)"];
-  B [label = "尹\noverseer (957)"];
-  C [label = "口\nmouth (11)"];
+  D [label = "君\nmonarch (959)", background = "../../assets/None.png"];
+  B [label = "尹\noverseer (957)", background = "../../assets/None.png"];
+  C [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
 
-  B -> D [thick];
-  C -> D [thick];
+  B -- D [thick];
+  C -- D [thick];
 }

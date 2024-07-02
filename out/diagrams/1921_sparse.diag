@@ -5,30 +5,30 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  N [label = "疏\nsparse (1921)"];
-  F [label = "疋\nzoo (*)"];
-  E [label = "走minus十\nmending (*)"];
-  D [label = "正\ncorrect (387)"];
-  B [label = "一\none (1)"];
-  C [label = "止\nstop (379)"];
-  M [label = "㐬\nbaby Moses (*)"];
-  K [label = "充minus儿\ninfant (*)"];
-  I [label = "会minus亼\nwall (*)"];
-  G [label = "厶\nelbow (*)"];
-  H [label = "一\none (1)"];
-  J [label = "丶\na drop of (*)"];
-  L [label = "川\nstream (134)"];
+  N [label = "疏\nsparse (1921)", background = "../../assets/None.png"];
+  F [label = "疋\nzoo (primitive)", background = "../../assets/None.png"];
+  E [label = "走minus十\nmending (primitive)", background = "../../assets/None.png"];
+  D [label = "正\ncorrect (387)", background = "../../assets/Elementary.png"];
+  B [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  C [label = "止\nstop (379)", background = "../../assets/Medium.png"];
+  M [label = "㐬\nbaby Moses (primitive)", background = "../../assets/None.png"];
+  K [label = "充minus儿\ninfant (primitive)", background = "../../assets/None.png"];
+  I [label = "会minus亼\nwall (primitive)", background = "../../assets/None.png"];
+  G [label = "厶\nelbow (primitive)", background = "../../assets/None.png"];
+  H [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  J [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  L [label = "川\nstream (134)", background = "../../assets/None.png"];
 
-  F -> N [thick];
-  E -> F [thick];
-  D -> E [thick];
-  B -> D [thick];
-  C -> D [thick];
-  M -> N [thick];
-  K -> M [thick];
-  I -> K [thick];
-  G -> I [thick];
-  H -> I [thick];
-  J -> K [thick];
-  L -> M [thick];
+  F -- N [thick];
+  E -- F [thick];
+  D -- E [thick];
+  B -- D [thick];
+  C -- D [thick];
+  M -- N [thick];
+  K -- M [thick];
+  I -- K [thick];
+  G -- I [thick];
+  H -- I [thick];
+  J -- K [thick];
+  L -- M [thick];
 }

@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  J [label = "淫\npromiscuous (2113)"];
-  E [label = "水\nwater (137)"];
-  C [label = "丨\nwalking stick (*)"];
-  B [label = "一\none (1)"];
-  D [label = "丶\na drop of (*)"];
-  G [label = "爪\nclaw (663)"];
-  F [label = "𠂆\ndrag (*)"];
-  I [label = "壬\nporter (*)"];
-  H [label = "士\nsoldier (334)"];
+  J [label = "淫\npromiscuous (2113)", background = "../../assets/None.png"];
+  E [label = "水\nwater (137)", background = "../../assets/Elementary.png"];
+  C [label = "丨\nwalking stick (primitive)", background = "../../assets/None.png"];
+  B [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  D [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  G [label = "爪\nclaw (663)", background = "../../assets/None.png"];
+  F [label = "𠂆\ndrag (primitive)", background = "../../assets/None.png"];
+  I [label = "壬\nporter (primitive)", background = "../../assets/None.png"];
+  H [label = "士\nsoldier (334)", background = "../../assets/Advanced.png"];
 
-  E -> J [thick];
-  C -> E [thick];
-  B -> C [thick];
-  D -> E [thick];
-  G -> J [thick];
-  F -> G [thick];
-  I -> J [thick];
-  H -> I [thick];
+  E -- J [thick];
+  C -- E [thick];
+  B -- C [thick];
+  D -- E [thick];
+  G -- J [thick];
+  F -- G [thick];
+  I -- J [thick];
+  H -- I [thick];
 }

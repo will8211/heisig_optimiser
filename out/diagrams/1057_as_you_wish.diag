@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  H [label = "随\nas you wish (1057)"];
-  B [label = "阝\npinnacle (*)"];
-  F [label = "有\npossess (79)"];
-  C [label = "月\nmonth (13)"];
-  E [label = "𠂇\nby one’s side (*)"];
-  D [label = "十\nten (10)"];
-  G [label = "辶\nroad (*)"];
+  H [label = "随\nas you wish (1057)", background = "../../assets/Medium.png"];
+  B [label = "阝\npinnacle (primitive)", background = "../../assets/None.png"];
+  F [label = "有\npossess (79)", background = "../../assets/Elementary.png"];
+  C [label = "月\nmonth (13)", background = "../../assets/Elementary.png"];
+  E [label = "𠂇\nby one’s side (primitive)", background = "../../assets/None.png"];
+  D [label = "十\nten (10)", background = "../../assets/Elementary.png"];
+  G [label = "辶\nroad (primitive)", background = "../../assets/None.png"];
 
-  B -> H [thick];
-  F -> H [thick];
-  C -> F [thick];
-  E -> F [thick];
-  D -> E [thick];
-  G -> H [thick];
+  B -- H [thick];
+  F -- H [thick];
+  C -- F [thick];
+  E -- F [thick];
+  D -- E [thick];
+  G -- H [thick];
 }

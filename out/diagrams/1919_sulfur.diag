@@ -5,26 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  L [label = "硫\nsulfur (1919)"];
-  D [label = "石\nstone (125)"];
-  B [label = "口\nmouth (11)"];
-  C [label = "厂\nfactory (121)"];
-  K [label = "㐬\nbaby Moses (*)"];
-  I [label = "充minus儿\ninfant (*)"];
-  G [label = "会minus亼\nwall (*)"];
-  E [label = "厶\nelbow (*)"];
-  F [label = "一\none (1)"];
-  H [label = "丶\na drop of (*)"];
-  J [label = "川\nstream (134)"];
+  L [label = "硫\nsulfur (1919)", background = "../../assets/None.png"];
+  D [label = "石\nstone (125)", background = "../../assets/Advanced.png"];
+  B [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  C [label = "厂\nfactory (121)", background = "../../assets/Medium.png"];
+  K [label = "㐬\nbaby Moses (primitive)", background = "../../assets/None.png"];
+  I [label = "充minus儿\ninfant (primitive)", background = "../../assets/None.png"];
+  G [label = "会minus亼\nwall (primitive)", background = "../../assets/None.png"];
+  E [label = "厶\nelbow (primitive)", background = "../../assets/None.png"];
+  F [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  H [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  J [label = "川\nstream (134)", background = "../../assets/None.png"];
 
-  D -> L [thick];
-  B -> D [thick];
-  C -> D [thick];
-  K -> L [thick];
-  I -> K [thick];
-  G -> I [thick];
-  E -> G [thick];
-  F -> G [thick];
-  H -> I [thick];
-  J -> K [thick];
+  D -- L [thick];
+  B -- D [thick];
+  C -- D [thick];
+  K -- L [thick];
+  I -- K [thick];
+  G -- I [thick];
+  E -- G [thick];
+  F -- G [thick];
+  H -- I [thick];
+  J -- K [thick];
 }

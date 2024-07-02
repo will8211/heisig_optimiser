@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  F [label = "坦\nlevel (1539)"];
-  B [label = "土\nsoil (158)"];
-  E [label = "旦\ndaybreak (30)"];
-  C [label = "日\nday (12)"];
-  D [label = "一\none (1)"];
+  F [label = "坦\nlevel (1539)", background = "../../assets/None.png"];
+  B [label = "土\nsoil (158)", background = "../../assets/Medium.png"];
+  E [label = "旦\ndaybreak (30)", background = "../../assets/Medium.png"];
+  C [label = "日\nday (12)", background = "../../assets/Elementary.png"];
+  D [label = "一\none (1)", background = "../../assets/Elementary.png"];
 
-  B -> F [thick];
-  E -> F [thick];
-  C -> E [thick];
-  D -> E [thick];
+  B -- F [thick];
+  E -- F [thick];
+  C -- E [thick];
+  D -- E [thick];
 }

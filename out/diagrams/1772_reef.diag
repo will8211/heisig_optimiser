@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  H [label = "礁\nreef (1772)"];
-  D [label = "石\nstone (125)"];
-  B [label = "口\nmouth (11)"];
-  C [label = "厂\nfactory (121)"];
-  G [label = "焦\napprehensive (1770)"];
-  E [label = "隹\nturkey (*)"];
-  F [label = "火\nfire (170)"];
+  H [label = "礁\nreef (1772)", background = "../../assets/None.png"];
+  D [label = "石\nstone (125)", background = "../../assets/Advanced.png"];
+  B [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  C [label = "厂\nfactory (121)", background = "../../assets/Medium.png"];
+  G [label = "焦\napprehensive (1770)", background = "../../assets/None.png"];
+  E [label = "隹\nturkey (primitive)", background = "../../assets/None.png"];
+  F [label = "火\nfire (170)", background = "../../assets/Elementary.png"];
 
-  D -> H [thick];
-  B -> D [thick];
-  C -> D [thick];
-  G -> H [thick];
-  E -> G [thick];
-  F -> G [thick];
+  D -- H [thick];
+  B -- D [thick];
+  C -- D [thick];
+  G -- H [thick];
+  E -- G [thick];
+  F -- G [thick];
 }

@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  I [label = "婿\nson-in-law (1676)"];
-  B [label = "女\nwoman (102)"];
-  G [label = "疋\nzoo (*)"];
-  F [label = "走minus十\nmending (*)"];
-  E [label = "正\ncorrect (387)"];
-  C [label = "一\none (1)"];
-  D [label = "止\nstop (379)"];
-  H [label = "月\nmonth (13)"];
+  I [label = "婿\nson-in-law (1676)", background = "../../assets/None.png"];
+  B [label = "女\nwoman (102)", background = "../../assets/Elementary.png"];
+  G [label = "疋\nzoo (primitive)", background = "../../assets/None.png"];
+  F [label = "走minus十\nmending (primitive)", background = "../../assets/None.png"];
+  E [label = "正\ncorrect (387)", background = "../../assets/Elementary.png"];
+  C [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  D [label = "止\nstop (379)", background = "../../assets/Medium.png"];
+  H [label = "月\nmonth (13)", background = "../../assets/Elementary.png"];
 
-  B -> I [thick];
-  G -> I [thick];
-  F -> G [thick];
-  E -> F [thick];
-  C -> E [thick];
-  D -> E [thick];
-  H -> I [thick];
+  B -- I [thick];
+  G -- I [thick];
+  F -- G [thick];
+  E -- F [thick];
+  C -- E [thick];
+  D -- E [thick];
+  H -- I [thick];
 }

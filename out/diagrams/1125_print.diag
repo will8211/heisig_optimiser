@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  D [label = "印\nprint (1125)"];
-  B [label = "印minus卩\nstaples (*)"];
-  C [label = "卩\nstamp (*)"];
+  D [label = "印\nprint (1125)", background = "../../assets/Medium.png"];
+  B [label = "印minus卩\nstaples (primitive)", background = "../../assets/None.png"];
+  C [label = "卩\nstamp (primitive)", background = "../../assets/None.png"];
 
-  B -> D [thick];
-  C -> D [thick];
+  B -- D [thick];
+  C -- D [thick];
 }

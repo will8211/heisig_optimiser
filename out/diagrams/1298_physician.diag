@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  H [label = "医\nphysician (1298)"];
-  B [label = "匚\nbox (*)"];
-  G [label = "矢\ndart (998)"];
-  E [label = "天\nheavens (436)"];
-  C [label = "一\none (1)"];
-  D [label = "大\nlarge (113)"];
-  F [label = "丶\na drop of (*)"];
+  H [label = "医\nphysician (1298)", background = "../../assets/Elementary.png"];
+  B [label = "匚\nbox (primitive)", background = "../../assets/None.png"];
+  G [label = "矢\ndart (998)", background = "../../assets/None.png"];
+  E [label = "天\nheavens (436)", background = "../../assets/Elementary.png"];
+  C [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  D [label = "大\nlarge (113)", background = "../../assets/Elementary.png"];
+  F [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
 
-  B -> H [thick];
-  G -> H [thick];
-  E -> G [thick];
-  C -> E [thick];
-  D -> E [thick];
-  F -> G [thick];
+  B -- H [thick];
+  G -- H [thick];
+  E -- G [thick];
+  C -- E [thick];
+  D -- E [thick];
+  F -- G [thick];
 }

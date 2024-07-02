@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  G [label = "舞\ndance (1342)"];
-  B [label = "𠂉\nreclining (*)"];
-  D [label = "夕\nevening (115)"];
-  C [label = "月\nmonth (13)"];
-  F [label = "年\nyear (871)"];
-  E [label = "午\nnoon (542)"];
+  G [label = "舞\ndance (1342)", background = "../../assets/Advanced.png"];
+  B [label = "𠂉\nreclining (primitive)", background = "../../assets/None.png"];
+  D [label = "夕\nevening (115)", background = "../../assets/Advanced.png"];
+  C [label = "月\nmonth (13)", background = "../../assets/Elementary.png"];
+  F [label = "年\nyear (871)", background = "../../assets/Elementary.png"];
+  E [label = "午\nnoon (542)", background = "../../assets/Elementary.png"];
 
-  B -> G [thick];
-  D -> G [thick];
-  C -> D [thick];
-  F -> G [thick];
-  E -> F [thick];
+  B -- G [thick];
+  D -- G [thick];
+  C -- D [thick];
+  F -- G [thick];
+  E -- F [thick];
 }

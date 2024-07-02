@@ -43,6 +43,7 @@ def _build_hierarchy(character, character_map, visited=None):
         "number": str(character_data["Number"]) if character_data["Number"] else None,
         "character": character_data["Character"],
         "keyword": character_data["Keywords"][0],
+        "level": character_data['Level'],
         "id": id,
         "requirements": requirements,
     }

@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  K [label = "撤\nremove (1918)"];
-  B [label = "扌\nfingers (*)"];
-  I [label = "育\neducation (683)"];
-  G [label = "充minus儿\ninfant (*)"];
-  E [label = "会minus亼\nwall (*)"];
-  C [label = "厶\nelbow (*)"];
-  D [label = "一\none (1)"];
-  F [label = "丶\na drop of (*)"];
-  H [label = "月\nmonth (13)"];
-  J [label = "攵\ntaskmaster (*)"];
+  K [label = "撤\nremove (1918)", background = "../../assets/None.png"];
+  B [label = "扌\nfingers (primitive)", background = "../../assets/None.png"];
+  I [label = "育\neducation (683)", background = "../../assets/Medium.png"];
+  G [label = "充minus儿\ninfant (primitive)", background = "../../assets/None.png"];
+  E [label = "会minus亼\nwall (primitive)", background = "../../assets/None.png"];
+  C [label = "厶\nelbow (primitive)", background = "../../assets/None.png"];
+  D [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  F [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  H [label = "月\nmonth (13)", background = "../../assets/Elementary.png"];
+  J [label = "攵\ntaskmaster (primitive)", background = "../../assets/None.png"];
 
-  B -> K [thick];
-  I -> K [thick];
-  G -> I [thick];
-  E -> G [thick];
-  C -> E [thick];
-  D -> E [thick];
-  F -> G [thick];
-  H -> I [thick];
-  J -> K [thick];
+  B -- K [thick];
+  I -- K [thick];
+  G -- I [thick];
+  E -- G [thick];
+  C -- E [thick];
+  D -- E [thick];
+  F -- G [thick];
+  H -- I [thick];
+  J -- K [thick];
 }

@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  G [label = "均\nequal (159)"];
-  B [label = "土\nsoil (158)"];
-  F [label = "匀\nuniform (66)"];
-  C [label = "勹\nbound up (*)"];
-  E [label = "二\ntwo (2)"];
-  D [label = "一\none (1)"];
+  G [label = "均\nequal (159)", background = "../../assets/Advanced.png"];
+  B [label = "土\nsoil (158)", background = "../../assets/Medium.png"];
+  F [label = "匀\nuniform (66)", background = "../../assets/None.png"];
+  C [label = "勹\nbound up (primitive)", background = "../../assets/None.png"];
+  E [label = "二\ntwo (2)", background = "../../assets/Elementary.png"];
+  D [label = "一\none (1)", background = "../../assets/Elementary.png"];
 
-  B -> G [thick];
-  F -> G [thick];
-  C -> F [thick];
-  E -> F [thick];
-  D -> E [thick];
+  B -- G [thick];
+  F -- G [thick];
+  C -- F [thick];
+  E -- F [thick];
+  D -- E [thick];
 }

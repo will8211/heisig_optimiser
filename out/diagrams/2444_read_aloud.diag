@@ -5,26 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  L [label = "诵\nread aloud (2444)"];
-  F [label = "言\nsay (346)"];
-  C [label = "二\ntwo (2)"];
-  B [label = "一\none (1)"];
-  D [label = "口\nmouth (11)"];
-  E [label = "亠\ntop hat (*)"];
-  K [label = "甬\nchop-rack (*)"];
-  G [label = "月\nmonth (13)"];
-  I [label = "丨\nwalking stick (*)"];
-  H [label = "一\none (1)"];
-  J [label = "节minus艹\nchop (*)"];
+  L [label = "诵\nread aloud (2444)", background = "../../assets/None.png"];
+  F [label = "言\nsay (346)", background = "../../assets/Medium.png"];
+  C [label = "二\ntwo (2)", background = "../../assets/Elementary.png"];
+  B [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  D [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  E [label = "亠\ntop hat (primitive)", background = "../../assets/None.png"];
+  K [label = "甬\nchop-rack (primitive)", background = "../../assets/None.png"];
+  G [label = "月\nmonth (13)", background = "../../assets/Elementary.png"];
+  I [label = "丨\nwalking stick (primitive)", background = "../../assets/None.png"];
+  H [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  J [label = "节minus艹\nchop (primitive)", background = "../../assets/None.png"];
 
-  F -> L [thick];
-  C -> F [thick];
-  B -> C [thick];
-  D -> F [thick];
-  E -> F [thick];
-  K -> L [thick];
-  G -> K [thick];
-  I -> K [thick];
-  H -> I [thick];
-  J -> K [thick];
+  F -- L [thick];
+  C -- F [thick];
+  B -- C [thick];
+  D -- F [thick];
+  E -- F [thick];
+  K -- L [thick];
+  G -- K [thick];
+  I -- K [thick];
+  H -- I [thick];
+  J -- K [thick];
 }

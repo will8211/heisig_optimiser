@@ -5,30 +5,30 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  N [label = "魁\nleader (2930)"];
-  F [label = "鬼\nghost (1472)"];
-  B [label = "丶\na drop of (*)"];
-  C [label = "田\nrice field (14)"];
-  D [label = "儿\nyoungster (56)"];
-  E [label = "厶\nelbow (*)"];
-  M [label = "斗\nBig Dipper (968)"];
-  K [label = "冫\nice (*)"];
-  J [label = "水\nwater (137)"];
-  H [label = "丨\nwalking stick (*)"];
-  G [label = "一\none (1)"];
-  I [label = "丶\na drop of (*)"];
-  L [label = "十\nten (10)"];
+  N [label = "魁\nleader (2930)", background = "../../assets/None.png"];
+  F [label = "鬼\nghost (1472)", background = "../../assets/Advanced.png"];
+  B [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  C [label = "田\nrice field (14)", background = "../../assets/Medium.png"];
+  D [label = "儿\nyoungster (56)", background = "../../assets/Elementary.png"];
+  E [label = "厶\nelbow (primitive)", background = "../../assets/None.png"];
+  M [label = "斗\nBig Dipper (968)", background = "../../assets/Advanced.png"];
+  K [label = "冫\nice (primitive)", background = "../../assets/None.png"];
+  J [label = "水\nwater (137)", background = "../../assets/Elementary.png"];
+  H [label = "丨\nwalking stick (primitive)", background = "../../assets/None.png"];
+  G [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  I [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  L [label = "十\nten (10)", background = "../../assets/Elementary.png"];
 
-  F -> N [thick];
-  B -> F [thick];
-  C -> F [thick];
-  D -> F [thick];
-  E -> F [thick];
-  M -> N [thick];
-  K -> M [thick];
-  J -> K [thick];
-  H -> J [thick];
-  G -> H [thick];
-  I -> J [thick];
-  L -> M [thick];
+  F -- N [thick];
+  B -- F [thick];
+  C -- F [thick];
+  D -- F [thick];
+  E -- F [thick];
+  M -- N [thick];
+  K -- M [thick];
+  J -- K [thick];
+  H -- J [thick];
+  G -- H [thick];
+  I -- J [thick];
+  L -- M [thick];
 }

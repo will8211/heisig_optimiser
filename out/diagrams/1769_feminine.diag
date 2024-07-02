@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  F [label = "雌\nfeminine (1769)"];
-  D [label = "此\nthis (literary) (460)"];
-  B [label = "止\nstop (379)"];
-  C [label = "匕\nancient spoon (453)"];
-  E [label = "隹\nturkey (*)"];
+  F [label = "雌\nfeminine (1769)", background = "../../assets/None.png"];
+  D [label = "此\nthis (literary) (460)", background = "../../assets/Advanced.png"];
+  B [label = "止\nstop (379)", background = "../../assets/Medium.png"];
+  C [label = "匕\nancient spoon (453)", background = "../../assets/None.png"];
+  E [label = "隹\nturkey (primitive)", background = "../../assets/None.png"];
 
-  D -> F [thick];
-  B -> D [thick];
-  C -> D [thick];
-  E -> F [thick];
+  D -- F [thick];
+  B -- D [thick];
+  C -- D [thick];
+  E -- F [thick];
 }

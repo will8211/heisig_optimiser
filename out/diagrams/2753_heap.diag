@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  K [label = "叠\nheap (2753)"];
-  B [label = "又\nagain (633)"];
-  C [label = "冖\ncrown (*)"];
-  J [label = "架\nshelf (751)"];
-  H [label = "加\nadd (749)"];
-  F [label = "肌\nmuscle (63)"];
-  D [label = "几\nhow many? (57)"];
-  E [label = "月\nmonth (13)"];
-  G [label = "口\nmouth (11)"];
-  I [label = "木\ntree (202)"];
+  K [label = "叠\nheap (2753)", background = "../../assets/None.png"];
+  B [label = "又\nagain (633)", background = "../../assets/Elementary.png"];
+  C [label = "冖\ncrown (primitive)", background = "../../assets/None.png"];
+  J [label = "架\nshelf (751)", background = "../../assets/Advanced.png"];
+  H [label = "加\nadd (749)", background = "../../assets/Medium.png"];
+  F [label = "肌\nmuscle (63)", background = "../../assets/None.png"];
+  D [label = "几\nhow many? (57)", background = "../../assets/Elementary.png"];
+  E [label = "月\nmonth (13)", background = "../../assets/Elementary.png"];
+  G [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  I [label = "木\ntree (202)", background = "../../assets/Elementary.png"];
 
-  B -> K [thick];
-  C -> K [thick];
-  J -> K [thick];
-  H -> J [thick];
-  F -> H [thick];
-  D -> F [thick];
-  E -> F [thick];
-  G -> H [thick];
-  I -> J [thick];
+  B -- K [thick];
+  C -- K [thick];
+  J -- K [thick];
+  H -- J [thick];
+  F -- H [thick];
+  D -- F [thick];
+  E -- F [thick];
+  G -- H [thick];
+  I -- J [thick];
 }

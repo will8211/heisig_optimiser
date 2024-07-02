@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  J [label = "猩\norangutan (2573)"];
-  D [label = "犬\npooch (239)"];
-  B [label = "大\nlarge (113)"];
-  C [label = "丶\na drop of (*)"];
-  I [label = "星\nstar (1219)"];
-  E [label = "日\nday (12)"];
-  H [label = "生\nlife (1218)"];
-  F [label = "丶\na drop of (*)"];
-  G [label = "毒minus母\ngrow up (*)"];
+  J [label = "猩\norangutan (2573)", background = "../../assets/None.png"];
+  D [label = "犬\npooch (239)", background = "../../assets/None.png"];
+  B [label = "大\nlarge (113)", background = "../../assets/Elementary.png"];
+  C [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  I [label = "星\nstar (1219)", background = "../../assets/Elementary.png"];
+  E [label = "日\nday (12)", background = "../../assets/Elementary.png"];
+  H [label = "生\nlife (1218)", background = "../../assets/Elementary.png"];
+  F [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  G [label = "毒minus母\ngrow up (primitive)", background = "../../assets/None.png"];
 
-  D -> J [thick];
-  B -> D [thick];
-  C -> D [thick];
-  I -> J [thick];
-  E -> I [thick];
-  H -> I [thick];
-  F -> H [thick];
-  G -> H [thick];
+  D -- J [thick];
+  B -- D [thick];
+  C -- D [thick];
+  I -- J [thick];
+  E -- I [thick];
+  H -- I [thick];
+  F -- H [thick];
+  G -- H [thick];
 }

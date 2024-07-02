@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  E [label = "蚂\nleech-hopper (2899)"];
-  B [label = "虫\ninsect (509)"];
-  D [label = "马\nhorse (1453)"];
-  C [label = "与minus丨一\npointed tail (*)"];
+  E [label = "蚂\nleech-hopper (2899)", background = "../../assets/None.png"];
+  B [label = "虫\ninsect (509)", background = "../../assets/Medium.png"];
+  D [label = "马\nhorse (1453)", background = "../../assets/Elementary.png"];
+  C [label = "与minus丨一\npointed tail (primitive)", background = "../../assets/None.png"];
 
-  B -> E [thick];
-  D -> E [thick];
-  C -> D [thick];
+  B -- E [thick];
+  D -- E [thick];
+  C -- D [thick];
 }

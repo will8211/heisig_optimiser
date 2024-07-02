@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  H [label = "宠\ndote on (2933)"];
-  B [label = "宀\nhouse (*)"];
-  G [label = "龙\ndragon (1474)"];
-  E [label = "犬\npooch (239)"];
-  C [label = "大\nlarge (113)"];
-  D [label = "丶\na drop of (*)"];
-  F [label = "匕\nancient spoon (453)"];
+  H [label = "宠\ndote on (2933)", background = "../../assets/None.png"];
+  B [label = "宀\nhouse (primitive)", background = "../../assets/None.png"];
+  G [label = "龙\ndragon (1474)", background = "../../assets/Medium.png"];
+  E [label = "犬\npooch (239)", background = "../../assets/None.png"];
+  C [label = "大\nlarge (113)", background = "../../assets/Elementary.png"];
+  D [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  F [label = "匕\nancient spoon (453)", background = "../../assets/None.png"];
 
-  B -> H [thick];
-  G -> H [thick];
-  E -> G [thick];
-  C -> E [thick];
-  D -> E [thick];
-  F -> G [thick];
+  B -- H [thick];
+  G -- H [thick];
+  E -- G [thick];
+  C -- E [thick];
+  D -- E [thick];
+  F -- G [thick];
 }

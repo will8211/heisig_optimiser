@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  E [label = "移\nshift (767)"];
-  B [label = "禾\nstanding grain (762)"];
-  D [label = "多\nmany (116)"];
-  C [label = "月\nmonth (13)"];
+  E [label = "移\nshift (767)", background = "../../assets/Advanced.png"];
+  B [label = "禾\nstanding grain (762)", background = "../../assets/None.png"];
+  D [label = "多\nmany (116)", background = "../../assets/Elementary.png"];
+  C [label = "月\nmonth (13)", background = "../../assets/Elementary.png"];
 
-  B -> E [thick];
-  D -> E [thick];
-  C -> D [thick];
+  B -- E [thick];
+  D -- E [thick];
+  C -- D [thick];
 }

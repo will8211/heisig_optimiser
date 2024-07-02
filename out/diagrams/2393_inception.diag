@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  K [label = "绪\ninception (2393)"];
-  C [label = "纟\nthread (*)"];
-  B [label = "厶\nelbow (*)"];
-  J [label = "者\nsomeone (1037)"];
-  H [label = "老\nold man (1029)"];
-  D [label = "土\nsoil (158)"];
-  F [label = "丨\nwalking stick (*)"];
-  E [label = "一\none (1)"];
-  G [label = "匕\nancient spoon (453)"];
-  I [label = "日\nday (12)"];
+  K [label = "绪\ninception (2393)", background = "../../assets/None.png"];
+  C [label = "纟\nthread (primitive)", background = "../../assets/None.png"];
+  B [label = "厶\nelbow (primitive)", background = "../../assets/None.png"];
+  J [label = "者\nsomeone (1037)", background = "../../assets/Medium.png"];
+  H [label = "老\nold man (1029)", background = "../../assets/Elementary.png"];
+  D [label = "土\nsoil (158)", background = "../../assets/Medium.png"];
+  F [label = "丨\nwalking stick (primitive)", background = "../../assets/None.png"];
+  E [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  G [label = "匕\nancient spoon (453)", background = "../../assets/None.png"];
+  I [label = "日\nday (12)", background = "../../assets/Elementary.png"];
 
-  C -> K [thick];
-  B -> C [thick];
-  J -> K [thick];
-  H -> J [thick];
-  D -> H [thick];
-  F -> H [thick];
-  E -> F [thick];
-  G -> H [thick];
-  I -> J [thick];
+  C -- K [thick];
+  B -- C [thick];
+  J -- K [thick];
+  H -- J [thick];
+  D -- H [thick];
+  F -- H [thick];
+  E -- F [thick];
+  G -- H [thick];
+  I -- J [thick];
 }

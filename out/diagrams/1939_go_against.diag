@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  G [label = "逆\ngo against (1939)"];
-  E [label = "屰\nmountain goat (*)"];
-  C [label = "丷\nhorns (*)"];
-  B [label = "一\none (1)"];
-  D [label = "山\nmountain (688)"];
-  F [label = "辶\nroad (*)"];
+  G [label = "逆\ngo against (1939)", background = "../../assets/None.png"];
+  E [label = "屰\nmountain goat (primitive)", background = "../../assets/None.png"];
+  C [label = "丷\nhorns (primitive)", background = "../../assets/None.png"];
+  B [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  D [label = "山\nmountain (688)", background = "../../assets/Elementary.png"];
+  F [label = "辶\nroad (primitive)", background = "../../assets/None.png"];
 
-  E -> G [thick];
-  C -> E [thick];
-  B -> C [thick];
-  D -> E [thick];
-  F -> G [thick];
+  E -- G [thick];
+  C -- E [thick];
+  B -- C [thick];
+  D -- E [thick];
+  F -- G [thick];
 }

@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  G [label = "属\nbelong to (1500)"];
-  B [label = "尸\ncorpse (882)"];
-  C [label = "丶\na drop of (*)"];
-  E [label = "冂\nbelt (*)"];
-  D [label = "巾\ntowel (410)"];
-  F [label = "虫\ninsect (509)"];
+  G [label = "属\nbelong to (1500)", background = "../../assets/Advanced.png"];
+  B [label = "尸\ncorpse (882)", background = "../../assets/None.png"];
+  C [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  E [label = "冂\nbelt (primitive)", background = "../../assets/None.png"];
+  D [label = "巾\ntowel (410)", background = "../../assets/Advanced.png"];
+  F [label = "虫\ninsect (509)", background = "../../assets/Medium.png"];
 
-  B -> G [thick];
-  C -> G [thick];
-  E -> G [thick];
-  D -> E [thick];
-  F -> G [thick];
+  B -- G [thick];
+  C -- G [thick];
+  E -- G [thick];
+  D -- E [thick];
+  F -- G [thick];
 }

@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  G [label = "恋\nbe enamored of (1494)"];
-  E [label = "亦\nlikewise (1491)"];
-  B [label = "亠\ntop hat (*)"];
-  C [label = "只minus口\nanimal legs (*)"];
-  D [label = "刀\nsword (83)"];
-  F [label = "心\nheart (563)"];
+  G [label = "恋\nbe enamored of (1494)", background = "../../assets/None.png"];
+  E [label = "亦\nlikewise (1491)", background = "../../assets/None.png"];
+  B [label = "亠\ntop hat (primitive)", background = "../../assets/None.png"];
+  C [label = "只minus口\nanimal legs (primitive)", background = "../../assets/None.png"];
+  D [label = "刀\nsword (83)", background = "../../assets/Medium.png"];
+  F [label = "心\nheart (563)", background = "../../assets/Medium.png"];
 
-  E -> G [thick];
-  B -> E [thick];
-  C -> E [thick];
-  D -> E [thick];
-  F -> G [thick];
+  E -- G [thick];
+  B -- E [thick];
+  C -- E [thick];
+  D -- E [thick];
+  F -- G [thick];
 }

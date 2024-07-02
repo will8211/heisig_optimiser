@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  H [label = "菇\nmushroom (stem) (2996)"];
-  B [label = "艹\nflower (*)"];
-  G [label = "姑\nfather’s sister (1518)"];
-  C [label = "女\nwoman (102)"];
-  F [label = "古\nancient (16)"];
-  D [label = "十\nten (10)"];
-  E [label = "口\nmouth (11)"];
+  H [label = "菇\nmushroom (stem) (2996)", background = "../../assets/None.png"];
+  B [label = "艹\nflower (primitive)", background = "../../assets/None.png"];
+  G [label = "姑\nfather’s sister (1518)", background = "../../assets/Advanced.png"];
+  C [label = "女\nwoman (102)", background = "../../assets/Elementary.png"];
+  F [label = "古\nancient (16)", background = "../../assets/Medium.png"];
+  D [label = "十\nten (10)", background = "../../assets/Elementary.png"];
+  E [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
 
-  B -> H [thick];
-  G -> H [thick];
-  C -> G [thick];
-  F -> G [thick];
-  D -> F [thick];
-  E -> F [thick];
+  B -- H [thick];
+  G -- H [thick];
+  C -- G [thick];
+  F -- G [thick];
+  D -- F [thick];
+  E -- F [thick];
 }

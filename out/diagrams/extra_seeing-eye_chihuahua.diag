@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  I [label = "犮\nseeing-eye chihuahua (*)"];
-  D [label = "犬\npooch (239)"];
-  B [label = "大\nlarge (113)"];
-  C [label = "丶\na drop of (*)"];
-  H [label = "友\nfriend (635)"];
-  F [label = "𠂇\nby one’s side (*)"];
-  E [label = "十\nten (10)"];
-  G [label = "又\nagain (633)"];
+  I [label = "犮\nseeing-eye chihuahua (primitive)", background = "../../assets/None.png"];
+  D [label = "犬\npooch (239)", background = "../../assets/None.png"];
+  B [label = "大\nlarge (113)", background = "../../assets/Elementary.png"];
+  C [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  H [label = "友\nfriend (635)", background = "../../assets/Elementary.png"];
+  F [label = "𠂇\nby one’s side (primitive)", background = "../../assets/None.png"];
+  E [label = "十\nten (10)", background = "../../assets/Elementary.png"];
+  G [label = "又\nagain (633)", background = "../../assets/Elementary.png"];
 
-  D -> I [thick];
-  B -> D [thick];
-  C -> D [thick];
-  H -> I [thick];
-  F -> H [thick];
-  E -> F [thick];
-  G -> H [thick];
+  D -- I [thick];
+  B -- D [thick];
+  C -- D [thick];
+  H -- I [thick];
+  F -- H [thick];
+  E -- F [thick];
+  G -- H [thick];
 }

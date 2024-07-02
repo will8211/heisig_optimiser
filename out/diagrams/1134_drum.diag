@@ -5,30 +5,30 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  N [label = "鼓\ndrum (1134)"];
-  D [label = "支\noffshoot (650)"];
-  B [label = "十\nten (10)"];
-  C [label = "又\nagain (633)"];
-  M [label = "壴\ndrum (*)"];
-  E [label = "士\nsoldier (334)"];
-  L [label = "桌\ntable (224)"];
-  F [label = "木\ntree (202)"];
-  G [label = "日\nday (12)"];
-  K [label = "卜\ndivination (43)"];
-  I [label = "丨\nwalking stick (*)"];
-  H [label = "一\none (1)"];
-  J [label = "丶\na drop of (*)"];
+  N [label = "鼓\ndrum (1134)", background = "../../assets/None.png"];
+  D [label = "支\noffshoot (650)", background = "../../assets/Medium.png"];
+  B [label = "十\nten (10)", background = "../../assets/Elementary.png"];
+  C [label = "又\nagain (633)", background = "../../assets/Elementary.png"];
+  M [label = "壴\ndrum (primitive)", background = "../../assets/None.png"];
+  E [label = "士\nsoldier (334)", background = "../../assets/Advanced.png"];
+  L [label = "桌\ntable (224)", background = "../../assets/Medium.png"];
+  F [label = "木\ntree (202)", background = "../../assets/Elementary.png"];
+  G [label = "日\nday (12)", background = "../../assets/Elementary.png"];
+  K [label = "卜\ndivination (43)", background = "../../assets/None.png"];
+  I [label = "丨\nwalking stick (primitive)", background = "../../assets/None.png"];
+  H [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  J [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
 
-  D -> N [thick];
-  B -> D [thick];
-  C -> D [thick];
-  M -> N [thick];
-  E -> M [thick];
-  L -> M [thick];
-  F -> L [thick];
-  G -> L [thick];
-  K -> L [thick];
-  I -> K [thick];
-  H -> I [thick];
-  J -> K [thick];
+  D -- N [thick];
+  B -- D [thick];
+  C -- D [thick];
+  M -- N [thick];
+  E -- M [thick];
+  L -- M [thick];
+  F -- L [thick];
+  G -- L [thick];
+  K -- L [thick];
+  I -- K [thick];
+  H -- I [thick];
+  J -- K [thick];
 }

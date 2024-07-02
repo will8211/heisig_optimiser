@@ -5,30 +5,30 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  N [label = "斋\nabstain from food (2715)"];
-  D [label = "文\nliterature (1315)"];
-  B [label = "亠\ntop hat (*)"];
-  C [label = "㐅\nsheaf (*)"];
-  M [label = "梳\ncomb (685)"];
-  E [label = "木\ntree (202)"];
-  L [label = "㐬\nbaby Moses (*)"];
-  J [label = "充minus儿\ninfant (*)"];
-  H [label = "会minus亼\nwall (*)"];
-  F [label = "厶\nelbow (*)"];
-  G [label = "一\none (1)"];
-  I [label = "丶\na drop of (*)"];
-  K [label = "川\nstream (134)"];
+  N [label = "斋\nabstain from food (2715)", background = "../../assets/None.png"];
+  D [label = "文\nliterature (1315)", background = "../../assets/Elementary.png"];
+  B [label = "亠\ntop hat (primitive)", background = "../../assets/None.png"];
+  C [label = "㐅\nsheaf (primitive)", background = "../../assets/None.png"];
+  M [label = "梳\ncomb (685)", background = "../../assets/None.png"];
+  E [label = "木\ntree (202)", background = "../../assets/Elementary.png"];
+  L [label = "㐬\nbaby Moses (primitive)", background = "../../assets/None.png"];
+  J [label = "充minus儿\ninfant (primitive)", background = "../../assets/None.png"];
+  H [label = "会minus亼\nwall (primitive)", background = "../../assets/None.png"];
+  F [label = "厶\nelbow (primitive)", background = "../../assets/None.png"];
+  G [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  I [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  K [label = "川\nstream (134)", background = "../../assets/None.png"];
 
-  D -> N [thick];
-  B -> D [thick];
-  C -> D [thick];
-  M -> N [thick];
-  E -> M [thick];
-  L -> M [thick];
-  J -> L [thick];
-  H -> J [thick];
-  F -> H [thick];
-  G -> H [thick];
-  I -> J [thick];
-  K -> L [thick];
+  D -- N [thick];
+  B -- D [thick];
+  C -- D [thick];
+  M -- N [thick];
+  E -- M [thick];
+  L -- M [thick];
+  J -- L [thick];
+  H -- J [thick];
+  F -- H [thick];
+  G -- H [thick];
+  I -- J [thick];
+  K -- L [thick];
 }

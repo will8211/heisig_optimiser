@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  I [label = "励\nencourage (736)"];
-  B [label = "厂\nfactory (121)"];
-  E [label = "万\nten thousand (65)"];
-  C [label = "勹\nbound up (*)"];
-  D [label = "一\none (1)"];
-  H [label = "肌\nmuscle (63)"];
-  F [label = "几\nhow many? (57)"];
-  G [label = "月\nmonth (13)"];
+  I [label = "励\nencourage (736)", background = "../../assets/None.png"];
+  B [label = "厂\nfactory (121)", background = "../../assets/Medium.png"];
+  E [label = "万\nten thousand (65)", background = "../../assets/Medium.png"];
+  C [label = "勹\nbound up (primitive)", background = "../../assets/None.png"];
+  D [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  H [label = "肌\nmuscle (63)", background = "../../assets/None.png"];
+  F [label = "几\nhow many? (57)", background = "../../assets/Elementary.png"];
+  G [label = "月\nmonth (13)", background = "../../assets/Elementary.png"];
 
-  B -> I [thick];
-  E -> I [thick];
-  C -> E [thick];
-  D -> E [thick];
-  H -> I [thick];
-  F -> H [thick];
-  G -> H [thick];
+  B -- I [thick];
+  E -- I [thick];
+  C -- E [thick];
+  D -- E [thick];
+  H -- I [thick];
+  F -- H [thick];
+  G -- H [thick];
 }

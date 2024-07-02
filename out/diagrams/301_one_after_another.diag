@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  D [label = "连\none after another (301)"];
-  B [label = "车\ncar (300)"];
-  C [label = "辶\nroad (*)"];
+  D [label = "连\none after another (301)", background = "../../assets/Medium.png"];
+  B [label = "车\ncar (300)", background = "../../assets/Elementary.png"];
+  C [label = "辶\nroad (primitive)", background = "../../assets/None.png"];
 
-  B -> D [thick];
-  C -> D [thick];
+  B -- D [thick];
+  C -- D [thick];
 }

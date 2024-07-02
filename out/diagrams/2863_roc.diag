@@ -5,26 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  L [label = "鹏\nroc (2863)"];
-  I [label = "鸟\nbird (1438)"];
-  F [label = "向\norientation (188)"];
-  B [label = "丶\na drop of (*)"];
-  D [label = "冂\nhood (*)"];
-  C [label = "几\nhow many? (57)"];
-  E [label = "口\nmouth (11)"];
-  G [label = "丶\na drop of (*)"];
-  H [label = "与minus丨一\npointed tail (*)"];
-  K [label = "朋\ncompanion (20)"];
-  J [label = "月\nmonth (13)"];
+  L [label = "鹏\nroc (2863)", background = "../../assets/None.png"];
+  I [label = "鸟\nbird (1438)", background = "../../assets/Medium.png"];
+  F [label = "向\norientation (188)", background = "../../assets/Elementary.png"];
+  B [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  D [label = "冂\nhood (primitive)", background = "../../assets/None.png"];
+  C [label = "几\nhow many? (57)", background = "../../assets/Elementary.png"];
+  E [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  G [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  H [label = "与minus丨一\npointed tail (primitive)", background = "../../assets/None.png"];
+  K [label = "朋\ncompanion (20)", background = "../../assets/Elementary.png"];
+  J [label = "月\nmonth (13)", background = "../../assets/Elementary.png"];
 
-  I -> L [thick];
-  F -> I [thick];
-  B -> F [thick];
-  D -> F [thick];
-  C -> D [thick];
-  E -> F [thick];
-  G -> I [thick];
-  H -> I [thick];
-  K -> L [thick];
-  J -> K [thick];
+  I -- L [thick];
+  F -- I [thick];
+  B -- F [thick];
+  D -- F [thick];
+  C -- D [thick];
+  E -- F [thick];
+  G -- I [thick];
+  H -- I [thick];
+  K -- L [thick];
+  J -- K [thick];
 }

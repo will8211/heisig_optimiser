@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  H [label = "架\nshelf (751)"];
-  F [label = "加\nadd (749)"];
-  D [label = "肌\nmuscle (63)"];
-  B [label = "几\nhow many? (57)"];
-  C [label = "月\nmonth (13)"];
-  E [label = "口\nmouth (11)"];
-  G [label = "木\ntree (202)"];
+  H [label = "架\nshelf (751)", background = "../../assets/Advanced.png"];
+  F [label = "加\nadd (749)", background = "../../assets/Medium.png"];
+  D [label = "肌\nmuscle (63)", background = "../../assets/None.png"];
+  B [label = "几\nhow many? (57)", background = "../../assets/Elementary.png"];
+  C [label = "月\nmonth (13)", background = "../../assets/Elementary.png"];
+  E [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  G [label = "木\ntree (202)", background = "../../assets/Elementary.png"];
 
-  F -> H [thick];
-  D -> F [thick];
-  B -> D [thick];
-  C -> D [thick];
-  E -> F [thick];
-  G -> H [thick];
+  F -- H [thick];
+  D -- F [thick];
+  B -- D [thick];
+  C -- D [thick];
+  E -- F [thick];
+  G -- H [thick];
 }

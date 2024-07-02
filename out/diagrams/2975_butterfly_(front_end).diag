@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  H [label = "蝴\nbutterfly (front end) (2975)"];
-  B [label = "虫\ninsect (509)"];
-  G [label = "胡\nrecklessly (17)"];
-  C [label = "月\nmonth (13)"];
-  F [label = "古\nancient (16)"];
-  D [label = "十\nten (10)"];
-  E [label = "口\nmouth (11)"];
+  H [label = "蝴\nbutterfly (front end) (2975)", background = "../../assets/None.png"];
+  B [label = "虫\ninsect (509)", background = "../../assets/Medium.png"];
+  G [label = "胡\nrecklessly (17)", background = "../../assets/Advanced.png"];
+  C [label = "月\nmonth (13)", background = "../../assets/Elementary.png"];
+  F [label = "古\nancient (16)", background = "../../assets/Medium.png"];
+  D [label = "十\nten (10)", background = "../../assets/Elementary.png"];
+  E [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
 
-  B -> H [thick];
-  G -> H [thick];
-  C -> G [thick];
-  F -> G [thick];
-  D -> F [thick];
-  E -> F [thick];
+  B -- H [thick];
+  G -- H [thick];
+  C -- G [thick];
+  F -- G [thick];
+  D -- F [thick];
+  E -- F [thick];
 }

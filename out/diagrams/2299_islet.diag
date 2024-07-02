@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  G [label = "屿\nislet (2299)"];
-  B [label = "山\nmountain (688)"];
-  F [label = "与\noffer (1032)"];
-  C [label = "与minus丨一\npointed tail (*)"];
-  E [label = "与minus一\nslingshot (*)"];
-  D [label = "弓\nbow (1013)"];
+  G [label = "屿\nislet (2299)", background = "../../assets/None.png"];
+  B [label = "山\nmountain (688)", background = "../../assets/Elementary.png"];
+  F [label = "与\noffer (1032)", background = "../../assets/Medium.png"];
+  C [label = "与minus丨一\npointed tail (primitive)", background = "../../assets/None.png"];
+  E [label = "与minus一\nslingshot (primitive)", background = "../../assets/None.png"];
+  D [label = "弓\nbow (1013)", background = "../../assets/None.png"];
 
-  B -> G [thick];
-  F -> G [thick];
-  C -> F [thick];
-  E -> F [thick];
-  D -> E [thick];
+  B -- G [thick];
+  F -- G [thick];
+  C -- F [thick];
+  E -- F [thick];
+  D -- E [thick];
 }

@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  J [label = "踏\ntrample (2320)"];
-  D [label = "足\nlower leg (1048)"];
-  B [label = "口\nmouth (11)"];
-  C [label = "止\nstop (379)"];
-  H [label = "水\nwater (137)"];
-  F [label = "丨\nwalking stick (*)"];
-  E [label = "一\none (1)"];
-  G [label = "丶\na drop of (*)"];
-  I [label = "日\nday (12)"];
+  J [label = "踏\ntrample (2320)", background = "../../assets/None.png"];
+  D [label = "足\nlower leg (1048)", background = "../../assets/Medium.png"];
+  B [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  C [label = "止\nstop (379)", background = "../../assets/Medium.png"];
+  H [label = "水\nwater (137)", background = "../../assets/Elementary.png"];
+  F [label = "丨\nwalking stick (primitive)", background = "../../assets/None.png"];
+  E [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  G [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  I [label = "日\nday (12)", background = "../../assets/Elementary.png"];
 
-  D -> J [thick];
-  B -> D [thick];
-  C -> D [thick];
-  H -> J [thick];
-  F -> H [thick];
-  E -> F [thick];
-  G -> H [thick];
-  I -> J [thick];
+  D -- J [thick];
+  B -- D [thick];
+  C -- D [thick];
+  H -- J [thick];
+  F -- H [thick];
+  E -- F [thick];
+  G -- H [thick];
+  I -- J [thick];
 }

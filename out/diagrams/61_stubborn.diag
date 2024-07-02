@@ -5,26 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  L [label = "顽\nstubborn (61)"];
-  G [label = "页\npage (60)"];
-  D [label = "贝\nshellfish (52)"];
-  B [label = "目\neye (15)"];
-  C [label = "只minus口\nanimal legs (*)"];
-  E [label = "一\none (1)"];
-  F [label = "丶\na drop of (*)"];
-  K [label = "元\nbeginning (59)"];
-  I [label = "二\ntwo (2)"];
-  H [label = "一\none (1)"];
-  J [label = "儿\nyoungster (56)"];
+  L [label = "顽\nstubborn (61)", background = "../../assets/None.png"];
+  G [label = "页\npage (60)", background = "../../assets/Medium.png"];
+  D [label = "贝\nshellfish (52)", background = "../../assets/Medium.png"];
+  B [label = "目\neye (15)", background = "../../assets/Medium.png"];
+  C [label = "只minus口\nanimal legs (primitive)", background = "../../assets/None.png"];
+  E [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  F [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  K [label = "元\nbeginning (59)", background = "../../assets/Medium.png"];
+  I [label = "二\ntwo (2)", background = "../../assets/Elementary.png"];
+  H [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  J [label = "儿\nyoungster (56)", background = "../../assets/Elementary.png"];
 
-  G -> L [thick];
-  D -> G [thick];
-  B -> D [thick];
-  C -> D [thick];
-  E -> G [thick];
-  F -> G [thick];
-  K -> L [thick];
-  I -> K [thick];
-  H -> I [thick];
-  J -> K [thick];
+  G -- L [thick];
+  D -- G [thick];
+  B -- D [thick];
+  C -- D [thick];
+  E -- G [thick];
+  F -- G [thick];
+  K -- L [thick];
+  I -- K [thick];
+  H -- I [thick];
+  J -- K [thick];
 }

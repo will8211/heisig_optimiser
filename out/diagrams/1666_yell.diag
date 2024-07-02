@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  J [label = "喊\nyell (1666)"];
-  B [label = "口\nmouth (11)"];
-  I [label = "咸\nsalty (372)"];
-  C [label = "口\nmouth (11)"];
-  H [label = "戌\nmarch (*)"];
-  F [label = "戊\nparade (*)"];
-  E [label = "戈\nhalberd (361)"];
-  D [label = "弋\narrow (*)"];
-  G [label = "一\none (1)"];
+  J [label = "喊\nyell (1666)", background = "../../assets/Medium.png"];
+  B [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  I [label = "咸\nsalty (372)", background = "../../assets/None.png"];
+  C [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  H [label = "戌\nmarch (primitive)", background = "../../assets/None.png"];
+  F [label = "戊\nparade (primitive)", background = "../../assets/None.png"];
+  E [label = "戈\nhalberd (361)", background = "../../assets/None.png"];
+  D [label = "弋\narrow (primitive)", background = "../../assets/None.png"];
+  G [label = "一\none (1)", background = "../../assets/Elementary.png"];
 
-  B -> J [thick];
-  I -> J [thick];
-  C -> I [thick];
-  H -> I [thick];
-  F -> H [thick];
-  E -> F [thick];
-  D -> E [thick];
-  G -> H [thick];
+  B -- J [thick];
+  I -- J [thick];
+  C -- I [thick];
+  H -- I [thick];
+  F -- H [thick];
+  E -- F [thick];
+  D -- E [thick];
+  G -- H [thick];
 }

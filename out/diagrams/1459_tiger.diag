@@ -5,28 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  M [label = "虎\ntiger (1459)"];
-  E [label = "卜\ndivination (43)"];
-  C [label = "丨\nwalking stick (*)"];
-  B [label = "一\none (1)"];
-  D [label = "丶\na drop of (*)"];
-  F [label = "七\nseven (7)"];
-  G [label = "几\nhow many? (57)"];
-  L [label = "疋\nzoo (*)"];
-  K [label = "走minus十\nmending (*)"];
-  J [label = "正\ncorrect (387)"];
-  H [label = "一\none (1)"];
-  I [label = "止\nstop (379)"];
+  M [label = "虎\ntiger (1459)", background = "../../assets/Medium.png"];
+  E [label = "卜\ndivination (43)", background = "../../assets/None.png"];
+  C [label = "丨\nwalking stick (primitive)", background = "../../assets/None.png"];
+  B [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  D [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  F [label = "七\nseven (7)", background = "../../assets/Elementary.png"];
+  G [label = "几\nhow many? (57)", background = "../../assets/Elementary.png"];
+  L [label = "疋\nzoo (primitive)", background = "../../assets/None.png"];
+  K [label = "走minus十\nmending (primitive)", background = "../../assets/None.png"];
+  J [label = "正\ncorrect (387)", background = "../../assets/Elementary.png"];
+  H [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  I [label = "止\nstop (379)", background = "../../assets/Medium.png"];
 
-  E -> M [thick];
-  C -> E [thick];
-  B -> C [thick];
-  D -> E [thick];
-  F -> M [thick];
-  G -> M [thick];
-  L -> M [thick];
-  K -> L [thick];
-  J -> K [thick];
-  H -> J [thick];
-  I -> J [thick];
+  E -- M [thick];
+  C -- E [thick];
+  B -- C [thick];
+  D -- E [thick];
+  F -- M [thick];
+  G -- M [thick];
+  L -- M [thick];
+  K -- L [thick];
+  J -- K [thick];
+  H -- J [thick];
+  I -- J [thick];
 }

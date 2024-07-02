@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  J [label = "噪\nchirping (2331)"];
-  B [label = "口\nmouth (11)"];
-  H [label = "喿\nwood pulp (*)"];
-  F [label = "品\ngoods (24)"];
-  D [label = "晶\nsparkling (23)"];
-  C [label = "日\nday (12)"];
-  E [label = "口\nmouth (11)"];
-  G [label = "木\ntree (202)"];
-  I [label = "木\ntree (202)"];
+  J [label = "噪\nchirping (2331)", background = "../../assets/None.png"];
+  B [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  H [label = "喿\nwood pulp (primitive)", background = "../../assets/None.png"];
+  F [label = "品\ngoods (24)", background = "../../assets/Advanced.png"];
+  D [label = "晶\nsparkling (23)", background = "../../assets/None.png"];
+  C [label = "日\nday (12)", background = "../../assets/Elementary.png"];
+  E [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  G [label = "木\ntree (202)", background = "../../assets/Elementary.png"];
+  I [label = "木\ntree (202)", background = "../../assets/Elementary.png"];
 
-  B -> J [thick];
-  H -> J [thick];
-  F -> H [thick];
-  D -> F [thick];
-  C -> D [thick];
-  E -> F [thick];
-  G -> H [thick];
-  I -> J [thick];
+  B -- J [thick];
+  H -- J [thick];
+  F -- H [thick];
+  D -- F [thick];
+  C -- D [thick];
+  E -- F [thick];
+  G -- H [thick];
+  I -- J [thick];
 }

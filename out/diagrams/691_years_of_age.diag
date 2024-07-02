@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  E [label = "岁\nyears of age (691)"];
-  B [label = "山\nmountain (688)"];
-  D [label = "夕\nevening (115)"];
-  C [label = "月\nmonth (13)"];
+  E [label = "岁\nyears of age (691)", background = "../../assets/Elementary.png"];
+  B [label = "山\nmountain (688)", background = "../../assets/Elementary.png"];
+  D [label = "夕\nevening (115)", background = "../../assets/Advanced.png"];
+  C [label = "月\nmonth (13)", background = "../../assets/Elementary.png"];
 
-  B -> E [thick];
-  D -> E [thick];
-  C -> D [thick];
+  B -- E [thick];
+  D -- E [thick];
+  C -- D [thick];
 }

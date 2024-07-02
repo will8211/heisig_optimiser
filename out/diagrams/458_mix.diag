@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  J [label = "混\nmix (458)"];
-  E [label = "水\nwater (137)"];
-  C [label = "丨\nwalking stick (*)"];
-  B [label = "一\none (1)"];
-  D [label = "丶\na drop of (*)"];
-  I [label = "昆\ndescendants (457)"];
-  F [label = "日\nday (12)"];
-  H [label = "比\ncompare (456)"];
-  G [label = "匕\nancient spoon (453)"];
+  J [label = "混\nmix (458)", background = "../../assets/None.png"];
+  E [label = "水\nwater (137)", background = "../../assets/Elementary.png"];
+  C [label = "丨\nwalking stick (primitive)", background = "../../assets/None.png"];
+  B [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  D [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  I [label = "昆\ndescendants (457)", background = "../../assets/None.png"];
+  F [label = "日\nday (12)", background = "../../assets/Elementary.png"];
+  H [label = "比\ncompare (456)", background = "../../assets/Elementary.png"];
+  G [label = "匕\nancient spoon (453)", background = "../../assets/None.png"];
 
-  E -> J [thick];
-  C -> E [thick];
-  B -> C [thick];
-  D -> E [thick];
-  I -> J [thick];
-  F -> I [thick];
-  H -> I [thick];
-  G -> H [thick];
+  E -- J [thick];
+  C -- E [thick];
+  B -- C [thick];
+  D -- E [thick];
+  I -- J [thick];
+  F -- I [thick];
+  H -- I [thick];
+  G -- H [thick];
 }

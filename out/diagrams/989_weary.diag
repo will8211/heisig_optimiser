@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  E [label = "乏\nweary (989)"];
-  B [label = "丶\na drop of (*)"];
-  D [label = "之\nof (988)"];
-  C [label = "丶\na drop of (*)"];
+  E [label = "乏\nweary (989)", background = "../../assets/None.png"];
+  B [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  D [label = "之\nof (988)", background = "../../assets/Medium.png"];
+  C [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
 
-  B -> E [thick];
-  D -> E [thick];
-  C -> D [thick];
+  B -- E [thick];
+  D -- E [thick];
+  C -- D [thick];
 }

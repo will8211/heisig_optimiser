@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  H [label = "桐\npaulownia (1571)"];
-  B [label = "木\ntree (202)"];
-  G [label = "同\nsame (185)"];
-  C [label = "一\none (1)"];
-  D [label = "口\nmouth (11)"];
-  F [label = "冂\nhood (*)"];
-  E [label = "几\nhow many? (57)"];
+  H [label = "桐\npaulownia (1571)", background = "../../assets/None.png"];
+  B [label = "木\ntree (202)", background = "../../assets/Elementary.png"];
+  G [label = "同\nsame (185)", background = "../../assets/Elementary.png"];
+  C [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  D [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  F [label = "冂\nhood (primitive)", background = "../../assets/None.png"];
+  E [label = "几\nhow many? (57)", background = "../../assets/Elementary.png"];
 
-  B -> H [thick];
-  G -> H [thick];
-  C -> G [thick];
-  D -> G [thick];
-  F -> G [thick];
-  E -> F [thick];
+  B -- H [thick];
+  G -- H [thick];
+  C -- G [thick];
+  D -- G [thick];
+  F -- G [thick];
+  E -- F [thick];
 }

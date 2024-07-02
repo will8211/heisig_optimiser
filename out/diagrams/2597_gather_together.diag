@@ -5,28 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  M [label = "凑\ngather together (2597)"];
-  F [label = "冫\nice (*)"];
-  E [label = "水\nwater (137)"];
-  C [label = "丨\nwalking stick (*)"];
-  B [label = "一\none (1)"];
-  D [label = "丶\na drop of (*)"];
-  L [label = "奏\nplay an instrument (2596)"];
-  H [label = "𡗗\nbonsai (*)"];
-  G [label = "丰\nplentiful (1223)"];
-  K [label = "天\nheavens (436)"];
-  I [label = "一\none (1)"];
-  J [label = "大\nlarge (113)"];
+  M [label = "凑\ngather together (2597)", background = "../../assets/None.png"];
+  F [label = "冫\nice (primitive)", background = "../../assets/None.png"];
+  E [label = "水\nwater (137)", background = "../../assets/Elementary.png"];
+  C [label = "丨\nwalking stick (primitive)", background = "../../assets/None.png"];
+  B [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  D [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  L [label = "奏\nplay an instrument (2596)", background = "../../assets/None.png"];
+  H [label = "𡗗\nbonsai (primitive)", background = "../../assets/None.png"];
+  G [label = "丰\nplentiful (1223)", background = "../../assets/Advanced.png"];
+  K [label = "天\nheavens (436)", background = "../../assets/Elementary.png"];
+  I [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  J [label = "大\nlarge (113)", background = "../../assets/Elementary.png"];
 
-  F -> M [thick];
-  E -> F [thick];
-  C -> E [thick];
-  B -> C [thick];
-  D -> E [thick];
-  L -> M [thick];
-  H -> L [thick];
-  G -> H [thick];
-  K -> L [thick];
-  I -> K [thick];
-  J -> K [thick];
+  F -- M [thick];
+  E -- F [thick];
+  C -- E [thick];
+  B -- C [thick];
+  D -- E [thick];
+  L -- M [thick];
+  H -- L [thick];
+  G -- H [thick];
+  K -- L [thick];
+  I -- K [thick];
+  J -- K [thick];
 }

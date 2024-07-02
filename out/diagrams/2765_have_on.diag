@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  K [label = "戴\nhave on (2765)"];
-  E [label = "载minus车\nThanksgiving (*)"];
-  B [label = "土\nsoil (158)"];
-  D [label = "戈\nhalberd (361)"];
-  C [label = "弋\narrow (*)"];
-  F [label = "田\nrice field (14)"];
-  J [label = "共\ntogether (1354)"];
-  H [label = "昔minus日\nsalad (*)"];
-  G [label = "艹\nflower (*)"];
-  I [label = "只minus口\nanimal legs (*)"];
+  K [label = "戴\nhave on (2765)", background = "../../assets/None.png"];
+  E [label = "载minus车\nThanksgiving (primitive)", background = "../../assets/None.png"];
+  B [label = "土\nsoil (158)", background = "../../assets/Medium.png"];
+  D [label = "戈\nhalberd (361)", background = "../../assets/None.png"];
+  C [label = "弋\narrow (primitive)", background = "../../assets/None.png"];
+  F [label = "田\nrice field (14)", background = "../../assets/Medium.png"];
+  J [label = "共\ntogether (1354)", background = "../../assets/Medium.png"];
+  H [label = "昔minus日\nsalad (primitive)", background = "../../assets/None.png"];
+  G [label = "艹\nflower (primitive)", background = "../../assets/None.png"];
+  I [label = "只minus口\nanimal legs (primitive)", background = "../../assets/None.png"];
 
-  E -> K [thick];
-  B -> E [thick];
-  D -> E [thick];
-  C -> D [thick];
-  F -> K [thick];
-  J -> K [thick];
-  H -> J [thick];
-  G -> H [thick];
-  I -> J [thick];
+  E -- K [thick];
+  B -- E [thick];
+  D -- E [thick];
+  C -- D [thick];
+  F -- K [thick];
+  J -- K [thick];
+  H -- J [thick];
+  G -- H [thick];
+  I -- J [thick];
 }

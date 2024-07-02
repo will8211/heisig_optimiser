@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  I [label = "豹\nleopard (1902)"];
-  E [label = "豸\nleopard (*)"];
-  C [label = "爪\nclaw (663)"];
-  B [label = "𠂆\ndrag (*)"];
-  D [label = "豕\nsow (*)"];
-  H [label = "勺\nladle (69)"];
-  F [label = "勹\nbound up (*)"];
-  G [label = "丶\na drop of (*)"];
+  I [label = "豹\nleopard (1902)", background = "../../assets/None.png"];
+  E [label = "豸\nleopard (primitive)", background = "../../assets/None.png"];
+  C [label = "爪\nclaw (663)", background = "../../assets/None.png"];
+  B [label = "𠂆\ndrag (primitive)", background = "../../assets/None.png"];
+  D [label = "豕\nsow (primitive)", background = "../../assets/None.png"];
+  H [label = "勺\nladle (69)", background = "../../assets/Medium.png"];
+  F [label = "勹\nbound up (primitive)", background = "../../assets/None.png"];
+  G [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
 
-  E -> I [thick];
-  C -> E [thick];
-  B -> C [thick];
-  D -> E [thick];
-  H -> I [thick];
-  F -> H [thick];
-  G -> H [thick];
+  E -- I [thick];
+  C -- E [thick];
+  B -- C [thick];
+  D -- E [thick];
+  H -- I [thick];
+  F -- H [thick];
+  G -- H [thick];
 }

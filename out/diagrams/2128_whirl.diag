@@ -5,26 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  L [label = "旋\nwhirl (2128)"];
-  F [label = "施minus也\nbanner (*)"];
-  D [label = "方\ndirection (494)"];
-  B [label = "刀\nsword (83)"];
-  C [label = "亠\ntop hat (*)"];
-  E [label = "𠂉\nreclining (*)"];
-  K [label = "疋\nzoo (*)"];
-  J [label = "走minus十\nmending (*)"];
-  I [label = "正\ncorrect (387)"];
-  G [label = "一\none (1)"];
-  H [label = "止\nstop (379)"];
+  L [label = "旋\nwhirl (2128)", background = "../../assets/None.png"];
+  F [label = "施minus也\nbanner (primitive)", background = "../../assets/None.png"];
+  D [label = "方\ndirection (494)", background = "../../assets/Elementary.png"];
+  B [label = "刀\nsword (83)", background = "../../assets/Medium.png"];
+  C [label = "亠\ntop hat (primitive)", background = "../../assets/None.png"];
+  E [label = "𠂉\nreclining (primitive)", background = "../../assets/None.png"];
+  K [label = "疋\nzoo (primitive)", background = "../../assets/None.png"];
+  J [label = "走minus十\nmending (primitive)", background = "../../assets/None.png"];
+  I [label = "正\ncorrect (387)", background = "../../assets/Elementary.png"];
+  G [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  H [label = "止\nstop (379)", background = "../../assets/Medium.png"];
 
-  F -> L [thick];
-  D -> F [thick];
-  B -> D [thick];
-  C -> D [thick];
-  E -> F [thick];
-  K -> L [thick];
-  J -> K [thick];
-  I -> J [thick];
-  G -> I [thick];
-  H -> I [thick];
+  F -- L [thick];
+  D -- F [thick];
+  B -- D [thick];
+  C -- D [thick];
+  E -- F [thick];
+  K -- L [thick];
+  J -- K [thick];
+  I -- J [thick];
+  G -- I [thick];
+  H -- I [thick];
 }

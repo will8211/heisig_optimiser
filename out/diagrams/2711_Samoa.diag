@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  G [label = "萨\nSamoa (2711)"];
-  B [label = "艹\nflower (*)"];
-  C [label = "阝\npinnacle (*)"];
-  F [label = "产\nproducts (1312)"];
-  D [label = "立\nstanding up (444)"];
-  E [label = "厂\nfactory (121)"];
+  G [label = "萨\nSamoa (2711)", background = "../../assets/None.png"];
+  B [label = "艹\nflower (primitive)", background = "../../assets/None.png"];
+  C [label = "阝\npinnacle (primitive)", background = "../../assets/None.png"];
+  F [label = "产\nproducts (1312)", background = "../../assets/Medium.png"];
+  D [label = "立\nstanding up (444)", background = "../../assets/Advanced.png"];
+  E [label = "厂\nfactory (121)", background = "../../assets/Medium.png"];
 
-  B -> G [thick];
-  C -> G [thick];
-  F -> G [thick];
-  D -> F [thick];
-  E -> F [thick];
+  B -- G [thick];
+  C -- G [thick];
+  F -- G [thick];
+  D -- F [thick];
+  E -- F [thick];
 }

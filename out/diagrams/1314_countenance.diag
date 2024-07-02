@@ -5,28 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  M [label = "颜\ncountenance (1314)"];
-  F [label = "彦\nerudite (1313)"];
-  D [label = "产\nproducts (1312)"];
-  B [label = "立\nstanding up (444)"];
-  C [label = "厂\nfactory (121)"];
-  E [label = "彡\nrooster tail (*)"];
-  L [label = "页\npage (60)"];
-  I [label = "贝\nshellfish (52)"];
-  G [label = "目\neye (15)"];
-  H [label = "只minus口\nanimal legs (*)"];
-  J [label = "一\none (1)"];
-  K [label = "丶\na drop of (*)"];
+  M [label = "颜\ncountenance (1314)", background = "../../assets/Medium.png"];
+  F [label = "彦\nerudite (1313)", background = "../../assets/None.png"];
+  D [label = "产\nproducts (1312)", background = "../../assets/Medium.png"];
+  B [label = "立\nstanding up (444)", background = "../../assets/Advanced.png"];
+  C [label = "厂\nfactory (121)", background = "../../assets/Medium.png"];
+  E [label = "彡\nrooster tail (primitive)", background = "../../assets/None.png"];
+  L [label = "页\npage (60)", background = "../../assets/Medium.png"];
+  I [label = "贝\nshellfish (52)", background = "../../assets/Medium.png"];
+  G [label = "目\neye (15)", background = "../../assets/Medium.png"];
+  H [label = "只minus口\nanimal legs (primitive)", background = "../../assets/None.png"];
+  J [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  K [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
 
-  F -> M [thick];
-  D -> F [thick];
-  B -> D [thick];
-  C -> D [thick];
-  E -> F [thick];
-  L -> M [thick];
-  I -> L [thick];
-  G -> I [thick];
-  H -> I [thick];
-  J -> L [thick];
-  K -> L [thick];
+  F -- M [thick];
+  D -- F [thick];
+  B -- D [thick];
+  C -- D [thick];
+  E -- F [thick];
+  L -- M [thick];
+  I -- L [thick];
+  G -- I [thick];
+  H -- I [thick];
+  J -- L [thick];
+  K -- L [thick];
 }

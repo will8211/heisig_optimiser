@@ -5,26 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  L [label = "赴\ngo to (1671)"];
-  G [label = "走\nwalk (391)"];
-  E [label = "走minus十\nmending (*)"];
-  D [label = "正\ncorrect (387)"];
-  B [label = "一\none (1)"];
-  C [label = "止\nstop (379)"];
-  F [label = "土\nsoil (158)"];
-  K [label = "卜\ndivination (43)"];
-  I [label = "丨\nwalking stick (*)"];
-  H [label = "一\none (1)"];
-  J [label = "丶\na drop of (*)"];
+  L [label = "赴\ngo to (1671)", background = "../../assets/None.png"];
+  G [label = "走\nwalk (391)", background = "../../assets/Elementary.png"];
+  E [label = "走minus十\nmending (primitive)", background = "../../assets/None.png"];
+  D [label = "正\ncorrect (387)", background = "../../assets/Elementary.png"];
+  B [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  C [label = "止\nstop (379)", background = "../../assets/Medium.png"];
+  F [label = "土\nsoil (158)", background = "../../assets/Medium.png"];
+  K [label = "卜\ndivination (43)", background = "../../assets/None.png"];
+  I [label = "丨\nwalking stick (primitive)", background = "../../assets/None.png"];
+  H [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  J [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
 
-  G -> L [thick];
-  E -> G [thick];
-  D -> E [thick];
-  B -> D [thick];
-  C -> D [thick];
-  F -> G [thick];
-  K -> L [thick];
-  I -> K [thick];
-  H -> I [thick];
-  J -> K [thick];
+  G -- L [thick];
+  E -- G [thick];
+  D -- E [thick];
+  B -- D [thick];
+  C -- D [thick];
+  F -- G [thick];
+  K -- L [thick];
+  I -- K [thick];
+  H -- I [thick];
+  J -- K [thick];
 }

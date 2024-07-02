@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  E [label = "爷\ngrandfather (2434)"];
-  C [label = "父\nfather (1043)"];
-  B [label = "丶\na drop of (*)"];
-  D [label = "节minus艹\nchop (*)"];
+  E [label = "爷\ngrandfather (2434)", background = "../../assets/Medium.png"];
+  C [label = "父\nfather (1043)", background = "../../assets/Medium.png"];
+  B [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  D [label = "节minus艹\nchop (primitive)", background = "../../assets/None.png"];
 
-  C -> E [thick];
-  B -> C [thick];
-  D -> E [thick];
+  C -- E [thick];
+  B -- C [thick];
+  D -- E [thick];
 }

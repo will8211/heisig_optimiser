@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  K [label = "豫\npleased (2892)"];
-  C [label = "予\nbestow (1005)"];
-  B [label = "矛\nspear (1002)"];
-  J [label = "象\nelephant (1451)"];
-  H [label = "兔\nrabbit (1447)"];
-  D [label = "勹\nbound up (*)"];
-  E [label = "口\nmouth (11)"];
-  F [label = "儿\nyoungster (56)"];
-  G [label = "丶\na drop of (*)"];
-  I [label = "豕\nsow (*)"];
+  K [label = "豫\npleased (2892)", background = "../../assets/None.png"];
+  C [label = "予\nbestow (1005)", background = "../../assets/None.png"];
+  B [label = "矛\nspear (1002)", background = "../../assets/None.png"];
+  J [label = "象\nelephant (1451)", background = "../../assets/Medium.png"];
+  H [label = "兔\nrabbit (1447)", background = "../../assets/None.png"];
+  D [label = "勹\nbound up (primitive)", background = "../../assets/None.png"];
+  E [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  F [label = "儿\nyoungster (56)", background = "../../assets/Elementary.png"];
+  G [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  I [label = "豕\nsow (primitive)", background = "../../assets/None.png"];
 
-  C -> K [thick];
-  B -> C [thick];
-  J -> K [thick];
-  H -> J [thick];
-  D -> H [thick];
-  E -> H [thick];
-  F -> H [thick];
-  G -> H [thick];
-  I -> J [thick];
+  C -- K [thick];
+  B -- C [thick];
+  J -- K [thick];
+  H -- J [thick];
+  D -- H [thick];
+  E -- H [thick];
+  F -- H [thick];
+  G -- H [thick];
+  I -- J [thick];
 }

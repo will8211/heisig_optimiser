@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  F [label = "雏\nchick (2200)"];
-  D [label = "刍\nhairnet (*)"];
-  B [label = "勹\nbound up (*)"];
-  C [label = "彐\nbroom (*)"];
-  E [label = "隹\nturkey (*)"];
+  F [label = "雏\nchick (2200)", background = "../../assets/None.png"];
+  D [label = "刍\nhairnet (primitive)", background = "../../assets/None.png"];
+  B [label = "勹\nbound up (primitive)", background = "../../assets/None.png"];
+  C [label = "彐\nbroom (primitive)", background = "../../assets/None.png"];
+  E [label = "隹\nturkey (primitive)", background = "../../assets/None.png"];
 
-  D -> F [thick];
-  B -> D [thick];
-  C -> D [thick];
-  E -> F [thick];
+  D -- F [thick];
+  B -- D [thick];
+  C -- D [thick];
+  E -- F [thick];
 }

@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  D [label = "区\nregion (1295)"];
-  B [label = "匚\nbox (*)"];
-  C [label = "㐅\nsheaf (*)"];
+  D [label = "区\nregion (1295)", background = "../../assets/Medium.png"];
+  B [label = "匚\nbox (primitive)", background = "../../assets/None.png"];
+  C [label = "㐅\nsheaf (primitive)", background = "../../assets/None.png"];
 
-  B -> D [thick];
-  C -> D [thick];
+  B -- D [thick];
+  C -- D [thick];
 }

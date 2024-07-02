@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  J [label = "碎\nshattered (2471)"];
-  D [label = "石\nstone (125)"];
-  B [label = "口\nmouth (11)"];
-  C [label = "厂\nfactory (121)"];
-  I [label = "卒\nfoot soldiers (*)"];
-  F [label = "从\nfollow (846)"];
-  E [label = "人\nperson (793)"];
-  G [label = "亠\ntop hat (*)"];
-  H [label = "十\nten (10)"];
+  J [label = "碎\nshattered (2471)", background = "../../assets/None.png"];
+  D [label = "石\nstone (125)", background = "../../assets/Advanced.png"];
+  B [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  C [label = "厂\nfactory (121)", background = "../../assets/Medium.png"];
+  I [label = "卒\nfoot soldiers (primitive)", background = "../../assets/None.png"];
+  F [label = "从\nfollow (846)", background = "../../assets/Elementary.png"];
+  E [label = "人\nperson (793)", background = "../../assets/Elementary.png"];
+  G [label = "亠\ntop hat (primitive)", background = "../../assets/None.png"];
+  H [label = "十\nten (10)", background = "../../assets/Elementary.png"];
 
-  D -> J [thick];
-  B -> D [thick];
-  C -> D [thick];
-  I -> J [thick];
-  F -> I [thick];
-  E -> F [thick];
-  G -> I [thick];
-  H -> I [thick];
+  D -- J [thick];
+  B -- D [thick];
+  C -- D [thick];
+  I -- J [thick];
+  F -- I [thick];
+  E -- F [thick];
+  G -- I [thick];
+  H -- I [thick];
 }

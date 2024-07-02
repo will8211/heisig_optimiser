@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  I [label = "筷\nchopsticks (1276)"];
-  C [label = "竹\nbamboo (786)"];
-  B [label = "丁\nfourth (90)"];
-  H [label = "快\nfast (1274)"];
-  D [label = "心\nheart (563)"];
-  G [label = "夬\nguillotine (*)"];
-  E [label = "侯minus亻minus矢\nkey (*)"];
-  F [label = "大\nlarge (113)"];
+  I [label = "筷\nchopsticks (1276)", background = "../../assets/Medium.png"];
+  C [label = "竹\nbamboo (786)", background = "../../assets/Advanced.png"];
+  B [label = "丁\nfourth (90)", background = "../../assets/None.png"];
+  H [label = "快\nfast (1274)", background = "../../assets/Elementary.png"];
+  D [label = "心\nheart (563)", background = "../../assets/Medium.png"];
+  G [label = "夬\nguillotine (primitive)", background = "../../assets/None.png"];
+  E [label = "侯minus亻minus矢\nkey (primitive)", background = "../../assets/None.png"];
+  F [label = "大\nlarge (113)", background = "../../assets/Elementary.png"];
 
-  C -> I [thick];
-  B -> C [thick];
-  H -> I [thick];
-  D -> H [thick];
-  G -> H [thick];
-  E -> G [thick];
-  F -> G [thick];
+  C -- I [thick];
+  B -- C [thick];
+  H -- I [thick];
+  D -- H [thick];
+  G -- H [thick];
+  E -- G [thick];
+  F -- G [thick];
 }

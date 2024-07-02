@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  K [label = "碍\nobstruct (1544)"];
-  D [label = "石\nstone (125)"];
-  B [label = "口\nmouth (11)"];
-  C [label = "厂\nfactory (121)"];
-  G [label = "旦\ndaybreak (30)"];
-  E [label = "日\nday (12)"];
-  F [label = "一\none (1)"];
-  J [label = "寸\nChinese inch (166)"];
-  H [label = "丶\na drop of (*)"];
-  I [label = "十\nten (10)"];
+  K [label = "碍\nobstruct (1544)", background = "../../assets/None.png"];
+  D [label = "石\nstone (125)", background = "../../assets/Advanced.png"];
+  B [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  C [label = "厂\nfactory (121)", background = "../../assets/Medium.png"];
+  G [label = "旦\ndaybreak (30)", background = "../../assets/Medium.png"];
+  E [label = "日\nday (12)", background = "../../assets/Elementary.png"];
+  F [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  J [label = "寸\nChinese inch (166)", background = "../../assets/Advanced.png"];
+  H [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  I [label = "十\nten (10)", background = "../../assets/Elementary.png"];
 
-  D -> K [thick];
-  B -> D [thick];
-  C -> D [thick];
-  G -> K [thick];
-  E -> G [thick];
-  F -> G [thick];
-  J -> K [thick];
-  H -> J [thick];
-  I -> J [thick];
+  D -- K [thick];
+  B -- D [thick];
+  C -- D [thick];
+  G -- K [thick];
+  E -- G [thick];
+  F -- G [thick];
+  J -- K [thick];
+  H -- J [thick];
+  I -- J [thick];
 }

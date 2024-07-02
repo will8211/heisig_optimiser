@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  D [label = "层\nstory (892)"];
-  B [label = "尸\ncorpse (882)"];
-  C [label = "云\ncloud (428)"];
+  D [label = "层\nstory (892)", background = "../../assets/Medium.png"];
+  B [label = "尸\ncorpse (882)", background = "../../assets/None.png"];
+  C [label = "云\ncloud (428)", background = "../../assets/Medium.png"];
 
-  B -> D [thick];
-  C -> D [thick];
+  B -- D [thick];
+  C -- D [thick];
 }

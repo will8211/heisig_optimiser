@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  J [label = "战\nwar (362)"];
-  G [label = "占\ntell fortunes (44)"];
-  E [label = "卜\ndivination (43)"];
-  C [label = "丨\nwalking stick (*)"];
-  B [label = "一\none (1)"];
-  D [label = "丶\na drop of (*)"];
-  F [label = "口\nmouth (11)"];
-  I [label = "戈\nhalberd (361)"];
-  H [label = "弋\narrow (*)"];
+  J [label = "战\nwar (362)", background = "../../assets/None.png"];
+  G [label = "占\ntell fortunes (44)", background = "../../assets/Medium.png"];
+  E [label = "卜\ndivination (43)", background = "../../assets/None.png"];
+  C [label = "丨\nwalking stick (primitive)", background = "../../assets/None.png"];
+  B [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  D [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  F [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  I [label = "戈\nhalberd (361)", background = "../../assets/None.png"];
+  H [label = "弋\narrow (primitive)", background = "../../assets/None.png"];
 
-  G -> J [thick];
-  E -> G [thick];
-  C -> E [thick];
-  B -> C [thick];
-  D -> E [thick];
-  F -> G [thick];
-  I -> J [thick];
-  H -> I [thick];
+  G -- J [thick];
+  E -- G [thick];
+  C -- E [thick];
+  B -- C [thick];
+  D -- E [thick];
+  F -- G [thick];
+  I -- J [thick];
+  H -- I [thick];
 }

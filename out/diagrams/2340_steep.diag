@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  I [label = "陡\nsteep (2340)"];
-  B [label = "阝\npinnacle (*)"];
-  H [label = "走\nwalk (391)"];
-  F [label = "走minus十\nmending (*)"];
-  E [label = "正\ncorrect (387)"];
-  C [label = "一\none (1)"];
-  D [label = "止\nstop (379)"];
-  G [label = "土\nsoil (158)"];
+  I [label = "陡\nsteep (2340)", background = "../../assets/None.png"];
+  B [label = "阝\npinnacle (primitive)", background = "../../assets/None.png"];
+  H [label = "走\nwalk (391)", background = "../../assets/Elementary.png"];
+  F [label = "走minus十\nmending (primitive)", background = "../../assets/None.png"];
+  E [label = "正\ncorrect (387)", background = "../../assets/Elementary.png"];
+  C [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  D [label = "止\nstop (379)", background = "../../assets/Medium.png"];
+  G [label = "土\nsoil (158)", background = "../../assets/Medium.png"];
 
-  B -> I [thick];
-  H -> I [thick];
-  F -> H [thick];
-  E -> F [thick];
-  C -> E [thick];
-  D -> E [thick];
-  G -> H [thick];
+  B -- I [thick];
+  H -- I [thick];
+  F -- H [thick];
+  E -- F [thick];
+  C -- E [thick];
+  D -- E [thick];
+  G -- H [thick];
 }

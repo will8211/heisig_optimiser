@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  K [label = "藉\nin disorder (2852)"];
-  B [label = "艹\nflower (*)"];
-  F [label = "耒\nChristmas tree (*)"];
-  C [label = "一\none (1)"];
-  E [label = "未\nnot yet (215)"];
-  D [label = "木\ntree (202)"];
-  J [label = "昔\ntimes past (971)"];
-  H [label = "昔minus日\nsalad (*)"];
-  G [label = "艹\nflower (*)"];
-  I [label = "日\nday (12)"];
+  K [label = "藉\nin disorder (2852)", background = "../../assets/None.png"];
+  B [label = "艹\nflower (primitive)", background = "../../assets/None.png"];
+  F [label = "耒\nChristmas tree (primitive)", background = "../../assets/None.png"];
+  C [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  E [label = "未\nnot yet (215)", background = "../../assets/Medium.png"];
+  D [label = "木\ntree (202)", background = "../../assets/Elementary.png"];
+  J [label = "昔\ntimes past (971)", background = "../../assets/None.png"];
+  H [label = "昔minus日\nsalad (primitive)", background = "../../assets/None.png"];
+  G [label = "艹\nflower (primitive)", background = "../../assets/None.png"];
+  I [label = "日\nday (12)", background = "../../assets/Elementary.png"];
 
-  B -> K [thick];
-  F -> K [thick];
-  C -> F [thick];
-  E -> F [thick];
-  D -> E [thick];
-  J -> K [thick];
-  H -> J [thick];
-  G -> H [thick];
-  I -> J [thick];
+  B -- K [thick];
+  F -- K [thick];
+  C -- F [thick];
+  E -- F [thick];
+  D -- E [thick];
+  J -- K [thick];
+  H -- J [thick];
+  G -- H [thick];
+  I -- J [thick];
 }

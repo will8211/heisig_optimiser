@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  H [label = "益\nbenefit (1401)"];
-  B [label = "皿\ndish (*)"];
-  C [label = "率minus玄minus十\nsparkler (*)"];
-  D [label = "一\none (1)"];
-  F [label = "丷\nhorns (*)"];
-  E [label = "一\none (1)"];
-  G [label = "只minus口\nanimal legs (*)"];
+  H [label = "益\nbenefit (1401)", background = "../../assets/Advanced.png"];
+  B [label = "皿\ndish (primitive)", background = "../../assets/None.png"];
+  C [label = "率minus玄minus十\nsparkler (primitive)", background = "../../assets/None.png"];
+  D [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  F [label = "丷\nhorns (primitive)", background = "../../assets/None.png"];
+  E [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  G [label = "只minus口\nanimal legs (primitive)", background = "../../assets/None.png"];
 
-  B -> H [thick];
-  C -> H [thick];
-  D -> H [thick];
-  F -> H [thick];
-  E -> F [thick];
-  G -> H [thick];
+  B -- H [thick];
+  C -- H [thick];
+  D -- H [thick];
+  F -- H [thick];
+  E -- F [thick];
+  G -- H [thick];
 }

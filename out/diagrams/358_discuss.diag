@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  I [label = "谈\ndiscuss (358)"];
-  C [label = "炎\ninflammation (174)"];
-  B [label = "火\nfire (170)"];
-  H [label = "言\nsay (346)"];
-  E [label = "二\ntwo (2)"];
-  D [label = "一\none (1)"];
-  F [label = "口\nmouth (11)"];
-  G [label = "亠\ntop hat (*)"];
+  I [label = "谈\ndiscuss (358)", background = "../../assets/Medium.png"];
+  C [label = "炎\ninflammation (174)", background = "../../assets/Advanced.png"];
+  B [label = "火\nfire (170)", background = "../../assets/Elementary.png"];
+  H [label = "言\nsay (346)", background = "../../assets/Medium.png"];
+  E [label = "二\ntwo (2)", background = "../../assets/Elementary.png"];
+  D [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  F [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  G [label = "亠\ntop hat (primitive)", background = "../../assets/None.png"];
 
-  C -> I [thick];
-  B -> C [thick];
-  H -> I [thick];
-  E -> H [thick];
-  D -> E [thick];
-  F -> H [thick];
-  G -> H [thick];
+  C -- I [thick];
+  B -- C [thick];
+  H -- I [thick];
+  E -- H [thick];
+  D -- E [thick];
+  F -- H [thick];
+  G -- H [thick];
 }

@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  G [label = "枕\npillow (2502)"];
-  B [label = "木\ntree (202)"];
-  F [label = "冘\nFrankenbowser Rex (*)"];
-  D [label = "尴minus监\nFrankenbowser (*)"];
-  C [label = "大\nlarge (113)"];
-  E [label = "冖\ncrown (*)"];
+  G [label = "枕\npillow (2502)", background = "../../assets/None.png"];
+  B [label = "木\ntree (202)", background = "../../assets/Elementary.png"];
+  F [label = "冘\nFrankenbowser Rex (primitive)", background = "../../assets/None.png"];
+  D [label = "尴minus监\nFrankenbowser (primitive)", background = "../../assets/None.png"];
+  C [label = "大\nlarge (113)", background = "../../assets/Elementary.png"];
+  E [label = "冖\ncrown (primitive)", background = "../../assets/None.png"];
 
-  B -> G [thick];
-  F -> G [thick];
-  D -> F [thick];
-  C -> D [thick];
-  E -> F [thick];
+  B -- G [thick];
+  F -- G [thick];
+  D -- F [thick];
+  C -- D [thick];
+  E -- F [thick];
 }

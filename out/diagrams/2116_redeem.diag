@@ -5,36 +5,36 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  Q [label = "赎\nredeem (2116)"];
-  D [label = "贝\nshellfish (52)"];
-  B [label = "目\neye (15)"];
-  C [label = "只minus口\nanimal legs (*)"];
-  P [label = "卖\nsell (859)"];
-  E [label = "十\nten (10)"];
-  O [label = "买\nbuy (858)"];
-  G [label = "乛\nberet (*)"];
-  F [label = "冖\ncrown (*)"];
-  N [label = "头\nhead (856)"];
-  H [label = "大\nlarge (113)"];
-  M [label = "冫\nice (*)"];
-  L [label = "水\nwater (137)"];
-  J [label = "丨\nwalking stick (*)"];
-  I [label = "一\none (1)"];
-  K [label = "丶\na drop of (*)"];
+  Q [label = "赎\nredeem (2116)", background = "../../assets/None.png"];
+  D [label = "贝\nshellfish (52)", background = "../../assets/Medium.png"];
+  B [label = "目\neye (15)", background = "../../assets/Medium.png"];
+  C [label = "只minus口\nanimal legs (primitive)", background = "../../assets/None.png"];
+  P [label = "卖\nsell (859)", background = "../../assets/Medium.png"];
+  E [label = "十\nten (10)", background = "../../assets/Elementary.png"];
+  O [label = "买\nbuy (858)", background = "../../assets/Elementary.png"];
+  G [label = "乛\nberet (primitive)", background = "../../assets/None.png"];
+  F [label = "冖\ncrown (primitive)", background = "../../assets/None.png"];
+  N [label = "头\nhead (856)", background = "../../assets/Medium.png"];
+  H [label = "大\nlarge (113)", background = "../../assets/Elementary.png"];
+  M [label = "冫\nice (primitive)", background = "../../assets/None.png"];
+  L [label = "水\nwater (137)", background = "../../assets/Elementary.png"];
+  J [label = "丨\nwalking stick (primitive)", background = "../../assets/None.png"];
+  I [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  K [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
 
-  D -> Q [thick];
-  B -> D [thick];
-  C -> D [thick];
-  P -> Q [thick];
-  E -> P [thick];
-  O -> P [thick];
-  G -> O [thick];
-  F -> G [thick];
-  N -> O [thick];
-  H -> N [thick];
-  M -> N [thick];
-  L -> M [thick];
-  J -> L [thick];
-  I -> J [thick];
-  K -> L [thick];
+  D -- Q [thick];
+  B -- D [thick];
+  C -- D [thick];
+  P -- Q [thick];
+  E -- P [thick];
+  O -- P [thick];
+  G -- O [thick];
+  F -- G [thick];
+  N -- O [thick];
+  H -- N [thick];
+  M -- N [thick];
+  L -- M [thick];
+  J -- L [thick];
+  I -- J [thick];
+  K -- L [thick];
 }

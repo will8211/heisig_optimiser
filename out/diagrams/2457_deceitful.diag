@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  K [label = "诡\ndeceitful (2457)"];
-  F [label = "言\nsay (346)"];
-  C [label = "二\ntwo (2)"];
-  B [label = "一\none (1)"];
-  D [label = "口\nmouth (11)"];
-  E [label = "亠\ntop hat (*)"];
-  J [label = "危\ndanger (1123)"];
-  G [label = "勹\nbound up (*)"];
-  H [label = "厂\nfactory (121)"];
-  I [label = "㔾\nfingerprint (*)"];
+  K [label = "诡\ndeceitful (2457)", background = "../../assets/None.png"];
+  F [label = "言\nsay (346)", background = "../../assets/Medium.png"];
+  C [label = "二\ntwo (2)", background = "../../assets/Elementary.png"];
+  B [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  D [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  E [label = "亠\ntop hat (primitive)", background = "../../assets/None.png"];
+  J [label = "危\ndanger (1123)", background = "../../assets/Advanced.png"];
+  G [label = "勹\nbound up (primitive)", background = "../../assets/None.png"];
+  H [label = "厂\nfactory (121)", background = "../../assets/Medium.png"];
+  I [label = "㔾\nfingerprint (primitive)", background = "../../assets/None.png"];
 
-  F -> K [thick];
-  C -> F [thick];
-  B -> C [thick];
-  D -> F [thick];
-  E -> F [thick];
-  J -> K [thick];
-  G -> J [thick];
-  H -> J [thick];
-  I -> J [thick];
+  F -- K [thick];
+  C -- F [thick];
+  B -- C [thick];
+  D -- F [thick];
+  E -- F [thick];
+  J -- K [thick];
+  G -- J [thick];
+  H -- J [thick];
+  I -- J [thick];
 }

@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  E [label = "显\nobvious (1350)"];
-  B [label = "日\nday (12)"];
-  D [label = "业\nprofession (1349)"];
-  C [label = "並\nside by side (*)"];
+  E [label = "显\nobvious (1350)", background = "../../assets/Advanced.png"];
+  B [label = "日\nday (12)", background = "../../assets/Elementary.png"];
+  D [label = "业\nprofession (1349)", background = "../../assets/Medium.png"];
+  C [label = "並\nside by side (primitive)", background = "../../assets/None.png"];
 
-  B -> E [thick];
-  D -> E [thick];
-  C -> D [thick];
+  B -- E [thick];
+  D -- E [thick];
+  C -- D [thick];
 }

@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  F [label = "鼠\nmouse (2960)"];
-  B [label = "臼\nmortar (*)"];
-  C [label = "以minus丶人\nplow (*)"];
-  D [label = "雨\nrain (425)"];
-  E [label = "乙\nsecond (95)"];
+  F [label = "鼠\nmouse (2960)", background = "../../assets/None.png"];
+  B [label = "臼\nmortar (primitive)", background = "../../assets/None.png"];
+  C [label = "以minus丶人\nplow (primitive)", background = "../../assets/None.png"];
+  D [label = "雨\nrain (425)", background = "../../assets/Elementary.png"];
+  E [label = "乙\nsecond (95)", background = "../../assets/Medium.png"];
 
-  B -> F [thick];
-  C -> F [thick];
-  D -> F [thick];
-  E -> F [thick];
+  B -- F [thick];
+  C -- F [thick];
+  D -- F [thick];
+  E -- F [thick];
 }

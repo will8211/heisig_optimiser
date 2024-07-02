@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  D [label = "勿\nnot (877)"];
-  C [label = "𠃓\npiglets (*)"];
-  B [label = "豕\nsow (*)"];
+  D [label = "勿\nnot (877)", background = "../../assets/None.png"];
+  C [label = "𠃓\npiglets (primitive)", background = "../../assets/None.png"];
+  B [label = "豕\nsow (primitive)", background = "../../assets/None.png"];
 
-  C -> D [thick];
-  B -> C [thick];
+  C -- D [thick];
+  B -- C [thick];
 }

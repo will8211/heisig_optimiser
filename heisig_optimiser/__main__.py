@@ -2,9 +2,9 @@ import xml.etree.ElementTree as ET
 from collections import defaultdict
 from typing import Dict, List, Literal, Set
 
-from .output import output_to_csv, output_to_json
 from .generate_hierarchies import generate_hierarchies
 from .json_to_diag import json_to_diag
+from .output import output_to_csv, output_to_json
 
 HskLevel = Literal["Elementary", "Medium", "Advanced"]
 

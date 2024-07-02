@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  G [label = "炭\ncharcoal (1932)"];
-  B [label = "山\nmountain (688)"];
-  F [label = "灰\nashes (172)"];
-  C [label = "火\nfire (170)"];
-  E [label = "𠂇\nby one’s side (*)"];
-  D [label = "十\nten (10)"];
+  G [label = "炭\ncharcoal (1932)", background = "../../assets/None.png"];
+  B [label = "山\nmountain (688)", background = "../../assets/Elementary.png"];
+  F [label = "灰\nashes (172)", background = "../../assets/None.png"];
+  C [label = "火\nfire (170)", background = "../../assets/Elementary.png"];
+  E [label = "𠂇\nby one’s side (primitive)", background = "../../assets/None.png"];
+  D [label = "十\nten (10)", background = "../../assets/Elementary.png"];
 
-  B -> G [thick];
-  F -> G [thick];
-  C -> F [thick];
-  E -> F [thick];
-  D -> E [thick];
+  B -- G [thick];
+  F -- G [thick];
+  C -- F [thick];
+  E -- F [thick];
+  D -- E [thick];
 }

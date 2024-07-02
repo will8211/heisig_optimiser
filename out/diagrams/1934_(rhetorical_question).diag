@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  D [label = "岂\n(rhetorical question) (1934)"];
-  B [label = "山\nmountain (688)"];
-  C [label = "己\nself (515)"];
+  D [label = "岂\n(rhetorical question) (1934)", background = "../../assets/None.png"];
+  B [label = "山\nmountain (688)", background = "../../assets/Elementary.png"];
+  C [label = "己\nself (515)", background = "../../assets/Medium.png"];
 
-  B -> D [thick];
-  C -> D [thick];
+  B -- D [thick];
+  C -- D [thick];
 }

@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  I [label = "擦\nscrub (912)"];
-  B [label = "扌\nfingers (*)"];
-  H [label = "察\nscrutinize (911)"];
-  C [label = "宀\nhouse (*)"];
-  G [label = "祭\noffer sacrifice (910)"];
-  D [label = "月\nmonth (13)"];
-  E [label = "又\nagain (633)"];
-  F [label = "示\nshow (900)"];
+  I [label = "擦\nscrub (912)", background = "../../assets/None.png"];
+  B [label = "扌\nfingers (primitive)", background = "../../assets/None.png"];
+  H [label = "察\nscrutinize (911)", background = "../../assets/Advanced.png"];
+  C [label = "宀\nhouse (primitive)", background = "../../assets/None.png"];
+  G [label = "祭\noffer sacrifice (910)", background = "../../assets/None.png"];
+  D [label = "月\nmonth (13)", background = "../../assets/Elementary.png"];
+  E [label = "又\nagain (633)", background = "../../assets/Elementary.png"];
+  F [label = "示\nshow (900)", background = "../../assets/Medium.png"];
 
-  B -> I [thick];
-  H -> I [thick];
-  C -> H [thick];
-  G -> H [thick];
-  D -> G [thick];
-  E -> G [thick];
-  F -> G [thick];
+  B -- I [thick];
+  H -- I [thick];
+  C -- H [thick];
+  G -- H [thick];
+  D -- G [thick];
+  E -- G [thick];
+  F -- G [thick];
 }

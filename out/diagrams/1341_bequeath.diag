@@ -5,26 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  L [label = "遗\nbequeath (1341)"];
-  J [label = "贵\nexpensive (1340)"];
-  F [label = "𠀐\npurse (*)"];
-  E [label = "中\nmiddle (38)"];
-  C [label = "丨\nwalking stick (*)"];
-  B [label = "一\none (1)"];
-  D [label = "口\nmouth (11)"];
-  I [label = "贝\nshellfish (52)"];
-  G [label = "目\neye (15)"];
-  H [label = "只minus口\nanimal legs (*)"];
-  K [label = "辶\nroad (*)"];
+  L [label = "遗\nbequeath (1341)", background = "../../assets/Advanced.png"];
+  J [label = "贵\nexpensive (1340)", background = "../../assets/Elementary.png"];
+  F [label = "𠀐\npurse (primitive)", background = "../../assets/None.png"];
+  E [label = "中\nmiddle (38)", background = "../../assets/Elementary.png"];
+  C [label = "丨\nwalking stick (primitive)", background = "../../assets/None.png"];
+  B [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  D [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  I [label = "贝\nshellfish (52)", background = "../../assets/Medium.png"];
+  G [label = "目\neye (15)", background = "../../assets/Medium.png"];
+  H [label = "只minus口\nanimal legs (primitive)", background = "../../assets/None.png"];
+  K [label = "辶\nroad (primitive)", background = "../../assets/None.png"];
 
-  J -> L [thick];
-  F -> J [thick];
-  E -> F [thick];
-  C -> E [thick];
-  B -> C [thick];
-  D -> E [thick];
-  I -> J [thick];
-  G -> I [thick];
-  H -> I [thick];
-  K -> L [thick];
+  J -- L [thick];
+  F -- J [thick];
+  E -- F [thick];
+  C -- E [thick];
+  B -- C [thick];
+  D -- E [thick];
+  I -- J [thick];
+  G -- I [thick];
+  H -- I [thick];
+  K -- L [thick];
 }

@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  H [label = "绑\ntruss (2809)"];
-  C [label = "纟\nthread (*)"];
-  B [label = "厶\nelbow (*)"];
-  G [label = "邦\nnation (2808)"];
-  D [label = "丰\nplentiful (1223)"];
-  F [label = "阝\ncity walls (*)"];
-  E [label = "阝\npinnacle (*)"];
+  H [label = "绑\ntruss (2809)", background = "../../assets/None.png"];
+  C [label = "纟\nthread (primitive)", background = "../../assets/None.png"];
+  B [label = "厶\nelbow (primitive)", background = "../../assets/None.png"];
+  G [label = "邦\nnation (2808)", background = "../../assets/None.png"];
+  D [label = "丰\nplentiful (1223)", background = "../../assets/Advanced.png"];
+  F [label = "阝\ncity walls (primitive)", background = "../../assets/None.png"];
+  E [label = "阝\npinnacle (primitive)", background = "../../assets/None.png"];
 
-  C -> H [thick];
-  B -> C [thick];
-  G -> H [thick];
-  D -> G [thick];
-  F -> G [thick];
-  E -> F [thick];
+  C -- H [thick];
+  B -- C [thick];
+  G -- H [thick];
+  D -- G [thick];
+  F -- G [thick];
+  E -- F [thick];
 }

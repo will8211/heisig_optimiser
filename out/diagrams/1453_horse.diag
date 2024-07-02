@@ -5,8 +5,8 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  C [label = "马\nhorse (1453)"];
-  B [label = "与minus丨一\npointed tail (*)"];
+  C [label = "马\nhorse (1453)", background = "../../assets/Elementary.png"];
+  B [label = "与minus丨一\npointed tail (primitive)", background = "../../assets/None.png"];
 
-  B -> C [thick];
+  B -- C [thick];
 }

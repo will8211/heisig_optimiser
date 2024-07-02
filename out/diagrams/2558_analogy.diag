@@ -5,28 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  M [label = "譬\nanalogy (2558)"];
-  G [label = "辟\nrepudiate (1185)"];
-  B [label = "尸\ncorpse (882)"];
-  C [label = "口\nmouth (11)"];
-  F [label = "辛\npeppery (1183)"];
-  D [label = "立\nstanding up (444)"];
-  E [label = "十\nten (10)"];
-  L [label = "言\nsay (346)"];
-  I [label = "二\ntwo (2)"];
-  H [label = "一\none (1)"];
-  J [label = "口\nmouth (11)"];
-  K [label = "亠\ntop hat (*)"];
+  M [label = "譬\nanalogy (2558)", background = "../../assets/None.png"];
+  G [label = "辟\nrepudiate (1185)", background = "../../assets/None.png"];
+  B [label = "尸\ncorpse (882)", background = "../../assets/None.png"];
+  C [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  F [label = "辛\npeppery (1183)", background = "../../assets/Advanced.png"];
+  D [label = "立\nstanding up (444)", background = "../../assets/Advanced.png"];
+  E [label = "十\nten (10)", background = "../../assets/Elementary.png"];
+  L [label = "言\nsay (346)", background = "../../assets/Medium.png"];
+  I [label = "二\ntwo (2)", background = "../../assets/Elementary.png"];
+  H [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  J [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  K [label = "亠\ntop hat (primitive)", background = "../../assets/None.png"];
 
-  G -> M [thick];
-  B -> G [thick];
-  C -> G [thick];
-  F -> G [thick];
-  D -> F [thick];
-  E -> F [thick];
-  L -> M [thick];
-  I -> L [thick];
-  H -> I [thick];
-  J -> L [thick];
-  K -> L [thick];
+  G -- M [thick];
+  B -- G [thick];
+  C -- G [thick];
+  F -- G [thick];
+  D -- F [thick];
+  E -- F [thick];
+  L -- M [thick];
+  I -- L [thick];
+  H -- I [thick];
+  J -- L [thick];
+  K -- L [thick];
 }

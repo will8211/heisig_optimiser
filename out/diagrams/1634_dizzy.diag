@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  F [label = "晕\ndizzy (1634)"];
-  B [label = "日\nday (12)"];
-  E [label = "军\narmy (320)"];
-  C [label = "冖\ncrown (*)"];
-  D [label = "车\ncar (300)"];
+  F [label = "晕\ndizzy (1634)", background = "../../assets/Advanced.png"];
+  B [label = "日\nday (12)", background = "../../assets/Elementary.png"];
+  E [label = "军\narmy (320)", background = "../../assets/Advanced.png"];
+  C [label = "冖\ncrown (primitive)", background = "../../assets/None.png"];
+  D [label = "车\ncar (300)", background = "../../assets/Elementary.png"];
 
-  B -> F [thick];
-  E -> F [thick];
-  C -> E [thick];
-  D -> E [thick];
+  B -- F [thick];
+  E -- F [thick];
+  C -- E [thick];
+  D -- E [thick];
 }

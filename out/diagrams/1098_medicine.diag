@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  I [label = "药\nmedicine (1098)"];
-  B [label = "艹\nflower (*)"];
-  H [label = "约\nmake an appointment (1090)"];
-  D [label = "纟\nthread (*)"];
-  C [label = "厶\nelbow (*)"];
-  G [label = "勺\nladle (69)"];
-  E [label = "勹\nbound up (*)"];
-  F [label = "丶\na drop of (*)"];
+  I [label = "药\nmedicine (1098)", background = "../../assets/Medium.png"];
+  B [label = "艹\nflower (primitive)", background = "../../assets/None.png"];
+  H [label = "约\nmake an appointment (1090)", background = "../../assets/Medium.png"];
+  D [label = "纟\nthread (primitive)", background = "../../assets/None.png"];
+  C [label = "厶\nelbow (primitive)", background = "../../assets/None.png"];
+  G [label = "勺\nladle (69)", background = "../../assets/Medium.png"];
+  E [label = "勹\nbound up (primitive)", background = "../../assets/None.png"];
+  F [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
 
-  B -> I [thick];
-  H -> I [thick];
-  D -> H [thick];
-  C -> D [thick];
-  G -> H [thick];
-  E -> G [thick];
-  F -> G [thick];
+  B -- I [thick];
+  H -- I [thick];
+  D -- H [thick];
+  C -- D [thick];
+  G -- H [thick];
+  E -- G [thick];
+  F -- G [thick];
 }

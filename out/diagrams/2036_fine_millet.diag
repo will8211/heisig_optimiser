@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  J [label = "粱\nfine millet (2036)"];
-  H [label = "粱minus米\ndecapitation (*)"];
-  E [label = "水\nwater (137)"];
-  C [label = "丨\nwalking stick (*)"];
-  B [label = "一\none (1)"];
-  D [label = "丶\na drop of (*)"];
-  F [label = "刀\nsword (83)"];
-  G [label = "丶\na drop of (*)"];
-  I [label = "米\nrice (778)"];
+  J [label = "粱\nfine millet (2036)", background = "../../assets/None.png"];
+  H [label = "粱minus米\ndecapitation (primitive)", background = "../../assets/None.png"];
+  E [label = "水\nwater (137)", background = "../../assets/Elementary.png"];
+  C [label = "丨\nwalking stick (primitive)", background = "../../assets/None.png"];
+  B [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  D [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  F [label = "刀\nsword (83)", background = "../../assets/Medium.png"];
+  G [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  I [label = "米\nrice (778)", background = "../../assets/Medium.png"];
 
-  H -> J [thick];
-  E -> H [thick];
-  C -> E [thick];
-  B -> C [thick];
-  D -> E [thick];
-  F -> H [thick];
-  G -> H [thick];
-  I -> J [thick];
+  H -- J [thick];
+  E -- H [thick];
+  C -- E [thick];
+  B -- C [thick];
+  D -- E [thick];
+  F -- H [thick];
+  G -- H [thick];
+  I -- J [thick];
 }

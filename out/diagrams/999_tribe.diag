@@ -5,26 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  L [label = "族\ntribe (999)"];
-  F [label = "施minus也\nbanner (*)"];
-  D [label = "方\ndirection (494)"];
-  B [label = "刀\nsword (83)"];
-  C [label = "亠\ntop hat (*)"];
-  E [label = "𠂉\nreclining (*)"];
-  K [label = "矢\ndart (998)"];
-  I [label = "天\nheavens (436)"];
-  G [label = "一\none (1)"];
-  H [label = "大\nlarge (113)"];
-  J [label = "丶\na drop of (*)"];
+  L [label = "族\ntribe (999)", background = "../../assets/Advanced.png"];
+  F [label = "施minus也\nbanner (primitive)", background = "../../assets/None.png"];
+  D [label = "方\ndirection (494)", background = "../../assets/Elementary.png"];
+  B [label = "刀\nsword (83)", background = "../../assets/Medium.png"];
+  C [label = "亠\ntop hat (primitive)", background = "../../assets/None.png"];
+  E [label = "𠂉\nreclining (primitive)", background = "../../assets/None.png"];
+  K [label = "矢\ndart (998)", background = "../../assets/None.png"];
+  I [label = "天\nheavens (436)", background = "../../assets/Elementary.png"];
+  G [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  H [label = "大\nlarge (113)", background = "../../assets/Elementary.png"];
+  J [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
 
-  F -> L [thick];
-  D -> F [thick];
-  B -> D [thick];
-  C -> D [thick];
-  E -> F [thick];
-  K -> L [thick];
-  I -> K [thick];
-  G -> I [thick];
-  H -> I [thick];
-  J -> K [thick];
+  F -- L [thick];
+  D -- F [thick];
+  B -- D [thick];
+  C -- D [thick];
+  E -- F [thick];
+  K -- L [thick];
+  I -- K [thick];
+  G -- I [thick];
+  H -- I [thick];
+  J -- K [thick];
 }

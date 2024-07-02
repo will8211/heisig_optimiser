@@ -5,26 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  L [label = "氓\nhoodlum (2789)"];
-  D [label = "亡\ndeceased (490)"];
-  B [label = "亠\ntop hat (*)"];
-  C [label = "乙\nsecond (95)"];
-  K [label = "民\npeople (1377)"];
-  I [label = "氏\nfamily name (1371)"];
-  E [label = "丶\na drop of (*)"];
-  F [label = "以minus丶人\nplow (*)"];
-  G [label = "一\none (1)"];
-  H [label = "乙\nsecond (95)"];
-  J [label = "口\nmouth (11)"];
+  L [label = "氓\nhoodlum (2789)", background = "../../assets/None.png"];
+  D [label = "亡\ndeceased (490)", background = "../../assets/Advanced.png"];
+  B [label = "亠\ntop hat (primitive)", background = "../../assets/None.png"];
+  C [label = "乙\nsecond (95)", background = "../../assets/Medium.png"];
+  K [label = "民\npeople (1377)", background = "../../assets/Medium.png"];
+  I [label = "氏\nfamily name (1371)", background = "../../assets/None.png"];
+  E [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  F [label = "以minus丶人\nplow (primitive)", background = "../../assets/None.png"];
+  G [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  H [label = "乙\nsecond (95)", background = "../../assets/Medium.png"];
+  J [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
 
-  D -> L [thick];
-  B -> D [thick];
-  C -> D [thick];
-  K -> L [thick];
-  I -> K [thick];
-  E -> I [thick];
-  F -> I [thick];
-  G -> I [thick];
-  H -> I [thick];
-  J -> K [thick];
+  D -- L [thick];
+  B -- D [thick];
+  C -- D [thick];
+  K -- L [thick];
+  I -- K [thick];
+  E -- I [thick];
+  F -- I [thick];
+  G -- I [thick];
+  H -- I [thick];
+  J -- K [thick];
 }

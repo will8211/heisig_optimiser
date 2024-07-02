@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  D [label = "死\ndeath (715)"];
-  B [label = "歹\nmalicious (712)"];
-  C [label = "匕\nancient spoon (453)"];
+  D [label = "死\ndeath (715)", background = "../../assets/Advanced.png"];
+  B [label = "歹\nmalicious (712)", background = "../../assets/None.png"];
+  C [label = "匕\nancient spoon (453)", background = "../../assets/None.png"];
 
-  B -> D [thick];
-  C -> D [thick];
+  B -- D [thick];
+  C -- D [thick];
 }

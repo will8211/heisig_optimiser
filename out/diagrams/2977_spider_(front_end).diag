@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  J [label = "蜘\nspider (front end) (2977)"];
-  B [label = "虫\ninsect (509)"];
-  I [label = "知\nknow (1000)"];
-  G [label = "矢\ndart (998)"];
-  E [label = "天\nheavens (436)"];
-  C [label = "一\none (1)"];
-  D [label = "大\nlarge (113)"];
-  F [label = "丶\na drop of (*)"];
-  H [label = "口\nmouth (11)"];
+  J [label = "蜘\nspider (front end) (2977)", background = "../../assets/None.png"];
+  B [label = "虫\ninsect (509)", background = "../../assets/Medium.png"];
+  I [label = "知\nknow (1000)", background = "../../assets/Elementary.png"];
+  G [label = "矢\ndart (998)", background = "../../assets/None.png"];
+  E [label = "天\nheavens (436)", background = "../../assets/Elementary.png"];
+  C [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  D [label = "大\nlarge (113)", background = "../../assets/Elementary.png"];
+  F [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  H [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
 
-  B -> J [thick];
-  I -> J [thick];
-  G -> I [thick];
-  E -> G [thick];
-  C -> E [thick];
-  D -> E [thick];
-  F -> G [thick];
-  H -> I [thick];
+  B -- J [thick];
+  I -- J [thick];
+  G -- I [thick];
+  E -- G [thick];
+  C -- E [thick];
+  D -- E [thick];
+  F -- G [thick];
+  H -- I [thick];
 }

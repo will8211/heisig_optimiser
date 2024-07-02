@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  F [label = "积\naccumulate (765)"];
-  B [label = "禾\nstanding grain (762)"];
-  E [label = "只\nonly (51)"];
-  C [label = "口\nmouth (11)"];
-  D [label = "只minus口\nanimal legs (*)"];
+  F [label = "积\naccumulate (765)", background = "../../assets/Advanced.png"];
+  B [label = "禾\nstanding grain (762)", background = "../../assets/None.png"];
+  E [label = "只\nonly (51)", background = "../../assets/Medium.png"];
+  C [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  D [label = "只minus口\nanimal legs (primitive)", background = "../../assets/None.png"];
 
-  B -> F [thick];
-  E -> F [thick];
-  C -> E [thick];
-  D -> E [thick];
+  B -- F [thick];
+  E -- F [thick];
+  C -- E [thick];
+  D -- E [thick];
 }

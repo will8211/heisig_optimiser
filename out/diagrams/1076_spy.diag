@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  I [label = "探\nspy (1076)"];
-  B [label = "扌\nfingers (*)"];
-  G [label = "㓁\npaper punch (*)"];
-  F [label = "穴\nhole (1070)"];
-  C [label = "宀\nhouse (*)"];
-  D [label = "八\neight (8)"];
-  E [label = "只minus口\nanimal legs (*)"];
-  H [label = "木\ntree (202)"];
+  I [label = "探\nspy (1076)", background = "../../assets/None.png"];
+  B [label = "扌\nfingers (primitive)", background = "../../assets/None.png"];
+  G [label = "㓁\npaper punch (primitive)", background = "../../assets/None.png"];
+  F [label = "穴\nhole (1070)", background = "../../assets/None.png"];
+  C [label = "宀\nhouse (primitive)", background = "../../assets/None.png"];
+  D [label = "八\neight (8)", background = "../../assets/Elementary.png"];
+  E [label = "只minus口\nanimal legs (primitive)", background = "../../assets/None.png"];
+  H [label = "木\ntree (202)", background = "../../assets/Elementary.png"];
 
-  B -> I [thick];
-  G -> I [thick];
-  F -> G [thick];
-  C -> F [thick];
-  D -> F [thick];
-  E -> F [thick];
-  H -> I [thick];
+  B -- I [thick];
+  G -- I [thick];
+  F -- G [thick];
+  C -- F [thick];
+  D -- F [thick];
+  E -- F [thick];
+  H -- I [thick];
 }

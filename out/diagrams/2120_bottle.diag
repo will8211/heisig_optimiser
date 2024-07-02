@@ -5,28 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  M [label = "瓶\nbottle (2120)"];
-  G [label = "并\ncombine (863)"];
-  C [label = "丷\nhorns (*)"];
-  B [label = "一\none (1)"];
-  F [label = "开\nopen (613)"];
-  E [label = "二\ntwo (2)"];
-  D [label = "一\none (1)"];
-  L [label = "瓦\ntile (2117)"];
-  H [label = "一\none (1)"];
-  I [label = "以minus丶人\nplow (*)"];
-  J [label = "乙\nsecond (95)"];
-  K [label = "丶\na drop of (*)"];
+  M [label = "瓶\nbottle (2120)", background = "../../assets/Medium.png"];
+  G [label = "并\ncombine (863)", background = "../../assets/Advanced.png"];
+  C [label = "丷\nhorns (primitive)", background = "../../assets/None.png"];
+  B [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  F [label = "开\nopen (613)", background = "../../assets/Elementary.png"];
+  E [label = "二\ntwo (2)", background = "../../assets/Elementary.png"];
+  D [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  L [label = "瓦\ntile (2117)", background = "../../assets/None.png"];
+  H [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  I [label = "以minus丶人\nplow (primitive)", background = "../../assets/None.png"];
+  J [label = "乙\nsecond (95)", background = "../../assets/Medium.png"];
+  K [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
 
-  G -> M [thick];
-  C -> G [thick];
-  B -> C [thick];
-  F -> G [thick];
-  E -> F [thick];
-  D -> E [thick];
-  L -> M [thick];
-  H -> L [thick];
-  I -> L [thick];
-  J -> L [thick];
-  K -> L [thick];
+  G -- M [thick];
+  C -- G [thick];
+  B -- C [thick];
+  F -- G [thick];
+  E -- F [thick];
+  D -- E [thick];
+  L -- M [thick];
+  H -- L [thick];
+  I -- L [thick];
+  J -- L [thick];
+  K -- L [thick];
 }

@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  I [label = "绵\ncontinuous (2381)"];
-  C [label = "纟\nthread (*)"];
-  B [label = "厶\nelbow (*)"];
-  H [label = "帛\nwhite towel (*)"];
-  F [label = "白\nwhite (34)"];
-  D [label = "日\nday (12)"];
-  E [label = "丶\na drop of (*)"];
-  G [label = "巾\ntowel (410)"];
+  I [label = "绵\ncontinuous (2381)", background = "../../assets/None.png"];
+  C [label = "纟\nthread (primitive)", background = "../../assets/None.png"];
+  B [label = "厶\nelbow (primitive)", background = "../../assets/None.png"];
+  H [label = "帛\nwhite towel (primitive)", background = "../../assets/None.png"];
+  F [label = "白\nwhite (34)", background = "../../assets/Elementary.png"];
+  D [label = "日\nday (12)", background = "../../assets/Elementary.png"];
+  E [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  G [label = "巾\ntowel (410)", background = "../../assets/Advanced.png"];
 
-  C -> I [thick];
-  B -> C [thick];
-  H -> I [thick];
-  F -> H [thick];
-  D -> F [thick];
-  E -> F [thick];
-  G -> H [thick];
+  C -- I [thick];
+  B -- C [thick];
+  H -- I [thick];
+  F -- H [thick];
+  D -- F [thick];
+  E -- F [thick];
+  G -- H [thick];
 }

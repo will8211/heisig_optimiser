@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  J [label = "摘\nhandpick (1858)"];
-  B [label = "扌\nfingers (*)"];
-  I [label = "啇\nantique (*)"];
-  C [label = "立\nstanding up (444)"];
-  E [label = "冂\nhood (*)"];
-  D [label = "几\nhow many? (57)"];
-  H [label = "古\nancient (16)"];
-  F [label = "十\nten (10)"];
-  G [label = "口\nmouth (11)"];
+  J [label = "摘\nhandpick (1858)", background = "../../assets/None.png"];
+  B [label = "扌\nfingers (primitive)", background = "../../assets/None.png"];
+  I [label = "啇\nantique (primitive)", background = "../../assets/None.png"];
+  C [label = "立\nstanding up (444)", background = "../../assets/Advanced.png"];
+  E [label = "冂\nhood (primitive)", background = "../../assets/None.png"];
+  D [label = "几\nhow many? (57)", background = "../../assets/Elementary.png"];
+  H [label = "古\nancient (16)", background = "../../assets/Medium.png"];
+  F [label = "十\nten (10)", background = "../../assets/Elementary.png"];
+  G [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
 
-  B -> J [thick];
-  I -> J [thick];
-  C -> I [thick];
-  E -> I [thick];
-  D -> E [thick];
-  H -> I [thick];
-  F -> H [thick];
-  G -> H [thick];
+  B -- J [thick];
+  I -- J [thick];
+  C -- I [thick];
+  E -- I [thick];
+  D -- E [thick];
+  H -- I [thick];
+  F -- H [thick];
+  G -- H [thick];
 }

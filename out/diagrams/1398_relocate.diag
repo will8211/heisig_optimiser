@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  K [label = "搬\nrelocate (1398)"];
-  B [label = "扌\nfingers (*)"];
-  J [label = "般\nsort (1396)"];
-  F [label = "舟\nboat (1394)"];
-  C [label = "丶\na drop of (*)"];
-  E [label = "冂\nhood (*)"];
-  D [label = "几\nhow many? (57)"];
-  I [label = "殳\nmissile (*)"];
-  G [label = "几\nhow many? (57)"];
-  H [label = "又\nagain (633)"];
+  K [label = "搬\nrelocate (1398)", background = "../../assets/None.png"];
+  B [label = "扌\nfingers (primitive)", background = "../../assets/None.png"];
+  J [label = "般\nsort (1396)", background = "../../assets/Medium.png"];
+  F [label = "舟\nboat (1394)", background = "../../assets/None.png"];
+  C [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  E [label = "冂\nhood (primitive)", background = "../../assets/None.png"];
+  D [label = "几\nhow many? (57)", background = "../../assets/Elementary.png"];
+  I [label = "殳\nmissile (primitive)", background = "../../assets/None.png"];
+  G [label = "几\nhow many? (57)", background = "../../assets/Elementary.png"];
+  H [label = "又\nagain (633)", background = "../../assets/Elementary.png"];
 
-  B -> K [thick];
-  J -> K [thick];
-  F -> J [thick];
-  C -> F [thick];
-  E -> F [thick];
-  D -> E [thick];
-  I -> J [thick];
-  G -> I [thick];
-  H -> I [thick];
+  B -- K [thick];
+  J -- K [thick];
+  F -- J [thick];
+  C -- F [thick];
+  E -- F [thick];
+  D -- E [thick];
+  I -- J [thick];
+  G -- I [thick];
+  H -- I [thick];
 }

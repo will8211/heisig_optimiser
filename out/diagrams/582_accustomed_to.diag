@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  I [label = "惯\naccustomed to (582)"];
-  B [label = "心\nheart (563)"];
-  H [label = "贯\npierce (106)"];
-  D [label = "母\nmother (105)"];
-  C [label = "女\nwoman (102)"];
-  G [label = "贝\nshellfish (52)"];
-  E [label = "目\neye (15)"];
-  F [label = "只minus口\nanimal legs (*)"];
+  I [label = "惯\naccustomed to (582)", background = "../../assets/Medium.png"];
+  B [label = "心\nheart (563)", background = "../../assets/Medium.png"];
+  H [label = "贯\npierce (106)", background = "../../assets/None.png"];
+  D [label = "母\nmother (105)", background = "../../assets/Advanced.png"];
+  C [label = "女\nwoman (102)", background = "../../assets/Elementary.png"];
+  G [label = "贝\nshellfish (52)", background = "../../assets/Medium.png"];
+  E [label = "目\neye (15)", background = "../../assets/Medium.png"];
+  F [label = "只minus口\nanimal legs (primitive)", background = "../../assets/None.png"];
 
-  B -> I [thick];
-  H -> I [thick];
-  D -> H [thick];
-  C -> D [thick];
-  G -> H [thick];
-  E -> G [thick];
-  F -> G [thick];
+  B -- I [thick];
+  H -- I [thick];
+  D -- H [thick];
+  C -- D [thick];
+  G -- H [thick];
+  E -- G [thick];
+  F -- G [thick];
 }

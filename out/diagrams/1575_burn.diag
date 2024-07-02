@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  E [label = "焚\nburn (1575)"];
-  C [label = "林\nwoods (203)"];
-  B [label = "木\ntree (202)"];
-  D [label = "火\nfire (170)"];
+  E [label = "焚\nburn (1575)", background = "../../assets/None.png"];
+  C [label = "林\nwoods (203)", background = "../../assets/Advanced.png"];
+  B [label = "木\ntree (202)", background = "../../assets/Elementary.png"];
+  D [label = "火\nfire (170)", background = "../../assets/Elementary.png"];
 
-  C -> E [thick];
-  B -> C [thick];
-  D -> E [thick];
+  C -- E [thick];
+  B -- C [thick];
+  D -- E [thick];
 }

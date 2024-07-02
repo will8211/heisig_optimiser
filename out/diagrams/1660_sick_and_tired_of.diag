@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  J [label = "腻\nsick and tired of (1660)"];
-  B [label = "月\nmonth (13)"];
-  I [label = "贰\nII (1659)"];
-  C [label = "弋\narrow (*)"];
-  E [label = "二\ntwo (2)"];
-  D [label = "一\none (1)"];
-  H [label = "贝\nshellfish (52)"];
-  F [label = "目\neye (15)"];
-  G [label = "只minus口\nanimal legs (*)"];
+  J [label = "腻\nsick and tired of (1660)", background = "../../assets/None.png"];
+  B [label = "月\nmonth (13)", background = "../../assets/Elementary.png"];
+  I [label = "贰\nII (1659)", background = "../../assets/None.png"];
+  C [label = "弋\narrow (primitive)", background = "../../assets/None.png"];
+  E [label = "二\ntwo (2)", background = "../../assets/Elementary.png"];
+  D [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  H [label = "贝\nshellfish (52)", background = "../../assets/Medium.png"];
+  F [label = "目\neye (15)", background = "../../assets/Medium.png"];
+  G [label = "只minus口\nanimal legs (primitive)", background = "../../assets/None.png"];
 
-  B -> J [thick];
-  I -> J [thick];
-  C -> I [thick];
-  E -> I [thick];
-  D -> E [thick];
-  H -> I [thick];
-  F -> H [thick];
-  G -> H [thick];
+  B -- J [thick];
+  I -- J [thick];
+  C -- I [thick];
+  E -- I [thick];
+  D -- E [thick];
+  H -- I [thick];
+  F -- H [thick];
+  G -- H [thick];
 }

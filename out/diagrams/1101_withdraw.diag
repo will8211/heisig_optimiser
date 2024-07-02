@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  F [label = "却\nwithdraw (1101)"];
-  D [label = "去\ngo (675)"];
-  B [label = "土\nsoil (158)"];
-  C [label = "厶\nelbow (*)"];
-  E [label = "卩\nstamp (*)"];
+  F [label = "却\nwithdraw (1101)", background = "../../assets/None.png"];
+  D [label = "去\ngo (675)", background = "../../assets/Elementary.png"];
+  B [label = "土\nsoil (158)", background = "../../assets/Medium.png"];
+  C [label = "厶\nelbow (primitive)", background = "../../assets/None.png"];
+  E [label = "卩\nstamp (primitive)", background = "../../assets/None.png"];
 
-  D -> F [thick];
-  B -> D [thick];
-  C -> D [thick];
-  E -> F [thick];
+  D -- F [thick];
+  B -- D [thick];
+  C -- D [thick];
+  E -- F [thick];
 }

@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  K [label = "誉\nreputation (2857)"];
-  E [label = "兴\nexcitement (1433)"];
-  B [label = "应minus广\nowl (*)"];
-  C [label = "一\none (1)"];
-  D [label = "只minus口\nanimal legs (*)"];
-  J [label = "言\nsay (346)"];
-  G [label = "二\ntwo (2)"];
-  F [label = "一\none (1)"];
-  H [label = "口\nmouth (11)"];
-  I [label = "亠\ntop hat (*)"];
+  K [label = "誉\nreputation (2857)", background = "../../assets/None.png"];
+  E [label = "兴\nexcitement (1433)", background = "../../assets/Elementary.png"];
+  B [label = "应minus广\nowl (primitive)", background = "../../assets/None.png"];
+  C [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  D [label = "只minus口\nanimal legs (primitive)", background = "../../assets/None.png"];
+  J [label = "言\nsay (346)", background = "../../assets/Medium.png"];
+  G [label = "二\ntwo (2)", background = "../../assets/Elementary.png"];
+  F [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  H [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  I [label = "亠\ntop hat (primitive)", background = "../../assets/None.png"];
 
-  E -> K [thick];
-  B -> E [thick];
-  C -> E [thick];
-  D -> E [thick];
-  J -> K [thick];
-  G -> J [thick];
-  F -> G [thick];
-  H -> J [thick];
-  I -> J [thick];
+  E -- K [thick];
+  B -- E [thick];
+  C -- E [thick];
+  D -- E [thick];
+  J -- K [thick];
+  G -- J [thick];
+  F -- G [thick];
+  H -- J [thick];
+  I -- J [thick];
 }

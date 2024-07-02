@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  F [label = "叟\ncake mixer (*)"];
-  B [label = "臼\nmortar (*)"];
-  C [label = "又\nagain (633)"];
-  E [label = "丨\nwalking stick (*)"];
-  D [label = "一\none (1)"];
+  F [label = "叟\ncake mixer (primitive)", background = "../../assets/None.png"];
+  B [label = "臼\nmortar (primitive)", background = "../../assets/None.png"];
+  C [label = "又\nagain (633)", background = "../../assets/Elementary.png"];
+  E [label = "丨\nwalking stick (primitive)", background = "../../assets/None.png"];
+  D [label = "一\none (1)", background = "../../assets/Elementary.png"];
 
-  B -> F [thick];
-  C -> F [thick];
-  E -> F [thick];
-  D -> E [thick];
+  B -- F [thick];
+  C -- F [thick];
+  E -- F [thick];
+  D -- E [thick];
 }

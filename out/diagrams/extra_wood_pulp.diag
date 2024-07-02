@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  G [label = "喿\nwood pulp (*)"];
-  E [label = "品\ngoods (24)"];
-  C [label = "晶\nsparkling (23)"];
-  B [label = "日\nday (12)"];
-  D [label = "口\nmouth (11)"];
-  F [label = "木\ntree (202)"];
+  G [label = "喿\nwood pulp (primitive)", background = "../../assets/None.png"];
+  E [label = "品\ngoods (24)", background = "../../assets/Advanced.png"];
+  C [label = "晶\nsparkling (23)", background = "../../assets/None.png"];
+  B [label = "日\nday (12)", background = "../../assets/Elementary.png"];
+  D [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  F [label = "木\ntree (202)", background = "../../assets/Elementary.png"];
 
-  E -> G [thick];
-  C -> E [thick];
-  B -> C [thick];
-  D -> E [thick];
-  F -> G [thick];
+  E -- G [thick];
+  C -- E [thick];
+  B -- C [thick];
+  D -- E [thick];
+  F -- G [thick];
 }

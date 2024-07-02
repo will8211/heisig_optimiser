@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  J [label = "狭\nnarrow (1588)"];
-  D [label = "犬\npooch (239)"];
-  B [label = "大\nlarge (113)"];
-  C [label = "丶\na drop of (*)"];
-  I [label = "夹\npress from both sides (1523)"];
-  F [label = "夫\nhusband (726)"];
-  E [label = "大\nlarge (113)"];
-  H [label = "丷\nhorns (*)"];
-  G [label = "一\none (1)"];
+  J [label = "狭\nnarrow (1588)", background = "../../assets/None.png"];
+  D [label = "犬\npooch (239)", background = "../../assets/None.png"];
+  B [label = "大\nlarge (113)", background = "../../assets/Elementary.png"];
+  C [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  I [label = "夹\npress from both sides (1523)", background = "../../assets/Advanced.png"];
+  F [label = "夫\nhusband (726)", background = "../../assets/Medium.png"];
+  E [label = "大\nlarge (113)", background = "../../assets/Elementary.png"];
+  H [label = "丷\nhorns (primitive)", background = "../../assets/None.png"];
+  G [label = "一\none (1)", background = "../../assets/Elementary.png"];
 
-  D -> J [thick];
-  B -> D [thick];
-  C -> D [thick];
-  I -> J [thick];
-  F -> I [thick];
-  E -> F [thick];
-  H -> I [thick];
-  G -> H [thick];
+  D -- J [thick];
+  B -- D [thick];
+  C -- D [thick];
+  I -- J [thick];
+  F -- I [thick];
+  E -- F [thick];
+  H -- I [thick];
+  G -- H [thick];
 }

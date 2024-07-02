@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  J [label = "骡\nmule (2905)"];
-  C [label = "马\nhorse (1453)"];
-  B [label = "与minus丨一\npointed tail (*)"];
-  I [label = "累\ntired (2418)"];
-  D [label = "田\nrice field (14)"];
-  H [label = "糸\nfloss (*)"];
-  E [label = "幺\ncocoon (*)"];
-  G [label = "小\nsmall (109)"];
-  F [label = "丶\na drop of (*)"];
+  J [label = "骡\nmule (2905)", background = "../../assets/None.png"];
+  C [label = "马\nhorse (1453)", background = "../../assets/Elementary.png"];
+  B [label = "与minus丨一\npointed tail (primitive)", background = "../../assets/None.png"];
+  I [label = "累\ntired (2418)", background = "../../assets/Elementary.png"];
+  D [label = "田\nrice field (14)", background = "../../assets/Medium.png"];
+  H [label = "糸\nfloss (primitive)", background = "../../assets/None.png"];
+  E [label = "幺\ncocoon (primitive)", background = "../../assets/None.png"];
+  G [label = "小\nsmall (109)", background = "../../assets/Elementary.png"];
+  F [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
 
-  C -> J [thick];
-  B -> C [thick];
-  I -> J [thick];
-  D -> I [thick];
-  H -> I [thick];
-  E -> H [thick];
-  G -> H [thick];
-  F -> G [thick];
+  C -- J [thick];
+  B -- C [thick];
+  I -- J [thick];
+  D -- I [thick];
+  H -- I [thick];
+  E -- H [thick];
+  G -- H [thick];
+  F -- G [thick];
 }

@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  E [label = "追\nchase (1040)"];
-  C [label = "𠂤\nmaestro (*)"];
-  B [label = "丶\na drop of (*)"];
-  D [label = "辶\nroad (*)"];
+  E [label = "追\nchase (1040)", background = "../../assets/Advanced.png"];
+  C [label = "𠂤\nmaestro (primitive)", background = "../../assets/None.png"];
+  B [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  D [label = "辶\nroad (primitive)", background = "../../assets/None.png"];
 
-  C -> E [thick];
-  B -> C [thick];
-  D -> E [thick];
+  C -- E [thick];
+  B -- C [thick];
+  D -- E [thick];
 }

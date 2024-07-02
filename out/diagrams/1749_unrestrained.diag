@@ -5,28 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  M [label = "豪\nunrestrained (1749)"];
-  K [label = "高\ntall (325)"];
-  F [label = "向\norientation (188)"];
-  B [label = "丶\na drop of (*)"];
-  D [label = "冂\nhood (*)"];
-  C [label = "几\nhow many? (57)"];
-  E [label = "口\nmouth (11)"];
-  G [label = "口\nmouth (11)"];
-  I [label = "冂\nhood (*)"];
-  H [label = "几\nhow many? (57)"];
-  J [label = "亠\ntop hat (*)"];
-  L [label = "豕\nsow (*)"];
+  M [label = "豪\nunrestrained (1749)", background = "../../assets/None.png"];
+  K [label = "高\ntall (325)", background = "../../assets/Elementary.png"];
+  F [label = "向\norientation (188)", background = "../../assets/Elementary.png"];
+  B [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  D [label = "冂\nhood (primitive)", background = "../../assets/None.png"];
+  C [label = "几\nhow many? (57)", background = "../../assets/Elementary.png"];
+  E [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  G [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  I [label = "冂\nhood (primitive)", background = "../../assets/None.png"];
+  H [label = "几\nhow many? (57)", background = "../../assets/Elementary.png"];
+  J [label = "亠\ntop hat (primitive)", background = "../../assets/None.png"];
+  L [label = "豕\nsow (primitive)", background = "../../assets/None.png"];
 
-  K -> M [thick];
-  F -> K [thick];
-  B -> F [thick];
-  D -> F [thick];
-  C -> D [thick];
-  E -> F [thick];
-  G -> K [thick];
-  I -> K [thick];
-  H -> I [thick];
-  J -> K [thick];
-  L -> M [thick];
+  K -- M [thick];
+  F -- K [thick];
+  B -- F [thick];
+  D -- F [thick];
+  C -- D [thick];
+  E -- F [thick];
+  G -- K [thick];
+  I -- K [thick];
+  H -- I [thick];
+  J -- K [thick];
+  L -- M [thick];
 }

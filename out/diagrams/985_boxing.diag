@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  E [label = "拳\nboxing (985)"];
-  C [label = "眷minus目\nquarter (*)"];
-  B [label = "半\nhalf (980)"];
-  D [label = "手\nhand (584)"];
+  E [label = "拳\nboxing (985)", background = "../../assets/None.png"];
+  C [label = "眷minus目\nquarter (primitive)", background = "../../assets/None.png"];
+  B [label = "半\nhalf (980)", background = "../../assets/Elementary.png"];
+  D [label = "手\nhand (584)", background = "../../assets/Elementary.png"];
 
-  C -> E [thick];
-  B -> C [thick];
-  D -> E [thick];
+  C -- E [thick];
+  B -- C [thick];
+  D -- E [thick];
 }

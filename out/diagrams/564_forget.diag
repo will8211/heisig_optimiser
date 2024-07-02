@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  F [label = "忘\nforget (564)"];
-  D [label = "亡\ndeceased (490)"];
-  B [label = "亠\ntop hat (*)"];
-  C [label = "乙\nsecond (95)"];
-  E [label = "心\nheart (563)"];
+  F [label = "忘\nforget (564)", background = "../../assets/Elementary.png"];
+  D [label = "亡\ndeceased (490)", background = "../../assets/Advanced.png"];
+  B [label = "亠\ntop hat (primitive)", background = "../../assets/None.png"];
+  C [label = "乙\nsecond (95)", background = "../../assets/Medium.png"];
+  E [label = "心\nheart (563)", background = "../../assets/Medium.png"];
 
-  D -> F [thick];
-  B -> D [thick];
-  C -> D [thick];
-  E -> F [thick];
+  D -- F [thick];
+  B -- D [thick];
+  C -- D [thick];
+  E -- F [thick];
 }

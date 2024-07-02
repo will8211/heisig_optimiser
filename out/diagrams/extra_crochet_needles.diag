@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  D [label = "卂\ncrochet needles (*)"];
-  B [label = "乙\nsecond (95)"];
-  C [label = "十\nten (10)"];
+  D [label = "卂\ncrochet needles (primitive)", background = "../../assets/None.png"];
+  B [label = "乙\nsecond (95)", background = "../../assets/Medium.png"];
+  C [label = "十\nten (10)", background = "../../assets/Elementary.png"];
 
-  B -> D [thick];
-  C -> D [thick];
+  B -- D [thick];
+  C -- D [thick];
 }

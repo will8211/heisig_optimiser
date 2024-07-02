@@ -5,28 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  M [label = "汹\nturbulent (2548)"];
-  E [label = "水\nwater (137)"];
-  C [label = "丨\nwalking stick (*)"];
-  B [label = "一\none (1)"];
-  D [label = "丶\na drop of (*)"];
-  L [label = "凶\ncruel (1174)"];
-  F [label = "㐅\nsheaf (*)"];
-  K [label = "坑\npit (323)"];
-  I [label = "亢\nwhirlwind (*)"];
-  G [label = "亠\ntop hat (*)"];
-  H [label = "几\nhow many? (57)"];
-  J [label = "土\nsoil (158)"];
+  M [label = "汹\nturbulent (2548)", background = "../../assets/None.png"];
+  E [label = "水\nwater (137)", background = "../../assets/Elementary.png"];
+  C [label = "丨\nwalking stick (primitive)", background = "../../assets/None.png"];
+  B [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  D [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  L [label = "凶\ncruel (1174)", background = "../../assets/Advanced.png"];
+  F [label = "㐅\nsheaf (primitive)", background = "../../assets/None.png"];
+  K [label = "坑\npit (323)", background = "../../assets/None.png"];
+  I [label = "亢\nwhirlwind (primitive)", background = "../../assets/None.png"];
+  G [label = "亠\ntop hat (primitive)", background = "../../assets/None.png"];
+  H [label = "几\nhow many? (57)", background = "../../assets/Elementary.png"];
+  J [label = "土\nsoil (158)", background = "../../assets/Medium.png"];
 
-  E -> M [thick];
-  C -> E [thick];
-  B -> C [thick];
-  D -> E [thick];
-  L -> M [thick];
-  F -> L [thick];
-  K -> L [thick];
-  I -> K [thick];
-  G -> I [thick];
-  H -> I [thick];
-  J -> K [thick];
+  E -- M [thick];
+  C -- E [thick];
+  B -- C [thick];
+  D -- E [thick];
+  L -- M [thick];
+  F -- L [thick];
+  K -- L [thick];
+  I -- K [thick];
+  G -- I [thick];
+  H -- I [thick];
+  J -- K [thick];
 }

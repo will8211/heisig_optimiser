@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  D [label = "阵\nbattle formation (1066)"];
-  B [label = "阝\npinnacle (*)"];
-  C [label = "车\ncar (300)"];
+  D [label = "阵\nbattle formation (1066)", background = "../../assets/None.png"];
+  B [label = "阝\npinnacle (primitive)", background = "../../assets/None.png"];
+  C [label = "车\ncar (300)", background = "../../assets/Elementary.png"];
 
-  B -> D [thick];
-  C -> D [thick];
+  B -- D [thick];
+  C -- D [thick];
 }

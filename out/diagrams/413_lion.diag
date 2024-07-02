@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  J [label = "狮\nlion (413)"];
-  F [label = "师\nteacher (412)"];
-  D [label = "帅\ncommander (411)"];
-  B [label = "刀\nsword (83)"];
-  C [label = "巾\ntowel (410)"];
-  E [label = "一\none (1)"];
-  I [label = "犬\npooch (239)"];
-  G [label = "大\nlarge (113)"];
-  H [label = "丶\na drop of (*)"];
+  J [label = "狮\nlion (413)", background = "../../assets/None.png"];
+  F [label = "师\nteacher (412)", background = "../../assets/Elementary.png"];
+  D [label = "帅\ncommander (411)", background = "../../assets/Advanced.png"];
+  B [label = "刀\nsword (83)", background = "../../assets/Medium.png"];
+  C [label = "巾\ntowel (410)", background = "../../assets/Advanced.png"];
+  E [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  I [label = "犬\npooch (239)", background = "../../assets/None.png"];
+  G [label = "大\nlarge (113)", background = "../../assets/Elementary.png"];
+  H [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
 
-  F -> J [thick];
-  D -> F [thick];
-  B -> D [thick];
-  C -> D [thick];
-  E -> F [thick];
-  I -> J [thick];
-  G -> I [thick];
-  H -> I [thick];
+  F -- J [thick];
+  D -- F [thick];
+  B -- D [thick];
+  C -- D [thick];
+  E -- F [thick];
+  I -- J [thick];
+  G -- I [thick];
+  H -- I [thick];
 }

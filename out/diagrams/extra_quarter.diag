@@ -5,8 +5,8 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  C [label = "眷minus目\nquarter (*)"];
-  B [label = "半\nhalf (980)"];
+  C [label = "眷minus目\nquarter (primitive)", background = "../../assets/None.png"];
+  B [label = "半\nhalf (980)", background = "../../assets/Elementary.png"];
 
-  B -> C [thick];
+  B -- C [thick];
 }

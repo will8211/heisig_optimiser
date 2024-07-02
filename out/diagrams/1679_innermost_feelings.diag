@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  H [label = "衷\ninnermost feelings (1679)"];
-  C [label = "丨\nwalking stick (*)"];
-  B [label = "一\none (1)"];
-  G [label = "哀\ngrief (403)"];
-  E [label = "衣\nclothing (400)"];
-  D [label = "亠\ntop hat (*)"];
-  F [label = "口\nmouth (11)"];
+  H [label = "衷\ninnermost feelings (1679)", background = "../../assets/None.png"];
+  C [label = "丨\nwalking stick (primitive)", background = "../../assets/None.png"];
+  B [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  G [label = "哀\ngrief (403)", background = "../../assets/None.png"];
+  E [label = "衣\nclothing (400)", background = "../../assets/Elementary.png"];
+  D [label = "亠\ntop hat (primitive)", background = "../../assets/None.png"];
+  F [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
 
-  C -> H [thick];
-  B -> C [thick];
-  G -> H [thick];
-  E -> G [thick];
-  D -> E [thick];
-  F -> G [thick];
+  C -- H [thick];
+  B -- C [thick];
+  G -- H [thick];
+  E -- G [thick];
+  D -- E [thick];
+  F -- G [thick];
 }

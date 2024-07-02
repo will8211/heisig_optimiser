@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  J [label = "藤\nrattan (2250)"];
-  B [label = "艹\nflower (*)"];
-  C [label = "月\nmonth (13)"];
-  E [label = "眷minus目\nquarter (*)"];
-  D [label = "半\nhalf (980)"];
-  I [label = "水\nwater (137)"];
-  G [label = "丨\nwalking stick (*)"];
-  F [label = "一\none (1)"];
-  H [label = "丶\na drop of (*)"];
+  J [label = "藤\nrattan (2250)", background = "../../assets/None.png"];
+  B [label = "艹\nflower (primitive)", background = "../../assets/None.png"];
+  C [label = "月\nmonth (13)", background = "../../assets/Elementary.png"];
+  E [label = "眷minus目\nquarter (primitive)", background = "../../assets/None.png"];
+  D [label = "半\nhalf (980)", background = "../../assets/Elementary.png"];
+  I [label = "水\nwater (137)", background = "../../assets/Elementary.png"];
+  G [label = "丨\nwalking stick (primitive)", background = "../../assets/None.png"];
+  F [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  H [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
 
-  B -> J [thick];
-  C -> J [thick];
-  E -> J [thick];
-  D -> E [thick];
-  I -> J [thick];
-  G -> I [thick];
-  F -> G [thick];
-  H -> I [thick];
+  B -- J [thick];
+  C -- J [thick];
+  E -- J [thick];
+  D -- E [thick];
+  I -- J [thick];
+  G -- I [thick];
+  F -- G [thick];
+  H -- I [thick];
 }

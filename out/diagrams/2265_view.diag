@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  J [label = "览\nview (2265)"];
-  F [label = "临\nbe about to (1010)"];
-  B [label = "坚minus圣\nfencing foil (*)"];
-  C [label = "丶\na drop of (*)"];
-  D [label = "𠂉\nreclining (*)"];
-  E [label = "日\nday (12)"];
-  I [label = "见\nsee (58)"];
-  G [label = "目\neye (15)"];
-  H [label = "儿\nyoungster (56)"];
+  J [label = "览\nview (2265)", background = "../../assets/None.png"];
+  F [label = "临\nbe about to (1010)", background = "../../assets/None.png"];
+  B [label = "坚minus圣\nfencing foil (primitive)", background = "../../assets/None.png"];
+  C [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  D [label = "𠂉\nreclining (primitive)", background = "../../assets/None.png"];
+  E [label = "日\nday (12)", background = "../../assets/Elementary.png"];
+  I [label = "见\nsee (58)", background = "../../assets/Elementary.png"];
+  G [label = "目\neye (15)", background = "../../assets/Medium.png"];
+  H [label = "儿\nyoungster (56)", background = "../../assets/Elementary.png"];
 
-  F -> J [thick];
-  B -> F [thick];
-  C -> F [thick];
-  D -> F [thick];
-  E -> F [thick];
-  I -> J [thick];
-  G -> I [thick];
-  H -> I [thick];
+  F -- J [thick];
+  B -- F [thick];
+  C -- F [thick];
+  D -- F [thick];
+  E -- F [thick];
+  I -- J [thick];
+  G -- I [thick];
+  H -- I [thick];
 }

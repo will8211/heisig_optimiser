@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  J [label = "廉\ninexpensive (2220)"];
-  D [label = "广\nextensive (556)"];
-  B [label = "厂\nfactory (121)"];
-  C [label = "宀\nhouse (*)"];
-  I [label = "兼\ndouble (2215)"];
-  F [label = "丷\nhorns (*)"];
-  E [label = "一\none (1)"];
-  H [label = "肀\nrake (*)"];
-  G [label = "彐\nbroom (*)"];
+  J [label = "廉\ninexpensive (2220)", background = "../../assets/None.png"];
+  D [label = "广\nextensive (556)", background = "../../assets/Medium.png"];
+  B [label = "厂\nfactory (121)", background = "../../assets/Medium.png"];
+  C [label = "宀\nhouse (primitive)", background = "../../assets/None.png"];
+  I [label = "兼\ndouble (2215)", background = "../../assets/None.png"];
+  F [label = "丷\nhorns (primitive)", background = "../../assets/None.png"];
+  E [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  H [label = "肀\nrake (primitive)", background = "../../assets/None.png"];
+  G [label = "彐\nbroom (primitive)", background = "../../assets/None.png"];
 
-  D -> J [thick];
-  B -> D [thick];
-  C -> D [thick];
-  I -> J [thick];
-  F -> I [thick];
-  E -> F [thick];
-  H -> I [thick];
-  G -> H [thick];
+  D -- J [thick];
+  B -- D [thick];
+  C -- D [thick];
+  I -- J [thick];
+  F -- I [thick];
+  E -- F [thick];
+  H -- I [thick];
+  G -- H [thick];
 }

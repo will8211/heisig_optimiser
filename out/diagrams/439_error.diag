@@ -5,26 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  L [label = "误\nerror (439)"];
-  F [label = "言\nsay (346)"];
-  C [label = "二\ntwo (2)"];
-  B [label = "一\none (1)"];
-  D [label = "口\nmouth (11)"];
-  E [label = "亠\ntop hat (*)"];
-  K [label = "吴\nWu (437)"];
-  I [label = "天\nheavens (436)"];
-  G [label = "一\none (1)"];
-  H [label = "大\nlarge (113)"];
-  J [label = "口\nmouth (11)"];
+  L [label = "误\nerror (439)", background = "../../assets/Medium.png"];
+  F [label = "言\nsay (346)", background = "../../assets/Medium.png"];
+  C [label = "二\ntwo (2)", background = "../../assets/Elementary.png"];
+  B [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  D [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  E [label = "亠\ntop hat (primitive)", background = "../../assets/None.png"];
+  K [label = "吴\nWu (437)", background = "../../assets/None.png"];
+  I [label = "天\nheavens (436)", background = "../../assets/Elementary.png"];
+  G [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  H [label = "大\nlarge (113)", background = "../../assets/Elementary.png"];
+  J [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
 
-  F -> L [thick];
-  C -> F [thick];
-  B -> C [thick];
-  D -> F [thick];
-  E -> F [thick];
-  K -> L [thick];
-  I -> K [thick];
-  G -> I [thick];
-  H -> I [thick];
-  J -> K [thick];
+  F -- L [thick];
+  C -- F [thick];
+  B -- C [thick];
+  D -- F [thick];
+  E -- F [thick];
+  K -- L [thick];
+  I -- K [thick];
+  G -- I [thick];
+  H -- I [thick];
+  J -- K [thick];
 }

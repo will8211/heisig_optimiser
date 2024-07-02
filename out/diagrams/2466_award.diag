@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  G [label = "奖\naward (2466)"];
-  E [label = "酱minus酉\nchocolate turtle (*)"];
-  B [label = "兆\nportent (237)"];
-  D [label = "夕\nevening (115)"];
-  C [label = "月\nmonth (13)"];
-  F [label = "大\nlarge (113)"];
+  G [label = "奖\naward (2466)", background = "../../assets/Advanced.png"];
+  E [label = "酱minus酉\nchocolate turtle (primitive)", background = "../../assets/None.png"];
+  B [label = "兆\nportent (237)", background = "../../assets/None.png"];
+  D [label = "夕\nevening (115)", background = "../../assets/Advanced.png"];
+  C [label = "月\nmonth (13)", background = "../../assets/Elementary.png"];
+  F [label = "大\nlarge (113)", background = "../../assets/Elementary.png"];
 
-  E -> G [thick];
-  B -> E [thick];
-  D -> E [thick];
-  C -> D [thick];
-  F -> G [thick];
+  E -- G [thick];
+  B -- E [thick];
+  D -- E [thick];
+  C -- D [thick];
+  F -- G [thick];
 }

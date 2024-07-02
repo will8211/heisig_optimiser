@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  I [label = "榆\nelm (1629)"];
-  B [label = "木\ntree (202)"];
-  H [label = "俞\nslaughterhouse (*)"];
-  D [label = "亼\nmeeting (*)"];
-  C [label = "𠆢\numbrella (*)"];
-  G [label = "刖\nbutcher (*)"];
-  E [label = "月\nmonth (13)"];
-  F [label = "刀\nsword (83)"];
+  I [label = "榆\nelm (1629)", background = "../../assets/None.png"];
+  B [label = "木\ntree (202)", background = "../../assets/Elementary.png"];
+  H [label = "俞\nslaughterhouse (primitive)", background = "../../assets/None.png"];
+  D [label = "亼\nmeeting (primitive)", background = "../../assets/None.png"];
+  C [label = "𠆢\numbrella (primitive)", background = "../../assets/None.png"];
+  G [label = "刖\nbutcher (primitive)", background = "../../assets/None.png"];
+  E [label = "月\nmonth (13)", background = "../../assets/Elementary.png"];
+  F [label = "刀\nsword (83)", background = "../../assets/Medium.png"];
 
-  B -> I [thick];
-  H -> I [thick];
-  D -> H [thick];
-  C -> D [thick];
-  G -> H [thick];
-  E -> G [thick];
-  F -> G [thick];
+  B -- I [thick];
+  H -- I [thick];
+  D -- H [thick];
+  C -- D [thick];
+  G -- H [thick];
+  E -- G [thick];
+  F -- G [thick];
 }

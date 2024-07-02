@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  D [label = "弗\ndollar sign (*)"];
-  B [label = "介minus𠆢\ncrutches (*)"];
-  C [label = "弓\nbow (1013)"];
+  D [label = "弗\ndollar sign (primitive)", background = "../../assets/None.png"];
+  B [label = "介minus𠆢\ncrutches (primitive)", background = "../../assets/None.png"];
+  C [label = "弓\nbow (1013)", background = "../../assets/None.png"];
 
-  B -> D [thick];
-  C -> D [thick];
+  B -- D [thick];
+  C -- D [thick];
 }

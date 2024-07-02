@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  E [label = "勾\ncross out (1923)"];
-  D [label = "勾\ncast (*)"];
-  B [label = "勹\nbound up (*)"];
-  C [label = "厶\nelbow (*)"];
+  E [label = "勾\ncross out (1923)", background = "../../assets/None.png"];
+  D [label = "勾\ncast (primitive)", background = "../../assets/None.png"];
+  B [label = "勹\nbound up (primitive)", background = "../../assets/None.png"];
+  C [label = "厶\nelbow (primitive)", background = "../../assets/None.png"];
 
-  D -> E [thick];
-  B -> D [thick];
-  C -> D [thick];
+  D -- E [thick];
+  B -- D [thick];
+  C -- D [thick];
 }

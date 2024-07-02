@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  D [label = "仑\nlifeguard (*)"];
-  B [label = "匕\nancient spoon (453)"];
-  C [label = "𠆢\numbrella (*)"];
+  D [label = "仑\nlifeguard (primitive)", background = "../../assets/None.png"];
+  B [label = "匕\nancient spoon (453)", background = "../../assets/None.png"];
+  C [label = "𠆢\numbrella (primitive)", background = "../../assets/None.png"];
 
-  B -> D [thick];
-  C -> D [thick];
+  B -- D [thick];
+  C -- D [thick];
 }

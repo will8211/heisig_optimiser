@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  F [label = "迎\ngreet (1300)"];
-  D [label = "卬\nstamp collection (*)"];
-  B [label = "匚\nbox (*)"];
-  C [label = "卩\nstamp (*)"];
-  E [label = "辶\nroad (*)"];
+  F [label = "迎\ngreet (1300)", background = "../../assets/Advanced.png"];
+  D [label = "卬\nstamp collection (primitive)", background = "../../assets/None.png"];
+  B [label = "匚\nbox (primitive)", background = "../../assets/None.png"];
+  C [label = "卩\nstamp (primitive)", background = "../../assets/None.png"];
+  E [label = "辶\nroad (primitive)", background = "../../assets/None.png"];
 
-  D -> F [thick];
-  B -> D [thick];
-  C -> D [thick];
-  E -> F [thick];
+  D -- F [thick];
+  B -- D [thick];
+  C -- D [thick];
+  E -- F [thick];
 }

@@ -5,30 +5,30 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  N [label = "瓷\nporcelain (2118)"];
-  H [label = "次\nnext (478)"];
-  B [label = "欠\nlack (474)"];
-  G [label = "冫\nice (*)"];
-  F [label = "水\nwater (137)"];
-  D [label = "丨\nwalking stick (*)"];
-  C [label = "一\none (1)"];
-  E [label = "丶\na drop of (*)"];
-  M [label = "瓦\ntile (2117)"];
-  I [label = "一\none (1)"];
-  J [label = "以minus丶人\nplow (*)"];
-  K [label = "乙\nsecond (95)"];
-  L [label = "丶\na drop of (*)"];
+  N [label = "瓷\nporcelain (2118)", background = "../../assets/None.png"];
+  H [label = "次\nnext (478)", background = "../../assets/Elementary.png"];
+  B [label = "欠\nlack (474)", background = "../../assets/Medium.png"];
+  G [label = "冫\nice (primitive)", background = "../../assets/None.png"];
+  F [label = "水\nwater (137)", background = "../../assets/Elementary.png"];
+  D [label = "丨\nwalking stick (primitive)", background = "../../assets/None.png"];
+  C [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  E [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  M [label = "瓦\ntile (2117)", background = "../../assets/None.png"];
+  I [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  J [label = "以minus丶人\nplow (primitive)", background = "../../assets/None.png"];
+  K [label = "乙\nsecond (95)", background = "../../assets/Medium.png"];
+  L [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
 
-  H -> N [thick];
-  B -> H [thick];
-  G -> H [thick];
-  F -> G [thick];
-  D -> F [thick];
-  C -> D [thick];
-  E -> F [thick];
-  M -> N [thick];
-  I -> M [thick];
-  J -> M [thick];
-  K -> M [thick];
-  L -> M [thick];
+  H -- N [thick];
+  B -- H [thick];
+  G -- H [thick];
+  F -- G [thick];
+  D -- F [thick];
+  C -- D [thick];
+  E -- F [thick];
+  M -- N [thick];
+  I -- M [thick];
+  J -- M [thick];
+  K -- M [thick];
+  L -- M [thick];
 }

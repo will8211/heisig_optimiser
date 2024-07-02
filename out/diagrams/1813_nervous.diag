@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  J [label = "慌\nnervous (1813)"];
-  B [label = "心\nheart (563)"];
-  I [label = "荒\nwasteland (1725)"];
-  G [label = "芒\nmango (1724)"];
-  C [label = "艹\nflower (*)"];
-  F [label = "亡\ndeceased (490)"];
-  D [label = "亠\ntop hat (*)"];
-  E [label = "乙\nsecond (95)"];
-  H [label = "川\nstream (134)"];
+  J [label = "慌\nnervous (1813)", background = "../../assets/None.png"];
+  B [label = "心\nheart (563)", background = "../../assets/Medium.png"];
+  I [label = "荒\nwasteland (1725)", background = "../../assets/None.png"];
+  G [label = "芒\nmango (1724)", background = "../../assets/None.png"];
+  C [label = "艹\nflower (primitive)", background = "../../assets/None.png"];
+  F [label = "亡\ndeceased (490)", background = "../../assets/Advanced.png"];
+  D [label = "亠\ntop hat (primitive)", background = "../../assets/None.png"];
+  E [label = "乙\nsecond (95)", background = "../../assets/Medium.png"];
+  H [label = "川\nstream (134)", background = "../../assets/None.png"];
 
-  B -> J [thick];
-  I -> J [thick];
-  G -> I [thick];
-  C -> G [thick];
-  F -> G [thick];
-  D -> F [thick];
-  E -> F [thick];
-  H -> I [thick];
+  B -- J [thick];
+  I -- J [thick];
+  G -- I [thick];
+  C -- G [thick];
+  F -- G [thick];
+  D -- F [thick];
+  E -- F [thick];
+  H -- I [thick];
 }

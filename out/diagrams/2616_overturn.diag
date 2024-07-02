@@ -5,30 +5,30 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  N [label = "覆\noverturn (2616)"];
-  H [label = "西\nwest (1253)"];
-  D [label = "四\nfour (4)"];
-  B [label = "口\nmouth (11)"];
-  C [label = "儿\nyoungster (56)"];
-  E [label = "一\none (1)"];
-  F [label = "儿\nyoungster (56)"];
-  G [label = "口\nmouth (11)"];
-  I [label = "行\nline of business (754)"];
-  M [label = "复\nduplicate (472)"];
-  J [label = "𠂉\nreclining (*)"];
-  K [label = "日\nday (12)"];
-  L [label = "夂\nwalking legs (*)"];
+  N [label = "覆\noverturn (2616)", background = "../../assets/None.png"];
+  H [label = "西\nwest (1253)", background = "../../assets/Elementary.png"];
+  D [label = "四\nfour (4)", background = "../../assets/Elementary.png"];
+  B [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  C [label = "儿\nyoungster (56)", background = "../../assets/Elementary.png"];
+  E [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  F [label = "儿\nyoungster (56)", background = "../../assets/Elementary.png"];
+  G [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  I [label = "行\nline of business (754)", background = "../../assets/Elementary.png"];
+  M [label = "复\nduplicate (472)", background = "../../assets/Medium.png"];
+  J [label = "𠂉\nreclining (primitive)", background = "../../assets/None.png"];
+  K [label = "日\nday (12)", background = "../../assets/Elementary.png"];
+  L [label = "夂\nwalking legs (primitive)", background = "../../assets/None.png"];
 
-  H -> N [thick];
-  D -> H [thick];
-  B -> D [thick];
-  C -> D [thick];
-  E -> H [thick];
-  F -> H [thick];
-  G -> H [thick];
-  I -> N [thick];
-  M -> N [thick];
-  J -> M [thick];
-  K -> M [thick];
-  L -> M [thick];
+  H -- N [thick];
+  D -- H [thick];
+  B -- D [thick];
+  C -- D [thick];
+  E -- H [thick];
+  F -- H [thick];
+  G -- H [thick];
+  I -- N [thick];
+  M -- N [thick];
+  J -- M [thick];
+  K -- M [thick];
+  L -- M [thick];
 }

@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  I [label = "航\nnavigate (2822)"];
-  E [label = "舟\nboat (1394)"];
-  B [label = "丶\na drop of (*)"];
-  D [label = "冂\nhood (*)"];
-  C [label = "几\nhow many? (57)"];
-  H [label = "亢\nwhirlwind (*)"];
-  F [label = "亠\ntop hat (*)"];
-  G [label = "几\nhow many? (57)"];
+  I [label = "航\nnavigate (2822)", background = "../../assets/Advanced.png"];
+  E [label = "舟\nboat (1394)", background = "../../assets/None.png"];
+  B [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  D [label = "冂\nhood (primitive)", background = "../../assets/None.png"];
+  C [label = "几\nhow many? (57)", background = "../../assets/Elementary.png"];
+  H [label = "亢\nwhirlwind (primitive)", background = "../../assets/None.png"];
+  F [label = "亠\ntop hat (primitive)", background = "../../assets/None.png"];
+  G [label = "几\nhow many? (57)", background = "../../assets/Elementary.png"];
 
-  E -> I [thick];
-  B -> E [thick];
-  D -> E [thick];
-  C -> D [thick];
-  H -> I [thick];
-  F -> H [thick];
-  G -> H [thick];
+  E -- I [thick];
+  B -- E [thick];
+  D -- E [thick];
+  C -- D [thick];
+  H -- I [thick];
+  F -- H [thick];
+  G -- H [thick];
 }

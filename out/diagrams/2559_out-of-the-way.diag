@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  I [label = "僻\nout-of-the-way (2559)"];
-  B [label = "人\nperson (793)"];
-  H [label = "辟\nrepudiate (1185)"];
-  C [label = "尸\ncorpse (882)"];
-  D [label = "口\nmouth (11)"];
-  G [label = "辛\npeppery (1183)"];
-  E [label = "立\nstanding up (444)"];
-  F [label = "十\nten (10)"];
+  I [label = "僻\nout-of-the-way (2559)", background = "../../assets/None.png"];
+  B [label = "人\nperson (793)", background = "../../assets/Elementary.png"];
+  H [label = "辟\nrepudiate (1185)", background = "../../assets/None.png"];
+  C [label = "尸\ncorpse (882)", background = "../../assets/None.png"];
+  D [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  G [label = "辛\npeppery (1183)", background = "../../assets/Advanced.png"];
+  E [label = "立\nstanding up (444)", background = "../../assets/Advanced.png"];
+  F [label = "十\nten (10)", background = "../../assets/Elementary.png"];
 
-  B -> I [thick];
-  H -> I [thick];
-  C -> H [thick];
-  D -> H [thick];
-  G -> H [thick];
-  E -> G [thick];
-  F -> G [thick];
+  B -- I [thick];
+  H -- I [thick];
+  C -- H [thick];
+  D -- H [thick];
+  G -- H [thick];
+  E -- G [thick];
+  F -- G [thick];
 }

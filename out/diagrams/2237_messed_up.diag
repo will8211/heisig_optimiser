@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  H [label = "糟\nmessed up (2237)"];
-  B [label = "米\nrice (778)"];
-  G [label = "曹\ncadet (*)"];
-  C [label = "一\none (1)"];
-  E [label = "曲\nbent (967)"];
-  D [label = "田\nrice field (14)"];
-  F [label = "日\nday (12)"];
+  H [label = "糟\nmessed up (2237)", background = "../../assets/None.png"];
+  B [label = "米\nrice (778)", background = "../../assets/Medium.png"];
+  G [label = "曹\ncadet (primitive)", background = "../../assets/None.png"];
+  C [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  E [label = "曲\nbent (967)", background = "../../assets/Advanced.png"];
+  D [label = "田\nrice field (14)", background = "../../assets/Medium.png"];
+  F [label = "日\nday (12)", background = "../../assets/Elementary.png"];
 
-  B -> H [thick];
-  G -> H [thick];
-  C -> G [thick];
-  E -> G [thick];
-  D -> E [thick];
-  F -> G [thick];
+  B -- H [thick];
+  G -- H [thick];
+  C -- G [thick];
+  E -- G [thick];
+  D -- E [thick];
+  F -- G [thick];
 }

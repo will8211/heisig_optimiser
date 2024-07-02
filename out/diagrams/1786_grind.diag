@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  K [label = "磨\ngrind (1786)"];
-  G [label = "麻\nhemp (561)"];
-  D [label = "广\nextensive (556)"];
-  B [label = "厂\nfactory (121)"];
-  C [label = "宀\nhouse (*)"];
-  F [label = "林\nwoods (203)"];
-  E [label = "木\ntree (202)"];
-  J [label = "石\nstone (125)"];
-  H [label = "口\nmouth (11)"];
-  I [label = "厂\nfactory (121)"];
+  K [label = "磨\ngrind (1786)", background = "../../assets/None.png"];
+  G [label = "麻\nhemp (561)", background = "../../assets/Medium.png"];
+  D [label = "广\nextensive (556)", background = "../../assets/Medium.png"];
+  B [label = "厂\nfactory (121)", background = "../../assets/Medium.png"];
+  C [label = "宀\nhouse (primitive)", background = "../../assets/None.png"];
+  F [label = "林\nwoods (203)", background = "../../assets/Advanced.png"];
+  E [label = "木\ntree (202)", background = "../../assets/Elementary.png"];
+  J [label = "石\nstone (125)", background = "../../assets/Advanced.png"];
+  H [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  I [label = "厂\nfactory (121)", background = "../../assets/Medium.png"];
 
-  G -> K [thick];
-  D -> G [thick];
-  B -> D [thick];
-  C -> D [thick];
-  F -> G [thick];
-  E -> F [thick];
-  J -> K [thick];
-  H -> J [thick];
-  I -> J [thick];
+  G -- K [thick];
+  D -- G [thick];
+  B -- D [thick];
+  C -- D [thick];
+  F -- G [thick];
+  E -- F [thick];
+  J -- K [thick];
+  H -- J [thick];
+  I -- J [thick];
 }

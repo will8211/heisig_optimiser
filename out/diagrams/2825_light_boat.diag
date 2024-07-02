@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  J [label = "艇\nlight boat (2825)"];
-  E [label = "舟\nboat (1394)"];
-  B [label = "丶\na drop of (*)"];
-  D [label = "冂\nhood (*)"];
-  C [label = "几\nhow many? (57)"];
-  I [label = "廷\nroyal court (854)"];
-  G [label = "壬\nporter (*)"];
-  F [label = "士\nsoldier (334)"];
-  H [label = "廴\nstretch (*)"];
+  J [label = "艇\nlight boat (2825)", background = "../../assets/None.png"];
+  E [label = "舟\nboat (1394)", background = "../../assets/None.png"];
+  B [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  D [label = "冂\nhood (primitive)", background = "../../assets/None.png"];
+  C [label = "几\nhow many? (57)", background = "../../assets/Elementary.png"];
+  I [label = "廷\nroyal court (854)", background = "../../assets/None.png"];
+  G [label = "壬\nporter (primitive)", background = "../../assets/None.png"];
+  F [label = "士\nsoldier (334)", background = "../../assets/Advanced.png"];
+  H [label = "廴\nstretch (primitive)", background = "../../assets/None.png"];
 
-  E -> J [thick];
-  B -> E [thick];
-  D -> E [thick];
-  C -> D [thick];
-  I -> J [thick];
-  G -> I [thick];
-  F -> G [thick];
-  H -> I [thick];
+  E -- J [thick];
+  B -- E [thick];
+  D -- E [thick];
+  C -- D [thick];
+  I -- J [thick];
+  G -- I [thick];
+  F -- G [thick];
+  H -- I [thick];
 }

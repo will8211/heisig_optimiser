@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  H [label = "泄\ndischarge (1531)"];
-  E [label = "水\nwater (137)"];
-  C [label = "丨\nwalking stick (*)"];
-  B [label = "一\none (1)"];
-  D [label = "丶\na drop of (*)"];
-  G [label = "世\ngeneration (28)"];
-  F [label = "十\nten (10)"];
+  H [label = "泄\ndischarge (1531)", background = "../../assets/None.png"];
+  E [label = "水\nwater (137)", background = "../../assets/Elementary.png"];
+  C [label = "丨\nwalking stick (primitive)", background = "../../assets/None.png"];
+  B [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  D [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  G [label = "世\ngeneration (28)", background = "../../assets/Advanced.png"];
+  F [label = "十\nten (10)", background = "../../assets/Elementary.png"];
 
-  E -> H [thick];
-  C -> E [thick];
-  B -> C [thick];
-  D -> E [thick];
-  G -> H [thick];
-  F -> G [thick];
+  E -- H [thick];
+  C -- E [thick];
+  B -- C [thick];
+  D -- E [thick];
+  G -- H [thick];
+  F -- G [thick];
 }

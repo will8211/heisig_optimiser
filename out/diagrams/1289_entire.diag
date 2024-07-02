@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  I [label = "整\nentire (1289)"];
-  D [label = "束\nbundle up (1286)"];
-  B [label = "木\ntree (202)"];
-  C [label = "口\nmouth (11)"];
-  E [label = "攵\ntaskmaster (*)"];
-  H [label = "正\ncorrect (387)"];
-  F [label = "一\none (1)"];
-  G [label = "止\nstop (379)"];
+  I [label = "整\nentire (1289)", background = "../../assets/Advanced.png"];
+  D [label = "束\nbundle up (1286)", background = "../../assets/Advanced.png"];
+  B [label = "木\ntree (202)", background = "../../assets/Elementary.png"];
+  C [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  E [label = "攵\ntaskmaster (primitive)", background = "../../assets/None.png"];
+  H [label = "正\ncorrect (387)", background = "../../assets/Elementary.png"];
+  F [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  G [label = "止\nstop (379)", background = "../../assets/Medium.png"];
 
-  D -> I [thick];
-  B -> D [thick];
-  C -> D [thick];
-  E -> I [thick];
-  H -> I [thick];
-  F -> H [thick];
-  G -> H [thick];
+  D -- I [thick];
+  B -- D [thick];
+  C -- D [thick];
+  E -- I [thick];
+  H -- I [thick];
+  F -- H [thick];
+  G -- H [thick];
 }

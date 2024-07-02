@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  K [label = "拔\npull out (2699)"];
-  B [label = "扌\nfingers (*)"];
-  J [label = "犮\nseeing-eye chihuahua (*)"];
-  E [label = "犬\npooch (239)"];
-  C [label = "大\nlarge (113)"];
-  D [label = "丶\na drop of (*)"];
-  I [label = "友\nfriend (635)"];
-  G [label = "𠂇\nby one’s side (*)"];
-  F [label = "十\nten (10)"];
-  H [label = "又\nagain (633)"];
+  K [label = "拔\npull out (2699)", background = "../../assets/None.png"];
+  B [label = "扌\nfingers (primitive)", background = "../../assets/None.png"];
+  J [label = "犮\nseeing-eye chihuahua (primitive)", background = "../../assets/None.png"];
+  E [label = "犬\npooch (239)", background = "../../assets/None.png"];
+  C [label = "大\nlarge (113)", background = "../../assets/Elementary.png"];
+  D [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  I [label = "友\nfriend (635)", background = "../../assets/Elementary.png"];
+  G [label = "𠂇\nby one’s side (primitive)", background = "../../assets/None.png"];
+  F [label = "十\nten (10)", background = "../../assets/Elementary.png"];
+  H [label = "又\nagain (633)", background = "../../assets/Elementary.png"];
 
-  B -> K [thick];
-  J -> K [thick];
-  E -> J [thick];
-  C -> E [thick];
-  D -> E [thick];
-  I -> J [thick];
-  G -> I [thick];
-  F -> G [thick];
-  H -> I [thick];
+  B -- K [thick];
+  J -- K [thick];
+  E -- J [thick];
+  C -- E [thick];
+  D -- E [thick];
+  I -- J [thick];
+  G -- I [thick];
+  F -- G [thick];
+  H -- I [thick];
 }

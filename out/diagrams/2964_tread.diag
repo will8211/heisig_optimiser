@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  I [label = "蹈\ntread (2964)"];
-  D [label = "足\nlower leg (1048)"];
-  B [label = "口\nmouth (11)"];
-  C [label = "止\nstop (379)"];
-  H [label = "舀\nscoop (*)"];
-  F [label = "爪\nclaw (663)"];
-  E [label = "𠂆\ndrag (*)"];
-  G [label = "臼\nmortar (*)"];
+  I [label = "蹈\ntread (2964)", background = "../../assets/None.png"];
+  D [label = "足\nlower leg (1048)", background = "../../assets/Medium.png"];
+  B [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  C [label = "止\nstop (379)", background = "../../assets/Medium.png"];
+  H [label = "舀\nscoop (primitive)", background = "../../assets/None.png"];
+  F [label = "爪\nclaw (663)", background = "../../assets/None.png"];
+  E [label = "𠂆\ndrag (primitive)", background = "../../assets/None.png"];
+  G [label = "臼\nmortar (primitive)", background = "../../assets/None.png"];
 
-  D -> I [thick];
-  B -> D [thick];
-  C -> D [thick];
-  H -> I [thick];
-  F -> H [thick];
-  E -> F [thick];
-  G -> H [thick];
+  D -- I [thick];
+  B -- D [thick];
+  C -- D [thick];
+  H -- I [thick];
+  F -- H [thick];
+  E -- F [thick];
+  G -- H [thick];
 }

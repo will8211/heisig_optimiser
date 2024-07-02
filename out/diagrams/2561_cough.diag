@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  G [label = "咳\ncough (2561)"];
-  B [label = "口\nmouth (11)"];
-  F [label = "亥\nsign of the pig (1194)"];
-  C [label = "亠\ntop hat (*)"];
-  D [label = "厶\nelbow (*)"];
-  E [label = "人\nperson (793)"];
+  G [label = "咳\ncough (2561)", background = "../../assets/None.png"];
+  B [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  F [label = "亥\nsign of the pig (1194)", background = "../../assets/None.png"];
+  C [label = "亠\ntop hat (primitive)", background = "../../assets/None.png"];
+  D [label = "厶\nelbow (primitive)", background = "../../assets/None.png"];
+  E [label = "人\nperson (793)", background = "../../assets/Elementary.png"];
 
-  B -> G [thick];
-  F -> G [thick];
-  C -> F [thick];
-  D -> F [thick];
-  E -> F [thick];
+  B -- G [thick];
+  F -- G [thick];
+  C -- F [thick];
+  D -- F [thick];
+  E -- F [thick];
 }

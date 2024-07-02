@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  H [label = "若\nDisneyland (*)"];
-  G [label = "若\nas if (226)"];
-  B [label = "艹\nflower (*)"];
-  F [label = "右\nright (78)"];
-  C [label = "口\nmouth (11)"];
-  E [label = "𠂇\nby one’s side (*)"];
-  D [label = "十\nten (10)"];
+  H [label = "若\nDisneyland (primitive)", background = "../../assets/None.png"];
+  G [label = "若\nas if (226)", background = "../../assets/None.png"];
+  B [label = "艹\nflower (primitive)", background = "../../assets/None.png"];
+  F [label = "右\nright (78)", background = "../../assets/Medium.png"];
+  C [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  E [label = "𠂇\nby one’s side (primitive)", background = "../../assets/None.png"];
+  D [label = "十\nten (10)", background = "../../assets/Elementary.png"];
 
-  G -> H [thick];
-  B -> G [thick];
-  F -> G [thick];
-  C -> F [thick];
-  E -> F [thick];
-  D -> E [thick];
+  G -- H [thick];
+  B -- G [thick];
+  F -- G [thick];
+  C -- F [thick];
+  E -- F [thick];
+  D -- E [thick];
 }

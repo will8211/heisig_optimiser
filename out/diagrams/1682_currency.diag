@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  D [label = "币\ncurrency (1682)"];
-  B [label = "丶\na drop of (*)"];
-  C [label = "巾\ntowel (410)"];
+  D [label = "币\ncurrency (1682)", background = "../../assets/Advanced.png"];
+  B [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  C [label = "巾\ntowel (410)", background = "../../assets/Advanced.png"];
 
-  B -> D [thick];
-  C -> D [thick];
+  B -- D [thick];
+  C -- D [thick];
 }

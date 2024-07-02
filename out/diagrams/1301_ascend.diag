@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  J [label = "登\nascend (1301)"];
-  H [label = "桌\ntable (224)"];
-  B [label = "木\ntree (202)"];
-  C [label = "日\nday (12)"];
-  G [label = "卜\ndivination (43)"];
-  E [label = "丨\nwalking stick (*)"];
-  D [label = "一\none (1)"];
-  F [label = "丶\na drop of (*)"];
-  I [label = "癶\nteepee (*)"];
+  J [label = "登\nascend (1301)", background = "../../assets/None.png"];
+  H [label = "桌\ntable (224)", background = "../../assets/Medium.png"];
+  B [label = "木\ntree (202)", background = "../../assets/Elementary.png"];
+  C [label = "日\nday (12)", background = "../../assets/Elementary.png"];
+  G [label = "卜\ndivination (43)", background = "../../assets/None.png"];
+  E [label = "丨\nwalking stick (primitive)", background = "../../assets/None.png"];
+  D [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  F [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  I [label = "癶\nteepee (primitive)", background = "../../assets/None.png"];
 
-  H -> J [thick];
-  B -> H [thick];
-  C -> H [thick];
-  G -> H [thick];
-  E -> G [thick];
-  D -> E [thick];
-  F -> G [thick];
-  I -> J [thick];
+  H -- J [thick];
+  B -- H [thick];
+  C -- H [thick];
+  G -- H [thick];
+  E -- G [thick];
+  D -- E [thick];
+  F -- G [thick];
+  I -- J [thick];
 }

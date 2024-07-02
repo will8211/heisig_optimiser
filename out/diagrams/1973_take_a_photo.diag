@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  F [label = "摄\ntake a photo (1973)"];
-  B [label = "扌\nfingers (*)"];
-  C [label = "耳\near (717)"];
-  E [label = "双\npair (636)"];
-  D [label = "又\nagain (633)"];
+  F [label = "摄\ntake a photo (1973)", background = "../../assets/None.png"];
+  B [label = "扌\nfingers (primitive)", background = "../../assets/None.png"];
+  C [label = "耳\near (717)", background = "../../assets/Medium.png"];
+  E [label = "双\npair (636)", background = "../../assets/Advanced.png"];
+  D [label = "又\nagain (633)", background = "../../assets/Elementary.png"];
 
-  B -> F [thick];
-  C -> F [thick];
-  E -> F [thick];
-  D -> E [thick];
+  B -- F [thick];
+  C -- F [thick];
+  E -- F [thick];
+  D -- E [thick];
 }

@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  D [label = "刃\nblade (84)"];
-  B [label = "刀\nsword (83)"];
-  C [label = "丶\na drop of (*)"];
+  D [label = "刃\nblade (84)", background = "../../assets/None.png"];
+  B [label = "刀\nsword (83)", background = "../../assets/Medium.png"];
+  C [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
 
-  B -> D [thick];
-  C -> D [thick];
+  B -- D [thick];
+  C -- D [thick];
 }

@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  K [label = "擅\nact without authority (1866)"];
-  B [label = "扌\nfingers (*)"];
-  J [label = "亶\nMr. Hyde (*)"];
-  C [label = "亠\ntop hat (*)"];
-  F [label = "回\nreturn (554)"];
-  D [label = "囗\npent in (*)"];
-  E [label = "口\nmouth (11)"];
-  I [label = "旦\ndaybreak (30)"];
-  G [label = "日\nday (12)"];
-  H [label = "一\none (1)"];
+  K [label = "擅\nact without authority (1866)", background = "../../assets/None.png"];
+  B [label = "扌\nfingers (primitive)", background = "../../assets/None.png"];
+  J [label = "亶\nMr. Hyde (primitive)", background = "../../assets/None.png"];
+  C [label = "亠\ntop hat (primitive)", background = "../../assets/None.png"];
+  F [label = "回\nreturn (554)", background = "../../assets/Elementary.png"];
+  D [label = "囗\npent in (primitive)", background = "../../assets/None.png"];
+  E [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  I [label = "旦\ndaybreak (30)", background = "../../assets/Medium.png"];
+  G [label = "日\nday (12)", background = "../../assets/Elementary.png"];
+  H [label = "一\none (1)", background = "../../assets/Elementary.png"];
 
-  B -> K [thick];
-  J -> K [thick];
-  C -> J [thick];
-  F -> J [thick];
-  D -> F [thick];
-  E -> F [thick];
-  I -> J [thick];
-  G -> I [thick];
-  H -> I [thick];
+  B -- K [thick];
+  J -- K [thick];
+  C -- J [thick];
+  F -- J [thick];
+  D -- F [thick];
+  E -- F [thick];
+  I -- J [thick];
+  G -- I [thick];
+  H -- I [thick];
 }

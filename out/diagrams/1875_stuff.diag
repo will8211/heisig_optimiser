@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  D [label = "材\nstuff (1875)"];
-  B [label = "木\ntree (202)"];
-  C [label = "才\ngenius (620)"];
+  D [label = "材\nstuff (1875)", background = "../../assets/Advanced.png"];
+  B [label = "木\ntree (202)", background = "../../assets/Elementary.png"];
+  C [label = "才\ngenius (620)", background = "../../assets/Elementary.png"];
 
-  B -> D [thick];
-  C -> D [thick];
+  B -- D [thick];
+  C -- D [thick];
 }

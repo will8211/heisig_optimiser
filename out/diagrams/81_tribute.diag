@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  E [label = "贡\ntribute (81)"];
-  D [label = "贝\nshellfish (52)"];
-  B [label = "目\neye (15)"];
-  C [label = "只minus口\nanimal legs (*)"];
+  E [label = "贡\ntribute (81)", background = "../../assets/Advanced.png"];
+  D [label = "贝\nshellfish (52)", background = "../../assets/Medium.png"];
+  B [label = "目\neye (15)", background = "../../assets/Medium.png"];
+  C [label = "只minus口\nanimal legs (primitive)", background = "../../assets/None.png"];
 
-  D -> E [thick];
-  B -> D [thick];
-  C -> D [thick];
+  D -- E [thick];
+  B -- D [thick];
+  C -- D [thick];
 }

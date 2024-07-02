@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  E [label = "昆\ndescendants (457)"];
-  B [label = "日\nday (12)"];
-  D [label = "比\ncompare (456)"];
-  C [label = "匕\nancient spoon (453)"];
+  E [label = "昆\ndescendants (457)", background = "../../assets/None.png"];
+  B [label = "日\nday (12)", background = "../../assets/Elementary.png"];
+  D [label = "比\ncompare (456)", background = "../../assets/Elementary.png"];
+  C [label = "匕\nancient spoon (453)", background = "../../assets/None.png"];
 
-  B -> E [thick];
-  D -> E [thick];
-  C -> D [thick];
+  B -- E [thick];
+  D -- E [thick];
+  C -- D [thick];
 }

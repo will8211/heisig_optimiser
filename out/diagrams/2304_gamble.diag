@@ -5,26 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  L [label = "赌\ngamble (2304)"];
-  D [label = "贝\nshellfish (52)"];
-  B [label = "目\neye (15)"];
-  C [label = "只minus口\nanimal legs (*)"];
-  K [label = "者\nsomeone (1037)"];
-  I [label = "老\nold man (1029)"];
-  E [label = "土\nsoil (158)"];
-  G [label = "丨\nwalking stick (*)"];
-  F [label = "一\none (1)"];
-  H [label = "匕\nancient spoon (453)"];
-  J [label = "日\nday (12)"];
+  L [label = "赌\ngamble (2304)", background = "../../assets/None.png"];
+  D [label = "贝\nshellfish (52)", background = "../../assets/Medium.png"];
+  B [label = "目\neye (15)", background = "../../assets/Medium.png"];
+  C [label = "只minus口\nanimal legs (primitive)", background = "../../assets/None.png"];
+  K [label = "者\nsomeone (1037)", background = "../../assets/Medium.png"];
+  I [label = "老\nold man (1029)", background = "../../assets/Elementary.png"];
+  E [label = "土\nsoil (158)", background = "../../assets/Medium.png"];
+  G [label = "丨\nwalking stick (primitive)", background = "../../assets/None.png"];
+  F [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  H [label = "匕\nancient spoon (453)", background = "../../assets/None.png"];
+  J [label = "日\nday (12)", background = "../../assets/Elementary.png"];
 
-  D -> L [thick];
-  B -> D [thick];
-  C -> D [thick];
-  K -> L [thick];
-  I -> K [thick];
-  E -> I [thick];
-  G -> I [thick];
-  F -> G [thick];
-  H -> I [thick];
-  J -> K [thick];
+  D -- L [thick];
+  B -- D [thick];
+  C -- D [thick];
+  K -- L [thick];
+  I -- K [thick];
+  E -- I [thick];
+  G -- I [thick];
+  F -- G [thick];
+  H -- I [thick];
+  J -- K [thick];
 }

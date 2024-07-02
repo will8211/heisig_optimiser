@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  G [label = "蝶\nbutterfly (back end) (2976)"];
-  B [label = "虫\ninsect (509)"];
-  F [label = "枼\nfamily tree (*)"];
-  D [label = "世\ngeneration (28)"];
-  C [label = "十\nten (10)"];
-  E [label = "木\ntree (202)"];
+  G [label = "蝶\nbutterfly (back end) (2976)", background = "../../assets/None.png"];
+  B [label = "虫\ninsect (509)", background = "../../assets/Medium.png"];
+  F [label = "枼\nfamily tree (primitive)", background = "../../assets/None.png"];
+  D [label = "世\ngeneration (28)", background = "../../assets/Advanced.png"];
+  C [label = "十\nten (10)", background = "../../assets/Elementary.png"];
+  E [label = "木\ntree (202)", background = "../../assets/Elementary.png"];
 
-  B -> G [thick];
-  F -> G [thick];
-  D -> F [thick];
-  C -> D [thick];
-  E -> F [thick];
+  B -- G [thick];
+  F -- G [thick];
+  D -- F [thick];
+  C -- D [thick];
+  E -- F [thick];
 }

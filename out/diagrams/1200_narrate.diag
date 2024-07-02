@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  F [label = "述\nnarrate (1200)"];
-  D [label = "术\nart (1199)"];
-  B [label = "丶\na drop of (*)"];
-  C [label = "木\ntree (202)"];
-  E [label = "辶\nroad (*)"];
+  F [label = "述\nnarrate (1200)", background = "../../assets/None.png"];
+  D [label = "术\nart (1199)", background = "../../assets/Advanced.png"];
+  B [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  C [label = "木\ntree (202)", background = "../../assets/Elementary.png"];
+  E [label = "辶\nroad (primitive)", background = "../../assets/None.png"];
 
-  D -> F [thick];
-  B -> D [thick];
-  C -> D [thick];
-  E -> F [thick];
+  D -- F [thick];
+  B -- D [thick];
+  C -- D [thick];
+  E -- F [thick];
 }

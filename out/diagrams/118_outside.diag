@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  H [label = "外\noutside (118)"];
-  C [label = "夕\nevening (115)"];
-  B [label = "月\nmonth (13)"];
-  G [label = "卜\ndivination (43)"];
-  E [label = "丨\nwalking stick (*)"];
-  D [label = "一\none (1)"];
-  F [label = "丶\na drop of (*)"];
+  H [label = "外\noutside (118)", background = "../../assets/Elementary.png"];
+  C [label = "夕\nevening (115)", background = "../../assets/Advanced.png"];
+  B [label = "月\nmonth (13)", background = "../../assets/Elementary.png"];
+  G [label = "卜\ndivination (43)", background = "../../assets/None.png"];
+  E [label = "丨\nwalking stick (primitive)", background = "../../assets/None.png"];
+  D [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  F [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
 
-  C -> H [thick];
-  B -> C [thick];
-  G -> H [thick];
-  E -> G [thick];
-  D -> E [thick];
-  F -> G [thick];
+  C -- H [thick];
+  B -- C [thick];
+  G -- H [thick];
+  E -- G [thick];
+  D -- E [thick];
+  F -- G [thick];
 }

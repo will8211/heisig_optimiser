@@ -5,30 +5,30 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  N [label = "腐\nrotten (845)"];
-  J [label = "府\ngovernment office (826)"];
-  D [label = "广\nextensive (556)"];
-  B [label = "厂\nfactory (121)"];
-  C [label = "宀\nhouse (*)"];
-  I [label = "付\npay (825)"];
-  E [label = "人\nperson (793)"];
-  H [label = "寸\nChinese inch (166)"];
-  F [label = "丶\na drop of (*)"];
-  G [label = "十\nten (10)"];
-  M [label = "肉\nmeat (844)"];
-  K [label = "月\nmonth (13)"];
-  L [label = "人\nperson (793)"];
+  N [label = "腐\nrotten (845)", background = "../../assets/Advanced.png"];
+  J [label = "府\ngovernment office (826)", background = "../../assets/Advanced.png"];
+  D [label = "广\nextensive (556)", background = "../../assets/Medium.png"];
+  B [label = "厂\nfactory (121)", background = "../../assets/Medium.png"];
+  C [label = "宀\nhouse (primitive)", background = "../../assets/None.png"];
+  I [label = "付\npay (825)", background = "../../assets/Advanced.png"];
+  E [label = "人\nperson (793)", background = "../../assets/Elementary.png"];
+  H [label = "寸\nChinese inch (166)", background = "../../assets/Advanced.png"];
+  F [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  G [label = "十\nten (10)", background = "../../assets/Elementary.png"];
+  M [label = "肉\nmeat (844)", background = "../../assets/Elementary.png"];
+  K [label = "月\nmonth (13)", background = "../../assets/Elementary.png"];
+  L [label = "人\nperson (793)", background = "../../assets/Elementary.png"];
 
-  J -> N [thick];
-  D -> J [thick];
-  B -> D [thick];
-  C -> D [thick];
-  I -> J [thick];
-  E -> I [thick];
-  H -> I [thick];
-  F -> H [thick];
-  G -> H [thick];
-  M -> N [thick];
-  K -> M [thick];
-  L -> M [thick];
+  J -- N [thick];
+  D -- J [thick];
+  B -- D [thick];
+  C -- D [thick];
+  I -- J [thick];
+  E -- I [thick];
+  H -- I [thick];
+  F -- H [thick];
+  G -- H [thick];
+  M -- N [thick];
+  K -- M [thick];
+  L -- M [thick];
 }

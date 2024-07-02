@@ -5,28 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  M [label = "让\nyield (349)"];
-  G [label = "上\nabove (45)"];
-  E [label = "卜\ndivination (43)"];
-  C [label = "丨\nwalking stick (*)"];
-  B [label = "一\none (1)"];
-  D [label = "丶\na drop of (*)"];
-  F [label = "一\none (1)"];
-  L [label = "言\nsay (346)"];
-  I [label = "二\ntwo (2)"];
-  H [label = "一\none (1)"];
-  J [label = "口\nmouth (11)"];
-  K [label = "亠\ntop hat (*)"];
+  M [label = "让\nyield (349)", background = "../../assets/Elementary.png"];
+  G [label = "上\nabove (45)", background = "../../assets/Elementary.png"];
+  E [label = "卜\ndivination (43)", background = "../../assets/None.png"];
+  C [label = "丨\nwalking stick (primitive)", background = "../../assets/None.png"];
+  B [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  D [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  F [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  L [label = "言\nsay (346)", background = "../../assets/Medium.png"];
+  I [label = "二\ntwo (2)", background = "../../assets/Elementary.png"];
+  H [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  J [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  K [label = "亠\ntop hat (primitive)", background = "../../assets/None.png"];
 
-  G -> M [thick];
-  E -> G [thick];
-  C -> E [thick];
-  B -> C [thick];
-  D -> E [thick];
-  F -> G [thick];
-  L -> M [thick];
-  I -> L [thick];
-  H -> I [thick];
-  J -> L [thick];
-  K -> L [thick];
+  G -- M [thick];
+  E -- G [thick];
+  C -- E [thick];
+  B -- C [thick];
+  D -- E [thick];
+  F -- G [thick];
+  L -- M [thick];
+  I -- L [thick];
+  H -- I [thick];
+  J -- L [thick];
+  K -- L [thick];
 }

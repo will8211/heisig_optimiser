@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  K [label = "猿\nape (1680)"];
-  G [label = "袁\nYuan (404)"];
-  D [label = "周minus冂\nlidded crock (*)"];
-  B [label = "土\nsoil (158)"];
-  C [label = "口\nmouth (11)"];
-  F [label = "衣\nclothing (400)"];
-  E [label = "亠\ntop hat (*)"];
-  J [label = "犬\npooch (239)"];
-  H [label = "大\nlarge (113)"];
-  I [label = "丶\na drop of (*)"];
+  K [label = "猿\nape (1680)", background = "../../assets/None.png"];
+  G [label = "袁\nYuan (404)", background = "../../assets/None.png"];
+  D [label = "周minus冂\nlidded crock (primitive)", background = "../../assets/None.png"];
+  B [label = "土\nsoil (158)", background = "../../assets/Medium.png"];
+  C [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  F [label = "衣\nclothing (400)", background = "../../assets/Elementary.png"];
+  E [label = "亠\ntop hat (primitive)", background = "../../assets/None.png"];
+  J [label = "犬\npooch (239)", background = "../../assets/None.png"];
+  H [label = "大\nlarge (113)", background = "../../assets/Elementary.png"];
+  I [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
 
-  G -> K [thick];
-  D -> G [thick];
-  B -> D [thick];
-  C -> D [thick];
-  F -> G [thick];
-  E -> F [thick];
-  J -> K [thick];
-  H -> J [thick];
-  I -> J [thick];
+  G -- K [thick];
+  D -- G [thick];
+  B -- D [thick];
+  C -- D [thick];
+  F -- G [thick];
+  E -- F [thick];
+  J -- K [thick];
+  H -- J [thick];
+  I -- J [thick];
 }

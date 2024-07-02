@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  J [label = "矮\nshort of stature (2257)"];
-  F [label = "矢\ndart (998)"];
-  D [label = "天\nheavens (436)"];
-  B [label = "一\none (1)"];
-  C [label = "大\nlarge (113)"];
-  E [label = "丶\na drop of (*)"];
-  I [label = "委\ncommittee (774)"];
-  G [label = "禾\nstanding grain (762)"];
-  H [label = "女\nwoman (102)"];
+  J [label = "矮\nshort of stature (2257)", background = "../../assets/Advanced.png"];
+  F [label = "矢\ndart (998)", background = "../../assets/None.png"];
+  D [label = "天\nheavens (436)", background = "../../assets/Elementary.png"];
+  B [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  C [label = "大\nlarge (113)", background = "../../assets/Elementary.png"];
+  E [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  I [label = "委\ncommittee (774)", background = "../../assets/None.png"];
+  G [label = "禾\nstanding grain (762)", background = "../../assets/None.png"];
+  H [label = "女\nwoman (102)", background = "../../assets/Elementary.png"];
 
-  F -> J [thick];
-  D -> F [thick];
-  B -> D [thick];
-  C -> D [thick];
-  E -> F [thick];
-  I -> J [thick];
-  G -> I [thick];
-  H -> I [thick];
+  F -- J [thick];
+  D -- F [thick];
+  B -- D [thick];
+  C -- D [thick];
+  E -- F [thick];
+  I -- J [thick];
+  G -- I [thick];
+  H -- I [thick];
 }

@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  H [label = "路\npath (1051)"];
-  D [label = "足\nlower leg (1048)"];
-  B [label = "口\nmouth (11)"];
-  C [label = "止\nstop (379)"];
-  G [label = "各\neach (309)"];
-  E [label = "口\nmouth (11)"];
-  F [label = "夂\nwalking legs (*)"];
+  H [label = "路\npath (1051)", background = "../../assets/Elementary.png"];
+  D [label = "足\nlower leg (1048)", background = "../../assets/Medium.png"];
+  B [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  C [label = "止\nstop (379)", background = "../../assets/Medium.png"];
+  G [label = "各\neach (309)", background = "../../assets/Medium.png"];
+  E [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  F [label = "夂\nwalking legs (primitive)", background = "../../assets/None.png"];
 
-  D -> H [thick];
-  B -> D [thick];
-  C -> D [thick];
-  G -> H [thick];
-  E -> G [thick];
-  F -> G [thick];
+  D -- H [thick];
+  B -- D [thick];
+  C -- D [thick];
+  G -- H [thick];
+  E -- G [thick];
+  F -- G [thick];
 }

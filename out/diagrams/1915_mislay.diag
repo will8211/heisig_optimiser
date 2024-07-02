@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  H [label = "丢\nmislay (1915)"];
-  D [label = "千\nthousand (39)"];
-  B [label = "丶\na drop of (*)"];
-  C [label = "十\nten (10)"];
-  G [label = "会minus亼\nwall (*)"];
-  E [label = "厶\nelbow (*)"];
-  F [label = "一\none (1)"];
+  H [label = "丢\nmislay (1915)", background = "../../assets/Medium.png"];
+  D [label = "千\nthousand (39)", background = "../../assets/Medium.png"];
+  B [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  C [label = "十\nten (10)", background = "../../assets/Elementary.png"];
+  G [label = "会minus亼\nwall (primitive)", background = "../../assets/None.png"];
+  E [label = "厶\nelbow (primitive)", background = "../../assets/None.png"];
+  F [label = "一\none (1)", background = "../../assets/Elementary.png"];
 
-  D -> H [thick];
-  B -> D [thick];
-  C -> D [thick];
-  G -> H [thick];
-  E -> G [thick];
-  F -> G [thick];
+  D -- H [thick];
+  B -- D [thick];
+  C -- D [thick];
+  G -- H [thick];
+  E -- G [thick];
+  F -- G [thick];
 }

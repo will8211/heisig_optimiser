@@ -5,28 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  M [label = "鞭\nwhip (2840)"];
-  F [label = "革\nleather (1407)"];
-  C [label = "廿\ntwenty (976)"];
-  B [label = "十\nten (10)"];
-  D [label = "口\nmouth (11)"];
-  E [label = "十\nten (10)"];
-  L [label = "便\nconvenient (836)"];
-  G [label = "人\nperson (793)"];
-  K [label = "更\neven more (631)"];
-  H [label = "一\none (1)"];
-  I [label = "日\nday (12)"];
-  J [label = "史minus口\ntucked under the arm (*)"];
+  M [label = "鞭\nwhip (2840)", background = "../../assets/None.png"];
+  F [label = "革\nleather (1407)", background = "../../assets/None.png"];
+  C [label = "廿\ntwenty (976)", background = "../../assets/None.png"];
+  B [label = "十\nten (10)", background = "../../assets/Elementary.png"];
+  D [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  E [label = "十\nten (10)", background = "../../assets/Elementary.png"];
+  L [label = "便\nconvenient (836)", background = "../../assets/Medium.png"];
+  G [label = "人\nperson (793)", background = "../../assets/Elementary.png"];
+  K [label = "更\neven more (631)", background = "../../assets/Elementary.png"];
+  H [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  I [label = "日\nday (12)", background = "../../assets/Elementary.png"];
+  J [label = "史minus口\ntucked under the arm (primitive)", background = "../../assets/None.png"];
 
-  F -> M [thick];
-  C -> F [thick];
-  B -> C [thick];
-  D -> F [thick];
-  E -> F [thick];
-  L -> M [thick];
-  G -> L [thick];
-  K -> L [thick];
-  H -> K [thick];
-  I -> K [thick];
-  J -> K [thick];
+  F -- M [thick];
+  C -- F [thick];
+  B -- C [thick];
+  D -- F [thick];
+  E -- F [thick];
+  L -- M [thick];
+  G -- L [thick];
+  K -- L [thick];
+  H -- K [thick];
+  I -- K [thick];
+  J -- K [thick];
 }

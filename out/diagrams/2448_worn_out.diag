@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  G [label = "倦\nworn out (2448)"];
-  B [label = "人\nperson (793)"];
-  F [label = "卷\nexam paper (2447)"];
-  D [label = "眷minus目\nquarter (*)"];
-  C [label = "半\nhalf (980)"];
-  E [label = "㔾\nfingerprint (*)"];
+  G [label = "倦\nworn out (2448)", background = "../../assets/None.png"];
+  B [label = "人\nperson (793)", background = "../../assets/Elementary.png"];
+  F [label = "卷\nexam paper (2447)", background = "../../assets/None.png"];
+  D [label = "眷minus目\nquarter (primitive)", background = "../../assets/None.png"];
+  C [label = "半\nhalf (980)", background = "../../assets/Elementary.png"];
+  E [label = "㔾\nfingerprint (primitive)", background = "../../assets/None.png"];
 
-  B -> G [thick];
-  F -> G [thick];
-  D -> F [thick];
-  C -> D [thick];
-  E -> F [thick];
+  B -- G [thick];
+  F -- G [thick];
+  D -- F [thick];
+  C -- D [thick];
+  E -- F [thick];
 }

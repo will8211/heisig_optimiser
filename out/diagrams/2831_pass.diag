@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  J [label = "隘\npass (2831)"];
-  B [label = "阝\npinnacle (*)"];
-  I [label = "益\nbenefit (1401)"];
-  C [label = "皿\ndish (*)"];
-  D [label = "率minus玄minus十\nsparkler (*)"];
-  E [label = "一\none (1)"];
-  G [label = "丷\nhorns (*)"];
-  F [label = "一\none (1)"];
-  H [label = "只minus口\nanimal legs (*)"];
+  J [label = "隘\npass (2831)", background = "../../assets/None.png"];
+  B [label = "阝\npinnacle (primitive)", background = "../../assets/None.png"];
+  I [label = "益\nbenefit (1401)", background = "../../assets/Advanced.png"];
+  C [label = "皿\ndish (primitive)", background = "../../assets/None.png"];
+  D [label = "率minus玄minus十\nsparkler (primitive)", background = "../../assets/None.png"];
+  E [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  G [label = "丷\nhorns (primitive)", background = "../../assets/None.png"];
+  F [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  H [label = "只minus口\nanimal legs (primitive)", background = "../../assets/None.png"];
 
-  B -> J [thick];
-  I -> J [thick];
-  C -> I [thick];
-  D -> I [thick];
-  E -> I [thick];
-  G -> I [thick];
-  F -> G [thick];
-  H -> I [thick];
+  B -- J [thick];
+  I -- J [thick];
+  C -- I [thick];
+  D -- I [thick];
+  E -- I [thick];
+  G -- I [thick];
+  F -- G [thick];
+  H -- I [thick];
 }

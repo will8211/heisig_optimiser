@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  K [label = "超\ntranscend (392)"];
-  D [label = "召\nsummon (86)"];
-  B [label = "刀\nsword (83)"];
-  C [label = "口\nmouth (11)"];
-  J [label = "走\nwalk (391)"];
-  H [label = "走minus十\nmending (*)"];
-  G [label = "正\ncorrect (387)"];
-  E [label = "一\none (1)"];
-  F [label = "止\nstop (379)"];
-  I [label = "土\nsoil (158)"];
+  K [label = "超\ntranscend (392)", background = "../../assets/Medium.png"];
+  D [label = "召\nsummon (86)", background = "../../assets/Advanced.png"];
+  B [label = "刀\nsword (83)", background = "../../assets/Medium.png"];
+  C [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  J [label = "走\nwalk (391)", background = "../../assets/Elementary.png"];
+  H [label = "走minus十\nmending (primitive)", background = "../../assets/None.png"];
+  G [label = "正\ncorrect (387)", background = "../../assets/Elementary.png"];
+  E [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  F [label = "止\nstop (379)", background = "../../assets/Medium.png"];
+  I [label = "土\nsoil (158)", background = "../../assets/Medium.png"];
 
-  D -> K [thick];
-  B -> D [thick];
-  C -> D [thick];
-  J -> K [thick];
-  H -> J [thick];
-  G -> H [thick];
-  E -> G [thick];
-  F -> G [thick];
-  I -> J [thick];
+  D -- K [thick];
+  B -- D [thick];
+  C -- D [thick];
+  J -- K [thick];
+  H -- J [thick];
+  G -- H [thick];
+  E -- G [thick];
+  F -- G [thick];
+  I -- J [thick];
 }

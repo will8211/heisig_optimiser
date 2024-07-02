@@ -5,26 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  L [label = "饿\nhungry (2526)"];
-  F [label = "食\nfood (1154)"];
-  D [label = "良\nhigh-quality (1151)"];
-  B [label = "丶\na drop of (*)"];
-  C [label = "艮\nsilver (*)"];
-  E [label = "𠆢\numbrella (*)"];
-  K [label = "我\nmiser (*)"];
-  J [label = "我\nI (588)"];
-  G [label = "手\nhand (584)"];
-  I [label = "戈\nhalberd (361)"];
-  H [label = "弋\narrow (*)"];
+  L [label = "饿\nhungry (2526)", background = "../../assets/Elementary.png"];
+  F [label = "食\nfood (1154)", background = "../../assets/Medium.png"];
+  D [label = "良\nhigh-quality (1151)", background = "../../assets/Advanced.png"];
+  B [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  C [label = "艮\nsilver (primitive)", background = "../../assets/None.png"];
+  E [label = "𠆢\numbrella (primitive)", background = "../../assets/None.png"];
+  K [label = "我\nmiser (primitive)", background = "../../assets/None.png"];
+  J [label = "我\nI (588)", background = "../../assets/Elementary.png"];
+  G [label = "手\nhand (584)", background = "../../assets/Elementary.png"];
+  I [label = "戈\nhalberd (361)", background = "../../assets/None.png"];
+  H [label = "弋\narrow (primitive)", background = "../../assets/None.png"];
 
-  F -> L [thick];
-  D -> F [thick];
-  B -> D [thick];
-  C -> D [thick];
-  E -> F [thick];
-  K -> L [thick];
-  J -> K [thick];
-  G -> J [thick];
-  I -> J [thick];
-  H -> I [thick];
+  F -- L [thick];
+  D -- F [thick];
+  B -- D [thick];
+  C -- D [thick];
+  E -- F [thick];
+  K -- L [thick];
+  J -- K [thick];
+  G -- J [thick];
+  I -- J [thick];
+  H -- I [thick];
 }

@@ -5,28 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  M [label = "蘑\nmushroom (cap) (2995)"];
-  B [label = "艹\nflower (*)"];
-  L [label = "磨\ngrind (1786)"];
-  H [label = "麻\nhemp (561)"];
-  E [label = "广\nextensive (556)"];
-  C [label = "厂\nfactory (121)"];
-  D [label = "宀\nhouse (*)"];
-  G [label = "林\nwoods (203)"];
-  F [label = "木\ntree (202)"];
-  K [label = "石\nstone (125)"];
-  I [label = "口\nmouth (11)"];
-  J [label = "厂\nfactory (121)"];
+  M [label = "蘑\nmushroom (cap) (2995)", background = "../../assets/None.png"];
+  B [label = "艹\nflower (primitive)", background = "../../assets/None.png"];
+  L [label = "磨\ngrind (1786)", background = "../../assets/None.png"];
+  H [label = "麻\nhemp (561)", background = "../../assets/Medium.png"];
+  E [label = "广\nextensive (556)", background = "../../assets/Medium.png"];
+  C [label = "厂\nfactory (121)", background = "../../assets/Medium.png"];
+  D [label = "宀\nhouse (primitive)", background = "../../assets/None.png"];
+  G [label = "林\nwoods (203)", background = "../../assets/Advanced.png"];
+  F [label = "木\ntree (202)", background = "../../assets/Elementary.png"];
+  K [label = "石\nstone (125)", background = "../../assets/Advanced.png"];
+  I [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  J [label = "厂\nfactory (121)", background = "../../assets/Medium.png"];
 
-  B -> M [thick];
-  L -> M [thick];
-  H -> L [thick];
-  E -> H [thick];
-  C -> E [thick];
-  D -> E [thick];
-  G -> H [thick];
-  F -> G [thick];
-  K -> L [thick];
-  I -> K [thick];
-  J -> K [thick];
+  B -- M [thick];
+  L -- M [thick];
+  H -- L [thick];
+  E -- H [thick];
+  C -- E [thick];
+  D -- E [thick];
+  G -- H [thick];
+  F -- G [thick];
+  K -- L [thick];
+  I -- K [thick];
+  J -- K [thick];
 }

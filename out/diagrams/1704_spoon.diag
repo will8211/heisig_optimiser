@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  I [label = "匙\nspoon (1704)"];
-  G [label = "是\nbe (394)"];
-  E [label = "走minus十\nmending (*)"];
-  D [label = "正\ncorrect (387)"];
-  B [label = "一\none (1)"];
-  C [label = "止\nstop (379)"];
-  F [label = "日\nday (12)"];
-  H [label = "匕\nancient spoon (453)"];
+  I [label = "匙\nspoon (1704)", background = "../../assets/None.png"];
+  G [label = "是\nbe (394)", background = "../../assets/Elementary.png"];
+  E [label = "走minus十\nmending (primitive)", background = "../../assets/None.png"];
+  D [label = "正\ncorrect (387)", background = "../../assets/Elementary.png"];
+  B [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  C [label = "止\nstop (379)", background = "../../assets/Medium.png"];
+  F [label = "日\nday (12)", background = "../../assets/Elementary.png"];
+  H [label = "匕\nancient spoon (453)", background = "../../assets/None.png"];
 
-  G -> I [thick];
-  E -> G [thick];
-  D -> E [thick];
-  B -> D [thick];
-  C -> D [thick];
-  F -> G [thick];
-  H -> I [thick];
+  G -- I [thick];
+  E -- G [thick];
+  D -- E [thick];
+  B -- D [thick];
+  C -- D [thick];
+  F -- G [thick];
+  H -- I [thick];
 }

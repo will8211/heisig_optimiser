@@ -5,28 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  M [label = "莺\noriole (2866)"];
-  D [label = "荣minus木\ngreenhouse (*)"];
-  B [label = "宀\nhouse (*)"];
-  C [label = "艹\nflower (*)"];
-  L [label = "鸟\nbird (1438)"];
-  I [label = "向\norientation (188)"];
-  E [label = "丶\na drop of (*)"];
-  G [label = "冂\nhood (*)"];
-  F [label = "几\nhow many? (57)"];
-  H [label = "口\nmouth (11)"];
-  J [label = "丶\na drop of (*)"];
-  K [label = "与minus丨一\npointed tail (*)"];
+  M [label = "莺\noriole (2866)", background = "../../assets/None.png"];
+  D [label = "荣minus木\ngreenhouse (primitive)", background = "../../assets/None.png"];
+  B [label = "宀\nhouse (primitive)", background = "../../assets/None.png"];
+  C [label = "艹\nflower (primitive)", background = "../../assets/None.png"];
+  L [label = "鸟\nbird (1438)", background = "../../assets/Medium.png"];
+  I [label = "向\norientation (188)", background = "../../assets/Elementary.png"];
+  E [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  G [label = "冂\nhood (primitive)", background = "../../assets/None.png"];
+  F [label = "几\nhow many? (57)", background = "../../assets/Elementary.png"];
+  H [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  J [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  K [label = "与minus丨一\npointed tail (primitive)", background = "../../assets/None.png"];
 
-  D -> M [thick];
-  B -> D [thick];
-  C -> D [thick];
-  L -> M [thick];
-  I -> L [thick];
-  E -> I [thick];
-  G -> I [thick];
-  F -> G [thick];
-  H -> I [thick];
-  J -> L [thick];
-  K -> L [thick];
+  D -- M [thick];
+  B -- D [thick];
+  C -- D [thick];
+  L -- M [thick];
+  I -- L [thick];
+  E -- I [thick];
+  G -- I [thick];
+  F -- G [thick];
+  H -- I [thick];
+  J -- L [thick];
+  K -- L [thick];
 }

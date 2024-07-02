@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  J [label = "逮\narrest (2227)"];
-  B [label = "辶\nroad (*)"];
-  I [label = "隶\nbondservant (2226)"];
-  F [label = "水\nwater (137)"];
-  D [label = "丨\nwalking stick (*)"];
-  C [label = "一\none (1)"];
-  E [label = "丶\na drop of (*)"];
-  H [label = "肀\nrake (*)"];
-  G [label = "彐\nbroom (*)"];
+  J [label = "逮\narrest (2227)", background = "../../assets/None.png"];
+  B [label = "辶\nroad (primitive)", background = "../../assets/None.png"];
+  I [label = "隶\nbondservant (2226)", background = "../../assets/None.png"];
+  F [label = "水\nwater (137)", background = "../../assets/Elementary.png"];
+  D [label = "丨\nwalking stick (primitive)", background = "../../assets/None.png"];
+  C [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  E [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  H [label = "肀\nrake (primitive)", background = "../../assets/None.png"];
+  G [label = "彐\nbroom (primitive)", background = "../../assets/None.png"];
 
-  B -> J [thick];
-  I -> J [thick];
-  F -> I [thick];
-  D -> F [thick];
-  C -> D [thick];
-  E -> F [thick];
-  H -> I [thick];
-  G -> H [thick];
+  B -- J [thick];
+  I -- J [thick];
+  F -- I [thick];
+  D -- F [thick];
+  C -- D [thick];
+  E -- F [thick];
+  H -- I [thick];
+  G -- H [thick];
 }

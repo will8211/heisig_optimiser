@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  H [label = "棺\ncoffin (2311)"];
-  B [label = "木\ntree (202)"];
-  G [label = "官\nbureaucrat (1041)"];
-  D [label = "𠂤\nmaestro (*)"];
-  C [label = "丶\na drop of (*)"];
-  E [label = "丶\na drop of (*)"];
-  F [label = "宀\nhouse (*)"];
+  H [label = "棺\ncoffin (2311)", background = "../../assets/None.png"];
+  B [label = "木\ntree (202)", background = "../../assets/Elementary.png"];
+  G [label = "官\nbureaucrat (1041)", background = "../../assets/Advanced.png"];
+  D [label = "𠂤\nmaestro (primitive)", background = "../../assets/None.png"];
+  C [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  E [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  F [label = "宀\nhouse (primitive)", background = "../../assets/None.png"];
 
-  B -> H [thick];
-  G -> H [thick];
-  D -> G [thick];
-  C -> D [thick];
-  E -> G [thick];
-  F -> G [thick];
+  B -- H [thick];
+  G -- H [thick];
+  D -- G [thick];
+  C -- D [thick];
+  E -- G [thick];
+  F -- G [thick];
 }

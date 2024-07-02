@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  I [label = "弄\nplay with (615)"];
-  E [label = "玉\njade (266)"];
-  C [label = "王\nking (265)"];
-  B [label = "工\nwork (76)"];
-  D [label = "丶\na drop of (*)"];
-  H [label = "开\nopen (613)"];
-  G [label = "二\ntwo (2)"];
-  F [label = "一\none (1)"];
+  I [label = "弄\nplay with (615)", background = "../../assets/Medium.png"];
+  E [label = "玉\njade (266)", background = "../../assets/Medium.png"];
+  C [label = "王\nking (265)", background = "../../assets/Medium.png"];
+  B [label = "工\nwork (76)", background = "../../assets/Elementary.png"];
+  D [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  H [label = "开\nopen (613)", background = "../../assets/Elementary.png"];
+  G [label = "二\ntwo (2)", background = "../../assets/Elementary.png"];
+  F [label = "一\none (1)", background = "../../assets/Elementary.png"];
 
-  E -> I [thick];
-  C -> E [thick];
-  B -> C [thick];
-  D -> E [thick];
-  H -> I [thick];
-  G -> H [thick];
-  F -> G [thick];
+  E -- I [thick];
+  C -- E [thick];
+  B -- C [thick];
+  D -- E [thick];
+  H -- I [thick];
+  G -- H [thick];
+  F -- G [thick];
 }

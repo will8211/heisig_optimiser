@@ -5,32 +5,32 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  O [label = "夜\nnight (872)"];
-  B [label = "亠\ntop hat (*)"];
-  C [label = "人\nperson (793)"];
-  D [label = "夂\nwalking legs (*)"];
-  N [label = "掉\ndrop (607)"];
-  E [label = "扌\nfingers (*)"];
-  M [label = "卓\neminent (48)"];
-  I [label = "卜\ndivination (43)"];
-  G [label = "丨\nwalking stick (*)"];
-  F [label = "一\none (1)"];
-  H [label = "丶\na drop of (*)"];
-  L [label = "早\nearly (26)"];
-  J [label = "日\nday (12)"];
-  K [label = "十\nten (10)"];
+  O [label = "夜\nnight (872)", background = "../../assets/Medium.png"];
+  B [label = "亠\ntop hat (primitive)", background = "../../assets/None.png"];
+  C [label = "人\nperson (793)", background = "../../assets/Elementary.png"];
+  D [label = "夂\nwalking legs (primitive)", background = "../../assets/None.png"];
+  N [label = "掉\ndrop (607)", background = "../../assets/Medium.png"];
+  E [label = "扌\nfingers (primitive)", background = "../../assets/None.png"];
+  M [label = "卓\neminent (48)", background = "../../assets/None.png"];
+  I [label = "卜\ndivination (43)", background = "../../assets/None.png"];
+  G [label = "丨\nwalking stick (primitive)", background = "../../assets/None.png"];
+  F [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  H [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  L [label = "早\nearly (26)", background = "../../assets/Elementary.png"];
+  J [label = "日\nday (12)", background = "../../assets/Elementary.png"];
+  K [label = "十\nten (10)", background = "../../assets/Elementary.png"];
 
-  B -> O [thick];
-  C -> O [thick];
-  D -> O [thick];
-  N -> O [thick];
-  E -> N [thick];
-  M -> N [thick];
-  I -> M [thick];
-  G -> I [thick];
-  F -> G [thick];
-  H -> I [thick];
-  L -> M [thick];
-  J -> L [thick];
-  K -> L [thick];
+  B -- O [thick];
+  C -- O [thick];
+  D -- O [thick];
+  N -- O [thick];
+  E -- N [thick];
+  M -- N [thick];
+  I -- M [thick];
+  G -- I [thick];
+  F -- G [thick];
+  H -- I [thick];
+  L -- M [thick];
+  J -- L [thick];
+  K -- L [thick];
 }

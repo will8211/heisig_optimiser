@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  J [label = "箭\narrow (2051)"];
-  C [label = "竹\nbamboo (786)"];
-  B [label = "丁\nfourth (90)"];
-  I [label = "前\nin front (303)"];
-  E [label = "丷\nhorns (*)"];
-  D [label = "一\none (1)"];
-  H [label = "刖\nbutcher (*)"];
-  F [label = "月\nmonth (13)"];
-  G [label = "刀\nsword (83)"];
+  J [label = "箭\narrow (2051)", background = "../../assets/None.png"];
+  C [label = "竹\nbamboo (786)", background = "../../assets/Advanced.png"];
+  B [label = "丁\nfourth (90)", background = "../../assets/None.png"];
+  I [label = "前\nin front (303)", background = "../../assets/Elementary.png"];
+  E [label = "丷\nhorns (primitive)", background = "../../assets/None.png"];
+  D [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  H [label = "刖\nbutcher (primitive)", background = "../../assets/None.png"];
+  F [label = "月\nmonth (13)", background = "../../assets/Elementary.png"];
+  G [label = "刀\nsword (83)", background = "../../assets/Medium.png"];
 
-  C -> J [thick];
-  B -> C [thick];
-  I -> J [thick];
-  E -> I [thick];
-  D -> E [thick];
-  H -> I [thick];
-  F -> H [thick];
-  G -> H [thick];
+  C -- J [thick];
+  B -- C [thick];
+  I -- J [thick];
+  E -- I [thick];
+  D -- E [thick];
+  H -- I [thick];
+  F -- H [thick];
+  G -- H [thick];
 }

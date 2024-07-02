@@ -5,22 +5,22 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  J [label = "握\ngrip (887)"];
-  B [label = "扌\nfingers (*)"];
-  I [label = "屋\nhabitation (886)"];
-  C [label = "尸\ncorpse (882)"];
-  H [label = "至\nuntil (678)"];
-  F [label = "会minus亼\nwall (*)"];
-  D [label = "厶\nelbow (*)"];
-  E [label = "一\none (1)"];
-  G [label = "土\nsoil (158)"];
+  J [label = "握\ngrip (887)", background = "../../assets/Advanced.png"];
+  B [label = "扌\nfingers (primitive)", background = "../../assets/None.png"];
+  I [label = "屋\nhabitation (886)", background = "../../assets/Advanced.png"];
+  C [label = "尸\ncorpse (882)", background = "../../assets/None.png"];
+  H [label = "至\nuntil (678)", background = "../../assets/Advanced.png"];
+  F [label = "会minus亼\nwall (primitive)", background = "../../assets/None.png"];
+  D [label = "厶\nelbow (primitive)", background = "../../assets/None.png"];
+  E [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  G [label = "土\nsoil (158)", background = "../../assets/Medium.png"];
 
-  B -> J [thick];
-  I -> J [thick];
-  C -> I [thick];
-  H -> I [thick];
-  F -> H [thick];
-  D -> F [thick];
-  E -> F [thick];
-  G -> H [thick];
+  B -- J [thick];
+  I -- J [thick];
+  C -- I [thick];
+  H -- I [thick];
+  F -- H [thick];
+  D -- F [thick];
+  E -- F [thick];
+  G -- H [thick];
 }

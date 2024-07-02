@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  F [label = "崖\ncliff (1930)"];
-  B [label = "山\nmountain (688)"];
-  C [label = "厂\nfactory (121)"];
-  E [label = "圭\nbricks (*)"];
-  D [label = "土\nsoil (158)"];
+  F [label = "崖\ncliff (1930)", background = "../../assets/None.png"];
+  B [label = "山\nmountain (688)", background = "../../assets/Elementary.png"];
+  C [label = "厂\nfactory (121)", background = "../../assets/Medium.png"];
+  E [label = "圭\nbricks (primitive)", background = "../../assets/None.png"];
+  D [label = "土\nsoil (158)", background = "../../assets/Medium.png"];
 
-  B -> F [thick];
-  C -> F [thick];
-  E -> F [thick];
-  D -> E [thick];
+  B -- F [thick];
+  C -- F [thick];
+  E -- F [thick];
+  D -- E [thick];
 }

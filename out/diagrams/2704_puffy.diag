@@ -5,28 +5,28 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  M [label = "膨\npuffy (2704)"];
-  B [label = "月\nmonth (13)"];
-  K [label = "壴\ndrum (*)"];
-  C [label = "士\nsoldier (334)"];
-  J [label = "桌\ntable (224)"];
-  D [label = "木\ntree (202)"];
-  E [label = "日\nday (12)"];
-  I [label = "卜\ndivination (43)"];
-  G [label = "丨\nwalking stick (*)"];
-  F [label = "一\none (1)"];
-  H [label = "丶\na drop of (*)"];
-  L [label = "彡\nrooster tail (*)"];
+  M [label = "膨\npuffy (2704)", background = "../../assets/None.png"];
+  B [label = "月\nmonth (13)", background = "../../assets/Elementary.png"];
+  K [label = "壴\ndrum (primitive)", background = "../../assets/None.png"];
+  C [label = "士\nsoldier (334)", background = "../../assets/Advanced.png"];
+  J [label = "桌\ntable (224)", background = "../../assets/Medium.png"];
+  D [label = "木\ntree (202)", background = "../../assets/Elementary.png"];
+  E [label = "日\nday (12)", background = "../../assets/Elementary.png"];
+  I [label = "卜\ndivination (43)", background = "../../assets/None.png"];
+  G [label = "丨\nwalking stick (primitive)", background = "../../assets/None.png"];
+  F [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  H [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  L [label = "彡\nrooster tail (primitive)", background = "../../assets/None.png"];
 
-  B -> M [thick];
-  K -> M [thick];
-  C -> K [thick];
-  J -> K [thick];
-  D -> J [thick];
-  E -> J [thick];
-  I -> J [thick];
-  G -> I [thick];
-  F -> G [thick];
-  H -> I [thick];
-  L -> M [thick];
+  B -- M [thick];
+  K -- M [thick];
+  C -- K [thick];
+  J -- K [thick];
+  D -- J [thick];
+  E -- J [thick];
+  I -- J [thick];
+  G -- I [thick];
+  F -- G [thick];
+  H -- I [thick];
+  L -- M [thick];
 }

@@ -5,12 +5,12 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  E [label = "鼎\nold cooking pot (2251)"];
-  B [label = "目\neye (15)"];
-  C [label = "爿\nbunk beds (*)"];
-  D [label = "片\nslice (986)"];
+  E [label = "鼎\nold cooking pot (2251)", background = "../../assets/None.png"];
+  B [label = "目\neye (15)", background = "../../assets/Medium.png"];
+  C [label = "爿\nbunk beds (primitive)", background = "../../assets/None.png"];
+  D [label = "片\nslice (986)", background = "../../assets/Medium.png"];
 
-  B -> E [thick];
-  C -> E [thick];
-  D -> E [thick];
+  B -- E [thick];
+  C -- E [thick];
+  D -- E [thick];
 }

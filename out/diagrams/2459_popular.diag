@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  G [label = "舆\npopular (2459)"];
-  E [label = "舆minus车\nzipper (*)"];
-  C [label = "具minus目\ntool (*)"];
-  B [label = "只minus口\nanimal legs (*)"];
-  D [label = "印minus卩\nstaples (*)"];
-  F [label = "车\ncar (300)"];
+  G [label = "舆\npopular (2459)", background = "../../assets/None.png"];
+  E [label = "舆minus车\nzipper (primitive)", background = "../../assets/None.png"];
+  C [label = "具minus目\ntool (primitive)", background = "../../assets/None.png"];
+  B [label = "只minus口\nanimal legs (primitive)", background = "../../assets/None.png"];
+  D [label = "印minus卩\nstaples (primitive)", background = "../../assets/None.png"];
+  F [label = "车\ncar (300)", background = "../../assets/Elementary.png"];
 
-  E -> G [thick];
-  C -> E [thick];
-  B -> C [thick];
-  D -> E [thick];
-  F -> G [thick];
+  E -- G [thick];
+  C -- E [thick];
+  B -- C [thick];
+  D -- E [thick];
+  F -- G [thick];
 }

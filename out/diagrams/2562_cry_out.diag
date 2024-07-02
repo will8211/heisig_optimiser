@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  I [label = "嚷\ncry out (2562)"];
-  B [label = "口\nmouth (11)"];
-  H [label = "襄\naid (1201)"];
-  D [label = "衣\nclothing (400)"];
-  C [label = "亠\ntop hat (*)"];
-  F [label = "吅\nchatterbox (*)"];
-  E [label = "口\nmouth (11)"];
-  G [label = "𠀎\nwire mesh (*)"];
+  I [label = "嚷\ncry out (2562)", background = "../../assets/None.png"];
+  B [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  H [label = "襄\naid (1201)", background = "../../assets/None.png"];
+  D [label = "衣\nclothing (400)", background = "../../assets/Elementary.png"];
+  C [label = "亠\ntop hat (primitive)", background = "../../assets/None.png"];
+  F [label = "吅\nchatterbox (primitive)", background = "../../assets/None.png"];
+  E [label = "口\nmouth (11)", background = "../../assets/Elementary.png"];
+  G [label = "𠀎\nwire mesh (primitive)", background = "../../assets/None.png"];
 
-  B -> I [thick];
-  H -> I [thick];
-  D -> H [thick];
-  C -> D [thick];
-  F -> H [thick];
-  E -> F [thick];
-  G -> H [thick];
+  B -- I [thick];
+  H -- I [thick];
+  D -- H [thick];
+  C -- D [thick];
+  F -- H [thick];
+  E -- F [thick];
+  G -- H [thick];
 }

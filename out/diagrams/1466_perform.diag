@@ -5,26 +5,26 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  L [label = "演\nperform (1466)"];
-  E [label = "水\nwater (137)"];
-  C [label = "丨\nwalking stick (*)"];
-  B [label = "一\none (1)"];
-  D [label = "丶\na drop of (*)"];
-  K [label = "寅\nsign of the tiger (1465)"];
-  F [label = "宀\nhouse (*)"];
-  G [label = "一\none (1)"];
-  I [label = "由\nwherefore (913)"];
-  H [label = "田\nrice field (14)"];
-  J [label = "只minus口\nanimal legs (*)"];
+  L [label = "演\nperform (1466)", background = "../../assets/Advanced.png"];
+  E [label = "水\nwater (137)", background = "../../assets/Elementary.png"];
+  C [label = "丨\nwalking stick (primitive)", background = "../../assets/None.png"];
+  B [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  D [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  K [label = "寅\nsign of the tiger (1465)", background = "../../assets/None.png"];
+  F [label = "宀\nhouse (primitive)", background = "../../assets/None.png"];
+  G [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  I [label = "由\nwherefore (913)", background = "../../assets/Medium.png"];
+  H [label = "田\nrice field (14)", background = "../../assets/Medium.png"];
+  J [label = "只minus口\nanimal legs (primitive)", background = "../../assets/None.png"];
 
-  E -> L [thick];
-  C -> E [thick];
-  B -> C [thick];
-  D -> E [thick];
-  K -> L [thick];
-  F -> K [thick];
-  G -> K [thick];
-  I -> K [thick];
-  H -> I [thick];
-  J -> K [thick];
+  E -- L [thick];
+  C -- E [thick];
+  B -- C [thick];
+  D -- E [thick];
+  K -- L [thick];
+  F -- K [thick];
+  G -- K [thick];
+  I -- K [thick];
+  H -- I [thick];
+  J -- K [thick];
 }

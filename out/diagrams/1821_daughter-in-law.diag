@@ -5,18 +5,18 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  H [label = "媳\ndaughter-in-law (1821)"];
-  B [label = "女\nwoman (102)"];
-  G [label = "息\nbreath (574)"];
-  E [label = "自\noneself (33)"];
-  C [label = "丶\na drop of (*)"];
-  D [label = "目\neye (15)"];
-  F [label = "心\nheart (563)"];
+  H [label = "媳\ndaughter-in-law (1821)", background = "../../assets/None.png"];
+  B [label = "女\nwoman (102)", background = "../../assets/Elementary.png"];
+  G [label = "息\nbreath (574)", background = "../../assets/Elementary.png"];
+  E [label = "自\noneself (33)", background = "../../assets/Medium.png"];
+  C [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  D [label = "目\neye (15)", background = "../../assets/Medium.png"];
+  F [label = "心\nheart (563)", background = "../../assets/Medium.png"];
 
-  B -> H [thick];
-  G -> H [thick];
-  E -> G [thick];
-  C -> E [thick];
-  D -> E [thick];
-  F -> G [thick];
+  B -- H [thick];
+  G -- H [thick];
+  E -- G [thick];
+  C -- E [thick];
+  D -- E [thick];
+  F -- G [thick];
 }

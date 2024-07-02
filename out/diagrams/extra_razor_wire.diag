@@ -5,8 +5,8 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  C [label = "那minus阝\nrazor wire (*)"];
-  B [label = "刀\nsword (83)"];
+  C [label = "那minus阝\nrazor wire (primitive)", background = "../../assets/None.png"];
+  B [label = "刀\nsword (83)", background = "../../assets/Medium.png"];
 
-  B -> C [thick];
+  B -- C [thick];
 }

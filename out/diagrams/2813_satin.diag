@@ -5,20 +5,20 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  I [label = "缎\nsatin (2813)"];
-  C [label = "纟\nthread (*)"];
-  B [label = "厶\nelbow (*)"];
-  H [label = "段\nsection (1388)"];
-  D [label = "印minus卩\nstaples (*)"];
-  G [label = "殳\nmissile (*)"];
-  E [label = "几\nhow many? (57)"];
-  F [label = "又\nagain (633)"];
+  I [label = "缎\nsatin (2813)", background = "../../assets/None.png"];
+  C [label = "纟\nthread (primitive)", background = "../../assets/None.png"];
+  B [label = "厶\nelbow (primitive)", background = "../../assets/None.png"];
+  H [label = "段\nsection (1388)", background = "../../assets/Medium.png"];
+  D [label = "印minus卩\nstaples (primitive)", background = "../../assets/None.png"];
+  G [label = "殳\nmissile (primitive)", background = "../../assets/None.png"];
+  E [label = "几\nhow many? (57)", background = "../../assets/Elementary.png"];
+  F [label = "又\nagain (633)", background = "../../assets/Elementary.png"];
 
-  C -> I [thick];
-  B -> C [thick];
-  H -> I [thick];
-  D -> H [thick];
-  G -> H [thick];
-  E -> G [thick];
-  F -> G [thick];
+  C -- I [thick];
+  B -- C [thick];
+  H -- I [thick];
+  D -- H [thick];
+  G -- H [thick];
+  E -- G [thick];
+  F -- G [thick];
 }

@@ -5,16 +5,16 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  G [label = "然\nsort of thing (247)"];
-  B [label = "月\nmonth (13)"];
-  E [label = "犬\npooch (239)"];
-  C [label = "大\nlarge (113)"];
-  D [label = "丶\na drop of (*)"];
-  F [label = "火\nfire (170)"];
+  G [label = "然\nsort of thing (247)", background = "../../assets/Elementary.png"];
+  B [label = "月\nmonth (13)", background = "../../assets/Elementary.png"];
+  E [label = "犬\npooch (239)", background = "../../assets/None.png"];
+  C [label = "大\nlarge (113)", background = "../../assets/Elementary.png"];
+  D [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  F [label = "火\nfire (170)", background = "../../assets/Elementary.png"];
 
-  B -> G [thick];
-  E -> G [thick];
-  C -> E [thick];
-  D -> E [thick];
-  F -> G [thick];
+  B -- G [thick];
+  E -- G [thick];
+  C -- E [thick];
+  D -- E [thick];
+  F -- G [thick];
 }

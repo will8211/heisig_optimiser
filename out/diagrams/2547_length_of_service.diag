@@ -5,30 +5,30 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  N [label = "龄\nlength of service (2547)"];
-  I [label = "齿\nteeth (2546)"];
-  B [label = "止\nstop (379)"];
-  C [label = "人\nperson (793)"];
-  H [label = "坑\npit (323)"];
-  F [label = "亢\nwhirlwind (*)"];
-  D [label = "亠\ntop hat (*)"];
-  E [label = "几\nhow many? (57)"];
-  G [label = "土\nsoil (158)"];
-  M [label = "令\norders (1113)"];
-  K [label = "亼\nmeeting (*)"];
-  J [label = "𠆢\numbrella (*)"];
-  L [label = "节minus艹\nchop (*)"];
+  N [label = "龄\nlength of service (2547)", background = "../../assets/None.png"];
+  I [label = "齿\nteeth (2546)", background = "../../assets/None.png"];
+  B [label = "止\nstop (379)", background = "../../assets/Medium.png"];
+  C [label = "人\nperson (793)", background = "../../assets/Elementary.png"];
+  H [label = "坑\npit (323)", background = "../../assets/None.png"];
+  F [label = "亢\nwhirlwind (primitive)", background = "../../assets/None.png"];
+  D [label = "亠\ntop hat (primitive)", background = "../../assets/None.png"];
+  E [label = "几\nhow many? (57)", background = "../../assets/Elementary.png"];
+  G [label = "土\nsoil (158)", background = "../../assets/Medium.png"];
+  M [label = "令\norders (1113)", background = "../../assets/Medium.png"];
+  K [label = "亼\nmeeting (primitive)", background = "../../assets/None.png"];
+  J [label = "𠆢\numbrella (primitive)", background = "../../assets/None.png"];
+  L [label = "节minus艹\nchop (primitive)", background = "../../assets/None.png"];
 
-  I -> N [thick];
-  B -> I [thick];
-  C -> I [thick];
-  H -> I [thick];
-  F -> H [thick];
-  D -> F [thick];
-  E -> F [thick];
-  G -> H [thick];
-  M -> N [thick];
-  K -> M [thick];
-  J -> K [thick];
-  L -> M [thick];
+  I -- N [thick];
+  B -- I [thick];
+  C -- I [thick];
+  H -- I [thick];
+  F -- H [thick];
+  D -- F [thick];
+  E -- F [thick];
+  G -- H [thick];
+  M -- N [thick];
+  K -- M [thick];
+  J -- K [thick];
+  L -- M [thick];
 }

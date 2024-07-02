@@ -5,14 +5,14 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  F [label = "炕\nbrick-heated bed (1635)"];
-  B [label = "火\nfire (170)"];
-  E [label = "亢\nwhirlwind (*)"];
-  C [label = "亠\ntop hat (*)"];
-  D [label = "几\nhow many? (57)"];
+  F [label = "炕\nbrick-heated bed (1635)", background = "../../assets/None.png"];
+  B [label = "火\nfire (170)", background = "../../assets/Elementary.png"];
+  E [label = "亢\nwhirlwind (primitive)", background = "../../assets/None.png"];
+  C [label = "亠\ntop hat (primitive)", background = "../../assets/None.png"];
+  D [label = "几\nhow many? (57)", background = "../../assets/Elementary.png"];
 
-  B -> F [thick];
-  E -> F [thick];
-  C -> E [thick];
-  D -> E [thick];
+  B -- F [thick];
+  E -- F [thick];
+  C -- E [thick];
+  D -- E [thick];
 }

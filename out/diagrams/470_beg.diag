@@ -5,10 +5,10 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  D [label = "乞\nbeg (470)"];
-  B [label = "𠂉\nreclining (*)"];
-  C [label = "乙\nsecond (95)"];
+  D [label = "乞\nbeg (470)", background = "../../assets/None.png"];
+  B [label = "𠂉\nreclining (primitive)", background = "../../assets/None.png"];
+  C [label = "乙\nsecond (95)", background = "../../assets/Medium.png"];
 
-  B -> D [thick];
-  C -> D [thick];
+  B -- D [thick];
+  C -- D [thick];
 }

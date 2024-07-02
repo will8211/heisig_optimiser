@@ -5,24 +5,24 @@ blockdiag {
   span_width = 250
   span_height = 150
 
-  K [label = "凌\nbully (2350)"];
-  F [label = "冫\nice (*)"];
-  E [label = "水\nwater (137)"];
-  C [label = "丨\nwalking stick (*)"];
-  B [label = "一\none (1)"];
-  D [label = "丶\na drop of (*)"];
-  J [label = "夌\nMinuteclods (*)"];
-  G [label = "土\nsoil (158)"];
-  H [label = "只minus口\nanimal legs (*)"];
-  I [label = "夂\nwalking legs (*)"];
+  K [label = "凌\nbully (2350)", background = "../../assets/None.png"];
+  F [label = "冫\nice (primitive)", background = "../../assets/None.png"];
+  E [label = "水\nwater (137)", background = "../../assets/Elementary.png"];
+  C [label = "丨\nwalking stick (primitive)", background = "../../assets/None.png"];
+  B [label = "一\none (1)", background = "../../assets/Elementary.png"];
+  D [label = "丶\na drop of (primitive)", background = "../../assets/None.png"];
+  J [label = "夌\nMinuteclods (primitive)", background = "../../assets/None.png"];
+  G [label = "土\nsoil (158)", background = "../../assets/Medium.png"];
+  H [label = "只minus口\nanimal legs (primitive)", background = "../../assets/None.png"];
+  I [label = "夂\nwalking legs (primitive)", background = "../../assets/None.png"];
 
-  F -> K [thick];
-  E -> F [thick];
-  C -> E [thick];
-  B -> C [thick];
-  D -> E [thick];
-  J -> K [thick];
-  G -> J [thick];
-  H -> J [thick];
-  I -> J [thick];
+  F -- K [thick];
+  E -- F [thick];
+  C -- E [thick];
+  B -- C [thick];
+  D -- E [thick];
+  J -- K [thick];
+  G -- J [thick];
+  H -- J [thick];
+  I -- J [thick];
 }
