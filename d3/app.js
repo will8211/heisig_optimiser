@@ -9,7 +9,7 @@ const canvasHeight = 1200;
 
 // Select the body element and append an SVG container
 const mainSvg = d3
-  .select("body")
+  .select("div.container")
   .append("svg")
   .attr("width", canvasWidth)
   .attr("height", canvasHeight);
@@ -67,7 +67,6 @@ const getFill = (level) => {
 };
 
 const getStroke = (level) => {
-  console.log(level);
   switch (level) {
     case "Elementary":
       return "#C26C28";
@@ -81,7 +80,6 @@ const getStroke = (level) => {
 };
 
 const getLevel = (level) => {
-  console.log(level);
   switch (level) {
     case "Elementary":
       return "HSK 1-3";
@@ -107,7 +105,7 @@ node
 node
   .append("text")
   .style("font-size", "28px")
-  .style("font-family", "Noto Serif CJK SC")
+  .style("font-family", "Noto Serif CJK SC, HanaMinB")
   .attr("dy", "0.35em") // Vertically centers the text, adjust as needed
   .attr("x", 0) // Centers the text horizontally within the circle
   .style("text-anchor", "middle") // Ensures the text is centered horizontally
@@ -124,6 +122,8 @@ node
   .text((d) => (d.data.level ? ` [${getLevel(d.data.level)}]` : ""));
 
 node
+  .append("a")
+  .attr("xlink:href", (d) => `./${d.data.filename}.html`) // Replace with your desired URL pattern
   .append("text")
   .style("font-weight", "bold")
   .style("font-family", "Noto Sans CJK SC")

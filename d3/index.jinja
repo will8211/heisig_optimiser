@@ -4,13 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Index of HTML Files</title>
+    <link rel="stylesheet" href="../style.css" />
 </head>
 
 <body>
     <h1>Index of HTML Files</h1>
     <ul>
         {% for file in files %}
-        <li><a href="{{ file }}">{{ file }}</a></li>
+        <li><a href="{{ file }}.html">{{ file }}</a></li>
         {% endfor %}
     </ul>
 </body>

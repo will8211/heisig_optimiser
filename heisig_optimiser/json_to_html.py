@@ -57,6 +57,8 @@ def _make_index_file():
         ),
     )
 
+    html_files = [os.path.splitext(f)[0] for f in html_files]
+
     template = env.get_template("index.jinja")
 
     # Render the template with your data

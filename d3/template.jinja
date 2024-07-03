@@ -5,9 +5,23 @@
   <meta charset="UTF-8" />
   <title>D3 Diagram</title>
   <link rel="stylesheet" href="../style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
+  <!-- Link back to index.html -->
+  <nav>
+    <div>
+      &nbsp;&nbsp;&nbsp;<a href="#" onclick="window.history.back(); return false;">←
+        Back</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="./index.html">↑ Index</a>
+    </div>
+  </nav>
+
+  <div class="container">
+  </div>
   <script src="https://d3js.org/d3.v6.min.js"></script>
   <script>
     const data = {{ data_json }};
