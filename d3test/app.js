@@ -1,107 +1,175 @@
-// app.js
+// Updated app.js
 
-const width = 1200;
-const height = 800;
+// Set canvas dimensions
+const canvasWidth = 1200;
+const canvasHeight = 800;
 
-const svg = d3
+// Sample data structure
+const data = {
+  number: "44",
+  character: "占",
+  keyword: "tell fortunes",
+  level: "Medium",
+  id: "G",
+  requirements: [
+    {
+      number: "43",
+      character: "卜",
+      keyword: "divination",
+      level: null,
+      id: "E",
+      requirements: [
+        {
+          number: null,
+          character: "丨",
+          keyword: "walking stick",
+          level: null,
+          id: "C",
+          requirements: [
+            {
+              number: "1",
+              character: "一",
+              keyword: "one",
+              level: "Elementary",
+              id: "B",
+              requirements: [],
+            },
+          ],
+        },
+        {
+          number: null,
+          character: "丶",
+          keyword: "a drop of",
+          level: null,
+          id: "D",
+          requirements: [],
+        },
+      ],
+    },
+    {
+      number: "11",
+      character: "口",
+      keyword: "mouth",
+      level: "Elementary",
+      id: "F",
+      requirements: [],
+    },
+  ],
+};
+
+// Select the body element and append an SVG container
+const mainSvg = d3
   .select("body")
   .append("svg")
-  .attr("width", width)
-  .attr("height", height);
+  .attr("width", canvasWidth)
+  .attr("height", canvasHeight);
 
-// Define the Nodes and Links
+// Function to recursively extract nodes and links
+function extractNodesAndLinks(data, nodes = [], links = [], parentId = null) {
+  if (!nodes.some((node) => node.id === data.id)) {
+    nodes.push({
+      id: data.id,
+      label: `${data.character}\n${data.keyword} (${data.number})`,
+      img: data.level ? `./assets/${data.level}.png` : undefined,
+    });
+  }
 
-const nodes = [
-  {
-    id: "G",
-    label: "占\ntell fortunes (44)",
-    background: "./assets/Medium.png",
-  },
-  {
-    id: "E",
-    label: "卜\ndivination (43)",
-  },
-  {
-    id: "C",
-    label: "丨\nwalking stick (primitive)",
-  },
-  { id: "B", label: "一\none (1)", background: "./assets/Elementary.png" },
-  {
-    id: "D",
-    label: "丶\na drop of (primitive)",
-  },
-  {
-    id: "F",
-    label: "口\nmouth (11)",
-    background: "./assets/Elementary.png",
-  },
-];
+  if (parentId) {
+    links.push({
+      source: parentId,
+      target: data.id,
+      width: 2,
+    });
+  }
 
-const links = [
-  { source: "E", target: "G", thickness: 2 },
-  { source: "C", target: "E", thickness: 2 },
-  { source: "B", target: "C", thickness: 2 },
-  { source: "D", target: "E", thickness: 2 },
-  { source: "F", target: "G", thickness: 2 },
-];
+  data.requirements.forEach((req) => {
+    extractNodesAndLinks(req, nodes, links, data.id);
+  });
+}
 
-// Create and Style Nodes and Links
+let graphNodes = [];
+let graphLinks = [];
+extractNodesAndLinks(data, graphNodes, graphLinks);
 
-const simulation = d3.forceSimulation(nodes)
-  .force("link", d3.forceLink(links).id(d => d.id).distance(200))
+// Initialize force simulation
+const forceSimulation = d3
+  .forceSimulation(graphNodes)
+  .force(
+    "link",
+    d3
+      .forceLink(graphLinks)
+      .id((d) => d.id)
+      .distance(200)
+  )
   .force("charge", d3.forceManyBody().strength(-500))
-  .force("center", d3.forceCenter(width / 2, height / 2));
+  .force("center", d3.forceCenter(canvasWidth / 2, canvasHeight / 2));
 
-const link = svg.append("g")
-  .selectAll("line")
-  .data(links)
-  .enter().append("line")
-  .attr("class", "link")
-  .attr("stroke-width", d => d.thickness);
+// Create edges for links
+const edge = mainSvg
+  .append("g")
+  .attr("class", "links") // Container for all links, for better organization
+  .selectAll(".link") // Use the .link class here
+  .data(graphLinks)
+  .enter()
+  .append("line")
+  .attr("class", "link") // Apply the .link class
+  .attr("stroke-width", (d) => d.width);
 
-const node = svg.append("g")
+// Create vertex groups
+const vertex = mainSvg
+  .append("g")
   .selectAll("g")
-  .data(nodes)
-  .enter().append("g");
+  .data(graphNodes)
+  .enter()
+  .append("g");
 
-node.append("circle")
+// Append circles for each vertex
+vertex
+  .append("circle")
   .attr("r", 40)
-  .attr("fill", d => `url(#${d.id}-img)`);
+  .attr("fill", (d) => `url(#pattern-${d.id})`);
 
-// Adjust text to support multiline via tspan
-node.each(function(d) {
-  const nodeD3 = d3.select(this);
-  const lines = d.label.split('\n');
-  const text = nodeD3.append("text")
-                     .attr("dy", "-1em") // Adjust vertical spacing
-                     .attr("text-anchor", "middle")
-                     .style("font-size", "15px");
+// Handle multiline text for each vertex
+vertex.each(function (d) {
+  const currentVertex = d3.select(this);
+  const labelLines = d.label.split("\n");
+  const labelText = currentVertex
+    .append("text")
+    .attr("dy", "-1em")
+    .attr("text-anchor", "middle")
+    .style("font-size", "15px");
 
-  lines.forEach((line, i) => {
-    text.append("tspan")
-        .attr("x", 0) // Center align text
-        .attr("dy", `${i > 0 ? 1.2 : 0}em`) // Add space between lines, except before the first
-        .text(line);
+  labelLines.forEach((line, index) => {
+    labelText
+      .append("tspan")
+      .attr("x", 0)
+      .attr("dy", `${index > 0 ? 1.2 : 0}em`)
+      .text(line);
   });
 });
 
-node.append("pattern")
-  .attr("id", d => `${d.id}-img`)
+// Append patterns for images
+vertex
+  .append("pattern")
+  .attr("id", (d) => `pattern-${d.id}`)
   .attr("patternUnits", "userSpaceOnUse")
   .attr("width", 80)
   .attr("height", 80)
   .append("image")
-  .attr("xlink:href", d => d.background)
+  .attr("xlink:href", (d) => d.img)
   .attr("width", 80)
-  .attr("height", 80);
+  .attr("height", 80)
+  .on("error", function () {
+    d3.select(this).attr("href", "./assets/default.png");
+  }); // Fallback image on error
 
-simulation.on("tick", () => {
-  link
-    .attr("x1", d => d.source.x)
-    .attr("y1", d => d.source.y)
-    .attr("x2", d => d.target.x)
-    .attr("y2", d => d.target.y);
+// Update positions on simulation tick
+forceSimulation.on("tick", () => {
+  edge
+    .attr("x1", (d) => d.source.x)
+    .attr("y1", (d) => d.source.y)
+    .attr("x2", (d) => d.target.x)
+    .attr("y2", (d) => d.target.y);
 
-  node
-    .attr("transform", d => `translate(${d.x},${d.y})`);
+  vertex.attr("transform", (d) => `translate(${d.x},${d.y})`);
 });
