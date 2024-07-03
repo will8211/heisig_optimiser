@@ -104,18 +104,21 @@ const node = mainSvg
   .attr("class", "node")
   .attr("transform", (d) => `translate(${d.y},${d.x})`);
 
-// Append circles for nodes with improved styling
 node
   .append("circle")
-  .attr("r", 10)
+  .attr("r", 12)
   .style("fill", "#69b3a2") // Light green fill
   .style("stroke", "#406d80") // Darker stroke for contrast
 
-// Append labels for nodes with original styling
-// Adjust label styling to ensure normal font weight and set font family
-// Adjust label styling to use a lighter font weight
+node.append("text")
+  .attr("dy", "0.35em") // Vertically centers the text, adjust as needed
+  .attr("x", 0) // Centers the text horizontally within the circle
+  .style("text-anchor", "middle") // Ensures the text is centered horizontally
+  .text((d) => d.data.character); // Assuming you want to display the character inside the circle
+
 node.append("text")
   .attr("dy", 3)
   .attr("x", (d) => (d.children ? -15 : 15))
   .style("text-anchor", (d) => (d.children ? "end" : "start"))
-  .text((d) => `${d.data.character}\n${d.data.keyword} (${d.data.number})`);
+  .text((d) => `${d.data.keyword} (${d.data.number})`);
+  
