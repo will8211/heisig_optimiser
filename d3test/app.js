@@ -1,64 +1,72 @@
-// Updated app.js
-
-// Set canvas dimensions
-const canvasWidth = 1200;
-const canvasHeight = 800;
+// app.js
 
 // Sample data structure
 const data = {
-  number: "44",
-  character: "占",
-  keyword: "tell fortunes",
-  level: "Medium",
-  id: "G",
+  number: "70",
+  character: "的",
+  keyword: "bull’s eye",
+  level: "Elementary",
+  id: "H",
   requirements: [
     {
-      number: "43",
-      character: "卜",
-      keyword: "divination",
-      level: null,
-      id: "E",
+      number: "34",
+      character: "白",
+      keyword: "white",
+      level: "Elementary",
+      id: "D",
       requirements: [
         {
-          number: null,
-          character: "丨",
-          keyword: "walking stick",
-          level: null,
-          id: "C",
-          requirements: [
-            {
-              number: "1",
-              character: "一",
-              keyword: "one",
-              level: "Elementary",
-              id: "B",
-              requirements: [],
-            },
-          ],
+          number: "12",
+          character: "日",
+          keyword: "day",
+          level: "Elementary",
+          id: "B",
+          requirements: [],
         },
         {
           number: null,
           character: "丶",
           keyword: "a drop of",
           level: null,
-          id: "D",
+          id: "C",
           requirements: [],
         },
       ],
     },
     {
-      number: "11",
-      character: "口",
-      keyword: "mouth",
-      level: "Elementary",
-      id: "F",
-      requirements: [],
+      number: "69",
+      character: "勺",
+      keyword: "ladle",
+      level: "Medium",
+      id: "G",
+      requirements: [
+        {
+          number: null,
+          character: "勹",
+          keyword: "bound up",
+          level: null,
+          id: "E",
+          requirements: [],
+        },
+        {
+          number: null,
+          character: "丶",
+          keyword: "a drop of",
+          level: null,
+          id: "F",
+          requirements: [],
+        },
+      ],
     },
   ],
 };
 
 // Convert the data into a hierarchy
 const hierarchyData = d3.hierarchy(data, (d) => d.requirements);
+
+// Set canvas dimensions
+const canvasWidth = 1200;
+const canvasHeight = 800;
 
 // Create a tree layout with specified dimensions
 const treeLayout = d3.tree().size([canvasHeight, canvasWidth - 160]); // Adjust width for margin
@@ -108,17 +116,18 @@ node
   .append("circle")
   .attr("r", 12)
   .style("fill", "#69b3a2") // Light green fill
-  .style("stroke", "#406d80") // Darker stroke for contrast
+  .style("stroke", "#406d80"); // Darker stroke for contrast
 
-node.append("text")
+node
+  .append("text")
   .attr("dy", "0.35em") // Vertically centers the text, adjust as needed
   .attr("x", 0) // Centers the text horizontally within the circle
   .style("text-anchor", "middle") // Ensures the text is centered horizontally
   .text((d) => d.data.character); // Assuming you want to display the character inside the circle
 
-node.append("text")
+node
+  .append("text")
   .attr("dy", 3)
   .attr("x", (d) => (d.children ? -15 : 15))
   .style("text-anchor", (d) => (d.children ? "end" : "start"))
-  .text((d) => `${d.data.keyword} (${d.data.number})`);
-  
+  .text((d) => (d.data.keyword + (d.data.number ? ` (${d.data.number})` : "")));
