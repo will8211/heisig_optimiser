@@ -2,58 +2,50 @@
 
 // Sample data structure
 const data = {
-  number: "70",
-  character: "的",
-  keyword: "bull’s eye",
+  number: "1243",
+  character: "睡",
+  keyword: "sleep",
   level: "Elementary",
-  id: "H",
+  id: "G",
   requirements: [
     {
-      number: "34",
-      character: "白",
-      keyword: "white",
-      level: "Elementary",
-      id: "D",
-      requirements: [
-        {
-          number: "12",
-          character: "日",
-          keyword: "day",
-          level: "Elementary",
-          id: "B",
-          requirements: [],
-        },
-        {
-          number: null,
-          character: "丶",
-          keyword: "a drop of",
-          level: null,
-          id: "C",
-          requirements: [],
-        },
-      ],
+      number: "15",
+      character: "目",
+      keyword: "eye",
+      level: "Medium",
+      id: "B",
+      requirements: [],
     },
     {
-      number: "69",
-      character: "勺",
-      keyword: "ladle",
-      level: "Medium",
-      id: "G",
+      number: "1241",
+      character: "垂",
+      keyword: "droop",
+      level: null,
+      id: "F",
       requirements: [
         {
           number: null,
-          character: "勹",
-          keyword: "bound up",
+          character: "壬",
+          keyword: "porter",
           level: null,
-          id: "E",
-          requirements: [],
+          id: "D",
+          requirements: [
+            {
+              number: "334",
+              character: "士",
+              keyword: "soldier",
+              level: "Advanced",
+              id: "C",
+              requirements: [],
+            },
+          ],
         },
         {
           number: null,
-          character: "丶",
-          keyword: "a drop of",
+          character: "囧垂－一－一",
+          keyword: "silage",
           level: null,
-          id: "F",
+          id: "E",
           requirements: [],
         },
       ],
@@ -112,22 +104,76 @@ const node = mainSvg
   .attr("class", "node")
   .attr("transform", (d) => `translate(${d.y},${d.x})`);
 
+const getFill = (level) => {
+  switch (level) {
+    case "Elementary":
+      return "#FDB536";
+    case "Medium":
+      return "#D95561";
+    case "Advanced":
+      return "#5B9545";
+    default:
+      return "#FFFFFF";
+  }
+};
+
+const getStroke = (level) => {
+  console.log(level);
+  switch (level) {
+    case "Elementary":
+      return "#C26C28";
+    case "Medium":
+      return "#7D3252";
+    case "Advanced":
+      return "#2D591D";
+    default:
+      return "#000000";
+  }
+};
+
+const getLevel = (level) => {
+  console.log(level);
+  switch (level) {
+    case "Elementary":
+      return "HSK 1-3";
+    case "Medium":
+      return "HSK 4-6";
+    case "Advanced":
+      return "HSK 7-9";
+    default:
+      return "#000000";
+  }
+};
+
 node
-  .append("circle")
-  .attr("r", 12)
-  .style("fill", "#69b3a2") // Light green fill
-  .style("stroke", "#406d80"); // Darker stroke for contrast
+  .append("ellipse")
+  .attr("rx", (d) => {
+    const len = d.data.character.length;
+    return len === 1 ? 16 : 10 * (len - 1);
+  }) // Corrected: Radius for the x-axis (width)
+  .attr("ry", 16) // Radius for the y-axis (height)
+  .style("fill", (d) => getFill(d.data.level))
+  .style("stroke", (d) => getStroke(d.data.level)); // Darker stroke for contrast
 
 node
   .append("text")
   .attr("dy", "0.35em") // Vertically centers the text, adjust as needed
   .attr("x", 0) // Centers the text horizontally within the circle
   .style("text-anchor", "middle") // Ensures the text is centered horizontally
-  .text((d) => d.data.character); // Assuming you want to display the character inside the circle
+  .text((d) => d.data.character.replace("囧", "")); // Assuming you want to display the character inside the circle
 
 node
   .append("text")
-  .attr("dy", 3)
-  .attr("x", (d) => (d.children ? -15 : 15))
-  .style("text-anchor", (d) => (d.children ? "end" : "start"))
-  .text((d) => (d.data.keyword + (d.data.number ? ` (${d.data.number})` : "")));
+  .attr("dy", -24)
+  .attr("x", 0)
+  .style("fill", (d) => getFill(d.data.level))
+  .style("stroke", (d) => getFill(d.data.level)) // Darker stroke for contrast
+  .style("text-anchor", "middle") // Ensures the text is centered horizontally
+  .text((d) => (d.data.level ? ` [${getLevel(d.data.level)}]` : ""));
+
+node
+  .append("text")
+  .attr("dy", 34)
+  .attr("x", 0)
+  .style("text-anchor", "middle") // Ensures the text is centered horizontally
+  .text((d) => d.data.keyword + (d.data.number ? ` (${d.data.number})` : ""));
