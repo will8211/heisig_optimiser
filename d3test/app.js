@@ -104,13 +104,18 @@ const node = mainSvg
   .attr("class", "node")
   .attr("transform", (d) => `translate(${d.y},${d.x})`);
 
-// Append circles for nodes
-node.append("circle").attr("r", 10);
-
-// Append labels for nodes
+// Append circles for nodes with improved styling
 node
-  .append("text")
+  .append("circle")
+  .attr("r", 10)
+  .style("fill", "#69b3a2") // Light green fill
+  .style("stroke", "#406d80") // Darker stroke for contrast
+
+// Append labels for nodes with original styling
+// Adjust label styling to ensure normal font weight and set font family
+// Adjust label styling to use a lighter font weight
+node.append("text")
   .attr("dy", 3)
-  .attr("x", (d) => (d.children ? -12 : 12))
+  .attr("x", (d) => (d.children ? -15 : 15))
   .style("text-anchor", (d) => (d.children ? "end" : "start"))
   .text((d) => `${d.data.character}\n${d.data.keyword} (${d.data.number})`);
