@@ -7,7 +7,7 @@ from jinja2 import Environment, FileSystemLoader
 def json_to_diag():
     # Directory containing the JSON input files
     input_dir = "out/hierarchies"
-    output_dir = "out/diagrams"
+    output_dir = "d3/html"
 
     # Ensure the output directory exists
     os.makedirs(output_dir, exist_ok=True)
