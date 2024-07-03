@@ -5,7 +5,7 @@ const hierarchyData = d3.hierarchy(data, (d) => d.requirements);
 
 // Set canvas dimensions
 const canvasWidth = 1200;
-const canvasHeight = 800;
+const canvasHeight = 1200;
 
 // Select the body element and append an SVG container
 const mainSvg = d3
@@ -14,10 +14,10 @@ const mainSvg = d3
   .attr("width", canvasWidth)
   .attr("height", canvasHeight);
 
-const margin = 80;
+const margin = 100;
 
 // Adjust the mainSvg to add some margins
-mainSvg.attr("transform", `translate(${margin}),0)`); // Shift right to allow for text and margin
+mainSvg.attr("transform", `translate(${margin},0)`); // Shift right to allow for text and margin
 
 // Create a tree layout with specified dimensions
 const treeLayout = d3.tree().size([canvasHeight, canvasWidth - margin * 2]); // Adjust width for margin
@@ -98,7 +98,7 @@ node
   .append("ellipse")
   .attr("rx", (d) => {
     const len = d.data.character.length;
-    return len === 1 ? 24 : 14 * (len - 1);
+    return len === 1 ? 24 : 14 * (len - 1) + 10;
   }) // Corrected: Radius for the x-axis (width)
   .attr("ry", 24) // Radius for the y-axis (height)
   .style("fill", (d) => getFill(d.data.level))
