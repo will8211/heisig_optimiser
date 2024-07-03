@@ -1,74 +1,11 @@
 // app.js
 
-// Sample data structure
-const data = {
-  number: "1243",
-  character: "睡",
-  keyword: "sleep",
-  level: "Elementary",
-  id: "G",
-  requirements: [
-    {
-      number: "15",
-      character: "目",
-      keyword: "eye",
-      level: "Medium",
-      id: "B",
-      requirements: [],
-    },
-    {
-      number: "1241",
-      character: "垂",
-      keyword: "droop",
-      level: null,
-      id: "F",
-      requirements: [
-        {
-          number: null,
-          character: "壬",
-          keyword: "porter",
-          level: null,
-          id: "D",
-          requirements: [
-            {
-              number: "334",
-              character: "士",
-              keyword: "soldier",
-              level: "Advanced",
-              id: "C",
-              requirements: [],
-            },
-          ],
-        },
-        {
-          number: null,
-          character: "囧垂－一－一",
-          keyword: "silage",
-          level: null,
-          id: "E",
-          requirements: [],
-        },
-      ],
-    },
-  ],
-};
-
 // Convert the data into a hierarchy
 const hierarchyData = d3.hierarchy(data, (d) => d.requirements);
 
 // Set canvas dimensions
 const canvasWidth = 1200;
 const canvasHeight = 800;
-
-// Create a tree layout with specified dimensions
-const treeLayout = d3.tree().size([canvasHeight, canvasWidth - 160]); // Adjust width for margin
-
-// Apply the tree layout to the hierarchy data
-const treeData = treeLayout(hierarchyData);
-
-// Extract nodes and links from the tree data
-const nodes = treeData.descendants();
-const links = treeData.links();
 
 // Select the body element and append an SVG container
 const mainSvg = d3
@@ -77,8 +14,20 @@ const mainSvg = d3
   .attr("width", canvasWidth)
   .attr("height", canvasHeight);
 
+const margin = 80;
+
 // Adjust the mainSvg to add some margins
-mainSvg.attr("transform", "translate(80,0)"); // Shift right to allow for text and margin
+mainSvg.attr("transform", `translate(${margin}),0)`); // Shift right to allow for text and margin
+
+// Create a tree layout with specified dimensions
+const treeLayout = d3.tree().size([canvasHeight, canvasWidth - margin * 2]); // Adjust width for margin
+
+// Apply the tree layout to the hierarchy data
+const treeData = treeLayout(hierarchyData);
+
+// Extract nodes and links from the tree data
+const nodes = treeData.descendants();
+const links = treeData.links();
 
 // Create links using the tree data
 const link = mainSvg
@@ -91,7 +40,7 @@ const link = mainSvg
     "d",
     d3
       .linkHorizontal()
-      .x((d) => d.y)
+      .x((d) => d.y + margin)
       .y((d) => d.x)
   );
 
@@ -102,7 +51,7 @@ const node = mainSvg
   .enter()
   .append("g")
   .attr("class", "node")
-  .attr("transform", (d) => `translate(${d.y},${d.x})`);
+  .attr("transform", (d) => `translate(${d.y + margin},${d.x})`);
 
 const getFill = (level) => {
   switch (level) {
@@ -157,6 +106,7 @@ node
 
 node
   .append("text")
+  .style("font-weight", "bold")
   .attr("dy", "0.35em") // Vertically centers the text, adjust as needed
   .attr("x", 0) // Centers the text horizontally within the circle
   .style("text-anchor", "middle") // Ensures the text is centered horizontally
@@ -167,12 +117,14 @@ node
   .attr("dy", -24)
   .attr("x", 0)
   .style("fill", (d) => getFill(d.data.level))
-  .style("stroke", (d) => getFill(d.data.level)) // Darker stroke for contrast
+  .style("stroke", (d) => getFill(d.data.level))
   .style("text-anchor", "middle") // Ensures the text is centered horizontally
   .text((d) => (d.data.level ? ` [${getLevel(d.data.level)}]` : ""));
 
 node
   .append("text")
+  .style("font-weight", "bold")
+  .style("font-weight", "heavy")
   .attr("dy", 34)
   .attr("x", 0)
   .style("text-anchor", "middle") // Ensures the text is centered horizontally
