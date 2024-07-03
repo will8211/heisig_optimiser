@@ -11,7 +11,7 @@
     <h1>Heisig RSH</h1>
     <ul>
         {% for file in files %}
-        <li><a href="{{ file }}.html">{{ file }}</a></li>
+        <li><a href="{{ file }}.html">{{ file.replace("_", " ") }}</a></li>
         {% endfor %}
     </ul>
 </body>
