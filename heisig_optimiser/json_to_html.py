@@ -26,7 +26,7 @@ def json_to_diag():
 
             # Load the template
             env = Environment(loader=FileSystemLoader("d3"))
-            template = env.get_template("template.html.j2")
+            template = env.get_template("template.jinja")
 
             # Render the template with your data
             rendered_html = template.render(data_json=json.dumps(data))
@@ -36,3 +36,7 @@ def json_to_diag():
                 f.write(rendered_html)
 
             print(f"html file generated successfully for {filename}")
+            input()
+
+
+json_to_diag()

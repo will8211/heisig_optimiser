@@ -98,15 +98,15 @@ node
   .append("ellipse")
   .attr("rx", (d) => {
     const len = d.data.character.length;
-    return len === 1 ? 32 : 22 * (len - 1);
+    return len === 1 ? 24 : 14 * (len - 1);
   }) // Corrected: Radius for the x-axis (width)
-  .attr("ry", 32) // Radius for the y-axis (height)
+  .attr("ry", 24) // Radius for the y-axis (height)
   .style("fill", (d) => getFill(d.data.level))
   .style("stroke", (d) => getStroke(d.data.level)); // Darker stroke for contrast
 
 node
   .append("text")
-  .style("font-size", "36px")
+  .style("font-size", "28px")
   .style("font-family", "Noto Serif CJK SC")
   .attr("dy", "0.35em") // Vertically centers the text, adjust as needed
   .attr("x", 0) // Centers the text horizontally within the circle
@@ -115,7 +115,8 @@ node
 
 node
   .append("text")
-  .attr("dy", -44)
+  .style("font-size", "14px")
+  .attr("dy", -32)
   .attr("x", 0)
   .style("fill", (d) => getFill(d.data.level))
   .style("stroke", (d) => getFill(d.data.level))
@@ -126,7 +127,7 @@ node
   .append("text")
   .style("font-weight", "bold")
   .style("font-family", "Noto Sans CJK SC")
-  .attr("dy", 54)
+  .attr("dy", 44)
   .attr("x", 0)
   .style("text-anchor", "middle") // Ensures the text is centered horizontally
   .text((d) => d.data.keyword + (d.data.number ? ` (${d.data.number})` : ""));
