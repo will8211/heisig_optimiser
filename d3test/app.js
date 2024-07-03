@@ -68,11 +68,22 @@ node.append("circle")
   .attr("r", 40)
   .attr("fill", d => `url(#${d.id}-img)`);
 
-node.append("text")
-  .attr("dy", -5)
-  .attr("text-anchor", "middle")
-  .text(d => d.label)
-  .style("font-size", "15px");
+// Adjust text to support multiline via tspan
+node.each(function(d) {
+  const nodeD3 = d3.select(this);
+  const lines = d.label.split('\n');
+  const text = nodeD3.append("text")
+                     .attr("dy", "-1em") // Adjust vertical spacing
+                     .attr("text-anchor", "middle")
+                     .style("font-size", "15px");
+
+  lines.forEach((line, i) => {
+    text.append("tspan")
+        .attr("x", 0) // Center align text
+        .attr("dy", `${i > 0 ? 1.2 : 0}em`) // Add space between lines, except before the first
+        .text(line);
+  });
+});
 
 node.append("pattern")
   .attr("id", d => `${d.id}-img`)
