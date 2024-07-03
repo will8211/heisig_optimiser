@@ -36,7 +36,6 @@ def json_to_diag():
                 f.write(rendered_html)
 
             print(f"html file generated successfully for {filename}")
-            input()
 
 
 json_to_diag()
