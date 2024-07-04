@@ -4,8 +4,8 @@
 const hierarchyData = d3.hierarchy(data, (d) => d.requirements);
 
 // Set canvas dimensions
-const canvasWidth = 1200;
-const canvasHeight = 1200;
+const canvasWidth = 1000;
+const canvasHeight = 1000;
 
 // Select the body element and append an SVG container
 const mainSvg = d3
