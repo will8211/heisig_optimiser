@@ -1,33 +1,40 @@
 {
-  "number": "1896",
-  "character": "盾",
-  "keyword": "shield",
-  "level": null,
-  "id": "E",
-  "requirements": [
-    {
-      "number": null,
-      "character": "𠂆",
-      "keyword": "drag",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "10",
-      "character": "十",
-      "keyword": "ten",
-      "level": "Elementary",
-      "id": "C",
-      "requirements": []
-    },
-    {
-      "number": "15",
-      "character": "目",
-      "keyword": "eye",
-      "level": "Medium",
-      "id": "D",
-      "requirements": []
-    }
-  ]
+  "order": 2050,
+  "hierarchy": {
+    "number": "1896",
+    "character": "盾",
+    "keyword": "shield",
+    "level": null,
+    "filename": "1896_shield",
+    "id": "E",
+    "requirements": [
+      {
+        "number": null,
+        "character": "𠂆",
+        "keyword": "drag",
+        "level": null,
+        "filename": "primitive_drag",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "10",
+        "character": "十",
+        "keyword": "ten",
+        "level": "Elementary",
+        "filename": "10_ten",
+        "id": "C",
+        "requirements": []
+      },
+      {
+        "number": "15",
+        "character": "目",
+        "keyword": "eye",
+        "level": "Medium",
+        "filename": "15_eye",
+        "id": "D",
+        "requirements": []
+      }
+    ]
+  }
 }

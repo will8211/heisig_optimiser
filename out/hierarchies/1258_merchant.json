@@ -1,92 +1,106 @@
 {
-  "number": "1258",
-  "character": "贾",
-  "keyword": "merchant",
-  "level": null,
-  "id": "L",
-  "requirements": [
-    {
-      "number": "1253",
-      "character": "西",
-      "keyword": "west",
-      "level": "Elementary",
-      "id": "H",
-      "requirements": [
-        {
-          "number": "4",
-          "character": "四",
-          "keyword": "four",
-          "level": "Elementary",
-          "id": "D",
-          "requirements": [
-            {
-              "number": "11",
-              "character": "口",
-              "keyword": "mouth",
-              "level": "Elementary",
-              "id": "B",
-              "requirements": []
-            },
-            {
-              "number": "56",
-              "character": "儿",
-              "keyword": "youngster",
-              "level": "Elementary",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "id": "E",
-          "requirements": []
-        },
-        {
-          "number": "56",
-          "character": "儿",
-          "keyword": "youngster",
-          "level": "Elementary",
-          "id": "F",
-          "requirements": []
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "id": "G",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "52",
-      "character": "贝",
-      "keyword": "shellfish",
-      "level": "Medium",
-      "id": "K",
-      "requirements": [
-        {
-          "number": "15",
-          "character": "目",
-          "keyword": "eye",
-          "level": "Medium",
-          "id": "I",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "囧只－口",
-          "keyword": "animal legs",
-          "level": null,
-          "id": "J",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1366,
+  "hierarchy": {
+    "number": "1258",
+    "character": "贾",
+    "keyword": "merchant",
+    "level": null,
+    "filename": "1258_merchant",
+    "id": "L",
+    "requirements": [
+      {
+        "number": "1253",
+        "character": "西",
+        "keyword": "west",
+        "level": "Elementary",
+        "filename": "1253_west",
+        "id": "H",
+        "requirements": [
+          {
+            "number": "4",
+            "character": "四",
+            "keyword": "four",
+            "level": "Elementary",
+            "filename": "4_four",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "11",
+                "character": "口",
+                "keyword": "mouth",
+                "level": "Elementary",
+                "filename": "11_mouth",
+                "id": "B",
+                "requirements": []
+              },
+              {
+                "number": "56",
+                "character": "儿",
+                "keyword": "youngster",
+                "level": "Elementary",
+                "filename": "56_youngster",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "E",
+            "requirements": []
+          },
+          {
+            "number": "56",
+            "character": "儿",
+            "keyword": "youngster",
+            "level": "Elementary",
+            "filename": "56_youngster",
+            "id": "F",
+            "requirements": []
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "G",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "52",
+        "character": "贝",
+        "keyword": "shellfish",
+        "level": "Medium",
+        "filename": "52_shellfish",
+        "id": "K",
+        "requirements": [
+          {
+            "number": "15",
+            "character": "目",
+            "keyword": "eye",
+            "level": "Medium",
+            "filename": "15_eye",
+            "id": "I",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "囧只－口",
+            "keyword": "animal legs",
+            "level": null,
+            "filename": "primitive_animal_legs",
+            "id": "J",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

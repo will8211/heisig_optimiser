@@ -1,76 +1,88 @@
 {
-  "number": "1813",
-  "character": "慌",
-  "keyword": "nervous",
-  "level": null,
-  "id": "J",
-  "requirements": [
-    {
-      "number": "563",
-      "character": "心",
-      "keyword": "heart",
-      "level": "Medium",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1725",
-      "character": "荒",
-      "keyword": "wasteland",
-      "level": null,
-      "id": "I",
-      "requirements": [
-        {
-          "number": "1724",
-          "character": "芒",
-          "keyword": "mango",
-          "level": null,
-          "id": "G",
-          "requirements": [
-            {
-              "number": null,
-              "character": "艹",
-              "keyword": "flower",
-              "level": null,
-              "id": "C",
-              "requirements": []
-            },
-            {
-              "number": "490",
-              "character": "亡",
-              "keyword": "deceased",
-              "level": "Advanced",
-              "id": "F",
-              "requirements": [
-                {
-                  "number": null,
-                  "character": "亠",
-                  "keyword": "top hat",
-                  "level": null,
-                  "id": "D",
-                  "requirements": []
-                },
-                {
-                  "number": "95",
-                  "character": "乙",
-                  "keyword": "second",
-                  "level": "Medium",
-                  "id": "E",
-                  "requirements": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "number": "134",
-          "character": "川",
-          "keyword": "stream",
-          "level": null,
-          "id": "H",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1963,
+  "hierarchy": {
+    "number": "1813",
+    "character": "慌",
+    "keyword": "nervous",
+    "level": null,
+    "filename": "1813_nervous",
+    "id": "J",
+    "requirements": [
+      {
+        "number": "563",
+        "character": "心",
+        "keyword": "heart",
+        "level": "Medium",
+        "filename": "563_heart",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1725",
+        "character": "荒",
+        "keyword": "wasteland",
+        "level": null,
+        "filename": "1725_wasteland",
+        "id": "I",
+        "requirements": [
+          {
+            "number": "1724",
+            "character": "芒",
+            "keyword": "mango",
+            "level": null,
+            "filename": "1724_mango",
+            "id": "G",
+            "requirements": [
+              {
+                "number": null,
+                "character": "艹",
+                "keyword": "flower",
+                "level": null,
+                "filename": "primitive_flower",
+                "id": "C",
+                "requirements": []
+              },
+              {
+                "number": "490",
+                "character": "亡",
+                "keyword": "deceased",
+                "level": "Advanced",
+                "filename": "490_deceased",
+                "id": "F",
+                "requirements": [
+                  {
+                    "number": null,
+                    "character": "亠",
+                    "keyword": "top hat",
+                    "level": null,
+                    "filename": "primitive_top_hat",
+                    "id": "D",
+                    "requirements": []
+                  },
+                  {
+                    "number": "95",
+                    "character": "乙",
+                    "keyword": "second",
+                    "level": "Medium",
+                    "filename": "95_second",
+                    "id": "E",
+                    "requirements": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "number": "134",
+            "character": "川",
+            "keyword": "stream",
+            "level": null,
+            "filename": "134_stream",
+            "id": "H",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,42 +1,50 @@
 {
-  "number": "2844",
-  "character": "雅",
-  "keyword": "polished",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": "1414",
-      "character": "牙",
-      "keyword": "tooth",
-      "level": "Medium",
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "匚",
-          "keyword": "box",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "1002",
-          "character": "矛",
-          "keyword": "spear",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "隹",
-      "keyword": "turkey",
-      "level": null,
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 3038,
+  "hierarchy": {
+    "number": "2844",
+    "character": "雅",
+    "keyword": "polished",
+    "level": null,
+    "filename": "2844_polished",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "1414",
+        "character": "牙",
+        "keyword": "tooth",
+        "level": "Medium",
+        "filename": "1414_tooth",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "匚",
+            "keyword": "box",
+            "level": null,
+            "filename": "primitive_box",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "1002",
+            "character": "矛",
+            "keyword": "spear",
+            "level": null,
+            "filename": "1002_spear",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "隹",
+        "keyword": "turkey",
+        "level": null,
+        "filename": "primitive_turkey",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

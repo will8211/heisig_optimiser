@@ -1,67 +1,78 @@
 {
-  "number": "1631",
-  "character": "厦",
-  "keyword": "skyscraper",
-  "level": null,
-  "id": "I",
-  "requirements": [
-    {
-      "number": "121",
-      "character": "厂",
-      "keyword": "factory",
-      "level": "Medium",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "314",
-      "character": "夏",
-      "keyword": "summer",
-      "level": "Medium",
-      "id": "H",
-      "requirements": [
-        {
-          "number": "33",
-          "character": "自",
-          "keyword": "oneself",
-          "level": "Medium",
-          "id": "E",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "id": "C",
-              "requirements": []
-            },
-            {
-              "number": "15",
-              "character": "目",
-              "keyword": "eye",
-              "level": "Medium",
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "id": "F",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "夂",
-          "keyword": "walking legs",
-          "level": null,
-          "id": "G",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1771,
+  "hierarchy": {
+    "number": "1631",
+    "character": "厦",
+    "keyword": "skyscraper",
+    "level": null,
+    "filename": "1631_skyscraper",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "121",
+        "character": "厂",
+        "keyword": "factory",
+        "level": "Medium",
+        "filename": "121_factory",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "314",
+        "character": "夏",
+        "keyword": "summer",
+        "level": "Medium",
+        "filename": "314_summer",
+        "id": "H",
+        "requirements": [
+          {
+            "number": "33",
+            "character": "自",
+            "keyword": "oneself",
+            "level": "Medium",
+            "filename": "33_oneself",
+            "id": "E",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "C",
+                "requirements": []
+              },
+              {
+                "number": "15",
+                "character": "目",
+                "keyword": "eye",
+                "level": "Medium",
+                "filename": "15_eye",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "F",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "夂",
+            "keyword": "walking legs",
+            "level": null,
+            "filename": "primitive_walking_legs",
+            "id": "G",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

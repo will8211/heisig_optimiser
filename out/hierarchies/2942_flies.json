@@ -1,42 +1,50 @@
 {
-  "number": "2942",
-  "character": "蝇",
-  "keyword": "flies",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": "509",
-      "character": "虫",
-      "keyword": "insect",
-      "level": "Medium",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "黾",
-      "keyword": "electrical outlet",
-      "level": null,
-      "id": "E",
-      "requirements": [
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "1484",
-          "character": "电",
-          "keyword": "electricity",
-          "level": "Elementary",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 3142,
+  "hierarchy": {
+    "number": "2942",
+    "character": "蝇",
+    "keyword": "flies",
+    "level": null,
+    "filename": "2942_flies",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "509",
+        "character": "虫",
+        "keyword": "insect",
+        "level": "Medium",
+        "filename": "509_insect",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "黾",
+        "keyword": "electrical outlet",
+        "level": null,
+        "filename": "primitive_electrical_outlet",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "1484",
+            "character": "电",
+            "keyword": "electricity",
+            "level": "Elementary",
+            "filename": "1484_electricity",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,51 +1,60 @@
 {
-  "number": "1283",
-  "character": "余",
-  "keyword": "excess",
-  "level": "Advanced",
-  "id": "G",
-  "requirements": [
-    {
-      "number": null,
-      "character": "𠆢",
-      "keyword": "umbrella",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1281",
-      "character": "于",
-      "keyword": "Yu",
-      "level": "Medium",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "1277",
-          "character": "干",
-          "keyword": "dry",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "109",
-      "character": "小",
-      "keyword": "small",
-      "level": "Elementary",
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1393,
+  "hierarchy": {
+    "number": "1283",
+    "character": "余",
+    "keyword": "excess",
+    "level": "Advanced",
+    "filename": "1283_excess",
+    "id": "G",
+    "requirements": [
+      {
+        "number": null,
+        "character": "𠆢",
+        "keyword": "umbrella",
+        "level": null,
+        "filename": "primitive_umbrella",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1281",
+        "character": "于",
+        "keyword": "Yu",
+        "level": "Medium",
+        "filename": "1281_Yu",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "1277",
+            "character": "干",
+            "keyword": "dry",
+            "level": "Elementary",
+            "filename": "1277_dry",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "109",
+        "character": "小",
+        "keyword": "small",
+        "level": "Elementary",
+        "filename": "109_small",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

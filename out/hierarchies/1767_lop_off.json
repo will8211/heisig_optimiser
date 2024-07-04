@@ -1,51 +1,60 @@
 {
-  "number": "1767",
-  "character": "截",
-  "keyword": "lop off",
-  "level": null,
-  "id": "G",
-  "requirements": [
-    {
-      "number": null,
-      "character": "囧载－车",
-      "keyword": "Thanksgiving",
-      "level": null,
-      "id": "E",
-      "requirements": [
-        {
-          "number": "158",
-          "character": "土",
-          "keyword": "soil",
-          "level": "Medium",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "361",
-          "character": "戈",
-          "keyword": "halberd",
-          "level": null,
-          "id": "D",
-          "requirements": [
-            {
-              "number": null,
-              "character": "弋",
-              "keyword": "arrow",
-              "level": null,
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "隹",
-      "keyword": "turkey",
-      "level": null,
-      "id": "F",
-      "requirements": []
-    }
-  ]
+  "order": 1915,
+  "hierarchy": {
+    "number": "1767",
+    "character": "截",
+    "keyword": "lop off",
+    "level": null,
+    "filename": "1767_lop_off",
+    "id": "G",
+    "requirements": [
+      {
+        "number": null,
+        "character": "囧载－车",
+        "keyword": "Thanksgiving",
+        "level": null,
+        "filename": "primitive_Thanksgiving",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "158",
+            "character": "土",
+            "keyword": "soil",
+            "level": "Medium",
+            "filename": "158_soil",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "361",
+            "character": "戈",
+            "keyword": "halberd",
+            "level": null,
+            "filename": "361_halberd",
+            "id": "D",
+            "requirements": [
+              {
+                "number": null,
+                "character": "弋",
+                "keyword": "arrow",
+                "level": null,
+                "filename": "primitive_arrow",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "隹",
+        "keyword": "turkey",
+        "level": null,
+        "filename": "primitive_turkey",
+        "id": "F",
+        "requirements": []
+      }
+    ]
+  }
 }

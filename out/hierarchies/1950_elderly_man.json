@@ -1,42 +1,50 @@
 {
-  "number": "1950",
-  "character": "翁",
-  "keyword": "elderly man",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": "696",
-      "character": "公",
-      "keyword": "public",
-      "level": "Medium",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "8",
-          "character": "八",
-          "keyword": "eight",
-          "level": "Elementary",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "厶",
-          "keyword": "elbow",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "544",
-      "character": "羽",
-      "keyword": "feathers",
-      "level": null,
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 2106,
+  "hierarchy": {
+    "number": "1950",
+    "character": "翁",
+    "keyword": "elderly man",
+    "level": null,
+    "filename": "1950_elderly_man",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "696",
+        "character": "公",
+        "keyword": "public",
+        "level": "Medium",
+        "filename": "696_public",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "8",
+            "character": "八",
+            "keyword": "eight",
+            "level": "Elementary",
+            "filename": "8_eight",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "厶",
+            "keyword": "elbow",
+            "level": null,
+            "filename": "primitive_elbow",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "544",
+        "character": "羽",
+        "keyword": "feathers",
+        "level": null,
+        "filename": "544_feathers",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

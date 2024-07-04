@@ -1,94 +1,108 @@
 {
-  "number": "2370",
-  "character": "滨",
-  "keyword": "water’s edge",
-  "level": null,
-  "id": "L",
-  "requirements": [
-    {
-      "number": "137",
-      "character": "水",
-      "keyword": "water",
-      "level": "Elementary",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丨",
-          "keyword": "walking stick",
-          "level": null,
-          "id": "C",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "2369",
-      "character": "宾",
-      "keyword": "visitor",
-      "level": "Advanced",
-      "id": "K",
-      "requirements": [
-        {
-          "number": "1078",
-          "character": "兵",
-          "keyword": "troops",
-          "level": "Medium",
-          "id": "I",
-          "requirements": [
-            {
-              "number": "1077",
-              "character": "丘",
-              "keyword": "hill",
-              "level": null,
-              "id": "G",
-              "requirements": [
-                {
-                  "number": "924",
-                  "character": "斤",
-                  "keyword": "catty",
-                  "level": "Medium",
-                  "id": "F",
-                  "requirements": []
-                }
-              ]
-            },
-            {
-              "number": null,
-              "character": "囧只－口",
-              "keyword": "animal legs",
-              "level": null,
-              "id": "H",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "宀",
-          "keyword": "house",
-          "level": null,
-          "id": "J",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2542,
+  "hierarchy": {
+    "number": "2370",
+    "character": "滨",
+    "keyword": "water’s edge",
+    "level": null,
+    "filename": "2370_water’s_edge",
+    "id": "L",
+    "requirements": [
+      {
+        "number": "137",
+        "character": "水",
+        "keyword": "water",
+        "level": "Elementary",
+        "filename": "137_water",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丨",
+            "keyword": "walking stick",
+            "level": null,
+            "filename": "primitive_walking_stick",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "2369",
+        "character": "宾",
+        "keyword": "visitor",
+        "level": "Advanced",
+        "filename": "2369_visitor",
+        "id": "K",
+        "requirements": [
+          {
+            "number": "1078",
+            "character": "兵",
+            "keyword": "troops",
+            "level": "Medium",
+            "filename": "1078_troops",
+            "id": "I",
+            "requirements": [
+              {
+                "number": "1077",
+                "character": "丘",
+                "keyword": "hill",
+                "level": null,
+                "filename": "1077_hill",
+                "id": "G",
+                "requirements": [
+                  {
+                    "number": "924",
+                    "character": "斤",
+                    "keyword": "catty",
+                    "level": "Medium",
+                    "filename": "924_catty",
+                    "id": "F",
+                    "requirements": []
+                  }
+                ]
+              },
+              {
+                "number": null,
+                "character": "囧只－口",
+                "keyword": "animal legs",
+                "level": null,
+                "filename": "primitive_animal_legs",
+                "id": "H",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "宀",
+            "keyword": "house",
+            "level": null,
+            "filename": "primitive_house",
+            "id": "J",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

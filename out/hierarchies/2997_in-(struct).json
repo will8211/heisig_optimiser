@@ -1,42 +1,50 @@
 {
-  "number": "2997",
-  "character": "吩",
-  "keyword": "in-(struct)",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": "11",
-      "character": "口",
-      "keyword": "mouth",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "694",
-      "character": "分",
-      "keyword": "part",
-      "level": "Elementary",
-      "id": "E",
-      "requirements": [
-        {
-          "number": "8",
-          "character": "八",
-          "keyword": "eight",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "83",
-          "character": "刀",
-          "keyword": "sword",
-          "level": "Medium",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 3203,
+  "hierarchy": {
+    "number": "2997",
+    "character": "吩",
+    "keyword": "in-(struct)",
+    "level": null,
+    "filename": "2997_in-(struct)",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "11",
+        "character": "口",
+        "keyword": "mouth",
+        "level": "Elementary",
+        "filename": "11_mouth",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "694",
+        "character": "分",
+        "keyword": "part",
+        "level": "Elementary",
+        "filename": "694_part",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "8",
+            "character": "八",
+            "keyword": "eight",
+            "level": "Elementary",
+            "filename": "8_eight",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "83",
+            "character": "刀",
+            "keyword": "sword",
+            "level": "Medium",
+            "filename": "83_sword",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

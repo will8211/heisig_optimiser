@@ -1,51 +1,60 @@
 {
-  "number": "2106",
-  "character": "挫",
-  "keyword": "frustrate",
-  "level": null,
-  "id": "G",
-  "requirements": [
-    {
-      "number": null,
-      "character": "扌",
-      "keyword": "fingers",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "848",
-      "character": "坐",
-      "keyword": "sit",
-      "level": "Elementary",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "846",
-          "character": "从",
-          "keyword": "follow",
-          "level": "Elementary",
-          "id": "D",
-          "requirements": [
-            {
-              "number": "793",
-              "character": "人",
-              "keyword": "person",
-              "level": "Elementary",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "158",
-          "character": "土",
-          "keyword": "soil",
-          "level": "Medium",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2267,
+  "hierarchy": {
+    "number": "2106",
+    "character": "挫",
+    "keyword": "frustrate",
+    "level": null,
+    "filename": "2106_frustrate",
+    "id": "G",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "primitive_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "848",
+        "character": "坐",
+        "keyword": "sit",
+        "level": "Elementary",
+        "filename": "848_sit",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "846",
+            "character": "从",
+            "keyword": "follow",
+            "level": "Elementary",
+            "filename": "846_follow",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "793",
+                "character": "人",
+                "keyword": "person",
+                "level": "Elementary",
+                "filename": "793_person",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "158",
+            "character": "土",
+            "keyword": "soil",
+            "level": "Medium",
+            "filename": "158_soil",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

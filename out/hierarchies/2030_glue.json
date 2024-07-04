@@ -1,68 +1,79 @@
 {
-  "number": "2030",
-  "character": "粘",
-  "keyword": "glue",
-  "level": null,
-  "id": "I",
-  "requirements": [
-    {
-      "number": "778",
-      "character": "米",
-      "keyword": "rice",
-      "level": "Medium",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "44",
-      "character": "占",
-      "keyword": "tell fortunes",
-      "level": "Medium",
-      "id": "H",
-      "requirements": [
-        {
-          "number": "43",
-          "character": "卜",
-          "keyword": "divination",
-          "level": null,
-          "id": "F",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丨",
-              "keyword": "walking stick",
-              "level": null,
-              "id": "D",
-              "requirements": [
-                {
-                  "number": "1",
-                  "character": "一",
-                  "keyword": "one",
-                  "level": "Elementary",
-                  "id": "C",
-                  "requirements": []
-                }
-              ]
-            },
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "id": "E",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "id": "G",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2189,
+  "hierarchy": {
+    "number": "2030",
+    "character": "粘",
+    "keyword": "glue",
+    "level": null,
+    "filename": "2030_glue",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "778",
+        "character": "米",
+        "keyword": "rice",
+        "level": "Medium",
+        "filename": "778_rice",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "44",
+        "character": "占",
+        "keyword": "tell fortunes",
+        "level": "Medium",
+        "filename": "44_tell_fortunes",
+        "id": "H",
+        "requirements": [
+          {
+            "number": "43",
+            "character": "卜",
+            "keyword": "divination",
+            "level": null,
+            "filename": "43_divination",
+            "id": "F",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丨",
+                "keyword": "walking stick",
+                "level": null,
+                "filename": "primitive_walking_stick",
+                "id": "D",
+                "requirements": [
+                  {
+                    "number": "1",
+                    "character": "一",
+                    "keyword": "one",
+                    "level": "Elementary",
+                    "filename": "1_one",
+                    "id": "C",
+                    "requirements": []
+                  }
+                ]
+              },
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "G",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

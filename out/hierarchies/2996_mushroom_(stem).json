@@ -1,59 +1,69 @@
 {
-  "number": "2996",
-  "character": "菇",
-  "keyword": "mushroom (stem)",
-  "level": null,
-  "id": "H",
-  "requirements": [
-    {
-      "number": null,
-      "character": "艹",
-      "keyword": "flower",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1518",
-      "character": "姑",
-      "keyword": "father’s sister",
-      "level": "Advanced",
-      "id": "G",
-      "requirements": [
-        {
-          "number": "102",
-          "character": "女",
-          "keyword": "woman",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "16",
-          "character": "古",
-          "keyword": "ancient",
-          "level": "Medium",
-          "id": "F",
-          "requirements": [
-            {
-              "number": "10",
-              "character": "十",
-              "keyword": "ten",
-              "level": "Elementary",
-              "id": "D",
-              "requirements": []
-            },
-            {
-              "number": "11",
-              "character": "口",
-              "keyword": "mouth",
-              "level": "Elementary",
-              "id": "E",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 3202,
+  "hierarchy": {
+    "number": "2996",
+    "character": "菇",
+    "keyword": "mushroom (stem)",
+    "level": null,
+    "filename": "2996_mushroom_(stem)",
+    "id": "H",
+    "requirements": [
+      {
+        "number": null,
+        "character": "艹",
+        "keyword": "flower",
+        "level": null,
+        "filename": "primitive_flower",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1518",
+        "character": "姑",
+        "keyword": "father’s sister",
+        "level": "Advanced",
+        "filename": "1518_father’s_sister",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "102",
+            "character": "女",
+            "keyword": "woman",
+            "level": "Elementary",
+            "filename": "102_woman",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "16",
+            "character": "古",
+            "keyword": "ancient",
+            "level": "Medium",
+            "filename": "16_ancient",
+            "id": "F",
+            "requirements": [
+              {
+                "number": "10",
+                "character": "十",
+                "keyword": "ten",
+                "level": "Elementary",
+                "filename": "10_ten",
+                "id": "D",
+                "requirements": []
+              },
+              {
+                "number": "11",
+                "character": "口",
+                "keyword": "mouth",
+                "level": "Elementary",
+                "filename": "11_mouth",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

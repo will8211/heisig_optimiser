@@ -1,25 +1,31 @@
 {
-  "number": "1145",
-  "character": "根",
-  "keyword": "root",
-  "level": "Advanced",
-  "id": "D",
-  "requirements": [
-    {
-      "number": "202",
-      "character": "木",
-      "keyword": "tree",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "艮",
-      "keyword": "silver",
-      "level": null,
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 1241,
+  "hierarchy": {
+    "number": "1145",
+    "character": "根",
+    "keyword": "root",
+    "level": "Advanced",
+    "filename": "1145_root",
+    "id": "D",
+    "requirements": [
+      {
+        "number": "202",
+        "character": "木",
+        "keyword": "tree",
+        "level": "Elementary",
+        "filename": "202_tree",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "艮",
+        "keyword": "silver",
+        "level": null,
+        "filename": "primitive_silver",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

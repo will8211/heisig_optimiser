@@ -1,34 +1,41 @@
 {
-  "number": "1014",
-  "character": "引",
-  "keyword": "draw",
-  "level": "Advanced",
-  "id": "E",
-  "requirements": [
-    {
-      "number": "1013",
-      "character": "弓",
-      "keyword": "bow",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "丨",
-      "keyword": "walking stick",
-      "level": null,
-      "id": "D",
-      "requirements": [
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1089,
+  "hierarchy": {
+    "number": "1014",
+    "character": "引",
+    "keyword": "draw",
+    "level": "Advanced",
+    "filename": "1014_draw",
+    "id": "E",
+    "requirements": [
+      {
+        "number": "1013",
+        "character": "弓",
+        "keyword": "bow",
+        "level": null,
+        "filename": "1013_bow",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "丨",
+        "keyword": "walking stick",
+        "level": null,
+        "filename": "primitive_walking_stick",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

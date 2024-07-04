@@ -1,59 +1,69 @@
 {
-  "number": "2936",
-  "character": "聋",
-  "keyword": "deaf",
-  "level": null,
-  "id": "H",
-  "requirements": [
-    {
-      "number": "1474",
-      "character": "龙",
-      "keyword": "dragon",
-      "level": "Medium",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "239",
-          "character": "犬",
-          "keyword": "pooch",
-          "level": null,
-          "id": "D",
-          "requirements": [
-            {
-              "number": "113",
-              "character": "大",
-              "keyword": "large",
-              "level": "Elementary",
-              "id": "B",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "453",
-          "character": "匕",
-          "keyword": "ancient spoon",
-          "level": null,
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "717",
-      "character": "耳",
-      "keyword": "ear",
-      "level": "Medium",
-      "id": "G",
-      "requirements": []
-    }
-  ]
+  "order": 3135,
+  "hierarchy": {
+    "number": "2936",
+    "character": "聋",
+    "keyword": "deaf",
+    "level": null,
+    "filename": "2936_deaf",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "1474",
+        "character": "龙",
+        "keyword": "dragon",
+        "level": "Medium",
+        "filename": "1474_dragon",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "239",
+            "character": "犬",
+            "keyword": "pooch",
+            "level": null,
+            "filename": "239_pooch",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "113",
+                "character": "大",
+                "keyword": "large",
+                "level": "Elementary",
+                "filename": "113_large",
+                "id": "B",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "453",
+            "character": "匕",
+            "keyword": "ancient spoon",
+            "level": null,
+            "filename": "453_ancient_spoon",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "717",
+        "character": "耳",
+        "keyword": "ear",
+        "level": "Medium",
+        "filename": "717_ear",
+        "id": "G",
+        "requirements": []
+      }
+    ]
+  }
 }

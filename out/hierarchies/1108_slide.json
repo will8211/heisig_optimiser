@@ -1,85 +1,98 @@
 {
-  "number": "1108",
-  "character": "溜",
-  "keyword": "slide",
-  "level": null,
-  "id": "K",
-  "requirements": [
-    {
-      "number": "137",
-      "character": "水",
-      "keyword": "water",
-      "level": "Elementary",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丨",
-          "keyword": "walking stick",
-          "level": null,
-          "id": "C",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "1107",
-      "character": "留",
-      "keyword": "stay",
-      "level": "Medium",
-      "id": "J",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧贸－贝",
-          "keyword": "letter opener",
-          "level": null,
-          "id": "H",
-          "requirements": [
-            {
-              "number": null,
-              "character": "卩",
-              "keyword": "stamp",
-              "level": null,
-              "id": "F",
-              "requirements": []
-            },
-            {
-              "number": "83",
-              "character": "刀",
-              "keyword": "sword",
-              "level": "Medium",
-              "id": "G",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "14",
-          "character": "田",
-          "keyword": "rice field",
-          "level": "Medium",
-          "id": "I",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1196,
+  "hierarchy": {
+    "number": "1108",
+    "character": "溜",
+    "keyword": "slide",
+    "level": null,
+    "filename": "1108_slide",
+    "id": "K",
+    "requirements": [
+      {
+        "number": "137",
+        "character": "水",
+        "keyword": "water",
+        "level": "Elementary",
+        "filename": "137_water",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丨",
+            "keyword": "walking stick",
+            "level": null,
+            "filename": "primitive_walking_stick",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "1107",
+        "character": "留",
+        "keyword": "stay",
+        "level": "Medium",
+        "filename": "1107_stay",
+        "id": "J",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧贸－贝",
+            "keyword": "letter opener",
+            "level": null,
+            "filename": "primitive_letter_opener",
+            "id": "H",
+            "requirements": [
+              {
+                "number": null,
+                "character": "卩",
+                "keyword": "stamp",
+                "level": null,
+                "filename": "primitive_stamp",
+                "id": "F",
+                "requirements": []
+              },
+              {
+                "number": "83",
+                "character": "刀",
+                "keyword": "sword",
+                "level": "Medium",
+                "filename": "83_sword",
+                "id": "G",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "14",
+            "character": "田",
+            "keyword": "rice field",
+            "level": "Medium",
+            "filename": "14_rice_field",
+            "id": "I",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

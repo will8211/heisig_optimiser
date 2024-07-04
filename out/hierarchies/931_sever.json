@@ -1,33 +1,40 @@
 {
-  "number": "931",
-  "character": "断",
-  "keyword": "sever",
-  "level": "Medium",
-  "id": "E",
-  "requirements": [
-    {
-      "number": "778",
-      "character": "米",
-      "keyword": "rice",
-      "level": "Medium",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "95",
-      "character": "乙",
-      "keyword": "second",
-      "level": "Medium",
-      "id": "C",
-      "requirements": []
-    },
-    {
-      "number": "924",
-      "character": "斤",
-      "keyword": "catty",
-      "level": "Medium",
-      "id": "D",
-      "requirements": []
-    }
-  ]
+  "order": 999,
+  "hierarchy": {
+    "number": "931",
+    "character": "断",
+    "keyword": "sever",
+    "level": "Medium",
+    "filename": "931_sever",
+    "id": "E",
+    "requirements": [
+      {
+        "number": "778",
+        "character": "米",
+        "keyword": "rice",
+        "level": "Medium",
+        "filename": "778_rice",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "95",
+        "character": "乙",
+        "keyword": "second",
+        "level": "Medium",
+        "filename": "95_second",
+        "id": "C",
+        "requirements": []
+      },
+      {
+        "number": "924",
+        "character": "斤",
+        "keyword": "catty",
+        "level": "Medium",
+        "filename": "924_catty",
+        "id": "D",
+        "requirements": []
+      }
+    ]
+  }
 }

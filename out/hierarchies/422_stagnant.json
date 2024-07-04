@@ -1,102 +1,117 @@
 {
-  "number": "422",
-  "character": "滞",
-  "keyword": "stagnant",
-  "level": null,
-  "id": "M",
-  "requirements": [
-    {
-      "number": "421",
-      "character": "带",
-      "keyword": "sash",
-      "level": "Medium",
-      "id": "H",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧冖＋巾",
-          "keyword": "apron",
-          "level": null,
-          "id": "D",
-          "requirements": [
-            {
-              "number": "410",
-              "character": "巾",
-              "keyword": "towel",
-              "level": "Advanced",
-              "id": "B",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "冖",
-              "keyword": "crown",
-              "level": null,
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "id": "E",
-          "requirements": []
-        },
-        {
-          "number": "109",
-          "character": "小",
-          "keyword": "small",
-          "level": "Elementary",
-          "id": "G",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "id": "F",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": "137",
-      "character": "水",
-      "keyword": "water",
-      "level": "Elementary",
-      "id": "L",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丨",
-          "keyword": "walking stick",
-          "level": null,
-          "id": "J",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "id": "I",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "id": "K",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 459,
+  "hierarchy": {
+    "number": "422",
+    "character": "滞",
+    "keyword": "stagnant",
+    "level": null,
+    "filename": "422_stagnant",
+    "id": "M",
+    "requirements": [
+      {
+        "number": "421",
+        "character": "带",
+        "keyword": "sash",
+        "level": "Medium",
+        "filename": "421_sash",
+        "id": "H",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧冖＋巾",
+            "keyword": "apron",
+            "level": null,
+            "filename": "primitive_apron",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "410",
+                "character": "巾",
+                "keyword": "towel",
+                "level": "Advanced",
+                "filename": "410_towel",
+                "id": "B",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "冖",
+                "keyword": "crown",
+                "level": null,
+                "filename": "primitive_crown",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "E",
+            "requirements": []
+          },
+          {
+            "number": "109",
+            "character": "小",
+            "keyword": "small",
+            "level": "Elementary",
+            "filename": "109_small",
+            "id": "G",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "F",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": "137",
+        "character": "水",
+        "keyword": "water",
+        "level": "Elementary",
+        "filename": "137_water",
+        "id": "L",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丨",
+            "keyword": "walking stick",
+            "level": null,
+            "filename": "primitive_walking_stick",
+            "id": "J",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "I",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "K",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

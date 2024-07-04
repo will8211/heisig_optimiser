@@ -1,77 +1,89 @@
 {
-  "number": "1668",
-  "character": "浇",
-  "keyword": "sprinkle",
-  "level": null,
-  "id": "J",
-  "requirements": [
-    {
-      "number": "137",
-      "character": "水",
-      "keyword": "water",
-      "level": "Elementary",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丨",
-          "keyword": "walking stick",
-          "level": null,
-          "id": "C",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "376",
-      "character": "尧",
-      "keyword": "Yao",
-      "level": null,
-      "id": "I",
-      "requirements": [
-        {
-          "number": "361",
-          "character": "戈",
-          "keyword": "halberd",
-          "level": null,
-          "id": "G",
-          "requirements": [
-            {
-              "number": null,
-              "character": "弋",
-              "keyword": "arrow",
-              "level": null,
-              "id": "F",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "56",
-          "character": "儿",
-          "keyword": "youngster",
-          "level": "Elementary",
-          "id": "H",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1813,
+  "hierarchy": {
+    "number": "1668",
+    "character": "浇",
+    "keyword": "sprinkle",
+    "level": null,
+    "filename": "1668_sprinkle",
+    "id": "J",
+    "requirements": [
+      {
+        "number": "137",
+        "character": "水",
+        "keyword": "water",
+        "level": "Elementary",
+        "filename": "137_water",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丨",
+            "keyword": "walking stick",
+            "level": null,
+            "filename": "primitive_walking_stick",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "376",
+        "character": "尧",
+        "keyword": "Yao",
+        "level": null,
+        "filename": "376_Yao",
+        "id": "I",
+        "requirements": [
+          {
+            "number": "361",
+            "character": "戈",
+            "keyword": "halberd",
+            "level": null,
+            "filename": "361_halberd",
+            "id": "G",
+            "requirements": [
+              {
+                "number": null,
+                "character": "弋",
+                "keyword": "arrow",
+                "level": null,
+                "filename": "primitive_arrow",
+                "id": "F",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "56",
+            "character": "儿",
+            "keyword": "youngster",
+            "level": "Elementary",
+            "filename": "56_youngster",
+            "id": "H",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

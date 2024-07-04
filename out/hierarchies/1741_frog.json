@@ -1,34 +1,41 @@
 {
-  "number": "1741",
-  "character": "蛙",
-  "keyword": "frog",
-  "level": null,
-  "id": "E",
-  "requirements": [
-    {
-      "number": "509",
-      "character": "虫",
-      "keyword": "insect",
-      "level": "Medium",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "圭",
-      "keyword": "bricks",
-      "level": null,
-      "id": "D",
-      "requirements": [
-        {
-          "number": "158",
-          "character": "土",
-          "keyword": "soil",
-          "level": "Medium",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1887,
+  "hierarchy": {
+    "number": "1741",
+    "character": "蛙",
+    "keyword": "frog",
+    "level": null,
+    "filename": "1741_frog",
+    "id": "E",
+    "requirements": [
+      {
+        "number": "509",
+        "character": "虫",
+        "keyword": "insect",
+        "level": "Medium",
+        "filename": "509_insect",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "圭",
+        "keyword": "bricks",
+        "level": null,
+        "filename": "primitive_bricks",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "158",
+            "character": "土",
+            "keyword": "soil",
+            "level": "Medium",
+            "filename": "158_soil",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

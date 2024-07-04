@@ -1,77 +1,89 @@
 {
-  "number": "2437",
-  "character": "玲",
-  "keyword": "exquisite",
-  "level": null,
-  "id": "J",
-  "requirements": [
-    {
-      "number": "266",
-      "character": "玉",
-      "keyword": "jade",
-      "level": "Medium",
-      "id": "E",
-      "requirements": [
-        {
-          "number": "265",
-          "character": "王",
-          "keyword": "king",
-          "level": "Medium",
-          "id": "C",
-          "requirements": [
-            {
-              "number": "76",
-              "character": "工",
-              "keyword": "work",
-              "level": "Elementary",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "1113",
-      "character": "令",
-      "keyword": "orders",
-      "level": "Medium",
-      "id": "I",
-      "requirements": [
-        {
-          "number": null,
-          "character": "亼",
-          "keyword": "meeting",
-          "level": null,
-          "id": "G",
-          "requirements": [
-            {
-              "number": null,
-              "character": "𠆢",
-              "keyword": "umbrella",
-              "level": null,
-              "id": "F",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "囧节－艹",
-          "keyword": "chop",
-          "level": null,
-          "id": "H",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2616,
+  "hierarchy": {
+    "number": "2437",
+    "character": "玲",
+    "keyword": "exquisite",
+    "level": null,
+    "filename": "2437_exquisite",
+    "id": "J",
+    "requirements": [
+      {
+        "number": "266",
+        "character": "玉",
+        "keyword": "jade",
+        "level": "Medium",
+        "filename": "266_jade",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "265",
+            "character": "王",
+            "keyword": "king",
+            "level": "Medium",
+            "filename": "265_king",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "76",
+                "character": "工",
+                "keyword": "work",
+                "level": "Elementary",
+                "filename": "76_work",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "1113",
+        "character": "令",
+        "keyword": "orders",
+        "level": "Medium",
+        "filename": "1113_orders",
+        "id": "I",
+        "requirements": [
+          {
+            "number": null,
+            "character": "亼",
+            "keyword": "meeting",
+            "level": null,
+            "filename": "primitive_meeting",
+            "id": "G",
+            "requirements": [
+              {
+                "number": null,
+                "character": "𠆢",
+                "keyword": "umbrella",
+                "level": null,
+                "filename": "primitive_umbrella",
+                "id": "F",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "囧节－艹",
+            "keyword": "chop",
+            "level": null,
+            "filename": "primitive_chop",
+            "id": "H",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

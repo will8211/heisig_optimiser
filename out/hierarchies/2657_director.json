@@ -1,76 +1,88 @@
 {
-  "number": "2657",
-  "character": "董",
-  "keyword": "director",
-  "level": null,
-  "id": "J",
-  "requirements": [
-    {
-      "number": null,
-      "character": "艹",
-      "keyword": "flower",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1290",
-      "character": "重",
-      "keyword": "heavy",
-      "level": "Medium",
-      "id": "I",
-      "requirements": [
-        {
-          "number": "39",
-          "character": "千",
-          "keyword": "thousand",
-          "level": "Medium",
-          "id": "E",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "id": "C",
-              "requirements": []
-            },
-            {
-              "number": "10",
-              "character": "十",
-              "keyword": "ten",
-              "level": "Elementary",
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "179",
-          "character": "里",
-          "keyword": "li",
-          "level": "Elementary",
-          "id": "H",
-          "requirements": [
-            {
-              "number": "14",
-              "character": "田",
-              "keyword": "rice field",
-              "level": "Medium",
-              "id": "F",
-              "requirements": []
-            },
-            {
-              "number": "158",
-              "character": "土",
-              "keyword": "soil",
-              "level": "Medium",
-              "id": "G",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2846,
+  "hierarchy": {
+    "number": "2657",
+    "character": "董",
+    "keyword": "director",
+    "level": null,
+    "filename": "2657_director",
+    "id": "J",
+    "requirements": [
+      {
+        "number": null,
+        "character": "艹",
+        "keyword": "flower",
+        "level": null,
+        "filename": "primitive_flower",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1290",
+        "character": "重",
+        "keyword": "heavy",
+        "level": "Medium",
+        "filename": "1290_heavy",
+        "id": "I",
+        "requirements": [
+          {
+            "number": "39",
+            "character": "千",
+            "keyword": "thousand",
+            "level": "Medium",
+            "filename": "39_thousand",
+            "id": "E",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "C",
+                "requirements": []
+              },
+              {
+                "number": "10",
+                "character": "十",
+                "keyword": "ten",
+                "level": "Elementary",
+                "filename": "10_ten",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "179",
+            "character": "里",
+            "keyword": "li",
+            "level": "Elementary",
+            "filename": "179_li",
+            "id": "H",
+            "requirements": [
+              {
+                "number": "14",
+                "character": "田",
+                "keyword": "rice field",
+                "level": "Medium",
+                "filename": "14_rice_field",
+                "id": "F",
+                "requirements": []
+              },
+              {
+                "number": "158",
+                "character": "土",
+                "keyword": "soil",
+                "level": "Medium",
+                "filename": "158_soil",
+                "id": "G",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

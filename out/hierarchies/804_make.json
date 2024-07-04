@@ -1,59 +1,69 @@
 {
-  "number": "804",
-  "character": "做",
-  "keyword": "make",
-  "level": "Elementary",
-  "id": "H",
-  "requirements": [
-    {
-      "number": "793",
-      "character": "人",
-      "keyword": "person",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "342",
-      "character": "故",
-      "keyword": "deliberately",
-      "level": "Medium",
-      "id": "G",
-      "requirements": [
-        {
-          "number": "16",
-          "character": "古",
-          "keyword": "ancient",
-          "level": "Medium",
-          "id": "E",
-          "requirements": [
-            {
-              "number": "10",
-              "character": "十",
-              "keyword": "ten",
-              "level": "Elementary",
-              "id": "C",
-              "requirements": []
-            },
-            {
-              "number": "11",
-              "character": "口",
-              "keyword": "mouth",
-              "level": "Elementary",
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "攵",
-          "keyword": "taskmaster",
-          "level": null,
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 866,
+  "hierarchy": {
+    "number": "804",
+    "character": "做",
+    "keyword": "make",
+    "level": "Elementary",
+    "filename": "804_make",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "793",
+        "character": "人",
+        "keyword": "person",
+        "level": "Elementary",
+        "filename": "793_person",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "342",
+        "character": "故",
+        "keyword": "deliberately",
+        "level": "Medium",
+        "filename": "342_deliberately",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "16",
+            "character": "古",
+            "keyword": "ancient",
+            "level": "Medium",
+            "filename": "16_ancient",
+            "id": "E",
+            "requirements": [
+              {
+                "number": "10",
+                "character": "十",
+                "keyword": "ten",
+                "level": "Elementary",
+                "filename": "10_ten",
+                "id": "C",
+                "requirements": []
+              },
+              {
+                "number": "11",
+                "character": "口",
+                "keyword": "mouth",
+                "level": "Elementary",
+                "filename": "11_mouth",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "攵",
+            "keyword": "taskmaster",
+            "level": null,
+            "filename": "primitive_taskmaster",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

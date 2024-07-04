@@ -1,51 +1,60 @@
 {
-  "number": "2478",
-  "character": "奠",
-  "keyword": "found",
-  "level": null,
-  "id": "G",
-  "requirements": [
-    {
-      "number": "1128",
-      "character": "酋",
-      "keyword": "chieftain",
-      "level": null,
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丷",
-          "keyword": "horns",
-          "level": null,
-          "id": "C",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "酉",
-          "keyword": "whiskey bottle",
-          "level": null,
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "113",
-      "character": "大",
-      "keyword": "large",
-      "level": "Elementary",
-      "id": "F",
-      "requirements": []
-    }
-  ]
+  "order": 2662,
+  "hierarchy": {
+    "number": "2478",
+    "character": "奠",
+    "keyword": "found",
+    "level": null,
+    "filename": "2478_found",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "1128",
+        "character": "酋",
+        "keyword": "chieftain",
+        "level": null,
+        "filename": "1128_chieftain",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丷",
+            "keyword": "horns",
+            "level": null,
+            "filename": "primitive_horns",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "酉",
+            "keyword": "whiskey bottle",
+            "level": null,
+            "filename": "primitive_whiskey_bottle",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "113",
+        "character": "大",
+        "keyword": "large",
+        "level": "Elementary",
+        "filename": "113_large",
+        "id": "F",
+        "requirements": []
+      }
+    ]
+  }
 }

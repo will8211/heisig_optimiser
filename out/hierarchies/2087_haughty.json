@@ -1,67 +1,78 @@
 {
-  "number": "2087",
-  "character": "傲",
-  "keyword": "haughty",
-  "level": null,
-  "id": "I",
-  "requirements": [
-    {
-      "number": "793",
-      "character": "人",
-      "keyword": "person",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "158",
-      "character": "土",
-      "keyword": "soil",
-      "level": "Medium",
-      "id": "C",
-      "requirements": []
-    },
-    {
-      "number": "496",
-      "character": "放",
-      "keyword": "release",
-      "level": "Elementary",
-      "id": "H",
-      "requirements": [
-        {
-          "number": null,
-          "character": "攵",
-          "keyword": "taskmaster",
-          "level": null,
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": "494",
-          "character": "方",
-          "keyword": "direction",
-          "level": "Elementary",
-          "id": "G",
-          "requirements": [
-            {
-              "number": "83",
-              "character": "刀",
-              "keyword": "sword",
-              "level": "Medium",
-              "id": "E",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "亠",
-              "keyword": "top hat",
-              "level": null,
-              "id": "F",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2248,
+  "hierarchy": {
+    "number": "2087",
+    "character": "傲",
+    "keyword": "haughty",
+    "level": null,
+    "filename": "2087_haughty",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "793",
+        "character": "人",
+        "keyword": "person",
+        "level": "Elementary",
+        "filename": "793_person",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "158",
+        "character": "土",
+        "keyword": "soil",
+        "level": "Medium",
+        "filename": "158_soil",
+        "id": "C",
+        "requirements": []
+      },
+      {
+        "number": "496",
+        "character": "放",
+        "keyword": "release",
+        "level": "Elementary",
+        "filename": "496_release",
+        "id": "H",
+        "requirements": [
+          {
+            "number": null,
+            "character": "攵",
+            "keyword": "taskmaster",
+            "level": null,
+            "filename": "primitive_taskmaster",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": "494",
+            "character": "方",
+            "keyword": "direction",
+            "level": "Elementary",
+            "filename": "494_direction",
+            "id": "G",
+            "requirements": [
+              {
+                "number": "83",
+                "character": "刀",
+                "keyword": "sword",
+                "level": "Medium",
+                "filename": "83_sword",
+                "id": "E",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "亠",
+                "keyword": "top hat",
+                "level": null,
+                "filename": "primitive_top_hat",
+                "id": "F",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,76 +1,88 @@
 {
-  "number": "2771",
-  "character": "殿",
-  "keyword": "ceremonial hall",
-  "level": null,
-  "id": "J",
-  "requirements": [
-    {
-      "number": "882",
-      "character": "尸",
-      "keyword": "corpse",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1354",
-      "character": "共",
-      "keyword": "together",
-      "level": "Medium",
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧昔－日",
-          "keyword": "salad",
-          "level": null,
-          "id": "D",
-          "requirements": [
-            {
-              "number": null,
-              "character": "艹",
-              "keyword": "flower",
-              "level": null,
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "囧只－口",
-          "keyword": "animal legs",
-          "level": null,
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "殳",
-      "keyword": "missile",
-      "level": null,
-      "id": "I",
-      "requirements": [
-        {
-          "number": "57",
-          "character": "几",
-          "keyword": "how many?",
-          "level": "Elementary",
-          "id": "G",
-          "requirements": []
-        },
-        {
-          "number": "633",
-          "character": "又",
-          "keyword": "again",
-          "level": "Elementary",
-          "id": "H",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2965,
+  "hierarchy": {
+    "number": "2771",
+    "character": "殿",
+    "keyword": "ceremonial hall",
+    "level": null,
+    "filename": "2771_ceremonial_hall",
+    "id": "J",
+    "requirements": [
+      {
+        "number": "882",
+        "character": "尸",
+        "keyword": "corpse",
+        "level": null,
+        "filename": "882_corpse",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1354",
+        "character": "共",
+        "keyword": "together",
+        "level": "Medium",
+        "filename": "1354_together",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧昔－日",
+            "keyword": "salad",
+            "level": null,
+            "filename": "primitive_salad",
+            "id": "D",
+            "requirements": [
+              {
+                "number": null,
+                "character": "艹",
+                "keyword": "flower",
+                "level": null,
+                "filename": "primitive_flower",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "囧只－口",
+            "keyword": "animal legs",
+            "level": null,
+            "filename": "primitive_animal_legs",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "殳",
+        "keyword": "missile",
+        "level": null,
+        "filename": "primitive_missile",
+        "id": "I",
+        "requirements": [
+          {
+            "number": "57",
+            "character": "几",
+            "keyword": "how many?",
+            "level": "Elementary",
+            "filename": "57_how_many",
+            "id": "G",
+            "requirements": []
+          },
+          {
+            "number": "633",
+            "character": "又",
+            "keyword": "again",
+            "level": "Elementary",
+            "filename": "633_again",
+            "id": "H",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

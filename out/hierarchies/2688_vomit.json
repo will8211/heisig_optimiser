@@ -1,42 +1,50 @@
 {
-  "number": "2688",
-  "character": "呕",
-  "keyword": "vomit",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": "11",
-      "character": "口",
-      "keyword": "mouth",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1295",
-      "character": "区",
-      "keyword": "region",
-      "level": "Medium",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "匚",
-          "keyword": "box",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "㐅",
-          "keyword": "sheaf",
-          "level": null,
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2877,
+  "hierarchy": {
+    "number": "2688",
+    "character": "呕",
+    "keyword": "vomit",
+    "level": null,
+    "filename": "2688_vomit",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "11",
+        "character": "口",
+        "keyword": "mouth",
+        "level": "Elementary",
+        "filename": "11_mouth",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1295",
+        "character": "区",
+        "keyword": "region",
+        "level": "Medium",
+        "filename": "1295_region",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "匚",
+            "keyword": "box",
+            "level": null,
+            "filename": "primitive_box",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "㐅",
+            "keyword": "sheaf",
+            "level": null,
+            "filename": "primitive_sheaf",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,42 +1,50 @@
 {
-  "number": "1222",
-  "character": "胜",
-  "keyword": "victory",
-  "level": "Advanced",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "13",
-      "character": "月",
-      "keyword": "month",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1218",
-      "character": "生",
-      "keyword": "life",
-      "level": "Elementary",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "囧毒－母",
-          "keyword": "grow up",
-          "level": null,
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1326,
+  "hierarchy": {
+    "number": "1222",
+    "character": "胜",
+    "keyword": "victory",
+    "level": "Advanced",
+    "filename": "1222_victory",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "13",
+        "character": "月",
+        "keyword": "month",
+        "level": "Elementary",
+        "filename": "13_month",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1218",
+        "character": "生",
+        "keyword": "life",
+        "level": "Elementary",
+        "filename": "1218_life",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "囧毒－母",
+            "keyword": "grow up",
+            "level": null,
+            "filename": "primitive_grow_up",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

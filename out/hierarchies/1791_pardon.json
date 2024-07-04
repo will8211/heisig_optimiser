@@ -1,42 +1,50 @@
 {
-  "number": "1791",
-  "character": "恕",
-  "keyword": "pardon",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": "104",
-      "character": "如",
-      "keyword": "be like",
-      "level": "Medium",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "102",
-          "character": "女",
-          "keyword": "woman",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "563",
-      "character": "心",
-      "keyword": "heart",
-      "level": "Medium",
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 1941,
+  "hierarchy": {
+    "number": "1791",
+    "character": "恕",
+    "keyword": "pardon",
+    "level": null,
+    "filename": "1791_pardon",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "104",
+        "character": "如",
+        "keyword": "be like",
+        "level": "Medium",
+        "filename": "104_be_like",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "102",
+            "character": "女",
+            "keyword": "woman",
+            "level": "Elementary",
+            "filename": "102_woman",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "563",
+        "character": "心",
+        "keyword": "heart",
+        "level": "Medium",
+        "filename": "563_heart",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

@@ -1,33 +1,40 @@
 {
-  "number": "1103",
-  "character": "服",
-  "keyword": "apparel",
-  "level": "Elementary",
-  "id": "E",
-  "requirements": [
-    {
-      "number": "13",
-      "character": "月",
-      "keyword": "month",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "卩",
-      "keyword": "stamp",
-      "level": null,
-      "id": "C",
-      "requirements": []
-    },
-    {
-      "number": "633",
-      "character": "又",
-      "keyword": "again",
-      "level": "Elementary",
-      "id": "D",
-      "requirements": []
-    }
-  ]
+  "order": 1190,
+  "hierarchy": {
+    "number": "1103",
+    "character": "服",
+    "keyword": "apparel",
+    "level": "Elementary",
+    "filename": "1103_apparel",
+    "id": "E",
+    "requirements": [
+      {
+        "number": "13",
+        "character": "月",
+        "keyword": "month",
+        "level": "Elementary",
+        "filename": "13_month",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "卩",
+        "keyword": "stamp",
+        "level": null,
+        "filename": "primitive_stamp",
+        "id": "C",
+        "requirements": []
+      },
+      {
+        "number": "633",
+        "character": "又",
+        "keyword": "again",
+        "level": "Elementary",
+        "filename": "633_again",
+        "id": "D",
+        "requirements": []
+      }
+    ]
+  }
 }

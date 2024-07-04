@@ -1,42 +1,50 @@
 {
-  "number": "2155",
-  "character": "炉",
-  "keyword": "stove",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": "170",
-      "character": "火",
-      "keyword": "fire",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "896",
-      "character": "户",
-      "keyword": "door",
-      "level": "Advanced",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "882",
-          "character": "尸",
-          "keyword": "corpse",
-          "level": null,
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2316,
+  "hierarchy": {
+    "number": "2155",
+    "character": "炉",
+    "keyword": "stove",
+    "level": null,
+    "filename": "2155_stove",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "170",
+        "character": "火",
+        "keyword": "fire",
+        "level": "Elementary",
+        "filename": "170_fire",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "896",
+        "character": "户",
+        "keyword": "door",
+        "level": "Advanced",
+        "filename": "896_door",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "882",
+            "character": "尸",
+            "keyword": "corpse",
+            "level": null,
+            "filename": "882_corpse",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

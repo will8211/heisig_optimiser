@@ -1,25 +1,31 @@
 {
-  "number": "921",
-  "character": "果",
-  "keyword": "fruit",
-  "level": "Elementary",
-  "id": "D",
-  "requirements": [
-    {
-      "number": "202",
-      "character": "木",
-      "keyword": "tree",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "14",
-      "character": "田",
-      "keyword": "rice field",
-      "level": "Medium",
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 989,
+  "hierarchy": {
+    "number": "921",
+    "character": "果",
+    "keyword": "fruit",
+    "level": "Elementary",
+    "filename": "921_fruit",
+    "id": "D",
+    "requirements": [
+      {
+        "number": "202",
+        "character": "木",
+        "keyword": "tree",
+        "level": "Elementary",
+        "filename": "202_tree",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "14",
+        "character": "田",
+        "keyword": "rice field",
+        "level": "Medium",
+        "filename": "14_rice_field",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

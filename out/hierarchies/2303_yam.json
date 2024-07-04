@@ -1,93 +1,107 @@
 {
-  "number": "2303",
-  "character": "薯",
-  "keyword": "yam",
-  "level": null,
-  "id": "L",
-  "requirements": [
-    {
-      "number": null,
-      "character": "艹",
-      "keyword": "flower",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "2302",
-      "character": "署",
-      "keyword": "add your John Hancock",
-      "level": null,
-      "id": "K",
-      "requirements": [
-        {
-          "number": "15",
-          "character": "目",
-          "keyword": "eye",
-          "level": "Medium",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "1037",
-          "character": "者",
-          "keyword": "someone",
-          "level": "Medium",
-          "id": "J",
-          "requirements": [
-            {
-              "number": "1029",
-              "character": "老",
-              "keyword": "old man",
-              "level": "Elementary",
-              "id": "H",
-              "requirements": [
-                {
-                  "number": "158",
-                  "character": "土",
-                  "keyword": "soil",
-                  "level": "Medium",
-                  "id": "D",
-                  "requirements": []
-                },
-                {
-                  "number": null,
-                  "character": "丨",
-                  "keyword": "walking stick",
-                  "level": null,
-                  "id": "F",
-                  "requirements": [
-                    {
-                      "number": "1",
-                      "character": "一",
-                      "keyword": "one",
-                      "level": "Elementary",
-                      "id": "E",
-                      "requirements": []
-                    }
-                  ]
-                },
-                {
-                  "number": "453",
-                  "character": "匕",
-                  "keyword": "ancient spoon",
-                  "level": null,
-                  "id": "G",
-                  "requirements": []
-                }
-              ]
-            },
-            {
-              "number": "12",
-              "character": "日",
-              "keyword": "day",
-              "level": "Elementary",
-              "id": "I",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2471,
+  "hierarchy": {
+    "number": "2303",
+    "character": "薯",
+    "keyword": "yam",
+    "level": null,
+    "filename": "2303_yam",
+    "id": "L",
+    "requirements": [
+      {
+        "number": null,
+        "character": "艹",
+        "keyword": "flower",
+        "level": null,
+        "filename": "primitive_flower",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "2302",
+        "character": "署",
+        "keyword": "add your John Hancock",
+        "level": null,
+        "filename": "2302_add_your_John_Hancock",
+        "id": "K",
+        "requirements": [
+          {
+            "number": "15",
+            "character": "目",
+            "keyword": "eye",
+            "level": "Medium",
+            "filename": "15_eye",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "1037",
+            "character": "者",
+            "keyword": "someone",
+            "level": "Medium",
+            "filename": "1037_someone",
+            "id": "J",
+            "requirements": [
+              {
+                "number": "1029",
+                "character": "老",
+                "keyword": "old man",
+                "level": "Elementary",
+                "filename": "1029_old_man",
+                "id": "H",
+                "requirements": [
+                  {
+                    "number": "158",
+                    "character": "土",
+                    "keyword": "soil",
+                    "level": "Medium",
+                    "filename": "158_soil",
+                    "id": "D",
+                    "requirements": []
+                  },
+                  {
+                    "number": null,
+                    "character": "丨",
+                    "keyword": "walking stick",
+                    "level": null,
+                    "filename": "primitive_walking_stick",
+                    "id": "F",
+                    "requirements": [
+                      {
+                        "number": "1",
+                        "character": "一",
+                        "keyword": "one",
+                        "level": "Elementary",
+                        "filename": "1_one",
+                        "id": "E",
+                        "requirements": []
+                      }
+                    ]
+                  },
+                  {
+                    "number": "453",
+                    "character": "匕",
+                    "keyword": "ancient spoon",
+                    "level": null,
+                    "filename": "453_ancient_spoon",
+                    "id": "G",
+                    "requirements": []
+                  }
+                ]
+              },
+              {
+                "number": "12",
+                "character": "日",
+                "keyword": "day",
+                "level": "Elementary",
+                "filename": "12_day",
+                "id": "I",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

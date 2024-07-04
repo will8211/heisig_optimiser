@@ -1,67 +1,78 @@
 {
-  "number": "2255",
-  "character": "歪",
-  "keyword": "askew",
-  "level": null,
-  "id": "I",
-  "requirements": [
-    {
-      "number": "991",
-      "character": "不",
-      "keyword": "no",
-      "level": "Elementary",
-      "id": "E",
-      "requirements": [
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "793",
-          "character": "人",
-          "keyword": "person",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "387",
-      "character": "正",
-      "keyword": "correct",
-      "level": "Elementary",
-      "id": "H",
-      "requirements": [
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "id": "F",
-          "requirements": []
-        },
-        {
-          "number": "379",
-          "character": "止",
-          "keyword": "stop",
-          "level": "Medium",
-          "id": "G",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2421,
+  "hierarchy": {
+    "number": "2255",
+    "character": "歪",
+    "keyword": "askew",
+    "level": null,
+    "filename": "2255_askew",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "991",
+        "character": "不",
+        "keyword": "no",
+        "level": "Elementary",
+        "filename": "991_no",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "793",
+            "character": "人",
+            "keyword": "person",
+            "level": "Elementary",
+            "filename": "793_person",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "387",
+        "character": "正",
+        "keyword": "correct",
+        "level": "Elementary",
+        "filename": "387_correct",
+        "id": "H",
+        "requirements": [
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "F",
+            "requirements": []
+          },
+          {
+            "number": "379",
+            "character": "止",
+            "keyword": "stop",
+            "level": "Medium",
+            "filename": "379_stop",
+            "id": "G",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,42 +1,50 @@
 {
-  "number": "1967",
-  "character": "咧",
-  "keyword": "grin",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": "11",
-      "character": "口",
-      "keyword": "mouth",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "713",
-      "character": "列",
-      "keyword": "line up",
-      "level": null,
-      "id": "E",
-      "requirements": [
-        {
-          "number": "712",
-          "character": "歹",
-          "keyword": "malicious",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "83",
-          "character": "刀",
-          "keyword": "sword",
-          "level": "Medium",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2123,
+  "hierarchy": {
+    "number": "1967",
+    "character": "咧",
+    "keyword": "grin",
+    "level": null,
+    "filename": "1967_grin",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "11",
+        "character": "口",
+        "keyword": "mouth",
+        "level": "Elementary",
+        "filename": "11_mouth",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "713",
+        "character": "列",
+        "keyword": "line up",
+        "level": null,
+        "filename": "713_line_up",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "712",
+            "character": "歹",
+            "keyword": "malicious",
+            "level": null,
+            "filename": "712_malicious",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "83",
+            "character": "刀",
+            "keyword": "sword",
+            "level": "Medium",
+            "filename": "83_sword",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

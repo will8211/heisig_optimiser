@@ -1,25 +1,31 @@
 {
-  "number": "2269",
-  "character": "弘",
-  "keyword": "noble",
-  "level": null,
-  "id": "D",
-  "requirements": [
-    {
-      "number": "1013",
-      "character": "弓",
-      "keyword": "bow",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "厶",
-      "keyword": "elbow",
-      "level": null,
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 2436,
+  "hierarchy": {
+    "number": "2269",
+    "character": "弘",
+    "keyword": "noble",
+    "level": null,
+    "filename": "2269_noble",
+    "id": "D",
+    "requirements": [
+      {
+        "number": "1013",
+        "character": "弓",
+        "keyword": "bow",
+        "level": null,
+        "filename": "1013_bow",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "厶",
+        "keyword": "elbow",
+        "level": null,
+        "filename": "primitive_elbow",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

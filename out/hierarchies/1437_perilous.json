@@ -1,59 +1,69 @@
 {
-  "number": "1437",
-  "character": "险",
-  "keyword": "perilous",
-  "level": "Advanced",
-  "id": "H",
-  "requirements": [
-    {
-      "number": null,
-      "character": "阝",
-      "keyword": "pinnacle",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "佥",
-      "keyword": "hootenanny",
-      "level": null,
-      "id": "G",
-      "requirements": [
-        {
-          "number": null,
-          "character": "亼",
-          "keyword": "meeting",
-          "level": null,
-          "id": "D",
-          "requirements": [
-            {
-              "number": null,
-              "character": "𠆢",
-              "keyword": "umbrella",
-              "level": null,
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "囧应－广",
-          "keyword": "owl",
-          "level": null,
-          "id": "E",
-          "requirements": []
-        },
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1571,
+  "hierarchy": {
+    "number": "1437",
+    "character": "险",
+    "keyword": "perilous",
+    "level": "Advanced",
+    "filename": "1437_perilous",
+    "id": "H",
+    "requirements": [
+      {
+        "number": null,
+        "character": "阝",
+        "keyword": "pinnacle",
+        "level": null,
+        "filename": "primitive_pinnacle",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "佥",
+        "keyword": "hootenanny",
+        "level": null,
+        "filename": "primitive_hootenanny",
+        "id": "G",
+        "requirements": [
+          {
+            "number": null,
+            "character": "亼",
+            "keyword": "meeting",
+            "level": null,
+            "filename": "primitive_meeting",
+            "id": "D",
+            "requirements": [
+              {
+                "number": null,
+                "character": "𠆢",
+                "keyword": "umbrella",
+                "level": null,
+                "filename": "primitive_umbrella",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "囧应－广",
+            "keyword": "owl",
+            "level": null,
+            "filename": "primitive_owl",
+            "id": "E",
+            "requirements": []
+          },
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

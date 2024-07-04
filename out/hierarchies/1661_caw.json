@@ -1,67 +1,78 @@
 {
-  "number": "1661",
-  "character": "嘎",
-  "keyword": "caw",
-  "level": null,
-  "id": "I",
-  "requirements": [
-    {
-      "number": "11",
-      "character": "口",
-      "keyword": "mouth",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1",
-      "character": "一",
-      "keyword": "one",
-      "level": "Elementary",
-      "id": "C",
-      "requirements": []
-    },
-    {
-      "number": "33",
-      "character": "自",
-      "keyword": "oneself",
-      "level": "Medium",
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": "15",
-          "character": "目",
-          "keyword": "eye",
-          "level": "Medium",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "361",
-      "character": "戈",
-      "keyword": "halberd",
-      "level": null,
-      "id": "H",
-      "requirements": [
-        {
-          "number": null,
-          "character": "弋",
-          "keyword": "arrow",
-          "level": null,
-          "id": "G",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1806,
+  "hierarchy": {
+    "number": "1661",
+    "character": "嘎",
+    "keyword": "caw",
+    "level": null,
+    "filename": "1661_caw",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "11",
+        "character": "口",
+        "keyword": "mouth",
+        "level": "Elementary",
+        "filename": "11_mouth",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1",
+        "character": "一",
+        "keyword": "one",
+        "level": "Elementary",
+        "filename": "1_one",
+        "id": "C",
+        "requirements": []
+      },
+      {
+        "number": "33",
+        "character": "自",
+        "keyword": "oneself",
+        "level": "Medium",
+        "filename": "33_oneself",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": "15",
+            "character": "目",
+            "keyword": "eye",
+            "level": "Medium",
+            "filename": "15_eye",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "361",
+        "character": "戈",
+        "keyword": "halberd",
+        "level": null,
+        "filename": "361_halberd",
+        "id": "H",
+        "requirements": [
+          {
+            "number": null,
+            "character": "弋",
+            "keyword": "arrow",
+            "level": null,
+            "filename": "primitive_arrow",
+            "id": "G",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

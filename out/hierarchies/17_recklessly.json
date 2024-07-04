@@ -1,42 +1,50 @@
 {
-  "number": "17",
-  "character": "胡",
-  "keyword": "recklessly",
-  "level": "Advanced",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "13",
-      "character": "月",
-      "keyword": "month",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "16",
-      "character": "古",
-      "keyword": "ancient",
-      "level": "Medium",
-      "id": "E",
-      "requirements": [
-        {
-          "number": "10",
-          "character": "十",
-          "keyword": "ten",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 16,
+  "hierarchy": {
+    "number": "17",
+    "character": "胡",
+    "keyword": "recklessly",
+    "level": "Advanced",
+    "filename": "17_recklessly",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "13",
+        "character": "月",
+        "keyword": "month",
+        "level": "Elementary",
+        "filename": "13_month",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "16",
+        "character": "古",
+        "keyword": "ancient",
+        "level": "Medium",
+        "filename": "16_ancient",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "10",
+            "character": "十",
+            "keyword": "ten",
+            "level": "Elementary",
+            "filename": "10_ten",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

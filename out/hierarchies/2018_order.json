@@ -1,51 +1,60 @@
 {
-  "number": "2018",
-  "character": "秩",
-  "keyword": "order",
-  "level": null,
-  "id": "G",
-  "requirements": [
-    {
-      "number": "762",
-      "character": "禾",
-      "keyword": "standing grain",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "729",
-      "character": "失",
-      "keyword": "lose",
-      "level": "Advanced",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "726",
-          "character": "夫",
-          "keyword": "husband",
-          "level": "Medium",
-          "id": "D",
-          "requirements": [
-            {
-              "number": "113",
-              "character": "大",
-              "keyword": "large",
-              "level": "Elementary",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2175,
+  "hierarchy": {
+    "number": "2018",
+    "character": "秩",
+    "keyword": "order",
+    "level": null,
+    "filename": "2018_order",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "762",
+        "character": "禾",
+        "keyword": "standing grain",
+        "level": null,
+        "filename": "762_standing_grain",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "729",
+        "character": "失",
+        "keyword": "lose",
+        "level": "Advanced",
+        "filename": "729_lose",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "726",
+            "character": "夫",
+            "keyword": "husband",
+            "level": "Medium",
+            "filename": "726_husband",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "113",
+                "character": "大",
+                "keyword": "large",
+                "level": "Elementary",
+                "filename": "113_large",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

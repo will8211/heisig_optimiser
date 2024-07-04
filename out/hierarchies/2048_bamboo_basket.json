@@ -1,60 +1,70 @@
 {
-  "number": "2048",
-  "character": "箩",
-  "keyword": "bamboo basket",
-  "level": null,
-  "id": "H",
-  "requirements": [
-    {
-      "number": "786",
-      "character": "竹",
-      "keyword": "bamboo",
-      "level": "Advanced",
-      "id": "C",
-      "requirements": [
-        {
-          "number": "90",
-          "character": "丁",
-          "keyword": "fourth",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "120",
-      "character": "罗",
-      "keyword": "silk gauze",
-      "level": null,
-      "id": "G",
-      "requirements": [
-        {
-          "number": "15",
-          "character": "目",
-          "keyword": "eye",
-          "level": "Medium",
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": "115",
-          "character": "夕",
-          "keyword": "evening",
-          "level": "Advanced",
-          "id": "F",
-          "requirements": [
-            {
-              "number": "13",
-              "character": "月",
-              "keyword": "month",
-              "level": "Elementary",
-              "id": "E",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2209,
+  "hierarchy": {
+    "number": "2048",
+    "character": "箩",
+    "keyword": "bamboo basket",
+    "level": null,
+    "filename": "2048_bamboo_basket",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "786",
+        "character": "竹",
+        "keyword": "bamboo",
+        "level": "Advanced",
+        "filename": "786_bamboo",
+        "id": "C",
+        "requirements": [
+          {
+            "number": "90",
+            "character": "丁",
+            "keyword": "fourth",
+            "level": null,
+            "filename": "90_fourth",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "120",
+        "character": "罗",
+        "keyword": "silk gauze",
+        "level": null,
+        "filename": "120_silk_gauze",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "15",
+            "character": "目",
+            "keyword": "eye",
+            "level": "Medium",
+            "filename": "15_eye",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": "115",
+            "character": "夕",
+            "keyword": "evening",
+            "level": "Advanced",
+            "filename": "115_evening",
+            "id": "F",
+            "requirements": [
+              {
+                "number": "13",
+                "character": "月",
+                "keyword": "month",
+                "level": "Elementary",
+                "filename": "13_month",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

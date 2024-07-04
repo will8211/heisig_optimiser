@@ -1,52 +1,61 @@
 {
-  "number": "1761",
-  "character": "栏",
-  "keyword": "railing",
-  "level": null,
-  "id": "G",
-  "requirements": [
-    {
-      "number": "202",
-      "character": "木",
-      "keyword": "tree",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "533",
-      "character": "兰",
-      "keyword": "orchid",
-      "level": null,
-      "id": "F",
-      "requirements": [
-        {
-          "number": "528",
-          "character": "羊",
-          "keyword": "sheep",
-          "level": "Medium",
-          "id": "E",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丷",
-              "keyword": "horns",
-              "level": null,
-              "id": "D",
-              "requirements": [
-                {
-                  "number": "1",
-                  "character": "一",
-                  "keyword": "one",
-                  "level": "Elementary",
-                  "id": "C",
-                  "requirements": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 1909,
+  "hierarchy": {
+    "number": "1761",
+    "character": "栏",
+    "keyword": "railing",
+    "level": null,
+    "filename": "1761_railing",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "202",
+        "character": "木",
+        "keyword": "tree",
+        "level": "Elementary",
+        "filename": "202_tree",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "533",
+        "character": "兰",
+        "keyword": "orchid",
+        "level": null,
+        "filename": "533_orchid",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "528",
+            "character": "羊",
+            "keyword": "sheep",
+            "level": "Medium",
+            "filename": "528_sheep",
+            "id": "E",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丷",
+                "keyword": "horns",
+                "level": null,
+                "filename": "primitive_horns",
+                "id": "D",
+                "requirements": [
+                  {
+                    "number": "1",
+                    "character": "一",
+                    "keyword": "one",
+                    "level": "Elementary",
+                    "filename": "1_one",
+                    "id": "C",
+                    "requirements": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

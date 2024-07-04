@@ -1,43 +1,51 @@
 {
-  "number": "1137",
-  "character": "盖",
-  "keyword": "lid",
-  "level": "Advanced",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "528",
-      "character": "羊",
-      "keyword": "sheep",
-      "level": "Medium",
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丷",
-          "keyword": "horns",
-          "level": null,
-          "id": "C",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "皿",
-      "keyword": "dish",
-      "level": null,
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 1232,
+  "hierarchy": {
+    "number": "1137",
+    "character": "盖",
+    "keyword": "lid",
+    "level": "Advanced",
+    "filename": "1137_lid",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "528",
+        "character": "羊",
+        "keyword": "sheep",
+        "level": "Medium",
+        "filename": "528_sheep",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丷",
+            "keyword": "horns",
+            "level": null,
+            "filename": "primitive_horns",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "皿",
+        "keyword": "dish",
+        "level": null,
+        "filename": "primitive_dish",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

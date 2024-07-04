@@ -1,34 +1,41 @@
 {
-  "number": "1113",
-  "character": "令",
-  "keyword": "orders",
-  "level": "Medium",
-  "id": "E",
-  "requirements": [
-    {
-      "number": null,
-      "character": "亼",
-      "keyword": "meeting",
-      "level": null,
-      "id": "C",
-      "requirements": [
-        {
-          "number": null,
-          "character": "𠆢",
-          "keyword": "umbrella",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "囧节－艹",
-      "keyword": "chop",
-      "level": null,
-      "id": "D",
-      "requirements": []
-    }
-  ]
+  "order": 1202,
+  "hierarchy": {
+    "number": "1113",
+    "character": "令",
+    "keyword": "orders",
+    "level": "Medium",
+    "filename": "1113_orders",
+    "id": "E",
+    "requirements": [
+      {
+        "number": null,
+        "character": "亼",
+        "keyword": "meeting",
+        "level": null,
+        "filename": "primitive_meeting",
+        "id": "C",
+        "requirements": [
+          {
+            "number": null,
+            "character": "𠆢",
+            "keyword": "umbrella",
+            "level": null,
+            "filename": "primitive_umbrella",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "囧节－艹",
+        "keyword": "chop",
+        "level": null,
+        "filename": "primitive_chop",
+        "id": "D",
+        "requirements": []
+      }
+    ]
+  }
 }

@@ -1,94 +1,108 @@
 {
-  "number": "1341",
-  "character": "遗",
-  "keyword": "bequeath",
-  "level": "Advanced",
-  "id": "L",
-  "requirements": [
-    {
-      "number": "1340",
-      "character": "贵",
-      "keyword": "expensive",
-      "level": "Elementary",
-      "id": "J",
-      "requirements": [
-        {
-          "number": null,
-          "character": "𠀐",
-          "keyword": "purse",
-          "level": null,
-          "id": "F",
-          "requirements": [
-            {
-              "number": "38",
-              "character": "中",
-              "keyword": "middle",
-              "level": "Elementary",
-              "id": "E",
-              "requirements": [
-                {
-                  "number": null,
-                  "character": "丨",
-                  "keyword": "walking stick",
-                  "level": null,
-                  "id": "C",
-                  "requirements": [
-                    {
-                      "number": "1",
-                      "character": "一",
-                      "keyword": "one",
-                      "level": "Elementary",
-                      "id": "B",
-                      "requirements": []
-                    }
-                  ]
-                },
-                {
-                  "number": "11",
-                  "character": "口",
-                  "keyword": "mouth",
-                  "level": "Elementary",
-                  "id": "D",
-                  "requirements": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "number": "52",
-          "character": "贝",
-          "keyword": "shellfish",
-          "level": "Medium",
-          "id": "I",
-          "requirements": [
-            {
-              "number": "15",
-              "character": "目",
-              "keyword": "eye",
-              "level": "Medium",
-              "id": "G",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "囧只－口",
-              "keyword": "animal legs",
-              "level": null,
-              "id": "H",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "辶",
-      "keyword": "road",
-      "level": null,
-      "id": "K",
-      "requirements": []
-    }
-  ]
+  "order": 1460,
+  "hierarchy": {
+    "number": "1341",
+    "character": "遗",
+    "keyword": "bequeath",
+    "level": "Advanced",
+    "filename": "1341_bequeath",
+    "id": "L",
+    "requirements": [
+      {
+        "number": "1340",
+        "character": "贵",
+        "keyword": "expensive",
+        "level": "Elementary",
+        "filename": "1340_expensive",
+        "id": "J",
+        "requirements": [
+          {
+            "number": null,
+            "character": "𠀐",
+            "keyword": "purse",
+            "level": null,
+            "filename": "primitive_purse",
+            "id": "F",
+            "requirements": [
+              {
+                "number": "38",
+                "character": "中",
+                "keyword": "middle",
+                "level": "Elementary",
+                "filename": "38_middle",
+                "id": "E",
+                "requirements": [
+                  {
+                    "number": null,
+                    "character": "丨",
+                    "keyword": "walking stick",
+                    "level": null,
+                    "filename": "primitive_walking_stick",
+                    "id": "C",
+                    "requirements": [
+                      {
+                        "number": "1",
+                        "character": "一",
+                        "keyword": "one",
+                        "level": "Elementary",
+                        "filename": "1_one",
+                        "id": "B",
+                        "requirements": []
+                      }
+                    ]
+                  },
+                  {
+                    "number": "11",
+                    "character": "口",
+                    "keyword": "mouth",
+                    "level": "Elementary",
+                    "filename": "11_mouth",
+                    "id": "D",
+                    "requirements": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "number": "52",
+            "character": "贝",
+            "keyword": "shellfish",
+            "level": "Medium",
+            "filename": "52_shellfish",
+            "id": "I",
+            "requirements": [
+              {
+                "number": "15",
+                "character": "目",
+                "keyword": "eye",
+                "level": "Medium",
+                "filename": "15_eye",
+                "id": "G",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "囧只－口",
+                "keyword": "animal legs",
+                "level": null,
+                "filename": "primitive_animal_legs",
+                "id": "H",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "辶",
+        "keyword": "road",
+        "level": null,
+        "filename": "primitive_road",
+        "id": "K",
+        "requirements": []
+      }
+    ]
+  }
 }

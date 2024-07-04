@@ -1,33 +1,40 @@
 {
-  "number": "2494",
-  "character": "盈",
-  "keyword": "replete",
-  "level": null,
-  "id": "E",
-  "requirements": [
-    {
-      "number": "625",
-      "character": "乃",
-      "keyword": "only then",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "633",
-      "character": "又",
-      "keyword": "again",
-      "level": "Elementary",
-      "id": "C",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "皿",
-      "keyword": "dish",
-      "level": null,
-      "id": "D",
-      "requirements": []
-    }
-  ]
+  "order": 2678,
+  "hierarchy": {
+    "number": "2494",
+    "character": "盈",
+    "keyword": "replete",
+    "level": null,
+    "filename": "2494_replete",
+    "id": "E",
+    "requirements": [
+      {
+        "number": "625",
+        "character": "乃",
+        "keyword": "only then",
+        "level": null,
+        "filename": "625_only_then",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "633",
+        "character": "又",
+        "keyword": "again",
+        "level": "Elementary",
+        "filename": "633_again",
+        "id": "C",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "皿",
+        "keyword": "dish",
+        "level": null,
+        "filename": "primitive_dish",
+        "id": "D",
+        "requirements": []
+      }
+    ]
+  }
 }

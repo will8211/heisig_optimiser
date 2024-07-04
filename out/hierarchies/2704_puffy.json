@@ -1,101 +1,116 @@
 {
-  "number": "2704",
-  "character": "膨",
-  "keyword": "puffy",
-  "level": null,
-  "id": "M",
-  "requirements": [
-    {
-      "number": "13",
-      "character": "月",
-      "keyword": "month",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "壴",
-      "keyword": "drum",
-      "level": null,
-      "id": "K",
-      "requirements": [
-        {
-          "number": "334",
-          "character": "士",
-          "keyword": "soldier",
-          "level": "Advanced",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "224",
-          "character": "桌",
-          "keyword": "table",
-          "level": "Medium",
-          "id": "J",
-          "requirements": [
-            {
-              "number": "202",
-              "character": "木",
-              "keyword": "tree",
-              "level": "Elementary",
-              "id": "D",
-              "requirements": []
-            },
-            {
-              "number": "12",
-              "character": "日",
-              "keyword": "day",
-              "level": "Elementary",
-              "id": "E",
-              "requirements": []
-            },
-            {
-              "number": "43",
-              "character": "卜",
-              "keyword": "divination",
-              "level": null,
-              "id": "I",
-              "requirements": [
-                {
-                  "number": null,
-                  "character": "丨",
-                  "keyword": "walking stick",
-                  "level": null,
-                  "id": "G",
-                  "requirements": [
-                    {
-                      "number": "1",
-                      "character": "一",
-                      "keyword": "one",
-                      "level": "Elementary",
-                      "id": "F",
-                      "requirements": []
-                    }
-                  ]
-                },
-                {
-                  "number": null,
-                  "character": "丶",
-                  "keyword": "a drop of",
-                  "level": null,
-                  "id": "H",
-                  "requirements": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "彡",
-      "keyword": "rooster tail",
-      "level": null,
-      "id": "L",
-      "requirements": []
-    }
-  ]
+  "order": 2896,
+  "hierarchy": {
+    "number": "2704",
+    "character": "膨",
+    "keyword": "puffy",
+    "level": null,
+    "filename": "2704_puffy",
+    "id": "M",
+    "requirements": [
+      {
+        "number": "13",
+        "character": "月",
+        "keyword": "month",
+        "level": "Elementary",
+        "filename": "13_month",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "壴",
+        "keyword": "drum",
+        "level": null,
+        "filename": "primitive_drum",
+        "id": "K",
+        "requirements": [
+          {
+            "number": "334",
+            "character": "士",
+            "keyword": "soldier",
+            "level": "Advanced",
+            "filename": "334_soldier",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "224",
+            "character": "桌",
+            "keyword": "table",
+            "level": "Medium",
+            "filename": "224_table",
+            "id": "J",
+            "requirements": [
+              {
+                "number": "202",
+                "character": "木",
+                "keyword": "tree",
+                "level": "Elementary",
+                "filename": "202_tree",
+                "id": "D",
+                "requirements": []
+              },
+              {
+                "number": "12",
+                "character": "日",
+                "keyword": "day",
+                "level": "Elementary",
+                "filename": "12_day",
+                "id": "E",
+                "requirements": []
+              },
+              {
+                "number": "43",
+                "character": "卜",
+                "keyword": "divination",
+                "level": null,
+                "filename": "43_divination",
+                "id": "I",
+                "requirements": [
+                  {
+                    "number": null,
+                    "character": "丨",
+                    "keyword": "walking stick",
+                    "level": null,
+                    "filename": "primitive_walking_stick",
+                    "id": "G",
+                    "requirements": [
+                      {
+                        "number": "1",
+                        "character": "一",
+                        "keyword": "one",
+                        "level": "Elementary",
+                        "filename": "1_one",
+                        "id": "F",
+                        "requirements": []
+                      }
+                    ]
+                  },
+                  {
+                    "number": null,
+                    "character": "丶",
+                    "keyword": "a drop of",
+                    "level": null,
+                    "filename": "primitive_a_drop_of",
+                    "id": "H",
+                    "requirements": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "彡",
+        "keyword": "rooster tail",
+        "level": null,
+        "filename": "primitive_rooster_tail",
+        "id": "L",
+        "requirements": []
+      }
+    ]
+  }
 }

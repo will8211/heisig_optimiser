@@ -1,68 +1,79 @@
 {
-  "number": "1475",
-  "character": "袭",
-  "keyword": "raid",
-  "level": null,
-  "id": "I",
-  "requirements": [
-    {
-      "number": "1474",
-      "character": "龙",
-      "keyword": "dragon",
-      "level": "Medium",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "239",
-          "character": "犬",
-          "keyword": "pooch",
-          "level": null,
-          "id": "D",
-          "requirements": [
-            {
-              "number": "113",
-              "character": "大",
-              "keyword": "large",
-              "level": "Elementary",
-              "id": "B",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "453",
-          "character": "匕",
-          "keyword": "ancient spoon",
-          "level": null,
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "400",
-      "character": "衣",
-      "keyword": "clothing",
-      "level": "Elementary",
-      "id": "H",
-      "requirements": [
-        {
-          "number": null,
-          "character": "亠",
-          "keyword": "top hat",
-          "level": null,
-          "id": "G",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1612,
+  "hierarchy": {
+    "number": "1475",
+    "character": "袭",
+    "keyword": "raid",
+    "level": null,
+    "filename": "1475_raid",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "1474",
+        "character": "龙",
+        "keyword": "dragon",
+        "level": "Medium",
+        "filename": "1474_dragon",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "239",
+            "character": "犬",
+            "keyword": "pooch",
+            "level": null,
+            "filename": "239_pooch",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "113",
+                "character": "大",
+                "keyword": "large",
+                "level": "Elementary",
+                "filename": "113_large",
+                "id": "B",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "453",
+            "character": "匕",
+            "keyword": "ancient spoon",
+            "level": null,
+            "filename": "453_ancient_spoon",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "400",
+        "character": "衣",
+        "keyword": "clothing",
+        "level": "Elementary",
+        "filename": "400_clothing",
+        "id": "H",
+        "requirements": [
+          {
+            "number": null,
+            "character": "亠",
+            "keyword": "top hat",
+            "level": null,
+            "filename": "primitive_top_hat",
+            "id": "G",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

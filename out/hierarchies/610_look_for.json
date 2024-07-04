@@ -1,34 +1,41 @@
 {
-  "number": "610",
-  "character": "找",
-  "keyword": "look for",
-  "level": "Elementary",
-  "id": "E",
-  "requirements": [
-    {
-      "number": null,
-      "character": "扌",
-      "keyword": "fingers",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "361",
-      "character": "戈",
-      "keyword": "halberd",
-      "level": null,
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "弋",
-          "keyword": "arrow",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 660,
+  "hierarchy": {
+    "number": "610",
+    "character": "找",
+    "keyword": "look for",
+    "level": "Elementary",
+    "filename": "610_look_for",
+    "id": "E",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "primitive_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "361",
+        "character": "戈",
+        "keyword": "halberd",
+        "level": null,
+        "filename": "361_halberd",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "弋",
+            "keyword": "arrow",
+            "level": null,
+            "filename": "primitive_arrow",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,58 +1,68 @@
 {
-  "number": "2832",
-  "character": "霞",
-  "keyword": "red sky",
-  "level": null,
-  "id": "H",
-  "requirements": [
-    {
-      "number": "425",
-      "character": "雨",
-      "keyword": "rain",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "叚",
-      "keyword": "braces",
-      "level": null,
-      "id": "G",
-      "requirements": [
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "囧印－卩",
-          "keyword": "staples",
-          "level": null,
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "匚",
-          "keyword": "box",
-          "level": null,
-          "id": "E",
-          "requirements": []
-        },
-        {
-          "number": "633",
-          "character": "又",
-          "keyword": "again",
-          "level": "Elementary",
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 3026,
+  "hierarchy": {
+    "number": "2832",
+    "character": "霞",
+    "keyword": "red sky",
+    "level": null,
+    "filename": "2832_red_sky",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "425",
+        "character": "雨",
+        "keyword": "rain",
+        "level": "Elementary",
+        "filename": "425_rain",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "叚",
+        "keyword": "braces",
+        "level": null,
+        "filename": "primitive_braces",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "囧印－卩",
+            "keyword": "staples",
+            "level": null,
+            "filename": "primitive_staples",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "匚",
+            "keyword": "box",
+            "level": null,
+            "filename": "primitive_box",
+            "id": "E",
+            "requirements": []
+          },
+          {
+            "number": "633",
+            "character": "又",
+            "keyword": "again",
+            "level": "Elementary",
+            "filename": "633_again",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

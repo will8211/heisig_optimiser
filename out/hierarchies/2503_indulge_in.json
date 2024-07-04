@@ -1,51 +1,60 @@
 {
-  "number": "2503",
-  "character": "耽",
-  "keyword": "indulge in",
-  "level": null,
-  "id": "G",
-  "requirements": [
-    {
-      "number": "717",
-      "character": "耳",
-      "keyword": "ear",
-      "level": "Medium",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "冘",
-      "keyword": "Frankenbowser Rex",
-      "level": null,
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧尴－监",
-          "keyword": "Frankenbowser",
-          "level": null,
-          "id": "D",
-          "requirements": [
-            {
-              "number": "113",
-              "character": "大",
-              "keyword": "large",
-              "level": "Elementary",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "冖",
-          "keyword": "crown",
-          "level": null,
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2690,
+  "hierarchy": {
+    "number": "2503",
+    "character": "耽",
+    "keyword": "indulge in",
+    "level": null,
+    "filename": "2503_indulge_in",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "717",
+        "character": "耳",
+        "keyword": "ear",
+        "level": "Medium",
+        "filename": "717_ear",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "冘",
+        "keyword": "Frankenbowser Rex",
+        "level": null,
+        "filename": "primitive_Frankenbowser_Rex",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧尴－监",
+            "keyword": "Frankenbowser",
+            "level": null,
+            "filename": "primitive_Frankenbowser",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "113",
+                "character": "大",
+                "keyword": "large",
+                "level": "Elementary",
+                "filename": "113_large",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "冖",
+            "keyword": "crown",
+            "level": null,
+            "filename": "primitive_crown",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

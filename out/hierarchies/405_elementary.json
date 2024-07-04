@@ -1,34 +1,41 @@
 {
-  "number": "405",
-  "character": "初",
-  "keyword": "elementary",
-  "level": "Advanced",
-  "id": "E",
-  "requirements": [
-    {
-      "number": "400",
-      "character": "衣",
-      "keyword": "clothing",
-      "level": "Elementary",
-      "id": "C",
-      "requirements": [
-        {
-          "number": null,
-          "character": "亠",
-          "keyword": "top hat",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "83",
-      "character": "刀",
-      "keyword": "sword",
-      "level": "Medium",
-      "id": "D",
-      "requirements": []
-    }
-  ]
+  "order": 440,
+  "hierarchy": {
+    "number": "405",
+    "character": "初",
+    "keyword": "elementary",
+    "level": "Advanced",
+    "filename": "405_elementary",
+    "id": "E",
+    "requirements": [
+      {
+        "number": "400",
+        "character": "衣",
+        "keyword": "clothing",
+        "level": "Elementary",
+        "filename": "400_clothing",
+        "id": "C",
+        "requirements": [
+          {
+            "number": null,
+            "character": "亠",
+            "keyword": "top hat",
+            "level": null,
+            "filename": "primitive_top_hat",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "83",
+        "character": "刀",
+        "keyword": "sword",
+        "level": "Medium",
+        "filename": "83_sword",
+        "id": "D",
+        "requirements": []
+      }
+    ]
+  }
 }

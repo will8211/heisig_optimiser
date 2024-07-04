@@ -1,51 +1,60 @@
 {
-  "number": "705",
-  "character": "常",
-  "keyword": "often",
-  "level": "Elementary",
-  "id": "G",
-  "requirements": [
-    {
-      "number": null,
-      "character": "囧赏－贝",
-      "keyword": "outhouse",
-      "level": null,
-      "id": "E",
-      "requirements": [
-        {
-          "number": "109",
-          "character": "小",
-          "keyword": "small",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "410",
-      "character": "巾",
-      "keyword": "towel",
-      "level": "Advanced",
-      "id": "F",
-      "requirements": []
-    }
-  ]
+  "order": 765,
+  "hierarchy": {
+    "number": "705",
+    "character": "常",
+    "keyword": "often",
+    "level": "Elementary",
+    "filename": "705_often",
+    "id": "G",
+    "requirements": [
+      {
+        "number": null,
+        "character": "囧赏－贝",
+        "keyword": "outhouse",
+        "level": null,
+        "filename": "primitive_outhouse",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "109",
+            "character": "小",
+            "keyword": "small",
+            "level": "Elementary",
+            "filename": "109_small",
+            "id": "C",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "410",
+        "character": "巾",
+        "keyword": "towel",
+        "level": "Advanced",
+        "filename": "410_towel",
+        "id": "F",
+        "requirements": []
+      }
+    ]
+  }
 }

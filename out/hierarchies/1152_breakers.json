@@ -1,68 +1,79 @@
 {
-  "number": "1152",
-  "character": "浪",
-  "keyword": "breakers",
-  "level": "Advanced",
-  "id": "I",
-  "requirements": [
-    {
-      "number": "137",
-      "character": "水",
-      "keyword": "water",
-      "level": "Elementary",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丨",
-          "keyword": "walking stick",
-          "level": null,
-          "id": "C",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "1151",
-      "character": "良",
-      "keyword": "high-quality",
-      "level": "Advanced",
-      "id": "H",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "id": "F",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "艮",
-          "keyword": "silver",
-          "level": null,
-          "id": "G",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1248,
+  "hierarchy": {
+    "number": "1152",
+    "character": "浪",
+    "keyword": "breakers",
+    "level": "Advanced",
+    "filename": "1152_breakers",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "137",
+        "character": "水",
+        "keyword": "water",
+        "level": "Elementary",
+        "filename": "137_water",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丨",
+            "keyword": "walking stick",
+            "level": null,
+            "filename": "primitive_walking_stick",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "1151",
+        "character": "良",
+        "keyword": "high-quality",
+        "level": "Advanced",
+        "filename": "1151_high-quality",
+        "id": "H",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "F",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "艮",
+            "keyword": "silver",
+            "level": null,
+            "filename": "primitive_silver",
+            "id": "G",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

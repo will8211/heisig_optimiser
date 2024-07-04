@@ -1,76 +1,88 @@
 {
-  "number": "2300",
-  "character": "暑",
-  "keyword": "summer heat",
-  "level": "Advanced",
-  "id": "J",
-  "requirements": [
-    {
-      "number": "12",
-      "character": "日",
-      "keyword": "day",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1037",
-      "character": "者",
-      "keyword": "someone",
-      "level": "Medium",
-      "id": "I",
-      "requirements": [
-        {
-          "number": "1029",
-          "character": "老",
-          "keyword": "old man",
-          "level": "Elementary",
-          "id": "G",
-          "requirements": [
-            {
-              "number": "158",
-              "character": "土",
-              "keyword": "soil",
-              "level": "Medium",
-              "id": "C",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "丨",
-              "keyword": "walking stick",
-              "level": null,
-              "id": "E",
-              "requirements": [
-                {
-                  "number": "1",
-                  "character": "一",
-                  "keyword": "one",
-                  "level": "Elementary",
-                  "id": "D",
-                  "requirements": []
-                }
-              ]
-            },
-            {
-              "number": "453",
-              "character": "匕",
-              "keyword": "ancient spoon",
-              "level": null,
-              "id": "F",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "12",
-          "character": "日",
-          "keyword": "day",
-          "level": "Elementary",
-          "id": "H",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2468,
+  "hierarchy": {
+    "number": "2300",
+    "character": "暑",
+    "keyword": "summer heat",
+    "level": "Advanced",
+    "filename": "2300_summer_heat",
+    "id": "J",
+    "requirements": [
+      {
+        "number": "12",
+        "character": "日",
+        "keyword": "day",
+        "level": "Elementary",
+        "filename": "12_day",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1037",
+        "character": "者",
+        "keyword": "someone",
+        "level": "Medium",
+        "filename": "1037_someone",
+        "id": "I",
+        "requirements": [
+          {
+            "number": "1029",
+            "character": "老",
+            "keyword": "old man",
+            "level": "Elementary",
+            "filename": "1029_old_man",
+            "id": "G",
+            "requirements": [
+              {
+                "number": "158",
+                "character": "土",
+                "keyword": "soil",
+                "level": "Medium",
+                "filename": "158_soil",
+                "id": "C",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "丨",
+                "keyword": "walking stick",
+                "level": null,
+                "filename": "primitive_walking_stick",
+                "id": "E",
+                "requirements": [
+                  {
+                    "number": "1",
+                    "character": "一",
+                    "keyword": "one",
+                    "level": "Elementary",
+                    "filename": "1_one",
+                    "id": "D",
+                    "requirements": []
+                  }
+                ]
+              },
+              {
+                "number": "453",
+                "character": "匕",
+                "keyword": "ancient spoon",
+                "level": null,
+                "filename": "453_ancient_spoon",
+                "id": "F",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "12",
+            "character": "日",
+            "keyword": "day",
+            "level": "Elementary",
+            "filename": "12_day",
+            "id": "H",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,59 +1,69 @@
 {
-  "number": "2572",
-  "character": "腥",
-  "keyword": "fishy smell",
-  "level": null,
-  "id": "H",
-  "requirements": [
-    {
-      "number": "13",
-      "character": "月",
-      "keyword": "month",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1219",
-      "character": "星",
-      "keyword": "star",
-      "level": "Elementary",
-      "id": "G",
-      "requirements": [
-        {
-          "number": "12",
-          "character": "日",
-          "keyword": "day",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "1218",
-          "character": "生",
-          "keyword": "life",
-          "level": "Elementary",
-          "id": "F",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "id": "D",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "囧毒－母",
-              "keyword": "grow up",
-              "level": null,
-              "id": "E",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2759,
+  "hierarchy": {
+    "number": "2572",
+    "character": "腥",
+    "keyword": "fishy smell",
+    "level": null,
+    "filename": "2572_fishy_smell",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "13",
+        "character": "月",
+        "keyword": "month",
+        "level": "Elementary",
+        "filename": "13_month",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1219",
+        "character": "星",
+        "keyword": "star",
+        "level": "Elementary",
+        "filename": "1219_star",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "12",
+            "character": "日",
+            "keyword": "day",
+            "level": "Elementary",
+            "filename": "12_day",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "1218",
+            "character": "生",
+            "keyword": "life",
+            "level": "Elementary",
+            "filename": "1218_life",
+            "id": "F",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "D",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "囧毒－母",
+                "keyword": "grow up",
+                "level": null,
+                "filename": "primitive_grow_up",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

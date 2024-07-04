@@ -1,34 +1,41 @@
 {
-  "number": "2011",
-  "character": "稼",
-  "keyword": "crops",
-  "level": null,
-  "id": "E",
-  "requirements": [
-    {
-      "number": "762",
-      "character": "禾",
-      "keyword": "standing grain",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "囧家",
-      "keyword": "flophouse",
-      "level": null,
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "宀",
-          "keyword": "house",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2168,
+  "hierarchy": {
+    "number": "2011",
+    "character": "稼",
+    "keyword": "crops",
+    "level": null,
+    "filename": "2011_crops",
+    "id": "E",
+    "requirements": [
+      {
+        "number": "762",
+        "character": "禾",
+        "keyword": "standing grain",
+        "level": null,
+        "filename": "762_standing_grain",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "囧家",
+        "keyword": "flophouse",
+        "level": null,
+        "filename": "primitive_flophouse",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "宀",
+            "keyword": "house",
+            "level": null,
+            "filename": "primitive_house",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

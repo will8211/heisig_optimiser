@@ -1,42 +1,50 @@
 {
-  "number": "1064",
-  "character": "阶",
-  "keyword": "stairs",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": null,
-      "character": "阝",
-      "keyword": "pinnacle",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "259",
-      "character": "介",
-      "keyword": "introduce",
-      "level": "Elementary",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "𠆢",
-          "keyword": "umbrella",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "囧介－𠆢",
-          "keyword": "crutches",
-          "level": null,
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1145,
+  "hierarchy": {
+    "number": "1064",
+    "character": "阶",
+    "keyword": "stairs",
+    "level": null,
+    "filename": "1064_stairs",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "阝",
+        "keyword": "pinnacle",
+        "level": null,
+        "filename": "primitive_pinnacle",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "259",
+        "character": "介",
+        "keyword": "introduce",
+        "level": "Elementary",
+        "filename": "259_introduce",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "𠆢",
+            "keyword": "umbrella",
+            "level": null,
+            "filename": "primitive_umbrella",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "囧介－𠆢",
+            "keyword": "crutches",
+            "level": null,
+            "filename": "primitive_crutches",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

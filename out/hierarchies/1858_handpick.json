@@ -1,76 +1,88 @@
 {
-  "number": "1858",
-  "character": "摘",
-  "keyword": "handpick",
-  "level": null,
-  "id": "J",
-  "requirements": [
-    {
-      "number": null,
-      "character": "扌",
-      "keyword": "fingers",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "啇",
-      "keyword": "antique",
-      "level": null,
-      "id": "I",
-      "requirements": [
-        {
-          "number": "444",
-          "character": "立",
-          "keyword": "standing up",
-          "level": "Advanced",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "冂",
-          "keyword": "hood",
-          "level": null,
-          "id": "E",
-          "requirements": [
-            {
-              "number": "57",
-              "character": "几",
-              "keyword": "how many?",
-              "level": "Elementary",
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "16",
-          "character": "古",
-          "keyword": "ancient",
-          "level": "Medium",
-          "id": "H",
-          "requirements": [
-            {
-              "number": "10",
-              "character": "十",
-              "keyword": "ten",
-              "level": "Elementary",
-              "id": "F",
-              "requirements": []
-            },
-            {
-              "number": "11",
-              "character": "口",
-              "keyword": "mouth",
-              "level": "Elementary",
-              "id": "G",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2009,
+  "hierarchy": {
+    "number": "1858",
+    "character": "摘",
+    "keyword": "handpick",
+    "level": null,
+    "filename": "1858_handpick",
+    "id": "J",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "primitive_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "啇",
+        "keyword": "antique",
+        "level": null,
+        "filename": "primitive_antique",
+        "id": "I",
+        "requirements": [
+          {
+            "number": "444",
+            "character": "立",
+            "keyword": "standing up",
+            "level": "Advanced",
+            "filename": "444_standing_up",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "冂",
+            "keyword": "hood",
+            "level": null,
+            "filename": "primitive_hood",
+            "id": "E",
+            "requirements": [
+              {
+                "number": "57",
+                "character": "几",
+                "keyword": "how many?",
+                "level": "Elementary",
+                "filename": "57_how_many",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "16",
+            "character": "古",
+            "keyword": "ancient",
+            "level": "Medium",
+            "filename": "16_ancient",
+            "id": "H",
+            "requirements": [
+              {
+                "number": "10",
+                "character": "十",
+                "keyword": "ten",
+                "level": "Elementary",
+                "filename": "10_ten",
+                "id": "F",
+                "requirements": []
+              },
+              {
+                "number": "11",
+                "character": "口",
+                "keyword": "mouth",
+                "level": "Elementary",
+                "filename": "11_mouth",
+                "id": "G",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

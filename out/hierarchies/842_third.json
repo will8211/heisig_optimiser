@@ -1,51 +1,60 @@
 {
-  "number": "842",
-  "character": "丙",
-  "keyword": "third",
-  "level": null,
-  "id": "G",
-  "requirements": [
-    {
-      "number": "1",
-      "character": "一",
-      "keyword": "one",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "840",
-      "character": "内",
-      "keyword": "internal",
-      "level": "Advanced",
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧冂",
-          "keyword": "belt",
-          "level": null,
-          "id": "D",
-          "requirements": [
-            {
-              "number": "410",
-              "character": "巾",
-              "keyword": "towel",
-              "level": "Advanced",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "793",
-          "character": "人",
-          "keyword": "person",
-          "level": "Elementary",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 904,
+  "hierarchy": {
+    "number": "842",
+    "character": "丙",
+    "keyword": "third",
+    "level": null,
+    "filename": "842_third",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "1",
+        "character": "一",
+        "keyword": "one",
+        "level": "Elementary",
+        "filename": "1_one",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "840",
+        "character": "内",
+        "keyword": "internal",
+        "level": "Advanced",
+        "filename": "840_internal",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧冂",
+            "keyword": "belt",
+            "level": null,
+            "filename": "primitive_belt",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "410",
+                "character": "巾",
+                "keyword": "towel",
+                "level": "Advanced",
+                "filename": "410_towel",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "793",
+            "character": "人",
+            "keyword": "person",
+            "level": "Elementary",
+            "filename": "793_person",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

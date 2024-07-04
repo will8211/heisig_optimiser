@@ -1,25 +1,31 @@
 {
-  "number": "2941",
-  "character": "龟",
-  "keyword": "tortoise",
-  "level": null,
-  "id": "D",
-  "requirements": [
-    {
-      "number": null,
-      "character": "勹",
-      "keyword": "bound up",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1484",
-      "character": "电",
-      "keyword": "electricity",
-      "level": "Elementary",
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 3140,
+  "hierarchy": {
+    "number": "2941",
+    "character": "龟",
+    "keyword": "tortoise",
+    "level": null,
+    "filename": "2941_tortoise",
+    "id": "D",
+    "requirements": [
+      {
+        "number": null,
+        "character": "勹",
+        "keyword": "bound up",
+        "level": null,
+        "filename": "primitive_bound_up",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1484",
+        "character": "电",
+        "keyword": "electricity",
+        "level": "Elementary",
+        "filename": "1484_electricity",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

@@ -1,69 +1,80 @@
 {
-  "number": "1861",
-  "character": "搓",
-  "keyword": "massage",
-  "level": null,
-  "id": "I",
-  "requirements": [
-    {
-      "number": null,
-      "character": "扌",
-      "keyword": "fingers",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "535",
-      "character": "差",
-      "keyword": "fall short of",
-      "level": "Elementary",
-      "id": "H",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧差－工",
-          "keyword": "wool",
-          "level": null,
-          "id": "F",
-          "requirements": [
-            {
-              "number": "528",
-              "character": "羊",
-              "keyword": "sheep",
-              "level": "Medium",
-              "id": "E",
-              "requirements": [
-                {
-                  "number": null,
-                  "character": "丷",
-                  "keyword": "horns",
-                  "level": null,
-                  "id": "D",
-                  "requirements": [
-                    {
-                      "number": "1",
-                      "character": "一",
-                      "keyword": "one",
-                      "level": "Elementary",
-                      "id": "C",
-                      "requirements": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "number": "76",
-          "character": "工",
-          "keyword": "work",
-          "level": "Elementary",
-          "id": "G",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2012,
+  "hierarchy": {
+    "number": "1861",
+    "character": "搓",
+    "keyword": "massage",
+    "level": null,
+    "filename": "1861_massage",
+    "id": "I",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "primitive_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "535",
+        "character": "差",
+        "keyword": "fall short of",
+        "level": "Elementary",
+        "filename": "535_fall_short_of",
+        "id": "H",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧差－工",
+            "keyword": "wool",
+            "level": null,
+            "filename": "primitive_wool",
+            "id": "F",
+            "requirements": [
+              {
+                "number": "528",
+                "character": "羊",
+                "keyword": "sheep",
+                "level": "Medium",
+                "filename": "528_sheep",
+                "id": "E",
+                "requirements": [
+                  {
+                    "number": null,
+                    "character": "丷",
+                    "keyword": "horns",
+                    "level": null,
+                    "filename": "primitive_horns",
+                    "id": "D",
+                    "requirements": [
+                      {
+                        "number": "1",
+                        "character": "一",
+                        "keyword": "one",
+                        "level": "Elementary",
+                        "filename": "1_one",
+                        "id": "C",
+                        "requirements": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "number": "76",
+            "character": "工",
+            "keyword": "work",
+            "level": "Elementary",
+            "filename": "76_work",
+            "id": "G",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

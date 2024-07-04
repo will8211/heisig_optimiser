@@ -1,34 +1,41 @@
 {
-  "number": "707",
-  "character": "皮",
-  "keyword": "covering",
-  "level": "Advanced",
-  "id": "E",
-  "requirements": [
-    {
-      "number": "650",
-      "character": "支",
-      "keyword": "offshoot",
-      "level": "Medium",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "10",
-          "character": "十",
-          "keyword": "ten",
-          "level": "Elementary",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "633",
-          "character": "又",
-          "keyword": "again",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 767,
+  "hierarchy": {
+    "number": "707",
+    "character": "皮",
+    "keyword": "covering",
+    "level": "Advanced",
+    "filename": "707_covering",
+    "id": "E",
+    "requirements": [
+      {
+        "number": "650",
+        "character": "支",
+        "keyword": "offshoot",
+        "level": "Medium",
+        "filename": "650_offshoot",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "10",
+            "character": "十",
+            "keyword": "ten",
+            "level": "Elementary",
+            "filename": "10_ten",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "633",
+            "character": "又",
+            "keyword": "again",
+            "level": "Elementary",
+            "filename": "633_again",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

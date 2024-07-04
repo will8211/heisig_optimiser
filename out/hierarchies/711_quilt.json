@@ -1,60 +1,70 @@
 {
-  "number": "711",
-  "character": "被",
-  "keyword": "quilt",
-  "level": "Medium",
-  "id": "H",
-  "requirements": [
-    {
-      "number": "400",
-      "character": "衣",
-      "keyword": "clothing",
-      "level": "Elementary",
-      "id": "C",
-      "requirements": [
-        {
-          "number": null,
-          "character": "亠",
-          "keyword": "top hat",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "707",
-      "character": "皮",
-      "keyword": "covering",
-      "level": "Advanced",
-      "id": "G",
-      "requirements": [
-        {
-          "number": "650",
-          "character": "支",
-          "keyword": "offshoot",
-          "level": "Medium",
-          "id": "F",
-          "requirements": [
-            {
-              "number": "10",
-              "character": "十",
-              "keyword": "ten",
-              "level": "Elementary",
-              "id": "D",
-              "requirements": []
-            },
-            {
-              "number": "633",
-              "character": "又",
-              "keyword": "again",
-              "level": "Elementary",
-              "id": "E",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 771,
+  "hierarchy": {
+    "number": "711",
+    "character": "被",
+    "keyword": "quilt",
+    "level": "Medium",
+    "filename": "711_quilt",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "400",
+        "character": "衣",
+        "keyword": "clothing",
+        "level": "Elementary",
+        "filename": "400_clothing",
+        "id": "C",
+        "requirements": [
+          {
+            "number": null,
+            "character": "亠",
+            "keyword": "top hat",
+            "level": null,
+            "filename": "primitive_top_hat",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "707",
+        "character": "皮",
+        "keyword": "covering",
+        "level": "Advanced",
+        "filename": "707_covering",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "650",
+            "character": "支",
+            "keyword": "offshoot",
+            "level": "Medium",
+            "filename": "650_offshoot",
+            "id": "F",
+            "requirements": [
+              {
+                "number": "10",
+                "character": "十",
+                "keyword": "ten",
+                "level": "Elementary",
+                "filename": "10_ten",
+                "id": "D",
+                "requirements": []
+              },
+              {
+                "number": "633",
+                "character": "又",
+                "keyword": "again",
+                "level": "Elementary",
+                "filename": "633_again",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

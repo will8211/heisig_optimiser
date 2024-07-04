@@ -1,43 +1,51 @@
 {
-  "number": "2491",
-  "character": "盏",
-  "keyword": "small cup",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": null,
-      "character": "戋",
-      "keyword": "float",
-      "level": null,
-      "id": "D",
-      "requirements": [
-        {
-          "number": "361",
-          "character": "戈",
-          "keyword": "halberd",
-          "level": null,
-          "id": "C",
-          "requirements": [
-            {
-              "number": null,
-              "character": "弋",
-              "keyword": "arrow",
-              "level": null,
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "皿",
-      "keyword": "dish",
-      "level": null,
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 2675,
+  "hierarchy": {
+    "number": "2491",
+    "character": "盏",
+    "keyword": "small cup",
+    "level": null,
+    "filename": "2491_small_cup",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "戋",
+        "keyword": "float",
+        "level": null,
+        "filename": "primitive_float",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "361",
+            "character": "戈",
+            "keyword": "halberd",
+            "level": null,
+            "filename": "361_halberd",
+            "id": "C",
+            "requirements": [
+              {
+                "number": null,
+                "character": "弋",
+                "keyword": "arrow",
+                "level": null,
+                "filename": "primitive_arrow",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "皿",
+        "keyword": "dish",
+        "level": null,
+        "filename": "primitive_dish",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

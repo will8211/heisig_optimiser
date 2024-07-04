@@ -1,42 +1,50 @@
 {
-  "number": "1689",
-  "character": "柿",
-  "keyword": "persimmon",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": "202",
-      "character": "木",
-      "keyword": "tree",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "419",
-      "character": "市",
-      "keyword": "market",
-      "level": "Medium",
-      "id": "E",
-      "requirements": [
-        {
-          "number": "410",
-          "character": "巾",
-          "keyword": "towel",
-          "level": "Advanced",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "亠",
-          "keyword": "top hat",
-          "level": null,
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1834,
+  "hierarchy": {
+    "number": "1689",
+    "character": "柿",
+    "keyword": "persimmon",
+    "level": null,
+    "filename": "1689_persimmon",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "202",
+        "character": "木",
+        "keyword": "tree",
+        "level": "Elementary",
+        "filename": "202_tree",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "419",
+        "character": "市",
+        "keyword": "market",
+        "level": "Medium",
+        "filename": "419_market",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "410",
+            "character": "巾",
+            "keyword": "towel",
+            "level": "Advanced",
+            "filename": "410_towel",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "亠",
+            "keyword": "top hat",
+            "level": null,
+            "filename": "primitive_top_hat",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,75 +1,87 @@
 {
-  "number": "2010",
-  "character": "颖",
-  "keyword": "clever",
-  "level": null,
-  "id": "J",
-  "requirements": [
-    {
-      "number": "453",
-      "character": "匕",
-      "keyword": "ancient spoon",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "762",
-      "character": "禾",
-      "keyword": "standing grain",
-      "level": null,
-      "id": "C",
-      "requirements": []
-    },
-    {
-      "number": "60",
-      "character": "页",
-      "keyword": "page",
-      "level": "Medium",
-      "id": "I",
-      "requirements": [
-        {
-          "number": "52",
-          "character": "贝",
-          "keyword": "shellfish",
-          "level": "Medium",
-          "id": "F",
-          "requirements": [
-            {
-              "number": "15",
-              "character": "目",
-              "keyword": "eye",
-              "level": "Medium",
-              "id": "D",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "囧只－口",
-              "keyword": "animal legs",
-              "level": null,
-              "id": "E",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "id": "G",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "id": "H",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2167,
+  "hierarchy": {
+    "number": "2010",
+    "character": "颖",
+    "keyword": "clever",
+    "level": null,
+    "filename": "2010_clever",
+    "id": "J",
+    "requirements": [
+      {
+        "number": "453",
+        "character": "匕",
+        "keyword": "ancient spoon",
+        "level": null,
+        "filename": "453_ancient_spoon",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "762",
+        "character": "禾",
+        "keyword": "standing grain",
+        "level": null,
+        "filename": "762_standing_grain",
+        "id": "C",
+        "requirements": []
+      },
+      {
+        "number": "60",
+        "character": "页",
+        "keyword": "page",
+        "level": "Medium",
+        "filename": "60_page",
+        "id": "I",
+        "requirements": [
+          {
+            "number": "52",
+            "character": "贝",
+            "keyword": "shellfish",
+            "level": "Medium",
+            "filename": "52_shellfish",
+            "id": "F",
+            "requirements": [
+              {
+                "number": "15",
+                "character": "目",
+                "keyword": "eye",
+                "level": "Medium",
+                "filename": "15_eye",
+                "id": "D",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "囧只－口",
+                "keyword": "animal legs",
+                "level": null,
+                "filename": "primitive_animal_legs",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "G",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "H",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

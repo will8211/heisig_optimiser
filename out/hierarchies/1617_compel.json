@@ -1,42 +1,50 @@
 {
-  "number": "1617",
-  "character": "迫",
-  "keyword": "compel",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": "34",
-      "character": "白",
-      "keyword": "white",
-      "level": "Elementary",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "12",
-          "character": "日",
-          "keyword": "day",
-          "level": "Elementary",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "辶",
-      "keyword": "road",
-      "level": null,
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 1757,
+  "hierarchy": {
+    "number": "1617",
+    "character": "迫",
+    "keyword": "compel",
+    "level": null,
+    "filename": "1617_compel",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "34",
+        "character": "白",
+        "keyword": "white",
+        "level": "Elementary",
+        "filename": "34_white",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "12",
+            "character": "日",
+            "keyword": "day",
+            "level": "Elementary",
+            "filename": "12_day",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "辶",
+        "keyword": "road",
+        "level": null,
+        "filename": "primitive_road",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

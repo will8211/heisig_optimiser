@@ -1,77 +1,89 @@
 {
-  "number": "2905",
-  "character": "骡",
-  "keyword": "mule",
-  "level": null,
-  "id": "J",
-  "requirements": [
-    {
-      "number": "1453",
-      "character": "马",
-      "keyword": "horse",
-      "level": "Elementary",
-      "id": "C",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧与－丨一",
-          "keyword": "pointed tail",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "2418",
-      "character": "累",
-      "keyword": "tired",
-      "level": "Elementary",
-      "id": "I",
-      "requirements": [
-        {
-          "number": "14",
-          "character": "田",
-          "keyword": "rice field",
-          "level": "Medium",
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "糸",
-          "keyword": "floss",
-          "level": null,
-          "id": "H",
-          "requirements": [
-            {
-              "number": null,
-              "character": "幺",
-              "keyword": "cocoon",
-              "level": null,
-              "id": "E",
-              "requirements": []
-            },
-            {
-              "number": "109",
-              "character": "小",
-              "keyword": "small",
-              "level": "Elementary",
-              "id": "G",
-              "requirements": [
-                {
-                  "number": null,
-                  "character": "丶",
-                  "keyword": "a drop of",
-                  "level": null,
-                  "id": "F",
-                  "requirements": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 3102,
+  "hierarchy": {
+    "number": "2905",
+    "character": "骡",
+    "keyword": "mule",
+    "level": null,
+    "filename": "2905_mule",
+    "id": "J",
+    "requirements": [
+      {
+        "number": "1453",
+        "character": "马",
+        "keyword": "horse",
+        "level": "Elementary",
+        "filename": "1453_horse",
+        "id": "C",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧与－丨一",
+            "keyword": "pointed tail",
+            "level": null,
+            "filename": "primitive_pointed_tail",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "2418",
+        "character": "累",
+        "keyword": "tired",
+        "level": "Elementary",
+        "filename": "2418_tired",
+        "id": "I",
+        "requirements": [
+          {
+            "number": "14",
+            "character": "田",
+            "keyword": "rice field",
+            "level": "Medium",
+            "filename": "14_rice_field",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "糸",
+            "keyword": "floss",
+            "level": null,
+            "filename": "primitive_floss",
+            "id": "H",
+            "requirements": [
+              {
+                "number": null,
+                "character": "幺",
+                "keyword": "cocoon",
+                "level": null,
+                "filename": "primitive_cocoon",
+                "id": "E",
+                "requirements": []
+              },
+              {
+                "number": "109",
+                "character": "小",
+                "keyword": "small",
+                "level": "Elementary",
+                "filename": "109_small",
+                "id": "G",
+                "requirements": [
+                  {
+                    "number": null,
+                    "character": "丶",
+                    "keyword": "a drop of",
+                    "level": null,
+                    "filename": "primitive_a_drop_of",
+                    "id": "F",
+                    "requirements": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

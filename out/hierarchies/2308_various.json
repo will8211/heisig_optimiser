@@ -1,110 +1,126 @@
 {
-  "number": "2308",
-  "character": "诸",
-  "keyword": "various",
-  "level": null,
-  "id": "N",
-  "requirements": [
-    {
-      "number": "346",
-      "character": "言",
-      "keyword": "say",
-      "level": "Medium",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "2",
-          "character": "二",
-          "keyword": "two",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "亠",
-          "keyword": "top hat",
-          "level": null,
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "1037",
-      "character": "者",
-      "keyword": "someone",
-      "level": "Medium",
-      "id": "M",
-      "requirements": [
-        {
-          "number": "1029",
-          "character": "老",
-          "keyword": "old man",
-          "level": "Elementary",
-          "id": "K",
-          "requirements": [
-            {
-              "number": "158",
-              "character": "土",
-              "keyword": "soil",
-              "level": "Medium",
-              "id": "G",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "丨",
-              "keyword": "walking stick",
-              "level": null,
-              "id": "I",
-              "requirements": [
-                {
-                  "number": "1",
-                  "character": "一",
-                  "keyword": "one",
-                  "level": "Elementary",
-                  "id": "H",
-                  "requirements": []
-                }
-              ]
-            },
-            {
-              "number": "453",
-              "character": "匕",
-              "keyword": "ancient spoon",
-              "level": null,
-              "id": "J",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "12",
-          "character": "日",
-          "keyword": "day",
-          "level": "Elementary",
-          "id": "L",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2476,
+  "hierarchy": {
+    "number": "2308",
+    "character": "诸",
+    "keyword": "various",
+    "level": null,
+    "filename": "2308_various",
+    "id": "N",
+    "requirements": [
+      {
+        "number": "346",
+        "character": "言",
+        "keyword": "say",
+        "level": "Medium",
+        "filename": "346_say",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "2",
+            "character": "二",
+            "keyword": "two",
+            "level": "Elementary",
+            "filename": "2_two",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "亠",
+            "keyword": "top hat",
+            "level": null,
+            "filename": "primitive_top_hat",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "1037",
+        "character": "者",
+        "keyword": "someone",
+        "level": "Medium",
+        "filename": "1037_someone",
+        "id": "M",
+        "requirements": [
+          {
+            "number": "1029",
+            "character": "老",
+            "keyword": "old man",
+            "level": "Elementary",
+            "filename": "1029_old_man",
+            "id": "K",
+            "requirements": [
+              {
+                "number": "158",
+                "character": "土",
+                "keyword": "soil",
+                "level": "Medium",
+                "filename": "158_soil",
+                "id": "G",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "丨",
+                "keyword": "walking stick",
+                "level": null,
+                "filename": "primitive_walking_stick",
+                "id": "I",
+                "requirements": [
+                  {
+                    "number": "1",
+                    "character": "一",
+                    "keyword": "one",
+                    "level": "Elementary",
+                    "filename": "1_one",
+                    "id": "H",
+                    "requirements": []
+                  }
+                ]
+              },
+              {
+                "number": "453",
+                "character": "匕",
+                "keyword": "ancient spoon",
+                "level": null,
+                "filename": "453_ancient_spoon",
+                "id": "J",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "12",
+            "character": "日",
+            "keyword": "day",
+            "level": "Elementary",
+            "filename": "12_day",
+            "id": "L",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

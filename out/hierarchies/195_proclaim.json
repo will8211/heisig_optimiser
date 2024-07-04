@@ -1,50 +1,59 @@
 {
-  "number": "195",
-  "character": "宣",
-  "keyword": "proclaim",
-  "level": "Advanced",
-  "id": "G",
-  "requirements": [
-    {
-      "number": null,
-      "character": "宀",
-      "keyword": "house",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "30",
-      "character": "旦",
-      "keyword": "daybreak",
-      "level": "Medium",
-      "id": "E",
-      "requirements": [
-        {
-          "number": "12",
-          "character": "日",
-          "keyword": "day",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "12",
-      "character": "日",
-      "keyword": "day",
-      "level": "Elementary",
-      "id": "F",
-      "requirements": []
-    }
-  ]
+  "order": 206,
+  "hierarchy": {
+    "number": "195",
+    "character": "宣",
+    "keyword": "proclaim",
+    "level": "Advanced",
+    "filename": "195_proclaim",
+    "id": "G",
+    "requirements": [
+      {
+        "number": null,
+        "character": "宀",
+        "keyword": "house",
+        "level": null,
+        "filename": "primitive_house",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "30",
+        "character": "旦",
+        "keyword": "daybreak",
+        "level": "Medium",
+        "filename": "30_daybreak",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "12",
+            "character": "日",
+            "keyword": "day",
+            "level": "Elementary",
+            "filename": "12_day",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "12",
+        "character": "日",
+        "keyword": "day",
+        "level": "Elementary",
+        "filename": "12_day",
+        "id": "F",
+        "requirements": []
+      }
+    ]
+  }
 }

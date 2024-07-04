@@ -1,59 +1,69 @@
 {
-  "number": "2042",
-  "character": "憋",
-  "keyword": "suppress",
-  "level": null,
-  "id": "H",
-  "requirements": [
-    {
-      "number": null,
-      "character": "敝",
-      "keyword": "shredder",
-      "level": null,
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "冂",
-          "keyword": "hood",
-          "level": null,
-          "id": "C",
-          "requirements": [
-            {
-              "number": "57",
-              "character": "几",
-              "keyword": "how many?",
-              "level": "Elementary",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "778",
-          "character": "米",
-          "keyword": "rice",
-          "level": "Medium",
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "攵",
-          "keyword": "taskmaster",
-          "level": null,
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "563",
-      "character": "心",
-      "keyword": "heart",
-      "level": "Medium",
-      "id": "G",
-      "requirements": []
-    }
-  ]
+  "order": 2203,
+  "hierarchy": {
+    "number": "2042",
+    "character": "憋",
+    "keyword": "suppress",
+    "level": null,
+    "filename": "2042_suppress",
+    "id": "H",
+    "requirements": [
+      {
+        "number": null,
+        "character": "敝",
+        "keyword": "shredder",
+        "level": null,
+        "filename": "primitive_shredder",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "冂",
+            "keyword": "hood",
+            "level": null,
+            "filename": "primitive_hood",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "57",
+                "character": "几",
+                "keyword": "how many?",
+                "level": "Elementary",
+                "filename": "57_how_many",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "778",
+            "character": "米",
+            "keyword": "rice",
+            "level": "Medium",
+            "filename": "778_rice",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "攵",
+            "keyword": "taskmaster",
+            "level": null,
+            "filename": "primitive_taskmaster",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "563",
+        "character": "心",
+        "keyword": "heart",
+        "level": "Medium",
+        "filename": "563_heart",
+        "id": "G",
+        "requirements": []
+      }
+    ]
+  }
 }

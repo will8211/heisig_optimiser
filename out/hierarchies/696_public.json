@@ -1,25 +1,31 @@
 {
-  "number": "696",
-  "character": "公",
-  "keyword": "public",
-  "level": "Medium",
-  "id": "D",
-  "requirements": [
-    {
-      "number": "8",
-      "character": "八",
-      "keyword": "eight",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "厶",
-      "keyword": "elbow",
-      "level": null,
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 755,
+  "hierarchy": {
+    "number": "696",
+    "character": "公",
+    "keyword": "public",
+    "level": "Medium",
+    "filename": "696_public",
+    "id": "D",
+    "requirements": [
+      {
+        "number": "8",
+        "character": "八",
+        "keyword": "eight",
+        "level": "Elementary",
+        "filename": "8_eight",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "厶",
+        "keyword": "elbow",
+        "level": null,
+        "filename": "primitive_elbow",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

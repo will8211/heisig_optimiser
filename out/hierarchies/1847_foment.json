@@ -1,25 +1,31 @@
 {
-  "number": "1847",
-  "character": "挑",
-  "keyword": "foment",
-  "level": "Advanced",
-  "id": "D",
-  "requirements": [
-    {
-      "number": null,
-      "character": "扌",
-      "keyword": "fingers",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "237",
-      "character": "兆",
-      "keyword": "portent",
-      "level": null,
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 1998,
+  "hierarchy": {
+    "number": "1847",
+    "character": "挑",
+    "keyword": "foment",
+    "level": "Advanced",
+    "filename": "1847_foment",
+    "id": "D",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "primitive_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "237",
+        "character": "兆",
+        "keyword": "portent",
+        "level": null,
+        "filename": "237_portent",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

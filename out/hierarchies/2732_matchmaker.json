@@ -1,42 +1,50 @@
 {
-  "number": "2732",
-  "character": "媒",
-  "keyword": "matchmaker",
-  "level": "Advanced",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "102",
-      "character": "女",
-      "keyword": "woman",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1334",
-      "character": "某",
-      "keyword": "such and such",
-      "level": "Advanced",
-      "id": "E",
-      "requirements": [
-        {
-          "number": "1333",
-          "character": "甘",
-          "keyword": "sweet",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "202",
-          "character": "木",
-          "keyword": "tree",
-          "level": "Elementary",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2925,
+  "hierarchy": {
+    "number": "2732",
+    "character": "媒",
+    "keyword": "matchmaker",
+    "level": "Advanced",
+    "filename": "2732_matchmaker",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "102",
+        "character": "女",
+        "keyword": "woman",
+        "level": "Elementary",
+        "filename": "102_woman",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1334",
+        "character": "某",
+        "keyword": "such and such",
+        "level": "Advanced",
+        "filename": "1334_such_and_such",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "1333",
+            "character": "甘",
+            "keyword": "sweet",
+            "level": null,
+            "filename": "1333_sweet",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "202",
+            "character": "木",
+            "keyword": "tree",
+            "level": "Elementary",
+            "filename": "202_tree",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

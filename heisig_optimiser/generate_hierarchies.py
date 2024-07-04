@@ -8,7 +8,23 @@ def _increment_id(letter: str):
     return incremented.decode("utf-8")
 
 
-# Function to recursively build the hierarchy
+def _generate_filename(character_data):
+    if character_data["Number"]:
+        prefix = character_data["Number"]
+    elif character_data["Type"] == "primitive":
+        prefix = "primitive"
+    else:
+        prefix = "extra"
+    filename = (
+        (f"{prefix}_{character_data['Keywords'][0]}")
+        .replace(" ", "_")
+        .replace("?", "")
+        .replace("'", "_")
+        .replace("‡", "")
+    )
+    return filename
+
+
 def _build_hierarchy(character, character_map, visited=None):
     global id
     if visited is None:
@@ -43,7 +59,8 @@ def _build_hierarchy(character, character_map, visited=None):
         "number": str(character_data["Number"]) if character_data["Number"] else None,
         "character": character_data["Character"],
         "keyword": character_data["Keywords"][0],
-        "level": character_data['Level'],
+        "level": character_data["Level"],
+        "filename": _generate_filename(character_data),
         "id": id,
         "requirements": requirements,
     }
@@ -68,18 +85,13 @@ def generate_hierarchies():
     for character_data in data:
         id = "A"
         character = character_data["Character"]
-        number = character_data["Number"]
-        first_keyword = character_data["Keywords"][0]
         hierarchy = _build_hierarchy(character, character_map)
         if hierarchy:
-            output_file = (
-                os.path.join(output_dir, f"{number or 'extra'}_{first_keyword}.json")
-                .replace(" ", "_")
-                .replace("?", "")
-                .replace("'", "_")
-                .replace("‡", "")
+            output_file = os.path.join(
+                output_dir, _generate_filename(character_data) + ".json"
             )
+            dict = {"order": character_data["Order"], "hierarchy": hierarchy}
             with open(output_file, "w", encoding="utf-8") as f:
-                json.dump(hierarchy, f, ensure_ascii=False, indent=2)
+                json.dump(dict, f, ensure_ascii=False, indent=2)
 
     print("Hierarchical JSON files generated successfully.")

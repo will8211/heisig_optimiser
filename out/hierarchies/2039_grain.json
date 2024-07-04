@@ -1,25 +1,31 @@
 {
-  "number": "2039",
-  "character": "粒",
-  "keyword": "grain",
-  "level": null,
-  "id": "D",
-  "requirements": [
-    {
-      "number": "778",
-      "character": "米",
-      "keyword": "rice",
-      "level": "Medium",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "444",
-      "character": "立",
-      "keyword": "standing up",
-      "level": "Advanced",
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 2199,
+  "hierarchy": {
+    "number": "2039",
+    "character": "粒",
+    "keyword": "grain",
+    "level": null,
+    "filename": "2039_grain",
+    "id": "D",
+    "requirements": [
+      {
+        "number": "778",
+        "character": "米",
+        "keyword": "rice",
+        "level": "Medium",
+        "filename": "778_rice",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "444",
+        "character": "立",
+        "keyword": "standing up",
+        "level": "Advanced",
+        "filename": "444_standing_up",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

@@ -1,43 +1,51 @@
 {
-  "number": "1424",
-  "character": "托",
-  "keyword": "entrust",
-  "level": "Advanced",
-  "id": "F",
-  "requirements": [
-    {
-      "number": null,
-      "character": "扌",
-      "keyword": "fingers",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "乇",
-      "keyword": "fur ball",
-      "level": null,
-      "id": "E",
-      "requirements": [
-        {
-          "number": "1421",
-          "character": "毛",
-          "keyword": "fur",
-          "level": "Medium",
-          "id": "D",
-          "requirements": [
-            {
-              "number": "584",
-              "character": "手",
-              "keyword": "hand",
-              "level": "Elementary",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 1554,
+  "hierarchy": {
+    "number": "1424",
+    "character": "托",
+    "keyword": "entrust",
+    "level": "Advanced",
+    "filename": "1424_entrust",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "primitive_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "乇",
+        "keyword": "fur ball",
+        "level": null,
+        "filename": "primitive_fur_ball",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "1421",
+            "character": "毛",
+            "keyword": "fur",
+            "level": "Medium",
+            "filename": "1421_fur",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "584",
+                "character": "手",
+                "keyword": "hand",
+                "level": "Elementary",
+                "filename": "584_hand",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

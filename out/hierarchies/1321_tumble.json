@@ -1,58 +1,68 @@
 {
-  "number": "1321",
-  "character": "摔",
-  "keyword": "tumble",
-  "level": null,
-  "id": "H",
-  "requirements": [
-    {
-      "number": null,
-      "character": "扌",
-      "keyword": "fingers",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1320",
-      "character": "率",
-      "keyword": "rate",
-      "level": null,
-      "id": "G",
-      "requirements": [
-        {
-          "number": null,
-          "character": "亠",
-          "keyword": "top hat",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "幺",
-          "keyword": "cocoon",
-          "level": null,
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "囧率－玄－十",
-          "keyword": "sparkler",
-          "level": null,
-          "id": "E",
-          "requirements": []
-        },
-        {
-          "number": "10",
-          "character": "十",
-          "keyword": "ten",
-          "level": "Elementary",
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1438,
+  "hierarchy": {
+    "number": "1321",
+    "character": "摔",
+    "keyword": "tumble",
+    "level": null,
+    "filename": "1321_tumble",
+    "id": "H",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "primitive_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1320",
+        "character": "率",
+        "keyword": "rate",
+        "level": null,
+        "filename": "1320_rate",
+        "id": "G",
+        "requirements": [
+          {
+            "number": null,
+            "character": "亠",
+            "keyword": "top hat",
+            "level": null,
+            "filename": "primitive_top_hat",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "幺",
+            "keyword": "cocoon",
+            "level": null,
+            "filename": "primitive_cocoon",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "囧率－玄－十",
+            "keyword": "sparkler",
+            "level": null,
+            "filename": "primitive_sparkler",
+            "id": "E",
+            "requirements": []
+          },
+          {
+            "number": "10",
+            "character": "十",
+            "keyword": "ten",
+            "level": "Elementary",
+            "filename": "10_ten",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

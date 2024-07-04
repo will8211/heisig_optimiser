@@ -1,67 +1,78 @@
 {
-  "number": "2363",
-  "character": "腔",
-  "keyword": "body cavity",
-  "level": null,
-  "id": "I",
-  "requirements": [
-    {
-      "number": "13",
-      "character": "月",
-      "keyword": "month",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1073",
-      "character": "空",
-      "keyword": "empty",
-      "level": "Medium",
-      "id": "H",
-      "requirements": [
-        {
-          "number": "1070",
-          "character": "穴",
-          "keyword": "hole",
-          "level": null,
-          "id": "F",
-          "requirements": [
-            {
-              "number": null,
-              "character": "宀",
-              "keyword": "house",
-              "level": null,
-              "id": "C",
-              "requirements": []
-            },
-            {
-              "number": "8",
-              "character": "八",
-              "keyword": "eight",
-              "level": "Elementary",
-              "id": "D",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "囧只－口",
-              "keyword": "animal legs",
-              "level": null,
-              "id": "E",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "76",
-          "character": "工",
-          "keyword": "work",
-          "level": "Elementary",
-          "id": "G",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2534,
+  "hierarchy": {
+    "number": "2363",
+    "character": "腔",
+    "keyword": "body cavity",
+    "level": null,
+    "filename": "2363_body_cavity",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "13",
+        "character": "月",
+        "keyword": "month",
+        "level": "Elementary",
+        "filename": "13_month",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1073",
+        "character": "空",
+        "keyword": "empty",
+        "level": "Medium",
+        "filename": "1073_empty",
+        "id": "H",
+        "requirements": [
+          {
+            "number": "1070",
+            "character": "穴",
+            "keyword": "hole",
+            "level": null,
+            "filename": "1070_hole",
+            "id": "F",
+            "requirements": [
+              {
+                "number": null,
+                "character": "宀",
+                "keyword": "house",
+                "level": null,
+                "filename": "primitive_house",
+                "id": "C",
+                "requirements": []
+              },
+              {
+                "number": "8",
+                "character": "八",
+                "keyword": "eight",
+                "level": "Elementary",
+                "filename": "8_eight",
+                "id": "D",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "囧只－口",
+                "keyword": "animal legs",
+                "level": null,
+                "filename": "primitive_animal_legs",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "76",
+            "character": "工",
+            "keyword": "work",
+            "level": "Elementary",
+            "filename": "76_work",
+            "id": "G",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

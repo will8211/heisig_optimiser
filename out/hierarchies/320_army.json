@@ -1,25 +1,31 @@
 {
-  "number": "320",
-  "character": "军",
-  "keyword": "army",
-  "level": "Advanced",
-  "id": "D",
-  "requirements": [
-    {
-      "number": null,
-      "character": "冖",
-      "keyword": "crown",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "300",
-      "character": "车",
-      "keyword": "car",
-      "level": "Elementary",
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 341,
+  "hierarchy": {
+    "number": "320",
+    "character": "军",
+    "keyword": "army",
+    "level": "Advanced",
+    "filename": "320_army",
+    "id": "D",
+    "requirements": [
+      {
+        "number": null,
+        "character": "冖",
+        "keyword": "crown",
+        "level": null,
+        "filename": "primitive_crown",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "300",
+        "character": "车",
+        "keyword": "car",
+        "level": "Elementary",
+        "filename": "300_car",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

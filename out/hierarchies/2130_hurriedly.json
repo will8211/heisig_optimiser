@@ -1,43 +1,51 @@
 {
-  "number": "2130",
-  "character": "匆",
-  "keyword": "hurriedly",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": "877",
-      "character": "勿",
-      "keyword": "not",
-      "level": null,
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "𠃓",
-          "keyword": "piglets",
-          "level": null,
-          "id": "C",
-          "requirements": [
-            {
-              "number": null,
-              "character": "豕",
-              "keyword": "sow",
-              "level": null,
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "丶",
-      "keyword": "a drop of",
-      "level": null,
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 2291,
+  "hierarchy": {
+    "number": "2130",
+    "character": "匆",
+    "keyword": "hurriedly",
+    "level": null,
+    "filename": "2130_hurriedly",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "877",
+        "character": "勿",
+        "keyword": "not",
+        "level": null,
+        "filename": "877_not",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "𠃓",
+            "keyword": "piglets",
+            "level": null,
+            "filename": "primitive_piglets",
+            "id": "C",
+            "requirements": [
+              {
+                "number": null,
+                "character": "豕",
+                "keyword": "sow",
+                "level": null,
+                "filename": "primitive_sow",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "丶",
+        "keyword": "a drop of",
+        "level": null,
+        "filename": "primitive_a_drop_of",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

@@ -1,93 +1,107 @@
 {
-  "number": "2304",
-  "character": "赌",
-  "keyword": "gamble",
-  "level": null,
-  "id": "L",
-  "requirements": [
-    {
-      "number": "52",
-      "character": "贝",
-      "keyword": "shellfish",
-      "level": "Medium",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "15",
-          "character": "目",
-          "keyword": "eye",
-          "level": "Medium",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "囧只－口",
-          "keyword": "animal legs",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "1037",
-      "character": "者",
-      "keyword": "someone",
-      "level": "Medium",
-      "id": "K",
-      "requirements": [
-        {
-          "number": "1029",
-          "character": "老",
-          "keyword": "old man",
-          "level": "Elementary",
-          "id": "I",
-          "requirements": [
-            {
-              "number": "158",
-              "character": "土",
-              "keyword": "soil",
-              "level": "Medium",
-              "id": "E",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "丨",
-              "keyword": "walking stick",
-              "level": null,
-              "id": "G",
-              "requirements": [
-                {
-                  "number": "1",
-                  "character": "一",
-                  "keyword": "one",
-                  "level": "Elementary",
-                  "id": "F",
-                  "requirements": []
-                }
-              ]
-            },
-            {
-              "number": "453",
-              "character": "匕",
-              "keyword": "ancient spoon",
-              "level": null,
-              "id": "H",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "12",
-          "character": "日",
-          "keyword": "day",
-          "level": "Elementary",
-          "id": "J",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2472,
+  "hierarchy": {
+    "number": "2304",
+    "character": "赌",
+    "keyword": "gamble",
+    "level": null,
+    "filename": "2304_gamble",
+    "id": "L",
+    "requirements": [
+      {
+        "number": "52",
+        "character": "贝",
+        "keyword": "shellfish",
+        "level": "Medium",
+        "filename": "52_shellfish",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "15",
+            "character": "目",
+            "keyword": "eye",
+            "level": "Medium",
+            "filename": "15_eye",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "囧只－口",
+            "keyword": "animal legs",
+            "level": null,
+            "filename": "primitive_animal_legs",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "1037",
+        "character": "者",
+        "keyword": "someone",
+        "level": "Medium",
+        "filename": "1037_someone",
+        "id": "K",
+        "requirements": [
+          {
+            "number": "1029",
+            "character": "老",
+            "keyword": "old man",
+            "level": "Elementary",
+            "filename": "1029_old_man",
+            "id": "I",
+            "requirements": [
+              {
+                "number": "158",
+                "character": "土",
+                "keyword": "soil",
+                "level": "Medium",
+                "filename": "158_soil",
+                "id": "E",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "丨",
+                "keyword": "walking stick",
+                "level": null,
+                "filename": "primitive_walking_stick",
+                "id": "G",
+                "requirements": [
+                  {
+                    "number": "1",
+                    "character": "一",
+                    "keyword": "one",
+                    "level": "Elementary",
+                    "filename": "1_one",
+                    "id": "F",
+                    "requirements": []
+                  }
+                ]
+              },
+              {
+                "number": "453",
+                "character": "匕",
+                "keyword": "ancient spoon",
+                "level": null,
+                "filename": "453_ancient_spoon",
+                "id": "H",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "12",
+            "character": "日",
+            "keyword": "day",
+            "level": "Elementary",
+            "filename": "12_day",
+            "id": "J",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

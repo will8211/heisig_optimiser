@@ -1,25 +1,31 @@
 {
-  "number": "675",
-  "character": "去",
-  "keyword": "go",
-  "level": "Elementary",
-  "id": "D",
-  "requirements": [
-    {
-      "number": "158",
-      "character": "土",
-      "keyword": "soil",
-      "level": "Medium",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "厶",
-      "keyword": "elbow",
-      "level": null,
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 730,
+  "hierarchy": {
+    "number": "675",
+    "character": "去",
+    "keyword": "go",
+    "level": "Elementary",
+    "filename": "675_go",
+    "id": "D",
+    "requirements": [
+      {
+        "number": "158",
+        "character": "土",
+        "keyword": "soil",
+        "level": "Medium",
+        "filename": "158_soil",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "厶",
+        "keyword": "elbow",
+        "level": null,
+        "filename": "primitive_elbow",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

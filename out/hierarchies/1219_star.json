@@ -1,42 +1,50 @@
 {
-  "number": "1219",
-  "character": "星",
-  "keyword": "star",
-  "level": "Elementary",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "12",
-      "character": "日",
-      "keyword": "day",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1218",
-      "character": "生",
-      "keyword": "life",
-      "level": "Elementary",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "囧毒－母",
-          "keyword": "grow up",
-          "level": null,
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1323,
+  "hierarchy": {
+    "number": "1219",
+    "character": "星",
+    "keyword": "star",
+    "level": "Elementary",
+    "filename": "1219_star",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "12",
+        "character": "日",
+        "keyword": "day",
+        "level": "Elementary",
+        "filename": "12_day",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1218",
+        "character": "生",
+        "keyword": "life",
+        "level": "Elementary",
+        "filename": "1218_life",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "囧毒－母",
+            "keyword": "grow up",
+            "level": null,
+            "filename": "primitive_grow_up",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

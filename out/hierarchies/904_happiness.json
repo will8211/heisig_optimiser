@@ -1,50 +1,59 @@
 {
-  "number": "904",
-  "character": "福",
-  "keyword": "happiness",
-  "level": "Advanced",
-  "id": "G",
-  "requirements": [
-    {
-      "number": "900",
-      "character": "示",
-      "keyword": "show",
-      "level": "Medium",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "畐",
-      "keyword": "wealth",
-      "level": null,
-      "id": "F",
-      "requirements": [
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": "14",
-          "character": "田",
-          "keyword": "rice field",
-          "level": "Medium",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 972,
+  "hierarchy": {
+    "number": "904",
+    "character": "福",
+    "keyword": "happiness",
+    "level": "Advanced",
+    "filename": "904_happiness",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "900",
+        "character": "示",
+        "keyword": "show",
+        "level": "Medium",
+        "filename": "900_show",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "畐",
+        "keyword": "wealth",
+        "level": null,
+        "filename": "primitive_wealth",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": "14",
+            "character": "田",
+            "keyword": "rice field",
+            "level": "Medium",
+            "filename": "14_rice_field",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

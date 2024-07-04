@@ -1,59 +1,69 @@
 {
-  "number": "1434",
-  "character": "举",
-  "keyword": "lift up",
-  "level": "Medium",
-  "id": "H",
-  "requirements": [
-    {
-      "number": "1433",
-      "character": "兴",
-      "keyword": "excitement",
-      "level": "Elementary",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧应－广",
-          "keyword": "owl",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "囧只－口",
-          "keyword": "animal legs",
-          "level": null,
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "囧奉－𡗗",
-      "keyword": "cornstalk",
-      "level": null,
-      "id": "G",
-      "requirements": [
-        {
-          "number": "1223",
-          "character": "丰",
-          "keyword": "plentiful",
-          "level": "Advanced",
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1567,
+  "hierarchy": {
+    "number": "1434",
+    "character": "举",
+    "keyword": "lift up",
+    "level": "Medium",
+    "filename": "1434_lift_up",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "1433",
+        "character": "兴",
+        "keyword": "excitement",
+        "level": "Elementary",
+        "filename": "1433_excitement",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧应－广",
+            "keyword": "owl",
+            "level": null,
+            "filename": "primitive_owl",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "囧只－口",
+            "keyword": "animal legs",
+            "level": null,
+            "filename": "primitive_animal_legs",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "囧奉－𡗗",
+        "keyword": "cornstalk",
+        "level": null,
+        "filename": "primitive_cornstalk",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "1223",
+            "character": "丰",
+            "keyword": "plentiful",
+            "level": "Advanced",
+            "filename": "1223_plentiful",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

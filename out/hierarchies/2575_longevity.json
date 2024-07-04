@@ -1,42 +1,50 @@
 {
-  "number": "2575",
-  "character": "寿",
-  "keyword": "longevity",
-  "level": "Advanced",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "1223",
-      "character": "丰",
-      "keyword": "plentiful",
-      "level": "Advanced",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "166",
-      "character": "寸",
-      "keyword": "Chinese inch",
-      "level": "Advanced",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "10",
-          "character": "十",
-          "keyword": "ten",
-          "level": "Elementary",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2762,
+  "hierarchy": {
+    "number": "2575",
+    "character": "寿",
+    "keyword": "longevity",
+    "level": "Advanced",
+    "filename": "2575_longevity",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "1223",
+        "character": "丰",
+        "keyword": "plentiful",
+        "level": "Advanced",
+        "filename": "1223_plentiful",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "166",
+        "character": "寸",
+        "keyword": "Chinese inch",
+        "level": "Advanced",
+        "filename": "166_Chinese_inch",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "10",
+            "character": "十",
+            "keyword": "ten",
+            "level": "Elementary",
+            "filename": "10_ten",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

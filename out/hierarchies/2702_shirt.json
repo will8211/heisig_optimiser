@@ -1,34 +1,41 @@
 {
-  "number": "2702",
-  "character": "衫",
-  "keyword": "shirt",
-  "level": null,
-  "id": "E",
-  "requirements": [
-    {
-      "number": "400",
-      "character": "衣",
-      "keyword": "clothing",
-      "level": "Elementary",
-      "id": "C",
-      "requirements": [
-        {
-          "number": null,
-          "character": "亠",
-          "keyword": "top hat",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "彡",
-      "keyword": "rooster tail",
-      "level": null,
-      "id": "D",
-      "requirements": []
-    }
-  ]
+  "order": 2894,
+  "hierarchy": {
+    "number": "2702",
+    "character": "衫",
+    "keyword": "shirt",
+    "level": null,
+    "filename": "2702_shirt",
+    "id": "E",
+    "requirements": [
+      {
+        "number": "400",
+        "character": "衣",
+        "keyword": "clothing",
+        "level": "Elementary",
+        "filename": "400_clothing",
+        "id": "C",
+        "requirements": [
+          {
+            "number": null,
+            "character": "亠",
+            "keyword": "top hat",
+            "level": null,
+            "filename": "primitive_top_hat",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "彡",
+        "keyword": "rooster tail",
+        "level": null,
+        "filename": "primitive_rooster_tail",
+        "id": "D",
+        "requirements": []
+      }
+    ]
+  }
 }

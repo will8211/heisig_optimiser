@@ -1,42 +1,50 @@
 {
-  "number": "1513",
-  "character": "巩",
-  "keyword": "strengthen",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": "76",
-      "character": "工",
-      "keyword": "work",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "62",
-      "character": "凡",
-      "keyword": "ordinary",
-      "level": "Advanced",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "57",
-          "character": "几",
-          "keyword": "how many?",
-          "level": "Elementary",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1653,
+  "hierarchy": {
+    "number": "1513",
+    "character": "巩",
+    "keyword": "strengthen",
+    "level": null,
+    "filename": "1513_strengthen",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "76",
+        "character": "工",
+        "keyword": "work",
+        "level": "Elementary",
+        "filename": "76_work",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "62",
+        "character": "凡",
+        "keyword": "ordinary",
+        "level": "Advanced",
+        "filename": "62_ordinary",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "57",
+            "character": "几",
+            "keyword": "how many?",
+            "level": "Elementary",
+            "filename": "57_how_many",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,25 +1,31 @@
 {
-  "number": "2642",
-  "character": "杆",
-  "keyword": "shaft",
-  "level": null,
-  "id": "D",
-  "requirements": [
-    {
-      "number": "1277",
-      "character": "干",
-      "keyword": "dry",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "202",
-      "character": "木",
-      "keyword": "tree",
-      "level": "Elementary",
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 2831,
+  "hierarchy": {
+    "number": "2642",
+    "character": "杆",
+    "keyword": "shaft",
+    "level": null,
+    "filename": "2642_shaft",
+    "id": "D",
+    "requirements": [
+      {
+        "number": "1277",
+        "character": "干",
+        "keyword": "dry",
+        "level": "Elementary",
+        "filename": "1277_dry",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "202",
+        "character": "木",
+        "keyword": "tree",
+        "level": "Elementary",
+        "filename": "202_tree",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

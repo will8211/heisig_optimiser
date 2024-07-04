@@ -1,59 +1,69 @@
 {
-  "number": "348",
-  "character": "计",
-  "keyword": "plan",
-  "level": "Medium",
-  "id": "H",
-  "requirements": [
-    {
-      "number": "346",
-      "character": "言",
-      "keyword": "say",
-      "level": "Medium",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "2",
-          "character": "二",
-          "keyword": "two",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "亠",
-          "keyword": "top hat",
-          "level": null,
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "10",
-      "character": "十",
-      "keyword": "ten",
-      "level": "Elementary",
-      "id": "G",
-      "requirements": []
-    }
-  ]
+  "order": 374,
+  "hierarchy": {
+    "number": "348",
+    "character": "计",
+    "keyword": "plan",
+    "level": "Medium",
+    "filename": "348_plan",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "346",
+        "character": "言",
+        "keyword": "say",
+        "level": "Medium",
+        "filename": "346_say",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "2",
+            "character": "二",
+            "keyword": "two",
+            "level": "Elementary",
+            "filename": "2_two",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "亠",
+            "keyword": "top hat",
+            "level": null,
+            "filename": "primitive_top_hat",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "10",
+        "character": "十",
+        "keyword": "ten",
+        "level": "Elementary",
+        "filename": "10_ten",
+        "id": "G",
+        "requirements": []
+      }
+    ]
+  }
 }

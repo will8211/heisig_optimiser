@@ -1,85 +1,98 @@
 {
-  "number": "2107",
-  "character": "诬",
-  "keyword": "charge falsely",
-  "level": null,
-  "id": "K",
-  "requirements": [
-    {
-      "number": "346",
-      "character": "言",
-      "keyword": "say",
-      "level": "Medium",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "2",
-          "character": "二",
-          "keyword": "two",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "亠",
-          "keyword": "top hat",
-          "level": null,
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "850",
-      "character": "巫",
-      "keyword": "witch",
-      "level": null,
-      "id": "J",
-      "requirements": [
-        {
-          "number": "76",
-          "character": "工",
-          "keyword": "work",
-          "level": "Elementary",
-          "id": "G",
-          "requirements": []
-        },
-        {
-          "number": "846",
-          "character": "从",
-          "keyword": "follow",
-          "level": "Elementary",
-          "id": "I",
-          "requirements": [
-            {
-              "number": "793",
-              "character": "人",
-              "keyword": "person",
-              "level": "Elementary",
-              "id": "H",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2268,
+  "hierarchy": {
+    "number": "2107",
+    "character": "诬",
+    "keyword": "charge falsely",
+    "level": null,
+    "filename": "2107_charge_falsely",
+    "id": "K",
+    "requirements": [
+      {
+        "number": "346",
+        "character": "言",
+        "keyword": "say",
+        "level": "Medium",
+        "filename": "346_say",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "2",
+            "character": "二",
+            "keyword": "two",
+            "level": "Elementary",
+            "filename": "2_two",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "亠",
+            "keyword": "top hat",
+            "level": null,
+            "filename": "primitive_top_hat",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "850",
+        "character": "巫",
+        "keyword": "witch",
+        "level": null,
+        "filename": "850_witch",
+        "id": "J",
+        "requirements": [
+          {
+            "number": "76",
+            "character": "工",
+            "keyword": "work",
+            "level": "Elementary",
+            "filename": "76_work",
+            "id": "G",
+            "requirements": []
+          },
+          {
+            "number": "846",
+            "character": "从",
+            "keyword": "follow",
+            "level": "Elementary",
+            "filename": "846_follow",
+            "id": "I",
+            "requirements": [
+              {
+                "number": "793",
+                "character": "人",
+                "keyword": "person",
+                "level": "Elementary",
+                "filename": "793_person",
+                "id": "H",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,84 +1,97 @@
 {
-  "number": "2796",
-  "character": "敷",
-  "keyword": "apply",
-  "level": null,
-  "id": "K",
-  "requirements": [
-    {
-      "number": "1379",
-      "character": "甫",
-      "keyword": "Fu",
-      "level": null,
-      "id": "E",
-      "requirements": [
-        {
-          "number": "10",
-          "character": "十",
-          "keyword": "ten",
-          "level": "Elementary",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "13",
-          "character": "月",
-          "keyword": "month",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "496",
-      "character": "放",
-      "keyword": "release",
-      "level": "Elementary",
-      "id": "J",
-      "requirements": [
-        {
-          "number": null,
-          "character": "攵",
-          "keyword": "taskmaster",
-          "level": null,
-          "id": "F",
-          "requirements": []
-        },
-        {
-          "number": "494",
-          "character": "方",
-          "keyword": "direction",
-          "level": "Elementary",
-          "id": "I",
-          "requirements": [
-            {
-              "number": "83",
-              "character": "刀",
-              "keyword": "sword",
-              "level": "Medium",
-              "id": "G",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "亠",
-              "keyword": "top hat",
-              "level": null,
-              "id": "H",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2990,
+  "hierarchy": {
+    "number": "2796",
+    "character": "敷",
+    "keyword": "apply",
+    "level": null,
+    "filename": "2796_apply",
+    "id": "K",
+    "requirements": [
+      {
+        "number": "1379",
+        "character": "甫",
+        "keyword": "Fu",
+        "level": null,
+        "filename": "1379_Fu",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "10",
+            "character": "十",
+            "keyword": "ten",
+            "level": "Elementary",
+            "filename": "10_ten",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "13",
+            "character": "月",
+            "keyword": "month",
+            "level": "Elementary",
+            "filename": "13_month",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "496",
+        "character": "放",
+        "keyword": "release",
+        "level": "Elementary",
+        "filename": "496_release",
+        "id": "J",
+        "requirements": [
+          {
+            "number": null,
+            "character": "攵",
+            "keyword": "taskmaster",
+            "level": null,
+            "filename": "primitive_taskmaster",
+            "id": "F",
+            "requirements": []
+          },
+          {
+            "number": "494",
+            "character": "方",
+            "keyword": "direction",
+            "level": "Elementary",
+            "filename": "494_direction",
+            "id": "I",
+            "requirements": [
+              {
+                "number": "83",
+                "character": "刀",
+                "keyword": "sword",
+                "level": "Medium",
+                "filename": "83_sword",
+                "id": "G",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "亠",
+                "keyword": "top hat",
+                "level": null,
+                "filename": "primitive_top_hat",
+                "id": "H",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

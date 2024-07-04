@@ -1,59 +1,69 @@
 {
-  "number": "365",
-  "character": "贼",
-  "keyword": "burglar",
-  "level": null,
-  "id": "H",
-  "requirements": [
-    {
-      "number": "361",
-      "character": "戈",
-      "keyword": "halberd",
-      "level": null,
-      "id": "C",
-      "requirements": [
-        {
-          "number": null,
-          "character": "弋",
-          "keyword": "arrow",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "10",
-      "character": "十",
-      "keyword": "ten",
-      "level": "Elementary",
-      "id": "D",
-      "requirements": []
-    },
-    {
-      "number": "52",
-      "character": "贝",
-      "keyword": "shellfish",
-      "level": "Medium",
-      "id": "G",
-      "requirements": [
-        {
-          "number": "15",
-          "character": "目",
-          "keyword": "eye",
-          "level": "Medium",
-          "id": "E",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "囧只－口",
-          "keyword": "animal legs",
-          "level": null,
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 392,
+  "hierarchy": {
+    "number": "365",
+    "character": "贼",
+    "keyword": "burglar",
+    "level": null,
+    "filename": "365_burglar",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "361",
+        "character": "戈",
+        "keyword": "halberd",
+        "level": null,
+        "filename": "361_halberd",
+        "id": "C",
+        "requirements": [
+          {
+            "number": null,
+            "character": "弋",
+            "keyword": "arrow",
+            "level": null,
+            "filename": "primitive_arrow",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "10",
+        "character": "十",
+        "keyword": "ten",
+        "level": "Elementary",
+        "filename": "10_ten",
+        "id": "D",
+        "requirements": []
+      },
+      {
+        "number": "52",
+        "character": "贝",
+        "keyword": "shellfish",
+        "level": "Medium",
+        "filename": "52_shellfish",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "15",
+            "character": "目",
+            "keyword": "eye",
+            "level": "Medium",
+            "filename": "15_eye",
+            "id": "E",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "囧只－口",
+            "keyword": "animal legs",
+            "level": null,
+            "filename": "primitive_animal_legs",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

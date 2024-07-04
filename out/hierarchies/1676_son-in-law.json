@@ -1,68 +1,79 @@
 {
-  "number": "1676",
-  "character": "婿",
-  "keyword": "son-in-law",
-  "level": null,
-  "id": "I",
-  "requirements": [
-    {
-      "number": "102",
-      "character": "女",
-      "keyword": "woman",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "疋",
-      "keyword": "zoo",
-      "level": null,
-      "id": "G",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧走－十",
-          "keyword": "mending",
-          "level": null,
-          "id": "F",
-          "requirements": [
-            {
-              "number": "387",
-              "character": "正",
-              "keyword": "correct",
-              "level": "Elementary",
-              "id": "E",
-              "requirements": [
-                {
-                  "number": "1",
-                  "character": "一",
-                  "keyword": "one",
-                  "level": "Elementary",
-                  "id": "C",
-                  "requirements": []
-                },
-                {
-                  "number": "379",
-                  "character": "止",
-                  "keyword": "stop",
-                  "level": "Medium",
-                  "id": "D",
-                  "requirements": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": "13",
-      "character": "月",
-      "keyword": "month",
-      "level": "Elementary",
-      "id": "H",
-      "requirements": []
-    }
-  ]
+  "order": 1821,
+  "hierarchy": {
+    "number": "1676",
+    "character": "婿",
+    "keyword": "son-in-law",
+    "level": null,
+    "filename": "1676_son-in-law",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "102",
+        "character": "女",
+        "keyword": "woman",
+        "level": "Elementary",
+        "filename": "102_woman",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "疋",
+        "keyword": "zoo",
+        "level": null,
+        "filename": "primitive_zoo",
+        "id": "G",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧走－十",
+            "keyword": "mending",
+            "level": null,
+            "filename": "primitive_mending",
+            "id": "F",
+            "requirements": [
+              {
+                "number": "387",
+                "character": "正",
+                "keyword": "correct",
+                "level": "Elementary",
+                "filename": "387_correct",
+                "id": "E",
+                "requirements": [
+                  {
+                    "number": "1",
+                    "character": "一",
+                    "keyword": "one",
+                    "level": "Elementary",
+                    "filename": "1_one",
+                    "id": "C",
+                    "requirements": []
+                  },
+                  {
+                    "number": "379",
+                    "character": "止",
+                    "keyword": "stop",
+                    "level": "Medium",
+                    "filename": "379_stop",
+                    "id": "D",
+                    "requirements": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": "13",
+        "character": "月",
+        "keyword": "month",
+        "level": "Elementary",
+        "filename": "13_month",
+        "id": "H",
+        "requirements": []
+      }
+    ]
+  }
 }

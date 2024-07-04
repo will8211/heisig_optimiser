@@ -1,17 +1,22 @@
 {
-  "number": "215",
-  "character": "未",
-  "keyword": "not yet",
-  "level": "Medium",
-  "id": "C",
-  "requirements": [
-    {
-      "number": "202",
-      "character": "木",
-      "keyword": "tree",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    }
-  ]
+  "order": 226,
+  "hierarchy": {
+    "number": "215",
+    "character": "未",
+    "keyword": "not yet",
+    "level": "Medium",
+    "filename": "215_not_yet",
+    "id": "C",
+    "requirements": [
+      {
+        "number": "202",
+        "character": "木",
+        "keyword": "tree",
+        "level": "Elementary",
+        "filename": "202_tree",
+        "id": "B",
+        "requirements": []
+      }
+    ]
+  }
 }

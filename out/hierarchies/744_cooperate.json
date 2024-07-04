@@ -1,59 +1,69 @@
 {
-  "number": "744",
-  "character": "协",
-  "keyword": "cooperate",
-  "level": null,
-  "id": "H",
-  "requirements": [
-    {
-      "number": "10",
-      "character": "十",
-      "keyword": "ten",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "743",
-      "character": "办",
-      "keyword": "manage",
-      "level": "Medium",
-      "id": "G",
-      "requirements": [
-        {
-          "number": "63",
-          "character": "肌",
-          "keyword": "muscle",
-          "level": null,
-          "id": "E",
-          "requirements": [
-            {
-              "number": "57",
-              "character": "几",
-              "keyword": "how many?",
-              "level": "Elementary",
-              "id": "C",
-              "requirements": []
-            },
-            {
-              "number": "13",
-              "character": "月",
-              "keyword": "month",
-              "level": "Elementary",
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 804,
+  "hierarchy": {
+    "number": "744",
+    "character": "协",
+    "keyword": "cooperate",
+    "level": null,
+    "filename": "744_cooperate",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "10",
+        "character": "十",
+        "keyword": "ten",
+        "level": "Elementary",
+        "filename": "10_ten",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "743",
+        "character": "办",
+        "keyword": "manage",
+        "level": "Medium",
+        "filename": "743_manage",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "63",
+            "character": "肌",
+            "keyword": "muscle",
+            "level": null,
+            "filename": "63_muscle",
+            "id": "E",
+            "requirements": [
+              {
+                "number": "57",
+                "character": "几",
+                "keyword": "how many?",
+                "level": "Elementary",
+                "filename": "57_how_many",
+                "id": "C",
+                "requirements": []
+              },
+              {
+                "number": "13",
+                "character": "月",
+                "keyword": "month",
+                "level": "Elementary",
+                "filename": "13_month",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

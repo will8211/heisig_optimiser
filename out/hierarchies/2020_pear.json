@@ -1,42 +1,50 @@
 {
-  "number": "2020",
-  "character": "梨",
-  "keyword": "pear",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": "771",
-      "character": "利",
-      "keyword": "profit",
-      "level": "Medium",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "762",
-          "character": "禾",
-          "keyword": "standing grain",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "83",
-          "character": "刀",
-          "keyword": "sword",
-          "level": "Medium",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "202",
-      "character": "木",
-      "keyword": "tree",
-      "level": "Elementary",
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 2177,
+  "hierarchy": {
+    "number": "2020",
+    "character": "梨",
+    "keyword": "pear",
+    "level": null,
+    "filename": "2020_pear",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "771",
+        "character": "利",
+        "keyword": "profit",
+        "level": "Medium",
+        "filename": "771_profit",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "762",
+            "character": "禾",
+            "keyword": "standing grain",
+            "level": null,
+            "filename": "762_standing_grain",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "83",
+            "character": "刀",
+            "keyword": "sword",
+            "level": "Medium",
+            "filename": "83_sword",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "202",
+        "character": "木",
+        "keyword": "tree",
+        "level": "Elementary",
+        "filename": "202_tree",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

@@ -1,42 +1,50 @@
 {
-  "number": "1963",
-  "character": "歼",
-  "keyword": "annihilate",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": "712",
-      "character": "歹",
-      "keyword": "malicious",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "39",
-      "character": "千",
-      "keyword": "thousand",
-      "level": "Medium",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "10",
-          "character": "十",
-          "keyword": "ten",
-          "level": "Elementary",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2119,
+  "hierarchy": {
+    "number": "1963",
+    "character": "歼",
+    "keyword": "annihilate",
+    "level": null,
+    "filename": "1963_annihilate",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "712",
+        "character": "歹",
+        "keyword": "malicious",
+        "level": null,
+        "filename": "712_malicious",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "39",
+        "character": "千",
+        "keyword": "thousand",
+        "level": "Medium",
+        "filename": "39_thousand",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "10",
+            "character": "十",
+            "keyword": "ten",
+            "level": "Elementary",
+            "filename": "10_ten",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

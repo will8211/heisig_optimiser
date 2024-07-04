@@ -1,68 +1,79 @@
 {
-  "number": "2367",
-  "character": "祸",
-  "keyword": "misfortune",
-  "level": null,
-  "id": "I",
-  "requirements": [
-    {
-      "number": "900",
-      "character": "示",
-      "keyword": "show",
-      "level": "Medium",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "呙",
-      "keyword": "esophagus",
-      "level": null,
-      "id": "H",
-      "requirements": [
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "840",
-          "character": "内",
-          "keyword": "internal",
-          "level": "Advanced",
-          "id": "G",
-          "requirements": [
-            {
-              "number": null,
-              "character": "囧冂",
-              "keyword": "belt",
-              "level": null,
-              "id": "E",
-              "requirements": [
-                {
-                  "number": "410",
-                  "character": "巾",
-                  "keyword": "towel",
-                  "level": "Advanced",
-                  "id": "D",
-                  "requirements": []
-                }
-              ]
-            },
-            {
-              "number": "793",
-              "character": "人",
-              "keyword": "person",
-              "level": "Elementary",
-              "id": "F",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2539,
+  "hierarchy": {
+    "number": "2367",
+    "character": "祸",
+    "keyword": "misfortune",
+    "level": null,
+    "filename": "2367_misfortune",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "900",
+        "character": "示",
+        "keyword": "show",
+        "level": "Medium",
+        "filename": "900_show",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "呙",
+        "keyword": "esophagus",
+        "level": null,
+        "filename": "primitive_esophagus",
+        "id": "H",
+        "requirements": [
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "840",
+            "character": "内",
+            "keyword": "internal",
+            "level": "Advanced",
+            "filename": "840_internal",
+            "id": "G",
+            "requirements": [
+              {
+                "number": null,
+                "character": "囧冂",
+                "keyword": "belt",
+                "level": null,
+                "filename": "primitive_belt",
+                "id": "E",
+                "requirements": [
+                  {
+                    "number": "410",
+                    "character": "巾",
+                    "keyword": "towel",
+                    "level": "Advanced",
+                    "filename": "410_towel",
+                    "id": "D",
+                    "requirements": []
+                  }
+                ]
+              },
+              {
+                "number": "793",
+                "character": "人",
+                "keyword": "person",
+                "level": "Elementary",
+                "filename": "793_person",
+                "id": "F",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

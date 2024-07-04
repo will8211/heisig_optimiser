@@ -1,93 +1,107 @@
 {
-  "number": "61",
-  "character": "顽",
-  "keyword": "stubborn",
-  "level": null,
-  "id": "L",
-  "requirements": [
-    {
-      "number": "60",
-      "character": "页",
-      "keyword": "page",
-      "level": "Medium",
-      "id": "G",
-      "requirements": [
-        {
-          "number": "52",
-          "character": "贝",
-          "keyword": "shellfish",
-          "level": "Medium",
-          "id": "D",
-          "requirements": [
-            {
-              "number": "15",
-              "character": "目",
-              "keyword": "eye",
-              "level": "Medium",
-              "id": "B",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "囧只－口",
-              "keyword": "animal legs",
-              "level": null,
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "id": "E",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "59",
-      "character": "元",
-      "keyword": "beginning",
-      "level": "Medium",
-      "id": "K",
-      "requirements": [
-        {
-          "number": "2",
-          "character": "二",
-          "keyword": "two",
-          "level": "Elementary",
-          "id": "I",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "id": "H",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "56",
-          "character": "儿",
-          "keyword": "youngster",
-          "level": "Elementary",
-          "id": "J",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 66,
+  "hierarchy": {
+    "number": "61",
+    "character": "顽",
+    "keyword": "stubborn",
+    "level": null,
+    "filename": "61_stubborn",
+    "id": "L",
+    "requirements": [
+      {
+        "number": "60",
+        "character": "页",
+        "keyword": "page",
+        "level": "Medium",
+        "filename": "60_page",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "52",
+            "character": "贝",
+            "keyword": "shellfish",
+            "level": "Medium",
+            "filename": "52_shellfish",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "15",
+                "character": "目",
+                "keyword": "eye",
+                "level": "Medium",
+                "filename": "15_eye",
+                "id": "B",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "囧只－口",
+                "keyword": "animal legs",
+                "level": null,
+                "filename": "primitive_animal_legs",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "E",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "59",
+        "character": "元",
+        "keyword": "beginning",
+        "level": "Medium",
+        "filename": "59_beginning",
+        "id": "K",
+        "requirements": [
+          {
+            "number": "2",
+            "character": "二",
+            "keyword": "two",
+            "level": "Elementary",
+            "filename": "2_two",
+            "id": "I",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "H",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "56",
+            "character": "儿",
+            "keyword": "youngster",
+            "level": "Elementary",
+            "filename": "56_youngster",
+            "id": "J",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

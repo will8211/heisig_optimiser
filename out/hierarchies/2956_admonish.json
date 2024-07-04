@@ -1,67 +1,78 @@
 {
-  "number": "2956",
-  "character": "嘱",
-  "keyword": "admonish",
-  "level": null,
-  "id": "I",
-  "requirements": [
-    {
-      "number": "11",
-      "character": "口",
-      "keyword": "mouth",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1500",
-      "character": "属",
-      "keyword": "belong to",
-      "level": "Advanced",
-      "id": "H",
-      "requirements": [
-        {
-          "number": "882",
-          "character": "尸",
-          "keyword": "corpse",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "囧冂",
-          "keyword": "belt",
-          "level": null,
-          "id": "F",
-          "requirements": [
-            {
-              "number": "410",
-              "character": "巾",
-              "keyword": "towel",
-              "level": "Advanced",
-              "id": "E",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "509",
-          "character": "虫",
-          "keyword": "insect",
-          "level": "Medium",
-          "id": "G",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 3156,
+  "hierarchy": {
+    "number": "2956",
+    "character": "嘱",
+    "keyword": "admonish",
+    "level": null,
+    "filename": "2956_admonish",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "11",
+        "character": "口",
+        "keyword": "mouth",
+        "level": "Elementary",
+        "filename": "11_mouth",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1500",
+        "character": "属",
+        "keyword": "belong to",
+        "level": "Advanced",
+        "filename": "1500_belong_to",
+        "id": "H",
+        "requirements": [
+          {
+            "number": "882",
+            "character": "尸",
+            "keyword": "corpse",
+            "level": null,
+            "filename": "882_corpse",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "囧冂",
+            "keyword": "belt",
+            "level": null,
+            "filename": "primitive_belt",
+            "id": "F",
+            "requirements": [
+              {
+                "number": "410",
+                "character": "巾",
+                "keyword": "towel",
+                "level": "Advanced",
+                "filename": "410_towel",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "509",
+            "character": "虫",
+            "keyword": "insect",
+            "level": "Medium",
+            "filename": "509_insect",
+            "id": "G",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

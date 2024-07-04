@@ -1,59 +1,69 @@
 {
-  "number": "1406",
-  "character": "面",
-  "keyword": "face-to-face",
-  "level": "Elementary",
-  "id": "H",
-  "requirements": [
-    {
-      "number": "35",
-      "character": "百",
-      "keyword": "hundred",
-      "level": "Elementary",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "34",
-          "character": "白",
-          "keyword": "white",
-          "level": "Elementary",
-          "id": "D",
-          "requirements": [
-            {
-              "number": "12",
-              "character": "日",
-              "keyword": "day",
-              "level": "Elementary",
-              "id": "B",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "15",
-      "character": "目",
-      "keyword": "eye",
-      "level": "Medium",
-      "id": "G",
-      "requirements": []
-    }
-  ]
+  "order": 1533,
+  "hierarchy": {
+    "number": "1406",
+    "character": "面",
+    "keyword": "face-to-face",
+    "level": "Elementary",
+    "filename": "1406_face-to-face",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "35",
+        "character": "百",
+        "keyword": "hundred",
+        "level": "Elementary",
+        "filename": "35_hundred",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "34",
+            "character": "白",
+            "keyword": "white",
+            "level": "Elementary",
+            "filename": "34_white",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "12",
+                "character": "日",
+                "keyword": "day",
+                "level": "Elementary",
+                "filename": "12_day",
+                "id": "B",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "15",
+        "character": "目",
+        "keyword": "eye",
+        "level": "Medium",
+        "filename": "15_eye",
+        "id": "G",
+        "requirements": []
+      }
+    ]
+  }
 }

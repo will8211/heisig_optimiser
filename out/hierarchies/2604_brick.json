@@ -1,68 +1,79 @@
 {
-  "number": "2604",
-  "character": "砖",
-  "keyword": "brick",
-  "level": null,
-  "id": "I",
-  "requirements": [
-    {
-      "number": "125",
-      "character": "石",
-      "keyword": "stone",
-      "level": "Advanced",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "121",
-          "character": "厂",
-          "keyword": "factory",
-          "level": "Medium",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "1236",
-      "character": "专",
-      "keyword": "specialty",
-      "level": "Advanced",
-      "id": "H",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧奉－𡗗",
-          "keyword": "cornstalk",
-          "level": null,
-          "id": "F",
-          "requirements": [
-            {
-              "number": "1223",
-              "character": "丰",
-              "keyword": "plentiful",
-              "level": "Advanced",
-              "id": "E",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "囧节－艹",
-          "keyword": "chop",
-          "level": null,
-          "id": "G",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2793,
+  "hierarchy": {
+    "number": "2604",
+    "character": "砖",
+    "keyword": "brick",
+    "level": null,
+    "filename": "2604_brick",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "125",
+        "character": "石",
+        "keyword": "stone",
+        "level": "Advanced",
+        "filename": "125_stone",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "121",
+            "character": "厂",
+            "keyword": "factory",
+            "level": "Medium",
+            "filename": "121_factory",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "1236",
+        "character": "专",
+        "keyword": "specialty",
+        "level": "Advanced",
+        "filename": "1236_specialty",
+        "id": "H",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧奉－𡗗",
+            "keyword": "cornstalk",
+            "level": null,
+            "filename": "primitive_cornstalk",
+            "id": "F",
+            "requirements": [
+              {
+                "number": "1223",
+                "character": "丰",
+                "keyword": "plentiful",
+                "level": "Advanced",
+                "filename": "1223_plentiful",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "囧节－艹",
+            "keyword": "chop",
+            "level": null,
+            "filename": "primitive_chop",
+            "id": "G",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

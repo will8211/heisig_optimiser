@@ -1,86 +1,99 @@
 {
-  "number": "858",
-  "character": "买",
-  "keyword": "buy",
-  "level": "Elementary",
-  "id": "K",
-  "requirements": [
-    {
-      "number": null,
-      "character": "乛",
-      "keyword": "beret",
-      "level": null,
-      "id": "C",
-      "requirements": [
-        {
-          "number": null,
-          "character": "冖",
-          "keyword": "crown",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "856",
-      "character": "头",
-      "keyword": "head",
-      "level": "Medium",
-      "id": "J",
-      "requirements": [
-        {
-          "number": "113",
-          "character": "大",
-          "keyword": "large",
-          "level": "Elementary",
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "冫",
-          "keyword": "ice",
-          "level": null,
-          "id": "I",
-          "requirements": [
-            {
-              "number": "137",
-              "character": "水",
-              "keyword": "water",
-              "level": "Elementary",
-              "id": "H",
-              "requirements": [
-                {
-                  "number": null,
-                  "character": "丨",
-                  "keyword": "walking stick",
-                  "level": null,
-                  "id": "F",
-                  "requirements": [
-                    {
-                      "number": "1",
-                      "character": "一",
-                      "keyword": "one",
-                      "level": "Elementary",
-                      "id": "E",
-                      "requirements": []
-                    }
-                  ]
-                },
-                {
-                  "number": null,
-                  "character": "丶",
-                  "keyword": "a drop of",
-                  "level": null,
-                  "id": "G",
-                  "requirements": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 923,
+  "hierarchy": {
+    "number": "858",
+    "character": "买",
+    "keyword": "buy",
+    "level": "Elementary",
+    "filename": "858_buy",
+    "id": "K",
+    "requirements": [
+      {
+        "number": null,
+        "character": "乛",
+        "keyword": "beret",
+        "level": null,
+        "filename": "primitive_beret",
+        "id": "C",
+        "requirements": [
+          {
+            "number": null,
+            "character": "冖",
+            "keyword": "crown",
+            "level": null,
+            "filename": "primitive_crown",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "856",
+        "character": "头",
+        "keyword": "head",
+        "level": "Medium",
+        "filename": "856_head",
+        "id": "J",
+        "requirements": [
+          {
+            "number": "113",
+            "character": "大",
+            "keyword": "large",
+            "level": "Elementary",
+            "filename": "113_large",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "冫",
+            "keyword": "ice",
+            "level": null,
+            "filename": "primitive_ice",
+            "id": "I",
+            "requirements": [
+              {
+                "number": "137",
+                "character": "水",
+                "keyword": "water",
+                "level": "Elementary",
+                "filename": "137_water",
+                "id": "H",
+                "requirements": [
+                  {
+                    "number": null,
+                    "character": "丨",
+                    "keyword": "walking stick",
+                    "level": null,
+                    "filename": "primitive_walking_stick",
+                    "id": "F",
+                    "requirements": [
+                      {
+                        "number": "1",
+                        "character": "一",
+                        "keyword": "one",
+                        "level": "Elementary",
+                        "filename": "1_one",
+                        "id": "E",
+                        "requirements": []
+                      }
+                    ]
+                  },
+                  {
+                    "number": null,
+                    "character": "丶",
+                    "keyword": "a drop of",
+                    "level": null,
+                    "filename": "primitive_a_drop_of",
+                    "id": "G",
+                    "requirements": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

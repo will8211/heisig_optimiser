@@ -1,60 +1,70 @@
 {
-  "number": "2811",
-  "character": "邻",
-  "keyword": "neighbor",
-  "level": null,
-  "id": "H",
-  "requirements": [
-    {
-      "number": "1113",
-      "character": "令",
-      "keyword": "orders",
-      "level": "Medium",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "亼",
-          "keyword": "meeting",
-          "level": null,
-          "id": "C",
-          "requirements": [
-            {
-              "number": null,
-              "character": "𠆢",
-              "keyword": "umbrella",
-              "level": null,
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "囧节－艹",
-          "keyword": "chop",
-          "level": null,
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "囧阝",
-      "keyword": "city walls",
-      "level": null,
-      "id": "G",
-      "requirements": [
-        {
-          "number": null,
-          "character": "阝",
-          "keyword": "pinnacle",
-          "level": null,
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 3005,
+  "hierarchy": {
+    "number": "2811",
+    "character": "邻",
+    "keyword": "neighbor",
+    "level": null,
+    "filename": "2811_neighbor",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "1113",
+        "character": "令",
+        "keyword": "orders",
+        "level": "Medium",
+        "filename": "1113_orders",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "亼",
+            "keyword": "meeting",
+            "level": null,
+            "filename": "primitive_meeting",
+            "id": "C",
+            "requirements": [
+              {
+                "number": null,
+                "character": "𠆢",
+                "keyword": "umbrella",
+                "level": null,
+                "filename": "primitive_umbrella",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "囧节－艹",
+            "keyword": "chop",
+            "level": null,
+            "filename": "primitive_chop",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "囧阝",
+        "keyword": "city walls",
+        "level": null,
+        "filename": "primitive_city_walls",
+        "id": "G",
+        "requirements": [
+          {
+            "number": null,
+            "character": "阝",
+            "keyword": "pinnacle",
+            "level": null,
+            "filename": "primitive_pinnacle",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

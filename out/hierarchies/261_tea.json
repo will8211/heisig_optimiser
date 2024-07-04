@@ -1,33 +1,40 @@
 {
-  "number": "261",
-  "character": "茶",
-  "keyword": "tea",
-  "level": "Elementary",
-  "id": "E",
-  "requirements": [
-    {
-      "number": null,
-      "character": "艹",
-      "keyword": "flower",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "202",
-      "character": "木",
-      "keyword": "tree",
-      "level": "Elementary",
-      "id": "C",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "𠆢",
-      "keyword": "umbrella",
-      "level": null,
-      "id": "D",
-      "requirements": []
-    }
-  ]
+  "order": 276,
+  "hierarchy": {
+    "number": "261",
+    "character": "茶",
+    "keyword": "tea",
+    "level": "Elementary",
+    "filename": "261_tea",
+    "id": "E",
+    "requirements": [
+      {
+        "number": null,
+        "character": "艹",
+        "keyword": "flower",
+        "level": null,
+        "filename": "primitive_flower",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "202",
+        "character": "木",
+        "keyword": "tree",
+        "level": "Elementary",
+        "filename": "202_tree",
+        "id": "C",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "𠆢",
+        "keyword": "umbrella",
+        "level": null,
+        "filename": "primitive_umbrella",
+        "id": "D",
+        "requirements": []
+      }
+    ]
+  }
 }

@@ -1,42 +1,50 @@
 {
-  "number": "1050",
-  "character": "跳",
-  "keyword": "jump",
-  "level": "Advanced",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "1048",
-      "character": "足",
-      "keyword": "lower leg",
-      "level": "Medium",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "379",
-          "character": "止",
-          "keyword": "stop",
-          "level": "Medium",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "237",
-      "character": "兆",
-      "keyword": "portent",
-      "level": null,
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 1130,
+  "hierarchy": {
+    "number": "1050",
+    "character": "跳",
+    "keyword": "jump",
+    "level": "Advanced",
+    "filename": "1050_jump",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "1048",
+        "character": "足",
+        "keyword": "lower leg",
+        "level": "Medium",
+        "filename": "1048_lower_leg",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "379",
+            "character": "止",
+            "keyword": "stop",
+            "level": "Medium",
+            "filename": "379_stop",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "237",
+        "character": "兆",
+        "keyword": "portent",
+        "level": null,
+        "filename": "237_portent",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

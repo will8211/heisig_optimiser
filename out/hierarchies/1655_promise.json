@@ -1,111 +1,127 @@
 {
-  "number": "1655",
-  "character": "诺",
-  "keyword": "promise",
-  "level": null,
-  "id": "N",
-  "requirements": [
-    {
-      "number": "346",
-      "character": "言",
-      "keyword": "say",
-      "level": "Medium",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "2",
-          "character": "二",
-          "keyword": "two",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "亠",
-          "keyword": "top hat",
-          "level": null,
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "囧若",
-      "keyword": "Disneyland",
-      "level": null,
-      "id": "M",
-      "requirements": [
-        {
-          "number": "226",
-          "character": "若",
-          "keyword": "as if",
-          "level": null,
-          "id": "L",
-          "requirements": [
-            {
-              "number": null,
-              "character": "艹",
-              "keyword": "flower",
-              "level": null,
-              "id": "G",
-              "requirements": []
-            },
-            {
-              "number": "78",
-              "character": "右",
-              "keyword": "right",
-              "level": "Medium",
-              "id": "K",
-              "requirements": [
-                {
-                  "number": "11",
-                  "character": "口",
-                  "keyword": "mouth",
-                  "level": "Elementary",
-                  "id": "H",
-                  "requirements": []
-                },
-                {
-                  "number": null,
-                  "character": "𠂇",
-                  "keyword": "by one’s side",
-                  "level": null,
-                  "id": "J",
-                  "requirements": [
-                    {
-                      "number": "10",
-                      "character": "十",
-                      "keyword": "ten",
-                      "level": "Elementary",
-                      "id": "I",
-                      "requirements": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 1798,
+  "hierarchy": {
+    "number": "1655",
+    "character": "诺",
+    "keyword": "promise",
+    "level": null,
+    "filename": "1655_promise",
+    "id": "N",
+    "requirements": [
+      {
+        "number": "346",
+        "character": "言",
+        "keyword": "say",
+        "level": "Medium",
+        "filename": "346_say",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "2",
+            "character": "二",
+            "keyword": "two",
+            "level": "Elementary",
+            "filename": "2_two",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "亠",
+            "keyword": "top hat",
+            "level": null,
+            "filename": "primitive_top_hat",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "囧若",
+        "keyword": "Disneyland",
+        "level": null,
+        "filename": "primitive_Disneyland",
+        "id": "M",
+        "requirements": [
+          {
+            "number": "226",
+            "character": "若",
+            "keyword": "as if",
+            "level": null,
+            "filename": "226_as_if",
+            "id": "L",
+            "requirements": [
+              {
+                "number": null,
+                "character": "艹",
+                "keyword": "flower",
+                "level": null,
+                "filename": "primitive_flower",
+                "id": "G",
+                "requirements": []
+              },
+              {
+                "number": "78",
+                "character": "右",
+                "keyword": "right",
+                "level": "Medium",
+                "filename": "78_right",
+                "id": "K",
+                "requirements": [
+                  {
+                    "number": "11",
+                    "character": "口",
+                    "keyword": "mouth",
+                    "level": "Elementary",
+                    "filename": "11_mouth",
+                    "id": "H",
+                    "requirements": []
+                  },
+                  {
+                    "number": null,
+                    "character": "𠂇",
+                    "keyword": "by one’s side",
+                    "level": null,
+                    "filename": "primitive_by_one’s_side",
+                    "id": "J",
+                    "requirements": [
+                      {
+                        "number": "10",
+                        "character": "十",
+                        "keyword": "ten",
+                        "level": "Elementary",
+                        "filename": "10_ten",
+                        "id": "I",
+                        "requirements": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

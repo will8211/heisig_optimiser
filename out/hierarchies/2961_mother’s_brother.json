@@ -1,42 +1,50 @@
 {
-  "number": "2961",
-  "character": "舅",
-  "keyword": "mother’s brother",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": null,
-      "character": "臼",
-      "keyword": "mortar",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "741",
-      "character": "男",
-      "keyword": "male",
-      "level": "Elementary",
-      "id": "E",
-      "requirements": [
-        {
-          "number": "14",
-          "character": "田",
-          "keyword": "rice field",
-          "level": "Medium",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "732",
-          "character": "力",
-          "keyword": "power",
-          "level": "Medium",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 3162,
+  "hierarchy": {
+    "number": "2961",
+    "character": "舅",
+    "keyword": "mother’s brother",
+    "level": null,
+    "filename": "2961_mother’s_brother",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "臼",
+        "keyword": "mortar",
+        "level": null,
+        "filename": "primitive_mortar",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "741",
+        "character": "男",
+        "keyword": "male",
+        "level": "Elementary",
+        "filename": "741_male",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "14",
+            "character": "田",
+            "keyword": "rice field",
+            "level": "Medium",
+            "filename": "14_rice_field",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "732",
+            "character": "力",
+            "keyword": "power",
+            "level": "Medium",
+            "filename": "732_power",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

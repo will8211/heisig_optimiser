@@ -1,51 +1,60 @@
 {
-  "number": "2908",
-  "character": "驱",
-  "keyword": "drive away",
-  "level": null,
-  "id": "G",
-  "requirements": [
-    {
-      "number": "1453",
-      "character": "马",
-      "keyword": "horse",
-      "level": "Elementary",
-      "id": "C",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧与－丨一",
-          "keyword": "pointed tail",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "1295",
-      "character": "区",
-      "keyword": "region",
-      "level": "Medium",
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "匚",
-          "keyword": "box",
-          "level": null,
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "㐅",
-          "keyword": "sheaf",
-          "level": null,
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 3105,
+  "hierarchy": {
+    "number": "2908",
+    "character": "驱",
+    "keyword": "drive away",
+    "level": null,
+    "filename": "2908_drive_away",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "1453",
+        "character": "马",
+        "keyword": "horse",
+        "level": "Elementary",
+        "filename": "1453_horse",
+        "id": "C",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧与－丨一",
+            "keyword": "pointed tail",
+            "level": null,
+            "filename": "primitive_pointed_tail",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "1295",
+        "character": "区",
+        "keyword": "region",
+        "level": "Medium",
+        "filename": "1295_region",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "匚",
+            "keyword": "box",
+            "level": null,
+            "filename": "primitive_box",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "㐅",
+            "keyword": "sheaf",
+            "level": null,
+            "filename": "primitive_sheaf",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

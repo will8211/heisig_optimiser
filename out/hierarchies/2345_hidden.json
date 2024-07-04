@@ -1,50 +1,59 @@
 {
-  "number": "2345",
-  "character": "隐",
-  "keyword": "hidden",
-  "level": null,
-  "id": "G",
-  "requirements": [
-    {
-      "number": null,
-      "character": "阝",
-      "keyword": "pinnacle",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "946",
-      "character": "急",
-      "keyword": "anxious",
-      "level": "Medium",
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "勹",
-          "keyword": "bound up",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "彐",
-          "keyword": "broom",
-          "level": null,
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": "563",
-          "character": "心",
-          "keyword": "heart",
-          "level": "Medium",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2514,
+  "hierarchy": {
+    "number": "2345",
+    "character": "隐",
+    "keyword": "hidden",
+    "level": null,
+    "filename": "2345_hidden",
+    "id": "G",
+    "requirements": [
+      {
+        "number": null,
+        "character": "阝",
+        "keyword": "pinnacle",
+        "level": null,
+        "filename": "primitive_pinnacle",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "946",
+        "character": "急",
+        "keyword": "anxious",
+        "level": "Medium",
+        "filename": "946_anxious",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "勹",
+            "keyword": "bound up",
+            "level": null,
+            "filename": "primitive_bound_up",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "彐",
+            "keyword": "broom",
+            "level": null,
+            "filename": "primitive_broom",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": "563",
+            "character": "心",
+            "keyword": "heart",
+            "level": "Medium",
+            "filename": "563_heart",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

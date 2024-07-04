@@ -1,93 +1,107 @@
 {
-  "number": "827",
-  "character": "俯",
-  "keyword": "bow one’s head",
-  "level": null,
-  "id": "L",
-  "requirements": [
-    {
-      "number": "793",
-      "character": "人",
-      "keyword": "person",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "826",
-      "character": "府",
-      "keyword": "government office",
-      "level": "Advanced",
-      "id": "K",
-      "requirements": [
-        {
-          "number": "556",
-          "character": "广",
-          "keyword": "extensive",
-          "level": "Medium",
-          "id": "E",
-          "requirements": [
-            {
-              "number": "121",
-              "character": "厂",
-              "keyword": "factory",
-              "level": "Medium",
-              "id": "C",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "宀",
-              "keyword": "house",
-              "level": null,
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "825",
-          "character": "付",
-          "keyword": "pay",
-          "level": "Advanced",
-          "id": "J",
-          "requirements": [
-            {
-              "number": "793",
-              "character": "人",
-              "keyword": "person",
-              "level": "Elementary",
-              "id": "F",
-              "requirements": []
-            },
-            {
-              "number": "166",
-              "character": "寸",
-              "keyword": "Chinese inch",
-              "level": "Advanced",
-              "id": "I",
-              "requirements": [
-                {
-                  "number": null,
-                  "character": "丶",
-                  "keyword": "a drop of",
-                  "level": null,
-                  "id": "G",
-                  "requirements": []
-                },
-                {
-                  "number": "10",
-                  "character": "十",
-                  "keyword": "ten",
-                  "level": "Elementary",
-                  "id": "H",
-                  "requirements": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 889,
+  "hierarchy": {
+    "number": "827",
+    "character": "俯",
+    "keyword": "bow one’s head",
+    "level": null,
+    "filename": "827_bow_one’s_head",
+    "id": "L",
+    "requirements": [
+      {
+        "number": "793",
+        "character": "人",
+        "keyword": "person",
+        "level": "Elementary",
+        "filename": "793_person",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "826",
+        "character": "府",
+        "keyword": "government office",
+        "level": "Advanced",
+        "filename": "826_government_office",
+        "id": "K",
+        "requirements": [
+          {
+            "number": "556",
+            "character": "广",
+            "keyword": "extensive",
+            "level": "Medium",
+            "filename": "556_extensive",
+            "id": "E",
+            "requirements": [
+              {
+                "number": "121",
+                "character": "厂",
+                "keyword": "factory",
+                "level": "Medium",
+                "filename": "121_factory",
+                "id": "C",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "宀",
+                "keyword": "house",
+                "level": null,
+                "filename": "primitive_house",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "825",
+            "character": "付",
+            "keyword": "pay",
+            "level": "Advanced",
+            "filename": "825_pay",
+            "id": "J",
+            "requirements": [
+              {
+                "number": "793",
+                "character": "人",
+                "keyword": "person",
+                "level": "Elementary",
+                "filename": "793_person",
+                "id": "F",
+                "requirements": []
+              },
+              {
+                "number": "166",
+                "character": "寸",
+                "keyword": "Chinese inch",
+                "level": "Advanced",
+                "filename": "166_Chinese_inch",
+                "id": "I",
+                "requirements": [
+                  {
+                    "number": null,
+                    "character": "丶",
+                    "keyword": "a drop of",
+                    "level": null,
+                    "filename": "primitive_a_drop_of",
+                    "id": "G",
+                    "requirements": []
+                  },
+                  {
+                    "number": "10",
+                    "character": "十",
+                    "keyword": "ten",
+                    "level": "Elementary",
+                    "filename": "10_ten",
+                    "id": "H",
+                    "requirements": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

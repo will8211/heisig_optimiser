@@ -1,42 +1,50 @@
 {
-  "number": "1021",
-  "character": "佛",
-  "keyword": "Buddha",
-  "level": "Advanced",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "793",
-      "character": "人",
-      "keyword": "person",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "弗",
-      "keyword": "dollar sign",
-      "level": null,
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧介－𠆢",
-          "keyword": "crutches",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "1013",
-          "character": "弓",
-          "keyword": "bow",
-          "level": null,
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1097,
+  "hierarchy": {
+    "number": "1021",
+    "character": "佛",
+    "keyword": "Buddha",
+    "level": "Advanced",
+    "filename": "1021_Buddha",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "793",
+        "character": "人",
+        "keyword": "person",
+        "level": "Elementary",
+        "filename": "793_person",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "弗",
+        "keyword": "dollar sign",
+        "level": null,
+        "filename": "primitive_dollar_sign",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧介－𠆢",
+            "keyword": "crutches",
+            "level": null,
+            "filename": "primitive_crutches",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "1013",
+            "character": "弓",
+            "keyword": "bow",
+            "level": null,
+            "filename": "1013_bow",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

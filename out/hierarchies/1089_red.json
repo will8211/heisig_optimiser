@@ -1,34 +1,41 @@
 {
-  "number": "1089",
-  "character": "红",
-  "keyword": "red",
-  "level": "Medium",
-  "id": "E",
-  "requirements": [
-    {
-      "number": null,
-      "character": "纟",
-      "keyword": "thread",
-      "level": null,
-      "id": "C",
-      "requirements": [
-        {
-          "number": null,
-          "character": "厶",
-          "keyword": "elbow",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "76",
-      "character": "工",
-      "keyword": "work",
-      "level": "Elementary",
-      "id": "D",
-      "requirements": []
-    }
-  ]
+  "order": 1172,
+  "hierarchy": {
+    "number": "1089",
+    "character": "红",
+    "keyword": "red",
+    "level": "Medium",
+    "filename": "1089_red",
+    "id": "E",
+    "requirements": [
+      {
+        "number": null,
+        "character": "纟",
+        "keyword": "thread",
+        "level": null,
+        "filename": "primitive_thread",
+        "id": "C",
+        "requirements": [
+          {
+            "number": null,
+            "character": "厶",
+            "keyword": "elbow",
+            "level": null,
+            "filename": "primitive_elbow",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "76",
+        "character": "工",
+        "keyword": "work",
+        "level": "Elementary",
+        "filename": "76_work",
+        "id": "D",
+        "requirements": []
+      }
+    ]
+  }
 }

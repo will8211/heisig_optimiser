@@ -1,76 +1,88 @@
 {
-  "number": "2291",
-  "character": "鳄",
-  "keyword": "crocodile",
-  "level": null,
-  "id": "J",
-  "requirements": [
-    {
-      "number": "154",
-      "character": "鱼",
-      "keyword": "fish",
-      "level": "Medium",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "勹",
-          "keyword": "bound up",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "14",
-          "character": "田",
-          "keyword": "rice field",
-          "level": "Medium",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "吅",
-      "keyword": "chatterbox",
-      "level": null,
-      "id": "G",
-      "requirements": [
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "2286",
-      "character": "亏",
-      "keyword": "loss",
-      "level": "Advanced",
-      "id": "I",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丂",
-          "keyword": "snare",
-          "level": null,
-          "id": "H",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2459,
+  "hierarchy": {
+    "number": "2291",
+    "character": "鳄",
+    "keyword": "crocodile",
+    "level": null,
+    "filename": "2291_crocodile",
+    "id": "J",
+    "requirements": [
+      {
+        "number": "154",
+        "character": "鱼",
+        "keyword": "fish",
+        "level": "Medium",
+        "filename": "154_fish",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "勹",
+            "keyword": "bound up",
+            "level": null,
+            "filename": "primitive_bound_up",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "14",
+            "character": "田",
+            "keyword": "rice field",
+            "level": "Medium",
+            "filename": "14_rice_field",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "吅",
+        "keyword": "chatterbox",
+        "level": null,
+        "filename": "primitive_chatterbox",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "2286",
+        "character": "亏",
+        "keyword": "loss",
+        "level": "Advanced",
+        "filename": "2286_loss",
+        "id": "I",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丂",
+            "keyword": "snare",
+            "level": null,
+            "filename": "primitive_snare",
+            "id": "H",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

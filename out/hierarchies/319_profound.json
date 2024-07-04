@@ -1,68 +1,79 @@
 {
-  "number": "319",
-  "character": "沉",
-  "keyword": "profound",
-  "level": "Advanced",
-  "id": "I",
-  "requirements": [
-    {
-      "number": "137",
-      "character": "水",
-      "keyword": "water",
-      "level": "Elementary",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丨",
-          "keyword": "walking stick",
-          "level": null,
-          "id": "C",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "318",
-      "character": "冗",
-      "keyword": "superfluous",
-      "level": null,
-      "id": "H",
-      "requirements": [
-        {
-          "number": null,
-          "character": "冖",
-          "keyword": "crown",
-          "level": null,
-          "id": "F",
-          "requirements": []
-        },
-        {
-          "number": "57",
-          "character": "几",
-          "keyword": "how many?",
-          "level": "Elementary",
-          "id": "G",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 340,
+  "hierarchy": {
+    "number": "319",
+    "character": "沉",
+    "keyword": "profound",
+    "level": "Advanced",
+    "filename": "319_profound",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "137",
+        "character": "水",
+        "keyword": "water",
+        "level": "Elementary",
+        "filename": "137_water",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丨",
+            "keyword": "walking stick",
+            "level": null,
+            "filename": "primitive_walking_stick",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "318",
+        "character": "冗",
+        "keyword": "superfluous",
+        "level": null,
+        "filename": "318_superfluous",
+        "id": "H",
+        "requirements": [
+          {
+            "number": null,
+            "character": "冖",
+            "keyword": "crown",
+            "level": null,
+            "filename": "primitive_crown",
+            "id": "F",
+            "requirements": []
+          },
+          {
+            "number": "57",
+            "character": "几",
+            "keyword": "how many?",
+            "level": "Elementary",
+            "filename": "57_how_many",
+            "id": "G",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

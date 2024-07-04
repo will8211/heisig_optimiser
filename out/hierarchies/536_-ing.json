@@ -1,52 +1,61 @@
 {
-  "number": "536",
-  "character": "着",
-  "keyword": "-ing",
-  "level": "Elementary",
-  "id": "G",
-  "requirements": [
-    {
-      "number": null,
-      "character": "囧差－工",
-      "keyword": "wool",
-      "level": null,
-      "id": "E",
-      "requirements": [
-        {
-          "number": "528",
-          "character": "羊",
-          "keyword": "sheep",
-          "level": "Medium",
-          "id": "D",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丷",
-              "keyword": "horns",
-              "level": null,
-              "id": "C",
-              "requirements": [
-                {
-                  "number": "1",
-                  "character": "一",
-                  "keyword": "one",
-                  "level": "Elementary",
-                  "id": "B",
-                  "requirements": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": "15",
-      "character": "目",
-      "keyword": "eye",
-      "level": "Medium",
-      "id": "F",
-      "requirements": []
-    }
-  ]
+  "order": 583,
+  "hierarchy": {
+    "number": "536",
+    "character": "着",
+    "keyword": "-ing",
+    "level": "Elementary",
+    "filename": "536_-ing",
+    "id": "G",
+    "requirements": [
+      {
+        "number": null,
+        "character": "囧差－工",
+        "keyword": "wool",
+        "level": null,
+        "filename": "primitive_wool",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "528",
+            "character": "羊",
+            "keyword": "sheep",
+            "level": "Medium",
+            "filename": "528_sheep",
+            "id": "D",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丷",
+                "keyword": "horns",
+                "level": null,
+                "filename": "primitive_horns",
+                "id": "C",
+                "requirements": [
+                  {
+                    "number": "1",
+                    "character": "一",
+                    "keyword": "one",
+                    "level": "Elementary",
+                    "filename": "1_one",
+                    "id": "B",
+                    "requirements": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": "15",
+        "character": "目",
+        "keyword": "eye",
+        "level": "Medium",
+        "filename": "15_eye",
+        "id": "F",
+        "requirements": []
+      }
+    ]
+  }
 }

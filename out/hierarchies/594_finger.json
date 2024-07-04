@@ -1,42 +1,50 @@
 {
-  "number": "594",
-  "character": "指",
-  "keyword": "finger",
-  "level": "Advanced",
-  "id": "F",
-  "requirements": [
-    {
-      "number": null,
-      "character": "扌",
-      "keyword": "fingers",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "463",
-      "character": "旨",
-      "keyword": "purpose",
-      "level": null,
-      "id": "E",
-      "requirements": [
-        {
-          "number": "453",
-          "character": "匕",
-          "keyword": "ancient spoon",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "12",
-          "character": "日",
-          "keyword": "day",
-          "level": "Elementary",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 644,
+  "hierarchy": {
+    "number": "594",
+    "character": "指",
+    "keyword": "finger",
+    "level": "Advanced",
+    "filename": "594_finger",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "primitive_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "463",
+        "character": "旨",
+        "keyword": "purpose",
+        "level": null,
+        "filename": "463_purpose",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "453",
+            "character": "匕",
+            "keyword": "ancient spoon",
+            "level": null,
+            "filename": "453_ancient_spoon",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "12",
+            "character": "日",
+            "keyword": "day",
+            "level": "Elementary",
+            "filename": "12_day",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,34 +1,41 @@
 {
-  "number": "114",
-  "character": "尖",
-  "keyword": "tip",
-  "level": "Medium",
-  "id": "E",
-  "requirements": [
-    {
-      "number": "109",
-      "character": "小",
-      "keyword": "small",
-      "level": "Elementary",
-      "id": "C",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "113",
-      "character": "大",
-      "keyword": "large",
-      "level": "Elementary",
-      "id": "D",
-      "requirements": []
-    }
-  ]
+  "order": 122,
+  "hierarchy": {
+    "number": "114",
+    "character": "尖",
+    "keyword": "tip",
+    "level": "Medium",
+    "filename": "114_tip",
+    "id": "E",
+    "requirements": [
+      {
+        "number": "109",
+        "character": "小",
+        "keyword": "small",
+        "level": "Elementary",
+        "filename": "109_small",
+        "id": "C",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "113",
+        "character": "大",
+        "keyword": "large",
+        "level": "Elementary",
+        "filename": "113_large",
+        "id": "D",
+        "requirements": []
+      }
+    ]
+  }
 }

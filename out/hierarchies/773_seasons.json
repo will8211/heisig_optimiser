@@ -1,25 +1,31 @@
 {
-  "number": "773",
-  "character": "季",
-  "keyword": "seasons",
-  "level": "Advanced",
-  "id": "D",
-  "requirements": [
-    {
-      "number": "762",
-      "character": "禾",
-      "keyword": "standing grain",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "97",
-      "character": "子",
-      "keyword": "child",
-      "level": "Elementary",
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 834,
+  "hierarchy": {
+    "number": "773",
+    "character": "季",
+    "keyword": "seasons",
+    "level": "Advanced",
+    "filename": "773_seasons",
+    "id": "D",
+    "requirements": [
+      {
+        "number": "762",
+        "character": "禾",
+        "keyword": "standing grain",
+        "level": null,
+        "filename": "762_standing_grain",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "97",
+        "character": "子",
+        "keyword": "child",
+        "level": "Elementary",
+        "filename": "97_child",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

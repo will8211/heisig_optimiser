@@ -1,42 +1,50 @@
 {
-  "number": "552",
-  "character": "烟",
-  "keyword": "smoke",
-  "level": "Advanced",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "170",
-      "character": "火",
-      "keyword": "fire",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "551",
-      "character": "因",
-      "keyword": "cause",
-      "level": "Elementary",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囗",
-          "keyword": "pent in",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "113",
-          "character": "大",
-          "keyword": "large",
-          "level": "Elementary",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 601,
+  "hierarchy": {
+    "number": "552",
+    "character": "烟",
+    "keyword": "smoke",
+    "level": "Advanced",
+    "filename": "552_smoke",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "170",
+        "character": "火",
+        "keyword": "fire",
+        "level": "Elementary",
+        "filename": "170_fire",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "551",
+        "character": "因",
+        "keyword": "cause",
+        "level": "Elementary",
+        "filename": "551_cause",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囗",
+            "keyword": "pent in",
+            "level": null,
+            "filename": "primitive_pent_in",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "113",
+            "character": "大",
+            "keyword": "large",
+            "level": "Elementary",
+            "filename": "113_large",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

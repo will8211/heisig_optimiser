@@ -1,51 +1,60 @@
 {
-  "number": "1201",
-  "character": "襄",
-  "keyword": "aid",
-  "level": null,
-  "id": "G",
-  "requirements": [
-    {
-      "number": "400",
-      "character": "衣",
-      "keyword": "clothing",
-      "level": "Elementary",
-      "id": "C",
-      "requirements": [
-        {
-          "number": null,
-          "character": "亠",
-          "keyword": "top hat",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "吅",
-      "keyword": "chatterbox",
-      "level": null,
-      "id": "E",
-      "requirements": [
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "𠀎",
-      "keyword": "wire mesh",
-      "level": null,
-      "id": "F",
-      "requirements": []
-    }
-  ]
+  "order": 1303,
+  "hierarchy": {
+    "number": "1201",
+    "character": "襄",
+    "keyword": "aid",
+    "level": null,
+    "filename": "1201_aid",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "400",
+        "character": "衣",
+        "keyword": "clothing",
+        "level": "Elementary",
+        "filename": "400_clothing",
+        "id": "C",
+        "requirements": [
+          {
+            "number": null,
+            "character": "亠",
+            "keyword": "top hat",
+            "level": null,
+            "filename": "primitive_top_hat",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "吅",
+        "keyword": "chatterbox",
+        "level": null,
+        "filename": "primitive_chatterbox",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "𠀎",
+        "keyword": "wire mesh",
+        "level": null,
+        "filename": "primitive_wire_mesh",
+        "id": "F",
+        "requirements": []
+      }
+    ]
+  }
 }

@@ -1,25 +1,31 @@
 {
-  "number": "2700",
-  "character": "杉",
-  "keyword": "fir tree",
-  "level": null,
-  "id": "D",
-  "requirements": [
-    {
-      "number": "202",
-      "character": "木",
-      "keyword": "tree",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "彡",
-      "keyword": "rooster tail",
-      "level": null,
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 2892,
+  "hierarchy": {
+    "number": "2700",
+    "character": "杉",
+    "keyword": "fir tree",
+    "level": null,
+    "filename": "2700_fir_tree",
+    "id": "D",
+    "requirements": [
+      {
+        "number": "202",
+        "character": "木",
+        "keyword": "tree",
+        "level": "Elementary",
+        "filename": "202_tree",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "彡",
+        "keyword": "rooster tail",
+        "level": null,
+        "filename": "primitive_rooster_tail",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

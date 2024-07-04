@@ -1,51 +1,60 @@
 {
-  "number": "1622",
-  "character": "逞",
-  "keyword": "flaunt",
-  "level": null,
-  "id": "G",
-  "requirements": [
-    {
-      "number": "274",
-      "character": "呈",
-      "keyword": "submit",
-      "level": null,
-      "id": "E",
-      "requirements": [
-        {
-          "number": "265",
-          "character": "王",
-          "keyword": "king",
-          "level": "Medium",
-          "id": "C",
-          "requirements": [
-            {
-              "number": "76",
-              "character": "工",
-              "keyword": "work",
-              "level": "Elementary",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "辶",
-      "keyword": "road",
-      "level": null,
-      "id": "F",
-      "requirements": []
-    }
-  ]
+  "order": 1762,
+  "hierarchy": {
+    "number": "1622",
+    "character": "逞",
+    "keyword": "flaunt",
+    "level": null,
+    "filename": "1622_flaunt",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "274",
+        "character": "呈",
+        "keyword": "submit",
+        "level": null,
+        "filename": "274_submit",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "265",
+            "character": "王",
+            "keyword": "king",
+            "level": "Medium",
+            "filename": "265_king",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "76",
+                "character": "工",
+                "keyword": "work",
+                "level": "Elementary",
+                "filename": "76_work",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "辶",
+        "keyword": "road",
+        "level": null,
+        "filename": "primitive_road",
+        "id": "F",
+        "requirements": []
+      }
+    ]
+  }
 }

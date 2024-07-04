@@ -1,59 +1,69 @@
 {
-  "number": "2932",
-  "character": "垄",
-  "keyword": "raised path between fields",
-  "level": null,
-  "id": "H",
-  "requirements": [
-    {
-      "number": "158",
-      "character": "土",
-      "keyword": "soil",
-      "level": "Medium",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1474",
-      "character": "龙",
-      "keyword": "dragon",
-      "level": "Medium",
-      "id": "G",
-      "requirements": [
-        {
-          "number": "239",
-          "character": "犬",
-          "keyword": "pooch",
-          "level": null,
-          "id": "E",
-          "requirements": [
-            {
-              "number": "113",
-              "character": "大",
-              "keyword": "large",
-              "level": "Elementary",
-              "id": "C",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "453",
-          "character": "匕",
-          "keyword": "ancient spoon",
-          "level": null,
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 3131,
+  "hierarchy": {
+    "number": "2932",
+    "character": "垄",
+    "keyword": "raised path between fields",
+    "level": null,
+    "filename": "2932_raised_path_between_fields",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "158",
+        "character": "土",
+        "keyword": "soil",
+        "level": "Medium",
+        "filename": "158_soil",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1474",
+        "character": "龙",
+        "keyword": "dragon",
+        "level": "Medium",
+        "filename": "1474_dragon",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "239",
+            "character": "犬",
+            "keyword": "pooch",
+            "level": null,
+            "filename": "239_pooch",
+            "id": "E",
+            "requirements": [
+              {
+                "number": "113",
+                "character": "大",
+                "keyword": "large",
+                "level": "Elementary",
+                "filename": "113_large",
+                "id": "C",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "453",
+            "character": "匕",
+            "keyword": "ancient spoon",
+            "level": null,
+            "filename": "453_ancient_spoon",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

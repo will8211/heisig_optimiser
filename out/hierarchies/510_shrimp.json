@@ -1,68 +1,79 @@
 {
-  "number": "510",
-  "character": "虾",
-  "keyword": "shrimp",
-  "level": null,
-  "id": "I",
-  "requirements": [
-    {
-      "number": "509",
-      "character": "虫",
-      "keyword": "insect",
-      "level": "Medium",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "46",
-      "character": "下",
-      "keyword": "below",
-      "level": "Elementary",
-      "id": "H",
-      "requirements": [
-        {
-          "number": "43",
-          "character": "卜",
-          "keyword": "divination",
-          "level": null,
-          "id": "F",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丨",
-              "keyword": "walking stick",
-              "level": null,
-              "id": "D",
-              "requirements": [
-                {
-                  "number": "1",
-                  "character": "一",
-                  "keyword": "one",
-                  "level": "Elementary",
-                  "id": "C",
-                  "requirements": []
-                }
-              ]
-            },
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "id": "E",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "id": "G",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 554,
+  "hierarchy": {
+    "number": "510",
+    "character": "虾",
+    "keyword": "shrimp",
+    "level": null,
+    "filename": "510_shrimp",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "509",
+        "character": "虫",
+        "keyword": "insect",
+        "level": "Medium",
+        "filename": "509_insect",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "46",
+        "character": "下",
+        "keyword": "below",
+        "level": "Elementary",
+        "filename": "46_below",
+        "id": "H",
+        "requirements": [
+          {
+            "number": "43",
+            "character": "卜",
+            "keyword": "divination",
+            "level": null,
+            "filename": "43_divination",
+            "id": "F",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丨",
+                "keyword": "walking stick",
+                "level": null,
+                "filename": "primitive_walking_stick",
+                "id": "D",
+                "requirements": [
+                  {
+                    "number": "1",
+                    "character": "一",
+                    "keyword": "one",
+                    "level": "Elementary",
+                    "filename": "1_one",
+                    "id": "C",
+                    "requirements": []
+                  }
+                ]
+              },
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "G",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

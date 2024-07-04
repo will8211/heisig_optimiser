@@ -1,34 +1,41 @@
 {
-  "number": "850",
-  "character": "巫",
-  "keyword": "witch",
-  "level": null,
-  "id": "E",
-  "requirements": [
-    {
-      "number": "76",
-      "character": "工",
-      "keyword": "work",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "846",
-      "character": "从",
-      "keyword": "follow",
-      "level": "Elementary",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "793",
-          "character": "人",
-          "keyword": "person",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 912,
+  "hierarchy": {
+    "number": "850",
+    "character": "巫",
+    "keyword": "witch",
+    "level": null,
+    "filename": "850_witch",
+    "id": "E",
+    "requirements": [
+      {
+        "number": "76",
+        "character": "工",
+        "keyword": "work",
+        "level": "Elementary",
+        "filename": "76_work",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "846",
+        "character": "从",
+        "keyword": "follow",
+        "level": "Elementary",
+        "filename": "846_follow",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "793",
+            "character": "人",
+            "keyword": "person",
+            "level": "Elementary",
+            "filename": "793_person",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

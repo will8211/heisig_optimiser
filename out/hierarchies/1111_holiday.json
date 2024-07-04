@@ -1,25 +1,31 @@
 {
-  "number": "1111",
-  "character": "节",
-  "keyword": "holiday",
-  "level": "Medium",
-  "id": "D",
-  "requirements": [
-    {
-      "number": null,
-      "character": "艹",
-      "keyword": "flower",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "囧节－艹",
-      "keyword": "chop",
-      "level": null,
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 1200,
+  "hierarchy": {
+    "number": "1111",
+    "character": "节",
+    "keyword": "holiday",
+    "level": "Medium",
+    "filename": "1111_holiday",
+    "id": "D",
+    "requirements": [
+      {
+        "number": null,
+        "character": "艹",
+        "keyword": "flower",
+        "level": null,
+        "filename": "primitive_flower",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "囧节－艹",
+        "keyword": "chop",
+        "level": null,
+        "filename": "primitive_chop",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

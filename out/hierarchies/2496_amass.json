@@ -1,50 +1,59 @@
 {
-  "number": "2496",
-  "character": "蕴",
-  "keyword": "amass",
-  "level": null,
-  "id": "G",
-  "requirements": [
-    {
-      "number": null,
-      "character": "艹",
-      "keyword": "flower",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "纟",
-      "keyword": "thread",
-      "level": null,
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "厶",
-          "keyword": "elbow",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "12",
-      "character": "日",
-      "keyword": "day",
-      "level": "Elementary",
-      "id": "E",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "皿",
-      "keyword": "dish",
-      "level": null,
-      "id": "F",
-      "requirements": []
-    }
-  ]
+  "order": 2680,
+  "hierarchy": {
+    "number": "2496",
+    "character": "蕴",
+    "keyword": "amass",
+    "level": null,
+    "filename": "2496_amass",
+    "id": "G",
+    "requirements": [
+      {
+        "number": null,
+        "character": "艹",
+        "keyword": "flower",
+        "level": null,
+        "filename": "primitive_flower",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "纟",
+        "keyword": "thread",
+        "level": null,
+        "filename": "primitive_thread",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "厶",
+            "keyword": "elbow",
+            "level": null,
+            "filename": "primitive_elbow",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "12",
+        "character": "日",
+        "keyword": "day",
+        "level": "Elementary",
+        "filename": "12_day",
+        "id": "E",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "皿",
+        "keyword": "dish",
+        "level": null,
+        "filename": "primitive_dish",
+        "id": "F",
+        "requirements": []
+      }
+    ]
+  }
 }

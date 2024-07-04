@@ -1,17 +1,22 @@
 {
-  "number": "213",
-  "character": "本",
-  "keyword": "notebook",
-  "level": "Elementary",
-  "id": "C",
-  "requirements": [
-    {
-      "number": "202",
-      "character": "木",
-      "keyword": "tree",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    }
-  ]
+  "order": 224,
+  "hierarchy": {
+    "number": "213",
+    "character": "本",
+    "keyword": "notebook",
+    "level": "Elementary",
+    "filename": "213_notebook",
+    "id": "C",
+    "requirements": [
+      {
+        "number": "202",
+        "character": "木",
+        "keyword": "tree",
+        "level": "Elementary",
+        "filename": "202_tree",
+        "id": "B",
+        "requirements": []
+      }
+    ]
+  }
 }

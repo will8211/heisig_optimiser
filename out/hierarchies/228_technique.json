@@ -1,25 +1,31 @@
 {
-  "number": "228",
-  "character": "艺",
-  "keyword": "technique",
-  "level": "Advanced",
-  "id": "D",
-  "requirements": [
-    {
-      "number": "95",
-      "character": "乙",
-      "keyword": "second",
-      "level": "Medium",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "艹",
-      "keyword": "flower",
-      "level": null,
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 240,
+  "hierarchy": {
+    "number": "228",
+    "character": "艺",
+    "keyword": "technique",
+    "level": "Advanced",
+    "filename": "228_technique",
+    "id": "D",
+    "requirements": [
+      {
+        "number": "95",
+        "character": "乙",
+        "keyword": "second",
+        "level": "Medium",
+        "filename": "95_second",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "艹",
+        "keyword": "flower",
+        "level": null,
+        "filename": "primitive_flower",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

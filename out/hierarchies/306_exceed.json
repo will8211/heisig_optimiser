@@ -1,68 +1,79 @@
 {
-  "number": "306",
-  "character": "逾",
-  "keyword": "exceed",
-  "level": null,
-  "id": "I",
-  "requirements": [
-    {
-      "number": null,
-      "character": "辶",
-      "keyword": "road",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "俞",
-      "keyword": "slaughterhouse",
-      "level": null,
-      "id": "H",
-      "requirements": [
-        {
-          "number": null,
-          "character": "亼",
-          "keyword": "meeting",
-          "level": null,
-          "id": "D",
-          "requirements": [
-            {
-              "number": null,
-              "character": "𠆢",
-              "keyword": "umbrella",
-              "level": null,
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "刖",
-          "keyword": "butcher",
-          "level": null,
-          "id": "G",
-          "requirements": [
-            {
-              "number": "13",
-              "character": "月",
-              "keyword": "month",
-              "level": "Elementary",
-              "id": "E",
-              "requirements": []
-            },
-            {
-              "number": "83",
-              "character": "刀",
-              "keyword": "sword",
-              "level": "Medium",
-              "id": "F",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 325,
+  "hierarchy": {
+    "number": "306",
+    "character": "逾",
+    "keyword": "exceed",
+    "level": null,
+    "filename": "306_exceed",
+    "id": "I",
+    "requirements": [
+      {
+        "number": null,
+        "character": "辶",
+        "keyword": "road",
+        "level": null,
+        "filename": "primitive_road",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "俞",
+        "keyword": "slaughterhouse",
+        "level": null,
+        "filename": "primitive_slaughterhouse",
+        "id": "H",
+        "requirements": [
+          {
+            "number": null,
+            "character": "亼",
+            "keyword": "meeting",
+            "level": null,
+            "filename": "primitive_meeting",
+            "id": "D",
+            "requirements": [
+              {
+                "number": null,
+                "character": "𠆢",
+                "keyword": "umbrella",
+                "level": null,
+                "filename": "primitive_umbrella",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "刖",
+            "keyword": "butcher",
+            "level": null,
+            "filename": "primitive_butcher",
+            "id": "G",
+            "requirements": [
+              {
+                "number": "13",
+                "character": "月",
+                "keyword": "month",
+                "level": "Elementary",
+                "filename": "13_month",
+                "id": "E",
+                "requirements": []
+              },
+              {
+                "number": "83",
+                "character": "刀",
+                "keyword": "sword",
+                "level": "Medium",
+                "filename": "83_sword",
+                "id": "F",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

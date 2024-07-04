@@ -1,59 +1,69 @@
 {
-  "number": "1051",
-  "character": "路",
-  "keyword": "path",
-  "level": "Elementary",
-  "id": "H",
-  "requirements": [
-    {
-      "number": "1048",
-      "character": "足",
-      "keyword": "lower leg",
-      "level": "Medium",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "379",
-          "character": "止",
-          "keyword": "stop",
-          "level": "Medium",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "309",
-      "character": "各",
-      "keyword": "each",
-      "level": "Medium",
-      "id": "G",
-      "requirements": [
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "id": "E",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "夂",
-          "keyword": "walking legs",
-          "level": null,
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1131,
+  "hierarchy": {
+    "number": "1051",
+    "character": "路",
+    "keyword": "path",
+    "level": "Elementary",
+    "filename": "1051_path",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "1048",
+        "character": "足",
+        "keyword": "lower leg",
+        "level": "Medium",
+        "filename": "1048_lower_leg",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "379",
+            "character": "止",
+            "keyword": "stop",
+            "level": "Medium",
+            "filename": "379_stop",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "309",
+        "character": "各",
+        "keyword": "each",
+        "level": "Medium",
+        "filename": "309_each",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "E",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "夂",
+            "keyword": "walking legs",
+            "level": null,
+            "filename": "primitive_walking_legs",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

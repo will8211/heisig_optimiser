@@ -1,25 +1,31 @@
 {
-  "number": "2677",
-  "character": "匠",
-  "keyword": "artisan",
-  "level": null,
-  "id": "D",
-  "requirements": [
-    {
-      "number": null,
-      "character": "匚",
-      "keyword": "box",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "924",
-      "character": "斤",
-      "keyword": "catty",
-      "level": "Medium",
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 2866,
+  "hierarchy": {
+    "number": "2677",
+    "character": "匠",
+    "keyword": "artisan",
+    "level": null,
+    "filename": "2677_artisan",
+    "id": "D",
+    "requirements": [
+      {
+        "number": null,
+        "character": "匚",
+        "keyword": "box",
+        "level": null,
+        "filename": "primitive_box",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "924",
+        "character": "斤",
+        "keyword": "catty",
+        "level": "Medium",
+        "filename": "924_catty",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

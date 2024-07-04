@@ -1,94 +1,108 @@
 {
-  "number": "1874",
-  "character": "愤",
-  "keyword": "indignation",
-  "level": null,
-  "id": "L",
-  "requirements": [
-    {
-      "number": "563",
-      "character": "心",
-      "keyword": "heart",
-      "level": "Medium",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "贲",
-      "keyword": "local-yokel chowder",
-      "level": null,
-      "id": "K",
-      "requirements": [
-        {
-          "number": "52",
-          "character": "贝",
-          "keyword": "shellfish",
-          "level": "Medium",
-          "id": "E",
-          "requirements": [
-            {
-              "number": "15",
-              "character": "目",
-              "keyword": "eye",
-              "level": "Medium",
-              "id": "C",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "囧只－口",
-              "keyword": "animal legs",
-              "level": null,
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "卉",
-          "keyword": "haystack",
-          "level": null,
-          "id": "J",
-          "requirements": [
-            {
-              "number": "613",
-              "character": "开",
-              "keyword": "open",
-              "level": "Elementary",
-              "id": "H",
-              "requirements": [
-                {
-                  "number": "2",
-                  "character": "二",
-                  "keyword": "two",
-                  "level": "Elementary",
-                  "id": "G",
-                  "requirements": [
-                    {
-                      "number": "1",
-                      "character": "一",
-                      "keyword": "one",
-                      "level": "Elementary",
-                      "id": "F",
-                      "requirements": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "number": "10",
-              "character": "十",
-              "keyword": "ten",
-              "level": "Elementary",
-              "id": "I",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2028,
+  "hierarchy": {
+    "number": "1874",
+    "character": "愤",
+    "keyword": "indignation",
+    "level": null,
+    "filename": "1874_indignation",
+    "id": "L",
+    "requirements": [
+      {
+        "number": "563",
+        "character": "心",
+        "keyword": "heart",
+        "level": "Medium",
+        "filename": "563_heart",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "贲",
+        "keyword": "local-yokel chowder",
+        "level": null,
+        "filename": "primitive_local-yokel_chowder",
+        "id": "K",
+        "requirements": [
+          {
+            "number": "52",
+            "character": "贝",
+            "keyword": "shellfish",
+            "level": "Medium",
+            "filename": "52_shellfish",
+            "id": "E",
+            "requirements": [
+              {
+                "number": "15",
+                "character": "目",
+                "keyword": "eye",
+                "level": "Medium",
+                "filename": "15_eye",
+                "id": "C",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "囧只－口",
+                "keyword": "animal legs",
+                "level": null,
+                "filename": "primitive_animal_legs",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "卉",
+            "keyword": "haystack",
+            "level": null,
+            "filename": "primitive_haystack",
+            "id": "J",
+            "requirements": [
+              {
+                "number": "613",
+                "character": "开",
+                "keyword": "open",
+                "level": "Elementary",
+                "filename": "613_open",
+                "id": "H",
+                "requirements": [
+                  {
+                    "number": "2",
+                    "character": "二",
+                    "keyword": "two",
+                    "level": "Elementary",
+                    "filename": "2_two",
+                    "id": "G",
+                    "requirements": [
+                      {
+                        "number": "1",
+                        "character": "一",
+                        "keyword": "one",
+                        "level": "Elementary",
+                        "filename": "1_one",
+                        "id": "F",
+                        "requirements": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": "10",
+                "character": "十",
+                "keyword": "ten",
+                "level": "Elementary",
+                "filename": "10_ten",
+                "id": "I",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

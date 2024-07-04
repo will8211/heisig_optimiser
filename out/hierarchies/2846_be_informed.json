@@ -1,42 +1,50 @@
 {
-  "number": "2846",
-  "character": "悉",
-  "keyword": "be informed",
-  "level": "Advanced",
-  "id": "F",
-  "requirements": [
-    {
-      "number": null,
-      "character": "釆",
-      "keyword": "droppings",
-      "level": null,
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "778",
-          "character": "米",
-          "keyword": "rice",
-          "level": "Medium",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "563",
-      "character": "心",
-      "keyword": "heart",
-      "level": "Medium",
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 3040,
+  "hierarchy": {
+    "number": "2846",
+    "character": "悉",
+    "keyword": "be informed",
+    "level": "Advanced",
+    "filename": "2846_be_informed",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "釆",
+        "keyword": "droppings",
+        "level": null,
+        "filename": "primitive_droppings",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "778",
+            "character": "米",
+            "keyword": "rice",
+            "level": "Medium",
+            "filename": "778_rice",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "563",
+        "character": "心",
+        "keyword": "heart",
+        "level": "Medium",
+        "filename": "563_heart",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

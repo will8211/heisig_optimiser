@@ -1,76 +1,88 @@
 {
-  "number": "1155",
-  "character": "饭",
-  "keyword": "meal",
-  "level": "Elementary",
-  "id": "J",
-  "requirements": [
-    {
-      "number": "1154",
-      "character": "食",
-      "keyword": "food",
-      "level": "Medium",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "1151",
-          "character": "良",
-          "keyword": "high-quality",
-          "level": "Advanced",
-          "id": "D",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "id": "B",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "艮",
-              "keyword": "silver",
-              "level": null,
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "𠆢",
-          "keyword": "umbrella",
-          "level": null,
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "656",
-      "character": "反",
-      "keyword": "against",
-      "level": "Medium",
-      "id": "I",
-      "requirements": [
-        {
-          "number": null,
-          "character": "𠂆",
-          "keyword": "drag",
-          "level": null,
-          "id": "G",
-          "requirements": []
-        },
-        {
-          "number": "633",
-          "character": "又",
-          "keyword": "again",
-          "level": "Elementary",
-          "id": "H",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1251,
+  "hierarchy": {
+    "number": "1155",
+    "character": "饭",
+    "keyword": "meal",
+    "level": "Elementary",
+    "filename": "1155_meal",
+    "id": "J",
+    "requirements": [
+      {
+        "number": "1154",
+        "character": "食",
+        "keyword": "food",
+        "level": "Medium",
+        "filename": "1154_food",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "1151",
+            "character": "良",
+            "keyword": "high-quality",
+            "level": "Advanced",
+            "filename": "1151_high-quality",
+            "id": "D",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "B",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "艮",
+                "keyword": "silver",
+                "level": null,
+                "filename": "primitive_silver",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "𠆢",
+            "keyword": "umbrella",
+            "level": null,
+            "filename": "primitive_umbrella",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "656",
+        "character": "反",
+        "keyword": "against",
+        "level": "Medium",
+        "filename": "656_against",
+        "id": "I",
+        "requirements": [
+          {
+            "number": null,
+            "character": "𠂆",
+            "keyword": "drag",
+            "level": null,
+            "filename": "primitive_drag",
+            "id": "G",
+            "requirements": []
+          },
+          {
+            "number": "633",
+            "character": "又",
+            "keyword": "again",
+            "level": "Elementary",
+            "filename": "633_again",
+            "id": "H",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

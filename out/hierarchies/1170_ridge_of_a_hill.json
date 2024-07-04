@@ -1,34 +1,41 @@
 {
-  "number": "1170",
-  "character": "冈",
-  "keyword": "ridge of a hill",
-  "level": null,
-  "id": "E",
-  "requirements": [
-    {
-      "number": null,
-      "character": "冂",
-      "keyword": "hood",
-      "level": null,
-      "id": "C",
-      "requirements": [
-        {
-          "number": "57",
-          "character": "几",
-          "keyword": "how many?",
-          "level": "Elementary",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "㐅",
-      "keyword": "sheaf",
-      "level": null,
-      "id": "D",
-      "requirements": []
-    }
-  ]
+  "order": 1268,
+  "hierarchy": {
+    "number": "1170",
+    "character": "冈",
+    "keyword": "ridge of a hill",
+    "level": null,
+    "filename": "1170_ridge_of_a_hill",
+    "id": "E",
+    "requirements": [
+      {
+        "number": null,
+        "character": "冂",
+        "keyword": "hood",
+        "level": null,
+        "filename": "primitive_hood",
+        "id": "C",
+        "requirements": [
+          {
+            "number": "57",
+            "character": "几",
+            "keyword": "how many?",
+            "level": "Elementary",
+            "filename": "57_how_many",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "㐅",
+        "keyword": "sheaf",
+        "level": null,
+        "filename": "primitive_sheaf",
+        "id": "D",
+        "requirements": []
+      }
+    ]
+  }
 }

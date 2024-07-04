@@ -1,68 +1,79 @@
 {
-  "number": "1471",
-  "character": "联",
-  "keyword": "unite",
-  "level": "Advanced",
-  "id": "I",
-  "requirements": [
-    {
-      "number": "717",
-      "character": "耳",
-      "keyword": "ear",
-      "level": "Medium",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1469",
-      "character": "关",
-      "keyword": "shut",
-      "level": "Elementary",
-      "id": "H",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丷",
-          "keyword": "horns",
-          "level": null,
-          "id": "D",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "436",
-          "character": "天",
-          "keyword": "heavens",
-          "level": "Elementary",
-          "id": "G",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "id": "E",
-              "requirements": []
-            },
-            {
-              "number": "113",
-              "character": "大",
-              "keyword": "large",
-              "level": "Elementary",
-              "id": "F",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 1608,
+  "hierarchy": {
+    "number": "1471",
+    "character": "联",
+    "keyword": "unite",
+    "level": "Advanced",
+    "filename": "1471_unite",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "717",
+        "character": "耳",
+        "keyword": "ear",
+        "level": "Medium",
+        "filename": "717_ear",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1469",
+        "character": "关",
+        "keyword": "shut",
+        "level": "Elementary",
+        "filename": "1469_shut",
+        "id": "H",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丷",
+            "keyword": "horns",
+            "level": null,
+            "filename": "primitive_horns",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "436",
+            "character": "天",
+            "keyword": "heavens",
+            "level": "Elementary",
+            "filename": "436_heavens",
+            "id": "G",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "E",
+                "requirements": []
+              },
+              {
+                "number": "113",
+                "character": "大",
+                "keyword": "large",
+                "level": "Elementary",
+                "filename": "113_large",
+                "id": "F",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

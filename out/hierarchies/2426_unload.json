@@ -1,33 +1,40 @@
 {
-  "number": "2426",
-  "character": "卸",
-  "keyword": "unload",
-  "level": null,
-  "id": "E",
-  "requirements": [
-    {
-      "number": "542",
-      "character": "午",
-      "keyword": "noon",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "379",
-      "character": "止",
-      "keyword": "stop",
-      "level": "Medium",
-      "id": "C",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "卩",
-      "keyword": "stamp",
-      "level": null,
-      "id": "D",
-      "requirements": []
-    }
-  ]
+  "order": 2604,
+  "hierarchy": {
+    "number": "2426",
+    "character": "卸",
+    "keyword": "unload",
+    "level": null,
+    "filename": "2426_unload",
+    "id": "E",
+    "requirements": [
+      {
+        "number": "542",
+        "character": "午",
+        "keyword": "noon",
+        "level": "Elementary",
+        "filename": "542_noon",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "379",
+        "character": "止",
+        "keyword": "stop",
+        "level": "Medium",
+        "filename": "379_stop",
+        "id": "C",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "卩",
+        "keyword": "stamp",
+        "level": null,
+        "filename": "primitive_stamp",
+        "id": "D",
+        "requirements": []
+      }
+    ]
+  }
 }

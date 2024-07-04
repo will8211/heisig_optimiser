@@ -1,77 +1,89 @@
 {
-  "number": "1917",
-  "character": "弃",
-  "keyword": "forsake",
-  "level": "Advanced",
-  "id": "J",
-  "requirements": [
-    {
-      "number": null,
-      "character": "囧充－儿",
-      "keyword": "infant",
-      "level": null,
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧会－亼",
-          "keyword": "wall",
-          "level": null,
-          "id": "D",
-          "requirements": [
-            {
-              "number": null,
-              "character": "厶",
-              "keyword": "elbow",
-              "level": null,
-              "id": "B",
-              "requirements": []
-            },
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "613",
-      "character": "开",
-      "keyword": "open",
-      "level": "Elementary",
-      "id": "I",
-      "requirements": [
-        {
-          "number": "2",
-          "character": "二",
-          "keyword": "two",
-          "level": "Elementary",
-          "id": "H",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "id": "G",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2072,
+  "hierarchy": {
+    "number": "1917",
+    "character": "弃",
+    "keyword": "forsake",
+    "level": "Advanced",
+    "filename": "1917_forsake",
+    "id": "J",
+    "requirements": [
+      {
+        "number": null,
+        "character": "囧充－儿",
+        "keyword": "infant",
+        "level": null,
+        "filename": "primitive_infant",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧会－亼",
+            "keyword": "wall",
+            "level": null,
+            "filename": "primitive_wall",
+            "id": "D",
+            "requirements": [
+              {
+                "number": null,
+                "character": "厶",
+                "keyword": "elbow",
+                "level": null,
+                "filename": "primitive_elbow",
+                "id": "B",
+                "requirements": []
+              },
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "613",
+        "character": "开",
+        "keyword": "open",
+        "level": "Elementary",
+        "filename": "613_open",
+        "id": "I",
+        "requirements": [
+          {
+            "number": "2",
+            "character": "二",
+            "keyword": "two",
+            "level": "Elementary",
+            "filename": "2_two",
+            "id": "H",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "G",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

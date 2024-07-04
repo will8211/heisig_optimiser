@@ -1,85 +1,98 @@
 {
-  "number": "1031",
-  "character": "烤",
-  "keyword": "roast",
-  "level": null,
-  "id": "K",
-  "requirements": [
-    {
-      "number": "170",
-      "character": "火",
-      "keyword": "fire",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1030",
-      "character": "考",
-      "keyword": "take an exam",
-      "level": "Elementary",
-      "id": "J",
-      "requirements": [
-        {
-          "number": "1029",
-          "character": "老",
-          "keyword": "old man",
-          "level": "Elementary",
-          "id": "G",
-          "requirements": [
-            {
-              "number": "158",
-              "character": "土",
-              "keyword": "soil",
-              "level": "Medium",
-              "id": "C",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "丨",
-              "keyword": "walking stick",
-              "level": null,
-              "id": "E",
-              "requirements": [
-                {
-                  "number": "1",
-                  "character": "一",
-                  "keyword": "one",
-                  "level": "Elementary",
-                  "id": "D",
-                  "requirements": []
-                }
-              ]
-            },
-            {
-              "number": "453",
-              "character": "匕",
-              "keyword": "ancient spoon",
-              "level": null,
-              "id": "F",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "囧与－一",
-          "keyword": "slingshot",
-          "level": null,
-          "id": "I",
-          "requirements": [
-            {
-              "number": "1013",
-              "character": "弓",
-              "keyword": "bow",
-              "level": null,
-              "id": "H",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 1109,
+  "hierarchy": {
+    "number": "1031",
+    "character": "烤",
+    "keyword": "roast",
+    "level": null,
+    "filename": "1031_roast",
+    "id": "K",
+    "requirements": [
+      {
+        "number": "170",
+        "character": "火",
+        "keyword": "fire",
+        "level": "Elementary",
+        "filename": "170_fire",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1030",
+        "character": "考",
+        "keyword": "take an exam",
+        "level": "Elementary",
+        "filename": "1030_take_an_exam",
+        "id": "J",
+        "requirements": [
+          {
+            "number": "1029",
+            "character": "老",
+            "keyword": "old man",
+            "level": "Elementary",
+            "filename": "1029_old_man",
+            "id": "G",
+            "requirements": [
+              {
+                "number": "158",
+                "character": "土",
+                "keyword": "soil",
+                "level": "Medium",
+                "filename": "158_soil",
+                "id": "C",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "丨",
+                "keyword": "walking stick",
+                "level": null,
+                "filename": "primitive_walking_stick",
+                "id": "E",
+                "requirements": [
+                  {
+                    "number": "1",
+                    "character": "一",
+                    "keyword": "one",
+                    "level": "Elementary",
+                    "filename": "1_one",
+                    "id": "D",
+                    "requirements": []
+                  }
+                ]
+              },
+              {
+                "number": "453",
+                "character": "匕",
+                "keyword": "ancient spoon",
+                "level": null,
+                "filename": "453_ancient_spoon",
+                "id": "F",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "囧与－一",
+            "keyword": "slingshot",
+            "level": null,
+            "filename": "primitive_slingshot",
+            "id": "I",
+            "requirements": [
+              {
+                "number": "1013",
+                "character": "弓",
+                "keyword": "bow",
+                "level": null,
+                "filename": "1013_bow",
+                "id": "H",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

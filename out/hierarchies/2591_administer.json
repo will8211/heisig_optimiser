@@ -1,50 +1,59 @@
 {
-  "number": "2591",
-  "character": "辖",
-  "keyword": "administer",
-  "level": null,
-  "id": "G",
-  "requirements": [
-    {
-      "number": "300",
-      "character": "车",
-      "keyword": "car",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1224",
-      "character": "害",
-      "keyword": "harm",
-      "level": "Advanced",
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "宀",
-          "keyword": "house",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "1223",
-          "character": "丰",
-          "keyword": "plentiful",
-          "level": "Advanced",
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2779,
+  "hierarchy": {
+    "number": "2591",
+    "character": "辖",
+    "keyword": "administer",
+    "level": null,
+    "filename": "2591_administer",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "300",
+        "character": "车",
+        "keyword": "car",
+        "level": "Elementary",
+        "filename": "300_car",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1224",
+        "character": "害",
+        "keyword": "harm",
+        "level": "Advanced",
+        "filename": "1224_harm",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "宀",
+            "keyword": "house",
+            "level": null,
+            "filename": "primitive_house",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "1223",
+            "character": "丰",
+            "keyword": "plentiful",
+            "level": "Advanced",
+            "filename": "1223_plentiful",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

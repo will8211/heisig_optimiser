@@ -1,42 +1,50 @@
 {
-  "number": "1773",
-  "character": "蕉",
-  "keyword": "banana",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": null,
-      "character": "艹",
-      "keyword": "flower",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1770",
-      "character": "焦",
-      "keyword": "apprehensive",
-      "level": null,
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "隹",
-          "keyword": "turkey",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "170",
-          "character": "火",
-          "keyword": "fire",
-          "level": "Elementary",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1921,
+  "hierarchy": {
+    "number": "1773",
+    "character": "蕉",
+    "keyword": "banana",
+    "level": null,
+    "filename": "1773_banana",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "艹",
+        "keyword": "flower",
+        "level": null,
+        "filename": "primitive_flower",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1770",
+        "character": "焦",
+        "keyword": "apprehensive",
+        "level": null,
+        "filename": "1770_apprehensive",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "隹",
+            "keyword": "turkey",
+            "level": null,
+            "filename": "primitive_turkey",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "170",
+            "character": "火",
+            "keyword": "fire",
+            "level": "Elementary",
+            "filename": "170_fire",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

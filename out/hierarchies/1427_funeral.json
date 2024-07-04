@@ -1,42 +1,50 @@
 {
-  "number": "1427",
-  "character": "丧",
-  "keyword": "funeral",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": "158",
-      "character": "土",
-      "keyword": "soil",
-      "level": "Medium",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "丷",
-      "keyword": "horns",
-      "level": null,
-      "id": "D",
-      "requirements": [
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "囧丧－十－丷",
-      "keyword": "barrette",
-      "level": null,
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 1558,
+  "hierarchy": {
+    "number": "1427",
+    "character": "丧",
+    "keyword": "funeral",
+    "level": null,
+    "filename": "1427_funeral",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "158",
+        "character": "土",
+        "keyword": "soil",
+        "level": "Medium",
+        "filename": "158_soil",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "丷",
+        "keyword": "horns",
+        "level": null,
+        "filename": "primitive_horns",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "囧丧－十－丷",
+        "keyword": "barrette",
+        "level": null,
+        "filename": "primitive_barrette",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

@@ -1,34 +1,41 @@
 {
-  "number": "2161",
-  "character": "祟",
-  "keyword": "evil spirit",
-  "level": null,
-  "id": "E",
-  "requirements": [
-    {
-      "number": "689",
-      "character": "出",
-      "keyword": "exit",
-      "level": "Elementary",
-      "id": "C",
-      "requirements": [
-        {
-          "number": "688",
-          "character": "山",
-          "keyword": "mountain",
-          "level": "Elementary",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "900",
-      "character": "示",
-      "keyword": "show",
-      "level": "Medium",
-      "id": "D",
-      "requirements": []
-    }
-  ]
+  "order": 2322,
+  "hierarchy": {
+    "number": "2161",
+    "character": "祟",
+    "keyword": "evil spirit",
+    "level": null,
+    "filename": "2161_evil_spirit",
+    "id": "E",
+    "requirements": [
+      {
+        "number": "689",
+        "character": "出",
+        "keyword": "exit",
+        "level": "Elementary",
+        "filename": "689_exit",
+        "id": "C",
+        "requirements": [
+          {
+            "number": "688",
+            "character": "山",
+            "keyword": "mountain",
+            "level": "Elementary",
+            "filename": "688_mountain",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "900",
+        "character": "示",
+        "keyword": "show",
+        "level": "Medium",
+        "filename": "900_show",
+        "id": "D",
+        "requirements": []
+      }
+    ]
+  }
 }

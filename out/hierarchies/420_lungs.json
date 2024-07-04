@@ -1,42 +1,50 @@
 {
-  "number": "420",
-  "character": "肺",
-  "keyword": "lungs",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": "419",
-      "character": "市",
-      "keyword": "market",
-      "level": "Medium",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "410",
-          "character": "巾",
-          "keyword": "towel",
-          "level": "Advanced",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "亠",
-          "keyword": "top hat",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "13",
-      "character": "月",
-      "keyword": "month",
-      "level": "Elementary",
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 456,
+  "hierarchy": {
+    "number": "420",
+    "character": "肺",
+    "keyword": "lungs",
+    "level": null,
+    "filename": "420_lungs",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "419",
+        "character": "市",
+        "keyword": "market",
+        "level": "Medium",
+        "filename": "419_market",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "410",
+            "character": "巾",
+            "keyword": "towel",
+            "level": "Advanced",
+            "filename": "410_towel",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "亠",
+            "keyword": "top hat",
+            "level": null,
+            "filename": "primitive_top_hat",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "13",
+        "character": "月",
+        "keyword": "month",
+        "level": "Elementary",
+        "filename": "13_month",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

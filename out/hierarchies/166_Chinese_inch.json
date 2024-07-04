@@ -1,25 +1,31 @@
 {
-  "number": "166",
-  "character": "寸",
-  "keyword": "Chinese inch",
-  "level": "Advanced",
-  "id": "D",
-  "requirements": [
-    {
-      "number": null,
-      "character": "丶",
-      "keyword": "a drop of",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "10",
-      "character": "十",
-      "keyword": "ten",
-      "level": "Elementary",
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 175,
+  "hierarchy": {
+    "number": "166",
+    "character": "寸",
+    "keyword": "Chinese inch",
+    "level": "Advanced",
+    "filename": "166_Chinese_inch",
+    "id": "D",
+    "requirements": [
+      {
+        "number": null,
+        "character": "丶",
+        "keyword": "a drop of",
+        "level": null,
+        "filename": "primitive_a_drop_of",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "10",
+        "character": "十",
+        "keyword": "ten",
+        "level": "Elementary",
+        "filename": "10_ten",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

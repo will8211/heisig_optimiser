@@ -1,25 +1,31 @@
 {
-  "number": "2185",
-  "character": "芹",
-  "keyword": "celery",
-  "level": null,
-  "id": "D",
-  "requirements": [
-    {
-      "number": null,
-      "character": "艹",
-      "keyword": "flower",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "924",
-      "character": "斤",
-      "keyword": "catty",
-      "level": "Medium",
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 2347,
+  "hierarchy": {
+    "number": "2185",
+    "character": "芹",
+    "keyword": "celery",
+    "level": null,
+    "filename": "2185_celery",
+    "id": "D",
+    "requirements": [
+      {
+        "number": null,
+        "character": "艹",
+        "keyword": "flower",
+        "level": null,
+        "filename": "primitive_flower",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "924",
+        "character": "斤",
+        "keyword": "catty",
+        "level": "Medium",
+        "filename": "924_catty",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

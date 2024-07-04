@@ -1,42 +1,50 @@
 {
-  "number": "492",
-  "character": "妄",
-  "keyword": "absurd",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": "102",
-      "character": "女",
-      "keyword": "woman",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "490",
-      "character": "亡",
-      "keyword": "deceased",
-      "level": "Advanced",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "亠",
-          "keyword": "top hat",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "95",
-          "character": "乙",
-          "keyword": "second",
-          "level": "Medium",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 536,
+  "hierarchy": {
+    "number": "492",
+    "character": "妄",
+    "keyword": "absurd",
+    "level": null,
+    "filename": "492_absurd",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "102",
+        "character": "女",
+        "keyword": "woman",
+        "level": "Elementary",
+        "filename": "102_woman",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "490",
+        "character": "亡",
+        "keyword": "deceased",
+        "level": "Advanced",
+        "filename": "490_deceased",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "亠",
+            "keyword": "top hat",
+            "level": null,
+            "filename": "primitive_top_hat",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "95",
+            "character": "乙",
+            "keyword": "second",
+            "level": "Medium",
+            "filename": "95_second",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

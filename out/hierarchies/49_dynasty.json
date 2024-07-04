@@ -1,59 +1,69 @@
 {
-  "number": "49",
-  "character": "朝",
-  "keyword": "dynasty",
-  "level": "Advanced",
-  "id": "H",
-  "requirements": [
-    {
-      "number": "13",
-      "character": "月",
-      "keyword": "month",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "𠦝",
-      "keyword": "mist",
-      "level": null,
-      "id": "G",
-      "requirements": [
-        {
-          "number": "26",
-          "character": "早",
-          "keyword": "early",
-          "level": "Elementary",
-          "id": "E",
-          "requirements": [
-            {
-              "number": "12",
-              "character": "日",
-              "keyword": "day",
-              "level": "Elementary",
-              "id": "C",
-              "requirements": []
-            },
-            {
-              "number": "10",
-              "character": "十",
-              "keyword": "ten",
-              "level": "Elementary",
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "10",
-          "character": "十",
-          "keyword": "ten",
-          "level": "Elementary",
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 51,
+  "hierarchy": {
+    "number": "49",
+    "character": "朝",
+    "keyword": "dynasty",
+    "level": "Advanced",
+    "filename": "49_dynasty",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "13",
+        "character": "月",
+        "keyword": "month",
+        "level": "Elementary",
+        "filename": "13_month",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "𠦝",
+        "keyword": "mist",
+        "level": null,
+        "filename": "primitive_mist",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "26",
+            "character": "早",
+            "keyword": "early",
+            "level": "Elementary",
+            "filename": "26_early",
+            "id": "E",
+            "requirements": [
+              {
+                "number": "12",
+                "character": "日",
+                "keyword": "day",
+                "level": "Elementary",
+                "filename": "12_day",
+                "id": "C",
+                "requirements": []
+              },
+              {
+                "number": "10",
+                "character": "十",
+                "keyword": "ten",
+                "level": "Elementary",
+                "filename": "10_ten",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "10",
+            "character": "十",
+            "keyword": "ten",
+            "level": "Elementary",
+            "filename": "10_ten",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

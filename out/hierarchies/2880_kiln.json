@@ -1,67 +1,78 @@
 {
-  "number": "2880",
-  "character": "窑",
-  "keyword": "kiln",
-  "level": null,
-  "id": "I",
-  "requirements": [
-    {
-      "number": "1070",
-      "character": "穴",
-      "keyword": "hole",
-      "level": null,
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "宀",
-          "keyword": "house",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "8",
-          "character": "八",
-          "keyword": "eight",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "囧只－口",
-          "keyword": "animal legs",
-          "level": null,
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "缶",
-      "keyword": "tin can",
-      "level": null,
-      "id": "H",
-      "requirements": [
-        {
-          "number": "542",
-          "character": "午",
-          "keyword": "noon",
-          "level": "Elementary",
-          "id": "F",
-          "requirements": []
-        },
-        {
-          "number": "688",
-          "character": "山",
-          "keyword": "mountain",
-          "level": "Elementary",
-          "id": "G",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 3075,
+  "hierarchy": {
+    "number": "2880",
+    "character": "窑",
+    "keyword": "kiln",
+    "level": null,
+    "filename": "2880_kiln",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "1070",
+        "character": "穴",
+        "keyword": "hole",
+        "level": null,
+        "filename": "1070_hole",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "宀",
+            "keyword": "house",
+            "level": null,
+            "filename": "primitive_house",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "8",
+            "character": "八",
+            "keyword": "eight",
+            "level": "Elementary",
+            "filename": "8_eight",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "囧只－口",
+            "keyword": "animal legs",
+            "level": null,
+            "filename": "primitive_animal_legs",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "缶",
+        "keyword": "tin can",
+        "level": null,
+        "filename": "primitive_tin_can",
+        "id": "H",
+        "requirements": [
+          {
+            "number": "542",
+            "character": "午",
+            "keyword": "noon",
+            "level": "Elementary",
+            "filename": "542_noon",
+            "id": "F",
+            "requirements": []
+          },
+          {
+            "number": "688",
+            "character": "山",
+            "keyword": "mountain",
+            "level": "Elementary",
+            "filename": "688_mountain",
+            "id": "G",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

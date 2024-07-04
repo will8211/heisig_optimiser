@@ -1,102 +1,117 @@
 {
-  "number": "1885",
-  "character": "寇",
-  "keyword": "outlaw",
-  "level": null,
-  "id": "M",
-  "requirements": [
-    {
-      "number": "193",
-      "character": "完",
-      "keyword": "finish",
-      "level": "Elementary",
-      "id": "G",
-      "requirements": [
-        {
-          "number": null,
-          "character": "宀",
-          "keyword": "house",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "59",
-          "character": "元",
-          "keyword": "beginning",
-          "level": "Medium",
-          "id": "F",
-          "requirements": [
-            {
-              "number": "2",
-              "character": "二",
-              "keyword": "two",
-              "level": "Elementary",
-              "id": "D",
-              "requirements": [
-                {
-                  "number": "1",
-                  "character": "一",
-                  "keyword": "one",
-                  "level": "Elementary",
-                  "id": "C",
-                  "requirements": []
-                }
-              ]
-            },
-            {
-              "number": "56",
-              "character": "儿",
-              "keyword": "youngster",
-              "level": "Elementary",
-              "id": "E",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": "43",
-      "character": "卜",
-      "keyword": "divination",
-      "level": null,
-      "id": "K",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丨",
-          "keyword": "walking stick",
-          "level": null,
-          "id": "I",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "id": "H",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "id": "J",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "633",
-      "character": "又",
-      "keyword": "again",
-      "level": "Elementary",
-      "id": "L",
-      "requirements": []
-    }
-  ]
+  "order": 2039,
+  "hierarchy": {
+    "number": "1885",
+    "character": "寇",
+    "keyword": "outlaw",
+    "level": null,
+    "filename": "1885_outlaw",
+    "id": "M",
+    "requirements": [
+      {
+        "number": "193",
+        "character": "完",
+        "keyword": "finish",
+        "level": "Elementary",
+        "filename": "193_finish",
+        "id": "G",
+        "requirements": [
+          {
+            "number": null,
+            "character": "宀",
+            "keyword": "house",
+            "level": null,
+            "filename": "primitive_house",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "59",
+            "character": "元",
+            "keyword": "beginning",
+            "level": "Medium",
+            "filename": "59_beginning",
+            "id": "F",
+            "requirements": [
+              {
+                "number": "2",
+                "character": "二",
+                "keyword": "two",
+                "level": "Elementary",
+                "filename": "2_two",
+                "id": "D",
+                "requirements": [
+                  {
+                    "number": "1",
+                    "character": "一",
+                    "keyword": "one",
+                    "level": "Elementary",
+                    "filename": "1_one",
+                    "id": "C",
+                    "requirements": []
+                  }
+                ]
+              },
+              {
+                "number": "56",
+                "character": "儿",
+                "keyword": "youngster",
+                "level": "Elementary",
+                "filename": "56_youngster",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": "43",
+        "character": "卜",
+        "keyword": "divination",
+        "level": null,
+        "filename": "43_divination",
+        "id": "K",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丨",
+            "keyword": "walking stick",
+            "level": null,
+            "filename": "primitive_walking_stick",
+            "id": "I",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "H",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "J",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "633",
+        "character": "又",
+        "keyword": "again",
+        "level": "Elementary",
+        "filename": "633_again",
+        "id": "L",
+        "requirements": []
+      }
+    ]
+  }
 }

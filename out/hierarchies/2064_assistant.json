@@ -1,51 +1,60 @@
 {
-  "number": "2064",
-  "character": "佐",
-  "keyword": "assistant",
-  "level": null,
-  "id": "G",
-  "requirements": [
-    {
-      "number": "793",
-      "character": "人",
-      "keyword": "person",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "77",
-      "character": "左",
-      "keyword": "left",
-      "level": "Medium",
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "𠂇",
-          "keyword": "by one’s side",
-          "level": null,
-          "id": "D",
-          "requirements": [
-            {
-              "number": "10",
-              "character": "十",
-              "keyword": "ten",
-              "level": "Elementary",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "76",
-          "character": "工",
-          "keyword": "work",
-          "level": "Elementary",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2225,
+  "hierarchy": {
+    "number": "2064",
+    "character": "佐",
+    "keyword": "assistant",
+    "level": null,
+    "filename": "2064_assistant",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "793",
+        "character": "人",
+        "keyword": "person",
+        "level": "Elementary",
+        "filename": "793_person",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "77",
+        "character": "左",
+        "keyword": "left",
+        "level": "Medium",
+        "filename": "77_left",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "𠂇",
+            "keyword": "by one’s side",
+            "level": null,
+            "filename": "primitive_by_one’s_side",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "10",
+                "character": "十",
+                "keyword": "ten",
+                "level": "Elementary",
+                "filename": "10_ten",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "76",
+            "character": "工",
+            "keyword": "work",
+            "level": "Elementary",
+            "filename": "76_work",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

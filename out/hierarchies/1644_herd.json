@@ -1,25 +1,31 @@
 {
-  "number": "1644",
-  "character": "牧",
-  "keyword": "herd",
-  "level": null,
-  "id": "D",
-  "requirements": [
-    {
-      "number": "252",
-      "character": "牛",
-      "keyword": "cow",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "攵",
-      "keyword": "taskmaster",
-      "level": null,
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 1785,
+  "hierarchy": {
+    "number": "1644",
+    "character": "牧",
+    "keyword": "herd",
+    "level": null,
+    "filename": "1644_herd",
+    "id": "D",
+    "requirements": [
+      {
+        "number": "252",
+        "character": "牛",
+        "keyword": "cow",
+        "level": "Elementary",
+        "filename": "252_cow",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "攵",
+        "keyword": "taskmaster",
+        "level": null,
+        "filename": "primitive_taskmaster",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

@@ -1,69 +1,80 @@
 {
-  "number": "1869",
-  "character": "械",
-  "keyword": "weapon",
-  "level": null,
-  "id": "I",
-  "requirements": [
-    {
-      "number": "202",
-      "character": "木",
-      "keyword": "tree",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1868",
-      "character": "戒",
-      "keyword": "take precautions against",
-      "level": null,
-      "id": "H",
-      "requirements": [
-        {
-          "number": "613",
-          "character": "开",
-          "keyword": "open",
-          "level": "Elementary",
-          "id": "E",
-          "requirements": [
-            {
-              "number": "2",
-              "character": "二",
-              "keyword": "two",
-              "level": "Elementary",
-              "id": "D",
-              "requirements": [
-                {
-                  "number": "1",
-                  "character": "一",
-                  "keyword": "one",
-                  "level": "Elementary",
-                  "id": "C",
-                  "requirements": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "number": "361",
-          "character": "戈",
-          "keyword": "halberd",
-          "level": null,
-          "id": "G",
-          "requirements": [
-            {
-              "number": null,
-              "character": "弋",
-              "keyword": "arrow",
-              "level": null,
-              "id": "F",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2021,
+  "hierarchy": {
+    "number": "1869",
+    "character": "械",
+    "keyword": "weapon",
+    "level": null,
+    "filename": "1869_weapon",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "202",
+        "character": "木",
+        "keyword": "tree",
+        "level": "Elementary",
+        "filename": "202_tree",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1868",
+        "character": "戒",
+        "keyword": "take precautions against",
+        "level": null,
+        "filename": "1868_take_precautions_against",
+        "id": "H",
+        "requirements": [
+          {
+            "number": "613",
+            "character": "开",
+            "keyword": "open",
+            "level": "Elementary",
+            "filename": "613_open",
+            "id": "E",
+            "requirements": [
+              {
+                "number": "2",
+                "character": "二",
+                "keyword": "two",
+                "level": "Elementary",
+                "filename": "2_two",
+                "id": "D",
+                "requirements": [
+                  {
+                    "number": "1",
+                    "character": "一",
+                    "keyword": "one",
+                    "level": "Elementary",
+                    "filename": "1_one",
+                    "id": "C",
+                    "requirements": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "number": "361",
+            "character": "戈",
+            "keyword": "halberd",
+            "level": null,
+            "filename": "361_halberd",
+            "id": "G",
+            "requirements": [
+              {
+                "number": null,
+                "character": "弋",
+                "keyword": "arrow",
+                "level": null,
+                "filename": "primitive_arrow",
+                "id": "F",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

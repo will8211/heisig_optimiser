@@ -1,59 +1,69 @@
 {
-  "number": "418",
-  "character": "棉",
-  "keyword": "cotton",
-  "level": null,
-  "id": "H",
-  "requirements": [
-    {
-      "number": "202",
-      "character": "木",
-      "keyword": "tree",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "帛",
-      "keyword": "white towel",
-      "level": null,
-      "id": "G",
-      "requirements": [
-        {
-          "number": "34",
-          "character": "白",
-          "keyword": "white",
-          "level": "Elementary",
-          "id": "E",
-          "requirements": [
-            {
-              "number": "12",
-              "character": "日",
-              "keyword": "day",
-              "level": "Elementary",
-              "id": "C",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "410",
-          "character": "巾",
-          "keyword": "towel",
-          "level": "Advanced",
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 454,
+  "hierarchy": {
+    "number": "418",
+    "character": "棉",
+    "keyword": "cotton",
+    "level": null,
+    "filename": "418_cotton",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "202",
+        "character": "木",
+        "keyword": "tree",
+        "level": "Elementary",
+        "filename": "202_tree",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "帛",
+        "keyword": "white towel",
+        "level": null,
+        "filename": "primitive_white_towel",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "34",
+            "character": "白",
+            "keyword": "white",
+            "level": "Elementary",
+            "filename": "34_white",
+            "id": "E",
+            "requirements": [
+              {
+                "number": "12",
+                "character": "日",
+                "keyword": "day",
+                "level": "Elementary",
+                "filename": "12_day",
+                "id": "C",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "410",
+            "character": "巾",
+            "keyword": "towel",
+            "level": "Advanced",
+            "filename": "410_towel",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,50 +1,59 @@
 {
-  "number": "1124",
-  "character": "脆",
-  "keyword": "fragile",
-  "level": null,
-  "id": "G",
-  "requirements": [
-    {
-      "number": "13",
-      "character": "月",
-      "keyword": "month",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1123",
-      "character": "危",
-      "keyword": "danger",
-      "level": "Advanced",
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "勹",
-          "keyword": "bound up",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "121",
-          "character": "厂",
-          "keyword": "factory",
-          "level": "Medium",
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "㔾",
-          "keyword": "fingerprint",
-          "level": null,
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1215,
+  "hierarchy": {
+    "number": "1124",
+    "character": "脆",
+    "keyword": "fragile",
+    "level": null,
+    "filename": "1124_fragile",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "13",
+        "character": "月",
+        "keyword": "month",
+        "level": "Elementary",
+        "filename": "13_month",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1123",
+        "character": "危",
+        "keyword": "danger",
+        "level": "Advanced",
+        "filename": "1123_danger",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "勹",
+            "keyword": "bound up",
+            "level": null,
+            "filename": "primitive_bound_up",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "121",
+            "character": "厂",
+            "keyword": "factory",
+            "level": "Medium",
+            "filename": "121_factory",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "㔾",
+            "keyword": "fingerprint",
+            "level": null,
+            "filename": "primitive_fingerprint",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

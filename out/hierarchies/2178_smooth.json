@@ -1,60 +1,70 @@
 {
-  "number": "2178",
-  "character": "畅",
-  "keyword": "smooth",
-  "level": null,
-  "id": "H",
-  "requirements": [
-    {
-      "number": "918",
-      "character": "申",
-      "keyword": "express",
-      "level": "Advanced",
-      "id": "E",
-      "requirements": [
-        {
-          "number": "12",
-          "character": "日",
-          "keyword": "day",
-          "level": "Elementary",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "丨",
-          "keyword": "walking stick",
-          "level": null,
-          "id": "D",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "𠃓",
-      "keyword": "piglets",
-      "level": null,
-      "id": "G",
-      "requirements": [
-        {
-          "number": null,
-          "character": "豕",
-          "keyword": "sow",
-          "level": null,
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2340,
+  "hierarchy": {
+    "number": "2178",
+    "character": "畅",
+    "keyword": "smooth",
+    "level": null,
+    "filename": "2178_smooth",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "918",
+        "character": "申",
+        "keyword": "express",
+        "level": "Advanced",
+        "filename": "918_express",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "12",
+            "character": "日",
+            "keyword": "day",
+            "level": "Elementary",
+            "filename": "12_day",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "丨",
+            "keyword": "walking stick",
+            "level": null,
+            "filename": "primitive_walking_stick",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "𠃓",
+        "keyword": "piglets",
+        "level": null,
+        "filename": "primitive_piglets",
+        "id": "G",
+        "requirements": [
+          {
+            "number": null,
+            "character": "豕",
+            "keyword": "sow",
+            "level": null,
+            "filename": "primitive_sow",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

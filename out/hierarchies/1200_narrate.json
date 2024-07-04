@@ -1,42 +1,50 @@
 {
-  "number": "1200",
-  "character": "述",
-  "keyword": "narrate",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": "1199",
-      "character": "术",
-      "keyword": "art",
-      "level": "Advanced",
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "202",
-          "character": "木",
-          "keyword": "tree",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "辶",
-      "keyword": "road",
-      "level": null,
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 1301,
+  "hierarchy": {
+    "number": "1200",
+    "character": "述",
+    "keyword": "narrate",
+    "level": null,
+    "filename": "1200_narrate",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "1199",
+        "character": "术",
+        "keyword": "art",
+        "level": "Advanced",
+        "filename": "1199_art",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "202",
+            "character": "木",
+            "keyword": "tree",
+            "level": "Elementary",
+            "filename": "202_tree",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "辶",
+        "keyword": "road",
+        "level": null,
+        "filename": "primitive_road",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

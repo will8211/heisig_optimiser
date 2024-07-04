@@ -1,42 +1,50 @@
 {
-  "number": "869",
-  "character": "营",
-  "keyword": "camp",
-  "level": "Advanced",
-  "id": "F",
-  "requirements": [
-    {
-      "number": null,
-      "character": "囧荣－木",
-      "keyword": "greenhouse",
-      "level": null,
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "宀",
-          "keyword": "house",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "艹",
-          "keyword": "flower",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "865",
-      "character": "吕",
-      "keyword": "spine",
-      "level": null,
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 936,
+  "hierarchy": {
+    "number": "869",
+    "character": "营",
+    "keyword": "camp",
+    "level": "Advanced",
+    "filename": "869_camp",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "囧荣－木",
+        "keyword": "greenhouse",
+        "level": null,
+        "filename": "primitive_greenhouse",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "宀",
+            "keyword": "house",
+            "level": null,
+            "filename": "primitive_house",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "艹",
+            "keyword": "flower",
+            "level": null,
+            "filename": "primitive_flower",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "865",
+        "character": "吕",
+        "keyword": "spine",
+        "level": null,
+        "filename": "865_spine",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

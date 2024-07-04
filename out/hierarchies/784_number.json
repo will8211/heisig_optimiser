@@ -1,42 +1,50 @@
 {
-  "number": "784",
-  "character": "数",
-  "keyword": "number",
-  "level": "Medium",
-  "id": "F",
-  "requirements": [
-    {
-      "number": null,
-      "character": "娄",
-      "keyword": "bride",
-      "level": null,
-      "id": "D",
-      "requirements": [
-        {
-          "number": "102",
-          "character": "女",
-          "keyword": "woman",
-          "level": "Elementary",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "778",
-          "character": "米",
-          "keyword": "rice",
-          "level": "Medium",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "攵",
-      "keyword": "taskmaster",
-      "level": null,
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 846,
+  "hierarchy": {
+    "number": "784",
+    "character": "数",
+    "keyword": "number",
+    "level": "Medium",
+    "filename": "784_number",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "娄",
+        "keyword": "bride",
+        "level": null,
+        "filename": "primitive_bride",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "102",
+            "character": "女",
+            "keyword": "woman",
+            "level": "Elementary",
+            "filename": "102_woman",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "778",
+            "character": "米",
+            "keyword": "rice",
+            "level": "Medium",
+            "filename": "778_rice",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "攵",
+        "keyword": "taskmaster",
+        "level": null,
+        "filename": "primitive_taskmaster",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

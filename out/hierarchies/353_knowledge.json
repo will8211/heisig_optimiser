@@ -1,118 +1,135 @@
 {
-  "number": "353",
-  "character": "识",
-  "keyword": "knowledge",
-  "level": "Elementary",
-  "id": "O",
-  "requirements": [
-    {
-      "number": "51",
-      "character": "只",
-      "keyword": "only",
-      "level": "Medium",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "囧只－口",
-          "keyword": "animal legs",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "1392",
-      "character": "词",
-      "keyword": "word",
-      "level": "Medium",
-      "id": "N",
-      "requirements": [
-        {
-          "number": "346",
-          "character": "言",
-          "keyword": "say",
-          "level": "Medium",
-          "id": "I",
-          "requirements": [
-            {
-              "number": "2",
-              "character": "二",
-              "keyword": "two",
-              "level": "Elementary",
-              "id": "F",
-              "requirements": [
-                {
-                  "number": "1",
-                  "character": "一",
-                  "keyword": "one",
-                  "level": "Elementary",
-                  "id": "E",
-                  "requirements": []
-                }
-              ]
-            },
-            {
-              "number": "11",
-              "character": "口",
-              "keyword": "mouth",
-              "level": "Elementary",
-              "id": "G",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "亠",
-              "keyword": "top hat",
-              "level": null,
-              "id": "H",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "1391",
-          "character": "司",
-          "keyword": "take charge of",
-          "level": "Medium",
-          "id": "M",
-          "requirements": [
-            {
-              "number": null,
-              "character": "𠃌",
-              "keyword": "clothes hanger",
-              "level": null,
-              "id": "J",
-              "requirements": []
-            },
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "id": "K",
-              "requirements": []
-            },
-            {
-              "number": "11",
-              "character": "口",
-              "keyword": "mouth",
-              "level": "Elementary",
-              "id": "L",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 379,
+  "hierarchy": {
+    "number": "353",
+    "character": "识",
+    "keyword": "knowledge",
+    "level": "Elementary",
+    "filename": "353_knowledge",
+    "id": "O",
+    "requirements": [
+      {
+        "number": "51",
+        "character": "只",
+        "keyword": "only",
+        "level": "Medium",
+        "filename": "51_only",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "囧只－口",
+            "keyword": "animal legs",
+            "level": null,
+            "filename": "primitive_animal_legs",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "1392",
+        "character": "词",
+        "keyword": "word",
+        "level": "Medium",
+        "filename": "1392_word",
+        "id": "N",
+        "requirements": [
+          {
+            "number": "346",
+            "character": "言",
+            "keyword": "say",
+            "level": "Medium",
+            "filename": "346_say",
+            "id": "I",
+            "requirements": [
+              {
+                "number": "2",
+                "character": "二",
+                "keyword": "two",
+                "level": "Elementary",
+                "filename": "2_two",
+                "id": "F",
+                "requirements": [
+                  {
+                    "number": "1",
+                    "character": "一",
+                    "keyword": "one",
+                    "level": "Elementary",
+                    "filename": "1_one",
+                    "id": "E",
+                    "requirements": []
+                  }
+                ]
+              },
+              {
+                "number": "11",
+                "character": "口",
+                "keyword": "mouth",
+                "level": "Elementary",
+                "filename": "11_mouth",
+                "id": "G",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "亠",
+                "keyword": "top hat",
+                "level": null,
+                "filename": "primitive_top_hat",
+                "id": "H",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "1391",
+            "character": "司",
+            "keyword": "take charge of",
+            "level": "Medium",
+            "filename": "1391_take_charge_of",
+            "id": "M",
+            "requirements": [
+              {
+                "number": null,
+                "character": "𠃌",
+                "keyword": "clothes hanger",
+                "level": null,
+                "filename": "primitive_clothes_hanger",
+                "id": "J",
+                "requirements": []
+              },
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "K",
+                "requirements": []
+              },
+              {
+                "number": "11",
+                "character": "口",
+                "keyword": "mouth",
+                "level": "Elementary",
+                "filename": "11_mouth",
+                "id": "L",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

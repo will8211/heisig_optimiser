@@ -1,25 +1,31 @@
 {
-  "number": "339",
-  "character": "攻",
-  "keyword": "attack",
-  "level": null,
-  "id": "D",
-  "requirements": [
-    {
-      "number": null,
-      "character": "攵",
-      "keyword": "taskmaster",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "76",
-      "character": "工",
-      "keyword": "work",
-      "level": "Elementary",
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 365,
+  "hierarchy": {
+    "number": "339",
+    "character": "攻",
+    "keyword": "attack",
+    "level": null,
+    "filename": "339_attack",
+    "id": "D",
+    "requirements": [
+      {
+        "number": null,
+        "character": "攵",
+        "keyword": "taskmaster",
+        "level": null,
+        "filename": "primitive_taskmaster",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "76",
+        "character": "工",
+        "keyword": "work",
+        "level": "Elementary",
+        "filename": "76_work",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

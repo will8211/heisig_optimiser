@@ -1,34 +1,41 @@
 {
-  "number": "1837",
-  "character": "拇",
-  "keyword": "thumb",
-  "level": null,
-  "id": "E",
-  "requirements": [
-    {
-      "number": null,
-      "character": "扌",
-      "keyword": "fingers",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "105",
-      "character": "母",
-      "keyword": "mother",
-      "level": "Advanced",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "102",
-          "character": "女",
-          "keyword": "woman",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1988,
+  "hierarchy": {
+    "number": "1837",
+    "character": "拇",
+    "keyword": "thumb",
+    "level": null,
+    "filename": "1837_thumb",
+    "id": "E",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "primitive_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "105",
+        "character": "母",
+        "keyword": "mother",
+        "level": "Advanced",
+        "filename": "105_mother",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "102",
+            "character": "女",
+            "keyword": "woman",
+            "level": "Elementary",
+            "filename": "102_woman",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

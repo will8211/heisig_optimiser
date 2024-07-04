@@ -1,59 +1,69 @@
 {
-  "number": "2328",
-  "character": "踪",
-  "keyword": "tracks",
-  "level": null,
-  "id": "H",
-  "requirements": [
-    {
-      "number": "1048",
-      "character": "足",
-      "keyword": "lower leg",
-      "level": "Medium",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "379",
-          "character": "止",
-          "keyword": "stop",
-          "level": "Medium",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "908",
-      "character": "宗",
-      "keyword": "religion",
-      "level": null,
-      "id": "G",
-      "requirements": [
-        {
-          "number": null,
-          "character": "宀",
-          "keyword": "house",
-          "level": null,
-          "id": "E",
-          "requirements": []
-        },
-        {
-          "number": "900",
-          "character": "示",
-          "keyword": "show",
-          "level": "Medium",
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2496,
+  "hierarchy": {
+    "number": "2328",
+    "character": "踪",
+    "keyword": "tracks",
+    "level": null,
+    "filename": "2328_tracks",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "1048",
+        "character": "足",
+        "keyword": "lower leg",
+        "level": "Medium",
+        "filename": "1048_lower_leg",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "379",
+            "character": "止",
+            "keyword": "stop",
+            "level": "Medium",
+            "filename": "379_stop",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "908",
+        "character": "宗",
+        "keyword": "religion",
+        "level": null,
+        "filename": "908_religion",
+        "id": "G",
+        "requirements": [
+          {
+            "number": null,
+            "character": "宀",
+            "keyword": "house",
+            "level": null,
+            "filename": "primitive_house",
+            "id": "E",
+            "requirements": []
+          },
+          {
+            "number": "900",
+            "character": "示",
+            "keyword": "show",
+            "level": "Medium",
+            "filename": "900_show",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

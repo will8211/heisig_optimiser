@@ -1,33 +1,40 @@
 {
-  "number": "293",
-  "character": "迅",
-  "keyword": "speedy",
-  "level": null,
-  "id": "E",
-  "requirements": [
-    {
-      "number": "95",
-      "character": "乙",
-      "keyword": "second",
-      "level": "Medium",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "10",
-      "character": "十",
-      "keyword": "ten",
-      "level": "Elementary",
-      "id": "C",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "辶",
-      "keyword": "road",
-      "level": null,
-      "id": "D",
-      "requirements": []
-    }
-  ]
+  "order": 310,
+  "hierarchy": {
+    "number": "293",
+    "character": "迅",
+    "keyword": "speedy",
+    "level": null,
+    "filename": "293_speedy",
+    "id": "E",
+    "requirements": [
+      {
+        "number": "95",
+        "character": "乙",
+        "keyword": "second",
+        "level": "Medium",
+        "filename": "95_second",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "10",
+        "character": "十",
+        "keyword": "ten",
+        "level": "Elementary",
+        "filename": "10_ten",
+        "id": "C",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "辶",
+        "keyword": "road",
+        "level": null,
+        "filename": "primitive_road",
+        "id": "D",
+        "requirements": []
+      }
+    ]
+  }
 }

@@ -1,67 +1,78 @@
 {
-  "number": "2559",
-  "character": "僻",
-  "keyword": "out-of-the-way",
-  "level": null,
-  "id": "I",
-  "requirements": [
-    {
-      "number": "793",
-      "character": "人",
-      "keyword": "person",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1185",
-      "character": "辟",
-      "keyword": "repudiate",
-      "level": null,
-      "id": "H",
-      "requirements": [
-        {
-          "number": "882",
-          "character": "尸",
-          "keyword": "corpse",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": "1183",
-          "character": "辛",
-          "keyword": "peppery",
-          "level": "Advanced",
-          "id": "G",
-          "requirements": [
-            {
-              "number": "444",
-              "character": "立",
-              "keyword": "standing up",
-              "level": "Advanced",
-              "id": "E",
-              "requirements": []
-            },
-            {
-              "number": "10",
-              "character": "十",
-              "keyword": "ten",
-              "level": "Elementary",
-              "id": "F",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2746,
+  "hierarchy": {
+    "number": "2559",
+    "character": "僻",
+    "keyword": "out-of-the-way",
+    "level": null,
+    "filename": "2559_out-of-the-way",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "793",
+        "character": "人",
+        "keyword": "person",
+        "level": "Elementary",
+        "filename": "793_person",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1185",
+        "character": "辟",
+        "keyword": "repudiate",
+        "level": null,
+        "filename": "1185_repudiate",
+        "id": "H",
+        "requirements": [
+          {
+            "number": "882",
+            "character": "尸",
+            "keyword": "corpse",
+            "level": null,
+            "filename": "882_corpse",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": "1183",
+            "character": "辛",
+            "keyword": "peppery",
+            "level": "Advanced",
+            "filename": "1183_peppery",
+            "id": "G",
+            "requirements": [
+              {
+                "number": "444",
+                "character": "立",
+                "keyword": "standing up",
+                "level": "Advanced",
+                "filename": "444_standing_up",
+                "id": "E",
+                "requirements": []
+              },
+              {
+                "number": "10",
+                "character": "十",
+                "keyword": "ten",
+                "level": "Elementary",
+                "filename": "10_ten",
+                "id": "F",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

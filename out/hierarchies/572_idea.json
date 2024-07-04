@@ -1,42 +1,50 @@
 {
-  "number": "572",
-  "character": "意",
-  "keyword": "idea",
-  "level": "Elementary",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "484",
-      "character": "音",
-      "keyword": "sound",
-      "level": "Medium",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "444",
-          "character": "立",
-          "keyword": "standing up",
-          "level": "Advanced",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "12",
-          "character": "日",
-          "keyword": "day",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "563",
-      "character": "心",
-      "keyword": "heart",
-      "level": "Medium",
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 621,
+  "hierarchy": {
+    "number": "572",
+    "character": "意",
+    "keyword": "idea",
+    "level": "Elementary",
+    "filename": "572_idea",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "484",
+        "character": "音",
+        "keyword": "sound",
+        "level": "Medium",
+        "filename": "484_sound",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "444",
+            "character": "立",
+            "keyword": "standing up",
+            "level": "Advanced",
+            "filename": "444_standing_up",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "12",
+            "character": "日",
+            "keyword": "day",
+            "level": "Elementary",
+            "filename": "12_day",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "563",
+        "character": "心",
+        "keyword": "heart",
+        "level": "Medium",
+        "filename": "563_heart",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

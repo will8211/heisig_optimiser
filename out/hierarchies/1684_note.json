@@ -1,68 +1,79 @@
 {
-  "number": "1684",
-  "character": "帖",
-  "keyword": "note",
-  "level": null,
-  "id": "I",
-  "requirements": [
-    {
-      "number": "410",
-      "character": "巾",
-      "keyword": "towel",
-      "level": "Advanced",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "44",
-      "character": "占",
-      "keyword": "tell fortunes",
-      "level": "Medium",
-      "id": "H",
-      "requirements": [
-        {
-          "number": "43",
-          "character": "卜",
-          "keyword": "divination",
-          "level": null,
-          "id": "F",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丨",
-              "keyword": "walking stick",
-              "level": null,
-              "id": "D",
-              "requirements": [
-                {
-                  "number": "1",
-                  "character": "一",
-                  "keyword": "one",
-                  "level": "Elementary",
-                  "id": "C",
-                  "requirements": []
-                }
-              ]
-            },
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "id": "E",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "id": "G",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1829,
+  "hierarchy": {
+    "number": "1684",
+    "character": "帖",
+    "keyword": "note",
+    "level": null,
+    "filename": "1684_note",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "410",
+        "character": "巾",
+        "keyword": "towel",
+        "level": "Advanced",
+        "filename": "410_towel",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "44",
+        "character": "占",
+        "keyword": "tell fortunes",
+        "level": "Medium",
+        "filename": "44_tell_fortunes",
+        "id": "H",
+        "requirements": [
+          {
+            "number": "43",
+            "character": "卜",
+            "keyword": "divination",
+            "level": null,
+            "filename": "43_divination",
+            "id": "F",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丨",
+                "keyword": "walking stick",
+                "level": null,
+                "filename": "primitive_walking_stick",
+                "id": "D",
+                "requirements": [
+                  {
+                    "number": "1",
+                    "character": "一",
+                    "keyword": "one",
+                    "level": "Elementary",
+                    "filename": "1_one",
+                    "id": "C",
+                    "requirements": []
+                  }
+                ]
+              },
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "G",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

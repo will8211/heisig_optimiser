@@ -1,25 +1,31 @@
 {
-  "number": "1414",
-  "character": "牙",
-  "keyword": "tooth",
-  "level": "Medium",
-  "id": "D",
-  "requirements": [
-    {
-      "number": null,
-      "character": "匚",
-      "keyword": "box",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1002",
-      "character": "矛",
-      "keyword": "spear",
-      "level": null,
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 1542,
+  "hierarchy": {
+    "number": "1414",
+    "character": "牙",
+    "keyword": "tooth",
+    "level": "Medium",
+    "filename": "1414_tooth",
+    "id": "D",
+    "requirements": [
+      {
+        "number": null,
+        "character": "匚",
+        "keyword": "box",
+        "level": null,
+        "filename": "primitive_box",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1002",
+        "character": "矛",
+        "keyword": "spear",
+        "level": null,
+        "filename": "1002_spear",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

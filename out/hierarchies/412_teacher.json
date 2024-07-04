@@ -1,42 +1,50 @@
 {
-  "number": "412",
-  "character": "师",
-  "keyword": "teacher",
-  "level": "Elementary",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "411",
-      "character": "帅",
-      "keyword": "commander",
-      "level": "Advanced",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "83",
-          "character": "刀",
-          "keyword": "sword",
-          "level": "Medium",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "410",
-          "character": "巾",
-          "keyword": "towel",
-          "level": "Advanced",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "1",
-      "character": "一",
-      "keyword": "one",
-      "level": "Elementary",
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 447,
+  "hierarchy": {
+    "number": "412",
+    "character": "师",
+    "keyword": "teacher",
+    "level": "Elementary",
+    "filename": "412_teacher",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "411",
+        "character": "帅",
+        "keyword": "commander",
+        "level": "Advanced",
+        "filename": "411_commander",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "83",
+            "character": "刀",
+            "keyword": "sword",
+            "level": "Medium",
+            "filename": "83_sword",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "410",
+            "character": "巾",
+            "keyword": "towel",
+            "level": "Advanced",
+            "filename": "410_towel",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "1",
+        "character": "一",
+        "keyword": "one",
+        "level": "Elementary",
+        "filename": "1_one",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

@@ -1,51 +1,60 @@
 {
-  "number": "1235",
-  "character": "陆",
-  "keyword": "land",
-  "level": "Advanced",
-  "id": "G",
-  "requirements": [
-    {
-      "number": null,
-      "character": "阝",
-      "keyword": "pinnacle",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1234",
-      "character": "击",
-      "keyword": "beat",
-      "level": null,
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧奉－𡗗",
-          "keyword": "cornstalk",
-          "level": null,
-          "id": "D",
-          "requirements": [
-            {
-              "number": "1223",
-              "character": "丰",
-              "keyword": "plentiful",
-              "level": "Advanced",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "688",
-          "character": "山",
-          "keyword": "mountain",
-          "level": "Elementary",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1341,
+  "hierarchy": {
+    "number": "1235",
+    "character": "陆",
+    "keyword": "land",
+    "level": "Advanced",
+    "filename": "1235_land",
+    "id": "G",
+    "requirements": [
+      {
+        "number": null,
+        "character": "阝",
+        "keyword": "pinnacle",
+        "level": null,
+        "filename": "primitive_pinnacle",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1234",
+        "character": "击",
+        "keyword": "beat",
+        "level": null,
+        "filename": "1234_beat",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧奉－𡗗",
+            "keyword": "cornstalk",
+            "level": null,
+            "filename": "primitive_cornstalk",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "1223",
+                "character": "丰",
+                "keyword": "plentiful",
+                "level": "Advanced",
+                "filename": "1223_plentiful",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "688",
+            "character": "山",
+            "keyword": "mountain",
+            "level": "Elementary",
+            "filename": "688_mountain",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

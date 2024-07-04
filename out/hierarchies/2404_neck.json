@@ -1,84 +1,97 @@
 {
-  "number": "2404",
-  "character": "颈",
-  "keyword": "neck",
-  "level": null,
-  "id": "K",
-  "requirements": [
-    {
-      "number": null,
-      "character": "𢀖",
-      "keyword": "spool",
-      "level": null,
-      "id": "D",
-      "requirements": [
-        {
-          "number": "76",
-          "character": "工",
-          "keyword": "work",
-          "level": "Elementary",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "793",
-          "character": "人",
-          "keyword": "person",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "60",
-      "character": "页",
-      "keyword": "page",
-      "level": "Medium",
-      "id": "J",
-      "requirements": [
-        {
-          "number": "52",
-          "character": "贝",
-          "keyword": "shellfish",
-          "level": "Medium",
-          "id": "G",
-          "requirements": [
-            {
-              "number": "15",
-              "character": "目",
-              "keyword": "eye",
-              "level": "Medium",
-              "id": "E",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "囧只－口",
-              "keyword": "animal legs",
-              "level": null,
-              "id": "F",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "id": "H",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "id": "I",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2579,
+  "hierarchy": {
+    "number": "2404",
+    "character": "颈",
+    "keyword": "neck",
+    "level": null,
+    "filename": "2404_neck",
+    "id": "K",
+    "requirements": [
+      {
+        "number": null,
+        "character": "𢀖",
+        "keyword": "spool",
+        "level": null,
+        "filename": "primitive_spool",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "76",
+            "character": "工",
+            "keyword": "work",
+            "level": "Elementary",
+            "filename": "76_work",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "793",
+            "character": "人",
+            "keyword": "person",
+            "level": "Elementary",
+            "filename": "793_person",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "60",
+        "character": "页",
+        "keyword": "page",
+        "level": "Medium",
+        "filename": "60_page",
+        "id": "J",
+        "requirements": [
+          {
+            "number": "52",
+            "character": "贝",
+            "keyword": "shellfish",
+            "level": "Medium",
+            "filename": "52_shellfish",
+            "id": "G",
+            "requirements": [
+              {
+                "number": "15",
+                "character": "目",
+                "keyword": "eye",
+                "level": "Medium",
+                "filename": "15_eye",
+                "id": "E",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "囧只－口",
+                "keyword": "animal legs",
+                "level": null,
+                "filename": "primitive_animal_legs",
+                "id": "F",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "H",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "I",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

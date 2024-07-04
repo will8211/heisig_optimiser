@@ -1,33 +1,40 @@
 {
-  "number": "1104",
-  "character": "报",
-  "keyword": "newspaper",
-  "level": "Medium",
-  "id": "E",
-  "requirements": [
-    {
-      "number": null,
-      "character": "扌",
-      "keyword": "fingers",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "卩",
-      "keyword": "stamp",
-      "level": null,
-      "id": "C",
-      "requirements": []
-    },
-    {
-      "number": "633",
-      "character": "又",
-      "keyword": "again",
-      "level": "Elementary",
-      "id": "D",
-      "requirements": []
-    }
-  ]
+  "order": 1191,
+  "hierarchy": {
+    "number": "1104",
+    "character": "报",
+    "keyword": "newspaper",
+    "level": "Medium",
+    "filename": "1104_newspaper",
+    "id": "E",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "primitive_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "卩",
+        "keyword": "stamp",
+        "level": null,
+        "filename": "primitive_stamp",
+        "id": "C",
+        "requirements": []
+      },
+      {
+        "number": "633",
+        "character": "又",
+        "keyword": "again",
+        "level": "Elementary",
+        "filename": "633_again",
+        "id": "D",
+        "requirements": []
+      }
+    ]
+  }
 }

@@ -1,42 +1,50 @@
 {
-  "number": "2152",
-  "character": "启",
-  "keyword": "enlighten",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": "896",
-      "character": "户",
-      "keyword": "door",
-      "level": "Advanced",
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "882",
-          "character": "尸",
-          "keyword": "corpse",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "11",
-      "character": "口",
-      "keyword": "mouth",
-      "level": "Elementary",
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 2313,
+  "hierarchy": {
+    "number": "2152",
+    "character": "启",
+    "keyword": "enlighten",
+    "level": null,
+    "filename": "2152_enlighten",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "896",
+        "character": "户",
+        "keyword": "door",
+        "level": "Advanced",
+        "filename": "896_door",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "882",
+            "character": "尸",
+            "keyword": "corpse",
+            "level": null,
+            "filename": "882_corpse",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "11",
+        "character": "口",
+        "keyword": "mouth",
+        "level": "Elementary",
+        "filename": "11_mouth",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

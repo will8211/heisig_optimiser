@@ -1,34 +1,41 @@
 {
-  "number": "2169",
-  "character": "轴",
-  "keyword": "axle",
-  "level": null,
-  "id": "E",
-  "requirements": [
-    {
-      "number": "300",
-      "character": "车",
-      "keyword": "car",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "913",
-      "character": "由",
-      "keyword": "wherefore",
-      "level": "Medium",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "14",
-          "character": "田",
-          "keyword": "rice field",
-          "level": "Medium",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2331,
+  "hierarchy": {
+    "number": "2169",
+    "character": "轴",
+    "keyword": "axle",
+    "level": null,
+    "filename": "2169_axle",
+    "id": "E",
+    "requirements": [
+      {
+        "number": "300",
+        "character": "车",
+        "keyword": "car",
+        "level": "Elementary",
+        "filename": "300_car",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "913",
+        "character": "由",
+        "keyword": "wherefore",
+        "level": "Medium",
+        "filename": "913_wherefore",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "14",
+            "character": "田",
+            "keyword": "rice field",
+            "level": "Medium",
+            "filename": "14_rice_field",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

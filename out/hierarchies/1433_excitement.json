@@ -1,33 +1,40 @@
 {
-  "number": "1433",
-  "character": "兴",
-  "keyword": "excitement",
-  "level": "Elementary",
-  "id": "E",
-  "requirements": [
-    {
-      "number": null,
-      "character": "囧应－广",
-      "keyword": "owl",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1",
-      "character": "一",
-      "keyword": "one",
-      "level": "Elementary",
-      "id": "C",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "囧只－口",
-      "keyword": "animal legs",
-      "level": null,
-      "id": "D",
-      "requirements": []
-    }
-  ]
+  "order": 1566,
+  "hierarchy": {
+    "number": "1433",
+    "character": "兴",
+    "keyword": "excitement",
+    "level": "Elementary",
+    "filename": "1433_excitement",
+    "id": "E",
+    "requirements": [
+      {
+        "number": null,
+        "character": "囧应－广",
+        "keyword": "owl",
+        "level": null,
+        "filename": "primitive_owl",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1",
+        "character": "一",
+        "keyword": "one",
+        "level": "Elementary",
+        "filename": "1_one",
+        "id": "C",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "囧只－口",
+        "keyword": "animal legs",
+        "level": null,
+        "filename": "primitive_animal_legs",
+        "id": "D",
+        "requirements": []
+      }
+    ]
+  }
 }

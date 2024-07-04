@@ -1,26 +1,32 @@
 {
-  "number": "1244",
-  "character": "今",
-  "keyword": "now",
-  "level": "Elementary",
-  "id": "D",
-  "requirements": [
-    {
-      "number": null,
-      "character": "亼",
-      "keyword": "meeting",
-      "level": null,
-      "id": "C",
-      "requirements": [
-        {
-          "number": null,
-          "character": "𠆢",
-          "keyword": "umbrella",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1352,
+  "hierarchy": {
+    "number": "1244",
+    "character": "今",
+    "keyword": "now",
+    "level": "Elementary",
+    "filename": "1244_now",
+    "id": "D",
+    "requirements": [
+      {
+        "number": null,
+        "character": "亼",
+        "keyword": "meeting",
+        "level": null,
+        "filename": "primitive_meeting",
+        "id": "C",
+        "requirements": [
+          {
+            "number": null,
+            "character": "𠆢",
+            "keyword": "umbrella",
+            "level": null,
+            "filename": "primitive_umbrella",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,25 +1,31 @@
 {
-  "number": "1390",
-  "character": "幻",
-  "keyword": "unreal",
-  "level": null,
-  "id": "D",
-  "requirements": [
-    {
-      "number": null,
-      "character": "幺",
-      "keyword": "cocoon",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "𠃌",
-      "keyword": "clothes hanger",
-      "level": null,
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 1515,
+  "hierarchy": {
+    "number": "1390",
+    "character": "幻",
+    "keyword": "unreal",
+    "level": null,
+    "filename": "1390_unreal",
+    "id": "D",
+    "requirements": [
+      {
+        "number": null,
+        "character": "幺",
+        "keyword": "cocoon",
+        "level": null,
+        "filename": "primitive_cocoon",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "𠃌",
+        "keyword": "clothes hanger",
+        "level": null,
+        "filename": "primitive_clothes_hanger",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

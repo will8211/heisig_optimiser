@@ -1,34 +1,41 @@
 {
-  "number": "1755",
-  "character": "杨",
-  "keyword": "poplar",
-  "level": null,
-  "id": "E",
-  "requirements": [
-    {
-      "number": "202",
-      "character": "木",
-      "keyword": "tree",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "𠃓",
-      "keyword": "piglets",
-      "level": null,
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "豕",
-          "keyword": "sow",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1903,
+  "hierarchy": {
+    "number": "1755",
+    "character": "杨",
+    "keyword": "poplar",
+    "level": null,
+    "filename": "1755_poplar",
+    "id": "E",
+    "requirements": [
+      {
+        "number": "202",
+        "character": "木",
+        "keyword": "tree",
+        "level": "Elementary",
+        "filename": "202_tree",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "𠃓",
+        "keyword": "piglets",
+        "level": null,
+        "filename": "primitive_piglets",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "豕",
+            "keyword": "sow",
+            "level": null,
+            "filename": "primitive_sow",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

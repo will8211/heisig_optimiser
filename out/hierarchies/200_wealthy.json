@@ -1,50 +1,59 @@
 {
-  "number": "200",
-  "character": "富",
-  "keyword": "wealthy",
-  "level": "Advanced",
-  "id": "G",
-  "requirements": [
-    {
-      "number": null,
-      "character": "畐",
-      "keyword": "wealth",
-      "level": null,
-      "id": "E",
-      "requirements": [
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "14",
-          "character": "田",
-          "keyword": "rice field",
-          "level": "Medium",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "宀",
-      "keyword": "house",
-      "level": null,
-      "id": "F",
-      "requirements": []
-    }
-  ]
+  "order": 211,
+  "hierarchy": {
+    "number": "200",
+    "character": "富",
+    "keyword": "wealthy",
+    "level": "Advanced",
+    "filename": "200_wealthy",
+    "id": "G",
+    "requirements": [
+      {
+        "number": null,
+        "character": "畐",
+        "keyword": "wealth",
+        "level": null,
+        "filename": "primitive_wealth",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "14",
+            "character": "田",
+            "keyword": "rice field",
+            "level": "Medium",
+            "filename": "14_rice_field",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "宀",
+        "keyword": "house",
+        "level": null,
+        "filename": "primitive_house",
+        "id": "F",
+        "requirements": []
+      }
+    ]
+  }
 }

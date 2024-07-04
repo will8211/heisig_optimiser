@@ -1,84 +1,97 @@
 {
-  "number": "397",
-  "character": "诞",
-  "keyword": "nativity",
-  "level": null,
-  "id": "K",
-  "requirements": [
-    {
-      "number": "396",
-      "character": "延",
-      "keyword": "prolong",
-      "level": null,
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "廴",
-          "keyword": "stretch",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "379",
-          "character": "止",
-          "keyword": "stop",
-          "level": "Medium",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "346",
-      "character": "言",
-      "keyword": "say",
-      "level": "Medium",
-      "id": "J",
-      "requirements": [
-        {
-          "number": "2",
-          "character": "二",
-          "keyword": "two",
-          "level": "Elementary",
-          "id": "G",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "id": "F",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "id": "H",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "亠",
-          "keyword": "top hat",
-          "level": null,
-          "id": "I",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 430,
+  "hierarchy": {
+    "number": "397",
+    "character": "诞",
+    "keyword": "nativity",
+    "level": null,
+    "filename": "397_nativity",
+    "id": "K",
+    "requirements": [
+      {
+        "number": "396",
+        "character": "延",
+        "keyword": "prolong",
+        "level": null,
+        "filename": "396_prolong",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "廴",
+            "keyword": "stretch",
+            "level": null,
+            "filename": "primitive_stretch",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "379",
+            "character": "止",
+            "keyword": "stop",
+            "level": "Medium",
+            "filename": "379_stop",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "346",
+        "character": "言",
+        "keyword": "say",
+        "level": "Medium",
+        "filename": "346_say",
+        "id": "J",
+        "requirements": [
+          {
+            "number": "2",
+            "character": "二",
+            "keyword": "two",
+            "level": "Elementary",
+            "filename": "2_two",
+            "id": "G",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "F",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "H",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "亠",
+            "keyword": "top hat",
+            "level": null,
+            "filename": "primitive_top_hat",
+            "id": "I",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,34 +1,41 @@
 {
-  "number": "853",
-  "character": "任",
-  "keyword": "appoint",
-  "level": "Advanced",
-  "id": "E",
-  "requirements": [
-    {
-      "number": "793",
-      "character": "人",
-      "keyword": "person",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "壬",
-      "keyword": "porter",
-      "level": null,
-      "id": "D",
-      "requirements": [
-        {
-          "number": "334",
-          "character": "士",
-          "keyword": "soldier",
-          "level": "Advanced",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 917,
+  "hierarchy": {
+    "number": "853",
+    "character": "任",
+    "keyword": "appoint",
+    "level": "Advanced",
+    "filename": "853_appoint",
+    "id": "E",
+    "requirements": [
+      {
+        "number": "793",
+        "character": "人",
+        "keyword": "person",
+        "level": "Elementary",
+        "filename": "793_person",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "壬",
+        "keyword": "porter",
+        "level": null,
+        "filename": "primitive_porter",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "334",
+            "character": "士",
+            "keyword": "soldier",
+            "level": "Advanced",
+            "filename": "334_soldier",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

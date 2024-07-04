@@ -1,25 +1,31 @@
 {
-  "number": "1228",
-  "character": "围",
-  "keyword": "surround",
-  "level": "Advanced",
-  "id": "D",
-  "requirements": [
-    {
-      "number": null,
-      "character": "囗",
-      "keyword": "pent in",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1227",
-      "character": "韦",
-      "keyword": "tanned hide",
-      "level": null,
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 1332,
+  "hierarchy": {
+    "number": "1228",
+    "character": "围",
+    "keyword": "surround",
+    "level": "Advanced",
+    "filename": "1228_surround",
+    "id": "D",
+    "requirements": [
+      {
+        "number": null,
+        "character": "囗",
+        "keyword": "pent in",
+        "level": null,
+        "filename": "primitive_pent_in",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1227",
+        "character": "韦",
+        "keyword": "tanned hide",
+        "level": null,
+        "filename": "1227_tanned_hide",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

@@ -1,50 +1,59 @@
 {
-  "number": "1988",
-  "character": "抛",
-  "keyword": "toss",
-  "level": null,
-  "id": "G",
-  "requirements": [
-    {
-      "number": null,
-      "character": "扌",
-      "keyword": "fingers",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "9",
-      "character": "九",
-      "keyword": "nine",
-      "level": "Elementary",
-      "id": "C",
-      "requirements": []
-    },
-    {
-      "number": "63",
-      "character": "肌",
-      "keyword": "muscle",
-      "level": null,
-      "id": "F",
-      "requirements": [
-        {
-          "number": "57",
-          "character": "几",
-          "keyword": "how many?",
-          "level": "Elementary",
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": "13",
-          "character": "月",
-          "keyword": "month",
-          "level": "Elementary",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2145,
+  "hierarchy": {
+    "number": "1988",
+    "character": "抛",
+    "keyword": "toss",
+    "level": null,
+    "filename": "1988_toss",
+    "id": "G",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "primitive_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "9",
+        "character": "九",
+        "keyword": "nine",
+        "level": "Elementary",
+        "filename": "9_nine",
+        "id": "C",
+        "requirements": []
+      },
+      {
+        "number": "63",
+        "character": "肌",
+        "keyword": "muscle",
+        "level": null,
+        "filename": "63_muscle",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "57",
+            "character": "几",
+            "keyword": "how many?",
+            "level": "Elementary",
+            "filename": "57_how_many",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": "13",
+            "character": "月",
+            "keyword": "month",
+            "level": "Elementary",
+            "filename": "13_month",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

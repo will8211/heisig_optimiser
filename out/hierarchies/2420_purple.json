@@ -1,68 +1,79 @@
 {
-  "number": "2420",
-  "character": "紫",
-  "keyword": "purple",
-  "level": null,
-  "id": "I",
-  "requirements": [
-    {
-      "number": "460",
-      "character": "此",
-      "keyword": "this (literary)",
-      "level": "Advanced",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "379",
-          "character": "止",
-          "keyword": "stop",
-          "level": "Medium",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "453",
-          "character": "匕",
-          "keyword": "ancient spoon",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "糸",
-      "keyword": "floss",
-      "level": null,
-      "id": "H",
-      "requirements": [
-        {
-          "number": null,
-          "character": "幺",
-          "keyword": "cocoon",
-          "level": null,
-          "id": "E",
-          "requirements": []
-        },
-        {
-          "number": "109",
-          "character": "小",
-          "keyword": "small",
-          "level": "Elementary",
-          "id": "G",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "id": "F",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2596,
+  "hierarchy": {
+    "number": "2420",
+    "character": "紫",
+    "keyword": "purple",
+    "level": null,
+    "filename": "2420_purple",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "460",
+        "character": "此",
+        "keyword": "this (literary)",
+        "level": "Advanced",
+        "filename": "460_this_(literary)",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "379",
+            "character": "止",
+            "keyword": "stop",
+            "level": "Medium",
+            "filename": "379_stop",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "453",
+            "character": "匕",
+            "keyword": "ancient spoon",
+            "level": null,
+            "filename": "453_ancient_spoon",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "糸",
+        "keyword": "floss",
+        "level": null,
+        "filename": "primitive_floss",
+        "id": "H",
+        "requirements": [
+          {
+            "number": null,
+            "character": "幺",
+            "keyword": "cocoon",
+            "level": null,
+            "filename": "primitive_cocoon",
+            "id": "E",
+            "requirements": []
+          },
+          {
+            "number": "109",
+            "character": "小",
+            "keyword": "small",
+            "level": "Elementary",
+            "filename": "109_small",
+            "id": "G",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "F",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

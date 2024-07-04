@@ -1,59 +1,69 @@
 {
-  "number": "1056",
-  "character": "啊",
-  "keyword": "aah!",
-  "level": "Medium",
-  "id": "H",
-  "requirements": [
-    {
-      "number": "11",
-      "character": "口",
-      "keyword": "mouth",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1055",
-      "character": "阿",
-      "keyword": "Apollo",
-      "level": null,
-      "id": "G",
-      "requirements": [
-        {
-          "number": null,
-          "character": "阝",
-          "keyword": "pinnacle",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "92",
-          "character": "可",
-          "keyword": "can",
-          "level": "Elementary",
-          "id": "F",
-          "requirements": [
-            {
-              "number": "90",
-              "character": "丁",
-              "keyword": "fourth",
-              "level": null,
-              "id": "D",
-              "requirements": []
-            },
-            {
-              "number": "11",
-              "character": "口",
-              "keyword": "mouth",
-              "level": "Elementary",
-              "id": "E",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 1137,
+  "hierarchy": {
+    "number": "1056",
+    "character": "啊",
+    "keyword": "aah!",
+    "level": "Medium",
+    "filename": "1056_aah!",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "11",
+        "character": "口",
+        "keyword": "mouth",
+        "level": "Elementary",
+        "filename": "11_mouth",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1055",
+        "character": "阿",
+        "keyword": "Apollo",
+        "level": null,
+        "filename": "1055_Apollo",
+        "id": "G",
+        "requirements": [
+          {
+            "number": null,
+            "character": "阝",
+            "keyword": "pinnacle",
+            "level": null,
+            "filename": "primitive_pinnacle",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "92",
+            "character": "可",
+            "keyword": "can",
+            "level": "Elementary",
+            "filename": "92_can",
+            "id": "F",
+            "requirements": [
+              {
+                "number": "90",
+                "character": "丁",
+                "keyword": "fourth",
+                "level": null,
+                "filename": "90_fourth",
+                "id": "D",
+                "requirements": []
+              },
+              {
+                "number": "11",
+                "character": "口",
+                "keyword": "mouth",
+                "level": "Elementary",
+                "filename": "11_mouth",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

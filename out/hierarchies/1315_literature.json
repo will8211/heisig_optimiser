@@ -1,25 +1,31 @@
 {
-  "number": "1315",
-  "character": "文",
-  "keyword": "literature",
-  "level": "Elementary",
-  "id": "D",
-  "requirements": [
-    {
-      "number": null,
-      "character": "亠",
-      "keyword": "top hat",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "㐅",
-      "keyword": "sheaf",
-      "level": null,
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 1431,
+  "hierarchy": {
+    "number": "1315",
+    "character": "文",
+    "keyword": "literature",
+    "level": "Elementary",
+    "filename": "1315_literature",
+    "id": "D",
+    "requirements": [
+      {
+        "number": null,
+        "character": "亠",
+        "keyword": "top hat",
+        "level": null,
+        "filename": "primitive_top_hat",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "㐅",
+        "keyword": "sheaf",
+        "level": null,
+        "filename": "primitive_sheaf",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

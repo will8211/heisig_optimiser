@@ -1,25 +1,31 @@
 {
-  "number": "1572",
-  "character": "宋",
-  "keyword": "Song",
-  "level": null,
-  "id": "D",
-  "requirements": [
-    {
-      "number": null,
-      "character": "宀",
-      "keyword": "house",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "202",
-      "character": "木",
-      "keyword": "tree",
-      "level": "Elementary",
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 1712,
+  "hierarchy": {
+    "number": "1572",
+    "character": "宋",
+    "keyword": "Song",
+    "level": null,
+    "filename": "1572_Song",
+    "id": "D",
+    "requirements": [
+      {
+        "number": null,
+        "character": "宀",
+        "keyword": "house",
+        "level": null,
+        "filename": "primitive_house",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "202",
+        "character": "木",
+        "keyword": "tree",
+        "level": "Elementary",
+        "filename": "202_tree",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

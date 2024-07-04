@@ -1,60 +1,70 @@
 {
-  "number": "371",
-  "character": "威",
-  "keyword": "might",
-  "level": null,
-  "id": "H",
-  "requirements": [
-    {
-      "number": null,
-      "character": "戌",
-      "keyword": "march",
-      "level": null,
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "戊",
-          "keyword": "parade",
-          "level": null,
-          "id": "D",
-          "requirements": [
-            {
-              "number": "361",
-              "character": "戈",
-              "keyword": "halberd",
-              "level": null,
-              "id": "C",
-              "requirements": [
-                {
-                  "number": null,
-                  "character": "弋",
-                  "keyword": "arrow",
-                  "level": null,
-                  "id": "B",
-                  "requirements": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "102",
-      "character": "女",
-      "keyword": "woman",
-      "level": "Elementary",
-      "id": "G",
-      "requirements": []
-    }
-  ]
+  "order": 401,
+  "hierarchy": {
+    "number": "371",
+    "character": "威",
+    "keyword": "might",
+    "level": null,
+    "filename": "371_might",
+    "id": "H",
+    "requirements": [
+      {
+        "number": null,
+        "character": "戌",
+        "keyword": "march",
+        "level": null,
+        "filename": "primitive_march",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "戊",
+            "keyword": "parade",
+            "level": null,
+            "filename": "primitive_parade",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "361",
+                "character": "戈",
+                "keyword": "halberd",
+                "level": null,
+                "filename": "361_halberd",
+                "id": "C",
+                "requirements": [
+                  {
+                    "number": null,
+                    "character": "弋",
+                    "keyword": "arrow",
+                    "level": null,
+                    "filename": "primitive_arrow",
+                    "id": "B",
+                    "requirements": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "102",
+        "character": "女",
+        "keyword": "woman",
+        "level": "Elementary",
+        "filename": "102_woman",
+        "id": "G",
+        "requirements": []
+      }
+    ]
+  }
 }

@@ -1,51 +1,60 @@
 {
-  "number": "2459",
-  "character": "舆",
-  "keyword": "popular",
-  "level": null,
-  "id": "G",
-  "requirements": [
-    {
-      "number": null,
-      "character": "囧舆－车",
-      "keyword": "zipper",
-      "level": null,
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧具－目",
-          "keyword": "tool",
-          "level": null,
-          "id": "C",
-          "requirements": [
-            {
-              "number": null,
-              "character": "囧只－口",
-              "keyword": "animal legs",
-              "level": null,
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "囧印－卩",
-          "keyword": "staples",
-          "level": null,
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "300",
-      "character": "车",
-      "keyword": "car",
-      "level": "Elementary",
-      "id": "F",
-      "requirements": []
-    }
-  ]
+  "order": 2640,
+  "hierarchy": {
+    "number": "2459",
+    "character": "舆",
+    "keyword": "popular",
+    "level": null,
+    "filename": "2459_popular",
+    "id": "G",
+    "requirements": [
+      {
+        "number": null,
+        "character": "囧舆－车",
+        "keyword": "zipper",
+        "level": null,
+        "filename": "primitive_zipper",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧具－目",
+            "keyword": "tool",
+            "level": null,
+            "filename": "primitive_tool",
+            "id": "C",
+            "requirements": [
+              {
+                "number": null,
+                "character": "囧只－口",
+                "keyword": "animal legs",
+                "level": null,
+                "filename": "primitive_animal_legs",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "囧印－卩",
+            "keyword": "staples",
+            "level": null,
+            "filename": "primitive_staples",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "300",
+        "character": "车",
+        "keyword": "car",
+        "level": "Elementary",
+        "filename": "300_car",
+        "id": "F",
+        "requirements": []
+      }
+    ]
+  }
 }

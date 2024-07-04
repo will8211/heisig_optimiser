@@ -1,25 +1,31 @@
 {
-  "number": "1878",
-  "character": "扔",
-  "keyword": "throw away",
-  "level": "Medium",
-  "id": "D",
-  "requirements": [
-    {
-      "number": null,
-      "character": "扌",
-      "keyword": "fingers",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "625",
-      "character": "乃",
-      "keyword": "only then",
-      "level": null,
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 2032,
+  "hierarchy": {
+    "number": "1878",
+    "character": "扔",
+    "keyword": "throw away",
+    "level": "Medium",
+    "filename": "1878_throw_away",
+    "id": "D",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "primitive_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "625",
+        "character": "乃",
+        "keyword": "only then",
+        "level": null,
+        "filename": "625_only_then",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

@@ -1,34 +1,41 @@
 {
-  "number": "507",
-  "character": "地",
-  "keyword": "ground",
-  "level": "Elementary",
-  "id": "E",
-  "requirements": [
-    {
-      "number": "158",
-      "character": "土",
-      "keyword": "soil",
-      "level": "Medium",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "505",
-      "character": "也",
-      "keyword": "also",
-      "level": "Elementary",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "95",
-          "character": "乙",
-          "keyword": "second",
-          "level": "Medium",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 551,
+  "hierarchy": {
+    "number": "507",
+    "character": "地",
+    "keyword": "ground",
+    "level": "Elementary",
+    "filename": "507_ground",
+    "id": "E",
+    "requirements": [
+      {
+        "number": "158",
+        "character": "土",
+        "keyword": "soil",
+        "level": "Medium",
+        "filename": "158_soil",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "505",
+        "character": "也",
+        "keyword": "also",
+        "level": "Elementary",
+        "filename": "505_also",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "95",
+            "character": "乙",
+            "keyword": "second",
+            "level": "Medium",
+            "filename": "95_second",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

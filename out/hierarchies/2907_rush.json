@@ -1,34 +1,41 @@
 {
-  "number": "2907",
-  "character": "闯",
-  "keyword": "rush",
-  "level": "Advanced",
-  "id": "E",
-  "requirements": [
-    {
-      "number": "1260",
-      "character": "门",
-      "keyword": "gate",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1453",
-      "character": "马",
-      "keyword": "horse",
-      "level": "Elementary",
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧与－丨一",
-          "keyword": "pointed tail",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 3104,
+  "hierarchy": {
+    "number": "2907",
+    "character": "闯",
+    "keyword": "rush",
+    "level": "Advanced",
+    "filename": "2907_rush",
+    "id": "E",
+    "requirements": [
+      {
+        "number": "1260",
+        "character": "门",
+        "keyword": "gate",
+        "level": "Elementary",
+        "filename": "1260_gate",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1453",
+        "character": "马",
+        "keyword": "horse",
+        "level": "Elementary",
+        "filename": "1453_horse",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧与－丨一",
+            "keyword": "pointed tail",
+            "level": null,
+            "filename": "primitive_pointed_tail",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

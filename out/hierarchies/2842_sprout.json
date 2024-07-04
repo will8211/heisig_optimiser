@@ -1,42 +1,50 @@
 {
-  "number": "2842",
-  "character": "芽",
-  "keyword": "sprout",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": null,
-      "character": "艹",
-      "keyword": "flower",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1414",
-      "character": "牙",
-      "keyword": "tooth",
-      "level": "Medium",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "匚",
-          "keyword": "box",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "1002",
-          "character": "矛",
-          "keyword": "spear",
-          "level": null,
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 3036,
+  "hierarchy": {
+    "number": "2842",
+    "character": "芽",
+    "keyword": "sprout",
+    "level": null,
+    "filename": "2842_sprout",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "艹",
+        "keyword": "flower",
+        "level": null,
+        "filename": "primitive_flower",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1414",
+        "character": "牙",
+        "keyword": "tooth",
+        "level": "Medium",
+        "filename": "1414_tooth",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "匚",
+            "keyword": "box",
+            "level": null,
+            "filename": "primitive_box",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "1002",
+            "character": "矛",
+            "keyword": "spear",
+            "level": null,
+            "filename": "1002_spear",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

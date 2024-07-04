@@ -1,50 +1,59 @@
 {
-  "number": "2692",
-  "character": "葵",
-  "keyword": "large-flowered plants",
-  "level": null,
-  "id": "G",
-  "requirements": [
-    {
-      "number": null,
-      "character": "艹",
-      "keyword": "flower",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "癶",
-      "keyword": "teepee",
-      "level": null,
-      "id": "C",
-      "requirements": []
-    },
-    {
-      "number": "436",
-      "character": "天",
-      "keyword": "heavens",
-      "level": "Elementary",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": "113",
-          "character": "大",
-          "keyword": "large",
-          "level": "Elementary",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2881,
+  "hierarchy": {
+    "number": "2692",
+    "character": "葵",
+    "keyword": "large-flowered plants",
+    "level": null,
+    "filename": "2692_large-flowered_plants",
+    "id": "G",
+    "requirements": [
+      {
+        "number": null,
+        "character": "艹",
+        "keyword": "flower",
+        "level": null,
+        "filename": "primitive_flower",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "癶",
+        "keyword": "teepee",
+        "level": null,
+        "filename": "primitive_teepee",
+        "id": "C",
+        "requirements": []
+      },
+      {
+        "number": "436",
+        "character": "天",
+        "keyword": "heavens",
+        "level": "Elementary",
+        "filename": "436_heavens",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": "113",
+            "character": "大",
+            "keyword": "large",
+            "level": "Elementary",
+            "filename": "113_large",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

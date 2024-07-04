@@ -1,42 +1,50 @@
 {
-  "number": "448",
-  "character": "竞",
-  "keyword": "compete",
-  "level": "Advanced",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "107",
-      "character": "兄",
-      "keyword": "elder brother",
-      "level": "Medium",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "56",
-          "character": "儿",
-          "keyword": "youngster",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "444",
-      "character": "立",
-      "keyword": "standing up",
-      "level": "Advanced",
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 488,
+  "hierarchy": {
+    "number": "448",
+    "character": "竞",
+    "keyword": "compete",
+    "level": "Advanced",
+    "filename": "448_compete",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "107",
+        "character": "兄",
+        "keyword": "elder brother",
+        "level": "Medium",
+        "filename": "107_elder_brother",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "56",
+            "character": "儿",
+            "keyword": "youngster",
+            "level": "Elementary",
+            "filename": "56_youngster",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "444",
+        "character": "立",
+        "keyword": "standing up",
+        "level": "Advanced",
+        "filename": "444_standing_up",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

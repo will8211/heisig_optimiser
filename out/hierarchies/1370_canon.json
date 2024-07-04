@@ -1,43 +1,51 @@
 {
-  "number": "1370",
-  "character": "典",
-  "keyword": "canon",
-  "level": "Medium",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "967",
-      "character": "曲",
-      "keyword": "bent",
-      "level": "Advanced",
-      "id": "C",
-      "requirements": [
-        {
-          "number": "14",
-          "character": "田",
-          "keyword": "rice field",
-          "level": "Medium",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "囧具－目",
-      "keyword": "tool",
-      "level": null,
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧只－口",
-          "keyword": "animal legs",
-          "level": null,
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1491,
+  "hierarchy": {
+    "number": "1370",
+    "character": "典",
+    "keyword": "canon",
+    "level": "Medium",
+    "filename": "1370_canon",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "967",
+        "character": "曲",
+        "keyword": "bent",
+        "level": "Advanced",
+        "filename": "967_bent",
+        "id": "C",
+        "requirements": [
+          {
+            "number": "14",
+            "character": "田",
+            "keyword": "rice field",
+            "level": "Medium",
+            "filename": "14_rice_field",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "囧具－目",
+        "keyword": "tool",
+        "level": null,
+        "filename": "primitive_tool",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧只－口",
+            "keyword": "animal legs",
+            "level": null,
+            "filename": "primitive_animal_legs",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

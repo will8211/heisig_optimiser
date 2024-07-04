@@ -1,25 +1,31 @@
 {
-  "number": "1883",
-  "character": "叉",
-  "keyword": "fork",
-  "level": "Advanced",
-  "id": "D",
-  "requirements": [
-    {
-      "number": "633",
-      "character": "又",
-      "keyword": "again",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "丶",
-      "keyword": "a drop of",
-      "level": null,
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 2037,
+  "hierarchy": {
+    "number": "1883",
+    "character": "叉",
+    "keyword": "fork",
+    "level": "Advanced",
+    "filename": "1883_fork",
+    "id": "D",
+    "requirements": [
+      {
+        "number": "633",
+        "character": "又",
+        "keyword": "again",
+        "level": "Elementary",
+        "filename": "633_again",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "丶",
+        "keyword": "a drop of",
+        "level": null,
+        "filename": "primitive_a_drop_of",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

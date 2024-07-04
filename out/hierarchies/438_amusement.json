@@ -1,59 +1,69 @@
 {
-  "number": "438",
-  "character": "娱",
-  "keyword": "amusement",
-  "level": null,
-  "id": "H",
-  "requirements": [
-    {
-      "number": "437",
-      "character": "吴",
-      "keyword": "Wu",
-      "level": null,
-      "id": "F",
-      "requirements": [
-        {
-          "number": "436",
-          "character": "天",
-          "keyword": "heavens",
-          "level": "Elementary",
-          "id": "D",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "id": "B",
-              "requirements": []
-            },
-            {
-              "number": "113",
-              "character": "大",
-              "keyword": "large",
-              "level": "Elementary",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "102",
-      "character": "女",
-      "keyword": "woman",
-      "level": "Elementary",
-      "id": "G",
-      "requirements": []
-    }
-  ]
+  "order": 478,
+  "hierarchy": {
+    "number": "438",
+    "character": "娱",
+    "keyword": "amusement",
+    "level": null,
+    "filename": "438_amusement",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "437",
+        "character": "吴",
+        "keyword": "Wu",
+        "level": null,
+        "filename": "437_Wu",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "436",
+            "character": "天",
+            "keyword": "heavens",
+            "level": "Elementary",
+            "filename": "436_heavens",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "B",
+                "requirements": []
+              },
+              {
+                "number": "113",
+                "character": "大",
+                "keyword": "large",
+                "level": "Elementary",
+                "filename": "113_large",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "102",
+        "character": "女",
+        "keyword": "woman",
+        "level": "Elementary",
+        "filename": "102_woman",
+        "id": "G",
+        "requirements": []
+      }
+    ]
+  }
 }

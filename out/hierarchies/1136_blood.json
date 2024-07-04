@@ -1,25 +1,31 @@
 {
-  "number": "1136",
-  "character": "血",
-  "keyword": "blood",
-  "level": "Medium",
-  "id": "D",
-  "requirements": [
-    {
-      "number": null,
-      "character": "丶",
-      "keyword": "a drop of",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "皿",
-      "keyword": "dish",
-      "level": null,
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 1231,
+  "hierarchy": {
+    "number": "1136",
+    "character": "血",
+    "keyword": "blood",
+    "level": "Medium",
+    "filename": "1136_blood",
+    "id": "D",
+    "requirements": [
+      {
+        "number": null,
+        "character": "丶",
+        "keyword": "a drop of",
+        "level": null,
+        "filename": "primitive_a_drop_of",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "皿",
+        "keyword": "dish",
+        "level": null,
+        "filename": "primitive_dish",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

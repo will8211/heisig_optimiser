@@ -1,34 +1,41 @@
 {
-  "number": "218",
-  "character": "味",
-  "keyword": "flavor",
-  "level": "Medium",
-  "id": "E",
-  "requirements": [
-    {
-      "number": "215",
-      "character": "未",
-      "keyword": "not yet",
-      "level": "Medium",
-      "id": "C",
-      "requirements": [
-        {
-          "number": "202",
-          "character": "木",
-          "keyword": "tree",
-          "level": "Elementary",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "11",
-      "character": "口",
-      "keyword": "mouth",
-      "level": "Elementary",
-      "id": "D",
-      "requirements": []
-    }
-  ]
+  "order": 229,
+  "hierarchy": {
+    "number": "218",
+    "character": "味",
+    "keyword": "flavor",
+    "level": "Medium",
+    "filename": "218_flavor",
+    "id": "E",
+    "requirements": [
+      {
+        "number": "215",
+        "character": "未",
+        "keyword": "not yet",
+        "level": "Medium",
+        "filename": "215_not_yet",
+        "id": "C",
+        "requirements": [
+          {
+            "number": "202",
+            "character": "木",
+            "keyword": "tree",
+            "level": "Elementary",
+            "filename": "202_tree",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "11",
+        "character": "口",
+        "keyword": "mouth",
+        "level": "Elementary",
+        "filename": "11_mouth",
+        "id": "D",
+        "requirements": []
+      }
+    ]
+  }
 }

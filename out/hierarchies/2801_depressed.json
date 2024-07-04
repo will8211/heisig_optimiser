@@ -1,60 +1,70 @@
 {
-  "number": "2801",
-  "character": "郁",
-  "keyword": "depressed",
-  "level": null,
-  "id": "H",
-  "requirements": [
-    {
-      "number": "79",
-      "character": "有",
-      "keyword": "possess",
-      "level": "Elementary",
-      "id": "E",
-      "requirements": [
-        {
-          "number": "13",
-          "character": "月",
-          "keyword": "month",
-          "level": "Elementary",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "𠂇",
-          "keyword": "by one’s side",
-          "level": null,
-          "id": "D",
-          "requirements": [
-            {
-              "number": "10",
-              "character": "十",
-              "keyword": "ten",
-              "level": "Elementary",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "囧阝",
-      "keyword": "city walls",
-      "level": null,
-      "id": "G",
-      "requirements": [
-        {
-          "number": null,
-          "character": "阝",
-          "keyword": "pinnacle",
-          "level": null,
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2995,
+  "hierarchy": {
+    "number": "2801",
+    "character": "郁",
+    "keyword": "depressed",
+    "level": null,
+    "filename": "2801_depressed",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "79",
+        "character": "有",
+        "keyword": "possess",
+        "level": "Elementary",
+        "filename": "79_possess",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "13",
+            "character": "月",
+            "keyword": "month",
+            "level": "Elementary",
+            "filename": "13_month",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "𠂇",
+            "keyword": "by one’s side",
+            "level": null,
+            "filename": "primitive_by_one’s_side",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "10",
+                "character": "十",
+                "keyword": "ten",
+                "level": "Elementary",
+                "filename": "10_ten",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "囧阝",
+        "keyword": "city walls",
+        "level": null,
+        "filename": "primitive_city_walls",
+        "id": "G",
+        "requirements": [
+          {
+            "number": null,
+            "character": "阝",
+            "keyword": "pinnacle",
+            "level": null,
+            "filename": "primitive_pinnacle",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

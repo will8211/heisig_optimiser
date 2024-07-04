@@ -1,42 +1,50 @@
 {
-  "number": "1909",
-  "character": "怠",
-  "keyword": "negligent",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": "672",
-      "character": "台",
-      "keyword": "platform",
-      "level": "Advanced",
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "厶",
-          "keyword": "elbow",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "563",
-      "character": "心",
-      "keyword": "heart",
-      "level": "Medium",
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 2064,
+  "hierarchy": {
+    "number": "1909",
+    "character": "怠",
+    "keyword": "negligent",
+    "level": null,
+    "filename": "1909_negligent",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "672",
+        "character": "台",
+        "keyword": "platform",
+        "level": "Advanced",
+        "filename": "672_platform",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "厶",
+            "keyword": "elbow",
+            "level": null,
+            "filename": "primitive_elbow",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "563",
+        "character": "心",
+        "keyword": "heart",
+        "level": "Medium",
+        "filename": "563_heart",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

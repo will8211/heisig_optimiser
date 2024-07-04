@@ -1,52 +1,61 @@
 {
-  "number": "616",
-  "character": "异",
-  "keyword": "different",
-  "level": null,
-  "id": "G",
-  "requirements": [
-    {
-      "number": "519",
-      "character": "已",
-      "keyword": "already",
-      "level": "Medium",
-      "id": "C",
-      "requirements": [
-        {
-          "number": "515",
-          "character": "己",
-          "keyword": "self",
-          "level": "Medium",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "613",
-      "character": "开",
-      "keyword": "open",
-      "level": "Elementary",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "2",
-          "character": "二",
-          "keyword": "two",
-          "level": "Elementary",
-          "id": "E",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 666,
+  "hierarchy": {
+    "number": "616",
+    "character": "异",
+    "keyword": "different",
+    "level": null,
+    "filename": "616_different",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "519",
+        "character": "已",
+        "keyword": "already",
+        "level": "Medium",
+        "filename": "519_already",
+        "id": "C",
+        "requirements": [
+          {
+            "number": "515",
+            "character": "己",
+            "keyword": "self",
+            "level": "Medium",
+            "filename": "515_self",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "613",
+        "character": "开",
+        "keyword": "open",
+        "level": "Elementary",
+        "filename": "613_open",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "2",
+            "character": "二",
+            "keyword": "two",
+            "level": "Elementary",
+            "filename": "2_two",
+            "id": "E",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,67 +1,78 @@
 {
-  "number": "2833",
-  "character": "氨",
-  "keyword": "ammonia",
-  "level": null,
-  "id": "I",
-  "requirements": [
-    {
-      "number": "1404",
-      "character": "气",
-      "keyword": "air",
-      "level": "Elementary",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "𠂉",
-          "keyword": "reclining",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "95",
-          "character": "乙",
-          "keyword": "second",
-          "level": "Medium",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "197",
-      "character": "安",
-      "keyword": "peaceful",
-      "level": "Medium",
-      "id": "H",
-      "requirements": [
-        {
-          "number": "102",
-          "character": "女",
-          "keyword": "woman",
-          "level": "Elementary",
-          "id": "F",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "宀",
-          "keyword": "house",
-          "level": null,
-          "id": "G",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 3027,
+  "hierarchy": {
+    "number": "2833",
+    "character": "氨",
+    "keyword": "ammonia",
+    "level": null,
+    "filename": "2833_ammonia",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "1404",
+        "character": "气",
+        "keyword": "air",
+        "level": "Elementary",
+        "filename": "1404_air",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "𠂉",
+            "keyword": "reclining",
+            "level": null,
+            "filename": "primitive_reclining",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "95",
+            "character": "乙",
+            "keyword": "second",
+            "level": "Medium",
+            "filename": "95_second",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "197",
+        "character": "安",
+        "keyword": "peaceful",
+        "level": "Medium",
+        "filename": "197_peaceful",
+        "id": "H",
+        "requirements": [
+          {
+            "number": "102",
+            "character": "女",
+            "keyword": "woman",
+            "level": "Elementary",
+            "filename": "102_woman",
+            "id": "F",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "宀",
+            "keyword": "house",
+            "level": null,
+            "filename": "primitive_house",
+            "id": "G",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

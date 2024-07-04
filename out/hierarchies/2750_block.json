@@ -1,25 +1,31 @@
 {
-  "number": "2750",
-  "character": "阻",
-  "keyword": "block",
-  "level": null,
-  "id": "D",
-  "requirements": [
-    {
-      "number": null,
-      "character": "阝",
-      "keyword": "pinnacle",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1343",
-      "character": "且",
-      "keyword": "moreover",
-      "level": "Medium",
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 2944,
+  "hierarchy": {
+    "number": "2750",
+    "character": "阻",
+    "keyword": "block",
+    "level": null,
+    "filename": "2750_block",
+    "id": "D",
+    "requirements": [
+      {
+        "number": null,
+        "character": "阝",
+        "keyword": "pinnacle",
+        "level": null,
+        "filename": "primitive_pinnacle",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1343",
+        "character": "且",
+        "keyword": "moreover",
+        "level": "Medium",
+        "filename": "1343_moreover",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

@@ -1,51 +1,60 @@
 {
-  "number": "1812",
-  "character": "怖",
-  "keyword": "be scared of",
-  "level": null,
-  "id": "G",
-  "requirements": [
-    {
-      "number": "563",
-      "character": "心",
-      "keyword": "heart",
-      "level": "Medium",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "414",
-      "character": "布",
-      "keyword": "cloth",
-      "level": "Advanced",
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "𠂇",
-          "keyword": "by one’s side",
-          "level": null,
-          "id": "D",
-          "requirements": [
-            {
-              "number": "10",
-              "character": "十",
-              "keyword": "ten",
-              "level": "Elementary",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "410",
-          "character": "巾",
-          "keyword": "towel",
-          "level": "Advanced",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1962,
+  "hierarchy": {
+    "number": "1812",
+    "character": "怖",
+    "keyword": "be scared of",
+    "level": null,
+    "filename": "1812_be_scared_of",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "563",
+        "character": "心",
+        "keyword": "heart",
+        "level": "Medium",
+        "filename": "563_heart",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "414",
+        "character": "布",
+        "keyword": "cloth",
+        "level": "Advanced",
+        "filename": "414_cloth",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "𠂇",
+            "keyword": "by one’s side",
+            "level": null,
+            "filename": "primitive_by_one’s_side",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "10",
+                "character": "十",
+                "keyword": "ten",
+                "level": "Elementary",
+                "filename": "10_ten",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "410",
+            "character": "巾",
+            "keyword": "towel",
+            "level": "Advanced",
+            "filename": "410_towel",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

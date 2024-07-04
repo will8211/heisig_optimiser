@@ -1,59 +1,69 @@
 {
-  "number": "683",
-  "character": "育",
-  "keyword": "education",
-  "level": "Medium",
-  "id": "H",
-  "requirements": [
-    {
-      "number": null,
-      "character": "囧充－儿",
-      "keyword": "infant",
-      "level": null,
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧会－亼",
-          "keyword": "wall",
-          "level": null,
-          "id": "D",
-          "requirements": [
-            {
-              "number": null,
-              "character": "厶",
-              "keyword": "elbow",
-              "level": null,
-              "id": "B",
-              "requirements": []
-            },
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "13",
-      "character": "月",
-      "keyword": "month",
-      "level": "Elementary",
-      "id": "G",
-      "requirements": []
-    }
-  ]
+  "order": 740,
+  "hierarchy": {
+    "number": "683",
+    "character": "育",
+    "keyword": "education",
+    "level": "Medium",
+    "filename": "683_education",
+    "id": "H",
+    "requirements": [
+      {
+        "number": null,
+        "character": "囧充－儿",
+        "keyword": "infant",
+        "level": null,
+        "filename": "primitive_infant",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧会－亼",
+            "keyword": "wall",
+            "level": null,
+            "filename": "primitive_wall",
+            "id": "D",
+            "requirements": [
+              {
+                "number": null,
+                "character": "厶",
+                "keyword": "elbow",
+                "level": null,
+                "filename": "primitive_elbow",
+                "id": "B",
+                "requirements": []
+              },
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "13",
+        "character": "月",
+        "keyword": "month",
+        "level": "Elementary",
+        "filename": "13_month",
+        "id": "G",
+        "requirements": []
+      }
+    ]
+  }
 }

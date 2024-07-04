@@ -1,25 +1,31 @@
 {
-  "number": "1742",
-  "character": "烛",
-  "keyword": "candle",
-  "level": null,
-  "id": "D",
-  "requirements": [
-    {
-      "number": "170",
-      "character": "火",
-      "keyword": "fire",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "509",
-      "character": "虫",
-      "keyword": "insect",
-      "level": "Medium",
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 1888,
+  "hierarchy": {
+    "number": "1742",
+    "character": "烛",
+    "keyword": "candle",
+    "level": null,
+    "filename": "1742_candle",
+    "id": "D",
+    "requirements": [
+      {
+        "number": "170",
+        "character": "火",
+        "keyword": "fire",
+        "level": "Elementary",
+        "filename": "170_fire",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "509",
+        "character": "虫",
+        "keyword": "insect",
+        "level": "Medium",
+        "filename": "509_insect",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

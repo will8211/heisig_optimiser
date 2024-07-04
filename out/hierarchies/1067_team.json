@@ -1,25 +1,31 @@
 {
-  "number": "1067",
-  "character": "队",
-  "keyword": "team",
-  "level": "Medium",
-  "id": "D",
-  "requirements": [
-    {
-      "number": null,
-      "character": "阝",
-      "keyword": "pinnacle",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "793",
-      "character": "人",
-      "keyword": "person",
-      "level": "Elementary",
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 1148,
+  "hierarchy": {
+    "number": "1067",
+    "character": "队",
+    "keyword": "team",
+    "level": "Medium",
+    "filename": "1067_team",
+    "id": "D",
+    "requirements": [
+      {
+        "number": null,
+        "character": "阝",
+        "keyword": "pinnacle",
+        "level": null,
+        "filename": "primitive_pinnacle",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "793",
+        "character": "人",
+        "keyword": "person",
+        "level": "Elementary",
+        "filename": "793_person",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

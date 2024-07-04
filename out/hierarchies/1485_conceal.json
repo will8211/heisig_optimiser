@@ -1,42 +1,50 @@
 {
-  "number": "1485",
-  "character": "掩",
-  "keyword": "conceal",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": null,
-      "character": "扌",
-      "keyword": "fingers",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "奄",
-      "keyword": "hang glider",
-      "level": null,
-      "id": "E",
-      "requirements": [
-        {
-          "number": "1484",
-          "character": "电",
-          "keyword": "electricity",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "113",
-          "character": "大",
-          "keyword": "large",
-          "level": "Elementary",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1625,
+  "hierarchy": {
+    "number": "1485",
+    "character": "掩",
+    "keyword": "conceal",
+    "level": null,
+    "filename": "1485_conceal",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "primitive_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "奄",
+        "keyword": "hang glider",
+        "level": null,
+        "filename": "primitive_hang_glider",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "1484",
+            "character": "电",
+            "keyword": "electricity",
+            "level": "Elementary",
+            "filename": "1484_electricity",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "113",
+            "character": "大",
+            "keyword": "large",
+            "level": "Elementary",
+            "filename": "113_large",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

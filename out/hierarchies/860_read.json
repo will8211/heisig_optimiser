@@ -1,154 +1,175 @@
 {
-  "number": "860",
-  "character": "读",
-  "keyword": "read",
-  "level": "Medium",
-  "id": "S",
-  "requirements": [
-    {
-      "number": "346",
-      "character": "言",
-      "keyword": "say",
-      "level": "Medium",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "2",
-          "character": "二",
-          "keyword": "two",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "亠",
-          "keyword": "top hat",
-          "level": null,
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "859",
-      "character": "卖",
-      "keyword": "sell",
-      "level": "Medium",
-      "id": "R",
-      "requirements": [
-        {
-          "number": "10",
-          "character": "十",
-          "keyword": "ten",
-          "level": "Elementary",
-          "id": "G",
-          "requirements": []
-        },
-        {
-          "number": "858",
-          "character": "买",
-          "keyword": "buy",
-          "level": "Elementary",
-          "id": "Q",
-          "requirements": [
-            {
-              "number": null,
-              "character": "乛",
-              "keyword": "beret",
-              "level": null,
-              "id": "I",
-              "requirements": [
-                {
-                  "number": null,
-                  "character": "冖",
-                  "keyword": "crown",
-                  "level": null,
-                  "id": "H",
-                  "requirements": []
-                }
-              ]
-            },
-            {
-              "number": "856",
-              "character": "头",
-              "keyword": "head",
-              "level": "Medium",
-              "id": "P",
-              "requirements": [
-                {
-                  "number": "113",
-                  "character": "大",
-                  "keyword": "large",
-                  "level": "Elementary",
-                  "id": "J",
-                  "requirements": []
-                },
-                {
-                  "number": null,
-                  "character": "冫",
-                  "keyword": "ice",
-                  "level": null,
-                  "id": "O",
-                  "requirements": [
-                    {
-                      "number": "137",
-                      "character": "水",
-                      "keyword": "water",
-                      "level": "Elementary",
-                      "id": "N",
-                      "requirements": [
-                        {
-                          "number": null,
-                          "character": "丨",
-                          "keyword": "walking stick",
-                          "level": null,
-                          "id": "L",
-                          "requirements": [
-                            {
-                              "number": "1",
-                              "character": "一",
-                              "keyword": "one",
-                              "level": "Elementary",
-                              "id": "K",
-                              "requirements": []
-                            }
-                          ]
-                        },
-                        {
-                          "number": null,
-                          "character": "丶",
-                          "keyword": "a drop of",
-                          "level": null,
-                          "id": "M",
-                          "requirements": []
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 925,
+  "hierarchy": {
+    "number": "860",
+    "character": "读",
+    "keyword": "read",
+    "level": "Medium",
+    "filename": "860_read",
+    "id": "S",
+    "requirements": [
+      {
+        "number": "346",
+        "character": "言",
+        "keyword": "say",
+        "level": "Medium",
+        "filename": "346_say",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "2",
+            "character": "二",
+            "keyword": "two",
+            "level": "Elementary",
+            "filename": "2_two",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "亠",
+            "keyword": "top hat",
+            "level": null,
+            "filename": "primitive_top_hat",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "859",
+        "character": "卖",
+        "keyword": "sell",
+        "level": "Medium",
+        "filename": "859_sell",
+        "id": "R",
+        "requirements": [
+          {
+            "number": "10",
+            "character": "十",
+            "keyword": "ten",
+            "level": "Elementary",
+            "filename": "10_ten",
+            "id": "G",
+            "requirements": []
+          },
+          {
+            "number": "858",
+            "character": "买",
+            "keyword": "buy",
+            "level": "Elementary",
+            "filename": "858_buy",
+            "id": "Q",
+            "requirements": [
+              {
+                "number": null,
+                "character": "乛",
+                "keyword": "beret",
+                "level": null,
+                "filename": "primitive_beret",
+                "id": "I",
+                "requirements": [
+                  {
+                    "number": null,
+                    "character": "冖",
+                    "keyword": "crown",
+                    "level": null,
+                    "filename": "primitive_crown",
+                    "id": "H",
+                    "requirements": []
+                  }
+                ]
+              },
+              {
+                "number": "856",
+                "character": "头",
+                "keyword": "head",
+                "level": "Medium",
+                "filename": "856_head",
+                "id": "P",
+                "requirements": [
+                  {
+                    "number": "113",
+                    "character": "大",
+                    "keyword": "large",
+                    "level": "Elementary",
+                    "filename": "113_large",
+                    "id": "J",
+                    "requirements": []
+                  },
+                  {
+                    "number": null,
+                    "character": "冫",
+                    "keyword": "ice",
+                    "level": null,
+                    "filename": "primitive_ice",
+                    "id": "O",
+                    "requirements": [
+                      {
+                        "number": "137",
+                        "character": "水",
+                        "keyword": "water",
+                        "level": "Elementary",
+                        "filename": "137_water",
+                        "id": "N",
+                        "requirements": [
+                          {
+                            "number": null,
+                            "character": "丨",
+                            "keyword": "walking stick",
+                            "level": null,
+                            "filename": "primitive_walking_stick",
+                            "id": "L",
+                            "requirements": [
+                              {
+                                "number": "1",
+                                "character": "一",
+                                "keyword": "one",
+                                "level": "Elementary",
+                                "filename": "1_one",
+                                "id": "K",
+                                "requirements": []
+                              }
+                            ]
+                          },
+                          {
+                            "number": null,
+                            "character": "丶",
+                            "keyword": "a drop of",
+                            "level": null,
+                            "filename": "primitive_a_drop_of",
+                            "id": "M",
+                            "requirements": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

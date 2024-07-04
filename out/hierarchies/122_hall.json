@@ -1,17 +1,22 @@
 {
-  "number": "122",
-  "character": "厅",
-  "keyword": "hall",
-  "level": null,
-  "id": "C",
-  "requirements": [
-    {
-      "number": "90",
-      "character": "丁",
-      "keyword": "fourth",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    }
-  ]
+  "order": 130,
+  "hierarchy": {
+    "number": "122",
+    "character": "厅",
+    "keyword": "hall",
+    "level": null,
+    "filename": "122_hall",
+    "id": "C",
+    "requirements": [
+      {
+        "number": "90",
+        "character": "丁",
+        "keyword": "fourth",
+        "level": null,
+        "filename": "90_fourth",
+        "id": "B",
+        "requirements": []
+      }
+    ]
+  }
 }

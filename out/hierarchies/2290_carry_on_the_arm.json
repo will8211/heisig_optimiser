@@ -1,51 +1,60 @@
 {
-  "number": "2290",
-  "character": "挎",
-  "keyword": "carry on the arm",
-  "level": null,
-  "id": "G",
-  "requirements": [
-    {
-      "number": null,
-      "character": "扌",
-      "keyword": "fingers",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "2288",
-      "character": "夸",
-      "keyword": "brag",
-      "level": null,
-      "id": "F",
-      "requirements": [
-        {
-          "number": "113",
-          "character": "大",
-          "keyword": "large",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "2286",
-          "character": "亏",
-          "keyword": "loss",
-          "level": "Advanced",
-          "id": "E",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丂",
-              "keyword": "snare",
-              "level": null,
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2458,
+  "hierarchy": {
+    "number": "2290",
+    "character": "挎",
+    "keyword": "carry on the arm",
+    "level": null,
+    "filename": "2290_carry_on_the_arm",
+    "id": "G",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "primitive_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "2288",
+        "character": "夸",
+        "keyword": "brag",
+        "level": null,
+        "filename": "2288_brag",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "113",
+            "character": "大",
+            "keyword": "large",
+            "level": "Elementary",
+            "filename": "113_large",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "2286",
+            "character": "亏",
+            "keyword": "loss",
+            "level": "Advanced",
+            "filename": "2286_loss",
+            "id": "E",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丂",
+                "keyword": "snare",
+                "level": null,
+                "filename": "primitive_snare",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

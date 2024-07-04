@@ -1,60 +1,70 @@
 {
-  "number": "2490",
-  "character": "盛",
-  "keyword": "flourishing",
-  "level": null,
-  "id": "H",
-  "requirements": [
-    {
-      "number": "368",
-      "character": "成",
-      "keyword": "turn into",
-      "level": "Medium",
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "戊",
-          "keyword": "parade",
-          "level": null,
-          "id": "D",
-          "requirements": [
-            {
-              "number": "361",
-              "character": "戈",
-              "keyword": "halberd",
-              "level": null,
-              "id": "C",
-              "requirements": [
-                {
-                  "number": null,
-                  "character": "弋",
-                  "keyword": "arrow",
-                  "level": null,
-                  "id": "B",
-                  "requirements": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "number": "83",
-          "character": "刀",
-          "keyword": "sword",
-          "level": "Medium",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "皿",
-      "keyword": "dish",
-      "level": null,
-      "id": "G",
-      "requirements": []
-    }
-  ]
+  "order": 2674,
+  "hierarchy": {
+    "number": "2490",
+    "character": "盛",
+    "keyword": "flourishing",
+    "level": null,
+    "filename": "2490_flourishing",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "368",
+        "character": "成",
+        "keyword": "turn into",
+        "level": "Medium",
+        "filename": "368_turn_into",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "戊",
+            "keyword": "parade",
+            "level": null,
+            "filename": "primitive_parade",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "361",
+                "character": "戈",
+                "keyword": "halberd",
+                "level": null,
+                "filename": "361_halberd",
+                "id": "C",
+                "requirements": [
+                  {
+                    "number": null,
+                    "character": "弋",
+                    "keyword": "arrow",
+                    "level": null,
+                    "filename": "primitive_arrow",
+                    "id": "B",
+                    "requirements": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "number": "83",
+            "character": "刀",
+            "keyword": "sword",
+            "level": "Medium",
+            "filename": "83_sword",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "皿",
+        "keyword": "dish",
+        "level": null,
+        "filename": "primitive_dish",
+        "id": "G",
+        "requirements": []
+      }
+    ]
+  }
 }

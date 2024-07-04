@@ -1,59 +1,69 @@
 {
-  "number": "1019",
-  "character": "弹",
-  "keyword": "bullet",
-  "level": null,
-  "id": "H",
-  "requirements": [
-    {
-      "number": "1013",
-      "character": "弓",
-      "keyword": "bow",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1018",
-      "character": "单",
-      "keyword": "list",
-      "level": "Medium",
-      "id": "G",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丷",
-          "keyword": "horns",
-          "level": null,
-          "id": "D",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "14",
-          "character": "田",
-          "keyword": "rice field",
-          "level": "Medium",
-          "id": "E",
-          "requirements": []
-        },
-        {
-          "number": "10",
-          "character": "十",
-          "keyword": "ten",
-          "level": "Elementary",
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1094,
+  "hierarchy": {
+    "number": "1019",
+    "character": "弹",
+    "keyword": "bullet",
+    "level": null,
+    "filename": "1019_bullet",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "1013",
+        "character": "弓",
+        "keyword": "bow",
+        "level": null,
+        "filename": "1013_bow",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1018",
+        "character": "单",
+        "keyword": "list",
+        "level": "Medium",
+        "filename": "1018_list",
+        "id": "G",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丷",
+            "keyword": "horns",
+            "level": null,
+            "filename": "primitive_horns",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "14",
+            "character": "田",
+            "keyword": "rice field",
+            "level": "Medium",
+            "filename": "14_rice_field",
+            "id": "E",
+            "requirements": []
+          },
+          {
+            "number": "10",
+            "character": "十",
+            "keyword": "ten",
+            "level": "Elementary",
+            "filename": "10_ten",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,25 +1,31 @@
 {
-  "number": "160",
-  "character": "肚",
-  "keyword": "belly",
-  "level": "Advanced",
-  "id": "D",
-  "requirements": [
-    {
-      "number": "13",
-      "character": "月",
-      "keyword": "month",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "158",
-      "character": "土",
-      "keyword": "soil",
-      "level": "Medium",
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 168,
+  "hierarchy": {
+    "number": "160",
+    "character": "肚",
+    "keyword": "belly",
+    "level": "Advanced",
+    "filename": "160_belly",
+    "id": "D",
+    "requirements": [
+      {
+        "number": "13",
+        "character": "月",
+        "keyword": "month",
+        "level": "Elementary",
+        "filename": "13_month",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "158",
+        "character": "土",
+        "keyword": "soil",
+        "level": "Medium",
+        "filename": "158_soil",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

@@ -1,33 +1,40 @@
 {
-  "number": "1379",
-  "character": "甫",
-  "keyword": "Fu",
-  "level": null,
-  "id": "E",
-  "requirements": [
-    {
-      "number": "10",
-      "character": "十",
-      "keyword": "ten",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "13",
-      "character": "月",
-      "keyword": "month",
-      "level": "Elementary",
-      "id": "C",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "丶",
-      "keyword": "a drop of",
-      "level": null,
-      "id": "D",
-      "requirements": []
-    }
-  ]
+  "order": 1501,
+  "hierarchy": {
+    "number": "1379",
+    "character": "甫",
+    "keyword": "Fu",
+    "level": null,
+    "filename": "1379_Fu",
+    "id": "E",
+    "requirements": [
+      {
+        "number": "10",
+        "character": "十",
+        "keyword": "ten",
+        "level": "Elementary",
+        "filename": "10_ten",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "13",
+        "character": "月",
+        "keyword": "month",
+        "level": "Elementary",
+        "filename": "13_month",
+        "id": "C",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "丶",
+        "keyword": "a drop of",
+        "level": null,
+        "filename": "primitive_a_drop_of",
+        "id": "D",
+        "requirements": []
+      }
+    ]
+  }
 }

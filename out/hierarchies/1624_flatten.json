@@ -1,25 +1,31 @@
 {
-  "number": "1624",
-  "character": "轧",
-  "keyword": "flatten",
-  "level": null,
-  "id": "D",
-  "requirements": [
-    {
-      "number": "300",
-      "character": "车",
-      "keyword": "car",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "95",
-      "character": "乙",
-      "keyword": "second",
-      "level": "Medium",
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 1764,
+  "hierarchy": {
+    "number": "1624",
+    "character": "轧",
+    "keyword": "flatten",
+    "level": null,
+    "filename": "1624_flatten",
+    "id": "D",
+    "requirements": [
+      {
+        "number": "300",
+        "character": "车",
+        "keyword": "car",
+        "level": "Elementary",
+        "filename": "300_car",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "95",
+        "character": "乙",
+        "keyword": "second",
+        "level": "Medium",
+        "filename": "95_second",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

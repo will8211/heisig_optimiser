@@ -1,42 +1,50 @@
 {
-  "number": "424",
-  "character": "制",
-  "keyword": "system",
-  "level": "Advanced",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "252",
-      "character": "牛",
-      "keyword": "cow",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "83",
-      "character": "刀",
-      "keyword": "sword",
-      "level": "Medium",
-      "id": "C",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "囧冂",
-      "keyword": "belt",
-      "level": null,
-      "id": "E",
-      "requirements": [
-        {
-          "number": "410",
-          "character": "巾",
-          "keyword": "towel",
-          "level": "Advanced",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 463,
+  "hierarchy": {
+    "number": "424",
+    "character": "制",
+    "keyword": "system",
+    "level": "Advanced",
+    "filename": "424_system",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "252",
+        "character": "牛",
+        "keyword": "cow",
+        "level": "Elementary",
+        "filename": "252_cow",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "83",
+        "character": "刀",
+        "keyword": "sword",
+        "level": "Medium",
+        "filename": "83_sword",
+        "id": "C",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "囧冂",
+        "keyword": "belt",
+        "level": null,
+        "filename": "primitive_belt",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "410",
+            "character": "巾",
+            "keyword": "towel",
+            "level": "Advanced",
+            "filename": "410_towel",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

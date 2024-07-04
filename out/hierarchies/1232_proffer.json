@@ -1,43 +1,51 @@
 {
-  "number": "1232",
-  "character": "奉",
-  "keyword": "proffer",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": null,
-      "character": "𡗗",
-      "keyword": "bonsai",
-      "level": null,
-      "id": "C",
-      "requirements": [
-        {
-          "number": "1223",
-          "character": "丰",
-          "keyword": "plentiful",
-          "level": "Advanced",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "囧奉－𡗗",
-      "keyword": "cornstalk",
-      "level": null,
-      "id": "E",
-      "requirements": [
-        {
-          "number": "1223",
-          "character": "丰",
-          "keyword": "plentiful",
-          "level": "Advanced",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1338,
+  "hierarchy": {
+    "number": "1232",
+    "character": "奉",
+    "keyword": "proffer",
+    "level": null,
+    "filename": "1232_proffer",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "𡗗",
+        "keyword": "bonsai",
+        "level": null,
+        "filename": "primitive_bonsai",
+        "id": "C",
+        "requirements": [
+          {
+            "number": "1223",
+            "character": "丰",
+            "keyword": "plentiful",
+            "level": "Advanced",
+            "filename": "1223_plentiful",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "囧奉－𡗗",
+        "keyword": "cornstalk",
+        "level": null,
+        "filename": "primitive_cornstalk",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "1223",
+            "character": "丰",
+            "keyword": "plentiful",
+            "level": "Advanced",
+            "filename": "1223_plentiful",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

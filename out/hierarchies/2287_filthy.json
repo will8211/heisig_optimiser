@@ -1,60 +1,70 @@
 {
-  "number": "2287",
-  "character": "污",
-  "keyword": "filthy",
-  "level": null,
-  "id": "H",
-  "requirements": [
-    {
-      "number": "137",
-      "character": "水",
-      "keyword": "water",
-      "level": "Elementary",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丨",
-          "keyword": "walking stick",
-          "level": null,
-          "id": "C",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "2286",
-      "character": "亏",
-      "keyword": "loss",
-      "level": "Advanced",
-      "id": "G",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丂",
-          "keyword": "snare",
-          "level": null,
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2455,
+  "hierarchy": {
+    "number": "2287",
+    "character": "污",
+    "keyword": "filthy",
+    "level": null,
+    "filename": "2287_filthy",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "137",
+        "character": "水",
+        "keyword": "water",
+        "level": "Elementary",
+        "filename": "137_water",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丨",
+            "keyword": "walking stick",
+            "level": null,
+            "filename": "primitive_walking_stick",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "2286",
+        "character": "亏",
+        "keyword": "loss",
+        "level": "Advanced",
+        "filename": "2286_loss",
+        "id": "G",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丂",
+            "keyword": "snare",
+            "level": null,
+            "filename": "primitive_snare",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

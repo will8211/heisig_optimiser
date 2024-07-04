@@ -1,34 +1,41 @@
 {
-  "number": "728",
-  "character": "替",
-  "keyword": "replace",
-  "level": null,
-  "id": "E",
-  "requirements": [
-    {
-      "number": "726",
-      "character": "夫",
-      "keyword": "husband",
-      "level": "Medium",
-      "id": "C",
-      "requirements": [
-        {
-          "number": "113",
-          "character": "大",
-          "keyword": "large",
-          "level": "Elementary",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "12",
-      "character": "日",
-      "keyword": "day",
-      "level": "Elementary",
-      "id": "D",
-      "requirements": []
-    }
-  ]
+  "order": 788,
+  "hierarchy": {
+    "number": "728",
+    "character": "替",
+    "keyword": "replace",
+    "level": null,
+    "filename": "728_replace",
+    "id": "E",
+    "requirements": [
+      {
+        "number": "726",
+        "character": "夫",
+        "keyword": "husband",
+        "level": "Medium",
+        "filename": "726_husband",
+        "id": "C",
+        "requirements": [
+          {
+            "number": "113",
+            "character": "大",
+            "keyword": "large",
+            "level": "Elementary",
+            "filename": "113_large",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "12",
+        "character": "日",
+        "keyword": "day",
+        "level": "Elementary",
+        "filename": "12_day",
+        "id": "D",
+        "requirements": []
+      }
+    ]
+  }
 }

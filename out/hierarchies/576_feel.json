@@ -1,77 +1,89 @@
 {
-  "number": "576",
-  "character": "感",
-  "keyword": "feel",
-  "level": "Medium",
-  "id": "J",
-  "requirements": [
-    {
-      "number": "372",
-      "character": "咸",
-      "keyword": "salty",
-      "level": null,
-      "id": "H",
-      "requirements": [
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "戌",
-          "keyword": "march",
-          "level": null,
-          "id": "G",
-          "requirements": [
-            {
-              "number": null,
-              "character": "戊",
-              "keyword": "parade",
-              "level": null,
-              "id": "E",
-              "requirements": [
-                {
-                  "number": "361",
-                  "character": "戈",
-                  "keyword": "halberd",
-                  "level": null,
-                  "id": "D",
-                  "requirements": [
-                    {
-                      "number": null,
-                      "character": "弋",
-                      "keyword": "arrow",
-                      "level": null,
-                      "id": "C",
-                      "requirements": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "id": "F",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": "563",
-      "character": "心",
-      "keyword": "heart",
-      "level": "Medium",
-      "id": "I",
-      "requirements": []
-    }
-  ]
+  "order": 625,
+  "hierarchy": {
+    "number": "576",
+    "character": "感",
+    "keyword": "feel",
+    "level": "Medium",
+    "filename": "576_feel",
+    "id": "J",
+    "requirements": [
+      {
+        "number": "372",
+        "character": "咸",
+        "keyword": "salty",
+        "level": null,
+        "filename": "372_salty",
+        "id": "H",
+        "requirements": [
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "戌",
+            "keyword": "march",
+            "level": null,
+            "filename": "primitive_march",
+            "id": "G",
+            "requirements": [
+              {
+                "number": null,
+                "character": "戊",
+                "keyword": "parade",
+                "level": null,
+                "filename": "primitive_parade",
+                "id": "E",
+                "requirements": [
+                  {
+                    "number": "361",
+                    "character": "戈",
+                    "keyword": "halberd",
+                    "level": null,
+                    "filename": "361_halberd",
+                    "id": "D",
+                    "requirements": [
+                      {
+                        "number": null,
+                        "character": "弋",
+                        "keyword": "arrow",
+                        "level": null,
+                        "filename": "primitive_arrow",
+                        "id": "C",
+                        "requirements": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "F",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": "563",
+        "character": "心",
+        "keyword": "heart",
+        "level": "Medium",
+        "filename": "563_heart",
+        "id": "I",
+        "requirements": []
+      }
+    ]
+  }
 }

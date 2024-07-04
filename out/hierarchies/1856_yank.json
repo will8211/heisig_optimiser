@@ -1,25 +1,31 @@
 {
-  "number": "1856",
-  "character": "扯",
-  "keyword": "yank",
-  "level": null,
-  "id": "D",
-  "requirements": [
-    {
-      "number": null,
-      "character": "扌",
-      "keyword": "fingers",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "379",
-      "character": "止",
-      "keyword": "stop",
-      "level": "Medium",
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 2007,
+  "hierarchy": {
+    "number": "1856",
+    "character": "扯",
+    "keyword": "yank",
+    "level": null,
+    "filename": "1856_yank",
+    "id": "D",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "primitive_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "379",
+        "character": "止",
+        "keyword": "stop",
+        "level": "Medium",
+        "filename": "379_stop",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

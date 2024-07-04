@@ -1,25 +1,31 @@
 {
-  "number": "2028",
-  "character": "眯",
-  "keyword": "squint",
-  "level": null,
-  "id": "D",
-  "requirements": [
-    {
-      "number": "15",
-      "character": "目",
-      "keyword": "eye",
-      "level": "Medium",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "778",
-      "character": "米",
-      "keyword": "rice",
-      "level": "Medium",
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 2187,
+  "hierarchy": {
+    "number": "2028",
+    "character": "眯",
+    "keyword": "squint",
+    "level": null,
+    "filename": "2028_squint",
+    "id": "D",
+    "requirements": [
+      {
+        "number": "15",
+        "character": "目",
+        "keyword": "eye",
+        "level": "Medium",
+        "filename": "15_eye",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "778",
+        "character": "米",
+        "keyword": "rice",
+        "level": "Medium",
+        "filename": "778_rice",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

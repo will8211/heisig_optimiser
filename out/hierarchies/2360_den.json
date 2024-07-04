@@ -1,76 +1,88 @@
 {
-  "number": "2360",
-  "character": "窟",
-  "keyword": "den",
-  "level": null,
-  "id": "J",
-  "requirements": [
-    {
-      "number": "1070",
-      "character": "穴",
-      "keyword": "hole",
-      "level": null,
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "宀",
-          "keyword": "house",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "8",
-          "character": "八",
-          "keyword": "eight",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "囧只－口",
-          "keyword": "animal legs",
-          "level": null,
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "2143",
-      "character": "屈",
-      "keyword": "knuckle under",
-      "level": null,
-      "id": "I",
-      "requirements": [
-        {
-          "number": "882",
-          "character": "尸",
-          "keyword": "corpse",
-          "level": null,
-          "id": "F",
-          "requirements": []
-        },
-        {
-          "number": "689",
-          "character": "出",
-          "keyword": "exit",
-          "level": "Elementary",
-          "id": "H",
-          "requirements": [
-            {
-              "number": "688",
-              "character": "山",
-              "keyword": "mountain",
-              "level": "Elementary",
-              "id": "G",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2531,
+  "hierarchy": {
+    "number": "2360",
+    "character": "窟",
+    "keyword": "den",
+    "level": null,
+    "filename": "2360_den",
+    "id": "J",
+    "requirements": [
+      {
+        "number": "1070",
+        "character": "穴",
+        "keyword": "hole",
+        "level": null,
+        "filename": "1070_hole",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "宀",
+            "keyword": "house",
+            "level": null,
+            "filename": "primitive_house",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "8",
+            "character": "八",
+            "keyword": "eight",
+            "level": "Elementary",
+            "filename": "8_eight",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "囧只－口",
+            "keyword": "animal legs",
+            "level": null,
+            "filename": "primitive_animal_legs",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "2143",
+        "character": "屈",
+        "keyword": "knuckle under",
+        "level": null,
+        "filename": "2143_knuckle_under",
+        "id": "I",
+        "requirements": [
+          {
+            "number": "882",
+            "character": "尸",
+            "keyword": "corpse",
+            "level": null,
+            "filename": "882_corpse",
+            "id": "F",
+            "requirements": []
+          },
+          {
+            "number": "689",
+            "character": "出",
+            "keyword": "exit",
+            "level": "Elementary",
+            "filename": "689_exit",
+            "id": "H",
+            "requirements": [
+              {
+                "number": "688",
+                "character": "山",
+                "keyword": "mountain",
+                "level": "Elementary",
+                "filename": "688_mountain",
+                "id": "G",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

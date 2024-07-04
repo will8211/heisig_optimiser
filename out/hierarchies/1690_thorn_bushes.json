@@ -1,43 +1,51 @@
 {
-  "number": "1690",
-  "character": "棘",
-  "keyword": "thorn bushes",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": null,
-      "character": "朿",
-      "keyword": "thorn",
-      "level": null,
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧冂",
-          "keyword": "belt",
-          "level": null,
-          "id": "C",
-          "requirements": [
-            {
-              "number": "410",
-              "character": "巾",
-              "keyword": "towel",
-              "level": "Advanced",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "202",
-          "character": "木",
-          "keyword": "tree",
-          "level": "Elementary",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1835,
+  "hierarchy": {
+    "number": "1690",
+    "character": "棘",
+    "keyword": "thorn bushes",
+    "level": null,
+    "filename": "1690_thorn_bushes",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "朿",
+        "keyword": "thorn",
+        "level": null,
+        "filename": "primitive_thorn",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧冂",
+            "keyword": "belt",
+            "level": null,
+            "filename": "primitive_belt",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "410",
+                "character": "巾",
+                "keyword": "towel",
+                "level": "Advanced",
+                "filename": "410_towel",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "202",
+            "character": "木",
+            "keyword": "tree",
+            "level": "Elementary",
+            "filename": "202_tree",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

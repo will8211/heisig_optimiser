@@ -1,59 +1,69 @@
 {
-  "number": "493",
-  "character": "望",
-  "keyword": "expect",
-  "level": "Medium",
-  "id": "H",
-  "requirements": [
-    {
-      "number": "265",
-      "character": "王",
-      "keyword": "king",
-      "level": "Medium",
-      "id": "C",
-      "requirements": [
-        {
-          "number": "76",
-          "character": "工",
-          "keyword": "work",
-          "level": "Elementary",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "490",
-      "character": "亡",
-      "keyword": "deceased",
-      "level": "Advanced",
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "亠",
-          "keyword": "top hat",
-          "level": null,
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": "95",
-          "character": "乙",
-          "keyword": "second",
-          "level": "Medium",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "13",
-      "character": "月",
-      "keyword": "month",
-      "level": "Elementary",
-      "id": "G",
-      "requirements": []
-    }
-  ]
+  "order": 537,
+  "hierarchy": {
+    "number": "493",
+    "character": "望",
+    "keyword": "expect",
+    "level": "Medium",
+    "filename": "493_expect",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "265",
+        "character": "王",
+        "keyword": "king",
+        "level": "Medium",
+        "filename": "265_king",
+        "id": "C",
+        "requirements": [
+          {
+            "number": "76",
+            "character": "工",
+            "keyword": "work",
+            "level": "Elementary",
+            "filename": "76_work",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "490",
+        "character": "亡",
+        "keyword": "deceased",
+        "level": "Advanced",
+        "filename": "490_deceased",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "亠",
+            "keyword": "top hat",
+            "level": null,
+            "filename": "primitive_top_hat",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": "95",
+            "character": "乙",
+            "keyword": "second",
+            "level": "Medium",
+            "filename": "95_second",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "13",
+        "character": "月",
+        "keyword": "month",
+        "level": "Elementary",
+        "filename": "13_month",
+        "id": "G",
+        "requirements": []
+      }
+    ]
+  }
 }

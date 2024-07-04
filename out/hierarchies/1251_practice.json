@@ -1,51 +1,60 @@
 {
-  "number": "1251",
-  "character": "练",
-  "keyword": "practice",
-  "level": "Medium",
-  "id": "G",
-  "requirements": [
-    {
-      "number": null,
-      "character": "纟",
-      "keyword": "thread",
-      "level": null,
-      "id": "C",
-      "requirements": [
-        {
-          "number": null,
-          "character": "厶",
-          "keyword": "elbow",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "1247",
-      "character": "东",
-      "keyword": "east",
-      "level": "Elementary",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "300",
-          "character": "车",
-          "keyword": "car",
-          "level": "Elementary",
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1359,
+  "hierarchy": {
+    "number": "1251",
+    "character": "练",
+    "keyword": "practice",
+    "level": "Medium",
+    "filename": "1251_practice",
+    "id": "G",
+    "requirements": [
+      {
+        "number": null,
+        "character": "纟",
+        "keyword": "thread",
+        "level": null,
+        "filename": "primitive_thread",
+        "id": "C",
+        "requirements": [
+          {
+            "number": null,
+            "character": "厶",
+            "keyword": "elbow",
+            "level": null,
+            "filename": "primitive_elbow",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "1247",
+        "character": "东",
+        "keyword": "east",
+        "level": "Elementary",
+        "filename": "1247_east",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "300",
+            "character": "车",
+            "keyword": "car",
+            "level": "Elementary",
+            "filename": "300_car",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

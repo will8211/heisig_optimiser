@@ -1,50 +1,59 @@
 {
-  "number": "2653",
-  "character": "嗽",
-  "keyword": "hack",
-  "level": null,
-  "id": "G",
-  "requirements": [
-    {
-      "number": "11",
-      "character": "口",
-      "keyword": "mouth",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1286",
-      "character": "束",
-      "keyword": "bundle up",
-      "level": "Advanced",
-      "id": "E",
-      "requirements": [
-        {
-          "number": "202",
-          "character": "木",
-          "keyword": "tree",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "474",
-      "character": "欠",
-      "keyword": "lack",
-      "level": "Medium",
-      "id": "F",
-      "requirements": []
-    }
-  ]
+  "order": 2842,
+  "hierarchy": {
+    "number": "2653",
+    "character": "嗽",
+    "keyword": "hack",
+    "level": null,
+    "filename": "2653_hack",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "11",
+        "character": "口",
+        "keyword": "mouth",
+        "level": "Elementary",
+        "filename": "11_mouth",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1286",
+        "character": "束",
+        "keyword": "bundle up",
+        "level": "Advanced",
+        "filename": "1286_bundle_up",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "202",
+            "character": "木",
+            "keyword": "tree",
+            "level": "Elementary",
+            "filename": "202_tree",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "474",
+        "character": "欠",
+        "keyword": "lack",
+        "level": "Medium",
+        "filename": "474_lack",
+        "id": "F",
+        "requirements": []
+      }
+    ]
+  }
 }

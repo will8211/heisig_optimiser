@@ -1,25 +1,31 @@
 {
-  "number": "2283",
-  "character": "朽",
-  "keyword": "decayed",
-  "level": null,
-  "id": "D",
-  "requirements": [
-    {
-      "number": "202",
-      "character": "木",
-      "keyword": "tree",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "丂",
-      "keyword": "snare",
-      "level": null,
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 2451,
+  "hierarchy": {
+    "number": "2283",
+    "character": "朽",
+    "keyword": "decayed",
+    "level": null,
+    "filename": "2283_decayed",
+    "id": "D",
+    "requirements": [
+      {
+        "number": "202",
+        "character": "木",
+        "keyword": "tree",
+        "level": "Elementary",
+        "filename": "202_tree",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "丂",
+        "keyword": "snare",
+        "level": null,
+        "filename": "primitive_snare",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

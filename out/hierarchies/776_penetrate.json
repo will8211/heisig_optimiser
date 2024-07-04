@@ -1,42 +1,50 @@
 {
-  "number": "776",
-  "character": "透",
-  "keyword": "penetrate",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": "775",
-      "character": "秀",
-      "keyword": "elegant",
-      "level": "Advanced",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "762",
-          "character": "禾",
-          "keyword": "standing grain",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "625",
-          "character": "乃",
-          "keyword": "only then",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "辶",
-      "keyword": "road",
-      "level": null,
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 837,
+  "hierarchy": {
+    "number": "776",
+    "character": "透",
+    "keyword": "penetrate",
+    "level": null,
+    "filename": "776_penetrate",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "775",
+        "character": "秀",
+        "keyword": "elegant",
+        "level": "Advanced",
+        "filename": "775_elegant",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "762",
+            "character": "禾",
+            "keyword": "standing grain",
+            "level": null,
+            "filename": "762_standing_grain",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "625",
+            "character": "乃",
+            "keyword": "only then",
+            "level": null,
+            "filename": "625_only_then",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "辶",
+        "keyword": "road",
+        "level": null,
+        "filename": "primitive_road",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

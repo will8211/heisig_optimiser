@@ -1,25 +1,31 @@
 {
-  "number": "4",
-  "character": "四",
-  "keyword": "four",
-  "level": "Elementary",
-  "id": "D",
-  "requirements": [
-    {
-      "number": "11",
-      "character": "口",
-      "keyword": "mouth",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "56",
-      "character": "儿",
-      "keyword": "youngster",
-      "level": "Elementary",
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 3,
+  "hierarchy": {
+    "number": "4",
+    "character": "四",
+    "keyword": "four",
+    "level": "Elementary",
+    "filename": "4_four",
+    "id": "D",
+    "requirements": [
+      {
+        "number": "11",
+        "character": "口",
+        "keyword": "mouth",
+        "level": "Elementary",
+        "filename": "11_mouth",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "56",
+        "character": "儿",
+        "keyword": "youngster",
+        "level": "Elementary",
+        "filename": "56_youngster",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

@@ -1,60 +1,70 @@
 {
-  "number": "1747",
-  "character": "袍",
-  "keyword": "robe",
-  "level": null,
-  "id": "H",
-  "requirements": [
-    {
-      "number": "400",
-      "character": "衣",
-      "keyword": "clothing",
-      "level": "Elementary",
-      "id": "C",
-      "requirements": [
-        {
-          "number": null,
-          "character": "亠",
-          "keyword": "top hat",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "520",
-      "character": "包",
-      "keyword": "wrap",
-      "level": "Elementary",
-      "id": "G",
-      "requirements": [
-        {
-          "number": null,
-          "character": "勹",
-          "keyword": "bound up",
-          "level": null,
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": "519",
-          "character": "已",
-          "keyword": "already",
-          "level": "Medium",
-          "id": "F",
-          "requirements": [
-            {
-              "number": "515",
-              "character": "己",
-              "keyword": "self",
-              "level": "Medium",
-              "id": "E",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 1893,
+  "hierarchy": {
+    "number": "1747",
+    "character": "袍",
+    "keyword": "robe",
+    "level": null,
+    "filename": "1747_robe",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "400",
+        "character": "衣",
+        "keyword": "clothing",
+        "level": "Elementary",
+        "filename": "400_clothing",
+        "id": "C",
+        "requirements": [
+          {
+            "number": null,
+            "character": "亠",
+            "keyword": "top hat",
+            "level": null,
+            "filename": "primitive_top_hat",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "520",
+        "character": "包",
+        "keyword": "wrap",
+        "level": "Elementary",
+        "filename": "520_wrap",
+        "id": "G",
+        "requirements": [
+          {
+            "number": null,
+            "character": "勹",
+            "keyword": "bound up",
+            "level": null,
+            "filename": "primitive_bound_up",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": "519",
+            "character": "已",
+            "keyword": "already",
+            "level": "Medium",
+            "filename": "519_already",
+            "id": "F",
+            "requirements": [
+              {
+                "number": "515",
+                "character": "己",
+                "keyword": "self",
+                "level": "Medium",
+                "filename": "515_self",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

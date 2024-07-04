@@ -1,42 +1,50 @@
 {
-  "number": "770",
-  "character": "揪",
-  "keyword": "hold tight",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": null,
-      "character": "扌",
-      "keyword": "fingers",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "768",
-      "character": "秋",
-      "keyword": "autumn",
-      "level": "Medium",
-      "id": "E",
-      "requirements": [
-        {
-          "number": "762",
-          "character": "禾",
-          "keyword": "standing grain",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "170",
-          "character": "火",
-          "keyword": "fire",
-          "level": "Elementary",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 831,
+  "hierarchy": {
+    "number": "770",
+    "character": "揪",
+    "keyword": "hold tight",
+    "level": null,
+    "filename": "770_hold_tight",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "primitive_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "768",
+        "character": "秋",
+        "keyword": "autumn",
+        "level": "Medium",
+        "filename": "768_autumn",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "762",
+            "character": "禾",
+            "keyword": "standing grain",
+            "level": null,
+            "filename": "762_standing_grain",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "170",
+            "character": "火",
+            "keyword": "fire",
+            "level": "Elementary",
+            "filename": "170_fire",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

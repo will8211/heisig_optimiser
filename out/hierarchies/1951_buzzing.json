@@ -1,59 +1,69 @@
 {
-  "number": "1951",
-  "character": "嗡",
-  "keyword": "buzzing",
-  "level": null,
-  "id": "H",
-  "requirements": [
-    {
-      "number": "11",
-      "character": "口",
-      "keyword": "mouth",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1950",
-      "character": "翁",
-      "keyword": "elderly man",
-      "level": null,
-      "id": "G",
-      "requirements": [
-        {
-          "number": "696",
-          "character": "公",
-          "keyword": "public",
-          "level": "Medium",
-          "id": "E",
-          "requirements": [
-            {
-              "number": "8",
-              "character": "八",
-              "keyword": "eight",
-              "level": "Elementary",
-              "id": "C",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "厶",
-              "keyword": "elbow",
-              "level": null,
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "544",
-          "character": "羽",
-          "keyword": "feathers",
-          "level": null,
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2107,
+  "hierarchy": {
+    "number": "1951",
+    "character": "嗡",
+    "keyword": "buzzing",
+    "level": null,
+    "filename": "1951_buzzing",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "11",
+        "character": "口",
+        "keyword": "mouth",
+        "level": "Elementary",
+        "filename": "11_mouth",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1950",
+        "character": "翁",
+        "keyword": "elderly man",
+        "level": null,
+        "filename": "1950_elderly_man",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "696",
+            "character": "公",
+            "keyword": "public",
+            "level": "Medium",
+            "filename": "696_public",
+            "id": "E",
+            "requirements": [
+              {
+                "number": "8",
+                "character": "八",
+                "keyword": "eight",
+                "level": "Elementary",
+                "filename": "8_eight",
+                "id": "C",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "厶",
+                "keyword": "elbow",
+                "level": null,
+                "filename": "primitive_elbow",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "544",
+            "character": "羽",
+            "keyword": "feathers",
+            "level": null,
+            "filename": "544_feathers",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

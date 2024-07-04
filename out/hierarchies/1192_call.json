@@ -1,25 +1,31 @@
 {
-  "number": "1192",
-  "character": "叫",
-  "keyword": "call",
-  "level": "Elementary",
-  "id": "D",
-  "requirements": [
-    {
-      "number": "11",
-      "character": "口",
-      "keyword": "mouth",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "丩",
-      "keyword": "cornucopia",
-      "level": null,
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 1293,
+  "hierarchy": {
+    "number": "1192",
+    "character": "叫",
+    "keyword": "call",
+    "level": "Elementary",
+    "filename": "1192_call",
+    "id": "D",
+    "requirements": [
+      {
+        "number": "11",
+        "character": "口",
+        "keyword": "mouth",
+        "level": "Elementary",
+        "filename": "11_mouth",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "丩",
+        "keyword": "cornucopia",
+        "level": null,
+        "filename": "primitive_cornucopia",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

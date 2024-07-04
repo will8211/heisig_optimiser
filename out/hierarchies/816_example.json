@@ -1,42 +1,50 @@
 {
-  "number": "816",
-  "character": "例",
-  "keyword": "example",
-  "level": "Medium",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "793",
-      "character": "人",
-      "keyword": "person",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "713",
-      "character": "列",
-      "keyword": "line up",
-      "level": null,
-      "id": "E",
-      "requirements": [
-        {
-          "number": "712",
-          "character": "歹",
-          "keyword": "malicious",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "83",
-          "character": "刀",
-          "keyword": "sword",
-          "level": "Medium",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 878,
+  "hierarchy": {
+    "number": "816",
+    "character": "例",
+    "keyword": "example",
+    "level": "Medium",
+    "filename": "816_example",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "793",
+        "character": "人",
+        "keyword": "person",
+        "level": "Elementary",
+        "filename": "793_person",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "713",
+        "character": "列",
+        "keyword": "line up",
+        "level": null,
+        "filename": "713_line_up",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "712",
+            "character": "歹",
+            "keyword": "malicious",
+            "level": null,
+            "filename": "712_malicious",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "83",
+            "character": "刀",
+            "keyword": "sword",
+            "level": "Medium",
+            "filename": "83_sword",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

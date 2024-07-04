@@ -1,42 +1,50 @@
 {
-  "number": "1154",
-  "character": "食",
-  "keyword": "food",
-  "level": "Medium",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "1151",
-      "character": "良",
-      "keyword": "high-quality",
-      "level": "Advanced",
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "艮",
-          "keyword": "silver",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "𠆢",
-      "keyword": "umbrella",
-      "level": null,
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 1250,
+  "hierarchy": {
+    "number": "1154",
+    "character": "食",
+    "keyword": "food",
+    "level": "Medium",
+    "filename": "1154_food",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "1151",
+        "character": "良",
+        "keyword": "high-quality",
+        "level": "Advanced",
+        "filename": "1151_high-quality",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "艮",
+            "keyword": "silver",
+            "level": null,
+            "filename": "primitive_silver",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "𠆢",
+        "keyword": "umbrella",
+        "level": null,
+        "filename": "primitive_umbrella",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

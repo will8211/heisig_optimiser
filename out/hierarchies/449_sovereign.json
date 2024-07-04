@@ -1,42 +1,50 @@
 {
-  "number": "449",
-  "character": "帝",
-  "keyword": "sovereign",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": "444",
-      "character": "立",
-      "keyword": "standing up",
-      "level": "Advanced",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "囧冖＋巾",
-      "keyword": "apron",
-      "level": null,
-      "id": "E",
-      "requirements": [
-        {
-          "number": "410",
-          "character": "巾",
-          "keyword": "towel",
-          "level": "Advanced",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "冖",
-          "keyword": "crown",
-          "level": null,
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 489,
+  "hierarchy": {
+    "number": "449",
+    "character": "帝",
+    "keyword": "sovereign",
+    "level": null,
+    "filename": "449_sovereign",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "444",
+        "character": "立",
+        "keyword": "standing up",
+        "level": "Advanced",
+        "filename": "444_standing_up",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "囧冖＋巾",
+        "keyword": "apron",
+        "level": null,
+        "filename": "primitive_apron",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "410",
+            "character": "巾",
+            "keyword": "towel",
+            "level": "Advanced",
+            "filename": "410_towel",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "冖",
+            "keyword": "crown",
+            "level": null,
+            "filename": "primitive_crown",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

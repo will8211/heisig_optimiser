@@ -1,25 +1,31 @@
 {
-  "number": "1827",
-  "character": "扒",
-  "keyword": "pick pockets",
-  "level": null,
-  "id": "D",
-  "requirements": [
-    {
-      "number": null,
-      "character": "扌",
-      "keyword": "fingers",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "8",
-      "character": "八",
-      "keyword": "eight",
-      "level": "Elementary",
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 1978,
+  "hierarchy": {
+    "number": "1827",
+    "character": "扒",
+    "keyword": "pick pockets",
+    "level": null,
+    "filename": "1827_pick_pockets",
+    "id": "D",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "primitive_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "8",
+        "character": "八",
+        "keyword": "eight",
+        "level": "Elementary",
+        "filename": "8_eight",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

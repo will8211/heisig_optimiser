@@ -1,42 +1,50 @@
 {
-  "number": "641",
-  "character": "怪",
-  "keyword": "peculiar",
-  "level": "Advanced",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "563",
-      "character": "心",
-      "keyword": "heart",
-      "level": "Medium",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "634",
-      "character": "圣",
-      "keyword": "holy",
-      "level": "Advanced",
-      "id": "E",
-      "requirements": [
-        {
-          "number": "633",
-          "character": "又",
-          "keyword": "again",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "158",
-          "character": "土",
-          "keyword": "soil",
-          "level": "Medium",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 692,
+  "hierarchy": {
+    "number": "641",
+    "character": "怪",
+    "keyword": "peculiar",
+    "level": "Advanced",
+    "filename": "641_peculiar",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "563",
+        "character": "心",
+        "keyword": "heart",
+        "level": "Medium",
+        "filename": "563_heart",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "634",
+        "character": "圣",
+        "keyword": "holy",
+        "level": "Advanced",
+        "filename": "634_holy",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "633",
+            "character": "又",
+            "keyword": "again",
+            "level": "Elementary",
+            "filename": "633_again",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "158",
+            "character": "土",
+            "keyword": "soil",
+            "level": "Medium",
+            "filename": "158_soil",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

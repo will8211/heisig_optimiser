@@ -1,25 +1,31 @@
 {
-  "number": "925",
-  "character": "听",
-  "keyword": "listen",
-  "level": "Elementary",
-  "id": "D",
-  "requirements": [
-    {
-      "number": "11",
-      "character": "口",
-      "keyword": "mouth",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "924",
-      "character": "斤",
-      "keyword": "catty",
-      "level": "Medium",
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 993,
+  "hierarchy": {
+    "number": "925",
+    "character": "听",
+    "keyword": "listen",
+    "level": "Elementary",
+    "filename": "925_listen",
+    "id": "D",
+    "requirements": [
+      {
+        "number": "11",
+        "character": "口",
+        "keyword": "mouth",
+        "level": "Elementary",
+        "filename": "11_mouth",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "924",
+        "character": "斤",
+        "keyword": "catty",
+        "level": "Medium",
+        "filename": "924_catty",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

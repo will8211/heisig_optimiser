@@ -1,93 +1,107 @@
 {
-  "number": "2655",
-  "character": "懒",
-  "keyword": "lazy",
-  "level": null,
-  "id": "L",
-  "requirements": [
-    {
-      "number": "563",
-      "character": "心",
-      "keyword": "heart",
-      "level": "Medium",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "2654",
-      "character": "赖",
-      "keyword": "rely on",
-      "level": null,
-      "id": "K",
-      "requirements": [
-        {
-          "number": "1286",
-          "character": "束",
-          "keyword": "bundle up",
-          "level": "Advanced",
-          "id": "E",
-          "requirements": [
-            {
-              "number": "202",
-              "character": "木",
-              "keyword": "tree",
-              "level": "Elementary",
-              "id": "C",
-              "requirements": []
-            },
-            {
-              "number": "11",
-              "character": "口",
-              "keyword": "mouth",
-              "level": "Elementary",
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "64",
-          "character": "负",
-          "keyword": "defeated",
-          "level": "Advanced",
-          "id": "J",
-          "requirements": [
-            {
-              "number": null,
-              "character": "勹",
-              "keyword": "bound up",
-              "level": null,
-              "id": "F",
-              "requirements": []
-            },
-            {
-              "number": "52",
-              "character": "贝",
-              "keyword": "shellfish",
-              "level": "Medium",
-              "id": "I",
-              "requirements": [
-                {
-                  "number": "15",
-                  "character": "目",
-                  "keyword": "eye",
-                  "level": "Medium",
-                  "id": "G",
-                  "requirements": []
-                },
-                {
-                  "number": null,
-                  "character": "囧只－口",
-                  "keyword": "animal legs",
-                  "level": null,
-                  "id": "H",
-                  "requirements": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2844,
+  "hierarchy": {
+    "number": "2655",
+    "character": "懒",
+    "keyword": "lazy",
+    "level": null,
+    "filename": "2655_lazy",
+    "id": "L",
+    "requirements": [
+      {
+        "number": "563",
+        "character": "心",
+        "keyword": "heart",
+        "level": "Medium",
+        "filename": "563_heart",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "2654",
+        "character": "赖",
+        "keyword": "rely on",
+        "level": null,
+        "filename": "2654_rely_on",
+        "id": "K",
+        "requirements": [
+          {
+            "number": "1286",
+            "character": "束",
+            "keyword": "bundle up",
+            "level": "Advanced",
+            "filename": "1286_bundle_up",
+            "id": "E",
+            "requirements": [
+              {
+                "number": "202",
+                "character": "木",
+                "keyword": "tree",
+                "level": "Elementary",
+                "filename": "202_tree",
+                "id": "C",
+                "requirements": []
+              },
+              {
+                "number": "11",
+                "character": "口",
+                "keyword": "mouth",
+                "level": "Elementary",
+                "filename": "11_mouth",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "64",
+            "character": "负",
+            "keyword": "defeated",
+            "level": "Advanced",
+            "filename": "64_defeated",
+            "id": "J",
+            "requirements": [
+              {
+                "number": null,
+                "character": "勹",
+                "keyword": "bound up",
+                "level": null,
+                "filename": "primitive_bound_up",
+                "id": "F",
+                "requirements": []
+              },
+              {
+                "number": "52",
+                "character": "贝",
+                "keyword": "shellfish",
+                "level": "Medium",
+                "filename": "52_shellfish",
+                "id": "I",
+                "requirements": [
+                  {
+                    "number": "15",
+                    "character": "目",
+                    "keyword": "eye",
+                    "level": "Medium",
+                    "filename": "15_eye",
+                    "id": "G",
+                    "requirements": []
+                  },
+                  {
+                    "number": null,
+                    "character": "囧只－口",
+                    "keyword": "animal legs",
+                    "level": null,
+                    "filename": "primitive_animal_legs",
+                    "id": "H",
+                    "requirements": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

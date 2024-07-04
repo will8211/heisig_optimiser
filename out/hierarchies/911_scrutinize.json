@@ -1,50 +1,59 @@
 {
-  "number": "911",
-  "character": "察",
-  "keyword": "scrutinize",
-  "level": "Advanced",
-  "id": "G",
-  "requirements": [
-    {
-      "number": null,
-      "character": "宀",
-      "keyword": "house",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "910",
-      "character": "祭",
-      "keyword": "offer sacrifice",
-      "level": null,
-      "id": "F",
-      "requirements": [
-        {
-          "number": "13",
-          "character": "月",
-          "keyword": "month",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "633",
-          "character": "又",
-          "keyword": "again",
-          "level": "Elementary",
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": "900",
-          "character": "示",
-          "keyword": "show",
-          "level": "Medium",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 979,
+  "hierarchy": {
+    "number": "911",
+    "character": "察",
+    "keyword": "scrutinize",
+    "level": "Advanced",
+    "filename": "911_scrutinize",
+    "id": "G",
+    "requirements": [
+      {
+        "number": null,
+        "character": "宀",
+        "keyword": "house",
+        "level": null,
+        "filename": "primitive_house",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "910",
+        "character": "祭",
+        "keyword": "offer sacrifice",
+        "level": null,
+        "filename": "910_offer_sacrifice",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "13",
+            "character": "月",
+            "keyword": "month",
+            "level": "Elementary",
+            "filename": "13_month",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "633",
+            "character": "又",
+            "keyword": "again",
+            "level": "Elementary",
+            "filename": "633_again",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": "900",
+            "character": "示",
+            "keyword": "show",
+            "level": "Medium",
+            "filename": "900_show",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

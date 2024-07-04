@@ -1,60 +1,70 @@
 {
-  "number": "2394",
-  "character": "绞",
-  "keyword": "wring",
-  "level": null,
-  "id": "H",
-  "requirements": [
-    {
-      "number": null,
-      "character": "纟",
-      "keyword": "thread",
-      "level": null,
-      "id": "C",
-      "requirements": [
-        {
-          "number": null,
-          "character": "厶",
-          "keyword": "elbow",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "1044",
-      "character": "交",
-      "keyword": "mingle",
-      "level": "Medium",
-      "id": "G",
-      "requirements": [
-        {
-          "number": null,
-          "character": "亠",
-          "keyword": "top hat",
-          "level": null,
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": "1043",
-          "character": "父",
-          "keyword": "father",
-          "level": "Medium",
-          "id": "F",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "id": "E",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2566,
+  "hierarchy": {
+    "number": "2394",
+    "character": "绞",
+    "keyword": "wring",
+    "level": null,
+    "filename": "2394_wring",
+    "id": "H",
+    "requirements": [
+      {
+        "number": null,
+        "character": "纟",
+        "keyword": "thread",
+        "level": null,
+        "filename": "primitive_thread",
+        "id": "C",
+        "requirements": [
+          {
+            "number": null,
+            "character": "厶",
+            "keyword": "elbow",
+            "level": null,
+            "filename": "primitive_elbow",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "1044",
+        "character": "交",
+        "keyword": "mingle",
+        "level": "Medium",
+        "filename": "1044_mingle",
+        "id": "G",
+        "requirements": [
+          {
+            "number": null,
+            "character": "亠",
+            "keyword": "top hat",
+            "level": null,
+            "filename": "primitive_top_hat",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": "1043",
+            "character": "父",
+            "keyword": "father",
+            "level": "Medium",
+            "filename": "1043_father",
+            "id": "F",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

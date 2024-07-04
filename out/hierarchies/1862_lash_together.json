@@ -1,42 +1,50 @@
 {
-  "number": "1862",
-  "character": "捆",
-  "keyword": "lash together",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": null,
-      "character": "扌",
-      "keyword": "fingers",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "547",
-      "character": "困",
-      "keyword": "trapped",
-      "level": "Medium",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囗",
-          "keyword": "pent in",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "202",
-          "character": "木",
-          "keyword": "tree",
-          "level": "Elementary",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2013,
+  "hierarchy": {
+    "number": "1862",
+    "character": "捆",
+    "keyword": "lash together",
+    "level": null,
+    "filename": "1862_lash_together",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "primitive_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "547",
+        "character": "困",
+        "keyword": "trapped",
+        "level": "Medium",
+        "filename": "547_trapped",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囗",
+            "keyword": "pent in",
+            "level": null,
+            "filename": "primitive_pent_in",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "202",
+            "character": "木",
+            "keyword": "tree",
+            "level": "Elementary",
+            "filename": "202_tree",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

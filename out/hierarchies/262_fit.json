@@ -1,34 +1,41 @@
 {
-  "number": "262",
-  "character": "合",
-  "keyword": "fit",
-  "level": "Medium",
-  "id": "E",
-  "requirements": [
-    {
-      "number": null,
-      "character": "亼",
-      "keyword": "meeting",
-      "level": null,
-      "id": "C",
-      "requirements": [
-        {
-          "number": null,
-          "character": "𠆢",
-          "keyword": "umbrella",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "11",
-      "character": "口",
-      "keyword": "mouth",
-      "level": "Elementary",
-      "id": "D",
-      "requirements": []
-    }
-  ]
+  "order": 278,
+  "hierarchy": {
+    "number": "262",
+    "character": "合",
+    "keyword": "fit",
+    "level": "Medium",
+    "filename": "262_fit",
+    "id": "E",
+    "requirements": [
+      {
+        "number": null,
+        "character": "亼",
+        "keyword": "meeting",
+        "level": null,
+        "filename": "primitive_meeting",
+        "id": "C",
+        "requirements": [
+          {
+            "number": null,
+            "character": "𠆢",
+            "keyword": "umbrella",
+            "level": null,
+            "filename": "primitive_umbrella",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "11",
+        "character": "口",
+        "keyword": "mouth",
+        "level": "Elementary",
+        "filename": "11_mouth",
+        "id": "D",
+        "requirements": []
+      }
+    ]
+  }
 }

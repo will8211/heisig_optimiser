@@ -1,50 +1,59 @@
 {
-  "number": "2125",
-  "character": "蒙",
-  "keyword": "Mongolia",
-  "level": null,
-  "id": "G",
-  "requirements": [
-    {
-      "number": null,
-      "character": "囧荣－木",
-      "keyword": "greenhouse",
-      "level": null,
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "宀",
-          "keyword": "house",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "艹",
-          "keyword": "flower",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "1",
-      "character": "一",
-      "keyword": "one",
-      "level": "Elementary",
-      "id": "E",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "豕",
-      "keyword": "sow",
-      "level": null,
-      "id": "F",
-      "requirements": []
-    }
-  ]
+  "order": 2286,
+  "hierarchy": {
+    "number": "2125",
+    "character": "蒙",
+    "keyword": "Mongolia",
+    "level": null,
+    "filename": "2125_Mongolia",
+    "id": "G",
+    "requirements": [
+      {
+        "number": null,
+        "character": "囧荣－木",
+        "keyword": "greenhouse",
+        "level": null,
+        "filename": "primitive_greenhouse",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "宀",
+            "keyword": "house",
+            "level": null,
+            "filename": "primitive_house",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "艹",
+            "keyword": "flower",
+            "level": null,
+            "filename": "primitive_flower",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "1",
+        "character": "一",
+        "keyword": "one",
+        "level": "Elementary",
+        "filename": "1_one",
+        "id": "E",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "豕",
+        "keyword": "sow",
+        "level": null,
+        "filename": "primitive_sow",
+        "id": "F",
+        "requirements": []
+      }
+    ]
+  }
 }

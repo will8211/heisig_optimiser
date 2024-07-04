@@ -1,59 +1,69 @@
 {
-  "number": "2687",
-  "character": "殴",
-  "keyword": "hit",
-  "level": null,
-  "id": "H",
-  "requirements": [
-    {
-      "number": "1295",
-      "character": "区",
-      "keyword": "region",
-      "level": "Medium",
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "匚",
-          "keyword": "box",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "㐅",
-          "keyword": "sheaf",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "殳",
-      "keyword": "missile",
-      "level": null,
-      "id": "G",
-      "requirements": [
-        {
-          "number": "57",
-          "character": "几",
-          "keyword": "how many?",
-          "level": "Elementary",
-          "id": "E",
-          "requirements": []
-        },
-        {
-          "number": "633",
-          "character": "又",
-          "keyword": "again",
-          "level": "Elementary",
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2876,
+  "hierarchy": {
+    "number": "2687",
+    "character": "殴",
+    "keyword": "hit",
+    "level": null,
+    "filename": "2687_hit",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "1295",
+        "character": "区",
+        "keyword": "region",
+        "level": "Medium",
+        "filename": "1295_region",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "匚",
+            "keyword": "box",
+            "level": null,
+            "filename": "primitive_box",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "㐅",
+            "keyword": "sheaf",
+            "level": null,
+            "filename": "primitive_sheaf",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "殳",
+        "keyword": "missile",
+        "level": null,
+        "filename": "primitive_missile",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "57",
+            "character": "几",
+            "keyword": "how many?",
+            "level": "Elementary",
+            "filename": "57_how_many",
+            "id": "E",
+            "requirements": []
+          },
+          {
+            "number": "633",
+            "character": "又",
+            "keyword": "again",
+            "level": "Elementary",
+            "filename": "633_again",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

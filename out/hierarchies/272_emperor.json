@@ -1,51 +1,60 @@
 {
-  "number": "272",
-  "character": "皇",
-  "keyword": "emperor",
-  "level": "Advanced",
-  "id": "G",
-  "requirements": [
-    {
-      "number": "265",
-      "character": "王",
-      "keyword": "king",
-      "level": "Medium",
-      "id": "C",
-      "requirements": [
-        {
-          "number": "76",
-          "character": "工",
-          "keyword": "work",
-          "level": "Elementary",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "34",
-      "character": "白",
-      "keyword": "white",
-      "level": "Elementary",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "12",
-          "character": "日",
-          "keyword": "day",
-          "level": "Elementary",
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 288,
+  "hierarchy": {
+    "number": "272",
+    "character": "皇",
+    "keyword": "emperor",
+    "level": "Advanced",
+    "filename": "272_emperor",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "265",
+        "character": "王",
+        "keyword": "king",
+        "level": "Medium",
+        "filename": "265_king",
+        "id": "C",
+        "requirements": [
+          {
+            "number": "76",
+            "character": "工",
+            "keyword": "work",
+            "level": "Elementary",
+            "filename": "76_work",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "34",
+        "character": "白",
+        "keyword": "white",
+        "level": "Elementary",
+        "filename": "34_white",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "12",
+            "character": "日",
+            "keyword": "day",
+            "level": "Elementary",
+            "filename": "12_day",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

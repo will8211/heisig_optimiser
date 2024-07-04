@@ -1,84 +1,97 @@
 {
-  "number": "2337",
-  "character": "髓",
-  "keyword": "marrow",
-  "level": null,
-  "id": "K",
-  "requirements": [
-    {
-      "number": "1053",
-      "character": "骨",
-      "keyword": "skeleton",
-      "level": "Advanced",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "13",
-          "character": "月",
-          "keyword": "month",
-          "level": "Elementary",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "冖",
-          "keyword": "crown",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "77",
-      "character": "左",
-      "keyword": "left",
-      "level": "Medium",
-      "id": "H",
-      "requirements": [
-        {
-          "number": null,
-          "character": "𠂇",
-          "keyword": "by one’s side",
-          "level": null,
-          "id": "F",
-          "requirements": [
-            {
-              "number": "10",
-              "character": "十",
-              "keyword": "ten",
-              "level": "Elementary",
-              "id": "E",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "76",
-          "character": "工",
-          "keyword": "work",
-          "level": "Elementary",
-          "id": "G",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "13",
-      "character": "月",
-      "keyword": "month",
-      "level": "Elementary",
-      "id": "I",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "辶",
-      "keyword": "road",
-      "level": null,
-      "id": "J",
-      "requirements": []
-    }
-  ]
+  "order": 2506,
+  "hierarchy": {
+    "number": "2337",
+    "character": "髓",
+    "keyword": "marrow",
+    "level": null,
+    "filename": "2337_marrow",
+    "id": "K",
+    "requirements": [
+      {
+        "number": "1053",
+        "character": "骨",
+        "keyword": "skeleton",
+        "level": "Advanced",
+        "filename": "1053_skeleton",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "13",
+            "character": "月",
+            "keyword": "month",
+            "level": "Elementary",
+            "filename": "13_month",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "冖",
+            "keyword": "crown",
+            "level": null,
+            "filename": "primitive_crown",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "77",
+        "character": "左",
+        "keyword": "left",
+        "level": "Medium",
+        "filename": "77_left",
+        "id": "H",
+        "requirements": [
+          {
+            "number": null,
+            "character": "𠂇",
+            "keyword": "by one’s side",
+            "level": null,
+            "filename": "primitive_by_one’s_side",
+            "id": "F",
+            "requirements": [
+              {
+                "number": "10",
+                "character": "十",
+                "keyword": "ten",
+                "level": "Elementary",
+                "filename": "10_ten",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "76",
+            "character": "工",
+            "keyword": "work",
+            "level": "Elementary",
+            "filename": "76_work",
+            "id": "G",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "13",
+        "character": "月",
+        "keyword": "month",
+        "level": "Elementary",
+        "filename": "13_month",
+        "id": "I",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "辶",
+        "keyword": "road",
+        "level": null,
+        "filename": "primitive_road",
+        "id": "J",
+        "requirements": []
+      }
+    ]
+  }
 }

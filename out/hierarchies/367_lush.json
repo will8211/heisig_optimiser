@@ -1,43 +1,51 @@
 {
-  "number": "367",
-  "character": "茂",
-  "keyword": "lush",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": null,
-      "character": "戊",
-      "keyword": "parade",
-      "level": null,
-      "id": "D",
-      "requirements": [
-        {
-          "number": "361",
-          "character": "戈",
-          "keyword": "halberd",
-          "level": null,
-          "id": "C",
-          "requirements": [
-            {
-              "number": null,
-              "character": "弋",
-              "keyword": "arrow",
-              "level": null,
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "艹",
-      "keyword": "flower",
-      "level": null,
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 396,
+  "hierarchy": {
+    "number": "367",
+    "character": "茂",
+    "keyword": "lush",
+    "level": null,
+    "filename": "367_lush",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "戊",
+        "keyword": "parade",
+        "level": null,
+        "filename": "primitive_parade",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "361",
+            "character": "戈",
+            "keyword": "halberd",
+            "level": null,
+            "filename": "361_halberd",
+            "id": "C",
+            "requirements": [
+              {
+                "number": null,
+                "character": "弋",
+                "keyword": "arrow",
+                "level": null,
+                "filename": "primitive_arrow",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "艹",
+        "keyword": "flower",
+        "level": null,
+        "filename": "primitive_flower",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

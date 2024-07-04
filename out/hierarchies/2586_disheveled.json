@@ -1,59 +1,69 @@
 {
-  "number": "2586",
-  "character": "蓬",
-  "keyword": "disheveled",
-  "level": null,
-  "id": "H",
-  "requirements": [
-    {
-      "number": null,
-      "character": "艹",
-      "keyword": "flower",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "2584",
-      "character": "逢",
-      "keyword": "chance upon",
-      "level": null,
-      "id": "G",
-      "requirements": [
-        {
-          "number": null,
-          "character": "夆",
-          "keyword": "briar",
-          "level": null,
-          "id": "E",
-          "requirements": [
-            {
-              "number": "1223",
-              "character": "丰",
-              "keyword": "plentiful",
-              "level": "Advanced",
-              "id": "C",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "夂",
-              "keyword": "walking legs",
-              "level": null,
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "辶",
-          "keyword": "road",
-          "level": null,
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2774,
+  "hierarchy": {
+    "number": "2586",
+    "character": "蓬",
+    "keyword": "disheveled",
+    "level": null,
+    "filename": "2586_disheveled",
+    "id": "H",
+    "requirements": [
+      {
+        "number": null,
+        "character": "艹",
+        "keyword": "flower",
+        "level": null,
+        "filename": "primitive_flower",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "2584",
+        "character": "逢",
+        "keyword": "chance upon",
+        "level": null,
+        "filename": "2584_chance_upon",
+        "id": "G",
+        "requirements": [
+          {
+            "number": null,
+            "character": "夆",
+            "keyword": "briar",
+            "level": null,
+            "filename": "primitive_briar",
+            "id": "E",
+            "requirements": [
+              {
+                "number": "1223",
+                "character": "丰",
+                "keyword": "plentiful",
+                "level": "Advanced",
+                "filename": "1223_plentiful",
+                "id": "C",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "夂",
+                "keyword": "walking legs",
+                "level": null,
+                "filename": "primitive_walking_legs",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "辶",
+            "keyword": "road",
+            "level": null,
+            "filename": "primitive_road",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

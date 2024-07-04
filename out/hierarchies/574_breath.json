@@ -1,42 +1,50 @@
 {
-  "number": "574",
-  "character": "息",
-  "keyword": "breath",
-  "level": "Elementary",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "33",
-      "character": "自",
-      "keyword": "oneself",
-      "level": "Medium",
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "15",
-          "character": "目",
-          "keyword": "eye",
-          "level": "Medium",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "563",
-      "character": "心",
-      "keyword": "heart",
-      "level": "Medium",
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 623,
+  "hierarchy": {
+    "number": "574",
+    "character": "息",
+    "keyword": "breath",
+    "level": "Elementary",
+    "filename": "574_breath",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "33",
+        "character": "自",
+        "keyword": "oneself",
+        "level": "Medium",
+        "filename": "33_oneself",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "15",
+            "character": "目",
+            "keyword": "eye",
+            "level": "Medium",
+            "filename": "15_eye",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "563",
+        "character": "心",
+        "keyword": "heart",
+        "level": "Medium",
+        "filename": "563_heart",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

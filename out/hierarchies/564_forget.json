@@ -1,42 +1,50 @@
 {
-  "number": "564",
-  "character": "忘",
-  "keyword": "forget",
-  "level": "Elementary",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "490",
-      "character": "亡",
-      "keyword": "deceased",
-      "level": "Advanced",
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "亠",
-          "keyword": "top hat",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "95",
-          "character": "乙",
-          "keyword": "second",
-          "level": "Medium",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "563",
-      "character": "心",
-      "keyword": "heart",
-      "level": "Medium",
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 613,
+  "hierarchy": {
+    "number": "564",
+    "character": "忘",
+    "keyword": "forget",
+    "level": "Elementary",
+    "filename": "564_forget",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "490",
+        "character": "亡",
+        "keyword": "deceased",
+        "level": "Advanced",
+        "filename": "490_deceased",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "亠",
+            "keyword": "top hat",
+            "level": null,
+            "filename": "primitive_top_hat",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "95",
+            "character": "乙",
+            "keyword": "second",
+            "level": "Medium",
+            "filename": "95_second",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "563",
+        "character": "心",
+        "keyword": "heart",
+        "level": "Medium",
+        "filename": "563_heart",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

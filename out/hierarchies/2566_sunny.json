@@ -1,42 +1,50 @@
 {
-  "number": "2566",
-  "character": "晴",
-  "keyword": "sunny",
-  "level": "Advanced",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "12",
-      "character": "日",
-      "keyword": "day",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1208",
-      "character": "青",
-      "keyword": "blue or green",
-      "level": "Medium",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧毒－母",
-          "keyword": "grow up",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "13",
-          "character": "月",
-          "keyword": "month",
-          "level": "Elementary",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2753,
+  "hierarchy": {
+    "number": "2566",
+    "character": "晴",
+    "keyword": "sunny",
+    "level": "Advanced",
+    "filename": "2566_sunny",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "12",
+        "character": "日",
+        "keyword": "day",
+        "level": "Elementary",
+        "filename": "12_day",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1208",
+        "character": "青",
+        "keyword": "blue or green",
+        "level": "Medium",
+        "filename": "1208_blue_or_green",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧毒－母",
+            "keyword": "grow up",
+            "level": null,
+            "filename": "primitive_grow_up",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "13",
+            "character": "月",
+            "keyword": "month",
+            "level": "Elementary",
+            "filename": "13_month",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

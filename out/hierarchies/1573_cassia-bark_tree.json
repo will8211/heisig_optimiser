@@ -1,34 +1,41 @@
 {
-  "number": "1573",
-  "character": "桂",
-  "keyword": "cassia-bark tree",
-  "level": null,
-  "id": "E",
-  "requirements": [
-    {
-      "number": "202",
-      "character": "木",
-      "keyword": "tree",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "圭",
-      "keyword": "bricks",
-      "level": null,
-      "id": "D",
-      "requirements": [
-        {
-          "number": "158",
-          "character": "土",
-          "keyword": "soil",
-          "level": "Medium",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1713,
+  "hierarchy": {
+    "number": "1573",
+    "character": "桂",
+    "keyword": "cassia-bark tree",
+    "level": null,
+    "filename": "1573_cassia-bark_tree",
+    "id": "E",
+    "requirements": [
+      {
+        "number": "202",
+        "character": "木",
+        "keyword": "tree",
+        "level": "Elementary",
+        "filename": "202_tree",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "圭",
+        "keyword": "bricks",
+        "level": null,
+        "filename": "primitive_bricks",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "158",
+            "character": "土",
+            "keyword": "soil",
+            "level": "Medium",
+            "filename": "158_soil",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

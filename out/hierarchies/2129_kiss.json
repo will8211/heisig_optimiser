@@ -1,43 +1,51 @@
 {
-  "number": "2129",
-  "character": "吻",
-  "keyword": "kiss",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": "11",
-      "character": "口",
-      "keyword": "mouth",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "877",
-      "character": "勿",
-      "keyword": "not",
-      "level": null,
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "𠃓",
-          "keyword": "piglets",
-          "level": null,
-          "id": "D",
-          "requirements": [
-            {
-              "number": null,
-              "character": "豕",
-              "keyword": "sow",
-              "level": null,
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2290,
+  "hierarchy": {
+    "number": "2129",
+    "character": "吻",
+    "keyword": "kiss",
+    "level": null,
+    "filename": "2129_kiss",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "11",
+        "character": "口",
+        "keyword": "mouth",
+        "level": "Elementary",
+        "filename": "11_mouth",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "877",
+        "character": "勿",
+        "keyword": "not",
+        "level": null,
+        "filename": "877_not",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "𠃓",
+            "keyword": "piglets",
+            "level": null,
+            "filename": "primitive_piglets",
+            "id": "D",
+            "requirements": [
+              {
+                "number": null,
+                "character": "豕",
+                "keyword": "sow",
+                "level": null,
+                "filename": "primitive_sow",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

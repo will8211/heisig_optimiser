@@ -1,42 +1,50 @@
 {
-  "number": "1863",
-  "character": "扩",
-  "keyword": "enlarge",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": null,
-      "character": "扌",
-      "keyword": "fingers",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "556",
-      "character": "广",
-      "keyword": "extensive",
-      "level": "Medium",
-      "id": "E",
-      "requirements": [
-        {
-          "number": "121",
-          "character": "厂",
-          "keyword": "factory",
-          "level": "Medium",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "宀",
-          "keyword": "house",
-          "level": null,
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2014,
+  "hierarchy": {
+    "number": "1863",
+    "character": "扩",
+    "keyword": "enlarge",
+    "level": null,
+    "filename": "1863_enlarge",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "primitive_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "556",
+        "character": "广",
+        "keyword": "extensive",
+        "level": "Medium",
+        "filename": "556_extensive",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "121",
+            "character": "厂",
+            "keyword": "factory",
+            "level": "Medium",
+            "filename": "121_factory",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "宀",
+            "keyword": "house",
+            "level": null,
+            "filename": "primitive_house",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

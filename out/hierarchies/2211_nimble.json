@@ -1,50 +1,59 @@
 {
-  "number": "2211",
-  "character": "捷",
-  "keyword": "nimble",
-  "level": null,
-  "id": "G",
-  "requirements": [
-    {
-      "number": null,
-      "character": "扌",
-      "keyword": "fingers",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "10",
-      "character": "十",
-      "keyword": "ten",
-      "level": "Elementary",
-      "id": "C",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "肀",
-      "keyword": "rake",
-      "level": null,
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "彐",
-          "keyword": "broom",
-          "level": null,
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "379",
-      "character": "止",
-      "keyword": "stop",
-      "level": "Medium",
-      "id": "F",
-      "requirements": []
-    }
-  ]
+  "order": 2376,
+  "hierarchy": {
+    "number": "2211",
+    "character": "捷",
+    "keyword": "nimble",
+    "level": null,
+    "filename": "2211_nimble",
+    "id": "G",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "primitive_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "10",
+        "character": "十",
+        "keyword": "ten",
+        "level": "Elementary",
+        "filename": "10_ten",
+        "id": "C",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "肀",
+        "keyword": "rake",
+        "level": null,
+        "filename": "primitive_rake",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "彐",
+            "keyword": "broom",
+            "level": null,
+            "filename": "primitive_broom",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "379",
+        "character": "止",
+        "keyword": "stop",
+        "level": "Medium",
+        "filename": "379_stop",
+        "id": "F",
+        "requirements": []
+      }
+    ]
+  }
 }

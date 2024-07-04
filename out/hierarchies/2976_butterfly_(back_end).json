@@ -1,51 +1,60 @@
 {
-  "number": "2976",
-  "character": "蝶",
-  "keyword": "butterfly (back end)",
-  "level": null,
-  "id": "G",
-  "requirements": [
-    {
-      "number": "509",
-      "character": "虫",
-      "keyword": "insect",
-      "level": "Medium",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "枼",
-      "keyword": "family tree",
-      "level": null,
-      "id": "F",
-      "requirements": [
-        {
-          "number": "28",
-          "character": "世",
-          "keyword": "generation",
-          "level": "Advanced",
-          "id": "D",
-          "requirements": [
-            {
-              "number": "10",
-              "character": "十",
-              "keyword": "ten",
-              "level": "Elementary",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "202",
-          "character": "木",
-          "keyword": "tree",
-          "level": "Elementary",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 3182,
+  "hierarchy": {
+    "number": "2976",
+    "character": "蝶",
+    "keyword": "butterfly (back end)",
+    "level": null,
+    "filename": "2976_butterfly_(back_end)",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "509",
+        "character": "虫",
+        "keyword": "insect",
+        "level": "Medium",
+        "filename": "509_insect",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "枼",
+        "keyword": "family tree",
+        "level": null,
+        "filename": "primitive_family_tree",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "28",
+            "character": "世",
+            "keyword": "generation",
+            "level": "Advanced",
+            "filename": "28_generation",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "10",
+                "character": "十",
+                "keyword": "ten",
+                "level": "Elementary",
+                "filename": "10_ten",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "202",
+            "character": "木",
+            "keyword": "tree",
+            "level": "Elementary",
+            "filename": "202_tree",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

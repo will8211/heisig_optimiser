@@ -1,67 +1,78 @@
 {
-  "number": "1429",
-  "character": "张",
-  "keyword": "stretch",
-  "level": "Medium",
-  "id": "I",
-  "requirements": [
-    {
-      "number": "1013",
-      "character": "弓",
-      "keyword": "bow",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1428",
-      "character": "长",
-      "keyword": "long",
-      "level": "Elementary",
-      "id": "H",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧以－丶人",
-          "keyword": "plow",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "丷",
-          "keyword": "horns",
-          "level": null,
-          "id": "F",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "id": "E",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "囧只－口",
-          "keyword": "animal legs",
-          "level": null,
-          "id": "G",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1560,
+  "hierarchy": {
+    "number": "1429",
+    "character": "张",
+    "keyword": "stretch",
+    "level": "Medium",
+    "filename": "1429_stretch",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "1013",
+        "character": "弓",
+        "keyword": "bow",
+        "level": null,
+        "filename": "1013_bow",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1428",
+        "character": "长",
+        "keyword": "long",
+        "level": "Elementary",
+        "filename": "1428_long",
+        "id": "H",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧以－丶人",
+            "keyword": "plow",
+            "level": null,
+            "filename": "primitive_plow",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "丷",
+            "keyword": "horns",
+            "level": null,
+            "filename": "primitive_horns",
+            "id": "F",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "囧只－口",
+            "keyword": "animal legs",
+            "level": null,
+            "filename": "primitive_animal_legs",
+            "id": "G",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

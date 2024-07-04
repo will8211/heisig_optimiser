@@ -1,42 +1,50 @@
 {
-  "number": "1148",
-  "character": "腿",
-  "keyword": "leg",
-  "level": "Medium",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "13",
-      "character": "月",
-      "keyword": "month",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1147",
-      "character": "退",
-      "keyword": "retreat",
-      "level": "Advanced",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "艮",
-          "keyword": "silver",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "辶",
-          "keyword": "road",
-          "level": null,
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1244,
+  "hierarchy": {
+    "number": "1148",
+    "character": "腿",
+    "keyword": "leg",
+    "level": "Medium",
+    "filename": "1148_leg",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "13",
+        "character": "月",
+        "keyword": "month",
+        "level": "Elementary",
+        "filename": "13_month",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1147",
+        "character": "退",
+        "keyword": "retreat",
+        "level": "Advanced",
+        "filename": "1147_retreat",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "艮",
+            "keyword": "silver",
+            "level": null,
+            "filename": "primitive_silver",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "辶",
+            "keyword": "road",
+            "level": null,
+            "filename": "primitive_road",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

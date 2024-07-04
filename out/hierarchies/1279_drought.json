@@ -1,25 +1,31 @@
 {
-  "number": "1279",
-  "character": "旱",
-  "keyword": "drought",
-  "level": null,
-  "id": "D",
-  "requirements": [
-    {
-      "number": "12",
-      "character": "日",
-      "keyword": "day",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1277",
-      "character": "干",
-      "keyword": "dry",
-      "level": "Elementary",
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 1389,
+  "hierarchy": {
+    "number": "1279",
+    "character": "旱",
+    "keyword": "drought",
+    "level": null,
+    "filename": "1279_drought",
+    "id": "D",
+    "requirements": [
+      {
+        "number": "12",
+        "character": "日",
+        "keyword": "day",
+        "level": "Elementary",
+        "filename": "12_day",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1277",
+        "character": "干",
+        "keyword": "dry",
+        "level": "Elementary",
+        "filename": "1277_dry",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

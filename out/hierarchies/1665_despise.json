@@ -1,68 +1,79 @@
 {
-  "number": "1665",
-  "character": "蔑",
-  "keyword": "despise",
-  "level": null,
-  "id": "I",
-  "requirements": [
-    {
-      "number": null,
-      "character": "艹",
-      "keyword": "flower",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "15",
-      "character": "目",
-      "keyword": "eye",
-      "level": "Medium",
-      "id": "C",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "戌",
-      "keyword": "march",
-      "level": null,
-      "id": "H",
-      "requirements": [
-        {
-          "number": null,
-          "character": "戊",
-          "keyword": "parade",
-          "level": null,
-          "id": "F",
-          "requirements": [
-            {
-              "number": "361",
-              "character": "戈",
-              "keyword": "halberd",
-              "level": null,
-              "id": "E",
-              "requirements": [
-                {
-                  "number": null,
-                  "character": "弋",
-                  "keyword": "arrow",
-                  "level": null,
-                  "id": "D",
-                  "requirements": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "id": "G",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1810,
+  "hierarchy": {
+    "number": "1665",
+    "character": "蔑",
+    "keyword": "despise",
+    "level": null,
+    "filename": "1665_despise",
+    "id": "I",
+    "requirements": [
+      {
+        "number": null,
+        "character": "艹",
+        "keyword": "flower",
+        "level": null,
+        "filename": "primitive_flower",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "15",
+        "character": "目",
+        "keyword": "eye",
+        "level": "Medium",
+        "filename": "15_eye",
+        "id": "C",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "戌",
+        "keyword": "march",
+        "level": null,
+        "filename": "primitive_march",
+        "id": "H",
+        "requirements": [
+          {
+            "number": null,
+            "character": "戊",
+            "keyword": "parade",
+            "level": null,
+            "filename": "primitive_parade",
+            "id": "F",
+            "requirements": [
+              {
+                "number": "361",
+                "character": "戈",
+                "keyword": "halberd",
+                "level": null,
+                "filename": "361_halberd",
+                "id": "E",
+                "requirements": [
+                  {
+                    "number": null,
+                    "character": "弋",
+                    "keyword": "arrow",
+                    "level": null,
+                    "filename": "primitive_arrow",
+                    "id": "D",
+                    "requirements": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "G",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

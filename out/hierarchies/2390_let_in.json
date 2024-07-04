@@ -1,77 +1,89 @@
 {
-  "number": "2390",
-  "character": "纳",
-  "keyword": "let in",
-  "level": null,
-  "id": "J",
-  "requirements": [
-    {
-      "number": null,
-      "character": "纟",
-      "keyword": "thread",
-      "level": null,
-      "id": "C",
-      "requirements": [
-        {
-          "number": null,
-          "character": "厶",
-          "keyword": "elbow",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "842",
-      "character": "丙",
-      "keyword": "third",
-      "level": null,
-      "id": "I",
-      "requirements": [
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": "840",
-          "character": "内",
-          "keyword": "internal",
-          "level": "Advanced",
-          "id": "H",
-          "requirements": [
-            {
-              "number": null,
-              "character": "囧冂",
-              "keyword": "belt",
-              "level": null,
-              "id": "F",
-              "requirements": [
-                {
-                  "number": "410",
-                  "character": "巾",
-                  "keyword": "towel",
-                  "level": "Advanced",
-                  "id": "E",
-                  "requirements": []
-                }
-              ]
-            },
-            {
-              "number": "793",
-              "character": "人",
-              "keyword": "person",
-              "level": "Elementary",
-              "id": "G",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2562,
+  "hierarchy": {
+    "number": "2390",
+    "character": "纳",
+    "keyword": "let in",
+    "level": null,
+    "filename": "2390_let_in",
+    "id": "J",
+    "requirements": [
+      {
+        "number": null,
+        "character": "纟",
+        "keyword": "thread",
+        "level": null,
+        "filename": "primitive_thread",
+        "id": "C",
+        "requirements": [
+          {
+            "number": null,
+            "character": "厶",
+            "keyword": "elbow",
+            "level": null,
+            "filename": "primitive_elbow",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "842",
+        "character": "丙",
+        "keyword": "third",
+        "level": null,
+        "filename": "842_third",
+        "id": "I",
+        "requirements": [
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": "840",
+            "character": "内",
+            "keyword": "internal",
+            "level": "Advanced",
+            "filename": "840_internal",
+            "id": "H",
+            "requirements": [
+              {
+                "number": null,
+                "character": "囧冂",
+                "keyword": "belt",
+                "level": null,
+                "filename": "primitive_belt",
+                "id": "F",
+                "requirements": [
+                  {
+                    "number": "410",
+                    "character": "巾",
+                    "keyword": "towel",
+                    "level": "Advanced",
+                    "filename": "410_towel",
+                    "id": "E",
+                    "requirements": []
+                  }
+                ]
+              },
+              {
+                "number": "793",
+                "character": "人",
+                "keyword": "person",
+                "level": "Elementary",
+                "filename": "793_person",
+                "id": "G",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,17 +1,22 @@
 {
-  "number": "116",
-  "character": "多",
-  "keyword": "many",
-  "level": "Elementary",
-  "id": "C",
-  "requirements": [
-    {
-      "number": "13",
-      "character": "月",
-      "keyword": "month",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    }
-  ]
+  "order": 124,
+  "hierarchy": {
+    "number": "116",
+    "character": "多",
+    "keyword": "many",
+    "level": "Elementary",
+    "filename": "116_many",
+    "id": "C",
+    "requirements": [
+      {
+        "number": "13",
+        "character": "月",
+        "keyword": "month",
+        "level": "Elementary",
+        "filename": "13_month",
+        "id": "B",
+        "requirements": []
+      }
+    ]
+  }
 }

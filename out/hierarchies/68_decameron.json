@@ -1,25 +1,31 @@
 {
-  "number": "68",
-  "character": "旬",
-  "keyword": "decameron",
-  "level": null,
-  "id": "D",
-  "requirements": [
-    {
-      "number": "12",
-      "character": "日",
-      "keyword": "day",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "勹",
-      "keyword": "bound up",
-      "level": null,
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 73,
+  "hierarchy": {
+    "number": "68",
+    "character": "旬",
+    "keyword": "decameron",
+    "level": null,
+    "filename": "68_decameron",
+    "id": "D",
+    "requirements": [
+      {
+        "number": "12",
+        "character": "日",
+        "keyword": "day",
+        "level": "Elementary",
+        "filename": "12_day",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "勹",
+        "keyword": "bound up",
+        "level": null,
+        "filename": "primitive_bound_up",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

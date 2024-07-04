@@ -1,59 +1,69 @@
 {
-  "number": "1991",
-  "character": "茄",
-  "keyword": "eggplant",
-  "level": null,
-  "id": "H",
-  "requirements": [
-    {
-      "number": null,
-      "character": "艹",
-      "keyword": "flower",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "749",
-      "character": "加",
-      "keyword": "add",
-      "level": "Medium",
-      "id": "G",
-      "requirements": [
-        {
-          "number": "63",
-          "character": "肌",
-          "keyword": "muscle",
-          "level": null,
-          "id": "E",
-          "requirements": [
-            {
-              "number": "57",
-              "character": "几",
-              "keyword": "how many?",
-              "level": "Elementary",
-              "id": "C",
-              "requirements": []
-            },
-            {
-              "number": "13",
-              "character": "月",
-              "keyword": "month",
-              "level": "Elementary",
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2148,
+  "hierarchy": {
+    "number": "1991",
+    "character": "茄",
+    "keyword": "eggplant",
+    "level": null,
+    "filename": "1991_eggplant",
+    "id": "H",
+    "requirements": [
+      {
+        "number": null,
+        "character": "艹",
+        "keyword": "flower",
+        "level": null,
+        "filename": "primitive_flower",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "749",
+        "character": "加",
+        "keyword": "add",
+        "level": "Medium",
+        "filename": "749_add",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "63",
+            "character": "肌",
+            "keyword": "muscle",
+            "level": null,
+            "filename": "63_muscle",
+            "id": "E",
+            "requirements": [
+              {
+                "number": "57",
+                "character": "几",
+                "keyword": "how many?",
+                "level": "Elementary",
+                "filename": "57_how_many",
+                "id": "C",
+                "requirements": []
+              },
+              {
+                "number": "13",
+                "character": "月",
+                "keyword": "month",
+                "level": "Elementary",
+                "filename": "13_month",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

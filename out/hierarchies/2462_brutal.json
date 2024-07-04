@@ -1,42 +1,50 @@
 {
-  "number": "2462",
-  "character": "酷",
-  "keyword": "brutal",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": null,
-      "character": "酉",
-      "keyword": "whiskey bottle",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "254",
-      "character": "告",
-      "keyword": "declare",
-      "level": "Elementary",
-      "id": "E",
-      "requirements": [
-        {
-          "number": "252",
-          "character": "牛",
-          "keyword": "cow",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2643,
+  "hierarchy": {
+    "number": "2462",
+    "character": "酷",
+    "keyword": "brutal",
+    "level": null,
+    "filename": "2462_brutal",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "酉",
+        "keyword": "whiskey bottle",
+        "level": null,
+        "filename": "primitive_whiskey_bottle",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "254",
+        "character": "告",
+        "keyword": "declare",
+        "level": "Elementary",
+        "filename": "254_declare",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "252",
+            "character": "牛",
+            "keyword": "cow",
+            "level": "Elementary",
+            "filename": "252_cow",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

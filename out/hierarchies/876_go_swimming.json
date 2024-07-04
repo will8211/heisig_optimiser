@@ -1,93 +1,107 @@
 {
-  "number": "876",
-  "character": "游",
-  "keyword": "go swimming",
-  "level": "Advanced",
-  "id": "L",
-  "requirements": [
-    {
-      "number": "137",
-      "character": "水",
-      "keyword": "water",
-      "level": "Elementary",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丨",
-          "keyword": "walking stick",
-          "level": null,
-          "id": "C",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "囧施－也",
-      "keyword": "banner",
-      "level": null,
-      "id": "J",
-      "requirements": [
-        {
-          "number": "494",
-          "character": "方",
-          "keyword": "direction",
-          "level": "Elementary",
-          "id": "H",
-          "requirements": [
-            {
-              "number": "83",
-              "character": "刀",
-              "keyword": "sword",
-              "level": "Medium",
-              "id": "F",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "亠",
-              "keyword": "top hat",
-              "level": null,
-              "id": "G",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "𠂉",
-          "keyword": "reclining",
-          "level": null,
-          "id": "I",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "97",
-      "character": "子",
-      "keyword": "child",
-      "level": "Elementary",
-      "id": "K",
-      "requirements": []
-    }
-  ]
+  "order": 944,
+  "hierarchy": {
+    "number": "876",
+    "character": "游",
+    "keyword": "go swimming",
+    "level": "Advanced",
+    "filename": "876_go_swimming",
+    "id": "L",
+    "requirements": [
+      {
+        "number": "137",
+        "character": "水",
+        "keyword": "water",
+        "level": "Elementary",
+        "filename": "137_water",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丨",
+            "keyword": "walking stick",
+            "level": null,
+            "filename": "primitive_walking_stick",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "囧施－也",
+        "keyword": "banner",
+        "level": null,
+        "filename": "primitive_banner",
+        "id": "J",
+        "requirements": [
+          {
+            "number": "494",
+            "character": "方",
+            "keyword": "direction",
+            "level": "Elementary",
+            "filename": "494_direction",
+            "id": "H",
+            "requirements": [
+              {
+                "number": "83",
+                "character": "刀",
+                "keyword": "sword",
+                "level": "Medium",
+                "filename": "83_sword",
+                "id": "F",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "亠",
+                "keyword": "top hat",
+                "level": null,
+                "filename": "primitive_top_hat",
+                "id": "G",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "𠂉",
+            "keyword": "reclining",
+            "level": null,
+            "filename": "primitive_reclining",
+            "id": "I",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "97",
+        "character": "子",
+        "keyword": "child",
+        "level": "Elementary",
+        "filename": "97_child",
+        "id": "K",
+        "requirements": []
+      }
+    ]
+  }
 }

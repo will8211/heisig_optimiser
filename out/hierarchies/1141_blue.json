@@ -1,135 +1,154 @@
 {
-  "number": "1141",
-  "character": "蓝",
-  "keyword": "blue",
-  "level": "Medium",
-  "id": "Q",
-  "requirements": [
-    {
-      "number": null,
-      "character": "艹",
-      "keyword": "flower",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1139",
-      "character": "监",
-      "keyword": "supervise",
-      "level": null,
-      "id": "P",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧坚－圣",
-          "keyword": "fencing foil",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "𠂉",
-          "keyword": "reclining",
-          "level": null,
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": "607",
-          "character": "掉",
-          "keyword": "drop",
-          "level": "Medium",
-          "id": "N",
-          "requirements": [
-            {
-              "number": null,
-              "character": "扌",
-              "keyword": "fingers",
-              "level": null,
-              "id": "E",
-              "requirements": []
-            },
-            {
-              "number": "48",
-              "character": "卓",
-              "keyword": "eminent",
-              "level": null,
-              "id": "M",
-              "requirements": [
-                {
-                  "number": "43",
-                  "character": "卜",
-                  "keyword": "divination",
-                  "level": null,
-                  "id": "I",
-                  "requirements": [
-                    {
-                      "number": null,
-                      "character": "丨",
-                      "keyword": "walking stick",
-                      "level": null,
-                      "id": "G",
-                      "requirements": [
-                        {
-                          "number": "1",
-                          "character": "一",
-                          "keyword": "one",
-                          "level": "Elementary",
-                          "id": "F",
-                          "requirements": []
-                        }
-                      ]
-                    },
-                    {
-                      "number": null,
-                      "character": "丶",
-                      "keyword": "a drop of",
-                      "level": null,
-                      "id": "H",
-                      "requirements": []
-                    }
-                  ]
-                },
-                {
-                  "number": "26",
-                  "character": "早",
-                  "keyword": "early",
-                  "level": "Elementary",
-                  "id": "L",
-                  "requirements": [
-                    {
-                      "number": "12",
-                      "character": "日",
-                      "keyword": "day",
-                      "level": "Elementary",
-                      "id": "J",
-                      "requirements": []
-                    },
-                    {
-                      "number": "10",
-                      "character": "十",
-                      "keyword": "ten",
-                      "level": "Elementary",
-                      "id": "K",
-                      "requirements": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "皿",
-          "keyword": "dish",
-          "level": null,
-          "id": "O",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1236,
+  "hierarchy": {
+    "number": "1141",
+    "character": "蓝",
+    "keyword": "blue",
+    "level": "Medium",
+    "filename": "1141_blue",
+    "id": "Q",
+    "requirements": [
+      {
+        "number": null,
+        "character": "艹",
+        "keyword": "flower",
+        "level": null,
+        "filename": "primitive_flower",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1139",
+        "character": "监",
+        "keyword": "supervise",
+        "level": null,
+        "filename": "1139_supervise",
+        "id": "P",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧坚－圣",
+            "keyword": "fencing foil",
+            "level": null,
+            "filename": "primitive_fencing_foil",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "𠂉",
+            "keyword": "reclining",
+            "level": null,
+            "filename": "primitive_reclining",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": "607",
+            "character": "掉",
+            "keyword": "drop",
+            "level": "Medium",
+            "filename": "607_drop",
+            "id": "N",
+            "requirements": [
+              {
+                "number": null,
+                "character": "扌",
+                "keyword": "fingers",
+                "level": null,
+                "filename": "primitive_fingers",
+                "id": "E",
+                "requirements": []
+              },
+              {
+                "number": "48",
+                "character": "卓",
+                "keyword": "eminent",
+                "level": null,
+                "filename": "48_eminent",
+                "id": "M",
+                "requirements": [
+                  {
+                    "number": "43",
+                    "character": "卜",
+                    "keyword": "divination",
+                    "level": null,
+                    "filename": "43_divination",
+                    "id": "I",
+                    "requirements": [
+                      {
+                        "number": null,
+                        "character": "丨",
+                        "keyword": "walking stick",
+                        "level": null,
+                        "filename": "primitive_walking_stick",
+                        "id": "G",
+                        "requirements": [
+                          {
+                            "number": "1",
+                            "character": "一",
+                            "keyword": "one",
+                            "level": "Elementary",
+                            "filename": "1_one",
+                            "id": "F",
+                            "requirements": []
+                          }
+                        ]
+                      },
+                      {
+                        "number": null,
+                        "character": "丶",
+                        "keyword": "a drop of",
+                        "level": null,
+                        "filename": "primitive_a_drop_of",
+                        "id": "H",
+                        "requirements": []
+                      }
+                    ]
+                  },
+                  {
+                    "number": "26",
+                    "character": "早",
+                    "keyword": "early",
+                    "level": "Elementary",
+                    "filename": "26_early",
+                    "id": "L",
+                    "requirements": [
+                      {
+                        "number": "12",
+                        "character": "日",
+                        "keyword": "day",
+                        "level": "Elementary",
+                        "filename": "12_day",
+                        "id": "J",
+                        "requirements": []
+                      },
+                      {
+                        "number": "10",
+                        "character": "十",
+                        "keyword": "ten",
+                        "level": "Elementary",
+                        "filename": "10_ten",
+                        "id": "K",
+                        "requirements": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "皿",
+            "keyword": "dish",
+            "level": null,
+            "filename": "primitive_dish",
+            "id": "O",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

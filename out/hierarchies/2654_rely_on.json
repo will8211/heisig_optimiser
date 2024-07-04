@@ -1,76 +1,88 @@
 {
-  "number": "2654",
-  "character": "赖",
-  "keyword": "rely on",
-  "level": null,
-  "id": "J",
-  "requirements": [
-    {
-      "number": "1286",
-      "character": "束",
-      "keyword": "bundle up",
-      "level": "Advanced",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "202",
-          "character": "木",
-          "keyword": "tree",
-          "level": "Elementary",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "64",
-      "character": "负",
-      "keyword": "defeated",
-      "level": "Advanced",
-      "id": "I",
-      "requirements": [
-        {
-          "number": null,
-          "character": "勹",
-          "keyword": "bound up",
-          "level": null,
-          "id": "E",
-          "requirements": []
-        },
-        {
-          "number": "52",
-          "character": "贝",
-          "keyword": "shellfish",
-          "level": "Medium",
-          "id": "H",
-          "requirements": [
-            {
-              "number": "15",
-              "character": "目",
-              "keyword": "eye",
-              "level": "Medium",
-              "id": "F",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "囧只－口",
-              "keyword": "animal legs",
-              "level": null,
-              "id": "G",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2843,
+  "hierarchy": {
+    "number": "2654",
+    "character": "赖",
+    "keyword": "rely on",
+    "level": null,
+    "filename": "2654_rely_on",
+    "id": "J",
+    "requirements": [
+      {
+        "number": "1286",
+        "character": "束",
+        "keyword": "bundle up",
+        "level": "Advanced",
+        "filename": "1286_bundle_up",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "202",
+            "character": "木",
+            "keyword": "tree",
+            "level": "Elementary",
+            "filename": "202_tree",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "64",
+        "character": "负",
+        "keyword": "defeated",
+        "level": "Advanced",
+        "filename": "64_defeated",
+        "id": "I",
+        "requirements": [
+          {
+            "number": null,
+            "character": "勹",
+            "keyword": "bound up",
+            "level": null,
+            "filename": "primitive_bound_up",
+            "id": "E",
+            "requirements": []
+          },
+          {
+            "number": "52",
+            "character": "贝",
+            "keyword": "shellfish",
+            "level": "Medium",
+            "filename": "52_shellfish",
+            "id": "H",
+            "requirements": [
+              {
+                "number": "15",
+                "character": "目",
+                "keyword": "eye",
+                "level": "Medium",
+                "filename": "15_eye",
+                "id": "F",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "囧只－口",
+                "keyword": "animal legs",
+                "level": null,
+                "filename": "primitive_animal_legs",
+                "id": "G",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

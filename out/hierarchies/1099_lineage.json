@@ -1,51 +1,60 @@
 {
-  "number": "1099",
-  "character": "系",
-  "keyword": "lineage",
-  "level": "Elementary",
-  "id": "G",
-  "requirements": [
-    {
-      "number": null,
-      "character": "丶",
-      "keyword": "a drop of",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "糸",
-      "keyword": "floss",
-      "level": null,
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "幺",
-          "keyword": "cocoon",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "109",
-          "character": "小",
-          "keyword": "small",
-          "level": "Elementary",
-          "id": "E",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 1185,
+  "hierarchy": {
+    "number": "1099",
+    "character": "系",
+    "keyword": "lineage",
+    "level": "Elementary",
+    "filename": "1099_lineage",
+    "id": "G",
+    "requirements": [
+      {
+        "number": null,
+        "character": "丶",
+        "keyword": "a drop of",
+        "level": null,
+        "filename": "primitive_a_drop_of",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "糸",
+        "keyword": "floss",
+        "level": null,
+        "filename": "primitive_floss",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "幺",
+            "keyword": "cocoon",
+            "level": null,
+            "filename": "primitive_cocoon",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "109",
+            "character": "小",
+            "keyword": "small",
+            "level": "Elementary",
+            "filename": "109_small",
+            "id": "E",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

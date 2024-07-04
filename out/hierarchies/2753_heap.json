@@ -1,84 +1,97 @@
 {
-  "number": "2753",
-  "character": "叠",
-  "keyword": "heap",
-  "level": null,
-  "id": "K",
-  "requirements": [
-    {
-      "number": "633",
-      "character": "又",
-      "keyword": "again",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "冖",
-      "keyword": "crown",
-      "level": null,
-      "id": "C",
-      "requirements": []
-    },
-    {
-      "number": "751",
-      "character": "架",
-      "keyword": "shelf",
-      "level": "Advanced",
-      "id": "J",
-      "requirements": [
-        {
-          "number": "749",
-          "character": "加",
-          "keyword": "add",
-          "level": "Medium",
-          "id": "H",
-          "requirements": [
-            {
-              "number": "63",
-              "character": "肌",
-              "keyword": "muscle",
-              "level": null,
-              "id": "F",
-              "requirements": [
-                {
-                  "number": "57",
-                  "character": "几",
-                  "keyword": "how many?",
-                  "level": "Elementary",
-                  "id": "D",
-                  "requirements": []
-                },
-                {
-                  "number": "13",
-                  "character": "月",
-                  "keyword": "month",
-                  "level": "Elementary",
-                  "id": "E",
-                  "requirements": []
-                }
-              ]
-            },
-            {
-              "number": "11",
-              "character": "口",
-              "keyword": "mouth",
-              "level": "Elementary",
-              "id": "G",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "202",
-          "character": "木",
-          "keyword": "tree",
-          "level": "Elementary",
-          "id": "I",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2947,
+  "hierarchy": {
+    "number": "2753",
+    "character": "叠",
+    "keyword": "heap",
+    "level": null,
+    "filename": "2753_heap",
+    "id": "K",
+    "requirements": [
+      {
+        "number": "633",
+        "character": "又",
+        "keyword": "again",
+        "level": "Elementary",
+        "filename": "633_again",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "冖",
+        "keyword": "crown",
+        "level": null,
+        "filename": "primitive_crown",
+        "id": "C",
+        "requirements": []
+      },
+      {
+        "number": "751",
+        "character": "架",
+        "keyword": "shelf",
+        "level": "Advanced",
+        "filename": "751_shelf",
+        "id": "J",
+        "requirements": [
+          {
+            "number": "749",
+            "character": "加",
+            "keyword": "add",
+            "level": "Medium",
+            "filename": "749_add",
+            "id": "H",
+            "requirements": [
+              {
+                "number": "63",
+                "character": "肌",
+                "keyword": "muscle",
+                "level": null,
+                "filename": "63_muscle",
+                "id": "F",
+                "requirements": [
+                  {
+                    "number": "57",
+                    "character": "几",
+                    "keyword": "how many?",
+                    "level": "Elementary",
+                    "filename": "57_how_many",
+                    "id": "D",
+                    "requirements": []
+                  },
+                  {
+                    "number": "13",
+                    "character": "月",
+                    "keyword": "month",
+                    "level": "Elementary",
+                    "filename": "13_month",
+                    "id": "E",
+                    "requirements": []
+                  }
+                ]
+              },
+              {
+                "number": "11",
+                "character": "口",
+                "keyword": "mouth",
+                "level": "Elementary",
+                "filename": "11_mouth",
+                "id": "G",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "202",
+            "character": "木",
+            "keyword": "tree",
+            "level": "Elementary",
+            "filename": "202_tree",
+            "id": "I",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

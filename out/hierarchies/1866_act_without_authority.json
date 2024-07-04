@@ -1,84 +1,97 @@
 {
-  "number": "1866",
-  "character": "擅",
-  "keyword": "act without authority",
-  "level": null,
-  "id": "K",
-  "requirements": [
-    {
-      "number": null,
-      "character": "扌",
-      "keyword": "fingers",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "亶",
-      "keyword": "Mr. Hyde",
-      "level": null,
-      "id": "J",
-      "requirements": [
-        {
-          "number": null,
-          "character": "亠",
-          "keyword": "top hat",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "554",
-          "character": "回",
-          "keyword": "return",
-          "level": "Elementary",
-          "id": "F",
-          "requirements": [
-            {
-              "number": null,
-              "character": "囗",
-              "keyword": "pent in",
-              "level": null,
-              "id": "D",
-              "requirements": []
-            },
-            {
-              "number": "11",
-              "character": "口",
-              "keyword": "mouth",
-              "level": "Elementary",
-              "id": "E",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "30",
-          "character": "旦",
-          "keyword": "daybreak",
-          "level": "Medium",
-          "id": "I",
-          "requirements": [
-            {
-              "number": "12",
-              "character": "日",
-              "keyword": "day",
-              "level": "Elementary",
-              "id": "G",
-              "requirements": []
-            },
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "id": "H",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2018,
+  "hierarchy": {
+    "number": "1866",
+    "character": "擅",
+    "keyword": "act without authority",
+    "level": null,
+    "filename": "1866_act_without_authority",
+    "id": "K",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "primitive_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "亶",
+        "keyword": "Mr. Hyde",
+        "level": null,
+        "filename": "primitive_Mr._Hyde",
+        "id": "J",
+        "requirements": [
+          {
+            "number": null,
+            "character": "亠",
+            "keyword": "top hat",
+            "level": null,
+            "filename": "primitive_top_hat",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "554",
+            "character": "回",
+            "keyword": "return",
+            "level": "Elementary",
+            "filename": "554_return",
+            "id": "F",
+            "requirements": [
+              {
+                "number": null,
+                "character": "囗",
+                "keyword": "pent in",
+                "level": null,
+                "filename": "primitive_pent_in",
+                "id": "D",
+                "requirements": []
+              },
+              {
+                "number": "11",
+                "character": "口",
+                "keyword": "mouth",
+                "level": "Elementary",
+                "filename": "11_mouth",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "30",
+            "character": "旦",
+            "keyword": "daybreak",
+            "level": "Medium",
+            "filename": "30_daybreak",
+            "id": "I",
+            "requirements": [
+              {
+                "number": "12",
+                "character": "日",
+                "keyword": "day",
+                "level": "Elementary",
+                "filename": "12_day",
+                "id": "G",
+                "requirements": []
+              },
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "H",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,34 +1,41 @@
 {
-  "number": "681",
-  "character": "互",
-  "keyword": "mutual",
-  "level": "Advanced",
-  "id": "E",
-  "requirements": [
-    {
-      "number": null,
-      "character": "囧会－亼",
-      "keyword": "wall",
-      "level": null,
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "厶",
-          "keyword": "elbow",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 737,
+  "hierarchy": {
+    "number": "681",
+    "character": "互",
+    "keyword": "mutual",
+    "level": "Advanced",
+    "filename": "681_mutual",
+    "id": "E",
+    "requirements": [
+      {
+        "number": null,
+        "character": "囧会－亼",
+        "keyword": "wall",
+        "level": null,
+        "filename": "primitive_wall",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "厶",
+            "keyword": "elbow",
+            "level": null,
+            "filename": "primitive_elbow",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

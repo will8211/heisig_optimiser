@@ -1,34 +1,41 @@
 {
-  "number": "1217",
-  "character": "表",
-  "keyword": "surface",
-  "level": "Medium",
-  "id": "E",
-  "requirements": [
-    {
-      "number": null,
-      "character": "囧毒－母",
-      "keyword": "grow up",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "400",
-      "character": "衣",
-      "keyword": "clothing",
-      "level": "Elementary",
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "亠",
-          "keyword": "top hat",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1321,
+  "hierarchy": {
+    "number": "1217",
+    "character": "表",
+    "keyword": "surface",
+    "level": "Medium",
+    "filename": "1217_surface",
+    "id": "E",
+    "requirements": [
+      {
+        "number": null,
+        "character": "囧毒－母",
+        "keyword": "grow up",
+        "level": null,
+        "filename": "primitive_grow_up",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "400",
+        "character": "衣",
+        "keyword": "clothing",
+        "level": "Elementary",
+        "filename": "400_clothing",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "亠",
+            "keyword": "top hat",
+            "level": null,
+            "filename": "primitive_top_hat",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

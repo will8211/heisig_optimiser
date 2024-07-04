@@ -1,34 +1,41 @@
 {
-  "number": "2684",
-  "character": "拒",
-  "keyword": "refuse",
-  "level": null,
-  "id": "E",
-  "requirements": [
-    {
-      "number": null,
-      "character": "扌",
-      "keyword": "fingers",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "2681",
-      "character": "巨",
-      "keyword": "gigantic",
-      "level": "Advanced",
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "匚",
-          "keyword": "box",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2873,
+  "hierarchy": {
+    "number": "2684",
+    "character": "拒",
+    "keyword": "refuse",
+    "level": null,
+    "filename": "2684_refuse",
+    "id": "E",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "primitive_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "2681",
+        "character": "巨",
+        "keyword": "gigantic",
+        "level": "Advanced",
+        "filename": "2681_gigantic",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "匚",
+            "keyword": "box",
+            "level": null,
+            "filename": "primitive_box",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

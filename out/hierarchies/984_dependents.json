@@ -1,34 +1,41 @@
 {
-  "number": "984",
-  "character": "眷",
-  "keyword": "dependents",
-  "level": null,
-  "id": "E",
-  "requirements": [
-    {
-      "number": null,
-      "character": "囧眷－目",
-      "keyword": "quarter",
-      "level": null,
-      "id": "C",
-      "requirements": [
-        {
-          "number": "980",
-          "character": "半",
-          "keyword": "half",
-          "level": "Elementary",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "15",
-      "character": "目",
-      "keyword": "eye",
-      "level": "Medium",
-      "id": "D",
-      "requirements": []
-    }
-  ]
+  "order": 1058,
+  "hierarchy": {
+    "number": "984",
+    "character": "眷",
+    "keyword": "dependents",
+    "level": null,
+    "filename": "984_dependents",
+    "id": "E",
+    "requirements": [
+      {
+        "number": null,
+        "character": "囧眷－目",
+        "keyword": "quarter",
+        "level": null,
+        "filename": "primitive_quarter",
+        "id": "C",
+        "requirements": [
+          {
+            "number": "980",
+            "character": "半",
+            "keyword": "half",
+            "level": "Elementary",
+            "filename": "980_half",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "15",
+        "character": "目",
+        "keyword": "eye",
+        "level": "Medium",
+        "filename": "15_eye",
+        "id": "D",
+        "requirements": []
+      }
+    ]
+  }
 }

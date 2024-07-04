@@ -1,85 +1,98 @@
 {
-  "number": "1190",
-  "character": "薪",
-  "keyword": "fuel",
-  "level": null,
-  "id": "K",
-  "requirements": [
-    {
-      "number": null,
-      "character": "艹",
-      "keyword": "flower",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1189",
-      "character": "新",
-      "keyword": "new",
-      "level": "Elementary",
-      "id": "J",
-      "requirements": [
-        {
-          "number": "1188",
-          "character": "亲",
-          "keyword": "relatives",
-          "level": "Advanced",
-          "id": "H",
-          "requirements": [
-            {
-              "number": "1183",
-              "character": "辛",
-              "keyword": "peppery",
-              "level": "Advanced",
-              "id": "E",
-              "requirements": [
-                {
-                  "number": "444",
-                  "character": "立",
-                  "keyword": "standing up",
-                  "level": "Advanced",
-                  "id": "C",
-                  "requirements": []
-                },
-                {
-                  "number": "10",
-                  "character": "十",
-                  "keyword": "ten",
-                  "level": "Elementary",
-                  "id": "D",
-                  "requirements": []
-                }
-              ]
-            },
-            {
-              "number": "109",
-              "character": "小",
-              "keyword": "small",
-              "level": "Elementary",
-              "id": "G",
-              "requirements": [
-                {
-                  "number": null,
-                  "character": "丶",
-                  "keyword": "a drop of",
-                  "level": null,
-                  "id": "F",
-                  "requirements": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "number": "924",
-          "character": "斤",
-          "keyword": "catty",
-          "level": "Medium",
-          "id": "I",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1290,
+  "hierarchy": {
+    "number": "1190",
+    "character": "薪",
+    "keyword": "fuel",
+    "level": null,
+    "filename": "1190_fuel",
+    "id": "K",
+    "requirements": [
+      {
+        "number": null,
+        "character": "艹",
+        "keyword": "flower",
+        "level": null,
+        "filename": "primitive_flower",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1189",
+        "character": "新",
+        "keyword": "new",
+        "level": "Elementary",
+        "filename": "1189_new",
+        "id": "J",
+        "requirements": [
+          {
+            "number": "1188",
+            "character": "亲",
+            "keyword": "relatives",
+            "level": "Advanced",
+            "filename": "1188_relatives",
+            "id": "H",
+            "requirements": [
+              {
+                "number": "1183",
+                "character": "辛",
+                "keyword": "peppery",
+                "level": "Advanced",
+                "filename": "1183_peppery",
+                "id": "E",
+                "requirements": [
+                  {
+                    "number": "444",
+                    "character": "立",
+                    "keyword": "standing up",
+                    "level": "Advanced",
+                    "filename": "444_standing_up",
+                    "id": "C",
+                    "requirements": []
+                  },
+                  {
+                    "number": "10",
+                    "character": "十",
+                    "keyword": "ten",
+                    "level": "Elementary",
+                    "filename": "10_ten",
+                    "id": "D",
+                    "requirements": []
+                  }
+                ]
+              },
+              {
+                "number": "109",
+                "character": "小",
+                "keyword": "small",
+                "level": "Elementary",
+                "filename": "109_small",
+                "id": "G",
+                "requirements": [
+                  {
+                    "number": null,
+                    "character": "丶",
+                    "keyword": "a drop of",
+                    "level": null,
+                    "filename": "primitive_a_drop_of",
+                    "id": "F",
+                    "requirements": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "number": "924",
+            "character": "斤",
+            "keyword": "catty",
+            "level": "Medium",
+            "filename": "924_catty",
+            "id": "I",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

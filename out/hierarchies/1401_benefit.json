@@ -1,58 +1,68 @@
 {
-  "number": "1401",
-  "character": "益",
-  "keyword": "benefit",
-  "level": "Advanced",
-  "id": "H",
-  "requirements": [
-    {
-      "number": null,
-      "character": "皿",
-      "keyword": "dish",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "囧率－玄－十",
-      "keyword": "sparkler",
-      "level": null,
-      "id": "C",
-      "requirements": []
-    },
-    {
-      "number": "1",
-      "character": "一",
-      "keyword": "one",
-      "level": "Elementary",
-      "id": "D",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "丷",
-      "keyword": "horns",
-      "level": null,
-      "id": "F",
-      "requirements": [
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "囧只－口",
-      "keyword": "animal legs",
-      "level": null,
-      "id": "G",
-      "requirements": []
-    }
-  ]
+  "order": 1527,
+  "hierarchy": {
+    "number": "1401",
+    "character": "益",
+    "keyword": "benefit",
+    "level": "Advanced",
+    "filename": "1401_benefit",
+    "id": "H",
+    "requirements": [
+      {
+        "number": null,
+        "character": "皿",
+        "keyword": "dish",
+        "level": null,
+        "filename": "primitive_dish",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "囧率－玄－十",
+        "keyword": "sparkler",
+        "level": null,
+        "filename": "primitive_sparkler",
+        "id": "C",
+        "requirements": []
+      },
+      {
+        "number": "1",
+        "character": "一",
+        "keyword": "one",
+        "level": "Elementary",
+        "filename": "1_one",
+        "id": "D",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "丷",
+        "keyword": "horns",
+        "level": null,
+        "filename": "primitive_horns",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "囧只－口",
+        "keyword": "animal legs",
+        "level": null,
+        "filename": "primitive_animal_legs",
+        "id": "G",
+        "requirements": []
+      }
+    ]
+  }
 }

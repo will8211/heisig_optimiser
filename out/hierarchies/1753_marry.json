@@ -1,34 +1,41 @@
 {
-  "number": "1753",
-  "character": "嫁",
-  "keyword": "marry",
-  "level": null,
-  "id": "E",
-  "requirements": [
-    {
-      "number": "102",
-      "character": "女",
-      "keyword": "woman",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "囧家",
-      "keyword": "flophouse",
-      "level": null,
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "宀",
-          "keyword": "house",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1901,
+  "hierarchy": {
+    "number": "1753",
+    "character": "嫁",
+    "keyword": "marry",
+    "level": null,
+    "filename": "1753_marry",
+    "id": "E",
+    "requirements": [
+      {
+        "number": "102",
+        "character": "女",
+        "keyword": "woman",
+        "level": "Elementary",
+        "filename": "102_woman",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "囧家",
+        "keyword": "flophouse",
+        "level": null,
+        "filename": "primitive_flophouse",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "宀",
+            "keyword": "house",
+            "level": null,
+            "filename": "primitive_house",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

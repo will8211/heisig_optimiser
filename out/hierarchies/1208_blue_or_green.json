@@ -1,25 +1,31 @@
 {
-  "number": "1208",
-  "character": "青",
-  "keyword": "blue or green",
-  "level": "Medium",
-  "id": "D",
-  "requirements": [
-    {
-      "number": null,
-      "character": "囧毒－母",
-      "keyword": "grow up",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "13",
-      "character": "月",
-      "keyword": "month",
-      "level": "Elementary",
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 1312,
+  "hierarchy": {
+    "number": "1208",
+    "character": "青",
+    "keyword": "blue or green",
+    "level": "Medium",
+    "filename": "1208_blue_or_green",
+    "id": "D",
+    "requirements": [
+      {
+        "number": null,
+        "character": "囧毒－母",
+        "keyword": "grow up",
+        "level": null,
+        "filename": "primitive_grow_up",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "13",
+        "character": "月",
+        "keyword": "month",
+        "level": "Elementary",
+        "filename": "13_month",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

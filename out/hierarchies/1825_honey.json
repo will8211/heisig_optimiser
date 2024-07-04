@@ -1,42 +1,50 @@
 {
-  "number": "1825",
-  "character": "蜜",
-  "keyword": "honey",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": null,
-      "character": "宀",
-      "keyword": "house",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "583",
-      "character": "必",
-      "keyword": "certainly",
-      "level": "Medium",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "563",
-          "character": "心",
-          "keyword": "heart",
-          "level": "Medium",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "509",
-      "character": "虫",
-      "keyword": "insect",
-      "level": "Medium",
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 1975,
+  "hierarchy": {
+    "number": "1825",
+    "character": "蜜",
+    "keyword": "honey",
+    "level": null,
+    "filename": "1825_honey",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "宀",
+        "keyword": "house",
+        "level": null,
+        "filename": "primitive_house",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "583",
+        "character": "必",
+        "keyword": "certainly",
+        "level": "Medium",
+        "filename": "583_certainly",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "563",
+            "character": "心",
+            "keyword": "heart",
+            "level": "Medium",
+            "filename": "563_heart",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "509",
+        "character": "虫",
+        "keyword": "insect",
+        "level": "Medium",
+        "filename": "509_insect",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

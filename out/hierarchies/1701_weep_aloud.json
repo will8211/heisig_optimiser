@@ -1,59 +1,69 @@
 {
-  "number": "1701",
-  "character": "啼",
-  "keyword": "weep aloud",
-  "level": null,
-  "id": "H",
-  "requirements": [
-    {
-      "number": "11",
-      "character": "口",
-      "keyword": "mouth",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "449",
-      "character": "帝",
-      "keyword": "sovereign",
-      "level": null,
-      "id": "G",
-      "requirements": [
-        {
-          "number": "444",
-          "character": "立",
-          "keyword": "standing up",
-          "level": "Advanced",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "囧冖＋巾",
-          "keyword": "apron",
-          "level": null,
-          "id": "F",
-          "requirements": [
-            {
-              "number": "410",
-              "character": "巾",
-              "keyword": "towel",
-              "level": "Advanced",
-              "id": "D",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "冖",
-              "keyword": "crown",
-              "level": null,
-              "id": "E",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 1846,
+  "hierarchy": {
+    "number": "1701",
+    "character": "啼",
+    "keyword": "weep aloud",
+    "level": null,
+    "filename": "1701_weep_aloud",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "11",
+        "character": "口",
+        "keyword": "mouth",
+        "level": "Elementary",
+        "filename": "11_mouth",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "449",
+        "character": "帝",
+        "keyword": "sovereign",
+        "level": null,
+        "filename": "449_sovereign",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "444",
+            "character": "立",
+            "keyword": "standing up",
+            "level": "Advanced",
+            "filename": "444_standing_up",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "囧冖＋巾",
+            "keyword": "apron",
+            "level": null,
+            "filename": "primitive_apron",
+            "id": "F",
+            "requirements": [
+              {
+                "number": "410",
+                "character": "巾",
+                "keyword": "towel",
+                "level": "Advanced",
+                "filename": "410_towel",
+                "id": "D",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "冖",
+                "keyword": "crown",
+                "level": null,
+                "filename": "primitive_crown",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

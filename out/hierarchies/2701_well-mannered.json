@@ -1,42 +1,50 @@
 {
-  "number": "2701",
-  "character": "彬",
-  "keyword": "well-mannered",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": "202",
-      "character": "木",
-      "keyword": "tree",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "2700",
-      "character": "杉",
-      "keyword": "fir tree",
-      "level": null,
-      "id": "E",
-      "requirements": [
-        {
-          "number": "202",
-          "character": "木",
-          "keyword": "tree",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "彡",
-          "keyword": "rooster tail",
-          "level": null,
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2893,
+  "hierarchy": {
+    "number": "2701",
+    "character": "彬",
+    "keyword": "well-mannered",
+    "level": null,
+    "filename": "2701_well-mannered",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "202",
+        "character": "木",
+        "keyword": "tree",
+        "level": "Elementary",
+        "filename": "202_tree",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "2700",
+        "character": "杉",
+        "keyword": "fir tree",
+        "level": null,
+        "filename": "2700_fir_tree",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "202",
+            "character": "木",
+            "keyword": "tree",
+            "level": "Elementary",
+            "filename": "202_tree",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "彡",
+            "keyword": "rooster tail",
+            "level": null,
+            "filename": "primitive_rooster_tail",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

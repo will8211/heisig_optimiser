@@ -1,68 +1,79 @@
 {
-  "number": "2822",
-  "character": "航",
-  "keyword": "navigate",
-  "level": "Advanced",
-  "id": "I",
-  "requirements": [
-    {
-      "number": "1394",
-      "character": "舟",
-      "keyword": "boat",
-      "level": null,
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "冂",
-          "keyword": "hood",
-          "level": null,
-          "id": "D",
-          "requirements": [
-            {
-              "number": "57",
-              "character": "几",
-              "keyword": "how many?",
-              "level": "Elementary",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "亢",
-      "keyword": "whirlwind",
-      "level": null,
-      "id": "H",
-      "requirements": [
-        {
-          "number": null,
-          "character": "亠",
-          "keyword": "top hat",
-          "level": null,
-          "id": "F",
-          "requirements": []
-        },
-        {
-          "number": "57",
-          "character": "几",
-          "keyword": "how many?",
-          "level": "Elementary",
-          "id": "G",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 3016,
+  "hierarchy": {
+    "number": "2822",
+    "character": "航",
+    "keyword": "navigate",
+    "level": "Advanced",
+    "filename": "2822_navigate",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "1394",
+        "character": "舟",
+        "keyword": "boat",
+        "level": null,
+        "filename": "1394_boat",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "冂",
+            "keyword": "hood",
+            "level": null,
+            "filename": "primitive_hood",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "57",
+                "character": "几",
+                "keyword": "how many?",
+                "level": "Elementary",
+                "filename": "57_how_many",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "亢",
+        "keyword": "whirlwind",
+        "level": null,
+        "filename": "primitive_whirlwind",
+        "id": "H",
+        "requirements": [
+          {
+            "number": null,
+            "character": "亠",
+            "keyword": "top hat",
+            "level": null,
+            "filename": "primitive_top_hat",
+            "id": "F",
+            "requirements": []
+          },
+          {
+            "number": "57",
+            "character": "几",
+            "keyword": "how many?",
+            "level": "Elementary",
+            "filename": "57_how_many",
+            "id": "G",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

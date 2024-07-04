@@ -1,85 +1,98 @@
 {
-  "number": "2697",
-  "character": "拨",
-  "keyword": "allocate",
-  "level": null,
-  "id": "K",
-  "requirements": [
-    {
-      "number": null,
-      "character": "扌",
-      "keyword": "fingers",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1302",
-      "character": "发",
-      "keyword": "send out",
-      "level": "Medium",
-      "id": "J",
-      "requirements": [
-        {
-          "number": "635",
-          "character": "友",
-          "keyword": "friend",
-          "level": "Elementary",
-          "id": "F",
-          "requirements": [
-            {
-              "number": null,
-              "character": "𠂇",
-              "keyword": "by one’s side",
-              "level": null,
-              "id": "D",
-              "requirements": [
-                {
-                  "number": "10",
-                  "character": "十",
-                  "keyword": "ten",
-                  "level": "Elementary",
-                  "id": "C",
-                  "requirements": []
-                }
-              ]
-            },
-            {
-              "number": "633",
-              "character": "又",
-              "keyword": "again",
-              "level": "Elementary",
-              "id": "E",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "239",
-          "character": "犬",
-          "keyword": "pooch",
-          "level": null,
-          "id": "I",
-          "requirements": [
-            {
-              "number": "113",
-              "character": "大",
-              "keyword": "large",
-              "level": "Elementary",
-              "id": "G",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "id": "H",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2888,
+  "hierarchy": {
+    "number": "2697",
+    "character": "拨",
+    "keyword": "allocate",
+    "level": null,
+    "filename": "2697_allocate",
+    "id": "K",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "primitive_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1302",
+        "character": "发",
+        "keyword": "send out",
+        "level": "Medium",
+        "filename": "1302_send_out",
+        "id": "J",
+        "requirements": [
+          {
+            "number": "635",
+            "character": "友",
+            "keyword": "friend",
+            "level": "Elementary",
+            "filename": "635_friend",
+            "id": "F",
+            "requirements": [
+              {
+                "number": null,
+                "character": "𠂇",
+                "keyword": "by one’s side",
+                "level": null,
+                "filename": "primitive_by_one’s_side",
+                "id": "D",
+                "requirements": [
+                  {
+                    "number": "10",
+                    "character": "十",
+                    "keyword": "ten",
+                    "level": "Elementary",
+                    "filename": "10_ten",
+                    "id": "C",
+                    "requirements": []
+                  }
+                ]
+              },
+              {
+                "number": "633",
+                "character": "又",
+                "keyword": "again",
+                "level": "Elementary",
+                "filename": "633_again",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "239",
+            "character": "犬",
+            "keyword": "pooch",
+            "level": null,
+            "filename": "239_pooch",
+            "id": "I",
+            "requirements": [
+              {
+                "number": "113",
+                "character": "大",
+                "keyword": "large",
+                "level": "Elementary",
+                "filename": "113_large",
+                "id": "G",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "H",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

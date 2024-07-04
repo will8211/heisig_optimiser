@@ -1,144 +1,164 @@
 {
-  "number": "1816",
-  "character": "憎",
-  "keyword": "loathe",
-  "level": null,
-  "id": "R",
-  "requirements": [
-    {
-      "number": "563",
-      "character": "心",
-      "keyword": "heart",
-      "level": "Medium",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "502",
-      "character": "曾",
-      "keyword": "formerly",
-      "level": "Advanced",
-      "id": "Q",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丷",
-          "keyword": "horns",
-          "level": null,
-          "id": "D",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "1176",
-          "character": "脑",
-          "keyword": "brain",
-          "level": "Medium",
-          "id": "O",
-          "requirements": [
-            {
-              "number": "13",
-              "character": "月",
-              "keyword": "month",
-              "level": "Elementary",
-              "id": "E",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "㐫",
-              "keyword": "Fagin",
-              "level": null,
-              "id": "N",
-              "requirements": [
-                {
-                  "number": null,
-                  "character": "亠",
-                  "keyword": "top hat",
-                  "level": null,
-                  "id": "F",
-                  "requirements": []
-                },
-                {
-                  "number": "1174",
-                  "character": "凶",
-                  "keyword": "cruel",
-                  "level": "Advanced",
-                  "id": "M",
-                  "requirements": [
-                    {
-                      "number": null,
-                      "character": "㐅",
-                      "keyword": "sheaf",
-                      "level": null,
-                      "id": "G",
-                      "requirements": []
-                    },
-                    {
-                      "number": "323",
-                      "character": "坑",
-                      "keyword": "pit",
-                      "level": null,
-                      "id": "L",
-                      "requirements": [
-                        {
-                          "number": null,
-                          "character": "亢",
-                          "keyword": "whirlwind",
-                          "level": null,
-                          "id": "J",
-                          "requirements": [
-                            {
-                              "number": null,
-                              "character": "亠",
-                              "keyword": "top hat",
-                              "level": null,
-                              "id": "H",
-                              "requirements": []
-                            },
-                            {
-                              "number": "57",
-                              "character": "几",
-                              "keyword": "how many?",
-                              "level": "Elementary",
-                              "id": "I",
-                              "requirements": []
-                            }
-                          ]
-                        },
-                        {
-                          "number": "158",
-                          "character": "土",
-                          "keyword": "soil",
-                          "level": "Medium",
-                          "id": "K",
-                          "requirements": []
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "number": "12",
-          "character": "日",
-          "keyword": "day",
-          "level": "Elementary",
-          "id": "P",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1966,
+  "hierarchy": {
+    "number": "1816",
+    "character": "憎",
+    "keyword": "loathe",
+    "level": null,
+    "filename": "1816_loathe",
+    "id": "R",
+    "requirements": [
+      {
+        "number": "563",
+        "character": "心",
+        "keyword": "heart",
+        "level": "Medium",
+        "filename": "563_heart",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "502",
+        "character": "曾",
+        "keyword": "formerly",
+        "level": "Advanced",
+        "filename": "502_formerly",
+        "id": "Q",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丷",
+            "keyword": "horns",
+            "level": null,
+            "filename": "primitive_horns",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "1176",
+            "character": "脑",
+            "keyword": "brain",
+            "level": "Medium",
+            "filename": "1176_brain",
+            "id": "O",
+            "requirements": [
+              {
+                "number": "13",
+                "character": "月",
+                "keyword": "month",
+                "level": "Elementary",
+                "filename": "13_month",
+                "id": "E",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "㐫",
+                "keyword": "Fagin",
+                "level": null,
+                "filename": "primitive_Fagin",
+                "id": "N",
+                "requirements": [
+                  {
+                    "number": null,
+                    "character": "亠",
+                    "keyword": "top hat",
+                    "level": null,
+                    "filename": "primitive_top_hat",
+                    "id": "F",
+                    "requirements": []
+                  },
+                  {
+                    "number": "1174",
+                    "character": "凶",
+                    "keyword": "cruel",
+                    "level": "Advanced",
+                    "filename": "1174_cruel",
+                    "id": "M",
+                    "requirements": [
+                      {
+                        "number": null,
+                        "character": "㐅",
+                        "keyword": "sheaf",
+                        "level": null,
+                        "filename": "primitive_sheaf",
+                        "id": "G",
+                        "requirements": []
+                      },
+                      {
+                        "number": "323",
+                        "character": "坑",
+                        "keyword": "pit",
+                        "level": null,
+                        "filename": "323_pit",
+                        "id": "L",
+                        "requirements": [
+                          {
+                            "number": null,
+                            "character": "亢",
+                            "keyword": "whirlwind",
+                            "level": null,
+                            "filename": "primitive_whirlwind",
+                            "id": "J",
+                            "requirements": [
+                              {
+                                "number": null,
+                                "character": "亠",
+                                "keyword": "top hat",
+                                "level": null,
+                                "filename": "primitive_top_hat",
+                                "id": "H",
+                                "requirements": []
+                              },
+                              {
+                                "number": "57",
+                                "character": "几",
+                                "keyword": "how many?",
+                                "level": "Elementary",
+                                "filename": "57_how_many",
+                                "id": "I",
+                                "requirements": []
+                              }
+                            ]
+                          },
+                          {
+                            "number": "158",
+                            "character": "土",
+                            "keyword": "soil",
+                            "level": "Medium",
+                            "filename": "158_soil",
+                            "id": "K",
+                            "requirements": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "number": "12",
+            "character": "日",
+            "keyword": "day",
+            "level": "Elementary",
+            "filename": "12_day",
+            "id": "P",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

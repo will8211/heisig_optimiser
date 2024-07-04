@@ -1,25 +1,31 @@
 {
-  "number": "2196",
-  "character": "归",
-  "keyword": "come back",
-  "level": "Advanced",
-  "id": "D",
-  "requirements": [
-    {
-      "number": "83",
-      "character": "刀",
-      "keyword": "sword",
-      "level": "Medium",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "彐",
-      "keyword": "broom",
-      "level": null,
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 2358,
+  "hierarchy": {
+    "number": "2196",
+    "character": "归",
+    "keyword": "come back",
+    "level": "Advanced",
+    "filename": "2196_come_back",
+    "id": "D",
+    "requirements": [
+      {
+        "number": "83",
+        "character": "刀",
+        "keyword": "sword",
+        "level": "Medium",
+        "filename": "83_sword",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "彐",
+        "keyword": "broom",
+        "level": null,
+        "filename": "primitive_broom",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

@@ -1,94 +1,108 @@
 {
-  "number": "1864",
-  "character": "撼",
-  "keyword": "joggle",
-  "level": null,
-  "id": "L",
-  "requirements": [
-    {
-      "number": null,
-      "character": "扌",
-      "keyword": "fingers",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "576",
-      "character": "感",
-      "keyword": "feel",
-      "level": "Medium",
-      "id": "K",
-      "requirements": [
-        {
-          "number": "372",
-          "character": "咸",
-          "keyword": "salty",
-          "level": null,
-          "id": "I",
-          "requirements": [
-            {
-              "number": "11",
-              "character": "口",
-              "keyword": "mouth",
-              "level": "Elementary",
-              "id": "C",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "戌",
-              "keyword": "march",
-              "level": null,
-              "id": "H",
-              "requirements": [
-                {
-                  "number": null,
-                  "character": "戊",
-                  "keyword": "parade",
-                  "level": null,
-                  "id": "F",
-                  "requirements": [
-                    {
-                      "number": "361",
-                      "character": "戈",
-                      "keyword": "halberd",
-                      "level": null,
-                      "id": "E",
-                      "requirements": [
-                        {
-                          "number": null,
-                          "character": "弋",
-                          "keyword": "arrow",
-                          "level": null,
-                          "id": "D",
-                          "requirements": []
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "number": "1",
-                  "character": "一",
-                  "keyword": "one",
-                  "level": "Elementary",
-                  "id": "G",
-                  "requirements": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "number": "563",
-          "character": "心",
-          "keyword": "heart",
-          "level": "Medium",
-          "id": "J",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2015,
+  "hierarchy": {
+    "number": "1864",
+    "character": "撼",
+    "keyword": "joggle",
+    "level": null,
+    "filename": "1864_joggle",
+    "id": "L",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "primitive_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "576",
+        "character": "感",
+        "keyword": "feel",
+        "level": "Medium",
+        "filename": "576_feel",
+        "id": "K",
+        "requirements": [
+          {
+            "number": "372",
+            "character": "咸",
+            "keyword": "salty",
+            "level": null,
+            "filename": "372_salty",
+            "id": "I",
+            "requirements": [
+              {
+                "number": "11",
+                "character": "口",
+                "keyword": "mouth",
+                "level": "Elementary",
+                "filename": "11_mouth",
+                "id": "C",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "戌",
+                "keyword": "march",
+                "level": null,
+                "filename": "primitive_march",
+                "id": "H",
+                "requirements": [
+                  {
+                    "number": null,
+                    "character": "戊",
+                    "keyword": "parade",
+                    "level": null,
+                    "filename": "primitive_parade",
+                    "id": "F",
+                    "requirements": [
+                      {
+                        "number": "361",
+                        "character": "戈",
+                        "keyword": "halberd",
+                        "level": null,
+                        "filename": "361_halberd",
+                        "id": "E",
+                        "requirements": [
+                          {
+                            "number": null,
+                            "character": "弋",
+                            "keyword": "arrow",
+                            "level": null,
+                            "filename": "primitive_arrow",
+                            "id": "D",
+                            "requirements": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "number": "1",
+                    "character": "一",
+                    "keyword": "one",
+                    "level": "Elementary",
+                    "filename": "1_one",
+                    "id": "G",
+                    "requirements": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "number": "563",
+            "character": "心",
+            "keyword": "heart",
+            "level": "Medium",
+            "filename": "563_heart",
+            "id": "J",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,42 +1,50 @@
 {
-  "number": "1893",
-  "character": "翅",
-  "keyword": "fins",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": "650",
-      "character": "支",
-      "keyword": "offshoot",
-      "level": "Medium",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "10",
-          "character": "十",
-          "keyword": "ten",
-          "level": "Elementary",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "633",
-          "character": "又",
-          "keyword": "again",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "544",
-      "character": "羽",
-      "keyword": "feathers",
-      "level": null,
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 2047,
+  "hierarchy": {
+    "number": "1893",
+    "character": "翅",
+    "keyword": "fins",
+    "level": null,
+    "filename": "1893_fins",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "650",
+        "character": "支",
+        "keyword": "offshoot",
+        "level": "Medium",
+        "filename": "650_offshoot",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "10",
+            "character": "十",
+            "keyword": "ten",
+            "level": "Elementary",
+            "filename": "10_ten",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "633",
+            "character": "又",
+            "keyword": "again",
+            "level": "Elementary",
+            "filename": "633_again",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "544",
+        "character": "羽",
+        "keyword": "feathers",
+        "level": null,
+        "filename": "544_feathers",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

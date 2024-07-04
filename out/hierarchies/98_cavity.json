@@ -1,25 +1,31 @@
 {
-  "number": "98",
-  "character": "孔",
-  "keyword": "cavity",
-  "level": null,
-  "id": "D",
-  "requirements": [
-    {
-      "number": "97",
-      "character": "子",
-      "keyword": "child",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "95",
-      "character": "乙",
-      "keyword": "second",
-      "level": "Medium",
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 106,
+  "hierarchy": {
+    "number": "98",
+    "character": "孔",
+    "keyword": "cavity",
+    "level": null,
+    "filename": "98_cavity",
+    "id": "D",
+    "requirements": [
+      {
+        "number": "97",
+        "character": "子",
+        "keyword": "child",
+        "level": "Elementary",
+        "filename": "97_child",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "95",
+        "character": "乙",
+        "keyword": "second",
+        "level": "Medium",
+        "filename": "95_second",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

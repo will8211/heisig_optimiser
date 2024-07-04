@@ -1,42 +1,50 @@
 {
-  "number": "2094",
-  "character": "催",
-  "keyword": "prod",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": "793",
-      "character": "人",
-      "keyword": "person",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1937",
-      "character": "崔",
-      "keyword": "Cui",
-      "level": null,
-      "id": "E",
-      "requirements": [
-        {
-          "number": "688",
-          "character": "山",
-          "keyword": "mountain",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "隹",
-          "keyword": "turkey",
-          "level": null,
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2255,
+  "hierarchy": {
+    "number": "2094",
+    "character": "催",
+    "keyword": "prod",
+    "level": null,
+    "filename": "2094_prod",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "793",
+        "character": "人",
+        "keyword": "person",
+        "level": "Elementary",
+        "filename": "793_person",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1937",
+        "character": "崔",
+        "keyword": "Cui",
+        "level": null,
+        "filename": "1937_Cui",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "688",
+            "character": "山",
+            "keyword": "mountain",
+            "level": "Elementary",
+            "filename": "688_mountain",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "隹",
+            "keyword": "turkey",
+            "level": null,
+            "filename": "primitive_turkey",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

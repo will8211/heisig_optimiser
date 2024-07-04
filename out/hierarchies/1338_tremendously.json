@@ -1,42 +1,50 @@
 {
-  "number": "1338",
-  "character": "甚",
-  "keyword": "tremendously",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": "1335",
-      "character": "其",
-      "keyword": "his-hers-its-theirs",
-      "level": "Medium",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "1333",
-          "character": "甘",
-          "keyword": "sweet",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "囧只－口",
-          "keyword": "animal legs",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "95",
-      "character": "乙",
-      "keyword": "second",
-      "level": "Medium",
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 1456,
+  "hierarchy": {
+    "number": "1338",
+    "character": "甚",
+    "keyword": "tremendously",
+    "level": null,
+    "filename": "1338_tremendously",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "1335",
+        "character": "其",
+        "keyword": "his-hers-its-theirs",
+        "level": "Medium",
+        "filename": "1335_his-hers-its-theirs",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "1333",
+            "character": "甘",
+            "keyword": "sweet",
+            "level": null,
+            "filename": "1333_sweet",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "囧只－口",
+            "keyword": "animal legs",
+            "level": null,
+            "filename": "primitive_animal_legs",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "95",
+        "character": "乙",
+        "keyword": "second",
+        "level": "Medium",
+        "filename": "95_second",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

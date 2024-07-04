@@ -1,68 +1,79 @@
 {
-  "number": "2334",
-  "character": "燥",
-  "keyword": "parched",
-  "level": null,
-  "id": "I",
-  "requirements": [
-    {
-      "number": "170",
-      "character": "火",
-      "keyword": "fire",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "喿",
-      "keyword": "wood pulp",
-      "level": null,
-      "id": "H",
-      "requirements": [
-        {
-          "number": "24",
-          "character": "品",
-          "keyword": "goods",
-          "level": "Advanced",
-          "id": "F",
-          "requirements": [
-            {
-              "number": "23",
-              "character": "晶",
-              "keyword": "sparkling",
-              "level": null,
-              "id": "D",
-              "requirements": [
-                {
-                  "number": "12",
-                  "character": "日",
-                  "keyword": "day",
-                  "level": "Elementary",
-                  "id": "C",
-                  "requirements": []
-                }
-              ]
-            },
-            {
-              "number": "11",
-              "character": "口",
-              "keyword": "mouth",
-              "level": "Elementary",
-              "id": "E",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "202",
-          "character": "木",
-          "keyword": "tree",
-          "level": "Elementary",
-          "id": "G",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2503,
+  "hierarchy": {
+    "number": "2334",
+    "character": "燥",
+    "keyword": "parched",
+    "level": null,
+    "filename": "2334_parched",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "170",
+        "character": "火",
+        "keyword": "fire",
+        "level": "Elementary",
+        "filename": "170_fire",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "喿",
+        "keyword": "wood pulp",
+        "level": null,
+        "filename": "primitive_wood_pulp",
+        "id": "H",
+        "requirements": [
+          {
+            "number": "24",
+            "character": "品",
+            "keyword": "goods",
+            "level": "Advanced",
+            "filename": "24_goods",
+            "id": "F",
+            "requirements": [
+              {
+                "number": "23",
+                "character": "晶",
+                "keyword": "sparkling",
+                "level": null,
+                "filename": "23_sparkling",
+                "id": "D",
+                "requirements": [
+                  {
+                    "number": "12",
+                    "character": "日",
+                    "keyword": "day",
+                    "level": "Elementary",
+                    "filename": "12_day",
+                    "id": "C",
+                    "requirements": []
+                  }
+                ]
+              },
+              {
+                "number": "11",
+                "character": "口",
+                "keyword": "mouth",
+                "level": "Elementary",
+                "filename": "11_mouth",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "202",
+            "character": "木",
+            "keyword": "tree",
+            "level": "Elementary",
+            "filename": "202_tree",
+            "id": "G",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

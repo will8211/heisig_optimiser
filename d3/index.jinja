@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Heisig RSH</title>
+    <link rel="stylesheet" href="../style.css" />
+</head>
+
+<body>
+    <h1>Heisig RSH</h1>
+    <ul>
+        {% for file in files %}
+        <li><a href="{{ file }}.html">{{ file.replace("_", " ") }}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+
+</html>

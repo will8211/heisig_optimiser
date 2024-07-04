@@ -1,25 +1,31 @@
 {
-  "number": "1643",
-  "character": "枚",
-  "keyword": "small objects",
-  "level": null,
-  "id": "D",
-  "requirements": [
-    {
-      "number": "202",
-      "character": "木",
-      "keyword": "tree",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "攵",
-      "keyword": "taskmaster",
-      "level": null,
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 1784,
+  "hierarchy": {
+    "number": "1643",
+    "character": "枚",
+    "keyword": "small objects",
+    "level": null,
+    "filename": "1643_small_objects",
+    "id": "D",
+    "requirements": [
+      {
+        "number": "202",
+        "character": "木",
+        "keyword": "tree",
+        "level": "Elementary",
+        "filename": "202_tree",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "攵",
+        "keyword": "taskmaster",
+        "level": null,
+        "filename": "primitive_taskmaster",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

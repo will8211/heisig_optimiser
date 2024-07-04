@@ -1,42 +1,50 @@
 {
-  "number": "1426",
-  "character": "展",
-  "keyword": "unfold",
-  "level": "Advanced",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "882",
-      "character": "尸",
-      "keyword": "corpse",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "囧昔－日",
-      "keyword": "salad",
-      "level": null,
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "艹",
-          "keyword": "flower",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "囧丧－十－丷",
-      "keyword": "barrette",
-      "level": null,
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 1557,
+  "hierarchy": {
+    "number": "1426",
+    "character": "展",
+    "keyword": "unfold",
+    "level": "Advanced",
+    "filename": "1426_unfold",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "882",
+        "character": "尸",
+        "keyword": "corpse",
+        "level": null,
+        "filename": "882_corpse",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "囧昔－日",
+        "keyword": "salad",
+        "level": null,
+        "filename": "primitive_salad",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "艹",
+            "keyword": "flower",
+            "level": null,
+            "filename": "primitive_flower",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "囧丧－十－丷",
+        "keyword": "barrette",
+        "level": null,
+        "filename": "primitive_barrette",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

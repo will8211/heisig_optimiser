@@ -1,25 +1,31 @@
 {
-  "number": "27",
-  "character": "旭",
-  "keyword": "rising sun",
-  "level": null,
-  "id": "D",
-  "requirements": [
-    {
-      "number": "12",
-      "character": "日",
-      "keyword": "day",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "9",
-      "character": "九",
-      "keyword": "nine",
-      "level": "Elementary",
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 26,
+  "hierarchy": {
+    "number": "27",
+    "character": "旭",
+    "keyword": "rising sun",
+    "level": null,
+    "filename": "27_rising_sun",
+    "id": "D",
+    "requirements": [
+      {
+        "number": "12",
+        "character": "日",
+        "keyword": "day",
+        "level": "Elementary",
+        "filename": "12_day",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "9",
+        "character": "九",
+        "keyword": "nine",
+        "level": "Elementary",
+        "filename": "9_nine",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

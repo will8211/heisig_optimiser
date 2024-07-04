@@ -1,59 +1,69 @@
 {
-  "number": "2236",
-  "character": "遭",
-  "keyword": "meet with",
-  "level": null,
-  "id": "H",
-  "requirements": [
-    {
-      "number": null,
-      "character": "囧曹",
-      "keyword": "cadet",
-      "level": null,
-      "id": "F",
-      "requirements": [
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "967",
-          "character": "曲",
-          "keyword": "bent",
-          "level": "Advanced",
-          "id": "D",
-          "requirements": [
-            {
-              "number": "14",
-              "character": "田",
-              "keyword": "rice field",
-              "level": "Medium",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "12",
-          "character": "日",
-          "keyword": "day",
-          "level": "Elementary",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "辶",
-      "keyword": "road",
-      "level": null,
-      "id": "G",
-      "requirements": []
-    }
-  ]
+  "order": 2402,
+  "hierarchy": {
+    "number": "2236",
+    "character": "遭",
+    "keyword": "meet with",
+    "level": null,
+    "filename": "2236_meet_with",
+    "id": "H",
+    "requirements": [
+      {
+        "number": null,
+        "character": "囧曹",
+        "keyword": "cadet",
+        "level": null,
+        "filename": "primitive_cadet",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "967",
+            "character": "曲",
+            "keyword": "bent",
+            "level": "Advanced",
+            "filename": "967_bent",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "14",
+                "character": "田",
+                "keyword": "rice field",
+                "level": "Medium",
+                "filename": "14_rice_field",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "12",
+            "character": "日",
+            "keyword": "day",
+            "level": "Elementary",
+            "filename": "12_day",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "辶",
+        "keyword": "road",
+        "level": null,
+        "filename": "primitive_road",
+        "id": "G",
+        "requirements": []
+      }
+    ]
+  }
 }

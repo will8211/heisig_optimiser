@@ -1,25 +1,31 @@
 {
-  "number": "2508",
-  "character": "艰",
-  "keyword": "arduous",
-  "level": "Advanced",
-  "id": "D",
-  "requirements": [
-    {
-      "number": "633",
-      "character": "又",
-      "keyword": "again",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "艮",
-      "keyword": "silver",
-      "level": null,
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 2695,
+  "hierarchy": {
+    "number": "2508",
+    "character": "艰",
+    "keyword": "arduous",
+    "level": "Advanced",
+    "filename": "2508_arduous",
+    "id": "D",
+    "requirements": [
+      {
+        "number": "633",
+        "character": "又",
+        "keyword": "again",
+        "level": "Elementary",
+        "filename": "633_again",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "艮",
+        "keyword": "silver",
+        "level": null,
+        "filename": "primitive_silver",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

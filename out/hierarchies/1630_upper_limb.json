@@ -1,42 +1,50 @@
 {
-  "number": "1630",
-  "character": "胳",
-  "keyword": "upper limb",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": "13",
-      "character": "月",
-      "keyword": "month",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "309",
-      "character": "各",
-      "keyword": "each",
-      "level": "Medium",
-      "id": "E",
-      "requirements": [
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "夂",
-          "keyword": "walking legs",
-          "level": null,
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1770,
+  "hierarchy": {
+    "number": "1630",
+    "character": "胳",
+    "keyword": "upper limb",
+    "level": null,
+    "filename": "1630_upper_limb",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "13",
+        "character": "月",
+        "keyword": "month",
+        "level": "Elementary",
+        "filename": "13_month",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "309",
+        "character": "各",
+        "keyword": "each",
+        "level": "Medium",
+        "filename": "309_each",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "夂",
+            "keyword": "walking legs",
+            "level": null,
+            "filename": "primitive_walking_legs",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

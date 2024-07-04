@@ -1,33 +1,40 @@
 {
-  "number": "722",
-  "character": "敢",
-  "keyword": "brave",
-  "level": "Medium",
-  "id": "E",
-  "requirements": [
-    {
-      "number": "90",
-      "character": "丁",
-      "keyword": "fourth",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "717",
-      "character": "耳",
-      "keyword": "ear",
-      "level": "Medium",
-      "id": "C",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "攵",
-      "keyword": "taskmaster",
-      "level": null,
-      "id": "D",
-      "requirements": []
-    }
-  ]
+  "order": 782,
+  "hierarchy": {
+    "number": "722",
+    "character": "敢",
+    "keyword": "brave",
+    "level": "Medium",
+    "filename": "722_brave",
+    "id": "E",
+    "requirements": [
+      {
+        "number": "90",
+        "character": "丁",
+        "keyword": "fourth",
+        "level": null,
+        "filename": "90_fourth",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "717",
+        "character": "耳",
+        "keyword": "ear",
+        "level": "Medium",
+        "filename": "717_ear",
+        "id": "C",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "攵",
+        "keyword": "taskmaster",
+        "level": null,
+        "filename": "primitive_taskmaster",
+        "id": "D",
+        "requirements": []
+      }
+    ]
+  }
 }

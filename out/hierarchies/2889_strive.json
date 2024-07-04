@@ -1,84 +1,97 @@
 {
-  "number": "2889",
-  "character": "勉",
-  "keyword": "strive",
-  "level": null,
-  "id": "K",
-  "requirements": [
-    {
-      "number": "1449",
-      "character": "免",
-      "keyword": "avoid",
-      "level": "Advanced",
-      "id": "G",
-      "requirements": [
-        {
-          "number": "1447",
-          "character": "兔",
-          "keyword": "rabbit",
-          "level": null,
-          "id": "F",
-          "requirements": [
-            {
-              "number": null,
-              "character": "勹",
-              "keyword": "bound up",
-              "level": null,
-              "id": "B",
-              "requirements": []
-            },
-            {
-              "number": "11",
-              "character": "口",
-              "keyword": "mouth",
-              "level": "Elementary",
-              "id": "C",
-              "requirements": []
-            },
-            {
-              "number": "56",
-              "character": "儿",
-              "keyword": "youngster",
-              "level": "Elementary",
-              "id": "D",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "id": "E",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": "63",
-      "character": "肌",
-      "keyword": "muscle",
-      "level": null,
-      "id": "J",
-      "requirements": [
-        {
-          "number": "57",
-          "character": "几",
-          "keyword": "how many?",
-          "level": "Elementary",
-          "id": "H",
-          "requirements": []
-        },
-        {
-          "number": "13",
-          "character": "月",
-          "keyword": "month",
-          "level": "Elementary",
-          "id": "I",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 3086,
+  "hierarchy": {
+    "number": "2889",
+    "character": "勉",
+    "keyword": "strive",
+    "level": null,
+    "filename": "2889_strive",
+    "id": "K",
+    "requirements": [
+      {
+        "number": "1449",
+        "character": "免",
+        "keyword": "avoid",
+        "level": "Advanced",
+        "filename": "1449_avoid",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "1447",
+            "character": "兔",
+            "keyword": "rabbit",
+            "level": null,
+            "filename": "1447_rabbit",
+            "id": "F",
+            "requirements": [
+              {
+                "number": null,
+                "character": "勹",
+                "keyword": "bound up",
+                "level": null,
+                "filename": "primitive_bound_up",
+                "id": "B",
+                "requirements": []
+              },
+              {
+                "number": "11",
+                "character": "口",
+                "keyword": "mouth",
+                "level": "Elementary",
+                "filename": "11_mouth",
+                "id": "C",
+                "requirements": []
+              },
+              {
+                "number": "56",
+                "character": "儿",
+                "keyword": "youngster",
+                "level": "Elementary",
+                "filename": "56_youngster",
+                "id": "D",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": "63",
+        "character": "肌",
+        "keyword": "muscle",
+        "level": null,
+        "filename": "63_muscle",
+        "id": "J",
+        "requirements": [
+          {
+            "number": "57",
+            "character": "几",
+            "keyword": "how many?",
+            "level": "Elementary",
+            "filename": "57_how_many",
+            "id": "H",
+            "requirements": []
+          },
+          {
+            "number": "13",
+            "character": "月",
+            "keyword": "month",
+            "level": "Elementary",
+            "filename": "13_month",
+            "id": "I",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,34 +1,41 @@
 {
-  "number": "767",
-  "character": "移",
-  "keyword": "shift",
-  "level": "Advanced",
-  "id": "E",
-  "requirements": [
-    {
-      "number": "762",
-      "character": "禾",
-      "keyword": "standing grain",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "116",
-      "character": "多",
-      "keyword": "many",
-      "level": "Elementary",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "13",
-          "character": "月",
-          "keyword": "month",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 828,
+  "hierarchy": {
+    "number": "767",
+    "character": "移",
+    "keyword": "shift",
+    "level": "Advanced",
+    "filename": "767_shift",
+    "id": "E",
+    "requirements": [
+      {
+        "number": "762",
+        "character": "禾",
+        "keyword": "standing grain",
+        "level": null,
+        "filename": "762_standing_grain",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "116",
+        "character": "多",
+        "keyword": "many",
+        "level": "Elementary",
+        "filename": "116_many",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "13",
+            "character": "月",
+            "keyword": "month",
+            "level": "Elementary",
+            "filename": "13_month",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

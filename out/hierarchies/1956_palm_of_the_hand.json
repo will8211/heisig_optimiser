@@ -1,51 +1,60 @@
 {
-  "number": "1956",
-  "character": "掌",
-  "keyword": "palm of the hand",
-  "level": "Advanced",
-  "id": "G",
-  "requirements": [
-    {
-      "number": null,
-      "character": "囧赏－贝",
-      "keyword": "outhouse",
-      "level": null,
-      "id": "E",
-      "requirements": [
-        {
-          "number": "109",
-          "character": "小",
-          "keyword": "small",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "584",
-      "character": "手",
-      "keyword": "hand",
-      "level": "Elementary",
-      "id": "F",
-      "requirements": []
-    }
-  ]
+  "order": 2112,
+  "hierarchy": {
+    "number": "1956",
+    "character": "掌",
+    "keyword": "palm of the hand",
+    "level": "Advanced",
+    "filename": "1956_palm_of_the_hand",
+    "id": "G",
+    "requirements": [
+      {
+        "number": null,
+        "character": "囧赏－贝",
+        "keyword": "outhouse",
+        "level": null,
+        "filename": "primitive_outhouse",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "109",
+            "character": "小",
+            "keyword": "small",
+            "level": "Elementary",
+            "filename": "109_small",
+            "id": "C",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "584",
+        "character": "手",
+        "keyword": "hand",
+        "level": "Elementary",
+        "filename": "584_hand",
+        "id": "F",
+        "requirements": []
+      }
+    ]
+  }
 }

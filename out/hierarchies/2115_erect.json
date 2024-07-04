@@ -1,51 +1,60 @@
 {
-  "number": "2115",
-  "character": "挺",
-  "keyword": "erect",
-  "level": "Medium",
-  "id": "G",
-  "requirements": [
-    {
-      "number": null,
-      "character": "扌",
-      "keyword": "fingers",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "854",
-      "character": "廷",
-      "keyword": "royal court",
-      "level": null,
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "壬",
-          "keyword": "porter",
-          "level": null,
-          "id": "D",
-          "requirements": [
-            {
-              "number": "334",
-              "character": "士",
-              "keyword": "soldier",
-              "level": "Advanced",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "廴",
-          "keyword": "stretch",
-          "level": null,
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2276,
+  "hierarchy": {
+    "number": "2115",
+    "character": "挺",
+    "keyword": "erect",
+    "level": "Medium",
+    "filename": "2115_erect",
+    "id": "G",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "primitive_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "854",
+        "character": "廷",
+        "keyword": "royal court",
+        "level": null,
+        "filename": "854_royal_court",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "壬",
+            "keyword": "porter",
+            "level": null,
+            "filename": "primitive_porter",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "334",
+                "character": "士",
+                "keyword": "soldier",
+                "level": "Advanced",
+                "filename": "334_soldier",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "廴",
+            "keyword": "stretch",
+            "level": null,
+            "filename": "primitive_stretch",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

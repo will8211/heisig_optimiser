@@ -1,51 +1,60 @@
 {
-  "number": "2900",
-  "character": "驶",
-  "keyword": "maneuver",
-  "level": null,
-  "id": "G",
-  "requirements": [
-    {
-      "number": "1453",
-      "character": "马",
-      "keyword": "horse",
-      "level": "Elementary",
-      "id": "C",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧与－丨一",
-          "keyword": "pointed tail",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "630",
-      "character": "史",
-      "keyword": "history",
-      "level": "Advanced",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "囧史－口",
-          "keyword": "tucked under the arm",
-          "level": null,
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 3097,
+  "hierarchy": {
+    "number": "2900",
+    "character": "驶",
+    "keyword": "maneuver",
+    "level": null,
+    "filename": "2900_maneuver",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "1453",
+        "character": "马",
+        "keyword": "horse",
+        "level": "Elementary",
+        "filename": "1453_horse",
+        "id": "C",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧与－丨一",
+            "keyword": "pointed tail",
+            "level": null,
+            "filename": "primitive_pointed_tail",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "630",
+        "character": "史",
+        "keyword": "history",
+        "level": "Advanced",
+        "filename": "630_history",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "囧史－口",
+            "keyword": "tucked under the arm",
+            "level": null,
+            "filename": "primitive_tucked_under_the_arm",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

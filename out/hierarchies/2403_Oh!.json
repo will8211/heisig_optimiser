@@ -1,68 +1,79 @@
 {
-  "number": "2403",
-  "character": "哟",
-  "keyword": "Oh!",
-  "level": null,
-  "id": "I",
-  "requirements": [
-    {
-      "number": "11",
-      "character": "口",
-      "keyword": "mouth",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1090",
-      "character": "约",
-      "keyword": "make an appointment",
-      "level": "Medium",
-      "id": "H",
-      "requirements": [
-        {
-          "number": null,
-          "character": "纟",
-          "keyword": "thread",
-          "level": null,
-          "id": "D",
-          "requirements": [
-            {
-              "number": null,
-              "character": "厶",
-              "keyword": "elbow",
-              "level": null,
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "69",
-          "character": "勺",
-          "keyword": "ladle",
-          "level": "Medium",
-          "id": "G",
-          "requirements": [
-            {
-              "number": null,
-              "character": "勹",
-              "keyword": "bound up",
-              "level": null,
-              "id": "E",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "id": "F",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2578,
+  "hierarchy": {
+    "number": "2403",
+    "character": "哟",
+    "keyword": "Oh!",
+    "level": null,
+    "filename": "2403_Oh!",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "11",
+        "character": "口",
+        "keyword": "mouth",
+        "level": "Elementary",
+        "filename": "11_mouth",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1090",
+        "character": "约",
+        "keyword": "make an appointment",
+        "level": "Medium",
+        "filename": "1090_make_an_appointment",
+        "id": "H",
+        "requirements": [
+          {
+            "number": null,
+            "character": "纟",
+            "keyword": "thread",
+            "level": null,
+            "filename": "primitive_thread",
+            "id": "D",
+            "requirements": [
+              {
+                "number": null,
+                "character": "厶",
+                "keyword": "elbow",
+                "level": null,
+                "filename": "primitive_elbow",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "69",
+            "character": "勺",
+            "keyword": "ladle",
+            "level": "Medium",
+            "filename": "69_ladle",
+            "id": "G",
+            "requirements": [
+              {
+                "number": null,
+                "character": "勹",
+                "keyword": "bound up",
+                "level": null,
+                "filename": "primitive_bound_up",
+                "id": "E",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "F",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

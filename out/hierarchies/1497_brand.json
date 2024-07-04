@@ -1,50 +1,59 @@
 {
-  "number": "1497",
-  "character": "牌",
-  "keyword": "brand",
-  "level": "Medium",
-  "id": "G",
-  "requirements": [
-    {
-      "number": "986",
-      "character": "片",
-      "keyword": "slice",
-      "level": "Medium",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1496",
-      "character": "卑",
-      "keyword": "lowly",
-      "level": null,
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "14",
-          "character": "田",
-          "keyword": "rice field",
-          "level": "Medium",
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": "10",
-          "character": "十",
-          "keyword": "ten",
-          "level": "Elementary",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1637,
+  "hierarchy": {
+    "number": "1497",
+    "character": "牌",
+    "keyword": "brand",
+    "level": "Medium",
+    "filename": "1497_brand",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "986",
+        "character": "片",
+        "keyword": "slice",
+        "level": "Medium",
+        "filename": "986_slice",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1496",
+        "character": "卑",
+        "keyword": "lowly",
+        "level": null,
+        "filename": "1496_lowly",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "14",
+            "character": "田",
+            "keyword": "rice field",
+            "level": "Medium",
+            "filename": "14_rice_field",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": "10",
+            "character": "十",
+            "keyword": "ten",
+            "level": "Elementary",
+            "filename": "10_ten",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

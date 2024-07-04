@@ -1,51 +1,60 @@
 {
-  "number": "1748",
-  "character": "雹",
-  "keyword": "hail",
-  "level": null,
-  "id": "G",
-  "requirements": [
-    {
-      "number": "425",
-      "character": "雨",
-      "keyword": "rain",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "520",
-      "character": "包",
-      "keyword": "wrap",
-      "level": "Elementary",
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "勹",
-          "keyword": "bound up",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "519",
-          "character": "已",
-          "keyword": "already",
-          "level": "Medium",
-          "id": "E",
-          "requirements": [
-            {
-              "number": "515",
-              "character": "己",
-              "keyword": "self",
-              "level": "Medium",
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 1894,
+  "hierarchy": {
+    "number": "1748",
+    "character": "雹",
+    "keyword": "hail",
+    "level": null,
+    "filename": "1748_hail",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "425",
+        "character": "雨",
+        "keyword": "rain",
+        "level": "Elementary",
+        "filename": "425_rain",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "520",
+        "character": "包",
+        "keyword": "wrap",
+        "level": "Elementary",
+        "filename": "520_wrap",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "勹",
+            "keyword": "bound up",
+            "level": null,
+            "filename": "primitive_bound_up",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "519",
+            "character": "已",
+            "keyword": "already",
+            "level": "Medium",
+            "filename": "519_already",
+            "id": "E",
+            "requirements": [
+              {
+                "number": "515",
+                "character": "己",
+                "keyword": "self",
+                "level": "Medium",
+                "filename": "515_self",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

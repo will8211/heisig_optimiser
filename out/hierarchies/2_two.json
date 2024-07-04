@@ -1,17 +1,22 @@
 {
-  "number": "2",
-  "character": "二",
-  "keyword": "two",
-  "level": "Elementary",
-  "id": "C",
-  "requirements": [
-    {
-      "number": "1",
-      "character": "一",
-      "keyword": "one",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    }
-  ]
+  "order": 1,
+  "hierarchy": {
+    "number": "2",
+    "character": "二",
+    "keyword": "two",
+    "level": "Elementary",
+    "filename": "2_two",
+    "id": "C",
+    "requirements": [
+      {
+        "number": "1",
+        "character": "一",
+        "keyword": "one",
+        "level": "Elementary",
+        "filename": "1_one",
+        "id": "B",
+        "requirements": []
+      }
+    ]
+  }
 }

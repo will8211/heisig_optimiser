@@ -1,85 +1,98 @@
 {
-  "number": "1680",
-  "character": "猿",
-  "keyword": "ape",
-  "level": null,
-  "id": "K",
-  "requirements": [
-    {
-      "number": "404",
-      "character": "袁",
-      "keyword": "Yuan",
-      "level": null,
-      "id": "G",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧周－冂",
-          "keyword": "lidded crock",
-          "level": null,
-          "id": "D",
-          "requirements": [
-            {
-              "number": "158",
-              "character": "土",
-              "keyword": "soil",
-              "level": "Medium",
-              "id": "B",
-              "requirements": []
-            },
-            {
-              "number": "11",
-              "character": "口",
-              "keyword": "mouth",
-              "level": "Elementary",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "400",
-          "character": "衣",
-          "keyword": "clothing",
-          "level": "Elementary",
-          "id": "F",
-          "requirements": [
-            {
-              "number": null,
-              "character": "亠",
-              "keyword": "top hat",
-              "level": null,
-              "id": "E",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": "239",
-      "character": "犬",
-      "keyword": "pooch",
-      "level": null,
-      "id": "J",
-      "requirements": [
-        {
-          "number": "113",
-          "character": "大",
-          "keyword": "large",
-          "level": "Elementary",
-          "id": "H",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "id": "I",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1825,
+  "hierarchy": {
+    "number": "1680",
+    "character": "猿",
+    "keyword": "ape",
+    "level": null,
+    "filename": "1680_ape",
+    "id": "K",
+    "requirements": [
+      {
+        "number": "404",
+        "character": "袁",
+        "keyword": "Yuan",
+        "level": null,
+        "filename": "404_Yuan",
+        "id": "G",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧周－冂",
+            "keyword": "lidded crock",
+            "level": null,
+            "filename": "primitive_lidded_crock",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "158",
+                "character": "土",
+                "keyword": "soil",
+                "level": "Medium",
+                "filename": "158_soil",
+                "id": "B",
+                "requirements": []
+              },
+              {
+                "number": "11",
+                "character": "口",
+                "keyword": "mouth",
+                "level": "Elementary",
+                "filename": "11_mouth",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "400",
+            "character": "衣",
+            "keyword": "clothing",
+            "level": "Elementary",
+            "filename": "400_clothing",
+            "id": "F",
+            "requirements": [
+              {
+                "number": null,
+                "character": "亠",
+                "keyword": "top hat",
+                "level": null,
+                "filename": "primitive_top_hat",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": "239",
+        "character": "犬",
+        "keyword": "pooch",
+        "level": null,
+        "filename": "239_pooch",
+        "id": "J",
+        "requirements": [
+          {
+            "number": "113",
+            "character": "大",
+            "keyword": "large",
+            "level": "Elementary",
+            "filename": "113_large",
+            "id": "H",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "I",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

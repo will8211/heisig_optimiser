@@ -1,25 +1,31 @@
 {
-  "number": "318",
-  "character": "冗",
-  "keyword": "superfluous",
-  "level": null,
-  "id": "D",
-  "requirements": [
-    {
-      "number": null,
-      "character": "冖",
-      "keyword": "crown",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "57",
-      "character": "几",
-      "keyword": "how many?",
-      "level": "Elementary",
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 339,
+  "hierarchy": {
+    "number": "318",
+    "character": "冗",
+    "keyword": "superfluous",
+    "level": null,
+    "filename": "318_superfluous",
+    "id": "D",
+    "requirements": [
+      {
+        "number": null,
+        "character": "冖",
+        "keyword": "crown",
+        "level": null,
+        "filename": "primitive_crown",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "57",
+        "character": "几",
+        "keyword": "how many?",
+        "level": "Elementary",
+        "filename": "57_how_many",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

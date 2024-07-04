@@ -1,67 +1,78 @@
 {
-  "number": "1415",
-  "character": "穿",
-  "keyword": "pass through",
-  "level": "Elementary",
-  "id": "I",
-  "requirements": [
-    {
-      "number": "1070",
-      "character": "穴",
-      "keyword": "hole",
-      "level": null,
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "宀",
-          "keyword": "house",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "8",
-          "character": "八",
-          "keyword": "eight",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "囧只－口",
-          "keyword": "animal legs",
-          "level": null,
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "1414",
-      "character": "牙",
-      "keyword": "tooth",
-      "level": "Medium",
-      "id": "H",
-      "requirements": [
-        {
-          "number": null,
-          "character": "匚",
-          "keyword": "box",
-          "level": null,
-          "id": "F",
-          "requirements": []
-        },
-        {
-          "number": "1002",
-          "character": "矛",
-          "keyword": "spear",
-          "level": null,
-          "id": "G",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1543,
+  "hierarchy": {
+    "number": "1415",
+    "character": "穿",
+    "keyword": "pass through",
+    "level": "Elementary",
+    "filename": "1415_pass_through",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "1070",
+        "character": "穴",
+        "keyword": "hole",
+        "level": null,
+        "filename": "1070_hole",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "宀",
+            "keyword": "house",
+            "level": null,
+            "filename": "primitive_house",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "8",
+            "character": "八",
+            "keyword": "eight",
+            "level": "Elementary",
+            "filename": "8_eight",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "囧只－口",
+            "keyword": "animal legs",
+            "level": null,
+            "filename": "primitive_animal_legs",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "1414",
+        "character": "牙",
+        "keyword": "tooth",
+        "level": "Medium",
+        "filename": "1414_tooth",
+        "id": "H",
+        "requirements": [
+          {
+            "number": null,
+            "character": "匚",
+            "keyword": "box",
+            "level": null,
+            "filename": "primitive_box",
+            "id": "F",
+            "requirements": []
+          },
+          {
+            "number": "1002",
+            "character": "矛",
+            "keyword": "spear",
+            "level": null,
+            "filename": "1002_spear",
+            "id": "G",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

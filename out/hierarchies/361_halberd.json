@@ -1,17 +1,22 @@
 {
-  "number": "361",
-  "character": "戈",
-  "keyword": "halberd",
-  "level": null,
-  "id": "C",
-  "requirements": [
-    {
-      "number": null,
-      "character": "弋",
-      "keyword": "arrow",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    }
-  ]
+  "order": 388,
+  "hierarchy": {
+    "number": "361",
+    "character": "戈",
+    "keyword": "halberd",
+    "level": null,
+    "filename": "361_halberd",
+    "id": "C",
+    "requirements": [
+      {
+        "number": null,
+        "character": "弋",
+        "keyword": "arrow",
+        "level": null,
+        "filename": "primitive_arrow",
+        "id": "B",
+        "requirements": []
+      }
+    ]
+  }
 }

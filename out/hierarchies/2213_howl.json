@@ -1,59 +1,69 @@
 {
-  "number": "2213",
-  "character": "啸",
-  "keyword": "howl",
-  "level": null,
-  "id": "H",
-  "requirements": [
-    {
-      "number": "11",
-      "character": "口",
-      "keyword": "mouth",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "2212",
-      "character": "肃",
-      "keyword": "solemn",
-      "level": null,
-      "id": "G",
-      "requirements": [
-        {
-          "number": null,
-          "character": "肀",
-          "keyword": "rake",
-          "level": null,
-          "id": "D",
-          "requirements": [
-            {
-              "number": null,
-              "character": "彐",
-              "keyword": "broom",
-              "level": null,
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "囧只－口",
-          "keyword": "animal legs",
-          "level": null,
-          "id": "E",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "囧介－𠆢",
-          "keyword": "crutches",
-          "level": null,
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2378,
+  "hierarchy": {
+    "number": "2213",
+    "character": "啸",
+    "keyword": "howl",
+    "level": null,
+    "filename": "2213_howl",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "11",
+        "character": "口",
+        "keyword": "mouth",
+        "level": "Elementary",
+        "filename": "11_mouth",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "2212",
+        "character": "肃",
+        "keyword": "solemn",
+        "level": null,
+        "filename": "2212_solemn",
+        "id": "G",
+        "requirements": [
+          {
+            "number": null,
+            "character": "肀",
+            "keyword": "rake",
+            "level": null,
+            "filename": "primitive_rake",
+            "id": "D",
+            "requirements": [
+              {
+                "number": null,
+                "character": "彐",
+                "keyword": "broom",
+                "level": null,
+                "filename": "primitive_broom",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "囧只－口",
+            "keyword": "animal legs",
+            "level": null,
+            "filename": "primitive_animal_legs",
+            "id": "E",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "囧介－𠆢",
+            "keyword": "crutches",
+            "level": null,
+            "filename": "primitive_crutches",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

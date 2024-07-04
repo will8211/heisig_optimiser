@@ -1,76 +1,88 @@
 {
-  "number": "2323",
-  "character": "蹄",
-  "keyword": "hoof",
-  "level": null,
-  "id": "J",
-  "requirements": [
-    {
-      "number": "1048",
-      "character": "足",
-      "keyword": "lower leg",
-      "level": "Medium",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "379",
-          "character": "止",
-          "keyword": "stop",
-          "level": "Medium",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "449",
-      "character": "帝",
-      "keyword": "sovereign",
-      "level": null,
-      "id": "I",
-      "requirements": [
-        {
-          "number": "444",
-          "character": "立",
-          "keyword": "standing up",
-          "level": "Advanced",
-          "id": "E",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "囧冖＋巾",
-          "keyword": "apron",
-          "level": null,
-          "id": "H",
-          "requirements": [
-            {
-              "number": "410",
-              "character": "巾",
-              "keyword": "towel",
-              "level": "Advanced",
-              "id": "F",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "冖",
-              "keyword": "crown",
-              "level": null,
-              "id": "G",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2491,
+  "hierarchy": {
+    "number": "2323",
+    "character": "蹄",
+    "keyword": "hoof",
+    "level": null,
+    "filename": "2323_hoof",
+    "id": "J",
+    "requirements": [
+      {
+        "number": "1048",
+        "character": "足",
+        "keyword": "lower leg",
+        "level": "Medium",
+        "filename": "1048_lower_leg",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "379",
+            "character": "止",
+            "keyword": "stop",
+            "level": "Medium",
+            "filename": "379_stop",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "449",
+        "character": "帝",
+        "keyword": "sovereign",
+        "level": null,
+        "filename": "449_sovereign",
+        "id": "I",
+        "requirements": [
+          {
+            "number": "444",
+            "character": "立",
+            "keyword": "standing up",
+            "level": "Advanced",
+            "filename": "444_standing_up",
+            "id": "E",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "囧冖＋巾",
+            "keyword": "apron",
+            "level": null,
+            "filename": "primitive_apron",
+            "id": "H",
+            "requirements": [
+              {
+                "number": "410",
+                "character": "巾",
+                "keyword": "towel",
+                "level": "Advanced",
+                "filename": "410_towel",
+                "id": "F",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "冖",
+                "keyword": "crown",
+                "level": null,
+                "filename": "primitive_crown",
+                "id": "G",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

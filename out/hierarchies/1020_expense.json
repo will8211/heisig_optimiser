@@ -1,59 +1,69 @@
 {
-  "number": "1020",
-  "character": "费",
-  "keyword": "expense",
-  "level": "Advanced",
-  "id": "H",
-  "requirements": [
-    {
-      "number": null,
-      "character": "弗",
-      "keyword": "dollar sign",
-      "level": null,
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧介－𠆢",
-          "keyword": "crutches",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "1013",
-          "character": "弓",
-          "keyword": "bow",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "52",
-      "character": "贝",
-      "keyword": "shellfish",
-      "level": "Medium",
-      "id": "G",
-      "requirements": [
-        {
-          "number": "15",
-          "character": "目",
-          "keyword": "eye",
-          "level": "Medium",
-          "id": "E",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "囧只－口",
-          "keyword": "animal legs",
-          "level": null,
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1096,
+  "hierarchy": {
+    "number": "1020",
+    "character": "费",
+    "keyword": "expense",
+    "level": "Advanced",
+    "filename": "1020_expense",
+    "id": "H",
+    "requirements": [
+      {
+        "number": null,
+        "character": "弗",
+        "keyword": "dollar sign",
+        "level": null,
+        "filename": "primitive_dollar_sign",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧介－𠆢",
+            "keyword": "crutches",
+            "level": null,
+            "filename": "primitive_crutches",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "1013",
+            "character": "弓",
+            "keyword": "bow",
+            "level": null,
+            "filename": "1013_bow",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "52",
+        "character": "贝",
+        "keyword": "shellfish",
+        "level": "Medium",
+        "filename": "52_shellfish",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "15",
+            "character": "目",
+            "keyword": "eye",
+            "level": "Medium",
+            "filename": "15_eye",
+            "id": "E",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "囧只－口",
+            "keyword": "animal legs",
+            "level": null,
+            "filename": "primitive_animal_legs",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

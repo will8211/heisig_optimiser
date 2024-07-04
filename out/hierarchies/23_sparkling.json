@@ -1,17 +1,22 @@
 {
-  "number": "23",
-  "character": "晶",
-  "keyword": "sparkling",
-  "level": null,
-  "id": "C",
-  "requirements": [
-    {
-      "number": "12",
-      "character": "日",
-      "keyword": "day",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    }
-  ]
+  "order": 22,
+  "hierarchy": {
+    "number": "23",
+    "character": "晶",
+    "keyword": "sparkling",
+    "level": null,
+    "filename": "23_sparkling",
+    "id": "C",
+    "requirements": [
+      {
+        "number": "12",
+        "character": "日",
+        "keyword": "day",
+        "level": "Elementary",
+        "filename": "12_day",
+        "id": "B",
+        "requirements": []
+      }
+    ]
+  }
 }

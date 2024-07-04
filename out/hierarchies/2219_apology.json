@@ -1,60 +1,70 @@
 {
-  "number": "2219",
-  "character": "歉",
-  "keyword": "apology",
-  "level": null,
-  "id": "H",
-  "requirements": [
-    {
-      "number": "2215",
-      "character": "兼",
-      "keyword": "double",
-      "level": null,
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丷",
-          "keyword": "horns",
-          "level": null,
-          "id": "C",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "肀",
-          "keyword": "rake",
-          "level": null,
-          "id": "E",
-          "requirements": [
-            {
-              "number": null,
-              "character": "彐",
-              "keyword": "broom",
-              "level": null,
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": "474",
-      "character": "欠",
-      "keyword": "lack",
-      "level": "Medium",
-      "id": "G",
-      "requirements": []
-    }
-  ]
+  "order": 2384,
+  "hierarchy": {
+    "number": "2219",
+    "character": "歉",
+    "keyword": "apology",
+    "level": null,
+    "filename": "2219_apology",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "2215",
+        "character": "兼",
+        "keyword": "double",
+        "level": null,
+        "filename": "2215_double",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丷",
+            "keyword": "horns",
+            "level": null,
+            "filename": "primitive_horns",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "肀",
+            "keyword": "rake",
+            "level": null,
+            "filename": "primitive_rake",
+            "id": "E",
+            "requirements": [
+              {
+                "number": null,
+                "character": "彐",
+                "keyword": "broom",
+                "level": null,
+                "filename": "primitive_broom",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": "474",
+        "character": "欠",
+        "keyword": "lack",
+        "level": "Medium",
+        "filename": "474_lack",
+        "id": "G",
+        "requirements": []
+      }
+    ]
+  }
 }

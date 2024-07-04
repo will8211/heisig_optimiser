@@ -1,42 +1,50 @@
 {
-  "number": "1386",
-  "character": "帮",
-  "keyword": "help",
-  "level": "Elementary",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "1223",
-      "character": "丰",
-      "keyword": "plentiful",
-      "level": "Advanced",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "囧阝",
-      "keyword": "city walls",
-      "level": null,
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "阝",
-          "keyword": "pinnacle",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "410",
-      "character": "巾",
-      "keyword": "towel",
-      "level": "Advanced",
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 1510,
+  "hierarchy": {
+    "number": "1386",
+    "character": "帮",
+    "keyword": "help",
+    "level": "Elementary",
+    "filename": "1386_help",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "1223",
+        "character": "丰",
+        "keyword": "plentiful",
+        "level": "Advanced",
+        "filename": "1223_plentiful",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "囧阝",
+        "keyword": "city walls",
+        "level": null,
+        "filename": "primitive_city_walls",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "阝",
+            "keyword": "pinnacle",
+            "level": null,
+            "filename": "primitive_pinnacle",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "410",
+        "character": "巾",
+        "keyword": "towel",
+        "level": "Advanced",
+        "filename": "410_towel",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

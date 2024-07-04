@@ -1,25 +1,31 @@
 {
-  "number": "1127",
-  "character": "配",
-  "keyword": "distribute",
-  "level": "Advanced",
-  "id": "D",
-  "requirements": [
-    {
-      "number": null,
-      "character": "酉",
-      "keyword": "whiskey bottle",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "515",
-      "character": "己",
-      "keyword": "self",
-      "level": "Medium",
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 1220,
+  "hierarchy": {
+    "number": "1127",
+    "character": "配",
+    "keyword": "distribute",
+    "level": "Advanced",
+    "filename": "1127_distribute",
+    "id": "D",
+    "requirements": [
+      {
+        "number": null,
+        "character": "酉",
+        "keyword": "whiskey bottle",
+        "level": null,
+        "filename": "primitive_whiskey_bottle",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "515",
+        "character": "己",
+        "keyword": "self",
+        "level": "Medium",
+        "filename": "515_self",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

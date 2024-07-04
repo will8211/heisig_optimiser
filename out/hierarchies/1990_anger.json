@@ -1,42 +1,50 @@
 {
-  "number": "1990",
-  "character": "怒",
-  "keyword": "anger",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": "747",
-      "character": "奴",
-      "keyword": "slave",
-      "level": null,
-      "id": "D",
-      "requirements": [
-        {
-          "number": "102",
-          "character": "女",
-          "keyword": "woman",
-          "level": "Elementary",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "633",
-          "character": "又",
-          "keyword": "again",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "563",
-      "character": "心",
-      "keyword": "heart",
-      "level": "Medium",
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 2147,
+  "hierarchy": {
+    "number": "1990",
+    "character": "怒",
+    "keyword": "anger",
+    "level": null,
+    "filename": "1990_anger",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "747",
+        "character": "奴",
+        "keyword": "slave",
+        "level": null,
+        "filename": "747_slave",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "102",
+            "character": "女",
+            "keyword": "woman",
+            "level": "Elementary",
+            "filename": "102_woman",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "633",
+            "character": "又",
+            "keyword": "again",
+            "level": "Elementary",
+            "filename": "633_again",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "563",
+        "character": "心",
+        "keyword": "heart",
+        "level": "Medium",
+        "filename": "563_heart",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

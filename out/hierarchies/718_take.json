@@ -1,25 +1,31 @@
 {
-  "number": "718",
-  "character": "取",
-  "keyword": "take",
-  "level": "Medium",
-  "id": "D",
-  "requirements": [
-    {
-      "number": "717",
-      "character": "耳",
-      "keyword": "ear",
-      "level": "Medium",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "633",
-      "character": "又",
-      "keyword": "again",
-      "level": "Elementary",
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 778,
+  "hierarchy": {
+    "number": "718",
+    "character": "取",
+    "keyword": "take",
+    "level": "Medium",
+    "filename": "718_take",
+    "id": "D",
+    "requirements": [
+      {
+        "number": "717",
+        "character": "耳",
+        "keyword": "ear",
+        "level": "Medium",
+        "filename": "717_ear",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "633",
+        "character": "又",
+        "keyword": "again",
+        "level": "Elementary",
+        "filename": "633_again",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

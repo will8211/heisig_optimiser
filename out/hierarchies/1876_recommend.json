@@ -1,42 +1,50 @@
 {
-  "number": "1876",
-  "character": "荐",
-  "keyword": "recommend",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": null,
-      "character": "艹",
-      "keyword": "flower",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "623",
-      "character": "存",
-      "keyword": "deposit",
-      "level": "Advanced",
-      "id": "E",
-      "requirements": [
-        {
-          "number": "620",
-          "character": "才",
-          "keyword": "genius",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "97",
-          "character": "子",
-          "keyword": "child",
-          "level": "Elementary",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2030,
+  "hierarchy": {
+    "number": "1876",
+    "character": "荐",
+    "keyword": "recommend",
+    "level": null,
+    "filename": "1876_recommend",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "艹",
+        "keyword": "flower",
+        "level": null,
+        "filename": "primitive_flower",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "623",
+        "character": "存",
+        "keyword": "deposit",
+        "level": "Advanced",
+        "filename": "623_deposit",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "620",
+            "character": "才",
+            "keyword": "genius",
+            "level": "Elementary",
+            "filename": "620_genius",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "97",
+            "character": "子",
+            "keyword": "child",
+            "level": "Elementary",
+            "filename": "97_child",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

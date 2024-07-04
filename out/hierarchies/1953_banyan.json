@@ -1,67 +1,78 @@
 {
-  "number": "1953",
-  "character": "榕",
-  "keyword": "banyan",
-  "level": null,
-  "id": "I",
-  "requirements": [
-    {
-      "number": "202",
-      "character": "木",
-      "keyword": "tree",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "701",
-      "character": "容",
-      "keyword": "contain",
-      "level": "Advanced",
-      "id": "H",
-      "requirements": [
-        {
-          "number": null,
-          "character": "宀",
-          "keyword": "house",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "698",
-          "character": "谷",
-          "keyword": "valley",
-          "level": "Advanced",
-          "id": "G",
-          "requirements": [
-            {
-              "number": null,
-              "character": "囧只－口",
-              "keyword": "animal legs",
-              "level": null,
-              "id": "D",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "𠆢",
-              "keyword": "umbrella",
-              "level": null,
-              "id": "E",
-              "requirements": []
-            },
-            {
-              "number": "11",
-              "character": "口",
-              "keyword": "mouth",
-              "level": "Elementary",
-              "id": "F",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2109,
+  "hierarchy": {
+    "number": "1953",
+    "character": "榕",
+    "keyword": "banyan",
+    "level": null,
+    "filename": "1953_banyan",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "202",
+        "character": "木",
+        "keyword": "tree",
+        "level": "Elementary",
+        "filename": "202_tree",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "701",
+        "character": "容",
+        "keyword": "contain",
+        "level": "Advanced",
+        "filename": "701_contain",
+        "id": "H",
+        "requirements": [
+          {
+            "number": null,
+            "character": "宀",
+            "keyword": "house",
+            "level": null,
+            "filename": "primitive_house",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "698",
+            "character": "谷",
+            "keyword": "valley",
+            "level": "Advanced",
+            "filename": "698_valley",
+            "id": "G",
+            "requirements": [
+              {
+                "number": null,
+                "character": "囧只－口",
+                "keyword": "animal legs",
+                "level": null,
+                "filename": "primitive_animal_legs",
+                "id": "D",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "𠆢",
+                "keyword": "umbrella",
+                "level": null,
+                "filename": "primitive_umbrella",
+                "id": "E",
+                "requirements": []
+              },
+              {
+                "number": "11",
+                "character": "口",
+                "keyword": "mouth",
+                "level": "Elementary",
+                "filename": "11_mouth",
+                "id": "F",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

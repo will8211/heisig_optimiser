@@ -1,77 +1,89 @@
 {
-  "number": "1797",
-  "character": "惹",
-  "keyword": "provoke",
-  "level": null,
-  "id": "J",
-  "requirements": [
-    {
-      "number": null,
-      "character": "囧若",
-      "keyword": "Disneyland",
-      "level": null,
-      "id": "H",
-      "requirements": [
-        {
-          "number": "226",
-          "character": "若",
-          "keyword": "as if",
-          "level": null,
-          "id": "G",
-          "requirements": [
-            {
-              "number": null,
-              "character": "艹",
-              "keyword": "flower",
-              "level": null,
-              "id": "B",
-              "requirements": []
-            },
-            {
-              "number": "78",
-              "character": "右",
-              "keyword": "right",
-              "level": "Medium",
-              "id": "F",
-              "requirements": [
-                {
-                  "number": "11",
-                  "character": "口",
-                  "keyword": "mouth",
-                  "level": "Elementary",
-                  "id": "C",
-                  "requirements": []
-                },
-                {
-                  "number": null,
-                  "character": "𠂇",
-                  "keyword": "by one’s side",
-                  "level": null,
-                  "id": "E",
-                  "requirements": [
-                    {
-                      "number": "10",
-                      "character": "十",
-                      "keyword": "ten",
-                      "level": "Elementary",
-                      "id": "D",
-                      "requirements": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": "563",
-      "character": "心",
-      "keyword": "heart",
-      "level": "Medium",
-      "id": "I",
-      "requirements": []
-    }
-  ]
+  "order": 1947,
+  "hierarchy": {
+    "number": "1797",
+    "character": "惹",
+    "keyword": "provoke",
+    "level": null,
+    "filename": "1797_provoke",
+    "id": "J",
+    "requirements": [
+      {
+        "number": null,
+        "character": "囧若",
+        "keyword": "Disneyland",
+        "level": null,
+        "filename": "primitive_Disneyland",
+        "id": "H",
+        "requirements": [
+          {
+            "number": "226",
+            "character": "若",
+            "keyword": "as if",
+            "level": null,
+            "filename": "226_as_if",
+            "id": "G",
+            "requirements": [
+              {
+                "number": null,
+                "character": "艹",
+                "keyword": "flower",
+                "level": null,
+                "filename": "primitive_flower",
+                "id": "B",
+                "requirements": []
+              },
+              {
+                "number": "78",
+                "character": "右",
+                "keyword": "right",
+                "level": "Medium",
+                "filename": "78_right",
+                "id": "F",
+                "requirements": [
+                  {
+                    "number": "11",
+                    "character": "口",
+                    "keyword": "mouth",
+                    "level": "Elementary",
+                    "filename": "11_mouth",
+                    "id": "C",
+                    "requirements": []
+                  },
+                  {
+                    "number": null,
+                    "character": "𠂇",
+                    "keyword": "by one’s side",
+                    "level": null,
+                    "filename": "primitive_by_one’s_side",
+                    "id": "E",
+                    "requirements": [
+                      {
+                        "number": "10",
+                        "character": "十",
+                        "keyword": "ten",
+                        "level": "Elementary",
+                        "filename": "10_ten",
+                        "id": "D",
+                        "requirements": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": "563",
+        "character": "心",
+        "keyword": "heart",
+        "level": "Medium",
+        "filename": "563_heart",
+        "id": "I",
+        "requirements": []
+      }
+    ]
+  }
 }

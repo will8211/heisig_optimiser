@@ -1,42 +1,50 @@
 {
-  "number": "945",
-  "character": "寻",
-  "keyword": "seek",
-  "level": "Advanced",
-  "id": "F",
-  "requirements": [
-    {
-      "number": null,
-      "character": "彐",
-      "keyword": "broom",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "166",
-      "character": "寸",
-      "keyword": "Chinese inch",
-      "level": "Advanced",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "10",
-          "character": "十",
-          "keyword": "ten",
-          "level": "Elementary",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1014,
+  "hierarchy": {
+    "number": "945",
+    "character": "寻",
+    "keyword": "seek",
+    "level": "Advanced",
+    "filename": "945_seek",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "彐",
+        "keyword": "broom",
+        "level": null,
+        "filename": "primitive_broom",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "166",
+        "character": "寸",
+        "keyword": "Chinese inch",
+        "level": "Advanced",
+        "filename": "166_Chinese_inch",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "10",
+            "character": "十",
+            "keyword": "ten",
+            "level": "Elementary",
+            "filename": "10_ten",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

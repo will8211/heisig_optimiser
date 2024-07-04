@@ -1,42 +1,50 @@
 {
-  "number": "548",
-  "character": "固",
-  "keyword": "solid",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": null,
-      "character": "囗",
-      "keyword": "pent in",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "16",
-      "character": "古",
-      "keyword": "ancient",
-      "level": "Medium",
-      "id": "E",
-      "requirements": [
-        {
-          "number": "10",
-          "character": "十",
-          "keyword": "ten",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 597,
+  "hierarchy": {
+    "number": "548",
+    "character": "固",
+    "keyword": "solid",
+    "level": null,
+    "filename": "548_solid",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "囗",
+        "keyword": "pent in",
+        "level": null,
+        "filename": "primitive_pent_in",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "16",
+        "character": "古",
+        "keyword": "ancient",
+        "level": "Medium",
+        "filename": "16_ancient",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "10",
+            "character": "十",
+            "keyword": "ten",
+            "level": "Elementary",
+            "filename": "10_ten",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

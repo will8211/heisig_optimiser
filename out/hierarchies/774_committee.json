@@ -1,25 +1,31 @@
 {
-  "number": "774",
-  "character": "委",
-  "keyword": "committee",
-  "level": null,
-  "id": "D",
-  "requirements": [
-    {
-      "number": "762",
-      "character": "禾",
-      "keyword": "standing grain",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "102",
-      "character": "女",
-      "keyword": "woman",
-      "level": "Elementary",
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 835,
+  "hierarchy": {
+    "number": "774",
+    "character": "委",
+    "keyword": "committee",
+    "level": null,
+    "filename": "774_committee",
+    "id": "D",
+    "requirements": [
+      {
+        "number": "762",
+        "character": "禾",
+        "keyword": "standing grain",
+        "level": null,
+        "filename": "762_standing_grain",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "102",
+        "character": "女",
+        "keyword": "woman",
+        "level": "Elementary",
+        "filename": "102_woman",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

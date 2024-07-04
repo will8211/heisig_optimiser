@@ -1,25 +1,31 @@
 {
-  "number": "337",
-  "character": "学",
-  "keyword": "study",
-  "level": "Elementary",
-  "id": "D",
-  "requirements": [
-    {
-      "number": "97",
-      "character": "子",
-      "keyword": "child",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "囧学－子",
-      "keyword": "schoolhouse",
-      "level": null,
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 362,
+  "hierarchy": {
+    "number": "337",
+    "character": "学",
+    "keyword": "study",
+    "level": "Elementary",
+    "filename": "337_study",
+    "id": "D",
+    "requirements": [
+      {
+        "number": "97",
+        "character": "子",
+        "keyword": "child",
+        "level": "Elementary",
+        "filename": "97_child",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "囧学－子",
+        "keyword": "schoolhouse",
+        "level": null,
+        "filename": "primitive_schoolhouse",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

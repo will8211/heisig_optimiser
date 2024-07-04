@@ -1,25 +1,31 @@
 {
-  "number": "554",
-  "character": "回",
-  "keyword": "return",
-  "level": "Elementary",
-  "id": "D",
-  "requirements": [
-    {
-      "number": null,
-      "character": "囗",
-      "keyword": "pent in",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "11",
-      "character": "口",
-      "keyword": "mouth",
-      "level": "Elementary",
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 603,
+  "hierarchy": {
+    "number": "554",
+    "character": "回",
+    "keyword": "return",
+    "level": "Elementary",
+    "filename": "554_return",
+    "id": "D",
+    "requirements": [
+      {
+        "number": null,
+        "character": "囗",
+        "keyword": "pent in",
+        "level": null,
+        "filename": "primitive_pent_in",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "11",
+        "character": "口",
+        "keyword": "mouth",
+        "level": "Elementary",
+        "filename": "11_mouth",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

@@ -1,25 +1,31 @@
 {
-  "number": "398",
-  "character": "建",
-  "keyword": "build",
-  "level": "Advanced",
-  "id": "D",
-  "requirements": [
-    {
-      "number": null,
-      "character": "聿",
-      "keyword": "brush",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "廴",
-      "keyword": "stretch",
-      "level": null,
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 432,
+  "hierarchy": {
+    "number": "398",
+    "character": "建",
+    "keyword": "build",
+    "level": "Advanced",
+    "filename": "398_build",
+    "id": "D",
+    "requirements": [
+      {
+        "number": null,
+        "character": "聿",
+        "keyword": "brush",
+        "level": null,
+        "filename": "primitive_brush",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "廴",
+        "keyword": "stretch",
+        "level": null,
+        "filename": "primitive_stretch",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

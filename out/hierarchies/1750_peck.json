@@ -1,34 +1,41 @@
 {
-  "number": "1750",
-  "character": "啄",
-  "keyword": "peck",
-  "level": null,
-  "id": "E",
-  "requirements": [
-    {
-      "number": "11",
-      "character": "口",
-      "keyword": "mouth",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "豖",
-      "keyword": "hog-tied",
-      "level": null,
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "豕",
-          "keyword": "sow",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1897,
+  "hierarchy": {
+    "number": "1750",
+    "character": "啄",
+    "keyword": "peck",
+    "level": null,
+    "filename": "1750_peck",
+    "id": "E",
+    "requirements": [
+      {
+        "number": "11",
+        "character": "口",
+        "keyword": "mouth",
+        "level": "Elementary",
+        "filename": "11_mouth",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "豖",
+        "keyword": "hog-tied",
+        "level": null,
+        "filename": "primitive_hog-tied",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "豕",
+            "keyword": "sow",
+            "level": null,
+            "filename": "primitive_sow",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,17 +1,22 @@
 {
-  "number": "20",
-  "character": "朋",
-  "keyword": "companion",
-  "level": "Elementary",
-  "id": "C",
-  "requirements": [
-    {
-      "number": "13",
-      "character": "月",
-      "keyword": "month",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    }
-  ]
+  "order": 19,
+  "hierarchy": {
+    "number": "20",
+    "character": "朋",
+    "keyword": "companion",
+    "level": "Elementary",
+    "filename": "20_companion",
+    "id": "C",
+    "requirements": [
+      {
+        "number": "13",
+        "character": "月",
+        "keyword": "month",
+        "level": "Elementary",
+        "filename": "13_month",
+        "id": "B",
+        "requirements": []
+      }
+    ]
+  }
 }

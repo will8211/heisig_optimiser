@@ -1,42 +1,50 @@
 {
-  "number": "621",
-  "character": "财",
-  "keyword": "riches",
-  "level": "Advanced",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "52",
-      "character": "贝",
-      "keyword": "shellfish",
-      "level": "Medium",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "15",
-          "character": "目",
-          "keyword": "eye",
-          "level": "Medium",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "囧只－口",
-          "keyword": "animal legs",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "620",
-      "character": "才",
-      "keyword": "genius",
-      "level": "Elementary",
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 671,
+  "hierarchy": {
+    "number": "621",
+    "character": "财",
+    "keyword": "riches",
+    "level": "Advanced",
+    "filename": "621_riches",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "52",
+        "character": "贝",
+        "keyword": "shellfish",
+        "level": "Medium",
+        "filename": "52_shellfish",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "15",
+            "character": "目",
+            "keyword": "eye",
+            "level": "Medium",
+            "filename": "15_eye",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "囧只－口",
+            "keyword": "animal legs",
+            "level": null,
+            "filename": "primitive_animal_legs",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "620",
+        "character": "才",
+        "keyword": "genius",
+        "level": "Elementary",
+        "filename": "620_genius",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

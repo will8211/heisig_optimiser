@@ -1,59 +1,69 @@
 {
-  "number": "1830",
-  "character": "啪",
-  "keyword": "clapping sound",
-  "level": null,
-  "id": "H",
-  "requirements": [
-    {
-      "number": "11",
-      "character": "口",
-      "keyword": "mouth",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1829",
-      "character": "拍",
-      "keyword": "racquet",
-      "level": "Advanced",
-      "id": "G",
-      "requirements": [
-        {
-          "number": null,
-          "character": "扌",
-          "keyword": "fingers",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "34",
-          "character": "白",
-          "keyword": "white",
-          "level": "Elementary",
-          "id": "F",
-          "requirements": [
-            {
-              "number": "12",
-              "character": "日",
-              "keyword": "day",
-              "level": "Elementary",
-              "id": "D",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "id": "E",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 1981,
+  "hierarchy": {
+    "number": "1830",
+    "character": "啪",
+    "keyword": "clapping sound",
+    "level": null,
+    "filename": "1830_clapping_sound",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "11",
+        "character": "口",
+        "keyword": "mouth",
+        "level": "Elementary",
+        "filename": "11_mouth",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1829",
+        "character": "拍",
+        "keyword": "racquet",
+        "level": "Advanced",
+        "filename": "1829_racquet",
+        "id": "G",
+        "requirements": [
+          {
+            "number": null,
+            "character": "扌",
+            "keyword": "fingers",
+            "level": null,
+            "filename": "primitive_fingers",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "34",
+            "character": "白",
+            "keyword": "white",
+            "level": "Elementary",
+            "filename": "34_white",
+            "id": "F",
+            "requirements": [
+              {
+                "number": "12",
+                "character": "日",
+                "keyword": "day",
+                "level": "Elementary",
+                "filename": "12_day",
+                "id": "D",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,43 +1,51 @@
 {
-  "number": "1966",
-  "character": "残",
-  "keyword": "incomplete",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": "712",
-      "character": "歹",
-      "keyword": "malicious",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "戋",
-      "keyword": "float",
-      "level": null,
-      "id": "E",
-      "requirements": [
-        {
-          "number": "361",
-          "character": "戈",
-          "keyword": "halberd",
-          "level": null,
-          "id": "D",
-          "requirements": [
-            {
-              "number": null,
-              "character": "弋",
-              "keyword": "arrow",
-              "level": null,
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2122,
+  "hierarchy": {
+    "number": "1966",
+    "character": "残",
+    "keyword": "incomplete",
+    "level": null,
+    "filename": "1966_incomplete",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "712",
+        "character": "歹",
+        "keyword": "malicious",
+        "level": null,
+        "filename": "712_malicious",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "戋",
+        "keyword": "float",
+        "level": null,
+        "filename": "primitive_float",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "361",
+            "character": "戈",
+            "keyword": "halberd",
+            "level": null,
+            "filename": "361_halberd",
+            "id": "D",
+            "requirements": [
+              {
+                "number": null,
+                "character": "弋",
+                "keyword": "arrow",
+                "level": null,
+                "filename": "primitive_arrow",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

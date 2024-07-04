@@ -1,25 +1,31 @@
 {
-  "number": "1718",
-  "character": "炊",
-  "keyword": "cook",
-  "level": null,
-  "id": "D",
-  "requirements": [
-    {
-      "number": "170",
-      "character": "火",
-      "keyword": "fire",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "474",
-      "character": "欠",
-      "keyword": "lack",
-      "level": "Medium",
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 1863,
+  "hierarchy": {
+    "number": "1718",
+    "character": "炊",
+    "keyword": "cook",
+    "level": null,
+    "filename": "1718_cook",
+    "id": "D",
+    "requirements": [
+      {
+        "number": "170",
+        "character": "火",
+        "keyword": "fire",
+        "level": "Elementary",
+        "filename": "170_fire",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "474",
+        "character": "欠",
+        "keyword": "lack",
+        "level": "Medium",
+        "filename": "474_lack",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

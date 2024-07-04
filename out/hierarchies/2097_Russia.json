@@ -1,60 +1,70 @@
 {
-  "number": "2097",
-  "character": "俄",
-  "keyword": "Russia",
-  "level": null,
-  "id": "H",
-  "requirements": [
-    {
-      "number": "793",
-      "character": "人",
-      "keyword": "person",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "囧我",
-      "keyword": "miser",
-      "level": null,
-      "id": "G",
-      "requirements": [
-        {
-          "number": "588",
-          "character": "我",
-          "keyword": "I",
-          "level": "Elementary",
-          "id": "F",
-          "requirements": [
-            {
-              "number": "584",
-              "character": "手",
-              "keyword": "hand",
-              "level": "Elementary",
-              "id": "C",
-              "requirements": []
-            },
-            {
-              "number": "361",
-              "character": "戈",
-              "keyword": "halberd",
-              "level": null,
-              "id": "E",
-              "requirements": [
-                {
-                  "number": null,
-                  "character": "弋",
-                  "keyword": "arrow",
-                  "level": null,
-                  "id": "D",
-                  "requirements": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2258,
+  "hierarchy": {
+    "number": "2097",
+    "character": "俄",
+    "keyword": "Russia",
+    "level": null,
+    "filename": "2097_Russia",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "793",
+        "character": "人",
+        "keyword": "person",
+        "level": "Elementary",
+        "filename": "793_person",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "囧我",
+        "keyword": "miser",
+        "level": null,
+        "filename": "primitive_miser",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "588",
+            "character": "我",
+            "keyword": "I",
+            "level": "Elementary",
+            "filename": "588_I",
+            "id": "F",
+            "requirements": [
+              {
+                "number": "584",
+                "character": "手",
+                "keyword": "hand",
+                "level": "Elementary",
+                "filename": "584_hand",
+                "id": "C",
+                "requirements": []
+              },
+              {
+                "number": "361",
+                "character": "戈",
+                "keyword": "halberd",
+                "level": null,
+                "filename": "361_halberd",
+                "id": "E",
+                "requirements": [
+                  {
+                    "number": null,
+                    "character": "弋",
+                    "keyword": "arrow",
+                    "level": null,
+                    "filename": "primitive_arrow",
+                    "id": "D",
+                    "requirements": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

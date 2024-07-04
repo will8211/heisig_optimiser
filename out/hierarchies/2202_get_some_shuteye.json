@@ -1,58 +1,68 @@
 {
-  "number": "2202",
-  "character": "寝",
-  "keyword": "get some shuteye",
-  "level": null,
-  "id": "H",
-  "requirements": [
-    {
-      "number": null,
-      "character": "宀",
-      "keyword": "house",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "237",
-      "character": "兆",
-      "keyword": "portent",
-      "level": null,
-      "id": "C",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "囧浸－氵",
-      "keyword": "dunce",
-      "level": null,
-      "id": "G",
-      "requirements": [
-        {
-          "number": null,
-          "character": "彐",
-          "keyword": "broom",
-          "level": null,
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "冖",
-          "keyword": "crown",
-          "level": null,
-          "id": "E",
-          "requirements": []
-        },
-        {
-          "number": "633",
-          "character": "又",
-          "keyword": "again",
-          "level": "Elementary",
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2366,
+  "hierarchy": {
+    "number": "2202",
+    "character": "寝",
+    "keyword": "get some shuteye",
+    "level": null,
+    "filename": "2202_get_some_shuteye",
+    "id": "H",
+    "requirements": [
+      {
+        "number": null,
+        "character": "宀",
+        "keyword": "house",
+        "level": null,
+        "filename": "primitive_house",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "237",
+        "character": "兆",
+        "keyword": "portent",
+        "level": null,
+        "filename": "237_portent",
+        "id": "C",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "囧浸－氵",
+        "keyword": "dunce",
+        "level": null,
+        "filename": "primitive_dunce",
+        "id": "G",
+        "requirements": [
+          {
+            "number": null,
+            "character": "彐",
+            "keyword": "broom",
+            "level": null,
+            "filename": "primitive_broom",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "冖",
+            "keyword": "crown",
+            "level": null,
+            "filename": "primitive_crown",
+            "id": "E",
+            "requirements": []
+          },
+          {
+            "number": "633",
+            "character": "又",
+            "keyword": "again",
+            "level": "Elementary",
+            "filename": "633_again",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

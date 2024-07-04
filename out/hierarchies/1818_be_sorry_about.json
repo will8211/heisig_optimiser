@@ -1,51 +1,60 @@
 {
-  "number": "1818",
-  "character": "悔",
-  "keyword": "be sorry about",
-  "level": null,
-  "id": "G",
-  "requirements": [
-    {
-      "number": "563",
-      "character": "心",
-      "keyword": "heart",
-      "level": "Medium",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "467",
-      "character": "每",
-      "keyword": "every",
-      "level": "Elementary",
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "𠂉",
-          "keyword": "reclining",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "105",
-          "character": "母",
-          "keyword": "mother",
-          "level": "Advanced",
-          "id": "E",
-          "requirements": [
-            {
-              "number": "102",
-              "character": "女",
-              "keyword": "woman",
-              "level": "Elementary",
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 1968,
+  "hierarchy": {
+    "number": "1818",
+    "character": "悔",
+    "keyword": "be sorry about",
+    "level": null,
+    "filename": "1818_be_sorry_about",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "563",
+        "character": "心",
+        "keyword": "heart",
+        "level": "Medium",
+        "filename": "563_heart",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "467",
+        "character": "每",
+        "keyword": "every",
+        "level": "Elementary",
+        "filename": "467_every",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "𠂉",
+            "keyword": "reclining",
+            "level": null,
+            "filename": "primitive_reclining",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "105",
+            "character": "母",
+            "keyword": "mother",
+            "level": "Advanced",
+            "filename": "105_mother",
+            "id": "E",
+            "requirements": [
+              {
+                "number": "102",
+                "character": "女",
+                "keyword": "woman",
+                "level": "Elementary",
+                "filename": "102_woman",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

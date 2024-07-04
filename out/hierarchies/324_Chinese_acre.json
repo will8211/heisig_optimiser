@@ -1,25 +1,31 @@
 {
-  "number": "324",
-  "character": "亩",
-  "keyword": "Chinese acre",
-  "level": null,
-  "id": "D",
-  "requirements": [
-    {
-      "number": "14",
-      "character": "田",
-      "keyword": "rice field",
-      "level": "Medium",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "亠",
-      "keyword": "top hat",
-      "level": null,
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 347,
+  "hierarchy": {
+    "number": "324",
+    "character": "亩",
+    "keyword": "Chinese acre",
+    "level": null,
+    "filename": "324_Chinese_acre",
+    "id": "D",
+    "requirements": [
+      {
+        "number": "14",
+        "character": "田",
+        "keyword": "rice field",
+        "level": "Medium",
+        "filename": "14_rice_field",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "亠",
+        "keyword": "top hat",
+        "level": null,
+        "filename": "primitive_top_hat",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

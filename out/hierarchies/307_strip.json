@@ -1,25 +1,31 @@
 {
-  "number": "307",
-  "character": "条",
-  "keyword": "strip",
-  "level": "Medium",
-  "id": "D",
-  "requirements": [
-    {
-      "number": null,
-      "character": "夂",
-      "keyword": "walking legs",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "202",
-      "character": "木",
-      "keyword": "tree",
-      "level": "Elementary",
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 327,
+  "hierarchy": {
+    "number": "307",
+    "character": "条",
+    "keyword": "strip",
+    "level": "Medium",
+    "filename": "307_strip",
+    "id": "D",
+    "requirements": [
+      {
+        "number": null,
+        "character": "夂",
+        "keyword": "walking legs",
+        "level": null,
+        "filename": "primitive_walking_legs",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "202",
+        "character": "木",
+        "keyword": "tree",
+        "level": "Elementary",
+        "filename": "202_tree",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

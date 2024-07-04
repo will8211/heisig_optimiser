@@ -1,42 +1,50 @@
 {
-  "number": "1899",
-  "character": "烁",
-  "keyword": "luminous",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": "170",
-      "character": "火",
-      "keyword": "fire",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "662",
-      "character": "乐",
-      "keyword": "music",
-      "level": "Medium",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "𠂆",
-          "keyword": "drag",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "202",
-          "character": "木",
-          "keyword": "tree",
-          "level": "Elementary",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2053,
+  "hierarchy": {
+    "number": "1899",
+    "character": "烁",
+    "keyword": "luminous",
+    "level": null,
+    "filename": "1899_luminous",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "170",
+        "character": "火",
+        "keyword": "fire",
+        "level": "Elementary",
+        "filename": "170_fire",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "662",
+        "character": "乐",
+        "keyword": "music",
+        "level": "Medium",
+        "filename": "662_music",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "𠂆",
+            "keyword": "drag",
+            "level": null,
+            "filename": "primitive_drag",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "202",
+            "character": "木",
+            "keyword": "tree",
+            "level": "Elementary",
+            "filename": "202_tree",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

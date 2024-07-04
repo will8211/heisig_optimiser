@@ -1,42 +1,50 @@
 {
-  "number": "1744",
-  "character": "蚕",
-  "keyword": "silkworm",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": "436",
-      "character": "天",
-      "keyword": "heavens",
-      "level": "Elementary",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "113",
-          "character": "大",
-          "keyword": "large",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "509",
-      "character": "虫",
-      "keyword": "insect",
-      "level": "Medium",
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 1890,
+  "hierarchy": {
+    "number": "1744",
+    "character": "蚕",
+    "keyword": "silkworm",
+    "level": null,
+    "filename": "1744_silkworm",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "436",
+        "character": "天",
+        "keyword": "heavens",
+        "level": "Elementary",
+        "filename": "436_heavens",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "113",
+            "character": "大",
+            "keyword": "large",
+            "level": "Elementary",
+            "filename": "113_large",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "509",
+        "character": "虫",
+        "keyword": "insect",
+        "level": "Medium",
+        "filename": "509_insect",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

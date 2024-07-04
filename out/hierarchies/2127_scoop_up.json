@@ -1,59 +1,69 @@
 {
-  "number": "2127",
-  "character": "捞",
-  "keyword": "scoop up",
-  "level": null,
-  "id": "H",
-  "requirements": [
-    {
-      "number": null,
-      "character": "扌",
-      "keyword": "fingers",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "868",
-      "character": "劳",
-      "keyword": "labor",
-      "level": "Medium",
-      "id": "G",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧荣－木",
-          "keyword": "greenhouse",
-          "level": null,
-          "id": "E",
-          "requirements": [
-            {
-              "number": null,
-              "character": "宀",
-              "keyword": "house",
-              "level": null,
-              "id": "C",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "艹",
-              "keyword": "flower",
-              "level": null,
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "732",
-          "character": "力",
-          "keyword": "power",
-          "level": "Medium",
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2288,
+  "hierarchy": {
+    "number": "2127",
+    "character": "捞",
+    "keyword": "scoop up",
+    "level": null,
+    "filename": "2127_scoop_up",
+    "id": "H",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "primitive_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "868",
+        "character": "劳",
+        "keyword": "labor",
+        "level": "Medium",
+        "filename": "868_labor",
+        "id": "G",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧荣－木",
+            "keyword": "greenhouse",
+            "level": null,
+            "filename": "primitive_greenhouse",
+            "id": "E",
+            "requirements": [
+              {
+                "number": null,
+                "character": "宀",
+                "keyword": "house",
+                "level": null,
+                "filename": "primitive_house",
+                "id": "C",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "艹",
+                "keyword": "flower",
+                "level": null,
+                "filename": "primitive_flower",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "732",
+            "character": "力",
+            "keyword": "power",
+            "level": "Medium",
+            "filename": "732_power",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

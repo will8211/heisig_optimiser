@@ -1,34 +1,41 @@
 {
-  "number": "1351",
-  "character": "亚",
-  "keyword": "Asia",
-  "level": "Advanced",
-  "id": "E",
-  "requirements": [
-    {
-      "number": "1",
-      "character": "一",
-      "keyword": "one",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1349",
-      "character": "业",
-      "keyword": "profession",
-      "level": "Medium",
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "並",
-          "keyword": "side by side",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1471,
+  "hierarchy": {
+    "number": "1351",
+    "character": "亚",
+    "keyword": "Asia",
+    "level": "Advanced",
+    "filename": "1351_Asia",
+    "id": "E",
+    "requirements": [
+      {
+        "number": "1",
+        "character": "一",
+        "keyword": "one",
+        "level": "Elementary",
+        "filename": "1_one",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1349",
+        "character": "业",
+        "keyword": "profession",
+        "level": "Medium",
+        "filename": "1349_profession",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "並",
+            "keyword": "side by side",
+            "level": null,
+            "filename": "primitive_side_by_side",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

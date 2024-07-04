@@ -1,51 +1,60 @@
 {
-  "number": "1324",
-  "character": "唤",
-  "keyword": "call out",
-  "level": null,
-  "id": "G",
-  "requirements": [
-    {
-      "number": "11",
-      "character": "口",
-      "keyword": "mouth",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "奂",
-      "keyword": "Victorian lady",
-      "level": null,
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "勹",
-          "keyword": "bound up",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "1322",
-          "character": "央",
-          "keyword": "center",
-          "level": "Advanced",
-          "id": "E",
-          "requirements": [
-            {
-              "number": "113",
-              "character": "大",
-              "keyword": "large",
-              "level": "Elementary",
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 1442,
+  "hierarchy": {
+    "number": "1324",
+    "character": "唤",
+    "keyword": "call out",
+    "level": null,
+    "filename": "1324_call_out",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "11",
+        "character": "口",
+        "keyword": "mouth",
+        "level": "Elementary",
+        "filename": "11_mouth",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "奂",
+        "keyword": "Victorian lady",
+        "level": null,
+        "filename": "primitive_Victorian_lady",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "勹",
+            "keyword": "bound up",
+            "level": null,
+            "filename": "primitive_bound_up",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "1322",
+            "character": "央",
+            "keyword": "center",
+            "level": "Advanced",
+            "filename": "1322_center",
+            "id": "E",
+            "requirements": [
+              {
+                "number": "113",
+                "character": "大",
+                "keyword": "large",
+                "level": "Elementary",
+                "filename": "113_large",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

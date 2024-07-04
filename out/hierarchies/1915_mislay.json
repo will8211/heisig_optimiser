@@ -1,59 +1,69 @@
 {
-  "number": "1915",
-  "character": "丢",
-  "keyword": "mislay",
-  "level": "Medium",
-  "id": "H",
-  "requirements": [
-    {
-      "number": "39",
-      "character": "千",
-      "keyword": "thousand",
-      "level": "Medium",
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "10",
-          "character": "十",
-          "keyword": "ten",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "囧会－亼",
-      "keyword": "wall",
-      "level": null,
-      "id": "G",
-      "requirements": [
-        {
-          "number": null,
-          "character": "厶",
-          "keyword": "elbow",
-          "level": null,
-          "id": "E",
-          "requirements": []
-        },
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2070,
+  "hierarchy": {
+    "number": "1915",
+    "character": "丢",
+    "keyword": "mislay",
+    "level": "Medium",
+    "filename": "1915_mislay",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "39",
+        "character": "千",
+        "keyword": "thousand",
+        "level": "Medium",
+        "filename": "39_thousand",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "10",
+            "character": "十",
+            "keyword": "ten",
+            "level": "Elementary",
+            "filename": "10_ten",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "囧会－亼",
+        "keyword": "wall",
+        "level": null,
+        "filename": "primitive_wall",
+        "id": "G",
+        "requirements": [
+          {
+            "number": null,
+            "character": "厶",
+            "keyword": "elbow",
+            "level": null,
+            "filename": "primitive_elbow",
+            "id": "E",
+            "requirements": []
+          },
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

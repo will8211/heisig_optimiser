@@ -1,42 +1,50 @@
 {
-  "number": "1752",
-  "character": "遂",
-  "keyword": "satisfy",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": null,
-      "character": "丷",
-      "keyword": "horns",
-      "level": null,
-      "id": "C",
-      "requirements": [
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "豕",
-      "keyword": "sow",
-      "level": null,
-      "id": "D",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "辶",
-      "keyword": "road",
-      "level": null,
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 1899,
+  "hierarchy": {
+    "number": "1752",
+    "character": "遂",
+    "keyword": "satisfy",
+    "level": null,
+    "filename": "1752_satisfy",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "丷",
+        "keyword": "horns",
+        "level": null,
+        "filename": "primitive_horns",
+        "id": "C",
+        "requirements": [
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "豕",
+        "keyword": "sow",
+        "level": null,
+        "filename": "primitive_sow",
+        "id": "D",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "辶",
+        "keyword": "road",
+        "level": null,
+        "filename": "primitive_road",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

@@ -1,85 +1,98 @@
 {
-  "number": "2525",
-  "character": "饺",
-  "keyword": "dumpling",
-  "level": "Medium",
-  "id": "K",
-  "requirements": [
-    {
-      "number": "1154",
-      "character": "食",
-      "keyword": "food",
-      "level": "Medium",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "1151",
-          "character": "良",
-          "keyword": "high-quality",
-          "level": "Advanced",
-          "id": "D",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "id": "B",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "艮",
-              "keyword": "silver",
-              "level": null,
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "𠆢",
-          "keyword": "umbrella",
-          "level": null,
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "1044",
-      "character": "交",
-      "keyword": "mingle",
-      "level": "Medium",
-      "id": "J",
-      "requirements": [
-        {
-          "number": null,
-          "character": "亠",
-          "keyword": "top hat",
-          "level": null,
-          "id": "G",
-          "requirements": []
-        },
-        {
-          "number": "1043",
-          "character": "父",
-          "keyword": "father",
-          "level": "Medium",
-          "id": "I",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "id": "H",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2712,
+  "hierarchy": {
+    "number": "2525",
+    "character": "饺",
+    "keyword": "dumpling",
+    "level": "Medium",
+    "filename": "2525_dumpling",
+    "id": "K",
+    "requirements": [
+      {
+        "number": "1154",
+        "character": "食",
+        "keyword": "food",
+        "level": "Medium",
+        "filename": "1154_food",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "1151",
+            "character": "良",
+            "keyword": "high-quality",
+            "level": "Advanced",
+            "filename": "1151_high-quality",
+            "id": "D",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "B",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "艮",
+                "keyword": "silver",
+                "level": null,
+                "filename": "primitive_silver",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "𠆢",
+            "keyword": "umbrella",
+            "level": null,
+            "filename": "primitive_umbrella",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "1044",
+        "character": "交",
+        "keyword": "mingle",
+        "level": "Medium",
+        "filename": "1044_mingle",
+        "id": "J",
+        "requirements": [
+          {
+            "number": null,
+            "character": "亠",
+            "keyword": "top hat",
+            "level": null,
+            "filename": "primitive_top_hat",
+            "id": "G",
+            "requirements": []
+          },
+          {
+            "number": "1043",
+            "character": "父",
+            "keyword": "father",
+            "level": "Medium",
+            "filename": "1043_father",
+            "id": "I",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "H",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

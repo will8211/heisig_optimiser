@@ -1,85 +1,98 @@
 {
-  "number": "1319",
-  "character": "济",
-  "keyword": "relieve",
-  "level": "Advanced",
-  "id": "K",
-  "requirements": [
-    {
-      "number": "137",
-      "character": "水",
-      "keyword": "water",
-      "level": "Elementary",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丨",
-          "keyword": "walking stick",
-          "level": null,
-          "id": "C",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "1318",
-      "character": "齐",
-      "keyword": "identical",
-      "level": "Advanced",
-      "id": "J",
-      "requirements": [
-        {
-          "number": "1315",
-          "character": "文",
-          "keyword": "literature",
-          "level": "Elementary",
-          "id": "H",
-          "requirements": [
-            {
-              "number": null,
-              "character": "亠",
-              "keyword": "top hat",
-              "level": null,
-              "id": "F",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "㐅",
-              "keyword": "sheaf",
-              "level": null,
-              "id": "G",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "囧介－𠆢",
-          "keyword": "crutches",
-          "level": null,
-          "id": "I",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1435,
+  "hierarchy": {
+    "number": "1319",
+    "character": "济",
+    "keyword": "relieve",
+    "level": "Advanced",
+    "filename": "1319_relieve",
+    "id": "K",
+    "requirements": [
+      {
+        "number": "137",
+        "character": "水",
+        "keyword": "water",
+        "level": "Elementary",
+        "filename": "137_water",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丨",
+            "keyword": "walking stick",
+            "level": null,
+            "filename": "primitive_walking_stick",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "1318",
+        "character": "齐",
+        "keyword": "identical",
+        "level": "Advanced",
+        "filename": "1318_identical",
+        "id": "J",
+        "requirements": [
+          {
+            "number": "1315",
+            "character": "文",
+            "keyword": "literature",
+            "level": "Elementary",
+            "filename": "1315_literature",
+            "id": "H",
+            "requirements": [
+              {
+                "number": null,
+                "character": "亠",
+                "keyword": "top hat",
+                "level": null,
+                "filename": "primitive_top_hat",
+                "id": "F",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "㐅",
+                "keyword": "sheaf",
+                "level": null,
+                "filename": "primitive_sheaf",
+                "id": "G",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "囧介－𠆢",
+            "keyword": "crutches",
+            "level": null,
+            "filename": "primitive_crutches",
+            "id": "I",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

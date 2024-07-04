@@ -1,84 +1,97 @@
 {
-  "number": "2510",
-  "character": "嚼",
-  "keyword": "chew",
-  "level": null,
-  "id": "K",
-  "requirements": [
-    {
-      "number": "11",
-      "character": "口",
-      "keyword": "mouth",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "2509",
-      "character": "爵",
-      "keyword": "upper crust",
-      "level": null,
-      "id": "J",
-      "requirements": [
-        {
-          "number": "663",
-          "character": "爪",
-          "keyword": "claw",
-          "level": null,
-          "id": "D",
-          "requirements": [
-            {
-              "number": null,
-              "character": "𠂆",
-              "keyword": "drag",
-              "level": null,
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "15",
-          "character": "目",
-          "keyword": "eye",
-          "level": "Medium",
-          "id": "E",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "艮",
-          "keyword": "silver",
-          "level": null,
-          "id": "F",
-          "requirements": []
-        },
-        {
-          "number": "166",
-          "character": "寸",
-          "keyword": "Chinese inch",
-          "level": "Advanced",
-          "id": "I",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "id": "G",
-              "requirements": []
-            },
-            {
-              "number": "10",
-              "character": "十",
-              "keyword": "ten",
-              "level": "Elementary",
-              "id": "H",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2697,
+  "hierarchy": {
+    "number": "2510",
+    "character": "嚼",
+    "keyword": "chew",
+    "level": null,
+    "filename": "2510_chew",
+    "id": "K",
+    "requirements": [
+      {
+        "number": "11",
+        "character": "口",
+        "keyword": "mouth",
+        "level": "Elementary",
+        "filename": "11_mouth",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "2509",
+        "character": "爵",
+        "keyword": "upper crust",
+        "level": null,
+        "filename": "2509_upper_crust",
+        "id": "J",
+        "requirements": [
+          {
+            "number": "663",
+            "character": "爪",
+            "keyword": "claw",
+            "level": null,
+            "filename": "663_claw",
+            "id": "D",
+            "requirements": [
+              {
+                "number": null,
+                "character": "𠂆",
+                "keyword": "drag",
+                "level": null,
+                "filename": "primitive_drag",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "15",
+            "character": "目",
+            "keyword": "eye",
+            "level": "Medium",
+            "filename": "15_eye",
+            "id": "E",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "艮",
+            "keyword": "silver",
+            "level": null,
+            "filename": "primitive_silver",
+            "id": "F",
+            "requirements": []
+          },
+          {
+            "number": "166",
+            "character": "寸",
+            "keyword": "Chinese inch",
+            "level": "Advanced",
+            "filename": "166_Chinese_inch",
+            "id": "I",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "G",
+                "requirements": []
+              },
+              {
+                "number": "10",
+                "character": "十",
+                "keyword": "ten",
+                "level": "Elementary",
+                "filename": "10_ten",
+                "id": "H",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

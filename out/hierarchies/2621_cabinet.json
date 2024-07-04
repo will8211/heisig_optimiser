@@ -1,42 +1,50 @@
 {
-  "number": "2621",
-  "character": "阁",
-  "keyword": "cabinet",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": "1260",
-      "character": "门",
-      "keyword": "gate",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "309",
-      "character": "各",
-      "keyword": "each",
-      "level": "Medium",
-      "id": "E",
-      "requirements": [
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "夂",
-          "keyword": "walking legs",
-          "level": null,
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2810,
+  "hierarchy": {
+    "number": "2621",
+    "character": "阁",
+    "keyword": "cabinet",
+    "level": null,
+    "filename": "2621_cabinet",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "1260",
+        "character": "门",
+        "keyword": "gate",
+        "level": "Elementary",
+        "filename": "1260_gate",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "309",
+        "character": "各",
+        "keyword": "each",
+        "level": "Medium",
+        "filename": "309_each",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "夂",
+            "keyword": "walking legs",
+            "level": null,
+            "filename": "primitive_walking_legs",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

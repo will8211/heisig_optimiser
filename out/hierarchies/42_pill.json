@@ -1,17 +1,22 @@
 {
-  "number": "42",
-  "character": "丸",
-  "keyword": "pill",
-  "level": null,
-  "id": "C",
-  "requirements": [
-    {
-      "number": "9",
-      "character": "九",
-      "keyword": "nine",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    }
-  ]
+  "order": 43,
+  "hierarchy": {
+    "number": "42",
+    "character": "丸",
+    "keyword": "pill",
+    "level": null,
+    "filename": "42_pill",
+    "id": "C",
+    "requirements": [
+      {
+        "number": "9",
+        "character": "九",
+        "keyword": "nine",
+        "level": "Elementary",
+        "filename": "9_nine",
+        "id": "B",
+        "requirements": []
+      }
+    ]
+  }
 }

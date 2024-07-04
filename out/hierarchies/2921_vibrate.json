@@ -1,59 +1,69 @@
 {
-  "number": "2921",
-  "character": "振",
-  "keyword": "vibrate",
-  "level": null,
-  "id": "H",
-  "requirements": [
-    {
-      "number": null,
-      "character": "扌",
-      "keyword": "fingers",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1467",
-      "character": "辰",
-      "keyword": "sign of the dragon",
-      "level": null,
-      "id": "G",
-      "requirements": [
-        {
-          "number": "121",
-          "character": "厂",
-          "keyword": "factory",
-          "level": "Medium",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "2",
-          "character": "二",
-          "keyword": "two",
-          "level": "Elementary",
-          "id": "E",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "囧丧－十－丷",
-          "keyword": "barrette",
-          "level": null,
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 3120,
+  "hierarchy": {
+    "number": "2921",
+    "character": "振",
+    "keyword": "vibrate",
+    "level": null,
+    "filename": "2921_vibrate",
+    "id": "H",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "primitive_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1467",
+        "character": "辰",
+        "keyword": "sign of the dragon",
+        "level": null,
+        "filename": "1467_sign_of_the_dragon",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "121",
+            "character": "厂",
+            "keyword": "factory",
+            "level": "Medium",
+            "filename": "121_factory",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "2",
+            "character": "二",
+            "keyword": "two",
+            "level": "Elementary",
+            "filename": "2_two",
+            "id": "E",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "囧丧－十－丷",
+            "keyword": "barrette",
+            "level": null,
+            "filename": "primitive_barrette",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

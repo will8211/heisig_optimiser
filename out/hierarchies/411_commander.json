@@ -1,25 +1,31 @@
 {
-  "number": "411",
-  "character": "帅",
-  "keyword": "commander",
-  "level": "Advanced",
-  "id": "D",
-  "requirements": [
-    {
-      "number": "83",
-      "character": "刀",
-      "keyword": "sword",
-      "level": "Medium",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "410",
-      "character": "巾",
-      "keyword": "towel",
-      "level": "Advanced",
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 446,
+  "hierarchy": {
+    "number": "411",
+    "character": "帅",
+    "keyword": "commander",
+    "level": "Advanced",
+    "filename": "411_commander",
+    "id": "D",
+    "requirements": [
+      {
+        "number": "83",
+        "character": "刀",
+        "keyword": "sword",
+        "level": "Medium",
+        "filename": "83_sword",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "410",
+        "character": "巾",
+        "keyword": "towel",
+        "level": "Advanced",
+        "filename": "410_towel",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

@@ -1,42 +1,50 @@
 {
-  "number": "2712",
-  "character": "刘",
-  "keyword": "Liu",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": "1315",
-      "character": "文",
-      "keyword": "literature",
-      "level": "Elementary",
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "亠",
-          "keyword": "top hat",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "㐅",
-          "keyword": "sheaf",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "83",
-      "character": "刀",
-      "keyword": "sword",
-      "level": "Medium",
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 2905,
+  "hierarchy": {
+    "number": "2712",
+    "character": "刘",
+    "keyword": "Liu",
+    "level": null,
+    "filename": "2712_Liu",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "1315",
+        "character": "文",
+        "keyword": "literature",
+        "level": "Elementary",
+        "filename": "1315_literature",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "亠",
+            "keyword": "top hat",
+            "level": null,
+            "filename": "primitive_top_hat",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "㐅",
+            "keyword": "sheaf",
+            "level": null,
+            "filename": "primitive_sheaf",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "83",
+        "character": "刀",
+        "keyword": "sword",
+        "level": "Medium",
+        "filename": "83_sword",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

@@ -1,34 +1,41 @@
 {
-  "number": "2313",
-  "character": "斧",
-  "keyword": "axe",
-  "level": null,
-  "id": "E",
-  "requirements": [
-    {
-      "number": "1043",
-      "character": "父",
-      "keyword": "father",
-      "level": "Medium",
-      "id": "C",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "924",
-      "character": "斤",
-      "keyword": "catty",
-      "level": "Medium",
-      "id": "D",
-      "requirements": []
-    }
-  ]
+  "order": 2481,
+  "hierarchy": {
+    "number": "2313",
+    "character": "斧",
+    "keyword": "axe",
+    "level": null,
+    "filename": "2313_axe",
+    "id": "E",
+    "requirements": [
+      {
+        "number": "1043",
+        "character": "父",
+        "keyword": "father",
+        "level": "Medium",
+        "filename": "1043_father",
+        "id": "C",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "924",
+        "character": "斤",
+        "keyword": "catty",
+        "level": "Medium",
+        "filename": "924_catty",
+        "id": "D",
+        "requirements": []
+      }
+    ]
+  }
 }

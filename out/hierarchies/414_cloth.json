@@ -1,34 +1,41 @@
 {
-  "number": "414",
-  "character": "布",
-  "keyword": "cloth",
-  "level": "Advanced",
-  "id": "E",
-  "requirements": [
-    {
-      "number": null,
-      "character": "𠂇",
-      "keyword": "by one’s side",
-      "level": null,
-      "id": "C",
-      "requirements": [
-        {
-          "number": "10",
-          "character": "十",
-          "keyword": "ten",
-          "level": "Elementary",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "410",
-      "character": "巾",
-      "keyword": "towel",
-      "level": "Advanced",
-      "id": "D",
-      "requirements": []
-    }
-  ]
+  "order": 449,
+  "hierarchy": {
+    "number": "414",
+    "character": "布",
+    "keyword": "cloth",
+    "level": "Advanced",
+    "filename": "414_cloth",
+    "id": "E",
+    "requirements": [
+      {
+        "number": null,
+        "character": "𠂇",
+        "keyword": "by one’s side",
+        "level": null,
+        "filename": "primitive_by_one’s_side",
+        "id": "C",
+        "requirements": [
+          {
+            "number": "10",
+            "character": "十",
+            "keyword": "ten",
+            "level": "Elementary",
+            "filename": "10_ten",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "410",
+        "character": "巾",
+        "keyword": "towel",
+        "level": "Advanced",
+        "filename": "410_towel",
+        "id": "D",
+        "requirements": []
+      }
+    ]
+  }
 }

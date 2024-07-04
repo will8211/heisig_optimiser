@@ -1,25 +1,31 @@
 {
-  "number": "741",
-  "character": "男",
-  "keyword": "male",
-  "level": "Elementary",
-  "id": "D",
-  "requirements": [
-    {
-      "number": "14",
-      "character": "田",
-      "keyword": "rice field",
-      "level": "Medium",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "732",
-      "character": "力",
-      "keyword": "power",
-      "level": "Medium",
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 801,
+  "hierarchy": {
+    "number": "741",
+    "character": "男",
+    "keyword": "male",
+    "level": "Elementary",
+    "filename": "741_male",
+    "id": "D",
+    "requirements": [
+      {
+        "number": "14",
+        "character": "田",
+        "keyword": "rice field",
+        "level": "Medium",
+        "filename": "14_rice_field",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "732",
+        "character": "力",
+        "keyword": "power",
+        "level": "Medium",
+        "filename": "732_power",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

@@ -1,51 +1,60 @@
 {
-  "number": "2845",
-  "character": "邪",
-  "keyword": "wicked",
-  "level": null,
-  "id": "G",
-  "requirements": [
-    {
-      "number": "1414",
-      "character": "牙",
-      "keyword": "tooth",
-      "level": "Medium",
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "匚",
-          "keyword": "box",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "1002",
-          "character": "矛",
-          "keyword": "spear",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "囧阝",
-      "keyword": "city walls",
-      "level": null,
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "阝",
-          "keyword": "pinnacle",
-          "level": null,
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 3039,
+  "hierarchy": {
+    "number": "2845",
+    "character": "邪",
+    "keyword": "wicked",
+    "level": null,
+    "filename": "2845_wicked",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "1414",
+        "character": "牙",
+        "keyword": "tooth",
+        "level": "Medium",
+        "filename": "1414_tooth",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "匚",
+            "keyword": "box",
+            "level": null,
+            "filename": "primitive_box",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "1002",
+            "character": "矛",
+            "keyword": "spear",
+            "level": null,
+            "filename": "1002_spear",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "囧阝",
+        "keyword": "city walls",
+        "level": null,
+        "filename": "primitive_city_walls",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "阝",
+            "keyword": "pinnacle",
+            "level": null,
+            "filename": "primitive_pinnacle",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

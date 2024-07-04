@@ -1,101 +1,116 @@
 {
-  "number": "2558",
-  "character": "譬",
-  "keyword": "analogy",
-  "level": null,
-  "id": "M",
-  "requirements": [
-    {
-      "number": "1185",
-      "character": "辟",
-      "keyword": "repudiate",
-      "level": null,
-      "id": "G",
-      "requirements": [
-        {
-          "number": "882",
-          "character": "尸",
-          "keyword": "corpse",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "1183",
-          "character": "辛",
-          "keyword": "peppery",
-          "level": "Advanced",
-          "id": "F",
-          "requirements": [
-            {
-              "number": "444",
-              "character": "立",
-              "keyword": "standing up",
-              "level": "Advanced",
-              "id": "D",
-              "requirements": []
-            },
-            {
-              "number": "10",
-              "character": "十",
-              "keyword": "ten",
-              "level": "Elementary",
-              "id": "E",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": "346",
-      "character": "言",
-      "keyword": "say",
-      "level": "Medium",
-      "id": "L",
-      "requirements": [
-        {
-          "number": "2",
-          "character": "二",
-          "keyword": "two",
-          "level": "Elementary",
-          "id": "I",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "id": "H",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "id": "J",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "亠",
-          "keyword": "top hat",
-          "level": null,
-          "id": "K",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2745,
+  "hierarchy": {
+    "number": "2558",
+    "character": "譬",
+    "keyword": "analogy",
+    "level": null,
+    "filename": "2558_analogy",
+    "id": "M",
+    "requirements": [
+      {
+        "number": "1185",
+        "character": "辟",
+        "keyword": "repudiate",
+        "level": null,
+        "filename": "1185_repudiate",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "882",
+            "character": "尸",
+            "keyword": "corpse",
+            "level": null,
+            "filename": "882_corpse",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "1183",
+            "character": "辛",
+            "keyword": "peppery",
+            "level": "Advanced",
+            "filename": "1183_peppery",
+            "id": "F",
+            "requirements": [
+              {
+                "number": "444",
+                "character": "立",
+                "keyword": "standing up",
+                "level": "Advanced",
+                "filename": "444_standing_up",
+                "id": "D",
+                "requirements": []
+              },
+              {
+                "number": "10",
+                "character": "十",
+                "keyword": "ten",
+                "level": "Elementary",
+                "filename": "10_ten",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": "346",
+        "character": "言",
+        "keyword": "say",
+        "level": "Medium",
+        "filename": "346_say",
+        "id": "L",
+        "requirements": [
+          {
+            "number": "2",
+            "character": "二",
+            "keyword": "two",
+            "level": "Elementary",
+            "filename": "2_two",
+            "id": "I",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "H",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "J",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "亠",
+            "keyword": "top hat",
+            "level": null,
+            "filename": "primitive_top_hat",
+            "id": "K",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,34 +1,41 @@
 {
-  "number": "275",
-  "character": "全",
-  "keyword": "whole",
-  "level": "Medium",
-  "id": "E",
-  "requirements": [
-    {
-      "number": "265",
-      "character": "王",
-      "keyword": "king",
-      "level": "Medium",
-      "id": "C",
-      "requirements": [
-        {
-          "number": "76",
-          "character": "工",
-          "keyword": "work",
-          "level": "Elementary",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "𠆢",
-      "keyword": "umbrella",
-      "level": null,
-      "id": "D",
-      "requirements": []
-    }
-  ]
+  "order": 291,
+  "hierarchy": {
+    "number": "275",
+    "character": "全",
+    "keyword": "whole",
+    "level": "Medium",
+    "filename": "275_whole",
+    "id": "E",
+    "requirements": [
+      {
+        "number": "265",
+        "character": "王",
+        "keyword": "king",
+        "level": "Medium",
+        "filename": "265_king",
+        "id": "C",
+        "requirements": [
+          {
+            "number": "76",
+            "character": "工",
+            "keyword": "work",
+            "level": "Elementary",
+            "filename": "76_work",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "𠆢",
+        "keyword": "umbrella",
+        "level": null,
+        "filename": "primitive_umbrella",
+        "id": "D",
+        "requirements": []
+      }
+    ]
+  }
 }

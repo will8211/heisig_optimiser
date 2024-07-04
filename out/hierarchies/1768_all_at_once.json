@@ -1,25 +1,31 @@
 {
-  "number": "1768",
-  "character": "霍",
-  "keyword": "all at once",
-  "level": null,
-  "id": "D",
-  "requirements": [
-    {
-      "number": "425",
-      "character": "雨",
-      "keyword": "rain",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "隹",
-      "keyword": "turkey",
-      "level": null,
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 1916,
+  "hierarchy": {
+    "number": "1768",
+    "character": "霍",
+    "keyword": "all at once",
+    "level": null,
+    "filename": "1768_all_at_once",
+    "id": "D",
+    "requirements": [
+      {
+        "number": "425",
+        "character": "雨",
+        "keyword": "rain",
+        "level": "Elementary",
+        "filename": "425_rain",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "隹",
+        "keyword": "turkey",
+        "level": null,
+        "filename": "primitive_turkey",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

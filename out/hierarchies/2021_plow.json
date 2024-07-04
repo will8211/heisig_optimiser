@@ -1,42 +1,50 @@
 {
-  "number": "2021",
-  "character": "犁",
-  "keyword": "plow",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": "771",
-      "character": "利",
-      "keyword": "profit",
-      "level": "Medium",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "762",
-          "character": "禾",
-          "keyword": "standing grain",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "83",
-          "character": "刀",
-          "keyword": "sword",
-          "level": "Medium",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "252",
-      "character": "牛",
-      "keyword": "cow",
-      "level": "Elementary",
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 2178,
+  "hierarchy": {
+    "number": "2021",
+    "character": "犁",
+    "keyword": "plow",
+    "level": null,
+    "filename": "2021_plow",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "771",
+        "character": "利",
+        "keyword": "profit",
+        "level": "Medium",
+        "filename": "771_profit",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "762",
+            "character": "禾",
+            "keyword": "standing grain",
+            "level": null,
+            "filename": "762_standing_grain",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "83",
+            "character": "刀",
+            "keyword": "sword",
+            "level": "Medium",
+            "filename": "83_sword",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "252",
+        "character": "牛",
+        "keyword": "cow",
+        "level": "Elementary",
+        "filename": "252_cow",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

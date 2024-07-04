@@ -1,51 +1,60 @@
 {
-  "number": "2417",
-  "character": "慈",
-  "keyword": "kindhearted",
-  "level": null,
-  "id": "G",
-  "requirements": [
-    {
-      "number": null,
-      "character": "兹",
-      "keyword": "Mona Lisa",
-      "level": null,
-      "id": "E",
-      "requirements": [
-        {
-          "number": "2411",
-          "character": "玄",
-          "keyword": "mysterious",
-          "level": null,
-          "id": "D",
-          "requirements": [
-            {
-              "number": null,
-              "character": "亠",
-              "keyword": "top hat",
-              "level": null,
-              "id": "B",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "幺",
-              "keyword": "cocoon",
-              "level": null,
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": "563",
-      "character": "心",
-      "keyword": "heart",
-      "level": "Medium",
-      "id": "F",
-      "requirements": []
-    }
-  ]
+  "order": 2593,
+  "hierarchy": {
+    "number": "2417",
+    "character": "慈",
+    "keyword": "kindhearted",
+    "level": null,
+    "filename": "2417_kindhearted",
+    "id": "G",
+    "requirements": [
+      {
+        "number": null,
+        "character": "兹",
+        "keyword": "Mona Lisa",
+        "level": null,
+        "filename": "primitive_Mona_Lisa",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "2411",
+            "character": "玄",
+            "keyword": "mysterious",
+            "level": null,
+            "filename": "2411_mysterious",
+            "id": "D",
+            "requirements": [
+              {
+                "number": null,
+                "character": "亠",
+                "keyword": "top hat",
+                "level": null,
+                "filename": "primitive_top_hat",
+                "id": "B",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "幺",
+                "keyword": "cocoon",
+                "level": null,
+                "filename": "primitive_cocoon",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": "563",
+        "character": "心",
+        "keyword": "heart",
+        "level": "Medium",
+        "filename": "563_heart",
+        "id": "F",
+        "requirements": []
+      }
+    ]
+  }
 }

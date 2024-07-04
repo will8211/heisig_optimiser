@@ -1,42 +1,50 @@
 {
-  "number": "570",
-  "character": "恩",
-  "keyword": "kindness",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": "551",
-      "character": "因",
-      "keyword": "cause",
-      "level": "Elementary",
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囗",
-          "keyword": "pent in",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "113",
-          "character": "大",
-          "keyword": "large",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "563",
-      "character": "心",
-      "keyword": "heart",
-      "level": "Medium",
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 619,
+  "hierarchy": {
+    "number": "570",
+    "character": "恩",
+    "keyword": "kindness",
+    "level": null,
+    "filename": "570_kindness",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "551",
+        "character": "因",
+        "keyword": "cause",
+        "level": "Elementary",
+        "filename": "551_cause",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囗",
+            "keyword": "pent in",
+            "level": null,
+            "filename": "primitive_pent_in",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "113",
+            "character": "大",
+            "keyword": "large",
+            "level": "Elementary",
+            "filename": "113_large",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "563",
+        "character": "心",
+        "keyword": "heart",
+        "level": "Medium",
+        "filename": "563_heart",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

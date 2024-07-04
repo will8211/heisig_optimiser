@@ -1,67 +1,78 @@
 {
-  "number": "2546",
-  "character": "齿",
-  "keyword": "teeth",
-  "level": null,
-  "id": "I",
-  "requirements": [
-    {
-      "number": "379",
-      "character": "止",
-      "keyword": "stop",
-      "level": "Medium",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "793",
-      "character": "人",
-      "keyword": "person",
-      "level": "Elementary",
-      "id": "C",
-      "requirements": []
-    },
-    {
-      "number": "323",
-      "character": "坑",
-      "keyword": "pit",
-      "level": null,
-      "id": "H",
-      "requirements": [
-        {
-          "number": null,
-          "character": "亢",
-          "keyword": "whirlwind",
-          "level": null,
-          "id": "F",
-          "requirements": [
-            {
-              "number": null,
-              "character": "亠",
-              "keyword": "top hat",
-              "level": null,
-              "id": "D",
-              "requirements": []
-            },
-            {
-              "number": "57",
-              "character": "几",
-              "keyword": "how many?",
-              "level": "Elementary",
-              "id": "E",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "158",
-          "character": "土",
-          "keyword": "soil",
-          "level": "Medium",
-          "id": "G",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2733,
+  "hierarchy": {
+    "number": "2546",
+    "character": "齿",
+    "keyword": "teeth",
+    "level": null,
+    "filename": "2546_teeth",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "379",
+        "character": "止",
+        "keyword": "stop",
+        "level": "Medium",
+        "filename": "379_stop",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "793",
+        "character": "人",
+        "keyword": "person",
+        "level": "Elementary",
+        "filename": "793_person",
+        "id": "C",
+        "requirements": []
+      },
+      {
+        "number": "323",
+        "character": "坑",
+        "keyword": "pit",
+        "level": null,
+        "filename": "323_pit",
+        "id": "H",
+        "requirements": [
+          {
+            "number": null,
+            "character": "亢",
+            "keyword": "whirlwind",
+            "level": null,
+            "filename": "primitive_whirlwind",
+            "id": "F",
+            "requirements": [
+              {
+                "number": null,
+                "character": "亠",
+                "keyword": "top hat",
+                "level": null,
+                "filename": "primitive_top_hat",
+                "id": "D",
+                "requirements": []
+              },
+              {
+                "number": "57",
+                "character": "几",
+                "keyword": "how many?",
+                "level": "Elementary",
+                "filename": "57_how_many",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "158",
+            "character": "土",
+            "keyword": "soil",
+            "level": "Medium",
+            "filename": "158_soil",
+            "id": "G",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

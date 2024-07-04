@@ -1,25 +1,31 @@
 {
-  "number": "780",
-  "character": "迷",
-  "keyword": "lost",
-  "level": "Advanced",
-  "id": "D",
-  "requirements": [
-    {
-      "number": "778",
-      "character": "米",
-      "keyword": "rice",
-      "level": "Medium",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "辶",
-      "keyword": "road",
-      "level": null,
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 841,
+  "hierarchy": {
+    "number": "780",
+    "character": "迷",
+    "keyword": "lost",
+    "level": "Advanced",
+    "filename": "780_lost",
+    "id": "D",
+    "requirements": [
+      {
+        "number": "778",
+        "character": "米",
+        "keyword": "rice",
+        "level": "Medium",
+        "filename": "778_rice",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "辶",
+        "keyword": "road",
+        "level": null,
+        "filename": "primitive_road",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

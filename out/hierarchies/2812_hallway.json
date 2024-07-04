@@ -1,85 +1,98 @@
 {
-  "number": "2812",
-  "character": "廊",
-  "keyword": "hallway",
-  "level": null,
-  "id": "K",
-  "requirements": [
-    {
-      "number": "556",
-      "character": "广",
-      "keyword": "extensive",
-      "level": "Medium",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "121",
-          "character": "厂",
-          "keyword": "factory",
-          "level": "Medium",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "宀",
-          "keyword": "house",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "1385",
-      "character": "郎",
-      "keyword": "young man",
-      "level": null,
-      "id": "J",
-      "requirements": [
-        {
-          "number": "1151",
-          "character": "良",
-          "keyword": "high-quality",
-          "level": "Advanced",
-          "id": "G",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "id": "E",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "艮",
-              "keyword": "silver",
-              "level": null,
-              "id": "F",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "囧阝",
-          "keyword": "city walls",
-          "level": null,
-          "id": "I",
-          "requirements": [
-            {
-              "number": null,
-              "character": "阝",
-              "keyword": "pinnacle",
-              "level": null,
-              "id": "H",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 3006,
+  "hierarchy": {
+    "number": "2812",
+    "character": "廊",
+    "keyword": "hallway",
+    "level": null,
+    "filename": "2812_hallway",
+    "id": "K",
+    "requirements": [
+      {
+        "number": "556",
+        "character": "广",
+        "keyword": "extensive",
+        "level": "Medium",
+        "filename": "556_extensive",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "121",
+            "character": "厂",
+            "keyword": "factory",
+            "level": "Medium",
+            "filename": "121_factory",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "宀",
+            "keyword": "house",
+            "level": null,
+            "filename": "primitive_house",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "1385",
+        "character": "郎",
+        "keyword": "young man",
+        "level": null,
+        "filename": "1385_young_man",
+        "id": "J",
+        "requirements": [
+          {
+            "number": "1151",
+            "character": "良",
+            "keyword": "high-quality",
+            "level": "Advanced",
+            "filename": "1151_high-quality",
+            "id": "G",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "E",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "艮",
+                "keyword": "silver",
+                "level": null,
+                "filename": "primitive_silver",
+                "id": "F",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "囧阝",
+            "keyword": "city walls",
+            "level": null,
+            "filename": "primitive_city_walls",
+            "id": "I",
+            "requirements": [
+              {
+                "number": null,
+                "character": "阝",
+                "keyword": "pinnacle",
+                "level": null,
+                "filename": "primitive_pinnacle",
+                "id": "H",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

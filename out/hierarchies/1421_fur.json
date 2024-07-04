@@ -1,17 +1,22 @@
 {
-  "number": "1421",
-  "character": "毛",
-  "keyword": "fur",
-  "level": "Medium",
-  "id": "C",
-  "requirements": [
-    {
-      "number": "584",
-      "character": "手",
-      "keyword": "hand",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    }
-  ]
+  "order": 1550,
+  "hierarchy": {
+    "number": "1421",
+    "character": "毛",
+    "keyword": "fur",
+    "level": "Medium",
+    "filename": "1421_fur",
+    "id": "C",
+    "requirements": [
+      {
+        "number": "584",
+        "character": "手",
+        "keyword": "hand",
+        "level": "Elementary",
+        "filename": "584_hand",
+        "id": "B",
+        "requirements": []
+      }
+    ]
+  }
 }

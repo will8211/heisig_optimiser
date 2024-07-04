@@ -1,68 +1,79 @@
 {
-  "number": "1958",
-  "character": "膛",
-  "keyword": "chest",
-  "level": null,
-  "id": "I",
-  "requirements": [
-    {
-      "number": "13",
-      "character": "月",
-      "keyword": "month",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "706",
-      "character": "堂",
-      "keyword": "main room",
-      "level": "Medium",
-      "id": "H",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧赏－贝",
-          "keyword": "outhouse",
-          "level": null,
-          "id": "F",
-          "requirements": [
-            {
-              "number": "109",
-              "character": "小",
-              "keyword": "small",
-              "level": "Elementary",
-              "id": "D",
-              "requirements": [
-                {
-                  "number": null,
-                  "character": "丶",
-                  "keyword": "a drop of",
-                  "level": null,
-                  "id": "C",
-                  "requirements": []
-                }
-              ]
-            },
-            {
-              "number": "11",
-              "character": "口",
-              "keyword": "mouth",
-              "level": "Elementary",
-              "id": "E",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "158",
-          "character": "土",
-          "keyword": "soil",
-          "level": "Medium",
-          "id": "G",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2114,
+  "hierarchy": {
+    "number": "1958",
+    "character": "膛",
+    "keyword": "chest",
+    "level": null,
+    "filename": "1958_chest",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "13",
+        "character": "月",
+        "keyword": "month",
+        "level": "Elementary",
+        "filename": "13_month",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "706",
+        "character": "堂",
+        "keyword": "main room",
+        "level": "Medium",
+        "filename": "706_main_room",
+        "id": "H",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧赏－贝",
+            "keyword": "outhouse",
+            "level": null,
+            "filename": "primitive_outhouse",
+            "id": "F",
+            "requirements": [
+              {
+                "number": "109",
+                "character": "小",
+                "keyword": "small",
+                "level": "Elementary",
+                "filename": "109_small",
+                "id": "D",
+                "requirements": [
+                  {
+                    "number": null,
+                    "character": "丶",
+                    "keyword": "a drop of",
+                    "level": null,
+                    "filename": "primitive_a_drop_of",
+                    "id": "C",
+                    "requirements": []
+                  }
+                ]
+              },
+              {
+                "number": "11",
+                "character": "口",
+                "keyword": "mouth",
+                "level": "Elementary",
+                "filename": "11_mouth",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "158",
+            "character": "土",
+            "keyword": "soil",
+            "level": "Medium",
+            "filename": "158_soil",
+            "id": "G",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,77 +1,89 @@
 {
-  "number": "2467",
-  "character": "浆",
-  "keyword": "thick liquid",
-  "level": null,
-  "id": "J",
-  "requirements": [
-    {
-      "number": null,
-      "character": "囧酱－酉",
-      "keyword": "chocolate turtle",
-      "level": null,
-      "id": "E",
-      "requirements": [
-        {
-          "number": "237",
-          "character": "兆",
-          "keyword": "portent",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "115",
-          "character": "夕",
-          "keyword": "evening",
-          "level": "Advanced",
-          "id": "D",
-          "requirements": [
-            {
-              "number": "13",
-              "character": "月",
-              "keyword": "month",
-              "level": "Elementary",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": "137",
-      "character": "水",
-      "keyword": "water",
-      "level": "Elementary",
-      "id": "I",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丨",
-          "keyword": "walking stick",
-          "level": null,
-          "id": "G",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "id": "F",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "id": "H",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2649,
+  "hierarchy": {
+    "number": "2467",
+    "character": "浆",
+    "keyword": "thick liquid",
+    "level": null,
+    "filename": "2467_thick_liquid",
+    "id": "J",
+    "requirements": [
+      {
+        "number": null,
+        "character": "囧酱－酉",
+        "keyword": "chocolate turtle",
+        "level": null,
+        "filename": "primitive_chocolate_turtle",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "237",
+            "character": "兆",
+            "keyword": "portent",
+            "level": null,
+            "filename": "237_portent",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "115",
+            "character": "夕",
+            "keyword": "evening",
+            "level": "Advanced",
+            "filename": "115_evening",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "13",
+                "character": "月",
+                "keyword": "month",
+                "level": "Elementary",
+                "filename": "13_month",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": "137",
+        "character": "水",
+        "keyword": "water",
+        "level": "Elementary",
+        "filename": "137_water",
+        "id": "I",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丨",
+            "keyword": "walking stick",
+            "level": null,
+            "filename": "primitive_walking_stick",
+            "id": "G",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "F",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "H",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

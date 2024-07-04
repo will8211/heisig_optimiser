@@ -1,51 +1,60 @@
 {
-  "number": "2292",
-  "character": "愕",
-  "keyword": "stunned",
-  "level": null,
-  "id": "G",
-  "requirements": [
-    {
-      "number": "563",
-      "character": "心",
-      "keyword": "heart",
-      "level": "Medium",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "吅",
-      "keyword": "chatterbox",
-      "level": null,
-      "id": "D",
-      "requirements": [
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "2286",
-      "character": "亏",
-      "keyword": "loss",
-      "level": "Advanced",
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丂",
-          "keyword": "snare",
-          "level": null,
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2460,
+  "hierarchy": {
+    "number": "2292",
+    "character": "愕",
+    "keyword": "stunned",
+    "level": null,
+    "filename": "2292_stunned",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "563",
+        "character": "心",
+        "keyword": "heart",
+        "level": "Medium",
+        "filename": "563_heart",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "吅",
+        "keyword": "chatterbox",
+        "level": null,
+        "filename": "primitive_chatterbox",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "2286",
+        "character": "亏",
+        "keyword": "loss",
+        "level": "Advanced",
+        "filename": "2286_loss",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丂",
+            "keyword": "snare",
+            "level": null,
+            "filename": "primitive_snare",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

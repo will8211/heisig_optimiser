@@ -1,0 +1,60 @@
+{
+  "order": 323,
+  "hierarchy": {
+    "number": null,
+    "character": "俞",
+    "keyword": "slaughterhouse",
+    "level": null,
+    "filename": "primitive_slaughterhouse",
+    "id": "G",
+    "requirements": [
+      {
+        "number": null,
+        "character": "亼",
+        "keyword": "meeting",
+        "level": null,
+        "filename": "primitive_meeting",
+        "id": "C",
+        "requirements": [
+          {
+            "number": null,
+            "character": "𠆢",
+            "keyword": "umbrella",
+            "level": null,
+            "filename": "primitive_umbrella",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "刖",
+        "keyword": "butcher",
+        "level": null,
+        "filename": "primitive_butcher",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "13",
+            "character": "月",
+            "keyword": "month",
+            "level": "Elementary",
+            "filename": "13_month",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": "83",
+            "character": "刀",
+            "keyword": "sword",
+            "level": "Medium",
+            "filename": "83_sword",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
+}

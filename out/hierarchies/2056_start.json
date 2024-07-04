@@ -1,51 +1,60 @@
 {
-  "number": "2056",
-  "character": "倡",
-  "keyword": "start",
-  "level": null,
-  "id": "G",
-  "requirements": [
-    {
-      "number": "793",
-      "character": "人",
-      "keyword": "person",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "25",
-      "character": "昌",
-      "keyword": "prosperous",
-      "level": "Advanced",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "12",
-          "character": "日",
-          "keyword": "day",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "23",
-          "character": "晶",
-          "keyword": "sparkling",
-          "level": null,
-          "id": "E",
-          "requirements": [
-            {
-              "number": "12",
-              "character": "日",
-              "keyword": "day",
-              "level": "Elementary",
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2217,
+  "hierarchy": {
+    "number": "2056",
+    "character": "倡",
+    "keyword": "start",
+    "level": null,
+    "filename": "2056_start",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "793",
+        "character": "人",
+        "keyword": "person",
+        "level": "Elementary",
+        "filename": "793_person",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "25",
+        "character": "昌",
+        "keyword": "prosperous",
+        "level": "Advanced",
+        "filename": "25_prosperous",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "12",
+            "character": "日",
+            "keyword": "day",
+            "level": "Elementary",
+            "filename": "12_day",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "23",
+            "character": "晶",
+            "keyword": "sparkling",
+            "level": null,
+            "filename": "23_sparkling",
+            "id": "E",
+            "requirements": [
+              {
+                "number": "12",
+                "character": "日",
+                "keyword": "day",
+                "level": "Elementary",
+                "filename": "12_day",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

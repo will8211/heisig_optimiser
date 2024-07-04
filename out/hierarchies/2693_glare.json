@@ -1,102 +1,117 @@
 {
-  "number": "2693",
-  "character": "瞪",
-  "keyword": "glare",
-  "level": null,
-  "id": "M",
-  "requirements": [
-    {
-      "number": "15",
-      "character": "目",
-      "keyword": "eye",
-      "level": "Medium",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "囧登",
-      "keyword": "stepladder",
-      "level": null,
-      "id": "L",
-      "requirements": [
-        {
-          "number": "1301",
-          "character": "登",
-          "keyword": "ascend",
-          "level": null,
-          "id": "K",
-          "requirements": [
-            {
-              "number": "224",
-              "character": "桌",
-              "keyword": "table",
-              "level": "Medium",
-              "id": "I",
-              "requirements": [
-                {
-                  "number": "202",
-                  "character": "木",
-                  "keyword": "tree",
-                  "level": "Elementary",
-                  "id": "C",
-                  "requirements": []
-                },
-                {
-                  "number": "12",
-                  "character": "日",
-                  "keyword": "day",
-                  "level": "Elementary",
-                  "id": "D",
-                  "requirements": []
-                },
-                {
-                  "number": "43",
-                  "character": "卜",
-                  "keyword": "divination",
-                  "level": null,
-                  "id": "H",
-                  "requirements": [
-                    {
-                      "number": null,
-                      "character": "丨",
-                      "keyword": "walking stick",
-                      "level": null,
-                      "id": "F",
-                      "requirements": [
-                        {
-                          "number": "1",
-                          "character": "一",
-                          "keyword": "one",
-                          "level": "Elementary",
-                          "id": "E",
-                          "requirements": []
-                        }
-                      ]
-                    },
-                    {
-                      "number": null,
-                      "character": "丶",
-                      "keyword": "a drop of",
-                      "level": null,
-                      "id": "G",
-                      "requirements": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "number": null,
-              "character": "癶",
-              "keyword": "teepee",
-              "level": null,
-              "id": "J",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2883,
+  "hierarchy": {
+    "number": "2693",
+    "character": "瞪",
+    "keyword": "glare",
+    "level": null,
+    "filename": "2693_glare",
+    "id": "M",
+    "requirements": [
+      {
+        "number": "15",
+        "character": "目",
+        "keyword": "eye",
+        "level": "Medium",
+        "filename": "15_eye",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "囧登",
+        "keyword": "stepladder",
+        "level": null,
+        "filename": "primitive_stepladder",
+        "id": "L",
+        "requirements": [
+          {
+            "number": "1301",
+            "character": "登",
+            "keyword": "ascend",
+            "level": null,
+            "filename": "1301_ascend",
+            "id": "K",
+            "requirements": [
+              {
+                "number": "224",
+                "character": "桌",
+                "keyword": "table",
+                "level": "Medium",
+                "filename": "224_table",
+                "id": "I",
+                "requirements": [
+                  {
+                    "number": "202",
+                    "character": "木",
+                    "keyword": "tree",
+                    "level": "Elementary",
+                    "filename": "202_tree",
+                    "id": "C",
+                    "requirements": []
+                  },
+                  {
+                    "number": "12",
+                    "character": "日",
+                    "keyword": "day",
+                    "level": "Elementary",
+                    "filename": "12_day",
+                    "id": "D",
+                    "requirements": []
+                  },
+                  {
+                    "number": "43",
+                    "character": "卜",
+                    "keyword": "divination",
+                    "level": null,
+                    "filename": "43_divination",
+                    "id": "H",
+                    "requirements": [
+                      {
+                        "number": null,
+                        "character": "丨",
+                        "keyword": "walking stick",
+                        "level": null,
+                        "filename": "primitive_walking_stick",
+                        "id": "F",
+                        "requirements": [
+                          {
+                            "number": "1",
+                            "character": "一",
+                            "keyword": "one",
+                            "level": "Elementary",
+                            "filename": "1_one",
+                            "id": "E",
+                            "requirements": []
+                          }
+                        ]
+                      },
+                      {
+                        "number": null,
+                        "character": "丶",
+                        "keyword": "a drop of",
+                        "level": null,
+                        "filename": "primitive_a_drop_of",
+                        "id": "G",
+                        "requirements": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "number": null,
+                "character": "癶",
+                "keyword": "teepee",
+                "level": null,
+                "filename": "primitive_teepee",
+                "id": "J",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,76 +1,88 @@
 {
-  "number": "1100",
-  "character": "紧",
-  "keyword": "tight",
-  "level": "Advanced",
-  "id": "J",
-  "requirements": [
-    {
-      "number": "1011",
-      "character": "坚",
-      "keyword": "firm",
-      "level": "Advanced",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧坚－圣",
-          "keyword": "fencing foil",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "633",
-          "character": "又",
-          "keyword": "again",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "158",
-          "character": "土",
-          "keyword": "soil",
-          "level": "Medium",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "糸",
-      "keyword": "floss",
-      "level": null,
-      "id": "I",
-      "requirements": [
-        {
-          "number": null,
-          "character": "幺",
-          "keyword": "cocoon",
-          "level": null,
-          "id": "F",
-          "requirements": []
-        },
-        {
-          "number": "109",
-          "character": "小",
-          "keyword": "small",
-          "level": "Elementary",
-          "id": "H",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "id": "G",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 1186,
+  "hierarchy": {
+    "number": "1100",
+    "character": "紧",
+    "keyword": "tight",
+    "level": "Advanced",
+    "filename": "1100_tight",
+    "id": "J",
+    "requirements": [
+      {
+        "number": "1011",
+        "character": "坚",
+        "keyword": "firm",
+        "level": "Advanced",
+        "filename": "1011_firm",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧坚－圣",
+            "keyword": "fencing foil",
+            "level": null,
+            "filename": "primitive_fencing_foil",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "633",
+            "character": "又",
+            "keyword": "again",
+            "level": "Elementary",
+            "filename": "633_again",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "158",
+            "character": "土",
+            "keyword": "soil",
+            "level": "Medium",
+            "filename": "158_soil",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "糸",
+        "keyword": "floss",
+        "level": null,
+        "filename": "primitive_floss",
+        "id": "I",
+        "requirements": [
+          {
+            "number": null,
+            "character": "幺",
+            "keyword": "cocoon",
+            "level": null,
+            "filename": "primitive_cocoon",
+            "id": "F",
+            "requirements": []
+          },
+          {
+            "number": "109",
+            "character": "小",
+            "keyword": "small",
+            "level": "Elementary",
+            "filename": "109_small",
+            "id": "H",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "G",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

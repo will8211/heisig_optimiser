@@ -1,25 +1,31 @@
 {
-  "number": "981",
-  "character": "伴",
-  "keyword": "partner",
-  "level": "Advanced",
-  "id": "D",
-  "requirements": [
-    {
-      "number": "793",
-      "character": "人",
-      "keyword": "person",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "980",
-      "character": "半",
-      "keyword": "half",
-      "level": "Elementary",
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 1054,
+  "hierarchy": {
+    "number": "981",
+    "character": "伴",
+    "keyword": "partner",
+    "level": "Advanced",
+    "filename": "981_partner",
+    "id": "D",
+    "requirements": [
+      {
+        "number": "793",
+        "character": "人",
+        "keyword": "person",
+        "level": "Elementary",
+        "filename": "793_person",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "980",
+        "character": "半",
+        "keyword": "half",
+        "level": "Elementary",
+        "filename": "980_half",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

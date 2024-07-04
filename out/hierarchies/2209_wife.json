@@ -1,42 +1,50 @@
 {
-  "number": "2209",
-  "character": "妻",
-  "keyword": "wife",
-  "level": "Medium",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "10",
-      "character": "十",
-      "keyword": "ten",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "肀",
-      "keyword": "rake",
-      "level": null,
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "彐",
-          "keyword": "broom",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "102",
-      "character": "女",
-      "keyword": "woman",
-      "level": "Elementary",
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 2374,
+  "hierarchy": {
+    "number": "2209",
+    "character": "妻",
+    "keyword": "wife",
+    "level": "Medium",
+    "filename": "2209_wife",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "10",
+        "character": "十",
+        "keyword": "ten",
+        "level": "Elementary",
+        "filename": "10_ten",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "肀",
+        "keyword": "rake",
+        "level": null,
+        "filename": "primitive_rake",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "彐",
+            "keyword": "broom",
+            "level": null,
+            "filename": "primitive_broom",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "102",
+        "character": "女",
+        "keyword": "woman",
+        "level": "Elementary",
+        "filename": "102_woman",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

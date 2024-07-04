@@ -1,68 +1,79 @@
 {
-  "number": "977",
-  "character": "席",
-  "keyword": "mat",
-  "level": "Advanced",
-  "id": "I",
-  "requirements": [
-    {
-      "number": null,
-      "character": "囧席－巾",
-      "keyword": "caverns",
-      "level": null,
-      "id": "G",
-      "requirements": [
-        {
-          "number": "556",
-          "character": "广",
-          "keyword": "extensive",
-          "level": "Medium",
-          "id": "D",
-          "requirements": [
-            {
-              "number": "121",
-              "character": "厂",
-              "keyword": "factory",
-              "level": "Medium",
-              "id": "B",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "宀",
-              "keyword": "house",
-              "level": null,
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "976",
-          "character": "廿",
-          "keyword": "twenty",
-          "level": null,
-          "id": "F",
-          "requirements": [
-            {
-              "number": "10",
-              "character": "十",
-              "keyword": "ten",
-              "level": "Elementary",
-              "id": "E",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": "410",
-      "character": "巾",
-      "keyword": "towel",
-      "level": "Advanced",
-      "id": "H",
-      "requirements": []
-    }
-  ]
+  "order": 1050,
+  "hierarchy": {
+    "number": "977",
+    "character": "席",
+    "keyword": "mat",
+    "level": "Advanced",
+    "filename": "977_mat",
+    "id": "I",
+    "requirements": [
+      {
+        "number": null,
+        "character": "囧席－巾",
+        "keyword": "caverns",
+        "level": null,
+        "filename": "primitive_caverns",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "556",
+            "character": "广",
+            "keyword": "extensive",
+            "level": "Medium",
+            "filename": "556_extensive",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "121",
+                "character": "厂",
+                "keyword": "factory",
+                "level": "Medium",
+                "filename": "121_factory",
+                "id": "B",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "宀",
+                "keyword": "house",
+                "level": null,
+                "filename": "primitive_house",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "976",
+            "character": "廿",
+            "keyword": "twenty",
+            "level": null,
+            "filename": "976_twenty",
+            "id": "F",
+            "requirements": [
+              {
+                "number": "10",
+                "character": "十",
+                "keyword": "ten",
+                "level": "Elementary",
+                "filename": "10_ten",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": "410",
+        "character": "巾",
+        "keyword": "towel",
+        "level": "Advanced",
+        "filename": "410_towel",
+        "id": "H",
+        "requirements": []
+      }
+    ]
+  }
 }

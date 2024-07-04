@@ -1,25 +1,31 @@
 {
-  "number": "197",
-  "character": "安",
-  "keyword": "peaceful",
-  "level": "Medium",
-  "id": "D",
-  "requirements": [
-    {
-      "number": "102",
-      "character": "女",
-      "keyword": "woman",
-      "level": "Elementary",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "宀",
-      "keyword": "house",
-      "level": null,
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 208,
+  "hierarchy": {
+    "number": "197",
+    "character": "安",
+    "keyword": "peaceful",
+    "level": "Medium",
+    "filename": "197_peaceful",
+    "id": "D",
+    "requirements": [
+      {
+        "number": "102",
+        "character": "女",
+        "keyword": "woman",
+        "level": "Elementary",
+        "filename": "102_woman",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "宀",
+        "keyword": "house",
+        "level": null,
+        "filename": "primitive_house",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

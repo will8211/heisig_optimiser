@@ -1,25 +1,31 @@
 {
-  "number": "1836",
-  "character": "扎",
-  "keyword": "prick",
-  "level": null,
-  "id": "D",
-  "requirements": [
-    {
-      "number": null,
-      "character": "扌",
-      "keyword": "fingers",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "95",
-      "character": "乙",
-      "keyword": "second",
-      "level": "Medium",
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 1987,
+  "hierarchy": {
+    "number": "1836",
+    "character": "扎",
+    "keyword": "prick",
+    "level": null,
+    "filename": "1836_prick",
+    "id": "D",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "primitive_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "95",
+        "character": "乙",
+        "keyword": "second",
+        "level": "Medium",
+        "filename": "95_second",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

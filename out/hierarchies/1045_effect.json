@@ -1,51 +1,60 @@
 {
-  "number": "1045",
-  "character": "效",
-  "keyword": "effect",
-  "level": "Advanced",
-  "id": "G",
-  "requirements": [
-    {
-      "number": "1044",
-      "character": "交",
-      "keyword": "mingle",
-      "level": "Medium",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "亠",
-          "keyword": "top hat",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "1043",
-          "character": "父",
-          "keyword": "father",
-          "level": "Medium",
-          "id": "D",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "攵",
-      "keyword": "taskmaster",
-      "level": null,
-      "id": "F",
-      "requirements": []
-    }
-  ]
+  "order": 1125,
+  "hierarchy": {
+    "number": "1045",
+    "character": "效",
+    "keyword": "effect",
+    "level": "Advanced",
+    "filename": "1045_effect",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "1044",
+        "character": "交",
+        "keyword": "mingle",
+        "level": "Medium",
+        "filename": "1044_mingle",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "亠",
+            "keyword": "top hat",
+            "level": null,
+            "filename": "primitive_top_hat",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "1043",
+            "character": "父",
+            "keyword": "father",
+            "level": "Medium",
+            "filename": "1043_father",
+            "id": "D",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "攵",
+        "keyword": "taskmaster",
+        "level": null,
+        "filename": "primitive_taskmaster",
+        "id": "F",
+        "requirements": []
+      }
+    ]
+  }
 }

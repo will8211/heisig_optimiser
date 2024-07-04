@@ -1,42 +1,50 @@
 {
-  "number": "236",
-  "character": "瞄",
-  "keyword": "aim",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": "15",
-      "character": "目",
-      "keyword": "eye",
-      "level": "Medium",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "235",
-      "character": "苗",
-      "keyword": "seedling",
-      "level": null,
-      "id": "E",
-      "requirements": [
-        {
-          "number": "14",
-          "character": "田",
-          "keyword": "rice field",
-          "level": "Medium",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "艹",
-          "keyword": "flower",
-          "level": null,
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 248,
+  "hierarchy": {
+    "number": "236",
+    "character": "瞄",
+    "keyword": "aim",
+    "level": null,
+    "filename": "236_aim",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "15",
+        "character": "目",
+        "keyword": "eye",
+        "level": "Medium",
+        "filename": "15_eye",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "235",
+        "character": "苗",
+        "keyword": "seedling",
+        "level": null,
+        "filename": "235_seedling",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "14",
+            "character": "田",
+            "keyword": "rice field",
+            "level": "Medium",
+            "filename": "14_rice_field",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "艹",
+            "keyword": "flower",
+            "level": null,
+            "filename": "primitive_flower",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

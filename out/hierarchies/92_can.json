@@ -1,25 +1,31 @@
 {
-  "number": "92",
-  "character": "可",
-  "keyword": "can",
-  "level": "Elementary",
-  "id": "D",
-  "requirements": [
-    {
-      "number": "90",
-      "character": "丁",
-      "keyword": "fourth",
-      "level": null,
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "11",
-      "character": "口",
-      "keyword": "mouth",
-      "level": "Elementary",
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 100,
+  "hierarchy": {
+    "number": "92",
+    "character": "可",
+    "keyword": "can",
+    "level": "Elementary",
+    "filename": "92_can",
+    "id": "D",
+    "requirements": [
+      {
+        "number": "90",
+        "character": "丁",
+        "keyword": "fourth",
+        "level": null,
+        "filename": "90_fourth",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "11",
+        "character": "口",
+        "keyword": "mouth",
+        "level": "Elementary",
+        "filename": "11_mouth",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

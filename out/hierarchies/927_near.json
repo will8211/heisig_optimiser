@@ -1,25 +1,31 @@
 {
-  "number": "927",
-  "character": "近",
-  "keyword": "near",
-  "level": "Medium",
-  "id": "D",
-  "requirements": [
-    {
-      "number": "924",
-      "character": "斤",
-      "keyword": "catty",
-      "level": "Medium",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "辶",
-      "keyword": "road",
-      "level": null,
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 995,
+  "hierarchy": {
+    "number": "927",
+    "character": "近",
+    "keyword": "near",
+    "level": "Medium",
+    "filename": "927_near",
+    "id": "D",
+    "requirements": [
+      {
+        "number": "924",
+        "character": "斤",
+        "keyword": "catty",
+        "level": "Medium",
+        "filename": "924_catty",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "辶",
+        "keyword": "road",
+        "level": null,
+        "filename": "primitive_road",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

@@ -1,26 +1,32 @@
 {
-  "number": "1079",
-  "character": "丝",
-  "keyword": "silk",
-  "level": null,
-  "id": "D",
-  "requirements": [
-    {
-      "number": null,
-      "character": "纟",
-      "keyword": "thread",
-      "level": null,
-      "id": "C",
-      "requirements": [
-        {
-          "number": null,
-          "character": "厶",
-          "keyword": "elbow",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1162,
+  "hierarchy": {
+    "number": "1079",
+    "character": "丝",
+    "keyword": "silk",
+    "level": null,
+    "filename": "1079_silk",
+    "id": "D",
+    "requirements": [
+      {
+        "number": null,
+        "character": "纟",
+        "keyword": "thread",
+        "level": null,
+        "filename": "primitive_thread",
+        "id": "C",
+        "requirements": [
+          {
+            "number": null,
+            "character": "厶",
+            "keyword": "elbow",
+            "level": null,
+            "filename": "primitive_elbow",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

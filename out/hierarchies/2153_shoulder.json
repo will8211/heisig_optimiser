@@ -1,42 +1,50 @@
 {
-  "number": "2153",
-  "character": "肩",
-  "keyword": "shoulder",
-  "level": null,
-  "id": "F",
-  "requirements": [
-    {
-      "number": "896",
-      "character": "户",
-      "keyword": "door",
-      "level": "Advanced",
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "882",
-          "character": "尸",
-          "keyword": "corpse",
-          "level": null,
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "13",
-      "character": "月",
-      "keyword": "month",
-      "level": "Elementary",
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 2314,
+  "hierarchy": {
+    "number": "2153",
+    "character": "肩",
+    "keyword": "shoulder",
+    "level": null,
+    "filename": "2153_shoulder",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "896",
+        "character": "户",
+        "keyword": "door",
+        "level": "Advanced",
+        "filename": "896_door",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "882",
+            "character": "尸",
+            "keyword": "corpse",
+            "level": null,
+            "filename": "882_corpse",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "13",
+        "character": "月",
+        "keyword": "month",
+        "level": "Elementary",
+        "filename": "13_month",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

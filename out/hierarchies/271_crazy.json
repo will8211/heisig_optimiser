@@ -1,51 +1,60 @@
 {
-  "number": "271",
-  "character": "狂",
-  "keyword": "crazy",
-  "level": null,
-  "id": "G",
-  "requirements": [
-    {
-      "number": "265",
-      "character": "王",
-      "keyword": "king",
-      "level": "Medium",
-      "id": "C",
-      "requirements": [
-        {
-          "number": "76",
-          "character": "工",
-          "keyword": "work",
-          "level": "Elementary",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "239",
-      "character": "犬",
-      "keyword": "pooch",
-      "level": null,
-      "id": "F",
-      "requirements": [
-        {
-          "number": "113",
-          "character": "大",
-          "keyword": "large",
-          "level": "Elementary",
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 287,
+  "hierarchy": {
+    "number": "271",
+    "character": "狂",
+    "keyword": "crazy",
+    "level": null,
+    "filename": "271_crazy",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "265",
+        "character": "王",
+        "keyword": "king",
+        "level": "Medium",
+        "filename": "265_king",
+        "id": "C",
+        "requirements": [
+          {
+            "number": "76",
+            "character": "工",
+            "keyword": "work",
+            "level": "Elementary",
+            "filename": "76_work",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "239",
+        "character": "犬",
+        "keyword": "pooch",
+        "level": null,
+        "filename": "239_pooch",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "113",
+            "character": "大",
+            "keyword": "large",
+            "level": "Elementary",
+            "filename": "113_large",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

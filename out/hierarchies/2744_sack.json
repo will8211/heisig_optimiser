@@ -1,119 +1,136 @@
 {
-  "number": "2744",
-  "character": "囊",
-  "keyword": "sack",
-  "level": null,
-  "id": "O",
-  "requirements": [
-    {
-      "number": "1201",
-      "character": "襄",
-      "keyword": "aid",
-      "level": null,
-      "id": "G",
-      "requirements": [
-        {
-          "number": "400",
-          "character": "衣",
-          "keyword": "clothing",
-          "level": "Elementary",
-          "id": "C",
-          "requirements": [
-            {
-              "number": null,
-              "character": "亠",
-              "keyword": "top hat",
-              "level": null,
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "吅",
-          "keyword": "chatterbox",
-          "level": null,
-          "id": "E",
-          "requirements": [
-            {
-              "number": "11",
-              "character": "口",
-              "keyword": "mouth",
-              "level": "Elementary",
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "𠀎",
-          "keyword": "wire mesh",
-          "level": null,
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "𠀐",
-      "keyword": "purse",
-      "level": null,
-      "id": "L",
-      "requirements": [
-        {
-          "number": "38",
-          "character": "中",
-          "keyword": "middle",
-          "level": "Elementary",
-          "id": "K",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丨",
-              "keyword": "walking stick",
-              "level": null,
-              "id": "I",
-              "requirements": [
-                {
-                  "number": "1",
-                  "character": "一",
-                  "keyword": "one",
-                  "level": "Elementary",
-                  "id": "H",
-                  "requirements": []
-                }
-              ]
-            },
-            {
-              "number": "11",
-              "character": "口",
-              "keyword": "mouth",
-              "level": "Elementary",
-              "id": "J",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "冖",
-      "keyword": "crown",
-      "level": null,
-      "id": "M",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "亠",
-      "keyword": "top hat",
-      "level": null,
-      "id": "N",
-      "requirements": []
-    }
-  ]
+  "order": 2938,
+  "hierarchy": {
+    "number": "2744",
+    "character": "囊",
+    "keyword": "sack",
+    "level": null,
+    "filename": "2744_sack",
+    "id": "O",
+    "requirements": [
+      {
+        "number": "1201",
+        "character": "襄",
+        "keyword": "aid",
+        "level": null,
+        "filename": "1201_aid",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "400",
+            "character": "衣",
+            "keyword": "clothing",
+            "level": "Elementary",
+            "filename": "400_clothing",
+            "id": "C",
+            "requirements": [
+              {
+                "number": null,
+                "character": "亠",
+                "keyword": "top hat",
+                "level": null,
+                "filename": "primitive_top_hat",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "吅",
+            "keyword": "chatterbox",
+            "level": null,
+            "filename": "primitive_chatterbox",
+            "id": "E",
+            "requirements": [
+              {
+                "number": "11",
+                "character": "口",
+                "keyword": "mouth",
+                "level": "Elementary",
+                "filename": "11_mouth",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "𠀎",
+            "keyword": "wire mesh",
+            "level": null,
+            "filename": "primitive_wire_mesh",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "𠀐",
+        "keyword": "purse",
+        "level": null,
+        "filename": "primitive_purse",
+        "id": "L",
+        "requirements": [
+          {
+            "number": "38",
+            "character": "中",
+            "keyword": "middle",
+            "level": "Elementary",
+            "filename": "38_middle",
+            "id": "K",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丨",
+                "keyword": "walking stick",
+                "level": null,
+                "filename": "primitive_walking_stick",
+                "id": "I",
+                "requirements": [
+                  {
+                    "number": "1",
+                    "character": "一",
+                    "keyword": "one",
+                    "level": "Elementary",
+                    "filename": "1_one",
+                    "id": "H",
+                    "requirements": []
+                  }
+                ]
+              },
+              {
+                "number": "11",
+                "character": "口",
+                "keyword": "mouth",
+                "level": "Elementary",
+                "filename": "11_mouth",
+                "id": "J",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "冖",
+        "keyword": "crown",
+        "level": null,
+        "filename": "primitive_crown",
+        "id": "M",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "亠",
+        "keyword": "top hat",
+        "level": null,
+        "filename": "primitive_top_hat",
+        "id": "N",
+        "requirements": []
+      }
+    ]
+  }
 }
