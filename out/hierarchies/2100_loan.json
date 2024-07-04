@@ -1,66 +1,69 @@
 {
-  "number": "2100",
-  "character": "贷",
-  "keyword": "loan",
-  "level": null,
-  "filename": "2100_loan",
-  "id": "H",
-  "requirements": [
-    {
-      "number": "828",
-      "character": "代",
-      "keyword": "substitute for",
-      "level": "Advanced",
-      "filename": "828_substitute_for",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "793",
-          "character": "人",
-          "keyword": "person",
-          "level": "Elementary",
-          "filename": "793_person",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "弋",
-          "keyword": "arrow",
-          "level": null,
-          "filename": "extra_arrow",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "52",
-      "character": "贝",
-      "keyword": "shellfish",
-      "level": "Medium",
-      "filename": "52_shellfish",
-      "id": "G",
-      "requirements": [
-        {
-          "number": "15",
-          "character": "目",
-          "keyword": "eye",
-          "level": "Medium",
-          "filename": "15_eye",
-          "id": "E",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "囧只－口",
-          "keyword": "animal legs",
-          "level": null,
-          "filename": "extra_animal_legs",
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2261,
+  "hierarchy": {
+    "number": "2100",
+    "character": "贷",
+    "keyword": "loan",
+    "level": null,
+    "filename": "2100_loan",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "828",
+        "character": "代",
+        "keyword": "substitute for",
+        "level": "Advanced",
+        "filename": "828_substitute_for",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "793",
+            "character": "人",
+            "keyword": "person",
+            "level": "Elementary",
+            "filename": "793_person",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "弋",
+            "keyword": "arrow",
+            "level": null,
+            "filename": "primitive_arrow",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "52",
+        "character": "贝",
+        "keyword": "shellfish",
+        "level": "Medium",
+        "filename": "52_shellfish",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "15",
+            "character": "目",
+            "keyword": "eye",
+            "level": "Medium",
+            "filename": "15_eye",
+            "id": "E",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "囧只－口",
+            "keyword": "animal legs",
+            "level": null,
+            "filename": "primitive_animal_legs",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

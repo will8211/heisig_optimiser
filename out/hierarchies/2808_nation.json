@@ -1,38 +1,41 @@
 {
-  "number": "2808",
-  "character": "邦",
-  "keyword": "nation",
-  "level": null,
-  "filename": "2808_nation",
-  "id": "E",
-  "requirements": [
-    {
-      "number": "1223",
-      "character": "丰",
-      "keyword": "plentiful",
-      "level": "Advanced",
-      "filename": "1223_plentiful",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "囧阝",
-      "keyword": "city walls",
-      "level": null,
-      "filename": "extra_city_walls",
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "阝",
-          "keyword": "pinnacle",
-          "level": null,
-          "filename": "extra_pinnacle",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 3002,
+  "hierarchy": {
+    "number": "2808",
+    "character": "邦",
+    "keyword": "nation",
+    "level": null,
+    "filename": "2808_nation",
+    "id": "E",
+    "requirements": [
+      {
+        "number": "1223",
+        "character": "丰",
+        "keyword": "plentiful",
+        "level": "Advanced",
+        "filename": "1223_plentiful",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "囧阝",
+        "keyword": "city walls",
+        "level": null,
+        "filename": "primitive_city_walls",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "阝",
+            "keyword": "pinnacle",
+            "level": null,
+            "filename": "primitive_pinnacle",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

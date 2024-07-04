@@ -1,56 +1,59 @@
 {
-  "number": "660",
-  "character": "质",
-  "keyword": "quality",
-  "level": null,
-  "filename": "660_quality",
-  "id": "G",
-  "requirements": [
-    {
-      "number": null,
-      "character": "𠂆",
-      "keyword": "drag",
-      "level": null,
-      "filename": "extra_drag",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "10",
-      "character": "十",
-      "keyword": "ten",
-      "level": "Elementary",
-      "filename": "10_ten",
-      "id": "C",
-      "requirements": []
-    },
-    {
-      "number": "52",
-      "character": "贝",
-      "keyword": "shellfish",
-      "level": "Medium",
-      "filename": "52_shellfish",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "15",
-          "character": "目",
-          "keyword": "eye",
-          "level": "Medium",
-          "filename": "15_eye",
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "囧只－口",
-          "keyword": "animal legs",
-          "level": null,
-          "filename": "extra_animal_legs",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 713,
+  "hierarchy": {
+    "number": "660",
+    "character": "质",
+    "keyword": "quality",
+    "level": null,
+    "filename": "660_quality",
+    "id": "G",
+    "requirements": [
+      {
+        "number": null,
+        "character": "𠂆",
+        "keyword": "drag",
+        "level": null,
+        "filename": "primitive_drag",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "10",
+        "character": "十",
+        "keyword": "ten",
+        "level": "Elementary",
+        "filename": "10_ten",
+        "id": "C",
+        "requirements": []
+      },
+      {
+        "number": "52",
+        "character": "贝",
+        "keyword": "shellfish",
+        "level": "Medium",
+        "filename": "52_shellfish",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "15",
+            "character": "目",
+            "keyword": "eye",
+            "level": "Medium",
+            "filename": "15_eye",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "囧只－口",
+            "keyword": "animal legs",
+            "level": null,
+            "filename": "primitive_animal_legs",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

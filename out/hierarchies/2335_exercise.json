@@ -1,76 +1,79 @@
 {
-  "number": "2335",
-  "character": "操",
-  "keyword": "exercise",
-  "level": null,
-  "filename": "2335_exercise",
-  "id": "I",
-  "requirements": [
-    {
-      "number": null,
-      "character": "扌",
-      "keyword": "fingers",
-      "level": null,
-      "filename": "extra_fingers",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "喿",
-      "keyword": "wood pulp",
-      "level": null,
-      "filename": "extra_wood_pulp",
-      "id": "H",
-      "requirements": [
-        {
-          "number": "24",
-          "character": "品",
-          "keyword": "goods",
-          "level": "Advanced",
-          "filename": "24_goods",
-          "id": "F",
-          "requirements": [
-            {
-              "number": "23",
-              "character": "晶",
-              "keyword": "sparkling",
-              "level": null,
-              "filename": "23_sparkling",
-              "id": "D",
-              "requirements": [
-                {
-                  "number": "12",
-                  "character": "日",
-                  "keyword": "day",
-                  "level": "Elementary",
-                  "filename": "12_day",
-                  "id": "C",
-                  "requirements": []
-                }
-              ]
-            },
-            {
-              "number": "11",
-              "character": "口",
-              "keyword": "mouth",
-              "level": "Elementary",
-              "filename": "11_mouth",
-              "id": "E",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "202",
-          "character": "木",
-          "keyword": "tree",
-          "level": "Elementary",
-          "filename": "202_tree",
-          "id": "G",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2504,
+  "hierarchy": {
+    "number": "2335",
+    "character": "操",
+    "keyword": "exercise",
+    "level": null,
+    "filename": "2335_exercise",
+    "id": "I",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "primitive_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "喿",
+        "keyword": "wood pulp",
+        "level": null,
+        "filename": "primitive_wood_pulp",
+        "id": "H",
+        "requirements": [
+          {
+            "number": "24",
+            "character": "品",
+            "keyword": "goods",
+            "level": "Advanced",
+            "filename": "24_goods",
+            "id": "F",
+            "requirements": [
+              {
+                "number": "23",
+                "character": "晶",
+                "keyword": "sparkling",
+                "level": null,
+                "filename": "23_sparkling",
+                "id": "D",
+                "requirements": [
+                  {
+                    "number": "12",
+                    "character": "日",
+                    "keyword": "day",
+                    "level": "Elementary",
+                    "filename": "12_day",
+                    "id": "C",
+                    "requirements": []
+                  }
+                ]
+              },
+              {
+                "number": "11",
+                "character": "口",
+                "keyword": "mouth",
+                "level": "Elementary",
+                "filename": "11_mouth",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "202",
+            "character": "木",
+            "keyword": "tree",
+            "level": "Elementary",
+            "filename": "202_tree",
+            "id": "G",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

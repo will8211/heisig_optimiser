@@ -1,94 +1,97 @@
 {
-  "number": "2082",
-  "character": "倾",
-  "keyword": "incline",
-  "level": null,
-  "filename": "2082_incline",
-  "id": "K",
-  "requirements": [
-    {
-      "number": "793",
-      "character": "人",
-      "keyword": "person",
-      "level": "Elementary",
-      "filename": "793_person",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1703",
-      "character": "顷",
-      "keyword": "100 Chinese acres",
-      "level": null,
-      "filename": "1703_100_Chinese_acres",
-      "id": "J",
-      "requirements": [
-        {
-          "number": "7",
-          "character": "七",
-          "keyword": "seven",
-          "level": "Elementary",
-          "filename": "7_seven",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "60",
-          "character": "页",
-          "keyword": "page",
-          "level": "Medium",
-          "filename": "60_page",
-          "id": "I",
-          "requirements": [
-            {
-              "number": "52",
-              "character": "贝",
-              "keyword": "shellfish",
-              "level": "Medium",
-              "filename": "52_shellfish",
-              "id": "F",
-              "requirements": [
-                {
-                  "number": "15",
-                  "character": "目",
-                  "keyword": "eye",
-                  "level": "Medium",
-                  "filename": "15_eye",
-                  "id": "D",
-                  "requirements": []
-                },
-                {
-                  "number": null,
-                  "character": "囧只－口",
-                  "keyword": "animal legs",
-                  "level": null,
-                  "filename": "extra_animal_legs",
-                  "id": "E",
-                  "requirements": []
-                }
-              ]
-            },
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "G",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "filename": "extra_a_drop_of",
-              "id": "H",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2243,
+  "hierarchy": {
+    "number": "2082",
+    "character": "倾",
+    "keyword": "incline",
+    "level": null,
+    "filename": "2082_incline",
+    "id": "K",
+    "requirements": [
+      {
+        "number": "793",
+        "character": "人",
+        "keyword": "person",
+        "level": "Elementary",
+        "filename": "793_person",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1703",
+        "character": "顷",
+        "keyword": "100 Chinese acres",
+        "level": null,
+        "filename": "1703_100_Chinese_acres",
+        "id": "J",
+        "requirements": [
+          {
+            "number": "7",
+            "character": "七",
+            "keyword": "seven",
+            "level": "Elementary",
+            "filename": "7_seven",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "60",
+            "character": "页",
+            "keyword": "page",
+            "level": "Medium",
+            "filename": "60_page",
+            "id": "I",
+            "requirements": [
+              {
+                "number": "52",
+                "character": "贝",
+                "keyword": "shellfish",
+                "level": "Medium",
+                "filename": "52_shellfish",
+                "id": "F",
+                "requirements": [
+                  {
+                    "number": "15",
+                    "character": "目",
+                    "keyword": "eye",
+                    "level": "Medium",
+                    "filename": "15_eye",
+                    "id": "D",
+                    "requirements": []
+                  },
+                  {
+                    "number": null,
+                    "character": "囧只－口",
+                    "keyword": "animal legs",
+                    "level": null,
+                    "filename": "primitive_animal_legs",
+                    "id": "E",
+                    "requirements": []
+                  }
+                ]
+              },
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "G",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "H",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

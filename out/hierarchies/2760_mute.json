@@ -1,57 +1,60 @@
 {
-  "number": "2760",
-  "character": "哑",
-  "keyword": "mute",
-  "level": null,
-  "filename": "2760_mute",
-  "id": "G",
-  "requirements": [
-    {
-      "number": "11",
-      "character": "口",
-      "keyword": "mouth",
-      "level": "Elementary",
-      "filename": "11_mouth",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1351",
-      "character": "亚",
-      "keyword": "Asia",
-      "level": "Advanced",
-      "filename": "1351_Asia",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "filename": "1_one",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "1349",
-          "character": "业",
-          "keyword": "profession",
-          "level": "Medium",
-          "filename": "1349_profession",
-          "id": "E",
-          "requirements": [
-            {
-              "number": null,
-              "character": "並",
-              "keyword": "side by side",
-              "level": null,
-              "filename": "extra_side_by_side",
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2954,
+  "hierarchy": {
+    "number": "2760",
+    "character": "哑",
+    "keyword": "mute",
+    "level": null,
+    "filename": "2760_mute",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "11",
+        "character": "口",
+        "keyword": "mouth",
+        "level": "Elementary",
+        "filename": "11_mouth",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1351",
+        "character": "亚",
+        "keyword": "Asia",
+        "level": "Advanced",
+        "filename": "1351_Asia",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "1349",
+            "character": "业",
+            "keyword": "profession",
+            "level": "Medium",
+            "filename": "1349_profession",
+            "id": "E",
+            "requirements": [
+              {
+                "number": null,
+                "character": "並",
+                "keyword": "side by side",
+                "level": null,
+                "filename": "primitive_side_by_side",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,66 +1,69 @@
 {
-  "number": "2445",
-  "character": "范",
-  "keyword": "model",
-  "level": "Advanced",
-  "filename": "2445_model",
-  "id": "H",
-  "requirements": [
-    {
-      "number": null,
-      "character": "艹",
-      "keyword": "flower",
-      "level": null,
-      "filename": "extra_flower",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "137",
-      "character": "水",
-      "keyword": "water",
-      "level": "Elementary",
-      "filename": "137_water",
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丨",
-          "keyword": "walking stick",
-          "level": null,
-          "filename": "extra_walking_stick",
-          "id": "D",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "㔾",
-      "keyword": "fingerprint",
-      "level": null,
-      "filename": "extra_fingerprint",
-      "id": "G",
-      "requirements": []
-    }
-  ]
+  "order": 2624,
+  "hierarchy": {
+    "number": "2445",
+    "character": "范",
+    "keyword": "model",
+    "level": "Advanced",
+    "filename": "2445_model",
+    "id": "H",
+    "requirements": [
+      {
+        "number": null,
+        "character": "艹",
+        "keyword": "flower",
+        "level": null,
+        "filename": "primitive_flower",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "137",
+        "character": "水",
+        "keyword": "water",
+        "level": "Elementary",
+        "filename": "137_water",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丨",
+            "keyword": "walking stick",
+            "level": null,
+            "filename": "primitive_walking_stick",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "㔾",
+        "keyword": "fingerprint",
+        "level": null,
+        "filename": "primitive_fingerprint",
+        "id": "G",
+        "requirements": []
+      }
+    ]
+  }
 }

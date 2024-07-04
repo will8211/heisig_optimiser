@@ -1,76 +1,79 @@
 {
-  "number": "1688",
-  "character": "沛",
-  "keyword": "copious",
-  "level": null,
-  "filename": "1688_copious",
-  "id": "I",
-  "requirements": [
-    {
-      "number": "137",
-      "character": "水",
-      "keyword": "water",
-      "level": "Elementary",
-      "filename": "137_water",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丨",
-          "keyword": "walking stick",
-          "level": null,
-          "filename": "extra_walking_stick",
-          "id": "C",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "419",
-      "character": "市",
-      "keyword": "market",
-      "level": "Medium",
-      "filename": "419_market",
-      "id": "H",
-      "requirements": [
-        {
-          "number": "410",
-          "character": "巾",
-          "keyword": "towel",
-          "level": "Advanced",
-          "filename": "410_towel",
-          "id": "F",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "亠",
-          "keyword": "top hat",
-          "level": null,
-          "filename": "extra_top_hat",
-          "id": "G",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1833,
+  "hierarchy": {
+    "number": "1688",
+    "character": "沛",
+    "keyword": "copious",
+    "level": null,
+    "filename": "1688_copious",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "137",
+        "character": "水",
+        "keyword": "water",
+        "level": "Elementary",
+        "filename": "137_water",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丨",
+            "keyword": "walking stick",
+            "level": null,
+            "filename": "primitive_walking_stick",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "419",
+        "character": "市",
+        "keyword": "market",
+        "level": "Medium",
+        "filename": "419_market",
+        "id": "H",
+        "requirements": [
+          {
+            "number": "410",
+            "character": "巾",
+            "keyword": "towel",
+            "level": "Advanced",
+            "filename": "410_towel",
+            "id": "F",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "亠",
+            "keyword": "top hat",
+            "level": null,
+            "filename": "primitive_top_hat",
+            "id": "G",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

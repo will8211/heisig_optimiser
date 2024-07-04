@@ -1,84 +1,87 @@
 {
-  "number": "2592",
-  "character": "豁",
-  "keyword": "breach",
-  "level": null,
-  "filename": "2592_breach",
-  "id": "J",
-  "requirements": [
-    {
-      "number": "1224",
-      "character": "害",
-      "keyword": "harm",
-      "level": "Advanced",
-      "filename": "1224_harm",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "宀",
-          "keyword": "house",
-          "level": null,
-          "filename": "extra_house",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "1223",
-          "character": "丰",
-          "keyword": "plentiful",
-          "level": "Advanced",
-          "filename": "1223_plentiful",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "filename": "11_mouth",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "698",
-      "character": "谷",
-      "keyword": "valley",
-      "level": "Advanced",
-      "filename": "698_valley",
-      "id": "I",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧只－口",
-          "keyword": "animal legs",
-          "level": null,
-          "filename": "extra_animal_legs",
-          "id": "F",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "𠆢",
-          "keyword": "umbrella",
-          "level": null,
-          "filename": "extra_umbrella",
-          "id": "G",
-          "requirements": []
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "filename": "11_mouth",
-          "id": "H",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2780,
+  "hierarchy": {
+    "number": "2592",
+    "character": "豁",
+    "keyword": "breach",
+    "level": null,
+    "filename": "2592_breach",
+    "id": "J",
+    "requirements": [
+      {
+        "number": "1224",
+        "character": "害",
+        "keyword": "harm",
+        "level": "Advanced",
+        "filename": "1224_harm",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "宀",
+            "keyword": "house",
+            "level": null,
+            "filename": "primitive_house",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "1223",
+            "character": "丰",
+            "keyword": "plentiful",
+            "level": "Advanced",
+            "filename": "1223_plentiful",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "698",
+        "character": "谷",
+        "keyword": "valley",
+        "level": "Advanced",
+        "filename": "698_valley",
+        "id": "I",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧只－口",
+            "keyword": "animal legs",
+            "level": null,
+            "filename": "primitive_animal_legs",
+            "id": "F",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "𠆢",
+            "keyword": "umbrella",
+            "level": null,
+            "filename": "primitive_umbrella",
+            "id": "G",
+            "requirements": []
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "H",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

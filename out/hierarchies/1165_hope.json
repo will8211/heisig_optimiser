@@ -1,57 +1,60 @@
 {
-  "number": "1165",
-  "character": "希",
-  "keyword": "hope",
-  "level": "Advanced",
-  "filename": "1165_hope",
-  "id": "G",
-  "requirements": [
-    {
-      "number": null,
-      "character": "㐅",
-      "keyword": "sheaf",
-      "level": null,
-      "filename": "extra_sheaf",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "414",
-      "character": "布",
-      "keyword": "cloth",
-      "level": "Advanced",
-      "filename": "414_cloth",
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "𠂇",
-          "keyword": "by one’s side",
-          "level": null,
-          "filename": "extra_by_one’s_side",
-          "id": "D",
-          "requirements": [
-            {
-              "number": "10",
-              "character": "十",
-              "keyword": "ten",
-              "level": "Elementary",
-              "filename": "10_ten",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "410",
-          "character": "巾",
-          "keyword": "towel",
-          "level": "Advanced",
-          "filename": "410_towel",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1263,
+  "hierarchy": {
+    "number": "1165",
+    "character": "希",
+    "keyword": "hope",
+    "level": "Advanced",
+    "filename": "1165_hope",
+    "id": "G",
+    "requirements": [
+      {
+        "number": null,
+        "character": "㐅",
+        "keyword": "sheaf",
+        "level": null,
+        "filename": "primitive_sheaf",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "414",
+        "character": "布",
+        "keyword": "cloth",
+        "level": "Advanced",
+        "filename": "414_cloth",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "𠂇",
+            "keyword": "by one’s side",
+            "level": null,
+            "filename": "primitive_by_one’s_side",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "10",
+                "character": "十",
+                "keyword": "ten",
+                "level": "Elementary",
+                "filename": "10_ten",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "410",
+            "character": "巾",
+            "keyword": "towel",
+            "level": "Advanced",
+            "filename": "410_towel",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

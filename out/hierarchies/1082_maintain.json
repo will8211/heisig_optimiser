@@ -1,38 +1,41 @@
 {
-  "number": "1082",
-  "character": "维",
-  "keyword": "maintain",
-  "level": null,
-  "filename": "1082_maintain",
-  "id": "E",
-  "requirements": [
-    {
-      "number": null,
-      "character": "纟",
-      "keyword": "thread",
-      "level": null,
-      "filename": "extra_thread",
-      "id": "C",
-      "requirements": [
-        {
-          "number": null,
-          "character": "厶",
-          "keyword": "elbow",
-          "level": null,
-          "filename": "extra_elbow",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "隹",
-      "keyword": "turkey",
-      "level": null,
-      "filename": "extra_turkey",
-      "id": "D",
-      "requirements": []
-    }
-  ]
+  "order": 1165,
+  "hierarchy": {
+    "number": "1082",
+    "character": "维",
+    "keyword": "maintain",
+    "level": null,
+    "filename": "1082_maintain",
+    "id": "E",
+    "requirements": [
+      {
+        "number": null,
+        "character": "纟",
+        "keyword": "thread",
+        "level": null,
+        "filename": "primitive_thread",
+        "id": "C",
+        "requirements": [
+          {
+            "number": null,
+            "character": "厶",
+            "keyword": "elbow",
+            "level": null,
+            "filename": "primitive_elbow",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "隹",
+        "keyword": "turkey",
+        "level": null,
+        "filename": "primitive_turkey",
+        "id": "D",
+        "requirements": []
+      }
+    ]
+  }
 }

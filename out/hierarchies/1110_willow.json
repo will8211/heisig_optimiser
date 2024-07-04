@@ -1,47 +1,50 @@
 {
-  "number": "1110",
-  "character": "柳",
-  "keyword": "willow",
-  "level": null,
-  "filename": "1110_willow",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "202",
-      "character": "木",
-      "keyword": "tree",
-      "level": "Elementary",
-      "filename": "202_tree",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "囧贸－贝",
-      "keyword": "letter opener",
-      "level": null,
-      "filename": "extra_letter_opener",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "卩",
-          "keyword": "stamp",
-          "level": null,
-          "filename": "extra_stamp",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "83",
-          "character": "刀",
-          "keyword": "sword",
-          "level": "Medium",
-          "filename": "83_sword",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1198,
+  "hierarchy": {
+    "number": "1110",
+    "character": "柳",
+    "keyword": "willow",
+    "level": null,
+    "filename": "1110_willow",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "202",
+        "character": "木",
+        "keyword": "tree",
+        "level": "Elementary",
+        "filename": "202_tree",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "囧贸－贝",
+        "keyword": "letter opener",
+        "level": null,
+        "filename": "primitive_letter_opener",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "卩",
+            "keyword": "stamp",
+            "level": null,
+            "filename": "primitive_stamp",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "83",
+            "character": "刀",
+            "keyword": "sword",
+            "level": "Medium",
+            "filename": "83_sword",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

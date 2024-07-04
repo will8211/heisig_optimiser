@@ -1,47 +1,50 @@
 {
-  "number": "1211",
-  "character": "情",
-  "keyword": "feelings",
-  "level": "Medium",
-  "filename": "1211_feelings",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "563",
-      "character": "心",
-      "keyword": "heart",
-      "level": "Medium",
-      "filename": "563_heart",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1208",
-      "character": "青",
-      "keyword": "blue or green",
-      "level": "Medium",
-      "filename": "1208_blue_or_green",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧毒－母",
-          "keyword": "grow up",
-          "level": null,
-          "filename": "extra_grow_up",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "13",
-          "character": "月",
-          "keyword": "month",
-          "level": "Elementary",
-          "filename": "13_month",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1315,
+  "hierarchy": {
+    "number": "1211",
+    "character": "情",
+    "keyword": "feelings",
+    "level": "Medium",
+    "filename": "1211_feelings",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "563",
+        "character": "心",
+        "keyword": "heart",
+        "level": "Medium",
+        "filename": "563_heart",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1208",
+        "character": "青",
+        "keyword": "blue or green",
+        "level": "Medium",
+        "filename": "1208_blue_or_green",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧毒－母",
+            "keyword": "grow up",
+            "level": null,
+            "filename": "primitive_grow_up",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "13",
+            "character": "月",
+            "keyword": "month",
+            "level": "Elementary",
+            "filename": "13_month",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

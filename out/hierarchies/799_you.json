@@ -1,48 +1,51 @@
 {
-  "number": "799",
-  "character": "你",
-  "keyword": "you",
-  "level": "Elementary",
-  "filename": "799_you",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "793",
-      "character": "人",
-      "keyword": "person",
-      "level": "Elementary",
-      "filename": "793_person",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "798",
-      "character": "尔",
-      "keyword": "you (literary)",
-      "level": null,
-      "filename": "798_you_(literary)",
-      "id": "E",
-      "requirements": [
-        {
-          "number": "109",
-          "character": "小",
-          "keyword": "small",
-          "level": "Elementary",
-          "filename": "109_small",
-          "id": "D",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "filename": "extra_a_drop_of",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 861,
+  "hierarchy": {
+    "number": "799",
+    "character": "你",
+    "keyword": "you",
+    "level": "Elementary",
+    "filename": "799_you",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "793",
+        "character": "人",
+        "keyword": "person",
+        "level": "Elementary",
+        "filename": "793_person",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "798",
+        "character": "尔",
+        "keyword": "you (literary)",
+        "level": null,
+        "filename": "798_you_(literary)",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "109",
+            "character": "小",
+            "keyword": "small",
+            "level": "Elementary",
+            "filename": "109_small",
+            "id": "D",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

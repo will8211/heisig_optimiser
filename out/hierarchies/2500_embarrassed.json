@@ -1,57 +1,60 @@
 {
-  "number": "2500",
-  "character": "尬",
-  "keyword": "embarrassed",
-  "level": null,
-  "filename": "2500_embarrassed",
-  "id": "G",
-  "requirements": [
-    {
-      "number": null,
-      "character": "囧尴－监",
-      "keyword": "Frankenbowser",
-      "level": null,
-      "filename": "extra_Frankenbowser",
-      "id": "C",
-      "requirements": [
-        {
-          "number": "113",
-          "character": "大",
-          "keyword": "large",
-          "level": "Elementary",
-          "filename": "113_large",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "259",
-      "character": "介",
-      "keyword": "introduce",
-      "level": "Elementary",
-      "filename": "259_introduce",
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "𠆢",
-          "keyword": "umbrella",
-          "level": null,
-          "filename": "extra_umbrella",
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "囧介－𠆢",
-          "keyword": "crutches",
-          "level": null,
-          "filename": "extra_crutches",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2686,
+  "hierarchy": {
+    "number": "2500",
+    "character": "尬",
+    "keyword": "embarrassed",
+    "level": null,
+    "filename": "2500_embarrassed",
+    "id": "G",
+    "requirements": [
+      {
+        "number": null,
+        "character": "囧尴－监",
+        "keyword": "Frankenbowser",
+        "level": null,
+        "filename": "primitive_Frankenbowser",
+        "id": "C",
+        "requirements": [
+          {
+            "number": "113",
+            "character": "大",
+            "keyword": "large",
+            "level": "Elementary",
+            "filename": "113_large",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "259",
+        "character": "介",
+        "keyword": "introduce",
+        "level": "Elementary",
+        "filename": "259_introduce",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "𠆢",
+            "keyword": "umbrella",
+            "level": null,
+            "filename": "primitive_umbrella",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "囧介－𠆢",
+            "keyword": "crutches",
+            "level": null,
+            "filename": "primitive_crutches",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

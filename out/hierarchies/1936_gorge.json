@@ -1,67 +1,70 @@
 {
-  "number": "1936",
-  "character": "峡",
-  "keyword": "gorge",
-  "level": null,
-  "filename": "1936_gorge",
-  "id": "H",
-  "requirements": [
-    {
-      "number": "688",
-      "character": "山",
-      "keyword": "mountain",
-      "level": "Elementary",
-      "filename": "688_mountain",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1523",
-      "character": "夹",
-      "keyword": "press from both sides",
-      "level": "Advanced",
-      "filename": "1523_press_from_both_sides",
-      "id": "G",
-      "requirements": [
-        {
-          "number": "726",
-          "character": "夫",
-          "keyword": "husband",
-          "level": "Medium",
-          "filename": "726_husband",
-          "id": "D",
-          "requirements": [
-            {
-              "number": "113",
-              "character": "大",
-              "keyword": "large",
-              "level": "Elementary",
-              "filename": "113_large",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丷",
-          "keyword": "horns",
-          "level": null,
-          "filename": "extra_horns",
-          "id": "F",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "E",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2091,
+  "hierarchy": {
+    "number": "1936",
+    "character": "峡",
+    "keyword": "gorge",
+    "level": null,
+    "filename": "1936_gorge",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "688",
+        "character": "山",
+        "keyword": "mountain",
+        "level": "Elementary",
+        "filename": "688_mountain",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1523",
+        "character": "夹",
+        "keyword": "press from both sides",
+        "level": "Advanced",
+        "filename": "1523_press_from_both_sides",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "726",
+            "character": "夫",
+            "keyword": "husband",
+            "level": "Medium",
+            "filename": "726_husband",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "113",
+                "character": "大",
+                "keyword": "large",
+                "level": "Elementary",
+                "filename": "113_large",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丷",
+            "keyword": "horns",
+            "level": null,
+            "filename": "primitive_horns",
+            "id": "F",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

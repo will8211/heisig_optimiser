@@ -1,76 +1,79 @@
 {
-  "number": "2382",
-  "character": "缔",
-  "keyword": "conclude",
-  "level": null,
-  "filename": "2382_conclude",
-  "id": "I",
-  "requirements": [
-    {
-      "number": null,
-      "character": "纟",
-      "keyword": "thread",
-      "level": null,
-      "filename": "extra_thread",
-      "id": "C",
-      "requirements": [
-        {
-          "number": null,
-          "character": "厶",
-          "keyword": "elbow",
-          "level": null,
-          "filename": "extra_elbow",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "449",
-      "character": "帝",
-      "keyword": "sovereign",
-      "level": null,
-      "filename": "449_sovereign",
-      "id": "H",
-      "requirements": [
-        {
-          "number": "444",
-          "character": "立",
-          "keyword": "standing up",
-          "level": "Advanced",
-          "filename": "444_standing_up",
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "囧冖＋巾",
-          "keyword": "apron",
-          "level": null,
-          "filename": "extra_apron",
-          "id": "G",
-          "requirements": [
-            {
-              "number": "410",
-              "character": "巾",
-              "keyword": "towel",
-              "level": "Advanced",
-              "filename": "410_towel",
-              "id": "E",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "冖",
-              "keyword": "crown",
-              "level": null,
-              "filename": "extra_crown",
-              "id": "F",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2554,
+  "hierarchy": {
+    "number": "2382",
+    "character": "缔",
+    "keyword": "conclude",
+    "level": null,
+    "filename": "2382_conclude",
+    "id": "I",
+    "requirements": [
+      {
+        "number": null,
+        "character": "纟",
+        "keyword": "thread",
+        "level": null,
+        "filename": "primitive_thread",
+        "id": "C",
+        "requirements": [
+          {
+            "number": null,
+            "character": "厶",
+            "keyword": "elbow",
+            "level": null,
+            "filename": "primitive_elbow",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "449",
+        "character": "帝",
+        "keyword": "sovereign",
+        "level": null,
+        "filename": "449_sovereign",
+        "id": "H",
+        "requirements": [
+          {
+            "number": "444",
+            "character": "立",
+            "keyword": "standing up",
+            "level": "Advanced",
+            "filename": "444_standing_up",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "囧冖＋巾",
+            "keyword": "apron",
+            "level": null,
+            "filename": "primitive_apron",
+            "id": "G",
+            "requirements": [
+              {
+                "number": "410",
+                "character": "巾",
+                "keyword": "towel",
+                "level": "Advanced",
+                "filename": "410_towel",
+                "id": "E",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "冖",
+                "keyword": "crown",
+                "level": null,
+                "filename": "primitive_crown",
+                "id": "F",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

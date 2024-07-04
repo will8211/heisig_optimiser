@@ -1,57 +1,60 @@
 {
-  "number": "2980",
-  "character": "驼",
-  "keyword": "camel (back end)",
-  "level": null,
-  "filename": "2980_camel_(back_end)",
-  "id": "G",
-  "requirements": [
-    {
-      "number": "1453",
-      "character": "马",
-      "keyword": "horse",
-      "level": "Elementary",
-      "filename": "1453_horse",
-      "id": "C",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧与－丨一",
-          "keyword": "pointed tail",
-          "level": null,
-          "filename": "extra_pointed_tail",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "462",
-      "character": "它",
-      "keyword": "it",
-      "level": "Medium",
-      "filename": "462_it",
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "宀",
-          "keyword": "house",
-          "level": null,
-          "filename": "extra_house",
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": "453",
-          "character": "匕",
-          "keyword": "ancient spoon",
-          "level": null,
-          "filename": "453_ancient_spoon",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 3186,
+  "hierarchy": {
+    "number": "2980",
+    "character": "驼",
+    "keyword": "camel (back end)",
+    "level": null,
+    "filename": "2980_camel_(back_end)",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "1453",
+        "character": "马",
+        "keyword": "horse",
+        "level": "Elementary",
+        "filename": "1453_horse",
+        "id": "C",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧与－丨一",
+            "keyword": "pointed tail",
+            "level": null,
+            "filename": "primitive_pointed_tail",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "462",
+        "character": "它",
+        "keyword": "it",
+        "level": "Medium",
+        "filename": "462_it",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "宀",
+            "keyword": "house",
+            "level": null,
+            "filename": "primitive_house",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": "453",
+            "character": "匕",
+            "keyword": "ancient spoon",
+            "level": null,
+            "filename": "453_ancient_spoon",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

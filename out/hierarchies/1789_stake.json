@@ -1,66 +1,69 @@
 {
-  "number": "1789",
-  "character": "桩",
-  "keyword": "stake",
-  "level": null,
-  "filename": "1789_stake",
-  "id": "H",
-  "requirements": [
-    {
-      "number": "202",
-      "character": "木",
-      "keyword": "tree",
-      "level": "Elementary",
-      "filename": "202_tree",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "562",
-      "character": "庄",
-      "keyword": "hamlet",
-      "level": "Advanced",
-      "filename": "562_hamlet",
-      "id": "G",
-      "requirements": [
-        {
-          "number": "556",
-          "character": "广",
-          "keyword": "extensive",
-          "level": "Medium",
-          "filename": "556_extensive",
-          "id": "E",
-          "requirements": [
-            {
-              "number": "121",
-              "character": "厂",
-              "keyword": "factory",
-              "level": "Medium",
-              "filename": "121_factory",
-              "id": "C",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "宀",
-              "keyword": "house",
-              "level": null,
-              "filename": "extra_house",
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "158",
-          "character": "土",
-          "keyword": "soil",
-          "level": "Medium",
-          "filename": "158_soil",
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1939,
+  "hierarchy": {
+    "number": "1789",
+    "character": "桩",
+    "keyword": "stake",
+    "level": null,
+    "filename": "1789_stake",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "202",
+        "character": "木",
+        "keyword": "tree",
+        "level": "Elementary",
+        "filename": "202_tree",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "562",
+        "character": "庄",
+        "keyword": "hamlet",
+        "level": "Advanced",
+        "filename": "562_hamlet",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "556",
+            "character": "广",
+            "keyword": "extensive",
+            "level": "Medium",
+            "filename": "556_extensive",
+            "id": "E",
+            "requirements": [
+              {
+                "number": "121",
+                "character": "厂",
+                "keyword": "factory",
+                "level": "Medium",
+                "filename": "121_factory",
+                "id": "C",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "宀",
+                "keyword": "house",
+                "level": null,
+                "filename": "primitive_house",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "158",
+            "character": "土",
+            "keyword": "soil",
+            "level": "Medium",
+            "filename": "158_soil",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

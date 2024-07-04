@@ -1,66 +1,69 @@
 {
-  "number": "1914",
-  "character": "摆",
-  "keyword": "put in order",
-  "level": "Advanced",
-  "filename": "1914_put_in_order",
-  "id": "H",
-  "requirements": [
-    {
-      "number": null,
-      "character": "扌",
-      "keyword": "fingers",
-      "level": null,
-      "filename": "extra_fingers",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1913",
-      "character": "罢",
-      "keyword": "cease",
-      "level": null,
-      "filename": "1913_cease",
-      "id": "G",
-      "requirements": [
-        {
-          "number": "15",
-          "character": "目",
-          "keyword": "eye",
-          "level": "Medium",
-          "filename": "15_eye",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "675",
-          "character": "去",
-          "keyword": "go",
-          "level": "Elementary",
-          "filename": "675_go",
-          "id": "F",
-          "requirements": [
-            {
-              "number": "158",
-              "character": "土",
-              "keyword": "soil",
-              "level": "Medium",
-              "filename": "158_soil",
-              "id": "D",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "厶",
-              "keyword": "elbow",
-              "level": null,
-              "filename": "extra_elbow",
-              "id": "E",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2069,
+  "hierarchy": {
+    "number": "1914",
+    "character": "摆",
+    "keyword": "put in order",
+    "level": "Advanced",
+    "filename": "1914_put_in_order",
+    "id": "H",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "primitive_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1913",
+        "character": "罢",
+        "keyword": "cease",
+        "level": null,
+        "filename": "1913_cease",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "15",
+            "character": "目",
+            "keyword": "eye",
+            "level": "Medium",
+            "filename": "15_eye",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "675",
+            "character": "去",
+            "keyword": "go",
+            "level": "Elementary",
+            "filename": "675_go",
+            "id": "F",
+            "requirements": [
+              {
+                "number": "158",
+                "character": "土",
+                "keyword": "soil",
+                "level": "Medium",
+                "filename": "158_soil",
+                "id": "D",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "厶",
+                "keyword": "elbow",
+                "level": null,
+                "filename": "primitive_elbow",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

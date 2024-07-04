@@ -1,28 +1,31 @@
 {
-  "number": "2089",
-  "character": "囚",
-  "keyword": "prisoner",
-  "level": null,
-  "filename": "2089_prisoner",
-  "id": "D",
-  "requirements": [
-    {
-      "number": null,
-      "character": "囗",
-      "keyword": "pent in",
-      "level": null,
-      "filename": "extra_pent_in",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "793",
-      "character": "人",
-      "keyword": "person",
-      "level": "Elementary",
-      "filename": "793_person",
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 2250,
+  "hierarchy": {
+    "number": "2089",
+    "character": "囚",
+    "keyword": "prisoner",
+    "level": null,
+    "filename": "2089_prisoner",
+    "id": "D",
+    "requirements": [
+      {
+        "number": null,
+        "character": "囗",
+        "keyword": "pent in",
+        "level": null,
+        "filename": "primitive_pent_in",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "793",
+        "character": "人",
+        "keyword": "person",
+        "level": "Elementary",
+        "filename": "793_person",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

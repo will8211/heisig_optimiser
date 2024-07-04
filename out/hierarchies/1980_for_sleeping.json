@@ -1,57 +1,60 @@
 {
-  "number": "1980",
-  "character": "卧",
-  "keyword": "for sleeping",
-  "level": null,
-  "filename": "1980_for_sleeping",
-  "id": "G",
-  "requirements": [
-    {
-      "number": "731",
-      "character": "臣",
-      "keyword": "feudal official",
-      "level": null,
-      "filename": "731_feudal_official",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "43",
-      "character": "卜",
-      "keyword": "divination",
-      "level": null,
-      "filename": "43_divination",
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丨",
-          "keyword": "walking stick",
-          "level": null,
-          "filename": "extra_walking_stick",
-          "id": "D",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2136,
+  "hierarchy": {
+    "number": "1980",
+    "character": "卧",
+    "keyword": "for sleeping",
+    "level": null,
+    "filename": "1980_for_sleeping",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "731",
+        "character": "臣",
+        "keyword": "feudal official",
+        "level": null,
+        "filename": "731_feudal_official",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "43",
+        "character": "卜",
+        "keyword": "divination",
+        "level": null,
+        "filename": "43_divination",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丨",
+            "keyword": "walking stick",
+            "level": null,
+            "filename": "primitive_walking_stick",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

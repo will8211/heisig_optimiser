@@ -1,85 +1,88 @@
 {
-  "number": "781",
-  "character": "谜",
-  "keyword": "riddle",
-  "level": null,
-  "filename": "781_riddle",
-  "id": "J",
-  "requirements": [
-    {
-      "number": "346",
-      "character": "言",
-      "keyword": "say",
-      "level": "Medium",
-      "filename": "346_say",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "2",
-          "character": "二",
-          "keyword": "two",
-          "level": "Elementary",
-          "filename": "2_two",
-          "id": "C",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "filename": "11_mouth",
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "亠",
-          "keyword": "top hat",
-          "level": null,
-          "filename": "extra_top_hat",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "780",
-      "character": "迷",
-      "keyword": "lost",
-      "level": "Advanced",
-      "filename": "780_lost",
-      "id": "I",
-      "requirements": [
-        {
-          "number": "778",
-          "character": "米",
-          "keyword": "rice",
-          "level": "Medium",
-          "filename": "778_rice",
-          "id": "G",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "辶",
-          "keyword": "road",
-          "level": null,
-          "filename": "extra_road",
-          "id": "H",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 842,
+  "hierarchy": {
+    "number": "781",
+    "character": "谜",
+    "keyword": "riddle",
+    "level": null,
+    "filename": "781_riddle",
+    "id": "J",
+    "requirements": [
+      {
+        "number": "346",
+        "character": "言",
+        "keyword": "say",
+        "level": "Medium",
+        "filename": "346_say",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "2",
+            "character": "二",
+            "keyword": "two",
+            "level": "Elementary",
+            "filename": "2_two",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "亠",
+            "keyword": "top hat",
+            "level": null,
+            "filename": "primitive_top_hat",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "780",
+        "character": "迷",
+        "keyword": "lost",
+        "level": "Advanced",
+        "filename": "780_lost",
+        "id": "I",
+        "requirements": [
+          {
+            "number": "778",
+            "character": "米",
+            "keyword": "rice",
+            "level": "Medium",
+            "filename": "778_rice",
+            "id": "G",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "辶",
+            "keyword": "road",
+            "level": null,
+            "filename": "primitive_road",
+            "id": "H",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,86 +1,89 @@
 {
-  "number": "146",
-  "character": "沙",
-  "keyword": "sand",
-  "level": "Advanced",
-  "filename": "146_sand",
-  "id": "J",
-  "requirements": [
-    {
-      "number": "137",
-      "character": "水",
-      "keyword": "water",
-      "level": "Elementary",
-      "filename": "137_water",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丨",
-          "keyword": "walking stick",
-          "level": null,
-          "filename": "extra_walking_stick",
-          "id": "C",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "110",
-      "character": "少",
-      "keyword": "few",
-      "level": "Elementary",
-      "filename": "110_few",
-      "id": "I",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "F",
-          "requirements": []
-        },
-        {
-          "number": "109",
-          "character": "小",
-          "keyword": "small",
-          "level": "Elementary",
-          "filename": "109_small",
-          "id": "H",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "filename": "extra_a_drop_of",
-              "id": "G",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 154,
+  "hierarchy": {
+    "number": "146",
+    "character": "沙",
+    "keyword": "sand",
+    "level": "Advanced",
+    "filename": "146_sand",
+    "id": "J",
+    "requirements": [
+      {
+        "number": "137",
+        "character": "水",
+        "keyword": "water",
+        "level": "Elementary",
+        "filename": "137_water",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丨",
+            "keyword": "walking stick",
+            "level": null,
+            "filename": "primitive_walking_stick",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "110",
+        "character": "少",
+        "keyword": "few",
+        "level": "Elementary",
+        "filename": "110_few",
+        "id": "I",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "F",
+            "requirements": []
+          },
+          {
+            "number": "109",
+            "character": "小",
+            "keyword": "small",
+            "level": "Elementary",
+            "filename": "109_small",
+            "id": "H",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "G",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

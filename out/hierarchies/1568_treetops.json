@@ -1,57 +1,60 @@
 {
-  "number": "1568",
-  "character": "梢",
-  "keyword": "treetops",
-  "level": null,
-  "filename": "1568_treetops",
-  "id": "G",
-  "requirements": [
-    {
-      "number": "202",
-      "character": "木",
-      "keyword": "tree",
-      "level": "Elementary",
-      "filename": "202_tree",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "128",
-      "character": "肖",
-      "keyword": "resemble",
-      "level": null,
-      "filename": "128_resemble",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "109",
-          "character": "小",
-          "keyword": "small",
-          "level": "Elementary",
-          "filename": "109_small",
-          "id": "D",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "filename": "extra_a_drop_of",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "13",
-          "character": "月",
-          "keyword": "month",
-          "level": "Elementary",
-          "filename": "13_month",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1708,
+  "hierarchy": {
+    "number": "1568",
+    "character": "梢",
+    "keyword": "treetops",
+    "level": null,
+    "filename": "1568_treetops",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "202",
+        "character": "木",
+        "keyword": "tree",
+        "level": "Elementary",
+        "filename": "202_tree",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "128",
+        "character": "肖",
+        "keyword": "resemble",
+        "level": null,
+        "filename": "128_resemble",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "109",
+            "character": "小",
+            "keyword": "small",
+            "level": "Elementary",
+            "filename": "109_small",
+            "id": "D",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "13",
+            "character": "月",
+            "keyword": "month",
+            "level": "Elementary",
+            "filename": "13_month",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

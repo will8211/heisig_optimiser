@@ -1,28 +1,31 @@
 {
-  "number": "1743",
-  "character": "茧",
-  "keyword": "cocoon",
-  "level": null,
-  "filename": "1743_cocoon",
-  "id": "D",
-  "requirements": [
-    {
-      "number": null,
-      "character": "艹",
-      "keyword": "flower",
-      "level": null,
-      "filename": "extra_flower",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "509",
-      "character": "虫",
-      "keyword": "insect",
-      "level": "Medium",
-      "filename": "509_insect",
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 1889,
+  "hierarchy": {
+    "number": "1743",
+    "character": "茧",
+    "keyword": "cocoon",
+    "level": null,
+    "filename": "1743_cocoon",
+    "id": "D",
+    "requirements": [
+      {
+        "number": null,
+        "character": "艹",
+        "keyword": "flower",
+        "level": null,
+        "filename": "primitive_flower",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "509",
+        "character": "虫",
+        "keyword": "insect",
+        "level": "Medium",
+        "filename": "509_insect",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

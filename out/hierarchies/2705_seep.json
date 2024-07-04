@@ -1,85 +1,88 @@
 {
-  "number": "2705",
-  "character": "渗",
-  "keyword": "seep",
-  "level": null,
-  "filename": "2705_seep",
-  "id": "J",
-  "requirements": [
-    {
-      "number": "137",
-      "character": "水",
-      "keyword": "water",
-      "level": "Elementary",
-      "filename": "137_water",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丨",
-          "keyword": "walking stick",
-          "level": null,
-          "filename": "extra_walking_stick",
-          "id": "C",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "1308",
-      "character": "参",
-      "keyword": "participate",
-      "level": "Medium",
-      "filename": "1308_participate",
-      "id": "I",
-      "requirements": [
-        {
-          "number": "113",
-          "character": "大",
-          "keyword": "large",
-          "level": "Elementary",
-          "filename": "113_large",
-          "id": "F",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "厶",
-          "keyword": "elbow",
-          "level": null,
-          "filename": "extra_elbow",
-          "id": "G",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "彡",
-          "keyword": "rooster tail",
-          "level": null,
-          "filename": "extra_rooster_tail",
-          "id": "H",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2897,
+  "hierarchy": {
+    "number": "2705",
+    "character": "渗",
+    "keyword": "seep",
+    "level": null,
+    "filename": "2705_seep",
+    "id": "J",
+    "requirements": [
+      {
+        "number": "137",
+        "character": "水",
+        "keyword": "water",
+        "level": "Elementary",
+        "filename": "137_water",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丨",
+            "keyword": "walking stick",
+            "level": null,
+            "filename": "primitive_walking_stick",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "1308",
+        "character": "参",
+        "keyword": "participate",
+        "level": "Medium",
+        "filename": "1308_participate",
+        "id": "I",
+        "requirements": [
+          {
+            "number": "113",
+            "character": "大",
+            "keyword": "large",
+            "level": "Elementary",
+            "filename": "113_large",
+            "id": "F",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "厶",
+            "keyword": "elbow",
+            "level": null,
+            "filename": "primitive_elbow",
+            "id": "G",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "彡",
+            "keyword": "rooster tail",
+            "level": null,
+            "filename": "primitive_rooster_tail",
+            "id": "H",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

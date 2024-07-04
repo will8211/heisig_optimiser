@@ -1,47 +1,50 @@
 {
-  "number": "2779",
-  "character": "触",
-  "keyword": "touch",
-  "level": null,
-  "filename": "2779_touch",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "1362",
-      "character": "角",
-      "keyword": "angle",
-      "level": "Medium",
-      "filename": "1362_angle",
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "勹",
-          "keyword": "bound up",
-          "level": null,
-          "filename": "extra_bound_up",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "1361",
-          "character": "用",
-          "keyword": "utilize",
-          "level": "Elementary",
-          "filename": "1361_utilize",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "509",
-      "character": "虫",
-      "keyword": "insect",
-      "level": "Medium",
-      "filename": "509_insect",
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 2973,
+  "hierarchy": {
+    "number": "2779",
+    "character": "触",
+    "keyword": "touch",
+    "level": null,
+    "filename": "2779_touch",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "1362",
+        "character": "角",
+        "keyword": "angle",
+        "level": "Medium",
+        "filename": "1362_angle",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "勹",
+            "keyword": "bound up",
+            "level": null,
+            "filename": "primitive_bound_up",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "1361",
+            "character": "用",
+            "keyword": "utilize",
+            "level": "Elementary",
+            "filename": "1361_utilize",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "509",
+        "character": "虫",
+        "keyword": "insect",
+        "level": "Medium",
+        "filename": "509_insect",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

@@ -1,38 +1,41 @@
 {
-  "number": "2682",
-  "character": "柜",
-  "keyword": "cupboard",
-  "level": "Advanced",
-  "filename": "2682_cupboard",
-  "id": "E",
-  "requirements": [
-    {
-      "number": "202",
-      "character": "木",
-      "keyword": "tree",
-      "level": "Elementary",
-      "filename": "202_tree",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "2681",
-      "character": "巨",
-      "keyword": "gigantic",
-      "level": "Advanced",
-      "filename": "2681_gigantic",
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "匚",
-          "keyword": "box",
-          "level": null,
-          "filename": "extra_box",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2871,
+  "hierarchy": {
+    "number": "2682",
+    "character": "柜",
+    "keyword": "cupboard",
+    "level": "Advanced",
+    "filename": "2682_cupboard",
+    "id": "E",
+    "requirements": [
+      {
+        "number": "202",
+        "character": "木",
+        "keyword": "tree",
+        "level": "Elementary",
+        "filename": "202_tree",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "2681",
+        "character": "巨",
+        "keyword": "gigantic",
+        "level": "Advanced",
+        "filename": "2681_gigantic",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "匚",
+            "keyword": "box",
+            "level": null,
+            "filename": "primitive_box",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

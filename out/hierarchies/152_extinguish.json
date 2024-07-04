@@ -1,86 +1,89 @@
 {
-  "number": "152",
-  "character": "消",
-  "keyword": "extinguish",
-  "level": "Advanced",
-  "filename": "152_extinguish",
-  "id": "J",
-  "requirements": [
-    {
-      "number": "137",
-      "character": "水",
-      "keyword": "water",
-      "level": "Elementary",
-      "filename": "137_water",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丨",
-          "keyword": "walking stick",
-          "level": null,
-          "filename": "extra_walking_stick",
-          "id": "C",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "128",
-      "character": "肖",
-      "keyword": "resemble",
-      "level": null,
-      "filename": "128_resemble",
-      "id": "I",
-      "requirements": [
-        {
-          "number": "109",
-          "character": "小",
-          "keyword": "small",
-          "level": "Elementary",
-          "filename": "109_small",
-          "id": "G",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "filename": "extra_a_drop_of",
-              "id": "F",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "13",
-          "character": "月",
-          "keyword": "month",
-          "level": "Elementary",
-          "filename": "13_month",
-          "id": "H",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 160,
+  "hierarchy": {
+    "number": "152",
+    "character": "消",
+    "keyword": "extinguish",
+    "level": "Advanced",
+    "filename": "152_extinguish",
+    "id": "J",
+    "requirements": [
+      {
+        "number": "137",
+        "character": "水",
+        "keyword": "water",
+        "level": "Elementary",
+        "filename": "137_water",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丨",
+            "keyword": "walking stick",
+            "level": null,
+            "filename": "primitive_walking_stick",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "128",
+        "character": "肖",
+        "keyword": "resemble",
+        "level": null,
+        "filename": "128_resemble",
+        "id": "I",
+        "requirements": [
+          {
+            "number": "109",
+            "character": "小",
+            "keyword": "small",
+            "level": "Elementary",
+            "filename": "109_small",
+            "id": "G",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "F",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "13",
+            "character": "月",
+            "keyword": "month",
+            "level": "Elementary",
+            "filename": "13_month",
+            "id": "H",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

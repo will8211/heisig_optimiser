@@ -1,57 +1,60 @@
 {
-  "number": "1159",
-  "character": "概",
-  "keyword": "approximate",
-  "level": "Advanced",
-  "filename": "1159_approximate",
-  "id": "G",
-  "requirements": [
-    {
-      "number": "1145",
-      "character": "根",
-      "keyword": "root",
-      "level": "Advanced",
-      "filename": "1145_root",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "202",
-          "character": "木",
-          "keyword": "tree",
-          "level": "Elementary",
-          "filename": "202_tree",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "艮",
-          "keyword": "silver",
-          "level": null,
-          "filename": "extra_silver",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "旡",
-      "keyword": "waitress",
-      "level": null,
-      "filename": "extra_waitress",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "56",
-          "character": "儿",
-          "keyword": "youngster",
-          "level": "Elementary",
-          "filename": "56_youngster",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1256,
+  "hierarchy": {
+    "number": "1159",
+    "character": "概",
+    "keyword": "approximate",
+    "level": "Advanced",
+    "filename": "1159_approximate",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "1145",
+        "character": "根",
+        "keyword": "root",
+        "level": "Advanced",
+        "filename": "1145_root",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "202",
+            "character": "木",
+            "keyword": "tree",
+            "level": "Elementary",
+            "filename": "202_tree",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "艮",
+            "keyword": "silver",
+            "level": null,
+            "filename": "primitive_silver",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "旡",
+        "keyword": "waitress",
+        "level": null,
+        "filename": "primitive_waitress",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "56",
+            "character": "儿",
+            "keyword": "youngster",
+            "level": "Elementary",
+            "filename": "56_youngster",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

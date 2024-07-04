@@ -1,47 +1,50 @@
 {
-  "number": "746",
-  "character": "为",
-  "keyword": "act",
-  "level": "Elementary",
-  "filename": "746_act",
-  "id": "F",
-  "requirements": [
-    {
-      "number": null,
-      "character": "丶",
-      "keyword": "a drop of",
-      "level": null,
-      "filename": "extra_a_drop_of",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "63",
-      "character": "肌",
-      "keyword": "muscle",
-      "level": null,
-      "filename": "63_muscle",
-      "id": "E",
-      "requirements": [
-        {
-          "number": "57",
-          "character": "几",
-          "keyword": "how many?",
-          "level": "Elementary",
-          "filename": "57_how_many",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "13",
-          "character": "月",
-          "keyword": "month",
-          "level": "Elementary",
-          "filename": "13_month",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 806,
+  "hierarchy": {
+    "number": "746",
+    "character": "为",
+    "keyword": "act",
+    "level": "Elementary",
+    "filename": "746_act",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "丶",
+        "keyword": "a drop of",
+        "level": null,
+        "filename": "primitive_a_drop_of",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "63",
+        "character": "肌",
+        "keyword": "muscle",
+        "level": null,
+        "filename": "63_muscle",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "57",
+            "character": "几",
+            "keyword": "how many?",
+            "level": "Elementary",
+            "filename": "57_how_many",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "13",
+            "character": "月",
+            "keyword": "month",
+            "level": "Elementary",
+            "filename": "13_month",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

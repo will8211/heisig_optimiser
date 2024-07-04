@@ -1,57 +1,60 @@
 {
-  "number": "965",
-  "character": "瑞",
-  "keyword": "auspicious",
-  "level": null,
-  "filename": "965_auspicious",
-  "id": "G",
-  "requirements": [
-    {
-      "number": "266",
-      "character": "玉",
-      "keyword": "jade",
-      "level": "Medium",
-      "filename": "266_jade",
-      "id": "E",
-      "requirements": [
-        {
-          "number": "265",
-          "character": "王",
-          "keyword": "king",
-          "level": "Medium",
-          "filename": "265_king",
-          "id": "C",
-          "requirements": [
-            {
-              "number": "76",
-              "character": "工",
-              "keyword": "work",
-              "level": "Elementary",
-              "filename": "76_work",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "耑",
-      "keyword": "prospector",
-      "level": null,
-      "filename": "extra_prospector",
-      "id": "F",
-      "requirements": []
-    }
-  ]
+  "order": 1036,
+  "hierarchy": {
+    "number": "965",
+    "character": "瑞",
+    "keyword": "auspicious",
+    "level": null,
+    "filename": "965_auspicious",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "266",
+        "character": "玉",
+        "keyword": "jade",
+        "level": "Medium",
+        "filename": "266_jade",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "265",
+            "character": "王",
+            "keyword": "king",
+            "level": "Medium",
+            "filename": "265_king",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "76",
+                "character": "工",
+                "keyword": "work",
+                "level": "Elementary",
+                "filename": "76_work",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "耑",
+        "keyword": "prospector",
+        "level": null,
+        "filename": "primitive_prospector",
+        "id": "F",
+        "requirements": []
+      }
+    ]
+  }
 }

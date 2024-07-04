@@ -1,75 +1,78 @@
 {
-  "number": "1488",
-  "character": "黄",
-  "keyword": "yellow",
-  "level": "Medium",
-  "filename": "1488_yellow",
-  "id": "I",
-  "requirements": [
-    {
-      "number": "1465",
-      "character": "寅",
-      "keyword": "sign of the tiger",
-      "level": null,
-      "filename": "1465_sign_of_the_tiger",
-      "id": "G",
-      "requirements": [
-        {
-          "number": null,
-          "character": "宀",
-          "keyword": "house",
-          "level": null,
-          "filename": "extra_house",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "filename": "1_one",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "913",
-          "character": "由",
-          "keyword": "wherefore",
-          "level": "Medium",
-          "filename": "913_wherefore",
-          "id": "E",
-          "requirements": [
-            {
-              "number": "14",
-              "character": "田",
-              "keyword": "rice field",
-              "level": "Medium",
-              "filename": "14_rice_field",
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "囧只－口",
-          "keyword": "animal legs",
-          "level": null,
-          "filename": "extra_animal_legs",
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "艹",
-      "keyword": "flower",
-      "level": null,
-      "filename": "extra_flower",
-      "id": "H",
-      "requirements": []
-    }
-  ]
+  "order": 1628,
+  "hierarchy": {
+    "number": "1488",
+    "character": "黄",
+    "keyword": "yellow",
+    "level": "Medium",
+    "filename": "1488_yellow",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "1465",
+        "character": "寅",
+        "keyword": "sign of the tiger",
+        "level": null,
+        "filename": "1465_sign_of_the_tiger",
+        "id": "G",
+        "requirements": [
+          {
+            "number": null,
+            "character": "宀",
+            "keyword": "house",
+            "level": null,
+            "filename": "primitive_house",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "913",
+            "character": "由",
+            "keyword": "wherefore",
+            "level": "Medium",
+            "filename": "913_wherefore",
+            "id": "E",
+            "requirements": [
+              {
+                "number": "14",
+                "character": "田",
+                "keyword": "rice field",
+                "level": "Medium",
+                "filename": "14_rice_field",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "囧只－口",
+            "keyword": "animal legs",
+            "level": null,
+            "filename": "primitive_animal_legs",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "艹",
+        "keyword": "flower",
+        "level": null,
+        "filename": "primitive_flower",
+        "id": "H",
+        "requirements": []
+      }
+    ]
+  }
 }

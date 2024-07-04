@@ -1,66 +1,69 @@
 {
-  "number": "1725",
-  "character": "荒",
-  "keyword": "wasteland",
-  "level": null,
-  "filename": "1725_wasteland",
-  "id": "H",
-  "requirements": [
-    {
-      "number": "1724",
-      "character": "芒",
-      "keyword": "mango",
-      "level": null,
-      "filename": "1724_mango",
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "艹",
-          "keyword": "flower",
-          "level": null,
-          "filename": "extra_flower",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "490",
-          "character": "亡",
-          "keyword": "deceased",
-          "level": "Advanced",
-          "filename": "490_deceased",
-          "id": "E",
-          "requirements": [
-            {
-              "number": null,
-              "character": "亠",
-              "keyword": "top hat",
-              "level": null,
-              "filename": "extra_top_hat",
-              "id": "C",
-              "requirements": []
-            },
-            {
-              "number": "95",
-              "character": "乙",
-              "keyword": "second",
-              "level": "Medium",
-              "filename": "95_second",
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": "134",
-      "character": "川",
-      "keyword": "stream",
-      "level": null,
-      "filename": "134_stream",
-      "id": "G",
-      "requirements": []
-    }
-  ]
+  "order": 1870,
+  "hierarchy": {
+    "number": "1725",
+    "character": "荒",
+    "keyword": "wasteland",
+    "level": null,
+    "filename": "1725_wasteland",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "1724",
+        "character": "芒",
+        "keyword": "mango",
+        "level": null,
+        "filename": "1724_mango",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "艹",
+            "keyword": "flower",
+            "level": null,
+            "filename": "primitive_flower",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "490",
+            "character": "亡",
+            "keyword": "deceased",
+            "level": "Advanced",
+            "filename": "490_deceased",
+            "id": "E",
+            "requirements": [
+              {
+                "number": null,
+                "character": "亠",
+                "keyword": "top hat",
+                "level": null,
+                "filename": "primitive_top_hat",
+                "id": "C",
+                "requirements": []
+              },
+              {
+                "number": "95",
+                "character": "乙",
+                "keyword": "second",
+                "level": "Medium",
+                "filename": "95_second",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": "134",
+        "character": "川",
+        "keyword": "stream",
+        "level": null,
+        "filename": "134_stream",
+        "id": "G",
+        "requirements": []
+      }
+    ]
+  }
 }

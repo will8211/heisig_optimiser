@@ -1,47 +1,50 @@
 {
-  "number": "1080",
-  "character": "织",
-  "keyword": "weave",
-  "level": "Advanced",
-  "filename": "1080_weave",
-  "id": "F",
-  "requirements": [
-    {
-      "number": null,
-      "character": "纟",
-      "keyword": "thread",
-      "level": null,
-      "filename": "extra_thread",
-      "id": "C",
-      "requirements": [
-        {
-          "number": null,
-          "character": "厶",
-          "keyword": "elbow",
-          "level": null,
-          "filename": "extra_elbow",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "11",
-      "character": "口",
-      "keyword": "mouth",
-      "level": "Elementary",
-      "filename": "11_mouth",
-      "id": "D",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "囧只－口",
-      "keyword": "animal legs",
-      "level": null,
-      "filename": "extra_animal_legs",
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 1163,
+  "hierarchy": {
+    "number": "1080",
+    "character": "织",
+    "keyword": "weave",
+    "level": "Advanced",
+    "filename": "1080_weave",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "纟",
+        "keyword": "thread",
+        "level": null,
+        "filename": "primitive_thread",
+        "id": "C",
+        "requirements": [
+          {
+            "number": null,
+            "character": "厶",
+            "keyword": "elbow",
+            "level": null,
+            "filename": "primitive_elbow",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "11",
+        "character": "口",
+        "keyword": "mouth",
+        "level": "Elementary",
+        "filename": "11_mouth",
+        "id": "D",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "囧只－口",
+        "keyword": "animal legs",
+        "level": null,
+        "filename": "primitive_animal_legs",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

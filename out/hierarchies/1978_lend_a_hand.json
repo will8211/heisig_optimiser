@@ -1,38 +1,41 @@
 {
-  "number": "1978",
-  "character": "扶",
-  "keyword": "lend a hand",
-  "level": null,
-  "filename": "1978_lend_a_hand",
-  "id": "E",
-  "requirements": [
-    {
-      "number": null,
-      "character": "扌",
-      "keyword": "fingers",
-      "level": null,
-      "filename": "extra_fingers",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "726",
-      "character": "夫",
-      "keyword": "husband",
-      "level": "Medium",
-      "filename": "726_husband",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "113",
-          "character": "大",
-          "keyword": "large",
-          "level": "Elementary",
-          "filename": "113_large",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2134,
+  "hierarchy": {
+    "number": "1978",
+    "character": "扶",
+    "keyword": "lend a hand",
+    "level": null,
+    "filename": "1978_lend_a_hand",
+    "id": "E",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "primitive_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "726",
+        "character": "夫",
+        "keyword": "husband",
+        "level": "Medium",
+        "filename": "726_husband",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "113",
+            "character": "大",
+            "keyword": "large",
+            "level": "Elementary",
+            "filename": "113_large",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

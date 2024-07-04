@@ -1,76 +1,79 @@
 {
-  "number": "145",
-  "character": "沼",
-  "keyword": "marsh",
-  "level": null,
-  "filename": "145_marsh",
-  "id": "I",
-  "requirements": [
-    {
-      "number": "137",
-      "character": "水",
-      "keyword": "water",
-      "level": "Elementary",
-      "filename": "137_water",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丨",
-          "keyword": "walking stick",
-          "level": null,
-          "filename": "extra_walking_stick",
-          "id": "C",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "86",
-      "character": "召",
-      "keyword": "summon",
-      "level": "Advanced",
-      "filename": "86_summon",
-      "id": "H",
-      "requirements": [
-        {
-          "number": "83",
-          "character": "刀",
-          "keyword": "sword",
-          "level": "Medium",
-          "filename": "83_sword",
-          "id": "F",
-          "requirements": []
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "filename": "11_mouth",
-          "id": "G",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 153,
+  "hierarchy": {
+    "number": "145",
+    "character": "沼",
+    "keyword": "marsh",
+    "level": null,
+    "filename": "145_marsh",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "137",
+        "character": "水",
+        "keyword": "water",
+        "level": "Elementary",
+        "filename": "137_water",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丨",
+            "keyword": "walking stick",
+            "level": null,
+            "filename": "primitive_walking_stick",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "86",
+        "character": "召",
+        "keyword": "summon",
+        "level": "Advanced",
+        "filename": "86_summon",
+        "id": "H",
+        "requirements": [
+          {
+            "number": "83",
+            "character": "刀",
+            "keyword": "sword",
+            "level": "Medium",
+            "filename": "83_sword",
+            "id": "F",
+            "requirements": []
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "G",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

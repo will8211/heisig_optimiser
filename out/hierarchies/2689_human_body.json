@@ -1,76 +1,79 @@
 {
-  "number": "2689",
-  "character": "躯",
-  "keyword": "human body",
-  "level": null,
-  "filename": "2689_human_body",
-  "id": "I",
-  "requirements": [
-    {
-      "number": "1026",
-      "character": "身",
-      "keyword": "somebody",
-      "level": "Elementary",
-      "filename": "1026_somebody",
-      "id": "E",
-      "requirements": [
-        {
-          "number": "33",
-          "character": "自",
-          "keyword": "oneself",
-          "level": "Medium",
-          "filename": "33_oneself",
-          "id": "D",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "filename": "extra_a_drop_of",
-              "id": "B",
-              "requirements": []
-            },
-            {
-              "number": "15",
-              "character": "目",
-              "keyword": "eye",
-              "level": "Medium",
-              "filename": "15_eye",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": "1295",
-      "character": "区",
-      "keyword": "region",
-      "level": "Medium",
-      "filename": "1295_region",
-      "id": "H",
-      "requirements": [
-        {
-          "number": null,
-          "character": "匚",
-          "keyword": "box",
-          "level": null,
-          "filename": "extra_box",
-          "id": "F",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "㐅",
-          "keyword": "sheaf",
-          "level": null,
-          "filename": "extra_sheaf",
-          "id": "G",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2878,
+  "hierarchy": {
+    "number": "2689",
+    "character": "躯",
+    "keyword": "human body",
+    "level": null,
+    "filename": "2689_human_body",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "1026",
+        "character": "身",
+        "keyword": "somebody",
+        "level": "Elementary",
+        "filename": "1026_somebody",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "33",
+            "character": "自",
+            "keyword": "oneself",
+            "level": "Medium",
+            "filename": "33_oneself",
+            "id": "D",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "B",
+                "requirements": []
+              },
+              {
+                "number": "15",
+                "character": "目",
+                "keyword": "eye",
+                "level": "Medium",
+                "filename": "15_eye",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": "1295",
+        "character": "区",
+        "keyword": "region",
+        "level": "Medium",
+        "filename": "1295_region",
+        "id": "H",
+        "requirements": [
+          {
+            "number": null,
+            "character": "匚",
+            "keyword": "box",
+            "level": null,
+            "filename": "primitive_box",
+            "id": "F",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "㐅",
+            "keyword": "sheaf",
+            "level": null,
+            "filename": "primitive_sheaf",
+            "id": "G",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

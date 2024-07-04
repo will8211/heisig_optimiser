@@ -1,57 +1,60 @@
 {
-  "number": "1477",
-  "character": "哪",
-  "keyword": "which?",
-  "level": "Elementary",
-  "filename": "1477_which",
-  "id": "G",
-  "requirements": [
-    {
-      "number": "11",
-      "character": "口",
-      "keyword": "mouth",
-      "level": "Elementary",
-      "filename": "11_mouth",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1476",
-      "character": "那",
-      "keyword": "that",
-      "level": "Elementary",
-      "filename": "1476_that",
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧那－阝",
-          "keyword": "razor wire",
-          "level": null,
-          "filename": "extra_razor_wire",
-          "id": "D",
-          "requirements": [
-            {
-              "number": "83",
-              "character": "刀",
-              "keyword": "sword",
-              "level": "Medium",
-              "filename": "83_sword",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "阝",
-          "keyword": "pinnacle",
-          "level": null,
-          "filename": "extra_pinnacle",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1615,
+  "hierarchy": {
+    "number": "1477",
+    "character": "哪",
+    "keyword": "which?",
+    "level": "Elementary",
+    "filename": "1477_which",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "11",
+        "character": "口",
+        "keyword": "mouth",
+        "level": "Elementary",
+        "filename": "11_mouth",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1476",
+        "character": "那",
+        "keyword": "that",
+        "level": "Elementary",
+        "filename": "1476_that",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧那－阝",
+            "keyword": "razor wire",
+            "level": null,
+            "filename": "primitive_razor_wire",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "83",
+                "character": "刀",
+                "keyword": "sword",
+                "level": "Medium",
+                "filename": "83_sword",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "阝",
+            "keyword": "pinnacle",
+            "level": null,
+            "filename": "primitive_pinnacle",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

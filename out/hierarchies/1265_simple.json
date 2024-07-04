@@ -1,57 +1,60 @@
 {
-  "number": "1265",
-  "character": "简",
-  "keyword": "simple",
-  "level": "Advanced",
-  "filename": "1265_simple",
-  "id": "G",
-  "requirements": [
-    {
-      "number": "786",
-      "character": "竹",
-      "keyword": "bamboo",
-      "level": "Advanced",
-      "filename": "786_bamboo",
-      "id": "C",
-      "requirements": [
-        {
-          "number": "90",
-          "character": "丁",
-          "keyword": "fourth",
-          "level": null,
-          "filename": "90_fourth",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "1264",
-      "character": "间",
-      "keyword": "interval",
-      "level": "Elementary",
-      "filename": "1264_interval",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "1260",
-          "character": "门",
-          "keyword": "gate",
-          "level": "Elementary",
-          "filename": "1260_gate",
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": "12",
-          "character": "日",
-          "keyword": "day",
-          "level": "Elementary",
-          "filename": "12_day",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1373,
+  "hierarchy": {
+    "number": "1265",
+    "character": "简",
+    "keyword": "simple",
+    "level": "Advanced",
+    "filename": "1265_simple",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "786",
+        "character": "竹",
+        "keyword": "bamboo",
+        "level": "Advanced",
+        "filename": "786_bamboo",
+        "id": "C",
+        "requirements": [
+          {
+            "number": "90",
+            "character": "丁",
+            "keyword": "fourth",
+            "level": null,
+            "filename": "90_fourth",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "1264",
+        "character": "间",
+        "keyword": "interval",
+        "level": "Elementary",
+        "filename": "1264_interval",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "1260",
+            "character": "门",
+            "keyword": "gate",
+            "level": "Elementary",
+            "filename": "1260_gate",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": "12",
+            "character": "日",
+            "keyword": "day",
+            "level": "Elementary",
+            "filename": "12_day",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

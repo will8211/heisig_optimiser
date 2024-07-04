@@ -1,66 +1,69 @@
 {
-  "number": "2569",
-  "character": "债",
-  "keyword": "debt",
-  "level": null,
-  "filename": "2569_debt",
-  "id": "H",
-  "requirements": [
-    {
-      "number": "793",
-      "character": "人",
-      "keyword": "person",
-      "level": "Elementary",
-      "filename": "793_person",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1215",
-      "character": "责",
-      "keyword": "responsibility",
-      "level": "Advanced",
-      "filename": "1215_responsibility",
-      "id": "G",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧毒－母",
-          "keyword": "grow up",
-          "level": null,
-          "filename": "extra_grow_up",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "52",
-          "character": "贝",
-          "keyword": "shellfish",
-          "level": "Medium",
-          "filename": "52_shellfish",
-          "id": "F",
-          "requirements": [
-            {
-              "number": "15",
-              "character": "目",
-              "keyword": "eye",
-              "level": "Medium",
-              "filename": "15_eye",
-              "id": "D",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "囧只－口",
-              "keyword": "animal legs",
-              "level": null,
-              "filename": "extra_animal_legs",
-              "id": "E",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2756,
+  "hierarchy": {
+    "number": "2569",
+    "character": "债",
+    "keyword": "debt",
+    "level": null,
+    "filename": "2569_debt",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "793",
+        "character": "人",
+        "keyword": "person",
+        "level": "Elementary",
+        "filename": "793_person",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1215",
+        "character": "责",
+        "keyword": "responsibility",
+        "level": "Advanced",
+        "filename": "1215_responsibility",
+        "id": "G",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧毒－母",
+            "keyword": "grow up",
+            "level": null,
+            "filename": "primitive_grow_up",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "52",
+            "character": "贝",
+            "keyword": "shellfish",
+            "level": "Medium",
+            "filename": "52_shellfish",
+            "id": "F",
+            "requirements": [
+              {
+                "number": "15",
+                "character": "目",
+                "keyword": "eye",
+                "level": "Medium",
+                "filename": "15_eye",
+                "id": "D",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "囧只－口",
+                "keyword": "animal legs",
+                "level": null,
+                "filename": "primitive_animal_legs",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

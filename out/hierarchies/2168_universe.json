@@ -1,38 +1,41 @@
 {
-  "number": "2168",
-  "character": "宙",
-  "keyword": "universe",
-  "level": null,
-  "filename": "2168_universe",
-  "id": "E",
-  "requirements": [
-    {
-      "number": null,
-      "character": "宀",
-      "keyword": "house",
-      "level": null,
-      "filename": "extra_house",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "913",
-      "character": "由",
-      "keyword": "wherefore",
-      "level": "Medium",
-      "filename": "913_wherefore",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "14",
-          "character": "田",
-          "keyword": "rice field",
-          "level": "Medium",
-          "filename": "14_rice_field",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2330,
+  "hierarchy": {
+    "number": "2168",
+    "character": "宙",
+    "keyword": "universe",
+    "level": null,
+    "filename": "2168_universe",
+    "id": "E",
+    "requirements": [
+      {
+        "number": null,
+        "character": "宀",
+        "keyword": "house",
+        "level": null,
+        "filename": "primitive_house",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "913",
+        "character": "由",
+        "keyword": "wherefore",
+        "level": "Medium",
+        "filename": "913_wherefore",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "14",
+            "character": "田",
+            "keyword": "rice field",
+            "level": "Medium",
+            "filename": "14_rice_field",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

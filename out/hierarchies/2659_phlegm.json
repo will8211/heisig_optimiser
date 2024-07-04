@@ -1,115 +1,118 @@
 {
-  "number": "2659",
-  "character": "痰",
-  "keyword": "phlegm",
-  "level": null,
-  "filename": "2659_phlegm",
-  "id": "M",
-  "requirements": [
-    {
-      "number": null,
-      "character": "疒",
-      "keyword": "sickness",
-      "level": null,
-      "filename": "extra_sickness",
-      "id": "J",
-      "requirements": [
-        {
-          "number": "556",
-          "character": "广",
-          "keyword": "extensive",
-          "level": "Medium",
-          "filename": "556_extensive",
-          "id": "D",
-          "requirements": [
-            {
-              "number": "121",
-              "character": "厂",
-              "keyword": "factory",
-              "level": "Medium",
-              "filename": "121_factory",
-              "id": "B",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "宀",
-              "keyword": "house",
-              "level": null,
-              "filename": "extra_house",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "冫",
-          "keyword": "ice",
-          "level": null,
-          "filename": "extra_ice",
-          "id": "I",
-          "requirements": [
-            {
-              "number": "137",
-              "character": "水",
-              "keyword": "water",
-              "level": "Elementary",
-              "filename": "137_water",
-              "id": "H",
-              "requirements": [
-                {
-                  "number": null,
-                  "character": "丨",
-                  "keyword": "walking stick",
-                  "level": null,
-                  "filename": "extra_walking_stick",
-                  "id": "F",
-                  "requirements": [
-                    {
-                      "number": "1",
-                      "character": "一",
-                      "keyword": "one",
-                      "level": "Elementary",
-                      "filename": "1_one",
-                      "id": "E",
-                      "requirements": []
-                    }
-                  ]
-                },
-                {
-                  "number": null,
-                  "character": "丶",
-                  "keyword": "a drop of",
-                  "level": null,
-                  "filename": "extra_a_drop_of",
-                  "id": "G",
-                  "requirements": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": "174",
-      "character": "炎",
-      "keyword": "inflammation",
-      "level": "Advanced",
-      "filename": "174_inflammation",
-      "id": "L",
-      "requirements": [
-        {
-          "number": "170",
-          "character": "火",
-          "keyword": "fire",
-          "level": "Elementary",
-          "filename": "170_fire",
-          "id": "K",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2848,
+  "hierarchy": {
+    "number": "2659",
+    "character": "痰",
+    "keyword": "phlegm",
+    "level": null,
+    "filename": "2659_phlegm",
+    "id": "M",
+    "requirements": [
+      {
+        "number": null,
+        "character": "疒",
+        "keyword": "sickness",
+        "level": null,
+        "filename": "primitive_sickness",
+        "id": "J",
+        "requirements": [
+          {
+            "number": "556",
+            "character": "广",
+            "keyword": "extensive",
+            "level": "Medium",
+            "filename": "556_extensive",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "121",
+                "character": "厂",
+                "keyword": "factory",
+                "level": "Medium",
+                "filename": "121_factory",
+                "id": "B",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "宀",
+                "keyword": "house",
+                "level": null,
+                "filename": "primitive_house",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "冫",
+            "keyword": "ice",
+            "level": null,
+            "filename": "primitive_ice",
+            "id": "I",
+            "requirements": [
+              {
+                "number": "137",
+                "character": "水",
+                "keyword": "water",
+                "level": "Elementary",
+                "filename": "137_water",
+                "id": "H",
+                "requirements": [
+                  {
+                    "number": null,
+                    "character": "丨",
+                    "keyword": "walking stick",
+                    "level": null,
+                    "filename": "primitive_walking_stick",
+                    "id": "F",
+                    "requirements": [
+                      {
+                        "number": "1",
+                        "character": "一",
+                        "keyword": "one",
+                        "level": "Elementary",
+                        "filename": "1_one",
+                        "id": "E",
+                        "requirements": []
+                      }
+                    ]
+                  },
+                  {
+                    "number": null,
+                    "character": "丶",
+                    "keyword": "a drop of",
+                    "level": null,
+                    "filename": "primitive_a_drop_of",
+                    "id": "G",
+                    "requirements": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": "174",
+        "character": "炎",
+        "keyword": "inflammation",
+        "level": "Advanced",
+        "filename": "174_inflammation",
+        "id": "L",
+        "requirements": [
+          {
+            "number": "170",
+            "character": "火",
+            "keyword": "fire",
+            "level": "Elementary",
+            "filename": "170_fire",
+            "id": "K",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

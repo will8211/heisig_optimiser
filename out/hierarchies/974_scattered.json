@@ -1,47 +1,50 @@
 {
-  "number": "974",
-  "character": "散",
-  "keyword": "scattered",
-  "level": "Advanced",
-  "filename": "974_scattered",
-  "id": "F",
-  "requirements": [
-    {
-      "number": null,
-      "character": "囧昔－日",
-      "keyword": "salad",
-      "level": null,
-      "filename": "extra_salad",
-      "id": "C",
-      "requirements": [
-        {
-          "number": null,
-          "character": "艹",
-          "keyword": "flower",
-          "level": null,
-          "filename": "extra_flower",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "13",
-      "character": "月",
-      "keyword": "month",
-      "level": "Elementary",
-      "filename": "13_month",
-      "id": "D",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "攵",
-      "keyword": "taskmaster",
-      "level": null,
-      "filename": "extra_taskmaster",
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 1046,
+  "hierarchy": {
+    "number": "974",
+    "character": "散",
+    "keyword": "scattered",
+    "level": "Advanced",
+    "filename": "974_scattered",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "囧昔－日",
+        "keyword": "salad",
+        "level": null,
+        "filename": "primitive_salad",
+        "id": "C",
+        "requirements": [
+          {
+            "number": null,
+            "character": "艹",
+            "keyword": "flower",
+            "level": null,
+            "filename": "primitive_flower",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "13",
+        "character": "月",
+        "keyword": "month",
+        "level": "Elementary",
+        "filename": "13_month",
+        "id": "D",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "攵",
+        "keyword": "taskmaster",
+        "level": null,
+        "filename": "primitive_taskmaster",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

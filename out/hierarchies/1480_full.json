@@ -1,95 +1,98 @@
 {
-  "number": "1480",
-  "character": "满",
-  "keyword": "full",
-  "level": "Medium",
-  "filename": "1480_full",
-  "id": "K",
-  "requirements": [
-    {
-      "number": "137",
-      "character": "水",
-      "keyword": "water",
-      "level": "Elementary",
-      "filename": "137_water",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丨",
-          "keyword": "walking stick",
-          "level": null,
-          "filename": "extra_walking_stick",
-          "id": "C",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "艹",
-      "keyword": "flower",
-      "level": null,
-      "filename": "extra_flower",
-      "id": "F",
-      "requirements": []
-    },
-    {
-      "number": "1478",
-      "character": "两",
-      "keyword": "dos",
-      "level": "Elementary",
-      "filename": "1478_dos",
-      "id": "J",
-      "requirements": [
-        {
-          "number": "793",
-          "character": "人",
-          "keyword": "person",
-          "level": "Elementary",
-          "filename": "793_person",
-          "id": "G",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "囧冂",
-          "keyword": "belt",
-          "level": null,
-          "filename": "extra_belt",
-          "id": "I",
-          "requirements": [
-            {
-              "number": "410",
-              "character": "巾",
-              "keyword": "towel",
-              "level": "Advanced",
-              "filename": "410_towel",
-              "id": "H",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 1618,
+  "hierarchy": {
+    "number": "1480",
+    "character": "满",
+    "keyword": "full",
+    "level": "Medium",
+    "filename": "1480_full",
+    "id": "K",
+    "requirements": [
+      {
+        "number": "137",
+        "character": "水",
+        "keyword": "water",
+        "level": "Elementary",
+        "filename": "137_water",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丨",
+            "keyword": "walking stick",
+            "level": null,
+            "filename": "primitive_walking_stick",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "艹",
+        "keyword": "flower",
+        "level": null,
+        "filename": "primitive_flower",
+        "id": "F",
+        "requirements": []
+      },
+      {
+        "number": "1478",
+        "character": "两",
+        "keyword": "dos",
+        "level": "Elementary",
+        "filename": "1478_dos",
+        "id": "J",
+        "requirements": [
+          {
+            "number": "793",
+            "character": "人",
+            "keyword": "person",
+            "level": "Elementary",
+            "filename": "793_person",
+            "id": "G",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "囧冂",
+            "keyword": "belt",
+            "level": null,
+            "filename": "primitive_belt",
+            "id": "I",
+            "requirements": [
+              {
+                "number": "410",
+                "character": "巾",
+                "keyword": "towel",
+                "level": "Advanced",
+                "filename": "410_towel",
+                "id": "H",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

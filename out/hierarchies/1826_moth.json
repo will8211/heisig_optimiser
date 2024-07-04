@@ -1,67 +1,70 @@
 {
-  "number": "1826",
-  "character": "蛾",
-  "keyword": "moth",
-  "level": null,
-  "filename": "1826_moth",
-  "id": "H",
-  "requirements": [
-    {
-      "number": "509",
-      "character": "虫",
-      "keyword": "insect",
-      "level": "Medium",
-      "filename": "509_insect",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "囧我",
-      "keyword": "miser",
-      "level": null,
-      "filename": "extra_miser",
-      "id": "G",
-      "requirements": [
-        {
-          "number": "588",
-          "character": "我",
-          "keyword": "I",
-          "level": "Elementary",
-          "filename": "588_I",
-          "id": "F",
-          "requirements": [
-            {
-              "number": "584",
-              "character": "手",
-              "keyword": "hand",
-              "level": "Elementary",
-              "filename": "584_hand",
-              "id": "C",
-              "requirements": []
-            },
-            {
-              "number": "361",
-              "character": "戈",
-              "keyword": "halberd",
-              "level": null,
-              "filename": "361_halberd",
-              "id": "E",
-              "requirements": [
-                {
-                  "number": null,
-                  "character": "弋",
-                  "keyword": "arrow",
-                  "level": null,
-                  "filename": "extra_arrow",
-                  "id": "D",
-                  "requirements": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 1977,
+  "hierarchy": {
+    "number": "1826",
+    "character": "蛾",
+    "keyword": "moth",
+    "level": null,
+    "filename": "1826_moth",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "509",
+        "character": "虫",
+        "keyword": "insect",
+        "level": "Medium",
+        "filename": "509_insect",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "囧我",
+        "keyword": "miser",
+        "level": null,
+        "filename": "primitive_miser",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "588",
+            "character": "我",
+            "keyword": "I",
+            "level": "Elementary",
+            "filename": "588_I",
+            "id": "F",
+            "requirements": [
+              {
+                "number": "584",
+                "character": "手",
+                "keyword": "hand",
+                "level": "Elementary",
+                "filename": "584_hand",
+                "id": "C",
+                "requirements": []
+              },
+              {
+                "number": "361",
+                "character": "戈",
+                "keyword": "halberd",
+                "level": null,
+                "filename": "361_halberd",
+                "id": "E",
+                "requirements": [
+                  {
+                    "number": null,
+                    "character": "弋",
+                    "keyword": "arrow",
+                    "level": null,
+                    "filename": "primitive_arrow",
+                    "id": "D",
+                    "requirements": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

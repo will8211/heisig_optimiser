@@ -1,57 +1,60 @@
 {
-  "number": "117",
-  "character": "够",
-  "keyword": "enough",
-  "level": "Medium",
-  "filename": "117_enough",
-  "id": "G",
-  "requirements": [
-    {
-      "number": "67",
-      "character": "句",
-      "keyword": "sentence",
-      "level": "Medium",
-      "filename": "67_sentence",
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "勹",
-          "keyword": "bound up",
-          "level": null,
-          "filename": "extra_bound_up",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "filename": "11_mouth",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "116",
-      "character": "多",
-      "keyword": "many",
-      "level": "Elementary",
-      "filename": "116_many",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "13",
-          "character": "月",
-          "keyword": "month",
-          "level": "Elementary",
-          "filename": "13_month",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 125,
+  "hierarchy": {
+    "number": "117",
+    "character": "够",
+    "keyword": "enough",
+    "level": "Medium",
+    "filename": "117_enough",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "67",
+        "character": "句",
+        "keyword": "sentence",
+        "level": "Medium",
+        "filename": "67_sentence",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "勹",
+            "keyword": "bound up",
+            "level": null,
+            "filename": "primitive_bound_up",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "116",
+        "character": "多",
+        "keyword": "many",
+        "level": "Elementary",
+        "filename": "116_many",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "13",
+            "character": "月",
+            "keyword": "month",
+            "level": "Elementary",
+            "filename": "13_month",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

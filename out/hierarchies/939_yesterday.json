@@ -1,123 +1,126 @@
 {
-  "number": "939",
-  "character": "昨",
-  "keyword": "yesterday",
-  "level": "Elementary",
-  "filename": "939_yesterday",
-  "id": "N",
-  "requirements": [
-    {
-      "number": "12",
-      "character": "日",
-      "keyword": "day",
-      "level": "Elementary",
-      "filename": "12_day",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "889",
-      "character": "锯",
-      "keyword": "saw",
-      "level": null,
-      "filename": "889_saw",
-      "id": "M",
-      "requirements": [
-        {
-          "number": "279",
-          "character": "金",
-          "keyword": "gold",
-          "level": "Advanced",
-          "filename": "279_gold",
-          "id": "G",
-          "requirements": [
-            {
-              "number": null,
-              "character": "𠆢",
-              "keyword": "umbrella",
-              "level": null,
-              "filename": "extra_umbrella",
-              "id": "C",
-              "requirements": []
-            },
-            {
-              "number": "265",
-              "character": "王",
-              "keyword": "king",
-              "level": "Medium",
-              "filename": "265_king",
-              "id": "E",
-              "requirements": [
-                {
-                  "number": "76",
-                  "character": "工",
-                  "keyword": "work",
-                  "level": "Elementary",
-                  "filename": "76_work",
-                  "id": "D",
-                  "requirements": []
-                }
-              ]
-            },
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "filename": "extra_a_drop_of",
-              "id": "F",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "888",
-          "character": "居",
-          "keyword": "reside",
-          "level": "Advanced",
-          "filename": "888_reside",
-          "id": "L",
-          "requirements": [
-            {
-              "number": "882",
-              "character": "尸",
-              "keyword": "corpse",
-              "level": null,
-              "filename": "882_corpse",
-              "id": "H",
-              "requirements": []
-            },
-            {
-              "number": "16",
-              "character": "古",
-              "keyword": "ancient",
-              "level": "Medium",
-              "filename": "16_ancient",
-              "id": "K",
-              "requirements": [
-                {
-                  "number": "10",
-                  "character": "十",
-                  "keyword": "ten",
-                  "level": "Elementary",
-                  "filename": "10_ten",
-                  "id": "I",
-                  "requirements": []
-                },
-                {
-                  "number": "11",
-                  "character": "口",
-                  "keyword": "mouth",
-                  "level": "Elementary",
-                  "filename": "11_mouth",
-                  "id": "J",
-                  "requirements": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 1007,
+  "hierarchy": {
+    "number": "939",
+    "character": "昨",
+    "keyword": "yesterday",
+    "level": "Elementary",
+    "filename": "939_yesterday",
+    "id": "N",
+    "requirements": [
+      {
+        "number": "12",
+        "character": "日",
+        "keyword": "day",
+        "level": "Elementary",
+        "filename": "12_day",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "889",
+        "character": "锯",
+        "keyword": "saw",
+        "level": null,
+        "filename": "889_saw",
+        "id": "M",
+        "requirements": [
+          {
+            "number": "279",
+            "character": "金",
+            "keyword": "gold",
+            "level": "Advanced",
+            "filename": "279_gold",
+            "id": "G",
+            "requirements": [
+              {
+                "number": null,
+                "character": "𠆢",
+                "keyword": "umbrella",
+                "level": null,
+                "filename": "primitive_umbrella",
+                "id": "C",
+                "requirements": []
+              },
+              {
+                "number": "265",
+                "character": "王",
+                "keyword": "king",
+                "level": "Medium",
+                "filename": "265_king",
+                "id": "E",
+                "requirements": [
+                  {
+                    "number": "76",
+                    "character": "工",
+                    "keyword": "work",
+                    "level": "Elementary",
+                    "filename": "76_work",
+                    "id": "D",
+                    "requirements": []
+                  }
+                ]
+              },
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "F",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "888",
+            "character": "居",
+            "keyword": "reside",
+            "level": "Advanced",
+            "filename": "888_reside",
+            "id": "L",
+            "requirements": [
+              {
+                "number": "882",
+                "character": "尸",
+                "keyword": "corpse",
+                "level": null,
+                "filename": "882_corpse",
+                "id": "H",
+                "requirements": []
+              },
+              {
+                "number": "16",
+                "character": "古",
+                "keyword": "ancient",
+                "level": "Medium",
+                "filename": "16_ancient",
+                "id": "K",
+                "requirements": [
+                  {
+                    "number": "10",
+                    "character": "十",
+                    "keyword": "ten",
+                    "level": "Elementary",
+                    "filename": "10_ten",
+                    "id": "I",
+                    "requirements": []
+                  },
+                  {
+                    "number": "11",
+                    "character": "口",
+                    "keyword": "mouth",
+                    "level": "Elementary",
+                    "filename": "11_mouth",
+                    "id": "J",
+                    "requirements": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

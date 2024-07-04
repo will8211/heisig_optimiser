@@ -1,57 +1,60 @@
 {
-  "number": "2387",
-  "character": "绣",
-  "keyword": "embroidery",
-  "level": null,
-  "filename": "2387_embroidery",
-  "id": "G",
-  "requirements": [
-    {
-      "number": null,
-      "character": "纟",
-      "keyword": "thread",
-      "level": null,
-      "filename": "extra_thread",
-      "id": "C",
-      "requirements": [
-        {
-          "number": null,
-          "character": "厶",
-          "keyword": "elbow",
-          "level": null,
-          "filename": "extra_elbow",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "775",
-      "character": "秀",
-      "keyword": "elegant",
-      "level": "Advanced",
-      "filename": "775_elegant",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "762",
-          "character": "禾",
-          "keyword": "standing grain",
-          "level": null,
-          "filename": "762_standing_grain",
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": "625",
-          "character": "乃",
-          "keyword": "only then",
-          "level": null,
-          "filename": "625_only_then",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2559,
+  "hierarchy": {
+    "number": "2387",
+    "character": "绣",
+    "keyword": "embroidery",
+    "level": null,
+    "filename": "2387_embroidery",
+    "id": "G",
+    "requirements": [
+      {
+        "number": null,
+        "character": "纟",
+        "keyword": "thread",
+        "level": null,
+        "filename": "primitive_thread",
+        "id": "C",
+        "requirements": [
+          {
+            "number": null,
+            "character": "厶",
+            "keyword": "elbow",
+            "level": null,
+            "filename": "primitive_elbow",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "775",
+        "character": "秀",
+        "keyword": "elegant",
+        "level": "Advanced",
+        "filename": "775_elegant",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "762",
+            "character": "禾",
+            "keyword": "standing grain",
+            "level": null,
+            "filename": "762_standing_grain",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": "625",
+            "character": "乃",
+            "keyword": "only then",
+            "level": null,
+            "filename": "625_only_then",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,75 +1,78 @@
 {
-  "number": "912",
-  "character": "擦",
-  "keyword": "scrub",
-  "level": null,
-  "filename": "912_scrub",
-  "id": "I",
-  "requirements": [
-    {
-      "number": null,
-      "character": "扌",
-      "keyword": "fingers",
-      "level": null,
-      "filename": "extra_fingers",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "911",
-      "character": "察",
-      "keyword": "scrutinize",
-      "level": "Advanced",
-      "filename": "911_scrutinize",
-      "id": "H",
-      "requirements": [
-        {
-          "number": null,
-          "character": "宀",
-          "keyword": "house",
-          "level": null,
-          "filename": "extra_house",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "910",
-          "character": "祭",
-          "keyword": "offer sacrifice",
-          "level": null,
-          "filename": "910_offer_sacrifice",
-          "id": "G",
-          "requirements": [
-            {
-              "number": "13",
-              "character": "月",
-              "keyword": "month",
-              "level": "Elementary",
-              "filename": "13_month",
-              "id": "D",
-              "requirements": []
-            },
-            {
-              "number": "633",
-              "character": "又",
-              "keyword": "again",
-              "level": "Elementary",
-              "filename": "633_again",
-              "id": "E",
-              "requirements": []
-            },
-            {
-              "number": "900",
-              "character": "示",
-              "keyword": "show",
-              "level": "Medium",
-              "filename": "900_show",
-              "id": "F",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 980,
+  "hierarchy": {
+    "number": "912",
+    "character": "擦",
+    "keyword": "scrub",
+    "level": null,
+    "filename": "912_scrub",
+    "id": "I",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "primitive_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "911",
+        "character": "察",
+        "keyword": "scrutinize",
+        "level": "Advanced",
+        "filename": "911_scrutinize",
+        "id": "H",
+        "requirements": [
+          {
+            "number": null,
+            "character": "宀",
+            "keyword": "house",
+            "level": null,
+            "filename": "primitive_house",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "910",
+            "character": "祭",
+            "keyword": "offer sacrifice",
+            "level": null,
+            "filename": "910_offer_sacrifice",
+            "id": "G",
+            "requirements": [
+              {
+                "number": "13",
+                "character": "月",
+                "keyword": "month",
+                "level": "Elementary",
+                "filename": "13_month",
+                "id": "D",
+                "requirements": []
+              },
+              {
+                "number": "633",
+                "character": "又",
+                "keyword": "again",
+                "level": "Elementary",
+                "filename": "633_again",
+                "id": "E",
+                "requirements": []
+              },
+              {
+                "number": "900",
+                "character": "示",
+                "keyword": "show",
+                "level": "Medium",
+                "filename": "900_show",
+                "id": "F",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

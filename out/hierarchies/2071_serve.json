@@ -1,66 +1,69 @@
 {
-  "number": "2071",
-  "character": "侍",
-  "keyword": "serve",
-  "level": null,
-  "filename": "2071_serve",
-  "id": "H",
-  "requirements": [
-    {
-      "number": "793",
-      "character": "人",
-      "keyword": "person",
-      "level": "Elementary",
-      "filename": "793_person",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "169",
-      "character": "寺",
-      "keyword": "Buddhist temple",
-      "level": "Advanced",
-      "filename": "169_Buddhist_temple",
-      "id": "G",
-      "requirements": [
-        {
-          "number": "158",
-          "character": "土",
-          "keyword": "soil",
-          "level": "Medium",
-          "filename": "158_soil",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "166",
-          "character": "寸",
-          "keyword": "Chinese inch",
-          "level": "Advanced",
-          "filename": "166_Chinese_inch",
-          "id": "F",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "filename": "extra_a_drop_of",
-              "id": "D",
-              "requirements": []
-            },
-            {
-              "number": "10",
-              "character": "十",
-              "keyword": "ten",
-              "level": "Elementary",
-              "filename": "10_ten",
-              "id": "E",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2232,
+  "hierarchy": {
+    "number": "2071",
+    "character": "侍",
+    "keyword": "serve",
+    "level": null,
+    "filename": "2071_serve",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "793",
+        "character": "人",
+        "keyword": "person",
+        "level": "Elementary",
+        "filename": "793_person",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "169",
+        "character": "寺",
+        "keyword": "Buddhist temple",
+        "level": "Advanced",
+        "filename": "169_Buddhist_temple",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "158",
+            "character": "土",
+            "keyword": "soil",
+            "level": "Medium",
+            "filename": "158_soil",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "166",
+            "character": "寸",
+            "keyword": "Chinese inch",
+            "level": "Advanced",
+            "filename": "166_Chinese_inch",
+            "id": "F",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "D",
+                "requirements": []
+              },
+              {
+                "number": "10",
+                "character": "十",
+                "keyword": "ten",
+                "level": "Elementary",
+                "filename": "10_ten",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

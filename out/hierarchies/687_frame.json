@@ -1,47 +1,50 @@
 {
-  "number": "687",
-  "character": "构",
-  "keyword": "frame",
-  "level": "Advanced",
-  "filename": "687_frame",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "202",
-      "character": "木",
-      "keyword": "tree",
-      "level": "Elementary",
-      "filename": "202_tree",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "囧勾",
-      "keyword": "cast",
-      "level": null,
-      "filename": "extra_cast",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "勹",
-          "keyword": "bound up",
-          "level": null,
-          "filename": "extra_bound_up",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "厶",
-          "keyword": "elbow",
-          "level": null,
-          "filename": "extra_elbow",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 746,
+  "hierarchy": {
+    "number": "687",
+    "character": "构",
+    "keyword": "frame",
+    "level": "Advanced",
+    "filename": "687_frame",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "202",
+        "character": "木",
+        "keyword": "tree",
+        "level": "Elementary",
+        "filename": "202_tree",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "囧勾",
+        "keyword": "cast",
+        "level": null,
+        "filename": "primitive_cast",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "勹",
+            "keyword": "bound up",
+            "level": null,
+            "filename": "primitive_bound_up",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "厶",
+            "keyword": "elbow",
+            "level": null,
+            "filename": "primitive_elbow",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

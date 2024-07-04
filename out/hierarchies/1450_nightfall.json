@@ -1,75 +1,78 @@
 {
-  "number": "1450",
-  "character": "晚",
-  "keyword": "nightfall",
-  "level": "Elementary",
-  "filename": "1450_nightfall",
-  "id": "I",
-  "requirements": [
-    {
-      "number": "12",
-      "character": "日",
-      "keyword": "day",
-      "level": "Elementary",
-      "filename": "12_day",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1449",
-      "character": "免",
-      "keyword": "avoid",
-      "level": "Advanced",
-      "filename": "1449_avoid",
-      "id": "H",
-      "requirements": [
-        {
-          "number": "1447",
-          "character": "兔",
-          "keyword": "rabbit",
-          "level": null,
-          "filename": "1447_rabbit",
-          "id": "G",
-          "requirements": [
-            {
-              "number": null,
-              "character": "勹",
-              "keyword": "bound up",
-              "level": null,
-              "filename": "extra_bound_up",
-              "id": "C",
-              "requirements": []
-            },
-            {
-              "number": "11",
-              "character": "口",
-              "keyword": "mouth",
-              "level": "Elementary",
-              "filename": "11_mouth",
-              "id": "D",
-              "requirements": []
-            },
-            {
-              "number": "56",
-              "character": "儿",
-              "keyword": "youngster",
-              "level": "Elementary",
-              "filename": "56_youngster",
-              "id": "E",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "filename": "extra_a_drop_of",
-              "id": "F",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 1587,
+  "hierarchy": {
+    "number": "1450",
+    "character": "晚",
+    "keyword": "nightfall",
+    "level": "Elementary",
+    "filename": "1450_nightfall",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "12",
+        "character": "日",
+        "keyword": "day",
+        "level": "Elementary",
+        "filename": "12_day",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1449",
+        "character": "免",
+        "keyword": "avoid",
+        "level": "Advanced",
+        "filename": "1449_avoid",
+        "id": "H",
+        "requirements": [
+          {
+            "number": "1447",
+            "character": "兔",
+            "keyword": "rabbit",
+            "level": null,
+            "filename": "1447_rabbit",
+            "id": "G",
+            "requirements": [
+              {
+                "number": null,
+                "character": "勹",
+                "keyword": "bound up",
+                "level": null,
+                "filename": "primitive_bound_up",
+                "id": "C",
+                "requirements": []
+              },
+              {
+                "number": "11",
+                "character": "口",
+                "keyword": "mouth",
+                "level": "Elementary",
+                "filename": "11_mouth",
+                "id": "D",
+                "requirements": []
+              },
+              {
+                "number": "56",
+                "character": "儿",
+                "keyword": "youngster",
+                "level": "Elementary",
+                "filename": "56_youngster",
+                "id": "E",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "F",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

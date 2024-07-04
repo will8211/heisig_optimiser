@@ -1,28 +1,31 @@
 {
-  "number": "194",
-  "character": "灾",
-  "keyword": "disaster",
-  "level": "Advanced",
-  "filename": "194_disaster",
-  "id": "D",
-  "requirements": [
-    {
-      "number": null,
-      "character": "宀",
-      "keyword": "house",
-      "level": null,
-      "filename": "extra_house",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "170",
-      "character": "火",
-      "keyword": "fire",
-      "level": "Elementary",
-      "filename": "170_fire",
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 205,
+  "hierarchy": {
+    "number": "194",
+    "character": "灾",
+    "keyword": "disaster",
+    "level": "Advanced",
+    "filename": "194_disaster",
+    "id": "D",
+    "requirements": [
+      {
+        "number": null,
+        "character": "宀",
+        "keyword": "house",
+        "level": null,
+        "filename": "primitive_house",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "170",
+        "character": "火",
+        "keyword": "fire",
+        "level": "Elementary",
+        "filename": "170_fire",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

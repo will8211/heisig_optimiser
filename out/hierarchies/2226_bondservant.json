@@ -1,67 +1,70 @@
 {
-  "number": "2226",
-  "character": "隶",
-  "keyword": "bondservant",
-  "level": null,
-  "filename": "2226_bondservant",
-  "id": "H",
-  "requirements": [
-    {
-      "number": "137",
-      "character": "水",
-      "keyword": "water",
-      "level": "Elementary",
-      "filename": "137_water",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丨",
-          "keyword": "walking stick",
-          "level": null,
-          "filename": "extra_walking_stick",
-          "id": "C",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "肀",
-      "keyword": "rake",
-      "level": null,
-      "filename": "extra_rake",
-      "id": "G",
-      "requirements": [
-        {
-          "number": null,
-          "character": "彐",
-          "keyword": "broom",
-          "level": null,
-          "filename": "extra_broom",
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2391,
+  "hierarchy": {
+    "number": "2226",
+    "character": "隶",
+    "keyword": "bondservant",
+    "level": null,
+    "filename": "2226_bondservant",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "137",
+        "character": "水",
+        "keyword": "water",
+        "level": "Elementary",
+        "filename": "137_water",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丨",
+            "keyword": "walking stick",
+            "level": null,
+            "filename": "primitive_walking_stick",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "肀",
+        "keyword": "rake",
+        "level": null,
+        "filename": "primitive_rake",
+        "id": "G",
+        "requirements": [
+          {
+            "number": null,
+            "character": "彐",
+            "keyword": "broom",
+            "level": null,
+            "filename": "primitive_broom",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

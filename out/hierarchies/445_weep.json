@@ -1,57 +1,60 @@
 {
-  "number": "445",
-  "character": "泣",
-  "keyword": "weep",
-  "level": null,
-  "filename": "445_weep",
-  "id": "G",
-  "requirements": [
-    {
-      "number": "444",
-      "character": "立",
-      "keyword": "standing up",
-      "level": "Advanced",
-      "filename": "444_standing_up",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "137",
-      "character": "水",
-      "keyword": "water",
-      "level": "Elementary",
-      "filename": "137_water",
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丨",
-          "keyword": "walking stick",
-          "level": null,
-          "filename": "extra_walking_stick",
-          "id": "D",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 485,
+  "hierarchy": {
+    "number": "445",
+    "character": "泣",
+    "keyword": "weep",
+    "level": null,
+    "filename": "445_weep",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "444",
+        "character": "立",
+        "keyword": "standing up",
+        "level": "Advanced",
+        "filename": "444_standing_up",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "137",
+        "character": "水",
+        "keyword": "water",
+        "level": "Elementary",
+        "filename": "137_water",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丨",
+            "keyword": "walking stick",
+            "level": null,
+            "filename": "primitive_walking_stick",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

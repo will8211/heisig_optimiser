@@ -1,57 +1,60 @@
 {
-  "number": "333",
-  "character": "周",
-  "keyword": "circumference",
-  "level": "Medium",
-  "filename": "333_circumference",
-  "id": "G",
-  "requirements": [
-    {
-      "number": null,
-      "character": "囧周－冂",
-      "keyword": "lidded crock",
-      "level": null,
-      "filename": "extra_lidded_crock",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "158",
-          "character": "土",
-          "keyword": "soil",
-          "level": "Medium",
-          "filename": "158_soil",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "filename": "11_mouth",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "冂",
-      "keyword": "hood",
-      "level": null,
-      "filename": "extra_hood",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "57",
-          "character": "几",
-          "keyword": "how many?",
-          "level": "Elementary",
-          "filename": "57_how_many",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 357,
+  "hierarchy": {
+    "number": "333",
+    "character": "周",
+    "keyword": "circumference",
+    "level": "Medium",
+    "filename": "333_circumference",
+    "id": "G",
+    "requirements": [
+      {
+        "number": null,
+        "character": "囧周－冂",
+        "keyword": "lidded crock",
+        "level": null,
+        "filename": "primitive_lidded_crock",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "158",
+            "character": "土",
+            "keyword": "soil",
+            "level": "Medium",
+            "filename": "158_soil",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "冂",
+        "keyword": "hood",
+        "level": null,
+        "filename": "primitive_hood",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "57",
+            "character": "几",
+            "keyword": "how many?",
+            "level": "Elementary",
+            "filename": "57_how_many",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

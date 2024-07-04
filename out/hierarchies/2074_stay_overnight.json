@@ -1,75 +1,78 @@
 {
-  "number": "2074",
-  "character": "宿",
-  "keyword": "stay overnight",
-  "level": "Advanced",
-  "filename": "2074_stay_overnight",
-  "id": "I",
-  "requirements": [
-    {
-      "number": null,
-      "character": "宀",
-      "keyword": "house",
-      "level": null,
-      "filename": "extra_house",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "793",
-      "character": "人",
-      "keyword": "person",
-      "level": "Elementary",
-      "filename": "793_person",
-      "id": "C",
-      "requirements": []
-    },
-    {
-      "number": "35",
-      "character": "百",
-      "keyword": "hundred",
-      "level": "Elementary",
-      "filename": "35_hundred",
-      "id": "H",
-      "requirements": [
-        {
-          "number": "34",
-          "character": "白",
-          "keyword": "white",
-          "level": "Elementary",
-          "filename": "34_white",
-          "id": "F",
-          "requirements": [
-            {
-              "number": "12",
-              "character": "日",
-              "keyword": "day",
-              "level": "Elementary",
-              "filename": "12_day",
-              "id": "D",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "filename": "extra_a_drop_of",
-              "id": "E",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "filename": "1_one",
-          "id": "G",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2235,
+  "hierarchy": {
+    "number": "2074",
+    "character": "宿",
+    "keyword": "stay overnight",
+    "level": "Advanced",
+    "filename": "2074_stay_overnight",
+    "id": "I",
+    "requirements": [
+      {
+        "number": null,
+        "character": "宀",
+        "keyword": "house",
+        "level": null,
+        "filename": "primitive_house",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "793",
+        "character": "人",
+        "keyword": "person",
+        "level": "Elementary",
+        "filename": "793_person",
+        "id": "C",
+        "requirements": []
+      },
+      {
+        "number": "35",
+        "character": "百",
+        "keyword": "hundred",
+        "level": "Elementary",
+        "filename": "35_hundred",
+        "id": "H",
+        "requirements": [
+          {
+            "number": "34",
+            "character": "白",
+            "keyword": "white",
+            "level": "Elementary",
+            "filename": "34_white",
+            "id": "F",
+            "requirements": [
+              {
+                "number": "12",
+                "character": "日",
+                "keyword": "day",
+                "level": "Elementary",
+                "filename": "12_day",
+                "id": "D",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "G",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

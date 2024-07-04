@@ -1,124 +1,127 @@
 {
-  "number": "979",
-  "character": "渡",
-  "keyword": "ferry",
-  "level": null,
-  "filename": "979_ferry",
-  "id": "N",
-  "requirements": [
-    {
-      "number": "137",
-      "character": "水",
-      "keyword": "water",
-      "level": "Elementary",
-      "filename": "137_water",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丨",
-          "keyword": "walking stick",
-          "level": null,
-          "filename": "extra_walking_stick",
-          "id": "C",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "978",
-      "character": "度",
-      "keyword": "degrees",
-      "level": "Medium",
-      "filename": "978_degrees",
-      "id": "M",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧席－巾",
-          "keyword": "caverns",
-          "level": null,
-          "filename": "extra_caverns",
-          "id": "K",
-          "requirements": [
-            {
-              "number": "556",
-              "character": "广",
-              "keyword": "extensive",
-              "level": "Medium",
-              "filename": "556_extensive",
-              "id": "H",
-              "requirements": [
-                {
-                  "number": "121",
-                  "character": "厂",
-                  "keyword": "factory",
-                  "level": "Medium",
-                  "filename": "121_factory",
-                  "id": "F",
-                  "requirements": []
-                },
-                {
-                  "number": null,
-                  "character": "宀",
-                  "keyword": "house",
-                  "level": null,
-                  "filename": "extra_house",
-                  "id": "G",
-                  "requirements": []
-                }
-              ]
-            },
-            {
-              "number": "976",
-              "character": "廿",
-              "keyword": "twenty",
-              "level": null,
-              "filename": "976_twenty",
-              "id": "J",
-              "requirements": [
-                {
-                  "number": "10",
-                  "character": "十",
-                  "keyword": "ten",
-                  "level": "Elementary",
-                  "filename": "10_ten",
-                  "id": "I",
-                  "requirements": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "number": "633",
-          "character": "又",
-          "keyword": "again",
-          "level": "Elementary",
-          "filename": "633_again",
-          "id": "L",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1052,
+  "hierarchy": {
+    "number": "979",
+    "character": "渡",
+    "keyword": "ferry",
+    "level": null,
+    "filename": "979_ferry",
+    "id": "N",
+    "requirements": [
+      {
+        "number": "137",
+        "character": "水",
+        "keyword": "water",
+        "level": "Elementary",
+        "filename": "137_water",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丨",
+            "keyword": "walking stick",
+            "level": null,
+            "filename": "primitive_walking_stick",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "978",
+        "character": "度",
+        "keyword": "degrees",
+        "level": "Medium",
+        "filename": "978_degrees",
+        "id": "M",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧席－巾",
+            "keyword": "caverns",
+            "level": null,
+            "filename": "primitive_caverns",
+            "id": "K",
+            "requirements": [
+              {
+                "number": "556",
+                "character": "广",
+                "keyword": "extensive",
+                "level": "Medium",
+                "filename": "556_extensive",
+                "id": "H",
+                "requirements": [
+                  {
+                    "number": "121",
+                    "character": "厂",
+                    "keyword": "factory",
+                    "level": "Medium",
+                    "filename": "121_factory",
+                    "id": "F",
+                    "requirements": []
+                  },
+                  {
+                    "number": null,
+                    "character": "宀",
+                    "keyword": "house",
+                    "level": null,
+                    "filename": "primitive_house",
+                    "id": "G",
+                    "requirements": []
+                  }
+                ]
+              },
+              {
+                "number": "976",
+                "character": "廿",
+                "keyword": "twenty",
+                "level": null,
+                "filename": "976_twenty",
+                "id": "J",
+                "requirements": [
+                  {
+                    "number": "10",
+                    "character": "十",
+                    "keyword": "ten",
+                    "level": "Elementary",
+                    "filename": "10_ten",
+                    "id": "I",
+                    "requirements": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "number": "633",
+            "character": "又",
+            "keyword": "again",
+            "level": "Elementary",
+            "filename": "633_again",
+            "id": "L",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

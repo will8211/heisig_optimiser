@@ -1,65 +1,68 @@
 {
-  "number": "2108",
-  "character": "葛",
-  "keyword": "kudzu",
-  "level": null,
-  "filename": "2108_kudzu",
-  "id": "H",
-  "requirements": [
-    {
-      "number": null,
-      "character": "艹",
-      "keyword": "flower",
-      "level": null,
-      "filename": "extra_flower",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "曷",
-      "keyword": "siesta",
-      "level": null,
-      "filename": "extra_siesta",
-      "id": "G",
-      "requirements": [
-        {
-          "number": "793",
-          "character": "人",
-          "keyword": "person",
-          "level": "Elementary",
-          "filename": "793_person",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "勹",
-          "keyword": "bound up",
-          "level": null,
-          "filename": "extra_bound_up",
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": "95",
-          "character": "乙",
-          "keyword": "second",
-          "level": "Medium",
-          "filename": "95_second",
-          "id": "E",
-          "requirements": []
-        },
-        {
-          "number": "12",
-          "character": "日",
-          "keyword": "day",
-          "level": "Elementary",
-          "filename": "12_day",
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2269,
+  "hierarchy": {
+    "number": "2108",
+    "character": "葛",
+    "keyword": "kudzu",
+    "level": null,
+    "filename": "2108_kudzu",
+    "id": "H",
+    "requirements": [
+      {
+        "number": null,
+        "character": "艹",
+        "keyword": "flower",
+        "level": null,
+        "filename": "primitive_flower",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "曷",
+        "keyword": "siesta",
+        "level": null,
+        "filename": "primitive_siesta",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "793",
+            "character": "人",
+            "keyword": "person",
+            "level": "Elementary",
+            "filename": "793_person",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "勹",
+            "keyword": "bound up",
+            "level": null,
+            "filename": "primitive_bound_up",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": "95",
+            "character": "乙",
+            "keyword": "second",
+            "level": "Medium",
+            "filename": "95_second",
+            "id": "E",
+            "requirements": []
+          },
+          {
+            "number": "12",
+            "character": "日",
+            "keyword": "day",
+            "level": "Elementary",
+            "filename": "12_day",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

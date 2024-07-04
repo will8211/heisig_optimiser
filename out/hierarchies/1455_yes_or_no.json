@@ -1,38 +1,41 @@
 {
-  "number": "1455",
-  "character": "吗",
-  "keyword": "yes or no",
-  "level": "Elementary",
-  "filename": "1455_yes_or_no",
-  "id": "E",
-  "requirements": [
-    {
-      "number": "11",
-      "character": "口",
-      "keyword": "mouth",
-      "level": "Elementary",
-      "filename": "11_mouth",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1453",
-      "character": "马",
-      "keyword": "horse",
-      "level": "Elementary",
-      "filename": "1453_horse",
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧与－丨一",
-          "keyword": "pointed tail",
-          "level": null,
-          "filename": "extra_pointed_tail",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1592,
+  "hierarchy": {
+    "number": "1455",
+    "character": "吗",
+    "keyword": "yes or no",
+    "level": "Elementary",
+    "filename": "1455_yes_or_no",
+    "id": "E",
+    "requirements": [
+      {
+        "number": "11",
+        "character": "口",
+        "keyword": "mouth",
+        "level": "Elementary",
+        "filename": "11_mouth",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1453",
+        "character": "马",
+        "keyword": "horse",
+        "level": "Elementary",
+        "filename": "1453_horse",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧与－丨一",
+            "keyword": "pointed tail",
+            "level": null,
+            "filename": "primitive_pointed_tail",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

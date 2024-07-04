@@ -1,76 +1,79 @@
 {
-  "number": "2197",
-  "character": "皱",
-  "keyword": "wrinkles",
-  "level": null,
-  "filename": "2197_wrinkles",
-  "id": "I",
-  "requirements": [
-    {
-      "number": null,
-      "character": "刍",
-      "keyword": "hairnet",
-      "level": null,
-      "filename": "extra_hairnet",
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "勹",
-          "keyword": "bound up",
-          "level": null,
-          "filename": "extra_bound_up",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "彐",
-          "keyword": "broom",
-          "level": null,
-          "filename": "extra_broom",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "707",
-      "character": "皮",
-      "keyword": "covering",
-      "level": "Advanced",
-      "filename": "707_covering",
-      "id": "H",
-      "requirements": [
-        {
-          "number": "650",
-          "character": "支",
-          "keyword": "offshoot",
-          "level": "Medium",
-          "filename": "650_offshoot",
-          "id": "G",
-          "requirements": [
-            {
-              "number": "10",
-              "character": "十",
-              "keyword": "ten",
-              "level": "Elementary",
-              "filename": "10_ten",
-              "id": "E",
-              "requirements": []
-            },
-            {
-              "number": "633",
-              "character": "又",
-              "keyword": "again",
-              "level": "Elementary",
-              "filename": "633_again",
-              "id": "F",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2360,
+  "hierarchy": {
+    "number": "2197",
+    "character": "皱",
+    "keyword": "wrinkles",
+    "level": null,
+    "filename": "2197_wrinkles",
+    "id": "I",
+    "requirements": [
+      {
+        "number": null,
+        "character": "刍",
+        "keyword": "hairnet",
+        "level": null,
+        "filename": "primitive_hairnet",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "勹",
+            "keyword": "bound up",
+            "level": null,
+            "filename": "primitive_bound_up",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "彐",
+            "keyword": "broom",
+            "level": null,
+            "filename": "primitive_broom",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "707",
+        "character": "皮",
+        "keyword": "covering",
+        "level": "Advanced",
+        "filename": "707_covering",
+        "id": "H",
+        "requirements": [
+          {
+            "number": "650",
+            "character": "支",
+            "keyword": "offshoot",
+            "level": "Medium",
+            "filename": "650_offshoot",
+            "id": "G",
+            "requirements": [
+              {
+                "number": "10",
+                "character": "十",
+                "keyword": "ten",
+                "level": "Elementary",
+                "filename": "10_ten",
+                "id": "E",
+                "requirements": []
+              },
+              {
+                "number": "633",
+                "character": "又",
+                "keyword": "again",
+                "level": "Elementary",
+                "filename": "633_again",
+                "id": "F",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

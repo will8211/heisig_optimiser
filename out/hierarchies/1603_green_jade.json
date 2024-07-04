@@ -1,104 +1,107 @@
 {
-  "number": "1603",
-  "character": "碧",
-  "keyword": "green jade",
-  "level": null,
-  "filename": "1603_green_jade",
-  "id": "L",
-  "requirements": [
-    {
-      "number": "266",
-      "character": "玉",
-      "keyword": "jade",
-      "level": "Medium",
-      "filename": "266_jade",
-      "id": "E",
-      "requirements": [
-        {
-          "number": "265",
-          "character": "王",
-          "keyword": "king",
-          "level": "Medium",
-          "filename": "265_king",
-          "id": "C",
-          "requirements": [
-            {
-              "number": "76",
-              "character": "工",
-              "keyword": "work",
-              "level": "Elementary",
-              "filename": "76_work",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "34",
-      "character": "白",
-      "keyword": "white",
-      "level": "Elementary",
-      "filename": "34_white",
-      "id": "H",
-      "requirements": [
-        {
-          "number": "12",
-          "character": "日",
-          "keyword": "day",
-          "level": "Elementary",
-          "filename": "12_day",
-          "id": "F",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "G",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "125",
-      "character": "石",
-      "keyword": "stone",
-      "level": "Advanced",
-      "filename": "125_stone",
-      "id": "K",
-      "requirements": [
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "filename": "11_mouth",
-          "id": "I",
-          "requirements": []
-        },
-        {
-          "number": "121",
-          "character": "厂",
-          "keyword": "factory",
-          "level": "Medium",
-          "filename": "121_factory",
-          "id": "J",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1743,
+  "hierarchy": {
+    "number": "1603",
+    "character": "碧",
+    "keyword": "green jade",
+    "level": null,
+    "filename": "1603_green_jade",
+    "id": "L",
+    "requirements": [
+      {
+        "number": "266",
+        "character": "玉",
+        "keyword": "jade",
+        "level": "Medium",
+        "filename": "266_jade",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "265",
+            "character": "王",
+            "keyword": "king",
+            "level": "Medium",
+            "filename": "265_king",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "76",
+                "character": "工",
+                "keyword": "work",
+                "level": "Elementary",
+                "filename": "76_work",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "34",
+        "character": "白",
+        "keyword": "white",
+        "level": "Elementary",
+        "filename": "34_white",
+        "id": "H",
+        "requirements": [
+          {
+            "number": "12",
+            "character": "日",
+            "keyword": "day",
+            "level": "Elementary",
+            "filename": "12_day",
+            "id": "F",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "G",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "125",
+        "character": "石",
+        "keyword": "stone",
+        "level": "Advanced",
+        "filename": "125_stone",
+        "id": "K",
+        "requirements": [
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "I",
+            "requirements": []
+          },
+          {
+            "number": "121",
+            "character": "厂",
+            "keyword": "factory",
+            "level": "Medium",
+            "filename": "121_factory",
+            "id": "J",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

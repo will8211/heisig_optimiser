@@ -1,38 +1,41 @@
 {
-  "number": "112",
-  "character": "孙",
-  "keyword": "grandchild",
-  "level": "Advanced",
-  "filename": "112_grandchild",
-  "id": "E",
-  "requirements": [
-    {
-      "number": "97",
-      "character": "子",
-      "keyword": "child",
-      "level": "Elementary",
-      "filename": "97_child",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "109",
-      "character": "小",
-      "keyword": "small",
-      "level": "Elementary",
-      "filename": "109_small",
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 120,
+  "hierarchy": {
+    "number": "112",
+    "character": "孙",
+    "keyword": "grandchild",
+    "level": "Advanced",
+    "filename": "112_grandchild",
+    "id": "E",
+    "requirements": [
+      {
+        "number": "97",
+        "character": "子",
+        "keyword": "child",
+        "level": "Elementary",
+        "filename": "97_child",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "109",
+        "character": "小",
+        "keyword": "small",
+        "level": "Elementary",
+        "filename": "109_small",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

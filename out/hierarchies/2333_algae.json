@@ -1,124 +1,127 @@
 {
-  "number": "2333",
-  "character": "藻",
-  "keyword": "algae",
-  "level": null,
-  "filename": "2333_algae",
-  "id": "N",
-  "requirements": [
-    {
-      "number": null,
-      "character": "艹",
-      "keyword": "flower",
-      "level": null,
-      "filename": "extra_flower",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "2332",
-      "character": "澡",
-      "keyword": "bath",
-      "level": "Medium",
-      "filename": "2332_bath",
-      "id": "M",
-      "requirements": [
-        {
-          "number": "137",
-          "character": "水",
-          "keyword": "water",
-          "level": "Elementary",
-          "filename": "137_water",
-          "id": "F",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丨",
-              "keyword": "walking stick",
-              "level": null,
-              "filename": "extra_walking_stick",
-              "id": "D",
-              "requirements": [
-                {
-                  "number": "1",
-                  "character": "一",
-                  "keyword": "one",
-                  "level": "Elementary",
-                  "filename": "1_one",
-                  "id": "C",
-                  "requirements": []
-                }
-              ]
-            },
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "filename": "extra_a_drop_of",
-              "id": "E",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "喿",
-          "keyword": "wood pulp",
-          "level": null,
-          "filename": "extra_wood_pulp",
-          "id": "L",
-          "requirements": [
-            {
-              "number": "24",
-              "character": "品",
-              "keyword": "goods",
-              "level": "Advanced",
-              "filename": "24_goods",
-              "id": "J",
-              "requirements": [
-                {
-                  "number": "23",
-                  "character": "晶",
-                  "keyword": "sparkling",
-                  "level": null,
-                  "filename": "23_sparkling",
-                  "id": "H",
-                  "requirements": [
-                    {
-                      "number": "12",
-                      "character": "日",
-                      "keyword": "day",
-                      "level": "Elementary",
-                      "filename": "12_day",
-                      "id": "G",
-                      "requirements": []
-                    }
-                  ]
-                },
-                {
-                  "number": "11",
-                  "character": "口",
-                  "keyword": "mouth",
-                  "level": "Elementary",
-                  "filename": "11_mouth",
-                  "id": "I",
-                  "requirements": []
-                }
-              ]
-            },
-            {
-              "number": "202",
-              "character": "木",
-              "keyword": "tree",
-              "level": "Elementary",
-              "filename": "202_tree",
-              "id": "K",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2502,
+  "hierarchy": {
+    "number": "2333",
+    "character": "藻",
+    "keyword": "algae",
+    "level": null,
+    "filename": "2333_algae",
+    "id": "N",
+    "requirements": [
+      {
+        "number": null,
+        "character": "艹",
+        "keyword": "flower",
+        "level": null,
+        "filename": "primitive_flower",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "2332",
+        "character": "澡",
+        "keyword": "bath",
+        "level": "Medium",
+        "filename": "2332_bath",
+        "id": "M",
+        "requirements": [
+          {
+            "number": "137",
+            "character": "水",
+            "keyword": "water",
+            "level": "Elementary",
+            "filename": "137_water",
+            "id": "F",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丨",
+                "keyword": "walking stick",
+                "level": null,
+                "filename": "primitive_walking_stick",
+                "id": "D",
+                "requirements": [
+                  {
+                    "number": "1",
+                    "character": "一",
+                    "keyword": "one",
+                    "level": "Elementary",
+                    "filename": "1_one",
+                    "id": "C",
+                    "requirements": []
+                  }
+                ]
+              },
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "喿",
+            "keyword": "wood pulp",
+            "level": null,
+            "filename": "primitive_wood_pulp",
+            "id": "L",
+            "requirements": [
+              {
+                "number": "24",
+                "character": "品",
+                "keyword": "goods",
+                "level": "Advanced",
+                "filename": "24_goods",
+                "id": "J",
+                "requirements": [
+                  {
+                    "number": "23",
+                    "character": "晶",
+                    "keyword": "sparkling",
+                    "level": null,
+                    "filename": "23_sparkling",
+                    "id": "H",
+                    "requirements": [
+                      {
+                        "number": "12",
+                        "character": "日",
+                        "keyword": "day",
+                        "level": "Elementary",
+                        "filename": "12_day",
+                        "id": "G",
+                        "requirements": []
+                      }
+                    ]
+                  },
+                  {
+                    "number": "11",
+                    "character": "口",
+                    "keyword": "mouth",
+                    "level": "Elementary",
+                    "filename": "11_mouth",
+                    "id": "I",
+                    "requirements": []
+                  }
+                ]
+              },
+              {
+                "number": "202",
+                "character": "木",
+                "keyword": "tree",
+                "level": "Elementary",
+                "filename": "202_tree",
+                "id": "K",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

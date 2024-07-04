@@ -1,86 +1,89 @@
 {
-  "number": "2051",
-  "character": "箭",
-  "keyword": "arrow",
-  "level": null,
-  "filename": "2051_arrow",
-  "id": "J",
-  "requirements": [
-    {
-      "number": "786",
-      "character": "竹",
-      "keyword": "bamboo",
-      "level": "Advanced",
-      "filename": "786_bamboo",
-      "id": "C",
-      "requirements": [
-        {
-          "number": "90",
-          "character": "丁",
-          "keyword": "fourth",
-          "level": null,
-          "filename": "90_fourth",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "303",
-      "character": "前",
-      "keyword": "in front",
-      "level": "Elementary",
-      "filename": "303_in_front",
-      "id": "I",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丷",
-          "keyword": "horns",
-          "level": null,
-          "filename": "extra_horns",
-          "id": "E",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "刖",
-          "keyword": "butcher",
-          "level": null,
-          "filename": "extra_butcher",
-          "id": "H",
-          "requirements": [
-            {
-              "number": "13",
-              "character": "月",
-              "keyword": "month",
-              "level": "Elementary",
-              "filename": "13_month",
-              "id": "F",
-              "requirements": []
-            },
-            {
-              "number": "83",
-              "character": "刀",
-              "keyword": "sword",
-              "level": "Medium",
-              "filename": "83_sword",
-              "id": "G",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2212,
+  "hierarchy": {
+    "number": "2051",
+    "character": "箭",
+    "keyword": "arrow",
+    "level": null,
+    "filename": "2051_arrow",
+    "id": "J",
+    "requirements": [
+      {
+        "number": "786",
+        "character": "竹",
+        "keyword": "bamboo",
+        "level": "Advanced",
+        "filename": "786_bamboo",
+        "id": "C",
+        "requirements": [
+          {
+            "number": "90",
+            "character": "丁",
+            "keyword": "fourth",
+            "level": null,
+            "filename": "90_fourth",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "303",
+        "character": "前",
+        "keyword": "in front",
+        "level": "Elementary",
+        "filename": "303_in_front",
+        "id": "I",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丷",
+            "keyword": "horns",
+            "level": null,
+            "filename": "primitive_horns",
+            "id": "E",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "刖",
+            "keyword": "butcher",
+            "level": null,
+            "filename": "primitive_butcher",
+            "id": "H",
+            "requirements": [
+              {
+                "number": "13",
+                "character": "月",
+                "keyword": "month",
+                "level": "Elementary",
+                "filename": "13_month",
+                "id": "F",
+                "requirements": []
+              },
+              {
+                "number": "83",
+                "character": "刀",
+                "keyword": "sword",
+                "level": "Medium",
+                "filename": "83_sword",
+                "id": "G",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

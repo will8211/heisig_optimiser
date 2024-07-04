@@ -1,66 +1,69 @@
 {
-  "number": "1482",
-  "character": "悬",
-  "keyword": "suspend",
-  "level": null,
-  "filename": "1482_suspend",
-  "id": "H",
-  "requirements": [
-    {
-      "number": "1481",
-      "character": "县",
-      "keyword": "county",
-      "level": "Advanced",
-      "filename": "1481_county",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "15",
-          "character": "目",
-          "keyword": "eye",
-          "level": "Medium",
-          "filename": "15_eye",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "囧会－亼",
-          "keyword": "wall",
-          "level": null,
-          "filename": "extra_wall",
-          "id": "E",
-          "requirements": [
-            {
-              "number": null,
-              "character": "厶",
-              "keyword": "elbow",
-              "level": null,
-              "filename": "extra_elbow",
-              "id": "C",
-              "requirements": []
-            },
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": "563",
-      "character": "心",
-      "keyword": "heart",
-      "level": "Medium",
-      "filename": "563_heart",
-      "id": "G",
-      "requirements": []
-    }
-  ]
+  "order": 1620,
+  "hierarchy": {
+    "number": "1482",
+    "character": "悬",
+    "keyword": "suspend",
+    "level": null,
+    "filename": "1482_suspend",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "1481",
+        "character": "县",
+        "keyword": "county",
+        "level": "Advanced",
+        "filename": "1481_county",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "15",
+            "character": "目",
+            "keyword": "eye",
+            "level": "Medium",
+            "filename": "15_eye",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "囧会－亼",
+            "keyword": "wall",
+            "level": null,
+            "filename": "primitive_wall",
+            "id": "E",
+            "requirements": [
+              {
+                "number": null,
+                "character": "厶",
+                "keyword": "elbow",
+                "level": null,
+                "filename": "primitive_elbow",
+                "id": "C",
+                "requirements": []
+              },
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": "563",
+        "character": "心",
+        "keyword": "heart",
+        "level": "Medium",
+        "filename": "563_heart",
+        "id": "G",
+        "requirements": []
+      }
+    ]
+  }
 }

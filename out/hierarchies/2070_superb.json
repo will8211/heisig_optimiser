@@ -1,38 +1,41 @@
 {
-  "number": "2070",
-  "character": "佳",
-  "keyword": "superb",
-  "level": null,
-  "filename": "2070_superb",
-  "id": "E",
-  "requirements": [
-    {
-      "number": "793",
-      "character": "人",
-      "keyword": "person",
-      "level": "Elementary",
-      "filename": "793_person",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "圭",
-      "keyword": "bricks",
-      "level": null,
-      "filename": "extra_bricks",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "158",
-          "character": "土",
-          "keyword": "soil",
-          "level": "Medium",
-          "filename": "158_soil",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2231,
+  "hierarchy": {
+    "number": "2070",
+    "character": "佳",
+    "keyword": "superb",
+    "level": null,
+    "filename": "2070_superb",
+    "id": "E",
+    "requirements": [
+      {
+        "number": "793",
+        "character": "人",
+        "keyword": "person",
+        "level": "Elementary",
+        "filename": "793_person",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "圭",
+        "keyword": "bricks",
+        "level": null,
+        "filename": "primitive_bricks",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "158",
+            "character": "土",
+            "keyword": "soil",
+            "level": "Medium",
+            "filename": "158_soil",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

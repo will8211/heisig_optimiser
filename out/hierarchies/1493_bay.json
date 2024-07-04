@@ -1,104 +1,107 @@
 {
-  "number": "1493",
-  "character": "湾",
-  "keyword": "bay",
-  "level": null,
-  "filename": "1493_bay",
-  "id": "L",
-  "requirements": [
-    {
-      "number": "137",
-      "character": "水",
-      "keyword": "water",
-      "level": "Elementary",
-      "filename": "137_water",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丨",
-          "keyword": "walking stick",
-          "level": null,
-          "filename": "extra_walking_stick",
-          "id": "C",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "1492",
-      "character": "弯",
-      "keyword": "curved",
-      "level": null,
-      "filename": "1492_curved",
-      "id": "K",
-      "requirements": [
-        {
-          "number": "1491",
-          "character": "亦",
-          "keyword": "likewise",
-          "level": null,
-          "filename": "1491_likewise",
-          "id": "I",
-          "requirements": [
-            {
-              "number": null,
-              "character": "亠",
-              "keyword": "top hat",
-              "level": null,
-              "filename": "extra_top_hat",
-              "id": "F",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "囧只－口",
-              "keyword": "animal legs",
-              "level": null,
-              "filename": "extra_animal_legs",
-              "id": "G",
-              "requirements": []
-            },
-            {
-              "number": "83",
-              "character": "刀",
-              "keyword": "sword",
-              "level": "Medium",
-              "filename": "83_sword",
-              "id": "H",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "1013",
-          "character": "弓",
-          "keyword": "bow",
-          "level": null,
-          "filename": "1013_bow",
-          "id": "J",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1633,
+  "hierarchy": {
+    "number": "1493",
+    "character": "湾",
+    "keyword": "bay",
+    "level": null,
+    "filename": "1493_bay",
+    "id": "L",
+    "requirements": [
+      {
+        "number": "137",
+        "character": "水",
+        "keyword": "water",
+        "level": "Elementary",
+        "filename": "137_water",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丨",
+            "keyword": "walking stick",
+            "level": null,
+            "filename": "primitive_walking_stick",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "1492",
+        "character": "弯",
+        "keyword": "curved",
+        "level": null,
+        "filename": "1492_curved",
+        "id": "K",
+        "requirements": [
+          {
+            "number": "1491",
+            "character": "亦",
+            "keyword": "likewise",
+            "level": null,
+            "filename": "1491_likewise",
+            "id": "I",
+            "requirements": [
+              {
+                "number": null,
+                "character": "亠",
+                "keyword": "top hat",
+                "level": null,
+                "filename": "primitive_top_hat",
+                "id": "F",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "囧只－口",
+                "keyword": "animal legs",
+                "level": null,
+                "filename": "primitive_animal_legs",
+                "id": "G",
+                "requirements": []
+              },
+              {
+                "number": "83",
+                "character": "刀",
+                "keyword": "sword",
+                "level": "Medium",
+                "filename": "83_sword",
+                "id": "H",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "1013",
+            "character": "弓",
+            "keyword": "bow",
+            "level": null,
+            "filename": "1013_bow",
+            "id": "J",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

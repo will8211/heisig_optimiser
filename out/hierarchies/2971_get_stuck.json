@@ -1,47 +1,50 @@
 {
-  "number": "2971",
-  "character": "陷",
-  "keyword": "get stuck",
-  "level": null,
-  "filename": "2971_get_stuck",
-  "id": "F",
-  "requirements": [
-    {
-      "number": null,
-      "character": "阝",
-      "keyword": "pinnacle",
-      "level": null,
-      "filename": "extra_pinnacle",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "臽",
-      "keyword": "pothole",
-      "level": null,
-      "filename": "extra_pothole",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "臼",
-          "keyword": "mortar",
-          "level": null,
-          "filename": "extra_mortar",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "勹",
-          "keyword": "bound up",
-          "level": null,
-          "filename": "extra_bound_up",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 3175,
+  "hierarchy": {
+    "number": "2971",
+    "character": "陷",
+    "keyword": "get stuck",
+    "level": null,
+    "filename": "2971_get_stuck",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "阝",
+        "keyword": "pinnacle",
+        "level": null,
+        "filename": "primitive_pinnacle",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "臽",
+        "keyword": "pothole",
+        "level": null,
+        "filename": "primitive_pothole",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "臼",
+            "keyword": "mortar",
+            "level": null,
+            "filename": "primitive_mortar",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "勹",
+            "keyword": "bound up",
+            "level": null,
+            "filename": "primitive_bound_up",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

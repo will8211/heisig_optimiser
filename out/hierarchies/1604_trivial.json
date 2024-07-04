@@ -1,95 +1,98 @@
 {
-  "number": "1604",
-  "character": "琐",
-  "keyword": "trivial",
-  "level": null,
-  "filename": "1604_trivial",
-  "id": "K",
-  "requirements": [
-    {
-      "number": "266",
-      "character": "玉",
-      "keyword": "jade",
-      "level": "Medium",
-      "filename": "266_jade",
-      "id": "E",
-      "requirements": [
-        {
-          "number": "265",
-          "character": "王",
-          "keyword": "king",
-          "level": "Medium",
-          "filename": "265_king",
-          "id": "C",
-          "requirements": [
-            {
-              "number": "76",
-              "character": "工",
-              "keyword": "work",
-              "level": "Elementary",
-              "filename": "76_work",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "109",
-      "character": "小",
-      "keyword": "small",
-      "level": "Elementary",
-      "filename": "109_small",
-      "id": "G",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "52",
-      "character": "贝",
-      "keyword": "shellfish",
-      "level": "Medium",
-      "filename": "52_shellfish",
-      "id": "J",
-      "requirements": [
-        {
-          "number": "15",
-          "character": "目",
-          "keyword": "eye",
-          "level": "Medium",
-          "filename": "15_eye",
-          "id": "H",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "囧只－口",
-          "keyword": "animal legs",
-          "level": null,
-          "filename": "extra_animal_legs",
-          "id": "I",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1744,
+  "hierarchy": {
+    "number": "1604",
+    "character": "琐",
+    "keyword": "trivial",
+    "level": null,
+    "filename": "1604_trivial",
+    "id": "K",
+    "requirements": [
+      {
+        "number": "266",
+        "character": "玉",
+        "keyword": "jade",
+        "level": "Medium",
+        "filename": "266_jade",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "265",
+            "character": "王",
+            "keyword": "king",
+            "level": "Medium",
+            "filename": "265_king",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "76",
+                "character": "工",
+                "keyword": "work",
+                "level": "Elementary",
+                "filename": "76_work",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "109",
+        "character": "小",
+        "keyword": "small",
+        "level": "Elementary",
+        "filename": "109_small",
+        "id": "G",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "52",
+        "character": "贝",
+        "keyword": "shellfish",
+        "level": "Medium",
+        "filename": "52_shellfish",
+        "id": "J",
+        "requirements": [
+          {
+            "number": "15",
+            "character": "目",
+            "keyword": "eye",
+            "level": "Medium",
+            "filename": "15_eye",
+            "id": "H",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "囧只－口",
+            "keyword": "animal legs",
+            "level": null,
+            "filename": "primitive_animal_legs",
+            "id": "I",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

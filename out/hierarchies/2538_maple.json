@@ -1,47 +1,50 @@
 {
-  "number": "2538",
-  "character": "枫",
-  "keyword": "maple",
-  "level": null,
-  "filename": "2538_maple",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "202",
-      "character": "木",
-      "keyword": "tree",
-      "level": "Elementary",
-      "filename": "202_tree",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1168",
-      "character": "风",
-      "keyword": "wind",
-      "level": "Medium",
-      "filename": "1168_wind",
-      "id": "E",
-      "requirements": [
-        {
-          "number": "57",
-          "character": "几",
-          "keyword": "how many?",
-          "level": "Elementary",
-          "filename": "57_how_many",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "㐅",
-          "keyword": "sheaf",
-          "level": null,
-          "filename": "extra_sheaf",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2725,
+  "hierarchy": {
+    "number": "2538",
+    "character": "枫",
+    "keyword": "maple",
+    "level": null,
+    "filename": "2538_maple",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "202",
+        "character": "木",
+        "keyword": "tree",
+        "level": "Elementary",
+        "filename": "202_tree",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1168",
+        "character": "风",
+        "keyword": "wind",
+        "level": "Medium",
+        "filename": "1168_wind",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "57",
+            "character": "几",
+            "keyword": "how many?",
+            "level": "Elementary",
+            "filename": "57_how_many",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "㐅",
+            "keyword": "sheaf",
+            "level": null,
+            "filename": "primitive_sheaf",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

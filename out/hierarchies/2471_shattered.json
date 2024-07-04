@@ -1,85 +1,88 @@
 {
-  "number": "2471",
-  "character": "碎",
-  "keyword": "shattered",
-  "level": null,
-  "filename": "2471_shattered",
-  "id": "J",
-  "requirements": [
-    {
-      "number": "125",
-      "character": "石",
-      "keyword": "stone",
-      "level": "Advanced",
-      "filename": "125_stone",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "filename": "11_mouth",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "121",
-          "character": "厂",
-          "keyword": "factory",
-          "level": "Medium",
-          "filename": "121_factory",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "卒",
-      "keyword": "foot soldiers",
-      "level": null,
-      "filename": "extra_foot_soldiers",
-      "id": "I",
-      "requirements": [
-        {
-          "number": "846",
-          "character": "从",
-          "keyword": "follow",
-          "level": "Elementary",
-          "filename": "846_follow",
-          "id": "F",
-          "requirements": [
-            {
-              "number": "793",
-              "character": "人",
-              "keyword": "person",
-              "level": "Elementary",
-              "filename": "793_person",
-              "id": "E",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "亠",
-          "keyword": "top hat",
-          "level": null,
-          "filename": "extra_top_hat",
-          "id": "G",
-          "requirements": []
-        },
-        {
-          "number": "10",
-          "character": "十",
-          "keyword": "ten",
-          "level": "Elementary",
-          "filename": "10_ten",
-          "id": "H",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2654,
+  "hierarchy": {
+    "number": "2471",
+    "character": "碎",
+    "keyword": "shattered",
+    "level": null,
+    "filename": "2471_shattered",
+    "id": "J",
+    "requirements": [
+      {
+        "number": "125",
+        "character": "石",
+        "keyword": "stone",
+        "level": "Advanced",
+        "filename": "125_stone",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "121",
+            "character": "厂",
+            "keyword": "factory",
+            "level": "Medium",
+            "filename": "121_factory",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "卒",
+        "keyword": "foot soldiers",
+        "level": null,
+        "filename": "primitive_foot_soldiers",
+        "id": "I",
+        "requirements": [
+          {
+            "number": "846",
+            "character": "从",
+            "keyword": "follow",
+            "level": "Elementary",
+            "filename": "846_follow",
+            "id": "F",
+            "requirements": [
+              {
+                "number": "793",
+                "character": "人",
+                "keyword": "person",
+                "level": "Elementary",
+                "filename": "793_person",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "亠",
+            "keyword": "top hat",
+            "level": null,
+            "filename": "primitive_top_hat",
+            "id": "G",
+            "requirements": []
+          },
+          {
+            "number": "10",
+            "character": "十",
+            "keyword": "ten",
+            "level": "Elementary",
+            "filename": "10_ten",
+            "id": "H",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

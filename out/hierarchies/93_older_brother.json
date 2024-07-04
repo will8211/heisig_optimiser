@@ -1,38 +1,41 @@
 {
-  "number": "93",
-  "character": "哥",
-  "keyword": "older brother",
-  "level": "Elementary",
-  "filename": "93_older_brother",
-  "id": "E",
-  "requirements": [
-    {
-      "number": "92",
-      "character": "可",
-      "keyword": "can",
-      "level": "Elementary",
-      "filename": "92_can",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "90",
-          "character": "丁",
-          "keyword": "fourth",
-          "level": null,
-          "filename": "90_fourth",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "filename": "11_mouth",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 101,
+  "hierarchy": {
+    "number": "93",
+    "character": "哥",
+    "keyword": "older brother",
+    "level": "Elementary",
+    "filename": "93_older_brother",
+    "id": "E",
+    "requirements": [
+      {
+        "number": "92",
+        "character": "可",
+        "keyword": "can",
+        "level": "Elementary",
+        "filename": "92_can",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "90",
+            "character": "丁",
+            "keyword": "fourth",
+            "level": null,
+            "filename": "90_fourth",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

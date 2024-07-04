@@ -1,95 +1,98 @@
 {
-  "number": "2620",
-  "character": "润",
-  "keyword": "moisten",
-  "level": null,
-  "filename": "2620_moisten",
-  "id": "K",
-  "requirements": [
-    {
-      "number": "137",
-      "character": "水",
-      "keyword": "water",
-      "level": "Elementary",
-      "filename": "137_water",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丨",
-          "keyword": "walking stick",
-          "level": null,
-          "filename": "extra_walking_stick",
-          "id": "C",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "1260",
-      "character": "门",
-      "keyword": "gate",
-      "level": "Elementary",
-      "filename": "1260_gate",
-      "id": "F",
-      "requirements": []
-    },
-    {
-      "number": "266",
-      "character": "玉",
-      "keyword": "jade",
-      "level": "Medium",
-      "filename": "266_jade",
-      "id": "J",
-      "requirements": [
-        {
-          "number": "265",
-          "character": "王",
-          "keyword": "king",
-          "level": "Medium",
-          "filename": "265_king",
-          "id": "H",
-          "requirements": [
-            {
-              "number": "76",
-              "character": "工",
-              "keyword": "work",
-              "level": "Elementary",
-              "filename": "76_work",
-              "id": "G",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "I",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2809,
+  "hierarchy": {
+    "number": "2620",
+    "character": "润",
+    "keyword": "moisten",
+    "level": null,
+    "filename": "2620_moisten",
+    "id": "K",
+    "requirements": [
+      {
+        "number": "137",
+        "character": "水",
+        "keyword": "water",
+        "level": "Elementary",
+        "filename": "137_water",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丨",
+            "keyword": "walking stick",
+            "level": null,
+            "filename": "primitive_walking_stick",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "1260",
+        "character": "门",
+        "keyword": "gate",
+        "level": "Elementary",
+        "filename": "1260_gate",
+        "id": "F",
+        "requirements": []
+      },
+      {
+        "number": "266",
+        "character": "玉",
+        "keyword": "jade",
+        "level": "Medium",
+        "filename": "266_jade",
+        "id": "J",
+        "requirements": [
+          {
+            "number": "265",
+            "character": "王",
+            "keyword": "king",
+            "level": "Medium",
+            "filename": "265_king",
+            "id": "H",
+            "requirements": [
+              {
+                "number": "76",
+                "character": "工",
+                "keyword": "work",
+                "level": "Elementary",
+                "filename": "76_work",
+                "id": "G",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "I",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

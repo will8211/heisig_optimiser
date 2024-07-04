@@ -1,65 +1,68 @@
 {
-  "number": "2354",
-  "character": "挖",
-  "keyword": "dig",
-  "level": null,
-  "filename": "2354_dig",
-  "id": "H",
-  "requirements": [
-    {
-      "number": null,
-      "character": "扌",
-      "keyword": "fingers",
-      "level": null,
-      "filename": "extra_fingers",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1070",
-      "character": "穴",
-      "keyword": "hole",
-      "level": null,
-      "filename": "1070_hole",
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "宀",
-          "keyword": "house",
-          "level": null,
-          "filename": "extra_house",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "8",
-          "character": "八",
-          "keyword": "eight",
-          "level": "Elementary",
-          "filename": "8_eight",
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "囧只－口",
-          "keyword": "animal legs",
-          "level": null,
-          "filename": "extra_animal_legs",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "95",
-      "character": "乙",
-      "keyword": "second",
-      "level": "Medium",
-      "filename": "95_second",
-      "id": "G",
-      "requirements": []
-    }
-  ]
+  "order": 2525,
+  "hierarchy": {
+    "number": "2354",
+    "character": "挖",
+    "keyword": "dig",
+    "level": null,
+    "filename": "2354_dig",
+    "id": "H",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "primitive_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1070",
+        "character": "穴",
+        "keyword": "hole",
+        "level": null,
+        "filename": "1070_hole",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "宀",
+            "keyword": "house",
+            "level": null,
+            "filename": "primitive_house",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "8",
+            "character": "八",
+            "keyword": "eight",
+            "level": "Elementary",
+            "filename": "8_eight",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "囧只－口",
+            "keyword": "animal legs",
+            "level": null,
+            "filename": "primitive_animal_legs",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "95",
+        "character": "乙",
+        "keyword": "second",
+        "level": "Medium",
+        "filename": "95_second",
+        "id": "G",
+        "requirements": []
+      }
+    ]
+  }
 }

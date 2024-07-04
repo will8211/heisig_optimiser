@@ -1,77 +1,80 @@
 {
-  "number": "530",
-  "character": "洋",
-  "keyword": "ocean",
-  "level": null,
-  "filename": "530_ocean",
-  "id": "I",
-  "requirements": [
-    {
-      "number": "137",
-      "character": "水",
-      "keyword": "water",
-      "level": "Elementary",
-      "filename": "137_water",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丨",
-          "keyword": "walking stick",
-          "level": null,
-          "filename": "extra_walking_stick",
-          "id": "C",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "528",
-      "character": "羊",
-      "keyword": "sheep",
-      "level": "Medium",
-      "filename": "528_sheep",
-      "id": "H",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丷",
-          "keyword": "horns",
-          "level": null,
-          "filename": "extra_horns",
-          "id": "G",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "F",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 576,
+  "hierarchy": {
+    "number": "530",
+    "character": "洋",
+    "keyword": "ocean",
+    "level": null,
+    "filename": "530_ocean",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "137",
+        "character": "水",
+        "keyword": "water",
+        "level": "Elementary",
+        "filename": "137_water",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丨",
+            "keyword": "walking stick",
+            "level": null,
+            "filename": "primitive_walking_stick",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "528",
+        "character": "羊",
+        "keyword": "sheep",
+        "level": "Medium",
+        "filename": "528_sheep",
+        "id": "H",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丷",
+            "keyword": "horns",
+            "level": null,
+            "filename": "primitive_horns",
+            "id": "G",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "F",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

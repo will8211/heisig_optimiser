@@ -1,95 +1,98 @@
 {
-  "number": "1203",
-  "character": "寒",
-  "keyword": "frigid",
-  "level": "Advanced",
-  "filename": "1203_frigid",
-  "id": "K",
-  "requirements": [
-    {
-      "number": null,
-      "character": "囧赛－贝",
-      "keyword": "hamster cage",
-      "level": null,
-      "filename": "extra_hamster_cage",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "宀",
-          "keyword": "house",
-          "level": null,
-          "filename": "extra_house",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "𠀎",
-          "keyword": "wire mesh",
-          "level": null,
-          "filename": "extra_wire_mesh",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "囧只－口",
-          "keyword": "animal legs",
-          "level": null,
-          "filename": "extra_animal_legs",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "冫",
-      "keyword": "ice",
-      "level": null,
-      "filename": "extra_ice",
-      "id": "J",
-      "requirements": [
-        {
-          "number": "137",
-          "character": "水",
-          "keyword": "water",
-          "level": "Elementary",
-          "filename": "137_water",
-          "id": "I",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丨",
-              "keyword": "walking stick",
-              "level": null,
-              "filename": "extra_walking_stick",
-              "id": "G",
-              "requirements": [
-                {
-                  "number": "1",
-                  "character": "一",
-                  "keyword": "one",
-                  "level": "Elementary",
-                  "filename": "1_one",
-                  "id": "F",
-                  "requirements": []
-                }
-              ]
-            },
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "filename": "extra_a_drop_of",
-              "id": "H",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 1306,
+  "hierarchy": {
+    "number": "1203",
+    "character": "寒",
+    "keyword": "frigid",
+    "level": "Advanced",
+    "filename": "1203_frigid",
+    "id": "K",
+    "requirements": [
+      {
+        "number": null,
+        "character": "囧赛－贝",
+        "keyword": "hamster cage",
+        "level": null,
+        "filename": "primitive_hamster_cage",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "宀",
+            "keyword": "house",
+            "level": null,
+            "filename": "primitive_house",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "𠀎",
+            "keyword": "wire mesh",
+            "level": null,
+            "filename": "primitive_wire_mesh",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "囧只－口",
+            "keyword": "animal legs",
+            "level": null,
+            "filename": "primitive_animal_legs",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "冫",
+        "keyword": "ice",
+        "level": null,
+        "filename": "primitive_ice",
+        "id": "J",
+        "requirements": [
+          {
+            "number": "137",
+            "character": "水",
+            "keyword": "water",
+            "level": "Elementary",
+            "filename": "137_water",
+            "id": "I",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丨",
+                "keyword": "walking stick",
+                "level": null,
+                "filename": "primitive_walking_stick",
+                "id": "G",
+                "requirements": [
+                  {
+                    "number": "1",
+                    "character": "一",
+                    "keyword": "one",
+                    "level": "Elementary",
+                    "filename": "1_one",
+                    "id": "F",
+                    "requirements": []
+                  }
+                ]
+              },
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "H",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

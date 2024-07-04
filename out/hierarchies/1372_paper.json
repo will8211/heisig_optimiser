@@ -1,75 +1,78 @@
 {
-  "number": "1372",
-  "character": "纸",
-  "keyword": "paper",
-  "level": "Medium",
-  "filename": "1372_paper",
-  "id": "I",
-  "requirements": [
-    {
-      "number": null,
-      "character": "纟",
-      "keyword": "thread",
-      "level": null,
-      "filename": "extra_thread",
-      "id": "C",
-      "requirements": [
-        {
-          "number": null,
-          "character": "厶",
-          "keyword": "elbow",
-          "level": null,
-          "filename": "extra_elbow",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "1371",
-      "character": "氏",
-      "keyword": "family name",
-      "level": null,
-      "filename": "1371_family_name",
-      "id": "H",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "囧以－丶人",
-          "keyword": "plow",
-          "level": null,
-          "filename": "extra_plow",
-          "id": "E",
-          "requirements": []
-        },
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "filename": "1_one",
-          "id": "F",
-          "requirements": []
-        },
-        {
-          "number": "95",
-          "character": "乙",
-          "keyword": "second",
-          "level": "Medium",
-          "filename": "95_second",
-          "id": "G",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1493,
+  "hierarchy": {
+    "number": "1372",
+    "character": "纸",
+    "keyword": "paper",
+    "level": "Medium",
+    "filename": "1372_paper",
+    "id": "I",
+    "requirements": [
+      {
+        "number": null,
+        "character": "纟",
+        "keyword": "thread",
+        "level": null,
+        "filename": "primitive_thread",
+        "id": "C",
+        "requirements": [
+          {
+            "number": null,
+            "character": "厶",
+            "keyword": "elbow",
+            "level": null,
+            "filename": "primitive_elbow",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "1371",
+        "character": "氏",
+        "keyword": "family name",
+        "level": null,
+        "filename": "1371_family_name",
+        "id": "H",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "囧以－丶人",
+            "keyword": "plow",
+            "level": null,
+            "filename": "primitive_plow",
+            "id": "E",
+            "requirements": []
+          },
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "F",
+            "requirements": []
+          },
+          {
+            "number": "95",
+            "character": "乙",
+            "keyword": "second",
+            "level": "Medium",
+            "filename": "95_second",
+            "id": "G",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

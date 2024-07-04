@@ -1,56 +1,59 @@
 {
-  "number": "1845",
-  "character": "摸",
-  "keyword": "grope",
-  "level": "Advanced",
-  "filename": "1845_grope",
-  "id": "G",
-  "requirements": [
-    {
-      "number": null,
-      "character": "扌",
-      "keyword": "fingers",
-      "level": null,
-      "filename": "extra_fingers",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "231",
-      "character": "莫",
-      "keyword": "nobody",
-      "level": null,
-      "filename": "231_nobody",
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "艹",
-          "keyword": "flower",
-          "level": null,
-          "filename": "extra_flower",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "12",
-          "character": "日",
-          "keyword": "day",
-          "level": "Elementary",
-          "filename": "12_day",
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": "113",
-          "character": "大",
-          "keyword": "large",
-          "level": "Elementary",
-          "filename": "113_large",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1996,
+  "hierarchy": {
+    "number": "1845",
+    "character": "摸",
+    "keyword": "grope",
+    "level": "Advanced",
+    "filename": "1845_grope",
+    "id": "G",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "primitive_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "231",
+        "character": "莫",
+        "keyword": "nobody",
+        "level": null,
+        "filename": "231_nobody",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "艹",
+            "keyword": "flower",
+            "level": null,
+            "filename": "primitive_flower",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "12",
+            "character": "日",
+            "keyword": "day",
+            "level": "Elementary",
+            "filename": "12_day",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": "113",
+            "character": "大",
+            "keyword": "large",
+            "level": "Elementary",
+            "filename": "113_large",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

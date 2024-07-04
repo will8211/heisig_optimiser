@@ -1,48 +1,51 @@
 {
-  "number": "205",
-  "character": "梦",
-  "keyword": "dream",
-  "level": "Advanced",
-  "filename": "205_dream",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "203",
-      "character": "林",
-      "keyword": "woods",
-      "level": "Advanced",
-      "filename": "203_woods",
-      "id": "C",
-      "requirements": [
-        {
-          "number": "202",
-          "character": "木",
-          "keyword": "tree",
-          "level": "Elementary",
-          "filename": "202_tree",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "115",
-      "character": "夕",
-      "keyword": "evening",
-      "level": "Advanced",
-      "filename": "115_evening",
-      "id": "E",
-      "requirements": [
-        {
-          "number": "13",
-          "character": "月",
-          "keyword": "month",
-          "level": "Elementary",
-          "filename": "13_month",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 216,
+  "hierarchy": {
+    "number": "205",
+    "character": "梦",
+    "keyword": "dream",
+    "level": "Advanced",
+    "filename": "205_dream",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "203",
+        "character": "林",
+        "keyword": "woods",
+        "level": "Advanced",
+        "filename": "203_woods",
+        "id": "C",
+        "requirements": [
+          {
+            "number": "202",
+            "character": "木",
+            "keyword": "tree",
+            "level": "Elementary",
+            "filename": "202_tree",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "115",
+        "character": "夕",
+        "keyword": "evening",
+        "level": "Advanced",
+        "filename": "115_evening",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "13",
+            "character": "月",
+            "keyword": "month",
+            "level": "Elementary",
+            "filename": "13_month",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

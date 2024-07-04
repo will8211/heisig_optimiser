@@ -1,57 +1,60 @@
 {
-  "number": "1115",
-  "character": "零",
-  "keyword": "zero",
-  "level": "Elementary",
-  "filename": "1115_zero",
-  "id": "G",
-  "requirements": [
-    {
-      "number": "425",
-      "character": "雨",
-      "keyword": "rain",
-      "level": "Elementary",
-      "filename": "425_rain",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1113",
-      "character": "令",
-      "keyword": "orders",
-      "level": "Medium",
-      "filename": "1113_orders",
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "亼",
-          "keyword": "meeting",
-          "level": null,
-          "filename": "extra_meeting",
-          "id": "D",
-          "requirements": [
-            {
-              "number": null,
-              "character": "𠆢",
-              "keyword": "umbrella",
-              "level": null,
-              "filename": "extra_umbrella",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "囧节－艹",
-          "keyword": "chop",
-          "level": null,
-          "filename": "extra_chop",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1204,
+  "hierarchy": {
+    "number": "1115",
+    "character": "零",
+    "keyword": "zero",
+    "level": "Elementary",
+    "filename": "1115_zero",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "425",
+        "character": "雨",
+        "keyword": "rain",
+        "level": "Elementary",
+        "filename": "425_rain",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1113",
+        "character": "令",
+        "keyword": "orders",
+        "level": "Medium",
+        "filename": "1113_orders",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "亼",
+            "keyword": "meeting",
+            "level": null,
+            "filename": "primitive_meeting",
+            "id": "D",
+            "requirements": [
+              {
+                "number": null,
+                "character": "𠆢",
+                "keyword": "umbrella",
+                "level": null,
+                "filename": "primitive_umbrella",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "囧节－艹",
+            "keyword": "chop",
+            "level": null,
+            "filename": "primitive_chop",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

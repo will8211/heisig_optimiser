@@ -1,38 +1,41 @@
 {
-  "number": "1345",
-  "character": "组",
-  "keyword": "group",
-  "level": "Medium",
-  "filename": "1345_group",
-  "id": "E",
-  "requirements": [
-    {
-      "number": null,
-      "character": "纟",
-      "keyword": "thread",
-      "level": null,
-      "filename": "extra_thread",
-      "id": "C",
-      "requirements": [
-        {
-          "number": null,
-          "character": "厶",
-          "keyword": "elbow",
-          "level": null,
-          "filename": "extra_elbow",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "1343",
-      "character": "且",
-      "keyword": "moreover",
-      "level": "Medium",
-      "filename": "1343_moreover",
-      "id": "D",
-      "requirements": []
-    }
-  ]
+  "order": 1464,
+  "hierarchy": {
+    "number": "1345",
+    "character": "组",
+    "keyword": "group",
+    "level": "Medium",
+    "filename": "1345_group",
+    "id": "E",
+    "requirements": [
+      {
+        "number": null,
+        "character": "纟",
+        "keyword": "thread",
+        "level": null,
+        "filename": "primitive_thread",
+        "id": "C",
+        "requirements": [
+          {
+            "number": null,
+            "character": "厶",
+            "keyword": "elbow",
+            "level": null,
+            "filename": "primitive_elbow",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "1343",
+        "character": "且",
+        "keyword": "moreover",
+        "level": "Medium",
+        "filename": "1343_moreover",
+        "id": "D",
+        "requirements": []
+      }
+    ]
+  }
 }

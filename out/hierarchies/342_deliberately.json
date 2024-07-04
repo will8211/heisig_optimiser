@@ -1,47 +1,50 @@
 {
-  "number": "342",
-  "character": "故",
-  "keyword": "deliberately",
-  "level": "Medium",
-  "filename": "342_deliberately",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "16",
-      "character": "古",
-      "keyword": "ancient",
-      "level": "Medium",
-      "filename": "16_ancient",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "10",
-          "character": "十",
-          "keyword": "ten",
-          "level": "Elementary",
-          "filename": "10_ten",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "filename": "11_mouth",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "攵",
-      "keyword": "taskmaster",
-      "level": null,
-      "filename": "extra_taskmaster",
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 368,
+  "hierarchy": {
+    "number": "342",
+    "character": "故",
+    "keyword": "deliberately",
+    "level": "Medium",
+    "filename": "342_deliberately",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "16",
+        "character": "古",
+        "keyword": "ancient",
+        "level": "Medium",
+        "filename": "16_ancient",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "10",
+            "character": "十",
+            "keyword": "ten",
+            "level": "Elementary",
+            "filename": "10_ten",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "攵",
+        "keyword": "taskmaster",
+        "level": null,
+        "filename": "primitive_taskmaster",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

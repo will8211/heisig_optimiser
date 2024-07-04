@@ -1,75 +1,78 @@
 {
-  "number": "1732",
-  "character": "熬",
-  "keyword": "stew",
-  "level": null,
-  "filename": "1732_stew",
-  "id": "I",
-  "requirements": [
-    {
-      "number": "158",
-      "character": "土",
-      "keyword": "soil",
-      "level": "Medium",
-      "filename": "158_soil",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "496",
-      "character": "放",
-      "keyword": "release",
-      "level": "Elementary",
-      "filename": "496_release",
-      "id": "G",
-      "requirements": [
-        {
-          "number": null,
-          "character": "攵",
-          "keyword": "taskmaster",
-          "level": null,
-          "filename": "extra_taskmaster",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "494",
-          "character": "方",
-          "keyword": "direction",
-          "level": "Elementary",
-          "filename": "494_direction",
-          "id": "F",
-          "requirements": [
-            {
-              "number": "83",
-              "character": "刀",
-              "keyword": "sword",
-              "level": "Medium",
-              "filename": "83_sword",
-              "id": "D",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "亠",
-              "keyword": "top hat",
-              "level": null,
-              "filename": "extra_top_hat",
-              "id": "E",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": "170",
-      "character": "火",
-      "keyword": "fire",
-      "level": "Elementary",
-      "filename": "170_fire",
-      "id": "H",
-      "requirements": []
-    }
-  ]
+  "order": 1877,
+  "hierarchy": {
+    "number": "1732",
+    "character": "熬",
+    "keyword": "stew",
+    "level": null,
+    "filename": "1732_stew",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "158",
+        "character": "土",
+        "keyword": "soil",
+        "level": "Medium",
+        "filename": "158_soil",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "496",
+        "character": "放",
+        "keyword": "release",
+        "level": "Elementary",
+        "filename": "496_release",
+        "id": "G",
+        "requirements": [
+          {
+            "number": null,
+            "character": "攵",
+            "keyword": "taskmaster",
+            "level": null,
+            "filename": "primitive_taskmaster",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "494",
+            "character": "方",
+            "keyword": "direction",
+            "level": "Elementary",
+            "filename": "494_direction",
+            "id": "F",
+            "requirements": [
+              {
+                "number": "83",
+                "character": "刀",
+                "keyword": "sword",
+                "level": "Medium",
+                "filename": "83_sword",
+                "id": "D",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "亠",
+                "keyword": "top hat",
+                "level": null,
+                "filename": "primitive_top_hat",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": "170",
+        "character": "火",
+        "keyword": "fire",
+        "level": "Elementary",
+        "filename": "170_fire",
+        "id": "H",
+        "requirements": []
+      }
+    ]
+  }
 }

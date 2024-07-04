@@ -1,38 +1,41 @@
 {
-  "number": "120",
-  "character": "罗",
-  "keyword": "silk gauze",
-  "level": null,
-  "filename": "120_silk_gauze",
-  "id": "E",
-  "requirements": [
-    {
-      "number": "15",
-      "character": "目",
-      "keyword": "eye",
-      "level": "Medium",
-      "filename": "15_eye",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "115",
-      "character": "夕",
-      "keyword": "evening",
-      "level": "Advanced",
-      "filename": "115_evening",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "13",
-          "character": "月",
-          "keyword": "month",
-          "level": "Elementary",
-          "filename": "13_month",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 128,
+  "hierarchy": {
+    "number": "120",
+    "character": "罗",
+    "keyword": "silk gauze",
+    "level": null,
+    "filename": "120_silk_gauze",
+    "id": "E",
+    "requirements": [
+      {
+        "number": "15",
+        "character": "目",
+        "keyword": "eye",
+        "level": "Medium",
+        "filename": "15_eye",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "115",
+        "character": "夕",
+        "keyword": "evening",
+        "level": "Advanced",
+        "filename": "115_evening",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "13",
+            "character": "月",
+            "keyword": "month",
+            "level": "Elementary",
+            "filename": "13_month",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

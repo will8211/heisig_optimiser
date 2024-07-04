@@ -1,47 +1,50 @@
 {
-  "number": "562",
-  "character": "庄",
-  "keyword": "hamlet",
-  "level": "Advanced",
-  "filename": "562_hamlet",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "556",
-      "character": "广",
-      "keyword": "extensive",
-      "level": "Medium",
-      "filename": "556_extensive",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "121",
-          "character": "厂",
-          "keyword": "factory",
-          "level": "Medium",
-          "filename": "121_factory",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "宀",
-          "keyword": "house",
-          "level": null,
-          "filename": "extra_house",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "158",
-      "character": "土",
-      "keyword": "soil",
-      "level": "Medium",
-      "filename": "158_soil",
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 611,
+  "hierarchy": {
+    "number": "562",
+    "character": "庄",
+    "keyword": "hamlet",
+    "level": "Advanced",
+    "filename": "562_hamlet",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "556",
+        "character": "广",
+        "keyword": "extensive",
+        "level": "Medium",
+        "filename": "556_extensive",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "121",
+            "character": "厂",
+            "keyword": "factory",
+            "level": "Medium",
+            "filename": "121_factory",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "宀",
+            "keyword": "house",
+            "level": null,
+            "filename": "primitive_house",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "158",
+        "character": "土",
+        "keyword": "soil",
+        "level": "Medium",
+        "filename": "158_soil",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

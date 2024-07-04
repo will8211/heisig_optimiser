@@ -1,38 +1,41 @@
 {
-  "number": "2208",
-  "character": "秉",
-  "keyword": "wield",
-  "level": null,
-  "filename": "2208_wield",
-  "id": "E",
-  "requirements": [
-    {
-      "number": null,
-      "character": "肀",
-      "keyword": "rake",
-      "level": null,
-      "filename": "extra_rake",
-      "id": "C",
-      "requirements": [
-        {
-          "number": null,
-          "character": "彐",
-          "keyword": "broom",
-          "level": null,
-          "filename": "extra_broom",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "762",
-      "character": "禾",
-      "keyword": "standing grain",
-      "level": null,
-      "filename": "762_standing_grain",
-      "id": "D",
-      "requirements": []
-    }
-  ]
+  "order": 2373,
+  "hierarchy": {
+    "number": "2208",
+    "character": "秉",
+    "keyword": "wield",
+    "level": null,
+    "filename": "2208_wield",
+    "id": "E",
+    "requirements": [
+      {
+        "number": null,
+        "character": "肀",
+        "keyword": "rake",
+        "level": null,
+        "filename": "primitive_rake",
+        "id": "C",
+        "requirements": [
+          {
+            "number": null,
+            "character": "彐",
+            "keyword": "broom",
+            "level": null,
+            "filename": "primitive_broom",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "762",
+        "character": "禾",
+        "keyword": "standing grain",
+        "level": null,
+        "filename": "762_standing_grain",
+        "id": "D",
+        "requirements": []
+      }
+    ]
+  }
 }

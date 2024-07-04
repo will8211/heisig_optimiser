@@ -1,76 +1,79 @@
 {
-  "number": "2050",
-  "character": "筒",
-  "keyword": "tube",
-  "level": null,
-  "filename": "2050_tube",
-  "id": "I",
-  "requirements": [
-    {
-      "number": "786",
-      "character": "竹",
-      "keyword": "bamboo",
-      "level": "Advanced",
-      "filename": "786_bamboo",
-      "id": "C",
-      "requirements": [
-        {
-          "number": "90",
-          "character": "丁",
-          "keyword": "fourth",
-          "level": null,
-          "filename": "90_fourth",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "185",
-      "character": "同",
-      "keyword": "same",
-      "level": "Elementary",
-      "filename": "185_same",
-      "id": "H",
-      "requirements": [
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "filename": "1_one",
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "filename": "11_mouth",
-          "id": "E",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "冂",
-          "keyword": "hood",
-          "level": null,
-          "filename": "extra_hood",
-          "id": "G",
-          "requirements": [
-            {
-              "number": "57",
-              "character": "几",
-              "keyword": "how many?",
-              "level": "Elementary",
-              "filename": "57_how_many",
-              "id": "F",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2211,
+  "hierarchy": {
+    "number": "2050",
+    "character": "筒",
+    "keyword": "tube",
+    "level": null,
+    "filename": "2050_tube",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "786",
+        "character": "竹",
+        "keyword": "bamboo",
+        "level": "Advanced",
+        "filename": "786_bamboo",
+        "id": "C",
+        "requirements": [
+          {
+            "number": "90",
+            "character": "丁",
+            "keyword": "fourth",
+            "level": null,
+            "filename": "90_fourth",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "185",
+        "character": "同",
+        "keyword": "same",
+        "level": "Elementary",
+        "filename": "185_same",
+        "id": "H",
+        "requirements": [
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "E",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "冂",
+            "keyword": "hood",
+            "level": null,
+            "filename": "primitive_hood",
+            "id": "G",
+            "requirements": [
+              {
+                "number": "57",
+                "character": "几",
+                "keyword": "how many?",
+                "level": "Elementary",
+                "filename": "57_how_many",
+                "id": "F",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

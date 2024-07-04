@@ -1,66 +1,69 @@
 {
-  "number": "2414",
-  "character": "蓄",
-  "keyword": "save up",
-  "level": null,
-  "filename": "2414_save_up",
-  "id": "H",
-  "requirements": [
-    {
-      "number": null,
-      "character": "艹",
-      "keyword": "flower",
-      "level": null,
-      "filename": "extra_flower",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "2413",
-      "character": "畜",
-      "keyword": "livestock",
-      "level": null,
-      "filename": "2413_livestock",
-      "id": "G",
-      "requirements": [
-        {
-          "number": "2411",
-          "character": "玄",
-          "keyword": "mysterious",
-          "level": null,
-          "filename": "2411_mysterious",
-          "id": "E",
-          "requirements": [
-            {
-              "number": null,
-              "character": "亠",
-              "keyword": "top hat",
-              "level": null,
-              "filename": "extra_top_hat",
-              "id": "C",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "幺",
-              "keyword": "cocoon",
-              "level": null,
-              "filename": "extra_cocoon",
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "14",
-          "character": "田",
-          "keyword": "rice field",
-          "level": "Medium",
-          "filename": "14_rice_field",
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2589,
+  "hierarchy": {
+    "number": "2414",
+    "character": "蓄",
+    "keyword": "save up",
+    "level": null,
+    "filename": "2414_save_up",
+    "id": "H",
+    "requirements": [
+      {
+        "number": null,
+        "character": "艹",
+        "keyword": "flower",
+        "level": null,
+        "filename": "primitive_flower",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "2413",
+        "character": "畜",
+        "keyword": "livestock",
+        "level": null,
+        "filename": "2413_livestock",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "2411",
+            "character": "玄",
+            "keyword": "mysterious",
+            "level": null,
+            "filename": "2411_mysterious",
+            "id": "E",
+            "requirements": [
+              {
+                "number": null,
+                "character": "亠",
+                "keyword": "top hat",
+                "level": null,
+                "filename": "primitive_top_hat",
+                "id": "C",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "幺",
+                "keyword": "cocoon",
+                "level": null,
+                "filename": "primitive_cocoon",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "14",
+            "character": "田",
+            "keyword": "rice field",
+            "level": "Medium",
+            "filename": "14_rice_field",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

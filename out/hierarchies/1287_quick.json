@@ -1,47 +1,50 @@
 {
-  "number": "1287",
-  "character": "速",
-  "keyword": "quick",
-  "level": "Advanced",
-  "filename": "1287_quick",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "1286",
-      "character": "束",
-      "keyword": "bundle up",
-      "level": "Advanced",
-      "filename": "1286_bundle_up",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "202",
-          "character": "木",
-          "keyword": "tree",
-          "level": "Elementary",
-          "filename": "202_tree",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "filename": "11_mouth",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "辶",
-      "keyword": "road",
-      "level": null,
-      "filename": "extra_road",
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 1397,
+  "hierarchy": {
+    "number": "1287",
+    "character": "速",
+    "keyword": "quick",
+    "level": "Advanced",
+    "filename": "1287_quick",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "1286",
+        "character": "束",
+        "keyword": "bundle up",
+        "level": "Advanced",
+        "filename": "1286_bundle_up",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "202",
+            "character": "木",
+            "keyword": "tree",
+            "level": "Elementary",
+            "filename": "202_tree",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "辶",
+        "keyword": "road",
+        "level": null,
+        "filename": "primitive_road",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

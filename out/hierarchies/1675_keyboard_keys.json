@@ -1,85 +1,88 @@
 {
-  "number": "1675",
-  "character": "键",
-  "keyword": "keyboard keys",
-  "level": null,
-  "filename": "1675_keyboard_keys",
-  "id": "J",
-  "requirements": [
-    {
-      "number": "279",
-      "character": "金",
-      "keyword": "gold",
-      "level": "Advanced",
-      "filename": "279_gold",
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "𠆢",
-          "keyword": "umbrella",
-          "level": null,
-          "filename": "extra_umbrella",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "265",
-          "character": "王",
-          "keyword": "king",
-          "level": "Medium",
-          "filename": "265_king",
-          "id": "D",
-          "requirements": [
-            {
-              "number": "76",
-              "character": "工",
-              "keyword": "work",
-              "level": "Elementary",
-              "filename": "76_work",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "398",
-      "character": "建",
-      "keyword": "build",
-      "level": "Advanced",
-      "filename": "398_build",
-      "id": "I",
-      "requirements": [
-        {
-          "number": null,
-          "character": "聿",
-          "keyword": "brush",
-          "level": null,
-          "filename": "extra_brush",
-          "id": "G",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "廴",
-          "keyword": "stretch",
-          "level": null,
-          "filename": "extra_stretch",
-          "id": "H",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1820,
+  "hierarchy": {
+    "number": "1675",
+    "character": "键",
+    "keyword": "keyboard keys",
+    "level": null,
+    "filename": "1675_keyboard_keys",
+    "id": "J",
+    "requirements": [
+      {
+        "number": "279",
+        "character": "金",
+        "keyword": "gold",
+        "level": "Advanced",
+        "filename": "279_gold",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "𠆢",
+            "keyword": "umbrella",
+            "level": null,
+            "filename": "primitive_umbrella",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "265",
+            "character": "王",
+            "keyword": "king",
+            "level": "Medium",
+            "filename": "265_king",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "76",
+                "character": "工",
+                "keyword": "work",
+                "level": "Elementary",
+                "filename": "76_work",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "398",
+        "character": "建",
+        "keyword": "build",
+        "level": "Advanced",
+        "filename": "398_build",
+        "id": "I",
+        "requirements": [
+          {
+            "number": null,
+            "character": "聿",
+            "keyword": "brush",
+            "level": null,
+            "filename": "primitive_brush",
+            "id": "G",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "廴",
+            "keyword": "stretch",
+            "level": null,
+            "filename": "primitive_stretch",
+            "id": "H",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

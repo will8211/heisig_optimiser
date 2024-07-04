@@ -1,48 +1,51 @@
 {
-  "number": "529",
-  "character": "美",
-  "keyword": "beautiful",
-  "level": "Medium",
-  "filename": "529_beautiful",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "113",
-      "character": "大",
-      "keyword": "large",
-      "level": "Elementary",
-      "filename": "113_large",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "528",
-      "character": "羊",
-      "keyword": "sheep",
-      "level": "Medium",
-      "filename": "528_sheep",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丷",
-          "keyword": "horns",
-          "level": null,
-          "filename": "extra_horns",
-          "id": "D",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 575,
+  "hierarchy": {
+    "number": "529",
+    "character": "美",
+    "keyword": "beautiful",
+    "level": "Medium",
+    "filename": "529_beautiful",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "113",
+        "character": "大",
+        "keyword": "large",
+        "level": "Elementary",
+        "filename": "113_large",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "528",
+        "character": "羊",
+        "keyword": "sheep",
+        "level": "Medium",
+        "filename": "528_sheep",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丷",
+            "keyword": "horns",
+            "level": null,
+            "filename": "primitive_horns",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

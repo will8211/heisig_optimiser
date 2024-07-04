@@ -1,65 +1,68 @@
 {
-  "number": "851",
-  "character": "喝",
-  "keyword": "drink",
-  "level": "Elementary",
-  "filename": "851_drink",
-  "id": "H",
-  "requirements": [
-    {
-      "number": "11",
-      "character": "口",
-      "keyword": "mouth",
-      "level": "Elementary",
-      "filename": "11_mouth",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "曷",
-      "keyword": "siesta",
-      "level": null,
-      "filename": "extra_siesta",
-      "id": "G",
-      "requirements": [
-        {
-          "number": "793",
-          "character": "人",
-          "keyword": "person",
-          "level": "Elementary",
-          "filename": "793_person",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "勹",
-          "keyword": "bound up",
-          "level": null,
-          "filename": "extra_bound_up",
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": "95",
-          "character": "乙",
-          "keyword": "second",
-          "level": "Medium",
-          "filename": "95_second",
-          "id": "E",
-          "requirements": []
-        },
-        {
-          "number": "12",
-          "character": "日",
-          "keyword": "day",
-          "level": "Elementary",
-          "filename": "12_day",
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 914,
+  "hierarchy": {
+    "number": "851",
+    "character": "喝",
+    "keyword": "drink",
+    "level": "Elementary",
+    "filename": "851_drink",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "11",
+        "character": "口",
+        "keyword": "mouth",
+        "level": "Elementary",
+        "filename": "11_mouth",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "曷",
+        "keyword": "siesta",
+        "level": null,
+        "filename": "primitive_siesta",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "793",
+            "character": "人",
+            "keyword": "person",
+            "level": "Elementary",
+            "filename": "793_person",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "勹",
+            "keyword": "bound up",
+            "level": null,
+            "filename": "primitive_bound_up",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": "95",
+            "character": "乙",
+            "keyword": "second",
+            "level": "Medium",
+            "filename": "95_second",
+            "id": "E",
+            "requirements": []
+          },
+          {
+            "number": "12",
+            "character": "日",
+            "keyword": "day",
+            "level": "Elementary",
+            "filename": "12_day",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

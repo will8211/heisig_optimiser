@@ -1,38 +1,41 @@
 {
-  "number": "1478",
-  "character": "两",
-  "keyword": "dos",
-  "level": "Elementary",
-  "filename": "1478_dos",
-  "id": "E",
-  "requirements": [
-    {
-      "number": "793",
-      "character": "人",
-      "keyword": "person",
-      "level": "Elementary",
-      "filename": "793_person",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "囧冂",
-      "keyword": "belt",
-      "level": null,
-      "filename": "extra_belt",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "410",
-          "character": "巾",
-          "keyword": "towel",
-          "level": "Advanced",
-          "filename": "410_towel",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1616,
+  "hierarchy": {
+    "number": "1478",
+    "character": "两",
+    "keyword": "dos",
+    "level": "Elementary",
+    "filename": "1478_dos",
+    "id": "E",
+    "requirements": [
+      {
+        "number": "793",
+        "character": "人",
+        "keyword": "person",
+        "level": "Elementary",
+        "filename": "793_person",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "囧冂",
+        "keyword": "belt",
+        "level": null,
+        "filename": "primitive_belt",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "410",
+            "character": "巾",
+            "keyword": "towel",
+            "level": "Advanced",
+            "filename": "410_towel",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

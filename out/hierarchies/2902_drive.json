@@ -1,76 +1,79 @@
 {
-  "number": "2902",
-  "character": "驾",
-  "keyword": "drive",
-  "level": null,
-  "filename": "2902_drive",
-  "id": "I",
-  "requirements": [
-    {
-      "number": "749",
-      "character": "加",
-      "keyword": "add",
-      "level": "Medium",
-      "filename": "749_add",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "63",
-          "character": "肌",
-          "keyword": "muscle",
-          "level": null,
-          "filename": "63_muscle",
-          "id": "D",
-          "requirements": [
-            {
-              "number": "57",
-              "character": "几",
-              "keyword": "how many?",
-              "level": "Elementary",
-              "filename": "57_how_many",
-              "id": "B",
-              "requirements": []
-            },
-            {
-              "number": "13",
-              "character": "月",
-              "keyword": "month",
-              "level": "Elementary",
-              "filename": "13_month",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "filename": "11_mouth",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "1453",
-      "character": "马",
-      "keyword": "horse",
-      "level": "Elementary",
-      "filename": "1453_horse",
-      "id": "H",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧与－丨一",
-          "keyword": "pointed tail",
-          "level": null,
-          "filename": "extra_pointed_tail",
-          "id": "G",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 3099,
+  "hierarchy": {
+    "number": "2902",
+    "character": "驾",
+    "keyword": "drive",
+    "level": null,
+    "filename": "2902_drive",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "749",
+        "character": "加",
+        "keyword": "add",
+        "level": "Medium",
+        "filename": "749_add",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "63",
+            "character": "肌",
+            "keyword": "muscle",
+            "level": null,
+            "filename": "63_muscle",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "57",
+                "character": "几",
+                "keyword": "how many?",
+                "level": "Elementary",
+                "filename": "57_how_many",
+                "id": "B",
+                "requirements": []
+              },
+              {
+                "number": "13",
+                "character": "月",
+                "keyword": "month",
+                "level": "Elementary",
+                "filename": "13_month",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "1453",
+        "character": "马",
+        "keyword": "horse",
+        "level": "Elementary",
+        "filename": "1453_horse",
+        "id": "H",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧与－丨一",
+            "keyword": "pointed tail",
+            "level": null,
+            "filename": "primitive_pointed_tail",
+            "id": "G",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

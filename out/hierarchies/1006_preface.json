@@ -1,57 +1,60 @@
 {
-  "number": "1006",
-  "character": "序",
-  "keyword": "preface",
-  "level": null,
-  "filename": "1006_preface",
-  "id": "G",
-  "requirements": [
-    {
-      "number": "556",
-      "character": "广",
-      "keyword": "extensive",
-      "level": "Medium",
-      "filename": "556_extensive",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "121",
-          "character": "厂",
-          "keyword": "factory",
-          "level": "Medium",
-          "filename": "121_factory",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "宀",
-          "keyword": "house",
-          "level": null,
-          "filename": "extra_house",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "1005",
-      "character": "予",
-      "keyword": "bestow",
-      "level": null,
-      "filename": "1005_bestow",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "1002",
-          "character": "矛",
-          "keyword": "spear",
-          "level": null,
-          "filename": "1002_spear",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1080,
+  "hierarchy": {
+    "number": "1006",
+    "character": "序",
+    "keyword": "preface",
+    "level": null,
+    "filename": "1006_preface",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "556",
+        "character": "广",
+        "keyword": "extensive",
+        "level": "Medium",
+        "filename": "556_extensive",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "121",
+            "character": "厂",
+            "keyword": "factory",
+            "level": "Medium",
+            "filename": "121_factory",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "宀",
+            "keyword": "house",
+            "level": null,
+            "filename": "primitive_house",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "1005",
+        "character": "予",
+        "keyword": "bestow",
+        "level": null,
+        "filename": "1005_bestow",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "1002",
+            "character": "矛",
+            "keyword": "spear",
+            "level": null,
+            "filename": "1002_spear",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

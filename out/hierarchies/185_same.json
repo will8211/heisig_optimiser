@@ -1,47 +1,50 @@
 {
-  "number": "185",
-  "character": "同",
-  "keyword": "same",
-  "level": "Elementary",
-  "filename": "185_same",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "1",
-      "character": "一",
-      "keyword": "one",
-      "level": "Elementary",
-      "filename": "1_one",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "11",
-      "character": "口",
-      "keyword": "mouth",
-      "level": "Elementary",
-      "filename": "11_mouth",
-      "id": "C",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "冂",
-      "keyword": "hood",
-      "level": null,
-      "filename": "extra_hood",
-      "id": "E",
-      "requirements": [
-        {
-          "number": "57",
-          "character": "几",
-          "keyword": "how many?",
-          "level": "Elementary",
-          "filename": "57_how_many",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 195,
+  "hierarchy": {
+    "number": "185",
+    "character": "同",
+    "keyword": "same",
+    "level": "Elementary",
+    "filename": "185_same",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "1",
+        "character": "一",
+        "keyword": "one",
+        "level": "Elementary",
+        "filename": "1_one",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "11",
+        "character": "口",
+        "keyword": "mouth",
+        "level": "Elementary",
+        "filename": "11_mouth",
+        "id": "C",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "冂",
+        "keyword": "hood",
+        "level": null,
+        "filename": "primitive_hood",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "57",
+            "character": "几",
+            "keyword": "how many?",
+            "level": "Elementary",
+            "filename": "57_how_many",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

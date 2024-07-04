@@ -1,47 +1,50 @@
 {
-  "number": "2537",
-  "character": "刹",
-  "keyword": "brake",
-  "level": null,
-  "filename": "2537_brake",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "1167",
-      "character": "杀",
-      "keyword": "kill",
-      "level": "Advanced",
-      "filename": "1167_kill",
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "㐅",
-          "keyword": "sheaf",
-          "level": null,
-          "filename": "extra_sheaf",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "202",
-          "character": "木",
-          "keyword": "tree",
-          "level": "Elementary",
-          "filename": "202_tree",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "83",
-      "character": "刀",
-      "keyword": "sword",
-      "level": "Medium",
-      "filename": "83_sword",
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 2724,
+  "hierarchy": {
+    "number": "2537",
+    "character": "刹",
+    "keyword": "brake",
+    "level": null,
+    "filename": "2537_brake",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "1167",
+        "character": "杀",
+        "keyword": "kill",
+        "level": "Advanced",
+        "filename": "1167_kill",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "㐅",
+            "keyword": "sheaf",
+            "level": null,
+            "filename": "primitive_sheaf",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "202",
+            "character": "木",
+            "keyword": "tree",
+            "level": "Elementary",
+            "filename": "202_tree",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "83",
+        "character": "刀",
+        "keyword": "sword",
+        "level": "Medium",
+        "filename": "83_sword",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

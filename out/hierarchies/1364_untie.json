@@ -1,56 +1,59 @@
 {
-  "number": "1364",
-  "character": "解",
-  "keyword": "untie",
-  "level": "Advanced",
-  "filename": "1364_untie",
-  "id": "G",
-  "requirements": [
-    {
-      "number": "1362",
-      "character": "角",
-      "keyword": "angle",
-      "level": "Medium",
-      "filename": "1362_angle",
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "勹",
-          "keyword": "bound up",
-          "level": null,
-          "filename": "extra_bound_up",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "1361",
-          "character": "用",
-          "keyword": "utilize",
-          "level": "Elementary",
-          "filename": "1361_utilize",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "83",
-      "character": "刀",
-      "keyword": "sword",
-      "level": "Medium",
-      "filename": "83_sword",
-      "id": "E",
-      "requirements": []
-    },
-    {
-      "number": "252",
-      "character": "牛",
-      "keyword": "cow",
-      "level": "Elementary",
-      "filename": "252_cow",
-      "id": "F",
-      "requirements": []
-    }
-  ]
+  "order": 1484,
+  "hierarchy": {
+    "number": "1364",
+    "character": "解",
+    "keyword": "untie",
+    "level": "Advanced",
+    "filename": "1364_untie",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "1362",
+        "character": "角",
+        "keyword": "angle",
+        "level": "Medium",
+        "filename": "1362_angle",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "勹",
+            "keyword": "bound up",
+            "level": null,
+            "filename": "primitive_bound_up",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "1361",
+            "character": "用",
+            "keyword": "utilize",
+            "level": "Elementary",
+            "filename": "1361_utilize",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "83",
+        "character": "刀",
+        "keyword": "sword",
+        "level": "Medium",
+        "filename": "83_sword",
+        "id": "E",
+        "requirements": []
+      },
+      {
+        "number": "252",
+        "character": "牛",
+        "keyword": "cow",
+        "level": "Elementary",
+        "filename": "252_cow",
+        "id": "F",
+        "requirements": []
+      }
+    ]
+  }
 }

@@ -1,105 +1,108 @@
 {
-  "number": "2923",
-  "character": "掷",
-  "keyword": "hurl",
-  "level": null,
-  "filename": "2923_hurl",
-  "id": "L",
-  "requirements": [
-    {
-      "number": null,
-      "character": "扌",
-      "keyword": "fingers",
-      "level": null,
-      "filename": "extra_fingers",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "2922",
-      "character": "郑",
-      "keyword": "Zheng",
-      "level": null,
-      "filename": "2922_Zheng",
-      "id": "K",
-      "requirements": [
-        {
-          "number": "1469",
-          "character": "关",
-          "keyword": "shut",
-          "level": "Elementary",
-          "filename": "1469_shut",
-          "id": "H",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丷",
-              "keyword": "horns",
-              "level": null,
-              "filename": "extra_horns",
-              "id": "D",
-              "requirements": [
-                {
-                  "number": "1",
-                  "character": "一",
-                  "keyword": "one",
-                  "level": "Elementary",
-                  "filename": "1_one",
-                  "id": "C",
-                  "requirements": []
-                }
-              ]
-            },
-            {
-              "number": "436",
-              "character": "天",
-              "keyword": "heavens",
-              "level": "Elementary",
-              "filename": "436_heavens",
-              "id": "G",
-              "requirements": [
-                {
-                  "number": "1",
-                  "character": "一",
-                  "keyword": "one",
-                  "level": "Elementary",
-                  "filename": "1_one",
-                  "id": "E",
-                  "requirements": []
-                },
-                {
-                  "number": "113",
-                  "character": "大",
-                  "keyword": "large",
-                  "level": "Elementary",
-                  "filename": "113_large",
-                  "id": "F",
-                  "requirements": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "囧阝",
-          "keyword": "city walls",
-          "level": null,
-          "filename": "extra_city_walls",
-          "id": "J",
-          "requirements": [
-            {
-              "number": null,
-              "character": "阝",
-              "keyword": "pinnacle",
-              "level": null,
-              "filename": "extra_pinnacle",
-              "id": "I",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 3122,
+  "hierarchy": {
+    "number": "2923",
+    "character": "掷",
+    "keyword": "hurl",
+    "level": null,
+    "filename": "2923_hurl",
+    "id": "L",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "primitive_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "2922",
+        "character": "郑",
+        "keyword": "Zheng",
+        "level": null,
+        "filename": "2922_Zheng",
+        "id": "K",
+        "requirements": [
+          {
+            "number": "1469",
+            "character": "关",
+            "keyword": "shut",
+            "level": "Elementary",
+            "filename": "1469_shut",
+            "id": "H",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丷",
+                "keyword": "horns",
+                "level": null,
+                "filename": "primitive_horns",
+                "id": "D",
+                "requirements": [
+                  {
+                    "number": "1",
+                    "character": "一",
+                    "keyword": "one",
+                    "level": "Elementary",
+                    "filename": "1_one",
+                    "id": "C",
+                    "requirements": []
+                  }
+                ]
+              },
+              {
+                "number": "436",
+                "character": "天",
+                "keyword": "heavens",
+                "level": "Elementary",
+                "filename": "436_heavens",
+                "id": "G",
+                "requirements": [
+                  {
+                    "number": "1",
+                    "character": "一",
+                    "keyword": "one",
+                    "level": "Elementary",
+                    "filename": "1_one",
+                    "id": "E",
+                    "requirements": []
+                  },
+                  {
+                    "number": "113",
+                    "character": "大",
+                    "keyword": "large",
+                    "level": "Elementary",
+                    "filename": "113_large",
+                    "id": "F",
+                    "requirements": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "囧阝",
+            "keyword": "city walls",
+            "level": null,
+            "filename": "primitive_city_walls",
+            "id": "J",
+            "requirements": [
+              {
+                "number": null,
+                "character": "阝",
+                "keyword": "pinnacle",
+                "level": null,
+                "filename": "primitive_pinnacle",
+                "id": "I",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

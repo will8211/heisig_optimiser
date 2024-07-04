@@ -1,38 +1,41 @@
 {
-  "number": "1032",
-  "character": "与",
-  "keyword": "offer",
-  "level": "Medium",
-  "filename": "1032_offer",
-  "id": "E",
-  "requirements": [
-    {
-      "number": null,
-      "character": "囧与－丨一",
-      "keyword": "pointed tail",
-      "level": null,
-      "filename": "extra_pointed_tail",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "囧与－一",
-      "keyword": "slingshot",
-      "level": null,
-      "filename": "extra_slingshot",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "1013",
-          "character": "弓",
-          "keyword": "bow",
-          "level": null,
-          "filename": "1013_bow",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1111,
+  "hierarchy": {
+    "number": "1032",
+    "character": "与",
+    "keyword": "offer",
+    "level": "Medium",
+    "filename": "1032_offer",
+    "id": "E",
+    "requirements": [
+      {
+        "number": null,
+        "character": "囧与－丨一",
+        "keyword": "pointed tail",
+        "level": null,
+        "filename": "primitive_pointed_tail",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "囧与－一",
+        "keyword": "slingshot",
+        "level": null,
+        "filename": "primitive_slingshot",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "1013",
+            "character": "弓",
+            "keyword": "bow",
+            "level": null,
+            "filename": "1013_bow",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

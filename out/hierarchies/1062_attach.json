@@ -1,66 +1,69 @@
 {
-  "number": "1062",
-  "character": "附",
-  "keyword": "attach",
-  "level": "Advanced",
-  "filename": "1062_attach",
-  "id": "H",
-  "requirements": [
-    {
-      "number": null,
-      "character": "阝",
-      "keyword": "pinnacle",
-      "level": null,
-      "filename": "extra_pinnacle",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "825",
-      "character": "付",
-      "keyword": "pay",
-      "level": "Advanced",
-      "filename": "825_pay",
-      "id": "G",
-      "requirements": [
-        {
-          "number": "793",
-          "character": "人",
-          "keyword": "person",
-          "level": "Elementary",
-          "filename": "793_person",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "166",
-          "character": "寸",
-          "keyword": "Chinese inch",
-          "level": "Advanced",
-          "filename": "166_Chinese_inch",
-          "id": "F",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "filename": "extra_a_drop_of",
-              "id": "D",
-              "requirements": []
-            },
-            {
-              "number": "10",
-              "character": "十",
-              "keyword": "ten",
-              "level": "Elementary",
-              "filename": "10_ten",
-              "id": "E",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 1143,
+  "hierarchy": {
+    "number": "1062",
+    "character": "附",
+    "keyword": "attach",
+    "level": "Advanced",
+    "filename": "1062_attach",
+    "id": "H",
+    "requirements": [
+      {
+        "number": null,
+        "character": "阝",
+        "keyword": "pinnacle",
+        "level": null,
+        "filename": "primitive_pinnacle",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "825",
+        "character": "付",
+        "keyword": "pay",
+        "level": "Advanced",
+        "filename": "825_pay",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "793",
+            "character": "人",
+            "keyword": "person",
+            "level": "Elementary",
+            "filename": "793_person",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "166",
+            "character": "寸",
+            "keyword": "Chinese inch",
+            "level": "Advanced",
+            "filename": "166_Chinese_inch",
+            "id": "F",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "D",
+                "requirements": []
+              },
+              {
+                "number": "10",
+                "character": "十",
+                "keyword": "ten",
+                "level": "Elementary",
+                "filename": "10_ten",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

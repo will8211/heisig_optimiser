@@ -1,47 +1,50 @@
 {
-  "number": "1069",
-  "character": "降",
-  "keyword": "descend",
-  "level": null,
-  "filename": "1069_descend",
-  "id": "F",
-  "requirements": [
-    {
-      "number": null,
-      "character": "阝",
-      "keyword": "pinnacle",
-      "level": null,
-      "filename": "extra_pinnacle",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "夂",
-      "keyword": "walking legs",
-      "level": null,
-      "filename": "extra_walking_legs",
-      "id": "C",
-      "requirements": []
-    },
-    {
-      "number": "871",
-      "character": "年",
-      "keyword": "year",
-      "level": "Elementary",
-      "filename": "871_year",
-      "id": "E",
-      "requirements": [
-        {
-          "number": "542",
-          "character": "午",
-          "keyword": "noon",
-          "level": "Elementary",
-          "filename": "542_noon",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1150,
+  "hierarchy": {
+    "number": "1069",
+    "character": "降",
+    "keyword": "descend",
+    "level": null,
+    "filename": "1069_descend",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "阝",
+        "keyword": "pinnacle",
+        "level": null,
+        "filename": "primitive_pinnacle",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "夂",
+        "keyword": "walking legs",
+        "level": null,
+        "filename": "primitive_walking_legs",
+        "id": "C",
+        "requirements": []
+      },
+      {
+        "number": "871",
+        "character": "年",
+        "keyword": "year",
+        "level": "Elementary",
+        "filename": "871_year",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "542",
+            "character": "午",
+            "keyword": "noon",
+            "level": "Elementary",
+            "filename": "542_noon",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

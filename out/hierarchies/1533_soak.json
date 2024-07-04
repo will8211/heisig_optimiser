@@ -1,105 +1,108 @@
 {
-  "number": "1533",
-  "character": "沾",
-  "keyword": "soak",
-  "level": null,
-  "filename": "1533_soak",
-  "id": "L",
-  "requirements": [
-    {
-      "number": "137",
-      "character": "水",
-      "keyword": "water",
-      "level": "Elementary",
-      "filename": "137_water",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丨",
-          "keyword": "walking stick",
-          "level": null,
-          "filename": "extra_walking_stick",
-          "id": "C",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "44",
-      "character": "占",
-      "keyword": "tell fortunes",
-      "level": "Medium",
-      "filename": "44_tell_fortunes",
-      "id": "K",
-      "requirements": [
-        {
-          "number": "43",
-          "character": "卜",
-          "keyword": "divination",
-          "level": null,
-          "filename": "43_divination",
-          "id": "I",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丨",
-              "keyword": "walking stick",
-              "level": null,
-              "filename": "extra_walking_stick",
-              "id": "G",
-              "requirements": [
-                {
-                  "number": "1",
-                  "character": "一",
-                  "keyword": "one",
-                  "level": "Elementary",
-                  "filename": "1_one",
-                  "id": "F",
-                  "requirements": []
-                }
-              ]
-            },
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "filename": "extra_a_drop_of",
-              "id": "H",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "filename": "11_mouth",
-          "id": "J",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1673,
+  "hierarchy": {
+    "number": "1533",
+    "character": "沾",
+    "keyword": "soak",
+    "level": null,
+    "filename": "1533_soak",
+    "id": "L",
+    "requirements": [
+      {
+        "number": "137",
+        "character": "水",
+        "keyword": "water",
+        "level": "Elementary",
+        "filename": "137_water",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丨",
+            "keyword": "walking stick",
+            "level": null,
+            "filename": "primitive_walking_stick",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "44",
+        "character": "占",
+        "keyword": "tell fortunes",
+        "level": "Medium",
+        "filename": "44_tell_fortunes",
+        "id": "K",
+        "requirements": [
+          {
+            "number": "43",
+            "character": "卜",
+            "keyword": "divination",
+            "level": null,
+            "filename": "43_divination",
+            "id": "I",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丨",
+                "keyword": "walking stick",
+                "level": null,
+                "filename": "primitive_walking_stick",
+                "id": "G",
+                "requirements": [
+                  {
+                    "number": "1",
+                    "character": "一",
+                    "keyword": "one",
+                    "level": "Elementary",
+                    "filename": "1_one",
+                    "id": "F",
+                    "requirements": []
+                  }
+                ]
+              },
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "H",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "J",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

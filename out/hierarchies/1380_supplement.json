@@ -1,56 +1,59 @@
 {
-  "number": "1380",
-  "character": "辅",
-  "keyword": "supplement",
-  "level": "Advanced",
-  "filename": "1380_supplement",
-  "id": "G",
-  "requirements": [
-    {
-      "number": "300",
-      "character": "车",
-      "keyword": "car",
-      "level": "Elementary",
-      "filename": "300_car",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1379",
-      "character": "甫",
-      "keyword": "Fu",
-      "level": null,
-      "filename": "1379_Fu",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "10",
-          "character": "十",
-          "keyword": "ten",
-          "level": "Elementary",
-          "filename": "10_ten",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "13",
-          "character": "月",
-          "keyword": "month",
-          "level": "Elementary",
-          "filename": "13_month",
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1502,
+  "hierarchy": {
+    "number": "1380",
+    "character": "辅",
+    "keyword": "supplement",
+    "level": "Advanced",
+    "filename": "1380_supplement",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "300",
+        "character": "车",
+        "keyword": "car",
+        "level": "Elementary",
+        "filename": "300_car",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1379",
+        "character": "甫",
+        "keyword": "Fu",
+        "level": null,
+        "filename": "1379_Fu",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "10",
+            "character": "十",
+            "keyword": "ten",
+            "level": "Elementary",
+            "filename": "10_ten",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "13",
+            "character": "月",
+            "keyword": "month",
+            "level": "Elementary",
+            "filename": "13_month",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

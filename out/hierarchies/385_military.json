@@ -1,37 +1,40 @@
 {
-  "number": "385",
-  "character": "武",
-  "keyword": "military",
-  "level": "Advanced",
-  "filename": "385_military",
-  "id": "E",
-  "requirements": [
-    {
-      "number": "1",
-      "character": "一",
-      "keyword": "one",
-      "level": "Elementary",
-      "filename": "1_one",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "弋",
-      "keyword": "arrow",
-      "level": null,
-      "filename": "extra_arrow",
-      "id": "C",
-      "requirements": []
-    },
-    {
-      "number": "379",
-      "character": "止",
-      "keyword": "stop",
-      "level": "Medium",
-      "filename": "379_stop",
-      "id": "D",
-      "requirements": []
-    }
-  ]
+  "order": 416,
+  "hierarchy": {
+    "number": "385",
+    "character": "武",
+    "keyword": "military",
+    "level": "Advanced",
+    "filename": "385_military",
+    "id": "E",
+    "requirements": [
+      {
+        "number": "1",
+        "character": "一",
+        "keyword": "one",
+        "level": "Elementary",
+        "filename": "1_one",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "弋",
+        "keyword": "arrow",
+        "level": null,
+        "filename": "primitive_arrow",
+        "id": "C",
+        "requirements": []
+      },
+      {
+        "number": "379",
+        "character": "止",
+        "keyword": "stop",
+        "level": "Medium",
+        "filename": "379_stop",
+        "id": "D",
+        "requirements": []
+      }
+    ]
+  }
 }

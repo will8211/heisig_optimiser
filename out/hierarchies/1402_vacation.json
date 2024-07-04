@@ -1,65 +1,68 @@
 {
-  "number": "1402",
-  "character": "假",
-  "keyword": "vacation",
-  "level": "Elementary",
-  "filename": "1402_vacation",
-  "id": "H",
-  "requirements": [
-    {
-      "number": "793",
-      "character": "人",
-      "keyword": "person",
-      "level": "Elementary",
-      "filename": "793_person",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "叚",
-      "keyword": "braces",
-      "level": null,
-      "filename": "extra_braces",
-      "id": "G",
-      "requirements": [
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "filename": "11_mouth",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "囧印－卩",
-          "keyword": "staples",
-          "level": null,
-          "filename": "extra_staples",
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "匚",
-          "keyword": "box",
-          "level": null,
-          "filename": "extra_box",
-          "id": "E",
-          "requirements": []
-        },
-        {
-          "number": "633",
-          "character": "又",
-          "keyword": "again",
-          "level": "Elementary",
-          "filename": "633_again",
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1529,
+  "hierarchy": {
+    "number": "1402",
+    "character": "假",
+    "keyword": "vacation",
+    "level": "Elementary",
+    "filename": "1402_vacation",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "793",
+        "character": "人",
+        "keyword": "person",
+        "level": "Elementary",
+        "filename": "793_person",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "叚",
+        "keyword": "braces",
+        "level": null,
+        "filename": "primitive_braces",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "囧印－卩",
+            "keyword": "staples",
+            "level": null,
+            "filename": "primitive_staples",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "匚",
+            "keyword": "box",
+            "level": null,
+            "filename": "primitive_box",
+            "id": "E",
+            "requirements": []
+          },
+          {
+            "number": "633",
+            "character": "又",
+            "keyword": "again",
+            "level": "Elementary",
+            "filename": "633_again",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

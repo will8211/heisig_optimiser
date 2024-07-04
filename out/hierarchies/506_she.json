@@ -1,38 +1,41 @@
 {
-  "number": "506",
-  "character": "她",
-  "keyword": "she",
-  "level": "Elementary",
-  "filename": "506_she",
-  "id": "E",
-  "requirements": [
-    {
-      "number": "102",
-      "character": "女",
-      "keyword": "woman",
-      "level": "Elementary",
-      "filename": "102_woman",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "505",
-      "character": "也",
-      "keyword": "also",
-      "level": "Elementary",
-      "filename": "505_also",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "95",
-          "character": "乙",
-          "keyword": "second",
-          "level": "Medium",
-          "filename": "95_second",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 550,
+  "hierarchy": {
+    "number": "506",
+    "character": "她",
+    "keyword": "she",
+    "level": "Elementary",
+    "filename": "506_she",
+    "id": "E",
+    "requirements": [
+      {
+        "number": "102",
+        "character": "女",
+        "keyword": "woman",
+        "level": "Elementary",
+        "filename": "102_woman",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "505",
+        "character": "也",
+        "keyword": "also",
+        "level": "Elementary",
+        "filename": "505_also",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "95",
+            "character": "乙",
+            "keyword": "second",
+            "level": "Medium",
+            "filename": "95_second",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

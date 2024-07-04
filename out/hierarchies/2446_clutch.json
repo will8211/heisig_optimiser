@@ -1,37 +1,40 @@
 {
-  "number": "2446",
-  "character": "扼",
-  "keyword": "clutch",
-  "level": null,
-  "filename": "2446_clutch",
-  "id": "E",
-  "requirements": [
-    {
-      "number": null,
-      "character": "扌",
-      "keyword": "fingers",
-      "level": null,
-      "filename": "extra_fingers",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "121",
-      "character": "厂",
-      "keyword": "factory",
-      "level": "Medium",
-      "filename": "121_factory",
-      "id": "C",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "㔾",
-      "keyword": "fingerprint",
-      "level": null,
-      "filename": "extra_fingerprint",
-      "id": "D",
-      "requirements": []
-    }
-  ]
+  "order": 2625,
+  "hierarchy": {
+    "number": "2446",
+    "character": "扼",
+    "keyword": "clutch",
+    "level": null,
+    "filename": "2446_clutch",
+    "id": "E",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "primitive_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "121",
+        "character": "厂",
+        "keyword": "factory",
+        "level": "Medium",
+        "filename": "121_factory",
+        "id": "C",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "㔾",
+        "keyword": "fingerprint",
+        "level": null,
+        "filename": "primitive_fingerprint",
+        "id": "D",
+        "requirements": []
+      }
+    ]
+  }
 }

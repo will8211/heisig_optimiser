@@ -1,86 +1,89 @@
 {
-  "number": "857",
-  "character": "实",
-  "keyword": "reality",
-  "level": "Medium",
-  "filename": "857_reality",
-  "id": "J",
-  "requirements": [
-    {
-      "number": null,
-      "character": "宀",
-      "keyword": "house",
-      "level": null,
-      "filename": "extra_house",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "856",
-      "character": "头",
-      "keyword": "head",
-      "level": "Medium",
-      "filename": "856_head",
-      "id": "I",
-      "requirements": [
-        {
-          "number": "113",
-          "character": "大",
-          "keyword": "large",
-          "level": "Elementary",
-          "filename": "113_large",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "冫",
-          "keyword": "ice",
-          "level": null,
-          "filename": "extra_ice",
-          "id": "H",
-          "requirements": [
-            {
-              "number": "137",
-              "character": "水",
-              "keyword": "water",
-              "level": "Elementary",
-              "filename": "137_water",
-              "id": "G",
-              "requirements": [
-                {
-                  "number": null,
-                  "character": "丨",
-                  "keyword": "walking stick",
-                  "level": null,
-                  "filename": "extra_walking_stick",
-                  "id": "E",
-                  "requirements": [
-                    {
-                      "number": "1",
-                      "character": "一",
-                      "keyword": "one",
-                      "level": "Elementary",
-                      "filename": "1_one",
-                      "id": "D",
-                      "requirements": []
-                    }
-                  ]
-                },
-                {
-                  "number": null,
-                  "character": "丶",
-                  "keyword": "a drop of",
-                  "level": null,
-                  "filename": "extra_a_drop_of",
-                  "id": "F",
-                  "requirements": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 921,
+  "hierarchy": {
+    "number": "857",
+    "character": "实",
+    "keyword": "reality",
+    "level": "Medium",
+    "filename": "857_reality",
+    "id": "J",
+    "requirements": [
+      {
+        "number": null,
+        "character": "宀",
+        "keyword": "house",
+        "level": null,
+        "filename": "primitive_house",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "856",
+        "character": "头",
+        "keyword": "head",
+        "level": "Medium",
+        "filename": "856_head",
+        "id": "I",
+        "requirements": [
+          {
+            "number": "113",
+            "character": "大",
+            "keyword": "large",
+            "level": "Elementary",
+            "filename": "113_large",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "冫",
+            "keyword": "ice",
+            "level": null,
+            "filename": "primitive_ice",
+            "id": "H",
+            "requirements": [
+              {
+                "number": "137",
+                "character": "水",
+                "keyword": "water",
+                "level": "Elementary",
+                "filename": "137_water",
+                "id": "G",
+                "requirements": [
+                  {
+                    "number": null,
+                    "character": "丨",
+                    "keyword": "walking stick",
+                    "level": null,
+                    "filename": "primitive_walking_stick",
+                    "id": "E",
+                    "requirements": [
+                      {
+                        "number": "1",
+                        "character": "一",
+                        "keyword": "one",
+                        "level": "Elementary",
+                        "filename": "1_one",
+                        "id": "D",
+                        "requirements": []
+                      }
+                    ]
+                  },
+                  {
+                    "number": null,
+                    "character": "丶",
+                    "keyword": "a drop of",
+                    "level": null,
+                    "filename": "primitive_a_drop_of",
+                    "id": "F",
+                    "requirements": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

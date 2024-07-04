@@ -1,47 +1,50 @@
 {
-  "number": "1859",
-  "character": "拖",
-  "keyword": "drag",
-  "level": null,
-  "filename": "1859_drag",
-  "id": "F",
-  "requirements": [
-    {
-      "number": null,
-      "character": "扌",
-      "keyword": "fingers",
-      "level": null,
-      "filename": "extra_fingers",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "𠂉",
-      "keyword": "reclining",
-      "level": null,
-      "filename": "extra_reclining",
-      "id": "C",
-      "requirements": []
-    },
-    {
-      "number": "505",
-      "character": "也",
-      "keyword": "also",
-      "level": "Elementary",
-      "filename": "505_also",
-      "id": "E",
-      "requirements": [
-        {
-          "number": "95",
-          "character": "乙",
-          "keyword": "second",
-          "level": "Medium",
-          "filename": "95_second",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2010,
+  "hierarchy": {
+    "number": "1859",
+    "character": "拖",
+    "keyword": "drag",
+    "level": null,
+    "filename": "1859_drag",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "primitive_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "𠂉",
+        "keyword": "reclining",
+        "level": null,
+        "filename": "primitive_reclining",
+        "id": "C",
+        "requirements": []
+      },
+      {
+        "number": "505",
+        "character": "也",
+        "keyword": "also",
+        "level": "Elementary",
+        "filename": "505_also",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "95",
+            "character": "乙",
+            "keyword": "second",
+            "level": "Medium",
+            "filename": "95_second",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

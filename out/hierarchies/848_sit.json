@@ -1,38 +1,41 @@
 {
-  "number": "848",
-  "character": "坐",
-  "keyword": "sit",
-  "level": "Elementary",
-  "filename": "848_sit",
-  "id": "E",
-  "requirements": [
-    {
-      "number": "846",
-      "character": "从",
-      "keyword": "follow",
-      "level": "Elementary",
-      "filename": "846_follow",
-      "id": "C",
-      "requirements": [
-        {
-          "number": "793",
-          "character": "人",
-          "keyword": "person",
-          "level": "Elementary",
-          "filename": "793_person",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "158",
-      "character": "土",
-      "keyword": "soil",
-      "level": "Medium",
-      "filename": "158_soil",
-      "id": "D",
-      "requirements": []
-    }
-  ]
+  "order": 910,
+  "hierarchy": {
+    "number": "848",
+    "character": "坐",
+    "keyword": "sit",
+    "level": "Elementary",
+    "filename": "848_sit",
+    "id": "E",
+    "requirements": [
+      {
+        "number": "846",
+        "character": "从",
+        "keyword": "follow",
+        "level": "Elementary",
+        "filename": "846_follow",
+        "id": "C",
+        "requirements": [
+          {
+            "number": "793",
+            "character": "人",
+            "keyword": "person",
+            "level": "Elementary",
+            "filename": "793_person",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "158",
+        "character": "土",
+        "keyword": "soil",
+        "level": "Medium",
+        "filename": "158_soil",
+        "id": "D",
+        "requirements": []
+      }
+    ]
+  }
 }

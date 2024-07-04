@@ -1,58 +1,61 @@
 {
-  "number": "1868",
-  "character": "戒",
-  "keyword": "take precautions against",
-  "level": null,
-  "filename": "1868_take_precautions_against",
-  "id": "G",
-  "requirements": [
-    {
-      "number": "613",
-      "character": "开",
-      "keyword": "open",
-      "level": "Elementary",
-      "filename": "613_open",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "2",
-          "character": "二",
-          "keyword": "two",
-          "level": "Elementary",
-          "filename": "2_two",
-          "id": "C",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": "361",
-      "character": "戈",
-      "keyword": "halberd",
-      "level": null,
-      "filename": "361_halberd",
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "弋",
-          "keyword": "arrow",
-          "level": null,
-          "filename": "extra_arrow",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2020,
+  "hierarchy": {
+    "number": "1868",
+    "character": "戒",
+    "keyword": "take precautions against",
+    "level": null,
+    "filename": "1868_take_precautions_against",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "613",
+        "character": "开",
+        "keyword": "open",
+        "level": "Elementary",
+        "filename": "613_open",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "2",
+            "character": "二",
+            "keyword": "two",
+            "level": "Elementary",
+            "filename": "2_two",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": "361",
+        "character": "戈",
+        "keyword": "halberd",
+        "level": null,
+        "filename": "361_halberd",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "弋",
+            "keyword": "arrow",
+            "level": null,
+            "filename": "primitive_arrow",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

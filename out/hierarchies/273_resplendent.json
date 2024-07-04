@@ -1,76 +1,79 @@
 {
-  "number": "273",
-  "character": "煌",
-  "keyword": "resplendent",
-  "level": null,
-  "filename": "273_resplendent",
-  "id": "I",
-  "requirements": [
-    {
-      "number": "170",
-      "character": "火",
-      "keyword": "fire",
-      "level": "Elementary",
-      "filename": "170_fire",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "272",
-      "character": "皇",
-      "keyword": "emperor",
-      "level": "Advanced",
-      "filename": "272_emperor",
-      "id": "H",
-      "requirements": [
-        {
-          "number": "265",
-          "character": "王",
-          "keyword": "king",
-          "level": "Medium",
-          "filename": "265_king",
-          "id": "D",
-          "requirements": [
-            {
-              "number": "76",
-              "character": "工",
-              "keyword": "work",
-              "level": "Elementary",
-              "filename": "76_work",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "34",
-          "character": "白",
-          "keyword": "white",
-          "level": "Elementary",
-          "filename": "34_white",
-          "id": "G",
-          "requirements": [
-            {
-              "number": "12",
-              "character": "日",
-              "keyword": "day",
-              "level": "Elementary",
-              "filename": "12_day",
-              "id": "E",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "filename": "extra_a_drop_of",
-              "id": "F",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 289,
+  "hierarchy": {
+    "number": "273",
+    "character": "煌",
+    "keyword": "resplendent",
+    "level": null,
+    "filename": "273_resplendent",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "170",
+        "character": "火",
+        "keyword": "fire",
+        "level": "Elementary",
+        "filename": "170_fire",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "272",
+        "character": "皇",
+        "keyword": "emperor",
+        "level": "Advanced",
+        "filename": "272_emperor",
+        "id": "H",
+        "requirements": [
+          {
+            "number": "265",
+            "character": "王",
+            "keyword": "king",
+            "level": "Medium",
+            "filename": "265_king",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "76",
+                "character": "工",
+                "keyword": "work",
+                "level": "Elementary",
+                "filename": "76_work",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "34",
+            "character": "白",
+            "keyword": "white",
+            "level": "Elementary",
+            "filename": "34_white",
+            "id": "G",
+            "requirements": [
+              {
+                "number": "12",
+                "character": "日",
+                "keyword": "day",
+                "level": "Elementary",
+                "filename": "12_day",
+                "id": "E",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "F",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

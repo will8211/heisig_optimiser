@@ -1,47 +1,50 @@
 {
-  "number": "1692",
-  "character": "尝",
-  "keyword": "taste",
-  "level": "Advanced",
-  "filename": "1692_taste",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "109",
-      "character": "小",
-      "keyword": "small",
-      "level": "Elementary",
-      "filename": "109_small",
-      "id": "C",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "冖",
-      "keyword": "crown",
-      "level": null,
-      "filename": "extra_crown",
-      "id": "D",
-      "requirements": []
-    },
-    {
-      "number": "428",
-      "character": "云",
-      "keyword": "cloud",
-      "level": "Medium",
-      "filename": "428_cloud",
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 1837,
+  "hierarchy": {
+    "number": "1692",
+    "character": "尝",
+    "keyword": "taste",
+    "level": "Advanced",
+    "filename": "1692_taste",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "109",
+        "character": "小",
+        "keyword": "small",
+        "level": "Elementary",
+        "filename": "109_small",
+        "id": "C",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "冖",
+        "keyword": "crown",
+        "level": null,
+        "filename": "primitive_crown",
+        "id": "D",
+        "requirements": []
+      },
+      {
+        "number": "428",
+        "character": "云",
+        "keyword": "cloud",
+        "level": "Medium",
+        "filename": "428_cloud",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

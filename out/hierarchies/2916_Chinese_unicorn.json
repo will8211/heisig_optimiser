@@ -1,143 +1,146 @@
 {
-  "number": "2916",
-  "character": "麟",
-  "keyword": "Chinese unicorn",
-  "level": null,
-  "filename": "2916_Chinese_unicorn",
-  "id": "P",
-  "requirements": [
-    {
-      "number": "1462",
-      "character": "鹿",
-      "keyword": "deer",
-      "level": null,
-      "filename": "1462_deer",
-      "id": "H",
-      "requirements": [
-        {
-          "number": "556",
-          "character": "广",
-          "keyword": "extensive",
-          "level": "Medium",
-          "filename": "556_extensive",
-          "id": "D",
-          "requirements": [
-            {
-              "number": "121",
-              "character": "厂",
-              "keyword": "factory",
-              "level": "Medium",
-              "filename": "121_factory",
-              "id": "B",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "宀",
-              "keyword": "house",
-              "level": null,
-              "filename": "extra_house",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "456",
-          "character": "比",
-          "keyword": "compare",
-          "level": "Elementary",
-          "filename": "456_compare",
-          "id": "F",
-          "requirements": [
-            {
-              "number": "453",
-              "character": "匕",
-              "keyword": "ancient spoon",
-              "level": null,
-              "filename": "453_ancient_spoon",
-              "id": "E",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "囧侯－亻－矢",
-          "keyword": "key",
-          "level": null,
-          "filename": "extra_key",
-          "id": "G",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "粦",
-      "keyword": "jack-o’-lantern",
-      "level": null,
-      "filename": "extra_jack-o’-lantern",
-      "id": "O",
-      "requirements": [
-        {
-          "number": "778",
-          "character": "米",
-          "keyword": "rice",
-          "level": "Medium",
-          "filename": "778_rice",
-          "id": "I",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "舛",
-          "keyword": "sunglasses",
-          "level": null,
-          "filename": "extra_sunglasses",
-          "id": "N",
-          "requirements": [
-            {
-              "number": "115",
-              "character": "夕",
-              "keyword": "evening",
-              "level": "Advanced",
-              "filename": "115_evening",
-              "id": "K",
-              "requirements": [
-                {
-                  "number": "13",
-                  "character": "月",
-                  "keyword": "month",
-                  "level": "Elementary",
-                  "filename": "13_month",
-                  "id": "J",
-                  "requirements": []
-                }
-              ]
-            },
-            {
-              "number": "871",
-              "character": "年",
-              "keyword": "year",
-              "level": "Elementary",
-              "filename": "871_year",
-              "id": "M",
-              "requirements": [
-                {
-                  "number": "542",
-                  "character": "午",
-                  "keyword": "noon",
-                  "level": "Elementary",
-                  "filename": "542_noon",
-                  "id": "L",
-                  "requirements": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 3115,
+  "hierarchy": {
+    "number": "2916",
+    "character": "麟",
+    "keyword": "Chinese unicorn",
+    "level": null,
+    "filename": "2916_Chinese_unicorn",
+    "id": "P",
+    "requirements": [
+      {
+        "number": "1462",
+        "character": "鹿",
+        "keyword": "deer",
+        "level": null,
+        "filename": "1462_deer",
+        "id": "H",
+        "requirements": [
+          {
+            "number": "556",
+            "character": "广",
+            "keyword": "extensive",
+            "level": "Medium",
+            "filename": "556_extensive",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "121",
+                "character": "厂",
+                "keyword": "factory",
+                "level": "Medium",
+                "filename": "121_factory",
+                "id": "B",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "宀",
+                "keyword": "house",
+                "level": null,
+                "filename": "primitive_house",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "456",
+            "character": "比",
+            "keyword": "compare",
+            "level": "Elementary",
+            "filename": "456_compare",
+            "id": "F",
+            "requirements": [
+              {
+                "number": "453",
+                "character": "匕",
+                "keyword": "ancient spoon",
+                "level": null,
+                "filename": "453_ancient_spoon",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "囧侯－亻－矢",
+            "keyword": "key",
+            "level": null,
+            "filename": "primitive_key",
+            "id": "G",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "粦",
+        "keyword": "jack-o’-lantern",
+        "level": null,
+        "filename": "primitive_jack-o’-lantern",
+        "id": "O",
+        "requirements": [
+          {
+            "number": "778",
+            "character": "米",
+            "keyword": "rice",
+            "level": "Medium",
+            "filename": "778_rice",
+            "id": "I",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "舛",
+            "keyword": "sunglasses",
+            "level": null,
+            "filename": "primitive_sunglasses",
+            "id": "N",
+            "requirements": [
+              {
+                "number": "115",
+                "character": "夕",
+                "keyword": "evening",
+                "level": "Advanced",
+                "filename": "115_evening",
+                "id": "K",
+                "requirements": [
+                  {
+                    "number": "13",
+                    "character": "月",
+                    "keyword": "month",
+                    "level": "Elementary",
+                    "filename": "13_month",
+                    "id": "J",
+                    "requirements": []
+                  }
+                ]
+              },
+              {
+                "number": "871",
+                "character": "年",
+                "keyword": "year",
+                "level": "Elementary",
+                "filename": "871_year",
+                "id": "M",
+                "requirements": [
+                  {
+                    "number": "542",
+                    "character": "午",
+                    "keyword": "noon",
+                    "level": "Elementary",
+                    "filename": "542_noon",
+                    "id": "L",
+                    "requirements": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

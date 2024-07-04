@@ -1,47 +1,50 @@
 {
-  "number": "1060",
-  "character": "荫",
-  "keyword": "shady",
-  "level": null,
-  "filename": "1060_shady",
-  "id": "F",
-  "requirements": [
-    {
-      "number": null,
-      "character": "艹",
-      "keyword": "flower",
-      "level": null,
-      "filename": "extra_flower",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1059",
-      "character": "阴",
-      "keyword": "Yin",
-      "level": "Advanced",
-      "filename": "1059_Yin",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "阝",
-          "keyword": "pinnacle",
-          "level": null,
-          "filename": "extra_pinnacle",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "13",
-          "character": "月",
-          "keyword": "month",
-          "level": "Elementary",
-          "filename": "13_month",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1141,
+  "hierarchy": {
+    "number": "1060",
+    "character": "荫",
+    "keyword": "shady",
+    "level": null,
+    "filename": "1060_shady",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "艹",
+        "keyword": "flower",
+        "level": null,
+        "filename": "primitive_flower",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1059",
+        "character": "阴",
+        "keyword": "Yin",
+        "level": "Advanced",
+        "filename": "1059_Yin",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "阝",
+            "keyword": "pinnacle",
+            "level": null,
+            "filename": "primitive_pinnacle",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "13",
+            "character": "月",
+            "keyword": "month",
+            "level": "Elementary",
+            "filename": "13_month",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

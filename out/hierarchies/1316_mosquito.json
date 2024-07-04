@@ -1,47 +1,50 @@
 {
-  "number": "1316",
-  "character": "蚊",
-  "keyword": "mosquito",
-  "level": null,
-  "filename": "1316_mosquito",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "509",
-      "character": "虫",
-      "keyword": "insect",
-      "level": "Medium",
-      "filename": "509_insect",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1315",
-      "character": "文",
-      "keyword": "literature",
-      "level": "Elementary",
-      "filename": "1315_literature",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "亠",
-          "keyword": "top hat",
-          "level": null,
-          "filename": "extra_top_hat",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "㐅",
-          "keyword": "sheaf",
-          "level": null,
-          "filename": "extra_sheaf",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1432,
+  "hierarchy": {
+    "number": "1316",
+    "character": "蚊",
+    "keyword": "mosquito",
+    "level": null,
+    "filename": "1316_mosquito",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "509",
+        "character": "虫",
+        "keyword": "insect",
+        "level": "Medium",
+        "filename": "509_insect",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1315",
+        "character": "文",
+        "keyword": "literature",
+        "level": "Elementary",
+        "filename": "1315_literature",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "亠",
+            "keyword": "top hat",
+            "level": null,
+            "filename": "primitive_top_hat",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "㐅",
+            "keyword": "sheaf",
+            "level": null,
+            "filename": "primitive_sheaf",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

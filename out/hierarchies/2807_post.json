@@ -1,48 +1,51 @@
 {
-  "number": "2807",
-  "character": "邮",
-  "keyword": "post",
-  "level": "Advanced",
-  "filename": "2807_post",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "913",
-      "character": "由",
-      "keyword": "wherefore",
-      "level": "Medium",
-      "filename": "913_wherefore",
-      "id": "C",
-      "requirements": [
-        {
-          "number": "14",
-          "character": "田",
-          "keyword": "rice field",
-          "level": "Medium",
-          "filename": "14_rice_field",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "囧阝",
-      "keyword": "city walls",
-      "level": null,
-      "filename": "extra_city_walls",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "阝",
-          "keyword": "pinnacle",
-          "level": null,
-          "filename": "extra_pinnacle",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 3001,
+  "hierarchy": {
+    "number": "2807",
+    "character": "邮",
+    "keyword": "post",
+    "level": "Advanced",
+    "filename": "2807_post",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "913",
+        "character": "由",
+        "keyword": "wherefore",
+        "level": "Medium",
+        "filename": "913_wherefore",
+        "id": "C",
+        "requirements": [
+          {
+            "number": "14",
+            "character": "田",
+            "keyword": "rice field",
+            "level": "Medium",
+            "filename": "14_rice_field",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "囧阝",
+        "keyword": "city walls",
+        "level": null,
+        "filename": "primitive_city_walls",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "阝",
+            "keyword": "pinnacle",
+            "level": null,
+            "filename": "primitive_pinnacle",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

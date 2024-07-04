@@ -1,123 +1,126 @@
 {
-  "number": "2930",
-  "character": "魁",
-  "keyword": "leader",
-  "level": null,
-  "filename": "2930_leader",
-  "id": "N",
-  "requirements": [
-    {
-      "number": "1472",
-      "character": "鬼",
-      "keyword": "ghost",
-      "level": "Advanced",
-      "filename": "1472_ghost",
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "14",
-          "character": "田",
-          "keyword": "rice field",
-          "level": "Medium",
-          "filename": "14_rice_field",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "56",
-          "character": "儿",
-          "keyword": "youngster",
-          "level": "Elementary",
-          "filename": "56_youngster",
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "厶",
-          "keyword": "elbow",
-          "level": null,
-          "filename": "extra_elbow",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "968",
-      "character": "斗",
-      "keyword": "Big Dipper",
-      "level": "Advanced",
-      "filename": "968_Big_Dipper",
-      "id": "M",
-      "requirements": [
-        {
-          "number": null,
-          "character": "冫",
-          "keyword": "ice",
-          "level": null,
-          "filename": "extra_ice",
-          "id": "K",
-          "requirements": [
-            {
-              "number": "137",
-              "character": "水",
-              "keyword": "water",
-              "level": "Elementary",
-              "filename": "137_water",
-              "id": "J",
-              "requirements": [
-                {
-                  "number": null,
-                  "character": "丨",
-                  "keyword": "walking stick",
-                  "level": null,
-                  "filename": "extra_walking_stick",
-                  "id": "H",
-                  "requirements": [
-                    {
-                      "number": "1",
-                      "character": "一",
-                      "keyword": "one",
-                      "level": "Elementary",
-                      "filename": "1_one",
-                      "id": "G",
-                      "requirements": []
-                    }
-                  ]
-                },
-                {
-                  "number": null,
-                  "character": "丶",
-                  "keyword": "a drop of",
-                  "level": null,
-                  "filename": "extra_a_drop_of",
-                  "id": "I",
-                  "requirements": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "number": "10",
-          "character": "十",
-          "keyword": "ten",
-          "level": "Elementary",
-          "filename": "10_ten",
-          "id": "L",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 3129,
+  "hierarchy": {
+    "number": "2930",
+    "character": "魁",
+    "keyword": "leader",
+    "level": null,
+    "filename": "2930_leader",
+    "id": "N",
+    "requirements": [
+      {
+        "number": "1472",
+        "character": "鬼",
+        "keyword": "ghost",
+        "level": "Advanced",
+        "filename": "1472_ghost",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "14",
+            "character": "田",
+            "keyword": "rice field",
+            "level": "Medium",
+            "filename": "14_rice_field",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "56",
+            "character": "儿",
+            "keyword": "youngster",
+            "level": "Elementary",
+            "filename": "56_youngster",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "厶",
+            "keyword": "elbow",
+            "level": null,
+            "filename": "primitive_elbow",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "968",
+        "character": "斗",
+        "keyword": "Big Dipper",
+        "level": "Advanced",
+        "filename": "968_Big_Dipper",
+        "id": "M",
+        "requirements": [
+          {
+            "number": null,
+            "character": "冫",
+            "keyword": "ice",
+            "level": null,
+            "filename": "primitive_ice",
+            "id": "K",
+            "requirements": [
+              {
+                "number": "137",
+                "character": "水",
+                "keyword": "water",
+                "level": "Elementary",
+                "filename": "137_water",
+                "id": "J",
+                "requirements": [
+                  {
+                    "number": null,
+                    "character": "丨",
+                    "keyword": "walking stick",
+                    "level": null,
+                    "filename": "primitive_walking_stick",
+                    "id": "H",
+                    "requirements": [
+                      {
+                        "number": "1",
+                        "character": "一",
+                        "keyword": "one",
+                        "level": "Elementary",
+                        "filename": "1_one",
+                        "id": "G",
+                        "requirements": []
+                      }
+                    ]
+                  },
+                  {
+                    "number": null,
+                    "character": "丶",
+                    "keyword": "a drop of",
+                    "level": null,
+                    "filename": "primitive_a_drop_of",
+                    "id": "I",
+                    "requirements": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "number": "10",
+            "character": "十",
+            "keyword": "ten",
+            "level": "Elementary",
+            "filename": "10_ten",
+            "id": "L",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

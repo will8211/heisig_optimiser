@@ -1,47 +1,50 @@
 {
-  "number": "1221",
-  "character": "性",
-  "keyword": "sex",
-  "level": "Advanced",
-  "filename": "1221_sex",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "563",
-      "character": "心",
-      "keyword": "heart",
-      "level": "Medium",
-      "filename": "563_heart",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1218",
-      "character": "生",
-      "keyword": "life",
-      "level": "Elementary",
-      "filename": "1218_life",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "囧毒－母",
-          "keyword": "grow up",
-          "level": null,
-          "filename": "extra_grow_up",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1325,
+  "hierarchy": {
+    "number": "1221",
+    "character": "性",
+    "keyword": "sex",
+    "level": "Advanced",
+    "filename": "1221_sex",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "563",
+        "character": "心",
+        "keyword": "heart",
+        "level": "Medium",
+        "filename": "563_heart",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1218",
+        "character": "生",
+        "keyword": "life",
+        "level": "Elementary",
+        "filename": "1218_life",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "囧毒－母",
+            "keyword": "grow up",
+            "level": null,
+            "filename": "primitive_grow_up",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,58 +1,61 @@
 {
-  "number": "863",
-  "character": "并",
-  "keyword": "combine",
-  "level": "Advanced",
-  "filename": "863_combine",
-  "id": "G",
-  "requirements": [
-    {
-      "number": null,
-      "character": "丷",
-      "keyword": "horns",
-      "level": null,
-      "filename": "extra_horns",
-      "id": "C",
-      "requirements": [
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "filename": "1_one",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "613",
-      "character": "开",
-      "keyword": "open",
-      "level": "Elementary",
-      "filename": "613_open",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "2",
-          "character": "二",
-          "keyword": "two",
-          "level": "Elementary",
-          "filename": "2_two",
-          "id": "E",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 929,
+  "hierarchy": {
+    "number": "863",
+    "character": "并",
+    "keyword": "combine",
+    "level": "Advanced",
+    "filename": "863_combine",
+    "id": "G",
+    "requirements": [
+      {
+        "number": null,
+        "character": "丷",
+        "keyword": "horns",
+        "level": null,
+        "filename": "primitive_horns",
+        "id": "C",
+        "requirements": [
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "613",
+        "character": "开",
+        "keyword": "open",
+        "level": "Elementary",
+        "filename": "613_open",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "2",
+            "character": "二",
+            "keyword": "two",
+            "level": "Elementary",
+            "filename": "2_two",
+            "id": "E",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

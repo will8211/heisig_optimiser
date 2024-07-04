@@ -1,76 +1,79 @@
 {
-  "number": "1030",
-  "character": "考",
-  "keyword": "take an exam",
-  "level": "Elementary",
-  "filename": "1030_take_an_exam",
-  "id": "I",
-  "requirements": [
-    {
-      "number": "1029",
-      "character": "老",
-      "keyword": "old man",
-      "level": "Elementary",
-      "filename": "1029_old_man",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "158",
-          "character": "土",
-          "keyword": "soil",
-          "level": "Medium",
-          "filename": "158_soil",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "丨",
-          "keyword": "walking stick",
-          "level": null,
-          "filename": "extra_walking_stick",
-          "id": "D",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "453",
-          "character": "匕",
-          "keyword": "ancient spoon",
-          "level": null,
-          "filename": "453_ancient_spoon",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "囧与－一",
-      "keyword": "slingshot",
-      "level": null,
-      "filename": "extra_slingshot",
-      "id": "H",
-      "requirements": [
-        {
-          "number": "1013",
-          "character": "弓",
-          "keyword": "bow",
-          "level": null,
-          "filename": "1013_bow",
-          "id": "G",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1108,
+  "hierarchy": {
+    "number": "1030",
+    "character": "考",
+    "keyword": "take an exam",
+    "level": "Elementary",
+    "filename": "1030_take_an_exam",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "1029",
+        "character": "老",
+        "keyword": "old man",
+        "level": "Elementary",
+        "filename": "1029_old_man",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "158",
+            "character": "土",
+            "keyword": "soil",
+            "level": "Medium",
+            "filename": "158_soil",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "丨",
+            "keyword": "walking stick",
+            "level": null,
+            "filename": "primitive_walking_stick",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "453",
+            "character": "匕",
+            "keyword": "ancient spoon",
+            "level": null,
+            "filename": "453_ancient_spoon",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "囧与－一",
+        "keyword": "slingshot",
+        "level": null,
+        "filename": "primitive_slingshot",
+        "id": "H",
+        "requirements": [
+          {
+            "number": "1013",
+            "character": "弓",
+            "keyword": "bow",
+            "level": null,
+            "filename": "1013_bow",
+            "id": "G",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

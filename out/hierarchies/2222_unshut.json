@@ -1,57 +1,60 @@
 {
-  "number": "2222",
-  "character": "睁",
-  "keyword": "unshut",
-  "level": null,
-  "filename": "2222_unshut",
-  "id": "G",
-  "requirements": [
-    {
-      "number": "15",
-      "character": "目",
-      "keyword": "eye",
-      "level": "Medium",
-      "filename": "15_eye",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "951",
-      "character": "争",
-      "keyword": "contend",
-      "level": "Advanced",
-      "filename": "951_contend",
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "勹",
-          "keyword": "bound up",
-          "level": null,
-          "filename": "extra_bound_up",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "肀",
-          "keyword": "rake",
-          "level": null,
-          "filename": "extra_rake",
-          "id": "E",
-          "requirements": [
-            {
-              "number": null,
-              "character": "彐",
-              "keyword": "broom",
-              "level": null,
-              "filename": "extra_broom",
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2387,
+  "hierarchy": {
+    "number": "2222",
+    "character": "睁",
+    "keyword": "unshut",
+    "level": null,
+    "filename": "2222_unshut",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "15",
+        "character": "目",
+        "keyword": "eye",
+        "level": "Medium",
+        "filename": "15_eye",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "951",
+        "character": "争",
+        "keyword": "contend",
+        "level": "Advanced",
+        "filename": "951_contend",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "勹",
+            "keyword": "bound up",
+            "level": null,
+            "filename": "primitive_bound_up",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "肀",
+            "keyword": "rake",
+            "level": null,
+            "filename": "primitive_rake",
+            "id": "E",
+            "requirements": [
+              {
+                "number": null,
+                "character": "彐",
+                "keyword": "broom",
+                "level": null,
+                "filename": "primitive_broom",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

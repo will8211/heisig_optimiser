@@ -1,28 +1,31 @@
 {
-  "number": "525",
-  "character": "家",
-  "keyword": "house",
-  "level": "Elementary",
-  "filename": "525_house",
-  "id": "D",
-  "requirements": [
-    {
-      "number": null,
-      "character": "宀",
-      "keyword": "house",
-      "level": null,
-      "filename": "extra_house",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "豕",
-      "keyword": "sow",
-      "level": null,
-      "filename": "extra_sow",
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 570,
+  "hierarchy": {
+    "number": "525",
+    "character": "家",
+    "keyword": "house",
+    "level": "Elementary",
+    "filename": "525_house",
+    "id": "D",
+    "requirements": [
+      {
+        "number": null,
+        "character": "宀",
+        "keyword": "house",
+        "level": null,
+        "filename": "primitive_house",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "豕",
+        "keyword": "sow",
+        "level": null,
+        "filename": "primitive_sow",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

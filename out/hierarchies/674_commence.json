@@ -1,47 +1,50 @@
 {
-  "number": "674",
-  "character": "始",
-  "keyword": "commence",
-  "level": "Advanced",
-  "filename": "674_commence",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "102",
-      "character": "女",
-      "keyword": "woman",
-      "level": "Elementary",
-      "filename": "102_woman",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "672",
-      "character": "台",
-      "keyword": "platform",
-      "level": "Advanced",
-      "filename": "672_platform",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "厶",
-          "keyword": "elbow",
-          "level": null,
-          "filename": "extra_elbow",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "filename": "11_mouth",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 729,
+  "hierarchy": {
+    "number": "674",
+    "character": "始",
+    "keyword": "commence",
+    "level": "Advanced",
+    "filename": "674_commence",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "102",
+        "character": "女",
+        "keyword": "woman",
+        "level": "Elementary",
+        "filename": "102_woman",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "672",
+        "character": "台",
+        "keyword": "platform",
+        "level": "Advanced",
+        "filename": "672_platform",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "厶",
+            "keyword": "elbow",
+            "level": null,
+            "filename": "primitive_elbow",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

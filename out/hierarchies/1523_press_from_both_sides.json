@@ -1,48 +1,51 @@
 {
-  "number": "1523",
-  "character": "夹",
-  "keyword": "press from both sides",
-  "level": "Advanced",
-  "filename": "1523_press_from_both_sides",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "726",
-      "character": "夫",
-      "keyword": "husband",
-      "level": "Medium",
-      "filename": "726_husband",
-      "id": "C",
-      "requirements": [
-        {
-          "number": "113",
-          "character": "大",
-          "keyword": "large",
-          "level": "Elementary",
-          "filename": "113_large",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "丷",
-      "keyword": "horns",
-      "level": null,
-      "filename": "extra_horns",
-      "id": "E",
-      "requirements": [
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "filename": "1_one",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1663,
+  "hierarchy": {
+    "number": "1523",
+    "character": "夹",
+    "keyword": "press from both sides",
+    "level": "Advanced",
+    "filename": "1523_press_from_both_sides",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "726",
+        "character": "夫",
+        "keyword": "husband",
+        "level": "Medium",
+        "filename": "726_husband",
+        "id": "C",
+        "requirements": [
+          {
+            "number": "113",
+            "character": "大",
+            "keyword": "large",
+            "level": "Elementary",
+            "filename": "113_large",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "丷",
+        "keyword": "horns",
+        "level": null,
+        "filename": "primitive_horns",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

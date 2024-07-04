@@ -1,66 +1,69 @@
 {
-  "number": "1525",
-  "character": "厕",
-  "keyword": "toilet",
-  "level": null,
-  "filename": "1525_toilet",
-  "id": "H",
-  "requirements": [
-    {
-      "number": "121",
-      "character": "厂",
-      "keyword": "factory",
-      "level": "Medium",
-      "filename": "121_factory",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "88",
-      "character": "则",
-      "keyword": "rule",
-      "level": null,
-      "filename": "88_rule",
-      "id": "G",
-      "requirements": [
-        {
-          "number": "52",
-          "character": "贝",
-          "keyword": "shellfish",
-          "level": "Medium",
-          "filename": "52_shellfish",
-          "id": "E",
-          "requirements": [
-            {
-              "number": "15",
-              "character": "目",
-              "keyword": "eye",
-              "level": "Medium",
-              "filename": "15_eye",
-              "id": "C",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "囧只－口",
-              "keyword": "animal legs",
-              "level": null,
-              "filename": "extra_animal_legs",
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "83",
-          "character": "刀",
-          "keyword": "sword",
-          "level": "Medium",
-          "filename": "83_sword",
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1665,
+  "hierarchy": {
+    "number": "1525",
+    "character": "厕",
+    "keyword": "toilet",
+    "level": null,
+    "filename": "1525_toilet",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "121",
+        "character": "厂",
+        "keyword": "factory",
+        "level": "Medium",
+        "filename": "121_factory",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "88",
+        "character": "则",
+        "keyword": "rule",
+        "level": null,
+        "filename": "88_rule",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "52",
+            "character": "贝",
+            "keyword": "shellfish",
+            "level": "Medium",
+            "filename": "52_shellfish",
+            "id": "E",
+            "requirements": [
+              {
+                "number": "15",
+                "character": "目",
+                "keyword": "eye",
+                "level": "Medium",
+                "filename": "15_eye",
+                "id": "C",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "囧只－口",
+                "keyword": "animal legs",
+                "level": null,
+                "filename": "primitive_animal_legs",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "83",
+            "character": "刀",
+            "keyword": "sword",
+            "level": "Medium",
+            "filename": "83_sword",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,47 +1,50 @@
 {
-  "number": "471",
-  "character": "吃",
-  "keyword": "eat",
-  "level": "Elementary",
-  "filename": "471_eat",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "11",
-      "character": "口",
-      "keyword": "mouth",
-      "level": "Elementary",
-      "filename": "11_mouth",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "470",
-      "character": "乞",
-      "keyword": "beg",
-      "level": null,
-      "filename": "470_beg",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "𠂉",
-          "keyword": "reclining",
-          "level": null,
-          "filename": "extra_reclining",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "95",
-          "character": "乙",
-          "keyword": "second",
-          "level": "Medium",
-          "filename": "95_second",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 514,
+  "hierarchy": {
+    "number": "471",
+    "character": "吃",
+    "keyword": "eat",
+    "level": "Elementary",
+    "filename": "471_eat",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "11",
+        "character": "口",
+        "keyword": "mouth",
+        "level": "Elementary",
+        "filename": "11_mouth",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "470",
+        "character": "乞",
+        "keyword": "beg",
+        "level": null,
+        "filename": "470_beg",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "𠂉",
+            "keyword": "reclining",
+            "level": null,
+            "filename": "primitive_reclining",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "95",
+            "character": "乙",
+            "keyword": "second",
+            "level": "Medium",
+            "filename": "95_second",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

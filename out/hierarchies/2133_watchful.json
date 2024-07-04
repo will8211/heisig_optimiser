@@ -1,67 +1,70 @@
 {
-  "number": "2133",
-  "character": "惕",
-  "keyword": "watchful",
-  "level": null,
-  "filename": "2133_watchful",
-  "id": "H",
-  "requirements": [
-    {
-      "number": "563",
-      "character": "心",
-      "keyword": "heart",
-      "level": "Medium",
-      "filename": "563_heart",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "880",
-      "character": "易",
-      "keyword": "easy",
-      "level": "Advanced",
-      "filename": "880_easy",
-      "id": "G",
-      "requirements": [
-        {
-          "number": "12",
-          "character": "日",
-          "keyword": "day",
-          "level": "Elementary",
-          "filename": "12_day",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "877",
-          "character": "勿",
-          "keyword": "not",
-          "level": null,
-          "filename": "877_not",
-          "id": "F",
-          "requirements": [
-            {
-              "number": null,
-              "character": "𠃓",
-              "keyword": "piglets",
-              "level": null,
-              "filename": "extra_piglets",
-              "id": "E",
-              "requirements": [
-                {
-                  "number": null,
-                  "character": "豕",
-                  "keyword": "sow",
-                  "level": null,
-                  "filename": "extra_sow",
-                  "id": "D",
-                  "requirements": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2294,
+  "hierarchy": {
+    "number": "2133",
+    "character": "惕",
+    "keyword": "watchful",
+    "level": null,
+    "filename": "2133_watchful",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "563",
+        "character": "心",
+        "keyword": "heart",
+        "level": "Medium",
+        "filename": "563_heart",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "880",
+        "character": "易",
+        "keyword": "easy",
+        "level": "Advanced",
+        "filename": "880_easy",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "12",
+            "character": "日",
+            "keyword": "day",
+            "level": "Elementary",
+            "filename": "12_day",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "877",
+            "character": "勿",
+            "keyword": "not",
+            "level": null,
+            "filename": "877_not",
+            "id": "F",
+            "requirements": [
+              {
+                "number": null,
+                "character": "𠃓",
+                "keyword": "piglets",
+                "level": null,
+                "filename": "primitive_piglets",
+                "id": "E",
+                "requirements": [
+                  {
+                    "number": null,
+                    "character": "豕",
+                    "keyword": "sow",
+                    "level": null,
+                    "filename": "primitive_sow",
+                    "id": "D",
+                    "requirements": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

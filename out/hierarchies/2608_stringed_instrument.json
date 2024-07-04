@@ -1,77 +1,80 @@
 {
-  "number": "2608",
-  "character": "琴",
-  "keyword": "stringed instrument",
-  "level": null,
-  "filename": "2608_stringed_instrument",
-  "id": "I",
-  "requirements": [
-    {
-      "number": "266",
-      "character": "玉",
-      "keyword": "jade",
-      "level": "Medium",
-      "filename": "266_jade",
-      "id": "E",
-      "requirements": [
-        {
-          "number": "265",
-          "character": "王",
-          "keyword": "king",
-          "level": "Medium",
-          "filename": "265_king",
-          "id": "C",
-          "requirements": [
-            {
-              "number": "76",
-              "character": "工",
-              "keyword": "work",
-              "level": "Elementary",
-              "filename": "76_work",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "1244",
-      "character": "今",
-      "keyword": "now",
-      "level": "Elementary",
-      "filename": "1244_now",
-      "id": "H",
-      "requirements": [
-        {
-          "number": null,
-          "character": "亼",
-          "keyword": "meeting",
-          "level": null,
-          "filename": "extra_meeting",
-          "id": "G",
-          "requirements": [
-            {
-              "number": null,
-              "character": "𠆢",
-              "keyword": "umbrella",
-              "level": null,
-              "filename": "extra_umbrella",
-              "id": "F",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2797,
+  "hierarchy": {
+    "number": "2608",
+    "character": "琴",
+    "keyword": "stringed instrument",
+    "level": null,
+    "filename": "2608_stringed_instrument",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "266",
+        "character": "玉",
+        "keyword": "jade",
+        "level": "Medium",
+        "filename": "266_jade",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "265",
+            "character": "王",
+            "keyword": "king",
+            "level": "Medium",
+            "filename": "265_king",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "76",
+                "character": "工",
+                "keyword": "work",
+                "level": "Elementary",
+                "filename": "76_work",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "1244",
+        "character": "今",
+        "keyword": "now",
+        "level": "Elementary",
+        "filename": "1244_now",
+        "id": "H",
+        "requirements": [
+          {
+            "number": null,
+            "character": "亼",
+            "keyword": "meeting",
+            "level": null,
+            "filename": "primitive_meeting",
+            "id": "G",
+            "requirements": [
+              {
+                "number": null,
+                "character": "𠆢",
+                "keyword": "umbrella",
+                "level": null,
+                "filename": "primitive_umbrella",
+                "id": "F",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

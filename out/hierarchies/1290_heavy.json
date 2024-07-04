@@ -1,66 +1,69 @@
 {
-  "number": "1290",
-  "character": "重",
-  "keyword": "heavy",
-  "level": "Medium",
-  "filename": "1290_heavy",
-  "id": "H",
-  "requirements": [
-    {
-      "number": "39",
-      "character": "千",
-      "keyword": "thousand",
-      "level": "Medium",
-      "filename": "39_thousand",
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "10",
-          "character": "十",
-          "keyword": "ten",
-          "level": "Elementary",
-          "filename": "10_ten",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "179",
-      "character": "里",
-      "keyword": "li",
-      "level": "Elementary",
-      "filename": "179_li",
-      "id": "G",
-      "requirements": [
-        {
-          "number": "14",
-          "character": "田",
-          "keyword": "rice field",
-          "level": "Medium",
-          "filename": "14_rice_field",
-          "id": "E",
-          "requirements": []
-        },
-        {
-          "number": "158",
-          "character": "土",
-          "keyword": "soil",
-          "level": "Medium",
-          "filename": "158_soil",
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1400,
+  "hierarchy": {
+    "number": "1290",
+    "character": "重",
+    "keyword": "heavy",
+    "level": "Medium",
+    "filename": "1290_heavy",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "39",
+        "character": "千",
+        "keyword": "thousand",
+        "level": "Medium",
+        "filename": "39_thousand",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "10",
+            "character": "十",
+            "keyword": "ten",
+            "level": "Elementary",
+            "filename": "10_ten",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "179",
+        "character": "里",
+        "keyword": "li",
+        "level": "Elementary",
+        "filename": "179_li",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "14",
+            "character": "田",
+            "keyword": "rice field",
+            "level": "Medium",
+            "filename": "14_rice_field",
+            "id": "E",
+            "requirements": []
+          },
+          {
+            "number": "158",
+            "character": "土",
+            "keyword": "soil",
+            "level": "Medium",
+            "filename": "158_soil",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

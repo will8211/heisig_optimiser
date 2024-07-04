@@ -1,76 +1,79 @@
 {
-  "number": "2243",
-  "character": "猎",
-  "keyword": "hunt",
-  "level": null,
-  "filename": "2243_hunt",
-  "id": "I",
-  "requirements": [
-    {
-      "number": "239",
-      "character": "犬",
-      "keyword": "pooch",
-      "level": null,
-      "filename": "239_pooch",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "113",
-          "character": "大",
-          "keyword": "large",
-          "level": "Elementary",
-          "filename": "113_large",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "971",
-      "character": "昔",
-      "keyword": "times past",
-      "level": null,
-      "filename": "971_times_past",
-      "id": "H",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧昔－日",
-          "keyword": "salad",
-          "level": null,
-          "filename": "extra_salad",
-          "id": "F",
-          "requirements": [
-            {
-              "number": null,
-              "character": "艹",
-              "keyword": "flower",
-              "level": null,
-              "filename": "extra_flower",
-              "id": "E",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "12",
-          "character": "日",
-          "keyword": "day",
-          "level": "Elementary",
-          "filename": "12_day",
-          "id": "G",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2409,
+  "hierarchy": {
+    "number": "2243",
+    "character": "猎",
+    "keyword": "hunt",
+    "level": null,
+    "filename": "2243_hunt",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "239",
+        "character": "犬",
+        "keyword": "pooch",
+        "level": null,
+        "filename": "239_pooch",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "113",
+            "character": "大",
+            "keyword": "large",
+            "level": "Elementary",
+            "filename": "113_large",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "971",
+        "character": "昔",
+        "keyword": "times past",
+        "level": null,
+        "filename": "971_times_past",
+        "id": "H",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧昔－日",
+            "keyword": "salad",
+            "level": null,
+            "filename": "primitive_salad",
+            "id": "F",
+            "requirements": [
+              {
+                "number": null,
+                "character": "艹",
+                "keyword": "flower",
+                "level": null,
+                "filename": "primitive_flower",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "12",
+            "character": "日",
+            "keyword": "day",
+            "level": "Elementary",
+            "filename": "12_day",
+            "id": "G",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

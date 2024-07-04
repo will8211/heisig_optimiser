@@ -1,38 +1,41 @@
 {
-  "number": "1860",
-  "character": "扬",
-  "keyword": "publicize",
-  "level": null,
-  "filename": "1860_publicize",
-  "id": "E",
-  "requirements": [
-    {
-      "number": null,
-      "character": "扌",
-      "keyword": "fingers",
-      "level": null,
-      "filename": "extra_fingers",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "𠃓",
-      "keyword": "piglets",
-      "level": null,
-      "filename": "extra_piglets",
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "豕",
-          "keyword": "sow",
-          "level": null,
-          "filename": "extra_sow",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2011,
+  "hierarchy": {
+    "number": "1860",
+    "character": "扬",
+    "keyword": "publicize",
+    "level": null,
+    "filename": "1860_publicize",
+    "id": "E",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "primitive_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "𠃓",
+        "keyword": "piglets",
+        "level": null,
+        "filename": "primitive_piglets",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "豕",
+            "keyword": "sow",
+            "level": null,
+            "filename": "primitive_sow",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

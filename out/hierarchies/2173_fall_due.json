@@ -1,38 +1,41 @@
 {
-  "number": "2173",
-  "character": "届",
-  "keyword": "fall due",
-  "level": null,
-  "filename": "2173_fall_due",
-  "id": "E",
-  "requirements": [
-    {
-      "number": "882",
-      "character": "尸",
-      "keyword": "corpse",
-      "level": null,
-      "filename": "882_corpse",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "913",
-      "character": "由",
-      "keyword": "wherefore",
-      "level": "Medium",
-      "filename": "913_wherefore",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "14",
-          "character": "田",
-          "keyword": "rice field",
-          "level": "Medium",
-          "filename": "14_rice_field",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2335,
+  "hierarchy": {
+    "number": "2173",
+    "character": "届",
+    "keyword": "fall due",
+    "level": null,
+    "filename": "2173_fall_due",
+    "id": "E",
+    "requirements": [
+      {
+        "number": "882",
+        "character": "尸",
+        "keyword": "corpse",
+        "level": null,
+        "filename": "882_corpse",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "913",
+        "character": "由",
+        "keyword": "wherefore",
+        "level": "Medium",
+        "filename": "913_wherefore",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "14",
+            "character": "田",
+            "keyword": "rice field",
+            "level": "Medium",
+            "filename": "14_rice_field",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

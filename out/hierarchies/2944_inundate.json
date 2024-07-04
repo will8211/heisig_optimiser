@@ -1,76 +1,79 @@
 {
-  "number": "2944",
-  "character": "淹",
-  "keyword": "inundate",
-  "level": null,
-  "filename": "2944_inundate",
-  "id": "I",
-  "requirements": [
-    {
-      "number": "137",
-      "character": "水",
-      "keyword": "water",
-      "level": "Elementary",
-      "filename": "137_water",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丨",
-          "keyword": "walking stick",
-          "level": null,
-          "filename": "extra_walking_stick",
-          "id": "C",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "奄",
-      "keyword": "hang glider",
-      "level": null,
-      "filename": "extra_hang_glider",
-      "id": "H",
-      "requirements": [
-        {
-          "number": "1484",
-          "character": "电",
-          "keyword": "electricity",
-          "level": "Elementary",
-          "filename": "1484_electricity",
-          "id": "F",
-          "requirements": []
-        },
-        {
-          "number": "113",
-          "character": "大",
-          "keyword": "large",
-          "level": "Elementary",
-          "filename": "113_large",
-          "id": "G",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 3144,
+  "hierarchy": {
+    "number": "2944",
+    "character": "淹",
+    "keyword": "inundate",
+    "level": null,
+    "filename": "2944_inundate",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "137",
+        "character": "水",
+        "keyword": "water",
+        "level": "Elementary",
+        "filename": "137_water",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丨",
+            "keyword": "walking stick",
+            "level": null,
+            "filename": "primitive_walking_stick",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "奄",
+        "keyword": "hang glider",
+        "level": null,
+        "filename": "primitive_hang_glider",
+        "id": "H",
+        "requirements": [
+          {
+            "number": "1484",
+            "character": "电",
+            "keyword": "electricity",
+            "level": "Elementary",
+            "filename": "1484_electricity",
+            "id": "F",
+            "requirements": []
+          },
+          {
+            "number": "113",
+            "character": "大",
+            "keyword": "large",
+            "level": "Elementary",
+            "filename": "113_large",
+            "id": "G",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

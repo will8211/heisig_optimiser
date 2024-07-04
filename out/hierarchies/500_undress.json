@@ -1,76 +1,79 @@
 {
-  "number": "500",
-  "character": "脱",
-  "keyword": "undress",
-  "level": null,
-  "filename": "500_undress",
-  "id": "I",
-  "requirements": [
-    {
-      "number": "13",
-      "character": "月",
-      "keyword": "month",
-      "level": "Elementary",
-      "filename": "13_month",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "499",
-      "character": "兑",
-      "keyword": "convert",
-      "level": null,
-      "filename": "499_convert",
-      "id": "H",
-      "requirements": [
-        {
-          "number": "107",
-          "character": "兄",
-          "keyword": "elder brother",
-          "level": "Medium",
-          "filename": "107_elder_brother",
-          "id": "E",
-          "requirements": [
-            {
-              "number": "11",
-              "character": "口",
-              "keyword": "mouth",
-              "level": "Elementary",
-              "filename": "11_mouth",
-              "id": "C",
-              "requirements": []
-            },
-            {
-              "number": "56",
-              "character": "儿",
-              "keyword": "youngster",
-              "level": "Elementary",
-              "filename": "56_youngster",
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丷",
-          "keyword": "horns",
-          "level": null,
-          "filename": "extra_horns",
-          "id": "G",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "F",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 544,
+  "hierarchy": {
+    "number": "500",
+    "character": "脱",
+    "keyword": "undress",
+    "level": null,
+    "filename": "500_undress",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "13",
+        "character": "月",
+        "keyword": "month",
+        "level": "Elementary",
+        "filename": "13_month",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "499",
+        "character": "兑",
+        "keyword": "convert",
+        "level": null,
+        "filename": "499_convert",
+        "id": "H",
+        "requirements": [
+          {
+            "number": "107",
+            "character": "兄",
+            "keyword": "elder brother",
+            "level": "Medium",
+            "filename": "107_elder_brother",
+            "id": "E",
+            "requirements": [
+              {
+                "number": "11",
+                "character": "口",
+                "keyword": "mouth",
+                "level": "Elementary",
+                "filename": "11_mouth",
+                "id": "C",
+                "requirements": []
+              },
+              {
+                "number": "56",
+                "character": "儿",
+                "keyword": "youngster",
+                "level": "Elementary",
+                "filename": "56_youngster",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丷",
+            "keyword": "horns",
+            "level": null,
+            "filename": "primitive_horns",
+            "id": "G",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "F",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,56 +1,59 @@
 {
-  "number": "1310",
-  "character": "修",
-  "keyword": "repair",
-  "level": "Advanced",
-  "filename": "1310_repair",
-  "id": "G",
-  "requirements": [
-    {
-      "number": "793",
-      "character": "人",
-      "keyword": "person",
-      "level": "Elementary",
-      "filename": "793_person",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "丨",
-      "keyword": "walking stick",
-      "level": null,
-      "filename": "extra_walking_stick",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "filename": "1_one",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "夂",
-      "keyword": "walking legs",
-      "level": null,
-      "filename": "extra_walking_legs",
-      "id": "E",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "彡",
-      "keyword": "rooster tail",
-      "level": null,
-      "filename": "extra_rooster_tail",
-      "id": "F",
-      "requirements": []
-    }
-  ]
+  "order": 1425,
+  "hierarchy": {
+    "number": "1310",
+    "character": "修",
+    "keyword": "repair",
+    "level": "Advanced",
+    "filename": "1310_repair",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "793",
+        "character": "人",
+        "keyword": "person",
+        "level": "Elementary",
+        "filename": "793_person",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "丨",
+        "keyword": "walking stick",
+        "level": null,
+        "filename": "primitive_walking_stick",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "夂",
+        "keyword": "walking legs",
+        "level": null,
+        "filename": "primitive_walking_legs",
+        "id": "E",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "彡",
+        "keyword": "rooster tail",
+        "level": null,
+        "filename": "primitive_rooster_tail",
+        "id": "F",
+        "requirements": []
+      }
+    ]
+  }
 }

@@ -1,75 +1,78 @@
 {
-  "number": "1072",
-  "character": "突",
-  "keyword": "abruptly",
-  "level": "Advanced",
-  "filename": "1072_abruptly",
-  "id": "I",
-  "requirements": [
-    {
-      "number": "1070",
-      "character": "穴",
-      "keyword": "hole",
-      "level": null,
-      "filename": "1070_hole",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "宀",
-          "keyword": "house",
-          "level": null,
-          "filename": "extra_house",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "8",
-          "character": "八",
-          "keyword": "eight",
-          "level": "Elementary",
-          "filename": "8_eight",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "囧只－口",
-          "keyword": "animal legs",
-          "level": null,
-          "filename": "extra_animal_legs",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "239",
-      "character": "犬",
-      "keyword": "pooch",
-      "level": null,
-      "filename": "239_pooch",
-      "id": "H",
-      "requirements": [
-        {
-          "number": "113",
-          "character": "大",
-          "keyword": "large",
-          "level": "Elementary",
-          "filename": "113_large",
-          "id": "F",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "G",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1153,
+  "hierarchy": {
+    "number": "1072",
+    "character": "突",
+    "keyword": "abruptly",
+    "level": "Advanced",
+    "filename": "1072_abruptly",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "1070",
+        "character": "穴",
+        "keyword": "hole",
+        "level": null,
+        "filename": "1070_hole",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "宀",
+            "keyword": "house",
+            "level": null,
+            "filename": "primitive_house",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "8",
+            "character": "八",
+            "keyword": "eight",
+            "level": "Elementary",
+            "filename": "8_eight",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "囧只－口",
+            "keyword": "animal legs",
+            "level": null,
+            "filename": "primitive_animal_legs",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "239",
+        "character": "犬",
+        "keyword": "pooch",
+        "level": null,
+        "filename": "239_pooch",
+        "id": "H",
+        "requirements": [
+          {
+            "number": "113",
+            "character": "大",
+            "keyword": "large",
+            "level": "Elementary",
+            "filename": "113_large",
+            "id": "F",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "G",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

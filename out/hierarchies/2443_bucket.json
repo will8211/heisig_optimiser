@@ -1,66 +1,69 @@
 {
-  "number": "2443",
-  "character": "桶",
-  "keyword": "bucket",
-  "level": null,
-  "filename": "2443_bucket",
-  "id": "H",
-  "requirements": [
-    {
-      "number": "202",
-      "character": "木",
-      "keyword": "tree",
-      "level": "Elementary",
-      "filename": "202_tree",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "甬",
-      "keyword": "chop-rack",
-      "level": null,
-      "filename": "extra_chop-rack",
-      "id": "G",
-      "requirements": [
-        {
-          "number": "13",
-          "character": "月",
-          "keyword": "month",
-          "level": "Elementary",
-          "filename": "13_month",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "丨",
-          "keyword": "walking stick",
-          "level": null,
-          "filename": "extra_walking_stick",
-          "id": "E",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "囧节－艹",
-          "keyword": "chop",
-          "level": null,
-          "filename": "extra_chop",
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2622,
+  "hierarchy": {
+    "number": "2443",
+    "character": "桶",
+    "keyword": "bucket",
+    "level": null,
+    "filename": "2443_bucket",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "202",
+        "character": "木",
+        "keyword": "tree",
+        "level": "Elementary",
+        "filename": "202_tree",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "甬",
+        "keyword": "chop-rack",
+        "level": null,
+        "filename": "primitive_chop-rack",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "13",
+            "character": "月",
+            "keyword": "month",
+            "level": "Elementary",
+            "filename": "13_month",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "丨",
+            "keyword": "walking stick",
+            "level": null,
+            "filename": "primitive_walking_stick",
+            "id": "E",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "囧节－艹",
+            "keyword": "chop",
+            "level": null,
+            "filename": "primitive_chop",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

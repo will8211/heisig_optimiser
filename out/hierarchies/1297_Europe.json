@@ -1,47 +1,50 @@
 {
-  "number": "1297",
-  "character": "欧",
-  "keyword": "Europe",
-  "level": null,
-  "filename": "1297_Europe",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "1295",
-      "character": "区",
-      "keyword": "region",
-      "level": "Medium",
-      "filename": "1295_region",
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "匚",
-          "keyword": "box",
-          "level": null,
-          "filename": "extra_box",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "㐅",
-          "keyword": "sheaf",
-          "level": null,
-          "filename": "extra_sheaf",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "474",
-      "character": "欠",
-      "keyword": "lack",
-      "level": "Medium",
-      "filename": "474_lack",
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 1409,
+  "hierarchy": {
+    "number": "1297",
+    "character": "欧",
+    "keyword": "Europe",
+    "level": null,
+    "filename": "1297_Europe",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "1295",
+        "character": "区",
+        "keyword": "region",
+        "level": "Medium",
+        "filename": "1295_region",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "匚",
+            "keyword": "box",
+            "level": null,
+            "filename": "primitive_box",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "㐅",
+            "keyword": "sheaf",
+            "level": null,
+            "filename": "primitive_sheaf",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "474",
+        "character": "欠",
+        "keyword": "lack",
+        "level": "Medium",
+        "filename": "474_lack",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

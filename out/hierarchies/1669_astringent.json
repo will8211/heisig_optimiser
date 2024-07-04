@@ -1,85 +1,88 @@
 {
-  "number": "1669",
-  "character": "涩",
-  "keyword": "astringent",
-  "level": null,
-  "filename": "1669_astringent",
-  "id": "J",
-  "requirements": [
-    {
-      "number": "137",
-      "character": "水",
-      "keyword": "water",
-      "level": "Elementary",
-      "filename": "137_water",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丨",
-          "keyword": "walking stick",
-          "level": null,
-          "filename": "extra_walking_stick",
-          "id": "C",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "84",
-      "character": "刃",
-      "keyword": "blade",
-      "level": null,
-      "filename": "84_blade",
-      "id": "H",
-      "requirements": [
-        {
-          "number": "83",
-          "character": "刀",
-          "keyword": "sword",
-          "level": "Medium",
-          "filename": "83_sword",
-          "id": "F",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "G",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "379",
-      "character": "止",
-      "keyword": "stop",
-      "level": "Medium",
-      "filename": "379_stop",
-      "id": "I",
-      "requirements": []
-    }
-  ]
+  "order": 1814,
+  "hierarchy": {
+    "number": "1669",
+    "character": "涩",
+    "keyword": "astringent",
+    "level": null,
+    "filename": "1669_astringent",
+    "id": "J",
+    "requirements": [
+      {
+        "number": "137",
+        "character": "水",
+        "keyword": "water",
+        "level": "Elementary",
+        "filename": "137_water",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丨",
+            "keyword": "walking stick",
+            "level": null,
+            "filename": "primitive_walking_stick",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "84",
+        "character": "刃",
+        "keyword": "blade",
+        "level": null,
+        "filename": "84_blade",
+        "id": "H",
+        "requirements": [
+          {
+            "number": "83",
+            "character": "刀",
+            "keyword": "sword",
+            "level": "Medium",
+            "filename": "83_sword",
+            "id": "F",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "G",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "379",
+        "character": "止",
+        "keyword": "stop",
+        "level": "Medium",
+        "filename": "379_stop",
+        "id": "I",
+        "requirements": []
+      }
+    ]
+  }
 }

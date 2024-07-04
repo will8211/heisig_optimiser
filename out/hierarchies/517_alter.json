@@ -1,28 +1,31 @@
 {
-  "number": "517",
-  "character": "改",
-  "keyword": "alter",
-  "level": "Medium",
-  "filename": "517_alter",
-  "id": "D",
-  "requirements": [
-    {
-      "number": "515",
-      "character": "己",
-      "keyword": "self",
-      "level": "Medium",
-      "filename": "515_self",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "攵",
-      "keyword": "taskmaster",
-      "level": null,
-      "filename": "extra_taskmaster",
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 561,
+  "hierarchy": {
+    "number": "517",
+    "character": "改",
+    "keyword": "alter",
+    "level": "Medium",
+    "filename": "517_alter",
+    "id": "D",
+    "requirements": [
+      {
+        "number": "515",
+        "character": "己",
+        "keyword": "self",
+        "level": "Medium",
+        "filename": "515_self",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "攵",
+        "keyword": "taskmaster",
+        "level": null,
+        "filename": "primitive_taskmaster",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

@@ -1,66 +1,69 @@
 {
-  "number": "1822",
-  "character": "熄",
-  "keyword": "put out",
-  "level": null,
-  "filename": "1822_put_out",
-  "id": "H",
-  "requirements": [
-    {
-      "number": "170",
-      "character": "火",
-      "keyword": "fire",
-      "level": "Elementary",
-      "filename": "170_fire",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "574",
-      "character": "息",
-      "keyword": "breath",
-      "level": "Elementary",
-      "filename": "574_breath",
-      "id": "G",
-      "requirements": [
-        {
-          "number": "33",
-          "character": "自",
-          "keyword": "oneself",
-          "level": "Medium",
-          "filename": "33_oneself",
-          "id": "E",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "filename": "extra_a_drop_of",
-              "id": "C",
-              "requirements": []
-            },
-            {
-              "number": "15",
-              "character": "目",
-              "keyword": "eye",
-              "level": "Medium",
-              "filename": "15_eye",
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "563",
-          "character": "心",
-          "keyword": "heart",
-          "level": "Medium",
-          "filename": "563_heart",
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1972,
+  "hierarchy": {
+    "number": "1822",
+    "character": "熄",
+    "keyword": "put out",
+    "level": null,
+    "filename": "1822_put_out",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "170",
+        "character": "火",
+        "keyword": "fire",
+        "level": "Elementary",
+        "filename": "170_fire",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "574",
+        "character": "息",
+        "keyword": "breath",
+        "level": "Elementary",
+        "filename": "574_breath",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "33",
+            "character": "自",
+            "keyword": "oneself",
+            "level": "Medium",
+            "filename": "33_oneself",
+            "id": "E",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "C",
+                "requirements": []
+              },
+              {
+                "number": "15",
+                "character": "目",
+                "keyword": "eye",
+                "level": "Medium",
+                "filename": "15_eye",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "563",
+            "character": "心",
+            "keyword": "heart",
+            "level": "Medium",
+            "filename": "563_heart",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

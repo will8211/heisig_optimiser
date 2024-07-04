@@ -1,57 +1,60 @@
 {
-  "number": "2948",
-  "character": "纽",
-  "keyword": "New York",
-  "level": null,
-  "filename": "2948_New_York",
-  "id": "G",
-  "requirements": [
-    {
-      "number": null,
-      "character": "纟",
-      "keyword": "thread",
-      "level": null,
-      "filename": "extra_thread",
-      "id": "C",
-      "requirements": [
-        {
-          "number": null,
-          "character": "厶",
-          "keyword": "elbow",
-          "level": null,
-          "filename": "extra_elbow",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "1486",
-      "character": "丑",
-      "keyword": "clown",
-      "level": "Advanced",
-      "filename": "1486_clown",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "10",
-          "character": "十",
-          "keyword": "ten",
-          "level": "Elementary",
-          "filename": "10_ten",
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "囧侯－亻－矢",
-          "keyword": "key",
-          "level": null,
-          "filename": "extra_key",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 3148,
+  "hierarchy": {
+    "number": "2948",
+    "character": "纽",
+    "keyword": "New York",
+    "level": null,
+    "filename": "2948_New_York",
+    "id": "G",
+    "requirements": [
+      {
+        "number": null,
+        "character": "纟",
+        "keyword": "thread",
+        "level": null,
+        "filename": "primitive_thread",
+        "id": "C",
+        "requirements": [
+          {
+            "number": null,
+            "character": "厶",
+            "keyword": "elbow",
+            "level": null,
+            "filename": "primitive_elbow",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "1486",
+        "character": "丑",
+        "keyword": "clown",
+        "level": "Advanced",
+        "filename": "1486_clown",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "10",
+            "character": "十",
+            "keyword": "ten",
+            "level": "Elementary",
+            "filename": "10_ten",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "囧侯－亻－矢",
+            "keyword": "key",
+            "level": null,
+            "filename": "primitive_key",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,113 +1,116 @@
 {
-  "number": "328",
-  "character": "亭",
-  "keyword": "pavilion",
-  "level": null,
-  "filename": "328_pavilion",
-  "id": "M",
-  "requirements": [
-    {
-      "number": "90",
-      "character": "丁",
-      "keyword": "fourth",
-      "level": null,
-      "filename": "90_fourth",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "325",
-      "character": "高",
-      "keyword": "tall",
-      "level": "Elementary",
-      "filename": "325_tall",
-      "id": "L",
-      "requirements": [
-        {
-          "number": "188",
-          "character": "向",
-          "keyword": "orientation",
-          "level": "Elementary",
-          "filename": "188_orientation",
-          "id": "G",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "filename": "extra_a_drop_of",
-              "id": "C",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "冂",
-              "keyword": "hood",
-              "level": null,
-              "filename": "extra_hood",
-              "id": "E",
-              "requirements": [
-                {
-                  "number": "57",
-                  "character": "几",
-                  "keyword": "how many?",
-                  "level": "Elementary",
-                  "filename": "57_how_many",
-                  "id": "D",
-                  "requirements": []
-                }
-              ]
-            },
-            {
-              "number": "11",
-              "character": "口",
-              "keyword": "mouth",
-              "level": "Elementary",
-              "filename": "11_mouth",
-              "id": "F",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "filename": "11_mouth",
-          "id": "H",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "冂",
-          "keyword": "hood",
-          "level": null,
-          "filename": "extra_hood",
-          "id": "J",
-          "requirements": [
-            {
-              "number": "57",
-              "character": "几",
-              "keyword": "how many?",
-              "level": "Elementary",
-              "filename": "57_how_many",
-              "id": "I",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "亠",
-          "keyword": "top hat",
-          "level": null,
-          "filename": "extra_top_hat",
-          "id": "K",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 351,
+  "hierarchy": {
+    "number": "328",
+    "character": "亭",
+    "keyword": "pavilion",
+    "level": null,
+    "filename": "328_pavilion",
+    "id": "M",
+    "requirements": [
+      {
+        "number": "90",
+        "character": "丁",
+        "keyword": "fourth",
+        "level": null,
+        "filename": "90_fourth",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "325",
+        "character": "高",
+        "keyword": "tall",
+        "level": "Elementary",
+        "filename": "325_tall",
+        "id": "L",
+        "requirements": [
+          {
+            "number": "188",
+            "character": "向",
+            "keyword": "orientation",
+            "level": "Elementary",
+            "filename": "188_orientation",
+            "id": "G",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "C",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "冂",
+                "keyword": "hood",
+                "level": null,
+                "filename": "primitive_hood",
+                "id": "E",
+                "requirements": [
+                  {
+                    "number": "57",
+                    "character": "几",
+                    "keyword": "how many?",
+                    "level": "Elementary",
+                    "filename": "57_how_many",
+                    "id": "D",
+                    "requirements": []
+                  }
+                ]
+              },
+              {
+                "number": "11",
+                "character": "口",
+                "keyword": "mouth",
+                "level": "Elementary",
+                "filename": "11_mouth",
+                "id": "F",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "H",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "冂",
+            "keyword": "hood",
+            "level": null,
+            "filename": "primitive_hood",
+            "id": "J",
+            "requirements": [
+              {
+                "number": "57",
+                "character": "几",
+                "keyword": "how many?",
+                "level": "Elementary",
+                "filename": "57_how_many",
+                "id": "I",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "亠",
+            "keyword": "top hat",
+            "level": null,
+            "filename": "primitive_top_hat",
+            "id": "K",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

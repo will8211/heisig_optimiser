@@ -1,47 +1,50 @@
 {
-  "number": "1898",
-  "character": "扳",
-  "keyword": "tug",
-  "level": null,
-  "filename": "1898_tug",
-  "id": "F",
-  "requirements": [
-    {
-      "number": null,
-      "character": "扌",
-      "keyword": "fingers",
-      "level": null,
-      "filename": "extra_fingers",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "656",
-      "character": "反",
-      "keyword": "against",
-      "level": "Medium",
-      "filename": "656_against",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "𠂆",
-          "keyword": "drag",
-          "level": null,
-          "filename": "extra_drag",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "633",
-          "character": "又",
-          "keyword": "again",
-          "level": "Elementary",
-          "filename": "633_again",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2052,
+  "hierarchy": {
+    "number": "1898",
+    "character": "扳",
+    "keyword": "tug",
+    "level": null,
+    "filename": "1898_tug",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "primitive_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "656",
+        "character": "反",
+        "keyword": "against",
+        "level": "Medium",
+        "filename": "656_against",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "𠂆",
+            "keyword": "drag",
+            "level": null,
+            "filename": "primitive_drag",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "633",
+            "character": "又",
+            "keyword": "again",
+            "level": "Elementary",
+            "filename": "633_again",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

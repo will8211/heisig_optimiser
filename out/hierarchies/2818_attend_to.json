@@ -1,56 +1,59 @@
 {
-  "number": "2818",
-  "character": "伺",
-  "keyword": "attend to",
-  "level": null,
-  "filename": "2818_attend_to",
-  "id": "G",
-  "requirements": [
-    {
-      "number": "793",
-      "character": "人",
-      "keyword": "person",
-      "level": "Elementary",
-      "filename": "793_person",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1391",
-      "character": "司",
-      "keyword": "take charge of",
-      "level": "Medium",
-      "filename": "1391_take_charge_of",
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "𠃌",
-          "keyword": "clothes hanger",
-          "level": null,
-          "filename": "extra_clothes_hanger",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "filename": "1_one",
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "filename": "11_mouth",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 3012,
+  "hierarchy": {
+    "number": "2818",
+    "character": "伺",
+    "keyword": "attend to",
+    "level": null,
+    "filename": "2818_attend_to",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "793",
+        "character": "人",
+        "keyword": "person",
+        "level": "Elementary",
+        "filename": "793_person",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1391",
+        "character": "司",
+        "keyword": "take charge of",
+        "level": "Medium",
+        "filename": "1391_take_charge_of",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "𠃌",
+            "keyword": "clothes hanger",
+            "level": null,
+            "filename": "primitive_clothes_hanger",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

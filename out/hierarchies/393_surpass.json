@@ -1,96 +1,99 @@
 {
-  "number": "393",
-  "character": "越",
-  "keyword": "surpass",
-  "level": "Medium",
-  "filename": "393_surpass",
-  "id": "K",
-  "requirements": [
-    {
-      "number": null,
-      "character": "戊",
-      "keyword": "parade",
-      "level": null,
-      "filename": "extra_parade",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "361",
-          "character": "戈",
-          "keyword": "halberd",
-          "level": null,
-          "filename": "361_halberd",
-          "id": "C",
-          "requirements": [
-            {
-              "number": null,
-              "character": "弋",
-              "keyword": "arrow",
-              "level": null,
-              "filename": "extra_arrow",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": "391",
-      "character": "走",
-      "keyword": "walk",
-      "level": "Elementary",
-      "filename": "391_walk",
-      "id": "J",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧走－十",
-          "keyword": "mending",
-          "level": null,
-          "filename": "extra_mending",
-          "id": "H",
-          "requirements": [
-            {
-              "number": "387",
-              "character": "正",
-              "keyword": "correct",
-              "level": "Elementary",
-              "filename": "387_correct",
-              "id": "G",
-              "requirements": [
-                {
-                  "number": "1",
-                  "character": "一",
-                  "keyword": "one",
-                  "level": "Elementary",
-                  "filename": "1_one",
-                  "id": "E",
-                  "requirements": []
-                },
-                {
-                  "number": "379",
-                  "character": "止",
-                  "keyword": "stop",
-                  "level": "Medium",
-                  "filename": "379_stop",
-                  "id": "F",
-                  "requirements": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "number": "158",
-          "character": "土",
-          "keyword": "soil",
-          "level": "Medium",
-          "filename": "158_soil",
-          "id": "I",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 425,
+  "hierarchy": {
+    "number": "393",
+    "character": "越",
+    "keyword": "surpass",
+    "level": "Medium",
+    "filename": "393_surpass",
+    "id": "K",
+    "requirements": [
+      {
+        "number": null,
+        "character": "戊",
+        "keyword": "parade",
+        "level": null,
+        "filename": "primitive_parade",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "361",
+            "character": "戈",
+            "keyword": "halberd",
+            "level": null,
+            "filename": "361_halberd",
+            "id": "C",
+            "requirements": [
+              {
+                "number": null,
+                "character": "弋",
+                "keyword": "arrow",
+                "level": null,
+                "filename": "primitive_arrow",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": "391",
+        "character": "走",
+        "keyword": "walk",
+        "level": "Elementary",
+        "filename": "391_walk",
+        "id": "J",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧走－十",
+            "keyword": "mending",
+            "level": null,
+            "filename": "primitive_mending",
+            "id": "H",
+            "requirements": [
+              {
+                "number": "387",
+                "character": "正",
+                "keyword": "correct",
+                "level": "Elementary",
+                "filename": "387_correct",
+                "id": "G",
+                "requirements": [
+                  {
+                    "number": "1",
+                    "character": "一",
+                    "keyword": "one",
+                    "level": "Elementary",
+                    "filename": "1_one",
+                    "id": "E",
+                    "requirements": []
+                  },
+                  {
+                    "number": "379",
+                    "character": "止",
+                    "keyword": "stop",
+                    "level": "Medium",
+                    "filename": "379_stop",
+                    "id": "F",
+                    "requirements": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "number": "158",
+            "character": "土",
+            "keyword": "soil",
+            "level": "Medium",
+            "filename": "158_soil",
+            "id": "I",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

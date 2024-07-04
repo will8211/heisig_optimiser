@@ -1,57 +1,60 @@
 {
-  "number": "1352",
-  "character": "恶",
-  "keyword": "evil",
-  "level": "Advanced",
-  "filename": "1352_evil",
-  "id": "G",
-  "requirements": [
-    {
-      "number": "1351",
-      "character": "亚",
-      "keyword": "Asia",
-      "level": "Advanced",
-      "filename": "1351_Asia",
-      "id": "E",
-      "requirements": [
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "filename": "1_one",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "1349",
-          "character": "业",
-          "keyword": "profession",
-          "level": "Medium",
-          "filename": "1349_profession",
-          "id": "D",
-          "requirements": [
-            {
-              "number": null,
-              "character": "並",
-              "keyword": "side by side",
-              "level": null,
-              "filename": "extra_side_by_side",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": "563",
-      "character": "心",
-      "keyword": "heart",
-      "level": "Medium",
-      "filename": "563_heart",
-      "id": "F",
-      "requirements": []
-    }
-  ]
+  "order": 1472,
+  "hierarchy": {
+    "number": "1352",
+    "character": "恶",
+    "keyword": "evil",
+    "level": "Advanced",
+    "filename": "1352_evil",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "1351",
+        "character": "亚",
+        "keyword": "Asia",
+        "level": "Advanced",
+        "filename": "1351_Asia",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "1349",
+            "character": "业",
+            "keyword": "profession",
+            "level": "Medium",
+            "filename": "1349_profession",
+            "id": "D",
+            "requirements": [
+              {
+                "number": null,
+                "character": "並",
+                "keyword": "side by side",
+                "level": null,
+                "filename": "primitive_side_by_side",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": "563",
+        "character": "心",
+        "keyword": "heart",
+        "level": "Medium",
+        "filename": "563_heart",
+        "id": "F",
+        "requirements": []
+      }
+    ]
+  }
 }

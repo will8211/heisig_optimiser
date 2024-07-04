@@ -1,85 +1,88 @@
 {
-  "number": "1649",
-  "character": "谓",
-  "keyword": "meaning",
-  "level": "Advanced",
-  "filename": "1649_meaning",
-  "id": "J",
-  "requirements": [
-    {
-      "number": "346",
-      "character": "言",
-      "keyword": "say",
-      "level": "Medium",
-      "filename": "346_say",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "2",
-          "character": "二",
-          "keyword": "two",
-          "level": "Elementary",
-          "filename": "2_two",
-          "id": "C",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "filename": "11_mouth",
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "亠",
-          "keyword": "top hat",
-          "level": null,
-          "filename": "extra_top_hat",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "29",
-      "character": "胃",
-      "keyword": "stomach",
-      "level": "Advanced",
-      "filename": "29_stomach",
-      "id": "I",
-      "requirements": [
-        {
-          "number": "13",
-          "character": "月",
-          "keyword": "month",
-          "level": "Elementary",
-          "filename": "13_month",
-          "id": "G",
-          "requirements": []
-        },
-        {
-          "number": "14",
-          "character": "田",
-          "keyword": "rice field",
-          "level": "Medium",
-          "filename": "14_rice_field",
-          "id": "H",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1791,
+  "hierarchy": {
+    "number": "1649",
+    "character": "谓",
+    "keyword": "meaning",
+    "level": "Advanced",
+    "filename": "1649_meaning",
+    "id": "J",
+    "requirements": [
+      {
+        "number": "346",
+        "character": "言",
+        "keyword": "say",
+        "level": "Medium",
+        "filename": "346_say",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "2",
+            "character": "二",
+            "keyword": "two",
+            "level": "Elementary",
+            "filename": "2_two",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "亠",
+            "keyword": "top hat",
+            "level": null,
+            "filename": "primitive_top_hat",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "29",
+        "character": "胃",
+        "keyword": "stomach",
+        "level": "Advanced",
+        "filename": "29_stomach",
+        "id": "I",
+        "requirements": [
+          {
+            "number": "13",
+            "character": "月",
+            "keyword": "month",
+            "level": "Elementary",
+            "filename": "13_month",
+            "id": "G",
+            "requirements": []
+          },
+          {
+            "number": "14",
+            "character": "田",
+            "keyword": "rice field",
+            "level": "Medium",
+            "filename": "14_rice_field",
+            "id": "H",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,85 +1,88 @@
 {
-  "number": "1052",
-  "character": "露",
-  "keyword": "dew",
-  "level": null,
-  "filename": "1052_dew",
-  "id": "J",
-  "requirements": [
-    {
-      "number": "425",
-      "character": "雨",
-      "keyword": "rain",
-      "level": "Elementary",
-      "filename": "425_rain",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1051",
-      "character": "路",
-      "keyword": "path",
-      "level": "Elementary",
-      "filename": "1051_path",
-      "id": "I",
-      "requirements": [
-        {
-          "number": "1048",
-          "character": "足",
-          "keyword": "lower leg",
-          "level": "Medium",
-          "filename": "1048_lower_leg",
-          "id": "E",
-          "requirements": [
-            {
-              "number": "11",
-              "character": "口",
-              "keyword": "mouth",
-              "level": "Elementary",
-              "filename": "11_mouth",
-              "id": "C",
-              "requirements": []
-            },
-            {
-              "number": "379",
-              "character": "止",
-              "keyword": "stop",
-              "level": "Medium",
-              "filename": "379_stop",
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "309",
-          "character": "各",
-          "keyword": "each",
-          "level": "Medium",
-          "filename": "309_each",
-          "id": "H",
-          "requirements": [
-            {
-              "number": "11",
-              "character": "口",
-              "keyword": "mouth",
-              "level": "Elementary",
-              "filename": "11_mouth",
-              "id": "F",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "夂",
-              "keyword": "walking legs",
-              "level": null,
-              "filename": "extra_walking_legs",
-              "id": "G",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 1132,
+  "hierarchy": {
+    "number": "1052",
+    "character": "露",
+    "keyword": "dew",
+    "level": null,
+    "filename": "1052_dew",
+    "id": "J",
+    "requirements": [
+      {
+        "number": "425",
+        "character": "雨",
+        "keyword": "rain",
+        "level": "Elementary",
+        "filename": "425_rain",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1051",
+        "character": "路",
+        "keyword": "path",
+        "level": "Elementary",
+        "filename": "1051_path",
+        "id": "I",
+        "requirements": [
+          {
+            "number": "1048",
+            "character": "足",
+            "keyword": "lower leg",
+            "level": "Medium",
+            "filename": "1048_lower_leg",
+            "id": "E",
+            "requirements": [
+              {
+                "number": "11",
+                "character": "口",
+                "keyword": "mouth",
+                "level": "Elementary",
+                "filename": "11_mouth",
+                "id": "C",
+                "requirements": []
+              },
+              {
+                "number": "379",
+                "character": "止",
+                "keyword": "stop",
+                "level": "Medium",
+                "filename": "379_stop",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "309",
+            "character": "各",
+            "keyword": "each",
+            "level": "Medium",
+            "filename": "309_each",
+            "id": "H",
+            "requirements": [
+              {
+                "number": "11",
+                "character": "口",
+                "keyword": "mouth",
+                "level": "Elementary",
+                "filename": "11_mouth",
+                "id": "F",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "夂",
+                "keyword": "walking legs",
+                "level": null,
+                "filename": "primitive_walking_legs",
+                "id": "G",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

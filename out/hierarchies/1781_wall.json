@@ -1,66 +1,69 @@
 {
-  "number": "1781",
-  "character": "墙",
-  "keyword": "wall",
-  "level": "Advanced",
-  "filename": "1781_wall",
-  "id": "H",
-  "requirements": [
-    {
-      "number": "158",
-      "character": "土",
-      "keyword": "soil",
-      "level": "Medium",
-      "filename": "158_soil",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "丷",
-      "keyword": "horns",
-      "level": null,
-      "filename": "extra_horns",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "filename": "1_one",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "554",
-      "character": "回",
-      "keyword": "return",
-      "level": "Elementary",
-      "filename": "554_return",
-      "id": "G",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囗",
-          "keyword": "pent in",
-          "level": null,
-          "filename": "extra_pent_in",
-          "id": "E",
-          "requirements": []
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "filename": "11_mouth",
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1931,
+  "hierarchy": {
+    "number": "1781",
+    "character": "墙",
+    "keyword": "wall",
+    "level": "Advanced",
+    "filename": "1781_wall",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "158",
+        "character": "土",
+        "keyword": "soil",
+        "level": "Medium",
+        "filename": "158_soil",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "丷",
+        "keyword": "horns",
+        "level": null,
+        "filename": "primitive_horns",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "554",
+        "character": "回",
+        "keyword": "return",
+        "level": "Elementary",
+        "filename": "554_return",
+        "id": "G",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囗",
+            "keyword": "pent in",
+            "level": null,
+            "filename": "primitive_pent_in",
+            "id": "E",
+            "requirements": []
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

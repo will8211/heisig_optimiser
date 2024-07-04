@@ -1,143 +1,146 @@
 {
-  "number": "2665",
-  "character": "癌",
-  "keyword": "cancer",
-  "level": null,
-  "filename": "2665_cancer",
-  "id": "P",
-  "requirements": [
-    {
-      "number": null,
-      "character": "疒",
-      "keyword": "sickness",
-      "level": null,
-      "filename": "extra_sickness",
-      "id": "J",
-      "requirements": [
-        {
-          "number": "556",
-          "character": "广",
-          "keyword": "extensive",
-          "level": "Medium",
-          "filename": "556_extensive",
-          "id": "D",
-          "requirements": [
-            {
-              "number": "121",
-              "character": "厂",
-              "keyword": "factory",
-              "level": "Medium",
-              "filename": "121_factory",
-              "id": "B",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "宀",
-              "keyword": "house",
-              "level": null,
-              "filename": "extra_house",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "冫",
-          "keyword": "ice",
-          "level": null,
-          "filename": "extra_ice",
-          "id": "I",
-          "requirements": [
-            {
-              "number": "137",
-              "character": "水",
-              "keyword": "water",
-              "level": "Elementary",
-              "filename": "137_water",
-              "id": "H",
-              "requirements": [
-                {
-                  "number": null,
-                  "character": "丨",
-                  "keyword": "walking stick",
-                  "level": null,
-                  "filename": "extra_walking_stick",
-                  "id": "F",
-                  "requirements": [
-                    {
-                      "number": "1",
-                      "character": "一",
-                      "keyword": "one",
-                      "level": "Elementary",
-                      "filename": "1_one",
-                      "id": "E",
-                      "requirements": []
-                    }
-                  ]
-                },
-                {
-                  "number": null,
-                  "character": "丶",
-                  "keyword": "a drop of",
-                  "level": null,
-                  "filename": "extra_a_drop_of",
-                  "id": "G",
-                  "requirements": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": "24",
-      "character": "品",
-      "keyword": "goods",
-      "level": "Advanced",
-      "filename": "24_goods",
-      "id": "N",
-      "requirements": [
-        {
-          "number": "23",
-          "character": "晶",
-          "keyword": "sparkling",
-          "level": null,
-          "filename": "23_sparkling",
-          "id": "L",
-          "requirements": [
-            {
-              "number": "12",
-              "character": "日",
-              "keyword": "day",
-              "level": "Elementary",
-              "filename": "12_day",
-              "id": "K",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "filename": "11_mouth",
-          "id": "M",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "688",
-      "character": "山",
-      "keyword": "mountain",
-      "level": "Elementary",
-      "filename": "688_mountain",
-      "id": "O",
-      "requirements": []
-    }
-  ]
+  "order": 2854,
+  "hierarchy": {
+    "number": "2665",
+    "character": "癌",
+    "keyword": "cancer",
+    "level": null,
+    "filename": "2665_cancer",
+    "id": "P",
+    "requirements": [
+      {
+        "number": null,
+        "character": "疒",
+        "keyword": "sickness",
+        "level": null,
+        "filename": "primitive_sickness",
+        "id": "J",
+        "requirements": [
+          {
+            "number": "556",
+            "character": "广",
+            "keyword": "extensive",
+            "level": "Medium",
+            "filename": "556_extensive",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "121",
+                "character": "厂",
+                "keyword": "factory",
+                "level": "Medium",
+                "filename": "121_factory",
+                "id": "B",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "宀",
+                "keyword": "house",
+                "level": null,
+                "filename": "primitive_house",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "冫",
+            "keyword": "ice",
+            "level": null,
+            "filename": "primitive_ice",
+            "id": "I",
+            "requirements": [
+              {
+                "number": "137",
+                "character": "水",
+                "keyword": "water",
+                "level": "Elementary",
+                "filename": "137_water",
+                "id": "H",
+                "requirements": [
+                  {
+                    "number": null,
+                    "character": "丨",
+                    "keyword": "walking stick",
+                    "level": null,
+                    "filename": "primitive_walking_stick",
+                    "id": "F",
+                    "requirements": [
+                      {
+                        "number": "1",
+                        "character": "一",
+                        "keyword": "one",
+                        "level": "Elementary",
+                        "filename": "1_one",
+                        "id": "E",
+                        "requirements": []
+                      }
+                    ]
+                  },
+                  {
+                    "number": null,
+                    "character": "丶",
+                    "keyword": "a drop of",
+                    "level": null,
+                    "filename": "primitive_a_drop_of",
+                    "id": "G",
+                    "requirements": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": "24",
+        "character": "品",
+        "keyword": "goods",
+        "level": "Advanced",
+        "filename": "24_goods",
+        "id": "N",
+        "requirements": [
+          {
+            "number": "23",
+            "character": "晶",
+            "keyword": "sparkling",
+            "level": null,
+            "filename": "23_sparkling",
+            "id": "L",
+            "requirements": [
+              {
+                "number": "12",
+                "character": "日",
+                "keyword": "day",
+                "level": "Elementary",
+                "filename": "12_day",
+                "id": "K",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "M",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "688",
+        "character": "山",
+        "keyword": "mountain",
+        "level": "Elementary",
+        "filename": "688_mountain",
+        "id": "O",
+        "requirements": []
+      }
+    ]
+  }
 }

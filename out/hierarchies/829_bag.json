@@ -1,57 +1,60 @@
 {
-  "number": "829",
-  "character": "袋",
-  "keyword": "bag",
-  "level": "Advanced",
-  "filename": "829_bag",
-  "id": "G",
-  "requirements": [
-    {
-      "number": "828",
-      "character": "代",
-      "keyword": "substitute for",
-      "level": "Advanced",
-      "filename": "828_substitute_for",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "793",
-          "character": "人",
-          "keyword": "person",
-          "level": "Elementary",
-          "filename": "793_person",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "弋",
-          "keyword": "arrow",
-          "level": null,
-          "filename": "extra_arrow",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "400",
-      "character": "衣",
-      "keyword": "clothing",
-      "level": "Elementary",
-      "filename": "400_clothing",
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "亠",
-          "keyword": "top hat",
-          "level": null,
-          "filename": "extra_top_hat",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 891,
+  "hierarchy": {
+    "number": "829",
+    "character": "袋",
+    "keyword": "bag",
+    "level": "Advanced",
+    "filename": "829_bag",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "828",
+        "character": "代",
+        "keyword": "substitute for",
+        "level": "Advanced",
+        "filename": "828_substitute_for",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "793",
+            "character": "人",
+            "keyword": "person",
+            "level": "Elementary",
+            "filename": "793_person",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "弋",
+            "keyword": "arrow",
+            "level": null,
+            "filename": "primitive_arrow",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "400",
+        "character": "衣",
+        "keyword": "clothing",
+        "level": "Elementary",
+        "filename": "400_clothing",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "亠",
+            "keyword": "top hat",
+            "level": null,
+            "filename": "primitive_top_hat",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

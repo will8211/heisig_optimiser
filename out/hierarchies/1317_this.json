@@ -1,47 +1,50 @@
 {
-  "number": "1317",
-  "character": "这",
-  "keyword": "this",
-  "level": "Elementary",
-  "filename": "1317_this",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "1315",
-      "character": "文",
-      "keyword": "literature",
-      "level": "Elementary",
-      "filename": "1315_literature",
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "亠",
-          "keyword": "top hat",
-          "level": null,
-          "filename": "extra_top_hat",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "㐅",
-          "keyword": "sheaf",
-          "level": null,
-          "filename": "extra_sheaf",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "辶",
-      "keyword": "road",
-      "level": null,
-      "filename": "extra_road",
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 1433,
+  "hierarchy": {
+    "number": "1317",
+    "character": "这",
+    "keyword": "this",
+    "level": "Elementary",
+    "filename": "1317_this",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "1315",
+        "character": "文",
+        "keyword": "literature",
+        "level": "Elementary",
+        "filename": "1315_literature",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "亠",
+            "keyword": "top hat",
+            "level": null,
+            "filename": "primitive_top_hat",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "㐅",
+            "keyword": "sheaf",
+            "level": null,
+            "filename": "primitive_sheaf",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "辶",
+        "keyword": "road",
+        "level": null,
+        "filename": "primitive_road",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

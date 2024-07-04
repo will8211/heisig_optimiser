@@ -1,76 +1,79 @@
 {
-  "number": "2131",
-  "character": "葱",
-  "keyword": "onion",
-  "level": null,
-  "filename": "2131_onion",
-  "id": "I",
-  "requirements": [
-    {
-      "number": null,
-      "character": "艹",
-      "keyword": "flower",
-      "level": null,
-      "filename": "extra_flower",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "2130",
-      "character": "匆",
-      "keyword": "hurriedly",
-      "level": null,
-      "filename": "2130_hurriedly",
-      "id": "G",
-      "requirements": [
-        {
-          "number": "877",
-          "character": "勿",
-          "keyword": "not",
-          "level": null,
-          "filename": "877_not",
-          "id": "E",
-          "requirements": [
-            {
-              "number": null,
-              "character": "𠃓",
-              "keyword": "piglets",
-              "level": null,
-              "filename": "extra_piglets",
-              "id": "D",
-              "requirements": [
-                {
-                  "number": null,
-                  "character": "豕",
-                  "keyword": "sow",
-                  "level": null,
-                  "filename": "extra_sow",
-                  "id": "C",
-                  "requirements": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "563",
-      "character": "心",
-      "keyword": "heart",
-      "level": "Medium",
-      "filename": "563_heart",
-      "id": "H",
-      "requirements": []
-    }
-  ]
+  "order": 2292,
+  "hierarchy": {
+    "number": "2131",
+    "character": "葱",
+    "keyword": "onion",
+    "level": null,
+    "filename": "2131_onion",
+    "id": "I",
+    "requirements": [
+      {
+        "number": null,
+        "character": "艹",
+        "keyword": "flower",
+        "level": null,
+        "filename": "primitive_flower",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "2130",
+        "character": "匆",
+        "keyword": "hurriedly",
+        "level": null,
+        "filename": "2130_hurriedly",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "877",
+            "character": "勿",
+            "keyword": "not",
+            "level": null,
+            "filename": "877_not",
+            "id": "E",
+            "requirements": [
+              {
+                "number": null,
+                "character": "𠃓",
+                "keyword": "piglets",
+                "level": null,
+                "filename": "primitive_piglets",
+                "id": "D",
+                "requirements": [
+                  {
+                    "number": null,
+                    "character": "豕",
+                    "keyword": "sow",
+                    "level": null,
+                    "filename": "primitive_sow",
+                    "id": "C",
+                    "requirements": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "563",
+        "character": "心",
+        "keyword": "heart",
+        "level": "Medium",
+        "filename": "563_heart",
+        "id": "H",
+        "requirements": []
+      }
+    ]
+  }
 }

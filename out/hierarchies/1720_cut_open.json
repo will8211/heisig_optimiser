@@ -1,47 +1,50 @@
 {
-  "number": "1720",
-  "character": "剖",
-  "keyword": "cut open",
-  "level": null,
-  "filename": "1720_cut_open",
-  "id": "F",
-  "requirements": [
-    {
-      "number": null,
-      "character": "咅",
-      "keyword": "muzzle",
-      "level": null,
-      "filename": "extra_muzzle",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "444",
-          "character": "立",
-          "keyword": "standing up",
-          "level": "Advanced",
-          "filename": "444_standing_up",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "filename": "11_mouth",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "83",
-      "character": "刀",
-      "keyword": "sword",
-      "level": "Medium",
-      "filename": "83_sword",
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 1865,
+  "hierarchy": {
+    "number": "1720",
+    "character": "剖",
+    "keyword": "cut open",
+    "level": null,
+    "filename": "1720_cut_open",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "咅",
+        "keyword": "muzzle",
+        "level": null,
+        "filename": "primitive_muzzle",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "444",
+            "character": "立",
+            "keyword": "standing up",
+            "level": "Advanced",
+            "filename": "444_standing_up",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "83",
+        "character": "刀",
+        "keyword": "sword",
+        "level": "Medium",
+        "filename": "83_sword",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

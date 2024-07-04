@@ -1,85 +1,88 @@
 {
-  "number": "473",
-  "character": "腹",
-  "keyword": "abdomen",
-  "level": null,
-  "filename": "473_abdomen",
-  "id": "J",
-  "requirements": [
-    {
-      "number": "813",
-      "character": "体",
-      "keyword": "body",
-      "level": "Elementary",
-      "filename": "813_body",
-      "id": "E",
-      "requirements": [
-        {
-          "number": "793",
-          "character": "人",
-          "keyword": "person",
-          "level": "Elementary",
-          "filename": "793_person",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "213",
-          "character": "本",
-          "keyword": "notebook",
-          "level": "Elementary",
-          "filename": "213_notebook",
-          "id": "D",
-          "requirements": [
-            {
-              "number": "202",
-              "character": "木",
-              "keyword": "tree",
-              "level": "Elementary",
-              "filename": "202_tree",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": "472",
-      "character": "复",
-      "keyword": "duplicate",
-      "level": "Medium",
-      "filename": "472_duplicate",
-      "id": "I",
-      "requirements": [
-        {
-          "number": null,
-          "character": "𠂉",
-          "keyword": "reclining",
-          "level": null,
-          "filename": "extra_reclining",
-          "id": "F",
-          "requirements": []
-        },
-        {
-          "number": "12",
-          "character": "日",
-          "keyword": "day",
-          "level": "Elementary",
-          "filename": "12_day",
-          "id": "G",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "夂",
-          "keyword": "walking legs",
-          "level": null,
-          "filename": "extra_walking_legs",
-          "id": "H",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 516,
+  "hierarchy": {
+    "number": "473",
+    "character": "腹",
+    "keyword": "abdomen",
+    "level": null,
+    "filename": "473_abdomen",
+    "id": "J",
+    "requirements": [
+      {
+        "number": "813",
+        "character": "体",
+        "keyword": "body",
+        "level": "Elementary",
+        "filename": "813_body",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "793",
+            "character": "人",
+            "keyword": "person",
+            "level": "Elementary",
+            "filename": "793_person",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "213",
+            "character": "本",
+            "keyword": "notebook",
+            "level": "Elementary",
+            "filename": "213_notebook",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "202",
+                "character": "木",
+                "keyword": "tree",
+                "level": "Elementary",
+                "filename": "202_tree",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": "472",
+        "character": "复",
+        "keyword": "duplicate",
+        "level": "Medium",
+        "filename": "472_duplicate",
+        "id": "I",
+        "requirements": [
+          {
+            "number": null,
+            "character": "𠂉",
+            "keyword": "reclining",
+            "level": null,
+            "filename": "primitive_reclining",
+            "id": "F",
+            "requirements": []
+          },
+          {
+            "number": "12",
+            "character": "日",
+            "keyword": "day",
+            "level": "Elementary",
+            "filename": "12_day",
+            "id": "G",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "夂",
+            "keyword": "walking legs",
+            "level": null,
+            "filename": "primitive_walking_legs",
+            "id": "H",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

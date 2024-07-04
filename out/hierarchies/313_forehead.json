@@ -1,113 +1,116 @@
 {
-  "number": "313",
-  "character": "额",
-  "keyword": "forehead",
-  "level": null,
-  "filename": "313_forehead",
-  "id": "M",
-  "requirements": [
-    {
-      "number": "312",
-      "character": "客",
-      "keyword": "guest",
-      "level": "Medium",
-      "filename": "312_guest",
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "宀",
-          "keyword": "house",
-          "level": null,
-          "filename": "extra_house",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "309",
-          "character": "各",
-          "keyword": "each",
-          "level": "Medium",
-          "filename": "309_each",
-          "id": "E",
-          "requirements": [
-            {
-              "number": "11",
-              "character": "口",
-              "keyword": "mouth",
-              "level": "Elementary",
-              "filename": "11_mouth",
-              "id": "C",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "夂",
-              "keyword": "walking legs",
-              "level": null,
-              "filename": "extra_walking_legs",
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": "60",
-      "character": "页",
-      "keyword": "page",
-      "level": "Medium",
-      "filename": "60_page",
-      "id": "L",
-      "requirements": [
-        {
-          "number": "52",
-          "character": "贝",
-          "keyword": "shellfish",
-          "level": "Medium",
-          "filename": "52_shellfish",
-          "id": "I",
-          "requirements": [
-            {
-              "number": "15",
-              "character": "目",
-              "keyword": "eye",
-              "level": "Medium",
-              "filename": "15_eye",
-              "id": "G",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "囧只－口",
-              "keyword": "animal legs",
-              "level": null,
-              "filename": "extra_animal_legs",
-              "id": "H",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "filename": "1_one",
-          "id": "J",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "K",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 333,
+  "hierarchy": {
+    "number": "313",
+    "character": "额",
+    "keyword": "forehead",
+    "level": null,
+    "filename": "313_forehead",
+    "id": "M",
+    "requirements": [
+      {
+        "number": "312",
+        "character": "客",
+        "keyword": "guest",
+        "level": "Medium",
+        "filename": "312_guest",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "宀",
+            "keyword": "house",
+            "level": null,
+            "filename": "primitive_house",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "309",
+            "character": "各",
+            "keyword": "each",
+            "level": "Medium",
+            "filename": "309_each",
+            "id": "E",
+            "requirements": [
+              {
+                "number": "11",
+                "character": "口",
+                "keyword": "mouth",
+                "level": "Elementary",
+                "filename": "11_mouth",
+                "id": "C",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "夂",
+                "keyword": "walking legs",
+                "level": null,
+                "filename": "primitive_walking_legs",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": "60",
+        "character": "页",
+        "keyword": "page",
+        "level": "Medium",
+        "filename": "60_page",
+        "id": "L",
+        "requirements": [
+          {
+            "number": "52",
+            "character": "贝",
+            "keyword": "shellfish",
+            "level": "Medium",
+            "filename": "52_shellfish",
+            "id": "I",
+            "requirements": [
+              {
+                "number": "15",
+                "character": "目",
+                "keyword": "eye",
+                "level": "Medium",
+                "filename": "15_eye",
+                "id": "G",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "囧只－口",
+                "keyword": "animal legs",
+                "level": null,
+                "filename": "primitive_animal_legs",
+                "id": "H",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "J",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "K",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

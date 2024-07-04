@@ -1,103 +1,106 @@
 {
-  "number": "1648",
-  "character": "瞻",
-  "keyword": "look upward",
-  "level": null,
-  "filename": "1648_look_upward",
-  "id": "L",
-  "requirements": [
-    {
-      "number": "15",
-      "character": "目",
-      "keyword": "eye",
-      "level": "Medium",
-      "filename": "15_eye",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "詹",
-      "keyword": "snitch",
-      "level": null,
-      "filename": "extra_snitch",
-      "id": "K",
-      "requirements": [
-        {
-          "number": null,
-          "character": "勹",
-          "keyword": "bound up",
-          "level": null,
-          "filename": "extra_bound_up",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "囧只－口",
-          "keyword": "animal legs",
-          "level": null,
-          "filename": "extra_animal_legs",
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": "121",
-          "character": "厂",
-          "keyword": "factory",
-          "level": "Medium",
-          "filename": "121_factory",
-          "id": "E",
-          "requirements": []
-        },
-        {
-          "number": "346",
-          "character": "言",
-          "keyword": "say",
-          "level": "Medium",
-          "filename": "346_say",
-          "id": "J",
-          "requirements": [
-            {
-              "number": "2",
-              "character": "二",
-              "keyword": "two",
-              "level": "Elementary",
-              "filename": "2_two",
-              "id": "G",
-              "requirements": [
-                {
-                  "number": "1",
-                  "character": "一",
-                  "keyword": "one",
-                  "level": "Elementary",
-                  "filename": "1_one",
-                  "id": "F",
-                  "requirements": []
-                }
-              ]
-            },
-            {
-              "number": "11",
-              "character": "口",
-              "keyword": "mouth",
-              "level": "Elementary",
-              "filename": "11_mouth",
-              "id": "H",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "亠",
-              "keyword": "top hat",
-              "level": null,
-              "filename": "extra_top_hat",
-              "id": "I",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 1790,
+  "hierarchy": {
+    "number": "1648",
+    "character": "瞻",
+    "keyword": "look upward",
+    "level": null,
+    "filename": "1648_look_upward",
+    "id": "L",
+    "requirements": [
+      {
+        "number": "15",
+        "character": "目",
+        "keyword": "eye",
+        "level": "Medium",
+        "filename": "15_eye",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "詹",
+        "keyword": "snitch",
+        "level": null,
+        "filename": "primitive_snitch",
+        "id": "K",
+        "requirements": [
+          {
+            "number": null,
+            "character": "勹",
+            "keyword": "bound up",
+            "level": null,
+            "filename": "primitive_bound_up",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "囧只－口",
+            "keyword": "animal legs",
+            "level": null,
+            "filename": "primitive_animal_legs",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": "121",
+            "character": "厂",
+            "keyword": "factory",
+            "level": "Medium",
+            "filename": "121_factory",
+            "id": "E",
+            "requirements": []
+          },
+          {
+            "number": "346",
+            "character": "言",
+            "keyword": "say",
+            "level": "Medium",
+            "filename": "346_say",
+            "id": "J",
+            "requirements": [
+              {
+                "number": "2",
+                "character": "二",
+                "keyword": "two",
+                "level": "Elementary",
+                "filename": "2_two",
+                "id": "G",
+                "requirements": [
+                  {
+                    "number": "1",
+                    "character": "一",
+                    "keyword": "one",
+                    "level": "Elementary",
+                    "filename": "1_one",
+                    "id": "F",
+                    "requirements": []
+                  }
+                ]
+              },
+              {
+                "number": "11",
+                "character": "口",
+                "keyword": "mouth",
+                "level": "Elementary",
+                "filename": "11_mouth",
+                "id": "H",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "亠",
+                "keyword": "top hat",
+                "level": null,
+                "filename": "primitive_top_hat",
+                "id": "I",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

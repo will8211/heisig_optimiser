@@ -1,28 +1,31 @@
 {
-  "number": "828",
-  "character": "代",
-  "keyword": "substitute for",
-  "level": "Advanced",
-  "filename": "828_substitute_for",
-  "id": "D",
-  "requirements": [
-    {
-      "number": "793",
-      "character": "人",
-      "keyword": "person",
-      "level": "Elementary",
-      "filename": "793_person",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "弋",
-      "keyword": "arrow",
-      "level": null,
-      "filename": "extra_arrow",
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 890,
+  "hierarchy": {
+    "number": "828",
+    "character": "代",
+    "keyword": "substitute for",
+    "level": "Advanced",
+    "filename": "828_substitute_for",
+    "id": "D",
+    "requirements": [
+      {
+        "number": "793",
+        "character": "人",
+        "keyword": "person",
+        "level": "Elementary",
+        "filename": "793_person",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "弋",
+        "keyword": "arrow",
+        "level": null,
+        "filename": "primitive_arrow",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

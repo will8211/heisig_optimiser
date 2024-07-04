@@ -1,57 +1,60 @@
 {
-  "number": "132",
-  "character": "省",
-  "keyword": "economize",
-  "level": "Medium",
-  "filename": "132_economize",
-  "id": "G",
-  "requirements": [
-    {
-      "number": "15",
-      "character": "目",
-      "keyword": "eye",
-      "level": "Medium",
-      "filename": "15_eye",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "110",
-      "character": "少",
-      "keyword": "few",
-      "level": "Elementary",
-      "filename": "110_few",
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "109",
-          "character": "小",
-          "keyword": "small",
-          "level": "Elementary",
-          "filename": "109_small",
-          "id": "E",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "filename": "extra_a_drop_of",
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 140,
+  "hierarchy": {
+    "number": "132",
+    "character": "省",
+    "keyword": "economize",
+    "level": "Medium",
+    "filename": "132_economize",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "15",
+        "character": "目",
+        "keyword": "eye",
+        "level": "Medium",
+        "filename": "15_eye",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "110",
+        "character": "少",
+        "keyword": "few",
+        "level": "Elementary",
+        "filename": "110_few",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "109",
+            "character": "小",
+            "keyword": "small",
+            "level": "Elementary",
+            "filename": "109_small",
+            "id": "E",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,95 +1,98 @@
 {
-  "number": "1949",
-  "character": "滚",
-  "keyword": "trundle",
-  "level": "Advanced",
-  "filename": "1949_trundle",
-  "id": "K",
-  "requirements": [
-    {
-      "number": "137",
-      "character": "水",
-      "keyword": "water",
-      "level": "Elementary",
-      "filename": "137_water",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丨",
-          "keyword": "walking stick",
-          "level": null,
-          "filename": "extra_walking_stick",
-          "id": "C",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "400",
-      "character": "衣",
-      "keyword": "clothing",
-      "level": "Elementary",
-      "filename": "400_clothing",
-      "id": "G",
-      "requirements": [
-        {
-          "number": null,
-          "character": "亠",
-          "keyword": "top hat",
-          "level": null,
-          "filename": "extra_top_hat",
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "696",
-      "character": "公",
-      "keyword": "public",
-      "level": "Medium",
-      "filename": "696_public",
-      "id": "J",
-      "requirements": [
-        {
-          "number": "8",
-          "character": "八",
-          "keyword": "eight",
-          "level": "Elementary",
-          "filename": "8_eight",
-          "id": "H",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "厶",
-          "keyword": "elbow",
-          "level": null,
-          "filename": "extra_elbow",
-          "id": "I",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2105,
+  "hierarchy": {
+    "number": "1949",
+    "character": "滚",
+    "keyword": "trundle",
+    "level": "Advanced",
+    "filename": "1949_trundle",
+    "id": "K",
+    "requirements": [
+      {
+        "number": "137",
+        "character": "水",
+        "keyword": "water",
+        "level": "Elementary",
+        "filename": "137_water",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丨",
+            "keyword": "walking stick",
+            "level": null,
+            "filename": "primitive_walking_stick",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "400",
+        "character": "衣",
+        "keyword": "clothing",
+        "level": "Elementary",
+        "filename": "400_clothing",
+        "id": "G",
+        "requirements": [
+          {
+            "number": null,
+            "character": "亠",
+            "keyword": "top hat",
+            "level": null,
+            "filename": "primitive_top_hat",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "696",
+        "character": "公",
+        "keyword": "public",
+        "level": "Medium",
+        "filename": "696_public",
+        "id": "J",
+        "requirements": [
+          {
+            "number": "8",
+            "character": "八",
+            "keyword": "eight",
+            "level": "Elementary",
+            "filename": "8_eight",
+            "id": "H",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "厶",
+            "keyword": "elbow",
+            "level": null,
+            "filename": "primitive_elbow",
+            "id": "I",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

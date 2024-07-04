@@ -1,47 +1,50 @@
 {
-  "number": "1691",
-  "character": "蕾",
-  "keyword": "flower bud",
-  "level": null,
-  "filename": "1691_flower_bud",
-  "id": "F",
-  "requirements": [
-    {
-      "number": null,
-      "character": "艹",
-      "keyword": "flower",
-      "level": null,
-      "filename": "extra_flower",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "426",
-      "character": "雷",
-      "keyword": "thunder",
-      "level": "Advanced",
-      "filename": "426_thunder",
-      "id": "E",
-      "requirements": [
-        {
-          "number": "14",
-          "character": "田",
-          "keyword": "rice field",
-          "level": "Medium",
-          "filename": "14_rice_field",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "425",
-          "character": "雨",
-          "keyword": "rain",
-          "level": "Elementary",
-          "filename": "425_rain",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1836,
+  "hierarchy": {
+    "number": "1691",
+    "character": "蕾",
+    "keyword": "flower bud",
+    "level": null,
+    "filename": "1691_flower_bud",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "艹",
+        "keyword": "flower",
+        "level": null,
+        "filename": "primitive_flower",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "426",
+        "character": "雷",
+        "keyword": "thunder",
+        "level": "Advanced",
+        "filename": "426_thunder",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "14",
+            "character": "田",
+            "keyword": "rice field",
+            "level": "Medium",
+            "filename": "14_rice_field",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "425",
+            "character": "雨",
+            "keyword": "rain",
+            "level": "Elementary",
+            "filename": "425_rain",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

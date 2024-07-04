@@ -1,96 +1,99 @@
 {
-  "number": "1086",
-  "character": "终",
-  "keyword": "end",
-  "level": "Advanced",
-  "filename": "1086_end",
-  "id": "K",
-  "requirements": [
-    {
-      "number": null,
-      "character": "纟",
-      "keyword": "thread",
-      "level": null,
-      "filename": "extra_thread",
-      "id": "C",
-      "requirements": [
-        {
-          "number": null,
-          "character": "厶",
-          "keyword": "elbow",
-          "level": null,
-          "filename": "extra_elbow",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "435",
-      "character": "冬",
-      "keyword": "winter",
-      "level": "Medium",
-      "filename": "435_winter",
-      "id": "J",
-      "requirements": [
-        {
-          "number": null,
-          "character": "夂",
-          "keyword": "walking legs",
-          "level": null,
-          "filename": "extra_walking_legs",
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "冫",
-          "keyword": "ice",
-          "level": null,
-          "filename": "extra_ice",
-          "id": "I",
-          "requirements": [
-            {
-              "number": "137",
-              "character": "水",
-              "keyword": "water",
-              "level": "Elementary",
-              "filename": "137_water",
-              "id": "H",
-              "requirements": [
-                {
-                  "number": null,
-                  "character": "丨",
-                  "keyword": "walking stick",
-                  "level": null,
-                  "filename": "extra_walking_stick",
-                  "id": "F",
-                  "requirements": [
-                    {
-                      "number": "1",
-                      "character": "一",
-                      "keyword": "one",
-                      "level": "Elementary",
-                      "filename": "1_one",
-                      "id": "E",
-                      "requirements": []
-                    }
-                  ]
-                },
-                {
-                  "number": null,
-                  "character": "丶",
-                  "keyword": "a drop of",
-                  "level": null,
-                  "filename": "extra_a_drop_of",
-                  "id": "G",
-                  "requirements": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 1169,
+  "hierarchy": {
+    "number": "1086",
+    "character": "终",
+    "keyword": "end",
+    "level": "Advanced",
+    "filename": "1086_end",
+    "id": "K",
+    "requirements": [
+      {
+        "number": null,
+        "character": "纟",
+        "keyword": "thread",
+        "level": null,
+        "filename": "primitive_thread",
+        "id": "C",
+        "requirements": [
+          {
+            "number": null,
+            "character": "厶",
+            "keyword": "elbow",
+            "level": null,
+            "filename": "primitive_elbow",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "435",
+        "character": "冬",
+        "keyword": "winter",
+        "level": "Medium",
+        "filename": "435_winter",
+        "id": "J",
+        "requirements": [
+          {
+            "number": null,
+            "character": "夂",
+            "keyword": "walking legs",
+            "level": null,
+            "filename": "primitive_walking_legs",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "冫",
+            "keyword": "ice",
+            "level": null,
+            "filename": "primitive_ice",
+            "id": "I",
+            "requirements": [
+              {
+                "number": "137",
+                "character": "水",
+                "keyword": "water",
+                "level": "Elementary",
+                "filename": "137_water",
+                "id": "H",
+                "requirements": [
+                  {
+                    "number": null,
+                    "character": "丨",
+                    "keyword": "walking stick",
+                    "level": null,
+                    "filename": "primitive_walking_stick",
+                    "id": "F",
+                    "requirements": [
+                      {
+                        "number": "1",
+                        "character": "一",
+                        "keyword": "one",
+                        "level": "Elementary",
+                        "filename": "1_one",
+                        "id": "E",
+                        "requirements": []
+                      }
+                    ]
+                  },
+                  {
+                    "number": null,
+                    "character": "丶",
+                    "keyword": "a drop of",
+                    "level": null,
+                    "filename": "primitive_a_drop_of",
+                    "id": "G",
+                    "requirements": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

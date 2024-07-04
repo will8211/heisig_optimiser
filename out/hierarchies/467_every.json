@@ -1,38 +1,41 @@
 {
-  "number": "467",
-  "character": "每",
-  "keyword": "every",
-  "level": "Elementary",
-  "filename": "467_every",
-  "id": "E",
-  "requirements": [
-    {
-      "number": null,
-      "character": "𠂉",
-      "keyword": "reclining",
-      "level": null,
-      "filename": "extra_reclining",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "105",
-      "character": "母",
-      "keyword": "mother",
-      "level": "Advanced",
-      "filename": "105_mother",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "102",
-          "character": "女",
-          "keyword": "woman",
-          "level": "Elementary",
-          "filename": "102_woman",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 510,
+  "hierarchy": {
+    "number": "467",
+    "character": "每",
+    "keyword": "every",
+    "level": "Elementary",
+    "filename": "467_every",
+    "id": "E",
+    "requirements": [
+      {
+        "number": null,
+        "character": "𠂉",
+        "keyword": "reclining",
+        "level": null,
+        "filename": "primitive_reclining",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "105",
+        "character": "母",
+        "keyword": "mother",
+        "level": "Advanced",
+        "filename": "105_mother",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "102",
+            "character": "女",
+            "keyword": "woman",
+            "level": "Elementary",
+            "filename": "102_woman",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

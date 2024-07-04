@@ -1,66 +1,69 @@
 {
-  "number": "891",
-  "character": "据",
-  "keyword": "certificate",
-  "level": "Advanced",
-  "filename": "891_certificate",
-  "id": "H",
-  "requirements": [
-    {
-      "number": null,
-      "character": "扌",
-      "keyword": "fingers",
-      "level": null,
-      "filename": "extra_fingers",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "888",
-      "character": "居",
-      "keyword": "reside",
-      "level": "Advanced",
-      "filename": "888_reside",
-      "id": "G",
-      "requirements": [
-        {
-          "number": "882",
-          "character": "尸",
-          "keyword": "corpse",
-          "level": null,
-          "filename": "882_corpse",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "16",
-          "character": "古",
-          "keyword": "ancient",
-          "level": "Medium",
-          "filename": "16_ancient",
-          "id": "F",
-          "requirements": [
-            {
-              "number": "10",
-              "character": "十",
-              "keyword": "ten",
-              "level": "Elementary",
-              "filename": "10_ten",
-              "id": "D",
-              "requirements": []
-            },
-            {
-              "number": "11",
-              "character": "口",
-              "keyword": "mouth",
-              "level": "Elementary",
-              "filename": "11_mouth",
-              "id": "E",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 959,
+  "hierarchy": {
+    "number": "891",
+    "character": "据",
+    "keyword": "certificate",
+    "level": "Advanced",
+    "filename": "891_certificate",
+    "id": "H",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "primitive_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "888",
+        "character": "居",
+        "keyword": "reside",
+        "level": "Advanced",
+        "filename": "888_reside",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "882",
+            "character": "尸",
+            "keyword": "corpse",
+            "level": null,
+            "filename": "882_corpse",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "16",
+            "character": "古",
+            "keyword": "ancient",
+            "level": "Medium",
+            "filename": "16_ancient",
+            "id": "F",
+            "requirements": [
+              {
+                "number": "10",
+                "character": "十",
+                "keyword": "ten",
+                "level": "Elementary",
+                "filename": "10_ten",
+                "id": "D",
+                "requirements": []
+              },
+              {
+                "number": "11",
+                "character": "口",
+                "keyword": "mouth",
+                "level": "Elementary",
+                "filename": "11_mouth",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

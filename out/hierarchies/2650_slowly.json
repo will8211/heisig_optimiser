@@ -1,76 +1,79 @@
 {
-  "number": "2650",
-  "character": "徐",
-  "keyword": "slowly",
-  "level": null,
-  "filename": "2650_slowly",
-  "id": "I",
-  "requirements": [
-    {
-      "number": "754",
-      "character": "行",
-      "keyword": "line of business",
-      "level": "Elementary",
-      "filename": "754_line_of_business",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1283",
-      "character": "余",
-      "keyword": "excess",
-      "level": "Advanced",
-      "filename": "1283_excess",
-      "id": "H",
-      "requirements": [
-        {
-          "number": null,
-          "character": "𠆢",
-          "keyword": "umbrella",
-          "level": null,
-          "filename": "extra_umbrella",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "1281",
-          "character": "于",
-          "keyword": "Yu",
-          "level": "Medium",
-          "filename": "1281_Yu",
-          "id": "E",
-          "requirements": [
-            {
-              "number": "1277",
-              "character": "干",
-              "keyword": "dry",
-              "level": "Elementary",
-              "filename": "1277_dry",
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "109",
-          "character": "小",
-          "keyword": "small",
-          "level": "Elementary",
-          "filename": "109_small",
-          "id": "G",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "filename": "extra_a_drop_of",
-              "id": "F",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2839,
+  "hierarchy": {
+    "number": "2650",
+    "character": "徐",
+    "keyword": "slowly",
+    "level": null,
+    "filename": "2650_slowly",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "754",
+        "character": "行",
+        "keyword": "line of business",
+        "level": "Elementary",
+        "filename": "754_line_of_business",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1283",
+        "character": "余",
+        "keyword": "excess",
+        "level": "Advanced",
+        "filename": "1283_excess",
+        "id": "H",
+        "requirements": [
+          {
+            "number": null,
+            "character": "𠆢",
+            "keyword": "umbrella",
+            "level": null,
+            "filename": "primitive_umbrella",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "1281",
+            "character": "于",
+            "keyword": "Yu",
+            "level": "Medium",
+            "filename": "1281_Yu",
+            "id": "E",
+            "requirements": [
+              {
+                "number": "1277",
+                "character": "干",
+                "keyword": "dry",
+                "level": "Elementary",
+                "filename": "1277_dry",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "109",
+            "character": "小",
+            "keyword": "small",
+            "level": "Elementary",
+            "filename": "109_small",
+            "id": "G",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "F",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

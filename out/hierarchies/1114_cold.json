@@ -1,96 +1,99 @@
 {
-  "number": "1114",
-  "character": "冷",
-  "keyword": "cold",
-  "level": "Elementary",
-  "filename": "1114_cold",
-  "id": "K",
-  "requirements": [
-    {
-      "number": null,
-      "character": "冫",
-      "keyword": "ice",
-      "level": null,
-      "filename": "extra_ice",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "137",
-          "character": "水",
-          "keyword": "water",
-          "level": "Elementary",
-          "filename": "137_water",
-          "id": "E",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丨",
-              "keyword": "walking stick",
-              "level": null,
-              "filename": "extra_walking_stick",
-              "id": "C",
-              "requirements": [
-                {
-                  "number": "1",
-                  "character": "一",
-                  "keyword": "one",
-                  "level": "Elementary",
-                  "filename": "1_one",
-                  "id": "B",
-                  "requirements": []
-                }
-              ]
-            },
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "filename": "extra_a_drop_of",
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": "1113",
-      "character": "令",
-      "keyword": "orders",
-      "level": "Medium",
-      "filename": "1113_orders",
-      "id": "J",
-      "requirements": [
-        {
-          "number": null,
-          "character": "亼",
-          "keyword": "meeting",
-          "level": null,
-          "filename": "extra_meeting",
-          "id": "H",
-          "requirements": [
-            {
-              "number": null,
-              "character": "𠆢",
-              "keyword": "umbrella",
-              "level": null,
-              "filename": "extra_umbrella",
-              "id": "G",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "囧节－艹",
-          "keyword": "chop",
-          "level": null,
-          "filename": "extra_chop",
-          "id": "I",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1203,
+  "hierarchy": {
+    "number": "1114",
+    "character": "冷",
+    "keyword": "cold",
+    "level": "Elementary",
+    "filename": "1114_cold",
+    "id": "K",
+    "requirements": [
+      {
+        "number": null,
+        "character": "冫",
+        "keyword": "ice",
+        "level": null,
+        "filename": "primitive_ice",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "137",
+            "character": "水",
+            "keyword": "water",
+            "level": "Elementary",
+            "filename": "137_water",
+            "id": "E",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丨",
+                "keyword": "walking stick",
+                "level": null,
+                "filename": "primitive_walking_stick",
+                "id": "C",
+                "requirements": [
+                  {
+                    "number": "1",
+                    "character": "一",
+                    "keyword": "one",
+                    "level": "Elementary",
+                    "filename": "1_one",
+                    "id": "B",
+                    "requirements": []
+                  }
+                ]
+              },
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": "1113",
+        "character": "令",
+        "keyword": "orders",
+        "level": "Medium",
+        "filename": "1113_orders",
+        "id": "J",
+        "requirements": [
+          {
+            "number": null,
+            "character": "亼",
+            "keyword": "meeting",
+            "level": null,
+            "filename": "primitive_meeting",
+            "id": "H",
+            "requirements": [
+              {
+                "number": null,
+                "character": "𠆢",
+                "keyword": "umbrella",
+                "level": null,
+                "filename": "primitive_umbrella",
+                "id": "G",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "囧节－艹",
+            "keyword": "chop",
+            "level": null,
+            "filename": "primitive_chop",
+            "id": "I",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,75 +1,78 @@
 {
-  "number": "1776",
-  "character": "翰",
-  "keyword": "writing brush",
-  "level": null,
-  "filename": "1776_writing_brush",
-  "id": "I",
-  "requirements": [
-    {
-      "number": null,
-      "character": "𠦝",
-      "keyword": "mist",
-      "level": null,
-      "filename": "extra_mist",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "26",
-          "character": "早",
-          "keyword": "early",
-          "level": "Elementary",
-          "filename": "26_early",
-          "id": "D",
-          "requirements": [
-            {
-              "number": "12",
-              "character": "日",
-              "keyword": "day",
-              "level": "Elementary",
-              "filename": "12_day",
-              "id": "B",
-              "requirements": []
-            },
-            {
-              "number": "10",
-              "character": "十",
-              "keyword": "ten",
-              "level": "Elementary",
-              "filename": "10_ten",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "10",
-          "character": "十",
-          "keyword": "ten",
-          "level": "Elementary",
-          "filename": "10_ten",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "𠆢",
-      "keyword": "umbrella",
-      "level": null,
-      "filename": "extra_umbrella",
-      "id": "G",
-      "requirements": []
-    },
-    {
-      "number": "544",
-      "character": "羽",
-      "keyword": "feathers",
-      "level": null,
-      "filename": "544_feathers",
-      "id": "H",
-      "requirements": []
-    }
-  ]
+  "order": 1924,
+  "hierarchy": {
+    "number": "1776",
+    "character": "翰",
+    "keyword": "writing brush",
+    "level": null,
+    "filename": "1776_writing_brush",
+    "id": "I",
+    "requirements": [
+      {
+        "number": null,
+        "character": "𠦝",
+        "keyword": "mist",
+        "level": null,
+        "filename": "primitive_mist",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "26",
+            "character": "早",
+            "keyword": "early",
+            "level": "Elementary",
+            "filename": "26_early",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "12",
+                "character": "日",
+                "keyword": "day",
+                "level": "Elementary",
+                "filename": "12_day",
+                "id": "B",
+                "requirements": []
+              },
+              {
+                "number": "10",
+                "character": "十",
+                "keyword": "ten",
+                "level": "Elementary",
+                "filename": "10_ten",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "10",
+            "character": "十",
+            "keyword": "ten",
+            "level": "Elementary",
+            "filename": "10_ten",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "𠆢",
+        "keyword": "umbrella",
+        "level": null,
+        "filename": "primitive_umbrella",
+        "id": "G",
+        "requirements": []
+      },
+      {
+        "number": "544",
+        "character": "羽",
+        "keyword": "feathers",
+        "level": null,
+        "filename": "544_feathers",
+        "id": "H",
+        "requirements": []
+      }
+    ]
+  }
 }

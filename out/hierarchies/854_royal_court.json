@@ -1,38 +1,41 @@
 {
-  "number": "854",
-  "character": "廷",
-  "keyword": "royal court",
-  "level": null,
-  "filename": "854_royal_court",
-  "id": "E",
-  "requirements": [
-    {
-      "number": null,
-      "character": "壬",
-      "keyword": "porter",
-      "level": null,
-      "filename": "extra_porter",
-      "id": "C",
-      "requirements": [
-        {
-          "number": "334",
-          "character": "士",
-          "keyword": "soldier",
-          "level": "Advanced",
-          "filename": "334_soldier",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "廴",
-      "keyword": "stretch",
-      "level": null,
-      "filename": "extra_stretch",
-      "id": "D",
-      "requirements": []
-    }
-  ]
+  "order": 918,
+  "hierarchy": {
+    "number": "854",
+    "character": "廷",
+    "keyword": "royal court",
+    "level": null,
+    "filename": "854_royal_court",
+    "id": "E",
+    "requirements": [
+      {
+        "number": null,
+        "character": "壬",
+        "keyword": "porter",
+        "level": null,
+        "filename": "primitive_porter",
+        "id": "C",
+        "requirements": [
+          {
+            "number": "334",
+            "character": "士",
+            "keyword": "soldier",
+            "level": "Advanced",
+            "filename": "334_soldier",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "廴",
+        "keyword": "stretch",
+        "level": null,
+        "filename": "primitive_stretch",
+        "id": "D",
+        "requirements": []
+      }
+    ]
+  }
 }

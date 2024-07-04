@@ -1,76 +1,79 @@
 {
-  "number": "464",
-  "character": "脂",
-  "keyword": "grease",
-  "level": null,
-  "filename": "464_grease",
-  "id": "I",
-  "requirements": [
-    {
-      "number": "463",
-      "character": "旨",
-      "keyword": "purpose",
-      "level": null,
-      "filename": "463_purpose",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "453",
-          "character": "匕",
-          "keyword": "ancient spoon",
-          "level": null,
-          "filename": "453_ancient_spoon",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "12",
-          "character": "日",
-          "keyword": "day",
-          "level": "Elementary",
-          "filename": "12_day",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "813",
-      "character": "体",
-      "keyword": "body",
-      "level": "Elementary",
-      "filename": "813_body",
-      "id": "H",
-      "requirements": [
-        {
-          "number": "793",
-          "character": "人",
-          "keyword": "person",
-          "level": "Elementary",
-          "filename": "793_person",
-          "id": "E",
-          "requirements": []
-        },
-        {
-          "number": "213",
-          "character": "本",
-          "keyword": "notebook",
-          "level": "Elementary",
-          "filename": "213_notebook",
-          "id": "G",
-          "requirements": [
-            {
-              "number": "202",
-              "character": "木",
-              "keyword": "tree",
-              "level": "Elementary",
-              "filename": "202_tree",
-              "id": "F",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 505,
+  "hierarchy": {
+    "number": "464",
+    "character": "脂",
+    "keyword": "grease",
+    "level": null,
+    "filename": "464_grease",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "463",
+        "character": "旨",
+        "keyword": "purpose",
+        "level": null,
+        "filename": "463_purpose",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "453",
+            "character": "匕",
+            "keyword": "ancient spoon",
+            "level": null,
+            "filename": "453_ancient_spoon",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "12",
+            "character": "日",
+            "keyword": "day",
+            "level": "Elementary",
+            "filename": "12_day",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "813",
+        "character": "体",
+        "keyword": "body",
+        "level": "Elementary",
+        "filename": "813_body",
+        "id": "H",
+        "requirements": [
+          {
+            "number": "793",
+            "character": "人",
+            "keyword": "person",
+            "level": "Elementary",
+            "filename": "793_person",
+            "id": "E",
+            "requirements": []
+          },
+          {
+            "number": "213",
+            "character": "本",
+            "keyword": "notebook",
+            "level": "Elementary",
+            "filename": "213_notebook",
+            "id": "G",
+            "requirements": [
+              {
+                "number": "202",
+                "character": "木",
+                "keyword": "tree",
+                "level": "Elementary",
+                "filename": "202_tree",
+                "id": "F",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

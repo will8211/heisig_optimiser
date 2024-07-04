@@ -1,47 +1,50 @@
 {
-  "number": "1581",
-  "character": "苟",
-  "keyword": "careless",
-  "level": null,
-  "filename": "1581_careless",
-  "id": "F",
-  "requirements": [
-    {
-      "number": null,
-      "character": "艹",
-      "keyword": "flower",
-      "level": null,
-      "filename": "extra_flower",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "67",
-      "character": "句",
-      "keyword": "sentence",
-      "level": "Medium",
-      "filename": "67_sentence",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "勹",
-          "keyword": "bound up",
-          "level": null,
-          "filename": "extra_bound_up",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "filename": "11_mouth",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1721,
+  "hierarchy": {
+    "number": "1581",
+    "character": "苟",
+    "keyword": "careless",
+    "level": null,
+    "filename": "1581_careless",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "艹",
+        "keyword": "flower",
+        "level": null,
+        "filename": "primitive_flower",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "67",
+        "character": "句",
+        "keyword": "sentence",
+        "level": "Medium",
+        "filename": "67_sentence",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "勹",
+            "keyword": "bound up",
+            "level": null,
+            "filename": "primitive_bound_up",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

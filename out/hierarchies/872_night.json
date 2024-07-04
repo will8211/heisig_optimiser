@@ -1,132 +1,135 @@
 {
-  "number": "872",
-  "character": "夜",
-  "keyword": "night",
-  "level": "Medium",
-  "filename": "872_night",
-  "id": "O",
-  "requirements": [
-    {
-      "number": null,
-      "character": "亠",
-      "keyword": "top hat",
-      "level": null,
-      "filename": "extra_top_hat",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "793",
-      "character": "人",
-      "keyword": "person",
-      "level": "Elementary",
-      "filename": "793_person",
-      "id": "C",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "夂",
-      "keyword": "walking legs",
-      "level": null,
-      "filename": "extra_walking_legs",
-      "id": "D",
-      "requirements": []
-    },
-    {
-      "number": "607",
-      "character": "掉",
-      "keyword": "drop",
-      "level": "Medium",
-      "filename": "607_drop",
-      "id": "N",
-      "requirements": [
-        {
-          "number": null,
-          "character": "扌",
-          "keyword": "fingers",
-          "level": null,
-          "filename": "extra_fingers",
-          "id": "E",
-          "requirements": []
-        },
-        {
-          "number": "48",
-          "character": "卓",
-          "keyword": "eminent",
-          "level": null,
-          "filename": "48_eminent",
-          "id": "M",
-          "requirements": [
-            {
-              "number": "43",
-              "character": "卜",
-              "keyword": "divination",
-              "level": null,
-              "filename": "43_divination",
-              "id": "I",
-              "requirements": [
-                {
-                  "number": null,
-                  "character": "丨",
-                  "keyword": "walking stick",
-                  "level": null,
-                  "filename": "extra_walking_stick",
-                  "id": "G",
-                  "requirements": [
-                    {
-                      "number": "1",
-                      "character": "一",
-                      "keyword": "one",
-                      "level": "Elementary",
-                      "filename": "1_one",
-                      "id": "F",
-                      "requirements": []
-                    }
-                  ]
-                },
-                {
-                  "number": null,
-                  "character": "丶",
-                  "keyword": "a drop of",
-                  "level": null,
-                  "filename": "extra_a_drop_of",
-                  "id": "H",
-                  "requirements": []
-                }
-              ]
-            },
-            {
-              "number": "26",
-              "character": "早",
-              "keyword": "early",
-              "level": "Elementary",
-              "filename": "26_early",
-              "id": "L",
-              "requirements": [
-                {
-                  "number": "12",
-                  "character": "日",
-                  "keyword": "day",
-                  "level": "Elementary",
-                  "filename": "12_day",
-                  "id": "J",
-                  "requirements": []
-                },
-                {
-                  "number": "10",
-                  "character": "十",
-                  "keyword": "ten",
-                  "level": "Elementary",
-                  "filename": "10_ten",
-                  "id": "K",
-                  "requirements": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 939,
+  "hierarchy": {
+    "number": "872",
+    "character": "夜",
+    "keyword": "night",
+    "level": "Medium",
+    "filename": "872_night",
+    "id": "O",
+    "requirements": [
+      {
+        "number": null,
+        "character": "亠",
+        "keyword": "top hat",
+        "level": null,
+        "filename": "primitive_top_hat",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "793",
+        "character": "人",
+        "keyword": "person",
+        "level": "Elementary",
+        "filename": "793_person",
+        "id": "C",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "夂",
+        "keyword": "walking legs",
+        "level": null,
+        "filename": "primitive_walking_legs",
+        "id": "D",
+        "requirements": []
+      },
+      {
+        "number": "607",
+        "character": "掉",
+        "keyword": "drop",
+        "level": "Medium",
+        "filename": "607_drop",
+        "id": "N",
+        "requirements": [
+          {
+            "number": null,
+            "character": "扌",
+            "keyword": "fingers",
+            "level": null,
+            "filename": "primitive_fingers",
+            "id": "E",
+            "requirements": []
+          },
+          {
+            "number": "48",
+            "character": "卓",
+            "keyword": "eminent",
+            "level": null,
+            "filename": "48_eminent",
+            "id": "M",
+            "requirements": [
+              {
+                "number": "43",
+                "character": "卜",
+                "keyword": "divination",
+                "level": null,
+                "filename": "43_divination",
+                "id": "I",
+                "requirements": [
+                  {
+                    "number": null,
+                    "character": "丨",
+                    "keyword": "walking stick",
+                    "level": null,
+                    "filename": "primitive_walking_stick",
+                    "id": "G",
+                    "requirements": [
+                      {
+                        "number": "1",
+                        "character": "一",
+                        "keyword": "one",
+                        "level": "Elementary",
+                        "filename": "1_one",
+                        "id": "F",
+                        "requirements": []
+                      }
+                    ]
+                  },
+                  {
+                    "number": null,
+                    "character": "丶",
+                    "keyword": "a drop of",
+                    "level": null,
+                    "filename": "primitive_a_drop_of",
+                    "id": "H",
+                    "requirements": []
+                  }
+                ]
+              },
+              {
+                "number": "26",
+                "character": "早",
+                "keyword": "early",
+                "level": "Elementary",
+                "filename": "26_early",
+                "id": "L",
+                "requirements": [
+                  {
+                    "number": "12",
+                    "character": "日",
+                    "keyword": "day",
+                    "level": "Elementary",
+                    "filename": "12_day",
+                    "id": "J",
+                    "requirements": []
+                  },
+                  {
+                    "number": "10",
+                    "character": "十",
+                    "keyword": "ten",
+                    "level": "Elementary",
+                    "filename": "10_ten",
+                    "id": "K",
+                    "requirements": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

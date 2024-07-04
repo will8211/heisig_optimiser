@@ -1,114 +1,117 @@
 {
-  "number": "2026",
-  "character": "漆",
-  "keyword": "wall paint",
-  "level": null,
-  "filename": "2026_wall_paint",
-  "id": "M",
-  "requirements": [
-    {
-      "number": "137",
-      "character": "水",
-      "keyword": "water",
-      "level": "Elementary",
-      "filename": "137_water",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丨",
-          "keyword": "walking stick",
-          "level": null,
-          "filename": "extra_walking_stick",
-          "id": "C",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "桼",
-      "keyword": "Baron von Rumpelbrella",
-      "level": null,
-      "filename": "extra_Baron_von_Rumpelbrella",
-      "id": "L",
-      "requirements": [
-        {
-          "number": null,
-          "character": "𠆢",
-          "keyword": "umbrella",
-          "level": null,
-          "filename": "extra_umbrella",
-          "id": "F",
-          "requirements": []
-        },
-        {
-          "number": "137",
-          "character": "水",
-          "keyword": "water",
-          "level": "Elementary",
-          "filename": "137_water",
-          "id": "J",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丨",
-              "keyword": "walking stick",
-              "level": null,
-              "filename": "extra_walking_stick",
-              "id": "H",
-              "requirements": [
-                {
-                  "number": "1",
-                  "character": "一",
-                  "keyword": "one",
-                  "level": "Elementary",
-                  "filename": "1_one",
-                  "id": "G",
-                  "requirements": []
-                }
-              ]
-            },
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "filename": "extra_a_drop_of",
-              "id": "I",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "202",
-          "character": "木",
-          "keyword": "tree",
-          "level": "Elementary",
-          "filename": "202_tree",
-          "id": "K",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2185,
+  "hierarchy": {
+    "number": "2026",
+    "character": "漆",
+    "keyword": "wall paint",
+    "level": null,
+    "filename": "2026_wall_paint",
+    "id": "M",
+    "requirements": [
+      {
+        "number": "137",
+        "character": "水",
+        "keyword": "water",
+        "level": "Elementary",
+        "filename": "137_water",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丨",
+            "keyword": "walking stick",
+            "level": null,
+            "filename": "primitive_walking_stick",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "桼",
+        "keyword": "Baron von Rumpelbrella",
+        "level": null,
+        "filename": "primitive_Baron_von_Rumpelbrella",
+        "id": "L",
+        "requirements": [
+          {
+            "number": null,
+            "character": "𠆢",
+            "keyword": "umbrella",
+            "level": null,
+            "filename": "primitive_umbrella",
+            "id": "F",
+            "requirements": []
+          },
+          {
+            "number": "137",
+            "character": "水",
+            "keyword": "water",
+            "level": "Elementary",
+            "filename": "137_water",
+            "id": "J",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丨",
+                "keyword": "walking stick",
+                "level": null,
+                "filename": "primitive_walking_stick",
+                "id": "H",
+                "requirements": [
+                  {
+                    "number": "1",
+                    "character": "一",
+                    "keyword": "one",
+                    "level": "Elementary",
+                    "filename": "1_one",
+                    "id": "G",
+                    "requirements": []
+                  }
+                ]
+              },
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "I",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "202",
+            "character": "木",
+            "keyword": "tree",
+            "level": "Elementary",
+            "filename": "202_tree",
+            "id": "K",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,38 +1,41 @@
 {
-  "number": "2899",
-  "character": "蚂",
-  "keyword": "leech-hopper",
-  "level": null,
-  "filename": "2899_leech-hopper",
-  "id": "E",
-  "requirements": [
-    {
-      "number": "509",
-      "character": "虫",
-      "keyword": "insect",
-      "level": "Medium",
-      "filename": "509_insect",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1453",
-      "character": "马",
-      "keyword": "horse",
-      "level": "Elementary",
-      "filename": "1453_horse",
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧与－丨一",
-          "keyword": "pointed tail",
-          "level": null,
-          "filename": "extra_pointed_tail",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 3096,
+  "hierarchy": {
+    "number": "2899",
+    "character": "蚂",
+    "keyword": "leech-hopper",
+    "level": null,
+    "filename": "2899_leech-hopper",
+    "id": "E",
+    "requirements": [
+      {
+        "number": "509",
+        "character": "虫",
+        "keyword": "insect",
+        "level": "Medium",
+        "filename": "509_insect",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1453",
+        "character": "马",
+        "keyword": "horse",
+        "level": "Elementary",
+        "filename": "1453_horse",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧与－丨一",
+            "keyword": "pointed tail",
+            "level": null,
+            "filename": "primitive_pointed_tail",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,47 +1,50 @@
 {
-  "number": "2623",
-  "character": "闹",
-  "keyword": "stir up trouble",
-  "level": "Advanced",
-  "filename": "2623_stir_up_trouble",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "1260",
-      "character": "门",
-      "keyword": "gate",
-      "level": "Elementary",
-      "filename": "1260_gate",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "419",
-      "character": "市",
-      "keyword": "market",
-      "level": "Medium",
-      "filename": "419_market",
-      "id": "E",
-      "requirements": [
-        {
-          "number": "410",
-          "character": "巾",
-          "keyword": "towel",
-          "level": "Advanced",
-          "filename": "410_towel",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "亠",
-          "keyword": "top hat",
-          "level": null,
-          "filename": "extra_top_hat",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2812,
+  "hierarchy": {
+    "number": "2623",
+    "character": "闹",
+    "keyword": "stir up trouble",
+    "level": "Advanced",
+    "filename": "2623_stir_up_trouble",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "1260",
+        "character": "门",
+        "keyword": "gate",
+        "level": "Elementary",
+        "filename": "1260_gate",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "419",
+        "character": "市",
+        "keyword": "market",
+        "level": "Medium",
+        "filename": "419_market",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "410",
+            "character": "巾",
+            "keyword": "towel",
+            "level": "Advanced",
+            "filename": "410_towel",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "亠",
+            "keyword": "top hat",
+            "level": null,
+            "filename": "primitive_top_hat",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

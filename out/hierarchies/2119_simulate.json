@@ -1,56 +1,59 @@
 {
-  "number": "2119",
-  "character": "拟",
-  "keyword": "simulate",
-  "level": null,
-  "filename": "2119_simulate",
-  "id": "G",
-  "requirements": [
-    {
-      "number": null,
-      "character": "扌",
-      "keyword": "fingers",
-      "level": null,
-      "filename": "extra_fingers",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "861",
-      "character": "以",
-      "keyword": "by means of",
-      "level": "Elementary",
-      "filename": "861_by_means_of",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "793",
-          "character": "人",
-          "keyword": "person",
-          "level": "Elementary",
-          "filename": "793_person",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "囧以－丶人",
-          "keyword": "plow",
-          "level": null,
-          "filename": "extra_plow",
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2280,
+  "hierarchy": {
+    "number": "2119",
+    "character": "拟",
+    "keyword": "simulate",
+    "level": null,
+    "filename": "2119_simulate",
+    "id": "G",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "primitive_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "861",
+        "character": "以",
+        "keyword": "by means of",
+        "level": "Elementary",
+        "filename": "861_by_means_of",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "793",
+            "character": "人",
+            "keyword": "person",
+            "level": "Elementary",
+            "filename": "793_person",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "囧以－丶人",
+            "keyword": "plow",
+            "level": null,
+            "filename": "primitive_plow",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

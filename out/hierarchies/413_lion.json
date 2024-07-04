@@ -1,85 +1,88 @@
 {
-  "number": "413",
-  "character": "狮",
-  "keyword": "lion",
-  "level": null,
-  "filename": "413_lion",
-  "id": "J",
-  "requirements": [
-    {
-      "number": "412",
-      "character": "师",
-      "keyword": "teacher",
-      "level": "Elementary",
-      "filename": "412_teacher",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "411",
-          "character": "帅",
-          "keyword": "commander",
-          "level": "Advanced",
-          "filename": "411_commander",
-          "id": "D",
-          "requirements": [
-            {
-              "number": "83",
-              "character": "刀",
-              "keyword": "sword",
-              "level": "Medium",
-              "filename": "83_sword",
-              "id": "B",
-              "requirements": []
-            },
-            {
-              "number": "410",
-              "character": "巾",
-              "keyword": "towel",
-              "level": "Advanced",
-              "filename": "410_towel",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "filename": "1_one",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "239",
-      "character": "犬",
-      "keyword": "pooch",
-      "level": null,
-      "filename": "239_pooch",
-      "id": "I",
-      "requirements": [
-        {
-          "number": "113",
-          "character": "大",
-          "keyword": "large",
-          "level": "Elementary",
-          "filename": "113_large",
-          "id": "G",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "H",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 448,
+  "hierarchy": {
+    "number": "413",
+    "character": "狮",
+    "keyword": "lion",
+    "level": null,
+    "filename": "413_lion",
+    "id": "J",
+    "requirements": [
+      {
+        "number": "412",
+        "character": "师",
+        "keyword": "teacher",
+        "level": "Elementary",
+        "filename": "412_teacher",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "411",
+            "character": "帅",
+            "keyword": "commander",
+            "level": "Advanced",
+            "filename": "411_commander",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "83",
+                "character": "刀",
+                "keyword": "sword",
+                "level": "Medium",
+                "filename": "83_sword",
+                "id": "B",
+                "requirements": []
+              },
+              {
+                "number": "410",
+                "character": "巾",
+                "keyword": "towel",
+                "level": "Advanced",
+                "filename": "410_towel",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "239",
+        "character": "犬",
+        "keyword": "pooch",
+        "level": null,
+        "filename": "239_pooch",
+        "id": "I",
+        "requirements": [
+          {
+            "number": "113",
+            "character": "大",
+            "keyword": "large",
+            "level": "Elementary",
+            "filename": "113_large",
+            "id": "G",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "H",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

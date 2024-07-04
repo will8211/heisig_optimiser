@@ -1,47 +1,50 @@
 {
-  "number": "2200",
-  "character": "雏",
-  "keyword": "chick",
-  "level": null,
-  "filename": "2200_chick",
-  "id": "F",
-  "requirements": [
-    {
-      "number": null,
-      "character": "刍",
-      "keyword": "hairnet",
-      "level": null,
-      "filename": "extra_hairnet",
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "勹",
-          "keyword": "bound up",
-          "level": null,
-          "filename": "extra_bound_up",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "彐",
-          "keyword": "broom",
-          "level": null,
-          "filename": "extra_broom",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "隹",
-      "keyword": "turkey",
-      "level": null,
-      "filename": "extra_turkey",
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 2363,
+  "hierarchy": {
+    "number": "2200",
+    "character": "雏",
+    "keyword": "chick",
+    "level": null,
+    "filename": "2200_chick",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "刍",
+        "keyword": "hairnet",
+        "level": null,
+        "filename": "primitive_hairnet",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "勹",
+            "keyword": "bound up",
+            "level": null,
+            "filename": "primitive_bound_up",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "彐",
+            "keyword": "broom",
+            "level": null,
+            "filename": "primitive_broom",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "隹",
+        "keyword": "turkey",
+        "level": null,
+        "filename": "primitive_turkey",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

@@ -1,76 +1,79 @@
 {
-  "number": "586",
-  "character": "摩",
-  "keyword": "rub",
-  "level": null,
-  "filename": "586_rub",
-  "id": "I",
-  "requirements": [
-    {
-      "number": "561",
-      "character": "麻",
-      "keyword": "hemp",
-      "level": "Medium",
-      "filename": "561_hemp",
-      "id": "G",
-      "requirements": [
-        {
-          "number": "556",
-          "character": "广",
-          "keyword": "extensive",
-          "level": "Medium",
-          "filename": "556_extensive",
-          "id": "D",
-          "requirements": [
-            {
-              "number": "121",
-              "character": "厂",
-              "keyword": "factory",
-              "level": "Medium",
-              "filename": "121_factory",
-              "id": "B",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "宀",
-              "keyword": "house",
-              "level": null,
-              "filename": "extra_house",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "203",
-          "character": "林",
-          "keyword": "woods",
-          "level": "Advanced",
-          "filename": "203_woods",
-          "id": "F",
-          "requirements": [
-            {
-              "number": "202",
-              "character": "木",
-              "keyword": "tree",
-              "level": "Elementary",
-              "filename": "202_tree",
-              "id": "E",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": "584",
-      "character": "手",
-      "keyword": "hand",
-      "level": "Elementary",
-      "filename": "584_hand",
-      "id": "H",
-      "requirements": []
-    }
-  ]
+  "order": 635,
+  "hierarchy": {
+    "number": "586",
+    "character": "摩",
+    "keyword": "rub",
+    "level": null,
+    "filename": "586_rub",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "561",
+        "character": "麻",
+        "keyword": "hemp",
+        "level": "Medium",
+        "filename": "561_hemp",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "556",
+            "character": "广",
+            "keyword": "extensive",
+            "level": "Medium",
+            "filename": "556_extensive",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "121",
+                "character": "厂",
+                "keyword": "factory",
+                "level": "Medium",
+                "filename": "121_factory",
+                "id": "B",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "宀",
+                "keyword": "house",
+                "level": null,
+                "filename": "primitive_house",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "203",
+            "character": "林",
+            "keyword": "woods",
+            "level": "Advanced",
+            "filename": "203_woods",
+            "id": "F",
+            "requirements": [
+              {
+                "number": "202",
+                "character": "木",
+                "keyword": "tree",
+                "level": "Elementary",
+                "filename": "202_tree",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": "584",
+        "character": "手",
+        "keyword": "hand",
+        "level": "Elementary",
+        "filename": "584_hand",
+        "id": "H",
+        "requirements": []
+      }
+    ]
+  }
 }

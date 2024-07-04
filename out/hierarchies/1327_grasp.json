@@ -1,28 +1,31 @@
 {
-  "number": "1327",
-  "character": "把",
-  "keyword": "grasp",
-  "level": "Elementary",
-  "filename": "1327_grasp",
-  "id": "D",
-  "requirements": [
-    {
-      "number": null,
-      "character": "扌",
-      "keyword": "fingers",
-      "level": null,
-      "filename": "extra_fingers",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1326",
-      "character": "巴",
-      "keyword": "crust",
-      "level": "Medium",
-      "filename": "1326_crust",
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 1445,
+  "hierarchy": {
+    "number": "1327",
+    "character": "把",
+    "keyword": "grasp",
+    "level": "Elementary",
+    "filename": "1327_grasp",
+    "id": "D",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "primitive_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1326",
+        "character": "巴",
+        "keyword": "crust",
+        "level": "Medium",
+        "filename": "1326_crust",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

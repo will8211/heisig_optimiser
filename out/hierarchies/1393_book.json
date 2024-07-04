@@ -1,56 +1,59 @@
 {
-  "number": "1393",
-  "character": "书",
-  "keyword": "book",
-  "level": "Elementary",
-  "filename": "1393_book",
-  "id": "G",
-  "requirements": [
-    {
-      "number": null,
-      "character": "囧侯－亻－矢",
-      "keyword": "key",
-      "level": null,
-      "filename": "extra_key",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "𠃌",
-      "keyword": "clothes hanger",
-      "level": null,
-      "filename": "extra_clothes_hanger",
-      "id": "C",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "丨",
-      "keyword": "walking stick",
-      "level": null,
-      "filename": "extra_walking_stick",
-      "id": "E",
-      "requirements": [
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "filename": "1_one",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "丶",
-      "keyword": "a drop of",
-      "level": null,
-      "filename": "extra_a_drop_of",
-      "id": "F",
-      "requirements": []
-    }
-  ]
+  "order": 1518,
+  "hierarchy": {
+    "number": "1393",
+    "character": "书",
+    "keyword": "book",
+    "level": "Elementary",
+    "filename": "1393_book",
+    "id": "G",
+    "requirements": [
+      {
+        "number": null,
+        "character": "囧侯－亻－矢",
+        "keyword": "key",
+        "level": null,
+        "filename": "primitive_key",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "𠃌",
+        "keyword": "clothes hanger",
+        "level": null,
+        "filename": "primitive_clothes_hanger",
+        "id": "C",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "丨",
+        "keyword": "walking stick",
+        "level": null,
+        "filename": "primitive_walking_stick",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "丶",
+        "keyword": "a drop of",
+        "level": null,
+        "filename": "primitive_a_drop_of",
+        "id": "F",
+        "requirements": []
+      }
+    ]
+  }
 }

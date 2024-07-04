@@ -1,38 +1,41 @@
 {
-  "number": "77",
-  "character": "左",
-  "keyword": "left",
-  "level": "Medium",
-  "filename": "77_left",
-  "id": "E",
-  "requirements": [
-    {
-      "number": null,
-      "character": "𠂇",
-      "keyword": "by one’s side",
-      "level": null,
-      "filename": "extra_by_one’s_side",
-      "id": "C",
-      "requirements": [
-        {
-          "number": "10",
-          "character": "十",
-          "keyword": "ten",
-          "level": "Elementary",
-          "filename": "10_ten",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "76",
-      "character": "工",
-      "keyword": "work",
-      "level": "Elementary",
-      "filename": "76_work",
-      "id": "D",
-      "requirements": []
-    }
-  ]
+  "order": 84,
+  "hierarchy": {
+    "number": "77",
+    "character": "左",
+    "keyword": "left",
+    "level": "Medium",
+    "filename": "77_left",
+    "id": "E",
+    "requirements": [
+      {
+        "number": null,
+        "character": "𠂇",
+        "keyword": "by one’s side",
+        "level": null,
+        "filename": "primitive_by_one’s_side",
+        "id": "C",
+        "requirements": [
+          {
+            "number": "10",
+            "character": "十",
+            "keyword": "ten",
+            "level": "Elementary",
+            "filename": "10_ten",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "76",
+        "character": "工",
+        "keyword": "work",
+        "level": "Elementary",
+        "filename": "76_work",
+        "id": "D",
+        "requirements": []
+      }
+    ]
+  }
 }

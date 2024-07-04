@@ -1,56 +1,59 @@
 {
-  "number": "2355",
-  "character": "帘",
-  "keyword": "drapes",
-  "level": null,
-  "filename": "2355_drapes",
-  "id": "G",
-  "requirements": [
-    {
-      "number": "1070",
-      "character": "穴",
-      "keyword": "hole",
-      "level": null,
-      "filename": "1070_hole",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "宀",
-          "keyword": "house",
-          "level": null,
-          "filename": "extra_house",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "8",
-          "character": "八",
-          "keyword": "eight",
-          "level": "Elementary",
-          "filename": "8_eight",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "囧只－口",
-          "keyword": "animal legs",
-          "level": null,
-          "filename": "extra_animal_legs",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "410",
-      "character": "巾",
-      "keyword": "towel",
-      "level": "Advanced",
-      "filename": "410_towel",
-      "id": "F",
-      "requirements": []
-    }
-  ]
+  "order": 2526,
+  "hierarchy": {
+    "number": "2355",
+    "character": "帘",
+    "keyword": "drapes",
+    "level": null,
+    "filename": "2355_drapes",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "1070",
+        "character": "穴",
+        "keyword": "hole",
+        "level": null,
+        "filename": "1070_hole",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "宀",
+            "keyword": "house",
+            "level": null,
+            "filename": "primitive_house",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "8",
+            "character": "八",
+            "keyword": "eight",
+            "level": "Elementary",
+            "filename": "8_eight",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "囧只－口",
+            "keyword": "animal legs",
+            "level": null,
+            "filename": "primitive_animal_legs",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "410",
+        "character": "巾",
+        "keyword": "towel",
+        "level": "Advanced",
+        "filename": "410_towel",
+        "id": "F",
+        "requirements": []
+      }
+    ]
+  }
 }

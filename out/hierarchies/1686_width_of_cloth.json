@@ -1,56 +1,59 @@
 {
-  "number": "1686",
-  "character": "幅",
-  "keyword": "width of cloth",
-  "level": null,
-  "filename": "1686_width_of_cloth",
-  "id": "G",
-  "requirements": [
-    {
-      "number": "410",
-      "character": "巾",
-      "keyword": "towel",
-      "level": "Advanced",
-      "filename": "410_towel",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "畐",
-      "keyword": "wealth",
-      "level": null,
-      "filename": "extra_wealth",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "filename": "1_one",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "filename": "11_mouth",
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": "14",
-          "character": "田",
-          "keyword": "rice field",
-          "level": "Medium",
-          "filename": "14_rice_field",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1831,
+  "hierarchy": {
+    "number": "1686",
+    "character": "幅",
+    "keyword": "width of cloth",
+    "level": null,
+    "filename": "1686_width_of_cloth",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "410",
+        "character": "巾",
+        "keyword": "towel",
+        "level": "Advanced",
+        "filename": "410_towel",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "畐",
+        "keyword": "wealth",
+        "level": null,
+        "filename": "primitive_wealth",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": "14",
+            "character": "田",
+            "keyword": "rice field",
+            "level": "Medium",
+            "filename": "14_rice_field",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

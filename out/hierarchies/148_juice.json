@@ -1,57 +1,60 @@
 {
-  "number": "148",
-  "character": "汁",
-  "keyword": "juice",
-  "level": "Advanced",
-  "filename": "148_juice",
-  "id": "G",
-  "requirements": [
-    {
-      "number": "137",
-      "character": "水",
-      "keyword": "water",
-      "level": "Elementary",
-      "filename": "137_water",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丨",
-          "keyword": "walking stick",
-          "level": null,
-          "filename": "extra_walking_stick",
-          "id": "C",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "10",
-      "character": "十",
-      "keyword": "ten",
-      "level": "Elementary",
-      "filename": "10_ten",
-      "id": "F",
-      "requirements": []
-    }
-  ]
+  "order": 156,
+  "hierarchy": {
+    "number": "148",
+    "character": "汁",
+    "keyword": "juice",
+    "level": "Advanced",
+    "filename": "148_juice",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "137",
+        "character": "水",
+        "keyword": "water",
+        "level": "Elementary",
+        "filename": "137_water",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丨",
+            "keyword": "walking stick",
+            "level": null,
+            "filename": "primitive_walking_stick",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "10",
+        "character": "十",
+        "keyword": "ten",
+        "level": "Elementary",
+        "filename": "10_ten",
+        "id": "F",
+        "requirements": []
+      }
+    ]
+  }
 }

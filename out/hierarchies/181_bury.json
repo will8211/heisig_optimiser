@@ -1,47 +1,50 @@
 {
-  "number": "181",
-  "character": "埋",
-  "keyword": "bury",
-  "level": null,
-  "filename": "181_bury",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "158",
-      "character": "土",
-      "keyword": "soil",
-      "level": "Medium",
-      "filename": "158_soil",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "179",
-      "character": "里",
-      "keyword": "li",
-      "level": "Elementary",
-      "filename": "179_li",
-      "id": "E",
-      "requirements": [
-        {
-          "number": "14",
-          "character": "田",
-          "keyword": "rice field",
-          "level": "Medium",
-          "filename": "14_rice_field",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "158",
-          "character": "土",
-          "keyword": "soil",
-          "level": "Medium",
-          "filename": "158_soil",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 190,
+  "hierarchy": {
+    "number": "181",
+    "character": "埋",
+    "keyword": "bury",
+    "level": null,
+    "filename": "181_bury",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "158",
+        "character": "土",
+        "keyword": "soil",
+        "level": "Medium",
+        "filename": "158_soil",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "179",
+        "character": "里",
+        "keyword": "li",
+        "level": "Elementary",
+        "filename": "179_li",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "14",
+            "character": "田",
+            "keyword": "rice field",
+            "level": "Medium",
+            "filename": "14_rice_field",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "158",
+            "character": "土",
+            "keyword": "soil",
+            "level": "Medium",
+            "filename": "158_soil",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

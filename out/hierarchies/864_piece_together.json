@@ -1,77 +1,80 @@
 {
-  "number": "864",
-  "character": "拼",
-  "keyword": "piece together",
-  "level": "Advanced",
-  "filename": "864_piece_together",
-  "id": "I",
-  "requirements": [
-    {
-      "number": null,
-      "character": "扌",
-      "keyword": "fingers",
-      "level": null,
-      "filename": "extra_fingers",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "863",
-      "character": "并",
-      "keyword": "combine",
-      "level": "Advanced",
-      "filename": "863_combine",
-      "id": "H",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丷",
-          "keyword": "horns",
-          "level": null,
-          "filename": "extra_horns",
-          "id": "D",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "613",
-          "character": "开",
-          "keyword": "open",
-          "level": "Elementary",
-          "filename": "613_open",
-          "id": "G",
-          "requirements": [
-            {
-              "number": "2",
-              "character": "二",
-              "keyword": "two",
-              "level": "Elementary",
-              "filename": "2_two",
-              "id": "F",
-              "requirements": [
-                {
-                  "number": "1",
-                  "character": "一",
-                  "keyword": "one",
-                  "level": "Elementary",
-                  "filename": "1_one",
-                  "id": "E",
-                  "requirements": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 930,
+  "hierarchy": {
+    "number": "864",
+    "character": "拼",
+    "keyword": "piece together",
+    "level": "Advanced",
+    "filename": "864_piece_together",
+    "id": "I",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "primitive_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "863",
+        "character": "并",
+        "keyword": "combine",
+        "level": "Advanced",
+        "filename": "863_combine",
+        "id": "H",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丷",
+            "keyword": "horns",
+            "level": null,
+            "filename": "primitive_horns",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "613",
+            "character": "开",
+            "keyword": "open",
+            "level": "Elementary",
+            "filename": "613_open",
+            "id": "G",
+            "requirements": [
+              {
+                "number": "2",
+                "character": "二",
+                "keyword": "two",
+                "level": "Elementary",
+                "filename": "2_two",
+                "id": "F",
+                "requirements": [
+                  {
+                    "number": "1",
+                    "character": "一",
+                    "keyword": "one",
+                    "level": "Elementary",
+                    "filename": "1_one",
+                    "id": "E",
+                    "requirements": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

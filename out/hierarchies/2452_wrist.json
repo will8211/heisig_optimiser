@@ -1,76 +1,79 @@
 {
-  "number": "2452",
-  "character": "腕",
-  "keyword": "wrist",
-  "level": null,
-  "filename": "2452_wrist",
-  "id": "I",
-  "requirements": [
-    {
-      "number": "13",
-      "character": "月",
-      "keyword": "month",
-      "level": "Elementary",
-      "filename": "13_month",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "2451",
-      "character": "宛",
-      "keyword": "winding",
-      "level": null,
-      "filename": "2451_winding",
-      "id": "H",
-      "requirements": [
-        {
-          "number": null,
-          "character": "宀",
-          "keyword": "house",
-          "level": null,
-          "filename": "extra_house",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "夗",
-          "keyword": "nameplate",
-          "level": null,
-          "filename": "extra_nameplate",
-          "id": "G",
-          "requirements": [
-            {
-              "number": "115",
-              "character": "夕",
-              "keyword": "evening",
-              "level": "Advanced",
-              "filename": "115_evening",
-              "id": "E",
-              "requirements": [
-                {
-                  "number": "13",
-                  "character": "月",
-                  "keyword": "month",
-                  "level": "Elementary",
-                  "filename": "13_month",
-                  "id": "D",
-                  "requirements": []
-                }
-              ]
-            },
-            {
-              "number": null,
-              "character": "㔾",
-              "keyword": "fingerprint",
-              "level": null,
-              "filename": "extra_fingerprint",
-              "id": "F",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2632,
+  "hierarchy": {
+    "number": "2452",
+    "character": "腕",
+    "keyword": "wrist",
+    "level": null,
+    "filename": "2452_wrist",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "13",
+        "character": "月",
+        "keyword": "month",
+        "level": "Elementary",
+        "filename": "13_month",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "2451",
+        "character": "宛",
+        "keyword": "winding",
+        "level": null,
+        "filename": "2451_winding",
+        "id": "H",
+        "requirements": [
+          {
+            "number": null,
+            "character": "宀",
+            "keyword": "house",
+            "level": null,
+            "filename": "primitive_house",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "夗",
+            "keyword": "nameplate",
+            "level": null,
+            "filename": "primitive_nameplate",
+            "id": "G",
+            "requirements": [
+              {
+                "number": "115",
+                "character": "夕",
+                "keyword": "evening",
+                "level": "Advanced",
+                "filename": "115_evening",
+                "id": "E",
+                "requirements": [
+                  {
+                    "number": "13",
+                    "character": "月",
+                    "keyword": "month",
+                    "level": "Elementary",
+                    "filename": "13_month",
+                    "id": "D",
+                    "requirements": []
+                  }
+                ]
+              },
+              {
+                "number": null,
+                "character": "㔾",
+                "keyword": "fingerprint",
+                "level": null,
+                "filename": "primitive_fingerprint",
+                "id": "F",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

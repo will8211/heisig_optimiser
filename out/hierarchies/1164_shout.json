@@ -1,38 +1,41 @@
 {
-  "number": "1164",
-  "character": "呼",
-  "keyword": "shout",
-  "level": "Advanced",
-  "filename": "1164_shout",
-  "id": "E",
-  "requirements": [
-    {
-      "number": "11",
-      "character": "口",
-      "keyword": "mouth",
-      "level": "Elementary",
-      "filename": "11_mouth",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1163",
-      "character": "乎",
-      "keyword": "ooh!",
-      "level": null,
-      "filename": "1163_ooh!",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "1160",
-          "character": "平",
-          "keyword": "even",
-          "level": "Medium",
-          "filename": "1160_even",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1261,
+  "hierarchy": {
+    "number": "1164",
+    "character": "呼",
+    "keyword": "shout",
+    "level": "Advanced",
+    "filename": "1164_shout",
+    "id": "E",
+    "requirements": [
+      {
+        "number": "11",
+        "character": "口",
+        "keyword": "mouth",
+        "level": "Elementary",
+        "filename": "11_mouth",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1163",
+        "character": "乎",
+        "keyword": "ooh!",
+        "level": null,
+        "filename": "1163_ooh!",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "1160",
+            "character": "平",
+            "keyword": "even",
+            "level": "Medium",
+            "filename": "1160_even",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

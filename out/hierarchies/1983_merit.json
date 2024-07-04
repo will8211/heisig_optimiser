@@ -1,85 +1,88 @@
 {
-  "number": "1983",
-  "character": "勋",
-  "keyword": "merit",
-  "level": null,
-  "filename": "1983_merit",
-  "id": "J",
-  "requirements": [
-    {
-      "number": "55",
-      "character": "员",
-      "keyword": "employee",
-      "level": "Advanced",
-      "filename": "55_employee",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "filename": "11_mouth",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "52",
-          "character": "贝",
-          "keyword": "shellfish",
-          "level": "Medium",
-          "filename": "52_shellfish",
-          "id": "E",
-          "requirements": [
-            {
-              "number": "15",
-              "character": "目",
-              "keyword": "eye",
-              "level": "Medium",
-              "filename": "15_eye",
-              "id": "C",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "囧只－口",
-              "keyword": "animal legs",
-              "level": null,
-              "filename": "extra_animal_legs",
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": "63",
-      "character": "肌",
-      "keyword": "muscle",
-      "level": null,
-      "filename": "63_muscle",
-      "id": "I",
-      "requirements": [
-        {
-          "number": "57",
-          "character": "几",
-          "keyword": "how many?",
-          "level": "Elementary",
-          "filename": "57_how_many",
-          "id": "G",
-          "requirements": []
-        },
-        {
-          "number": "13",
-          "character": "月",
-          "keyword": "month",
-          "level": "Elementary",
-          "filename": "13_month",
-          "id": "H",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2140,
+  "hierarchy": {
+    "number": "1983",
+    "character": "勋",
+    "keyword": "merit",
+    "level": null,
+    "filename": "1983_merit",
+    "id": "J",
+    "requirements": [
+      {
+        "number": "55",
+        "character": "员",
+        "keyword": "employee",
+        "level": "Advanced",
+        "filename": "55_employee",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "52",
+            "character": "贝",
+            "keyword": "shellfish",
+            "level": "Medium",
+            "filename": "52_shellfish",
+            "id": "E",
+            "requirements": [
+              {
+                "number": "15",
+                "character": "目",
+                "keyword": "eye",
+                "level": "Medium",
+                "filename": "15_eye",
+                "id": "C",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "囧只－口",
+                "keyword": "animal legs",
+                "level": null,
+                "filename": "primitive_animal_legs",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": "63",
+        "character": "肌",
+        "keyword": "muscle",
+        "level": null,
+        "filename": "63_muscle",
+        "id": "I",
+        "requirements": [
+          {
+            "number": "57",
+            "character": "几",
+            "keyword": "how many?",
+            "level": "Elementary",
+            "filename": "57_how_many",
+            "id": "G",
+            "requirements": []
+          },
+          {
+            "number": "13",
+            "character": "月",
+            "keyword": "month",
+            "level": "Elementary",
+            "filename": "13_month",
+            "id": "H",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

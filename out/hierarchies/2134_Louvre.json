@@ -1,57 +1,60 @@
 {
-  "number": "2134",
-  "character": "卢",
-  "keyword": "Louvre",
-  "level": null,
-  "filename": "2134_Louvre",
-  "id": "G",
-  "requirements": [
-    {
-      "number": "43",
-      "character": "卜",
-      "keyword": "divination",
-      "level": null,
-      "filename": "43_divination",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丨",
-          "keyword": "walking stick",
-          "level": null,
-          "filename": "extra_walking_stick",
-          "id": "C",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "882",
-      "character": "尸",
-      "keyword": "corpse",
-      "level": null,
-      "filename": "882_corpse",
-      "id": "F",
-      "requirements": []
-    }
-  ]
+  "order": 2295,
+  "hierarchy": {
+    "number": "2134",
+    "character": "卢",
+    "keyword": "Louvre",
+    "level": null,
+    "filename": "2134_Louvre",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "43",
+        "character": "卜",
+        "keyword": "divination",
+        "level": null,
+        "filename": "43_divination",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丨",
+            "keyword": "walking stick",
+            "level": null,
+            "filename": "primitive_walking_stick",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "882",
+        "character": "尸",
+        "keyword": "corpse",
+        "level": null,
+        "filename": "882_corpse",
+        "id": "F",
+        "requirements": []
+      }
+    ]
+  }
 }

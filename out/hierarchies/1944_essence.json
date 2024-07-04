@@ -1,47 +1,50 @@
 {
-  "number": "1944",
-  "character": "芬",
-  "keyword": "essence",
-  "level": null,
-  "filename": "1944_essence",
-  "id": "F",
-  "requirements": [
-    {
-      "number": null,
-      "character": "艹",
-      "keyword": "flower",
-      "level": null,
-      "filename": "extra_flower",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "694",
-      "character": "分",
-      "keyword": "part",
-      "level": "Elementary",
-      "filename": "694_part",
-      "id": "E",
-      "requirements": [
-        {
-          "number": "8",
-          "character": "八",
-          "keyword": "eight",
-          "level": "Elementary",
-          "filename": "8_eight",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "83",
-          "character": "刀",
-          "keyword": "sword",
-          "level": "Medium",
-          "filename": "83_sword",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2100,
+  "hierarchy": {
+    "number": "1944",
+    "character": "芬",
+    "keyword": "essence",
+    "level": null,
+    "filename": "1944_essence",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "艹",
+        "keyword": "flower",
+        "level": null,
+        "filename": "primitive_flower",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "694",
+        "character": "分",
+        "keyword": "part",
+        "level": "Elementary",
+        "filename": "694_part",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "8",
+            "character": "八",
+            "keyword": "eight",
+            "level": "Elementary",
+            "filename": "8_eight",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "83",
+            "character": "刀",
+            "keyword": "sword",
+            "level": "Medium",
+            "filename": "83_sword",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

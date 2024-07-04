@@ -1,57 +1,60 @@
 {
-  "number": "111",
-  "character": "吵",
-  "keyword": "noisy",
-  "level": "Advanced",
-  "filename": "111_noisy",
-  "id": "G",
-  "requirements": [
-    {
-      "number": "110",
-      "character": "少",
-      "keyword": "few",
-      "level": "Elementary",
-      "filename": "110_few",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "109",
-          "character": "小",
-          "keyword": "small",
-          "level": "Elementary",
-          "filename": "109_small",
-          "id": "D",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "filename": "extra_a_drop_of",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": "11",
-      "character": "口",
-      "keyword": "mouth",
-      "level": "Elementary",
-      "filename": "11_mouth",
-      "id": "F",
-      "requirements": []
-    }
-  ]
+  "order": 119,
+  "hierarchy": {
+    "number": "111",
+    "character": "吵",
+    "keyword": "noisy",
+    "level": "Advanced",
+    "filename": "111_noisy",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "110",
+        "character": "少",
+        "keyword": "few",
+        "level": "Elementary",
+        "filename": "110_few",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "109",
+            "character": "小",
+            "keyword": "small",
+            "level": "Elementary",
+            "filename": "109_small",
+            "id": "D",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": "11",
+        "character": "口",
+        "keyword": "mouth",
+        "level": "Elementary",
+        "filename": "11_mouth",
+        "id": "F",
+        "requirements": []
+      }
+    ]
+  }
 }

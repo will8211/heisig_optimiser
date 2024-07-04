@@ -1,38 +1,41 @@
 {
-  "number": "985",
-  "character": "拳",
-  "keyword": "boxing",
-  "level": null,
-  "filename": "985_boxing",
-  "id": "E",
-  "requirements": [
-    {
-      "number": null,
-      "character": "囧眷－目",
-      "keyword": "quarter",
-      "level": null,
-      "filename": "extra_quarter",
-      "id": "C",
-      "requirements": [
-        {
-          "number": "980",
-          "character": "半",
-          "keyword": "half",
-          "level": "Elementary",
-          "filename": "980_half",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "584",
-      "character": "手",
-      "keyword": "hand",
-      "level": "Elementary",
-      "filename": "584_hand",
-      "id": "D",
-      "requirements": []
-    }
-  ]
+  "order": 1059,
+  "hierarchy": {
+    "number": "985",
+    "character": "拳",
+    "keyword": "boxing",
+    "level": null,
+    "filename": "985_boxing",
+    "id": "E",
+    "requirements": [
+      {
+        "number": null,
+        "character": "囧眷－目",
+        "keyword": "quarter",
+        "level": null,
+        "filename": "primitive_quarter",
+        "id": "C",
+        "requirements": [
+          {
+            "number": "980",
+            "character": "半",
+            "keyword": "half",
+            "level": "Elementary",
+            "filename": "980_half",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "584",
+        "character": "手",
+        "keyword": "hand",
+        "level": "Elementary",
+        "filename": "584_hand",
+        "id": "D",
+        "requirements": []
+      }
+    ]
+  }
 }

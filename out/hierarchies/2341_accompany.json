@@ -1,47 +1,50 @@
 {
-  "number": "2341",
-  "character": "陪",
-  "keyword": "accompany",
-  "level": "Advanced",
-  "filename": "2341_accompany",
-  "id": "F",
-  "requirements": [
-    {
-      "number": null,
-      "character": "阝",
-      "keyword": "pinnacle",
-      "level": null,
-      "filename": "extra_pinnacle",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "咅",
-      "keyword": "muzzle",
-      "level": null,
-      "filename": "extra_muzzle",
-      "id": "E",
-      "requirements": [
-        {
-          "number": "444",
-          "character": "立",
-          "keyword": "standing up",
-          "level": "Advanced",
-          "filename": "444_standing_up",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "filename": "11_mouth",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2510,
+  "hierarchy": {
+    "number": "2341",
+    "character": "陪",
+    "keyword": "accompany",
+    "level": "Advanced",
+    "filename": "2341_accompany",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "阝",
+        "keyword": "pinnacle",
+        "level": null,
+        "filename": "primitive_pinnacle",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "咅",
+        "keyword": "muzzle",
+        "level": null,
+        "filename": "primitive_muzzle",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "444",
+            "character": "立",
+            "keyword": "standing up",
+            "level": "Advanced",
+            "filename": "444_standing_up",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

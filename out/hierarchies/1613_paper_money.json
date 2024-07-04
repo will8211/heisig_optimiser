@@ -1,95 +1,98 @@
 {
-  "number": "1613",
-  "character": "钞",
-  "keyword": "paper money",
-  "level": null,
-  "filename": "1613_paper_money",
-  "id": "K",
-  "requirements": [
-    {
-      "number": "279",
-      "character": "金",
-      "keyword": "gold",
-      "level": "Advanced",
-      "filename": "279_gold",
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "𠆢",
-          "keyword": "umbrella",
-          "level": null,
-          "filename": "extra_umbrella",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "265",
-          "character": "王",
-          "keyword": "king",
-          "level": "Medium",
-          "filename": "265_king",
-          "id": "D",
-          "requirements": [
-            {
-              "number": "76",
-              "character": "工",
-              "keyword": "work",
-              "level": "Elementary",
-              "filename": "76_work",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "110",
-      "character": "少",
-      "keyword": "few",
-      "level": "Elementary",
-      "filename": "110_few",
-      "id": "J",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "G",
-          "requirements": []
-        },
-        {
-          "number": "109",
-          "character": "小",
-          "keyword": "small",
-          "level": "Elementary",
-          "filename": "109_small",
-          "id": "I",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "filename": "extra_a_drop_of",
-              "id": "H",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 1753,
+  "hierarchy": {
+    "number": "1613",
+    "character": "钞",
+    "keyword": "paper money",
+    "level": null,
+    "filename": "1613_paper_money",
+    "id": "K",
+    "requirements": [
+      {
+        "number": "279",
+        "character": "金",
+        "keyword": "gold",
+        "level": "Advanced",
+        "filename": "279_gold",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "𠆢",
+            "keyword": "umbrella",
+            "level": null,
+            "filename": "primitive_umbrella",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "265",
+            "character": "王",
+            "keyword": "king",
+            "level": "Medium",
+            "filename": "265_king",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "76",
+                "character": "工",
+                "keyword": "work",
+                "level": "Elementary",
+                "filename": "76_work",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "110",
+        "character": "少",
+        "keyword": "few",
+        "level": "Elementary",
+        "filename": "110_few",
+        "id": "J",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "G",
+            "requirements": []
+          },
+          {
+            "number": "109",
+            "character": "小",
+            "keyword": "small",
+            "level": "Elementary",
+            "filename": "109_small",
+            "id": "I",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "H",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

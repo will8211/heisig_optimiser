@@ -1,77 +1,80 @@
 {
-  "number": "615",
-  "character": "弄",
-  "keyword": "play with",
-  "level": "Medium",
-  "filename": "615_play_with",
-  "id": "I",
-  "requirements": [
-    {
-      "number": "266",
-      "character": "玉",
-      "keyword": "jade",
-      "level": "Medium",
-      "filename": "266_jade",
-      "id": "E",
-      "requirements": [
-        {
-          "number": "265",
-          "character": "王",
-          "keyword": "king",
-          "level": "Medium",
-          "filename": "265_king",
-          "id": "C",
-          "requirements": [
-            {
-              "number": "76",
-              "character": "工",
-              "keyword": "work",
-              "level": "Elementary",
-              "filename": "76_work",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "613",
-      "character": "开",
-      "keyword": "open",
-      "level": "Elementary",
-      "filename": "613_open",
-      "id": "H",
-      "requirements": [
-        {
-          "number": "2",
-          "character": "二",
-          "keyword": "two",
-          "level": "Elementary",
-          "filename": "2_two",
-          "id": "G",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "F",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 665,
+  "hierarchy": {
+    "number": "615",
+    "character": "弄",
+    "keyword": "play with",
+    "level": "Medium",
+    "filename": "615_play_with",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "266",
+        "character": "玉",
+        "keyword": "jade",
+        "level": "Medium",
+        "filename": "266_jade",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "265",
+            "character": "王",
+            "keyword": "king",
+            "level": "Medium",
+            "filename": "265_king",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "76",
+                "character": "工",
+                "keyword": "work",
+                "level": "Elementary",
+                "filename": "76_work",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "613",
+        "character": "开",
+        "keyword": "open",
+        "level": "Elementary",
+        "filename": "613_open",
+        "id": "H",
+        "requirements": [
+          {
+            "number": "2",
+            "character": "二",
+            "keyword": "two",
+            "level": "Elementary",
+            "filename": "2_two",
+            "id": "G",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "F",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

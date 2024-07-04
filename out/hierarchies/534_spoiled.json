@@ -1,58 +1,61 @@
 {
-  "number": "534",
-  "character": "烂",
-  "keyword": "spoiled",
-  "level": null,
-  "filename": "534_spoiled",
-  "id": "G",
-  "requirements": [
-    {
-      "number": "170",
-      "character": "火",
-      "keyword": "fire",
-      "level": "Elementary",
-      "filename": "170_fire",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "533",
-      "character": "兰",
-      "keyword": "orchid",
-      "level": null,
-      "filename": "533_orchid",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "528",
-          "character": "羊",
-          "keyword": "sheep",
-          "level": "Medium",
-          "filename": "528_sheep",
-          "id": "E",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丷",
-              "keyword": "horns",
-              "level": null,
-              "filename": "extra_horns",
-              "id": "D",
-              "requirements": [
-                {
-                  "number": "1",
-                  "character": "一",
-                  "keyword": "one",
-                  "level": "Elementary",
-                  "filename": "1_one",
-                  "id": "C",
-                  "requirements": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 580,
+  "hierarchy": {
+    "number": "534",
+    "character": "烂",
+    "keyword": "spoiled",
+    "level": null,
+    "filename": "534_spoiled",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "170",
+        "character": "火",
+        "keyword": "fire",
+        "level": "Elementary",
+        "filename": "170_fire",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "533",
+        "character": "兰",
+        "keyword": "orchid",
+        "level": null,
+        "filename": "533_orchid",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "528",
+            "character": "羊",
+            "keyword": "sheep",
+            "level": "Medium",
+            "filename": "528_sheep",
+            "id": "E",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丷",
+                "keyword": "horns",
+                "level": null,
+                "filename": "primitive_horns",
+                "id": "D",
+                "requirements": [
+                  {
+                    "number": "1",
+                    "character": "一",
+                    "keyword": "one",
+                    "level": "Elementary",
+                    "filename": "1_one",
+                    "id": "C",
+                    "requirements": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

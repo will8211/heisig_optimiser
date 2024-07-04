@@ -1,38 +1,41 @@
 {
-  "number": "2249",
-  "character": "券",
-  "keyword": "voucher",
-  "level": null,
-  "filename": "2249_voucher",
-  "id": "E",
-  "requirements": [
-    {
-      "number": null,
-      "character": "囧眷－目",
-      "keyword": "quarter",
-      "level": null,
-      "filename": "extra_quarter",
-      "id": "C",
-      "requirements": [
-        {
-          "number": "980",
-          "character": "半",
-          "keyword": "half",
-          "level": "Elementary",
-          "filename": "980_half",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "83",
-      "character": "刀",
-      "keyword": "sword",
-      "level": "Medium",
-      "filename": "83_sword",
-      "id": "D",
-      "requirements": []
-    }
-  ]
+  "order": 2415,
+  "hierarchy": {
+    "number": "2249",
+    "character": "券",
+    "keyword": "voucher",
+    "level": null,
+    "filename": "2249_voucher",
+    "id": "E",
+    "requirements": [
+      {
+        "number": null,
+        "character": "囧眷－目",
+        "keyword": "quarter",
+        "level": null,
+        "filename": "primitive_quarter",
+        "id": "C",
+        "requirements": [
+          {
+            "number": "980",
+            "character": "半",
+            "keyword": "half",
+            "level": "Elementary",
+            "filename": "980_half",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "83",
+        "character": "刀",
+        "keyword": "sword",
+        "level": "Medium",
+        "filename": "83_sword",
+        "id": "D",
+        "requirements": []
+      }
+    ]
+  }
 }

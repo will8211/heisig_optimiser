@@ -1,76 +1,79 @@
 {
-  "number": "1600",
-  "character": "啥",
-  "keyword": "wha?",
-  "level": null,
-  "filename": "1600_wha",
-  "id": "I",
-  "requirements": [
-    {
-      "number": "11",
-      "character": "口",
-      "keyword": "mouth",
-      "level": "Elementary",
-      "filename": "11_mouth",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1599",
-      "character": "舍",
-      "keyword": "abode",
-      "level": "Advanced",
-      "filename": "1599_abode",
-      "id": "H",
-      "requirements": [
-        {
-          "number": null,
-          "character": "亼",
-          "keyword": "meeting",
-          "level": null,
-          "filename": "extra_meeting",
-          "id": "D",
-          "requirements": [
-            {
-              "number": null,
-              "character": "𠆢",
-              "keyword": "umbrella",
-              "level": null,
-              "filename": "extra_umbrella",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "16",
-          "character": "古",
-          "keyword": "ancient",
-          "level": "Medium",
-          "filename": "16_ancient",
-          "id": "G",
-          "requirements": [
-            {
-              "number": "10",
-              "character": "十",
-              "keyword": "ten",
-              "level": "Elementary",
-              "filename": "10_ten",
-              "id": "E",
-              "requirements": []
-            },
-            {
-              "number": "11",
-              "character": "口",
-              "keyword": "mouth",
-              "level": "Elementary",
-              "filename": "11_mouth",
-              "id": "F",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 1740,
+  "hierarchy": {
+    "number": "1600",
+    "character": "啥",
+    "keyword": "wha?",
+    "level": null,
+    "filename": "1600_wha",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "11",
+        "character": "口",
+        "keyword": "mouth",
+        "level": "Elementary",
+        "filename": "11_mouth",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1599",
+        "character": "舍",
+        "keyword": "abode",
+        "level": "Advanced",
+        "filename": "1599_abode",
+        "id": "H",
+        "requirements": [
+          {
+            "number": null,
+            "character": "亼",
+            "keyword": "meeting",
+            "level": null,
+            "filename": "primitive_meeting",
+            "id": "D",
+            "requirements": [
+              {
+                "number": null,
+                "character": "𠆢",
+                "keyword": "umbrella",
+                "level": null,
+                "filename": "primitive_umbrella",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "16",
+            "character": "古",
+            "keyword": "ancient",
+            "level": "Medium",
+            "filename": "16_ancient",
+            "id": "G",
+            "requirements": [
+              {
+                "number": "10",
+                "character": "十",
+                "keyword": "ten",
+                "level": "Elementary",
+                "filename": "10_ten",
+                "id": "E",
+                "requirements": []
+              },
+              {
+                "number": "11",
+                "character": "口",
+                "keyword": "mouth",
+                "level": "Elementary",
+                "filename": "11_mouth",
+                "id": "F",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

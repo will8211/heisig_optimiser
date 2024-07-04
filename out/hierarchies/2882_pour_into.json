@@ -1,95 +1,98 @@
 {
-  "number": "2882",
-  "character": "灌",
-  "keyword": "pour into",
-  "level": null,
-  "filename": "2882_pour_into",
-  "id": "K",
-  "requirements": [
-    {
-      "number": "137",
-      "character": "水",
-      "keyword": "water",
-      "level": "Elementary",
-      "filename": "137_water",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丨",
-          "keyword": "walking stick",
-          "level": null,
-          "filename": "extra_walking_stick",
-          "id": "C",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "雚",
-      "keyword": "stork",
-      "level": null,
-      "filename": "extra_stork",
-      "id": "J",
-      "requirements": [
-        {
-          "number": null,
-          "character": "隹",
-          "keyword": "turkey",
-          "level": null,
-          "filename": "extra_turkey",
-          "id": "F",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "吅",
-          "keyword": "chatterbox",
-          "level": null,
-          "filename": "extra_chatterbox",
-          "id": "H",
-          "requirements": [
-            {
-              "number": "11",
-              "character": "口",
-              "keyword": "mouth",
-              "level": "Elementary",
-              "filename": "11_mouth",
-              "id": "G",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "艹",
-          "keyword": "flower",
-          "level": null,
-          "filename": "extra_flower",
-          "id": "I",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 3078,
+  "hierarchy": {
+    "number": "2882",
+    "character": "灌",
+    "keyword": "pour into",
+    "level": null,
+    "filename": "2882_pour_into",
+    "id": "K",
+    "requirements": [
+      {
+        "number": "137",
+        "character": "水",
+        "keyword": "water",
+        "level": "Elementary",
+        "filename": "137_water",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丨",
+            "keyword": "walking stick",
+            "level": null,
+            "filename": "primitive_walking_stick",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "雚",
+        "keyword": "stork",
+        "level": null,
+        "filename": "primitive_stork",
+        "id": "J",
+        "requirements": [
+          {
+            "number": null,
+            "character": "隹",
+            "keyword": "turkey",
+            "level": null,
+            "filename": "primitive_turkey",
+            "id": "F",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "吅",
+            "keyword": "chatterbox",
+            "level": null,
+            "filename": "primitive_chatterbox",
+            "id": "H",
+            "requirements": [
+              {
+                "number": "11",
+                "character": "口",
+                "keyword": "mouth",
+                "level": "Elementary",
+                "filename": "11_mouth",
+                "id": "G",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "艹",
+            "keyword": "flower",
+            "level": null,
+            "filename": "primitive_flower",
+            "id": "I",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

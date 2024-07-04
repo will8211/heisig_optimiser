@@ -1,48 +1,51 @@
 {
-  "number": "1456",
-  "character": "骂",
-  "keyword": "scold",
-  "level": "Advanced",
-  "filename": "1456_scold",
-  "id": "F",
-  "requirements": [
-    {
-      "number": null,
-      "character": "吅",
-      "keyword": "chatterbox",
-      "level": null,
-      "filename": "extra_chatterbox",
-      "id": "C",
-      "requirements": [
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "filename": "11_mouth",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "1453",
-      "character": "马",
-      "keyword": "horse",
-      "level": "Elementary",
-      "filename": "1453_horse",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧与－丨一",
-          "keyword": "pointed tail",
-          "level": null,
-          "filename": "extra_pointed_tail",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1593,
+  "hierarchy": {
+    "number": "1456",
+    "character": "骂",
+    "keyword": "scold",
+    "level": "Advanced",
+    "filename": "1456_scold",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "吅",
+        "keyword": "chatterbox",
+        "level": null,
+        "filename": "primitive_chatterbox",
+        "id": "C",
+        "requirements": [
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "1453",
+        "character": "马",
+        "keyword": "horse",
+        "level": "Elementary",
+        "filename": "1453_horse",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧与－丨一",
+            "keyword": "pointed tail",
+            "level": null,
+            "filename": "primitive_pointed_tail",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,47 +1,50 @@
 {
-  "number": "645",
-  "character": "摊",
-  "keyword": "vendor’s stand",
-  "level": null,
-  "filename": "645_vendor’s_stand",
-  "id": "F",
-  "requirements": [
-    {
-      "number": null,
-      "character": "扌",
-      "keyword": "fingers",
-      "level": null,
-      "filename": "extra_fingers",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "644",
-      "character": "难",
-      "keyword": "difficult",
-      "level": "Elementary",
-      "filename": "644_difficult",
-      "id": "E",
-      "requirements": [
-        {
-          "number": "633",
-          "character": "又",
-          "keyword": "again",
-          "level": "Elementary",
-          "filename": "633_again",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "隹",
-          "keyword": "turkey",
-          "level": null,
-          "filename": "extra_turkey",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 696,
+  "hierarchy": {
+    "number": "645",
+    "character": "摊",
+    "keyword": "vendor’s stand",
+    "level": null,
+    "filename": "645_vendor’s_stand",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "primitive_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "644",
+        "character": "难",
+        "keyword": "difficult",
+        "level": "Elementary",
+        "filename": "644_difficult",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "633",
+            "character": "又",
+            "keyword": "again",
+            "level": "Elementary",
+            "filename": "633_again",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "隹",
+            "keyword": "turkey",
+            "level": null,
+            "filename": "primitive_turkey",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

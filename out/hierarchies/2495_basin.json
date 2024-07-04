@@ -1,47 +1,50 @@
 {
-  "number": "2495",
-  "character": "盆",
-  "keyword": "basin",
-  "level": "Advanced",
-  "filename": "2495_basin",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "694",
-      "character": "分",
-      "keyword": "part",
-      "level": "Elementary",
-      "filename": "694_part",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "8",
-          "character": "八",
-          "keyword": "eight",
-          "level": "Elementary",
-          "filename": "8_eight",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "83",
-          "character": "刀",
-          "keyword": "sword",
-          "level": "Medium",
-          "filename": "83_sword",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "皿",
-      "keyword": "dish",
-      "level": null,
-      "filename": "extra_dish",
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 2679,
+  "hierarchy": {
+    "number": "2495",
+    "character": "盆",
+    "keyword": "basin",
+    "level": "Advanced",
+    "filename": "2495_basin",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "694",
+        "character": "分",
+        "keyword": "part",
+        "level": "Elementary",
+        "filename": "694_part",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "8",
+            "character": "八",
+            "keyword": "eight",
+            "level": "Elementary",
+            "filename": "8_eight",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "83",
+            "character": "刀",
+            "keyword": "sword",
+            "level": "Medium",
+            "filename": "83_sword",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "皿",
+        "keyword": "dish",
+        "level": null,
+        "filename": "primitive_dish",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

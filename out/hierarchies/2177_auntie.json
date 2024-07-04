@@ -1,76 +1,79 @@
 {
-  "number": "2177",
-  "character": "婶",
-  "keyword": "auntie",
-  "level": null,
-  "filename": "2177_auntie",
-  "id": "I",
-  "requirements": [
-    {
-      "number": "102",
-      "character": "女",
-      "keyword": "woman",
-      "level": "Elementary",
-      "filename": "102_woman",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "2176",
-      "character": "审",
-      "keyword": "painstaking",
-      "level": null,
-      "filename": "2176_painstaking",
-      "id": "H",
-      "requirements": [
-        {
-          "number": null,
-          "character": "宀",
-          "keyword": "house",
-          "level": null,
-          "filename": "extra_house",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "918",
-          "character": "申",
-          "keyword": "express",
-          "level": "Advanced",
-          "filename": "918_express",
-          "id": "G",
-          "requirements": [
-            {
-              "number": "12",
-              "character": "日",
-              "keyword": "day",
-              "level": "Elementary",
-              "filename": "12_day",
-              "id": "D",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "丨",
-              "keyword": "walking stick",
-              "level": null,
-              "filename": "extra_walking_stick",
-              "id": "F",
-              "requirements": [
-                {
-                  "number": "1",
-                  "character": "一",
-                  "keyword": "one",
-                  "level": "Elementary",
-                  "filename": "1_one",
-                  "id": "E",
-                  "requirements": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2339,
+  "hierarchy": {
+    "number": "2177",
+    "character": "婶",
+    "keyword": "auntie",
+    "level": null,
+    "filename": "2177_auntie",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "102",
+        "character": "女",
+        "keyword": "woman",
+        "level": "Elementary",
+        "filename": "102_woman",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "2176",
+        "character": "审",
+        "keyword": "painstaking",
+        "level": null,
+        "filename": "2176_painstaking",
+        "id": "H",
+        "requirements": [
+          {
+            "number": null,
+            "character": "宀",
+            "keyword": "house",
+            "level": null,
+            "filename": "primitive_house",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "918",
+            "character": "申",
+            "keyword": "express",
+            "level": "Advanced",
+            "filename": "918_express",
+            "id": "G",
+            "requirements": [
+              {
+                "number": "12",
+                "character": "日",
+                "keyword": "day",
+                "level": "Elementary",
+                "filename": "12_day",
+                "id": "D",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "丨",
+                "keyword": "walking stick",
+                "level": null,
+                "filename": "primitive_walking_stick",
+                "id": "F",
+                "requirements": [
+                  {
+                    "number": "1",
+                    "character": "一",
+                    "keyword": "one",
+                    "level": "Elementary",
+                    "filename": "1_one",
+                    "id": "E",
+                    "requirements": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

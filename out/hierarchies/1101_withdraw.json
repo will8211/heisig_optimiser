@@ -1,47 +1,50 @@
 {
-  "number": "1101",
-  "character": "却",
-  "keyword": "withdraw",
-  "level": null,
-  "filename": "1101_withdraw",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "675",
-      "character": "去",
-      "keyword": "go",
-      "level": "Elementary",
-      "filename": "675_go",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "158",
-          "character": "土",
-          "keyword": "soil",
-          "level": "Medium",
-          "filename": "158_soil",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "厶",
-          "keyword": "elbow",
-          "level": null,
-          "filename": "extra_elbow",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "卩",
-      "keyword": "stamp",
-      "level": null,
-      "filename": "extra_stamp",
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 1188,
+  "hierarchy": {
+    "number": "1101",
+    "character": "却",
+    "keyword": "withdraw",
+    "level": null,
+    "filename": "1101_withdraw",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "675",
+        "character": "去",
+        "keyword": "go",
+        "level": "Elementary",
+        "filename": "675_go",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "158",
+            "character": "土",
+            "keyword": "soil",
+            "level": "Medium",
+            "filename": "158_soil",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "厶",
+            "keyword": "elbow",
+            "level": null,
+            "filename": "primitive_elbow",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "卩",
+        "keyword": "stamp",
+        "level": null,
+        "filename": "primitive_stamp",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

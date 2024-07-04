@@ -1,76 +1,79 @@
 {
-  "number": "789",
-  "character": "等",
-  "keyword": "etc.",
-  "level": "Elementary",
-  "filename": "789_etc.",
-  "id": "I",
-  "requirements": [
-    {
-      "number": "786",
-      "character": "竹",
-      "keyword": "bamboo",
-      "level": "Advanced",
-      "filename": "786_bamboo",
-      "id": "C",
-      "requirements": [
-        {
-          "number": "90",
-          "character": "丁",
-          "keyword": "fourth",
-          "level": null,
-          "filename": "90_fourth",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "169",
-      "character": "寺",
-      "keyword": "Buddhist temple",
-      "level": "Advanced",
-      "filename": "169_Buddhist_temple",
-      "id": "H",
-      "requirements": [
-        {
-          "number": "158",
-          "character": "土",
-          "keyword": "soil",
-          "level": "Medium",
-          "filename": "158_soil",
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": "166",
-          "character": "寸",
-          "keyword": "Chinese inch",
-          "level": "Advanced",
-          "filename": "166_Chinese_inch",
-          "id": "G",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "filename": "extra_a_drop_of",
-              "id": "E",
-              "requirements": []
-            },
-            {
-              "number": "10",
-              "character": "十",
-              "keyword": "ten",
-              "level": "Elementary",
-              "filename": "10_ten",
-              "id": "F",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 851,
+  "hierarchy": {
+    "number": "789",
+    "character": "等",
+    "keyword": "etc.",
+    "level": "Elementary",
+    "filename": "789_etc.",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "786",
+        "character": "竹",
+        "keyword": "bamboo",
+        "level": "Advanced",
+        "filename": "786_bamboo",
+        "id": "C",
+        "requirements": [
+          {
+            "number": "90",
+            "character": "丁",
+            "keyword": "fourth",
+            "level": null,
+            "filename": "90_fourth",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "169",
+        "character": "寺",
+        "keyword": "Buddhist temple",
+        "level": "Advanced",
+        "filename": "169_Buddhist_temple",
+        "id": "H",
+        "requirements": [
+          {
+            "number": "158",
+            "character": "土",
+            "keyword": "soil",
+            "level": "Medium",
+            "filename": "158_soil",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": "166",
+            "character": "寸",
+            "keyword": "Chinese inch",
+            "level": "Advanced",
+            "filename": "166_Chinese_inch",
+            "id": "G",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "E",
+                "requirements": []
+              },
+              {
+                "number": "10",
+                "character": "十",
+                "keyword": "ten",
+                "level": "Elementary",
+                "filename": "10_ten",
+                "id": "F",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

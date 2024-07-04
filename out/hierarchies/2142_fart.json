@@ -1,38 +1,41 @@
 {
-  "number": "2142",
-  "character": "屁",
-  "keyword": "fart",
-  "level": null,
-  "filename": "2142_fart",
-  "id": "E",
-  "requirements": [
-    {
-      "number": "882",
-      "character": "尸",
-      "keyword": "corpse",
-      "level": null,
-      "filename": "882_corpse",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "456",
-      "character": "比",
-      "keyword": "compare",
-      "level": "Elementary",
-      "filename": "456_compare",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "453",
-          "character": "匕",
-          "keyword": "ancient spoon",
-          "level": null,
-          "filename": "453_ancient_spoon",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2303,
+  "hierarchy": {
+    "number": "2142",
+    "character": "屁",
+    "keyword": "fart",
+    "level": null,
+    "filename": "2142_fart",
+    "id": "E",
+    "requirements": [
+      {
+        "number": "882",
+        "character": "尸",
+        "keyword": "corpse",
+        "level": null,
+        "filename": "882_corpse",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "456",
+        "character": "比",
+        "keyword": "compare",
+        "level": "Elementary",
+        "filename": "456_compare",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "453",
+            "character": "匕",
+            "keyword": "ancient spoon",
+            "level": null,
+            "filename": "453_ancient_spoon",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

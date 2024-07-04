@@ -1,38 +1,41 @@
 {
-  "number": "1801",
-  "character": "惧",
-  "keyword": "be frightened",
-  "level": null,
-  "filename": "1801_be_frightened",
-  "id": "E",
-  "requirements": [
-    {
-      "number": "563",
-      "character": "心",
-      "keyword": "heart",
-      "level": "Medium",
-      "filename": "563_heart",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "囧具－目",
-      "keyword": "tool",
-      "level": null,
-      "filename": "extra_tool",
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧只－口",
-          "keyword": "animal legs",
-          "level": null,
-          "filename": "extra_animal_legs",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1951,
+  "hierarchy": {
+    "number": "1801",
+    "character": "惧",
+    "keyword": "be frightened",
+    "level": null,
+    "filename": "1801_be_frightened",
+    "id": "E",
+    "requirements": [
+      {
+        "number": "563",
+        "character": "心",
+        "keyword": "heart",
+        "level": "Medium",
+        "filename": "563_heart",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "囧具－目",
+        "keyword": "tool",
+        "level": null,
+        "filename": "primitive_tool",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧只－口",
+            "keyword": "animal legs",
+            "level": null,
+            "filename": "primitive_animal_legs",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,85 +1,88 @@
 {
-  "number": "1626",
-  "character": "链",
-  "keyword": "chain",
-  "level": null,
-  "filename": "1626_chain",
-  "id": "J",
-  "requirements": [
-    {
-      "number": "279",
-      "character": "金",
-      "keyword": "gold",
-      "level": "Advanced",
-      "filename": "279_gold",
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "𠆢",
-          "keyword": "umbrella",
-          "level": null,
-          "filename": "extra_umbrella",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "265",
-          "character": "王",
-          "keyword": "king",
-          "level": "Medium",
-          "filename": "265_king",
-          "id": "D",
-          "requirements": [
-            {
-              "number": "76",
-              "character": "工",
-              "keyword": "work",
-              "level": "Elementary",
-              "filename": "76_work",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "301",
-      "character": "连",
-      "keyword": "one after another",
-      "level": "Medium",
-      "filename": "301_one_after_another",
-      "id": "I",
-      "requirements": [
-        {
-          "number": "300",
-          "character": "车",
-          "keyword": "car",
-          "level": "Elementary",
-          "filename": "300_car",
-          "id": "G",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "辶",
-          "keyword": "road",
-          "level": null,
-          "filename": "extra_road",
-          "id": "H",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1766,
+  "hierarchy": {
+    "number": "1626",
+    "character": "链",
+    "keyword": "chain",
+    "level": null,
+    "filename": "1626_chain",
+    "id": "J",
+    "requirements": [
+      {
+        "number": "279",
+        "character": "金",
+        "keyword": "gold",
+        "level": "Advanced",
+        "filename": "279_gold",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "𠆢",
+            "keyword": "umbrella",
+            "level": null,
+            "filename": "primitive_umbrella",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "265",
+            "character": "王",
+            "keyword": "king",
+            "level": "Medium",
+            "filename": "265_king",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "76",
+                "character": "工",
+                "keyword": "work",
+                "level": "Elementary",
+                "filename": "76_work",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "301",
+        "character": "连",
+        "keyword": "one after another",
+        "level": "Medium",
+        "filename": "301_one_after_another",
+        "id": "I",
+        "requirements": [
+          {
+            "number": "300",
+            "character": "车",
+            "keyword": "car",
+            "level": "Elementary",
+            "filename": "300_car",
+            "id": "G",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "辶",
+            "keyword": "road",
+            "level": null,
+            "filename": "primitive_road",
+            "id": "H",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

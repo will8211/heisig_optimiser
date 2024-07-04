@@ -1,37 +1,40 @@
 {
-  "number": "1842",
-  "character": "捏",
-  "keyword": "pinch",
-  "level": null,
-  "filename": "1842_pinch",
-  "id": "E",
-  "requirements": [
-    {
-      "number": null,
-      "character": "扌",
-      "keyword": "fingers",
-      "level": null,
-      "filename": "extra_fingers",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "12",
-      "character": "日",
-      "keyword": "day",
-      "level": "Elementary",
-      "filename": "12_day",
-      "id": "C",
-      "requirements": []
-    },
-    {
-      "number": "158",
-      "character": "土",
-      "keyword": "soil",
-      "level": "Medium",
-      "filename": "158_soil",
-      "id": "D",
-      "requirements": []
-    }
-  ]
+  "order": 1993,
+  "hierarchy": {
+    "number": "1842",
+    "character": "捏",
+    "keyword": "pinch",
+    "level": null,
+    "filename": "1842_pinch",
+    "id": "E",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "primitive_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "12",
+        "character": "日",
+        "keyword": "day",
+        "level": "Elementary",
+        "filename": "12_day",
+        "id": "C",
+        "requirements": []
+      },
+      {
+        "number": "158",
+        "character": "土",
+        "keyword": "soil",
+        "level": "Medium",
+        "filename": "158_soil",
+        "id": "D",
+        "requirements": []
+      }
+    ]
+  }
 }

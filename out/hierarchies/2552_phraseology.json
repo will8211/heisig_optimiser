@@ -1,85 +1,88 @@
 {
-  "number": "2552",
-  "character": "辞",
-  "keyword": "phraseology",
-  "level": null,
-  "filename": "2552_phraseology",
-  "id": "J",
-  "requirements": [
-    {
-      "number": "40",
-      "character": "舌",
-      "keyword": "tongue",
-      "level": "Medium",
-      "filename": "40_tongue",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "filename": "11_mouth",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "39",
-          "character": "千",
-          "keyword": "thousand",
-          "level": "Medium",
-          "filename": "39_thousand",
-          "id": "E",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "filename": "extra_a_drop_of",
-              "id": "C",
-              "requirements": []
-            },
-            {
-              "number": "10",
-              "character": "十",
-              "keyword": "ten",
-              "level": "Elementary",
-              "filename": "10_ten",
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": "1183",
-      "character": "辛",
-      "keyword": "peppery",
-      "level": "Advanced",
-      "filename": "1183_peppery",
-      "id": "I",
-      "requirements": [
-        {
-          "number": "444",
-          "character": "立",
-          "keyword": "standing up",
-          "level": "Advanced",
-          "filename": "444_standing_up",
-          "id": "G",
-          "requirements": []
-        },
-        {
-          "number": "10",
-          "character": "十",
-          "keyword": "ten",
-          "level": "Elementary",
-          "filename": "10_ten",
-          "id": "H",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2739,
+  "hierarchy": {
+    "number": "2552",
+    "character": "辞",
+    "keyword": "phraseology",
+    "level": null,
+    "filename": "2552_phraseology",
+    "id": "J",
+    "requirements": [
+      {
+        "number": "40",
+        "character": "舌",
+        "keyword": "tongue",
+        "level": "Medium",
+        "filename": "40_tongue",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "39",
+            "character": "千",
+            "keyword": "thousand",
+            "level": "Medium",
+            "filename": "39_thousand",
+            "id": "E",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "C",
+                "requirements": []
+              },
+              {
+                "number": "10",
+                "character": "十",
+                "keyword": "ten",
+                "level": "Elementary",
+                "filename": "10_ten",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": "1183",
+        "character": "辛",
+        "keyword": "peppery",
+        "level": "Advanced",
+        "filename": "1183_peppery",
+        "id": "I",
+        "requirements": [
+          {
+            "number": "444",
+            "character": "立",
+            "keyword": "standing up",
+            "level": "Advanced",
+            "filename": "444_standing_up",
+            "id": "G",
+            "requirements": []
+          },
+          {
+            "number": "10",
+            "character": "十",
+            "keyword": "ten",
+            "level": "Elementary",
+            "filename": "10_ten",
+            "id": "H",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

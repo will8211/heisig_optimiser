@@ -1,28 +1,31 @@
 {
-  "number": "1147",
-  "character": "退",
-  "keyword": "retreat",
-  "level": "Advanced",
-  "filename": "1147_retreat",
-  "id": "D",
-  "requirements": [
-    {
-      "number": null,
-      "character": "艮",
-      "keyword": "silver",
-      "level": null,
-      "filename": "extra_silver",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "辶",
-      "keyword": "road",
-      "level": null,
-      "filename": "extra_road",
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 1243,
+  "hierarchy": {
+    "number": "1147",
+    "character": "退",
+    "keyword": "retreat",
+    "level": "Advanced",
+    "filename": "1147_retreat",
+    "id": "D",
+    "requirements": [
+      {
+        "number": null,
+        "character": "艮",
+        "keyword": "silver",
+        "level": null,
+        "filename": "primitive_silver",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "辶",
+        "keyword": "road",
+        "level": null,
+        "filename": "primitive_road",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

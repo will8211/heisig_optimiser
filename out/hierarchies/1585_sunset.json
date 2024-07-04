@@ -1,56 +1,59 @@
 {
-  "number": "1585",
-  "character": "暮",
-  "keyword": "sunset",
-  "level": null,
-  "filename": "1585_sunset",
-  "id": "G",
-  "requirements": [
-    {
-      "number": "231",
-      "character": "莫",
-      "keyword": "nobody",
-      "level": null,
-      "filename": "231_nobody",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "艹",
-          "keyword": "flower",
-          "level": null,
-          "filename": "extra_flower",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "12",
-          "character": "日",
-          "keyword": "day",
-          "level": "Elementary",
-          "filename": "12_day",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "113",
-          "character": "大",
-          "keyword": "large",
-          "level": "Elementary",
-          "filename": "113_large",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "12",
-      "character": "日",
-      "keyword": "day",
-      "level": "Elementary",
-      "filename": "12_day",
-      "id": "F",
-      "requirements": []
-    }
-  ]
+  "order": 1725,
+  "hierarchy": {
+    "number": "1585",
+    "character": "暮",
+    "keyword": "sunset",
+    "level": null,
+    "filename": "1585_sunset",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "231",
+        "character": "莫",
+        "keyword": "nobody",
+        "level": null,
+        "filename": "231_nobody",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "艹",
+            "keyword": "flower",
+            "level": null,
+            "filename": "primitive_flower",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "12",
+            "character": "日",
+            "keyword": "day",
+            "level": "Elementary",
+            "filename": "12_day",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "113",
+            "character": "大",
+            "keyword": "large",
+            "level": "Elementary",
+            "filename": "113_large",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "12",
+        "character": "日",
+        "keyword": "day",
+        "level": "Elementary",
+        "filename": "12_day",
+        "id": "F",
+        "requirements": []
+      }
+    ]
+  }
 }

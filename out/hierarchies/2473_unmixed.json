@@ -1,66 +1,69 @@
 {
-  "number": "2473",
-  "character": "粹",
-  "keyword": "unmixed",
-  "level": null,
-  "filename": "2473_unmixed",
-  "id": "H",
-  "requirements": [
-    {
-      "number": "778",
-      "character": "米",
-      "keyword": "rice",
-      "level": "Medium",
-      "filename": "778_rice",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "卒",
-      "keyword": "foot soldiers",
-      "level": null,
-      "filename": "extra_foot_soldiers",
-      "id": "G",
-      "requirements": [
-        {
-          "number": "846",
-          "character": "从",
-          "keyword": "follow",
-          "level": "Elementary",
-          "filename": "846_follow",
-          "id": "D",
-          "requirements": [
-            {
-              "number": "793",
-              "character": "人",
-              "keyword": "person",
-              "level": "Elementary",
-              "filename": "793_person",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "亠",
-          "keyword": "top hat",
-          "level": null,
-          "filename": "extra_top_hat",
-          "id": "E",
-          "requirements": []
-        },
-        {
-          "number": "10",
-          "character": "十",
-          "keyword": "ten",
-          "level": "Elementary",
-          "filename": "10_ten",
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2656,
+  "hierarchy": {
+    "number": "2473",
+    "character": "粹",
+    "keyword": "unmixed",
+    "level": null,
+    "filename": "2473_unmixed",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "778",
+        "character": "米",
+        "keyword": "rice",
+        "level": "Medium",
+        "filename": "778_rice",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "卒",
+        "keyword": "foot soldiers",
+        "level": null,
+        "filename": "primitive_foot_soldiers",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "846",
+            "character": "从",
+            "keyword": "follow",
+            "level": "Elementary",
+            "filename": "846_follow",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "793",
+                "character": "人",
+                "keyword": "person",
+                "level": "Elementary",
+                "filename": "793_person",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "亠",
+            "keyword": "top hat",
+            "level": null,
+            "filename": "primitive_top_hat",
+            "id": "E",
+            "requirements": []
+          },
+          {
+            "number": "10",
+            "character": "十",
+            "keyword": "ten",
+            "level": "Elementary",
+            "filename": "10_ten",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

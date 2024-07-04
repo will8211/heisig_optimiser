@@ -1,114 +1,117 @@
 {
-  "number": "1895",
-  "character": "椒",
-  "keyword": "spice plant",
-  "level": null,
-  "filename": "1895_spice_plant",
-  "id": "M",
-  "requirements": [
-    {
-      "number": "202",
-      "character": "木",
-      "keyword": "tree",
-      "level": "Elementary",
-      "filename": "202_tree",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "653",
-      "character": "叔",
-      "keyword": "uncle",
-      "level": "Advanced",
-      "filename": "653_uncle",
-      "id": "L",
-      "requirements": [
-        {
-          "number": "45",
-          "character": "上",
-          "keyword": "above",
-          "level": "Elementary",
-          "filename": "45_above",
-          "id": "H",
-          "requirements": [
-            {
-              "number": "43",
-              "character": "卜",
-              "keyword": "divination",
-              "level": null,
-              "filename": "43_divination",
-              "id": "F",
-              "requirements": [
-                {
-                  "number": null,
-                  "character": "丨",
-                  "keyword": "walking stick",
-                  "level": null,
-                  "filename": "extra_walking_stick",
-                  "id": "D",
-                  "requirements": [
-                    {
-                      "number": "1",
-                      "character": "一",
-                      "keyword": "one",
-                      "level": "Elementary",
-                      "filename": "1_one",
-                      "id": "C",
-                      "requirements": []
-                    }
-                  ]
-                },
-                {
-                  "number": null,
-                  "character": "丶",
-                  "keyword": "a drop of",
-                  "level": null,
-                  "filename": "extra_a_drop_of",
-                  "id": "E",
-                  "requirements": []
-                }
-              ]
-            },
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "G",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "109",
-          "character": "小",
-          "keyword": "small",
-          "level": "Elementary",
-          "filename": "109_small",
-          "id": "J",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "filename": "extra_a_drop_of",
-              "id": "I",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "633",
-          "character": "又",
-          "keyword": "again",
-          "level": "Elementary",
-          "filename": "633_again",
-          "id": "K",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2049,
+  "hierarchy": {
+    "number": "1895",
+    "character": "椒",
+    "keyword": "spice plant",
+    "level": null,
+    "filename": "1895_spice_plant",
+    "id": "M",
+    "requirements": [
+      {
+        "number": "202",
+        "character": "木",
+        "keyword": "tree",
+        "level": "Elementary",
+        "filename": "202_tree",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "653",
+        "character": "叔",
+        "keyword": "uncle",
+        "level": "Advanced",
+        "filename": "653_uncle",
+        "id": "L",
+        "requirements": [
+          {
+            "number": "45",
+            "character": "上",
+            "keyword": "above",
+            "level": "Elementary",
+            "filename": "45_above",
+            "id": "H",
+            "requirements": [
+              {
+                "number": "43",
+                "character": "卜",
+                "keyword": "divination",
+                "level": null,
+                "filename": "43_divination",
+                "id": "F",
+                "requirements": [
+                  {
+                    "number": null,
+                    "character": "丨",
+                    "keyword": "walking stick",
+                    "level": null,
+                    "filename": "primitive_walking_stick",
+                    "id": "D",
+                    "requirements": [
+                      {
+                        "number": "1",
+                        "character": "一",
+                        "keyword": "one",
+                        "level": "Elementary",
+                        "filename": "1_one",
+                        "id": "C",
+                        "requirements": []
+                      }
+                    ]
+                  },
+                  {
+                    "number": null,
+                    "character": "丶",
+                    "keyword": "a drop of",
+                    "level": null,
+                    "filename": "primitive_a_drop_of",
+                    "id": "E",
+                    "requirements": []
+                  }
+                ]
+              },
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "G",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "109",
+            "character": "小",
+            "keyword": "small",
+            "level": "Elementary",
+            "filename": "109_small",
+            "id": "J",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "I",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "633",
+            "character": "又",
+            "keyword": "again",
+            "level": "Elementary",
+            "filename": "633_again",
+            "id": "K",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

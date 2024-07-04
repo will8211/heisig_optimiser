@@ -1,76 +1,79 @@
 {
-  "number": "734",
-  "character": "势",
-  "keyword": "force",
-  "level": "Advanced",
-  "filename": "734_force",
-  "id": "I",
-  "requirements": [
-    {
-      "number": "602",
-      "character": "执",
-      "keyword": "clench",
-      "level": null,
-      "filename": "602_clench",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "扌",
-          "keyword": "fingers",
-          "level": null,
-          "filename": "extra_fingers",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "42",
-          "character": "丸",
-          "keyword": "pill",
-          "level": null,
-          "filename": "42_pill",
-          "id": "D",
-          "requirements": [
-            {
-              "number": "9",
-              "character": "九",
-              "keyword": "nine",
-              "level": "Elementary",
-              "filename": "9_nine",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": "63",
-      "character": "肌",
-      "keyword": "muscle",
-      "level": null,
-      "filename": "63_muscle",
-      "id": "H",
-      "requirements": [
-        {
-          "number": "57",
-          "character": "几",
-          "keyword": "how many?",
-          "level": "Elementary",
-          "filename": "57_how_many",
-          "id": "F",
-          "requirements": []
-        },
-        {
-          "number": "13",
-          "character": "月",
-          "keyword": "month",
-          "level": "Elementary",
-          "filename": "13_month",
-          "id": "G",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 794,
+  "hierarchy": {
+    "number": "734",
+    "character": "势",
+    "keyword": "force",
+    "level": "Advanced",
+    "filename": "734_force",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "602",
+        "character": "执",
+        "keyword": "clench",
+        "level": null,
+        "filename": "602_clench",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "扌",
+            "keyword": "fingers",
+            "level": null,
+            "filename": "primitive_fingers",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "42",
+            "character": "丸",
+            "keyword": "pill",
+            "level": null,
+            "filename": "42_pill",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "9",
+                "character": "九",
+                "keyword": "nine",
+                "level": "Elementary",
+                "filename": "9_nine",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": "63",
+        "character": "肌",
+        "keyword": "muscle",
+        "level": null,
+        "filename": "63_muscle",
+        "id": "H",
+        "requirements": [
+          {
+            "number": "57",
+            "character": "几",
+            "keyword": "how many?",
+            "level": "Elementary",
+            "filename": "57_how_many",
+            "id": "F",
+            "requirements": []
+          },
+          {
+            "number": "13",
+            "character": "月",
+            "keyword": "month",
+            "level": "Elementary",
+            "filename": "13_month",
+            "id": "G",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

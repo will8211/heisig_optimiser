@@ -1,47 +1,50 @@
 {
-  "number": "1906",
-  "character": "宏",
-  "keyword": "magnificent",
-  "level": null,
-  "filename": "1906_magnificent",
-  "id": "F",
-  "requirements": [
-    {
-      "number": null,
-      "character": "宀",
-      "keyword": "house",
-      "level": null,
-      "filename": "extra_house",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "𠂇",
-      "keyword": "by one’s side",
-      "level": null,
-      "filename": "extra_by_one’s_side",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "10",
-          "character": "十",
-          "keyword": "ten",
-          "level": "Elementary",
-          "filename": "10_ten",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "厶",
-      "keyword": "elbow",
-      "level": null,
-      "filename": "extra_elbow",
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 2061,
+  "hierarchy": {
+    "number": "1906",
+    "character": "宏",
+    "keyword": "magnificent",
+    "level": null,
+    "filename": "1906_magnificent",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "宀",
+        "keyword": "house",
+        "level": null,
+        "filename": "primitive_house",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "𠂇",
+        "keyword": "by one’s side",
+        "level": null,
+        "filename": "primitive_by_one’s_side",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "10",
+            "character": "十",
+            "keyword": "ten",
+            "level": "Elementary",
+            "filename": "10_ten",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "厶",
+        "keyword": "elbow",
+        "level": null,
+        "filename": "primitive_elbow",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

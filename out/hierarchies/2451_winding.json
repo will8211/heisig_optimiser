@@ -1,57 +1,60 @@
 {
-  "number": "2451",
-  "character": "宛",
-  "keyword": "winding",
-  "level": null,
-  "filename": "2451_winding",
-  "id": "G",
-  "requirements": [
-    {
-      "number": null,
-      "character": "宀",
-      "keyword": "house",
-      "level": null,
-      "filename": "extra_house",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "夗",
-      "keyword": "nameplate",
-      "level": null,
-      "filename": "extra_nameplate",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "115",
-          "character": "夕",
-          "keyword": "evening",
-          "level": "Advanced",
-          "filename": "115_evening",
-          "id": "D",
-          "requirements": [
-            {
-              "number": "13",
-              "character": "月",
-              "keyword": "month",
-              "level": "Elementary",
-              "filename": "13_month",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "㔾",
-          "keyword": "fingerprint",
-          "level": null,
-          "filename": "extra_fingerprint",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2631,
+  "hierarchy": {
+    "number": "2451",
+    "character": "宛",
+    "keyword": "winding",
+    "level": null,
+    "filename": "2451_winding",
+    "id": "G",
+    "requirements": [
+      {
+        "number": null,
+        "character": "宀",
+        "keyword": "house",
+        "level": null,
+        "filename": "primitive_house",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "夗",
+        "keyword": "nameplate",
+        "level": null,
+        "filename": "primitive_nameplate",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "115",
+            "character": "夕",
+            "keyword": "evening",
+            "level": "Advanced",
+            "filename": "115_evening",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "13",
+                "character": "月",
+                "keyword": "month",
+                "level": "Elementary",
+                "filename": "13_month",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "㔾",
+            "keyword": "fingerprint",
+            "level": null,
+            "filename": "primitive_fingerprint",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

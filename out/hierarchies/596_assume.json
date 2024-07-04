@@ -1,47 +1,50 @@
 {
-  "number": "596",
-  "character": "担",
-  "keyword": "assume",
-  "level": "Advanced",
-  "filename": "596_assume",
-  "id": "F",
-  "requirements": [
-    {
-      "number": null,
-      "character": "扌",
-      "keyword": "fingers",
-      "level": null,
-      "filename": "extra_fingers",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "30",
-      "character": "旦",
-      "keyword": "daybreak",
-      "level": "Medium",
-      "filename": "30_daybreak",
-      "id": "E",
-      "requirements": [
-        {
-          "number": "12",
-          "character": "日",
-          "keyword": "day",
-          "level": "Elementary",
-          "filename": "12_day",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "filename": "1_one",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 646,
+  "hierarchy": {
+    "number": "596",
+    "character": "担",
+    "keyword": "assume",
+    "level": "Advanced",
+    "filename": "596_assume",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "primitive_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "30",
+        "character": "旦",
+        "keyword": "daybreak",
+        "level": "Medium",
+        "filename": "30_daybreak",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "12",
+            "character": "日",
+            "keyword": "day",
+            "level": "Elementary",
+            "filename": "12_day",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,47 +1,50 @@
 {
-  "number": "99",
-  "character": "吼",
-  "keyword": "roar",
-  "level": null,
-  "filename": "99_roar",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "11",
-      "character": "口",
-      "keyword": "mouth",
-      "level": "Elementary",
-      "filename": "11_mouth",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "98",
-      "character": "孔",
-      "keyword": "cavity",
-      "level": null,
-      "filename": "98_cavity",
-      "id": "E",
-      "requirements": [
-        {
-          "number": "97",
-          "character": "子",
-          "keyword": "child",
-          "level": "Elementary",
-          "filename": "97_child",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "95",
-          "character": "乙",
-          "keyword": "second",
-          "level": "Medium",
-          "filename": "95_second",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 107,
+  "hierarchy": {
+    "number": "99",
+    "character": "吼",
+    "keyword": "roar",
+    "level": null,
+    "filename": "99_roar",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "11",
+        "character": "口",
+        "keyword": "mouth",
+        "level": "Elementary",
+        "filename": "11_mouth",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "98",
+        "character": "孔",
+        "keyword": "cavity",
+        "level": null,
+        "filename": "98_cavity",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "97",
+            "character": "子",
+            "keyword": "child",
+            "level": "Elementary",
+            "filename": "97_child",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "95",
+            "character": "乙",
+            "keyword": "second",
+            "level": "Medium",
+            "filename": "95_second",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

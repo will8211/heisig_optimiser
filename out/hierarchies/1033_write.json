@@ -1,57 +1,60 @@
 {
-  "number": "1033",
-  "character": "写",
-  "keyword": "write",
-  "level": "Elementary",
-  "filename": "1033_write",
-  "id": "G",
-  "requirements": [
-    {
-      "number": null,
-      "character": "冖",
-      "keyword": "crown",
-      "level": null,
-      "filename": "extra_crown",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1032",
-      "character": "与",
-      "keyword": "offer",
-      "level": "Medium",
-      "filename": "1032_offer",
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧与－丨一",
-          "keyword": "pointed tail",
-          "level": null,
-          "filename": "extra_pointed_tail",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "囧与－一",
-          "keyword": "slingshot",
-          "level": null,
-          "filename": "extra_slingshot",
-          "id": "E",
-          "requirements": [
-            {
-              "number": "1013",
-              "character": "弓",
-              "keyword": "bow",
-              "level": null,
-              "filename": "1013_bow",
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 1112,
+  "hierarchy": {
+    "number": "1033",
+    "character": "写",
+    "keyword": "write",
+    "level": "Elementary",
+    "filename": "1033_write",
+    "id": "G",
+    "requirements": [
+      {
+        "number": null,
+        "character": "冖",
+        "keyword": "crown",
+        "level": null,
+        "filename": "primitive_crown",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1032",
+        "character": "与",
+        "keyword": "offer",
+        "level": "Medium",
+        "filename": "1032_offer",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧与－丨一",
+            "keyword": "pointed tail",
+            "level": null,
+            "filename": "primitive_pointed_tail",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "囧与－一",
+            "keyword": "slingshot",
+            "level": null,
+            "filename": "primitive_slingshot",
+            "id": "E",
+            "requirements": [
+              {
+                "number": "1013",
+                "character": "弓",
+                "keyword": "bow",
+                "level": null,
+                "filename": "1013_bow",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

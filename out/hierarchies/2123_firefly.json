@@ -1,47 +1,50 @@
 {
-  "number": "2123",
-  "character": "萤",
-  "keyword": "firefly",
-  "level": null,
-  "filename": "2123_firefly",
-  "id": "F",
-  "requirements": [
-    {
-      "number": null,
-      "character": "囧荣－木",
-      "keyword": "greenhouse",
-      "level": null,
-      "filename": "extra_greenhouse",
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "宀",
-          "keyword": "house",
-          "level": null,
-          "filename": "extra_house",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "艹",
-          "keyword": "flower",
-          "level": null,
-          "filename": "extra_flower",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "509",
-      "character": "虫",
-      "keyword": "insect",
-      "level": "Medium",
-      "filename": "509_insect",
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 2284,
+  "hierarchy": {
+    "number": "2123",
+    "character": "萤",
+    "keyword": "firefly",
+    "level": null,
+    "filename": "2123_firefly",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "囧荣－木",
+        "keyword": "greenhouse",
+        "level": null,
+        "filename": "primitive_greenhouse",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "宀",
+            "keyword": "house",
+            "level": null,
+            "filename": "primitive_house",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "艹",
+            "keyword": "flower",
+            "level": null,
+            "filename": "primitive_flower",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "509",
+        "character": "虫",
+        "keyword": "insect",
+        "level": "Medium",
+        "filename": "509_insect",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

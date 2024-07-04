@@ -1,67 +1,70 @@
 {
-  "number": "2896",
-  "character": "驻",
-  "keyword": "be stationed",
-  "level": null,
-  "filename": "2896_be_stationed",
-  "id": "H",
-  "requirements": [
-    {
-      "number": "1453",
-      "character": "马",
-      "keyword": "horse",
-      "level": "Elementary",
-      "filename": "1453_horse",
-      "id": "C",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧与－丨一",
-          "keyword": "pointed tail",
-          "level": null,
-          "filename": "extra_pointed_tail",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "277",
-      "character": "主",
-      "keyword": "lord",
-      "level": "Medium",
-      "filename": "277_lord",
-      "id": "G",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": "265",
-          "character": "王",
-          "keyword": "king",
-          "level": "Medium",
-          "filename": "265_king",
-          "id": "F",
-          "requirements": [
-            {
-              "number": "76",
-              "character": "工",
-              "keyword": "work",
-              "level": "Elementary",
-              "filename": "76_work",
-              "id": "E",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 3093,
+  "hierarchy": {
+    "number": "2896",
+    "character": "驻",
+    "keyword": "be stationed",
+    "level": null,
+    "filename": "2896_be_stationed",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "1453",
+        "character": "马",
+        "keyword": "horse",
+        "level": "Elementary",
+        "filename": "1453_horse",
+        "id": "C",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧与－丨一",
+            "keyword": "pointed tail",
+            "level": null,
+            "filename": "primitive_pointed_tail",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "277",
+        "character": "主",
+        "keyword": "lord",
+        "level": "Medium",
+        "filename": "277_lord",
+        "id": "G",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": "265",
+            "character": "王",
+            "keyword": "king",
+            "level": "Medium",
+            "filename": "265_king",
+            "id": "F",
+            "requirements": [
+              {
+                "number": "76",
+                "character": "工",
+                "keyword": "work",
+                "level": "Elementary",
+                "filename": "76_work",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

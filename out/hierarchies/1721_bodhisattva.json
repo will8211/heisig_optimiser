@@ -1,47 +1,50 @@
 {
-  "number": "1721",
-  "character": "菩",
-  "keyword": "bodhisattva",
-  "level": null,
-  "filename": "1721_bodhisattva",
-  "id": "F",
-  "requirements": [
-    {
-      "number": null,
-      "character": "艹",
-      "keyword": "flower",
-      "level": null,
-      "filename": "extra_flower",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "咅",
-      "keyword": "muzzle",
-      "level": null,
-      "filename": "extra_muzzle",
-      "id": "E",
-      "requirements": [
-        {
-          "number": "444",
-          "character": "立",
-          "keyword": "standing up",
-          "level": "Advanced",
-          "filename": "444_standing_up",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "filename": "11_mouth",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1866,
+  "hierarchy": {
+    "number": "1721",
+    "character": "菩",
+    "keyword": "bodhisattva",
+    "level": null,
+    "filename": "1721_bodhisattva",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "艹",
+        "keyword": "flower",
+        "level": null,
+        "filename": "primitive_flower",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "咅",
+        "keyword": "muzzle",
+        "level": null,
+        "filename": "primitive_muzzle",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "444",
+            "character": "立",
+            "keyword": "standing up",
+            "level": "Advanced",
+            "filename": "444_standing_up",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,57 +1,60 @@
 {
-  "number": "2376",
-  "character": "络",
-  "keyword": "web",
-  "level": null,
-  "filename": "2376_web",
-  "id": "G",
-  "requirements": [
-    {
-      "number": null,
-      "character": "纟",
-      "keyword": "thread",
-      "level": null,
-      "filename": "extra_thread",
-      "id": "C",
-      "requirements": [
-        {
-          "number": null,
-          "character": "厶",
-          "keyword": "elbow",
-          "level": null,
-          "filename": "extra_elbow",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "309",
-      "character": "各",
-      "keyword": "each",
-      "level": "Medium",
-      "filename": "309_each",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "filename": "11_mouth",
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "夂",
-          "keyword": "walking legs",
-          "level": null,
-          "filename": "extra_walking_legs",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2548,
+  "hierarchy": {
+    "number": "2376",
+    "character": "络",
+    "keyword": "web",
+    "level": null,
+    "filename": "2376_web",
+    "id": "G",
+    "requirements": [
+      {
+        "number": null,
+        "character": "纟",
+        "keyword": "thread",
+        "level": null,
+        "filename": "primitive_thread",
+        "id": "C",
+        "requirements": [
+          {
+            "number": null,
+            "character": "厶",
+            "keyword": "elbow",
+            "level": null,
+            "filename": "primitive_elbow",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "309",
+        "character": "各",
+        "keyword": "each",
+        "level": "Medium",
+        "filename": "309_each",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "夂",
+            "keyword": "walking legs",
+            "level": null,
+            "filename": "primitive_walking_legs",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

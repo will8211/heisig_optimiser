@@ -1,57 +1,60 @@
 {
-  "number": "1385",
-  "character": "郎",
-  "keyword": "young man",
-  "level": null,
-  "filename": "1385_young_man",
-  "id": "G",
-  "requirements": [
-    {
-      "number": "1151",
-      "character": "良",
-      "keyword": "high-quality",
-      "level": "Advanced",
-      "filename": "1151_high-quality",
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "艮",
-          "keyword": "silver",
-          "level": null,
-          "filename": "extra_silver",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "囧阝",
-      "keyword": "city walls",
-      "level": null,
-      "filename": "extra_city_walls",
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "阝",
-          "keyword": "pinnacle",
-          "level": null,
-          "filename": "extra_pinnacle",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1509,
+  "hierarchy": {
+    "number": "1385",
+    "character": "郎",
+    "keyword": "young man",
+    "level": null,
+    "filename": "1385_young_man",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "1151",
+        "character": "良",
+        "keyword": "high-quality",
+        "level": "Advanced",
+        "filename": "1151_high-quality",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "艮",
+            "keyword": "silver",
+            "level": null,
+            "filename": "primitive_silver",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "囧阝",
+        "keyword": "city walls",
+        "level": null,
+        "filename": "primitive_city_walls",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "阝",
+            "keyword": "pinnacle",
+            "level": null,
+            "filename": "primitive_pinnacle",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,38 +1,41 @@
 {
-  "number": "1236",
-  "character": "专",
-  "keyword": "specialty",
-  "level": "Advanced",
-  "filename": "1236_specialty",
-  "id": "E",
-  "requirements": [
-    {
-      "number": null,
-      "character": "囧奉－𡗗",
-      "keyword": "cornstalk",
-      "level": null,
-      "filename": "extra_cornstalk",
-      "id": "C",
-      "requirements": [
-        {
-          "number": "1223",
-          "character": "丰",
-          "keyword": "plentiful",
-          "level": "Advanced",
-          "filename": "1223_plentiful",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "囧节－艹",
-      "keyword": "chop",
-      "level": null,
-      "filename": "extra_chop",
-      "id": "D",
-      "requirements": []
-    }
-  ]
+  "order": 1342,
+  "hierarchy": {
+    "number": "1236",
+    "character": "专",
+    "keyword": "specialty",
+    "level": "Advanced",
+    "filename": "1236_specialty",
+    "id": "E",
+    "requirements": [
+      {
+        "number": null,
+        "character": "囧奉－𡗗",
+        "keyword": "cornstalk",
+        "level": null,
+        "filename": "primitive_cornstalk",
+        "id": "C",
+        "requirements": [
+          {
+            "number": "1223",
+            "character": "丰",
+            "keyword": "plentiful",
+            "level": "Advanced",
+            "filename": "1223_plentiful",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "囧节－艹",
+        "keyword": "chop",
+        "level": null,
+        "filename": "primitive_chop",
+        "id": "D",
+        "requirements": []
+      }
+    ]
+  }
 }

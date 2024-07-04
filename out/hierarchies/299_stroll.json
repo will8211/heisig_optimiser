@@ -1,76 +1,79 @@
 {
-  "number": "299",
-  "character": "逛",
-  "keyword": "stroll",
-  "level": null,
-  "filename": "299_stroll",
-  "id": "I",
-  "requirements": [
-    {
-      "number": "271",
-      "character": "狂",
-      "keyword": "crazy",
-      "level": null,
-      "filename": "271_crazy",
-      "id": "G",
-      "requirements": [
-        {
-          "number": "265",
-          "character": "王",
-          "keyword": "king",
-          "level": "Medium",
-          "filename": "265_king",
-          "id": "C",
-          "requirements": [
-            {
-              "number": "76",
-              "character": "工",
-              "keyword": "work",
-              "level": "Elementary",
-              "filename": "76_work",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "239",
-          "character": "犬",
-          "keyword": "pooch",
-          "level": null,
-          "filename": "239_pooch",
-          "id": "F",
-          "requirements": [
-            {
-              "number": "113",
-              "character": "大",
-              "keyword": "large",
-              "level": "Elementary",
-              "filename": "113_large",
-              "id": "D",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "filename": "extra_a_drop_of",
-              "id": "E",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "辶",
-      "keyword": "road",
-      "level": null,
-      "filename": "extra_road",
-      "id": "H",
-      "requirements": []
-    }
-  ]
+  "order": 316,
+  "hierarchy": {
+    "number": "299",
+    "character": "逛",
+    "keyword": "stroll",
+    "level": null,
+    "filename": "299_stroll",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "271",
+        "character": "狂",
+        "keyword": "crazy",
+        "level": null,
+        "filename": "271_crazy",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "265",
+            "character": "王",
+            "keyword": "king",
+            "level": "Medium",
+            "filename": "265_king",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "76",
+                "character": "工",
+                "keyword": "work",
+                "level": "Elementary",
+                "filename": "76_work",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "239",
+            "character": "犬",
+            "keyword": "pooch",
+            "level": null,
+            "filename": "239_pooch",
+            "id": "F",
+            "requirements": [
+              {
+                "number": "113",
+                "character": "大",
+                "keyword": "large",
+                "level": "Elementary",
+                "filename": "113_large",
+                "id": "D",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "辶",
+        "keyword": "road",
+        "level": null,
+        "filename": "primitive_road",
+        "id": "H",
+        "requirements": []
+      }
+    ]
+  }
 }

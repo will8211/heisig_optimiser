@@ -1,114 +1,117 @@
 {
-  "number": "149",
-  "character": "潮",
-  "keyword": "tide",
-  "level": null,
-  "filename": "149_tide",
-  "id": "M",
-  "requirements": [
-    {
-      "number": "137",
-      "character": "水",
-      "keyword": "water",
-      "level": "Elementary",
-      "filename": "137_water",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丨",
-          "keyword": "walking stick",
-          "level": null,
-          "filename": "extra_walking_stick",
-          "id": "C",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "49",
-      "character": "朝",
-      "keyword": "dynasty",
-      "level": "Advanced",
-      "filename": "49_dynasty",
-      "id": "L",
-      "requirements": [
-        {
-          "number": "13",
-          "character": "月",
-          "keyword": "month",
-          "level": "Elementary",
-          "filename": "13_month",
-          "id": "F",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "𠦝",
-          "keyword": "mist",
-          "level": null,
-          "filename": "extra_mist",
-          "id": "K",
-          "requirements": [
-            {
-              "number": "26",
-              "character": "早",
-              "keyword": "early",
-              "level": "Elementary",
-              "filename": "26_early",
-              "id": "I",
-              "requirements": [
-                {
-                  "number": "12",
-                  "character": "日",
-                  "keyword": "day",
-                  "level": "Elementary",
-                  "filename": "12_day",
-                  "id": "G",
-                  "requirements": []
-                },
-                {
-                  "number": "10",
-                  "character": "十",
-                  "keyword": "ten",
-                  "level": "Elementary",
-                  "filename": "10_ten",
-                  "id": "H",
-                  "requirements": []
-                }
-              ]
-            },
-            {
-              "number": "10",
-              "character": "十",
-              "keyword": "ten",
-              "level": "Elementary",
-              "filename": "10_ten",
-              "id": "J",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 157,
+  "hierarchy": {
+    "number": "149",
+    "character": "潮",
+    "keyword": "tide",
+    "level": null,
+    "filename": "149_tide",
+    "id": "M",
+    "requirements": [
+      {
+        "number": "137",
+        "character": "水",
+        "keyword": "water",
+        "level": "Elementary",
+        "filename": "137_water",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丨",
+            "keyword": "walking stick",
+            "level": null,
+            "filename": "primitive_walking_stick",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "49",
+        "character": "朝",
+        "keyword": "dynasty",
+        "level": "Advanced",
+        "filename": "49_dynasty",
+        "id": "L",
+        "requirements": [
+          {
+            "number": "13",
+            "character": "月",
+            "keyword": "month",
+            "level": "Elementary",
+            "filename": "13_month",
+            "id": "F",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "𠦝",
+            "keyword": "mist",
+            "level": null,
+            "filename": "primitive_mist",
+            "id": "K",
+            "requirements": [
+              {
+                "number": "26",
+                "character": "早",
+                "keyword": "early",
+                "level": "Elementary",
+                "filename": "26_early",
+                "id": "I",
+                "requirements": [
+                  {
+                    "number": "12",
+                    "character": "日",
+                    "keyword": "day",
+                    "level": "Elementary",
+                    "filename": "12_day",
+                    "id": "G",
+                    "requirements": []
+                  },
+                  {
+                    "number": "10",
+                    "character": "十",
+                    "keyword": "ten",
+                    "level": "Elementary",
+                    "filename": "10_ten",
+                    "id": "H",
+                    "requirements": []
+                  }
+                ]
+              },
+              {
+                "number": "10",
+                "character": "十",
+                "keyword": "ten",
+                "level": "Elementary",
+                "filename": "10_ten",
+                "id": "J",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

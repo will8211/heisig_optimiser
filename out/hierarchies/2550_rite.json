@@ -1,47 +1,50 @@
 {
-  "number": "2550",
-  "character": "仪",
-  "keyword": "rite",
-  "level": null,
-  "filename": "2550_rite",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "793",
-      "character": "人",
-      "keyword": "person",
-      "level": "Elementary",
-      "filename": "793_person",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1180",
-      "character": "义",
-      "keyword": "righteousness",
-      "level": "Advanced",
-      "filename": "1180_righteousness",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "㐅",
-          "keyword": "sheaf",
-          "level": null,
-          "filename": "extra_sheaf",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2737,
+  "hierarchy": {
+    "number": "2550",
+    "character": "仪",
+    "keyword": "rite",
+    "level": null,
+    "filename": "2550_rite",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "793",
+        "character": "人",
+        "keyword": "person",
+        "level": "Elementary",
+        "filename": "793_person",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1180",
+        "character": "义",
+        "keyword": "righteousness",
+        "level": "Advanced",
+        "filename": "1180_righteousness",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "㐅",
+            "keyword": "sheaf",
+            "level": null,
+            "filename": "primitive_sheaf",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

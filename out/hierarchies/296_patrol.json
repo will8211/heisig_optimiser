@@ -1,28 +1,31 @@
 {
-  "number": "296",
-  "character": "巡",
-  "keyword": "patrol",
-  "level": null,
-  "filename": "296_patrol",
-  "id": "D",
-  "requirements": [
-    {
-      "number": "134",
-      "character": "川",
-      "keyword": "stream",
-      "level": null,
-      "filename": "134_stream",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "辶",
-      "keyword": "road",
-      "level": null,
-      "filename": "extra_road",
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 313,
+  "hierarchy": {
+    "number": "296",
+    "character": "巡",
+    "keyword": "patrol",
+    "level": null,
+    "filename": "296_patrol",
+    "id": "D",
+    "requirements": [
+      {
+        "number": "134",
+        "character": "川",
+        "keyword": "stream",
+        "level": null,
+        "filename": "134_stream",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "辶",
+        "keyword": "road",
+        "level": null,
+        "filename": "primitive_road",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

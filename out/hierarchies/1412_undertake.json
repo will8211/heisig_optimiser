@@ -1,105 +1,108 @@
 {
-  "number": "1412",
-  "character": "承",
-  "keyword": "undertake",
-  "level": "Advanced",
-  "filename": "1412_undertake",
-  "id": "L",
-  "requirements": [
-    {
-      "number": "101",
-      "character": "了",
-      "keyword": "-ed",
-      "level": "Elementary",
-      "filename": "101_-ed",
-      "id": "C",
-      "requirements": [
-        {
-          "number": "97",
-          "character": "子",
-          "keyword": "child",
-          "level": "Elementary",
-          "filename": "97_child",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "137",
-      "character": "水",
-      "keyword": "water",
-      "level": "Elementary",
-      "filename": "137_water",
-      "id": "G",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丨",
-          "keyword": "walking stick",
-          "level": null,
-          "filename": "extra_walking_stick",
-          "id": "E",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "3",
-      "character": "三",
-      "keyword": "three",
-      "level": "Elementary",
-      "filename": "3_three",
-      "id": "K",
-      "requirements": [
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "filename": "1_one",
-          "id": "H",
-          "requirements": []
-        },
-        {
-          "number": "2",
-          "character": "二",
-          "keyword": "two",
-          "level": "Elementary",
-          "filename": "2_two",
-          "id": "J",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "I",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 1540,
+  "hierarchy": {
+    "number": "1412",
+    "character": "承",
+    "keyword": "undertake",
+    "level": "Advanced",
+    "filename": "1412_undertake",
+    "id": "L",
+    "requirements": [
+      {
+        "number": "101",
+        "character": "了",
+        "keyword": "-ed",
+        "level": "Elementary",
+        "filename": "101_-ed",
+        "id": "C",
+        "requirements": [
+          {
+            "number": "97",
+            "character": "子",
+            "keyword": "child",
+            "level": "Elementary",
+            "filename": "97_child",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "137",
+        "character": "水",
+        "keyword": "water",
+        "level": "Elementary",
+        "filename": "137_water",
+        "id": "G",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丨",
+            "keyword": "walking stick",
+            "level": null,
+            "filename": "primitive_walking_stick",
+            "id": "E",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "character": "三",
+        "keyword": "three",
+        "level": "Elementary",
+        "filename": "3_three",
+        "id": "K",
+        "requirements": [
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "H",
+            "requirements": []
+          },
+          {
+            "number": "2",
+            "character": "二",
+            "keyword": "two",
+            "level": "Elementary",
+            "filename": "2_two",
+            "id": "J",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "I",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

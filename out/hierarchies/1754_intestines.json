@@ -1,38 +1,41 @@
 {
-  "number": "1754",
-  "character": "肠",
-  "keyword": "intestines",
-  "level": null,
-  "filename": "1754_intestines",
-  "id": "E",
-  "requirements": [
-    {
-      "number": "13",
-      "character": "月",
-      "keyword": "month",
-      "level": "Elementary",
-      "filename": "13_month",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "𠃓",
-      "keyword": "piglets",
-      "level": null,
-      "filename": "extra_piglets",
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "豕",
-          "keyword": "sow",
-          "level": null,
-          "filename": "extra_sow",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1902,
+  "hierarchy": {
+    "number": "1754",
+    "character": "肠",
+    "keyword": "intestines",
+    "level": null,
+    "filename": "1754_intestines",
+    "id": "E",
+    "requirements": [
+      {
+        "number": "13",
+        "character": "月",
+        "keyword": "month",
+        "level": "Elementary",
+        "filename": "13_month",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "𠃓",
+        "keyword": "piglets",
+        "level": null,
+        "filename": "primitive_piglets",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "豕",
+            "keyword": "sow",
+            "level": null,
+            "filename": "primitive_sow",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

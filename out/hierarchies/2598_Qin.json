@@ -1,38 +1,41 @@
 {
-  "number": "2598",
-  "character": "秦",
-  "keyword": "Qin",
-  "level": null,
-  "filename": "2598_Qin",
-  "id": "E",
-  "requirements": [
-    {
-      "number": null,
-      "character": "𡗗",
-      "keyword": "bonsai",
-      "level": null,
-      "filename": "extra_bonsai",
-      "id": "C",
-      "requirements": [
-        {
-          "number": "1223",
-          "character": "丰",
-          "keyword": "plentiful",
-          "level": "Advanced",
-          "filename": "1223_plentiful",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "762",
-      "character": "禾",
-      "keyword": "standing grain",
-      "level": null,
-      "filename": "762_standing_grain",
-      "id": "D",
-      "requirements": []
-    }
-  ]
+  "order": 2786,
+  "hierarchy": {
+    "number": "2598",
+    "character": "秦",
+    "keyword": "Qin",
+    "level": null,
+    "filename": "2598_Qin",
+    "id": "E",
+    "requirements": [
+      {
+        "number": null,
+        "character": "𡗗",
+        "keyword": "bonsai",
+        "level": null,
+        "filename": "primitive_bonsai",
+        "id": "C",
+        "requirements": [
+          {
+            "number": "1223",
+            "character": "丰",
+            "keyword": "plentiful",
+            "level": "Advanced",
+            "filename": "1223_plentiful",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "762",
+        "character": "禾",
+        "keyword": "standing grain",
+        "level": null,
+        "filename": "762_standing_grain",
+        "id": "D",
+        "requirements": []
+      }
+    ]
+  }
 }

@@ -1,47 +1,50 @@
 {
-  "number": "1910",
-  "character": "怡",
-  "keyword": "cheerful",
-  "level": null,
-  "filename": "1910_cheerful",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "563",
-      "character": "心",
-      "keyword": "heart",
-      "level": "Medium",
-      "filename": "563_heart",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "672",
-      "character": "台",
-      "keyword": "platform",
-      "level": "Advanced",
-      "filename": "672_platform",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "厶",
-          "keyword": "elbow",
-          "level": null,
-          "filename": "extra_elbow",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "filename": "11_mouth",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2065,
+  "hierarchy": {
+    "number": "1910",
+    "character": "怡",
+    "keyword": "cheerful",
+    "level": null,
+    "filename": "1910_cheerful",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "563",
+        "character": "心",
+        "keyword": "heart",
+        "level": "Medium",
+        "filename": "563_heart",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "672",
+        "character": "台",
+        "keyword": "platform",
+        "level": "Advanced",
+        "filename": "672_platform",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "厶",
+            "keyword": "elbow",
+            "level": null,
+            "filename": "primitive_elbow",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

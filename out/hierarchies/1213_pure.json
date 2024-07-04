@@ -1,76 +1,79 @@
 {
-  "number": "1213",
-  "character": "清",
-  "keyword": "pure",
-  "level": "Medium",
-  "filename": "1213_pure",
-  "id": "I",
-  "requirements": [
-    {
-      "number": "137",
-      "character": "水",
-      "keyword": "water",
-      "level": "Elementary",
-      "filename": "137_water",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丨",
-          "keyword": "walking stick",
-          "level": null,
-          "filename": "extra_walking_stick",
-          "id": "C",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "1208",
-      "character": "青",
-      "keyword": "blue or green",
-      "level": "Medium",
-      "filename": "1208_blue_or_green",
-      "id": "H",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧毒－母",
-          "keyword": "grow up",
-          "level": null,
-          "filename": "extra_grow_up",
-          "id": "F",
-          "requirements": []
-        },
-        {
-          "number": "13",
-          "character": "月",
-          "keyword": "month",
-          "level": "Elementary",
-          "filename": "13_month",
-          "id": "G",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1317,
+  "hierarchy": {
+    "number": "1213",
+    "character": "清",
+    "keyword": "pure",
+    "level": "Medium",
+    "filename": "1213_pure",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "137",
+        "character": "水",
+        "keyword": "water",
+        "level": "Elementary",
+        "filename": "137_water",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丨",
+            "keyword": "walking stick",
+            "level": null,
+            "filename": "primitive_walking_stick",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "1208",
+        "character": "青",
+        "keyword": "blue or green",
+        "level": "Medium",
+        "filename": "1208_blue_or_green",
+        "id": "H",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧毒－母",
+            "keyword": "grow up",
+            "level": null,
+            "filename": "primitive_grow_up",
+            "id": "F",
+            "requirements": []
+          },
+          {
+            "number": "13",
+            "character": "月",
+            "keyword": "month",
+            "level": "Elementary",
+            "filename": "13_month",
+            "id": "G",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

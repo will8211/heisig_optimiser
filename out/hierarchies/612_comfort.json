@@ -1,28 +1,31 @@
 {
-  "number": "612",
-  "character": "抚",
-  "keyword": "comfort",
-  "level": null,
-  "filename": "612_comfort",
-  "id": "D",
-  "requirements": [
-    {
-      "number": null,
-      "character": "扌",
-      "keyword": "fingers",
-      "level": null,
-      "filename": "extra_fingers",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "611",
-      "character": "无",
-      "keyword": "nothing",
-      "level": "Medium",
-      "filename": "611_nothing",
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 662,
+  "hierarchy": {
+    "number": "612",
+    "character": "抚",
+    "keyword": "comfort",
+    "level": null,
+    "filename": "612_comfort",
+    "id": "D",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "primitive_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "611",
+        "character": "无",
+        "keyword": "nothing",
+        "level": "Medium",
+        "filename": "611_nothing",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

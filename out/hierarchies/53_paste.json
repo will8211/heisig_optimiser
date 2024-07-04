@@ -1,95 +1,98 @@
 {
-  "number": "53",
-  "character": "贴",
-  "keyword": "paste",
-  "level": null,
-  "filename": "53_paste",
-  "id": "K",
-  "requirements": [
-    {
-      "number": "52",
-      "character": "贝",
-      "keyword": "shellfish",
-      "level": "Medium",
-      "filename": "52_shellfish",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "15",
-          "character": "目",
-          "keyword": "eye",
-          "level": "Medium",
-          "filename": "15_eye",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "囧只－口",
-          "keyword": "animal legs",
-          "level": null,
-          "filename": "extra_animal_legs",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "44",
-      "character": "占",
-      "keyword": "tell fortunes",
-      "level": "Medium",
-      "filename": "44_tell_fortunes",
-      "id": "J",
-      "requirements": [
-        {
-          "number": "43",
-          "character": "卜",
-          "keyword": "divination",
-          "level": null,
-          "filename": "43_divination",
-          "id": "H",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丨",
-              "keyword": "walking stick",
-              "level": null,
-              "filename": "extra_walking_stick",
-              "id": "F",
-              "requirements": [
-                {
-                  "number": "1",
-                  "character": "一",
-                  "keyword": "one",
-                  "level": "Elementary",
-                  "filename": "1_one",
-                  "id": "E",
-                  "requirements": []
-                }
-              ]
-            },
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "filename": "extra_a_drop_of",
-              "id": "G",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "filename": "11_mouth",
-          "id": "I",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 58,
+  "hierarchy": {
+    "number": "53",
+    "character": "贴",
+    "keyword": "paste",
+    "level": null,
+    "filename": "53_paste",
+    "id": "K",
+    "requirements": [
+      {
+        "number": "52",
+        "character": "贝",
+        "keyword": "shellfish",
+        "level": "Medium",
+        "filename": "52_shellfish",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "15",
+            "character": "目",
+            "keyword": "eye",
+            "level": "Medium",
+            "filename": "15_eye",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "囧只－口",
+            "keyword": "animal legs",
+            "level": null,
+            "filename": "primitive_animal_legs",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "44",
+        "character": "占",
+        "keyword": "tell fortunes",
+        "level": "Medium",
+        "filename": "44_tell_fortunes",
+        "id": "J",
+        "requirements": [
+          {
+            "number": "43",
+            "character": "卜",
+            "keyword": "divination",
+            "level": null,
+            "filename": "43_divination",
+            "id": "H",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丨",
+                "keyword": "walking stick",
+                "level": null,
+                "filename": "primitive_walking_stick",
+                "id": "F",
+                "requirements": [
+                  {
+                    "number": "1",
+                    "character": "一",
+                    "keyword": "one",
+                    "level": "Elementary",
+                    "filename": "1_one",
+                    "id": "E",
+                    "requirements": []
+                  }
+                ]
+              },
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "G",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "I",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

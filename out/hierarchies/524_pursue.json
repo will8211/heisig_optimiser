@@ -1,28 +1,31 @@
 {
-  "number": "524",
-  "character": "逐",
-  "keyword": "pursue",
-  "level": null,
-  "filename": "524_pursue",
-  "id": "D",
-  "requirements": [
-    {
-      "number": null,
-      "character": "豕",
-      "keyword": "sow",
-      "level": null,
-      "filename": "extra_sow",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "辶",
-      "keyword": "road",
-      "level": null,
-      "filename": "extra_road",
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 569,
+  "hierarchy": {
+    "number": "524",
+    "character": "逐",
+    "keyword": "pursue",
+    "level": null,
+    "filename": "524_pursue",
+    "id": "D",
+    "requirements": [
+      {
+        "number": null,
+        "character": "豕",
+        "keyword": "sow",
+        "level": null,
+        "filename": "primitive_sow",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "辶",
+        "keyword": "road",
+        "level": null,
+        "filename": "primitive_road",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

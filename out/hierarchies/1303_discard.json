@@ -1,114 +1,117 @@
 {
-  "number": "1303",
-  "character": "废",
-  "keyword": "discard",
-  "level": null,
-  "filename": "1303_discard",
-  "id": "M",
-  "requirements": [
-    {
-      "number": "556",
-      "character": "广",
-      "keyword": "extensive",
-      "level": "Medium",
-      "filename": "556_extensive",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "121",
-          "character": "厂",
-          "keyword": "factory",
-          "level": "Medium",
-          "filename": "121_factory",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "宀",
-          "keyword": "house",
-          "level": null,
-          "filename": "extra_house",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "1302",
-      "character": "发",
-      "keyword": "send out",
-      "level": "Medium",
-      "filename": "1302_send_out",
-      "id": "L",
-      "requirements": [
-        {
-          "number": "635",
-          "character": "友",
-          "keyword": "friend",
-          "level": "Elementary",
-          "filename": "635_friend",
-          "id": "H",
-          "requirements": [
-            {
-              "number": null,
-              "character": "𠂇",
-              "keyword": "by one’s side",
-              "level": null,
-              "filename": "extra_by_one’s_side",
-              "id": "F",
-              "requirements": [
-                {
-                  "number": "10",
-                  "character": "十",
-                  "keyword": "ten",
-                  "level": "Elementary",
-                  "filename": "10_ten",
-                  "id": "E",
-                  "requirements": []
-                }
-              ]
-            },
-            {
-              "number": "633",
-              "character": "又",
-              "keyword": "again",
-              "level": "Elementary",
-              "filename": "633_again",
-              "id": "G",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "239",
-          "character": "犬",
-          "keyword": "pooch",
-          "level": null,
-          "filename": "239_pooch",
-          "id": "K",
-          "requirements": [
-            {
-              "number": "113",
-              "character": "大",
-              "keyword": "large",
-              "level": "Elementary",
-              "filename": "113_large",
-              "id": "I",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "filename": "extra_a_drop_of",
-              "id": "J",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 1417,
+  "hierarchy": {
+    "number": "1303",
+    "character": "废",
+    "keyword": "discard",
+    "level": null,
+    "filename": "1303_discard",
+    "id": "M",
+    "requirements": [
+      {
+        "number": "556",
+        "character": "广",
+        "keyword": "extensive",
+        "level": "Medium",
+        "filename": "556_extensive",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "121",
+            "character": "厂",
+            "keyword": "factory",
+            "level": "Medium",
+            "filename": "121_factory",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "宀",
+            "keyword": "house",
+            "level": null,
+            "filename": "primitive_house",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "1302",
+        "character": "发",
+        "keyword": "send out",
+        "level": "Medium",
+        "filename": "1302_send_out",
+        "id": "L",
+        "requirements": [
+          {
+            "number": "635",
+            "character": "友",
+            "keyword": "friend",
+            "level": "Elementary",
+            "filename": "635_friend",
+            "id": "H",
+            "requirements": [
+              {
+                "number": null,
+                "character": "𠂇",
+                "keyword": "by one’s side",
+                "level": null,
+                "filename": "primitive_by_one’s_side",
+                "id": "F",
+                "requirements": [
+                  {
+                    "number": "10",
+                    "character": "十",
+                    "keyword": "ten",
+                    "level": "Elementary",
+                    "filename": "10_ten",
+                    "id": "E",
+                    "requirements": []
+                  }
+                ]
+              },
+              {
+                "number": "633",
+                "character": "又",
+                "keyword": "again",
+                "level": "Elementary",
+                "filename": "633_again",
+                "id": "G",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "239",
+            "character": "犬",
+            "keyword": "pooch",
+            "level": null,
+            "filename": "239_pooch",
+            "id": "K",
+            "requirements": [
+              {
+                "number": "113",
+                "character": "大",
+                "keyword": "large",
+                "level": "Elementary",
+                "filename": "113_large",
+                "id": "I",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "J",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

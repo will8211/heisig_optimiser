@@ -1,66 +1,69 @@
 {
-  "number": "2101",
-  "character": "荷",
-  "keyword": "Holland",
-  "level": null,
-  "filename": "2101_Holland",
-  "id": "H",
-  "requirements": [
-    {
-      "number": null,
-      "character": "艹",
-      "keyword": "flower",
-      "level": null,
-      "filename": "extra_flower",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "835",
-      "character": "何",
-      "keyword": "whatwhichwhowherewhy?",
-      "level": "Advanced",
-      "filename": "835_whatwhichwhowherewhy",
-      "id": "G",
-      "requirements": [
-        {
-          "number": "793",
-          "character": "人",
-          "keyword": "person",
-          "level": "Elementary",
-          "filename": "793_person",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "92",
-          "character": "可",
-          "keyword": "can",
-          "level": "Elementary",
-          "filename": "92_can",
-          "id": "F",
-          "requirements": [
-            {
-              "number": "90",
-              "character": "丁",
-              "keyword": "fourth",
-              "level": null,
-              "filename": "90_fourth",
-              "id": "D",
-              "requirements": []
-            },
-            {
-              "number": "11",
-              "character": "口",
-              "keyword": "mouth",
-              "level": "Elementary",
-              "filename": "11_mouth",
-              "id": "E",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2262,
+  "hierarchy": {
+    "number": "2101",
+    "character": "荷",
+    "keyword": "Holland",
+    "level": null,
+    "filename": "2101_Holland",
+    "id": "H",
+    "requirements": [
+      {
+        "number": null,
+        "character": "艹",
+        "keyword": "flower",
+        "level": null,
+        "filename": "primitive_flower",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "835",
+        "character": "何",
+        "keyword": "whatwhichwhowherewhy?",
+        "level": "Advanced",
+        "filename": "835_whatwhichwhowherewhy",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "793",
+            "character": "人",
+            "keyword": "person",
+            "level": "Elementary",
+            "filename": "793_person",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "92",
+            "character": "可",
+            "keyword": "can",
+            "level": "Elementary",
+            "filename": "92_can",
+            "id": "F",
+            "requirements": [
+              {
+                "number": "90",
+                "character": "丁",
+                "keyword": "fourth",
+                "level": null,
+                "filename": "90_fourth",
+                "id": "D",
+                "requirements": []
+              },
+              {
+                "number": "11",
+                "character": "口",
+                "keyword": "mouth",
+                "level": "Elementary",
+                "filename": "11_mouth",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

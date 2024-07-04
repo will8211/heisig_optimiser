@@ -1,66 +1,69 @@
 {
-  "number": "1102",
-  "character": "脚",
-  "keyword": "foot",
-  "level": "Medium",
-  "filename": "1102_foot",
-  "id": "H",
-  "requirements": [
-    {
-      "number": "13",
-      "character": "月",
-      "keyword": "month",
-      "level": "Elementary",
-      "filename": "13_month",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1101",
-      "character": "却",
-      "keyword": "withdraw",
-      "level": null,
-      "filename": "1101_withdraw",
-      "id": "G",
-      "requirements": [
-        {
-          "number": "675",
-          "character": "去",
-          "keyword": "go",
-          "level": "Elementary",
-          "filename": "675_go",
-          "id": "E",
-          "requirements": [
-            {
-              "number": "158",
-              "character": "土",
-              "keyword": "soil",
-              "level": "Medium",
-              "filename": "158_soil",
-              "id": "C",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "厶",
-              "keyword": "elbow",
-              "level": null,
-              "filename": "extra_elbow",
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "卩",
-          "keyword": "stamp",
-          "level": null,
-          "filename": "extra_stamp",
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1189,
+  "hierarchy": {
+    "number": "1102",
+    "character": "脚",
+    "keyword": "foot",
+    "level": "Medium",
+    "filename": "1102_foot",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "13",
+        "character": "月",
+        "keyword": "month",
+        "level": "Elementary",
+        "filename": "13_month",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1101",
+        "character": "却",
+        "keyword": "withdraw",
+        "level": null,
+        "filename": "1101_withdraw",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "675",
+            "character": "去",
+            "keyword": "go",
+            "level": "Elementary",
+            "filename": "675_go",
+            "id": "E",
+            "requirements": [
+              {
+                "number": "158",
+                "character": "土",
+                "keyword": "soil",
+                "level": "Medium",
+                "filename": "158_soil",
+                "id": "C",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "厶",
+                "keyword": "elbow",
+                "level": null,
+                "filename": "primitive_elbow",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "卩",
+            "keyword": "stamp",
+            "level": null,
+            "filename": "primitive_stamp",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

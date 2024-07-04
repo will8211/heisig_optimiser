@@ -9,8 +9,14 @@ def _increment_id(letter: str):
 
 
 def _generate_filename(character_data):
+    if character_data["Number"]:
+        prefix = character_data["Number"]
+    elif character_data["Type"] == "primitive":
+        prefix = "primitive"
+    else:
+        prefix = "extra"
     filename = (
-        (f"{character_data['Number'] or 'extra'}_{character_data['Keywords'][0]}")
+        (f"{prefix}_{character_data['Keywords'][0]}")
         .replace(" ", "_")
         .replace("?", "")
         .replace("'", "_")
@@ -84,7 +90,8 @@ def generate_hierarchies():
             output_file = os.path.join(
                 output_dir, _generate_filename(character_data) + ".json"
             )
+            dict = {"order": character_data["Order"], "hierarchy": hierarchy}
             with open(output_file, "w", encoding="utf-8") as f:
-                json.dump(hierarchy, f, ensure_ascii=False, indent=2)
+                json.dump(dict, f, ensure_ascii=False, indent=2)
 
     print("Hierarchical JSON files generated successfully.")

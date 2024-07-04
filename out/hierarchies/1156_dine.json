@@ -1,123 +1,126 @@
 {
-  "number": "1156",
-  "character": "餐",
-  "keyword": "dine",
-  "level": "Medium",
-  "filename": "1156_dine",
-  "id": "N",
-  "requirements": [
-    {
-      "number": "43",
-      "character": "卜",
-      "keyword": "divination",
-      "level": null,
-      "filename": "43_divination",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丨",
-          "keyword": "walking stick",
-          "level": null,
-          "filename": "extra_walking_stick",
-          "id": "C",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "115",
-      "character": "夕",
-      "keyword": "evening",
-      "level": "Advanced",
-      "filename": "115_evening",
-      "id": "G",
-      "requirements": [
-        {
-          "number": "13",
-          "character": "月",
-          "keyword": "month",
-          "level": "Elementary",
-          "filename": "13_month",
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "633",
-      "character": "又",
-      "keyword": "again",
-      "level": "Elementary",
-      "filename": "633_again",
-      "id": "H",
-      "requirements": []
-    },
-    {
-      "number": "1154",
-      "character": "食",
-      "keyword": "food",
-      "level": "Medium",
-      "filename": "1154_food",
-      "id": "M",
-      "requirements": [
-        {
-          "number": "1151",
-          "character": "良",
-          "keyword": "high-quality",
-          "level": "Advanced",
-          "filename": "1151_high-quality",
-          "id": "K",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "filename": "extra_a_drop_of",
-              "id": "I",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "艮",
-              "keyword": "silver",
-              "level": null,
-              "filename": "extra_silver",
-              "id": "J",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "𠆢",
-          "keyword": "umbrella",
-          "level": null,
-          "filename": "extra_umbrella",
-          "id": "L",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1252,
+  "hierarchy": {
+    "number": "1156",
+    "character": "餐",
+    "keyword": "dine",
+    "level": "Medium",
+    "filename": "1156_dine",
+    "id": "N",
+    "requirements": [
+      {
+        "number": "43",
+        "character": "卜",
+        "keyword": "divination",
+        "level": null,
+        "filename": "43_divination",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丨",
+            "keyword": "walking stick",
+            "level": null,
+            "filename": "primitive_walking_stick",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "115",
+        "character": "夕",
+        "keyword": "evening",
+        "level": "Advanced",
+        "filename": "115_evening",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "13",
+            "character": "月",
+            "keyword": "month",
+            "level": "Elementary",
+            "filename": "13_month",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "633",
+        "character": "又",
+        "keyword": "again",
+        "level": "Elementary",
+        "filename": "633_again",
+        "id": "H",
+        "requirements": []
+      },
+      {
+        "number": "1154",
+        "character": "食",
+        "keyword": "food",
+        "level": "Medium",
+        "filename": "1154_food",
+        "id": "M",
+        "requirements": [
+          {
+            "number": "1151",
+            "character": "良",
+            "keyword": "high-quality",
+            "level": "Advanced",
+            "filename": "1151_high-quality",
+            "id": "K",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "I",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "艮",
+                "keyword": "silver",
+                "level": null,
+                "filename": "primitive_silver",
+                "id": "J",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "𠆢",
+            "keyword": "umbrella",
+            "level": null,
+            "filename": "primitive_umbrella",
+            "id": "L",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

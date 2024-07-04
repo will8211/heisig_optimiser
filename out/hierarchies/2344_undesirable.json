@@ -1,85 +1,88 @@
 {
-  "number": "2344",
-  "character": "陋",
-  "keyword": "undesirable",
-  "level": null,
-  "filename": "2344_undesirable",
-  "id": "J",
-  "requirements": [
-    {
-      "number": null,
-      "character": "阝",
-      "keyword": "pinnacle",
-      "level": null,
-      "filename": "extra_pinnacle",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "842",
-      "character": "丙",
-      "keyword": "third",
-      "level": null,
-      "filename": "842_third",
-      "id": "H",
-      "requirements": [
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "filename": "1_one",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "840",
-          "character": "内",
-          "keyword": "internal",
-          "level": "Advanced",
-          "filename": "840_internal",
-          "id": "G",
-          "requirements": [
-            {
-              "number": null,
-              "character": "囧冂",
-              "keyword": "belt",
-              "level": null,
-              "filename": "extra_belt",
-              "id": "E",
-              "requirements": [
-                {
-                  "number": "410",
-                  "character": "巾",
-                  "keyword": "towel",
-                  "level": "Advanced",
-                  "filename": "410_towel",
-                  "id": "D",
-                  "requirements": []
-                }
-              ]
-            },
-            {
-              "number": "793",
-              "character": "人",
-              "keyword": "person",
-              "level": "Elementary",
-              "filename": "793_person",
-              "id": "F",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": "95",
-      "character": "乙",
-      "keyword": "second",
-      "level": "Medium",
-      "filename": "95_second",
-      "id": "I",
-      "requirements": []
-    }
-  ]
+  "order": 2513,
+  "hierarchy": {
+    "number": "2344",
+    "character": "陋",
+    "keyword": "undesirable",
+    "level": null,
+    "filename": "2344_undesirable",
+    "id": "J",
+    "requirements": [
+      {
+        "number": null,
+        "character": "阝",
+        "keyword": "pinnacle",
+        "level": null,
+        "filename": "primitive_pinnacle",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "842",
+        "character": "丙",
+        "keyword": "third",
+        "level": null,
+        "filename": "842_third",
+        "id": "H",
+        "requirements": [
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "840",
+            "character": "内",
+            "keyword": "internal",
+            "level": "Advanced",
+            "filename": "840_internal",
+            "id": "G",
+            "requirements": [
+              {
+                "number": null,
+                "character": "囧冂",
+                "keyword": "belt",
+                "level": null,
+                "filename": "primitive_belt",
+                "id": "E",
+                "requirements": [
+                  {
+                    "number": "410",
+                    "character": "巾",
+                    "keyword": "towel",
+                    "level": "Advanced",
+                    "filename": "410_towel",
+                    "id": "D",
+                    "requirements": []
+                  }
+                ]
+              },
+              {
+                "number": "793",
+                "character": "人",
+                "keyword": "person",
+                "level": "Elementary",
+                "filename": "793_person",
+                "id": "F",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": "95",
+        "character": "乙",
+        "keyword": "second",
+        "level": "Medium",
+        "filename": "95_second",
+        "id": "I",
+        "requirements": []
+      }
+    ]
+  }
 }

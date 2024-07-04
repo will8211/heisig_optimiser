@@ -1,66 +1,69 @@
 {
-  "number": "1567",
-  "character": "樱",
-  "keyword": "cherry",
-  "level": null,
-  "filename": "1567_cherry",
-  "id": "H",
-  "requirements": [
-    {
-      "number": "1519",
-      "character": "婴",
-      "keyword": "baby",
-      "level": null,
-      "filename": "1519_baby",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "52",
-          "character": "贝",
-          "keyword": "shellfish",
-          "level": "Medium",
-          "filename": "52_shellfish",
-          "id": "D",
-          "requirements": [
-            {
-              "number": "15",
-              "character": "目",
-              "keyword": "eye",
-              "level": "Medium",
-              "filename": "15_eye",
-              "id": "B",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "囧只－口",
-              "keyword": "animal legs",
-              "level": null,
-              "filename": "extra_animal_legs",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "102",
-          "character": "女",
-          "keyword": "woman",
-          "level": "Elementary",
-          "filename": "102_woman",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "202",
-      "character": "木",
-      "keyword": "tree",
-      "level": "Elementary",
-      "filename": "202_tree",
-      "id": "G",
-      "requirements": []
-    }
-  ]
+  "order": 1707,
+  "hierarchy": {
+    "number": "1567",
+    "character": "樱",
+    "keyword": "cherry",
+    "level": null,
+    "filename": "1567_cherry",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "1519",
+        "character": "婴",
+        "keyword": "baby",
+        "level": null,
+        "filename": "1519_baby",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "52",
+            "character": "贝",
+            "keyword": "shellfish",
+            "level": "Medium",
+            "filename": "52_shellfish",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "15",
+                "character": "目",
+                "keyword": "eye",
+                "level": "Medium",
+                "filename": "15_eye",
+                "id": "B",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "囧只－口",
+                "keyword": "animal legs",
+                "level": null,
+                "filename": "primitive_animal_legs",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "102",
+            "character": "女",
+            "keyword": "woman",
+            "level": "Elementary",
+            "filename": "102_woman",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "202",
+        "character": "木",
+        "keyword": "tree",
+        "level": "Elementary",
+        "filename": "202_tree",
+        "id": "G",
+        "requirements": []
+      }
+    ]
+  }
 }

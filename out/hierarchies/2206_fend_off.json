@@ -1,57 +1,60 @@
 {
-  "number": "2206",
-  "character": "挡",
-  "keyword": "fend off",
-  "level": "Advanced",
-  "filename": "2206_fend_off",
-  "id": "G",
-  "requirements": [
-    {
-      "number": null,
-      "character": "扌",
-      "keyword": "fingers",
-      "level": null,
-      "filename": "extra_fingers",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "947",
-      "character": "当",
-      "keyword": "work as",
-      "level": "Elementary",
-      "filename": "947_work_as",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "109",
-          "character": "小",
-          "keyword": "small",
-          "level": "Elementary",
-          "filename": "109_small",
-          "id": "D",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "filename": "extra_a_drop_of",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "彐",
-          "keyword": "broom",
-          "level": null,
-          "filename": "extra_broom",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2371,
+  "hierarchy": {
+    "number": "2206",
+    "character": "挡",
+    "keyword": "fend off",
+    "level": "Advanced",
+    "filename": "2206_fend_off",
+    "id": "G",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "primitive_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "947",
+        "character": "当",
+        "keyword": "work as",
+        "level": "Elementary",
+        "filename": "947_work_as",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "109",
+            "character": "小",
+            "keyword": "small",
+            "level": "Elementary",
+            "filename": "109_small",
+            "id": "D",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "彐",
+            "keyword": "broom",
+            "level": null,
+            "filename": "primitive_broom",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

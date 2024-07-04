@@ -1,47 +1,50 @@
 {
-  "number": "658",
-  "character": "返",
-  "keyword": "go back",
-  "level": null,
-  "filename": "658_go_back",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "656",
-      "character": "反",
-      "keyword": "against",
-      "level": "Medium",
-      "filename": "656_against",
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "𠂆",
-          "keyword": "drag",
-          "level": null,
-          "filename": "extra_drag",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "633",
-          "character": "又",
-          "keyword": "again",
-          "level": "Elementary",
-          "filename": "633_again",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "辶",
-      "keyword": "road",
-      "level": null,
-      "filename": "extra_road",
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 711,
+  "hierarchy": {
+    "number": "658",
+    "character": "返",
+    "keyword": "go back",
+    "level": null,
+    "filename": "658_go_back",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "656",
+        "character": "反",
+        "keyword": "against",
+        "level": "Medium",
+        "filename": "656_against",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "𠂆",
+            "keyword": "drag",
+            "level": null,
+            "filename": "primitive_drag",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "633",
+            "character": "又",
+            "keyword": "again",
+            "level": "Elementary",
+            "filename": "633_again",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "辶",
+        "keyword": "road",
+        "level": null,
+        "filename": "primitive_road",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

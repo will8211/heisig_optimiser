@@ -1,47 +1,50 @@
 {
-  "number": "192",
-  "character": "守",
-  "keyword": "guard",
-  "level": "Advanced",
-  "filename": "192_guard",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "166",
-      "character": "寸",
-      "keyword": "Chinese inch",
-      "level": "Advanced",
-      "filename": "166_Chinese_inch",
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "10",
-          "character": "十",
-          "keyword": "ten",
-          "level": "Elementary",
-          "filename": "10_ten",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "宀",
-      "keyword": "house",
-      "level": null,
-      "filename": "extra_house",
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 203,
+  "hierarchy": {
+    "number": "192",
+    "character": "守",
+    "keyword": "guard",
+    "level": "Advanced",
+    "filename": "192_guard",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "166",
+        "character": "寸",
+        "keyword": "Chinese inch",
+        "level": "Advanced",
+        "filename": "166_Chinese_inch",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "10",
+            "character": "十",
+            "keyword": "ten",
+            "level": "Elementary",
+            "filename": "10_ten",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "宀",
+        "keyword": "house",
+        "level": null,
+        "filename": "primitive_house",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

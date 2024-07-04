@@ -1,56 +1,59 @@
 {
-  "number": "314",
-  "character": "夏",
-  "keyword": "summer",
-  "level": "Medium",
-  "filename": "314_summer",
-  "id": "G",
-  "requirements": [
-    {
-      "number": "33",
-      "character": "自",
-      "keyword": "oneself",
-      "level": "Medium",
-      "filename": "33_oneself",
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "15",
-          "character": "目",
-          "keyword": "eye",
-          "level": "Medium",
-          "filename": "15_eye",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "1",
-      "character": "一",
-      "keyword": "one",
-      "level": "Elementary",
-      "filename": "1_one",
-      "id": "E",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "夂",
-      "keyword": "walking legs",
-      "level": null,
-      "filename": "extra_walking_legs",
-      "id": "F",
-      "requirements": []
-    }
-  ]
+  "order": 334,
+  "hierarchy": {
+    "number": "314",
+    "character": "夏",
+    "keyword": "summer",
+    "level": "Medium",
+    "filename": "314_summer",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "33",
+        "character": "自",
+        "keyword": "oneself",
+        "level": "Medium",
+        "filename": "33_oneself",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "15",
+            "character": "目",
+            "keyword": "eye",
+            "level": "Medium",
+            "filename": "15_eye",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "1",
+        "character": "一",
+        "keyword": "one",
+        "level": "Elementary",
+        "filename": "1_one",
+        "id": "E",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "夂",
+        "keyword": "walking legs",
+        "level": null,
+        "filename": "primitive_walking_legs",
+        "id": "F",
+        "requirements": []
+      }
+    ]
+  }
 }

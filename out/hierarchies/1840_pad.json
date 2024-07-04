@@ -1,57 +1,60 @@
 {
-  "number": "1840",
-  "character": "垫",
-  "keyword": "pad",
-  "level": null,
-  "filename": "1840_pad",
-  "id": "G",
-  "requirements": [
-    {
-      "number": "602",
-      "character": "执",
-      "keyword": "clench",
-      "level": null,
-      "filename": "602_clench",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "扌",
-          "keyword": "fingers",
-          "level": null,
-          "filename": "extra_fingers",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "42",
-          "character": "丸",
-          "keyword": "pill",
-          "level": null,
-          "filename": "42_pill",
-          "id": "D",
-          "requirements": [
-            {
-              "number": "9",
-              "character": "九",
-              "keyword": "nine",
-              "level": "Elementary",
-              "filename": "9_nine",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": "158",
-      "character": "土",
-      "keyword": "soil",
-      "level": "Medium",
-      "filename": "158_soil",
-      "id": "F",
-      "requirements": []
-    }
-  ]
+  "order": 1991,
+  "hierarchy": {
+    "number": "1840",
+    "character": "垫",
+    "keyword": "pad",
+    "level": null,
+    "filename": "1840_pad",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "602",
+        "character": "执",
+        "keyword": "clench",
+        "level": null,
+        "filename": "602_clench",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "扌",
+            "keyword": "fingers",
+            "level": null,
+            "filename": "primitive_fingers",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "42",
+            "character": "丸",
+            "keyword": "pill",
+            "level": null,
+            "filename": "42_pill",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "9",
+                "character": "九",
+                "keyword": "nine",
+                "level": "Elementary",
+                "filename": "9_nine",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": "158",
+        "character": "土",
+        "keyword": "soil",
+        "level": "Medium",
+        "filename": "158_soil",
+        "id": "F",
+        "requirements": []
+      }
+    ]
+  }
 }

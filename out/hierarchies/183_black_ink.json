@@ -1,94 +1,97 @@
 {
-  "number": "183",
-  "character": "墨",
-  "keyword": "black ink",
-  "level": null,
-  "filename": "183_black_ink",
-  "id": "K",
-  "requirements": [
-    {
-      "number": "158",
-      "character": "土",
-      "keyword": "soil",
-      "level": "Medium",
-      "filename": "158_soil",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "182",
-      "character": "黑",
-      "keyword": "black",
-      "level": "Elementary",
-      "filename": "182_black",
-      "id": "J",
-      "requirements": [
-        {
-          "number": "179",
-          "character": "里",
-          "keyword": "li",
-          "level": "Elementary",
-          "filename": "179_li",
-          "id": "E",
-          "requirements": [
-            {
-              "number": "14",
-              "character": "田",
-              "keyword": "rice field",
-              "level": "Medium",
-              "filename": "14_rice_field",
-              "id": "C",
-              "requirements": []
-            },
-            {
-              "number": "158",
-              "character": "土",
-              "keyword": "soil",
-              "level": "Medium",
-              "filename": "158_soil",
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "14",
-          "character": "田",
-          "keyword": "rice field",
-          "level": "Medium",
-          "filename": "14_rice_field",
-          "id": "F",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "丷",
-          "keyword": "horns",
-          "level": null,
-          "filename": "extra_horns",
-          "id": "H",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "G",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "170",
-          "character": "火",
-          "keyword": "fire",
-          "level": "Elementary",
-          "filename": "170_fire",
-          "id": "I",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 192,
+  "hierarchy": {
+    "number": "183",
+    "character": "墨",
+    "keyword": "black ink",
+    "level": null,
+    "filename": "183_black_ink",
+    "id": "K",
+    "requirements": [
+      {
+        "number": "158",
+        "character": "土",
+        "keyword": "soil",
+        "level": "Medium",
+        "filename": "158_soil",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "182",
+        "character": "黑",
+        "keyword": "black",
+        "level": "Elementary",
+        "filename": "182_black",
+        "id": "J",
+        "requirements": [
+          {
+            "number": "179",
+            "character": "里",
+            "keyword": "li",
+            "level": "Elementary",
+            "filename": "179_li",
+            "id": "E",
+            "requirements": [
+              {
+                "number": "14",
+                "character": "田",
+                "keyword": "rice field",
+                "level": "Medium",
+                "filename": "14_rice_field",
+                "id": "C",
+                "requirements": []
+              },
+              {
+                "number": "158",
+                "character": "土",
+                "keyword": "soil",
+                "level": "Medium",
+                "filename": "158_soil",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "14",
+            "character": "田",
+            "keyword": "rice field",
+            "level": "Medium",
+            "filename": "14_rice_field",
+            "id": "F",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "丷",
+            "keyword": "horns",
+            "level": null,
+            "filename": "primitive_horns",
+            "id": "H",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "G",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "170",
+            "character": "火",
+            "keyword": "fire",
+            "level": "Elementary",
+            "filename": "170_fire",
+            "id": "I",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

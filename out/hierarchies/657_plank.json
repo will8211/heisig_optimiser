@@ -1,47 +1,50 @@
 {
-  "number": "657",
-  "character": "板",
-  "keyword": "plank",
-  "level": "Medium",
-  "filename": "657_plank",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "202",
-      "character": "木",
-      "keyword": "tree",
-      "level": "Elementary",
-      "filename": "202_tree",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "656",
-      "character": "反",
-      "keyword": "against",
-      "level": "Medium",
-      "filename": "656_against",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "𠂆",
-          "keyword": "drag",
-          "level": null,
-          "filename": "extra_drag",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "633",
-          "character": "又",
-          "keyword": "again",
-          "level": "Elementary",
-          "filename": "633_again",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 710,
+  "hierarchy": {
+    "number": "657",
+    "character": "板",
+    "keyword": "plank",
+    "level": "Medium",
+    "filename": "657_plank",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "202",
+        "character": "木",
+        "keyword": "tree",
+        "level": "Elementary",
+        "filename": "202_tree",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "656",
+        "character": "反",
+        "keyword": "against",
+        "level": "Medium",
+        "filename": "656_against",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "𠂆",
+            "keyword": "drag",
+            "level": null,
+            "filename": "primitive_drag",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "633",
+            "character": "又",
+            "keyword": "again",
+            "level": "Elementary",
+            "filename": "633_again",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

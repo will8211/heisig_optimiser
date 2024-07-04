@@ -1,47 +1,50 @@
 {
-  "number": "312",
-  "character": "客",
-  "keyword": "guest",
-  "level": "Medium",
-  "filename": "312_guest",
-  "id": "F",
-  "requirements": [
-    {
-      "number": null,
-      "character": "宀",
-      "keyword": "house",
-      "level": null,
-      "filename": "extra_house",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "309",
-      "character": "各",
-      "keyword": "each",
-      "level": "Medium",
-      "filename": "309_each",
-      "id": "E",
-      "requirements": [
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "filename": "11_mouth",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "夂",
-          "keyword": "walking legs",
-          "level": null,
-          "filename": "extra_walking_legs",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 332,
+  "hierarchy": {
+    "number": "312",
+    "character": "客",
+    "keyword": "guest",
+    "level": "Medium",
+    "filename": "312_guest",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "宀",
+        "keyword": "house",
+        "level": null,
+        "filename": "primitive_house",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "309",
+        "character": "各",
+        "keyword": "each",
+        "level": "Medium",
+        "filename": "309_each",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "夂",
+            "keyword": "walking legs",
+            "level": null,
+            "filename": "primitive_walking_legs",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

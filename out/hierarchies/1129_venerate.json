@@ -1,76 +1,79 @@
 {
-  "number": "1129",
-  "character": "尊",
-  "keyword": "venerate",
-  "level": null,
-  "filename": "1129_venerate",
-  "id": "I",
-  "requirements": [
-    {
-      "number": "1128",
-      "character": "酋",
-      "keyword": "chieftain",
-      "level": null,
-      "filename": "1128_chieftain",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丷",
-          "keyword": "horns",
-          "level": null,
-          "filename": "extra_horns",
-          "id": "C",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "酉",
-          "keyword": "whiskey bottle",
-          "level": null,
-          "filename": "extra_whiskey_bottle",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "166",
-      "character": "寸",
-      "keyword": "Chinese inch",
-      "level": "Advanced",
-      "filename": "166_Chinese_inch",
-      "id": "H",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "F",
-          "requirements": []
-        },
-        {
-          "number": "10",
-          "character": "十",
-          "keyword": "ten",
-          "level": "Elementary",
-          "filename": "10_ten",
-          "id": "G",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1222,
+  "hierarchy": {
+    "number": "1129",
+    "character": "尊",
+    "keyword": "venerate",
+    "level": null,
+    "filename": "1129_venerate",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "1128",
+        "character": "酋",
+        "keyword": "chieftain",
+        "level": null,
+        "filename": "1128_chieftain",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丷",
+            "keyword": "horns",
+            "level": null,
+            "filename": "primitive_horns",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "酉",
+            "keyword": "whiskey bottle",
+            "level": null,
+            "filename": "primitive_whiskey_bottle",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "166",
+        "character": "寸",
+        "keyword": "Chinese inch",
+        "level": "Advanced",
+        "filename": "166_Chinese_inch",
+        "id": "H",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "F",
+            "requirements": []
+          },
+          {
+            "number": "10",
+            "character": "十",
+            "keyword": "ten",
+            "level": "Elementary",
+            "filename": "10_ten",
+            "id": "G",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

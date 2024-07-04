@@ -1,57 +1,60 @@
 {
-  "number": "704",
-  "character": "党",
-  "keyword": "political party",
-  "level": null,
-  "filename": "704_political_party",
-  "id": "G",
-  "requirements": [
-    {
-      "number": "56",
-      "character": "儿",
-      "keyword": "youngster",
-      "level": "Elementary",
-      "filename": "56_youngster",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "囧赏－贝",
-      "keyword": "outhouse",
-      "level": null,
-      "filename": "extra_outhouse",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "109",
-          "character": "小",
-          "keyword": "small",
-          "level": "Elementary",
-          "filename": "109_small",
-          "id": "D",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "filename": "extra_a_drop_of",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "filename": "11_mouth",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 764,
+  "hierarchy": {
+    "number": "704",
+    "character": "党",
+    "keyword": "political party",
+    "level": null,
+    "filename": "704_political_party",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "56",
+        "character": "儿",
+        "keyword": "youngster",
+        "level": "Elementary",
+        "filename": "56_youngster",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "囧赏－贝",
+        "keyword": "outhouse",
+        "level": null,
+        "filename": "primitive_outhouse",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "109",
+            "character": "小",
+            "keyword": "small",
+            "level": "Elementary",
+            "filename": "109_small",
+            "id": "D",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

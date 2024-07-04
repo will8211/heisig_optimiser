@@ -1,161 +1,164 @@
 {
-  "number": "2878",
-  "character": "偶",
-  "keyword": "by chance",
-  "level": "Advanced",
-  "filename": "2878_by_chance",
-  "id": "R",
-  "requirements": [
-    {
-      "number": "793",
-      "character": "人",
-      "keyword": "person",
-      "level": "Elementary",
-      "filename": "793_person",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "禺",
-      "keyword": "Talking Cricket",
-      "level": null,
-      "filename": "extra_Talking_Cricket",
-      "id": "Q",
-      "requirements": [
-        {
-          "number": "509",
-          "character": "虫",
-          "keyword": "insect",
-          "level": "Medium",
-          "filename": "509_insect",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "1176",
-          "character": "脑",
-          "keyword": "brain",
-          "level": "Medium",
-          "filename": "1176_brain",
-          "id": "N",
-          "requirements": [
-            {
-              "number": "13",
-              "character": "月",
-              "keyword": "month",
-              "level": "Elementary",
-              "filename": "13_month",
-              "id": "D",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "㐫",
-              "keyword": "Fagin",
-              "level": null,
-              "filename": "extra_Fagin",
-              "id": "M",
-              "requirements": [
-                {
-                  "number": null,
-                  "character": "亠",
-                  "keyword": "top hat",
-                  "level": null,
-                  "filename": "extra_top_hat",
-                  "id": "E",
-                  "requirements": []
-                },
-                {
-                  "number": "1174",
-                  "character": "凶",
-                  "keyword": "cruel",
-                  "level": "Advanced",
-                  "filename": "1174_cruel",
-                  "id": "L",
-                  "requirements": [
-                    {
-                      "number": null,
-                      "character": "㐅",
-                      "keyword": "sheaf",
-                      "level": null,
-                      "filename": "extra_sheaf",
-                      "id": "F",
-                      "requirements": []
-                    },
-                    {
-                      "number": "323",
-                      "character": "坑",
-                      "keyword": "pit",
-                      "level": null,
-                      "filename": "323_pit",
-                      "id": "K",
-                      "requirements": [
-                        {
-                          "number": null,
-                          "character": "亢",
-                          "keyword": "whirlwind",
-                          "level": null,
-                          "filename": "extra_whirlwind",
-                          "id": "I",
-                          "requirements": [
-                            {
-                              "number": null,
-                              "character": "亠",
-                              "keyword": "top hat",
-                              "level": null,
-                              "filename": "extra_top_hat",
-                              "id": "G",
-                              "requirements": []
-                            },
-                            {
-                              "number": "57",
-                              "character": "几",
-                              "keyword": "how many?",
-                              "level": "Elementary",
-                              "filename": "57_how_many",
-                              "id": "H",
-                              "requirements": []
-                            }
-                          ]
-                        },
-                        {
-                          "number": "158",
-                          "character": "土",
-                          "keyword": "soil",
-                          "level": "Medium",
-                          "filename": "158_soil",
-                          "id": "J",
-                          "requirements": []
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "囧冂",
-          "keyword": "belt",
-          "level": null,
-          "filename": "extra_belt",
-          "id": "P",
-          "requirements": [
-            {
-              "number": "410",
-              "character": "巾",
-              "keyword": "towel",
-              "level": "Advanced",
-              "filename": "410_towel",
-              "id": "O",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 3073,
+  "hierarchy": {
+    "number": "2878",
+    "character": "偶",
+    "keyword": "by chance",
+    "level": "Advanced",
+    "filename": "2878_by_chance",
+    "id": "R",
+    "requirements": [
+      {
+        "number": "793",
+        "character": "人",
+        "keyword": "person",
+        "level": "Elementary",
+        "filename": "793_person",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "禺",
+        "keyword": "Talking Cricket",
+        "level": null,
+        "filename": "primitive_Talking_Cricket",
+        "id": "Q",
+        "requirements": [
+          {
+            "number": "509",
+            "character": "虫",
+            "keyword": "insect",
+            "level": "Medium",
+            "filename": "509_insect",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "1176",
+            "character": "脑",
+            "keyword": "brain",
+            "level": "Medium",
+            "filename": "1176_brain",
+            "id": "N",
+            "requirements": [
+              {
+                "number": "13",
+                "character": "月",
+                "keyword": "month",
+                "level": "Elementary",
+                "filename": "13_month",
+                "id": "D",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "㐫",
+                "keyword": "Fagin",
+                "level": null,
+                "filename": "primitive_Fagin",
+                "id": "M",
+                "requirements": [
+                  {
+                    "number": null,
+                    "character": "亠",
+                    "keyword": "top hat",
+                    "level": null,
+                    "filename": "primitive_top_hat",
+                    "id": "E",
+                    "requirements": []
+                  },
+                  {
+                    "number": "1174",
+                    "character": "凶",
+                    "keyword": "cruel",
+                    "level": "Advanced",
+                    "filename": "1174_cruel",
+                    "id": "L",
+                    "requirements": [
+                      {
+                        "number": null,
+                        "character": "㐅",
+                        "keyword": "sheaf",
+                        "level": null,
+                        "filename": "primitive_sheaf",
+                        "id": "F",
+                        "requirements": []
+                      },
+                      {
+                        "number": "323",
+                        "character": "坑",
+                        "keyword": "pit",
+                        "level": null,
+                        "filename": "323_pit",
+                        "id": "K",
+                        "requirements": [
+                          {
+                            "number": null,
+                            "character": "亢",
+                            "keyword": "whirlwind",
+                            "level": null,
+                            "filename": "primitive_whirlwind",
+                            "id": "I",
+                            "requirements": [
+                              {
+                                "number": null,
+                                "character": "亠",
+                                "keyword": "top hat",
+                                "level": null,
+                                "filename": "primitive_top_hat",
+                                "id": "G",
+                                "requirements": []
+                              },
+                              {
+                                "number": "57",
+                                "character": "几",
+                                "keyword": "how many?",
+                                "level": "Elementary",
+                                "filename": "57_how_many",
+                                "id": "H",
+                                "requirements": []
+                              }
+                            ]
+                          },
+                          {
+                            "number": "158",
+                            "character": "土",
+                            "keyword": "soil",
+                            "level": "Medium",
+                            "filename": "158_soil",
+                            "id": "J",
+                            "requirements": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "囧冂",
+            "keyword": "belt",
+            "level": null,
+            "filename": "primitive_belt",
+            "id": "P",
+            "requirements": [
+              {
+                "number": "410",
+                "character": "巾",
+                "keyword": "towel",
+                "level": "Advanced",
+                "filename": "410_towel",
+                "id": "O",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

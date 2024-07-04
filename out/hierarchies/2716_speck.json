@@ -1,76 +1,79 @@
 {
-  "number": "2716",
-  "character": "斑",
-  "keyword": "speck",
-  "level": null,
-  "filename": "2716_speck",
-  "id": "I",
-  "requirements": [
-    {
-      "number": "1315",
-      "character": "文",
-      "keyword": "literature",
-      "level": "Elementary",
-      "filename": "1315_literature",
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "亠",
-          "keyword": "top hat",
-          "level": null,
-          "filename": "extra_top_hat",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "㐅",
-          "keyword": "sheaf",
-          "level": null,
-          "filename": "extra_sheaf",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "266",
-      "character": "玉",
-      "keyword": "jade",
-      "level": "Medium",
-      "filename": "266_jade",
-      "id": "H",
-      "requirements": [
-        {
-          "number": "265",
-          "character": "王",
-          "keyword": "king",
-          "level": "Medium",
-          "filename": "265_king",
-          "id": "F",
-          "requirements": [
-            {
-              "number": "76",
-              "character": "工",
-              "keyword": "work",
-              "level": "Elementary",
-              "filename": "76_work",
-              "id": "E",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "G",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2909,
+  "hierarchy": {
+    "number": "2716",
+    "character": "斑",
+    "keyword": "speck",
+    "level": null,
+    "filename": "2716_speck",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "1315",
+        "character": "文",
+        "keyword": "literature",
+        "level": "Elementary",
+        "filename": "1315_literature",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "亠",
+            "keyword": "top hat",
+            "level": null,
+            "filename": "primitive_top_hat",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "㐅",
+            "keyword": "sheaf",
+            "level": null,
+            "filename": "primitive_sheaf",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "266",
+        "character": "玉",
+        "keyword": "jade",
+        "level": "Medium",
+        "filename": "266_jade",
+        "id": "H",
+        "requirements": [
+          {
+            "number": "265",
+            "character": "王",
+            "keyword": "king",
+            "level": "Medium",
+            "filename": "265_king",
+            "id": "F",
+            "requirements": [
+              {
+                "number": "76",
+                "character": "工",
+                "keyword": "work",
+                "level": "Elementary",
+                "filename": "76_work",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "G",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

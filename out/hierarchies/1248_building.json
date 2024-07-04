@@ -1,47 +1,50 @@
 {
-  "number": "1248",
-  "character": "栋",
-  "keyword": "building",
-  "level": null,
-  "filename": "1248_building",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "202",
-      "character": "木",
-      "keyword": "tree",
-      "level": "Elementary",
-      "filename": "202_tree",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1247",
-      "character": "东",
-      "keyword": "east",
-      "level": "Elementary",
-      "filename": "1247_east",
-      "id": "E",
-      "requirements": [
-        {
-          "number": "300",
-          "character": "车",
-          "keyword": "car",
-          "level": "Elementary",
-          "filename": "300_car",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1356,
+  "hierarchy": {
+    "number": "1248",
+    "character": "栋",
+    "keyword": "building",
+    "level": null,
+    "filename": "1248_building",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "202",
+        "character": "木",
+        "keyword": "tree",
+        "level": "Elementary",
+        "filename": "202_tree",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1247",
+        "character": "东",
+        "keyword": "east",
+        "level": "Elementary",
+        "filename": "1247_east",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "300",
+            "character": "车",
+            "keyword": "car",
+            "level": "Elementary",
+            "filename": "300_car",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,66 +1,69 @@
 {
-  "number": "2311",
-  "character": "棺",
-  "keyword": "coffin",
-  "level": null,
-  "filename": "2311_coffin",
-  "id": "H",
-  "requirements": [
-    {
-      "number": "202",
-      "character": "木",
-      "keyword": "tree",
-      "level": "Elementary",
-      "filename": "202_tree",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1041",
-      "character": "官",
-      "keyword": "bureaucrat",
-      "level": "Advanced",
-      "filename": "1041_bureaucrat",
-      "id": "G",
-      "requirements": [
-        {
-          "number": null,
-          "character": "𠂤",
-          "keyword": "maestro",
-          "level": null,
-          "filename": "extra_maestro",
-          "id": "D",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "filename": "extra_a_drop_of",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "E",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "宀",
-          "keyword": "house",
-          "level": null,
-          "filename": "extra_house",
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2479,
+  "hierarchy": {
+    "number": "2311",
+    "character": "棺",
+    "keyword": "coffin",
+    "level": null,
+    "filename": "2311_coffin",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "202",
+        "character": "木",
+        "keyword": "tree",
+        "level": "Elementary",
+        "filename": "202_tree",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1041",
+        "character": "官",
+        "keyword": "bureaucrat",
+        "level": "Advanced",
+        "filename": "1041_bureaucrat",
+        "id": "G",
+        "requirements": [
+          {
+            "number": null,
+            "character": "𠂤",
+            "keyword": "maestro",
+            "level": null,
+            "filename": "primitive_maestro",
+            "id": "D",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "E",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "宀",
+            "keyword": "house",
+            "level": null,
+            "filename": "primitive_house",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

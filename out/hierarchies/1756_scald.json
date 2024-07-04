@@ -1,86 +1,89 @@
 {
-  "number": "1756",
-  "character": "烫",
-  "keyword": "scald",
-  "level": null,
-  "filename": "1756_scald",
-  "id": "J",
-  "requirements": [
-    {
-      "number": "527",
-      "character": "汤",
-      "keyword": "soup",
-      "level": "Medium",
-      "filename": "527_soup",
-      "id": "H",
-      "requirements": [
-        {
-          "number": "137",
-          "character": "水",
-          "keyword": "water",
-          "level": "Elementary",
-          "filename": "137_water",
-          "id": "E",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丨",
-              "keyword": "walking stick",
-              "level": null,
-              "filename": "extra_walking_stick",
-              "id": "C",
-              "requirements": [
-                {
-                  "number": "1",
-                  "character": "一",
-                  "keyword": "one",
-                  "level": "Elementary",
-                  "filename": "1_one",
-                  "id": "B",
-                  "requirements": []
-                }
-              ]
-            },
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "filename": "extra_a_drop_of",
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "𠃓",
-          "keyword": "piglets",
-          "level": null,
-          "filename": "extra_piglets",
-          "id": "G",
-          "requirements": [
-            {
-              "number": null,
-              "character": "豕",
-              "keyword": "sow",
-              "level": null,
-              "filename": "extra_sow",
-              "id": "F",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": "170",
-      "character": "火",
-      "keyword": "fire",
-      "level": "Elementary",
-      "filename": "170_fire",
-      "id": "I",
-      "requirements": []
-    }
-  ]
+  "order": 1904,
+  "hierarchy": {
+    "number": "1756",
+    "character": "烫",
+    "keyword": "scald",
+    "level": null,
+    "filename": "1756_scald",
+    "id": "J",
+    "requirements": [
+      {
+        "number": "527",
+        "character": "汤",
+        "keyword": "soup",
+        "level": "Medium",
+        "filename": "527_soup",
+        "id": "H",
+        "requirements": [
+          {
+            "number": "137",
+            "character": "水",
+            "keyword": "water",
+            "level": "Elementary",
+            "filename": "137_water",
+            "id": "E",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丨",
+                "keyword": "walking stick",
+                "level": null,
+                "filename": "primitive_walking_stick",
+                "id": "C",
+                "requirements": [
+                  {
+                    "number": "1",
+                    "character": "一",
+                    "keyword": "one",
+                    "level": "Elementary",
+                    "filename": "1_one",
+                    "id": "B",
+                    "requirements": []
+                  }
+                ]
+              },
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "𠃓",
+            "keyword": "piglets",
+            "level": null,
+            "filename": "primitive_piglets",
+            "id": "G",
+            "requirements": [
+              {
+                "number": null,
+                "character": "豕",
+                "keyword": "sow",
+                "level": null,
+                "filename": "primitive_sow",
+                "id": "F",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": "170",
+        "character": "火",
+        "keyword": "fire",
+        "level": "Elementary",
+        "filename": "170_fire",
+        "id": "I",
+        "requirements": []
+      }
+    ]
+  }
 }

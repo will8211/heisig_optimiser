@@ -1,48 +1,51 @@
 {
-  "number": "2215",
-  "character": "兼",
-  "keyword": "double",
-  "level": null,
-  "filename": "2215_double",
-  "id": "F",
-  "requirements": [
-    {
-      "number": null,
-      "character": "丷",
-      "keyword": "horns",
-      "level": null,
-      "filename": "extra_horns",
-      "id": "C",
-      "requirements": [
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "filename": "1_one",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "肀",
-      "keyword": "rake",
-      "level": null,
-      "filename": "extra_rake",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "彐",
-          "keyword": "broom",
-          "level": null,
-          "filename": "extra_broom",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2380,
+  "hierarchy": {
+    "number": "2215",
+    "character": "兼",
+    "keyword": "double",
+    "level": null,
+    "filename": "2215_double",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "丷",
+        "keyword": "horns",
+        "level": null,
+        "filename": "primitive_horns",
+        "id": "C",
+        "requirements": [
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "肀",
+        "keyword": "rake",
+        "level": null,
+        "filename": "primitive_rake",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "彐",
+            "keyword": "broom",
+            "level": null,
+            "filename": "primitive_broom",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

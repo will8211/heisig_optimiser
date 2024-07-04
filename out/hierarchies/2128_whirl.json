@@ -1,105 +1,108 @@
 {
-  "number": "2128",
-  "character": "旋",
-  "keyword": "whirl",
-  "level": null,
-  "filename": "2128_whirl",
-  "id": "L",
-  "requirements": [
-    {
-      "number": null,
-      "character": "囧施－也",
-      "keyword": "banner",
-      "level": null,
-      "filename": "extra_banner",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "494",
-          "character": "方",
-          "keyword": "direction",
-          "level": "Elementary",
-          "filename": "494_direction",
-          "id": "D",
-          "requirements": [
-            {
-              "number": "83",
-              "character": "刀",
-              "keyword": "sword",
-              "level": "Medium",
-              "filename": "83_sword",
-              "id": "B",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "亠",
-              "keyword": "top hat",
-              "level": null,
-              "filename": "extra_top_hat",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "𠂉",
-          "keyword": "reclining",
-          "level": null,
-          "filename": "extra_reclining",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "疋",
-      "keyword": "zoo",
-      "level": null,
-      "filename": "extra_zoo",
-      "id": "K",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧走－十",
-          "keyword": "mending",
-          "level": null,
-          "filename": "extra_mending",
-          "id": "J",
-          "requirements": [
-            {
-              "number": "387",
-              "character": "正",
-              "keyword": "correct",
-              "level": "Elementary",
-              "filename": "387_correct",
-              "id": "I",
-              "requirements": [
-                {
-                  "number": "1",
-                  "character": "一",
-                  "keyword": "one",
-                  "level": "Elementary",
-                  "filename": "1_one",
-                  "id": "G",
-                  "requirements": []
-                },
-                {
-                  "number": "379",
-                  "character": "止",
-                  "keyword": "stop",
-                  "level": "Medium",
-                  "filename": "379_stop",
-                  "id": "H",
-                  "requirements": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2289,
+  "hierarchy": {
+    "number": "2128",
+    "character": "旋",
+    "keyword": "whirl",
+    "level": null,
+    "filename": "2128_whirl",
+    "id": "L",
+    "requirements": [
+      {
+        "number": null,
+        "character": "囧施－也",
+        "keyword": "banner",
+        "level": null,
+        "filename": "primitive_banner",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "494",
+            "character": "方",
+            "keyword": "direction",
+            "level": "Elementary",
+            "filename": "494_direction",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "83",
+                "character": "刀",
+                "keyword": "sword",
+                "level": "Medium",
+                "filename": "83_sword",
+                "id": "B",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "亠",
+                "keyword": "top hat",
+                "level": null,
+                "filename": "primitive_top_hat",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "𠂉",
+            "keyword": "reclining",
+            "level": null,
+            "filename": "primitive_reclining",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "疋",
+        "keyword": "zoo",
+        "level": null,
+        "filename": "primitive_zoo",
+        "id": "K",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧走－十",
+            "keyword": "mending",
+            "level": null,
+            "filename": "primitive_mending",
+            "id": "J",
+            "requirements": [
+              {
+                "number": "387",
+                "character": "正",
+                "keyword": "correct",
+                "level": "Elementary",
+                "filename": "387_correct",
+                "id": "I",
+                "requirements": [
+                  {
+                    "number": "1",
+                    "character": "一",
+                    "keyword": "one",
+                    "level": "Elementary",
+                    "filename": "1_one",
+                    "id": "G",
+                    "requirements": []
+                  },
+                  {
+                    "number": "379",
+                    "character": "止",
+                    "keyword": "stop",
+                    "level": "Medium",
+                    "filename": "379_stop",
+                    "id": "H",
+                    "requirements": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

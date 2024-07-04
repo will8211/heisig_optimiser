@@ -1,47 +1,50 @@
 {
-  "number": "581",
-  "character": "忙",
-  "keyword": "busy",
-  "level": "Elementary",
-  "filename": "581_busy",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "563",
-      "character": "心",
-      "keyword": "heart",
-      "level": "Medium",
-      "filename": "563_heart",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "490",
-      "character": "亡",
-      "keyword": "deceased",
-      "level": "Advanced",
-      "filename": "490_deceased",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "亠",
-          "keyword": "top hat",
-          "level": null,
-          "filename": "extra_top_hat",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "95",
-          "character": "乙",
-          "keyword": "second",
-          "level": "Medium",
-          "filename": "95_second",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 630,
+  "hierarchy": {
+    "number": "581",
+    "character": "忙",
+    "keyword": "busy",
+    "level": "Elementary",
+    "filename": "581_busy",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "563",
+        "character": "心",
+        "keyword": "heart",
+        "level": "Medium",
+        "filename": "563_heart",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "490",
+        "character": "亡",
+        "keyword": "deceased",
+        "level": "Advanced",
+        "filename": "490_deceased",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "亠",
+            "keyword": "top hat",
+            "level": null,
+            "filename": "primitive_top_hat",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "95",
+            "character": "乙",
+            "keyword": "second",
+            "level": "Medium",
+            "filename": "95_second",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

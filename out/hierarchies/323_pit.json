@@ -1,47 +1,50 @@
 {
-  "number": "323",
-  "character": "坑",
-  "keyword": "pit",
-  "level": null,
-  "filename": "323_pit",
-  "id": "F",
-  "requirements": [
-    {
-      "number": null,
-      "character": "亢",
-      "keyword": "whirlwind",
-      "level": null,
-      "filename": "extra_whirlwind",
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "亠",
-          "keyword": "top hat",
-          "level": null,
-          "filename": "extra_top_hat",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "57",
-          "character": "几",
-          "keyword": "how many?",
-          "level": "Elementary",
-          "filename": "57_how_many",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "158",
-      "character": "土",
-      "keyword": "soil",
-      "level": "Medium",
-      "filename": "158_soil",
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 346,
+  "hierarchy": {
+    "number": "323",
+    "character": "坑",
+    "keyword": "pit",
+    "level": null,
+    "filename": "323_pit",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "亢",
+        "keyword": "whirlwind",
+        "level": null,
+        "filename": "primitive_whirlwind",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "亠",
+            "keyword": "top hat",
+            "level": null,
+            "filename": "primitive_top_hat",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "57",
+            "character": "几",
+            "keyword": "how many?",
+            "level": "Elementary",
+            "filename": "57_how_many",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "158",
+        "character": "土",
+        "keyword": "soil",
+        "level": "Medium",
+        "filename": "158_soil",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

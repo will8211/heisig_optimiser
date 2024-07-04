@@ -1,96 +1,99 @@
 {
-  "number": "2395",
-  "character": "缓",
-  "keyword": "unhurried",
-  "level": null,
-  "filename": "2395_unhurried",
-  "id": "K",
-  "requirements": [
-    {
-      "number": null,
-      "character": "纟",
-      "keyword": "thread",
-      "level": null,
-      "filename": "extra_thread",
-      "id": "C",
-      "requirements": [
-        {
-          "number": null,
-          "character": "厶",
-          "keyword": "elbow",
-          "level": null,
-          "filename": "extra_elbow",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "爰",
-      "keyword": "migrating ducks",
-      "level": null,
-      "filename": "extra_migrating_ducks",
-      "id": "J",
-      "requirements": [
-        {
-          "number": "663",
-          "character": "爪",
-          "keyword": "claw",
-          "level": null,
-          "filename": "663_claw",
-          "id": "E",
-          "requirements": [
-            {
-              "number": null,
-              "character": "𠂆",
-              "keyword": "drag",
-              "level": null,
-              "filename": "extra_drag",
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "635",
-          "character": "友",
-          "keyword": "friend",
-          "level": "Elementary",
-          "filename": "635_friend",
-          "id": "I",
-          "requirements": [
-            {
-              "number": null,
-              "character": "𠂇",
-              "keyword": "by one’s side",
-              "level": null,
-              "filename": "extra_by_one’s_side",
-              "id": "G",
-              "requirements": [
-                {
-                  "number": "10",
-                  "character": "十",
-                  "keyword": "ten",
-                  "level": "Elementary",
-                  "filename": "10_ten",
-                  "id": "F",
-                  "requirements": []
-                }
-              ]
-            },
-            {
-              "number": "633",
-              "character": "又",
-              "keyword": "again",
-              "level": "Elementary",
-              "filename": "633_again",
-              "id": "H",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2568,
+  "hierarchy": {
+    "number": "2395",
+    "character": "缓",
+    "keyword": "unhurried",
+    "level": null,
+    "filename": "2395_unhurried",
+    "id": "K",
+    "requirements": [
+      {
+        "number": null,
+        "character": "纟",
+        "keyword": "thread",
+        "level": null,
+        "filename": "primitive_thread",
+        "id": "C",
+        "requirements": [
+          {
+            "number": null,
+            "character": "厶",
+            "keyword": "elbow",
+            "level": null,
+            "filename": "primitive_elbow",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "爰",
+        "keyword": "migrating ducks",
+        "level": null,
+        "filename": "primitive_migrating_ducks",
+        "id": "J",
+        "requirements": [
+          {
+            "number": "663",
+            "character": "爪",
+            "keyword": "claw",
+            "level": null,
+            "filename": "663_claw",
+            "id": "E",
+            "requirements": [
+              {
+                "number": null,
+                "character": "𠂆",
+                "keyword": "drag",
+                "level": null,
+                "filename": "primitive_drag",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "635",
+            "character": "友",
+            "keyword": "friend",
+            "level": "Elementary",
+            "filename": "635_friend",
+            "id": "I",
+            "requirements": [
+              {
+                "number": null,
+                "character": "𠂇",
+                "keyword": "by one’s side",
+                "level": null,
+                "filename": "primitive_by_one’s_side",
+                "id": "G",
+                "requirements": [
+                  {
+                    "number": "10",
+                    "character": "十",
+                    "keyword": "ten",
+                    "level": "Elementary",
+                    "filename": "10_ten",
+                    "id": "F",
+                    "requirements": []
+                  }
+                ]
+              },
+              {
+                "number": "633",
+                "character": "又",
+                "keyword": "again",
+                "level": "Elementary",
+                "filename": "633_again",
+                "id": "H",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

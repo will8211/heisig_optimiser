@@ -1,75 +1,78 @@
 {
-  "number": "2855",
-  "character": "胀",
-  "keyword": "bloated",
-  "level": null,
-  "filename": "2855_bloated",
-  "id": "I",
-  "requirements": [
-    {
-      "number": "13",
-      "character": "月",
-      "keyword": "month",
-      "level": "Elementary",
-      "filename": "13_month",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1428",
-      "character": "长",
-      "keyword": "long",
-      "level": "Elementary",
-      "filename": "1428_long",
-      "id": "H",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧以－丶人",
-          "keyword": "plow",
-          "level": null,
-          "filename": "extra_plow",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "filename": "1_one",
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "丷",
-          "keyword": "horns",
-          "level": null,
-          "filename": "extra_horns",
-          "id": "F",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "E",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "囧只－口",
-          "keyword": "animal legs",
-          "level": null,
-          "filename": "extra_animal_legs",
-          "id": "G",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 3050,
+  "hierarchy": {
+    "number": "2855",
+    "character": "胀",
+    "keyword": "bloated",
+    "level": null,
+    "filename": "2855_bloated",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "13",
+        "character": "月",
+        "keyword": "month",
+        "level": "Elementary",
+        "filename": "13_month",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1428",
+        "character": "长",
+        "keyword": "long",
+        "level": "Elementary",
+        "filename": "1428_long",
+        "id": "H",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧以－丶人",
+            "keyword": "plow",
+            "level": null,
+            "filename": "primitive_plow",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "丷",
+            "keyword": "horns",
+            "level": null,
+            "filename": "primitive_horns",
+            "id": "F",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "囧只－口",
+            "keyword": "animal legs",
+            "level": null,
+            "filename": "primitive_animal_legs",
+            "id": "G",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

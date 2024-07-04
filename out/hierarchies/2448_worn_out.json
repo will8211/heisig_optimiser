@@ -1,57 +1,60 @@
 {
-  "number": "2448",
-  "character": "倦",
-  "keyword": "worn out",
-  "level": null,
-  "filename": "2448_worn_out",
-  "id": "G",
-  "requirements": [
-    {
-      "number": "793",
-      "character": "人",
-      "keyword": "person",
-      "level": "Elementary",
-      "filename": "793_person",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "2447",
-      "character": "卷",
-      "keyword": "exam paper",
-      "level": null,
-      "filename": "2447_exam_paper",
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧眷－目",
-          "keyword": "quarter",
-          "level": null,
-          "filename": "extra_quarter",
-          "id": "D",
-          "requirements": [
-            {
-              "number": "980",
-              "character": "半",
-              "keyword": "half",
-              "level": "Elementary",
-              "filename": "980_half",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "㔾",
-          "keyword": "fingerprint",
-          "level": null,
-          "filename": "extra_fingerprint",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2627,
+  "hierarchy": {
+    "number": "2448",
+    "character": "倦",
+    "keyword": "worn out",
+    "level": null,
+    "filename": "2448_worn_out",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "793",
+        "character": "人",
+        "keyword": "person",
+        "level": "Elementary",
+        "filename": "793_person",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "2447",
+        "character": "卷",
+        "keyword": "exam paper",
+        "level": null,
+        "filename": "2447_exam_paper",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧眷－目",
+            "keyword": "quarter",
+            "level": null,
+            "filename": "primitive_quarter",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "980",
+                "character": "半",
+                "keyword": "half",
+                "level": "Elementary",
+                "filename": "980_half",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "㔾",
+            "keyword": "fingerprint",
+            "level": null,
+            "filename": "primitive_fingerprint",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

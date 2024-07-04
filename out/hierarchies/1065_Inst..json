@@ -1,76 +1,79 @@
 {
-  "number": "1065",
-  "character": "院",
-  "keyword": "Inst.",
-  "level": "Elementary",
-  "filename": "1065_Inst.",
-  "id": "I",
-  "requirements": [
-    {
-      "number": null,
-      "character": "阝",
-      "keyword": "pinnacle",
-      "level": null,
-      "filename": "extra_pinnacle",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "193",
-      "character": "完",
-      "keyword": "finish",
-      "level": "Elementary",
-      "filename": "193_finish",
-      "id": "H",
-      "requirements": [
-        {
-          "number": null,
-          "character": "宀",
-          "keyword": "house",
-          "level": null,
-          "filename": "extra_house",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "59",
-          "character": "元",
-          "keyword": "beginning",
-          "level": "Medium",
-          "filename": "59_beginning",
-          "id": "G",
-          "requirements": [
-            {
-              "number": "2",
-              "character": "二",
-              "keyword": "two",
-              "level": "Elementary",
-              "filename": "2_two",
-              "id": "E",
-              "requirements": [
-                {
-                  "number": "1",
-                  "character": "一",
-                  "keyword": "one",
-                  "level": "Elementary",
-                  "filename": "1_one",
-                  "id": "D",
-                  "requirements": []
-                }
-              ]
-            },
-            {
-              "number": "56",
-              "character": "儿",
-              "keyword": "youngster",
-              "level": "Elementary",
-              "filename": "56_youngster",
-              "id": "F",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 1146,
+  "hierarchy": {
+    "number": "1065",
+    "character": "院",
+    "keyword": "Inst.",
+    "level": "Elementary",
+    "filename": "1065_Inst.",
+    "id": "I",
+    "requirements": [
+      {
+        "number": null,
+        "character": "阝",
+        "keyword": "pinnacle",
+        "level": null,
+        "filename": "primitive_pinnacle",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "193",
+        "character": "完",
+        "keyword": "finish",
+        "level": "Elementary",
+        "filename": "193_finish",
+        "id": "H",
+        "requirements": [
+          {
+            "number": null,
+            "character": "宀",
+            "keyword": "house",
+            "level": null,
+            "filename": "primitive_house",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "59",
+            "character": "元",
+            "keyword": "beginning",
+            "level": "Medium",
+            "filename": "59_beginning",
+            "id": "G",
+            "requirements": [
+              {
+                "number": "2",
+                "character": "二",
+                "keyword": "two",
+                "level": "Elementary",
+                "filename": "2_two",
+                "id": "E",
+                "requirements": [
+                  {
+                    "number": "1",
+                    "character": "一",
+                    "keyword": "one",
+                    "level": "Elementary",
+                    "filename": "1_one",
+                    "id": "D",
+                    "requirements": []
+                  }
+                ]
+              },
+              {
+                "number": "56",
+                "character": "儿",
+                "keyword": "youngster",
+                "level": "Elementary",
+                "filename": "56_youngster",
+                "id": "F",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,57 +1,60 @@
 {
-  "number": "2424",
-  "character": "脖",
-  "keyword": "head-hinge",
-  "level": null,
-  "filename": "2424_head-hinge",
-  "id": "G",
-  "requirements": [
-    {
-      "number": "13",
-      "character": "月",
-      "keyword": "month",
-      "level": "Elementary",
-      "filename": "13_month",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "孛",
-      "keyword": "Sunday school",
-      "level": null,
-      "filename": "extra_Sunday_school",
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧索－糸",
-          "keyword": "chapel",
-          "level": null,
-          "filename": "extra_chapel",
-          "id": "D",
-          "requirements": [
-            {
-              "number": null,
-              "character": "宀",
-              "keyword": "house",
-              "level": null,
-              "filename": "extra_house",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "97",
-          "character": "子",
-          "keyword": "child",
-          "level": "Elementary",
-          "filename": "97_child",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2602,
+  "hierarchy": {
+    "number": "2424",
+    "character": "脖",
+    "keyword": "head-hinge",
+    "level": null,
+    "filename": "2424_head-hinge",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "13",
+        "character": "月",
+        "keyword": "month",
+        "level": "Elementary",
+        "filename": "13_month",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "孛",
+        "keyword": "Sunday school",
+        "level": null,
+        "filename": "primitive_Sunday_school",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧索－糸",
+            "keyword": "chapel",
+            "level": null,
+            "filename": "primitive_chapel",
+            "id": "D",
+            "requirements": [
+              {
+                "number": null,
+                "character": "宀",
+                "keyword": "house",
+                "level": null,
+                "filename": "primitive_house",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "97",
+            "character": "子",
+            "keyword": "child",
+            "level": "Elementary",
+            "filename": "97_child",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,104 +1,107 @@
 {
-  "number": "1734",
-  "character": "磅",
-  "keyword": "pound",
-  "level": null,
-  "filename": "1734_pound",
-  "id": "L",
-  "requirements": [
-    {
-      "number": null,
-      "character": "囧旁",
-      "keyword": "Magellan",
-      "level": null,
-      "filename": "extra_Magellan",
-      "id": "H",
-      "requirements": [
-        {
-          "number": "498",
-          "character": "旁",
-          "keyword": "side",
-          "level": "Elementary",
-          "filename": "498_side",
-          "id": "G",
-          "requirements": [
-            {
-              "number": "444",
-              "character": "立",
-              "keyword": "standing up",
-              "level": "Advanced",
-              "filename": "444_standing_up",
-              "id": "B",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "冖",
-              "keyword": "crown",
-              "level": null,
-              "filename": "extra_crown",
-              "id": "C",
-              "requirements": []
-            },
-            {
-              "number": "494",
-              "character": "方",
-              "keyword": "direction",
-              "level": "Elementary",
-              "filename": "494_direction",
-              "id": "F",
-              "requirements": [
-                {
-                  "number": "83",
-                  "character": "刀",
-                  "keyword": "sword",
-                  "level": "Medium",
-                  "filename": "83_sword",
-                  "id": "D",
-                  "requirements": []
-                },
-                {
-                  "number": null,
-                  "character": "亠",
-                  "keyword": "top hat",
-                  "level": null,
-                  "filename": "extra_top_hat",
-                  "id": "E",
-                  "requirements": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": "125",
-      "character": "石",
-      "keyword": "stone",
-      "level": "Advanced",
-      "filename": "125_stone",
-      "id": "K",
-      "requirements": [
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "filename": "11_mouth",
-          "id": "I",
-          "requirements": []
-        },
-        {
-          "number": "121",
-          "character": "厂",
-          "keyword": "factory",
-          "level": "Medium",
-          "filename": "121_factory",
-          "id": "J",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1880,
+  "hierarchy": {
+    "number": "1734",
+    "character": "磅",
+    "keyword": "pound",
+    "level": null,
+    "filename": "1734_pound",
+    "id": "L",
+    "requirements": [
+      {
+        "number": null,
+        "character": "囧旁",
+        "keyword": "Magellan",
+        "level": null,
+        "filename": "primitive_Magellan",
+        "id": "H",
+        "requirements": [
+          {
+            "number": "498",
+            "character": "旁",
+            "keyword": "side",
+            "level": "Elementary",
+            "filename": "498_side",
+            "id": "G",
+            "requirements": [
+              {
+                "number": "444",
+                "character": "立",
+                "keyword": "standing up",
+                "level": "Advanced",
+                "filename": "444_standing_up",
+                "id": "B",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "冖",
+                "keyword": "crown",
+                "level": null,
+                "filename": "primitive_crown",
+                "id": "C",
+                "requirements": []
+              },
+              {
+                "number": "494",
+                "character": "方",
+                "keyword": "direction",
+                "level": "Elementary",
+                "filename": "494_direction",
+                "id": "F",
+                "requirements": [
+                  {
+                    "number": "83",
+                    "character": "刀",
+                    "keyword": "sword",
+                    "level": "Medium",
+                    "filename": "83_sword",
+                    "id": "D",
+                    "requirements": []
+                  },
+                  {
+                    "number": null,
+                    "character": "亠",
+                    "keyword": "top hat",
+                    "level": null,
+                    "filename": "primitive_top_hat",
+                    "id": "E",
+                    "requirements": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": "125",
+        "character": "石",
+        "keyword": "stone",
+        "level": "Advanced",
+        "filename": "125_stone",
+        "id": "K",
+        "requirements": [
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "I",
+            "requirements": []
+          },
+          {
+            "number": "121",
+            "character": "厂",
+            "keyword": "factory",
+            "level": "Medium",
+            "filename": "121_factory",
+            "id": "J",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,67 +1,70 @@
 {
-  "number": "792",
-  "character": "策",
-  "keyword": "strategy",
-  "level": null,
-  "filename": "792_strategy",
-  "id": "H",
-  "requirements": [
-    {
-      "number": "786",
-      "character": "竹",
-      "keyword": "bamboo",
-      "level": "Advanced",
-      "filename": "786_bamboo",
-      "id": "C",
-      "requirements": [
-        {
-          "number": "90",
-          "character": "丁",
-          "keyword": "fourth",
-          "level": null,
-          "filename": "90_fourth",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "朿",
-      "keyword": "thorn",
-      "level": null,
-      "filename": "extra_thorn",
-      "id": "G",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧冂",
-          "keyword": "belt",
-          "level": null,
-          "filename": "extra_belt",
-          "id": "E",
-          "requirements": [
-            {
-              "number": "410",
-              "character": "巾",
-              "keyword": "towel",
-              "level": "Advanced",
-              "filename": "410_towel",
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "202",
-          "character": "木",
-          "keyword": "tree",
-          "level": "Elementary",
-          "filename": "202_tree",
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 854,
+  "hierarchy": {
+    "number": "792",
+    "character": "策",
+    "keyword": "strategy",
+    "level": null,
+    "filename": "792_strategy",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "786",
+        "character": "竹",
+        "keyword": "bamboo",
+        "level": "Advanced",
+        "filename": "786_bamboo",
+        "id": "C",
+        "requirements": [
+          {
+            "number": "90",
+            "character": "丁",
+            "keyword": "fourth",
+            "level": null,
+            "filename": "90_fourth",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "朿",
+        "keyword": "thorn",
+        "level": null,
+        "filename": "primitive_thorn",
+        "id": "G",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧冂",
+            "keyword": "belt",
+            "level": null,
+            "filename": "primitive_belt",
+            "id": "E",
+            "requirements": [
+              {
+                "number": "410",
+                "character": "巾",
+                "keyword": "towel",
+                "level": "Advanced",
+                "filename": "410_towel",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "202",
+            "character": "木",
+            "keyword": "tree",
+            "level": "Elementary",
+            "filename": "202_tree",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

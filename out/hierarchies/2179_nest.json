@@ -1,47 +1,50 @@
 {
-  "number": "2179",
-  "character": "巢",
-  "keyword": "nest",
-  "level": null,
-  "filename": "2179_nest",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "134",
-      "character": "川",
-      "keyword": "stream",
-      "level": null,
-      "filename": "134_stream",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "921",
-      "character": "果",
-      "keyword": "fruit",
-      "level": "Elementary",
-      "filename": "921_fruit",
-      "id": "E",
-      "requirements": [
-        {
-          "number": "202",
-          "character": "木",
-          "keyword": "tree",
-          "level": "Elementary",
-          "filename": "202_tree",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "14",
-          "character": "田",
-          "keyword": "rice field",
-          "level": "Medium",
-          "filename": "14_rice_field",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2341,
+  "hierarchy": {
+    "number": "2179",
+    "character": "巢",
+    "keyword": "nest",
+    "level": null,
+    "filename": "2179_nest",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "134",
+        "character": "川",
+        "keyword": "stream",
+        "level": null,
+        "filename": "134_stream",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "921",
+        "character": "果",
+        "keyword": "fruit",
+        "level": "Elementary",
+        "filename": "921_fruit",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "202",
+            "character": "木",
+            "keyword": "tree",
+            "level": "Elementary",
+            "filename": "202_tree",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "14",
+            "character": "田",
+            "keyword": "rice field",
+            "level": "Medium",
+            "filename": "14_rice_field",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

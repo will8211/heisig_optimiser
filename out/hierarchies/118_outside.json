@@ -1,67 +1,70 @@
 {
-  "number": "118",
-  "character": "外",
-  "keyword": "outside",
-  "level": "Elementary",
-  "filename": "118_outside",
-  "id": "H",
-  "requirements": [
-    {
-      "number": "115",
-      "character": "夕",
-      "keyword": "evening",
-      "level": "Advanced",
-      "filename": "115_evening",
-      "id": "C",
-      "requirements": [
-        {
-          "number": "13",
-          "character": "月",
-          "keyword": "month",
-          "level": "Elementary",
-          "filename": "13_month",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "43",
-      "character": "卜",
-      "keyword": "divination",
-      "level": null,
-      "filename": "43_divination",
-      "id": "G",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丨",
-          "keyword": "walking stick",
-          "level": null,
-          "filename": "extra_walking_stick",
-          "id": "E",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 126,
+  "hierarchy": {
+    "number": "118",
+    "character": "外",
+    "keyword": "outside",
+    "level": "Elementary",
+    "filename": "118_outside",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "115",
+        "character": "夕",
+        "keyword": "evening",
+        "level": "Advanced",
+        "filename": "115_evening",
+        "id": "C",
+        "requirements": [
+          {
+            "number": "13",
+            "character": "月",
+            "keyword": "month",
+            "level": "Elementary",
+            "filename": "13_month",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "43",
+        "character": "卜",
+        "keyword": "divination",
+        "level": null,
+        "filename": "43_divination",
+        "id": "G",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丨",
+            "keyword": "walking stick",
+            "level": null,
+            "filename": "primitive_walking_stick",
+            "id": "E",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

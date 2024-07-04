@@ -1,57 +1,60 @@
 {
-  "number": "2904",
-  "character": "腾",
-  "keyword": "take flight",
-  "level": null,
-  "filename": "2904_take_flight",
-  "id": "G",
-  "requirements": [
-    {
-      "number": "13",
-      "character": "月",
-      "keyword": "month",
-      "level": "Elementary",
-      "filename": "13_month",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "囧眷－目",
-      "keyword": "quarter",
-      "level": null,
-      "filename": "extra_quarter",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "980",
-          "character": "半",
-          "keyword": "half",
-          "level": "Elementary",
-          "filename": "980_half",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "1453",
-      "character": "马",
-      "keyword": "horse",
-      "level": "Elementary",
-      "filename": "1453_horse",
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧与－丨一",
-          "keyword": "pointed tail",
-          "level": null,
-          "filename": "extra_pointed_tail",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 3101,
+  "hierarchy": {
+    "number": "2904",
+    "character": "腾",
+    "keyword": "take flight",
+    "level": null,
+    "filename": "2904_take_flight",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "13",
+        "character": "月",
+        "keyword": "month",
+        "level": "Elementary",
+        "filename": "13_month",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "囧眷－目",
+        "keyword": "quarter",
+        "level": null,
+        "filename": "primitive_quarter",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "980",
+            "character": "半",
+            "keyword": "half",
+            "level": "Elementary",
+            "filename": "980_half",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "1453",
+        "character": "马",
+        "keyword": "horse",
+        "level": "Elementary",
+        "filename": "1453_horse",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧与－丨一",
+            "keyword": "pointed tail",
+            "level": null,
+            "filename": "primitive_pointed_tail",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

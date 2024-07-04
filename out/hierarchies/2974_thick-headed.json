@@ -1,56 +1,59 @@
 {
-  "number": "2974",
-  "character": "傻",
-  "keyword": "thick-headed",
-  "level": "Advanced",
-  "filename": "2974_thick-headed",
-  "id": "G",
-  "requirements": [
-    {
-      "number": "793",
-      "character": "人",
-      "keyword": "person",
-      "level": "Elementary",
-      "filename": "793_person",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "囟",
-      "keyword": "Farmer’s Almanac",
-      "level": null,
-      "filename": "extra_Farmer’s_Almanac",
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "㐅",
-          "keyword": "sheaf",
-          "level": null,
-          "filename": "extra_sheaf",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "囧只－口",
-      "keyword": "animal legs",
-      "level": null,
-      "filename": "extra_animal_legs",
-      "id": "E",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "夂",
-      "keyword": "walking legs",
-      "level": null,
-      "filename": "extra_walking_legs",
-      "id": "F",
-      "requirements": []
-    }
-  ]
+  "order": 3180,
+  "hierarchy": {
+    "number": "2974",
+    "character": "傻",
+    "keyword": "thick-headed",
+    "level": "Advanced",
+    "filename": "2974_thick-headed",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "793",
+        "character": "人",
+        "keyword": "person",
+        "level": "Elementary",
+        "filename": "793_person",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "囟",
+        "keyword": "Farmer’s Almanac",
+        "level": null,
+        "filename": "primitive_Farmer’s_Almanac",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "㐅",
+            "keyword": "sheaf",
+            "level": null,
+            "filename": "primitive_sheaf",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "囧只－口",
+        "keyword": "animal legs",
+        "level": null,
+        "filename": "primitive_animal_legs",
+        "id": "E",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "夂",
+        "keyword": "walking legs",
+        "level": null,
+        "filename": "primitive_walking_legs",
+        "id": "F",
+        "requirements": []
+      }
+    ]
+  }
 }

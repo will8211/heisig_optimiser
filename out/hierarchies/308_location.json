@@ -1,57 +1,60 @@
 {
-  "number": "308",
-  "character": "处",
-  "keyword": "location",
-  "level": "Medium",
-  "filename": "308_location",
-  "id": "G",
-  "requirements": [
-    {
-      "number": null,
-      "character": "夂",
-      "keyword": "walking legs",
-      "level": null,
-      "filename": "extra_walking_legs",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "43",
-      "character": "卜",
-      "keyword": "divination",
-      "level": null,
-      "filename": "43_divination",
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丨",
-          "keyword": "walking stick",
-          "level": null,
-          "filename": "extra_walking_stick",
-          "id": "D",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 328,
+  "hierarchy": {
+    "number": "308",
+    "character": "处",
+    "keyword": "location",
+    "level": "Medium",
+    "filename": "308_location",
+    "id": "G",
+    "requirements": [
+      {
+        "number": null,
+        "character": "夂",
+        "keyword": "walking legs",
+        "level": null,
+        "filename": "primitive_walking_legs",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "43",
+        "character": "卜",
+        "keyword": "divination",
+        "level": null,
+        "filename": "43_divination",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丨",
+            "keyword": "walking stick",
+            "level": null,
+            "filename": "primitive_walking_stick",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

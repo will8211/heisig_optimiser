@@ -1,86 +1,89 @@
 {
-  "number": "1979",
-  "character": "潜",
-  "keyword": "submerge",
-  "level": null,
-  "filename": "1979_submerge",
-  "id": "J",
-  "requirements": [
-    {
-      "number": "137",
-      "character": "水",
-      "keyword": "water",
-      "level": "Elementary",
-      "filename": "137_water",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丨",
-          "keyword": "walking stick",
-          "level": null,
-          "filename": "extra_walking_stick",
-          "id": "C",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "728",
-      "character": "替",
-      "keyword": "replace",
-      "level": null,
-      "filename": "728_replace",
-      "id": "I",
-      "requirements": [
-        {
-          "number": "726",
-          "character": "夫",
-          "keyword": "husband",
-          "level": "Medium",
-          "filename": "726_husband",
-          "id": "G",
-          "requirements": [
-            {
-              "number": "113",
-              "character": "大",
-              "keyword": "large",
-              "level": "Elementary",
-              "filename": "113_large",
-              "id": "F",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "12",
-          "character": "日",
-          "keyword": "day",
-          "level": "Elementary",
-          "filename": "12_day",
-          "id": "H",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2135,
+  "hierarchy": {
+    "number": "1979",
+    "character": "潜",
+    "keyword": "submerge",
+    "level": null,
+    "filename": "1979_submerge",
+    "id": "J",
+    "requirements": [
+      {
+        "number": "137",
+        "character": "水",
+        "keyword": "water",
+        "level": "Elementary",
+        "filename": "137_water",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丨",
+            "keyword": "walking stick",
+            "level": null,
+            "filename": "primitive_walking_stick",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "728",
+        "character": "替",
+        "keyword": "replace",
+        "level": null,
+        "filename": "728_replace",
+        "id": "I",
+        "requirements": [
+          {
+            "number": "726",
+            "character": "夫",
+            "keyword": "husband",
+            "level": "Medium",
+            "filename": "726_husband",
+            "id": "G",
+            "requirements": [
+              {
+                "number": "113",
+                "character": "大",
+                "keyword": "large",
+                "level": "Elementary",
+                "filename": "113_large",
+                "id": "F",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "12",
+            "character": "日",
+            "keyword": "day",
+            "level": "Elementary",
+            "filename": "12_day",
+            "id": "H",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

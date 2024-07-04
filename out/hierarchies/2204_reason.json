@@ -1,47 +1,50 @@
 {
-  "number": "2204",
-  "character": "缘",
-  "keyword": "reason",
-  "level": null,
-  "filename": "2204_reason",
-  "id": "F",
-  "requirements": [
-    {
-      "number": null,
-      "character": "纟",
-      "keyword": "thread",
-      "level": null,
-      "filename": "extra_thread",
-      "id": "C",
-      "requirements": [
-        {
-          "number": null,
-          "character": "厶",
-          "keyword": "elbow",
-          "level": null,
-          "filename": "extra_elbow",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "彑",
-      "keyword": "whisk broom",
-      "level": null,
-      "filename": "extra_whisk_broom",
-      "id": "D",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "豕",
-      "keyword": "sow",
-      "level": null,
-      "filename": "extra_sow",
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 2369,
+  "hierarchy": {
+    "number": "2204",
+    "character": "缘",
+    "keyword": "reason",
+    "level": null,
+    "filename": "2204_reason",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "纟",
+        "keyword": "thread",
+        "level": null,
+        "filename": "primitive_thread",
+        "id": "C",
+        "requirements": [
+          {
+            "number": null,
+            "character": "厶",
+            "keyword": "elbow",
+            "level": null,
+            "filename": "primitive_elbow",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "彑",
+        "keyword": "whisk broom",
+        "level": null,
+        "filename": "primitive_whisk_broom",
+        "id": "D",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "豕",
+        "keyword": "sow",
+        "level": null,
+        "filename": "primitive_sow",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

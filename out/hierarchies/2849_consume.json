@@ -1,67 +1,70 @@
 {
-  "number": "2849",
-  "character": "耗",
-  "keyword": "consume",
-  "level": null,
-  "filename": "2849_consume",
-  "id": "H",
-  "requirements": [
-    {
-      "number": null,
-      "character": "耒",
-      "keyword": "Christmas tree",
-      "level": null,
-      "filename": "extra_Christmas_tree",
-      "id": "E",
-      "requirements": [
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "filename": "1_one",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "215",
-          "character": "未",
-          "keyword": "not yet",
-          "level": "Medium",
-          "filename": "215_not_yet",
-          "id": "D",
-          "requirements": [
-            {
-              "number": "202",
-              "character": "木",
-              "keyword": "tree",
-              "level": "Elementary",
-              "filename": "202_tree",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": "1421",
-      "character": "毛",
-      "keyword": "fur",
-      "level": "Medium",
-      "filename": "1421_fur",
-      "id": "G",
-      "requirements": [
-        {
-          "number": "584",
-          "character": "手",
-          "keyword": "hand",
-          "level": "Elementary",
-          "filename": "584_hand",
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 3044,
+  "hierarchy": {
+    "number": "2849",
+    "character": "耗",
+    "keyword": "consume",
+    "level": null,
+    "filename": "2849_consume",
+    "id": "H",
+    "requirements": [
+      {
+        "number": null,
+        "character": "耒",
+        "keyword": "Christmas tree",
+        "level": null,
+        "filename": "primitive_Christmas_tree",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "215",
+            "character": "未",
+            "keyword": "not yet",
+            "level": "Medium",
+            "filename": "215_not_yet",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "202",
+                "character": "木",
+                "keyword": "tree",
+                "level": "Elementary",
+                "filename": "202_tree",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": "1421",
+        "character": "毛",
+        "keyword": "fur",
+        "level": "Medium",
+        "filename": "1421_fur",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "584",
+            "character": "手",
+            "keyword": "hand",
+            "level": "Elementary",
+            "filename": "584_hand",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

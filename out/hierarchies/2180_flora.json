@@ -1,47 +1,50 @@
 {
-  "number": "2180",
-  "character": "棵",
-  "keyword": "flora",
-  "level": "Advanced",
-  "filename": "2180_flora",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "202",
-      "character": "木",
-      "keyword": "tree",
-      "level": "Elementary",
-      "filename": "202_tree",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "921",
-      "character": "果",
-      "keyword": "fruit",
-      "level": "Elementary",
-      "filename": "921_fruit",
-      "id": "E",
-      "requirements": [
-        {
-          "number": "202",
-          "character": "木",
-          "keyword": "tree",
-          "level": "Elementary",
-          "filename": "202_tree",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "14",
-          "character": "田",
-          "keyword": "rice field",
-          "level": "Medium",
-          "filename": "14_rice_field",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2342,
+  "hierarchy": {
+    "number": "2180",
+    "character": "棵",
+    "keyword": "flora",
+    "level": "Advanced",
+    "filename": "2180_flora",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "202",
+        "character": "木",
+        "keyword": "tree",
+        "level": "Elementary",
+        "filename": "202_tree",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "921",
+        "character": "果",
+        "keyword": "fruit",
+        "level": "Elementary",
+        "filename": "921_fruit",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "202",
+            "character": "木",
+            "keyword": "tree",
+            "level": "Elementary",
+            "filename": "202_tree",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "14",
+            "character": "田",
+            "keyword": "rice field",
+            "level": "Medium",
+            "filename": "14_rice_field",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

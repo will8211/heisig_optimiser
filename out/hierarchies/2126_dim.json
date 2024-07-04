@@ -1,75 +1,78 @@
 {
-  "number": "2126",
-  "character": "朦",
-  "keyword": "dim",
-  "level": null,
-  "filename": "2126_dim",
-  "id": "I",
-  "requirements": [
-    {
-      "number": "13",
-      "character": "月",
-      "keyword": "month",
-      "level": "Elementary",
-      "filename": "13_month",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "2125",
-      "character": "蒙",
-      "keyword": "Mongolia",
-      "level": null,
-      "filename": "2125_Mongolia",
-      "id": "H",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧荣－木",
-          "keyword": "greenhouse",
-          "level": null,
-          "filename": "extra_greenhouse",
-          "id": "E",
-          "requirements": [
-            {
-              "number": null,
-              "character": "宀",
-              "keyword": "house",
-              "level": null,
-              "filename": "extra_house",
-              "id": "C",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "艹",
-              "keyword": "flower",
-              "level": null,
-              "filename": "extra_flower",
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "filename": "1_one",
-          "id": "F",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "豕",
-          "keyword": "sow",
-          "level": null,
-          "filename": "extra_sow",
-          "id": "G",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2287,
+  "hierarchy": {
+    "number": "2126",
+    "character": "朦",
+    "keyword": "dim",
+    "level": null,
+    "filename": "2126_dim",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "13",
+        "character": "月",
+        "keyword": "month",
+        "level": "Elementary",
+        "filename": "13_month",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "2125",
+        "character": "蒙",
+        "keyword": "Mongolia",
+        "level": null,
+        "filename": "2125_Mongolia",
+        "id": "H",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧荣－木",
+            "keyword": "greenhouse",
+            "level": null,
+            "filename": "primitive_greenhouse",
+            "id": "E",
+            "requirements": [
+              {
+                "number": null,
+                "character": "宀",
+                "keyword": "house",
+                "level": null,
+                "filename": "primitive_house",
+                "id": "C",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "艹",
+                "keyword": "flower",
+                "level": null,
+                "filename": "primitive_flower",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "F",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "豕",
+            "keyword": "sow",
+            "level": null,
+            "filename": "primitive_sow",
+            "id": "G",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

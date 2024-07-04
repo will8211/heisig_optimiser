@@ -1,38 +1,41 @@
 {
-  "number": "1323",
-  "character": "英",
-  "keyword": "England",
-  "level": "Advanced",
-  "filename": "1323_England",
-  "id": "E",
-  "requirements": [
-    {
-      "number": null,
-      "character": "艹",
-      "keyword": "flower",
-      "level": null,
-      "filename": "extra_flower",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1322",
-      "character": "央",
-      "keyword": "center",
-      "level": "Advanced",
-      "filename": "1322_center",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "113",
-          "character": "大",
-          "keyword": "large",
-          "level": "Elementary",
-          "filename": "113_large",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1440,
+  "hierarchy": {
+    "number": "1323",
+    "character": "英",
+    "keyword": "England",
+    "level": "Advanced",
+    "filename": "1323_England",
+    "id": "E",
+    "requirements": [
+      {
+        "number": null,
+        "character": "艹",
+        "keyword": "flower",
+        "level": null,
+        "filename": "primitive_flower",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1322",
+        "character": "央",
+        "keyword": "center",
+        "level": "Advanced",
+        "filename": "1322_center",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "113",
+            "character": "大",
+            "keyword": "large",
+            "level": "Elementary",
+            "filename": "113_large",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

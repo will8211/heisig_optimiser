@@ -1,57 +1,60 @@
 {
-  "number": "1968",
-  "character": "裂",
-  "keyword": "crack",
-  "level": null,
-  "filename": "1968_crack",
-  "id": "G",
-  "requirements": [
-    {
-      "number": "713",
-      "character": "列",
-      "keyword": "line up",
-      "level": null,
-      "filename": "713_line_up",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "712",
-          "character": "歹",
-          "keyword": "malicious",
-          "level": null,
-          "filename": "712_malicious",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "83",
-          "character": "刀",
-          "keyword": "sword",
-          "level": "Medium",
-          "filename": "83_sword",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "400",
-      "character": "衣",
-      "keyword": "clothing",
-      "level": "Elementary",
-      "filename": "400_clothing",
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "亠",
-          "keyword": "top hat",
-          "level": null,
-          "filename": "extra_top_hat",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2124,
+  "hierarchy": {
+    "number": "1968",
+    "character": "裂",
+    "keyword": "crack",
+    "level": null,
+    "filename": "1968_crack",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "713",
+        "character": "列",
+        "keyword": "line up",
+        "level": null,
+        "filename": "713_line_up",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "712",
+            "character": "歹",
+            "keyword": "malicious",
+            "level": null,
+            "filename": "712_malicious",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "83",
+            "character": "刀",
+            "keyword": "sword",
+            "level": "Medium",
+            "filename": "83_sword",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "400",
+        "character": "衣",
+        "keyword": "clothing",
+        "level": "Elementary",
+        "filename": "400_clothing",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "亠",
+            "keyword": "top hat",
+            "level": null,
+            "filename": "primitive_top_hat",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

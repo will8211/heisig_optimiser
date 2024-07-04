@@ -1,38 +1,41 @@
 {
-  "number": "2804",
-  "character": "邓",
-  "keyword": "Deng",
-  "level": null,
-  "filename": "2804_Deng",
-  "id": "E",
-  "requirements": [
-    {
-      "number": "633",
-      "character": "又",
-      "keyword": "again",
-      "level": "Elementary",
-      "filename": "633_again",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "囧阝",
-      "keyword": "city walls",
-      "level": null,
-      "filename": "extra_city_walls",
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "阝",
-          "keyword": "pinnacle",
-          "level": null,
-          "filename": "extra_pinnacle",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2998,
+  "hierarchy": {
+    "number": "2804",
+    "character": "邓",
+    "keyword": "Deng",
+    "level": null,
+    "filename": "2804_Deng",
+    "id": "E",
+    "requirements": [
+      {
+        "number": "633",
+        "character": "又",
+        "keyword": "again",
+        "level": "Elementary",
+        "filename": "633_again",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "囧阝",
+        "keyword": "city walls",
+        "level": null,
+        "filename": "primitive_city_walls",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "阝",
+            "keyword": "pinnacle",
+            "level": null,
+            "filename": "primitive_pinnacle",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

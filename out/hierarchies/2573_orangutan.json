@@ -1,85 +1,88 @@
 {
-  "number": "2573",
-  "character": "猩",
-  "keyword": "orangutan",
-  "level": null,
-  "filename": "2573_orangutan",
-  "id": "J",
-  "requirements": [
-    {
-      "number": "239",
-      "character": "犬",
-      "keyword": "pooch",
-      "level": null,
-      "filename": "239_pooch",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "113",
-          "character": "大",
-          "keyword": "large",
-          "level": "Elementary",
-          "filename": "113_large",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "1219",
-      "character": "星",
-      "keyword": "star",
-      "level": "Elementary",
-      "filename": "1219_star",
-      "id": "I",
-      "requirements": [
-        {
-          "number": "12",
-          "character": "日",
-          "keyword": "day",
-          "level": "Elementary",
-          "filename": "12_day",
-          "id": "E",
-          "requirements": []
-        },
-        {
-          "number": "1218",
-          "character": "生",
-          "keyword": "life",
-          "level": "Elementary",
-          "filename": "1218_life",
-          "id": "H",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "filename": "extra_a_drop_of",
-              "id": "F",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "囧毒－母",
-              "keyword": "grow up",
-              "level": null,
-              "filename": "extra_grow_up",
-              "id": "G",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2760,
+  "hierarchy": {
+    "number": "2573",
+    "character": "猩",
+    "keyword": "orangutan",
+    "level": null,
+    "filename": "2573_orangutan",
+    "id": "J",
+    "requirements": [
+      {
+        "number": "239",
+        "character": "犬",
+        "keyword": "pooch",
+        "level": null,
+        "filename": "239_pooch",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "113",
+            "character": "大",
+            "keyword": "large",
+            "level": "Elementary",
+            "filename": "113_large",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "1219",
+        "character": "星",
+        "keyword": "star",
+        "level": "Elementary",
+        "filename": "1219_star",
+        "id": "I",
+        "requirements": [
+          {
+            "number": "12",
+            "character": "日",
+            "keyword": "day",
+            "level": "Elementary",
+            "filename": "12_day",
+            "id": "E",
+            "requirements": []
+          },
+          {
+            "number": "1218",
+            "character": "生",
+            "keyword": "life",
+            "level": "Elementary",
+            "filename": "1218_life",
+            "id": "H",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "F",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "囧毒－母",
+                "keyword": "grow up",
+                "level": null,
+                "filename": "primitive_grow_up",
+                "id": "G",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

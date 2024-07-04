@@ -1,56 +1,59 @@
 {
-  "number": "2198",
-  "character": "煞",
-  "keyword": "goblin",
-  "level": null,
-  "filename": "2198_goblin",
-  "id": "G",
-  "requirements": [
-    {
-      "number": null,
-      "character": "刍",
-      "keyword": "hairnet",
-      "level": null,
-      "filename": "extra_hairnet",
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "勹",
-          "keyword": "bound up",
-          "level": null,
-          "filename": "extra_bound_up",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "彐",
-          "keyword": "broom",
-          "level": null,
-          "filename": "extra_broom",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "攵",
-      "keyword": "taskmaster",
-      "level": null,
-      "filename": "extra_taskmaster",
-      "id": "E",
-      "requirements": []
-    },
-    {
-      "number": "170",
-      "character": "火",
-      "keyword": "fire",
-      "level": "Elementary",
-      "filename": "170_fire",
-      "id": "F",
-      "requirements": []
-    }
-  ]
+  "order": 2361,
+  "hierarchy": {
+    "number": "2198",
+    "character": "煞",
+    "keyword": "goblin",
+    "level": null,
+    "filename": "2198_goblin",
+    "id": "G",
+    "requirements": [
+      {
+        "number": null,
+        "character": "刍",
+        "keyword": "hairnet",
+        "level": null,
+        "filename": "primitive_hairnet",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "勹",
+            "keyword": "bound up",
+            "level": null,
+            "filename": "primitive_bound_up",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "彐",
+            "keyword": "broom",
+            "level": null,
+            "filename": "primitive_broom",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "攵",
+        "keyword": "taskmaster",
+        "level": null,
+        "filename": "primitive_taskmaster",
+        "id": "E",
+        "requirements": []
+      },
+      {
+        "number": "170",
+        "character": "火",
+        "keyword": "fire",
+        "level": "Elementary",
+        "filename": "170_fire",
+        "id": "F",
+        "requirements": []
+      }
+    ]
+  }
 }

@@ -1,48 +1,51 @@
 {
-  "number": "1304",
-  "character": "形",
-  "keyword": "shape",
-  "level": "Advanced",
-  "filename": "1304_shape",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "613",
-      "character": "开",
-      "keyword": "open",
-      "level": "Elementary",
-      "filename": "613_open",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "2",
-          "character": "二",
-          "keyword": "two",
-          "level": "Elementary",
-          "filename": "2_two",
-          "id": "C",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "彡",
-      "keyword": "rooster tail",
-      "level": null,
-      "filename": "extra_rooster_tail",
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 1419,
+  "hierarchy": {
+    "number": "1304",
+    "character": "形",
+    "keyword": "shape",
+    "level": "Advanced",
+    "filename": "1304_shape",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "613",
+        "character": "开",
+        "keyword": "open",
+        "level": "Elementary",
+        "filename": "613_open",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "2",
+            "character": "二",
+            "keyword": "two",
+            "level": "Elementary",
+            "filename": "2_two",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "彡",
+        "keyword": "rooster tail",
+        "level": null,
+        "filename": "primitive_rooster_tail",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

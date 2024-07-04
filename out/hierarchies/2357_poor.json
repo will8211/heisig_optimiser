@@ -1,75 +1,78 @@
 {
-  "number": "2357",
-  "character": "穷",
-  "keyword": "poor",
-  "level": null,
-  "filename": "2357_poor",
-  "id": "I",
-  "requirements": [
-    {
-      "number": "1070",
-      "character": "穴",
-      "keyword": "hole",
-      "level": null,
-      "filename": "1070_hole",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "宀",
-          "keyword": "house",
-          "level": null,
-          "filename": "extra_house",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "8",
-          "character": "八",
-          "keyword": "eight",
-          "level": "Elementary",
-          "filename": "8_eight",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "囧只－口",
-          "keyword": "animal legs",
-          "level": null,
-          "filename": "extra_animal_legs",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "63",
-      "character": "肌",
-      "keyword": "muscle",
-      "level": null,
-      "filename": "63_muscle",
-      "id": "H",
-      "requirements": [
-        {
-          "number": "57",
-          "character": "几",
-          "keyword": "how many?",
-          "level": "Elementary",
-          "filename": "57_how_many",
-          "id": "F",
-          "requirements": []
-        },
-        {
-          "number": "13",
-          "character": "月",
-          "keyword": "month",
-          "level": "Elementary",
-          "filename": "13_month",
-          "id": "G",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2528,
+  "hierarchy": {
+    "number": "2357",
+    "character": "穷",
+    "keyword": "poor",
+    "level": null,
+    "filename": "2357_poor",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "1070",
+        "character": "穴",
+        "keyword": "hole",
+        "level": null,
+        "filename": "1070_hole",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "宀",
+            "keyword": "house",
+            "level": null,
+            "filename": "primitive_house",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "8",
+            "character": "八",
+            "keyword": "eight",
+            "level": "Elementary",
+            "filename": "8_eight",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "囧只－口",
+            "keyword": "animal legs",
+            "level": null,
+            "filename": "primitive_animal_legs",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "63",
+        "character": "肌",
+        "keyword": "muscle",
+        "level": null,
+        "filename": "63_muscle",
+        "id": "H",
+        "requirements": [
+          {
+            "number": "57",
+            "character": "几",
+            "keyword": "how many?",
+            "level": "Elementary",
+            "filename": "57_how_many",
+            "id": "F",
+            "requirements": []
+          },
+          {
+            "number": "13",
+            "character": "月",
+            "keyword": "month",
+            "level": "Elementary",
+            "filename": "13_month",
+            "id": "G",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,47 +1,50 @@
 {
-  "number": "483",
-  "character": "培",
-  "keyword": "cultivate",
-  "level": null,
-  "filename": "483_cultivate",
-  "id": "F",
-  "requirements": [
-    {
-      "number": null,
-      "character": "咅",
-      "keyword": "muzzle",
-      "level": null,
-      "filename": "extra_muzzle",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "444",
-          "character": "立",
-          "keyword": "standing up",
-          "level": "Advanced",
-          "filename": "444_standing_up",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "filename": "11_mouth",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "158",
-      "character": "土",
-      "keyword": "soil",
-      "level": "Medium",
-      "filename": "158_soil",
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 527,
+  "hierarchy": {
+    "number": "483",
+    "character": "培",
+    "keyword": "cultivate",
+    "level": null,
+    "filename": "483_cultivate",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "咅",
+        "keyword": "muzzle",
+        "level": null,
+        "filename": "primitive_muzzle",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "444",
+            "character": "立",
+            "keyword": "standing up",
+            "level": "Advanced",
+            "filename": "444_standing_up",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "158",
+        "character": "土",
+        "keyword": "soil",
+        "level": "Medium",
+        "filename": "158_soil",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

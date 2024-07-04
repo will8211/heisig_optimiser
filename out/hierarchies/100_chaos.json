@@ -1,66 +1,69 @@
 {
-  "number": "100",
-  "character": "乱",
-  "keyword": "chaos",
-  "level": "Advanced",
-  "filename": "100_chaos",
-  "id": "H",
-  "requirements": [
-    {
-      "number": "40",
-      "character": "舌",
-      "keyword": "tongue",
-      "level": "Medium",
-      "filename": "40_tongue",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "filename": "11_mouth",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "39",
-          "character": "千",
-          "keyword": "thousand",
-          "level": "Medium",
-          "filename": "39_thousand",
-          "id": "E",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "filename": "extra_a_drop_of",
-              "id": "C",
-              "requirements": []
-            },
-            {
-              "number": "10",
-              "character": "十",
-              "keyword": "ten",
-              "level": "Elementary",
-              "filename": "10_ten",
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": "95",
-      "character": "乙",
-      "keyword": "second",
-      "level": "Medium",
-      "filename": "95_second",
-      "id": "G",
-      "requirements": []
-    }
-  ]
+  "order": 108,
+  "hierarchy": {
+    "number": "100",
+    "character": "乱",
+    "keyword": "chaos",
+    "level": "Advanced",
+    "filename": "100_chaos",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "40",
+        "character": "舌",
+        "keyword": "tongue",
+        "level": "Medium",
+        "filename": "40_tongue",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "39",
+            "character": "千",
+            "keyword": "thousand",
+            "level": "Medium",
+            "filename": "39_thousand",
+            "id": "E",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "C",
+                "requirements": []
+              },
+              {
+                "number": "10",
+                "character": "十",
+                "keyword": "ten",
+                "level": "Elementary",
+                "filename": "10_ten",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": "95",
+        "character": "乙",
+        "keyword": "second",
+        "level": "Medium",
+        "filename": "95_second",
+        "id": "G",
+        "requirements": []
+      }
+    ]
+  }
 }

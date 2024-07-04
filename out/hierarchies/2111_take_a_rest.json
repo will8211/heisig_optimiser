@@ -1,65 +1,68 @@
 {
-  "number": "2111",
-  "character": "歇",
-  "keyword": "take a rest",
-  "level": null,
-  "filename": "2111_take_a_rest",
-  "id": "H",
-  "requirements": [
-    {
-      "number": null,
-      "character": "曷",
-      "keyword": "siesta",
-      "level": null,
-      "filename": "extra_siesta",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "793",
-          "character": "人",
-          "keyword": "person",
-          "level": "Elementary",
-          "filename": "793_person",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "勹",
-          "keyword": "bound up",
-          "level": null,
-          "filename": "extra_bound_up",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "95",
-          "character": "乙",
-          "keyword": "second",
-          "level": "Medium",
-          "filename": "95_second",
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": "12",
-          "character": "日",
-          "keyword": "day",
-          "level": "Elementary",
-          "filename": "12_day",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "474",
-      "character": "欠",
-      "keyword": "lack",
-      "level": "Medium",
-      "filename": "474_lack",
-      "id": "G",
-      "requirements": []
-    }
-  ]
+  "order": 2272,
+  "hierarchy": {
+    "number": "2111",
+    "character": "歇",
+    "keyword": "take a rest",
+    "level": null,
+    "filename": "2111_take_a_rest",
+    "id": "H",
+    "requirements": [
+      {
+        "number": null,
+        "character": "曷",
+        "keyword": "siesta",
+        "level": null,
+        "filename": "primitive_siesta",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "793",
+            "character": "人",
+            "keyword": "person",
+            "level": "Elementary",
+            "filename": "793_person",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "勹",
+            "keyword": "bound up",
+            "level": null,
+            "filename": "primitive_bound_up",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "95",
+            "character": "乙",
+            "keyword": "second",
+            "level": "Medium",
+            "filename": "95_second",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": "12",
+            "character": "日",
+            "keyword": "day",
+            "level": "Elementary",
+            "filename": "12_day",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "474",
+        "character": "欠",
+        "keyword": "lack",
+        "level": "Medium",
+        "filename": "474_lack",
+        "id": "G",
+        "requirements": []
+      }
+    ]
+  }
 }

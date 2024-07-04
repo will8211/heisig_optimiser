@@ -55,9 +55,10 @@ def json_to_diag():
             # Read the JSON input
             with open(input_path, "r", encoding="utf-8") as f:
                 data = json.load(f)
+            hierarchy = data["hierarchy"]
 
             # Generate connections and labels
-            connections, nodes = _parse_requirements(data)
+            connections, nodes = _parse_requirements(hierarchy)
 
             # Write the blockdiag output
             with open(output_path, "w", encoding="utf-8") as f:

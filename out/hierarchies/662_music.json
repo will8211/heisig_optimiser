@@ -1,28 +1,31 @@
 {
-  "number": "662",
-  "character": "乐",
-  "keyword": "music",
-  "level": "Medium",
-  "filename": "662_music",
-  "id": "D",
-  "requirements": [
-    {
-      "number": null,
-      "character": "𠂆",
-      "keyword": "drag",
-      "level": null,
-      "filename": "extra_drag",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "202",
-      "character": "木",
-      "keyword": "tree",
-      "level": "Elementary",
-      "filename": "202_tree",
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 715,
+  "hierarchy": {
+    "number": "662",
+    "character": "乐",
+    "keyword": "music",
+    "level": "Medium",
+    "filename": "662_music",
+    "id": "D",
+    "requirements": [
+      {
+        "number": null,
+        "character": "𠂆",
+        "keyword": "drag",
+        "level": null,
+        "filename": "primitive_drag",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "202",
+        "character": "木",
+        "keyword": "tree",
+        "level": "Elementary",
+        "filename": "202_tree",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

@@ -1,28 +1,31 @@
 {
-  "number": "1112",
-  "character": "卫",
-  "keyword": "defend",
-  "level": "Advanced",
-  "filename": "1112_defend",
-  "id": "D",
-  "requirements": [
-    {
-      "number": null,
-      "character": "囧节－艹",
-      "keyword": "chop",
-      "level": null,
-      "filename": "extra_chop",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1",
-      "character": "一",
-      "keyword": "one",
-      "level": "Elementary",
-      "filename": "1_one",
-      "id": "C",
-      "requirements": []
-    }
-  ]
+  "order": 1201,
+  "hierarchy": {
+    "number": "1112",
+    "character": "卫",
+    "keyword": "defend",
+    "level": "Advanced",
+    "filename": "1112_defend",
+    "id": "D",
+    "requirements": [
+      {
+        "number": null,
+        "character": "囧节－艹",
+        "keyword": "chop",
+        "level": null,
+        "filename": "primitive_chop",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1",
+        "character": "一",
+        "keyword": "one",
+        "level": "Elementary",
+        "filename": "1_one",
+        "id": "C",
+        "requirements": []
+      }
+    ]
+  }
 }

@@ -1,57 +1,60 @@
 {
-  "number": "2175",
-  "character": "坤",
-  "keyword": "female",
-  "level": null,
-  "filename": "2175_female",
-  "id": "G",
-  "requirements": [
-    {
-      "number": "158",
-      "character": "土",
-      "keyword": "soil",
-      "level": "Medium",
-      "filename": "158_soil",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "918",
-      "character": "申",
-      "keyword": "express",
-      "level": "Advanced",
-      "filename": "918_express",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "12",
-          "character": "日",
-          "keyword": "day",
-          "level": "Elementary",
-          "filename": "12_day",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "丨",
-          "keyword": "walking stick",
-          "level": null,
-          "filename": "extra_walking_stick",
-          "id": "E",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2337,
+  "hierarchy": {
+    "number": "2175",
+    "character": "坤",
+    "keyword": "female",
+    "level": null,
+    "filename": "2175_female",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "158",
+        "character": "土",
+        "keyword": "soil",
+        "level": "Medium",
+        "filename": "158_soil",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "918",
+        "character": "申",
+        "keyword": "express",
+        "level": "Advanced",
+        "filename": "918_express",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "12",
+            "character": "日",
+            "keyword": "day",
+            "level": "Elementary",
+            "filename": "12_day",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "丨",
+            "keyword": "walking stick",
+            "level": null,
+            "filename": "primitive_walking_stick",
+            "id": "E",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

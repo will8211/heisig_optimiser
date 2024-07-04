@@ -1,38 +1,41 @@
 {
-  "number": "605",
-  "character": "挂",
-  "keyword": "hang",
-  "level": "Medium",
-  "filename": "605_hang",
-  "id": "E",
-  "requirements": [
-    {
-      "number": null,
-      "character": "扌",
-      "keyword": "fingers",
-      "level": null,
-      "filename": "extra_fingers",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "圭",
-      "keyword": "bricks",
-      "level": null,
-      "filename": "extra_bricks",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "158",
-          "character": "土",
-          "keyword": "soil",
-          "level": "Medium",
-          "filename": "158_soil",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 655,
+  "hierarchy": {
+    "number": "605",
+    "character": "挂",
+    "keyword": "hang",
+    "level": "Medium",
+    "filename": "605_hang",
+    "id": "E",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "primitive_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "圭",
+        "keyword": "bricks",
+        "level": null,
+        "filename": "primitive_bricks",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "158",
+            "character": "土",
+            "keyword": "soil",
+            "level": "Medium",
+            "filename": "158_soil",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

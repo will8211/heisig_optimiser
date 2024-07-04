@@ -1,123 +1,126 @@
 {
-  "number": "964",
-  "character": "儒",
-  "keyword": "Confucian",
-  "level": null,
-  "filename": "964_Confucian",
-  "id": "N",
-  "requirements": [
-    {
-      "number": "793",
-      "character": "人",
-      "keyword": "person",
-      "level": "Elementary",
-      "filename": "793_person",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "963",
-      "character": "需",
-      "keyword": "need",
-      "level": "Medium",
-      "filename": "963_need",
-      "id": "M",
-      "requirements": [
-        {
-          "number": "425",
-          "character": "雨",
-          "keyword": "rain",
-          "level": "Elementary",
-          "filename": "425_rain",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "685",
-          "character": "梳",
-          "keyword": "comb",
-          "level": null,
-          "filename": "685_comb",
-          "id": "L",
-          "requirements": [
-            {
-              "number": "202",
-              "character": "木",
-              "keyword": "tree",
-              "level": "Elementary",
-              "filename": "202_tree",
-              "id": "D",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "㐬",
-              "keyword": "baby Moses",
-              "level": null,
-              "filename": "extra_baby_Moses",
-              "id": "K",
-              "requirements": [
-                {
-                  "number": null,
-                  "character": "囧充－儿",
-                  "keyword": "infant",
-                  "level": null,
-                  "filename": "extra_infant",
-                  "id": "I",
-                  "requirements": [
-                    {
-                      "number": null,
-                      "character": "囧会－亼",
-                      "keyword": "wall",
-                      "level": null,
-                      "filename": "extra_wall",
-                      "id": "G",
-                      "requirements": [
-                        {
-                          "number": null,
-                          "character": "厶",
-                          "keyword": "elbow",
-                          "level": null,
-                          "filename": "extra_elbow",
-                          "id": "E",
-                          "requirements": []
-                        },
-                        {
-                          "number": "1",
-                          "character": "一",
-                          "keyword": "one",
-                          "level": "Elementary",
-                          "filename": "1_one",
-                          "id": "F",
-                          "requirements": []
-                        }
-                      ]
-                    },
-                    {
-                      "number": null,
-                      "character": "丶",
-                      "keyword": "a drop of",
-                      "level": null,
-                      "filename": "extra_a_drop_of",
-                      "id": "H",
-                      "requirements": []
-                    }
-                  ]
-                },
-                {
-                  "number": "134",
-                  "character": "川",
-                  "keyword": "stream",
-                  "level": null,
-                  "filename": "134_stream",
-                  "id": "J",
-                  "requirements": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 1034,
+  "hierarchy": {
+    "number": "964",
+    "character": "儒",
+    "keyword": "Confucian",
+    "level": null,
+    "filename": "964_Confucian",
+    "id": "N",
+    "requirements": [
+      {
+        "number": "793",
+        "character": "人",
+        "keyword": "person",
+        "level": "Elementary",
+        "filename": "793_person",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "963",
+        "character": "需",
+        "keyword": "need",
+        "level": "Medium",
+        "filename": "963_need",
+        "id": "M",
+        "requirements": [
+          {
+            "number": "425",
+            "character": "雨",
+            "keyword": "rain",
+            "level": "Elementary",
+            "filename": "425_rain",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "685",
+            "character": "梳",
+            "keyword": "comb",
+            "level": null,
+            "filename": "685_comb",
+            "id": "L",
+            "requirements": [
+              {
+                "number": "202",
+                "character": "木",
+                "keyword": "tree",
+                "level": "Elementary",
+                "filename": "202_tree",
+                "id": "D",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "㐬",
+                "keyword": "baby Moses",
+                "level": null,
+                "filename": "primitive_baby_Moses",
+                "id": "K",
+                "requirements": [
+                  {
+                    "number": null,
+                    "character": "囧充－儿",
+                    "keyword": "infant",
+                    "level": null,
+                    "filename": "primitive_infant",
+                    "id": "I",
+                    "requirements": [
+                      {
+                        "number": null,
+                        "character": "囧会－亼",
+                        "keyword": "wall",
+                        "level": null,
+                        "filename": "primitive_wall",
+                        "id": "G",
+                        "requirements": [
+                          {
+                            "number": null,
+                            "character": "厶",
+                            "keyword": "elbow",
+                            "level": null,
+                            "filename": "primitive_elbow",
+                            "id": "E",
+                            "requirements": []
+                          },
+                          {
+                            "number": "1",
+                            "character": "一",
+                            "keyword": "one",
+                            "level": "Elementary",
+                            "filename": "1_one",
+                            "id": "F",
+                            "requirements": []
+                          }
+                        ]
+                      },
+                      {
+                        "number": null,
+                        "character": "丶",
+                        "keyword": "a drop of",
+                        "level": null,
+                        "filename": "primitive_a_drop_of",
+                        "id": "H",
+                        "requirements": []
+                      }
+                    ]
+                  },
+                  {
+                    "number": "134",
+                    "character": "川",
+                    "keyword": "stream",
+                    "level": null,
+                    "filename": "134_stream",
+                    "id": "J",
+                    "requirements": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,57 +1,60 @@
 {
-  "number": "2240",
-  "character": "措",
-  "keyword": "arrange",
-  "level": null,
-  "filename": "2240_arrange",
-  "id": "G",
-  "requirements": [
-    {
-      "number": null,
-      "character": "扌",
-      "keyword": "fingers",
-      "level": null,
-      "filename": "extra_fingers",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "971",
-      "character": "昔",
-      "keyword": "times past",
-      "level": null,
-      "filename": "971_times_past",
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧昔－日",
-          "keyword": "salad",
-          "level": null,
-          "filename": "extra_salad",
-          "id": "D",
-          "requirements": [
-            {
-              "number": null,
-              "character": "艹",
-              "keyword": "flower",
-              "level": null,
-              "filename": "extra_flower",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "12",
-          "character": "日",
-          "keyword": "day",
-          "level": "Elementary",
-          "filename": "12_day",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2406,
+  "hierarchy": {
+    "number": "2240",
+    "character": "措",
+    "keyword": "arrange",
+    "level": null,
+    "filename": "2240_arrange",
+    "id": "G",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "primitive_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "971",
+        "character": "昔",
+        "keyword": "times past",
+        "level": null,
+        "filename": "971_times_past",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧昔－日",
+            "keyword": "salad",
+            "level": null,
+            "filename": "primitive_salad",
+            "id": "D",
+            "requirements": [
+              {
+                "number": null,
+                "character": "艹",
+                "keyword": "flower",
+                "level": null,
+                "filename": "primitive_flower",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "12",
+            "character": "日",
+            "keyword": "day",
+            "level": "Elementary",
+            "filename": "12_day",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,86 +1,89 @@
 {
-  "number": "2380",
-  "character": "绽",
-  "keyword": "split at the seams",
-  "level": null,
-  "filename": "2380_split_at_the_seams",
-  "id": "J",
-  "requirements": [
-    {
-      "number": null,
-      "character": "纟",
-      "keyword": "thread",
-      "level": null,
-      "filename": "extra_thread",
-      "id": "C",
-      "requirements": [
-        {
-          "number": null,
-          "character": "厶",
-          "keyword": "elbow",
-          "level": null,
-          "filename": "extra_elbow",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "390",
-      "character": "定",
-      "keyword": "settle on",
-      "level": "Medium",
-      "filename": "390_settle_on",
-      "id": "I",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧走－十",
-          "keyword": "mending",
-          "level": null,
-          "filename": "extra_mending",
-          "id": "G",
-          "requirements": [
-            {
-              "number": "387",
-              "character": "正",
-              "keyword": "correct",
-              "level": "Elementary",
-              "filename": "387_correct",
-              "id": "F",
-              "requirements": [
-                {
-                  "number": "1",
-                  "character": "一",
-                  "keyword": "one",
-                  "level": "Elementary",
-                  "filename": "1_one",
-                  "id": "D",
-                  "requirements": []
-                },
-                {
-                  "number": "379",
-                  "character": "止",
-                  "keyword": "stop",
-                  "level": "Medium",
-                  "filename": "379_stop",
-                  "id": "E",
-                  "requirements": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "宀",
-          "keyword": "house",
-          "level": null,
-          "filename": "extra_house",
-          "id": "H",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2552,
+  "hierarchy": {
+    "number": "2380",
+    "character": "绽",
+    "keyword": "split at the seams",
+    "level": null,
+    "filename": "2380_split_at_the_seams",
+    "id": "J",
+    "requirements": [
+      {
+        "number": null,
+        "character": "纟",
+        "keyword": "thread",
+        "level": null,
+        "filename": "primitive_thread",
+        "id": "C",
+        "requirements": [
+          {
+            "number": null,
+            "character": "厶",
+            "keyword": "elbow",
+            "level": null,
+            "filename": "primitive_elbow",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "390",
+        "character": "定",
+        "keyword": "settle on",
+        "level": "Medium",
+        "filename": "390_settle_on",
+        "id": "I",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧走－十",
+            "keyword": "mending",
+            "level": null,
+            "filename": "primitive_mending",
+            "id": "G",
+            "requirements": [
+              {
+                "number": "387",
+                "character": "正",
+                "keyword": "correct",
+                "level": "Elementary",
+                "filename": "387_correct",
+                "id": "F",
+                "requirements": [
+                  {
+                    "number": "1",
+                    "character": "一",
+                    "keyword": "one",
+                    "level": "Elementary",
+                    "filename": "1_one",
+                    "id": "D",
+                    "requirements": []
+                  },
+                  {
+                    "number": "379",
+                    "character": "止",
+                    "keyword": "stop",
+                    "level": "Medium",
+                    "filename": "379_stop",
+                    "id": "E",
+                    "requirements": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "宀",
+            "keyword": "house",
+            "level": null,
+            "filename": "primitive_house",
+            "id": "H",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

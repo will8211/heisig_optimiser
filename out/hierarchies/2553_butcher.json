@@ -1,47 +1,50 @@
 {
-  "number": "2553",
-  "character": "宰",
-  "keyword": "butcher",
-  "level": null,
-  "filename": "2553_butcher",
-  "id": "F",
-  "requirements": [
-    {
-      "number": null,
-      "character": "宀",
-      "keyword": "house",
-      "level": null,
-      "filename": "extra_house",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1183",
-      "character": "辛",
-      "keyword": "peppery",
-      "level": "Advanced",
-      "filename": "1183_peppery",
-      "id": "E",
-      "requirements": [
-        {
-          "number": "444",
-          "character": "立",
-          "keyword": "standing up",
-          "level": "Advanced",
-          "filename": "444_standing_up",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "10",
-          "character": "十",
-          "keyword": "ten",
-          "level": "Elementary",
-          "filename": "10_ten",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2740,
+  "hierarchy": {
+    "number": "2553",
+    "character": "宰",
+    "keyword": "butcher",
+    "level": null,
+    "filename": "2553_butcher",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "宀",
+        "keyword": "house",
+        "level": null,
+        "filename": "primitive_house",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1183",
+        "character": "辛",
+        "keyword": "peppery",
+        "level": "Advanced",
+        "filename": "1183_peppery",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "444",
+            "character": "立",
+            "keyword": "standing up",
+            "level": "Advanced",
+            "filename": "444_standing_up",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "10",
+            "character": "十",
+            "keyword": "ten",
+            "level": "Elementary",
+            "filename": "10_ten",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

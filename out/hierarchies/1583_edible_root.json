@@ -1,57 +1,60 @@
 {
-  "number": "1583",
-  "character": "萝",
-  "keyword": "edible root",
-  "level": null,
-  "filename": "1583_edible_root",
-  "id": "G",
-  "requirements": [
-    {
-      "number": null,
-      "character": "艹",
-      "keyword": "flower",
-      "level": null,
-      "filename": "extra_flower",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "120",
-      "character": "罗",
-      "keyword": "silk gauze",
-      "level": null,
-      "filename": "120_silk_gauze",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "15",
-          "character": "目",
-          "keyword": "eye",
-          "level": "Medium",
-          "filename": "15_eye",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "115",
-          "character": "夕",
-          "keyword": "evening",
-          "level": "Advanced",
-          "filename": "115_evening",
-          "id": "E",
-          "requirements": [
-            {
-              "number": "13",
-              "character": "月",
-              "keyword": "month",
-              "level": "Elementary",
-              "filename": "13_month",
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 1723,
+  "hierarchy": {
+    "number": "1583",
+    "character": "萝",
+    "keyword": "edible root",
+    "level": null,
+    "filename": "1583_edible_root",
+    "id": "G",
+    "requirements": [
+      {
+        "number": null,
+        "character": "艹",
+        "keyword": "flower",
+        "level": null,
+        "filename": "primitive_flower",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "120",
+        "character": "罗",
+        "keyword": "silk gauze",
+        "level": null,
+        "filename": "120_silk_gauze",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "15",
+            "character": "目",
+            "keyword": "eye",
+            "level": "Medium",
+            "filename": "15_eye",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "115",
+            "character": "夕",
+            "keyword": "evening",
+            "level": "Advanced",
+            "filename": "115_evening",
+            "id": "E",
+            "requirements": [
+              {
+                "number": "13",
+                "character": "月",
+                "keyword": "month",
+                "level": "Elementary",
+                "filename": "13_month",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

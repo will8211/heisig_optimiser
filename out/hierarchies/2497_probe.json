@@ -1,66 +1,69 @@
 {
-  "number": "2497",
-  "character": "鉴",
-  "keyword": "probe",
-  "level": null,
-  "filename": "2497_probe",
-  "id": "H",
-  "requirements": [
-    {
-      "number": null,
-      "character": "囧鉴－金",
-      "keyword": "bullfighter",
-      "level": null,
-      "filename": "extra_bullfighter",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "279",
-      "character": "金",
-      "keyword": "gold",
-      "level": "Advanced",
-      "filename": "279_gold",
-      "id": "G",
-      "requirements": [
-        {
-          "number": null,
-          "character": "𠆢",
-          "keyword": "umbrella",
-          "level": null,
-          "filename": "extra_umbrella",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "265",
-          "character": "王",
-          "keyword": "king",
-          "level": "Medium",
-          "filename": "265_king",
-          "id": "E",
-          "requirements": [
-            {
-              "number": "76",
-              "character": "工",
-              "keyword": "work",
-              "level": "Elementary",
-              "filename": "76_work",
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2682,
+  "hierarchy": {
+    "number": "2497",
+    "character": "鉴",
+    "keyword": "probe",
+    "level": null,
+    "filename": "2497_probe",
+    "id": "H",
+    "requirements": [
+      {
+        "number": null,
+        "character": "囧鉴－金",
+        "keyword": "bullfighter",
+        "level": null,
+        "filename": "primitive_bullfighter",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "279",
+        "character": "金",
+        "keyword": "gold",
+        "level": "Advanced",
+        "filename": "279_gold",
+        "id": "G",
+        "requirements": [
+          {
+            "number": null,
+            "character": "𠆢",
+            "keyword": "umbrella",
+            "level": null,
+            "filename": "primitive_umbrella",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "265",
+            "character": "王",
+            "keyword": "king",
+            "level": "Medium",
+            "filename": "265_king",
+            "id": "E",
+            "requirements": [
+              {
+                "number": "76",
+                "character": "工",
+                "keyword": "work",
+                "level": "Elementary",
+                "filename": "76_work",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

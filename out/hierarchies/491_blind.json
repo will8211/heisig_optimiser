@@ -1,47 +1,50 @@
 {
-  "number": "491",
-  "character": "盲",
-  "keyword": "blind",
-  "level": null,
-  "filename": "491_blind",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "15",
-      "character": "目",
-      "keyword": "eye",
-      "level": "Medium",
-      "filename": "15_eye",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "490",
-      "character": "亡",
-      "keyword": "deceased",
-      "level": "Advanced",
-      "filename": "490_deceased",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "亠",
-          "keyword": "top hat",
-          "level": null,
-          "filename": "extra_top_hat",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "95",
-          "character": "乙",
-          "keyword": "second",
-          "level": "Medium",
-          "filename": "95_second",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 535,
+  "hierarchy": {
+    "number": "491",
+    "character": "盲",
+    "keyword": "blind",
+    "level": null,
+    "filename": "491_blind",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "15",
+        "character": "目",
+        "keyword": "eye",
+        "level": "Medium",
+        "filename": "15_eye",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "490",
+        "character": "亡",
+        "keyword": "deceased",
+        "level": "Advanced",
+        "filename": "490_deceased",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "亠",
+            "keyword": "top hat",
+            "level": null,
+            "filename": "primitive_top_hat",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "95",
+            "character": "乙",
+            "keyword": "second",
+            "level": "Medium",
+            "filename": "95_second",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,57 +1,60 @@
 {
-  "number": "2770",
-  "character": "粪",
-  "keyword": "dung",
-  "level": null,
-  "filename": "2770_dung",
-  "id": "G",
-  "requirements": [
-    {
-      "number": "778",
-      "character": "米",
-      "keyword": "rice",
-      "level": "Medium",
-      "filename": "778_rice",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1354",
-      "character": "共",
-      "keyword": "together",
-      "level": "Medium",
-      "filename": "1354_together",
-      "id": "F",
-      "requirements": [
-        {
-          "number": null,
-          "character": "囧昔－日",
-          "keyword": "salad",
-          "level": null,
-          "filename": "extra_salad",
-          "id": "D",
-          "requirements": [
-            {
-              "number": null,
-              "character": "艹",
-              "keyword": "flower",
-              "level": null,
-              "filename": "extra_flower",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "囧只－口",
-          "keyword": "animal legs",
-          "level": null,
-          "filename": "extra_animal_legs",
-          "id": "E",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2964,
+  "hierarchy": {
+    "number": "2770",
+    "character": "粪",
+    "keyword": "dung",
+    "level": null,
+    "filename": "2770_dung",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "778",
+        "character": "米",
+        "keyword": "rice",
+        "level": "Medium",
+        "filename": "778_rice",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1354",
+        "character": "共",
+        "keyword": "together",
+        "level": "Medium",
+        "filename": "1354_together",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧昔－日",
+            "keyword": "salad",
+            "level": null,
+            "filename": "primitive_salad",
+            "id": "D",
+            "requirements": [
+              {
+                "number": null,
+                "character": "艹",
+                "keyword": "flower",
+                "level": null,
+                "filename": "primitive_flower",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "囧只－口",
+            "keyword": "animal legs",
+            "level": null,
+            "filename": "primitive_animal_legs",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

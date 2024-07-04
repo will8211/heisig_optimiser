@@ -1,76 +1,79 @@
 {
-  "number": "2324",
-  "character": "踩",
-  "keyword": "step on",
-  "level": null,
-  "filename": "2324_step_on",
-  "id": "I",
-  "requirements": [
-    {
-      "number": "1048",
-      "character": "足",
-      "keyword": "lower leg",
-      "level": "Medium",
-      "filename": "1048_lower_leg",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "filename": "11_mouth",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "379",
-          "character": "止",
-          "keyword": "stop",
-          "level": "Medium",
-          "filename": "379_stop",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "665",
-      "character": "采",
-      "keyword": "pick",
-      "level": "Advanced",
-      "filename": "665_pick",
-      "id": "H",
-      "requirements": [
-        {
-          "number": "663",
-          "character": "爪",
-          "keyword": "claw",
-          "level": null,
-          "filename": "663_claw",
-          "id": "F",
-          "requirements": [
-            {
-              "number": null,
-              "character": "𠂆",
-              "keyword": "drag",
-              "level": null,
-              "filename": "extra_drag",
-              "id": "E",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "202",
-          "character": "木",
-          "keyword": "tree",
-          "level": "Elementary",
-          "filename": "202_tree",
-          "id": "G",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2492,
+  "hierarchy": {
+    "number": "2324",
+    "character": "踩",
+    "keyword": "step on",
+    "level": null,
+    "filename": "2324_step_on",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "1048",
+        "character": "足",
+        "keyword": "lower leg",
+        "level": "Medium",
+        "filename": "1048_lower_leg",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "379",
+            "character": "止",
+            "keyword": "stop",
+            "level": "Medium",
+            "filename": "379_stop",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "665",
+        "character": "采",
+        "keyword": "pick",
+        "level": "Advanced",
+        "filename": "665_pick",
+        "id": "H",
+        "requirements": [
+          {
+            "number": "663",
+            "character": "爪",
+            "keyword": "claw",
+            "level": null,
+            "filename": "663_claw",
+            "id": "F",
+            "requirements": [
+              {
+                "number": null,
+                "character": "𠂆",
+                "keyword": "drag",
+                "level": null,
+                "filename": "primitive_drag",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "202",
+            "character": "木",
+            "keyword": "tree",
+            "level": "Elementary",
+            "filename": "202_tree",
+            "id": "G",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,75 +1,78 @@
 {
-  "number": "1652",
-  "character": "罚",
-  "keyword": "penalize",
-  "level": null,
-  "filename": "1652_penalize",
-  "id": "I",
-  "requirements": [
-    {
-      "number": "15",
-      "character": "目",
-      "keyword": "eye",
-      "level": "Medium",
-      "filename": "15_eye",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "346",
-      "character": "言",
-      "keyword": "say",
-      "level": "Medium",
-      "filename": "346_say",
-      "id": "G",
-      "requirements": [
-        {
-          "number": "2",
-          "character": "二",
-          "keyword": "two",
-          "level": "Elementary",
-          "filename": "2_two",
-          "id": "D",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "C",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "filename": "11_mouth",
-          "id": "E",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "亠",
-          "keyword": "top hat",
-          "level": null,
-          "filename": "extra_top_hat",
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "83",
-      "character": "刀",
-      "keyword": "sword",
-      "level": "Medium",
-      "filename": "83_sword",
-      "id": "H",
-      "requirements": []
-    }
-  ]
+  "order": 1794,
+  "hierarchy": {
+    "number": "1652",
+    "character": "罚",
+    "keyword": "penalize",
+    "level": null,
+    "filename": "1652_penalize",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "15",
+        "character": "目",
+        "keyword": "eye",
+        "level": "Medium",
+        "filename": "15_eye",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "346",
+        "character": "言",
+        "keyword": "say",
+        "level": "Medium",
+        "filename": "346_say",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "2",
+            "character": "二",
+            "keyword": "two",
+            "level": "Elementary",
+            "filename": "2_two",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "E",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "亠",
+            "keyword": "top hat",
+            "level": null,
+            "filename": "primitive_top_hat",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "83",
+        "character": "刀",
+        "keyword": "sword",
+        "level": "Medium",
+        "filename": "83_sword",
+        "id": "H",
+        "requirements": []
+      }
+    ]
+  }
 }

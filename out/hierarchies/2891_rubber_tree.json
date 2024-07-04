@@ -1,84 +1,87 @@
 {
-  "number": "2891",
-  "character": "橡",
-  "keyword": "rubber tree",
-  "level": null,
-  "filename": "2891_rubber_tree",
-  "id": "J",
-  "requirements": [
-    {
-      "number": "202",
-      "character": "木",
-      "keyword": "tree",
-      "level": "Elementary",
-      "filename": "202_tree",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "1451",
-      "character": "象",
-      "keyword": "elephant",
-      "level": "Medium",
-      "filename": "1451_elephant",
-      "id": "I",
-      "requirements": [
-        {
-          "number": "1447",
-          "character": "兔",
-          "keyword": "rabbit",
-          "level": null,
-          "filename": "1447_rabbit",
-          "id": "G",
-          "requirements": [
-            {
-              "number": null,
-              "character": "勹",
-              "keyword": "bound up",
-              "level": null,
-              "filename": "extra_bound_up",
-              "id": "C",
-              "requirements": []
-            },
-            {
-              "number": "11",
-              "character": "口",
-              "keyword": "mouth",
-              "level": "Elementary",
-              "filename": "11_mouth",
-              "id": "D",
-              "requirements": []
-            },
-            {
-              "number": "56",
-              "character": "儿",
-              "keyword": "youngster",
-              "level": "Elementary",
-              "filename": "56_youngster",
-              "id": "E",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "filename": "extra_a_drop_of",
-              "id": "F",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "豕",
-          "keyword": "sow",
-          "level": null,
-          "filename": "extra_sow",
-          "id": "H",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 3088,
+  "hierarchy": {
+    "number": "2891",
+    "character": "橡",
+    "keyword": "rubber tree",
+    "level": null,
+    "filename": "2891_rubber_tree",
+    "id": "J",
+    "requirements": [
+      {
+        "number": "202",
+        "character": "木",
+        "keyword": "tree",
+        "level": "Elementary",
+        "filename": "202_tree",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1451",
+        "character": "象",
+        "keyword": "elephant",
+        "level": "Medium",
+        "filename": "1451_elephant",
+        "id": "I",
+        "requirements": [
+          {
+            "number": "1447",
+            "character": "兔",
+            "keyword": "rabbit",
+            "level": null,
+            "filename": "1447_rabbit",
+            "id": "G",
+            "requirements": [
+              {
+                "number": null,
+                "character": "勹",
+                "keyword": "bound up",
+                "level": null,
+                "filename": "primitive_bound_up",
+                "id": "C",
+                "requirements": []
+              },
+              {
+                "number": "11",
+                "character": "口",
+                "keyword": "mouth",
+                "level": "Elementary",
+                "filename": "11_mouth",
+                "id": "D",
+                "requirements": []
+              },
+              {
+                "number": "56",
+                "character": "儿",
+                "keyword": "youngster",
+                "level": "Elementary",
+                "filename": "56_youngster",
+                "id": "E",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "F",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "豕",
+            "keyword": "sow",
+            "level": null,
+            "filename": "primitive_sow",
+            "id": "H",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

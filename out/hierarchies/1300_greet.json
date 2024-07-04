@@ -1,47 +1,50 @@
 {
-  "number": "1300",
-  "character": "迎",
-  "keyword": "greet",
-  "level": "Advanced",
-  "filename": "1300_greet",
-  "id": "F",
-  "requirements": [
-    {
-      "number": null,
-      "character": "卬",
-      "keyword": "stamp collection",
-      "level": null,
-      "filename": "extra_stamp_collection",
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "匚",
-          "keyword": "box",
-          "level": null,
-          "filename": "extra_box",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "卩",
-          "keyword": "stamp",
-          "level": null,
-          "filename": "extra_stamp",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "辶",
-      "keyword": "road",
-      "level": null,
-      "filename": "extra_road",
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 1413,
+  "hierarchy": {
+    "number": "1300",
+    "character": "迎",
+    "keyword": "greet",
+    "level": "Advanced",
+    "filename": "1300_greet",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "卬",
+        "keyword": "stamp collection",
+        "level": null,
+        "filename": "primitive_stamp_collection",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "匚",
+            "keyword": "box",
+            "level": null,
+            "filename": "primitive_box",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "卩",
+            "keyword": "stamp",
+            "level": null,
+            "filename": "primitive_stamp",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "辶",
+        "keyword": "road",
+        "level": null,
+        "filename": "primitive_road",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

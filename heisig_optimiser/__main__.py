@@ -46,6 +46,7 @@ def load_heisig_data() -> List[Dict[str, any]]:
     tree = ET.parse("data/heisig/rsh_modified.xml")
     root = tree.getroot()
     chars: List[Dict[str, any]] = []
+    order = 0
     for book in root.iter("book"):
         chapter_tags = ["lesson", "compounds", "postscript"]
         chapters = [elem for tag in chapter_tags for elem in book.iter(tag)]
@@ -63,6 +64,8 @@ def load_heisig_data() -> List[Dict[str, any]]:
                     "{http://www.w3.org/2001/XMLSchema-instance}type"
                 )
                 char["Keywords"] = [frame.attrib.get("keyword")]
+                char["Order"] = order
+                order += 1
 
                 alternate_keywords = frame.findall(".//pself")
                 for e in alternate_keywords:

@@ -1,85 +1,88 @@
 {
-  "number": "1007",
-  "character": "预",
-  "keyword": "beforehand",
-  "level": "Advanced",
-  "filename": "1007_beforehand",
-  "id": "J",
-  "requirements": [
-    {
-      "number": "1005",
-      "character": "予",
-      "keyword": "bestow",
-      "level": null,
-      "filename": "1005_bestow",
-      "id": "C",
-      "requirements": [
-        {
-          "number": "1002",
-          "character": "矛",
-          "keyword": "spear",
-          "level": null,
-          "filename": "1002_spear",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "60",
-      "character": "页",
-      "keyword": "page",
-      "level": "Medium",
-      "filename": "60_page",
-      "id": "I",
-      "requirements": [
-        {
-          "number": "52",
-          "character": "贝",
-          "keyword": "shellfish",
-          "level": "Medium",
-          "filename": "52_shellfish",
-          "id": "F",
-          "requirements": [
-            {
-              "number": "15",
-              "character": "目",
-              "keyword": "eye",
-              "level": "Medium",
-              "filename": "15_eye",
-              "id": "D",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "囧只－口",
-              "keyword": "animal legs",
-              "level": null,
-              "filename": "extra_animal_legs",
-              "id": "E",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "filename": "1_one",
-          "id": "G",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "H",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1081,
+  "hierarchy": {
+    "number": "1007",
+    "character": "预",
+    "keyword": "beforehand",
+    "level": "Advanced",
+    "filename": "1007_beforehand",
+    "id": "J",
+    "requirements": [
+      {
+        "number": "1005",
+        "character": "予",
+        "keyword": "bestow",
+        "level": null,
+        "filename": "1005_bestow",
+        "id": "C",
+        "requirements": [
+          {
+            "number": "1002",
+            "character": "矛",
+            "keyword": "spear",
+            "level": null,
+            "filename": "1002_spear",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "60",
+        "character": "页",
+        "keyword": "page",
+        "level": "Medium",
+        "filename": "60_page",
+        "id": "I",
+        "requirements": [
+          {
+            "number": "52",
+            "character": "贝",
+            "keyword": "shellfish",
+            "level": "Medium",
+            "filename": "52_shellfish",
+            "id": "F",
+            "requirements": [
+              {
+                "number": "15",
+                "character": "目",
+                "keyword": "eye",
+                "level": "Medium",
+                "filename": "15_eye",
+                "id": "D",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "囧只－口",
+                "keyword": "animal legs",
+                "level": null,
+                "filename": "primitive_animal_legs",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "G",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "H",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

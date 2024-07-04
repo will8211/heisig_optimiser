@@ -1,67 +1,70 @@
 {
-  "number": "2423",
-  "character": "索",
-  "keyword": "large rope",
-  "level": null,
-  "filename": "2423_large_rope",
-  "id": "H",
-  "requirements": [
-    {
-      "number": null,
-      "character": "囧索－糸",
-      "keyword": "chapel",
-      "level": null,
-      "filename": "extra_chapel",
-      "id": "C",
-      "requirements": [
-        {
-          "number": null,
-          "character": "宀",
-          "keyword": "house",
-          "level": null,
-          "filename": "extra_house",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "糸",
-      "keyword": "floss",
-      "level": null,
-      "filename": "extra_floss",
-      "id": "G",
-      "requirements": [
-        {
-          "number": null,
-          "character": "幺",
-          "keyword": "cocoon",
-          "level": null,
-          "filename": "extra_cocoon",
-          "id": "D",
-          "requirements": []
-        },
-        {
-          "number": "109",
-          "character": "小",
-          "keyword": "small",
-          "level": "Elementary",
-          "filename": "109_small",
-          "id": "F",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "filename": "extra_a_drop_of",
-              "id": "E",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 2600,
+  "hierarchy": {
+    "number": "2423",
+    "character": "索",
+    "keyword": "large rope",
+    "level": null,
+    "filename": "2423_large_rope",
+    "id": "H",
+    "requirements": [
+      {
+        "number": null,
+        "character": "囧索－糸",
+        "keyword": "chapel",
+        "level": null,
+        "filename": "primitive_chapel",
+        "id": "C",
+        "requirements": [
+          {
+            "number": null,
+            "character": "宀",
+            "keyword": "house",
+            "level": null,
+            "filename": "primitive_house",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "糸",
+        "keyword": "floss",
+        "level": null,
+        "filename": "primitive_floss",
+        "id": "G",
+        "requirements": [
+          {
+            "number": null,
+            "character": "幺",
+            "keyword": "cocoon",
+            "level": null,
+            "filename": "primitive_cocoon",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": "109",
+            "character": "小",
+            "keyword": "small",
+            "level": "Elementary",
+            "filename": "109_small",
+            "id": "F",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

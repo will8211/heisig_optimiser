@@ -1,47 +1,50 @@
 {
-  "number": "214",
-  "character": "案",
-  "keyword": "case",
-  "level": null,
-  "filename": "214_case",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "197",
-      "character": "安",
-      "keyword": "peaceful",
-      "level": "Medium",
-      "filename": "197_peaceful",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "102",
-          "character": "女",
-          "keyword": "woman",
-          "level": "Elementary",
-          "filename": "102_woman",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "宀",
-          "keyword": "house",
-          "level": null,
-          "filename": "extra_house",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "202",
-      "character": "木",
-      "keyword": "tree",
-      "level": "Elementary",
-      "filename": "202_tree",
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 225,
+  "hierarchy": {
+    "number": "214",
+    "character": "案",
+    "keyword": "case",
+    "level": null,
+    "filename": "214_case",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "197",
+        "character": "安",
+        "keyword": "peaceful",
+        "level": "Medium",
+        "filename": "197_peaceful",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "102",
+            "character": "女",
+            "keyword": "woman",
+            "level": "Elementary",
+            "filename": "102_woman",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "宀",
+            "keyword": "house",
+            "level": null,
+            "filename": "primitive_house",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "202",
+        "character": "木",
+        "keyword": "tree",
+        "level": "Elementary",
+        "filename": "202_tree",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

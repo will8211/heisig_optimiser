@@ -1,38 +1,41 @@
 {
-  "number": "455",
-  "character": "背",
-  "keyword": "back",
-  "level": "Medium",
-  "filename": "455_back",
-  "id": "E",
-  "requirements": [
-    {
-      "number": "13",
-      "character": "月",
-      "keyword": "month",
-      "level": "Elementary",
-      "filename": "13_month",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "454",
-      "character": "北",
-      "keyword": "north",
-      "level": "Elementary",
-      "filename": "454_north",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "453",
-          "character": "匕",
-          "keyword": "ancient spoon",
-          "level": null,
-          "filename": "453_ancient_spoon",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 496,
+  "hierarchy": {
+    "number": "455",
+    "character": "背",
+    "keyword": "back",
+    "level": "Medium",
+    "filename": "455_back",
+    "id": "E",
+    "requirements": [
+      {
+        "number": "13",
+        "character": "月",
+        "keyword": "month",
+        "level": "Elementary",
+        "filename": "13_month",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "454",
+        "character": "北",
+        "keyword": "north",
+        "level": "Elementary",
+        "filename": "454_north",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "453",
+            "character": "匕",
+            "keyword": "ancient spoon",
+            "level": null,
+            "filename": "453_ancient_spoon",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

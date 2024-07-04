@@ -1,181 +1,184 @@
 {
-  "number": "2436",
-  "character": "凝",
-  "keyword": "congeal",
-  "level": null,
-  "filename": "2436_congeal",
-  "id": "T",
-  "requirements": [
-    {
-      "number": null,
-      "character": "冫",
-      "keyword": "ice",
-      "level": null,
-      "filename": "extra_ice",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "137",
-          "character": "水",
-          "keyword": "water",
-          "level": "Elementary",
-          "filename": "137_water",
-          "id": "E",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丨",
-              "keyword": "walking stick",
-              "level": null,
-              "filename": "extra_walking_stick",
-              "id": "C",
-              "requirements": [
-                {
-                  "number": "1",
-                  "character": "一",
-                  "keyword": "one",
-                  "level": "Elementary",
-                  "filename": "1_one",
-                  "id": "B",
-                  "requirements": []
-                }
-              ]
-            },
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "filename": "extra_a_drop_of",
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": "2435",
-      "character": "疑",
-      "keyword": "doubt",
-      "level": null,
-      "filename": "2435_doubt",
-      "id": "S",
-      "requirements": [
-        {
-          "number": "453",
-          "character": "匕",
-          "keyword": "ancient spoon",
-          "level": null,
-          "filename": "453_ancient_spoon",
-          "id": "G",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "疋",
-          "keyword": "zoo",
-          "level": null,
-          "filename": "extra_zoo",
-          "id": "L",
-          "requirements": [
-            {
-              "number": null,
-              "character": "囧走－十",
-              "keyword": "mending",
-              "level": null,
-              "filename": "extra_mending",
-              "id": "K",
-              "requirements": [
-                {
-                  "number": "387",
-                  "character": "正",
-                  "keyword": "correct",
-                  "level": "Elementary",
-                  "filename": "387_correct",
-                  "id": "J",
-                  "requirements": [
-                    {
-                      "number": "1",
-                      "character": "一",
-                      "keyword": "one",
-                      "level": "Elementary",
-                      "filename": "1_one",
-                      "id": "H",
-                      "requirements": []
-                    },
-                    {
-                      "number": "379",
-                      "character": "止",
-                      "keyword": "stop",
-                      "level": "Medium",
-                      "filename": "379_stop",
-                      "id": "I",
-                      "requirements": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "number": "998",
-          "character": "矢",
-          "keyword": "dart",
-          "level": null,
-          "filename": "998_dart",
-          "id": "Q",
-          "requirements": [
-            {
-              "number": "436",
-              "character": "天",
-              "keyword": "heavens",
-              "level": "Elementary",
-              "filename": "436_heavens",
-              "id": "O",
-              "requirements": [
-                {
-                  "number": "1",
-                  "character": "一",
-                  "keyword": "one",
-                  "level": "Elementary",
-                  "filename": "1_one",
-                  "id": "M",
-                  "requirements": []
-                },
-                {
-                  "number": "113",
-                  "character": "大",
-                  "keyword": "large",
-                  "level": "Elementary",
-                  "filename": "113_large",
-                  "id": "N",
-                  "requirements": []
-                }
-              ]
-            },
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "filename": "extra_a_drop_of",
-              "id": "P",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "囧节－艹",
-          "keyword": "chop",
-          "level": null,
-          "filename": "extra_chop",
-          "id": "R",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2615,
+  "hierarchy": {
+    "number": "2436",
+    "character": "凝",
+    "keyword": "congeal",
+    "level": null,
+    "filename": "2436_congeal",
+    "id": "T",
+    "requirements": [
+      {
+        "number": null,
+        "character": "冫",
+        "keyword": "ice",
+        "level": null,
+        "filename": "primitive_ice",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "137",
+            "character": "水",
+            "keyword": "water",
+            "level": "Elementary",
+            "filename": "137_water",
+            "id": "E",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丨",
+                "keyword": "walking stick",
+                "level": null,
+                "filename": "primitive_walking_stick",
+                "id": "C",
+                "requirements": [
+                  {
+                    "number": "1",
+                    "character": "一",
+                    "keyword": "one",
+                    "level": "Elementary",
+                    "filename": "1_one",
+                    "id": "B",
+                    "requirements": []
+                  }
+                ]
+              },
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": "2435",
+        "character": "疑",
+        "keyword": "doubt",
+        "level": null,
+        "filename": "2435_doubt",
+        "id": "S",
+        "requirements": [
+          {
+            "number": "453",
+            "character": "匕",
+            "keyword": "ancient spoon",
+            "level": null,
+            "filename": "453_ancient_spoon",
+            "id": "G",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "疋",
+            "keyword": "zoo",
+            "level": null,
+            "filename": "primitive_zoo",
+            "id": "L",
+            "requirements": [
+              {
+                "number": null,
+                "character": "囧走－十",
+                "keyword": "mending",
+                "level": null,
+                "filename": "primitive_mending",
+                "id": "K",
+                "requirements": [
+                  {
+                    "number": "387",
+                    "character": "正",
+                    "keyword": "correct",
+                    "level": "Elementary",
+                    "filename": "387_correct",
+                    "id": "J",
+                    "requirements": [
+                      {
+                        "number": "1",
+                        "character": "一",
+                        "keyword": "one",
+                        "level": "Elementary",
+                        "filename": "1_one",
+                        "id": "H",
+                        "requirements": []
+                      },
+                      {
+                        "number": "379",
+                        "character": "止",
+                        "keyword": "stop",
+                        "level": "Medium",
+                        "filename": "379_stop",
+                        "id": "I",
+                        "requirements": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "number": "998",
+            "character": "矢",
+            "keyword": "dart",
+            "level": null,
+            "filename": "998_dart",
+            "id": "Q",
+            "requirements": [
+              {
+                "number": "436",
+                "character": "天",
+                "keyword": "heavens",
+                "level": "Elementary",
+                "filename": "436_heavens",
+                "id": "O",
+                "requirements": [
+                  {
+                    "number": "1",
+                    "character": "一",
+                    "keyword": "one",
+                    "level": "Elementary",
+                    "filename": "1_one",
+                    "id": "M",
+                    "requirements": []
+                  },
+                  {
+                    "number": "113",
+                    "character": "大",
+                    "keyword": "large",
+                    "level": "Elementary",
+                    "filename": "113_large",
+                    "id": "N",
+                    "requirements": []
+                  }
+                ]
+              },
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "P",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "囧节－艹",
+            "keyword": "chop",
+            "level": null,
+            "filename": "primitive_chop",
+            "id": "R",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

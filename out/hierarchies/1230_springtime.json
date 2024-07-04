@@ -1,38 +1,41 @@
 {
-  "number": "1230",
-  "character": "春",
-  "keyword": "springtime",
-  "level": "Medium",
-  "filename": "1230_springtime",
-  "id": "E",
-  "requirements": [
-    {
-      "number": null,
-      "character": "𡗗",
-      "keyword": "bonsai",
-      "level": null,
-      "filename": "extra_bonsai",
-      "id": "C",
-      "requirements": [
-        {
-          "number": "1223",
-          "character": "丰",
-          "keyword": "plentiful",
-          "level": "Advanced",
-          "filename": "1223_plentiful",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "12",
-      "character": "日",
-      "keyword": "day",
-      "level": "Elementary",
-      "filename": "12_day",
-      "id": "D",
-      "requirements": []
-    }
-  ]
+  "order": 1335,
+  "hierarchy": {
+    "number": "1230",
+    "character": "春",
+    "keyword": "springtime",
+    "level": "Medium",
+    "filename": "1230_springtime",
+    "id": "E",
+    "requirements": [
+      {
+        "number": null,
+        "character": "𡗗",
+        "keyword": "bonsai",
+        "level": null,
+        "filename": "primitive_bonsai",
+        "id": "C",
+        "requirements": [
+          {
+            "number": "1223",
+            "character": "丰",
+            "keyword": "plentiful",
+            "level": "Advanced",
+            "filename": "1223_plentiful",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "12",
+        "character": "日",
+        "keyword": "day",
+        "level": "Elementary",
+        "filename": "12_day",
+        "id": "D",
+        "requirements": []
+      }
+    ]
+  }
 }

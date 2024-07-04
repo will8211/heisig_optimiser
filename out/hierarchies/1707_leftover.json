@@ -1,95 +1,98 @@
 {
-  "number": "1707",
-  "character": "剩",
-  "keyword": "leftover",
-  "level": null,
-  "filename": "1707_leftover",
-  "id": "K",
-  "requirements": [
-    {
-      "number": "1706",
-      "character": "乘",
-      "keyword": "hitch a ride",
-      "level": null,
-      "filename": "1706_hitch_a_ride",
-      "id": "I",
-      "requirements": [
-        {
-          "number": "1705",
-          "character": "乖",
-          "keyword": "well-behaved",
-          "level": null,
-          "filename": "1705_well-behaved",
-          "id": "G",
-          "requirements": [
-            {
-              "number": "39",
-              "character": "千",
-              "keyword": "thousand",
-              "level": "Medium",
-              "filename": "39_thousand",
-              "id": "D",
-              "requirements": [
-                {
-                  "number": null,
-                  "character": "丶",
-                  "keyword": "a drop of",
-                  "level": null,
-                  "filename": "extra_a_drop_of",
-                  "id": "B",
-                  "requirements": []
-                },
-                {
-                  "number": "10",
-                  "character": "十",
-                  "keyword": "ten",
-                  "level": "Elementary",
-                  "filename": "10_ten",
-                  "id": "C",
-                  "requirements": []
-                }
-              ]
-            },
-            {
-              "number": "454",
-              "character": "北",
-              "keyword": "north",
-              "level": "Elementary",
-              "filename": "454_north",
-              "id": "F",
-              "requirements": [
-                {
-                  "number": "453",
-                  "character": "匕",
-                  "keyword": "ancient spoon",
-                  "level": null,
-                  "filename": "453_ancient_spoon",
-                  "id": "E",
-                  "requirements": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "number": null,
-          "character": "𠆢",
-          "keyword": "umbrella",
-          "level": null,
-          "filename": "extra_umbrella",
-          "id": "H",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "83",
-      "character": "刀",
-      "keyword": "sword",
-      "level": "Medium",
-      "filename": "83_sword",
-      "id": "J",
-      "requirements": []
-    }
-  ]
+  "order": 1852,
+  "hierarchy": {
+    "number": "1707",
+    "character": "剩",
+    "keyword": "leftover",
+    "level": null,
+    "filename": "1707_leftover",
+    "id": "K",
+    "requirements": [
+      {
+        "number": "1706",
+        "character": "乘",
+        "keyword": "hitch a ride",
+        "level": null,
+        "filename": "1706_hitch_a_ride",
+        "id": "I",
+        "requirements": [
+          {
+            "number": "1705",
+            "character": "乖",
+            "keyword": "well-behaved",
+            "level": null,
+            "filename": "1705_well-behaved",
+            "id": "G",
+            "requirements": [
+              {
+                "number": "39",
+                "character": "千",
+                "keyword": "thousand",
+                "level": "Medium",
+                "filename": "39_thousand",
+                "id": "D",
+                "requirements": [
+                  {
+                    "number": null,
+                    "character": "丶",
+                    "keyword": "a drop of",
+                    "level": null,
+                    "filename": "primitive_a_drop_of",
+                    "id": "B",
+                    "requirements": []
+                  },
+                  {
+                    "number": "10",
+                    "character": "十",
+                    "keyword": "ten",
+                    "level": "Elementary",
+                    "filename": "10_ten",
+                    "id": "C",
+                    "requirements": []
+                  }
+                ]
+              },
+              {
+                "number": "454",
+                "character": "北",
+                "keyword": "north",
+                "level": "Elementary",
+                "filename": "454_north",
+                "id": "F",
+                "requirements": [
+                  {
+                    "number": "453",
+                    "character": "匕",
+                    "keyword": "ancient spoon",
+                    "level": null,
+                    "filename": "453_ancient_spoon",
+                    "id": "E",
+                    "requirements": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "𠆢",
+            "keyword": "umbrella",
+            "level": null,
+            "filename": "primitive_umbrella",
+            "id": "H",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "83",
+        "character": "刀",
+        "keyword": "sword",
+        "level": "Medium",
+        "filename": "83_sword",
+        "id": "J",
+        "requirements": []
+      }
+    ]
+  }
 }

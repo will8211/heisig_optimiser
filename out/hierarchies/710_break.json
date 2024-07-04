@@ -1,95 +1,98 @@
 {
-  "number": "710",
-  "character": "破",
-  "keyword": "break",
-  "level": "Advanced",
-  "filename": "710_break",
-  "id": "K",
-  "requirements": [
-    {
-      "number": "1927",
-      "character": "岩",
-      "keyword": "rock",
-      "level": null,
-      "filename": "1927_rock",
-      "id": "F",
-      "requirements": [
-        {
-          "number": "688",
-          "character": "山",
-          "keyword": "mountain",
-          "level": "Elementary",
-          "filename": "688_mountain",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": "125",
-          "character": "石",
-          "keyword": "stone",
-          "level": "Advanced",
-          "filename": "125_stone",
-          "id": "E",
-          "requirements": [
-            {
-              "number": "11",
-              "character": "口",
-              "keyword": "mouth",
-              "level": "Elementary",
-              "filename": "11_mouth",
-              "id": "C",
-              "requirements": []
-            },
-            {
-              "number": "121",
-              "character": "厂",
-              "keyword": "factory",
-              "level": "Medium",
-              "filename": "121_factory",
-              "id": "D",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": "707",
-      "character": "皮",
-      "keyword": "covering",
-      "level": "Advanced",
-      "filename": "707_covering",
-      "id": "J",
-      "requirements": [
-        {
-          "number": "650",
-          "character": "支",
-          "keyword": "offshoot",
-          "level": "Medium",
-          "filename": "650_offshoot",
-          "id": "I",
-          "requirements": [
-            {
-              "number": "10",
-              "character": "十",
-              "keyword": "ten",
-              "level": "Elementary",
-              "filename": "10_ten",
-              "id": "G",
-              "requirements": []
-            },
-            {
-              "number": "633",
-              "character": "又",
-              "keyword": "again",
-              "level": "Elementary",
-              "filename": "633_again",
-              "id": "H",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 770,
+  "hierarchy": {
+    "number": "710",
+    "character": "破",
+    "keyword": "break",
+    "level": "Advanced",
+    "filename": "710_break",
+    "id": "K",
+    "requirements": [
+      {
+        "number": "1927",
+        "character": "岩",
+        "keyword": "rock",
+        "level": null,
+        "filename": "1927_rock",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "688",
+            "character": "山",
+            "keyword": "mountain",
+            "level": "Elementary",
+            "filename": "688_mountain",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": "125",
+            "character": "石",
+            "keyword": "stone",
+            "level": "Advanced",
+            "filename": "125_stone",
+            "id": "E",
+            "requirements": [
+              {
+                "number": "11",
+                "character": "口",
+                "keyword": "mouth",
+                "level": "Elementary",
+                "filename": "11_mouth",
+                "id": "C",
+                "requirements": []
+              },
+              {
+                "number": "121",
+                "character": "厂",
+                "keyword": "factory",
+                "level": "Medium",
+                "filename": "121_factory",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": "707",
+        "character": "皮",
+        "keyword": "covering",
+        "level": "Advanced",
+        "filename": "707_covering",
+        "id": "J",
+        "requirements": [
+          {
+            "number": "650",
+            "character": "支",
+            "keyword": "offshoot",
+            "level": "Medium",
+            "filename": "650_offshoot",
+            "id": "I",
+            "requirements": [
+              {
+                "number": "10",
+                "character": "十",
+                "keyword": "ten",
+                "level": "Elementary",
+                "filename": "10_ten",
+                "id": "G",
+                "requirements": []
+              },
+              {
+                "number": "633",
+                "character": "又",
+                "keyword": "again",
+                "level": "Elementary",
+                "filename": "633_again",
+                "id": "H",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

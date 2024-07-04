@@ -1,85 +1,88 @@
 {
-  "number": "1036",
-  "character": "教",
-  "keyword": "teach",
-  "level": "Elementary",
-  "filename": "1036_teach",
-  "id": "J",
-  "requirements": [
-    {
-      "number": "1035",
-      "character": "孝",
-      "keyword": "filial piety",
-      "level": null,
-      "filename": "1035_filial_piety",
-      "id": "H",
-      "requirements": [
-        {
-          "number": "1029",
-          "character": "老",
-          "keyword": "old man",
-          "level": "Elementary",
-          "filename": "1029_old_man",
-          "id": "F",
-          "requirements": [
-            {
-              "number": "158",
-              "character": "土",
-              "keyword": "soil",
-              "level": "Medium",
-              "filename": "158_soil",
-              "id": "B",
-              "requirements": []
-            },
-            {
-              "number": null,
-              "character": "丨",
-              "keyword": "walking stick",
-              "level": null,
-              "filename": "extra_walking_stick",
-              "id": "D",
-              "requirements": [
-                {
-                  "number": "1",
-                  "character": "一",
-                  "keyword": "one",
-                  "level": "Elementary",
-                  "filename": "1_one",
-                  "id": "C",
-                  "requirements": []
-                }
-              ]
-            },
-            {
-              "number": "453",
-              "character": "匕",
-              "keyword": "ancient spoon",
-              "level": null,
-              "filename": "453_ancient_spoon",
-              "id": "E",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "97",
-          "character": "子",
-          "keyword": "child",
-          "level": "Elementary",
-          "filename": "97_child",
-          "id": "G",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "攵",
-      "keyword": "taskmaster",
-      "level": null,
-      "filename": "extra_taskmaster",
-      "id": "I",
-      "requirements": []
-    }
-  ]
+  "order": 1115,
+  "hierarchy": {
+    "number": "1036",
+    "character": "教",
+    "keyword": "teach",
+    "level": "Elementary",
+    "filename": "1036_teach",
+    "id": "J",
+    "requirements": [
+      {
+        "number": "1035",
+        "character": "孝",
+        "keyword": "filial piety",
+        "level": null,
+        "filename": "1035_filial_piety",
+        "id": "H",
+        "requirements": [
+          {
+            "number": "1029",
+            "character": "老",
+            "keyword": "old man",
+            "level": "Elementary",
+            "filename": "1029_old_man",
+            "id": "F",
+            "requirements": [
+              {
+                "number": "158",
+                "character": "土",
+                "keyword": "soil",
+                "level": "Medium",
+                "filename": "158_soil",
+                "id": "B",
+                "requirements": []
+              },
+              {
+                "number": null,
+                "character": "丨",
+                "keyword": "walking stick",
+                "level": null,
+                "filename": "primitive_walking_stick",
+                "id": "D",
+                "requirements": [
+                  {
+                    "number": "1",
+                    "character": "一",
+                    "keyword": "one",
+                    "level": "Elementary",
+                    "filename": "1_one",
+                    "id": "C",
+                    "requirements": []
+                  }
+                ]
+              },
+              {
+                "number": "453",
+                "character": "匕",
+                "keyword": "ancient spoon",
+                "level": null,
+                "filename": "453_ancient_spoon",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "97",
+            "character": "子",
+            "keyword": "child",
+            "level": "Elementary",
+            "filename": "97_child",
+            "id": "G",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "攵",
+        "keyword": "taskmaster",
+        "level": null,
+        "filename": "primitive_taskmaster",
+        "id": "I",
+        "requirements": []
+      }
+    ]
+  }
 }

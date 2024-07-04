@@ -1,57 +1,60 @@
 {
-  "number": "706",
-  "character": "堂",
-  "keyword": "main room",
-  "level": "Medium",
-  "filename": "706_main_room",
-  "id": "G",
-  "requirements": [
-    {
-      "number": null,
-      "character": "囧赏－贝",
-      "keyword": "outhouse",
-      "level": null,
-      "filename": "extra_outhouse",
-      "id": "E",
-      "requirements": [
-        {
-          "number": "109",
-          "character": "小",
-          "keyword": "small",
-          "level": "Elementary",
-          "filename": "109_small",
-          "id": "C",
-          "requirements": [
-            {
-              "number": null,
-              "character": "丶",
-              "keyword": "a drop of",
-              "level": null,
-              "filename": "extra_a_drop_of",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        },
-        {
-          "number": "11",
-          "character": "口",
-          "keyword": "mouth",
-          "level": "Elementary",
-          "filename": "11_mouth",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "158",
-      "character": "土",
-      "keyword": "soil",
-      "level": "Medium",
-      "filename": "158_soil",
-      "id": "F",
-      "requirements": []
-    }
-  ]
+  "order": 766,
+  "hierarchy": {
+    "number": "706",
+    "character": "堂",
+    "keyword": "main room",
+    "level": "Medium",
+    "filename": "706_main_room",
+    "id": "G",
+    "requirements": [
+      {
+        "number": null,
+        "character": "囧赏－贝",
+        "keyword": "outhouse",
+        "level": null,
+        "filename": "primitive_outhouse",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "109",
+            "character": "小",
+            "keyword": "small",
+            "level": "Elementary",
+            "filename": "109_small",
+            "id": "C",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "primitive_a_drop_of",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "11",
+            "character": "口",
+            "keyword": "mouth",
+            "level": "Elementary",
+            "filename": "11_mouth",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "158",
+        "character": "土",
+        "keyword": "soil",
+        "level": "Medium",
+        "filename": "158_soil",
+        "id": "F",
+        "requirements": []
+      }
+    ]
+  }
 }

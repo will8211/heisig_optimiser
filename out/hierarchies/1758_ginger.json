@@ -1,48 +1,51 @@
 {
-  "number": "1758",
-  "character": "姜",
-  "keyword": "ginger",
-  "level": null,
-  "filename": "1758_ginger",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "528",
-      "character": "羊",
-      "keyword": "sheep",
-      "level": "Medium",
-      "filename": "528_sheep",
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丷",
-          "keyword": "horns",
-          "level": null,
-          "filename": "extra_horns",
-          "id": "C",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "number": "102",
-      "character": "女",
-      "keyword": "woman",
-      "level": "Elementary",
-      "filename": "102_woman",
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 1906,
+  "hierarchy": {
+    "number": "1758",
+    "character": "姜",
+    "keyword": "ginger",
+    "level": null,
+    "filename": "1758_ginger",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "528",
+        "character": "羊",
+        "keyword": "sheep",
+        "level": "Medium",
+        "filename": "528_sheep",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丷",
+            "keyword": "horns",
+            "level": null,
+            "filename": "primitive_horns",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": "102",
+        "character": "女",
+        "keyword": "woman",
+        "level": "Elementary",
+        "filename": "102_woman",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

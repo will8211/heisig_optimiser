@@ -1,47 +1,50 @@
 {
-  "number": "402",
-  "character": "装",
-  "keyword": "attire",
-  "level": "Medium",
-  "filename": "402_attire",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "400",
-      "character": "衣",
-      "keyword": "clothing",
-      "level": "Elementary",
-      "filename": "400_clothing",
-      "id": "C",
-      "requirements": [
-        {
-          "number": null,
-          "character": "亠",
-          "keyword": "top hat",
-          "level": null,
-          "filename": "extra_top_hat",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "237",
-      "character": "兆",
-      "keyword": "portent",
-      "level": null,
-      "filename": "237_portent",
-      "id": "D",
-      "requirements": []
-    },
-    {
-      "number": "334",
-      "character": "士",
-      "keyword": "soldier",
-      "level": "Advanced",
-      "filename": "334_soldier",
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 437,
+  "hierarchy": {
+    "number": "402",
+    "character": "装",
+    "keyword": "attire",
+    "level": "Medium",
+    "filename": "402_attire",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "400",
+        "character": "衣",
+        "keyword": "clothing",
+        "level": "Elementary",
+        "filename": "400_clothing",
+        "id": "C",
+        "requirements": [
+          {
+            "number": null,
+            "character": "亠",
+            "keyword": "top hat",
+            "level": null,
+            "filename": "primitive_top_hat",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "237",
+        "character": "兆",
+        "keyword": "portent",
+        "level": null,
+        "filename": "237_portent",
+        "id": "D",
+        "requirements": []
+      },
+      {
+        "number": "334",
+        "character": "士",
+        "keyword": "soldier",
+        "level": "Advanced",
+        "filename": "334_soldier",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }

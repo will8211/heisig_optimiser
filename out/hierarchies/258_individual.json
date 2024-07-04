@@ -1,38 +1,41 @@
 {
-  "number": "258",
-  "character": "个",
-  "keyword": "individual",
-  "level": "Elementary",
-  "filename": "258_individual",
-  "id": "E",
-  "requirements": [
-    {
-      "number": null,
-      "character": "𠆢",
-      "keyword": "umbrella",
-      "level": null,
-      "filename": "extra_umbrella",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "丨",
-      "keyword": "walking stick",
-      "level": null,
-      "filename": "extra_walking_stick",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "1",
-          "character": "一",
-          "keyword": "one",
-          "level": "Elementary",
-          "filename": "1_one",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 272,
+  "hierarchy": {
+    "number": "258",
+    "character": "个",
+    "keyword": "individual",
+    "level": "Elementary",
+    "filename": "258_individual",
+    "id": "E",
+    "requirements": [
+      {
+        "number": null,
+        "character": "𠆢",
+        "keyword": "umbrella",
+        "level": null,
+        "filename": "primitive_umbrella",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "丨",
+        "keyword": "walking stick",
+        "level": null,
+        "filename": "primitive_walking_stick",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "1",
+            "character": "一",
+            "keyword": "one",
+            "level": "Elementary",
+            "filename": "1_one",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

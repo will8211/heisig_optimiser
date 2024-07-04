@@ -1,38 +1,41 @@
 {
-  "number": "1844",
-  "character": "抹",
-  "keyword": "smear on",
-  "level": null,
-  "filename": "1844_smear_on",
-  "id": "E",
-  "requirements": [
-    {
-      "number": null,
-      "character": "扌",
-      "keyword": "fingers",
-      "level": null,
-      "filename": "extra_fingers",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": "216",
-      "character": "末",
-      "keyword": "last",
-      "level": "Advanced",
-      "filename": "216_last",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "202",
-          "character": "木",
-          "keyword": "tree",
-          "level": "Elementary",
-          "filename": "202_tree",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1995,
+  "hierarchy": {
+    "number": "1844",
+    "character": "抹",
+    "keyword": "smear on",
+    "level": null,
+    "filename": "1844_smear_on",
+    "id": "E",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "primitive_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "216",
+        "character": "末",
+        "keyword": "last",
+        "level": "Advanced",
+        "filename": "216_last",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "202",
+            "character": "木",
+            "keyword": "tree",
+            "level": "Elementary",
+            "filename": "202_tree",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

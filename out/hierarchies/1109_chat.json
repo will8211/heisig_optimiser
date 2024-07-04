@@ -1,47 +1,50 @@
 {
-  "number": "1109",
-  "character": "聊",
-  "keyword": "chat",
-  "level": null,
-  "filename": "1109_chat",
-  "id": "F",
-  "requirements": [
-    {
-      "number": "717",
-      "character": "耳",
-      "keyword": "ear",
-      "level": "Medium",
-      "filename": "717_ear",
-      "id": "B",
-      "requirements": []
-    },
-    {
-      "number": null,
-      "character": "囧贸－贝",
-      "keyword": "letter opener",
-      "level": null,
-      "filename": "extra_letter_opener",
-      "id": "E",
-      "requirements": [
-        {
-          "number": null,
-          "character": "卩",
-          "keyword": "stamp",
-          "level": null,
-          "filename": "extra_stamp",
-          "id": "C",
-          "requirements": []
-        },
-        {
-          "number": "83",
-          "character": "刀",
-          "keyword": "sword",
-          "level": "Medium",
-          "filename": "83_sword",
-          "id": "D",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 1197,
+  "hierarchy": {
+    "number": "1109",
+    "character": "聊",
+    "keyword": "chat",
+    "level": null,
+    "filename": "1109_chat",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "717",
+        "character": "耳",
+        "keyword": "ear",
+        "level": "Medium",
+        "filename": "717_ear",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "囧贸－贝",
+        "keyword": "letter opener",
+        "level": null,
+        "filename": "primitive_letter_opener",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "卩",
+            "keyword": "stamp",
+            "level": null,
+            "filename": "primitive_stamp",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "83",
+            "character": "刀",
+            "keyword": "sword",
+            "level": "Medium",
+            "filename": "83_sword",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

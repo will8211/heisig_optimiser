@@ -1,39 +1,42 @@
 {
-  "number": "533",
-  "character": "兰",
-  "keyword": "orchid",
-  "level": null,
-  "filename": "533_orchid",
-  "id": "E",
-  "requirements": [
-    {
-      "number": "528",
-      "character": "羊",
-      "keyword": "sheep",
-      "level": "Medium",
-      "filename": "528_sheep",
-      "id": "D",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丷",
-          "keyword": "horns",
-          "level": null,
-          "filename": "extra_horns",
-          "id": "C",
-          "requirements": [
-            {
-              "number": "1",
-              "character": "一",
-              "keyword": "one",
-              "level": "Elementary",
-              "filename": "1_one",
-              "id": "B",
-              "requirements": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "order": 579,
+  "hierarchy": {
+    "number": "533",
+    "character": "兰",
+    "keyword": "orchid",
+    "level": null,
+    "filename": "533_orchid",
+    "id": "E",
+    "requirements": [
+      {
+        "number": "528",
+        "character": "羊",
+        "keyword": "sheep",
+        "level": "Medium",
+        "filename": "528_sheep",
+        "id": "D",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丷",
+            "keyword": "horns",
+            "level": null,
+            "filename": "primitive_horns",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_one",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

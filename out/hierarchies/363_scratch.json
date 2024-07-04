@@ -1,38 +1,41 @@
 {
-  "number": "363",
-  "character": "划",
-  "keyword": "scratch",
-  "level": "Medium",
-  "filename": "363_scratch",
-  "id": "E",
-  "requirements": [
-    {
-      "number": "361",
-      "character": "戈",
-      "keyword": "halberd",
-      "level": null,
-      "filename": "361_halberd",
-      "id": "C",
-      "requirements": [
-        {
-          "number": null,
-          "character": "弋",
-          "keyword": "arrow",
-          "level": null,
-          "filename": "extra_arrow",
-          "id": "B",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "83",
-      "character": "刀",
-      "keyword": "sword",
-      "level": "Medium",
-      "filename": "83_sword",
-      "id": "D",
-      "requirements": []
-    }
-  ]
+  "order": 390,
+  "hierarchy": {
+    "number": "363",
+    "character": "划",
+    "keyword": "scratch",
+    "level": "Medium",
+    "filename": "363_scratch",
+    "id": "E",
+    "requirements": [
+      {
+        "number": "361",
+        "character": "戈",
+        "keyword": "halberd",
+        "level": null,
+        "filename": "361_halberd",
+        "id": "C",
+        "requirements": [
+          {
+            "number": null,
+            "character": "弋",
+            "keyword": "arrow",
+            "level": null,
+            "filename": "primitive_arrow",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "83",
+        "character": "刀",
+        "keyword": "sword",
+        "level": "Medium",
+        "filename": "83_sword",
+        "id": "D",
+        "requirements": []
+      }
+    ]
+  }
 }

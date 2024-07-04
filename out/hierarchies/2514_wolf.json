@@ -1,66 +1,69 @@
 {
-  "number": "2514",
-  "character": "狼",
-  "keyword": "wolf",
-  "level": null,
-  "filename": "2514_wolf",
-  "id": "H",
-  "requirements": [
-    {
-      "number": "239",
-      "character": "犬",
-      "keyword": "pooch",
-      "level": null,
-      "filename": "239_pooch",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "113",
-          "character": "大",
-          "keyword": "large",
-          "level": "Elementary",
-          "filename": "113_large",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": "1151",
-      "character": "良",
-      "keyword": "high-quality",
-      "level": "Advanced",
-      "filename": "1151_high-quality",
-      "id": "G",
-      "requirements": [
-        {
-          "number": null,
-          "character": "丶",
-          "keyword": "a drop of",
-          "level": null,
-          "filename": "extra_a_drop_of",
-          "id": "E",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "艮",
-          "keyword": "silver",
-          "level": null,
-          "filename": "extra_silver",
-          "id": "F",
-          "requirements": []
-        }
-      ]
-    }
-  ]
+  "order": 2701,
+  "hierarchy": {
+    "number": "2514",
+    "character": "狼",
+    "keyword": "wolf",
+    "level": null,
+    "filename": "2514_wolf",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "239",
+        "character": "犬",
+        "keyword": "pooch",
+        "level": null,
+        "filename": "239_pooch",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "113",
+            "character": "大",
+            "keyword": "large",
+            "level": "Elementary",
+            "filename": "113_large",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "1151",
+        "character": "良",
+        "keyword": "high-quality",
+        "level": "Advanced",
+        "filename": "1151_high-quality",
+        "id": "G",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "primitive_a_drop_of",
+            "id": "E",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "艮",
+            "keyword": "silver",
+            "level": null,
+            "filename": "primitive_silver",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
 }

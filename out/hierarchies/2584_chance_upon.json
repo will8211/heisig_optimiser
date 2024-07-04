@@ -1,47 +1,50 @@
 {
-  "number": "2584",
-  "character": "逢",
-  "keyword": "chance upon",
-  "level": null,
-  "filename": "2584_chance_upon",
-  "id": "F",
-  "requirements": [
-    {
-      "number": null,
-      "character": "夆",
-      "keyword": "briar",
-      "level": null,
-      "filename": "extra_briar",
-      "id": "D",
-      "requirements": [
-        {
-          "number": "1223",
-          "character": "丰",
-          "keyword": "plentiful",
-          "level": "Advanced",
-          "filename": "1223_plentiful",
-          "id": "B",
-          "requirements": []
-        },
-        {
-          "number": null,
-          "character": "夂",
-          "keyword": "walking legs",
-          "level": null,
-          "filename": "extra_walking_legs",
-          "id": "C",
-          "requirements": []
-        }
-      ]
-    },
-    {
-      "number": null,
-      "character": "辶",
-      "keyword": "road",
-      "level": null,
-      "filename": "extra_road",
-      "id": "E",
-      "requirements": []
-    }
-  ]
+  "order": 2772,
+  "hierarchy": {
+    "number": "2584",
+    "character": "逢",
+    "keyword": "chance upon",
+    "level": null,
+    "filename": "2584_chance_upon",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "夆",
+        "keyword": "briar",
+        "level": null,
+        "filename": "primitive_briar",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "1223",
+            "character": "丰",
+            "keyword": "plentiful",
+            "level": "Advanced",
+            "filename": "1223_plentiful",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "夂",
+            "keyword": "walking legs",
+            "level": null,
+            "filename": "primitive_walking_legs",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "辶",
+        "keyword": "road",
+        "level": null,
+        "filename": "primitive_road",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
 }
