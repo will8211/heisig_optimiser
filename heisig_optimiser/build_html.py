@@ -61,10 +61,7 @@ def _make_index_file():
 
 
 def add_js():
-    # Path to the input JavaScript file
     input_js_file = "template/script.js"
-
-    # Path to the output minified JavaScript file
     output_js_file = "public/script.min.js"
 
     with open(input_js_file, "r") as js_file:
@@ -77,10 +74,7 @@ def add_js():
 
 
 def add_font():
-    # Path to the input font file
     input_font_file = "fonts/HanaMinB.otf"
-
-    # Path to the output font file
     output_font_file = "public/HanaMinB.otf"
 
     with open(input_font_file, "rb") as font_file:
@@ -93,10 +87,7 @@ def add_font():
 
 
 def add_css():
-    # Path to the input font file
     input_font_file = "template/style.css"
-
-    # Path to the output font file
     output_font_file = "public/style.css"
 
     with open(input_font_file, "rb") as font_file:
