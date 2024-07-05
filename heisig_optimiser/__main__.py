@@ -3,7 +3,7 @@ from collections import defaultdict
 from typing import Dict, List, Literal, Set
 
 from .generate_hierarchies import generate_hierarchies
-from .json_to_diag import json_to_diag
+from .build_html import add_css, add_font, add_js, json_to_html
 from .output import output_to_csv, output_to_json
 
 HskLevel = Literal["Elementary", "Medium", "Advanced"]
@@ -16,10 +16,15 @@ def main():
     chars = calculate_required_characters(chars, "Elementary")
     chars = calculate_required_characters(chars, "Medium")
     chars = calculate_required_characters(chars, "Advanced")
+
     output_to_json(chars)
     output_to_csv(chars)
     generate_hierarchies()
-    json_to_diag()
+    json_to_html()
+    add_js()
+    add_css()
+    add_font()
+
     print("Done")
 
 
