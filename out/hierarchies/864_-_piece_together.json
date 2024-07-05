@@ -1,0 +1,80 @@
+{
+  "order": 930,
+  "hierarchy": {
+    "number": "864",
+    "character": "拼",
+    "keyword": "piece together",
+    "level": "Advanced",
+    "filename": "864_-_piece_together",
+    "id": "I",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "PRIMITIVE_-_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "863",
+        "character": "并",
+        "keyword": "combine",
+        "level": "Advanced",
+        "filename": "863_-_combine",
+        "id": "H",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丷",
+            "keyword": "horns",
+            "level": null,
+            "filename": "PRIMITIVE_-_horns",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_-_one",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "613",
+            "character": "开",
+            "keyword": "open",
+            "level": "Elementary",
+            "filename": "613_-_open",
+            "id": "G",
+            "requirements": [
+              {
+                "number": "2",
+                "character": "二",
+                "keyword": "two",
+                "level": "Elementary",
+                "filename": "2_-_two",
+                "id": "F",
+                "requirements": [
+                  {
+                    "number": "1",
+                    "character": "一",
+                    "keyword": "one",
+                    "level": "Elementary",
+                    "filename": "1_-_one",
+                    "id": "E",
+                    "requirements": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

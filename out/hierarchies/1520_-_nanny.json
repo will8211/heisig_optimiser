@@ -1,0 +1,41 @@
+{
+  "order": 1660,
+  "hierarchy": {
+    "number": "1520",
+    "character": "姆",
+    "keyword": "nanny",
+    "level": null,
+    "filename": "1520_-_nanny",
+    "id": "E",
+    "requirements": [
+      {
+        "number": "102",
+        "character": "女",
+        "keyword": "woman",
+        "level": "Elementary",
+        "filename": "102_-_woman",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "105",
+        "character": "母",
+        "keyword": "mother",
+        "level": "Advanced",
+        "filename": "105_-_mother",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "102",
+            "character": "女",
+            "keyword": "woman",
+            "level": "Elementary",
+            "filename": "102_-_woman",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "order": 2342,
+  "hierarchy": {
+    "number": "2180",
+    "character": "棵",
+    "keyword": "flora",
+    "level": "Advanced",
+    "filename": "2180_-_flora",
+    "id": "F",
+    "requirements": [
+      {
+        "number": "202",
+        "character": "木",
+        "keyword": "tree",
+        "level": "Elementary",
+        "filename": "202_-_tree",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "921",
+        "character": "果",
+        "keyword": "fruit",
+        "level": "Elementary",
+        "filename": "921_-_fruit",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "202",
+            "character": "木",
+            "keyword": "tree",
+            "level": "Elementary",
+            "filename": "202_-_tree",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "14",
+            "character": "田",
+            "keyword": "rice field",
+            "level": "Medium",
+            "filename": "14_-_rice_field",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
+}

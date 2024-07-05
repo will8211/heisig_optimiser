@@ -1,0 +1,70 @@
+{
+  "order": 3003,
+  "hierarchy": {
+    "number": "2809",
+    "character": "绑",
+    "keyword": "truss",
+    "level": null,
+    "filename": "2809_-_truss",
+    "id": "H",
+    "requirements": [
+      {
+        "number": null,
+        "character": "纟",
+        "keyword": "thread",
+        "level": null,
+        "filename": "PRIMITIVE_-_thread",
+        "id": "C",
+        "requirements": [
+          {
+            "number": null,
+            "character": "厶",
+            "keyword": "elbow",
+            "level": null,
+            "filename": "PRIMITIVE_-_elbow",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "2808",
+        "character": "邦",
+        "keyword": "nation",
+        "level": null,
+        "filename": "2808_-_nation",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "1223",
+            "character": "丰",
+            "keyword": "plentiful",
+            "level": "Advanced",
+            "filename": "1223_-_plentiful",
+            "id": "D",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "囧阝",
+            "keyword": "city walls",
+            "level": null,
+            "filename": "PRIMITIVE_-_city_walls",
+            "id": "F",
+            "requirements": [
+              {
+                "number": null,
+                "character": "阝",
+                "keyword": "pinnacle",
+                "level": null,
+                "filename": "PRIMITIVE_-_pinnacle",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

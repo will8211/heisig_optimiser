@@ -8,23 +8,6 @@ def _increment_id(letter: str):
     return incremented.decode("utf-8")
 
 
-def _generate_filename(character_data):
-    if character_data["Number"]:
-        prefix = character_data["Number"]
-    elif character_data["Type"] == "primitive":
-        prefix = "PRIMITIVE"
-    else:
-        prefix = "EXTRA"
-    filename = (
-        (f"{prefix}_{character_data['Keywords'][0]}")
-        .replace(" ", "_")
-        .replace("?", "")
-        .replace("'", "_")
-        .replace("‡", "")
-    )
-    return filename
-
-
 def _build_hierarchy(character, character_map, visited=None):
     global id
     if visited is None:
@@ -60,7 +43,7 @@ def _build_hierarchy(character, character_map, visited=None):
         "character": character_data["Character"],
         "keyword": character_data["Keywords"][0],
         "level": character_data["Level"],
-        "filename": _generate_filename(character_data),
+        "filename": character_data["Filename"],
         "id": id,
         "requirements": requirements,
     }
@@ -87,9 +70,7 @@ def generate_hierarchies():
         character = character_data["Character"]
         hierarchy = _build_hierarchy(character, character_map)
         if hierarchy:
-            output_file = os.path.join(
-                output_dir, _generate_filename(character_data) + ".json"
-            )
+            output_file = os.path.join(output_dir, character_data["Filename"] + ".json")
             dict = {"order": character_data["Order"], "hierarchy": hierarchy}
             with open(output_file, "w", encoding="utf-8") as f:
                 json.dump(dict, f, ensure_ascii=False, indent=2)

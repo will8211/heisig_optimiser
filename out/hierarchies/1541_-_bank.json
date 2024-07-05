@@ -1,0 +1,79 @@
+{
+  "order": 1681,
+  "hierarchy": {
+    "number": "1541",
+    "character": "涯",
+    "keyword": "bank",
+    "level": null,
+    "filename": "1541_-_bank",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "121",
+        "character": "厂",
+        "keyword": "factory",
+        "level": "Medium",
+        "filename": "121_-_factory",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "圭",
+        "keyword": "bricks",
+        "level": null,
+        "filename": "PRIMITIVE_-_bricks",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "158",
+            "character": "土",
+            "keyword": "soil",
+            "level": "Medium",
+            "filename": "158_-_soil",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "137",
+        "character": "水",
+        "keyword": "water",
+        "level": "Elementary",
+        "filename": "137_-_water",
+        "id": "H",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丨",
+            "keyword": "walking stick",
+            "level": null,
+            "filename": "PRIMITIVE_-_walking_stick",
+            "id": "F",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_-_one",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "PRIMITIVE_-_a_drop_of",
+            "id": "G",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
+}

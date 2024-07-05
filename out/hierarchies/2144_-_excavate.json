@@ -1,0 +1,60 @@
+{
+  "order": 2305,
+  "hierarchy": {
+    "number": "2144",
+    "character": "掘",
+    "keyword": "excavate",
+    "level": null,
+    "filename": "2144_-_excavate",
+    "id": "G",
+    "requirements": [
+      {
+        "number": null,
+        "character": "扌",
+        "keyword": "fingers",
+        "level": null,
+        "filename": "PRIMITIVE_-_fingers",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "2143",
+        "character": "屈",
+        "keyword": "knuckle under",
+        "level": null,
+        "filename": "2143_-_knuckle_under",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "882",
+            "character": "尸",
+            "keyword": "corpse",
+            "level": null,
+            "filename": "882_-_corpse",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "689",
+            "character": "出",
+            "keyword": "exit",
+            "level": "Elementary",
+            "filename": "689_-_exit",
+            "id": "E",
+            "requirements": [
+              {
+                "number": "688",
+                "character": "山",
+                "keyword": "mountain",
+                "level": "Elementary",
+                "filename": "688_-_mountain",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

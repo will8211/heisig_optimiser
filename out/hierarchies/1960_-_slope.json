@@ -1,0 +1,60 @@
+{
+  "order": 2116,
+  "hierarchy": {
+    "number": "1960",
+    "character": "坡",
+    "keyword": "slope",
+    "level": null,
+    "filename": "1960_-_slope",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "158",
+        "character": "土",
+        "keyword": "soil",
+        "level": "Medium",
+        "filename": "158_-_soil",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "707",
+        "character": "皮",
+        "keyword": "covering",
+        "level": "Advanced",
+        "filename": "707_-_covering",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "650",
+            "character": "支",
+            "keyword": "offshoot",
+            "level": "Medium",
+            "filename": "650_-_offshoot",
+            "id": "E",
+            "requirements": [
+              {
+                "number": "10",
+                "character": "十",
+                "keyword": "ten",
+                "level": "Elementary",
+                "filename": "10_-_ten",
+                "id": "C",
+                "requirements": []
+              },
+              {
+                "number": "633",
+                "character": "又",
+                "keyword": "again",
+                "level": "Elementary",
+                "filename": "633_-_again",
+                "id": "D",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

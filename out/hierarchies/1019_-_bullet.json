@@ -1,0 +1,69 @@
+{
+  "order": 1094,
+  "hierarchy": {
+    "number": "1019",
+    "character": "弹",
+    "keyword": "bullet",
+    "level": null,
+    "filename": "1019_-_bullet",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "1013",
+        "character": "弓",
+        "keyword": "bow",
+        "level": null,
+        "filename": "1013_-_bow",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "1018",
+        "character": "单",
+        "keyword": "list",
+        "level": "Medium",
+        "filename": "1018_-_list",
+        "id": "G",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丷",
+            "keyword": "horns",
+            "level": null,
+            "filename": "PRIMITIVE_-_horns",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_-_one",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "14",
+            "character": "田",
+            "keyword": "rice field",
+            "level": "Medium",
+            "filename": "14_-_rice_field",
+            "id": "E",
+            "requirements": []
+          },
+          {
+            "number": "10",
+            "character": "十",
+            "keyword": "ten",
+            "level": "Elementary",
+            "filename": "10_-_ten",
+            "id": "F",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
+}

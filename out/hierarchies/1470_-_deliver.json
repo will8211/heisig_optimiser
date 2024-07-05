@@ -1,0 +1,79 @@
+{
+  "order": 1607,
+  "hierarchy": {
+    "number": "1470",
+    "character": "送",
+    "keyword": "deliver",
+    "level": "Elementary",
+    "filename": "1470_-_deliver",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "1469",
+        "character": "关",
+        "keyword": "shut",
+        "level": "Elementary",
+        "filename": "1469_-_shut",
+        "id": "G",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丷",
+            "keyword": "horns",
+            "level": null,
+            "filename": "PRIMITIVE_-_horns",
+            "id": "C",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_-_one",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "436",
+            "character": "天",
+            "keyword": "heavens",
+            "level": "Elementary",
+            "filename": "436_-_heavens",
+            "id": "F",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_-_one",
+                "id": "D",
+                "requirements": []
+              },
+              {
+                "number": "113",
+                "character": "大",
+                "keyword": "large",
+                "level": "Elementary",
+                "filename": "113_-_large",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": null,
+        "character": "辶",
+        "keyword": "road",
+        "level": null,
+        "filename": "PRIMITIVE_-_road",
+        "id": "H",
+        "requirements": []
+      }
+    ]
+  }
+}

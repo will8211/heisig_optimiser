@@ -1,0 +1,69 @@
+{
+  "order": 266,
+  "hierarchy": {
+    "number": "253",
+    "character": "特",
+    "keyword": "special",
+    "level": "Medium",
+    "filename": "253_-_special",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "252",
+        "character": "牛",
+        "keyword": "cow",
+        "level": "Elementary",
+        "filename": "252_-_cow",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "169",
+        "character": "寺",
+        "keyword": "Buddhist temple",
+        "level": "Advanced",
+        "filename": "169_-_Buddhist_temple",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "158",
+            "character": "土",
+            "keyword": "soil",
+            "level": "Medium",
+            "filename": "158_-_soil",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "166",
+            "character": "寸",
+            "keyword": "Chinese inch",
+            "level": "Advanced",
+            "filename": "166_-_Chinese_inch",
+            "id": "F",
+            "requirements": [
+              {
+                "number": null,
+                "character": "丶",
+                "keyword": "a drop of",
+                "level": null,
+                "filename": "PRIMITIVE_-_a_drop_of",
+                "id": "D",
+                "requirements": []
+              },
+              {
+                "number": "10",
+                "character": "十",
+                "keyword": "ten",
+                "level": "Elementary",
+                "filename": "10_-_ten",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

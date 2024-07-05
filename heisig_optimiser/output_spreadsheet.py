@@ -34,6 +34,7 @@ def output_to_csv(chars: List[Dict[str, any]]):
         "Required for",
         "Keywords",
         "Requires",
+        "Filename",
     ]
 
     formatted_data = [

@@ -1,0 +1,79 @@
+{
+  "order": 911,
+  "hierarchy": {
+    "number": "849",
+    "character": "座",
+    "keyword": "seat",
+    "level": "Medium",
+    "filename": "849_-_seat",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "556",
+        "character": "广",
+        "keyword": "extensive",
+        "level": "Medium",
+        "filename": "556_-_extensive",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "121",
+            "character": "厂",
+            "keyword": "factory",
+            "level": "Medium",
+            "filename": "121_-_factory",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "宀",
+            "keyword": "house",
+            "level": null,
+            "filename": "PRIMITIVE_-_house",
+            "id": "C",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "848",
+        "character": "坐",
+        "keyword": "sit",
+        "level": "Elementary",
+        "filename": "848_-_sit",
+        "id": "H",
+        "requirements": [
+          {
+            "number": "846",
+            "character": "从",
+            "keyword": "follow",
+            "level": "Elementary",
+            "filename": "846_-_follow",
+            "id": "F",
+            "requirements": [
+              {
+                "number": "793",
+                "character": "人",
+                "keyword": "person",
+                "level": "Elementary",
+                "filename": "793_-_person",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "158",
+            "character": "土",
+            "keyword": "soil",
+            "level": "Medium",
+            "filename": "158_-_soil",
+            "id": "G",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
+}

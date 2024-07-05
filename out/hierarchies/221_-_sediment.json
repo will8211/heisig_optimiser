@@ -1,0 +1,98 @@
+{
+  "order": 232,
+  "hierarchy": {
+    "number": "221",
+    "character": "渣",
+    "keyword": "sediment",
+    "level": null,
+    "filename": "221_-_sediment",
+    "id": "K",
+    "requirements": [
+      {
+        "number": "220",
+        "character": "查",
+        "keyword": "investigate",
+        "level": "Medium",
+        "filename": "220_-_investigate",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "30",
+            "character": "旦",
+            "keyword": "daybreak",
+            "level": "Medium",
+            "filename": "30_-_daybreak",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "12",
+                "character": "日",
+                "keyword": "day",
+                "level": "Elementary",
+                "filename": "12_-_day",
+                "id": "B",
+                "requirements": []
+              },
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_-_one",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "202",
+            "character": "木",
+            "keyword": "tree",
+            "level": "Elementary",
+            "filename": "202_-_tree",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "137",
+        "character": "水",
+        "keyword": "water",
+        "level": "Elementary",
+        "filename": "137_-_water",
+        "id": "J",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丨",
+            "keyword": "walking stick",
+            "level": null,
+            "filename": "PRIMITIVE_-_walking_stick",
+            "id": "H",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_-_one",
+                "id": "G",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "PRIMITIVE_-_a_drop_of",
+            "id": "I",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
+}

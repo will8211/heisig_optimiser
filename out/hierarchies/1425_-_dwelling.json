@@ -1,0 +1,51 @@
+{
+  "order": 1555,
+  "hierarchy": {
+    "number": "1425",
+    "character": "宅",
+    "keyword": "dwelling",
+    "level": null,
+    "filename": "1425_-_dwelling",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "宀",
+        "keyword": "house",
+        "level": null,
+        "filename": "PRIMITIVE_-_house",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "乇",
+        "keyword": "fur ball",
+        "level": null,
+        "filename": "PRIMITIVE_-_fur_ball",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "1421",
+            "character": "毛",
+            "keyword": "fur",
+            "level": "Medium",
+            "filename": "1421_-_fur",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "584",
+                "character": "手",
+                "keyword": "hand",
+                "level": "Elementary",
+                "filename": "584_-_hand",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

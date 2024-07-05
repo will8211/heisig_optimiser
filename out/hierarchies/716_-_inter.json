@@ -1,0 +1,79 @@
+{
+  "order": 776,
+  "hierarchy": {
+    "number": "716",
+    "character": "葬",
+    "keyword": "inter",
+    "level": null,
+    "filename": "716_-_inter",
+    "id": "I",
+    "requirements": [
+      {
+        "number": null,
+        "character": "艹",
+        "keyword": "flower",
+        "level": null,
+        "filename": "PRIMITIVE_-_flower",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "715",
+        "character": "死",
+        "keyword": "death",
+        "level": "Advanced",
+        "filename": "715_-_death",
+        "id": "E",
+        "requirements": [
+          {
+            "number": "712",
+            "character": "歹",
+            "keyword": "malicious",
+            "level": null,
+            "filename": "712_-_malicious",
+            "id": "C",
+            "requirements": []
+          },
+          {
+            "number": "453",
+            "character": "匕",
+            "keyword": "ancient spoon",
+            "level": null,
+            "filename": "453_-_ancient_spoon",
+            "id": "D",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "613",
+        "character": "开",
+        "keyword": "open",
+        "level": "Elementary",
+        "filename": "613_-_open",
+        "id": "H",
+        "requirements": [
+          {
+            "number": "2",
+            "character": "二",
+            "keyword": "two",
+            "level": "Elementary",
+            "filename": "2_-_two",
+            "id": "G",
+            "requirements": [
+              {
+                "number": "1",
+                "character": "一",
+                "keyword": "one",
+                "level": "Elementary",
+                "filename": "1_-_one",
+                "id": "F",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

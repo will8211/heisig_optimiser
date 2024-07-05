@@ -1,0 +1,79 @@
+{
+  "order": 3015,
+  "hierarchy": {
+    "number": "2821",
+    "character": "舰",
+    "keyword": "warship",
+    "level": null,
+    "filename": "2821_-_warship",
+    "id": "I",
+    "requirements": [
+      {
+        "number": "1394",
+        "character": "舟",
+        "keyword": "boat",
+        "level": null,
+        "filename": "1394_-_boat",
+        "id": "E",
+        "requirements": [
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "PRIMITIVE_-_a_drop_of",
+            "id": "B",
+            "requirements": []
+          },
+          {
+            "number": null,
+            "character": "冂",
+            "keyword": "hood",
+            "level": null,
+            "filename": "PRIMITIVE_-_hood",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "57",
+                "character": "几",
+                "keyword": "how many?",
+                "level": "Elementary",
+                "filename": "57_-_how_many",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": "58",
+        "character": "见",
+        "keyword": "see",
+        "level": "Elementary",
+        "filename": "58_-_see",
+        "id": "H",
+        "requirements": [
+          {
+            "number": "15",
+            "character": "目",
+            "keyword": "eye",
+            "level": "Medium",
+            "filename": "15_-_eye",
+            "id": "F",
+            "requirements": []
+          },
+          {
+            "number": "56",
+            "character": "儿",
+            "keyword": "youngster",
+            "level": "Elementary",
+            "filename": "56_-_youngster",
+            "id": "G",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
+}

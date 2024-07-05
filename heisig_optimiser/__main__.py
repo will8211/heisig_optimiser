@@ -16,6 +16,7 @@ def main():
     chars = calculate_required_characters(chars, "Elementary")
     chars = calculate_required_characters(chars, "Medium")
     chars = calculate_required_characters(chars, "Advanced")
+    chars = add_filenames(chars)
 
     output_to_json(chars)
     output_to_csv(chars)
@@ -135,6 +136,24 @@ def calculate_required_characters(
                         requirements[depth].update(c["Requires"])
         depth += 1
     return chars
+
+
+def add_filenames(character_data):
+    for c in character_data:
+        if c["Number"]:
+            prefix = c["Number"]
+        else:
+            prefix = "PRIMITIVE"
+        filename = (
+            (f"{prefix}_-_{c['Keywords'][0]}")
+            .replace(" ", "_")
+            .replace("?", "")
+            .replace("'", "_")
+            .replace("‡", "")
+            .replace(".", "")
+        )
+        c["Filename"] = filename
+    return character_data
 
 
 main()

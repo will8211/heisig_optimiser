@@ -1,0 +1,89 @@
+{
+  "order": 2549,
+  "hierarchy": {
+    "number": "2377",
+    "character": "绸",
+    "keyword": "silk fabric",
+    "level": null,
+    "filename": "2377_-_silk_fabric",
+    "id": "J",
+    "requirements": [
+      {
+        "number": null,
+        "character": "纟",
+        "keyword": "thread",
+        "level": null,
+        "filename": "PRIMITIVE_-_thread",
+        "id": "C",
+        "requirements": [
+          {
+            "number": null,
+            "character": "厶",
+            "keyword": "elbow",
+            "level": null,
+            "filename": "PRIMITIVE_-_elbow",
+            "id": "B",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "number": "333",
+        "character": "周",
+        "keyword": "circumference",
+        "level": "Medium",
+        "filename": "333_-_circumference",
+        "id": "I",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧周－冂",
+            "keyword": "lidded crock",
+            "level": null,
+            "filename": "PRIMITIVE_-_lidded_crock",
+            "id": "F",
+            "requirements": [
+              {
+                "number": "158",
+                "character": "土",
+                "keyword": "soil",
+                "level": "Medium",
+                "filename": "158_-_soil",
+                "id": "D",
+                "requirements": []
+              },
+              {
+                "number": "11",
+                "character": "口",
+                "keyword": "mouth",
+                "level": "Elementary",
+                "filename": "11_-_mouth",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "冂",
+            "keyword": "hood",
+            "level": null,
+            "filename": "PRIMITIVE_-_hood",
+            "id": "H",
+            "requirements": [
+              {
+                "number": "57",
+                "character": "几",
+                "keyword": "how many?",
+                "level": "Elementary",
+                "filename": "57_-_how_many",
+                "id": "G",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

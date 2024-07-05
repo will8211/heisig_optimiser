@@ -1,0 +1,60 @@
+{
+  "order": 2175,
+  "hierarchy": {
+    "number": "2018",
+    "character": "秩",
+    "keyword": "order",
+    "level": null,
+    "filename": "2018_-_order",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "762",
+        "character": "禾",
+        "keyword": "standing grain",
+        "level": null,
+        "filename": "762_-_standing_grain",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "729",
+        "character": "失",
+        "keyword": "lose",
+        "level": "Advanced",
+        "filename": "729_-_lose",
+        "id": "F",
+        "requirements": [
+          {
+            "number": "726",
+            "character": "夫",
+            "keyword": "husband",
+            "level": "Medium",
+            "filename": "726_-_husband",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "113",
+                "character": "大",
+                "keyword": "large",
+                "level": "Elementary",
+                "filename": "113_-_large",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": null,
+            "character": "丶",
+            "keyword": "a drop of",
+            "level": null,
+            "filename": "PRIMITIVE_-_a_drop_of",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
+}
