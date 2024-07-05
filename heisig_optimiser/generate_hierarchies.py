@@ -12,9 +12,9 @@ def _generate_filename(character_data):
     if character_data["Number"]:
         prefix = character_data["Number"]
     elif character_data["Type"] == "primitive":
-        prefix = "primitive"
+        prefix = "PRIMITIVE"
     else:
-        prefix = "extra"
+        prefix = "EXTRA"
     filename = (
         (f"{prefix}_{character_data['Keywords'][0]}")
         .replace(" ", "_")

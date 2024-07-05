@@ -1,0 +1,51 @@
+{
+  "order": 400,
+  "hierarchy": {
+    "number": null,
+    "character": "戌",
+    "keyword": "march",
+    "level": null,
+    "filename": "PRIMITIVE_march",
+    "id": "F",
+    "requirements": [
+      {
+        "number": null,
+        "character": "戊",
+        "keyword": "parade",
+        "level": null,
+        "filename": "PRIMITIVE_parade",
+        "id": "D",
+        "requirements": [
+          {
+            "number": "361",
+            "character": "戈",
+            "keyword": "halberd",
+            "level": null,
+            "filename": "361_halberd",
+            "id": "C",
+            "requirements": [
+              {
+                "number": null,
+                "character": "弋",
+                "keyword": "arrow",
+                "level": null,
+                "filename": "PRIMITIVE_arrow",
+                "id": "B",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": "1",
+        "character": "一",
+        "keyword": "one",
+        "level": "Elementary",
+        "filename": "1_one",
+        "id": "E",
+        "requirements": []
+      }
+    ]
+  }
+}

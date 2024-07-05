@@ -1,0 +1,70 @@
+{
+  "order": 3114,
+  "hierarchy": {
+    "number": null,
+    "character": "粦",
+    "keyword": "jack-o’-lantern",
+    "level": null,
+    "filename": "PRIMITIVE_jack-o’-lantern",
+    "id": "H",
+    "requirements": [
+      {
+        "number": "778",
+        "character": "米",
+        "keyword": "rice",
+        "level": "Medium",
+        "filename": "778_rice",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": null,
+        "character": "舛",
+        "keyword": "sunglasses",
+        "level": null,
+        "filename": "PRIMITIVE_sunglasses",
+        "id": "G",
+        "requirements": [
+          {
+            "number": "115",
+            "character": "夕",
+            "keyword": "evening",
+            "level": "Advanced",
+            "filename": "115_evening",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "13",
+                "character": "月",
+                "keyword": "month",
+                "level": "Elementary",
+                "filename": "13_month",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "871",
+            "character": "年",
+            "keyword": "year",
+            "level": "Elementary",
+            "filename": "871_year",
+            "id": "F",
+            "requirements": [
+              {
+                "number": "542",
+                "character": "午",
+                "keyword": "noon",
+                "level": "Elementary",
+                "filename": "542_noon",
+                "id": "E",
+                "requirements": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

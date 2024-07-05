@@ -1,0 +1,60 @@
+{
+  "order": 2535,
+  "hierarchy": {
+    "number": null,
+    "character": "呙",
+    "keyword": "esophagus",
+    "level": null,
+    "filename": "PRIMITIVE_esophagus",
+    "id": "G",
+    "requirements": [
+      {
+        "number": "11",
+        "character": "口",
+        "keyword": "mouth",
+        "level": "Elementary",
+        "filename": "11_mouth",
+        "id": "B",
+        "requirements": []
+      },
+      {
+        "number": "840",
+        "character": "内",
+        "keyword": "internal",
+        "level": "Advanced",
+        "filename": "840_internal",
+        "id": "F",
+        "requirements": [
+          {
+            "number": null,
+            "character": "囧冂",
+            "keyword": "belt",
+            "level": null,
+            "filename": "PRIMITIVE_belt",
+            "id": "D",
+            "requirements": [
+              {
+                "number": "410",
+                "character": "巾",
+                "keyword": "towel",
+                "level": "Advanced",
+                "filename": "410_towel",
+                "id": "C",
+                "requirements": []
+              }
+            ]
+          },
+          {
+            "number": "793",
+            "character": "人",
+            "keyword": "person",
+            "level": "Elementary",
+            "filename": "793_person",
+            "id": "E",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
+}
