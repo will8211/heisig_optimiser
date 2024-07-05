@@ -4,7 +4,7 @@ from typing import Dict, List, Literal, Set
 
 from .generate_hierarchies import generate_hierarchies
 from .build_html import add_css, add_font, add_js, json_to_html
-from .output import output_to_csv, output_to_json
+from .output_spreadsheet import output_to_csv, output_to_json
 
 HskLevel = Literal["Elementary", "Medium", "Advanced"]
 
