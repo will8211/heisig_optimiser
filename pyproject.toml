@@ -8,7 +8,6 @@ packages = [{ include = "heisig_optimiser" }]
 
 [tool.poetry.dependencies]
 python = ">=3.8.0,<3.12"
-blockdiag = "^3.0.0"
 pillow = ">9,<10"
 jinja2 = "^3.1.4"
 lxml = "^5.2.2"
@@ -17,6 +16,7 @@ jsmin = "^3.0.1"
 [tool.poetry.group.dev.dependencies]
 black = "^24.4.2"
 isort = "^5.13.2"
+blockdiag = "^3.0.0"
 
 [build-system]
 requires = ["poetry-core"]
