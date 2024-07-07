@@ -10,13 +10,14 @@ packages = [{ include = "heisig_optimiser" }]
 python = ">=3.8.0,<3.12"
 pillow = ">9,<10"
 jinja2 = "^3.1.4"
-lxml = "^5.2.2"
 jsmin = "^3.0.1"
+lxml = "^5.2.2"
 
 [tool.poetry.group.dev.dependencies]
 black = "^24.4.2"
+djlint = "^1.34.1"
 isort = "^5.13.2"
-blockdiag = "^3.0.0"
+prettier = "^0.0.7"
 
 [build-system]
 requires = ["poetry-core"]

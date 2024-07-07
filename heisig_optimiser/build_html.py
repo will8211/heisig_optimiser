@@ -24,7 +24,7 @@ def json_to_html():
                 data = json.load(f)
 
             template = env.get_template("template.jinja")
-            hierarchy = json.dumps(data["hierarchy"])
+            hierarchy = data["hierarchy"]
             order = data["order"]
             rendered_html = template.render(hierarchy=hierarchy, order=order)
 
@@ -108,6 +108,5 @@ def _make_json_index(html_files):
     index = "const index = " + json.dumps(index_list)
     with open("public/index.js", "w") as f:
         f.write(index)
-        
 
     print(f"JSON index file generated successfully")

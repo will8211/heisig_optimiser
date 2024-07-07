@@ -45,7 +45,7 @@ const link = mainSvg
     d3
       .linkHorizontal()
       .x((d) => d.y + margin)
-      .y((d) => d.x)
+      .y((d) => d.x),
   );
 
 // Create nodes
@@ -135,7 +135,7 @@ node
   .attr("x", 0)
   .style("text-anchor", "middle") // Ensures the text is centered horizontally
   .text(
-    (d) => d.data.keyword + (d.data.number ? `\u00A0(${d.data.number})` : "")
+    (d) => d.data.keyword + (d.data.number ? `\u00A0(${d.data.number})` : ""),
   );
 
 function countLayerWidths(layer, tree) {

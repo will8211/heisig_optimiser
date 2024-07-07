@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html lang="en" id="0">
-
-<head>
+  <head>
     <meta charset="UTF-8">
     <title>Heisig RSH</title>
     <link rel="stylesheet" href="./style.css" />
-</head>
-
-<body>
+  </head>
+  <body>
     <h1>Heisig RSH</h1>
     <ul>
-        {% for file in files %}
-        <li><a href="characters/{{ file }}.html">{{ file.replace("_", " ") }}</a></li>
-        {% endfor %}
+      {% for file in files %}
+        <li>
+          <a href="characters/{{ file }}.html">{{ file.replace('_', ' ') }}</a>
+        </li>
+      {% endfor %}
     </ul>
-</body>
-
+  </body>
 </html>
