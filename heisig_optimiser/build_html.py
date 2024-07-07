@@ -56,6 +56,7 @@ def _make_index_file():
 
     with open(f"public/index.html", "w") as f:
         f.write(rendered_html)
+    _make_json_index(html_files)
 
     print(f"html file generated successfully for index.html")
 
@@ -97,3 +98,16 @@ def add_css():
         font_file.write(font_data)
 
     print(f"CSS file has been written to {output_font_file}")
+
+
+def _make_json_index(html_files):
+    index_list = []
+    for f in html_files:
+        index_list.append(f"{f}.html")
+
+    index = "const index = " + json.dumps(index_list)
+    with open("public/index.js", "w") as f:
+        f.write(index)
+        
+
+    print(f"JSON index file generated successfully")
