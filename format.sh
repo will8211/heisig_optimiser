@@ -13,5 +13,5 @@ poetry run python -m djlint 'template/index.jinja' 'template/template.jinja' \
 
 echo "Formatting js and css files..."
 poetry run python -m prettier \
-    --write 'template/**/*.js' 'template/**/*.{js,css,json,html}' \
+    --write 'template/**/*.{js,css,json,html}' \
     --ignore-path .gitignore
