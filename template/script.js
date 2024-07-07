@@ -3,9 +3,15 @@
 // Convert the data into a hierarchy
 const hierarchyData = d3.hierarchy(data, (d) => d.requirements);
 
+let treeLayerWidths = {};
+countLayerWidths(1, data);
+const maxTreeWidth = Math.max(...Object.values(treeLayerWidths));
+
 // Set canvas dimensions
 const canvasWidth = 1000;
-const canvasHeight = 1500;
+const canvasHeight = 250 + 150 * maxTreeWidth;
+console.log("maxTreeWidth: ", maxTreeWidth);
+console.log("canvasHeight: ", canvasHeight);
 
 // Select the body element and append an SVG container
 const mainSvg = d3
@@ -130,4 +136,12 @@ node
   .attr("dy", 44)
   .attr("x", 0)
   .style("text-anchor", "middle") // Ensures the text is centered horizontally
-  .text((d) => d.data.keyword + (d.data.number ? ` (${d.data.number})` : ""));
+  .text((d) => d.data.keyword + (d.data.number ? `\u00A0(${d.data.number})` : ""));
+
+function countLayerWidths(layer, tree) {
+  treeLayerWidths[layer] = (treeLayerWidths[layer] || 0) + 1;
+  layer++;
+  for (const childNode of tree["requirements"]) {
+    countLayerWidths(layer, childNode);
+  }
+}
