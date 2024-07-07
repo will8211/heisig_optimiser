@@ -10,8 +10,6 @@ const maxTreeWidth = Math.max(...Object.values(treeLayerWidths));
 // Set canvas dimensions
 const canvasWidth = 1000;
 const canvasHeight = 250 + 150 * maxTreeWidth;
-console.log("maxTreeWidth: ", maxTreeWidth);
-console.log("canvasHeight: ", canvasHeight);
 
 // Select the body element and append an SVG container
 const mainSvg = d3
