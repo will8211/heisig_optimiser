@@ -22,3 +22,8 @@ prettier = "^0.0.7"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.djlint]
+extension = "jinja"
+profile = "jinja"
+indent = 2
