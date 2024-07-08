@@ -2,18 +2,28 @@
   fill: none;
   stroke: #999;
 }
+
 @font-face {
   font-family: "HanaMinB";
   font-weight: normal;
   font-style: normal;
   src: url("./HanaMinB.otf") format("opentype");
 }
+
 a {
   color: #000000;
   font-family: "Noto Sans", sans-serif;
   text-decoration: none;
 }
+
 h1 {
   color: #000000;
   font-family: "Noto Sans", sans-serif;
+}
+
+@media (min-width: 991px) {
+  .style-nav-two {
+    display: flex !important;
+    justify-content: flex-end !important;
+  }
 }

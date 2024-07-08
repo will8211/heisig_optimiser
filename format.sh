@@ -5,9 +5,8 @@ poetry run python -m isort heisig_optimiser
 poetry run python -m black heisig_optimiser
 
 echo "Formatting jinja files..."
-poetry run python -m djlint 'template/index.jinja' 'template/template.jinja' --reformat
+poetry run python -m djlint template/*.jinja --reformat
 
 echo "Formatting js and css files..."
-poetry run python -m prettier \
-    --write 'template/**/*.{js,css,json,html}' \
-    --ignore-path .gitignore
+poetry run js-beautify --end-with-newline --indent-size 2 --replace template/*.js
+poetry run css-beautify --end-with-newline --indent-size 2 --replace template/*.css

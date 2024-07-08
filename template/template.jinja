@@ -33,7 +33,7 @@
           </li>
         </ul>
       </div>
-      <div class="container-fluid">
+      <div class="container-fluid style-nav-two">
         <ul class="navbar-nav">
           <li class="nav-item">
             <a class="nav-link active" id="previousLink"><i class="bi bi-arrow-left m-1"></i>Previous</a>
@@ -58,7 +58,6 @@
           document.getElementById('goBackLink').style.display = 'none';
         }
       });
-      // Get the id from the html tag
       const currentId = parseInt(document.getElementsByTagName('html')[0].id);
       if (currentId === 0) {
         document.getElementById("previousLink").style.display = "none";
