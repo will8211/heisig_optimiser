@@ -2,7 +2,7 @@ import xml.etree.ElementTree as ET
 from collections import defaultdict
 from typing import Dict, List, Literal, Set
 
-from .build_html import add_css, add_font, add_js, json_to_html
+from .build_html import add_css, add_font, add_js, add_favicons, json_to_html
 from .generate_hierarchies import generate_hierarchies
 from .output_spreadsheet import output_to_csv, output_to_json
 
@@ -25,6 +25,7 @@ def main():
     add_js()
     add_css()
     add_font()
+    add_favicons()
 
     print("Done")
 

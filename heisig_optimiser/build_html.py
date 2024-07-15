@@ -100,6 +100,20 @@ def add_css():
     print(f"CSS file has been written to {output_font_file}")
 
 
+def add_favicons():
+    input_favicon_folder = "template/favicons/"
+    output_favicon_folder = "public/favicons/"
+    os.makedirs(output_favicon_folder, exist_ok=True)
+
+    # Move all files from input to output
+    for file in os.listdir(input_favicon_folder):
+        with open(input_favicon_folder + file, "rb") as f:
+            data = f.read()
+        with open(output_favicon_folder + file, "wb") as f:
+            f.write(data)
+    print(f"Favicon files have been written to {output_favicon_folder}")
+
+
 def _make_json_index(html_files):
     index_list = []
     for f in html_files:
