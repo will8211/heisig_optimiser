@@ -13,7 +13,7 @@ const canvasHeight = 250 + 150 * maxTreeWidth;
 
 // Select the body element and append an SVG container
 const mainSvg = d3
-  .select("div.container")
+  .select("div.d3-container")
   .append("svg")
   .attr("width", canvasWidth)
   .attr("height", canvasHeight);

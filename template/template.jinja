@@ -20,31 +20,35 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="../index.html"><i class="bi bi-house m-1"></i>Index</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active"
-               href="#"
-               id="goBackLink"
-               onclick="history.go(-1); return false;"> <i class="bi bi-arrow-left-circle"></i> Go Back</a>
-          </li>
-        </ul>
-      </div>
-      <div class="container-fluid style-nav-two">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" id="previousLink"><i class="bi bi-arrow-left m-1"></i>Previous</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" id="nextLink">Next<i class="bi bi-arrow-right m-1"></i></a>
-          </li>
-        </ul>
+      <div class="container">
+        <div class="container-fluid">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html"><i class="bi bi-house m-1"></i>Index</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active"
+                 href="#"
+                 id="goBackLink"
+                 onclick="history.go(-1); return false;"> <i class="bi bi-arrow-left-circle"></i> Go Back</a>
+            </li>
+          </ul>
+        </div>
+        <div class="container-fluid style-nav-two">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" id="previousLink"><i class="bi bi-arrow-left m-1"></i>Previous</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" id="nextLink">Next<i class="bi bi-arrow-right m-1"></i></a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
-    <div class="container"></div>
+    <div class="container">
+      <div class="d3-container"></div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
             crossorigin="anonymous"></script>
